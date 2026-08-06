@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import {SWSE} from "./config.mjs";
-import {dieSize_vanilla, dieType} from "./constants.mjs";
+import {dieSize_vanilla, dieType, ACTIVE_EFFECT_MODES} from "./constants.mjs";
 import SWSEActor from "../actor/actor.mjs";
 import {SWSEItem} from "../item/item.mjs";
 import {meetsPrerequisites} from "../prerequisite.mjs";
@@ -688,11 +688,11 @@ export function getTokenDistanceInSquares(source, target) {
 }
 
 const ATTRIBUTE_RESOLUTION_ORDER = [
-    CONST.ACTIVE_EFFECT_MODES.ADD,
-    CONST.ACTIVE_EFFECT_MODES.DOWNGRADE,
-    CONST.ACTIVE_EFFECT_MODES.UPGRADE,
-    CONST.ACTIVE_EFFECT_MODES.MULTIPLY,
-    CONST.ACTIVE_EFFECT_MODES.OVERRIDE,
+    ACTIVE_EFFECT_MODES.ADD,
+    ACTIVE_EFFECT_MODES.DOWNGRADE,
+    ACTIVE_EFFECT_MODES.UPGRADE,
+    ACTIVE_EFFECT_MODES.MULTIPLY,
+    ACTIVE_EFFECT_MODES.OVERRIDE,
     6,
 ];
 
@@ -945,19 +945,19 @@ export function resolveExpressionReduce(values, actor) {
         for (const mode of ATTRIBUTE_RESOLUTION_ORDER) {
             for (const value of z[mode] || []) {
                 switch (mode) {
-                    case CONST.ACTIVE_EFFECT_MODES.ADD:
+                    case ACTIVE_EFFECT_MODES.ADD:
                         currentValue = addValues(currentValue, value.value);
                         break;
-                    case CONST.ACTIVE_EFFECT_MODES.DOWNGRADE:
+                    case ACTIVE_EFFECT_MODES.DOWNGRADE:
                         currentValue = downgradeValues(currentValue, value.value);
                         break;
-                    case CONST.ACTIVE_EFFECT_MODES.UPGRADE:
+                    case ACTIVE_EFFECT_MODES.UPGRADE:
                         currentValue = upgradeValues(currentValue, value.value);
                         break;
-                    case CONST.ACTIVE_EFFECT_MODES.MULTIPLY:
+                    case ACTIVE_EFFECT_MODES.MULTIPLY:
                         currentValue = multiplyValues(currentValue, value.value);
                         break;
-                    case CONST.ACTIVE_EFFECT_MODES.OVERRIDE:
+                    case ACTIVE_EFFECT_MODES.OVERRIDE:
                         currentValue = value.value;
                         break;
                     case 6:
@@ -1012,7 +1012,7 @@ function resolveValuesReduce(values, actor) {
             let z = resolutionSorting[priority];
             for (const mode of ATTRIBUTE_RESOLUTION_ORDER) {
                 for (const value of z[mode] || []) {
-                    if(mode === CONST.ACTIVE_EFFECT_MODES.OVERRIDE){
+                    if(mode === ACTIVE_EFFECT_MODES.OVERRIDE){
                         if(!lastPriority || lastPriority < priority) {
                             currentValue = [];
                         }
@@ -1309,9 +1309,9 @@ export function convertOverrideToMode(changes) {
             let override = change.override;
             delete change.override;
             if (override) {
-                change.mode = CONST.ACTIVE_EFFECT_MODES.OVERRIDE;
+                change.mode = ACTIVE_EFFECT_MODES.OVERRIDE;
             } else {
-                change.mode = CONST.ACTIVE_EFFECT_MODES.ADD;
+                change.mode = ACTIVE_EFFECT_MODES.ADD;
             }
         }
         return changes;
@@ -1640,7 +1640,7 @@ export function attackOptions(actor) {
     const options = [];
     
     options.push({
-        name: "Attack or Add Macro with options",
+        label: "Attack or Add Macro with options",
         icon: '<i class="fas fa-edit"/>',
         callback: async (element) => {
             console.log("Context menu clicked", element);
@@ -1691,7 +1691,7 @@ export function attackOptions(actor) {
 export function numericOverrideOptions(actor) {
     let options = [];
     options.push({
-        name: "Set Override",
+        label: "Set Override",
         icon: '<i class="fas fa-edit">',
         callback: async (element) => {
             console.log(element)
@@ -1724,7 +1724,7 @@ export function numericOverrideOptions(actor) {
     })
 
     options.push({
-        name: `Remove Override`,
+        label: `Remove Override`,
         icon: '<i class="fas fa-delete">',
         callback: element => {
 
@@ -1742,7 +1742,7 @@ export function numericOverrideOptions(actor) {
 
             actor.safeUpdate(data);
         },
-        condition: element => {
+        visible: element => {
             let override = element.dataset["override"]
             return !!override
         }

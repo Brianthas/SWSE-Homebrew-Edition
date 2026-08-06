@@ -9,7 +9,7 @@ import {
     toChat,
     unique
 } from "../common/util.mjs";
-import {characterActorTypes, vehicleActorTypes} from "../common/constants.mjs";
+import {characterActorTypes, vehicleActorTypes, ACTIVE_EFFECT_MODES} from "../common/constants.mjs";
 import {addSubCredits, transferCredits} from "./credits.mjs";
 import {SWSECompendiumDirectory} from "../compendium/compendium-directory.mjs";
 import {onChangeControl, onEffectControl, onSpanTextInput, onToggle} from "../common/listeners.mjs";
@@ -135,12 +135,17 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
 
     /** @override */
     getData(options={}) {
-        let data = super.getData(options);
-        data.modes = Object.entries(CONST.ACTIVE_EFFECT_MODES).reduce((obj, e) => {
-            obj[e[1]] = game.i18n.localize("EFFECT.MODE_" + e[0]);
-            return obj;
-        }, {})
-        return data;
+        try {
+            let data = super.getData(options);
+            data.modes = Object.entries(ACTIVE_EFFECT_MODES).reduce((obj, e) => {
+                obj[e[1]] = game.i18n.localize("EFFECT.MODE_" + e[0]);
+                return obj;
+            }, {})
+            return data;
+        } catch (err) {
+            console.error(`SWSE | DEBUG getData failed for actor "${this.actor?.name}" (${this.actor?.id}): ${err.stack}`);
+            throw err;
+        }
     }
 
 

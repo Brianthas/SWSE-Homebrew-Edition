@@ -9,6 +9,20 @@ import {generateAction} from "../action/generate-action.mjs";
  */
 export class SWSEActiveEffect extends ActiveEffect {
 
+    /**
+     * V14 replaced the old duration.value=null ("no duration") convention with a
+     * non-nullable integer, tracking expiry separately via duration.expiry/expired.
+     * Effect data authored under the old schema still has duration.value=null, which
+     * now fails schema validation, so coerce it to 0 on the way in.
+     */
+    static migrateData(source) {
+        source = super.migrateData(source);
+        if (source?.duration && !Number.isInteger(source.duration.value)) {
+            source.duration.value = 0;
+        }
+        return source;
+    }
+
     async safeUpdate(data={}, context={}) {
         if(this.canUserModify(game.user, 'update')){
             await this.update(data, context);

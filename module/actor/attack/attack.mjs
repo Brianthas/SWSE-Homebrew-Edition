@@ -46,54 +46,20 @@ export const outOfRange = "out of range";
 
 
 /**
- * Finds and returns a list of token documents that are contained within the shape
- * computed by the provided template document.
+ * Groups the tokens contained within each placed Region into actor targets.
+ * RegionDocument#tokens already tracks containment for us, so no manual shape math is needed.
  *
- * @param {object} templateDoc - The template document containing the object and grid information.
- *   It must include a `parent` property with a `grid` object (providing `size`) and a `tokens` array,
- *   and an `object` property capable of computing and checking shape containment.
- * @return {Array<object>} An array of token documents that are determined to be contained within
- *   the shape of the `templateDoc`.
- */
-function findContained(templateDoc) {
-    const {size} = templateDoc.parent.grid;
-    const {x: tempx, y: tempy, object} = templateDoc;
-    const tokenDocs = templateDoc.parent.tokens;
-    const contained = new Set();
-    for (const tokenDoc of tokenDocs) {
-        const {width, height, x: tokx, y: toky} = tokenDoc;
-        const startX = width >= 1 ? 0.5 : width / 2;
-        const startY = height >= 1 ? 0.5 : height / 2;
-        for (let x = startX; x < width; x++) {
-            for (let y = startY; y < width; y++) {
-                const curr = {
-                    x: tokx + x * size - tempx,
-                    y: toky + y * size - tempy
-                };
-                const contains = object._computeShape().contains(curr.x, curr.y);
-                if (contains) {
-                    contained.add(tokenDoc);
-                    continue;
-                }
-            }
-        }
-    }
-    return [...contained];
-}
-
-/**
- *
- * @param templates
+ * @param {RegionDocument[]} regions
  * @return {[{location:{x,y}, actors:[]}]}
  */
-export function selectActorsByTemplates(templates = []) {
+export function selectActorsByTemplates(regions = []) {
     let actorsByLocation = [];
     let gridSize = canvas.scene.grid
-    for (const template of templates) {
-        let x = Math.floor(template.x / gridSize.sizeX)
-        let y = Math.floor(template.y / gridSize.sizeY)
-        let found = findContained(template)
-        const tokenActors = found.map(token => token.actor);
+    for (const region of regions) {
+        const bounds = region.bounds;
+        let x = Math.floor((bounds.x + bounds.width / 2) / gridSize.sizeX)
+        let y = Math.floor((bounds.y + bounds.height / 2) / gridSize.sizeY)
+        const tokenActors = [...region.tokens].map(token => token.actor);
         const actors = tokenActors.filter(actor => !!actor);
         if(tokenActors.length !== actors.length) {
             console.warn("user targeted a token with no actor")
@@ -105,10 +71,10 @@ export function selectActorsByTemplates(templates = []) {
 }
 
 
-export function cleanupTemplates(templates = []) {
-    for (let template of templates) {
-        if (template.flags.cleanUp) {
-            template.delete()
+export function cleanupTemplates(regions = []) {
+    for (let region of regions) {
+        if (region.getFlag("swse", "cleanUp")) {
+            region.delete()
         }
     }
 }
@@ -865,6 +831,10 @@ export class Attack {
      */
     rangePenalty(distance) {
         let rangeGrid = CONFIG.SWSE.Combat.range[this.range];
+        if (!rangeGrid) {
+            console.warn(`SWSE | rangePenalty: no range grid for "${this.range}" (item subtype "${this.item?.system?.subtype}"). Known ranges: ${Object.keys(CONFIG.SWSE.Combat.range).join(", ")}`);
+            return {penalty: 0, range: outOfRange.titleCase()};
+        }
 
         let rangeDescription = outOfRange;
         for (const [range, details] of Object.entries(rangeGrid)) {
@@ -1188,12 +1158,7 @@ export class Attack {
     }
 
     async placeTemplate() {
-        const templates = [];
-        for (const template of SWSETemplate.fromAttack(this)) {
-            const result = await template.drawPreview();
-            if (result) templates.push(...result);
-        }
-        return templates;
+        return SWSETemplate.fromAttack(this);
     }
 
     get summary() {
@@ -1280,6 +1245,10 @@ export class Attack {
             let options = [];
             let range = CONFIG.SWSE.Combat.range[this.range]
             let rangePenalty = CONFIG.SWSE.Combat.rangePenalty
+            if (!range) {
+                console.warn(`SWSE | getDistanceModifier: no range grid for "${this.range}" (item subtype "${this.item?.system?.subtype}"). Known ranges: ${Object.keys(CONFIG.SWSE.Combat.range).join(", ")}`);
+                return this.rangePenalty(0);
+            }
             for (const entry of Object.entries(range)) {
                 options.push({
                     value: rangePenalty[entry[0]],

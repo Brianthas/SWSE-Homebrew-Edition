@@ -1,3 +1,15 @@
+// Local copy of CONST.ACTIVE_EFFECT_MODES's values. Reading that CONST directly logs a V14
+// deprecation warning on every access (removed in V16); the underlying numbers it returns are
+// unchanged, and that's all this system's own change-resolution logic (util.mjs) actually needs.
+export const ACTIVE_EFFECT_MODES = Object.freeze({
+    CUSTOM: 0,
+    MULTIPLY: 1,
+    ADD: 2,
+    DOWNGRADE: 3,
+    UPGRADE: 4,
+    OVERRIDE: 5
+});
+
 export const PHYSICAL_SKILLS = ["strength", "dexterity", "constitution"];
 export const dieSize = ["1", "1d2", "1d3", "1d4", "1d6", "1d8", "2d6", "2d8", "3d6", "3d8"];
 export const dieSize_vanilla = ["1", "1d2", "1d3", "1d4", "1d6", "1d8", "1d10", "1d12"];

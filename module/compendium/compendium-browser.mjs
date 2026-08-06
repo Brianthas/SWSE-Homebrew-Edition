@@ -236,9 +236,9 @@ export class SWSECompendiumBrowser extends Application {
     _getEntryContextOptions() {
         return [
             {
-                name: "COMPENDIUM.ImportEntry",
+                label: "COMPENDIUM.ImportEntry",
                 icon: '<i class="fas fa-download"></i>',
-                condition: () => {
+                visible: () => {
                     let collection = this.getCollection();
                     return false && !!collection && collection.documentClass.canUserCreate(game.user)
                 },
@@ -249,9 +249,9 @@ export class SWSECompendiumBrowser extends Application {
                 }
             },
             {
-                name: "COMPENDIUM.DeleteEntry",
+                label: "COMPENDIUM.DeleteEntry",
                 icon: '<i class="fas fa-trash"></i>',
-                condition: () => game.user.isGM && !!this.getCollection(),
+                visible: () => game.user.isGM && !!this.getCollection(),
                 callback: async li => {
                     const id = li.data("entry-id");
                     const document = await this.getCollection().getDocument(id);
@@ -347,7 +347,13 @@ export class SWSECompendiumBrowser extends Application {
     _onProgress(progress) {
         progress.loaded++;
         progress.pct = Math.round((progress.loaded * 100) / progress.total);
-        foundry.applications.ui.SceneNavigation.displayProgressBar({label: progress.message, pct: progress.pct});
+        if (!this._progressNotification) {
+            this._progressNotification = ui.notifications.info(progress.message, {progress: true});
+        }
+        this._progressNotification.update({pct: progress.pct / 100, message: progress.message});
+        if (progress.pct >= 100) {
+            this._progressNotification = null;
+        }
     }
 
     async loadCompendium(p, filters = [null]) {
@@ -759,8 +765,8 @@ export class SWSECompendiumBrowser extends Application {
 
             // Copy specific data properties
             for (let k of propKeys) {
-                if (hasProperty(i.item, k)) {
-                    setProperty(resultObj, `item.${k}`, getProperty(i.item, k));
+                if (foundry.utils.hasProperty(i.item, k)) {
+                    foundry.utils.setProperty(resultObj, `item.${k}`, foundry.utils.getProperty(i.item, k));
                 }
             }
 

@@ -22,6 +22,31 @@ import {buildRollContent} from "./common/chatMessageHelpers.mjs";
 import {SWSETokenDocument} from "./token/token-document.mjs";
 import {CharacterDataModel} from "./actor/data/characterdata.mjs";
 import {VehicleDataModel} from "./actor/data/vehicledata.mjs";
+import WeaponData from "./item/data/weapondata.mjs";
+import ArmorData from "./item/data/armordata.mjs";
+import EquipmentData from "./item/data/equipmentdata.mjs";
+import FeatData from "./item/data/featdata.mjs";
+import TalentData from "./item/data/talentdata.mjs";
+import ClassData from "./item/data/classdata.mjs";
+import SpeciesData from "./item/data/speciesdata.mjs";
+import TraitData from "./item/data/traitdata.mjs";
+import BeastAttackData from "./item/data/beastattackdata.mjs";
+import VehicleTemplateData from "./item/data/vehicletemplatedata.mjs";
+import UpgradeData from "./item/data/upgradedata.mjs";
+import VehicleSystemData from "./item/data/vehiclesystemdata.mjs";
+import ImplantData from "./item/data/implantdata.mjs";
+import DroidSystemData from "./item/data/droidsystemdata.mjs";
+import HazardData from "./item/data/hazarddata.mjs";
+import BackgroundData from "./item/data/backgrounddata.mjs";
+import DestinyData from "./item/data/destinydata.mjs";
+import VehicleBaseTypeData from "./item/data/vehiclebasetypedata.mjs";
+import {
+    BaseCategoriesSourceData,
+    BaseSourceData,
+    BaseCategoriesSourcePrerequisitesData,
+    BaseModData,
+    BaseOnlyData
+} from "./item/data/genericitemdata.mjs";
 
 
 
@@ -80,6 +105,37 @@ Hooks.once('init', async function () {
     CONFIG.Actor.dataModels.vehicle = VehicleDataModel;
     //CONFIG.Actor.dataModels["npc-vehicle"] = VehicleDataModel;
     CONFIG.Item.documentClass = SWSEItem;
+    CONFIG.Item.dataModels.weapon = WeaponData;
+    CONFIG.Item.dataModels.armor = ArmorData;
+    CONFIG.Item.dataModels.equipment = EquipmentData;
+    CONFIG.Item.dataModels.feat = FeatData;
+    CONFIG.Item.dataModels.talent = TalentData;
+    CONFIG.Item.dataModels.class = ClassData;
+    CONFIG.Item.dataModels.species = SpeciesData;
+    CONFIG.Item.dataModels.trait = TraitData;
+    CONFIG.Item.dataModels.beastAttack = BeastAttackData;
+    CONFIG.Item.dataModels.vehicleTemplate = VehicleTemplateData;
+    CONFIG.Item.dataModels.upgrade = UpgradeData;
+    CONFIG.Item.dataModels.forcePower = BaseCategoriesSourceData;
+    CONFIG.Item.dataModels.starShipManeuver = BaseCategoriesSourceData;
+    CONFIG.Item.dataModels.starshipManeuver = BaseCategoriesSourceData;
+    CONFIG.Item.dataModels.affiliation = BaseCategoriesSourceData;
+    CONFIG.Item.dataModels.forceTechnique = BaseCategoriesSourceData;
+    CONFIG.Item.dataModels.forceSecret = BaseCategoriesSourceData;
+    CONFIG.Item.dataModels.forceRegimen = BaseCategoriesSourceData;
+    CONFIG.Item.dataModels.classFeature = BaseSourceData;
+    CONFIG.Item.dataModels.beastSense = BaseCategoriesSourcePrerequisitesData;
+    CONFIG.Item.dataModels.beastType = BaseCategoriesSourcePrerequisitesData;
+    CONFIG.Item.dataModels.beastQuality = BaseCategoriesSourcePrerequisitesData;
+    CONFIG.Item.dataModels.template = BaseModData;
+    CONFIG.Item.dataModels.language = BaseOnlyData;
+    CONFIG.Item.dataModels.vehicleSystem = VehicleSystemData;
+    CONFIG.Item.dataModels.implant = ImplantData;
+    CONFIG.Item.dataModels["droid system"] = DroidSystemData;
+    CONFIG.Item.dataModels.hazard = HazardData;
+    CONFIG.Item.dataModels.background = BackgroundData;
+    CONFIG.Item.dataModels.destiny = DestinyData;
+    CONFIG.Item.dataModels.vehicleBaseType = VehicleBaseTypeData;
     CONFIG.Token.hudClass = SWSETokenHud;
     CONFIG.Token.documentClass = SWSETokenDocument;
     CONFIG.ActiveEffect.documentClass = SWSEActiveEffect;
@@ -781,7 +837,7 @@ async function rollVariable(actorId, variable) {
             user: game.user.id,
             speaker,
             flavor,
-            style: CONST.CHAT_MESSAGE_TYPES.ROLL,
+            style: CONST.CHAT_MESSAGE_STYLES.OTHER,
             content,
             sound: CONFIG.sounds.dice,
             roll

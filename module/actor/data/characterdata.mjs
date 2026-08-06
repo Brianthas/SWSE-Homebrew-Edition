@@ -80,35 +80,40 @@ export class CharacterDataModel extends SystemDataModel.mixin(...characterFuncti
      * collection.
      */
     prepareDerivedData() {
-        this.parent.cache?.invalidateAll();
-        //Traits - currently needs to be first for grabbing class level resolved data.
-        this._prepareCharacterTraitsDerivedData();
+        try {
+            this.parent.cache?.invalidateAll();
+            //Traits - currently needs to be first for grabbing class level resolved data.
+            this._prepareCharacterTraitsDerivedData();
 
-        //Abilities
-        this._prepareAbilityDerivedData();
+            //Abilities
+            this._prepareAbilityDerivedData();
 
-        //Skills
-        this._prepareSkillDerivedData();
+            //Skills
+            this._prepareSkillDerivedData();
 
-        //Feats
-        let feats = this.parent.resolveFeats();
-        this.feats = feats.activeFeats;
-        this.#_manageAutomaticItems(feats.removeFeats).then(() => {});
+            //Feats
+            let feats = this.parent.resolveFeats();
+            this.feats = feats.activeFeats;
+            this.#_manageAutomaticItems(feats.removeFeats).then(() => {});
 
-        //Validate character build choices
-        this.#_validateLevelUpOptions();
+            //Validate character build choices
+            this.#_validateLevelUpOptions();
 
-        //Shields
-        this._prepareShieldsDerivedData();
+            //Shields
+            this._prepareShieldsDerivedData();
 
-        //Defenses
-        this._prepareDefenseDerivedData();
+            //Defenses
+            this._prepareDefenseDerivedData();
 
-        //Health
-        this._prepareHealthDerivedData();
+            //Health
+            this._prepareHealthDerivedData();
 
-        //Settings
-        this.#initializeCharacterSettings();
+            //Settings
+            this.#initializeCharacterSettings();
+        } catch (err) {
+            console.error(`SWSE | DEBUG prepareDerivedData failed for actor "${this.parent?.name}" (${this.parent?.id}): ${err.stack}`);
+            throw err;
+        }
     }
 
     #_validateLevelUpOptions() {

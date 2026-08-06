@@ -161,7 +161,7 @@ export class AttackDelegate {
 
     async getAttackDialogueContent(attackCount, doubleAttack, tripleAttack) {
 
-        let template = await getTemplate("systems/swse/templates/actor/parts/attack/attack-dialogue.hbs")
+        let template = await foundry.applications.handlebars.getTemplate("systems/swse/templates/actor/parts/attack/attack-dialogue.hbs")
 
         const resolvedAttacks = this.attackOptions(doubleAttack, tripleAttack)
 
@@ -494,7 +494,7 @@ function createAttackFromAttackBlock(attackBlock, attackMods, damageMods) {
 }
 
 async function generateAttackCard(resolvedAttacks, attack) {
-    let template = await getTemplate("systems/swse/templates/actor/parts/attack/attack-chat-card.hbs")
+    let template = await foundry.applications.handlebars.getTemplate("systems/swse/templates/actor/parts/attack/attack-chat-card.hbs")
     return template({
         name: attack.name,
         notes: attack.notesHTML,
@@ -629,20 +629,13 @@ export async function makeAttack(data) {
         sound: getSound(attacks),
         roll,
         rolls,
-        //type: chatLog?.mode ?? CONST.CHAT_MESSAGE_TYPES.IC
     }
 
-    if (chatLog?.mode === CONST.CHAT_MESSAGE_TYPES.WHISPER) {
-        messageData.whisper = chatLog._getWhisperTargets();
-    }
+    const rollMode = chatLog?.mode ?? game.settings.get("core", "rollMode");
+    ChatMessage.applyMode(messageData, rollMode);
 
     let cls = getDocumentClass("ChatMessage");
     let msg = new cls(messageData);
-
-    // const rollMode = data.rollMode;
-    // if (rollMode) msg.applyRollMode(rollMode);
-    // {rollMode: rollMode}
-
 
     return cls.create(msg);
 }

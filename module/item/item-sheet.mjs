@@ -11,6 +11,7 @@ import {
     onToggle
 } from "../common/listeners.mjs";
 import {onAmmunition} from "./ammunition/ammunitionDelegate.mjs";
+import {ACTIVE_EFFECT_MODES} from "../common/constants.mjs";
 
 
 export class SWSEItemSheet extends foundry.appv1.sheets.ItemSheet {
@@ -44,7 +45,7 @@ export class SWSEItemSheet extends foundry.appv1.sheets.ItemSheet {
     getData(options) {
         let data = super.getData(options);
 
-        data.modes = Object.entries(CONST.ACTIVE_EFFECT_MODES).reduce((obj, e) => {
+        data.modes = Object.entries(ACTIVE_EFFECT_MODES).reduce((obj, e) => {
             obj[e[1]] = game.i18n.localize("EFFECT.MODE_"+e[0]);
             return obj;
         }, {})

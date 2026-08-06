@@ -5,7 +5,7 @@ import {
     toNumber,
     unique
 } from "../common/util.mjs";
-import {sizeArray, uniqueKey} from "../common/constants.mjs";
+import {sizeArray, uniqueKey, ACTIVE_EFFECT_MODES} from "../common/constants.mjs";
 import {getInheritableAttribute} from "../attribute-helper.mjs";
 import {changeSize} from "../actor/size.mjs";
 import {SimpleCache} from "../common/simple-cache.mjs";
@@ -110,7 +110,7 @@ export class SWSEItem extends Item {
             case "cleanup-droidUnarmedDamage":
                 const changes = this.changes.filter(c => c.key !== "droidUnarmedDamage");
                 const mediumSizeDie = this.getMediumSizeDieForDroidAppendage(this.name);
-                changes.push({key: "droidUnarmedDamageScalable", value: mediumSizeDie, mode: CONST.ACTIVE_EFFECT_MODES.ADD})
+                changes.push({key: "droidUnarmedDamageScalable", value: mediumSizeDie, mode: ACTIVE_EFFECT_MODES.ADD})
                 this.update({"system.changes": changes})
                 break;
         }

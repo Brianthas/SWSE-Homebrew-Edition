@@ -96,12 +96,17 @@ export class VehicleDataModel extends SystemDataModel.mixin(...vehicleFunctionCl
      * collection.
      */
     prepareDerivedData() {
-        this.parent.cache?.invalidateAll();
+        try {
+            this.parent.cache?.invalidateAll();
 
-        //Traits - currently needs to be first for grabbing class level resolved data.
-        this._prepareCharacterTraitsDerivedData();
+            //Traits - currently needs to be first for grabbing class level resolved data.
+            this._prepareCharacterTraitsDerivedData();
 
-        //Abilities
-        this._prepareAbilityDerivedData();
+            //Abilities
+            this._prepareAbilityDerivedData();
+        } catch (err) {
+            console.error(`SWSE | DEBUG prepareDerivedData failed for vehicle "${this.parent?.name}" (${this.parent?.id}): ${err.stack}`);
+            throw err;
+        }
     }
 }
