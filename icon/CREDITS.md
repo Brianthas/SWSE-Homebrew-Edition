@@ -26,6 +26,22 @@ Excluded on purpose (not redistributable / not relevant to this project):
 `iconics/` (PF2e iconic character art, exclusively licensed to the PF2e
 project), `deities/`, and `pathfinder-society/`.
 
+## game-icons.net (direct download)
+
+`class/*.png` (the per-class icons in the Classes tab) come from a direct
+[game-icons.net](https://game-icons.net) export rather than by way of sf2e, and
+are likewise CC BY 3.0. Artists whose work is used there:
+
+- **Delapouite** — <https://delapouite.com>
+- **Lorc** — <https://lorcblog.blogspot.com>
+- **sbed** — <http://opengameart.org/content/95-game-icons>
+- **Caro Asercion**
+- **DarkZaitzev** — <http://darkzaitzev.deviantart.com>
+
+Changes made: recoloured to white-on-black and renamed after the SWSE class each
+icon represents. (`class/Jedi_Knight` is not from this set — that class reuses
+the project's own lightsaber art at `icon/weapon/Lightsaber.png`.)
+
 ### Attribution notice (required by CC BY 3.0)
 
 > Icons by Lorc, Delapouite & contributors (https://game-icons.net), used
