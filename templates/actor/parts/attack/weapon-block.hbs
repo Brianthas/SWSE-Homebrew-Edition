@@ -41,7 +41,7 @@
                       item (a grenade may be Physical, Energy, Stun, Sonic or Burn). --}}
                 {{#if attack.damageTypeOverrideOptions.length}}
                     <select class="attack-ability-select attack-damage-type-select" data-action="damage-type-override" data-item-id="{{attack.item.id}}"
-                            title="Damage type for this attack">
+                            title="Damage type for this attack — default is {{attack.type}}">
                         {{#each attack.damageTypeOverrideOptions as |opt|}}
                             <option value="{{opt.value}}" {{#ifEquals opt.value ../attack.item.system.damageTypeOverride}}selected{{/ifEquals}}>{{opt.label}}</option>
                         {{/each}}

@@ -2688,6 +2688,16 @@
 .swse .attack-notes:empty {
   display: none;
 }
+.swse {
+  /* Inline pickers on an attack card (ability / damage ability / damage type). A weapon's declared
+     damage type can be a whole sentence, so these are capped rather than sized to their content —
+     otherwise one verbose item stretches the whole row. */
+}
+.swse .attack-ability-select {
+  max-width: 110px;
+  min-width: 0;
+  text-overflow: ellipsis;
+}
 .swse .background-text-container {
   position: relative;
 }

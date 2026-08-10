@@ -33,7 +33,7 @@ import {
     toShortAttribute
 } from "../../common/util.mjs";
 import {SimpleCache} from "../../common/simple-cache.mjs";
-import {weaponGroup, DAMAGE_TYPES} from "../../common/constants.mjs";
+import {weaponGroup, HOMEBREW_DAMAGE_TYPES} from "../../common/constants.mjs";
 import {SWSE} from "../../common/config.mjs";
 import {RollModifier, RollModifierChoice} from "../../common/roll-modifier.mjs";
 import SWSETemplate from "../../template/SWSETemplate.mjs";
@@ -609,11 +609,12 @@ export class Attack {
     get damageTypeOverrideOptions() {
         const item = this.item;
         if (!item || this.isUnarmedAttackPlaceholder) return [];
-        const declared = this.item.system?.damageTypeOverride ? null : this.type;
+        // Just "Default" — a weapon's declared type can be a whole sentence ("Physical, Energy,
+        // Ion, or Stun (GM's choice per grenade type)"), and folding that into the option label
+        // stretches the select across the sheet. The full text stays in the control's tooltip.
         return [
-            {value: "", label: declared ? `Default (${declared})` : "Default"},
-            ...DAMAGE_TYPES.map(t => ({value: t, label: t})),
-            {value: "Burn", label: "Burn"},
+            {value: "", label: "Default"},
+            ...HOMEBREW_DAMAGE_TYPES.map(t => ({value: t, label: t})),
         ];
     }
 
