@@ -22,9 +22,17 @@
 
                 {{#if attack.abilityOverrideOptions.length}}
                     <select class="attack-ability-select" data-action="ability-override" data-item-id="{{attack.item.id}}"
-                            title="Ability used for attack &amp; damage">
+                            title="Ability used for the attack roll">
                         {{#each attack.abilityOverrideOptions as |opt|}}
                             <option value="{{opt.value}}" {{#ifEquals opt.value ../attack.item.system.abilityOverride}}selected{{/ifEquals}}>{{opt.label}}</option>
+                        {{/each}}
+                    </select>
+                    {{!-- Damage normally follows the attack ability; this only needs setting for
+                          the cases that differ (e.g. a turret: Dexterity to hit, Intelligence to damage). --}}
+                    <select class="attack-ability-select attack-damage-ability-select" data-action="damage-ability-override" data-item-id="{{attack.item.id}}"
+                            title="Ability used for the damage roll (defaults to the attack ability)">
+                        {{#each attack.damageAbilityOverrideOptions as |opt|}}
+                            <option value="{{opt.value}}" {{#ifEquals opt.value ../attack.item.system.damageAbilityOverride}}selected{{/ifEquals}}>{{opt.label}}</option>
                         {{/each}}
                     </select>
                 {{/if}}

@@ -35,7 +35,14 @@ export default class WeaponData extends ItemSystemDataModel {
             // offered when wielding a lightsaber with the granting talent/power.
             abilityOverride: new fields.StringField({
                 initial: "", blank: true,
-                choices: ["", "str", "dex", "wis", "cha", "ataru", "kinetic_combat", "noble_fencing"]
+                choices: ["", "str", "dex", "int", "wis", "cha", "ataru", "kinetic_combat", "noble_fencing"]
+            }),
+            // Damage usually uses the same ability as the attack, so this falls back to
+            // abilityOverride when blank. Split out because they genuinely differ sometimes —
+            // a turret attacks on Dexterity but deals damage on Intelligence.
+            damageAbilityOverride: new fields.StringField({
+                initial: "", blank: true,
+                choices: ["", "str", "dex", "int", "wis", "cha", "ataru", "kinetic_combat", "noble_fencing"]
             }),
             // Homebrew: persisted per-weapon handedness override ("1"/"2"), same pattern as
             // abilityOverride — a StringField (not Number) so template equality checks

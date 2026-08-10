@@ -461,7 +461,7 @@ export class Attack {
         // lightsabers — see #getAbilityChoice. Ataru only affects damage (see
         // #getMeleeDamageAbilityModifier), attack is unaffected.
         const abilityChoice = this.#getAbilityChoice(item);
-        if (["str", "dex", "wis", "cha"].includes(abilityChoice)) {
+        if (["str", "dex", "int", "wis", "cha"].includes(abilityChoice)) {
             return this.#getCharacterAttributeModifier(actor, abilityChoice);
         }
         if (isLightsaber(item) && abilityChoice && abilityChoice !== "ataru") {
@@ -481,6 +481,18 @@ export class Attack {
             return this.lightsaberAbility;
         }
         return item.system.abilityOverride || undefined;
+    }
+
+    /**
+     * The damage-side counterpart. Falls back to the attack choice when unset, since a weapon
+     * normally uses one ability for both — the split only matters for the cases that genuinely
+     * differ (e.g. a turret attacking on Dexterity but damaging on Intelligence).
+     */
+    #getDamageAbilityChoice(item) {
+        if (this.lightsaberAbility && this.lightsaberAbility !== "str_dex") {
+            return this.lightsaberAbility;
+        }
+        return item.system.damageAbilityOverride || item.system.abilityOverride || undefined;
     }
 
     /**
@@ -554,6 +566,7 @@ export class Attack {
             {value: "", label: "Auto (Strength/Dexterity)"},
             {value: "str", label: "Strength"},
             {value: "dex", label: "Dexterity"},
+            {value: "int", label: "Intelligence"},
             {value: "wis", label: "Wisdom"},
             {value: "cha", label: "Charisma"},
         ];
@@ -569,6 +582,17 @@ export class Attack {
             }
         }
         return options;
+    }
+
+    /**
+     * Same options for the damage-side selector, but the default reads "Same as attack" rather
+     * than "Auto" — blank means damage follows whatever the attack ability resolved to, which is
+     * the usual case (see #getDamageAbilityChoice).
+     */
+    get damageAbilityOverrideOptions() {
+        const options = this.abilityOverrideOptions;
+        if (!options.length) return [];
+        return options.map(o => o.value === "" ? {value: "", label: "Same as attack"} : o);
     }
 
     /**
@@ -735,6 +759,14 @@ export class Attack {
         if (isMelee(item) || isThrown(item)) {
             const meleeDamageAbilityModifier = this.#getMeleeDamageAbilityModifier(actor, item);
             terms.push(...meleeDamageAbilityModifier)
+        } else {
+            // Homebrew: "Ranged weapons, including grenades, use DEX for attack and damage." Vanilla
+            // SWSE adds no ability to ranged damage, so this whole branch is homebrew-only. A
+            // damage-ability override replaces Dexterity here the same way it does for melee,
+            // which is what lets e.g. a turret attack on Dexterity but damage on Intelligence.
+            const choice = this.#getDamageAbilityChoice(item);
+            const ability = ["str", "dex", "int", "wis", "cha"].includes(choice) ? choice : "dex";
+            terms.push(...appendNumericTerm(this.#getCharacterAttributeModifier(actor, ability), "Attribute Modifier"));
         }
 
         let weaponTypes = getPossibleProficiencies(actor, item);
@@ -790,8 +822,8 @@ export class Attack {
         // RAW: double Dexterity only when actually wielding the lightsaber two-handed via the
         // Handedness toggle). Kinetic Combat/Noble Fencing Style replace the ability outright
         // instead. Strength/Dexterity/Wisdom/Charisma overrides apply to any weapon.
-        const abilityChoice = this.#getAbilityChoice(item);
-        if (["str", "dex", "wis", "cha"].includes(abilityChoice)) {
+        const abilityChoice = this.#getDamageAbilityChoice(item);
+        if (["str", "dex", "int", "wis", "cha"].includes(abilityChoice)) {
             abilityMod = this.#getCharacterAttributeModifier(actor, abilityChoice);
         } else if (isLightsaber(item) && abilityChoice === "ataru") {
             abilityMod = parseInt(actor.attributes.dex.mod);

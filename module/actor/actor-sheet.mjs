@@ -301,6 +301,7 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
         html.find('[data-action="delete-custom-attack"]').click(this._onDeleteCustomAttack.bind(this));
         html.find('[data-action="combat-toggle"]').click(this._onCombatToggle.bind(this));
         html.find('[data-action="ability-override"]').on("change", this._onAbilityOverrideChange.bind(this));
+        html.find('[data-action="damage-ability-override"]').on("change", this._onDamageAbilityOverrideChange.bind(this));
         html.find('[data-action="hands-override"]').on("change", this._onHandsOverrideChange.bind(this));
         html.find('[data-action="toggle-second-wind"]').click(this._onToggleSecondWind.bind(this));
         // First Aid uses the same generic "write this checkbox to data-name" behaviour;
@@ -1645,6 +1646,20 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
             return;
         }
         item.safeUpdate({"system.abilityOverride": event.currentTarget.value});
+    }
+
+    /**
+     * Damage-side counterpart of _onAbilityOverrideChange. Blank means "same as attack", which is
+     * how the attack pipeline resolves it (see Attack##getDamageAbilityChoice).
+     */
+    _onDamageAbilityOverrideChange(event) {
+        event.preventDefault();
+        const itemId = event.currentTarget.dataset.itemId;
+        const item = this.actor.items.get(itemId);
+        if (!item) {
+            return;
+        }
+        item.safeUpdate({"system.damageAbilityOverride": event.currentTarget.value});
     }
 
     /**
