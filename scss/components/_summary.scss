@@ -774,3 +774,25 @@
     border-width: 1px;
   }
 }
+
+/* Settings tab maintenance actions (Refresh Sheet, Restore Hidden Attacks) */
+.sheet-maintenance {
+  margin-top: $space-sm;
+  display: flex;
+  flex-direction: column;
+  gap: $space-xs;
+
+  .sheet-maintenance-row {
+    display: flex;
+    align-items: center;
+    gap: $space-sm;
+
+    button { flex: 0 0 auto; }
+
+    .notes {
+      font-size: 11px;
+      line-height: 1.3;
+      color: var(--swse-text-muted);
+    }
+  }
+}

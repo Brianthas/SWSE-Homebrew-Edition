@@ -75,6 +75,9 @@ export class AttackDelegate {
      * require the order to be rewritten first.
      */
     applyAttackOrder(actor, attacks) {
+        const hidden = new Set(actor.system?.hiddenAttacks || []);
+        if (hidden.size) attacks = attacks.filter(a => !hidden.has(a.attackKey));
+
         const order = actor.system?.attackOrder || [];
         if (!order.length) return attacks;
         const rank = new Map(order.map((key, i) => [key, i]));

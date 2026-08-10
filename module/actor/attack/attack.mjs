@@ -33,7 +33,7 @@ import {
     toShortAttribute
 } from "../../common/util.mjs";
 import {SimpleCache} from "../../common/simple-cache.mjs";
-import {weaponGroup} from "../../common/constants.mjs";
+import {weaponGroup, DAMAGE_TYPES} from "../../common/constants.mjs";
 import {SWSE} from "../../common/config.mjs";
 import {RollModifier, RollModifierChoice} from "../../common/roll-modifier.mjs";
 import SWSETemplate from "../../template/SWSETemplate.mjs";
@@ -446,11 +446,11 @@ export class Attack {
     #resolveAttributeModifier(item, actor, weaponTypes) {
         let attributeStats = []
         if (isRanged(item)) {
+            // Homebrew: "Ranged weapons, including grenades, use DEX for attack and damage."
+            // Dexterity only — the Strength-or-Dexterity choice belongs to thrown MELEE weapons
+            // (vibroknife, tomahawk), and grenades count as both ranged and thrown, so keying off
+            // isThrown here would hand them Strength too.
             attributeStats.push("DEX")
-            // Homebrew: thrown weapons may use Strength instead of Dexterity.
-            if (isThrown(item)) {
-                attributeStats.push("STR")
-            }
         } else {
             attributeStats.push("STR")
             // Homebrew: one-handed melee weapons may use Strength or Dexterity for attack,
@@ -579,16 +579,13 @@ export class Attack {
             {value: "wis", label: "Wisdom"},
             {value: "cha", label: "Charisma"},
         ];
-        if (isLightsaber(item)) {
-            if (getInheritableAttribute({entity: actor, attributeKey: "lightsaberAtaru", reduce: "OR"})) {
-                options.push({value: "ataru", label: "Ataru (Double Dexterity, damage only)"});
-            }
-            if (getInheritableAttribute({entity: actor, attributeKey: "lightsaberKineticCombat", reduce: "OR"})) {
-                options.push({value: "kinetic_combat", label: "Kinetic Combat (Wisdom or Charisma)"});
-            }
-            if (getInheritableAttribute({entity: actor, attributeKey: "lightsaberNobleFencing", reduce: "OR"})) {
-                options.push({value: "noble_fencing", label: "Noble Fencing Style (Charisma)"});
-            }
+        // Ataru is kept because it's genuinely distinct — it doubles Dexterity on damage rather
+        // than swapping in an ability, which the plain Str/Dex/Int/Wis/Cha list can't express.
+        // Kinetic Combat (Wisdom or Charisma) and Noble Fencing Style (Charisma) are just ability
+        // swaps that those options already cover, so they'd be duplicate entries.
+        if (isLightsaber(item)
+            && getInheritableAttribute({entity: actor, attributeKey: "lightsaberAtaru", reduce: "OR"})) {
+            options.push({value: "ataru", label: "Ataru (Double Dexterity, damage only)"});
         }
         return options;
     }
@@ -602,6 +599,22 @@ export class Attack {
         const options = this.abilityOverrideOptions;
         if (!options.length) return [];
         return options.map(o => o.value === "" ? {value: "", label: "Same as attack"} : o);
+    }
+
+    /**
+     * Damage-type choices for the attack card. Blank keeps whatever the item declares; the rest
+     * are the homebrew's damage types, so a multi-flavour weapon (grenades: Physical, Energy,
+     * Stun, Sonic or Burn) can be switched without editing the item.
+     */
+    get damageTypeOverrideOptions() {
+        const item = this.item;
+        if (!item || this.isUnarmedAttackPlaceholder) return [];
+        const declared = this.item.system?.damageTypeOverride ? null : this.type;
+        return [
+            {value: "", label: declared ? `Default (${declared})` : "Default"},
+            ...DAMAGE_TYPES.map(t => ({value: t, label: t})),
+            {value: "Burn", label: "Burn"},
+        ];
     }
 
     /**
@@ -765,7 +778,10 @@ export class Attack {
             terms.push(...appendTerms(mod.value, mod.source))
         }
 
-        if (isMelee(item) || isThrown(item)) {
+        // Ranged is checked first: a grenade is both ranged and thrown, and the house rules put
+        // ranged (grenades included) on Dexterity, so it must not fall into the melee/thrown
+        // Strength branch.
+        if (!isRanged(item) && (isMelee(item) || isThrown(item))) {
             const meleeDamageAbilityModifier = this.#getMeleeDamageAbilityModifier(actor, item);
             terms.push(...meleeDamageAbilityModifier)
         } else {
@@ -1112,6 +1128,12 @@ export class Attack {
 
         if (!item) {
             return;
+        }
+        // A per-weapon damage-type pick wins outright: which flavour is loaded (a grenade being
+        // Stun rather than Energy, say) is a choice about this attack, not a property of the item.
+        const chosenType = item.system?.damageTypeOverride;
+        if (chosenType) {
+            return chosenType;
         }
         let attributes = getInheritableAttribute({
             entity: item,

@@ -37,6 +37,17 @@
                     </select>
                 {{/if}}
 
+                {{!-- Which damage flavour is loaded is a per-attack choice, not a property of the
+                      item (a grenade may be Physical, Energy, Stun, Sonic or Burn). --}}
+                {{#if attack.damageTypeOverrideOptions.length}}
+                    <select class="attack-ability-select attack-damage-type-select" data-action="damage-type-override" data-item-id="{{attack.item.id}}"
+                            title="Damage type for this attack">
+                        {{#each attack.damageTypeOverrideOptions as |opt|}}
+                            <option value="{{opt.value}}" {{#ifEquals opt.value ../attack.item.system.damageTypeOverride}}selected{{/ifEquals}}>{{opt.label}}</option>
+                        {{/each}}
+                    </select>
+                {{/if}}
+
                 {{#if attack.handsOverrideOptions.length}}
                     <select class="attack-hands-select" data-action="hands-override" data-item-id="{{attack.item.id}}"
                             title="Wielded one- or two-handed">
@@ -64,6 +75,12 @@
                 {{#if attack.isCustomAttack}}
                     <a class="attack-delete-btn" data-action="delete-custom-attack" data-attack-key="{{attack.attackKey}}" title="Delete this custom attack">
                         <i class="fas fa-trash"></i>
+                    </a>
+                {{else}}
+                    {{!-- Generated attacks have nothing to delete, so they're hidden instead;
+                          restore them from Settings. --}}
+                    <a class="attack-hide-btn" data-action="hide-attack" data-attack-key="{{attack.attackKey}}" title="Hide this attack (restore from Settings)">
+                        <i class="fas fa-eye-slash"></i>
                     </a>
                 {{/if}}
             </div>

@@ -73,15 +73,26 @@ export default class CommonActorData {
                 label: "Attack Order",
                 initial: []
             }),
+            // Attack keys hidden from the Attacks panel. Hidden rather than deleted because most
+            // attacks are generated (from an equipped weapon, or the stand-in Unarmed Attack) and
+            // have nothing to delete — unhiding is just removing the key again.
+            hiddenAttacks: new fields.ArrayField(new fields.StringField(), {
+                label: "Hidden Attacks",
+                initial: []
+            }),
             settings: new fields.SchemaField({
                 isNPC: new fields.BooleanField({
                     initial: false
                 }),
+                // On by default: a token matching the actor's size is almost always what's wanted,
+                // and turning it off is the rare case. Only affects newly-created actors — an
+                // existing actor keeps whatever value is already stored (the Refresh Sheet button
+                // in Settings re-applies current defaults to an existing actor).
                 autoSizeToken: new fields.BooleanField({
-                    initial: false
+                    initial: true
                 }),
                 allowSheetLighting: new fields.BooleanField({
-                    initial: false
+                    initial: true
                 }),
                 ignorePrerequisites: new fields.BooleanField({
                     initial: false

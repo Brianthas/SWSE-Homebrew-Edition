@@ -214,6 +214,10 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
         html.find("div.attack").on("dragover", (ev) => ev.preventDefault());
         html.find("div.attack").on("drop", (ev) => this._onSortAttack(ev));
         html.find('[data-action="rename-attack"]').on("click", this._onRenameAttack.bind(this));
+        html.find('[data-action="hide-attack"]').on("click", this._onHideAttack.bind(this));
+        html.find('[data-action="unhide-attacks"]').on("click", this._onUnhideAttacks.bind(this));
+        html.find('[data-action="damage-type-override"]').on("change", this._onDamageTypeOverrideChange.bind(this));
+        html.find('[data-action="refresh-sheet"]').on("click", this._onRefreshSheet.bind(this));
 
         // Force Powers list: drag-and-drop reordering. Bound directly on each row (rather than
         // relying on the sheet's default whole-form drop pipeline) so stopPropagation() can keep
@@ -1720,6 +1724,62 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
     }
 
     /**
+     * Re-pulls every embedded item's rules data from the compendium it came from, so an existing
+     * character picks up system/content fixes without being rebuilt from scratch.
+     *
+     * Only compendium-derived rules data is replaced. Anything the player set on their own copy is
+     * carried over (see PRESERVED_ITEM_FIELDS) — equipped state, quantity, uses, list order, the
+     * per-weapon ability/handedness overrides, and the supplier that records which class or
+     * species granted it. Items with no compendium source (custom ones) are left alone entirely.
+     */
+    async _onRefreshSheet(event) {
+        event?.preventDefault();
+
+        // Fields that belong to this actor's copy rather than to the compendium entry.
+        const PRESERVED_ITEM_FIELDS = [
+            "equipped", "quantity", "uses", "supplier", "isSupplied",
+            "abilityOverride", "damageAbilityOverride", "handsOverride", "damageTypeOverride",
+            "levelsTaken", "activeCategory", "payload", "choices",
+        ];
+
+        const confirmed = await Dialog.confirm({
+            title: "Refresh Sheet",
+            content: `<p>Re-pull rules data for <b>${this.actor.name}</b>'s items from the compendiums?</p>
+                      <p class="notes">Equipped state, quantities, uses, ordering and per-weapon overrides are kept.
+                      Items you created yourself are untouched.</p>`,
+            defaultYes: true,
+        });
+        if (!confirmed) return;
+
+        const updates = [];
+        let skipped = 0, missing = 0;
+
+        for (const item of this.actor.items) {
+            const sourceUuid = item._stats?.compendiumSource;
+            if (!sourceUuid) { skipped++; continue; }
+
+            let source;
+            try { source = await fromUuid(sourceUuid); } catch (e) { source = null; }
+            if (!source) { missing++; continue; }
+
+            const fresh = source.toObject();
+            const update = {_id: item.id, name: fresh.name, img: fresh.img, system: fresh.system};
+            for (const field of PRESERVED_ITEM_FIELDS) {
+                if (item.system[field] !== undefined) update.system[field] = item.system[field];
+            }
+            update.sort = item.sort;
+            updates.push(update);
+        }
+
+        if (updates.length) await this.actor.updateEmbeddedDocuments("Item", updates);
+
+        const parts = [`${updates.length} item${updates.length === 1 ? "" : "s"} refreshed`];
+        if (skipped) parts.push(`${skipped} custom (no compendium source) left alone`);
+        if (missing) parts.push(`${missing} whose source no longer exists skipped`);
+        ui.notifications.info(`${this.actor.name}: ${parts.join(", ")}.`);
+    }
+
+    /**
      * Attacks panel: drag-to-reorder. Attacks come from several unrelated sources, so rather than
      * sorting an underlying list this persists the visible key order on the actor
      * (system.attackOrder) — see AttackDelegate#applyAttackOrder.
@@ -1745,6 +1805,28 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
         if (at === -1) return;
         without.splice(at, 0, sourceKey);
         await this.actor.safeUpdate({"system.attackOrder": without});
+    }
+
+    /**
+     * Attacks panel: hide an attack. Most attacks are generated rather than stored (from an
+     * equipped weapon, or the stand-in Unarmed Attack), so there's usually nothing to delete —
+     * a custom attack is the exception and is removed outright by its own trash control.
+     * Hidden attacks are listed in Settings, where they can be restored.
+     */
+    async _onHideAttack(event) {
+        event.preventDefault();
+        const attackKey = event.currentTarget.closest("[data-attack-key]")?.dataset.attackKey;
+        if (!attackKey) return;
+        const hidden = [...(this.actor.system.hiddenAttacks || [])];
+        if (hidden.includes(attackKey)) return;
+        hidden.push(attackKey);
+        await this.actor.safeUpdate({"system.hiddenAttacks": hidden});
+    }
+
+    /** Restores every hidden attack — the counterpart to _onHideAttack, surfaced in Settings. */
+    async _onUnhideAttacks(event) {
+        event.preventDefault();
+        await this.actor.safeUpdate({"system.hiddenAttacks": []});
     }
 
     /**
@@ -1794,6 +1876,17 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
             return;
         }
         item.safeUpdate({"system.damageAbilityOverride": event.currentTarget.value});
+    }
+
+    /** Per-weapon damage-type pick (e.g. a grenade loaded as Stun rather than Energy). */
+    _onDamageTypeOverrideChange(event) {
+        event.preventDefault();
+        const itemId = event.currentTarget.dataset.itemId;
+        const item = this.actor.items.get(itemId);
+        if (!item) {
+            return;
+        }
+        item.safeUpdate({"system.damageTypeOverride": event.currentTarget.value});
     }
 
     /**

@@ -1605,6 +1605,28 @@
   margin: 0;
   border-width: 1px;
 }
+.swse {
+  /* Settings tab maintenance actions (Refresh Sheet, Restore Hidden Attacks) */
+}
+.swse .sheet-maintenance {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.swse .sheet-maintenance .sheet-maintenance-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.swse .sheet-maintenance .sheet-maintenance-row button {
+  flex: 0 0 auto;
+}
+.swse .sheet-maintenance .sheet-maintenance-row .notes {
+  font-size: 11px;
+  line-height: 1.3;
+  color: var(--swse-text-muted);
+}
 .swse .classes-header .top-label {
   position: relative;
 }

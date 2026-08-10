@@ -44,6 +44,10 @@ export default class WeaponData extends ItemSystemDataModel {
                 initial: "", blank: true,
                 choices: ["", "str", "dex", "int", "wis", "cha", "ataru", "kinetic_combat", "noble_fencing"]
             }),
+            // Some weapons come in several damage flavours — a grenade may be Physical, Energy,
+            // Stun, Sonic or Burn — and which one is loaded is a per-attack choice rather than a
+            // property of the item. Blank keeps whatever damage type the item itself declares.
+            damageTypeOverride: new fields.StringField({initial: "", blank: true}),
             // Homebrew: persisted per-weapon handedness override ("1"/"2"), same pattern as
             // abilityOverride — a StringField (not Number) so template equality checks
             // (Handlebars ifEquals is strict ===) work the same way abilityOverride's do.
