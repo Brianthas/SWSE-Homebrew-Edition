@@ -10,6 +10,7 @@ import {
     toChat,
     unique
 } from "../common/util.mjs";
+import {titleCase} from "../common/helpers.mjs";
 import {characterActorTypes, vehicleActorTypes, ACTIVE_EFFECT_MODES} from "../common/constants.mjs";
 import {KNOWN_ATTRIBUTE_KEYS} from "../common/known-attribute-keys.mjs";
 import {bindKeyAutocomplete} from "../common/autocomplete.mjs";
@@ -1234,6 +1235,24 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
 
         const exceptionalSkill = exceptionalSkills.includes(label)
 
+        // Homebrew skill substitution: a talent/feat may let another skill's modifier stand in for
+        // this one, usually only for SOME uses of it, so ask rather than assume. "Always"
+        // substitutions are already baked into the skill's value in skills.mjs and never reach here.
+        const substitutions = (this.object.getSkillSubstitutions?.(label) || []).filter(s => !s.always);
+        if (substitutions.length) {
+            const chosen = await this.#promptSkillSubstitution(label, substitutions);
+            if (chosen === null) return;      // cancelled
+            if (chosen) {
+                // Skills are keyed by display name ("Use the Force"), so match case-insensitively.
+                const skills = this.object.system.skills || {};
+                const key = Object.keys(skills).find(k => k.toLowerCase() === chosen.toLowerCase());
+                const sub = key ? skills[key] : undefined;
+                if (sub && typeof sub.value === "number") {
+                    return this.#rollSubstitutedSkill(sub, chosen, label, advantageMode);
+                }
+            }
+        }
+
         for (let formula of rawFormula.split(",")) {
 
             if (!!variable && variable.startsWith('@initiative') && game.combat) {
@@ -1646,6 +1665,53 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
             return;
         }
         item.safeUpdate({"system.abilityOverride": event.currentTarget.value});
+    }
+
+    /**
+     * Asks which skill to roll when a talent/feat allows a substitution. Defaults to the
+     * substitute (that's why you took the talent), but the base skill stays available because most
+     * substitutions only cover some applications of the skill — the scope note, where the talent
+     * gives one, is shown next to the option.
+     *
+     * @return {Promise<string|undefined|null>} chosen substitute skill, undefined for the base
+     *         skill, or null if cancelled.
+     */
+    async #promptSkillSubstitution(label, substitutions) {
+        const name = f => `sub-${foundry.utils.randomID()}`;
+        const group = name();
+        const rows = [
+            `<div><label><input type="radio" name="${group}" value=""/> ${titleCase(label)} <span class="notes">(normal)</span></label></div>`,
+            ...substitutions.map((s, i) => {
+                const scope = s.scope ? ` <span class="notes">— ${s.scope}</span>` : "";
+                const src = s.sourceDescription ? ` <span class="notes">(${s.sourceDescription})</span>` : "";
+                return `<div><label><input type="radio" name="${group}" value="${s.source}" ${i === 0 ? "checked" : ""}/> ${s.source}${src}${scope}</label></div>`;
+            })
+        ].join("");
+
+        return Dialog.prompt({
+            title: `Roll ${titleCase(label)}`,
+            content: `<p>Which skill do you want to roll?</p>${rows}`,
+            label: "Roll",
+            callback: (html) => {
+                const el = html[0] ?? html;
+                const picked = el.querySelector(`input[name="${group}"]:checked`);
+                return picked?.value || undefined;
+            },
+            rejectClose: false,
+        });
+    }
+
+    /**
+     * Rolls a substituted skill, labelled so the chat card says which skill actually got rolled
+     * and what it stood in for.
+     */
+    async #rollSubstitutedSkill(subSkill, subName, targetLabel, advantageMode) {
+        let formula = `1d20 + ${subSkill.value}`;
+        if (advantageMode) formula = applyRollMode(formula, advantageMode);
+        let flavor = `${this.object.name} rolls ${subName} for ${titleCase(targetLabel)}!`;
+        if (advantageMode) flavor += advantageMode === "advantage" ? " (Advantage)" : " (Disadvantage)";
+        const roll = await new Roll(formula).roll();
+        return roll.toMessage({speaker: ChatMessage.getSpeaker({actor: this.object}), flavor});
     }
 
     /**

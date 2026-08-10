@@ -444,6 +444,48 @@ export class SkillFunctions {
         //Remaining Skills
         system._prepareRemainingSkills();
         system.skills = builtSkills;
+
+        this.applySkillSubstitutions(actor, builtSkills);
+    }
+
+    /**
+     * Homebrew skill substitution — applied after every skill is built, because a substitution
+     * reads another skill's finished value and the build order isn't guaranteed to put the source
+     * skill first.
+     *
+     * Only "always" substitutions change anything here (e.g. Force Intuition: Use the Force in
+     * place of Initiative). They're resolved eagerly rather than prompted so that every path picks
+     * them up, including Foundry's combat tracker, which rolls initiative itself and never goes
+     * through the sheet. Prompt-based ones are just annotated onto the skill for the roll handler.
+     *
+     * No chaining: substitutes read `originalValue` where present, so a skill that has itself been
+     * substituted still contributes its own base modifier.
+     */
+    applySkillSubstitutions(actor, builtSkills) {
+        if (!actor.getSkillSubstitutions) return;
+        // Skills are keyed by their display name ("Use the Force"), so match case-insensitively.
+        const findSkill = (name) => {
+            const wanted = String(name).toLowerCase();
+            const key = Object.keys(builtSkills).find(k => k.toLowerCase() === wanted);
+            return key ? builtSkills[key] : undefined;
+        };
+
+        for (const [name, skill] of Object.entries(builtSkills)) {
+            const substitutions = actor.getSkillSubstitutions(name) || [];
+            if (!substitutions.length) continue;
+            skill.substitutions = substitutions;
+
+            const always = substitutions.find(s => s.always);
+            if (!always) continue;
+            const source = findSkill(always.source);
+            if (!source || typeof source.value !== "number") continue;
+
+            skill.substitutedFrom = always.source;
+            skill.originalValue = skill.value;
+            skill.value = source.originalValue ?? source.value;
+            skill.title = `${skill.title}${NEW_LINE}Uses ${always.source} instead${always.sourceDescription ? ` (${always.sourceDescription})` : ""}`;
+            actor.resolvedVariables.set(skill.variable, "1d20 + " + skill.value);
+        }
     }
 
     configureSkill(skill, nonZeroBonuses, actor, label, skillAttributeMod) {
@@ -456,7 +498,8 @@ export class SkillFunctions {
         actor.resolvedLabels.set(skill.variable, skill.label);
         skill.abilityBonus = skillAttributeMod;
         skill.situationalSkills = [];
-
+        // Homebrew skill substitution is applied in applySkillSubstitutions once every skill is
+        // built — it reads other skills' finished values, so it can't run per-skill here.
     }
 
      applyGroupedSkills(skills, skillMap) {

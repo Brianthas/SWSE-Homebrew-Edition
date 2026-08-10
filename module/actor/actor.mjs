@@ -1040,6 +1040,39 @@ class SWSEActor extends Actor {
         return filterItemsByTypes(inheritableItems(this), ["trait"]).sort(ALPHA_FINAL_NAME);
     }
 
+    /**
+     * Homebrew: feats/talents that let one skill's modifier stand in for another
+     * (Force Intuition: Use the Force in place of Initiative; Fluidity: Use the Force in place of
+     * Acrobatics; and so on).
+     *
+     * Two change keys, because the two behave differently at the table:
+     *   skillSubstitutionAlways = "Target:Source"          -> replaces outright, no prompt
+     *   skillSubstitution       = "Target:Source[:scope]"  -> offered as a choice when rolling,
+     *                                                        since most only replace SOME uses
+     *                                                        of the skill (the optional scope
+     *                                                        note is shown in the prompt)
+     *
+     * Returns entries for one target skill. No chaining: a substitute always contributes its own
+     * base modifier, so Use the Force -> Persuasion -> Deception can't stack.
+     *
+     * @param skillName {string} the skill being rolled
+     * @return {[{source: string, scope: string|undefined, always: boolean, sourceDescription: string}]}
+     */
+    getSkillSubstitutions(skillName) {
+        const target = (skillName || "").toLowerCase();
+        const parse = (attrs, always) => attrs
+            .map(attr => {
+                const [t, source, scope] = String(attr.value).split(":").map(s => s?.trim());
+                if (!t || !source || t.toLowerCase() !== target) return null;
+                return {source, scope: scope || undefined, always, sourceDescription: attr.sourceDescription || attr.sourceString};
+            })
+            .filter(Boolean);
+
+        const alwaysAttrs = getInheritableAttribute({entity: this, attributeKey: "skillSubstitutionAlways"});
+        const promptAttrs = getInheritableAttribute({entity: this, attributeKey: "skillSubstitution"});
+        return [...parse(alwaysAttrs, true), ...parse(promptAttrs, false)];
+    }
+
     get talents() {
         // Sorted by `sort` so the Talents list honours drag-to-reorder on the sheet.
         return this.itemTypes["talent"].toSorted((a, b) => (a.sort || 0) - (b.sort || 0));
