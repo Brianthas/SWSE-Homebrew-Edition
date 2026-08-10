@@ -101,6 +101,14 @@ export class DefenseFields {
                 reflex: new fields.NumberField({initial: 0, integer: true, nullable: false, label: "Reflex Additional Modifier"}),
                 will: new fields.NumberField({initial: 0, integer: true, nullable: false, label: "Will Additional Modifier"}),
             }),
+            // Free text for conditional/situational Defense bonuses that can't be expressed as a
+            // flat number — e.g. "Unstoppable Force: +2 Will, but only against Force effects".
+            // Purely a reminder for play; nothing reads this mechanically.
+            notes: new fields.StringField({
+                initial: "",
+                blank: true,
+                label: "Defense Notes",
+            }),
         }
     }
 }

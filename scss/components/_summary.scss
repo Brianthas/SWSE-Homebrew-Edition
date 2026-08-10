@@ -505,6 +505,31 @@
   }
 }
 
+/* Free-text reminder for conditional Defense bonuses, under Additional Modifiers */
+.defense-notes {
+  display: flex;
+  flex-direction: column;
+  gap: $space-2xs;
+  margin-top: $space-2xs;
+
+  .defense-notes-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--swse-text-muted);
+  }
+
+  textarea {
+    width: 100%;
+    min-height: 0;
+    padding: $space-2xs;
+    font-size: 11px;
+    line-height: 1.3;
+    resize: vertical;
+  }
+}
+
 /* A panel header that carries an action button alongside its title */
 .panel-heading-row {
   display: flex;

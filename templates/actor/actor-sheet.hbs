@@ -81,8 +81,12 @@
 
                 {{!-- Owned Feats Tab --}}
                 <div class="tab items" data-group="primary" data-tab="feats">
-                    {{> 'systems/swse/templates/actor/parts/item-list.hbs' bigLabel="Feats" counterCurrent=actor.feats.length counterExpected=actor.expectedFeatCount counterLevel=actor.characterLevel compendiumFilter="-type:feat" container="items-list" fields= (arr "Source" "Prerequisites") items=actor.feats draggable=false quantity=false delete="unSupplied" overrideDelete=actor.system.settings.ignorePrerequisites description="expandable" toggles=actor.system.toggles}}
-                    {{> 'systems/swse/templates/actor/parts/item-list.hbs' bigLabel="Talents" counterCurrent=actor.talents.length counterExpected=actor.expectedTalentCount counterLevel=actor.characterLevel compendiumFilter="-type:talent" container="items-list" fields= (arr "Source" "Prerequisites") items=actor.talents draggable=false quantity=false delete="unSupplied" overrideDelete=actor.system.settings.ignorePrerequisites description="expandable" toggles=actor.system.toggles}}
+                    {{!-- Feats handed out automatically by a class or species. Listed first and
+                          kept separate from chosen feats so the list below is only "feats you
+                          picked", and so the slot counter measures picks against earned slots. --}}
+                    {{> 'systems/swse/templates/actor/parts/item-list.hbs' bigLabel="Granted Feats" container="items-list" fields= (arr "Source" "Prerequisites") items=actor.grantedFeats showSource=true draggable=false quantity=false delete="unSupplied" overrideDelete=actor.system.settings.ignorePrerequisites description="expandable" toggles=actor.system.toggles}}
+                    {{> 'systems/swse/templates/actor/parts/item-list.hbs' bigLabel="Feats" counterCurrent=actor.chosenFeats.length counterExpected=actor.expectedFeatCount counterLevel=actor.characterLevel compendiumFilter="-type:feat" container="items-list" fields= (arr "Source" "Prerequisites") items=actor.chosenFeats sortable="feat" draggable=false quantity=false delete="unSupplied" overrideDelete=actor.system.settings.ignorePrerequisites description="expandable" toggles=actor.system.toggles}}
+                    {{> 'systems/swse/templates/actor/parts/item-list.hbs' bigLabel="Talents" counterCurrent=actor.talents.length counterExpected=actor.expectedTalentCount counterLevel=actor.characterLevel compendiumFilter="-type:talent" container="items-list" fields= (arr "Source" "Prerequisites") items=actor.talents sortable="talent" draggable=false quantity=false delete="unSupplied" overrideDelete=actor.system.settings.ignorePrerequisites description="expandable" toggles=actor.system.toggles}}
                 </div>
 
                 {{!-- Owned Traits Tab --}}

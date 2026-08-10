@@ -56,7 +56,7 @@
         <ol class="items-list">
             {{#each items as |item id|}}
                 {{#unless item.system.hidden}}
-                    {{> 'systems/swse/templates/actor/parts/item-entry.hbs'  acceptsTemplates=../acceptsTemplates item=item fields=../fields draggable=../draggable quantity=../quantity delete=../delete description=../description overrideDelete=../overrideDelete usable=../usable rollable=../rollable toggles=../toggles}}
+                    {{> 'systems/swse/templates/actor/parts/item-entry.hbs'  acceptsTemplates=../acceptsTemplates item=item fields=../fields draggable=../draggable quantity=../quantity delete=../delete description=../description overrideDelete=../overrideDelete usable=../usable rollable=../rollable toggles=../toggles showSource=../showSource sortable=../sortable}}
                 {{/unless}}
             {{/each}}
         </ol>

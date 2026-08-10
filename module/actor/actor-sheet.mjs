@@ -215,6 +215,13 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
         html.find(".force-power-sortable").on("dragover", (ev) => ev.preventDefault());
         html.find(".force-power-sortable").on("drop", (ev) => this._onSortForcePower(ev));
 
+        // Same drag-to-reorder for any item-list.hbs list opted in via sortable=<type>.
+        html.find(".item-sortable").on("dragover", (ev) => ev.preventDefault());
+        html.find(".item-sortable").on("drop", (ev) => this._onSortItemList(ev));
+        html.find(".item-sortable").each((i, li) => {
+            li.addEventListener("dragstart", (ev) => this._onDragStart(ev), false);
+        });
+
         /// combine
         html.find("button.attack").each((i, div) => {
             //div.setAttribute("draggable", true);
@@ -1757,27 +1764,50 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
 
     /**
      * Reorders the Force Powers list on drop, matching Foundry's standard item-sort idiom
-     * (SortingHelpers.performIntegerSort against the target's `sort` field).
+     * (performIntegerSort against the target's `sort` field).
      */
     async _onSortForcePower(event) {
+        return this.#sortItemWithin(event, ".force-power-sortable", (source) =>
+            this.actor.powers.filter(p => p.id !== source.id));
+    }
+
+    /**
+     * Same drag-to-reorder for any list rendered by item-list.hbs with `sortable=<type>`
+     * (Feats, Talents). Siblings are scoped to the same data-sort-group, so reordering a feat
+     * can't renumber talents rendered from the same partial on the same tab.
+     */
+    async _onSortItemList(event) {
+        const group = event.currentTarget.dataset.sortGroup;
+        return this.#sortItemWithin(event, ".item-sortable", (source) =>
+            this.actor.items.filter(i => i.id !== source.id && i.type === source.type
+                && (!group || i.type === group)));
+    }
+
+    /**
+     * Shared drag-to-reorder: resolve the dragged + dropped-on items, then write new `sort`
+     * values. Bound per-row (rather than relying on the sheet-wide drop pipeline) so
+     * stopPropagation keeps a reorder from also falling through to _onDropItem's
+     * compendium/equip-slot handling.
+     */
+    async #sortItemWithin(event, rowSelector, siblingsFor) {
         event.preventDefault();
         event.stopPropagation();
 
         let data;
         try {
-            data = JSON.parse(event.originalEvent.dataTransfer.getData("text/plain"));
+            data = JSON.parse((event.originalEvent ?? event).dataTransfer.getData("text/plain"));
         } catch (e) {
             return;
         }
         if (data.actorId !== this.actor.id) return;
 
         const source = this.actor.items.get(data.itemId);
-        const dropTarget = event.currentTarget.closest(".force-power-sortable");
+        const dropTarget = event.currentTarget.closest(rowSelector);
         const target = dropTarget ? this.actor.items.get(dropTarget.dataset.itemId) : null;
         if (!source || !target || source.id === target.id) return;
-        if (source.type !== "forcePower" || target.type !== "forcePower") return;
+        if (source.type !== target.type) return;
 
-        const siblings = this.actor.powers.filter(p => p.id !== source.id);
+        const siblings = siblingsFor(source);
         const sortUpdates = foundry.utils.performIntegerSort(source, {target, siblings});
         const updateData = sortUpdates.map(u => ({_id: u.target.id, ...u.update}));
         await this.actor.updateEmbeddedDocuments("Item", updateData);

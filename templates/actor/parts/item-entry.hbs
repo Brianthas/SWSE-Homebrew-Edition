@@ -1,6 +1,8 @@
 
 <li {{#if item.system.supplier}}title="Source: {{item.system.supplier.name}}"{{/if}} class="item flexcol {{#if draggable}}draggable{{/if}}
+    {{#if sortable}}item-sortable{{/if}}
     {{#ifEquals description "expandable"}}collapsible-container{{/ifEquals}}{{#if acceptsTemplates}} acceptsTemplates{{/if}}"
+    {{#if sortable}}draggable="true" data-sort-group="{{sortable}}"{{/if}}
     data-item-id="{{item.id}}"
     data-item-name="{{item.name}}"
     data-data="{{item.toJSONString}}">
@@ -17,6 +19,17 @@
                                          height="48" alt=""/></div>
             <h4 class="item-name {{#ifLT item.system.quantity 1 }}strikethrough{{/ifLT}}">
                 {{item.finalName}}  {{#if item.system.hidden}} (Hidden){{/if}}
+
+                {{!-- Where an auto-granted item came from (class vs species/racial), so a granted
+                      list can be told apart at a glance. Opt-in via showSource on the list. --}}
+                {{#if showSource}}
+                    {{#if item.system.supplier.name}}
+                        <span class="tag source-tag source-{{item.system.supplier.type}}"
+                              title="Granted by {{item.system.supplier.name}} ({{item.system.supplier.type}})">
+                            {{#ifEquals item.system.supplier.type "species"}}Racial{{else}}{{item.system.supplier.name}}{{/ifEquals}}
+                        </span>
+                    {{/if}}
+                {{/if}}
 
                 {{#if @root.options.debug}}
                     {{item.id}} - source: {{item.system.supplier.name}}

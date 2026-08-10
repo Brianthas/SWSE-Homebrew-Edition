@@ -69,6 +69,16 @@
             </label>
         </div>
     </div>
+
+    {{!-- Free text for conditional bonuses that can't be a flat number (e.g. "Unstoppable Force:
+          +2 Will, but only vs Force effects"). Reminder only — nothing reads this mechanically.
+          Character-only for the same schema reason as Additional Modifiers above. --}}
+    <div class="defense-notes">
+        <label class="defense-notes-label" for="defenseNotes"
+               title="Conditional or situational Defense bonuses — reminder only, not applied automatically.">Notes</label>
+        <textarea id="defenseNotes" name="system.defense.notes" rows="2"
+                  placeholder="e.g. Unstoppable Force: +2 Will vs Force effects">{{actor.system.defense.notes}}</textarea>
+    </div>
     {{/ifEquals}}
 
     {{#each actor.system.defense.situationalBonuses as |bonus id|}}

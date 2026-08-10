@@ -766,6 +766,20 @@ class SWSEActor extends Actor {
         return this.resolveFeats().activeFeats
     }
 
+    // Feats handed to the character automatically by a class or species (they carry a supplier)
+    // vs. the ones the player actually spent a feat slot to pick. Split so the sheet can show
+    // "here's what you were given" separately from "here's what you chose", and so the feat-slot
+    // counter only measures chosen feats against earned slots.
+    get grantedFeats(){
+        return this.feats.filter(f => !!f.system.supplier?.id)
+            .toSorted((a, b) => (a.sort || 0) - (b.sort || 0));
+    }
+
+    get chosenFeats(){
+        return this.feats.filter(f => !f.system.supplier?.id)
+            .toSorted((a, b) => (a.sort || 0) - (b.sort || 0));
+    }
+
     get inactiveFeats(){
         return this.resolveFeats().inactiveProvidedFeats
     }
@@ -1027,7 +1041,8 @@ class SWSEActor extends Actor {
     }
 
     get talents() {
-        return this.itemTypes["talent"]
+        // Sorted by `sort` so the Talents list honours drag-to-reorder on the sheet.
+        return this.itemTypes["talent"].toSorted((a, b) => (a.sort || 0) - (b.sort || 0));
     }
 
     get powers() {
@@ -1042,44 +1057,33 @@ class SWSEActor extends Actor {
         })
     }
 
-    // Homebrew feat/talent progression (character level chart): 1 Talent per level; a General
-    // Feat at every odd level from 3 on; an additional Feat at every even level from 2 on while
-    // solo-classed (single class taken) — the standard SWSE not-multiclassing bonus; plus each
-    // class's own starting feat (Force Sensitivity for Jedi, Linguist for Noble, etc. — derived
-    // from that class item's own classFeat changes, not hardcoded, so it stays correct if that
-    // data changes) and any feat the actor's species grants.
+    // Homebrew progression (character level chart): 1 Talent per level.
     get expectedTalentCount() {
         return this.characterLevel;
     }
 
+    /**
+     * Total feat slots the character has EARNED and gets to spend — deliberately not counting
+     * feats a class or species simply handed over (those are listed separately as Granted Feats,
+     * and the sheet compares this against chosenFeats.length).
+     *
+     * Per the homebrew level chart:
+     *  - a General Feat at every odd character level (1/3/5/7/...)
+     *  - everything that provides into the shared "General Feats" pool. That covers the
+     *    even-level feat a BASE class grants at its own levels 2/4/6/... (prestige classes grant
+     *    none), so a Jedi 7 / Jedi Knight 3 earns 3 of these — from Jedi levels 2, 4 and 6 — and
+     *    also picks up one-off grants like a Human's "Bonus Feat" trait. Counted purely off
+     *    `provides` rather than re-deriving per class, so this can't drift from what
+     *    availableItems actually hands out (and can't double-count it).
+     */
     get expectedFeatCount() {
-        const level = this.characterLevel;
-        // Every odd level, 1/3/5/7/... — level 1's is bundled into the class's own "Class
-        // Starting Feats" grant rather than shown as its own line on the level chart, but it's
-        // still a real General Feat slot. Math.ceil(0/2) is 0, so level 0 (no class yet) is
-        // already handled correctly without a separate guard.
-        const generalFeats = Math.ceil(level / 2);
-        // The even-level (2/4/6/8/...) bonus only applies while solo-classed in a single BASE
-        // class — prestige classes don't grant it, per the homebrew level chart.
-        const soloClass = this.itemTypes.class.length === 1 ? this.itemTypes.class[0] : null;
-        const soloClassIsPrestige = soloClass && getInheritableAttribute({entity: soloClass, attributeKey: "isPrestige", reduce: "OR"});
-        const soloClassFeats = (soloClass && !soloClassIsPrestige) ? Math.floor(level / 2) : 0;
-        const classGrantedFeats = this.itemTypes.class.reduce((sum, co) => {
-            // Every classFeat entry (including "Weapon Proficiency (X)") is granted as its own
-            // real Feat item and shows up in the Feats list, so all of them count here.
-            return sum + getInheritableAttribute({entity: co, attributeKey: "classFeat", reduce: "VALUES"}).length;
-        }, 0);
-        const speciesGrantedFeats = (this.species?.system.providedItems || []).filter(p => p.type === "feat").length;
-        // Some species grant a feat indirectly via a trait that provides into the same "General
-        // Feats" pool the odd-level count above draws from (e.g. Human's default "Bonus Feat"
-        // trait: {key: "provides", value: "General Feats"}) rather than a direct providedItems
-        // feat grant — reuse the same generic provides:<category> mechanism the rest of the
-        // system already uses for this instead of re-deriving per-species. Classes grant into
-        // their own separate named pools (e.g. "Jedi Bonus Feats"), not "General Feats", so this
-        // can't double-count against classGrantedFeats above.
-        const bonusFeatGrants = getInheritableAttribute({entity: this, attributeKey: "provides"})
+        // Math.ceil(0/2) is 0, so level 0 (no class yet) needs no separate guard.
+        const generalFeats = Math.ceil(this.characterLevel / 2);
+
+        const providedFeatSlots = getInheritableAttribute({entity: this, attributeKey: "provides"})
             .filter(p => (p.value.includes(":") ? p.value.split(":")[0] : p.value) === "General Feats").length;
-        return generalFeats + soloClassFeats + classGrantedFeats + speciesGrantedFeats + bonusFeatGrants;
+
+        return generalFeats + providedFeatSlots;
     }
 
     get languages() {

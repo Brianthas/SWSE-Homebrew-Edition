@@ -153,6 +153,18 @@
   letter-spacing: 0.02em;
 }
 
+/* "Granted by" chip on auto-granted items, so a class grant reads differently from a racial one */
+.source-tag {
+  font-size: 9px;
+  padding: 0 $space-2xs;
+  vertical-align: middle;
+
+  &.source-species {
+    background: var(--swse-accent-dim, var(--swse-surface-raised));
+    color: var(--swse-accent, var(--swse-text-muted));
+  }
+}
+
 .pill-select {
   appearance: none;
   -webkit-appearance: none;
