@@ -21,21 +21,9 @@
           "type": "TALENT"
         },
         {
-          "children": [
-            {
-              "text": "Block talent",
-              "requirement": "Block",
-              "type": "TALENT"
-            },
-            {
-              "text": "Deflect talent",
-              "requirement": "Deflect",
-              "type": "TALENT"
-            }
-          ],
-          "count": 1,
-          "text": "Block or Deflect",
-          "type": "OR"
+          "text": "Dueling Stance talent",
+          "requirement": "Dueling Stance",
+          "type": "TALENT"
         },
         {
           "text": "Jedi Battle Commander talent",
@@ -43,7 +31,7 @@
           "type": "TALENT"
         }
       ],
-      "text": "Battle Meditation talent, (Block or Deflect), and Jedi Battle Commander talent",
+      "text": "Battle Meditation talent, and Dueling Stance talent, and Jedi Battle Commander talent",
       "type": "AND"
     },
     "categories": [

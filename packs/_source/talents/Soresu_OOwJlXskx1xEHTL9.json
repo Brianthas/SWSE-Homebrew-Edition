@@ -25,20 +25,9 @@
     "payload": "",
     "buildInstructions": [],
     "prerequisite": {
-      "children": [
-        {
-          "text": "Block talent",
-          "requirement": "Block",
-          "type": "TALENT"
-        },
-        {
-          "text": "Deflect talent",
-          "requirement": "Deflect",
-          "type": "TALENT"
-        }
-      ],
-      "text": "Block talent, and Deflect talent",
-      "type": "AND"
+      "text": "Dueling Stance talent",
+      "requirement": "Dueling Stance",
+      "type": "TALENT"
     },
     "categories": [
       {

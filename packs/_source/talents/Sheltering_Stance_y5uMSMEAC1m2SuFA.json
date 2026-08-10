@@ -16,21 +16,9 @@
     "prerequisite": {
       "children": [
         {
-          "children": [
-            {
-              "text": "Block talent",
-              "requirement": "Block",
-              "type": "TALENT"
-            },
-            {
-              "text": "Deflect talent",
-              "requirement": "Deflect",
-              "type": "TALENT"
-            }
-          ],
-          "count": 1,
-          "text": "Block or Deflect",
-          "type": "OR"
+          "text": "Dueling Stance talent",
+          "requirement": "Dueling Stance",
+          "type": "TALENT"
         },
         {
           "text": "Vigilance talent",
@@ -38,7 +26,7 @@
           "type": "TALENT"
         }
       ],
-      "text": "(Block or Deflect), and Vigilance talent",
+      "text": "Dueling Stance talent, and Vigilance talent",
       "type": "AND"
     },
     "categories": [

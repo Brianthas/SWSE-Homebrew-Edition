@@ -16,13 +16,13 @@
     "prerequisite": {
       "children": [
         {
-          "text": "Block talent",
-          "requirement": "Block",
+          "text": "Dueling Stance talent",
+          "requirement": "Dueling Stance",
           "type": "TALENT"
         },
         {
-          "text": "Riposte talent",
-          "requirement": "Riposte",
+          "text": "Redirection Stance talent",
+          "requirement": "Redirection Stance",
           "type": "TALENT"
         },
         {
@@ -31,7 +31,7 @@
           "type": "FEAT"
         }
       ],
-      "text": "Block talent, Riposte talent, and Weapon Focus (Lightsabers)",
+      "text": "Dueling Stance talent, and Redirection Stance talent, and Weapon Focus (Lightsabers)",
       "type": "AND"
     },
     "categories": [

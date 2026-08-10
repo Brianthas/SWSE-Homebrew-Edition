@@ -1,0 +1,86 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Homebrew Talent (tovec.wikidot.com/episode-vii)</i></p><p>Block and Deflect are combined into this single talent. You may use both the Block and Deflect reactions.</p>",
+    "textDescription": "Block and Deflect are combined into this single talent. You may use both the Block and Deflect reactions.",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "block",
+        "key": "rollable"
+      },
+      {
+        "mode": 2,
+        "value": "deflect",
+        "key": "rollable"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": null,
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Sith Apprentice Talent Trees"
+      },
+      {
+        "value": "Jedi Talent Trees"
+      },
+      {
+        "value": "Jedi Knight Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Imperial Knight Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Sith Apprentice Talent Trees",
+      "Jedi Talent Trees",
+      "Jedi Knight Talent Trees",
+      "Core Rulebook",
+      "Imperial Legionnaire Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Lightsaber Combat Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Lightsaber_Combat_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Core Rulebook",
+    "cost": "0"
+  },
+  "name": "Dueling Stance",
+  "flags": {},
+  "type": "talent",
+  "folder": "DG4mM6KEY51ryMWX",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385308047,
+    "modifiedTime": 1786070305931,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "X5AHmCqAA7C0A37X",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!X5AHmCqAA7C0A37X"
+}
