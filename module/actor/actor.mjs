@@ -1054,9 +1054,16 @@ class SWSEActor extends Actor {
 
     get expectedFeatCount() {
         const level = this.characterLevel;
-        // Math.max guards level 0 (no class taken yet) — Math.floor(-1/2) is -1, not 0, in JS.
-        const generalFeats = Math.max(0, Math.floor((level - 1) / 2));
-        const soloClassFeats = this.itemTypes.class.length === 1 ? Math.floor(level / 2) : 0;
+        // Every odd level, 1/3/5/7/... — level 1's is bundled into the class's own "Class
+        // Starting Feats" grant rather than shown as its own line on the level chart, but it's
+        // still a real General Feat slot. Math.ceil(0/2) is 0, so level 0 (no class yet) is
+        // already handled correctly without a separate guard.
+        const generalFeats = Math.ceil(level / 2);
+        // The even-level (2/4/6/8/...) bonus only applies while solo-classed in a single BASE
+        // class — prestige classes don't grant it, per the homebrew level chart.
+        const soloClass = this.itemTypes.class.length === 1 ? this.itemTypes.class[0] : null;
+        const soloClassIsPrestige = soloClass && getInheritableAttribute({entity: soloClass, attributeKey: "isPrestige", reduce: "OR"});
+        const soloClassFeats = (soloClass && !soloClassIsPrestige) ? Math.floor(level / 2) : 0;
         const classGrantedFeats = this.itemTypes.class.reduce((sum, co) => {
             // Every classFeat entry (including "Weapon Proficiency (X)") is granted as its own
             // real Feat item and shows up in the Feats list, so all of them count here.
