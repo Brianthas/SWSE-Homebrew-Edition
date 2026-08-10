@@ -10,7 +10,6 @@ import {SWSECompendiumBrowser} from "./compendium/compendium-browser.mjs";
 import {getActorFromId, toNumber} from "./common/util.mjs";
 import {SWSEActiveEffect} from "./active-effect/active-effect.mjs";
 import {SWSEActiveEffectConfig} from "./active-effect/active-effect-config.mjs";
-import {registerTestSuites} from "../module_test/quench/test-suites.test.mjs";
 import {makeAttack} from "./actor/attack/attackDelegate.mjs";
 import {getInheritableAttribute} from "./attribute-helper.mjs";
 import {SWSETokenHud} from "./token/token-hud.mjs";
@@ -49,8 +48,13 @@ import {
 
 
 
-Hooks.once('quenchReady',  (quench) => {
-    //console.warn("It's Quenching time!")
+// Dev-only test suites (module_test/) aren't part of the production package - loaded lazily,
+// only when Quench itself is actually installed and active, so their absence can never break
+// the system for players who don't have Quench (this used to be a static top-level import,
+// which meant a missing/unshipped module_test/ silently failed the ENTIRE module's evaluation -
+// no sheets, no data models, nothing - for every user, not just Quench users).
+Hooks.once('quenchReady', async (quench) => {
+    const {registerTestSuites} = await import("../module_test/quench/test-suites.test.mjs");
     registerTestSuites(quench);
 })
 
