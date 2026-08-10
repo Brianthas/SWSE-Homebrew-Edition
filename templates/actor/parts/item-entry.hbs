@@ -23,7 +23,7 @@
                 {{!-- Where an auto-granted item came from (class vs species/racial), so a granted
                       list can be told apart at a glance. Opt-in via showSource on the list. --}}
                 {{#if showSource}}
-                    {{#if item.system.supplier.name}}
+                    {{#if item.isGranted}}
                         <span class="tag source-tag source-{{item.system.supplier.type}}"
                               title="Granted by {{item.system.supplier.name}} ({{item.system.supplier.type}})">
                             {{#ifEquals item.system.supplier.type "species"}}Racial{{else}}{{item.system.supplier.name}}{{/ifEquals}}
@@ -79,8 +79,11 @@
                 <a class="item-control item-delete" title="Delete Item"><i
                         class="fas fa-trash"></i></a>
             {{else}}
+                {{!-- isGranted resolves the supplier against THIS actor, so an item transferred
+                      from another sheet (which carries the old actor's supplier) is still
+                      deletable rather than looking like a class/species grant. --}}
                 {{#ifEquals delete 'unSupplied'}}
-                    {{#if item.system.supplier.id}}
+                    {{#if item.isGranted}}
                         {{#if item.system.supplier.unlocked}}
                             <a class="item-control item-delete" title="Delete Item"><i
                                     class="fas fa-trash"></i></a>

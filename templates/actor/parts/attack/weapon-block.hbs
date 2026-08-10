@@ -53,6 +53,14 @@
                     <i class="fas fa-dice-d20"></i>
                 </a>
 
+                {{!-- The synthetic Unarmed Attack has no document behind it, so there's nothing to
+                      rename; every other attack renames its item (or its custom-attack config). --}}
+                {{#unless attack.isUnarmedAttackPlaceholder}}
+                    <a class="attack-rename-btn" data-action="rename-attack" data-attack-key="{{attack.attackKey}}" title="Rename this attack">
+                        <i class="fas fa-pen"></i>
+                    </a>
+                {{/unless}}
+
                 {{#if attack.isCustomAttack}}
                     <a class="attack-delete-btn" data-action="delete-custom-attack" data-attack-key="{{attack.attackKey}}" title="Delete this custom attack">
                         <i class="fas fa-trash"></i>

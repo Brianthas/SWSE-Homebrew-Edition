@@ -210,6 +210,11 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
             //div.addEventListener("click", (ev) => this._onActivateItem(ev), false);
         });
 
+        // Attacks panel: drag-to-reorder + inline rename.
+        html.find("div.attack").on("dragover", (ev) => ev.preventDefault());
+        html.find("div.attack").on("drop", (ev) => this._onSortAttack(ev));
+        html.find('[data-action="rename-attack"]').on("click", this._onRenameAttack.bind(this));
+
         // Force Powers list: drag-and-drop reordering. Bound directly on each row (rather than
         // relying on the sheet's default whole-form drop pipeline) so stopPropagation() can keep
         // a reorder-drop from also falling through to _onDropItem's compendium/equip-slot logic.
@@ -1712,6 +1717,69 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
         if (advantageMode) flavor += advantageMode === "advantage" ? " (Advantage)" : " (Disadvantage)";
         const roll = await new Roll(formula).roll();
         return roll.toMessage({speaker: ChatMessage.getSpeaker({actor: this.object}), flavor});
+    }
+
+    /**
+     * Attacks panel: drag-to-reorder. Attacks come from several unrelated sources, so rather than
+     * sorting an underlying list this persists the visible key order on the actor
+     * (system.attackOrder) — see AttackDelegate#applyAttackOrder.
+     */
+    async _onSortAttack(event) {
+        event.preventDefault();
+        event.stopPropagation();
+
+        let data;
+        try {
+            data = JSON.parse((event.originalEvent ?? event).dataTransfer.getData("text/plain"));
+        } catch (e) {
+            return;
+        }
+        const sourceKey = data.attackKeys?.[0];
+        const targetKey = event.currentTarget.closest("[data-attack-key]")?.dataset.attackKey;
+        if (!sourceKey || !targetKey || sourceKey === targetKey) return;
+
+        // Start from what's actually on screen so keys never ordered before are included.
+        const current = this.actor.attack.attacks.map(a => a.attackKey);
+        const without = current.filter(k => k !== sourceKey);
+        const at = without.indexOf(targetKey);
+        if (at === -1) return;
+        without.splice(at, 0, sourceKey);
+        await this.actor.safeUpdate({"system.attackOrder": without});
+    }
+
+    /**
+     * Attacks panel: rename an attack in place. A weapon/natural-weapon attack renames the item
+     * itself, so the new name shows everywhere that item appears rather than only on this card;
+     * a custom attack renames its own config entry. The synthetic Unarmed Attack has no document
+     * behind it and isn't renameable.
+     */
+    async _onRenameAttack(event) {
+        event.preventDefault();
+        const attackKey = event.currentTarget.closest("[data-attack-key]")?.dataset.attackKey;
+        const attack = this.actor.attack.attacks.find(a => a.attackKey === attackKey);
+        if (!attack) return;
+
+        const currentName = attack.isCustomAttack
+            ? (this.actor.system.customAttacks || []).find(c => c.id === attack.customAttackId)?.name
+            : attack.item?.name;
+        if (currentName === undefined) return;
+
+        const name = await Dialog.prompt({
+            title: "Rename Attack",
+            content: `<div class="form-group"><label>Name</label><input type="text" name="attack-name" value="${foundry.utils.escapeHTML(currentName ?? "")}"/></div>`,
+            label: "Rename",
+            callback: (html) => (html[0] ?? html).querySelector('input[name="attack-name"]')?.value?.trim(),
+            rejectClose: false,
+        });
+        if (!name || name === currentName) return;
+
+        if (attack.isCustomAttack) {
+            const customAttacks = (this.actor.system.customAttacks || [])
+                .map(c => c.id === attack.customAttackId ? {...c, name} : c);
+            await this.actor.safeUpdate({"system.customAttacks": customAttacks});
+        } else {
+            await attack.item?.safeUpdate({name});
+        }
     }
 
     /**

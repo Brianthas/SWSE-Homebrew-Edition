@@ -64,6 +64,15 @@ export default class CommonActorData {
                 label: "Custom Attacks",
                 initial: []
             }),
+            // Display order for the Attacks panel, as a list of attack keys. Attacks come from
+            // several unrelated sources (equipped weapons, natural weapons, custom attacks, the
+            // synthetic Unarmed Attack), so there's no single underlying list whose `sort` could
+            // order them — hence an explicit key order held on the actor. Keys not listed fall to
+            // the end in their natural order, so a newly-equipped weapon still shows up.
+            attackOrder: new fields.ArrayField(new fields.StringField(), {
+                label: "Attack Order",
+                initial: []
+            }),
             settings: new fields.SchemaField({
                 isNPC: new fields.BooleanField({
                     initial: false

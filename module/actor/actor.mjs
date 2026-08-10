@@ -771,12 +771,12 @@ class SWSEActor extends Actor {
     // "here's what you were given" separately from "here's what you chose", and so the feat-slot
     // counter only measures chosen feats against earned slots.
     get grantedFeats(){
-        return this.feats.filter(f => !!f.system.supplier?.id)
+        return this.feats.filter(f => f.isGranted)
             .toSorted((a, b) => (a.sort || 0) - (b.sort || 0));
     }
 
     get chosenFeats(){
-        return this.feats.filter(f => !f.system.supplier?.id)
+        return this.feats.filter(f => !f.isGranted)
             .toSorted((a, b) => (a.sort || 0) - (b.sort || 0));
     }
 

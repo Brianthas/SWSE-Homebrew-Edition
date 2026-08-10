@@ -298,6 +298,15 @@ export class Attack {
         return typeof this.weaponId === "string" && this.weaponId.startsWith(CUSTOM_ATTACK_PREFIX);
     }
 
+    /**
+     * The stand-in "Unarmed Attack" shown when a character has no equipped weapon or natural
+     * weapon. It's synthesised rather than backed by a document (see UnarmedAttack), so there's
+     * nothing to rename.
+     */
+    get isUnarmedAttackPlaceholder() {
+        return this.weaponId === "Unarmed Attack";
+    }
+
     get customAttackId() {
         return this.isCustomAttack ? this.weaponId.slice(CUSTOM_ATTACK_PREFIX.length) : undefined;
     }

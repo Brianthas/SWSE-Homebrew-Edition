@@ -66,7 +66,22 @@ export class AttackDelegate {
         let items = actor.getItemsFromRelationships()
 
         attacks.push(...items.map(item => Attack.create({actorId: actorUUID, weaponId: item.uuid, operatorId: actorUUID, parentId: item.parent?.uuid, options: {}})))
-        return attacks;
+        return this.applyAttackOrder(actor, attacks);
+    }
+
+    /**
+     * Orders the Attacks panel by the actor's saved key order (system.attackOrder). Anything not
+     * in that list keeps its natural position at the end, so equipping a new weapon doesn't
+     * require the order to be rewritten first.
+     */
+    applyAttackOrder(actor, attacks) {
+        const order = actor.system?.attackOrder || [];
+        if (!order.length) return attacks;
+        const rank = new Map(order.map((key, i) => [key, i]));
+        return attacks
+            .map((attack, i) => ({attack, i, rank: rank.has(attack.attackKey) ? rank.get(attack.attackKey) : Number.MAX_SAFE_INTEGER}))
+            .sort((a, b) => (a.rank - b.rank) || (a.i - b.i))
+            .map(entry => entry.attack);
     }
 
     getCrewPosition(equipmentSlot) {

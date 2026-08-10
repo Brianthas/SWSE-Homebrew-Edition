@@ -60,9 +60,6 @@
             <span class="equipment-qty">Qty</span>
             <span class="equipment-controls"></span>
         </div>
-        <div class="equipment-quick-create">
-            <input type="text" class="editor" data-action="quickCreate" data-action-type="equipment" placeholder="New equipment">
-        </div>
         <ul class="equipment-list">
             {{#each actor.equipmentGroups.general as |item id|}}
                 {{> 'systems/swse/templates/actor/parts/equipment-row.hbs' item=item delete="always"}}

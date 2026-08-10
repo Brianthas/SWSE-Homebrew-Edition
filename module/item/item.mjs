@@ -897,8 +897,37 @@ export class SWSEItem extends Item {
     get equipped(){
         return this.system.equipped;
     }
+    /**
+     * Homebrew: general equipment is equipable too. Light/Kit carrying capacity only counts
+     * EQUIPPED gear (see slots.mjs), and the house rules' own examples of Light and Kit items are
+     * things like comlinks, datapads and field kits — all `equipment`. Leaving that type out meant
+     * those rows had no equip control at all, so they could never be equipped and therefore never
+     * counted against carrying capacity.
+     *
+     * Bio/droid parts stay excluded: they're installed into a creature, not carried.
+     */
+    /**
+     * Whether this item was genuinely granted by something the SAME actor still has (a class,
+     * species, another talent...). The supplier id is resolved rather than merely checked for
+     * truthiness: dragging an item between sheets copies system.supplier along with it, so the
+     * destination actor ends up holding a supplier id that points at an item it doesn't own. That
+     * made transferred feats/talents look granted — filed under Granted Feats and, because the
+     * delete control is hidden for supplied items, impossible to remove.
+     *
+     * A supplier that doesn't resolve on this actor means "not granted here", so such an item
+     * behaves as a normal, deletable pick.
+     */
+    get isGranted() {
+        const supplierId = this.system.supplier?.id;
+        if (!supplierId) return false;
+        // setGranted() stores a plain label rather than a document id for system-level grants;
+        // those have no item to resolve against and are still genuine grants.
+        if (this.system.supplier.unlocked) return true;
+        return !!this.parent?.items?.get?.(supplierId);
+    }
+
     get isEquipable() {
-        return (this.type === "weapon" || this.type === "armor") && !this.isBioPart && !this.isDroidPart;
+        return ["weapon", "armor", "equipment"].includes(this.type) && !this.isBioPart && !this.isDroidPart;
     }
 
     /**
