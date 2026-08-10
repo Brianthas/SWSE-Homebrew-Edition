@@ -22,6 +22,7 @@ import {buildRollContent} from "./common/chatMessageHelpers.mjs";
 import {SWSETokenDocument} from "./token/token-document.mjs";
 import {CharacterDataModel} from "./actor/data/characterdata.mjs";
 import {VehicleDataModel} from "./actor/data/vehicledata.mjs";
+import {BeastDataModel} from "./actor/data/beastdata.mjs";
 import WeaponData from "./item/data/weapondata.mjs";
 import ArmorData from "./item/data/armordata.mjs";
 import EquipmentData from "./item/data/equipmentdata.mjs";
@@ -37,8 +38,6 @@ import VehicleSystemData from "./item/data/vehiclesystemdata.mjs";
 import ImplantData from "./item/data/implantdata.mjs";
 import DroidSystemData from "./item/data/droidsystemdata.mjs";
 import HazardData from "./item/data/hazarddata.mjs";
-import BackgroundData from "./item/data/backgrounddata.mjs";
-import DestinyData from "./item/data/destinydata.mjs";
 import VehicleBaseTypeData from "./item/data/vehiclebasetypedata.mjs";
 import {
     BaseCategoriesSourceData,
@@ -104,6 +103,7 @@ Hooks.once('init', async function () {
     CONFIG.Actor.dataModels.npc = CharacterDataModel;
     CONFIG.Actor.dataModels.vehicle = VehicleDataModel;
     //CONFIG.Actor.dataModels["npc-vehicle"] = VehicleDataModel;
+    CONFIG.Actor.dataModels.beast = BeastDataModel;
     CONFIG.Item.documentClass = SWSEItem;
     CONFIG.Item.dataModels.weapon = WeaponData;
     CONFIG.Item.dataModels.armor = ArmorData;
@@ -133,8 +133,6 @@ Hooks.once('init', async function () {
     CONFIG.Item.dataModels.implant = ImplantData;
     CONFIG.Item.dataModels["droid system"] = DroidSystemData;
     CONFIG.Item.dataModels.hazard = HazardData;
-    CONFIG.Item.dataModels.background = BackgroundData;
-    CONFIG.Item.dataModels.destiny = DestinyData;
     CONFIG.Item.dataModels.vehicleBaseType = VehicleBaseTypeData;
     CONFIG.Token.hudClass = SWSETokenHud;
     CONFIG.Token.documentClass = SWSETokenDocument;
@@ -145,7 +143,7 @@ Hooks.once('init', async function () {
     foundry.applications.apps.DocumentSheetConfig.registerSheet(ActiveEffect, "swse", SWSEActiveEffectConfig, { makeDefault: true })
     foundry.applications.apps.DocumentSheetConfig.registerSheet(Actor, "swse", SWSEActorSheet, {
         label: "SWSE Actor Sheet",
-        types: ["character", "npc", "vehicle", "vehicle-npc"], // adjust types as appropriate for your system
+        types: ["character", "npc", "vehicle", "vehicle-npc", "beast"], // adjust types as appropriate for your system
         makeDefault: true
     });
     foundry.applications.apps.DocumentSheetConfig.registerSheet(Item, "swse", SWSEItemSheet, {
@@ -156,17 +154,15 @@ Hooks.once('init', async function () {
 
 
     await foundry.applications.handlebars.loadTemplates([
-        'systems/swse/templates/actor/manual/parts/actor-summary.hbs',
-        'systems/swse/templates/actor/manual/parts/actor-ability-scores.hbs',
-        'systems/swse/templates/actor/manual/parts/actor-health.hbs',
-        'systems/swse/templates/actor/manual/parts/actor-shields.hbs',
         'systems/swse/templates/actor/parts/actor-affiliations.hbs',
         'systems/swse/templates/actor/parts/actor-summary.hbs',
+        'systems/swse/templates/actor/parts/beast-summary.hbs',
         'systems/swse/templates/actor/parts/actor-weapon-armor-summary.hbs',
         'systems/swse/templates/actor/parts/skills/actor-skills.hbs',
         'systems/swse/templates/actor/parts/skills/skill-row.hbs',
         'systems/swse/templates/actor/parts/actor-classes.hbs',
-        'systems/swse/templates/actor/manual/parts/skills/actor-skills.hbs',
+        'systems/swse/templates/actor/parts/actor-equipment.hbs',
+        'systems/swse/templates/actor/parts/equipment-row.hbs',
         'systems/swse/templates/actor/parts/actor-ability-scores.hbs',
         'systems/swse/templates/actor/parts/actor-health.hbs',
         'systems/swse/templates/actor/parts/actor-condition.hbs',
@@ -174,8 +170,6 @@ Hooks.once('init', async function () {
         'systems/swse/templates/actor/parts/actor-darkside.hbs',
         'systems/swse/templates/actor/parts/actor-defenses.hbs',
         'systems/swse/templates/actor/parts/actor-defense-block.hbs',
-        'systems/swse/templates/actor/manual/parts/actor-defenses.hbs',
-        'systems/swse/templates/actor/manual/parts/actor-defense-block.hbs',
         'systems/swse/templates/actor/parts/item-entry.hbs',
         'systems/swse/templates/actor/parts/item-list.hbs',
         'systems/swse/templates/actor/vehicle/vehicle-summary.hbs',
@@ -184,13 +178,21 @@ Hooks.once('init', async function () {
         'systems/swse/templates/actor/parts/attack/attack-dialogue.hbs',
         'systems/swse/templates/actor/parts/attack/single-attack.hbs',
         'systems/swse/templates/actor/parts/attack/weapon-block.hbs',
+        'systems/swse/templates/actor/parts/attack/combat-toggle.hbs',
         'systems/swse/templates/item/parts/levels.hbs',
         'systems/swse/templates/item/parts/providedItem.hbs',
         'systems/swse/templates/item/parts/providedItems.hbs',
         'systems/swse/templates/item/parts/summary.hbs',
+        'systems/swse/templates/item/parts/item-sections.hbs',
+        'systems/swse/templates/item/parts/stats/weapon.hbs',
+        'systems/swse/templates/item/parts/stats/armor.hbs',
+        'systems/swse/templates/item/parts/stats/equipment.hbs',
+        'systems/swse/templates/item/parts/stats/upgrade.hbs',
+        'systems/swse/templates/item/parts/stats/implant.hbs',
+        'systems/swse/templates/item/parts/stats/droid-system.hbs',
+        'systems/swse/templates/item/parts/stats/vehicle-system.hbs',
         'systems/swse/templates/item/parts/prerequisites.hbs',
         'systems/swse/templates/item/parts/prerequisite.hbs',
-        'systems/swse/templates/item/parts/ammunition.hbs',
         'systems/swse/templates/change/change-list.hbs',
         'systems/swse/templates/change/change.hbs',
         'systems/swse/templates/actor/vehicle/vehicle-template.hbs',
@@ -272,12 +274,6 @@ function getHitOptionHTML(target, attack, tokenId) {
         </div>
     </div>
     
-    <div class="panel">
-        <label>Affect Condition</label>
-        <div class="flex flex-row" >
-            <input data-attribute="bypass-damage-threshold" type="checkbox" checked>
-        </div>
-    </div>
 </div>`;
 }
 

@@ -1,0 +1,63 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You can keep your target worrying about where the next shot is coming from instead of trying to flee. When you deal damage to an enemy that you have <a href=\"https://swse.fandom.com/wiki/Aimed\" class=\"mw-redirect\" title=\"Aimed\">Aimed</a> at, the target's speed is reduced to 2 squares, and the target cannot take either a Double <a href=\"https://swse.fandom.com/wiki/Move\" title=\"Move\">Move</a> Action or use the <a href=\"https://swse.fandom.com/wiki/Run\" title=\"Run\">Run</a> Action until the end of your next turn.<br><br>This is a <a href=\"https://swse.fandom.com/wiki/Stunning\" class=\"mw-redirect\" title=\"Stunning\">Stunning</a> effect.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Precision Shot talent",
+      "requirement": "Precision Shot",
+      "type": "TALENT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Gunslinger Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Gunslinger Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Sharpshooter Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Sharpshooter_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Galaxy at War",
+    "cost": "0"
+  },
+  "name": "Pinning Shot",
+  "flags": {},
+  "type": "talent",
+  "folder": "nbrMKW7DB6gly31d",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385311668,
+    "modifiedTime": 1734385311668,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "jmkhrq4kdkEsUW2z",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!jmkhrq4kdkEsUW2z"
+}

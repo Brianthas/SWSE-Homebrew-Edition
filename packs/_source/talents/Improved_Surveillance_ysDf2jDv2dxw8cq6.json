@@ -1,0 +1,81 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "When you successfully use the <b>Surveillance</b> Talent, you grant yourself and your allies a +1 insight bonus to all <a href=\"https://swse.fandom.com/wiki/Defenses\" title=\"Defenses\">Defenses</a> against the target.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Surveillance talent",
+          "requirement": "Surveillance",
+          "type": "TALENT"
+        },
+        {
+          "text": "Trained in Perception",
+          "requirement": "Perception",
+          "type": "TRAINED SKILL"
+        }
+      ],
+      "text": "Surveillance talent, and Trained in Perception",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Scout Talent Trees"
+      },
+      {
+        "value": "Infiltrator Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Scout Talent Trees",
+      "Infiltrator Talent Trees",
+      "Smuggler Talent Trees",
+      "Operative Talent Trees",
+      "Agent Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Spy Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Spy_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Force Unleashed Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Improved Surveillance",
+  "flags": {},
+  "type": "talent",
+  "folder": "1nvQ9dGJ2CBwwJf9",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385312371,
+    "modifiedTime": 1786039838457,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "ysDf2jDv2dxw8cq6",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!ysDf2jDv2dxw8cq6"
+}

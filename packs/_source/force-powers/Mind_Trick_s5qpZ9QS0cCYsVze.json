@@ -1,0 +1,87 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>See also: <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a></i> </p><p>You use <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a> to alter a target's perceptions or plant a suggestion in its mind. </p><p><b>[<i><a href=\"https://swse.fandom.com/wiki/Mind-Affecting\" class=\"mw-redirect\" title=\"Mind-Affecting\">Mind-Affecting</a></i>]</b> </p><p><b>Time:</b> <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a> </p><p><b>Targets:</b> One creature with an <a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a> score of 3 or higher that is both within 12 squares, and within line of sight. </p><p><b>Make a <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check.</b> If you equal or exceed the target's <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a>, you may choose one of the following effects: </p><ul>\n <li>You create a fleeting hallucination that distracts the target and enables you to use the <a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a> skill even if the target is aware of you.</li> \n <li>You perform a <a href=\"https://swse.fandom.com/wiki/Feint\" class=\"mw-redirect\" title=\"Feint\">Feint</a> so that the next attack you make against the target ignores its <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> (if any).</li> \n <li>You make an otherwise unpalatable suggestion seem completely reasonable to the target. You must be able to communicate with the target, and the suggestion can't obviously threaten the target's life. The target won't realize later that what they did is unacceptable.</li> \n <li>You fill the target with terror, causing it to flee from you at top speed for 1 minute. The affected creature stops fleeing if it is wounded. The effect is negated if the target's level is equal to or higher than your Character Level. This is a Fear effect.</li>\n</ul><p><b>Special:</b> If you are making a suggestion, you may spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> to improve the target's <a href=\"https://swse.fandom.com/wiki/Attitude\" class=\"mw-redirect\" title=\"Attitude\">Attitude</a> by one step, plus one additional step for every 5 points by which your <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check exceeds the target's <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a>. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Mind-Affecting",
+        "key": "tag"
+      },
+      {
+        "mode": 2,
+        "value": "Standard Action",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "One creature with an Intelligence score of 3 or higher that is both within 12 squares, and within line of sight.",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "cumulative"
+      },
+      {
+        "mode": 2,
+        "value": "Use the Force",
+        "key": "rollType"
+      },
+      {
+        "mode": 2,
+        "value": "See also: Force Powers You use The Force to alter a target's perceptions or plant a suggestion in its mind. [Mind-Affecting] Time: Standard Action Targets: One creature with an Intelligence score of 3 or higher that is both within 12 squares, and within line of sight. Make a Use the Force check. If you equal or exceed the target's Will Defense, you may choose one of the following effects: You create a fleeting hallucination that distracts the target and enables you to use the Stealth skill even if the target is aware of you. You perform a Feint so that the next attack you make against the target ignores its Dexterity bonus to Reflex Defense (if any). You make an otherwise unpalatable suggestion seem completely reasonable to the target. You must be able to communicate with the target, and the suggestion can't obviously threaten the target's life. The target won't realize later that what they did is unacceptable. You fill the target with terror, causing it to flee from you at top speed for 1 minute. The affected creature stops fleeing if it is wounded. The effect is negated if the target's level is equal to or higher than your Character Level. This is a Fear effect. Special: If you are making a suggestion, you may spend a Force Point to improve the target's Attitude by one step, plus one additional step for every 5 points by which your Use the Force check exceeds the target's Will Defense.",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Mind-Affecting Force Powers"
+      },
+      {
+        "value": "Force Powers"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Mind Trick",
+  "flags": {},
+  "type": "forcePower",
+  "img": "systems/swse/icon/force-power/Mind_Trick.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738608590536,
+    "modifiedTime": 1738608590536,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "s5qpZ9QS0cCYsVze",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!s5qpZ9QS0cCYsVze"
+}

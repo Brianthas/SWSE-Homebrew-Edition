@@ -1,0 +1,108 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode"
+        }
+      },
+      "statuses": [],
+      "disabled": false,
+      "name": "Single-Shot",
+      "_id": "3gVT3Zw4bi1Rr58h",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513496,
+        "modifiedTime": 1786051513496,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!efeNW1sqsSxWaOtY.3gVT3Zw4bi1Rr58h"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Rebellion_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Rebellion Era Campaign Guide\">Star Wars Saga Edition Rebellion Era Campaign Guide</a></i> </p><p>The shoulder-mounted PLX-2M is derived from Merr-Sonn's Clone Wars-era PLX-1 Portable Missile Launcher. Designed to punch holes through <a href=\"https://swse.fandom.com/wiki/Heavy_Armor\" title=\"Heavy Armor\">Heavy Armor</a>, the \"Plex-Twoem\" is also a particularly effective antipersonnel Weapon. </p><p>When you make an&nbsp;<a href=\"https://swse.fandom.com/wiki/Area_Attack\" class=\"mw-redirect\" title=\"Area Attack\">Area Attack</a>&nbsp;with a PLX-2M, you make a single attack roll and compare the result to the&nbsp;<a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>&nbsp;of every target in the Weapon's <a href=\"https://swse.fandom.com/wiki/Burst\" class=\"mw-redirect\" title=\"Burst\">Burst</a>&nbsp;radius. Creatures you hit take full damage, and creatures you miss take half damage. A target with the&nbsp;<b><a href=\"https://swse.fandom.com/wiki/Evasion\" class=\"mw-redirect\" title=\"Evasion\">Evasion</a></b>&nbsp;talent takes half damage from a successful attack, and no damage if the attack misses. </p><p>The PLX-2M Portable Missile Launcher holds six Arakyd 3t3 Missiles and can be reloaded as a <a href=\"https://swse.fandom.com/wiki/Full-Round_Action\" class=\"mw-redirect\" title=\"Full-Round Action\">Full-Round Action</a>. Replacement Missiles are available in packs of six, costing 350 credits and weighing 8 kg. The PLX-2M weighs 48 kg, but because of the lancher's built-in microrepulsorlift, the Weapon does not count against <a href=\"https://swse.fandom.com/wiki/Encumbrance\" title=\"Encumbrance\">Encumbrance</a> when it is carried as a character's active, drawn Weapon. </p><p><b>Special:</b>&nbsp;This is an&nbsp;<a href=\"https://swse.fandom.com/wiki/Area_Attack\" class=\"mw-redirect\" title=\"Area Attack\">Area Attack</a>&nbsp;Weapon. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "2,250",
+    "weight": "48 Kilograms",
+    "availability": "Military",
+    "size": "Large",
+    "type": "",
+    "subtype": "Heavy Weapons",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "8d6",
+    "damageType": "Energy",
+    "specialQualities": "Special: This is an Area Attack Weapon."
+  },
+  "name": "PLX-2M Portable Missile Launcher",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/PLX_2M_Portable_Missile_Launcher.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513496,
+    "modifiedTime": 1786051513577,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "efeNW1sqsSxWaOtY",
+  "_key": "!items!efeNW1sqsSxWaOtY"
+}

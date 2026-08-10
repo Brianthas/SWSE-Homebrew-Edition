@@ -1,0 +1,66 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A being begins its turn on Rocky Ground.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round at the start of the target's turn, as long as the target remains on the Rocky Ground.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Jump (DC 14): The character leaps over the rubble, gaining a +5 circumstance bonus to Reflex Defense to avoid the Hazard. Stealth (DC 19): Using the same technique used for moving silently, the character slows his or her movement to half speed to avoid taking damage.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: If the Hazard's attack against the target succeeds, the target falls Prone. If the Hazard's attack roll exceeds the target's Reflex Defense by 5 or more, the target falls Prone and also moves backward 1 square.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>Small stones and rubble litter the floor, making it difficult to keep your balance and to move quickly.</i> </p><p>Rocky Ground is common in caves and probably will be present in any subterranean encounter. To increase the peril of this Hazard and add more excitement, use rocky ground near cliffs, pits, and other features that create the possibility of a dangerous fall. An epic <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> duel on rocky ground atop a cliff overlooking a lava flow might be a memorable battle. Likewise, Rocky Ground can add an extra element of danger to combat that takes place around a <a href=\"https://swse.fandom.com/wiki/Sinkhole\" title=\"Sinkhole\">Sinkhole</a>. </p><h2><span id=\"Rocky_Ground_Statistics_.28CL_2.29\"></span><span class=\"mw-headline\" id=\"Rocky_Ground_Statistics_(CL_2)\">Rocky Ground Statistics (CL 2)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Natural </p><p><b>Trigger:</b> A being begins its turn on Rocky Ground. </p><p><b>Attack:</b> +4 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> Each round at the start of the target's turn, as long as the target remains on the Rocky Ground. </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Jump\" title=\"Jump\">Jump</a></b> <b>(DC 14):</b> The character leaps over the rubble, gaining a +5 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> to avoid the Hazard.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a></b> <b>(DC 19):</b> Using the same technique used for moving silently, the character slows his or her movement to half speed to avoid taking damage.</li>\n</ul><p><b>Special:</b> If the Hazard's attack against the target succeeds, the target falls <a href=\"https://swse.fandom.com/wiki/Prone\" class=\"mw-redirect\" title=\"Prone\">Prone</a>. If the Hazard's attack roll exceeds the target's <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> by 5 or more, the target falls <a href=\"https://swse.fandom.com/wiki/Prone\" class=\"mw-redirect\" title=\"Prone\">Prone</a> and also moves backward 1 square. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Rocky Ground",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244697,
+    "modifiedTime": 1749263244697,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "D2AzmMOcuEE1qrQ2",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!D2AzmMOcuEE1qrQ2"
+}

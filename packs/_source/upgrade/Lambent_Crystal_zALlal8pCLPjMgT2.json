@@ -1,0 +1,211 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {}
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Attuned",
+      "_id": "zy5pKvgQGEbu5WsC",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Use the Force:you ignore the normal penalties when using the Sense Force and Sense Surroundings applications of the Use the Force Skill to sense Yuuzhan Vong.",
+            "key": "skillModifier",
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.4.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!zALlal8pCLPjMgT2.zy5pKvgQGEbu5WsC"
+    },
+    {
+      "flags": {
+        "swse": {}
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Ignite",
+      "_id": "LaYOYxL1ywsASzqD",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": 0.3,
+            "key": "auraLuminosity",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 0.4,
+            "key": "auraBright",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 0.9,
+            "key": "auraDim",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": "torch",
+            "key": "auraAnimationType",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 5,
+            "key": "auraAnimationSpeed",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 2,
+            "key": "auraAnimationIntensity",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": "#lightsaberColor#",
+            "key": "auraColor",
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.4.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!zALlal8pCLPjMgT2.LaYOYxL1ywsASzqD"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Jedi_Academy_Training_Manual\" title=\"Star Wars Saga Edition Jedi Academy Training Manual\">Star Wars Saga Edition Jedi Academy Training Manual</a></i> </p><p>Grown by the <a href=\"https://swse.fandom.com/wiki/Yuuzhan_Vong\" title=\"Yuuzhan Vong\">Yuuzhan Vong</a> as part of their biotechnology, Lambent Crystals are used as biological light sources. If you wield an attuned <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> with a Lambert Crystal, you ignore the normal penalties when using the <a href=\"https://swse.fandom.com/wiki/Sense_Force\" class=\"mw-redirect\" title=\"Sense Force\">Sense Force</a> and <a href=\"https://swse.fandom.com/wiki/Sense_Surroundings\" class=\"mw-redirect\" title=\"Sense Surroundings\">Sense Surroundings</a> applications of the <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> Skill to sense <a href=\"https://swse.fandom.com/wiki/Yuuzhan_Vong\" title=\"Yuuzhan Vong\">Yuuzhan Vong</a>. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "itemMod"
+      }
+    ],
+    "choices": [
+      {
+        "noOptions": "NO_AVAILABLE_OPTIONS",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {
+              "payload": "AVAILABLE_LIGHTSABER_COLORS"
+            },
+            "display": "AVAILABLE_LIGHTSABER_COLORS",
+            "name": "AVAILABLE_LIGHTSABER_COLORS",
+            "attributes": {}
+          }
+        ],
+        "description": "Select a lightsaber color.",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": true
+      }
+    ],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "0",
+    "weight": "",
+    "availability": "",
+    "size": "",
+    "type": "",
+    "subtype": "Lightsaber Crystals",
+    "quantity": 1,
+    "hasItemOwner": false,
+    "upgrade": {},
+    "prerequisite": {
+      "text": "Lightsabers",
+      "requirement": "lightsabers",
+      "type": "SUBTYPE"
+    },
+    "source": "Star Wars Saga Edition Jedi Academy Training Manual"
+  },
+  "name": "Lambent Crystal",
+  "flags": {},
+  "type": "upgrade",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263245914,
+    "modifiedTime": 1749263245914,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "zALlal8pCLPjMgT2",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!zALlal8pCLPjMgT2"
+}

@@ -1,0 +1,56 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Once per encounter, can reroll one Strength-based Ability or Skill Check, doubling the character's Strength modifier (minimum +1), or can add 2 to a single damage roll on a successful melee attack, when Strength normally adds to the roll. This does not apply when Weapon Finesse is used.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Near Human Traits:1",
+        "key": "consumes"
+      },
+      {
+        "mode": 2,
+        "value": "Once per encounter, can reroll one Strength-based Ability or Skill Check, doubling the character's Strength modifier (minimum +1), or can add 2 to a single damage roll on a successful melee attack, when Strength normally adds to the roll. This does not apply when Weapon Finesse is used.",
+        "key": "action"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "prerequisite": null,
+    "cost": "0"
+  },
+  "name": "Strength Surge (Near-Human)",
+  "flags": {},
+  "type": "trait",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764446478376,
+    "modifiedTime": 1764446478376,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "NmfSfhuhzFWts7uV",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!NmfSfhuhzFWts7uV"
+}

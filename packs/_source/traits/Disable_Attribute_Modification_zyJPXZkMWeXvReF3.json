@@ -1,0 +1,81 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p>Some Species have set Attribute Arrays</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "disableAttributeModification"
+      },
+      {
+        "mode": 2,
+        "value": 10,
+        "key": "baseStrength"
+      },
+      {
+        "mode": 2,
+        "value": 10,
+        "key": "baseDexterity"
+      },
+      {
+        "mode": 2,
+        "value": 10,
+        "key": "baseConstitution"
+      },
+      {
+        "mode": 2,
+        "value": 10,
+        "key": "baseIntelligence"
+      },
+      {
+        "mode": 2,
+        "value": 10,
+        "key": "baseWisdom"
+      },
+      {
+        "mode": 2,
+        "value": 10,
+        "key": "baseCharisma"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "prerequisite": null,
+    "cost": "0"
+  },
+  "name": "Disable Attribute Modification",
+  "flags": {},
+  "type": "trait",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764446477761,
+    "modifiedTime": 1764446477761,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "zyJPXZkMWeXvReF3",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!zyJPXZkMWeXvReF3"
+}

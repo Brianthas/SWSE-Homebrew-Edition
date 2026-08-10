@@ -1,0 +1,56 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a></i> </p><p>A miniaturized version of a <a href=\"https://swse.fandom.com/wiki/Power_Generator\" title=\"Power Generator\">Power Generator</a>, an Internal Generator can provide continuous power for different Upgrades on a suit of Armor, including any <a href=\"https://swse.fandom.com/wiki/Integrated_Equipment\" title=\"Integrated Equipment\">Integrated Equipment</a>. The Internal Generator can be activated or deactivated as a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>. As long as it's active, an Internal Generator can simultaneously power up to ten different devices that have negligible power requirements (anything without a listed duration). </p><p>For devices with specific power requirements, an Internal Generator can store four units of energy (each the equivalent of an <a href=\"https://swse.fandom.com/wiki/Energy_Cell\" title=\"Energy Cell\">Energy Cell</a>, <a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a>, or 20 rounds of power from a <a href=\"https://swse.fandom.com/wiki/Power_Generator\" title=\"Power Generator\">Power Generator</a>), and it automatically recharges one such unit every hour. A suit of Armor can receive this Upgrade multiple times if more energy capacity is needed, but each Internal Generator adds 10 kg to the weight of the Armor. </p><p>The biggest drawback to an Internal Generator is it's energy signature. If the Internal Generator powers anything but devices with negligible power requirements, any character attempting to detect the wearer with a <a href=\"https://swse.fandom.com/wiki/Sensor_Pack\" title=\"Sensor Pack\">Sensor Pack</a> or <span class=\"new\" title=\"Vehicle Sensors (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvVmVoaWNsZV9TZW5zb3JzP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Vehicle Sensors</span> gains a +5 circumstance bonus on the <a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> or <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> check. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "itemMod"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "1000",
+    "weight": "",
+    "availability": "Common",
+    "size": "",
+    "type": "",
+    "subtype": "Armor Upgrade",
+    "quantity": 1,
+    "hasItemOwner": false,
+    "upgrade": {},
+    "source": "Star Wars Saga Edition Scum and Villainy",
+    "upgradePointCost": "1"
+  },
+  "name": "Internal Generator",
+  "flags": {},
+  "type": "upgrade",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263245661,
+    "modifiedTime": 1749263245661,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "Y5WYeQS2fpDJeBAF",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!Y5WYeQS2fpDJeBAF"
+}

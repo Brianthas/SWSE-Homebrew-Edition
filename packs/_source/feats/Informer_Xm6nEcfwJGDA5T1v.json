@@ -1,0 +1,70 @@
+{
+  "img": "systems/swse/icon/feat/Informer.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Force_Unleashed_Campaign_Guide\" title=\"Star Wars Saga Edition Force Unleashed Campaign Guide\">Star Wars Saga Edition Force Unleashed Campaign Guide</a></i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You are adept at prying into the affairs of others and dealing with those who are most interested in gaining that knowledge.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in <a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a></p><p><b>Effect:</b> You can use your <a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> modifier instead of your <a href=\"https://swse.fandom.com/wiki/Gather_Information\" title=\"Gather Information\">Gather Information</a> modifier when making <a href=\"https://swse.fandom.com/wiki/Gather_Information\" title=\"Gather Information\">Gather Information</a> checks. You are considered <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in the <a href=\"https://swse.fandom.com/wiki/Gather_Information\" title=\"Gather Information\">Gather Information</a> skill. If you are entitled to a <a href=\"https://swse.fandom.com/wiki/Gather_Information\" title=\"Gather Information\">Gather Information</a> check reroll, you can reroll your <a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> check instead (subject to the same circumstances and limitations).</p><p>Additionally, when you have favorable conditions for your <a href=\"https://swse.fandom.com/wiki/Gather_Information\" title=\"Gather Information\">Gather Information</a> check (such as from operating on your home planet), you reduce by half the time it takes to make a <a href=\"https://swse.fandom.com/wiki/Gather_Information\" title=\"Gather Information\">Gather Information</a> check.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:Reference Book: Star Wars Saga Edition Force Unleashed Campaign Guide See also: Feats You are adept at prying into the affairs of others and dealing with those who are most interested in gaining that knowledge. Prerequisite: Trained in Perception Effect: You can use your Perception modifier instead of your Gather Information modifier when making Gather Information checks. You are considered Trained in the Gather Information skill. If you are entitled to a Gather Information check reroll, you can reroll your Perception check instead (subject to the same circumstances and limitations). Additionally, when you have favorable conditions for your Gather Information check (such as from operating on your home planet), you reduce by half the time it takes to make a Gather Information check.",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Trained in Perception",
+      "requirement": "Perception",
+      "type": "TRAINED SKILL"
+    },
+    "categories": [
+      {
+        "value": "Technician Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Noble Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Technician Bonus Feats",
+      "General Feats",
+      "Noble Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Force Unleashed Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Informer",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479027544,
+    "modifiedTime": 1761479027544,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "Xm6nEcfwJGDA5T1v",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!Xm6nEcfwJGDA5T1v"
+}

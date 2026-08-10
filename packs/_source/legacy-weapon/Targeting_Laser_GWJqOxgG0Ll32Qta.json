@@ -1,0 +1,106 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode"
+        }
+      },
+      "statuses": [],
+      "disabled": false,
+      "name": "Single-Shot",
+      "_id": "OkBQdGKVsCQYFdfU",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513562,
+        "modifiedTime": 1786051513562,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!GWJqOxgG0Ll32Qta.OkBQdGKVsCQYFdfU"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_at_War\" title=\"Star Wars Saga Edition Galaxy at War\">Star Wars Saga Edition Galaxy at War</a></i> </p><p>This tiny laser is used to paint targets with a beam of light to guide missiles, bombardment attacks, or other incoming fire, but it otherwise deals no damage. The laser is tunable through a broad spectrum, allowing the attacker to home in on a specific Targeting Laser in the otherwise chaotic jumble of battlefield laser fire. </p><p>To use a Targeting Laser, the wielder makes an attack roll, ignoring any Armor bonuses to the target's <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>. As long as the wielder repeats the attack each round, any ally who knows the frequency of the Targeting Laser gains a +2 bonus to attack rolls when attacking the target with a <a href=\"https://swse.fandom.com/wiki/Missile_Launcher\" title=\"Missile Launcher\">Missile Launcher</a>, <a href=\"https://swse.fandom.com/wiki/Grenade_Launcher\" title=\"Grenade Launcher\">Grenade Launcher</a>, or <a href=\"https://swse.fandom.com/wiki/Vehicle_Weapon\" class=\"mw-redirect\" title=\"Vehicle Weapon\">Vehicle Weapon</a>. </p><p>A Targeting Laser can be used by hand or mounted on any Medium or larger weapon, and requires an <a href=\"https://swse.fandom.com/wiki/Energy_Cell\" title=\"Energy Cell\">Energy Cell</a> to operate. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "50",
+    "weight": "0.1 Kilograms",
+    "availability": "Licensed",
+    "size": "Tiny",
+    "type": "",
+    "subtype": "Simple Ranged Weapons",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageType": "Energy"
+  },
+  "name": "Targeting Laser",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Targeting_Laser.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513562,
+    "modifiedTime": 1786051513596,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "GWJqOxgG0Ll32Qta",
+  "_key": "!items!GWJqOxgG0Ll32Qta"
+}

@@ -1,0 +1,69 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Each of your <a href=\"https://swse.fandom.com/wiki/Followers\" title=\"Followers\">Followers</a> gains the <a href=\"https://swse.fandom.com/wiki/Coordinated_Attack\" title=\"Coordinated Attack\">Coordinated Attack</a> Feat, provided he or she meets the prerequisite. If your <a href=\"https://swse.fandom.com/wiki/Follower\" class=\"mw-redirect\" title=\"Follower\">Follower</a> later meets the prerequisite for the Feat, they gain the Feat at that time.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "FEAT:Coordinated Attack",
+        "key": "followerProvides"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Commanding Officer talent",
+      "requirement": "Commanding Officer",
+      "type": "TALENT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Soldier Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Squad Leader Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Squad_Leader_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Clone Wars Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Coordinated Tactics",
+  "flags": {},
+  "type": "talent",
+  "folder": "KOWWbowgNSnDRJ69",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385312414,
+    "modifiedTime": 1734385312414,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "LdsC8CyqhW9Ee4E5",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!LdsC8CyqhW9Ee4E5"
+}

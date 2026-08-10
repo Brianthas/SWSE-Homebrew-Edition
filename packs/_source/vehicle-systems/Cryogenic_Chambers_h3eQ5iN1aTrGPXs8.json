@@ -1,0 +1,61 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Starship Accessories",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal (Frigate)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal (Cruiser)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal (Station)",
+          "type": "TRAIT"
+        }
+      ],
+      "count": 1,
+      "text": "Colossal or Larger",
+      "type": "OR"
+    },
+    "changes": [],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><p><b>Emplacement Points:</b>&nbsp;2</p><p><b>Size Restriction:</b> Colossal or Larger</p><p>Cryogenic Chambers are hibernation systems that allow live creatures to be carried in stasis. Originally developed prior to the invention of safe <a href=\"https://swse.fandom.com/wiki/Hyperdrive\" title=\"Hyperdrive\">Hyperdrive</a> systems, they are now used to haul herds of livestock (often Nerf or Bantha herds) and to transport critically injured passengers. Each unit of Cryogenic Chambers can carry a number of Medium or smaller creatures equal to (<a href=\"https://swse.fandom.com/wiki/Cost_Modifier_(SotG)\" class=\"mw-redirect\" title=\"Cost Modifier (SotG)\">Cost Modifier</a>)/5. Large creatures take up five times as much space, and Huge creatures take up twenty times as much space.</p>",
+    "cost": "500 (Base)",
+    "emplacementPoints": "2",
+    "availability": "Common"
+  },
+  "name": "Cryogenic Chambers",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317693,
+    "modifiedTime": 1759848317693,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "h3eQ5iN1aTrGPXs8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!h3eQ5iN1aTrGPXs8"
+}

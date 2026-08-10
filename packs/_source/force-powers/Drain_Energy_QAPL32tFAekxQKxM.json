@@ -1,0 +1,99 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Jedi_Academy_Training_Manual\" title=\"Star Wars Saga Edition Jedi Academy Training Manual\">Star Wars Saga Edition Jedi Academy Training Manual</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a></i> </p><p>You can draw the energy out of a powered object, such as a blaster's <a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a> or a <a href=\"https://swse.fandom.com/wiki/Power_Generator\" title=\"Power Generator\">Power Generator</a>. </p><p><b>Time:</b>&nbsp;<a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a> </p><p><b>Targets:</b>&nbsp;One powered weapon or object within 6 squares of you, and within range of sight. </p><p><b>Make a&nbsp;<a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a>&nbsp;check. </b>The result of the check determines the effects, if any: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td> </td> \n   <td>You drain the energy from the energy cell or cells powering a Small or smaller weapon or powered object. You completely drain the object of its energy, and it cannot be used until its <a href=\"https://swse.fandom.com/wiki/Energy_Cells\" class=\"mw-redirect\" title=\"Energy Cells\">Energy Cells</a> are replaced. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td> </td> \n   <td>You drain the energy from the energy cell or cells powering a Medium or smaller weapon or powered object. You completely drain the object of its energy, and it cannot be used until its <a href=\"https://swse.fandom.com/wiki/Energy_Cells\" class=\"mw-redirect\" title=\"Energy Cells\">Energy Cells</a> are replaced. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td> </td> \n   <td>You drain the energy from the energy cell or cells powering a Large or smaller weapon or powered object. You completely drain the object of its energy, and it cannot be used until its <a href=\"https://swse.fandom.com/wiki/Energy_Cells\" class=\"mw-redirect\" title=\"Energy Cells\">Energy Cells</a> are replaced. </td>\n  </tr> \n  <tr> \n   <td>35 </td> \n   <td> </td> \n   <td>You drain the energy from the energy cell or cells powering a Huge or smaller weapon or powered object. You completely drain the object of its energy, and it cannot be used until its <a href=\"https://swse.fandom.com/wiki/Energy_Cells\" class=\"mw-redirect\" title=\"Energy Cells\">Energy Cells</a> are replaced. If the object is being powered by a <a href=\"https://swse.fandom.com/wiki/Power_Generator\" title=\"Power Generator\">Power Generator</a>, you drain all of the power from that instead. </td>\n  </tr>\n </tbody>\n</table><p><b>Special: </b>You can spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> to increase the size of the object that can be drained by one size category (up to Gargantuan). </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Standard Action",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "One powered weapon or object within 6 squares of you, and within range of sight.",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "cumulative"
+      },
+      {
+        "mode": 2,
+        "value": "Use the Force",
+        "key": "rollType"
+      },
+      {
+        "mode": 2,
+        "value": "20:You drain the energy from the energy cell or cells powering a Small or smaller weapon or powered object. You completely drain the object of its energy, and it cannot be used until its Energy Cells are replaced.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "25:You drain the energy from the energy cell or cells powering a Medium or smaller weapon or powered object. You completely drain the object of its energy, and it cannot be used until its Energy Cells are replaced.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "30:You drain the energy from the energy cell or cells powering a Large or smaller weapon or powered object. You completely drain the object of its energy, and it cannot be used until its Energy Cells are replaced.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "35:You drain the energy from the energy cell or cells powering a Huge or smaller weapon or powered object. You completely drain the object of its energy, and it cannot be used until its Energy Cells are replaced. If the object is being powered by a Power Generator, you drain all of the power from that instead.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "Reference Book: Star Wars Saga Edition Jedi Academy Training Manual See also: Force Powers You can draw the energy out of a powered object, such as a blaster's Power Pack or a Power Generator. Time: Standard Action Targets: One powered weapon or object within 6 squares of you, and within range of sight. Make a Use the Force check. The result of the check determines the effects, if any: Special: You can spend a Force Point to increase the size of the object that can be drained by one size category (up to Gargantuan).",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Force Powers"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Drain Energy",
+  "flags": {},
+  "type": "forcePower",
+  "img": "systems/swse/icon/force-power/Drain_Energy.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738608589749,
+    "modifiedTime": 1738608589749,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "QAPL32tFAekxQKxM",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!QAPL32tFAekxQKxM"
+}

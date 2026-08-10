@@ -1,0 +1,79 @@
+{
+  "img": "systems/swse/icon/feat/Attack_Combo_Fire_and_Strike.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Legacy_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Legacy Era Campaign Guide\">Star Wars Saga Edition Legacy Era Campaign Guide</a></i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You can make deadly ranged and melee attacks in rapid succession.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Attack_Combo_(Melee)\" title=\"Attack Combo (Melee)\">Attack Combo (Melee)</a>, <a href=\"https://swse.fandom.com/wiki/Attack_Combo_(Ranged)\" title=\"Attack Combo (Ranged)\">Attack Combo (Ranged)</a>, <a href=\"https://swse.fandom.com/wiki/Base_Attack_Bonus\" class=\"mw-redirect\" title=\"Base Attack Bonus\">Base Attack Bonus</a> +9</p><p><b>Effect:</b> If you hit a single target with two consecutive ranged, melee, and/or <a href=\"https://swse.fandom.com/wiki/Unarmed\" class=\"mw-redirect\" title=\"Unarmed\">Unarmed</a> attacks during the same turn, any additional ranged, melee, or <a href=\"https://swse.fandom.com/wiki/Unarmed\" class=\"mw-redirect\" title=\"Unarmed\">Unarmed</a> attacks you make until the end of your next turn (including <a href=\"https://swse.fandom.com/wiki/Attacks_of_Opportunity\" title=\"Attacks of Opportunity\">Attacks of Opportunity</a> and attacks made as <a href=\"https://swse.fandom.com/wiki/Reactions\" class=\"mw-redirect\" title=\"Reactions\">Reactions</a>) deal +1 die of damage on a hit. This extra damage stacks with extra damage granted by other <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a> or <a href=\"https://swse.fandom.com/wiki/Talents\" title=\"Talents\">Talents</a>.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Attack Combo (Melee) feat",
+          "requirement": "Attack Combo (Melee)",
+          "type": "FEAT"
+        },
+        {
+          "text": "Attack Combo (Ranged) feat",
+          "requirement": "Attack Combo (Ranged)",
+          "type": "FEAT"
+        },
+        {
+          "text": "Base Attack Bonus 9",
+          "requirement": "9",
+          "type": "BASE ATTACK BONUS"
+        }
+      ],
+      "text": "Attack Combo (Melee) feat, Attack Combo (Ranged) feat, and Base Attack Bonus 9",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Soldier Bonus Feats"
+      },
+      {
+        "value": "Ranged Feats"
+      },
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Bonus Feats",
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Legacy Era Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Attack Combo (Fire and Strike)",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479025884,
+    "modifiedTime": 1761479025884,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "OJFVPQUiFPJ7DVXb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!OJFVPQUiFPJ7DVXb"
+}

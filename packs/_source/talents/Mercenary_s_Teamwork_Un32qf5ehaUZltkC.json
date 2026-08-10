@@ -1,0 +1,74 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You gain a +2 bonus to damage rolls for each ally that has damaged your target since the end of your last turn (to a maximum of +10).",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Combined Fire (Mercenary Talent Tree) talent",
+          "requirement": "Combined Fire (Mercenary Talent Tree)",
+          "type": "TALENT"
+        },
+        {
+          "text": "Coordinated Attack feat",
+          "requirement": "Coordinated Attack",
+          "type": "FEAT"
+        }
+      ],
+      "text": "Combined Fire (Mercenary Talent Tree) talent, and Coordinated Attack feat",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Soldier Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Mercenary Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Mercenary_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Threats of the Galaxy",
+    "cost": "0"
+  },
+  "name": "Mercenary's Teamwork",
+  "flags": {},
+  "type": "talent",
+  "folder": "IPYvuVDYQ2hmHAe6",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385309328,
+    "modifiedTime": 1734385309328,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "Un32qf5ehaUZltkC",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!Un32qf5ehaUZltkC"
+}

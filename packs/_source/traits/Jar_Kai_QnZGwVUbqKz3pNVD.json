@@ -1,0 +1,51 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "When you use the Lightsaber Defense Talent, you gain twice the normal deflection bonus to your Reflex Defense when you are wielding two Lightsabers.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "*2",
+        "key": "lightsaberDefense"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "prerequisite": null,
+    "cost": "0"
+  },
+  "name": "Jar'Kai",
+  "flags": {},
+  "type": "trait",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764446478257,
+    "modifiedTime": 1764446478257,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "QnZGwVUbqKz3pNVD",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!QnZGwVUbqKz3pNVD"
+}

@@ -1,0 +1,51 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p>A being may <a href=\"https://swse.fandom.com/wiki/Take_10\" class=\"mw-redirect\" title=\"Take 10\">Take 10</a> on <a href=\"https://swse.fandom.com/wiki/Jump\" title=\"Jump\">Jump</a> checks even when distracted or threatened. They may also choose to reroll any <a href=\"https://swse.fandom.com/wiki/Jump\" title=\"Jump\">Jump</a> check, but the result of the reroll must be accepted, even if it is worse.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Jump::A being may Take 10 on Jump checks even when distracted or threatened. They may also choose to reroll any Jump check, but the result of the reroll must be accepted, even if it is worse.",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "prerequisite": null,
+    "cost": "0"
+  },
+  "name": "Expert Jumper",
+  "flags": {},
+  "type": "trait",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764446475805,
+    "modifiedTime": 1764446475805,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "l0D886JypvRf0Eh5",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!l0D886JypvRf0Eh5"
+}

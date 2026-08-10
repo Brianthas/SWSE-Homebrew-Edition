@@ -1,0 +1,71 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "4d6",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A being begins its turn within a Production Assembly Line.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round at the start of the target's turn, as long as the target remains within the Production Assembly Line.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Acrobatics (DC 26): The character twists and rolls between the mechanisms, gaining a +2 circumstance bonus to Reflex Defense against the Hazard. Mechanics (DC 31): The character sabotages the equipment as they move through it, imposing a -5 penalty to the Hazard's attacks. Use Computer (DC 31): Slicing into the controls, the character shuts down the Production Assembly Line.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: If the Hazard's attack roll exceeds the target's Reflex Defense by 5 or more, the target becomes Pinned on the Production Assembly Line. The Hazard gains a +5 bonus to attack rolls against the target until the target escapes being Pinned.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Artificial"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>A massive network of machines is in full production; moving through the room would be extremely dangerous.</i> </p><p>Creatures trying to move through a Production Assembly Line face a number of problems. The line itself, where products are assembled, usually has enough space for creatures to maneuver and possibly fight against opponents. The mechanisms that run the line provide creatures with <a href=\"https://swse.fandom.com/wiki/Cover\" title=\"Cover\">Cover</a> or <a href=\"https://swse.fandom.com/wiki/Concealment\" title=\"Concealment\">Concealment</a> during a firefight. In addition, the items being assembled might be weapons, tools, or other objects that combatants can use during battle. </p><h2><span id=\"Production_Assembly_Line_Statistics_.28CL_12.29\"></span><span class=\"mw-headline\" id=\"Production_Assembly_Line_Statistics_(CL_12)\">Production Assembly Line Statistics (CL 12)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Artificial </p><p><b>Trigger:</b> A being begins its turn within a Production Assembly Line. </p><p><b>Attack:</b> +14 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> Each round at the start of the target's turn, as long as the target remains within the Production Assembly Line. </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Acrobatics\" title=\"Acrobatics\">Acrobatics</a> (DC 26):</b> The character twists and rolls between the mechanisms, gaining a +2 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against the Hazard.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> (DC 31):</b> The character sabotages the equipment as they move through it, imposing a -5 penalty to the Hazard's attacks.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> (DC 31):</b> Slicing into the controls, the character shuts down the Production Assembly Line.</li>\n</ul><p><b>Special:</b> If the Hazard's attack roll exceeds the target's <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> by 5 or more, the target becomes <a href=\"https://swse.fandom.com/wiki/Pinned\" class=\"mw-redirect\" title=\"Pinned\">Pinned</a> on the Production Assembly Line. The Hazard gains a +5 bonus to attack rolls against the target until the target escapes being <a href=\"https://swse.fandom.com/wiki/Pinned\" class=\"mw-redirect\" title=\"Pinned\">Pinned</a>. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Production Assembly Line",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244664,
+    "modifiedTime": 1749263244664,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "FPq0bL31VW7lHas0",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!FPq0bL31VW7lHas0"
+}

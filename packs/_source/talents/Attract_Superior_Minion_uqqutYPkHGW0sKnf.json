@@ -1,0 +1,83 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You attract a particularly skilled and powerful Minion. The Minion is a <a href=\"https://swse.fandom.com/wiki/Nonheroic\" title=\"Nonheroic\">Nonheroic</a> character with a Class Level equal to your Character Level. This Talent otherwise functions as the <b>Attract Minion</b> Talent.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Attract Minion talent",
+          "requirement": "Attract Minion",
+          "type": "TALENT"
+        },
+        {
+          "text": "Impel Ally I talent",
+          "requirement": "Impel Ally I",
+          "type": "TALENT"
+        },
+        {
+          "text": "Impel Ally II talent",
+          "requirement": "Impel Ally II",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Attract Minion talent, Impel Ally I talent, and Impel Ally II talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Crime Lord Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Crime Lord Talent Trees",
+      "Core Rulebook"
+    ],
+    "isSupplied": false,
+    "talentTree": "Mastermind Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Mastermind_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Galaxy of Intrigue",
+    "cost": "0"
+  },
+  "name": "Attract Superior Minion",
+  "flags": {},
+  "type": "talent",
+  "folder": "wsqs0ZuAxwCa4ADs",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385308855,
+    "modifiedTime": 1734385308855,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "uqqutYPkHGW0sKnf",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!uqqutYPkHGW0sKnf"
+}

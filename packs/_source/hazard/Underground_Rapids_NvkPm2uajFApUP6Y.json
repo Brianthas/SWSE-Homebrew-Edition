@@ -1,0 +1,66 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2d6",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A being begins its turn within Underground Rapids.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round at the start of the target's turn, as long as the target remains within the Underground Rapids.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Acrobatics (DC 27): The character tumbles across the rocks to avoid the water, gaining a +2 circumstance bonus to Reflex Defense against the Underground Rapids. Jump (DC 27): The character leaps from rock to rock to avoid the water, gaining a +2 circumstance bonus to Reflex Defense against the Hazard. Perception (DC 22): The character determines which rocks are least affected by the rushing water and offer the most stable footing, gaining a +5 circumstance bonus to Reflex Defense against the Hazard.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>A torrent of water rushes through a narrow cavern. A series of wet rocks is your only path across the rapids.</i> </p><p>Water can flow underground just as forcefully as it does on the surface, carving its own path through rock and soil alike. As creatures travel through subterranean tunnels, they might find or follow an underground waterway, perhaps as a means of reaching a particular destination or as a way of avoiding enemies in pursuit. As happens in rivers on the surface, a series of rocks resisting the flow could serve as either an obstacle to the heroes' progress or as a footbridge allowing them to cross the rapids. In either case, dealing with the rapids is a risky venture, since heroes who fall into the water can be slammed into the rocks. </p><h2><span id=\"Underground_Rapids_Statistics_.28CL_7.29\"></span><span class=\"mw-headline\" id=\"Underground_Rapids_Statistics_(CL_7)\">Underground Rapids Statistics (CL 7)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Natural </p><p><b>Trigger:</b> A being begins its turn within Underground Rapids. </p><p><b>Attack:</b> +9 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> Each round at the start of the target's turn, as long as the target remains within the Underground Rapids. </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Acrobatics\" title=\"Acrobatics\">Acrobatics</a></b> <b>(DC 27):</b> The character tumbles across the rocks to avoid the water, gaining a +2 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against the Underground Rapids.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Jump\" title=\"Jump\">Jump</a></b> <b>(DC 27):</b> The character leaps from rock to rock to avoid the water, gaining a +2 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against the Hazard.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a></b> <b>(DC 22):</b> The character determines which rocks are least affected by the rushing water and offer the most stable footing, gaining a +5 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against the Hazard.</li>\n</ul>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Underground Rapids",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244866,
+    "modifiedTime": 1749263244866,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "NvkPm2uajFApUP6Y",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!NvkPm2uajFApUP6Y"
+}

@@ -1,0 +1,130 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode"
+        }
+      },
+      "statuses": [],
+      "disabled": false,
+      "name": "Autofire",
+      "_id": "seLEmS9057nJSoCe",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": -5,
+            "key": "toHitModifier",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          },
+          {
+            "value": true,
+            "key": "skipCriticalMultiply",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          },
+          {
+            "value": 10,
+            "key": "ammoUse",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513532,
+        "modifiedTime": 1786051513532,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!7WG9IBPOQjiYGGsR.seLEmS9057nJSoCe"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p>The E-Web Repeating Blaster can normally only be fired when mounted on a tripod. When mounted on a tripod, it is treated as one size smaller for purposes of being wielded (allowing a Medium character to operate it with two hands). </p><p>The E-Web Repeating Blaster only operates in <a href=\"https://swse.fandom.com/wiki/Autofire\" title=\"Autofire\">Autofire</a> mode, and requires a <a href=\"https://swse.fandom.com/wiki/Power_Generator\" title=\"Power Generator\">Power Generator</a> to operate. Normally, the E-Web Repeating Blaster requires a second crewman to regulate the weapon's <a href=\"https://swse.fandom.com/wiki/Power_Generator\" title=\"Power Generator\">Power Generator</a>; this second crewman must spend a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a> while adjacent to the weapon to regulate its power. </p><p>After you regulate the E-Web Repeating Blaster's power, it will function normally until the beginning of your next turn. If the weapon's power is not regulated (that is, if the second crewman has not done so since the same <a href=\"https://swse.fandom.com/wiki/Initiative_Count\" class=\"mw-redirect\" title=\"Initiative Count\">Initiative Count</a> on the previous round), apply a -2 penalty on all attack rolls made with the weapon. </p><p><b>Special:</b> An E-Web Repeating Blaster mounted on a tripod is treated as a Large weapon, rather than Huge. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "8,000",
+    "weight": "38 Kilograms",
+    "availability": "Military",
+    "size": "Huge",
+    "type": "",
+    "subtype": "Heavy Weapons",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "3d12",
+    "damageType": "Energy",
+    "specialQualities": "Special: An E-Web Repeating Blaster mounted on a tripod is treated as a Large weapon, rather than Huge."
+  },
+  "name": "E-Web Repeating Blaster",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/E_Web_Repeating_Blaster.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513532,
+    "modifiedTime": 1786051513589,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "7WG9IBPOQjiYGGsR",
+  "_key": "!items!7WG9IBPOQjiYGGsR"
+}

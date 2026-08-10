@@ -1,0 +1,107 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode"
+        }
+      },
+      "statuses": [],
+      "disabled": false,
+      "name": "Single-Shot",
+      "_id": "salqss08msddrWrk",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513477,
+        "modifiedTime": 1786051513477,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!VQmYqTptLBlYOOME.salqss08msddrWrk"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p>The Black-Powder Pistol's usage or possession is rarely regulated, because it is considered antique on most worlds. Although reloading the weapon is slow and the weapon has a limited <a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a>, its main benefit is that knowledgeable explorers can usually scrounge together the materials to produce ammunition no matter where in the galaxy they might be. </p><p>Black-Powder Pistols are notoriously finicky and require frequent maintenance. Many a spacer forced to use an ill-kept Black Powder Pistol has had it literally fizzle on him or her. </p><p>A Black-Powder Pistol must be reloaded after each shot and requires a <a href=\"https://swse.fandom.com/wiki/Full-Round_Action\" class=\"mw-redirect\" title=\"Full-Round Action\">Full-Round Action</a> to reload, preventing the use of any <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a> or <a href=\"https://swse.fandom.com/wiki/Talents\" title=\"Talents\">Talents</a> that allow multiple shots. Ammunition can be purchased in sets of 50 shots and costs 5 credits per set. </p><p>A character <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> can attempt to forage for supplies to make his or her own ammunition, requiring a DC 20 <a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> check to search the area for the necessary materials. One hour and a DC 15 <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> check can produce enough ammunition for 5 shots, and an extra 5 shots are produced for every 5 points by which the check result exceeds the DC. </p><p><b>Inaccurate:</b>&nbsp;This weapon cannot fire at targets at Long&nbsp;<a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a>. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "200",
+    "weight": "1.4 Kilograms",
+    "availability": "Rare",
+    "size": "Small",
+    "type": "",
+    "subtype": "Pistols",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "2d4",
+    "damageType": "Piercing"
+  },
+  "name": "Black-Powder Pistol",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Black_Powder_Pistol.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513477,
+    "modifiedTime": 1786051513572,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "VQmYqTptLBlYOOME",
+  "_key": "!items!VQmYqTptLBlYOOME"
+}

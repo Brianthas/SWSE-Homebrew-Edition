@@ -1,0 +1,62 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2d12",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Poisons, Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A creature is exposed to Obah.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round at the start of the target's turn, as long as the target remains exposed to Obah.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Atmosphere",
+          "Poison"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_at_War\" title=\"Star Wars Saga Edition Galaxy at War\">Star Wars Saga Edition Galaxy at War</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Poisons\" title=\"Poisons\">Poisons</a>, <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p>Obah is a nerve agent capable of paralyzing most <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>. </p><h2><span id=\"Obah_Statistics_.28CL_6.29\"></span><span class=\"mw-headline\" id=\"Obah_Statistics_(CL_6)\">Obah Statistics (CL 6)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Atmosphere, Poison </p><p><b>Trigger:</b> A creature is exposed to Obah. </p><p><b>Attack:</b> +8 vs <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> </p><p><b>Recurrence:</b> Each round at the start of the target's turn, as long as the target remains exposed to Obah. </p>",
+    "source": "Star Wars Saga Edition Galaxy at War",
+    "cost": "0"
+  },
+  "name": "Obah",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244647,
+    "modifiedTime": 1749263244647,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "Lnj3vdKtaLQwSMcA",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!Lnj3vdKtaLQwSMcA"
+}

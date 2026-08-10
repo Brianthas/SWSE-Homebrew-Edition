@@ -1,0 +1,107 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode"
+        }
+      },
+      "statuses": [],
+      "disabled": false,
+      "name": "Single-Shot",
+      "_id": "C7qOnmn0XSAbW5Kt",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513561,
+        "modifiedTime": 1786051513561,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!ctxXNHS1AscbMJNA.C7qOnmn0XSAbW5Kt"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:</i>&nbsp;<i><a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i> </p><p>The Ripper is designed to bypass personal energy shields by dealing physical damage. The Ripper is a pistol that fires a variety of oddly shaped pieces of shrapnel, similar to the <a href=\"https://swse.fandom.com/wiki/Flechette_Launchers\" class=\"mw-redirect\" title=\"Flechette Launchers\">Flechette Launchers</a> that will be used during the Galactic Civil War. A Ripper's irregularly shaped ammunition penetrates deep into the target's body, damaging it severely. </p><p>If a Ripper moves a target at least 1 step down the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a> by dealing damage exceeding the target's <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a>, shrapnel embedded in the target's body immediately deals an additional 1d4 Piercing damage. </p><p>A Ripper requires an ammunition clip (20 credits, 0.1 kg). After 10 shots, the clip must be replaced. </p><p><b>Inaccurate:</b>&nbsp;This weapon cannot fire at targets at Long&nbsp;<a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a>. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "750",
+    "weight": "1 Kilogram",
+    "availability": "Licensed",
+    "size": "Small",
+    "type": "",
+    "subtype": "Pistols",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "2d4",
+    "damageType": "Slashing"
+  },
+  "name": "Ripper",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Ripper.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513561,
+    "modifiedTime": 1786051513596,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "ctxXNHS1AscbMJNA",
+  "_key": "!items!ctxXNHS1AscbMJNA"
+}

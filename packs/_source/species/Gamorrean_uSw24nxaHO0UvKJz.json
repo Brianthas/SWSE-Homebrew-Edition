@@ -1,0 +1,155 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p>Gamorreans are green-skinned, porcine creatures native to <a href=\"https://swse.fandom.com/wiki/Gamorr\" title=\"Gamorr\">Gamorr</a>. Their tendency toward violence makes them valued as criminal enforcers; though viewed as mindless brutes, they don't care so long as they are paid to fight. </p><p>Gamorrean civilization revolves around the never-ending wars between their clans. Preferring large melee weapon in combat, many see ranged weapons as cowardly. Males live to fight; females farm, hunt, and manufacture weapons. Inter-clan hatred rarely fades, and anyone hiring Gamorreans should be aware of their clans to avoid infighting. </p><h3><span class=\"mw-headline\" id=\"Gamorrean_Characteristics\">Gamorrean Characteristics</span></h3><p><b>Personality:</b> Gamorreans are brutish, violent, and proud. They respect physical prowess and have no problem facing death against a foe they feel they are on at least equal footing with. </p><p><b>Physical Description:</b> Gamorreans average about 1.8 meters tall, with thick green skin covering powerful muscles. Close-set eyes, a thick snout, tusks, and small horns give them a distinct look. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Gamorreans age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-6 Years </td> \n   <td>7-12 Years </td> \n   <td>13-29 Years </td> \n   <td>30-39 Years </td> \n   <td>40-44 Years </td> \n   <td>45+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The preindustrial world of <a href=\"https://swse.fandom.com/wiki/Gamorr\" title=\"Gamorr\">Gamorr</a>. </p><p><b>Languages:</b> Gamorreans speak Gamorrean. They have no written version of the language. They can learn to understand, but not speak other languages. </p><p><b>Example Names:</b> Gartogg, Jubnuk, Ortugg, Ugmush, Venorra, Warlug. </p><p><b>Adventurers:</b> Some Gamorreans leave their homeworld as slaves, but later escape or buy out their contracts. Others sell their contracts, finding employment as bodyguards or enforcers. A Gamorrean is constantly at war; it's only a matter of figuring out who the enemy is. Gamorrean Heroes tend to select the <a href=\"https://swse.fandom.com/wiki/Soldier\" title=\"Soldier\">Soldier</a> class. </p><h3><span class=\"mw-headline\" id=\"Gamorrean_Species_Traits\">Gamorrean Species Traits</span></h3><p>Gamorreans share the following Species Traits: </p><h2><span class=\"mw-headline\" id=\"Additional_Gamorrean_Species_Feats\">Additional Gamorrean Species Feats</span></h2><p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Rebellion_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Rebellion Era Campaign Guide\">Star Wars Saga Edition Rebellion Era Campaign Guide</a></i> </p><p>Gamorrean characters have access to the following <a href=\"https://swse.fandom.com/wiki/Species_Feats\" class=\"mw-redirect\" title=\"Species Feats\">Species Feats</a>. No Species Feats are considered Bonus Feats for any <a href=\"https://swse.fandom.com/wiki/Heroic_Class\" class=\"mw-redirect\" title=\"Heroic Class\">Heroic Class</a>. </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>SPECIES FEAT </th> \n   <th> </th> \n   <th>BENEFITS </th>\n  </tr> \n  <tr> \n   <td><a href=\"https://swse.fandom.com/wiki/Increased_Resistance\" title=\"Increased Resistance\">Increased Resistance</a> </td> \n   <td> </td> \n   <td>Gain a bonus to <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> when an enemy fails to affect you. </td>\n  </tr> \n  <tr> \n   <td><a href=\"https://swse.fandom.com/wiki/Primitive_Warrior\" title=\"Primitive Warrior\">Primitive Warrior</a> </td> \n   <td> </td> \n   <td>Deal +1 die of damage with <a href=\"https://swse.fandom.com/wiki/Simple_Weapons_(Melee)\" title=\"Simple Weapons (Melee)\">Simple Weapons (Melee)</a>. </td>\n  </tr> \n  <tr> \n   <td><a href=\"https://swse.fandom.com/wiki/Quick_Comeback\" title=\"Quick Comeback\">Quick Comeback</a> </td> \n   <td> </td> \n   <td>Recover quickly after being moved down the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a> by damage. </td>\n  </tr>\n </tbody>\n</table>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Gamorrean",
+        "key": "maySpeak"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Bonus Feat (Improved Damage Threshold)",
+        "type": "trait"
+      },
+      {
+        "name": "Great Fortitude",
+        "type": "trait"
+      },
+      {
+        "name": "Primitive",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Improved Damage Threshold",
+        "type": "feat"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "39",
+          "low": "30",
+          "text": "30-39",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "44",
+          "low": "40",
+          "text": "40-44",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "12",
+          "low": "7",
+          "text": "7-12",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "6",
+          "low": "1",
+          "text": "1-6",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "45",
+          "text": "45+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "29",
+          "low": "13",
+          "text": "13-29",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Weapon Familiarity (Arg'garok:Advanced Melee)",
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Bonus Feat (Improved Damage Threshold)"
+      },
+      {
+        "value": "Gamorreans"
+      },
+      {
+        "value": "Great Fortitude"
+      },
+      {
+        "value": "Primitive"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Weapon Familiarity"
+      },
+      {
+        "value": "Species"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Gamorrean",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535566128,
+    "modifiedTime": 1736535566128,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "uSw24nxaHO0UvKJz",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!uSw24nxaHO0UvKJz"
+}

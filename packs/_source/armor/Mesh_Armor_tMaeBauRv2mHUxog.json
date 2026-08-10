@@ -1,0 +1,62 @@
+{
+  "name": "Mesh Armor",
+  "type": "armor",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Homebrew Armor (tovec.wikidot.com/episode-vii)</i></p><p>Replaces your Dexterity modifier with a flat +5 for Reflex Defense.</p><p>No speed penalty or Armor Check Penalty. Has 1 Upgrade Point (not yet mechanically implemented).</p><p><b>Beskar'gam Upgrade</b> (Mandalorians only): Damage Reduction 2.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Armor",
+        "key": "armorType"
+      }
+    ],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "0",
+    "weight": "",
+    "availability": "",
+    "size": "",
+    "type": "",
+    "subtype": "Armor",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "armorType": "",
+    "equipped": "",
+    "stripping": {},
+    "armorDexterityOverride": 5,
+    "armorFlatSpeedPenalty": 0
+  },
+  "_id": "tMaeBauRv2mHUxog",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786043327050,
+    "modifiedTime": 1786044511447,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!tMaeBauRv2mHUxog"
+}

@@ -1,0 +1,45 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p>Beings can be of different size under certain circumstances.</p><p><b><a href=\"https://swse.fandom.com/wiki/Category:Tiny\" title=\"Category:Tiny\">Tiny</a>:</b> As Tiny creatures, beings gain a +2 size bonus to their <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> and a +10 size bonus on <a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a> checks. However, their lifting and carrying limits are one half of those of <a href=\"https://swse.fandom.com/wiki/Category:Medium\" title=\"Category:Medium\">Medium</a> characters.</p><p><b><a href=\"https://swse.fandom.com/wiki/Category:Small\" title=\"Category:Small\">Small</a>:</b> As Small creatures, beings gain a +1 size bonus to their <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> and a +5 size bonus on <a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a> checks. However, their lifting and carrying limits are three-quarters of those of <a href=\"https://swse.fandom.com/wiki/Category:Medium\" title=\"Category:Medium\">Medium</a> characters.</p><p><b><a href=\"https://swse.fandom.com/wiki/Category:Medium\" title=\"Category:Medium\">Medium</a>:</b> As Medium creatures, beings have no special bonuses or penalties due to their size.</p><p><b><a href=\"https://swse.fandom.com/wiki/Category:Large\" title=\"Category:Large\">Large</a>:</b> As Large creatures, beings take a -1 size penalty to their <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> and a -5 size penalty on <a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a> checks, and they gain a +5 size bonus to their <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a>. Their lifting and carrying limits are double those of <a href=\"https://swse.fandom.com/wiki/Category:Medium\" title=\"Category:Medium\">Medium</a> characters.</p><p><b><a href=\"https://swse.fandom.com/wiki/Category:Huge\" title=\"Category:Huge\">Huge</a>:</b> As Huge creatures, beings take a -2 size penalty to their <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> and a -10 size penalty on <a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a> checks, and they gain a +10 size bonus to their <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a>. Their lifting and carrying limits are quadruple those of <a href=\"https://swse.fandom.com/wiki/Category:Medium\" title=\"Category:Medium\">Medium</a> characters.</p><table class=\"wikitable\">\n <tbody>\n  <tr>\n   <th>BEING SIZE</th>\n   <th>BASE SPEED</th>\n   <th><a href=\"https://swse.fandom.com/wiki/GRAPPLE\" class=\"mw-redirect\" title=\"GRAPPLE\">GRAPPLE</a> MODIFIER</th>\n   <th>UNARMED ATTACK DAMAGE</th>\n   <th>SPECIAL</th>\n  </tr>\n  <tr>\n   <td>Tiny</td>\n   <td>4 Squares</td>\n   <td>-10</td>\n   <td>1d2</td>\n   <td>-</td>\n  </tr>\n  <tr>\n   <td>Small</td>\n   <td>4 Squares</td>\n   <td>-5</td>\n   <td>1d3</td>\n   <td>Armor costs and weight halved</td>\n  </tr>\n  <tr>\n   <td>Medium</td>\n   <td>6 Squares</td>\n   <td>+0</td>\n   <td>1d4</td>\n   <td>-</td>\n  </tr>\n  <tr>\n   <td>Large</td>\n   <td>8 Squares</td>\n   <td>+5</td>\n   <td>1d6</td>\n   <td>Armor costs and weight doubled</td>\n  </tr>\n  <tr>\n   <td>Huge</td>\n   <td>8 Squares</td>\n   <td>+10</td>\n   <td>1d8</td>\n   <td>-</td>\n  </tr>\n </tbody>\n</table>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "prerequisite": null,
+    "cost": "0"
+  },
+  "name": "Variable Size",
+  "flags": {},
+  "type": "trait",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764446477021,
+    "modifiedTime": 1764446477021,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "erWTCHr1H0aMSguW",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!erWTCHr1H0aMSguW"
+}

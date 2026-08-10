@@ -1,4 +1,4 @@
-import {commonHomebrewOptions, darthauthorHomebrewOptions, lilLiteralistHomebrewOptions} from "./homebrew.mjs";
+import {commonHomebrewOptions, lilLiteralistHomebrewOptions} from "./homebrew.mjs";
 import {registerCSSColor} from "./helper-functions.mjs";
 
 
@@ -30,7 +30,6 @@ export function registerSystemSettings() {
 
     commonHomebrewOptions();
     lilLiteralistHomebrewOptions();
-    darthauthorHomebrewOptions();
 }
 
 
@@ -120,13 +119,5 @@ function optionalRules() {
             "Point Buy": "Generate with Point Buy",
             "Manual": "Manual Input"
         }
-    });
-    game.settings.register("swse", "enableEncumbranceByWeight", {
-        name: "Enable encumbrance by weight.",
-        hint: "",
-        scope: "world",
-        config: true,
-        default: true,
-        type: Boolean
     });
 }

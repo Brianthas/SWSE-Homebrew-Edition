@@ -1,0 +1,63 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "When using the <a href=\"https://swse.fandom.com/wiki/Aim\" title=\"Aim\">Aim</a> Action, you gain the benefit of the <a href=\"https://swse.fandom.com/wiki/Point-Blank_Shot\" title=\"Point-Blank Shot\">Point-Blank Shot</a> feat against your target, regardless of <a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a> category.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Far Shot feat",
+      "requirement": "Far Shot",
+      "type": "FEAT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Gunslinger Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Gunslinger Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Sharpshooter Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Sharpshooter_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Galaxy at War",
+    "cost": "0"
+  },
+  "name": "Precision Shot",
+  "flags": {},
+  "type": "talent",
+  "folder": "nbrMKW7DB6gly31d",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385311645,
+    "modifiedTime": 1734385311645,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "drVqB7ztLUYYJL21",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!drVqB7ztLUYYJL21"
+}

@@ -1,0 +1,40 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Defense Systems",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "comJamming"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a></i></p><p><b>Emplacement Points:</b> 1</p><p>Often, it is important not only to escape an enemy but also to prevent them from calling ahead to warn units at your destination to capture you. It's difficult for smaller ships favored by smugglers and pirates to jam the sensors of larger ships, but dedicated Com Jammers can successfully jam all communications in an area of space.</p><p>A Com Jammer prevents any communication- including <a href=\"https://swse.fandom.com/wiki/Hypertransceivers\" class=\"mw-redirect\" title=\"Hypertransceivers\">Hypertransceivers</a>, <a href=\"https://swse.fandom.com/wiki/Comlinks\" class=\"mw-redirect\" title=\"Comlinks\">Comlinks</a>, and even <a href=\"https://swse.fandom.com/wiki/HoloNet_Transceivers\" class=\"mw-redirect\" title=\"HoloNet Transceivers\">HoloNet Transceivers</a>- from functioning properly within 6 squares (<a href=\"https://swse.fandom.com/wiki/Starship_Scale\" class=\"mw-redirect\" title=\"Starship Scale\">Starship Scale</a>). It takes a DC 30 <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> check to send or receive a message within this area.</p><p>Com Jammers have several drawbacks. First, they do not disrupt hardwired communications such as the systems used to communicate within a Starship (so they can't prevent the ship's bridge from talking to the engine room). Second, the ship creating the jamming isn't immune. Its communication systems are as blinded as anyone else's. Third, jammed communications are easy to detect at long range, granting a +20 circumstance bonus on any <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> check made to detect the jamming ship with sensors (such jamming might be detected from millions of kilometers away, so this might attract unwanted attention if any authorities are nearby.)</p><p>On the other hand, these do allow freighter-sized ships to jam the communications of <a href=\"https://swse.fandom.com/wiki/Capital_Ships\" title=\"Capital Ships\">Capital Ships</a>, so for many pirate groups the tradeoff is worthwhile.</p>",
+    "cost": "20000",
+    "emplacementPoints": "1",
+    "availability": "Military"
+  },
+  "name": "Com Jammers",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848316973,
+    "modifiedTime": 1759848316973,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "YYA2OSvcF2yLD1Kb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!YYA2OSvcF2yLD1Kb"
+}

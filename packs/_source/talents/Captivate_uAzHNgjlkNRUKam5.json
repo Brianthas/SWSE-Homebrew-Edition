@@ -1,0 +1,71 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "As a <a href=\"https://swse.fandom.com/wiki/Full-Round_Action\" class=\"mw-redirect\" title=\"Full-Round Action\">Full-Round Action</a>, you can beguile one or more targets of your choice within 6 squares and line of sight, making a <a href=\"https://swse.fandom.com/wiki/Persuasion\" title=\"Persuasion\">Persuasion</a> check against their <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a>. If successful, the targets suffer a -5 penalty to <a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> checks for one round. You can keep the targets captivated as a <a href=\"https://swse.fandom.com/wiki/Full-Round_Action\" class=\"mw-redirect\" title=\"Full-Round Action\">Full-Round Action</a> each subsequent round, making a new <a href=\"https://swse.fandom.com/wiki/Persuasion\" title=\"Persuasion\">Persuasion</a> check each time. The effect immediately ends if the targets are attacked or threatened.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Allure talent",
+      "requirement": "Allure",
+      "type": "TALENT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Noble Talent Trees"
+      },
+      {
+        "value": "Crime Lord Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Noble Talent Trees",
+      "Crime Lord Talent Trees",
+      "Core Rulebook"
+    ],
+    "isSupplied": false,
+    "talentTree": "Influence Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Influence_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Legacy of the Force Sourcebook",
+    "cost": "0"
+  },
+  "name": "Captivate",
+  "flags": {},
+  "type": "talent",
+  "folder": "RQ5ygSCNfkeA8kHH",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385306232,
+    "modifiedTime": 1734385306232,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "uAzHNgjlkNRUKam5",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!uAzHNgjlkNRUKam5"
+}

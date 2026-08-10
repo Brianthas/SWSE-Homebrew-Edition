@@ -1,0 +1,82 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Jedi_Academy_Training_Manual\" title=\"Star Wars Saga Edition Jedi Academy Training Manual\">Star Wars Saga Edition Jedi Academy Training Manual</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a></i> </p><p><b>[<i><a href=\"https://swse.fandom.com/wiki/Lightsaber_Form\" class=\"mw-redirect\" title=\"Lightsaber Form\">Lightsaber Form</a></i>]</b> </p><p>You catch an opponent's weapon on your blade before deactivating your blade momentarily, causing them to stumble. </p><p><b>Time:</b> <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a> (when an adjacent enemy makes a melee attack against you) </p><p><b>Targets:</b> Self </p><p><b>Make a <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check.</b> Compare the result of your <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check against the attack roll of the incoming attack. If your <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check equals or exceeds the incoming attack roll, the attack deals half damage on a hit. Additionally, if your <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check equals or exceeds the target's <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a>, the target is considered <a href=\"https://swse.fandom.com/wiki/Flat-Footed\" class=\"mw-redirect\" title=\"Flat-Footed\">Flat-Footed</a> until the end of your next turn. </p><p>L<b>ightsaber Form (<a href=\"https://swse.fandom.com/wiki/Trakata\" class=\"mw-redirect\" title=\"Trakata\">Trakata</a>):</b> If you have the <a href=\"https://swse.fandom.com/wiki/Trakata\" class=\"mw-redirect\" title=\"Trakata\"><b>Trakata</b></a> Talent, you deal +2 dice of damage with the first attack you make on your next turn against your attacker. </p><p><b>Special:</b> You can spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> to take no damage from the incoming attack if your check equals or exceeds the attack roll of the incoming attack. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Lightsaber Form",
+        "key": "tag"
+      },
+      {
+        "mode": 2,
+        "value": "Reaction (when an adjacent enemy makes a melee attack against you)",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "Self",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": "Use the Force",
+        "key": "rollType"
+      },
+      {
+        "mode": 2,
+        "value": "Reference Book: Star Wars Saga Edition Jedi Academy Training Manual See also: Force Powers [Lightsaber Form] You catch an opponent's weapon on your blade before deactivating your blade momentarily, causing them to stumble. Time: Reaction (when an adjacent enemy makes a melee attack against you) Targets: Self Make a Use the Force check. Compare the result of your Use the Force check against the attack roll of the incoming attack. If your Use the Force check equals or exceeds the incoming attack roll, the attack deals half damage on a hit. Additionally, if your Use the Force check equals or exceeds the target's Will Defense, the target is considered Flat-Footed until the end of your next turn. Lightsaber Form (Trakata): If you have the Trakata Talent, you deal +2 dice of damage with the first attack you make on your next turn against your attacker. Special: You can spend a Force Point to take no damage from the incoming attack if your check equals or exceeds the attack roll of the incoming attack.",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Lightsaber Form Force Powers"
+      },
+      {
+        "value": "Force Powers"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Unbalancing Block",
+  "flags": {},
+  "type": "forcePower",
+  "img": "systems/swse/icon/force-power/Unbalancing_Block.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738608591084,
+    "modifiedTime": 1738608591084,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "6XoBPLoHxMeby8mF",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!6XoBPLoHxMeby8mF"
+}

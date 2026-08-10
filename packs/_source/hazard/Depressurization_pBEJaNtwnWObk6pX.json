@@ -1,0 +1,72 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2d6",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "An opening is created between outer space and a compartment containing creatures; targets any creature within the area of Depressurization.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round at the start of the target's turn, as long as the target is within the area of Depressurization.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Endurance (DC 22): The character manages to control his or her breathing despite the decreasing amount of air in the area, gaining a +2 circumstance bonus to Fortitude Defense against the hazard.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: After 1d6+4 rounds, the air is completely vented, changing the hazard to atmosphere, Vacuum.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Atmosphere",
+          "Artificial"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>The air in your compartment rushes into the vacuum of space. </i> </p><p>Intentionally depressurizing a room is a last-ditch strategy, since it often results in death for anyone in the chamber at the time. But desperate combatants can try to use the Hazard to their advantage during battle. For example, they can force their enemies into space, or they can escape from the depressurizing room through an airlock into a normal area and seal the hatch behind them.<span id=\"Nebula_Statistics_(CL_2)\"></span> </p><h2><span id=\"Depressurization_Statistics_.28CL_7.29\"></span><span class=\"mw-headline\" id=\"Depressurization_Statistics_(CL_7)\">Depressurization Statistics (CL 7)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Atmosphere, Artificial </p><p><b>Trigger:</b> An opening is created between outer space and a compartment containing creatures; targets any creature within the area of Depressurization. </p><p><b>Attack:</b> +9 vs <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> </p><p><b>Recurrence:</b> Each round at the start of the target's turn, as long as the target is within the area of Depressurization. </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Endurance\" title=\"Endurance\">Endurance</a> (DC 22):</b> The character manages to control his or her breathing despite the decreasing amount of air in the area, gaining a +2 circumstance bonus to Fortitude Defense against the hazard.</li>\n</ul><p><b>Special:</b> After 1d6+4 rounds, the air is completely vented, changing the hazard to atmosphere, <a href=\"https://swse.fandom.com/wiki/Vacuum\" title=\"Vacuum\">Vacuum</a>. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Depressurization",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244428,
+    "modifiedTime": 1749263244428,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "pBEJaNtwnWObk6pX",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!pBEJaNtwnWObk6pX"
+}

@@ -1,0 +1,127 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Jedi_Academy_Training_Manual\" title=\"Star Wars Saga Edition Jedi Academy Training Manual\">Star Wars Saga Edition Jedi Academy Training Manual</a></i> </p><p>Vultans are a technologically advanced <a href=\"https://swse.fandom.com/wiki/Near-Human\" class=\"mw-redirect\" title=\"Near-Human\">Near-Human</a> Species native to the planet <span class=\"new\" title=\"Vulta (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvVnVsdGE/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Vulta</span>, located at the spinward edge of <a href=\"https://swse.fandom.com/wiki/The_Mid_Rim\" title=\"The Mid Rim\">The Mid Rim</a>. The Vultan culture was already five millennia old at the time of the Great Hyperspace War. As citizens of an old and curious culture, Vultans tend to go through waves of fads and technological growth. Many Old Republic corporations have a few Vultans on their board of directors. </p><p>Even during the time of the Empire, Vultans commonly worked as programmers for holovid entertainment companies. Vultans seem quick to adapt any new lifestyle idea that comes along, regardless of its usefulness. </p><h3><span class=\"mw-headline\" id=\"Vultan_Characteristics\">Vultan Characteristics</span></h3><p><b>Personality:</b> Vultans are an intelligent, highly curious Species that enjoys new trends and ideas. Their whimsical curiocity causes some to dismiss the Vultans as simple minded or easily duped, but those people couldn't be further from the truth. </p><p><b>Physical Description:</b> Vultans resemble baseline <a href=\"https://swse.fandom.com/wiki/Humans\" class=\"mw-redirect\" title=\"Humans\">Humans</a>, except for the large growths of cartilage on their craniums. For male Vultans, this cartilage lies in a thick net against the skull. For females, the growths point outward, away from the skull. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Vultans age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-19 Years </td> \n   <td>20-59 Years </td> \n   <td>60-74 Years </td> \n   <td>75-89 Years </td> \n   <td>90+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> <span class=\"new\" title=\"Vulta (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvVnVsdGE/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Vulta</span> is an eclectic collection of skyways, underground passages, artificial parks, and oddly shaped buildings, each built during a different trend in architectural aesthetics, it is believed to be one of the first worlds colonized by <a href=\"https://swse.fandom.com/wiki/Humans\" class=\"mw-redirect\" title=\"Humans\">Humans</a> after the development of the Hyperdrive. </p><p><b>Languages:</b> Vultans speak and write in a language called Dromnyr, one of several languages from which Basic was derived. </p><p><b>Example Names:</b> Echari Di'San, Koss Toko, Oss Wilum, Zona Luka. </p><p><b>Adventurers:</b> Many Vultans leave <span class=\"new\" title=\"Vulta (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvVnVsdGE/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Vulta</span> to become traders, seeking new technologies and art styles to sell at a tidy profit to a group that's always in need of a change. Vultan heroes typical find roles as <a href=\"https://swse.fandom.com/wiki/Nobles\" class=\"mw-redirect\" title=\"Nobles\">Nobles</a> or <a href=\"https://swse.fandom.com/wiki/Scoundrels\" class=\"mw-redirect\" title=\"Scoundrels\">Scoundrels</a>, with Force-sensitive Vultans becoming stellar <a href=\"https://swse.fandom.com/wiki/Jedi\" title=\"Jedi\">Jedi</a>. </p><h3><span class=\"mw-headline\" id=\"Vultan_Species_Traits\">Vultan Species Traits</span></h3><p>Vultans share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Bonus Trained Skill",
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "11",
+          "low": "1",
+          "text": "1-11",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "89",
+          "low": "75",
+          "text": "75-89",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "90",
+          "text": "90+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "74",
+          "low": "60",
+          "text": "60-74",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "59",
+          "low": "20",
+          "text": "20-59",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "19",
+          "low": "12",
+          "text": "12-19",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Vultans"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Bonus Trained Skill"
+      },
+      {
+        "value": "Conditional Bonus Feat"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Vultan",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535567714,
+    "modifiedTime": 1736535567714,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "FQtGfHn4Ql85UI7O",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!FQtGfHn4Ql85UI7O"
+}

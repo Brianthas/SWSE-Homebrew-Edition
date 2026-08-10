@@ -1,0 +1,68 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "8d6",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A character enters a square occupied by a Primed Fuel Line; 4-Square Burst.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "On Trigger",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Special: The Primed Fuel Line can be detonated with a well-placed attack (Reflex Defense 20, DR 5, 10 Hit Points).",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Area",
+          "Artificial",
+          "Contact"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Dawn_of_Defiance\" title=\"Star Wars Saga Edition Dawn of Defiance\">Star Wars Saga Edition Dawn of Defiance</a> (<a href=\"https://swse.fandom.com/wiki/The_Gem_of_Alderaan\" title=\"The Gem of Alderaan\">The Gem of Alderaan</a>)</i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p>The fuel line has been primed to detonate if any character moves into a catwalk square beneath it. If the line detonates, Characters adjacent to the doors or on the lower level have <a href=\"https://swse.fandom.com/wiki/Cover\" title=\"Cover\">Cover</a> against this attack (+5 cover bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>, no damage on miss). </p><h2><span id=\"Primed_Fuel_Line_Statistics_.28CL_13.29\"></span><span class=\"mw-headline\" id=\"Primed_Fuel_Line_Statistics_(CL_13)\">Primed Fuel Line Statistics (CL 13)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Area, Artificial, Contact </p><p><b>Trigger:</b> A character enters a square occupied by a Primed Fuel Line; 4-Square <a href=\"https://swse.fandom.com/wiki/Burst\" class=\"mw-redirect\" title=\"Burst\">Burst</a>. </p><p><b>Attack:</b> +13 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> On Trigger </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a></b> <b>(DC 20):</b> As a <a href=\"https://swse.fandom.com/wiki/Full-Round_Action\" class=\"mw-redirect\" title=\"Full-Round Action\">Full-Round Action</a>, a character can disarm the Primed Fuel Line. If successful, fuel is shunted out of the main line, preventing an explosion. On a failure by 1 to 4 points, the character can try again. On a failure by 5 or more, the Primed Fuel Line detonates immediately.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a></b> <b>(DC 20):</b> A character can detect a Primed Fuel Line and recognizes the danger it poses.</li>\n</ul><p><b>Special:</b> The Primed Fuel Line can be detonated with a well-placed attack (<a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> 20, DR 5, 10 Hit Points). </p>",
+    "source": "Star Wars Saga Edition Dawn of Defiance (The Gem of Alderaan)",
+    "cost": "0"
+  },
+  "name": "Primed Fuel Line",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244681,
+    "modifiedTime": 1749263244681,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "XUDLTMgH0HaIkU5J",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!XUDLTMgH0HaIkU5J"
+}

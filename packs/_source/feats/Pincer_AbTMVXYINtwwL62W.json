@@ -1,0 +1,103 @@
+{
+  "img": "systems/swse/icon/feat/Pincer.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scavenger%27s_Guide_to_Droids\" title=\"Star Wars Saga Edition Scavenger's Guide to Droids\">Star Wars Saga Edition Scavenger's Guide to Droids</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You use your mechanical strength to restrain and damage enemies.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a>, <a href=\"https://swse.fandom.com/wiki/Claw\" title=\"Claw\">Claw</a> or <a href=\"https://swse.fandom.com/wiki/Hand\" title=\"Hand\">Hand</a> Appendage, <a href=\"https://swse.fandom.com/wiki/Base_Attack_Bonus\" class=\"mw-redirect\" title=\"Base Attack Bonus\">Base Attack Bonus</a> +1, <a href=\"https://swse.fandom.com/wiki/Pin\" title=\"Pin\">Pin</a>, <a href=\"https://swse.fandom.com/wiki/Crush\" title=\"Crush\">Crush</a></p><p><b>Effect:</b> When you successfully <a href=\"https://swse.fandom.com/wiki/Pin\" title=\"Pin\">Pin</a> an enemy, you can maintain the <a href=\"https://swse.fandom.com/wiki/Pin\" title=\"Pin\">Pin</a> beyond 1 round and can make subsequent <a href=\"https://swse.fandom.com/wiki/Grapple\" title=\"Grapple\">Grapple</a> checks against the <a href=\"https://swse.fandom.com/wiki/Pinned\" class=\"mw-redirect\" title=\"Pinned\">Pinned</a> enemy as a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>. You can apply the <a href=\"https://swse.fandom.com/wiki/Crush\" title=\"Crush\">Crush</a> Feat whenever your subsequent checks are successful.</p><p><b>Normal:</b> <a href=\"https://swse.fandom.com/wiki/Grapple\" title=\"Grapple\">Grapple</a> checks are a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a>. The <a href=\"https://swse.fandom.com/wiki/Pin\" title=\"Pin\">Pin</a> Feat must be rerolled each round as a new <a href=\"https://swse.fandom.com/wiki/Grapple\" title=\"Grapple\">Grapple</a> check.</p><p><b>Special:</b> You must have a <a href=\"https://swse.fandom.com/wiki/Claw\" title=\"Claw\">Claw</a> or <a href=\"https://swse.fandom.com/wiki/Hand\" title=\"Hand\">Hand</a> Appendage to use this Feat.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:Reference Book: Star Wars Saga Edition Scavenger's Guide to Droids See also: Feats You use your mechanical strength to restrain and damage enemies. Prerequisites: Droid, Claw or Hand Appendage, Base Attack Bonus +1, Pin, Crush Effect: When you successfully Pin an enemy, you can maintain the Pin beyond 1 round and can make subsequent Grapple checks against the Pinned enemy as a Swift Action. You can apply the Crush Feat whenever your subsequent checks are successful. Normal: Grapple checks are a Standard Action. The Pin Feat must be rerolled each round as a new Grapple check. Special: You must have a Claw or Hand Appendage to use this Feat.",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Droid",
+          "requirement": "Is a droid",
+          "type": "SPECIAL"
+        },
+        {
+          "children": [
+            {
+              "text": "Claw",
+              "requirement": "Claw",
+              "type": "EQUIPPED"
+            },
+            {
+              "text": "Hand",
+              "requirement": "Hand",
+              "type": "EQUIPPED"
+            }
+          ],
+          "count": 1,
+          "text": "Claw or Hand",
+          "type": "OR"
+        },
+        {
+          "text": "Base Attack Bonus 1",
+          "requirement": "1",
+          "type": "BASE ATTACK BONUS"
+        },
+        {
+          "text": "Pin feat",
+          "requirement": "Pin",
+          "type": "FEAT"
+        },
+        {
+          "text": "Crush feat",
+          "requirement": "Crush",
+          "type": "FEAT"
+        }
+      ],
+      "text": "Droid, (Claw or Hand), Base Attack Bonus 1, Pin feat, and Crush feat",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Grappling Feats"
+      },
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Scavenger's Guide to Droids",
+    "cost": "0"
+  },
+  "name": "Pincer",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479028313,
+    "modifiedTime": 1761479028313,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "AbTMVXYINtwwL62W",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!AbTMVXYINtwwL62W"
+}

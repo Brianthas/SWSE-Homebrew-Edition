@@ -1,0 +1,74 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "If you are carrying a <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> (either in your hand or at your belt), you can draw the <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a>, ignite it, and make a single attack during the <a href=\"https://swse.fandom.com/wiki/Surprise_Round\" class=\"mw-redirect\" title=\"Surprise Round\">Surprise Round</a>, even if you are <a href=\"https://swse.fandom.com/wiki/Surprised\" class=\"mw-redirect\" title=\"Surprised\">Surprised</a>. If you are not <a href=\"https://swse.fandom.com/wiki/Surprised\" class=\"mw-redirect\" title=\"Surprised\">Surprised</a>, you can take any single Action of your choice, as normal.<br><br>Additionally, once per turn you may draw and ignite a <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> as a <a href=\"https://swse.fandom.com/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a> on your turn.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Quick Draw feat",
+          "requirement": "Quick Draw",
+          "type": "FEAT"
+        },
+        {
+          "text": "Weapon Focus (Lightsabers)",
+          "requirement": "Weapon Focus (Lightsabers)",
+          "type": "FEAT"
+        }
+      ],
+      "text": "Quick Draw feat, and Weapon Focus (Lightsabers)",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Jedi Knight Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Jedi Knight Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Jedi Watchman Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Jedi_Watchman_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Improved Quick Draw (Lightsabers)",
+  "flags": {},
+  "type": "talent",
+  "folder": "GUeZcOJY7RQiliHc",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385307398,
+    "modifiedTime": 1734385307398,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "neeYB872T8Oe3HAH",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!neeYB872T8Oe3HAH"
+}

@@ -1,0 +1,135 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Web_Enhancements\" title=\"Star Wars Saga Edition Web Enhancements\">Star Wars Saga Edition Web Enhancements</a> (<a href=\"https://swse.fandom.com/wiki/General_Web_Enhancements\" title=\"General Web Enhancements\">General Web Enhancements</a>)</i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/The_Nazren\" title=\"The Nazren\">The Nazren</a></i> </p><p>Nazren are extremely tall humanoids from the arid and desolate world of <a href=\"https://swse.fandom.com/wiki/Nizon\" title=\"Nizon\">Nizon</a>. They are well adapted to the harsh conditions of their home planet and are remarkably strong and resilient. Unfortunately, these very traits have made them perfect targets for slavers, who use them for hard physical labor. Despite their massive size and intimidating demeanor, Nazren are not a warlike Species. This proved to be their downfall when the Empire arrived and began enslaving them. However, they are not pacifists, either, and their will and ability to fight back grew slowly but surely. </p><p>Nazren typically wear sleeveless tunics tucked into black hide pants and heavy boots. Their clothes are normally fastened with hooks or clamps on the end of short lengths of cord or attached belts. Pads that strap onto the shoulders (to cushion a heavy load) and arm bracers are common, also attached with the hook system. </p><h3><span class=\"mw-headline\" id=\"Nazren_Characteristics\">Nazren Characteristics</span></h3><p><b>Personality:</b> Nazren are pragmatic, serious, and traditional. Their harsh homeworld has taught them to be mindful of survival and never to take anything for granted. </p><p><b>Physical Description:</b> Nazren are tall humanoids, approximately the same height as <a href=\"https://swse.fandom.com/wiki/Wookiees\" class=\"mw-redirect\" title=\"Wookiees\">Wookiees</a>, but broader at the shoulders and narrower at the hip, with longer arms and torsos but shorter legs. They are hairless, with thick skin that has a heavy hide or leather look. They are brown to light yellow in color, a natural camouflage for their dustbowl world. The head of a Nazren has no nose and is flatter than a Human's. A prominent brow ridge protects their eyes, and a series of small knobs start at the back of the head and run down to a visible spine. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b>&nbsp;Nazren age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-15 Years </td> \n   <td>16-30 Years </td> \n   <td>31-200 Years </td> \n   <td>201-275 Years </td> \n   <td>276-350 Years </td> \n   <td>351+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The Arid Outer Rim planet of <a href=\"https://swse.fandom.com/wiki/Nizon\" title=\"Nizon\">Nizon</a>. </p><p><b>Languages:</b> Nazren speak their own droning tongue of Nazren, and most learn Basic at a young age. </p><p><b>Example Names:</b> Karzen, Martook, Naktok, Razmor, Sartok. </p><p><b>Adventurers:</b> The Nazren are nomadic by nature, and recently freed slaves- or those who helped overthrow the yoke of the Empire from their home- are drawn by the wonders the galaxy has to hold. Some Nazren have shown potential in <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a>, although they do not call it as such. Those capable of using <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a> typically master healing powers and other Light Side abilities. </p><h3><span class=\"mw-headline\" id=\"Nazren_Species_Traits\">Nazren Species Traits</span></h3><p>Nazren share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Nazren",
+        "type": "trait"
+      },
+      {
+        "name": "Web Enhancements",
+        "type": "trait"
+      },
+      {
+        "name": "Resilience",
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "350",
+          "low": "276",
+          "text": "276-350",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "351",
+          "text": "351+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "30",
+          "low": "16",
+          "text": "16-30",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "15",
+          "low": "1",
+          "text": "1-15",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "200",
+          "low": "31",
+          "text": "31-200",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "275",
+          "low": "201",
+          "text": "201-275",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Nazren"
+      },
+      {
+        "value": "Web Enhancements"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Resilience"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Nazren",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535566752,
+    "modifiedTime": 1736535566752,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "FSgJyvjm6eAwMZlN",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!FSgJyvjm6eAwMZlN"
+}

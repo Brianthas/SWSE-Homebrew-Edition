@@ -1,0 +1,66 @@
+{
+  "img": "systems/swse/icon/feat/Grand_Army_of_the_Republic_Training.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Clone_Wars_Campaign_Guide\" title=\"Star Wars Saga Edition Clone Wars Campaign Guide\">Star Wars Saga Edition Clone Wars Campaign Guide</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You have received basic training from the Grand Army of the Republic and know how to turn even bulky armor into an asset.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Armor_Proficiency_(Light)\" title=\"Armor Proficiency (Light)\">Armor Proficiency (Light)</a></p><p><b>Effect:</b> If you wear Armor that provides an <a href=\"https://swse.fandom.com/wiki/Equipment\" title=\"Equipment\">Equipment</a> bonus to your <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>, and you are proficient with that Armor, you also apply the Armor's <a href=\"https://swse.fandom.com/wiki/Equipment\" title=\"Equipment\">Equipment</a> bonus to your <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a>.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "FORTITUDE_DEFENSE_BONUS_EQUIPMENT:will",
+        "key": "applyBonusTo"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Armor Proficiency feat",
+      "requirement": "Armor Proficiency",
+      "type": "FEAT"
+    },
+    "categories": [
+      {
+        "value": "Soldier Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Bonus Feats",
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Clone Wars Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Grand Army of the Republic Training",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1761479027187,
+    "modifiedTime": 1786044418005,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "huNZlrJNvNuGWPVM",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!huNZlrJNvNuGWPVM"
+}

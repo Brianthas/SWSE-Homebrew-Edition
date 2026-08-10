@@ -3,3 +3,8 @@
 ProgressChecklist.txt
 node_modules/
 raw_export/
+
+# Compiled compendium LevelDB packs are a local build artifact now, generated from
+# packs/_source/*.json via `npm run packs:pack`. Only the JSON source is tracked.
+packs/*/
+!packs/_source/

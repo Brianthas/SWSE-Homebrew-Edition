@@ -1,0 +1,168 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode"
+        }
+      },
+      "statuses": [],
+      "disabled": false,
+      "name": "Single-Shot",
+      "_id": "Ox8WjbzKLFhG8Ahn",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513521,
+        "modifiedTime": 1786051513521,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!HaECBfPTBH8ElGjx.Ox8WjbzKLFhG8Ahn"
+    },
+    {
+      "flags": {
+        "swse": {}
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Stun",
+      "_id": "QujtKq4yDVeoN577",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "3d6",
+            "key": "damage",
+            "priority": null,
+            "type": "override",
+            "phase": "initial"
+          },
+          {
+            "value": "Stun",
+            "key": "damageType",
+            "priority": null,
+            "type": "override",
+            "phase": "initial"
+          }
+        ]
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513521,
+        "modifiedTime": 1786051513521,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!HaECBfPTBH8ElGjx.QujtKq4yDVeoN577"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:</i>&nbsp;<i><a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Clone_Wars_Campaign_Guide\" title=\"Star Wars Saga Edition Clone Wars Campaign Guide\">Star Wars Saga Edition Clone Wars Campaign Guide</a></i> </p><p>The DH-23 is designed to be a more reliable weapon when compared to the typical <a href=\"https://swse.fandom.com/wiki/Blaster_Pistol\" title=\"Blaster Pistol\">Blaster Pistol</a>, but it sacrifices range and strength to achieve it. The DH-23 incorporates an effective heat radiator and a tight body construction that increases its durability, granting it a <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> score of 17 and a <a href=\"https://swse.fandom.com/wiki/Break_DC\" class=\"mw-redirect\" title=\"Break DC\">Break DC</a> of 20. </p><p>A DH-23 Blaster Pistol requires a&nbsp;<a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a> to operate. After 100 shots, the&nbsp;<a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a>&nbsp;must be replaced. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Power Pack:100",
+        "key": "ammo"
+      }
+    ],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "500",
+    "weight": "1 Kilogram",
+    "availability": "Restricted",
+    "size": "Small",
+    "type": "",
+    "subtype": "Pistols",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "3d6",
+    "damageType": "Energy"
+  },
+  "name": "DH-23 Blaster Pistol",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/DH_23_Blaster_Pistol.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513521,
+    "modifiedTime": 1786051513586,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "HaECBfPTBH8ElGjx",
+  "_key": "!items!HaECBfPTBH8ElGjx"
+}

@@ -1,0 +1,106 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Squads are collections of lower-CL enemies that work together as a single creature on the battlefield. Squads are ideal for encounters in which the Gamemaster wants to include a large number of weaker enemies and allies, and can help replicate the chaos of a battlefield in a more manageable fashion. Similarly, Squads provide the Gamemaster with ways to transform low-CL enemies into a more significant threat. By the time the heroes hit 10th level, those CL 1 Battle Droids have ceased to be a challenge, but transforming those Droids into Squads raises their CL to the point where they can be sufficiently dangerous.\n\nA Squad represents a small number of creatures (Usually three to four) of the same type that come together into a single unit. They occupy the same space and have only one turn's worth of Actions. The Squad is an abstract concept that allows the Gamemaster to populate an encounter with low-level troopers and still maintain the speed and ease of combat they need. Squads are by no means necessary, but they do streamline the game experience. For example, a Gamemaster could create an encounter with 15 Battle Droids, or the same encounter could be created using only 5 Squads, which is more manageable.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": 1,
+        "key": "sizeBonus"
+      },
+      {
+        "mode": 2,
+        "value": -1,
+        "key": "damageThresholdEffectiveSize"
+      },
+      {
+        "mode": 2,
+        "value": 10,
+        "key": "damageThresholdBonus"
+      },
+      {
+        "mode": 2,
+        "value": 4,
+        "key": "toHitModifier"
+      },
+      {
+        "mode": 2,
+        "value": 2,
+        "key": "challengeLevel"
+      },
+      {
+        "mode": 2,
+        "value": "*2",
+        "key": "hitPointEq"
+      },
+      {
+        "mode": 2,
+        "value": "All melee attacks made by a Squad are considered melee Area Attacks that affect all squares within the Squad's Reach (Although a Squad can choose not to affect a target with its attacks).",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": "All ranged attacks made by a Squad are considered to have a 1-square Splash. If the Squad's weapon already has a Splash effect, increase the Splash radius by 1 square.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": "A Squad can choose not to affect allies with its attacks.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": "Area Attacks deal +2 dice of damage against a Squad.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": "A Squad cannot be Grabbed or Grappled.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": "A Squad can make Attacks of Opportunity against creatures that provoke them, though these Attacks of Opportunity are not considered Area Attacks.",
+        "key": "special"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "prerequisite": null,
+    "cost": "0"
+  },
+  "name": "Squad",
+  "flags": {},
+  "type": "trait",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764446478192,
+    "modifiedTime": 1764446478192,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "ZzGIYPaKg5RxdDEf",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!ZzGIYPaKg5RxdDEf"
+}

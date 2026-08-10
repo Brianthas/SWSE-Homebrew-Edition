@@ -1,0 +1,142 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_at_War\" title=\"Star Wars Saga Edition Galaxy at War\">Star Wars Saga Edition Galaxy at War</a></i> </p><p> The Dashade are known throughout the galaxy as elite assassins, mercenaries, and killers, particularly due to their partial immunities to the Force abilities of <a href=\"https://swse.fandom.com/wiki/The_Jedi\" title=\"The Jedi\">The Jedi</a>. The most feared and deadly Dashade are given the honorary title Shadow Killer.</p><p>The Dashade work as mercenaries and bodyguards for many groups. Most notably though, Dashade work for the various Sith uprisings; even though the Sith are directly responsible for the Cron Cluster supernova that destroys the Dashade homeworld thousands of years before the Galactic Civil War. Even with the loss of their homeworld, the Dashade avoid extinction. Their exact numbers remain unknown, but reports suggest that the Dashade were able to establish one or more colonies far outside their home system prior to the Cron Cluster disaster. </p><h3><span class=\"mw-headline\" id=\"Dashade_Characteristics\">Dashade Characteristics</span></h3><p><b>Personality:</b> Secretive beings, Dashade believe that they are superior to most sentient beings in the galaxy. Raised in an aggressive culture where might does indeed make right, those Dashade who work as mercenaries or in other combat-related roles remain loyal to an employer, regardless of what they think of that individual, but only as long as the relationship is profitable for the Dashade and they are not prevented from displaying their considerable combat prowess. Those who try to keep a Dashade on a short leash soon receive a first-hand lesson in why these shadowy assassins are so widely feared. </p><p><b>Physical Description:</b> The Dashade are a hairless reptilian Species. Their height, beady, red-orange eyes and prominent fangs reinforce their fearsome reputation. No visual cues indicate the gender of a Dashade. Their skin tones range from pitch black to dark gray, but green-skinned Dashade are not unheard of. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b>&nbsp;Dashade age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-10 Years </td> \n   <td>11-15 Years </td> \n   <td>16-44 Years </td> \n   <td>45-69 Years </td> \n   <td>70-84 Years </td> \n   <td>85+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> <span class=\"new\" title=\"Urkupp (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvVXJrdXBwP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Urkupp</span>, a harsh, irradiated world in the Cron Cluster prior to it's destruction. </p><p><b>Languages:</b> Dashade speak their their hissing language of Dashadi, a blunt and literal language with little variation in tone. </p><p><b>Example Names:</b> Tessun Kel, Nos Kellex, Alaris Koth, Ket Maliss, Tel Sorath. </p><p><b>Adventurers:</b> The majority of Dashade encountered away from their homeworld are mercenaries and assassins employed by those who can afford their services and retain their loyalty. During <a href=\"https://swse.fandom.com/wiki/The_Great_Sith_War\" class=\"mw-redirect\" title=\"The Great Sith War\">The Great Sith War</a>, their might-makes-right philosophy leads the Dashade to side with <a href=\"https://swse.fandom.com/wiki/The_Sith\" title=\"The Sith\">The Sith</a> and with groups such as the royals of <a href=\"https://swse.fandom.com/wiki/Falleen\" title=\"Falleen\">Falleen</a> and perhaps even <a href=\"https://swse.fandom.com/wiki/The_Galactic_Empire\" title=\"The Galactic Empire\">The Galactic Empire</a>. Sporadic reports mention members of an unknown <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> with resistance to Jedi powers leading assaults against <a href=\"https://swse.fandom.com/wiki/The_Jedi\" title=\"The Jedi\">The Jedi</a> during the Great Jedi Purge in the years between the Clone Wars and the Galactic Civil War. </p><h3><span class=\"mw-headline\" id=\"Dashade_Species_Traits\">Dashade Species Traits</span></h3><p>Dashade share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Frightening Visage",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Force Resistance",
+        "type": "trait"
+      },
+      {
+        "name": "Environmental Adaptation",
+        "type": "trait"
+      },
+      {
+        "name": "Dashade",
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "85",
+          "text": "85+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "44",
+          "low": "16",
+          "text": "16-44",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "84",
+          "low": "70",
+          "text": "70-84",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "10",
+          "low": "1",
+          "text": "1-10",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "15",
+          "low": "11",
+          "text": "11-15",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "69",
+          "low": "45",
+          "text": "45-69",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Frightening Visage"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Force Resistance"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Environmental Adaptation"
+      },
+      {
+        "value": "Dashade"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Dashade",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535565871,
+    "modifiedTime": 1736535565871,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "3HUeA106K6vtZYUN",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!3HUeA106K6vtZYUN"
+}

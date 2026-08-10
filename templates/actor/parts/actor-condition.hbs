@@ -1,51 +1,59 @@
-{{!-- Condition Block --}}
-<div class="condition-block panel flex flex-col">
-    <h1 class="resource-label">Condition{{#if actor.condition}} <button type="button" data-action="recover">Recover {{actor.recoveryActions}}/{{actor.totalRecoveryActions}}</button>{{/if}}</h1>
-    <table>
-        <thead>
-        <tr>
-            <th>-</th>
-            <th>-1</th>
-            <th>-2</th>
-            <th>-5</th>
-            <th>-10</th>
-            <th>Out</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            {{#radio actor.condition}}
-                <td><label><input class="condition-radio" type="radio" name="condition-{{actor.id}}" value="0"/></label></td>
-                <td><label><input class="condition-radio" type="radio" name="condition-{{actor.id}}" value="-1"/></label></td>
-                <td><label><input class="condition-radio" type="radio" name="condition-{{actor.id}}" value="-2"/></label></td>
-                <td><label><input class="condition-radio" type="radio" name="condition-{{actor.id}}" value="-5"/></label></td>
-                <td><label><input class="condition-radio" type="radio" name="condition-{{actor.id}}" value="-10"/></label></td>
-                <td><label><input class="condition-radio" type="radio" name="condition-{{actor.id}}" value="OUT"/></label></td>
-            {{/radio}}
-        </tr>
-        </tbody>
-    </table>
-</div>
-<div class="condition-block panel flex flex-col">
-    <h1 class="resource-label">Gravity</h1>
-    <table>
-        <thead>
-        <tr>
-            <th>Normal</th>
-            <th>High</th>
-            <th>Low</th>
-            <th>Zero</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            {{#radio actor.gravity}}
-                <td><label><input class="gravity-radio" type="radio" name="gravity-{{actor.id}}" value="Normal"/></label></td>
-                <td><label><input class="gravity-radio" type="radio" name="gravity-{{actor.id}}" value="High"/></label></td>
-                <td><label><input class="gravity-radio" type="radio" name="gravity-{{actor.id}}" value="Low"/></label></td>
-                <td><label><input class="gravity-radio" type="radio" name="gravity-{{actor.id}}" value="Zero"/></label></td>
-            {{/radio}}
-        </tr>
-        </tbody>
-    </table>
+<div class="condition-block panel area-condition">
+    <h1 class="top-label resource-label">Condition</h1>
+
+    {{#unlessEquals actor.type "vehicle"}}
+    {{#unless actor.isFollower}}
+    <div class="point-pools">
+        <div class="point-pool" title="Force Points refresh daily">
+            <span class="point-pool-label">Force Points</span>
+            <div class="point-pool-values">
+                <input id="forcePoints" type="number" name="system.forcePoints.quantity"
+                       value="{{actor.forcePoints.quantity}}" data-dtype="Number"/>
+                <span class="point-pool-divider">/</span>
+                <input id="forcePointsMax" type="text" value="{{actor.forcePoints.max}}" title="Per day" disabled/>
+            </div>
+        </div>
+        <div class="point-pool" title="Homebrew: a Destiny Point can be broken down into a Force Point — tracked here separately since it doesn't refresh daily like regular Force Points">
+            <span class="point-pool-label">Bonus Force Points</span>
+            <div class="point-pool-values single">
+                <input id="bonusForcePoints" type="number" name="system.bonusForcePoints"
+                       value="{{actor.system.bonusForcePoints}}" data-dtype="Number"/>
+            </div>
+        </div>
+        <div class="point-pool" title="Running total — spent points are lost. Maximum equals Force Points per day.">
+            <span class="point-pool-label">Destiny Points</span>
+            <div class="point-pool-values">
+                <input id="destinyPoints" type="number" name="system.destinyPoints"
+                       value="{{actor.system.destinyPoints}}" data-dtype="Number"/>
+                <span class="point-pool-divider">/</span>
+                <input id="destinyPointsMax" type="text" value="{{actor.forcePointsPerDay}}" title="Equal to Force Points per day" disabled/>
+            </div>
+        </div>
+    </div>
+
+    <div class="field">
+        <div class="darkside-heading">
+            <span class="field-label">Dark Side Score: {{actor.system.darkside.finalScore}}
+                / {{actor.system.darkside.max}}{{#ifGT actor.system.darkside.taint 0}} DST: {{actor.system.darkside.taint}}{{/ifGT}}</span>
+            {{!-- Shown only once the score reaches (or passes) the maximum. --}}
+            {{#ifGT actor.system.darkside.finalScore (math actor.system.darkside.max "-" 1)}}
+                <span class="fallen-badge" title="Dark Side Score has reached its maximum">Fallen</span>
+            {{/ifGT}}
+        </div>
+        <div class="darkside-track">
+            {{#times (math actor.system.darkside.max "+" 1)}}
+                <label>
+                    {{this}}
+                    {{!-- --pip-t is this pip's 0..1 position along the track; the CSS
+                          interpolates white -> red across it. --}}
+                    <input class="dark-side-button{{#ifGT ../actor.system.darkside.finalScore this}} lessthan{{/ifGT}}"
+                           style="--pip-t: {{math this "/" ../actor.system.darkside.max}};"
+                           type="radio" name="system.darkside.value"
+                           {{#ifEquals ../actor.system.darkside.finalScore this}}checked{{/ifEquals}} value="{{math this "-" ../actor.system.darkside.taint}}">
+                </label>
+            {{/times}}
+        </div>
+    </div>
+    {{/unless}}
+    {{/unlessEquals}}
 </div>

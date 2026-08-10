@@ -1,0 +1,107 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Jedi_Academy_Training_Manual\" title=\"Star Wars Saga Edition Jedi Academy Training Manual\">Star Wars Saga Edition Jedi Academy Training Manual</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a></i> </p><p>You can draw <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a> into yourself, turning you into a beacon of light that purges the taint of <a href=\"https://swse.fandom.com/wiki/The_Dark_Side\" title=\"The Dark Side\">The Dark Side</a>. </p><p><b>[<i><a href=\"https://swse.fandom.com/wiki/Light_Side\" class=\"mw-redirect\" title=\"Light Side\">Light Side</a></i>]</b> </p><p><b>Time:</b>&nbsp;<a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a> </p><p><b>Targets:</b>&nbsp;All creatures with a <a href=\"https://swse.fandom.com/wiki/Dark_Side_Score\" title=\"Dark Side Score\">Dark Side Score</a> of 1+, within 6 squares of you. </p><p><b>Make a&nbsp;<a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a>&nbsp;check. </b>The results of the check determines the effects, if any: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td> </td> \n   <td>Until the start of your next turn, any creature with a <a href=\"https://swse.fandom.com/wiki/Dark_Side_Score\" title=\"Dark Side Score\">Dark Side Score</a> of 1+, that begins its turn within 6 squares of you, automatically takes 1d6 points of <a href=\"https://swse.fandom.com/wiki/Force\" class=\"mw-redirect\" title=\"Force\">Force</a> damage, and takes a -1 penalty on attack rolls. This is an <a href=\"https://swse.fandom.com/wiki/Area_Effect\" class=\"mw-redirect\" title=\"Area Effect\">Area Effect</a>. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td> </td> \n   <td>Until the start of your next turn, any creature with a <a href=\"https://swse.fandom.com/wiki/Dark_Side_Score\" title=\"Dark Side Score\">Dark Side Score</a> of 1+, that begins its turn within 6 squares of you, automatically takes 2d6 points of <a href=\"https://swse.fandom.com/wiki/Force\" class=\"mw-redirect\" title=\"Force\">Force</a> damage, and takes a -1 penalty on attack rolls. This is an <a href=\"https://swse.fandom.com/wiki/Area_Effect\" class=\"mw-redirect\" title=\"Area Effect\">Area Effect</a>. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td> </td> \n   <td>Until the start of your next turn, any creature with a <a href=\"https://swse.fandom.com/wiki/Dark_Side_Score\" title=\"Dark Side Score\">Dark Side Score</a> of 1+, that begins its turn within 6 squares of you, automatically takes 3d6 points of <a href=\"https://swse.fandom.com/wiki/Force\" class=\"mw-redirect\" title=\"Force\">Force</a> damage, and takes a -1 penalty on attack rolls. This is an <a href=\"https://swse.fandom.com/wiki/Area_Effect\" class=\"mw-redirect\" title=\"Area Effect\">Area Effect</a>. </td>\n  </tr> \n  <tr> \n   <td>35 </td> \n   <td> </td> \n   <td>Until the start of your next turn, any creature with a <a href=\"https://swse.fandom.com/wiki/Dark_Side_Score\" title=\"Dark Side Score\">Dark Side Score</a> of 1+, that begins its turn within 6 squares of you, automatically takes 4d6 points of <a href=\"https://swse.fandom.com/wiki/Force\" class=\"mw-redirect\" title=\"Force\">Force</a> damage, and takes a -1 penalty on attack rolls. This is an <a href=\"https://swse.fandom.com/wiki/Area_Effect\" class=\"mw-redirect\" title=\"Area Effect\">Area Effect</a>. </td>\n  </tr>\n </tbody>\n</table><p><b>Special: </b>You can spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> to increase the damage dealt by an additional +1d6 points of <a href=\"https://swse.fandom.com/wiki/Force\" class=\"mw-redirect\" title=\"Force\">Force</a> damage. </p><p>You can maintain <i>Force Light</i> from round to round, extending the normal duration. Maintaining the&nbsp;<i>Force Light </i><a href=\"https://swse.fandom.com/wiki/Force_Power\" class=\"mw-redirect\" title=\"Force Power\">Force Power</a> is a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>, and you must make a new <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check each round. If you take damage while maintaining <i>Force Light</i>, you must succeed on a <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check (DC = 15 + damage taken) to continue maintaining the <i>Force Light</i>. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Light Side",
+        "key": "tag"
+      },
+      {
+        "mode": 2,
+        "value": "Standard Action",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "All creatures with a Dark Side Score of 1+, within 6 squares of you.",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "cumulative"
+      },
+      {
+        "mode": 2,
+        "value": "Use the Force",
+        "key": "rollType"
+      },
+      {
+        "mode": 2,
+        "value": "20:Until the start of your next turn, any creature with a Dark Side Score of 1+, that begins its turn within 6 squares of you, automatically takes 1d6 points of Force damage, and takes a -1 penalty on attack rolls. This is an Area Effect.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "25:Until the start of your next turn, any creature with a Dark Side Score of 1+, that begins its turn within 6 squares of you, automatically takes 2d6 points of Force damage, and takes a -1 penalty on attack rolls. This is an Area Effect.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "30:Until the start of your next turn, any creature with a Dark Side Score of 1+, that begins its turn within 6 squares of you, automatically takes 3d6 points of Force damage, and takes a -1 penalty on attack rolls. This is an Area Effect.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "35:Until the start of your next turn, any creature with a Dark Side Score of 1+, that begins its turn within 6 squares of you, automatically takes 4d6 points of Force damage, and takes a -1 penalty on attack rolls. This is an Area Effect.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "Reference Book: Star Wars Saga Edition Jedi Academy Training Manual See also: Force Powers You can draw The Force into yourself, turning you into a beacon of light that purges the taint of The Dark Side. [Light Side] Time: Standard Action Targets: All creatures with a Dark Side Score of 1+, within 6 squares of you. Make a Use the Force check. The results of the check determines the effects, if any: Special: You can spend a Force Point to increase the damage dealt by an additional +1d6 points of Force damage. You can maintain Force Light from round to round, extending the normal duration. Maintaining the Force Light Force Power is a Swift Action, and you must make a new Use the Force check each round. If you take damage while maintaining Force Light, you must succeed on a Use the Force check (DC = 10 + damage taken) to continue maintaining the Force Light.",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Light Side Force Powers"
+      },
+      {
+        "value": "Force Powers"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Force Light",
+  "flags": {},
+  "type": "forcePower",
+  "img": "systems/swse/icon/force-power/Force_Light.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1738608589989,
+    "modifiedTime": 1786067531835,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "6XUIzTn237WEeOED",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!6XUIzTn237WEeOED"
+}

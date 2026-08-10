@@ -68,10 +68,6 @@ export function getCompendium(item) {
             return packs.filter(pack => pack.collection.startsWith("world.") || pack.collection.startsWith("swse.force-techniques"));
         case 'beasttype':
             return packs.filter(pack => pack.collection.startsWith("world.") || pack.collection.startsWith("swse.beast-components"));
-        case 'background':
-            return packs.filter(pack => pack.collection.startsWith("world.") || pack.collection.startsWith("swse.background"));
-        case 'destiny':
-            return packs.filter(pack => pack.collection.startsWith("world.") || pack.collection.startsWith("swse.destinies"));
         case 'language':
             return packs.filter(pack => pack.collection.startsWith("world.") || pack.collection.startsWith("swse.languages"));
         case 'weapon':

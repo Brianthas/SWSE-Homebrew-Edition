@@ -1,0 +1,71 @@
+{
+  "img": "systems/swse/icon/feat/Coordinated_Barrage.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Clone_Wars_Campaign_Guide\" title=\"Star Wars Saga Edition Clone Wars Campaign Guide\">Star Wars Saga Edition Clone Wars Campaign Guide</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>When you combine fire with an ally, your barrage can have devastating results on the attacker.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Coordinated_Attack\" title=\"Coordinated Attack\">Coordinated Attack</a>, <a href=\"https://swse.fandom.com/wiki/Base_Attack_Bonus\" class=\"mw-redirect\" title=\"Base Attack Bonus\">Base Attack Bonus</a> +5</p><p><b>Effect:</b> When you <a href=\"https://swse.fandom.com/wiki/Aid_Another\" title=\"Aid Another\">Aid Another</a> ally's attack, for every 3 points that the ally's attack roll beats the target's <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>, the attack deals +1 die of damage. The maximum number of bonus damage dice the attack receives is equal to the number of allies with this <a href=\"https://swse.fandom.com/wiki/Feat\" class=\"mw-redirect\" title=\"Feat\">Feat</a> that aided on the attack roll or +5 dice, whichever is lower.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Coordinated Attack feat",
+          "requirement": "Coordinated Attack",
+          "type": "FEAT"
+        },
+        {
+          "text": "Base Attack Bonus 5",
+          "requirement": "5",
+          "type": "BASE ATTACK BONUS"
+        }
+      ],
+      "text": "Coordinated Attack feat, and Base Attack Bonus 5",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Soldier Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Bonus Feats",
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Clone Wars Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Coordinated Barrage",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479026331,
+    "modifiedTime": 1761479026331,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "9tqriAv5XbuSYNId",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!9tqriAv5XbuSYNId"
+}

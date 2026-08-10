@@ -1,0 +1,68 @@
+{
+  "img": "systems/swse/icon/feat/Resolute_Stance.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_of_Intrigue\" title=\"Star Wars Saga Edition Galaxy of Intrigue\">Star Wars Saga Edition Galaxy of Intrigue</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>By standing your ground, you focus your mind to repel any assault.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Base_Attack_Bonus\" class=\"mw-redirect\" title=\"Base Attack Bonus\">Base Attack Bonus</a> +1</p><p><b>Effect:</b> When you <a href=\"https://swse.fandom.com/wiki/Fight_Defensively\" title=\"Fight Defensively\">Fight Defensively</a>, you gain a +2 morale bonus to your <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a>. If you make no attacks until your next turn, you gain a +5 morale bonus to your <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a> until the start of your next turn.</p><p><b>Normal:</b> When you <a href=\"https://swse.fandom.com/wiki/Fight_Defensively\" title=\"Fight Defensively\">Fight Defensively</a> you only get a dodge bonus to your <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Base Attack Bonus 1",
+      "requirement": "1",
+      "type": "BASE ATTACK BONUS"
+    },
+    "categories": [
+      {
+        "value": "Soldier Bonus Feats"
+      },
+      {
+        "value": "Force Prodigy Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Jedi Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Bonus Feats",
+      "Force Prodigy Bonus Feats",
+      "General Feats",
+      "Jedi Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Galaxy of Intrigue",
+    "cost": "0"
+  },
+  "name": "Resolute Stance",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479028612,
+    "modifiedTime": 1761479028612,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "Xq58besv8DtnLxhv",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!Xq58besv8DtnLxhv"
+}

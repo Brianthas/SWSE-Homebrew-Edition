@@ -1,0 +1,74 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "As a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a>, you may designate a single <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> as the target of a large-scale assault. If you succeed on a DC 15 <a href=\"https://swse.fandom.com/wiki/Knowledge_(Tactics)\" class=\"mw-redirect\" title=\"Knowledge (Tactics)\">Knowledge (Tactics)</a> check, all allied <a href=\"https://swse.fandom.com/wiki/Gunner\" title=\"Gunner\">Gunners</a> within line of sight deal 1 additional die of damage to the target with each successful ranged attack until the start of your next turn.<br><br>This is a <a href=\"https://swse.fandom.com/wiki/Mind-Affecting\" class=\"mw-redirect\" title=\"Mind-Affecting\">Mind-Affecting</a> effect.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Charisma 13",
+          "requirement": "Charisma 13",
+          "type": "ATTRIBUTE"
+        },
+        {
+          "text": "Fleet Deployment talent",
+          "requirement": "Fleet Deployment",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Charisma 13, and Fleet Deployment talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Officer Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Officer Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Naval Officer Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Naval_Officer_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Starships of the Galaxy",
+    "cost": "0"
+  },
+  "name": "Fleet Tactics",
+  "flags": {},
+  "type": "talent",
+  "folder": "yOF9ddYeLj2TgDRq",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385310013,
+    "modifiedTime": 1734385310013,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "R4BsA93bNINXbQbh",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!R4BsA93bNINXbQbh"
+}

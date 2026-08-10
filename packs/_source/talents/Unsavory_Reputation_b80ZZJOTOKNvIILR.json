@@ -1,0 +1,99 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Any opponent that is reduced to half Hit Points or fewer while within 6 squares of you takes a -2 penalty on all attack rolls and <a href=\"https://swse.fandom.com/wiki/Skill_Checks\" title=\"Skill Checks\">Skill Checks</a> for the duration of the encounter. This is a <a href=\"https://swse.fandom.com/wiki/Mind-Affecting\" class=\"mw-redirect\" title=\"Mind-Affecting\">Mind-Affecting</a> Fear effect.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:in: Talent Trees, Crime Lord Talent Trees, Master Privateer Talent Trees, Core Rulebook Infamy Talent Tree Edit Edit source History Talk (0) Reference Book: Star Wars Saga Edition Core Rulebook You are wanted in multiple systems for criminal acts, and your manner of doing business has earned you an unsavory reputation in the criminal underworld. Contents 1 Inspire Fear I 2 Inspire Fear II 3 Inspire Fear III 4 Notorious 5 Shared Notoriety 6 Additional Infamy Talents 6.1 Fear Me 6.2 Frighten 6.3 Master Manipulator 6.4 Small Favor 6.5 Terrify 6.6 Unsavory Reputation Inspire Fear I[ ] Your infamy and reputation are such that any opponent whose level is equal to or less than your Character Level takes a -1 penalty on attack rolls and opposed Skill Checks made against you, as well as Use the Force checks made to activate Force Powers against you. This is a Mind-Affecting Fear effect. Inspire Fear II[ ] Prerequisite: Inspire Fear I As Inspire Fear I, except that the penalty increases to -2. Inspire Fear III[ ] Prerequisites: Inspire Fear I, Inspire Fear II As Inspire Fear I, except that the penalty increases to -5. Notorious[ ] Your reputation as a Crime Lord is known throughout the galaxy, even on fringe worlds. When you are not Disguised, you may reroll any Persuasion checks made to Intimidate, keeping the better of the two results. Shared Notoriety[ ] Prerequisite: Notorious When your Minions invoke your name, others take note. If you have Minions, they may reroll any Persuasion checks made to intimidate others, but the result of the reroll must be accepted, even if it is worse. Additional Infamy Talents[ ] Fear Me[ ] Reference Book: Star Wars Saga Edition Scum and Villainy Prerequisites: Attract Minion, Inspire Fear I, Inspire Fear II Such is the fear you instill in your minions that when in your presence, they would rather die than disappoint you. Once per encounter, as a Reaction to one of your minions being moved down the Condition Track, you can reduce the number of steps the minion moves down the Condition Track by 1. Additionally, the target regains Hit Points equal to your Heroic Level. If the target is reduced to 0 Hit Points or moved to the bottom of the Condition Track, you cannot use this Talent on that target. Frighten[ ] Reference Book: Star Wars Saga Edition Scum and Villainy Prerequisites: Attract Minion, Inspire Fear I Once per encounter, you can designate a minion as a Free Action to spread fear among your enemies. At any point before the end of the encounter, you can activate this ability to force all enemies adjacent to your minion to move 1 square away from the minion. This movement does not provoke Attacks of Opportunity. This is a Mind-Affecting effect. Master Manipulator[ ] Reference Book: Star Wars Saga Edition Unknown Regions Prerequisites: Notorious, Skill Focus (Persuasion) When you make a successful Persuasion check, you can immediately make a second Persuasion check against the same target, even if it is not normally allowed. The second Persuasion check need not be for the same use of the Persuasion skill as the first. For example, if you successfully Change Attitude of the target, you can immediately attempt to Change Attitude a second time, or you can attempt to Intimidate the target instead. Small Favor[ ] Reference Book: Star Wars Saga Edition Unknown Regions Prerequisites: Notorious, Trained in Persuasion You can call in a small favor from someone who owes you. Once per day, make a DC 25 Persuasion check. If the check is successful, an informant gives you information, granting you a +10 competence bonus to one Gather Information or Knowledge check made within the next 24 hours. Terrify[ ] Reference Book: Star Wars Saga Edition Scum and Villainy Prerequisites: Frighten, Inspire Fear I, Inspire Fear II As a Standard Action, you can make a Persuasion check against a target that is within your line of sight and that is also affected by your Inspire Fear Talent. If you equal or exceed the target's Will Defense, then on its next turn the target must spend at least one Move Action to move away from you. If the target is somehow prevented from doing so, then the penalty from the Inspire Fear Talent doubles until the start of your next turn. This is a Mind-Affecting Fear effect. Unsavory Reputation[ ] Reference Book: Star Wars Saga Edition Scum and Villainy Prerequisites: Inspire Fear I, Inspire Fear II, Inspire Fear III, Notorious Any opponent that is reduced to half Hit Points or fewer while within 6 squares of you takes a -2 penalty on all attack rolls and Skill Checks for the duration of the encounter. This is a Mind-Affecting Fear effect. Categories Categories: Talent Trees Crime Lord Talent Trees Master Privateer Talent Trees Core Rulebook Add category Cancel Save Community content is available under CC-BY-SA unless otherwise noted. More Fandoms Fantasy Sci-fi Star Wars",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Inspire Fear I talent",
+          "requirement": "Inspire Fear I",
+          "type": "TALENT"
+        },
+        {
+          "text": "Inspire Fear II talent",
+          "requirement": "Inspire Fear II",
+          "type": "TALENT"
+        },
+        {
+          "text": "Inspire Fear III talent",
+          "requirement": "Inspire Fear III",
+          "type": "TALENT"
+        },
+        {
+          "text": "Notorious (Infamy Talent Tree) talent",
+          "requirement": "Notorious (Infamy Talent Tree)",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Inspire Fear I talent, Inspire Fear II talent, Inspire Fear III talent, and Notorious (Infamy Talent Tree) talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Crime Lord Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Master Privateer Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Crime Lord Talent Trees",
+      "Core Rulebook",
+      "Master Privateer Talent Trees",
+      "Agent Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Infamy Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Infamy_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Scum and Villainy",
+    "cost": "0"
+  },
+  "name": "Unsavory Reputation",
+  "flags": {},
+  "type": "talent",
+  "folder": "aKRue6tVnpeoZxgD",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385306129,
+    "modifiedTime": 1786039798042,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "b80ZZJOTOKNvIILR",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!b80ZZJOTOKNvIILR"
+}

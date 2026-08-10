@@ -1,0 +1,68 @@
+{
+  "img": "systems/swse/icon/feat/Experienced_Medic.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Clone_Wars_Campaign_Guide\" title=\"Star Wars Saga Edition Clone Wars Campaign Guide\">Star Wars Saga Edition Clone Wars Campaign Guide</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You have spent so much time on the battlefield that patching up wounded allies has become second nature to you.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in <a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a></p><p><b>Effect:</b> You can perform <a href=\"https://swse.fandom.com/wiki/Surgery\" class=\"mw-redirect\" title=\"Surgery\">Surgery</a> on a number of creatures equal to your <a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a> modifier (minimum 2) simultaneously. You make <a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a> checks for each individual creature as normal.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Trained in Treat Injury",
+      "requirement": "Treat Injury",
+      "type": "TRAINED SKILL"
+    },
+    "categories": [
+      {
+        "value": "Soldier Bonus Feats"
+      },
+      {
+        "value": "Technician Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Noble Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Bonus Feats",
+      "Technician Bonus Feats",
+      "General Feats",
+      "Noble Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Clone Wars Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Experienced Medic",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479026811,
+    "modifiedTime": 1761479026811,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "feCtP1t9HJYAXpon",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!feCtP1t9HJYAXpon"
+}

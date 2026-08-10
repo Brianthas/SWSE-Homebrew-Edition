@@ -1,0 +1,34 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Starship Accessories",
+    "changes": [],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><table class=\"wikitable\">\n <tbody>\n  <tr>\n   <th>SLAVE CIRCUITS</th>\n   <th>EMPLACEMENT POINTS</th>\n   <th>AVAILABILITY</th>\n   <th>SIZE RESTRICTION</th>\n   <th>COST</th>\n  </tr>\n  <tr>\n   <td>Basic</td>\n   <td>1</td>\n   <td>Common</td>\n   <td>-</td>\n   <td>1000 (Base)</td>\n  </tr>\n  <tr>\n   <td>Advanced</td>\n   <td>1</td>\n   <td>Common</td>\n   <td>-</td>\n   <td>4000 (Base)</td>\n  </tr>\n  <tr>\n   <td>Recall</td>\n   <td>0</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Military\" class=\"mw-redirect\" title=\"Military\">Military</a></td>\n   <td>Colossal or Smaller</td>\n   <td>6000 (Base)</td>\n  </tr>\n </tbody>\n</table><p>Slave circuitry reduces the number of crewmembers required to operate a Starship. This Starship Accessory is most commonly present in older Capital Ships, which requires tens of thousands of crew. Basic Slave Circuits reduces the crew requirements of a Starship by 1/3, and Advanced Slave Circuits reduces it by 2/3. The crew requirement for a Starship is never reduced to less than 1- only certain exceptional and custom-built Slave Circuits are capable of such a feat, such as those guiding <span class=\"new\" title=\"The Katana Fleet (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvVGhlX0thdGFuYV9GbGVldD9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">The <i>Katana</i> Fleet</span>. The <a href=\"https://swse.fandom.com/wiki/Crew_Quality\" title=\"Crew Quality\">Crew Quality</a> of a Starship that has Slave Circuits is still based on it's remaining crew.</p><h4><span class=\"mw-headline\" id=\"Recall_Slave_Circuits\"><b>Recall Slave Circuits</b></span></h4><p>Available only for Starships equipped with Advanced Slave Circuits, Recall Slave Circuits allow a Starship to be summoned by <a href=\"https://swse.fandom.com/wiki/Comlink\" title=\"Comlink\">Comlink</a> to the owner even when no one is aboard the ship. A ship piloted by it's Recall Slave Circuits can only lift off, fly directly to the <a href=\"https://swse.fandom.com/wiki/Comlink\" title=\"Comlink\">Comlink</a> used to summon it, and land at that location- it can take no other Actions. The <a href=\"https://swse.fandom.com/wiki/Crew_Quality\" title=\"Crew Quality\">Crew Quality</a> of a ship under the control of Recall Slave Circuits is Untrained (+0 check modifier), and anyone in the <a href=\"https://swse.fandom.com/wiki/Pilot_(Vehicle_Combat)\" title=\"Pilot (Vehicle Combat)\">Pilot's</a> position can disable the Recall Slave Circuits as a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>.</p>",
+    "cost": "1000 (Base)",
+    "emplacementPoints": "1",
+    "availability": "Common"
+  },
+  "name": "Slave Circuits, Basic",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317484,
+    "modifiedTime": 1759848317484,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "OkNaBeddjXuuQ70j",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!OkNaBeddjXuuQ70j"
+}

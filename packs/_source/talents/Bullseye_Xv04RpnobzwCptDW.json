@@ -1,0 +1,79 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Once per encounter, you can designate a single target that you have <a href=\"https://swse.fandom.com/wiki/Aimed\" class=\"mw-redirect\" title=\"Aimed\">Aimed</a> at and is not within Point-Blank <a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a>. When making a ranged attack roll against that target, the target is denied its <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> bonus to their <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> when determining the effect of your attack.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Draw a Bead talent",
+          "requirement": "Draw a Bead",
+          "type": "TALENT"
+        },
+        {
+          "text": "Precision Shot talent",
+          "requirement": "Precision Shot",
+          "type": "TALENT"
+        },
+        {
+          "text": "Sniper feat",
+          "requirement": "Sniper",
+          "type": "FEAT"
+        }
+      ],
+      "text": "Draw a Bead talent, Precision Shot talent, and Sniper feat",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Gunslinger Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Gunslinger Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Sharpshooter Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Sharpshooter_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Galaxy at War",
+    "cost": "0"
+  },
+  "name": "Bullseye",
+  "flags": {},
+  "type": "talent",
+  "folder": "nbrMKW7DB6gly31d",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385311652,
+    "modifiedTime": 1734385311652,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "Xv04RpnobzwCptDW",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!Xv04RpnobzwCptDW"
+}

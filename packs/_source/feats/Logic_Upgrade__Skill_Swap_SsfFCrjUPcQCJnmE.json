@@ -1,0 +1,70 @@
+{
+  "img": "systems/swse/icon/feat/Logic_Upgrade_Skill_Swap.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scavenger%27s_Guide_to_Droids\" title=\"Star Wars Saga Edition Scavenger's Guide to Droids\">Star Wars Saga Edition Scavenger's Guide to Droids</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You are able to quickly swap one programmed <a href=\"https://swse.fandom.com/wiki/Skill\" class=\"mw-redirect\" title=\"Skill\">Skill</a> for another. A Droid with a <a href=\"https://swse.fandom.com/wiki/Basic_Processor\" title=\"Basic Processor\">Basic Processor</a> can use this trick to enable it to attempt <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> in which it is <a href=\"https://swse.fandom.com/wiki/Untrained\" class=\"mw-redirect\" title=\"Untrained\">Untrained</a>.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a>, <a href=\"https://swse.fandom.com/wiki/Basic_Processor\" title=\"Basic Processor\">Basic Processor</a></p><p><b>Effect:</b> Select a <a href=\"https://swse.fandom.com/wiki/Skill\" class=\"mw-redirect\" title=\"Skill\">Skill</a> you are not <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in (other than <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a>). As a <a href=\"https://swse.fandom.com/wiki/Full-Round_Action\" class=\"mw-redirect\" title=\"Full-Round Action\">Full-Round Action</a>, you can swap this <a href=\"https://swse.fandom.com/wiki/Skill\" class=\"mw-redirect\" title=\"Skill\">Skill</a> for one you are <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in. You do not gain any benefit from the original <a href=\"https://swse.fandom.com/wiki/Trained_Skill\" class=\"mw-redirect\" title=\"Trained Skill\">Trained Skill</a> while it is swapped out. You are not considered <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in the swapped-in <a href=\"https://swse.fandom.com/wiki/Skill\" class=\"mw-redirect\" title=\"Skill\">Skill</a>, and therefore you cannot use any <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a>-only options or add a bonus to your <a href=\"https://swse.fandom.com/wiki/Skill_Check\" class=\"mw-redirect\" title=\"Skill Check\">Skill Check</a>. You still add one-half your level and your associated <a href=\"https://swse.fandom.com/wiki/Ability\" class=\"mw-redirect\" title=\"Ability\">Ability</a> bonus, as usual.</p><p><b>Special:</b> If you become <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in the <a href=\"https://swse.fandom.com/wiki/Skill\" class=\"mw-redirect\" title=\"Skill\">Skill</a> selected for this feat, you can select another <a href=\"https://swse.fandom.com/wiki/Skill\" class=\"mw-redirect\" title=\"Skill\">Skill</a> to replace it. You can take this Feat more than once, each time selecting a different <a href=\"https://swse.fandom.com/wiki/Skill\" class=\"mw-redirect\" title=\"Skill\">Skill</a> to swap.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Droid",
+          "requirement": "Is a droid",
+          "type": "SPECIAL"
+        },
+        {
+          "text": "Basic Processor",
+          "requirement": "Basic Processor",
+          "type": "EQUIPPED"
+        }
+      ],
+      "text": "Droid, and Basic Processor",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Droid Feats"
+      },
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Scavenger's Guide to Droids",
+    "cost": "0"
+  },
+  "name": "Logic Upgrade: Skill Swap",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479027802,
+    "modifiedTime": 1761479027802,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "SsfFCrjUPcQCJnmE",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!SsfFCrjUPcQCJnmE"
+}

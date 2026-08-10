@@ -1,0 +1,60 @@
+{
+  "img": "systems/swse/icon/feat/Blaster Barrage.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Force_Unleashed_Campaign_Guide\" title=\"Star Wars Saga Edition Force Unleashed Campaign Guide\">Star Wars Saga Edition Force Unleashed Campaign Guide</a></i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You and your allies engulf an area with dense blaster fire.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Coordinated_Attack\" title=\"Coordinated Attack\">Coordinated Attack</a></p><p><b>Effect:</b> When you make an attack with a weapon set on <a href=\"https://swse.fandom.com/wiki/Autofire\" title=\"Autofire\">Autofire</a> that deals damage to at least one target within the designated area, you grant a +2 circumstance bonus on any of your allies' <a href=\"https://swse.fandom.com/wiki/Autofire\" title=\"Autofire\">Autofire</a> attacks made against that same target until the beginning of your next turn.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Coordinated Attack feat",
+      "requirement": "Coordinated Attack",
+      "type": "FEAT"
+    },
+    "categories": [
+      {
+        "value": "Soldier Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Bonus Feats",
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Force Unleashed Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Blaster Barrage",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479026033,
+    "modifiedTime": 1761479026033,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "zBBfsdR8wvyTADaI",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!zBBfsdR8wvyTADaI"
+}

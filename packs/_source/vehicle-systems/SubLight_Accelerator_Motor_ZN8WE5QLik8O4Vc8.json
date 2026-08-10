@@ -1,0 +1,82 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Movement Systems",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Gargantuan or Smaller",
+          "requirement": "Diminutive",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Gargantuan or Smaller",
+          "requirement": "Fine",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Gargantuan or Smaller",
+          "requirement": "Small",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Gargantuan or Smaller",
+          "requirement": "Medium",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Gargantuan or Smaller",
+          "requirement": "Large",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Gargantuan or Smaller",
+          "requirement": "Huge",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Gargantuan or Smaller",
+          "requirement": "Gargantuan",
+          "type": "TRAIT"
+        }
+      ],
+      "count": 1,
+      "text": "Gargantuan or Smaller",
+      "type": "OR"
+    },
+    "changes": [
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "subLightAcceleratorMotor"
+      }
+    ],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><p><b>Emplacement Points:</b>&nbsp;2</p><p><b>Size Restriction:</b>&nbsp;Gargantuan or Smaller</p><p>A SubLight Accelerator Motor (SLAM) is an overdrive system designed to draw power from systems not in use to give a Starship a brief burst of additional speed. A Starship's SLAM system provides a +5 bonus on <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> checks to increase a Vehicle's Speed. This bonus increases to +10 is the <a href=\"https://swse.fandom.com/wiki/Pilot_(Vehicle_Combat)\" title=\"Pilot (Vehicle Combat)\">Pilot</a> is using <a href=\"https://swse.fandom.com/wiki/All-Out_Movement\" title=\"All-Out Movement\">All-Out Movement</a>.</p>",
+    "cost": "25000 (Base)",
+    "emplacementPoints": "2",
+    "availability": "Military"
+  },
+  "name": "SubLight Accelerator Motor",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848316821,
+    "modifiedTime": 1759848316821,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "ZN8WE5QLik8O4Vc8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!ZN8WE5QLik8O4Vc8"
+}

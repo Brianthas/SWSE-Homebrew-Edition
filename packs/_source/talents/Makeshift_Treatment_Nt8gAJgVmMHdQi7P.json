@@ -1,0 +1,93 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You can attempt the <a href=\"https://swse.fandom.com/wiki/First_Aid\" class=\"mw-redirect\" title=\"First Aid\">First Aid</a> application of the <a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a> skill without the use of a <a href=\"https://swse.fandom.com/wiki/Medpac\" title=\"Medpac\">Medpac</a>. However, doing so imposes a -5 penalty to the check.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Skill Focus (Treat Injury)",
+      "requirement": "Skill Focus (Treat Injury)",
+      "type": "FEAT"
+    },
+    "categories": [
+      {
+        "value": "Untested"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Chellewalker Creations"
+      },
+      {
+        "value": "Noble Talent Trees"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Medic Talent Trees"
+      },
+      {
+        "value": "Technician Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Untested",
+      "Chellewalker Creations",
+      "Noble Talent Trees",
+      "Homebrew Content",
+      "Medic Talent Trees",
+      "Technician Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Treatment Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Treatment_Talent_Tree",
+    "bonusTalentTree": "",
+    "cost": "0"
+  },
+  "name": "Makeshift Treatment",
+  "flags": {},
+  "type": "talent",
+  "folder": "aIvlTsZffUPBdtBQ",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385312747,
+    "modifiedTime": 1734385312747,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "Nt8gAJgVmMHdQi7P",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!Nt8gAJgVmMHdQi7P"
+}

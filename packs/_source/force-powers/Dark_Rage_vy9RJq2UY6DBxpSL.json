@@ -1,0 +1,97 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>See also: <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a></i> </p><p>You become enraged as the <a href=\"https://swse.fandom.com/wiki/Dark_Side\" class=\"mw-redirect\" title=\"Dark Side\">Dark Side</a> flows through you. </p><p><b>[<i><a href=\"https://swse.fandom.com/wiki/Dark_Side\" class=\"mw-redirect\" title=\"Dark Side\">Dark Side</a></i>]</b> </p><p><b>Time:</b> <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a> </p><p><b>Targets:</b> Self </p><p><b>Make a <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> Check.</b> The result of the check determines the following effect, if any: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td> </td> \n   <td>You gain a +2 Rage bonus on melee attack rolls and melee damage rolls until the end of your turn. </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td> </td> \n   <td>You gain a +4 Rage bonus on melee attack rolls and melee damage rolls until the end of your turn. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td> </td> \n   <td>You gain a +6 Rage bonus on melee attack rolls and melee damage rolls until the end of your turn. </td>\n  </tr>\n </tbody>\n</table><p><b>Special:</b> While consumed by Rage, you cannot use <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> or perform tasks that require patience or concentration. You can spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> to extend the duration of your <i>Dark Rage</i> until the end of the encounter. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Dark Side",
+        "key": "tag"
+      },
+      {
+        "mode": 2,
+        "value": "Swift Action",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "Self",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": "Use the Force",
+        "key": "rollType"
+      },
+      {
+        "mode": 2,
+        "value": "15:You gain a +2 Rage bonus on melee attack rolls and melee damage rolls until the end of your turn.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "20:You gain a +4 Rage bonus on melee attack rolls and melee damage rolls until the end of your turn.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "25:You gain a +6 Rage bonus on melee attack rolls and melee damage rolls until the end of your turn.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "See also: Force Powers You become enraged as the Dark Side flows through you. [Dark Side] Time: Swift Action Targets: Self Make a Use the Force Check. The result of the check determines the following effect, if any: Special: While consumed by Rage, you cannot use Skills or perform tasks that require patience or concentration. You can spend a Force Point to extend the duration of your Dark Rage until the end of the encounter.",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Dark Side Force Powers"
+      },
+      {
+        "value": "Force Powers"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Dark Rage",
+  "flags": {},
+  "type": "forcePower",
+  "img": "systems/swse/icon/force-power/Dark_Rage.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738608589636,
+    "modifiedTime": 1738608589636,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "vy9RJq2UY6DBxpSL",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!vy9RJq2UY6DBxpSL"
+}

@@ -1,0 +1,71 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "4d6",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A being begins its turn in a square occupied by a Sarlacc Pit.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round at the start of the target's turn, as long as the target is within the area occupied by the Sarlacc Pit.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Acrobatics (DC 26): The character avoids the Sarlacc's tentacles, but they still take damage from the attack. Climb (DC 31): The character manages to climb 1 square closer to the edge of the pit. Knowledge (Life Sciences) (DC 21): The character identifies the Sarlacc Pit before they reach it, gaining a +5 circumstance bonus to Reflex Defense against the Hazard's attacks.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: If the Hazard's attack roll exceeds the target's Reflex Defense by 5 or more, the Sarlacc grabs the target and pulls it to the bottom of the pit at a rate of 2 squares per round. If the target reaches the bottom of the pit, it is ingested.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>In this pit, a <a href=\"https://swse.fandom.com/wiki/Sarlacc\" title=\"Sarlacc\">Sarlacc</a> waits to capture and ingest prey.</i> </p><p>Whether a creature is standing at the edge of the large pit or on a plank extended from a skiff floating over it, looking into a Sarlacc Pit is enough to incite fear. For most heroes, stumbling across a <a href=\"https://swse.fandom.com/wiki/Sarlacc\" title=\"Sarlacc\">Sarlacc</a> is enough of an encounter in itself as they struggle to climb out of the pit and away from the hungry maw of the creature. They could also chase enemies into the pit (Or be chased into it themselves), or they could find a victim that needs to be saved from being digested over a period of a thousand years. Alternatively, the heroes could be captured by their enemies (As in <i>Return of the Jedi</i>) and must escape being fed to the <a href=\"https://swse.fandom.com/wiki/Sarlacc\" title=\"Sarlacc\">Sarlacc</a>. </p><h2><span id=\"Sarlacc_Pit_Statistics_.28CL_12.29\"></span><span class=\"mw-headline\" id=\"Sarlacc_Pit_Statistics_(CL_12)\">Sarlacc Pit Statistics (CL 12)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Natural </p><p><b>Trigger:</b> A being begins its turn in a square occupied by a Sarlacc Pit. </p><p><b>Attack:</b> +14 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> Each round at the start of the target's turn, as long as the target is within the area occupied by the Sarlacc Pit. </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Acrobatics\" title=\"Acrobatics\">Acrobatics</a> (DC 26):</b> The character avoids the Sarlacc's tentacles, but they still take damage from the attack.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Climb\" title=\"Climb\">Climb</a> (DC 31):</b> The character manages to climb 1 square closer to the edge of the pit.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Knowledge_(Life_Sciences)\" class=\"mw-redirect\" title=\"Knowledge (Life Sciences)\">Knowledge (Life Sciences)</a> (DC 21):</b> The character identifies the Sarlacc Pit before they reach it, gaining a +5 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against the Hazard's attacks.</li>\n</ul><p><b>Special:</b> If the Hazard's attack roll exceeds the target's <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> by 5 or more, the Sarlacc grabs the target and pulls it to the bottom of the pit at a rate of 2 squares per round. If the target reaches the bottom of the pit, it is ingested. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Sarlacc Pit",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244774,
+    "modifiedTime": 1749263244774,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "rUXv01ptZAhhtcj0",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!rUXv01ptZAhhtcj0"
+}

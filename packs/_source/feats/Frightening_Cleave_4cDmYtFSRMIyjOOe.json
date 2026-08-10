@@ -1,0 +1,81 @@
+{
+  "img": "systems/swse/icon/feat/Frightening_Cleave.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>Enemies that see you successfully use the Cleave Feat become fearful.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> 13, <a href=\"https://swse.fandom.com/wiki/Cleave\" title=\"Cleave\">Cleave</a>, <a href=\"https://swse.fandom.com/wiki/Power_Attack\" title=\"Power Attack\">Power Attack</a>, <a href=\"https://swse.fandom.com/wiki/Base_Attack_Bonus\" class=\"mw-redirect\" title=\"Base Attack Bonus\">Base Attack Bonus</a> +4</p><p><b>Effect:</b> Immediately after you use the <a href=\"https://swse.fandom.com/wiki/Cleave\" title=\"Cleave\">Cleave</a> Feat, each enemy within 6 squares of you and within your line of sight takes a -1 penalty to its <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>, attack rolls, and <a href=\"https://swse.fandom.com/wiki/Skill_Checks\" title=\"Skill Checks\">Skill Checks</a> against you until the end of the encounter. This penalty stacks with itself to a maximum of -5. This is a <a href=\"https://swse.fandom.com/wiki/Mind-Affecting\" class=\"mw-redirect\" title=\"Mind-Affecting\">Mind-Affecting</a> effect.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Strength 13",
+          "requirement": "Strength 13",
+          "type": "ATTRIBUTE"
+        },
+        {
+          "text": "Cleave feat",
+          "requirement": "Cleave",
+          "type": "FEAT"
+        },
+        {
+          "text": "Power Attack feat",
+          "requirement": "Power Attack",
+          "type": "FEAT"
+        },
+        {
+          "text": "Base Attack Bonus 4",
+          "requirement": "4",
+          "type": "BASE ATTACK BONUS"
+        }
+      ],
+      "text": "Strength 13, Cleave feat, Power Attack feat, and Base Attack Bonus 4",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Soldier Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Bonus Feats",
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Frightening Cleave",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479027130,
+    "modifiedTime": 1761479027130,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "4cDmYtFSRMIyjOOe",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!4cDmYtFSRMIyjOOe"
+}

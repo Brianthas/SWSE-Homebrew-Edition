@@ -1,0 +1,63 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Whenever another creature targets you with a <a href=\"https://swse.fandom.com/wiki/Force_Power\" class=\"mw-redirect\" title=\"Force Power\">Force Power</a> with the [<i><a href=\"https://swse.fandom.com/wiki/Mind-Affecting\" class=\"mw-redirect\" title=\"Mind-Affecting\">Mind-Affecting</a></i>] descriptor, it automatically takes <a href=\"https://swse.fandom.com/wiki/Force\" class=\"mw-redirect\" title=\"Force\">Force</a> damage equal to 1d6 x your <a href=\"https://swse.fandom.com/wiki/Wisdom\" title=\"Wisdom\">Wisdom</a> modifier (minimum x1).",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Psychic Citadel talent",
+      "requirement": "Psychic Citadel",
+      "type": "TALENT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Force Adept Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Force Adept Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Telepath Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Telepath_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Jedi Academy Training Manual",
+    "cost": "0"
+  },
+  "name": "Psychic Defenses",
+  "flags": {},
+  "type": "talent",
+  "folder": "6XhJjIt4dNmQAXw4",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385312715,
+    "modifiedTime": 1734385312715,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "AkT5eHAvjexVhgsn",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!AkT5eHAvjexVhgsn"
+}

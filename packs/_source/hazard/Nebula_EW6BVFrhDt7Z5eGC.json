@@ -1,0 +1,72 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2d6",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A Starship begins its turn within a Nebula.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Hourly, until the Starship leaves the Nebula.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Mechanics (DC 24): For 1 hour, the character staves off the effects of nebula dust and gases. The character can attempt another check each hour for as long as the Starship remains within the Nebula.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: The dust and gases from a nebula might affect a Starship's systems. If the Hazard's attack roll exceeds the Starship's Fortitude Defense by 5 or more, one of its systems (Of the Gamemaster's choice) becomes unavailable and cannot be repaired until the Starship leaves the nebula.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Atmosphere",
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>This stellar gas cloud will someday coalesce and become a star, but for now, it threatens to interfere with your ship's systems.</i> </p><p>The brilliant and colorful dust and gases that make up a nebula might reduce visibility and damage ships' systems, but they are not extremely dangerous. Thus, many creatures seeking to escape from their enemies consider a nebula an excellent place to hide. If combat breaks out within a Nebula, each side can use the cloud to its advantage, trying to attack the other from a position of concealment. </p><h2><span id=\"Nebula_Statistics_.28CL_2.29\"></span><span class=\"mw-headline\" id=\"Nebula_Statistics_(CL_2)\">Nebula Statistics (CL 2)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Atmosphere, Natural </p><p><b>Trigger:</b> A Starship begins its turn within a Nebula. </p><p><b>Attack:</b> +4 vs <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> </p><p><b>Recurrence:</b> Hourly, until the Starship leaves the Nebula. </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> (DC 24):</b> For 1 hour, the character staves off the effects of nebula dust and gases. The character can attempt another check each hour for as long as the Starship remains within the Nebula.</li>\n</ul><p><b>Special:</b> The dust and gases from a nebula might affect a Starship's systems. If the Hazard's attack roll exceeds the Starship's <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> by 5 or more, one of its systems (Of the Gamemaster's choice) becomes unavailable and cannot be repaired until the Starship leaves the nebula. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Nebula",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244642,
+    "modifiedTime": 1749263244642,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "EW6BVFrhDt7Z5eGC",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!EW6BVFrhDt7Z5eGC"
+}

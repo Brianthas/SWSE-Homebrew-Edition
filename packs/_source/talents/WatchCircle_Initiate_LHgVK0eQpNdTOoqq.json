@@ -1,0 +1,67 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "As a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a>, you can make a DC 15 <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check and remove one use of the <i><a href=\"https://swse.fandom.com/wiki/Farseeing\" title=\"Farseeing\">Farseeing</a></i> Force Power from your active <a href=\"https://swse.fandom.com/wiki/Force_Power_Suite\" class=\"mw-redirect\" title=\"Force Power Suite\">Force Power Suite</a> (as though you had just activated the <a href=\"https://swse.fandom.com/wiki/Force_Power\" class=\"mw-redirect\" title=\"Force Power\">Force Power</a>).<br><br>If successful, you subtract 1 from your <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> total (this cannot be subtracted from temporary <a href=\"https://swse.fandom.com/wiki/Force_Points\" title=\"Force Points\">Force Points</a>, and does not count as spending a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a>), and add 1 to the <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> total of an ally within line of sight.<br><br>This counts as using the <i><a href=\"https://swse.fandom.com/wiki/Farseeing\" title=\"Farseeing\">Farseeing</a></i> Force Power against the target, but this Talent replaces the normal rules and effects of <i><a href=\"https://swse.fandom.com/wiki/Farseeing\" title=\"Farseeing\">Farseeing</a></i>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Farseeing force power",
+      "requirement": "Farseeing",
+      "type": "FORCE POWER"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Jedi Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Jedi Talent Trees",
+      "Core Rulebook"
+    ],
+    "isSupplied": false,
+    "talentTree": "Jedi Consular Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Jedi_Consular_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+    "cost": "0"
+  },
+  "name": "WatchCircle Initiate",
+  "flags": {},
+  "type": "talent",
+  "folder": "jDmJWD9Q111MuzUy",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385306717,
+    "modifiedTime": 1734385306717,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "LHgVK0eQpNdTOoqq",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!LHgVK0eQpNdTOoqq"
+}

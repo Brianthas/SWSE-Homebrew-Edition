@@ -1,0 +1,67 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "4d6",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A creature or Droid begins its turn in an area affected by a Meteorite Storm.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each Round on Initiative Count (Initiative +10)",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Acrobatics (DC 24): As a Reaction to the Meteorite Storm's attack, a character can make an Acrobatics check to gain a +2 dodge bonus to their Reflex Defense against the Meteorite Storm's attacks until the start of his or her next turn. Knowledge (Physical Sciences) (DC 19): The character identifies the impending Meteorite Storm.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Area",
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>Numerous meteorites descend through the planet's atmosphere. While most burn up on entry, others strike the ground in a dangerous hail of tiny, burning rocks.</i> </p><h2><span id=\"Meteorite_Storm_Statistics_.28CL_10.29\"></span><span class=\"mw-headline\" id=\"Meteorite_Storm_Statistics_(CL_10)\">Meteorite Storm Statistics (CL 10)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b>&nbsp;Area, Natural </p><p><b>Trigger:</b> A creature or Droid begins its turn in an area affected by a Meteorite Storm. </p><p><b>Attack:</b> +12 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> Each Round on <a href=\"https://swse.fandom.com/wiki/Initiative_Count\" class=\"mw-redirect\" title=\"Initiative Count\">Initiative Count</a> (<a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a> +10) </p><p><b>Suggested&nbsp;<a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b>&nbsp;The following are suggested&nbsp;<a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>&nbsp;for this Hazard: </p><ul>\n <li><a href=\"https://swse.fandom.com/wiki/Acrobatics\" title=\"Acrobatics\"><b>Acrobatics</b></a><b> (DC 24):</b> As a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a> to the Meteorite Storm's attack, a character can make an <a href=\"https://swse.fandom.com/wiki/Acrobatics\" title=\"Acrobatics\">Acrobatics</a> check to gain a +2 dodge bonus to their <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against the Meteorite Storm's attacks until the start of his or her next turn.</li> \n <li><a href=\"https://swse.fandom.com/wiki/Knowledge_(Physical_Sciences)\" class=\"mw-redirect\" title=\"Knowledge (Physical Sciences)\"><b>Knowledge (Physical Sciences)</b></a><b> (DC 19):</b> The character identifies the impending Meteorite Storm.</li>\n</ul>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Meteorite Storm",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244632,
+    "modifiedTime": 1749263244632,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "bw4d4v8U7A1ei8A6",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!bw4d4v8U7A1ei8A6"
+}

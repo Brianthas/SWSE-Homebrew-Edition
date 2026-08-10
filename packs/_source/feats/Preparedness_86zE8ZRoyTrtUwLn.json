@@ -1,0 +1,73 @@
+{
+  "img": "systems/swse/icon/feat/Preparedness.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>Having seen so many operations go belly-up as a result of poor timing, you've trained yourself to take action at the perfect moment.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Combat_Reflexes\" title=\"Combat Reflexes\">Combat Reflexes</a></p><p><b>Effect:</b> You can <a href=\"https://swse.fandom.com/wiki/Special_Initiative_Actions\" title=\"Special Initiative Actions\">Ready</a> a <a href=\"https://swse.fandom.com/wiki/Full-Round_Actions\" title=\"Full-Round Actions\">Full-Round Action</a>, provided you take no other <a href=\"https://swse.fandom.com/wiki/Actions_in_Combat\" title=\"Actions in Combat\">Actions</a> (<a href=\"https://swse.fandom.com/wiki/Actions_in_Combat\" title=\"Actions in Combat\">Free Actions</a> excepted) prior to <a href=\"https://swse.fandom.com/wiki/Special_Initiative_Actions\" title=\"Special Initiative Actions\">Readying</a>.</p><p><b>Special:</b> If you have the <b><a href=\"https://swse.fandom.com/wiki/Versatility_Talent_Tree\" title=\"Versatility Talent Tree\">Ready and Willing</a></b> Talent, you can choose to keep your current <a href=\"https://swse.fandom.com/wiki/Initiative_Order\" title=\"Initiative Order\">Initiative Count</a> after taking your <a href=\"https://swse.fandom.com/wiki/Special_Initiative_Actions\" title=\"Special Initiative Actions\">Readied Action</a>, provided the <a href=\"https://swse.fandom.com/wiki/Special_Initiative_Actions\" title=\"Special Initiative Actions\">Readied Action</a> happens before the end of the current round.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Combat Reflexes feat",
+      "requirement": "Combat Reflexes",
+      "type": "FEAT"
+    },
+    "categories": [
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "TheMightyWagon Creations"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Scout Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats",
+      "Scout Bonus Feats",
+      "Smuggler Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "",
+    "cost": "0"
+  },
+  "name": "Preparedness",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1761479028415,
+    "modifiedTime": 1786036141514,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "86zE8ZRoyTrtUwLn",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!86zE8ZRoyTrtUwLn"
+}

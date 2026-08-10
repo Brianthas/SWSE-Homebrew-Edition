@@ -1,0 +1,73 @@
+{
+  "img": "systems/swse/icon/feat/Staggering_Attack.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You can deliver nasty attacks that leave your opponents gasping.</p><p><b>Prerequisite:</b> <b><a href=\"https://swse.fandom.com/wiki/Sneak_Attack\" class=\"mw-redirect\" title=\"Sneak Attack\">Sneak Attack</a></b> or <a href=\"https://swse.fandom.com/wiki/Rapid_Shot\" title=\"Rapid Shot\">Rapid Shot</a> or <a href=\"https://swse.fandom.com/wiki/Rapid_Strike\" title=\"Rapid Strike\">Rapid Strike</a></p><p><b>Effect:</b> Any time you would deal additional damage from a <a href=\"https://swse.fandom.com/wiki/Feat\" class=\"mw-redirect\" title=\"Feat\">Feat</a> or <a href=\"https://swse.fandom.com/wiki/Talent\" class=\"mw-redirect\" title=\"Talent\">Talent</a> that grants one or more extra dice of damage, you can forgo the extra damage to move the target 2 squares per extra die sacrificed. This movement does not provoke <a href=\"https://swse.fandom.com/wiki/Attacks_of_Opportunity\" title=\"Attacks of Opportunity\">Attacks of Opportunity</a>.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Sneak Attack talent",
+          "requirement": "Sneak Attack",
+          "type": "TALENT"
+        },
+        {
+          "text": "Rapid Shot feat",
+          "requirement": "Rapid Shot",
+          "type": "FEAT"
+        },
+        {
+          "text": "Rapid Strike feat",
+          "requirement": "Rapid Strike",
+          "type": "FEAT"
+        }
+      ],
+      "count": 1,
+      "text": "Sneak Attack or Rapid Shot or Rapid Strike",
+      "type": "OR"
+    },
+    "categories": [
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Scum and Villainy",
+    "cost": "0"
+  },
+  "name": "Staggering Attack",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479028943,
+    "modifiedTime": 1761479028943,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "rA6XtmXRP1PAmMkf",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!rA6XtmXRP1PAmMkf"
+}

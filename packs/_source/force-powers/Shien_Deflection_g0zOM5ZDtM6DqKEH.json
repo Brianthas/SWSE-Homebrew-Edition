@@ -1,0 +1,102 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Jedi_Academy_Training_Manual\" title=\"Star Wars Saga Edition Jedi Academy Training Manual\">Star Wars Saga Edition Jedi Academy Training Manual</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a></i> </p><p><b>[<i><a href=\"https://swse.fandom.com/wiki/Lightsaber_Form\" class=\"mw-redirect\" title=\"Lightsaber Form\">Lightsaber Form</a></i>]</b> </p><p>You deflect an incoming attack and leap toward your attacker with fierce abandon. </p><p><b>Time:</b> <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a> (when an enemy makes a non-<a href=\"https://swse.fandom.com/wiki/Area_Attack\" class=\"mw-redirect\" title=\"Area Attack\">Area Attack</a> ranged attack against you) </p><p><b>Targets:</b> Self, plus one enemy within reach </p><p><b>Make a <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check.</b> The result of the check determines the effect, if any: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td>Compare the result of your <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check against the attack roll of the incoming attack. If your <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check equals or exceeds the incoming attack roll, the attack does half damage on a hit. You can then move up to your Speed toward your attacker, and if you end your movement within reach of your attacker, you can make a single melee attack with a <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> against that target. </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td>Compare the result of your <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check against the attack roll of the incoming attack. If your <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check equals or exceeds the incoming attack roll, the attack does half damage on a hit. You can then move up to your Speed, +2 squares, toward your attacker, and if you end your movement within reach of your attacker, you can make a single melee attack with a <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> against that target. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td>Compare the result of your <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check against the attack roll of the incoming attack. If your <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check equals or exceeds the incoming attack roll, the attack does half damage on a hit. You can then move up to your Speed, +4 squares, toward your attacker, and if you end your movement within reach of your attacker, you can make a single melee attack with a <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> against that target. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td>Compare the result of your <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check against the attack roll of the incoming attack. If your <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check equals or exceeds the incoming attack roll, the attack does half damage on a hit. You can then move up to your Speed, +6 squares, toward your attacker, and if you end your movement within reach of your attacker, you can make a single melee attack with a <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> against that target. </td>\n  </tr>\n </tbody>\n</table><p><b>Lightsaber Form (<a href=\"https://swse.fandom.com/wiki/Shien\" class=\"mw-redirect\" title=\"Shien\">Shien</a>):</b> If you have the <a href=\"https://swse.fandom.com/wiki/Shien\" class=\"mw-redirect\" title=\"Shien\"><b>Shien</b></a> Talent, until the start of your next turn, you take no cumulative penalties on your <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> checks for multiple <a href=\"https://swse.fandom.com/wiki/Deflect\" class=\"mw-redirect\" title=\"Deflect\"><b>Deflect</b></a> attempts. </p><p><b>Special:</b> You can spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> to take no damage from the incoming attack if your check equals or exceeds the attack roll of the incoming attack. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Lightsaber Form",
+        "key": "tag"
+      },
+      {
+        "mode": 2,
+        "value": "Reaction (when an enemy makes a non-Area Attack ranged attack against you)",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "Self, plus one enemy within reach",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": "Use the Force",
+        "key": "rollType"
+      },
+      {
+        "mode": 2,
+        "value": "15:Compare the result of your Use the Force check against the attack roll of the incoming attack. If your Use the Force check equals or exceeds the incoming attack roll, the attack does half damage on a hit. You can then move up to your Speed toward your attacker, and if you end your movement within reach of your attacker, you can make a single melee attack with a Lightsaber against that target.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "20:Compare the result of your Use the Force check against the attack roll of the incoming attack. If your Use the Force check equals or exceeds the incoming attack roll, the attack does half damage on a hit. You can then move up to your Speed, +2 squares, toward your attacker, and if you end your movement within reach of your attacker, you can make a single melee attack with a Lightsaber against that target.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "25:Compare the result of your Use the Force check against the attack roll of the incoming attack. If your Use the Force check equals or exceeds the incoming attack roll, the attack does half damage on a hit. You can then move up to your Speed, +4 squares, toward your attacker, and if you end your movement within reach of your attacker, you can make a single melee attack with a Lightsaber against that target.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "30:Compare the result of your Use the Force check against the attack roll of the incoming attack. If your Use the Force check equals or exceeds the incoming attack roll, the attack does half damage on a hit. You can then move up to your Speed, +6 squares, toward your attacker, and if you end your movement within reach of your attacker, you can make a single melee attack with a Lightsaber against that target.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "Reference Book: Star Wars Saga Edition Jedi Academy Training Manual See also: Force Powers [Lightsaber Form] You deflect an incoming attack and leap toward your attacker with fierce abandon. Time: Reaction (when an enemy makes a non-Area Attack ranged attack against you) Targets: Self, plus one enemy within reach Make a Use the Force check. The result of the check determines the effect, if any: Lightsaber Form (Shien): If you have the Shien Talent, until the start of your next turn, you take no cumulative penalties on your Use the Force checks for multiple Deflect attempts. Special: You can spend a Force Point to take no damage from the incoming attack if your check equals or exceeds the attack roll of the incoming attack.",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Lightsaber Form Force Powers"
+      },
+      {
+        "value": "Force Powers"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Shien Deflection",
+  "flags": {},
+  "type": "forcePower",
+  "img": "systems/swse/icon/force-power/Shien_Deflection.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738608590889,
+    "modifiedTime": 1738608590889,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "g0zOM5ZDtM6DqKEH",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!g0zOM5ZDtM6DqKEH"
+}

@@ -1,0 +1,86 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Seekers of Chalactan Enlightenment possess an intense willpower, allowing them to add twice their <a href=\"https://swse.fandom.com/wiki/Wisdom\" title=\"Wisdom\">Wisdom</a> modifier (minimum of 1) to their <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "a member of The Chalactan Adepts",
+      "requirement": "The Chalactan Adepts",
+      "type": "TRADITION"
+    },
+    "categories": [
+      {
+        "value": "Untested"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Force Talent Trees"
+      },
+      {
+        "value": "Force Tradition Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Untested",
+      "Homebrew Content",
+      "Force Talent Trees",
+      "Force Tradition Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Chalactan Adept Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Chalactan_Adept_Talent_Tree",
+    "bonusTalentTree": "Force Talent Trees",
+    "source": "Clone Wars Saga Edition Fan Sourcebook - The Jedi Order",
+    "cost": "0"
+  },
+  "name": "Lesser Mark of Illumination",
+  "flags": {},
+  "type": "talent",
+  "folder": "z4RMiS8HFcpuWCaD",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385303408,
+    "modifiedTime": 1734385303408,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "ISe5HZbdoEiCPck1",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!ISe5HZbdoEiCPck1"
+}

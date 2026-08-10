@@ -1,0 +1,61 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p>Beings gain a +1 <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> bonus to all their <a href=\"https://swse.fandom.com/wiki/Defenses\" title=\"Defenses\">Defenses</a>.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "1",
+        "key": "fortitudeDefenseBonus"
+      },
+      {
+        "mode": 2,
+        "value": "1",
+        "key": "willDefenseBonus"
+      },
+      {
+        "mode": 2,
+        "value": "1",
+        "key": "reflexDefenseBonus"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "prerequisite": null,
+    "cost": "0"
+  },
+  "name": "Superior Defenses",
+  "flags": {},
+  "type": "trait",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764446475216,
+    "modifiedTime": 1764446475216,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "6qwDhAY4aIp3UTw4",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!6qwDhAY4aIp3UTw4"
+}

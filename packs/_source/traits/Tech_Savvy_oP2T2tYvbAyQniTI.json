@@ -1,0 +1,51 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p>A being can reroll any <a href=\"https://swse.fandom.com/wiki/Knowledge_(Technology)\" class=\"mw-redirect\" title=\"Knowledge (Technology)\">Knowledge (Technology)</a> check, but the result of the reroll must be accepted, even if it is worse. Additionally, a beings is not limited to <a href=\"https://swse.fandom.com/wiki/Common_Knowledge\" class=\"mw-redirect\" title=\"Common Knowledge\">Common Knowledge</a> when making an Untrained <a href=\"https://swse.fandom.com/wiki/Knowledge_(Technology)\" class=\"mw-redirect\" title=\"Knowledge (Technology)\">Knowledge (Technology)</a> check.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Knowledge (Technology)::A being can reroll any Knowledge (Technology) check, but the result of the reroll must be accepted, even if it is worse. Additionally, a beings is not limited to Common Knowledge when making an Untrained Knowledge (Technology) check.",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "prerequisite": null,
+    "cost": "0"
+  },
+  "name": "Tech Savvy",
+  "flags": {},
+  "type": "trait",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764446477057,
+    "modifiedTime": 1764446477057,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "oP2T2tYvbAyQniTI",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!oP2T2tYvbAyQniTI"
+}

@@ -1,0 +1,64 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You know how to move silently in almost any environment. You never suffer from unfavorable circumstances from environmental effects associated with noise when you <a href=\"https://swse.fandom.com/wiki/Sneak\" class=\"mw-redirect\" title=\"Sneak\">Sneak</a> using the <a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a> skill. Once per round, when you make a <a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a> check, you can automatically use the <a href=\"https://swse.fandom.com/wiki/Aid_Another\" title=\"Aid Another\">Aid Another</a> Action on one ally's <a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a> check.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Trained in Stealth",
+      "requirement": "Stealth",
+      "type": "TRAINED SKILL"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Scout Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Scout Talent Trees",
+      "Smuggler Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Hyperspace Explorer Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Hyperspace_Explorer_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Silent Movement",
+  "flags": {},
+  "type": "talent",
+  "folder": "l0639AgoA7C3RqLY",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385305877,
+    "modifiedTime": 1786036141316,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "4UcevxvMFqwAmr9f",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!4UcevxvMFqwAmr9f"
+}

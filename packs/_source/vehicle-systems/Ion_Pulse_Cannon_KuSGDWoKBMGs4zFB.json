@@ -1,0 +1,34 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Weapon Systems",
+    "changes": [],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Clone_Wars_Campaign_Guide\" title=\"Star Wars Saga Edition Clone Wars Campaign Guide\">Star Wars Saga Edition Clone Wars Campaign Guide</a></i></p><p><b>Size Restriction:</b> Colossal (Cruiser) or Larger</p><p>The Ion Pulse Cannon is found on <i><a href=\"https://swse.fandom.com/wiki/Subjugator-Class_Heavy_Cruisers\" class=\"mw-redirect\" title=\"Subjugator-Class Heavy Cruisers\">Subjugator</a></i> <a href=\"https://swse.fandom.com/wiki/Subjugator-Class_Heavy_Cruisers\" class=\"mw-redirect\" title=\"Subjugator-Class Heavy Cruisers\">-Class Heavy Cruisers</a> and is used to disable enemy Starships before they have a chance to fire back. No other class of ship carries the weapon due to its unique power generation needs.</p><p>Ion Pulse Cannons are <a href=\"https://swse.fandom.com/wiki/Area_Attack\" class=\"mw-redirect\" title=\"Area Attack\">Area Attack</a> weapons, even at <a href=\"https://swse.fandom.com/wiki/Starship_Scale\" class=\"mw-redirect\" title=\"Starship Scale\">Starship Scale</a>. A single Ion Pulse Cannon targets all Starships with 5 squares (<a href=\"https://swse.fandom.com/wiki/Starship_Scale\" class=\"mw-redirect\" title=\"Starship Scale\">Starship Scale</a>) of the ship carrying the weapon; the <a href=\"https://swse.fandom.com/wiki/Gunner\" title=\"Gunner\">Gunner</a> makes an attack roll against each ship within that area. On a hit; the target takes normal <a href=\"https://swse.fandom.com/wiki/Ion\" class=\"mw-redirect\" title=\"Ion\">Ion</a> damage and moves -2 steps on the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>. On a miss, the target takes half damage and moves -1 step on the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>.</p><p>Unlike most other <a href=\"https://swse.fandom.com/wiki/Weapon_Systems\" title=\"Weapon Systems\">Weapon Systems</a>, Ion Pulse Cannons have a significant build-up and cooldown time. The weapon can be fired as normal as a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a>. However, after firing the Ion Pulse Cannon, the <a href=\"https://swse.fandom.com/wiki/Gunner\" title=\"Gunner\">Gunner</a> must spend three consecutive <a href=\"https://swse.fandom.com/wiki/Full-Round_Actions\" title=\"Full-Round Actions\">Full-Round Actions</a> clearing the weapon of ionized particles before it can be fired again. If the Starship takes damage that equals or exceeds its <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a> at any time during this recharge period, the Ion Pulse Cannon automatically overloads and is destroyed.</p>",
+    "cost": "-",
+    "availability": "Unique",
+    "damage": "9d10x10 (Ion, Special)"
+  },
+  "name": "Ion Pulse Cannon",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317456,
+    "modifiedTime": 1759848317456,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "KuSGDWoKBMGs4zFB",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!KuSGDWoKBMGs4zFB"
+}

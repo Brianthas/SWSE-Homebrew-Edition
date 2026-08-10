@@ -1,0 +1,74 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Once per encounter, as a <a href=\"https://swse.fandom.com/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a> on your turn, you can make an attack with a light melee weapon or <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> after a successful <a href=\"https://swse.fandom.com/wiki/Feint\" class=\"mw-redirect\" title=\"Feint\">Feint</a>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Trained in Deception",
+          "requirement": "Deception",
+          "type": "TRAINED SKILL"
+        },
+        {
+          "text": "Weapon Finesse feat",
+          "requirement": "Weapon Finesse",
+          "type": "FEAT"
+        }
+      ],
+      "text": "Trained in Deception, and Weapon Finesse feat",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Melee Duelist Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Melee Duelist Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Melee Duelist Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Melee_Duelist_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Out of Nowhere",
+  "flags": {},
+  "type": "talent",
+  "folder": "yJuUX8DjONvntwks",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385309181,
+    "modifiedTime": 1734385309181,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "CD95NB3Tr6Tuu2YK",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!CD95NB3Tr6Tuu2YK"
+}

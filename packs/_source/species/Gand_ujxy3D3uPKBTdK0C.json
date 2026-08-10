@@ -1,0 +1,156 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a></i> </p><p>A strange Species of insect creatures, the Gand have evolved in response to the toxic atmosphere of their homeworld. In fact, two distinct types of Gand exist. The more common has features typical of other <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>- lungs and the usual assortment of internal organs. The other type- rarely found outside <a href=\"https://swse.fandom.com/wiki/Gand_(Planet)\" title=\"Gand (Planet)\">Gand</a>- has no lungs, and takes in the nutrients it needs through the materials it consumes. </p><p>Since the Gand cannot tolerate other atmospheres, and outsiders cannot breathe Gand's atmosphere, the Species of this far-flung world developed without outside interference, resulting in a rich culture with particularities. The most notable aspect of the Gand is their lack of individual identity. A Gand must earn their name, their place, and their uniqueness through personal accomplishments. As such, the lowliest Gand see themselves as nothing more than aspects of the same whole. </p><p>The Gand rarely permit non-Gand onto their world. Insular to the point of xenophobia, Gand have learned what can happen to the delicate balance of their society when they allow offworlders to pollute their people with ideas of independence and self-worth. The closest most ever come to the planet's surface are orbiting <a href=\"https://swse.fandom.com/wiki/Space_Stations\" title=\"Space Stations\">Space Stations</a>, the principle hubs of Gand trade and commerce. </p><h3><span class=\"mw-headline\" id=\"Gand_Characteristics\">Gand Characteristics</span></h3><p><b>Personality:</b> Gand seem humble, soft-spoken, and self-deprecating. Until a Gand has achieved something of importance, a Gand refers to itself as simply \"Gand.\" As the Gand achieves more accomplishments, it earns its identity, moving from the third person to the first person and eventually gaining a name. If a Gand missteps or fails, it will likely demote itself until it repairs the damage to its character. </p><p><b>Physical Description:</b> Short, stocky, and fleshy in appearance, Gand have three fingers on each hand, and their faces are lumpy and unsettling. Gand have large, multifaceted eyes that betray little emotion. All Gand encountered off-world use a special breathing apparatus that fits snugly into their facial orifice. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Gand age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-9 Years </td> \n   <td>10-14 Years </td> \n   <td>15-29 Years </td> \n   <td>30-45 Years </td> \n   <td>46-60 Years </td> \n   <td>61+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Gand come from the poisonous world of <a href=\"https://swse.fandom.com/wiki/Gand_(Planet)\" title=\"Gand (Planet)\">Gand</a>. </p><p><b>Languages:</b> Gand lack the organs to speak any language other than Gand and, therefore, rely on Transliterators to communicate in other tongues (see below). </p><p><b>Example Names:</b> Muulish, Ooryl, Shoolush, Vaabesh, Zaabahn, Zuckuss. </p><p><b>Adventurers:</b> Gand leave their homeworld for a variety of reasons, usually as exiles, driven forth from their worlds and condemned to wander. Others occupy a singularly unique role as mystic hunters called the Findsmen. Walking the path of truth, as they see it, they explore the galaxy, taking work as guardians, <a href=\"https://swse.fandom.com/wiki/Soldiers\" class=\"mw-redirect\" title=\"Soldiers\">Soldiers</a>, and more commonly, as <a href=\"https://swse.fandom.com/wiki/Bounty_Hunters\" class=\"mw-redirect\" title=\"Bounty Hunters\">Bounty Hunters</a>. </p><h3><span class=\"mw-headline\" id=\"Gand_Species_Traits\">Gand Species Traits</span></h3><p>Gand share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Darkvision",
+        "type": "trait"
+      },
+      {
+        "name": "Limb Regeneration",
+        "type": "trait"
+      },
+      {
+        "name": "Hardy",
+        "type": "trait"
+      },
+      {
+        "name": "Special Equipment",
+        "type": "trait"
+      },
+      {
+        "name": "Gand",
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "45",
+          "low": "30",
+          "text": "30-45",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "14",
+          "low": "10",
+          "text": "10-14",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "29",
+          "low": "15",
+          "text": "15-29",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "60",
+          "low": "46",
+          "text": "46-60",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "61",
+          "text": "61+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "9",
+          "low": "1",
+          "text": "1-9",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Weapon Familiarity (Gand Weapon Template:Analogous Simple Weapons)",
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Darkvision"
+      },
+      {
+        "value": "Limb Regeneration"
+      },
+      {
+        "value": "Hardy"
+      },
+      {
+        "value": "Weapon Familiarity"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Special Equipment"
+      },
+      {
+        "value": "Gand"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Gand",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535566134,
+    "modifiedTime": 1736535566134,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "ujxy3D3uPKBTdK0C",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!ujxy3D3uPKBTdK0C"
+}

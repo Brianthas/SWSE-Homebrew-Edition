@@ -1,0 +1,138 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_at_War\" title=\"Star Wars Saga Edition Galaxy at War\">Star Wars Saga Edition Galaxy at War</a></i> </p><p>Possessed of great strength, these large bipeds are best known for their uniquely non-<a href=\"https://swse.fandom.com/wiki/Human\" title=\"Human\">Human</a> mindset. A Thakwaash has multiple separate personalities, each specializing in a certain function or area of expertise. Interacting with Thakwaash can be difficult for other <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>, particularly for <a href=\"https://swse.fandom.com/wiki/Humans\" class=\"mw-redirect\" title=\"Humans\">Humans</a>, who view such behavior among their own kind as a mental disorder. The maximum number of personalities that a single Thakwaash can develop is unknown, as is the means by which such personalities form in the first place. </p><p>No reliable reports of Thakwaash exist prior to the Empire's defeat at <a href=\"https://swse.fandom.com/wiki/The_Forest_Moon_of_Endor\" title=\"The Forest Moon of Endor\">The Forest Moon of Endor</a>. As a Species, the Thakwaash do not acquire hyperdrive technology until after the battle. However, individual Thakwaash might find their way into the galaxy earlier. </p><h3><span class=\"mw-headline\" id=\"Thakwaash_Characteristics\">Thakwaash Characteristics</span></h3><p><b>Personality:</b> A single Thakwaash mind contains several distinct personalities. Some Thakwaash manifest dozens of different personalities and refer to themselves in the plural. This habit frequently leaves members of other <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> uncomfortable, because they are never certain of who they are speaking with, especially since Thakwaash are likely to change personalities in the middle of conversations. Unlike most beings who exhibit a multiple-personality disorder, each individual Thakwaash personality retains a basic knowledge of events and facts that the other personalities experience, although this rarely includes exact details. Conversations come to a halt when a Thakwaash pauses and asks a new acquaintance's name as if they had not been introduced already. </p><p><b>Physical Description:</b> Thakwaash average 3 meters in height, with athletic builds proportionate to their great height, making them look even more imposing. They also sport long manes slightly darker than the fur covering their bodies. They have an equine appearance made all the more prominent by their flaring nostrils and large dark eyes. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b>&nbsp;Thakwaash age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-9 Years </td> \n   <td>10-14 Years </td> \n   <td>15-49 Years </td> \n   <td>50-74 Years </td> \n   <td>75-89 Years </td> \n   <td>90+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> <span class=\"new\" title=\"Thakwaa (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvVGhha3dhYT9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Thakwaa</span>, a temperate world with grassy plains, located in <a href=\"https://swse.fandom.com/wiki/The_Outer_Rim\" title=\"The Outer Rim\">The Outer Rim</a>. </p><p><b>Languages:</b> Thakwaashi consists of grunts, whinnies, and snorts. Written Thakwaashi uses a small alphabet that represents many of the sounds of its spoken counterpart. </p><p><b>Example Names:</b> Aythar Desh, Hohass Ekwesh, Shakwa Rahakas, Jiva Shelani, Wec Taskelor. In spite of having multiple personalities, a Thakwaash has only a single name. </p><p><b>Adventurers:</b> Thakwaash are unknown to the galaxy until after the Galactic Civil War, but when Thakwaash are encountered away from their homeworld, they can be found in any imaginable vocation, since their wide array of personalities enables them to excel in any field. No Force-sensitive Thakwaash have been identified, but researchers admit that their multiple personalities would make identifying such beings far more difficult then normal. </p><h3><span class=\"mw-headline\" id=\"Thakwaash_Species_Traits\">Thakwaash Species Traits</span></h3><p>Thakwaash share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Natural Armor (+1)",
+        "type": "trait"
+      },
+      {
+        "name": "Thakwaash",
+        "type": "trait"
+      },
+      {
+        "name": "Irrepressible Mind",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "74",
+          "low": "50",
+          "text": "50-74",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "90",
+          "text": "90+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "49",
+          "low": "15",
+          "text": "15-49",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "9",
+          "low": "1",
+          "text": "1-9",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "14",
+          "low": "10",
+          "text": "10-14",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "89",
+          "low": "75",
+          "text": "75-89",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Natural Armor (+1)"
+      },
+      {
+        "value": "Thakwaash"
+      },
+      {
+        "value": "Irrepressible Mind"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Natural Armor"
+      },
+      {
+        "value": "Species"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Thakwaash",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535567477,
+    "modifiedTime": 1736535567477,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "BxqiixxJG9DRgdVi",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!BxqiixxJG9DRgdVi"
+}

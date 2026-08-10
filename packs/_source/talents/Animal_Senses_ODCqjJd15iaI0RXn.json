@@ -1,0 +1,74 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You ignore <a href=\"https://swse.fandom.com/wiki/Concealment\" title=\"Concealment\">Concealment</a> (including <a href=\"https://swse.fandom.com/wiki/Total_Concealment\" class=\"mw-redirect\" title=\"Total Concealment\">Total Concealment</a>) from darkness. However, you cannot perceive colors in total darkness. Additionally, at close range (within 10 squares), you ignore <a href=\"https://swse.fandom.com/wiki/Concealment\" title=\"Concealment\">Concealment</a> and <a href=\"https://swse.fandom.com/wiki/Cover\" title=\"Cover\">Cover</a> for purposes of <a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> checks, and take no penalty from poor visibility while <a href=\"https://swse.fandom.com/wiki/Tracking\" class=\"mw-redirect\" title=\"Tracking\">Tracking</a>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Trained in Perception",
+          "requirement": "Perception",
+          "type": "TRAINED SKILL"
+        },
+        {
+          "text": "Nature Sense talent",
+          "requirement": "Nature Sense",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Trained in Perception, and Nature Sense talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Force Adept Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Force Adept Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Beastwarden Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Beastwarden_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Saga Edition All-Purpose Sourcebook",
+    "cost": "0"
+  },
+  "name": "Animal Senses",
+  "flags": {},
+  "type": "talent",
+  "folder": "AHyChDY4my175aHA",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385302627,
+    "modifiedTime": 1734385302627,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "ODCqjJd15iaI0RXn",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!ODCqjJd15iaI0RXn"
+}

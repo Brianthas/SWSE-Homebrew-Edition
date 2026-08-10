@@ -1,0 +1,118 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode"
+        }
+      },
+      "statuses": [],
+      "disabled": false,
+      "name": "Single-Shot",
+      "_id": "X0p8evcU7Clu6NHg",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513557,
+        "modifiedTime": 1786051513557,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!iipCNlmG6YnCgsig.X0p8evcU7Clu6NHg"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><a href=\"https://swse.fandom.com/wiki/Squibs\" class=\"mw-redirect\" title=\"Squibs\">Squibs</a> are among the galaxy's foremost experts on tractor-beam technology, having adapted tractor beams to function as effective weapons. The Squib Tensor Rifle, which fires invisible bursts of compressed tractor beams at the target, inflicts extensive cell disruption upon living targets hit with successive blasts. The weapon is also noted for being incredibly loud, and more than a few <a href=\"https://swse.fandom.com/wiki/Squibs\" class=\"mw-redirect\" title=\"Squibs\">Squibs</a> have used Squib Tensor Rifles to get the undivided attention of beings who would otherwise dismiss them. </p><p>A character using this weapon makes an attack roll against the target's <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>. If the attack is successful, the target moves -1 step on the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>, regardless of the actual damage roll. <a href=\"https://swse.fandom.com/wiki/Squibs\" class=\"mw-redirect\" title=\"Squibs\">Squibs</a> treat Squib Tensor Rifles as <a href=\"https://swse.fandom.com/wiki/Rifles\" title=\"Rifles\">Rifles</a>, rather than as <a href=\"https://swse.fandom.com/wiki/Exotic_Weapons_(Ranged)\" title=\"Exotic Weapons (Ranged)\">Exotic Weapons (Ranged)</a>. </p><p>A Squib Tensor Rifle is treated as a <a href=\"https://swse.fandom.com/wiki/Rifle\" class=\"mw-redirect\" title=\"Rifle\">Rifle</a> for the purpose of determining <a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a>, and it requires a <a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a> to operate. After 15 shots, the <a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a> must be replaced. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Rifles",
+        "key": "treatedAs"
+      },
+      {
+        "mode": 2,
+        "value": "Power Pack:15",
+        "key": "ammo"
+      }
+    ],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "10,000",
+    "weight": "7.2 Kilograms",
+    "availability": "Restricted, Rare",
+    "size": "Medium",
+    "type": "",
+    "subtype": "Exotic Ranged Weapons",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "3d8",
+    "damageType": "Energy"
+  },
+  "name": "Squib Tensor Rifle",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Squib_Tensor_Rifle.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513557,
+    "modifiedTime": 1786051513594,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "iipCNlmG6YnCgsig",
+  "_key": "!items!iipCNlmG6YnCgsig"
+}

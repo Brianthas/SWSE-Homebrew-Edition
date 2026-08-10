@@ -1,0 +1,57 @@
+{
+  "name": "Extended Capacity",
+  "type": "feat",
+  "img": "systems/swse/icon/feat/Extended_Capacity.webp",
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Homebrew Feat (tovec.wikidot.com/episode-vii)</i></p><p>Doubles your carrying capacity: both your Light slots and Kit slots totals are doubled.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": 2,
+        "key": "capacitySlotMultiplier"
+      }
+    ],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": null,
+    "categories": [
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "_id": "NiU3X5nfqeVZFzZi",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786054033232,
+    "modifiedTime": 1786054033232,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!NiU3X5nfqeVZFzZi"
+}

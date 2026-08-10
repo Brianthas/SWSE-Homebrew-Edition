@@ -1,0 +1,63 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Whenever you successfully damage an opponent with a melee attack, you can make a <a href=\"https://swse.fandom.com/wiki/Deception\" title=\"Deception\">Deception</a> check to <a href=\"https://swse.fandom.com/wiki/Feint\" class=\"mw-redirect\" title=\"Feint\">Feint</a> against that target as a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>. If successful, you designate an ally within 12 squares; your target is designated <a href=\"https://swse.fandom.com/wiki/Flat-Footed\" class=\"mw-redirect\" title=\"Flat-Footed\">Flat-Footed</a> against the first attack that ally makes against your target before the beginning of your next turn.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Noble Fencing Style talent",
+      "requirement": "Noble Fencing Style",
+      "type": "TALENT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Noble Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Noble Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Fencing Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Fencing_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Leading Feint",
+  "flags": {},
+  "type": "talent",
+  "folder": "Tao4B1GH1i7kDqjF",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385304906,
+    "modifiedTime": 1734385304906,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "7PlWY3aPBXHyvaIb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!7PlWY3aPBXHyvaIb"
+}

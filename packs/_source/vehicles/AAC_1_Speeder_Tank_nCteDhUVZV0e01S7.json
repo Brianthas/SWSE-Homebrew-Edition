@@ -1,0 +1,675 @@
+{
+  "effects": [],
+  "system": {
+    "health": {
+      "value": 100,
+      "min": 0,
+      "max": 100,
+      "condition": 0,
+      "override": 100,
+      "bonusHP": null
+    },
+    "shields": {
+      "value": 0,
+      "min": 0,
+      "max": null,
+      "shieldDamage": 0
+    },
+    "description": "",
+    "credits": 0,
+    "classes": [],
+    "traits": [],
+    "age": 0,
+    "gender": "",
+    "genderDisplay": "",
+    "player": "",
+    "crewQuality": {},
+    "crew": [],
+    "attributes": {
+      "str": {
+        "total": 0,
+        "mod": 0,
+        "bonus": 0,
+        "base": 0
+      },
+      "dex": {
+        "total": 0,
+        "mod": 0,
+        "bonus": 0,
+        "base": 0
+      },
+      "int": {
+        "total": 0,
+        "mod": 0,
+        "bonus": 0,
+        "base": 0
+      }
+    },
+    "equippedIds": [],
+    "skills": {
+      "pilot (pilot)": {
+        "value": 0,
+        "attribute": "dex",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Pilot",
+        "sizeMod": true
+      },
+      "initiative (pilot)": {
+        "value": 0,
+        "attribute": "dex",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Initiative",
+        "sizeMod": true
+      },
+      "deception (pilot)": {
+        "value": 0,
+        "attribute": "dex",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Starship_Deception",
+        "sizeMod": true
+      },
+      "stealth (pilot)": {
+        "value": 0,
+        "attribute": "dex",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Stealth#Starship_Stealth",
+        "sizeMod": true
+      },
+      "pilot (copilot)": {
+        "value": 0,
+        "attribute": "dex",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Pilot"
+      },
+      "use computer (commander)": {
+        "value": 0,
+        "attribute": "int",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Use_Computer"
+      },
+      "knowledge (tactics) (commander)": {
+        "value": 0,
+        "attribute": "int",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Knowledge"
+      },
+      "use computer (system operator)": {
+        "value": 0,
+        "attribute": "int",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Use_Computer"
+      },
+      "mechanics (system operator)": {
+        "value": 0,
+        "attribute": "int",
+        "uut": false,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Mechanics"
+      },
+      "mechanics (engineer)": {
+        "value": 0,
+        "attribute": "int",
+        "uut": false,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Mechanics"
+      }
+    },
+    "biography": "",
+    "abilities": {
+      "str": {
+        "base": 30,
+        "value": 10,
+        "manual": null,
+        "customBonus": 0
+      },
+      "dex": {
+        "base": 22,
+        "value": 10,
+        "manual": null,
+        "customBonus": 0
+      },
+      "int": {
+        "base": 14,
+        "value": 10,
+        "manual": null,
+        "customBonus": 0
+      },
+      "con": {
+        "value": 10,
+        "manual": null,
+        "base": 10,
+        "customBonus": 0
+      },
+      "wis": {
+        "value": 10,
+        "manual": null,
+        "base": 10,
+        "customBonus": 0
+      },
+      "cha": {
+        "value": 10,
+        "manual": null,
+        "base": 10,
+        "customBonus": 0
+      }
+    },
+    "changes": [
+      {}
+    ],
+    "cl": {
+      "value": 0
+    },
+    "vehicle": {
+      "cover": "Total Cover:",
+      "passengers": "None",
+      "crewQuality": "Normal",
+      "consumables": "1 Day",
+      "cargo": {
+        "capacity": 0.07
+      },
+      "speed": {
+        "characterScale": 3,
+        "maximumVelocity": 227
+      },
+      "crew": 2
+    },
+    "darkside": {
+      "value": 0
+    },
+    "toggles": {},
+    "overrides": {},
+    "actorLinks": [],
+    "settings": {
+      "isNPC": false,
+      "autoSizeToken": false,
+      "allowSheetLighting": false,
+      "ignorePrerequisites": false,
+      "ignorePrerequisitesOnDrop": false,
+      "attributeGeneration": "Default"
+    },
+    "defense": {
+      "ref": {
+        "value": 10
+      },
+      "fort": {
+        "value": 10
+      },
+      "will": {
+        "value": 10
+      },
+      "reff": {
+        "value": 10
+      },
+      "special": "",
+      "dr": 0
+    },
+    "details": {
+      "biography": "",
+      "description": "",
+      "gender": "",
+      "sex": "",
+      "age": 0,
+      "experience": 0,
+      "cl": "",
+      "height": "",
+      "weight": "",
+      "species": "Human",
+      "classes": "",
+      "senses": "",
+      "lang": "",
+      "specialHp": "",
+      "immunities": "",
+      "weaknesses": "",
+      "fightSpace": "",
+      "atkOptions": "",
+      "specialActions": "",
+      "forceP": "",
+      "forceS": "",
+      "forceT": "",
+      "specialQualities": "",
+      "talents": "",
+      "feats": "",
+      "skills": "",
+      "systems": "",
+      "possesses": "",
+      "notes": ""
+    },
+    "xp": "",
+    "baseAttack": 0,
+    "grapple": 0,
+    "forcePoints": 0,
+    "destinyPoints": 0,
+    "darkSide": {
+      "value": 0
+    },
+    "level": {
+      "value": 0
+    },
+    "speed": {
+      "base": 6,
+      "swim": 1.5,
+      "climb": 1.5,
+      "fly": null,
+      "special": ""
+    },
+    "size": "Medium",
+    "reach": 1
+  },
+  "name": "AAC-1 Speeder Tank",
+  "flags": {},
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "AAC-1 Speeder Tank",
+    "displayName": 0,
+    "actorLink": true,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "shields"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "depth": 1
+  },
+  "items": [
+    {
+      "_id": "ioJUsXzKpiADikIW",
+      "name": "Huge",
+      "type": "trait",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "",
+        "textDescription": "",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": "Huge",
+            "key": "size"
+          },
+          {
+            "mode": 2,
+            "value": 0,
+            "key": "reflexDefenseBonusScalable"
+          },
+          {
+            "mode": 2,
+            "value": "1 square",
+            "key": "characterFightingSpaceScalable"
+          },
+          {
+            "mode": 2,
+            "value": 0,
+            "key": "shipSkillModifierScalable"
+          },
+          {
+            "mode": 2,
+            "value": "1d4",
+            "key": "unarmedDamageScalable"
+          },
+          {
+            "mode": 2,
+            "value": "stealth:0",
+            "key": "skillBonusScalable"
+          },
+          {
+            "mode": 2,
+            "value": 0,
+            "key": "damageThresholdSizeModifierScalable"
+          },
+          {
+            "mode": 2,
+            "value": "0 squares",
+            "key": "vehicleFightingSpaceScalable"
+          },
+          {
+            "mode": 2,
+            "value": 0,
+            "key": "grappleSizeModifierScalable"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "categories": [],
+        "supplier": {},
+        "possibleProviders": [],
+        "isSupplied": false,
+        "prerequisite": null,
+        "cost": "0",
+        "quantity": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.2",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!nCteDhUVZV0e01S7.ioJUsXzKpiADikIW"
+    },
+    {
+      "_id": "OELXuxuJrwDmCVtl",
+      "name": "Medium",
+      "type": "trait",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "",
+        "textDescription": "",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": "Medium",
+            "key": "size"
+          },
+          {
+            "mode": 2,
+            "value": 0,
+            "key": "reflexDefenseBonusScalable"
+          },
+          {
+            "mode": 2,
+            "value": "1 square",
+            "key": "characterFightingSpaceScalable"
+          },
+          {
+            "mode": 2,
+            "value": 0,
+            "key": "shipSkillModifierScalable"
+          },
+          {
+            "mode": 2,
+            "value": "1d4",
+            "key": "unarmedDamageScalable"
+          },
+          {
+            "mode": 2,
+            "value": "stealth:0",
+            "key": "skillBonusScalable"
+          },
+          {
+            "mode": 2,
+            "value": 0,
+            "key": "damageThresholdSizeModifierScalable"
+          },
+          {
+            "mode": 2,
+            "value": "0 squares",
+            "key": "vehicleFightingSpaceScalable"
+          },
+          {
+            "mode": 2,
+            "value": 0,
+            "key": "grappleSizeModifierScalable"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "categories": [],
+        "supplier": {},
+        "possibleProviders": [],
+        "isSupplied": false,
+        "prerequisite": null,
+        "cost": "0",
+        "quantity": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.2",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!nCteDhUVZV0e01S7.OELXuxuJrwDmCVtl"
+    },
+    {
+      "_id": "nppg3QMSLJkmn45x",
+      "name": "Laser Cannon, Medium",
+      "type": "vehicleSystem",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "subtype": "Weapon Systems",
+        "changes": [
+          {
+            "mode": 2,
+            "value": "3-5 Squares",
+            "key": "rangeStarshipMedium"
+          },
+          {
+            "mode": 2,
+            "value": "2 Squares",
+            "key": "rangeStarshipShort"
+          },
+          {
+            "mode": 2,
+            "value": "301-750 Squares",
+            "key": "rangeMedium"
+          },
+          {
+            "mode": 2,
+            "value": "6-10 Squares",
+            "key": "rangeStarshipLong"
+          },
+          {
+            "mode": 2,
+            "value": "0-1 Squares",
+            "key": "rangeStarshipPointBlank"
+          },
+          {
+            "mode": 2,
+            "value": "0-150 Squares",
+            "key": "rangePointBlank"
+          },
+          {
+            "mode": 2,
+            "value": "5d10x2",
+            "key": "damage"
+          },
+          {
+            "mode": 2,
+            "value": "151-300 Squares",
+            "key": "rangeShort"
+          },
+          {
+            "mode": 2,
+            "value": "1",
+            "key": "emplacementPoints"
+          },
+          {
+            "mode": 2,
+            "value": "4000",
+            "key": "cost"
+          },
+          {
+            "mode": 2,
+            "value": "Restricted",
+            "key": "availability"
+          },
+          {
+            "mode": 2,
+            "value": "751-1,500 Squares",
+            "key": "rangeLong"
+          },
+          {
+            "mode": 2,
+            "value": ", Double",
+            "key": "suffix"
+          }
+        ],
+        "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><table class=\"wikitable\">\n <tbody>\n  <tr>\n   <th>LASER CANNON</th>\n   <th>DAMAGE</th>\n   <th>EMPLACEMENT POINTS</th>\n   <th>AVAILABILITY</th>\n   <th>COST</th>\n  </tr>\n  <tr>\n   <td>Light</td>\n   <td>3d10x2</td>\n   <td>1</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Licensed\" class=\"mw-redirect\" title=\"Licensed\">Licensed</a></td>\n   <td>1500</td>\n  </tr>\n  <tr>\n   <td>Medium</td>\n   <td>4d10x2</td>\n   <td>1</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Restricted\" class=\"mw-redirect\" title=\"Restricted\">Restricted</a></td>\n   <td>4000</td>\n  </tr>\n  <tr>\n   <td>Heavy</td>\n   <td>5d10x2</td>\n   <td>2</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Military\" class=\"mw-redirect\" title=\"Military\">Military</a></td>\n   <td>6000</td>\n  </tr>\n </tbody>\n</table><p>Laser Cannons are the most common Starship weapons, carried by Starfighters and Space Transports as primary armament and Capital Ships as <a href=\"https://swse.fandom.com/wiki/Point-Defense_Weapons\" class=\"mw-redirect\" title=\"Point-Defense Weapons\">Point-Defense Weapons</a>. They generally have a better Range than <a href=\"https://swse.fandom.com/wiki/Blaster_Cannons\" class=\"mw-redirect\" title=\"Blaster Cannons\">Blaster Cannons</a>, but they are somewhat more expensive.</p><table class=\"wikitable\">\n <caption>\n  Laser Cannon Ranges\n </caption>\n <tbody>\n  <tr>\n   <th colspan=\"4\">RANGE BY CHARACTER SCALE</th>\n   <th></th>\n   <th colspan=\"4\"><p>RANGE BY STARSHIP SCALE</p></th>\n  </tr>\n  <tr>\n   <th>POINT-BLANK</th>\n   <th>SHORT</th>\n   <th>MEDIUM</th>\n   <th>LONG</th>\n   <th></th>\n   <th>POINT-BLANK</th>\n   <th>SHORT</th>\n   <th>MEDIUM</th>\n   <th>LONG</th>\n  </tr>\n  <tr>\n   <td>0-150 Squares</td>\n   <td>151-300 Squares</td>\n   <td>301-750 Squares</td>\n   <td>751-1,500 Squares</td>\n   <td></td>\n   <td>0-1 Squares</td>\n   <td>2 Squares</td>\n   <td>3-5 Squares</td>\n   <td>6-10 Squares</td>\n  </tr>\n </tbody>\n</table>",
+        "cost": "4000",
+        "quantity": 1,
+        "providedItems": [],
+        "equipped": "pilotInstalled"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.2",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!nCteDhUVZV0e01S7.nppg3QMSLJkmn45x"
+    }
+  ],
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.2",
+    "createdTime": 1785035887036,
+    "modifiedTime": 1785035887036,
+    "lastModifiedBy": "lyU5Zj9fsO0d8kF6"
+  },
+  "ownership": {
+    "default": 0,
+    "lyU5Zj9fsO0d8kF6": 3
+  },
+  "_id": "nCteDhUVZV0e01S7",
+  "sort": 0,
+  "_key": "!actors!nCteDhUVZV0e01S7"
+}

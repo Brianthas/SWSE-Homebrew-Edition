@@ -1,0 +1,61 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Jedi_Academy_Training_Manual\" title=\"Star Wars Saga Edition Jedi Academy Training Manual\">Star Wars Saga Edition Jedi Academy Training Manual</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Lightsaber_Construction\" title=\"Lightsaber Construction\">Lightsaber Construction</a></i> </p><p>This simple <a href=\"https://swse.fandom.com/wiki/Lightsaber_Modification\" class=\"mw-redirect\" title=\"Lightsaber Modification\">Lightsaber Modification</a> is usually added only to <a href=\"https://swse.fandom.com/wiki/Lightsabers\" title=\"Lightsabers\">Lightsabers</a> whose wielders frequently <a href=\"https://swse.fandom.com/wiki/Thrown\" class=\"mw-redirect\" title=\"Thrown\">Throw</a> the <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> as a ranged weapon. As a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>, the wielder can lock the blade in place; when doing so, this prevents the <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> from being accidentally deactivated when the weapon is jarred, such as during the impact of being <a href=\"https://swse.fandom.com/wiki/Thrown\" class=\"mw-redirect\" title=\"Thrown\">Thrown</a>. A <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a> unlocks the blade, meaning that it takes two <a href=\"https://swse.fandom.com/wiki/Swift_Actions\" title=\"Swift Actions\">Swift Actions</a> to deactivate a locked <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> blade. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "itemMod"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "0",
+    "weight": "",
+    "availability": "",
+    "size": "",
+    "type": "",
+    "subtype": "Lightsaber Modifications",
+    "quantity": 1,
+    "hasItemOwner": false,
+    "upgrade": {},
+    "prerequisite": {
+      "text": "Lightsabers",
+      "requirement": "lightsabers",
+      "type": "SUBTYPE"
+    },
+    "source": "Star Wars Saga Edition Jedi Academy Training Manual",
+    "seeAlso": "Lightsaber Construction"
+  },
+  "name": "Blade Lock",
+  "flags": {},
+  "type": "upgrade",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263246145,
+    "modifiedTime": 1749263246145,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "KyipuT5aZft1padY",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!KyipuT5aZft1padY"
+}

@@ -1,0 +1,142 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Legacy_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Legacy Era Campaign Guide\">Star Wars Saga Edition Legacy Era Campaign Guide</a></i> </p><p>Honorable, mysterious, violent, and sinister. All these words and more describe the Nagai people. They first appeared to be galactic invaders, until it was revealed that the Nagai were escaping their long-time enemies, the <a href=\"https://swse.fandom.com/wiki/Tofs\" class=\"mw-redirect\" title=\"Tofs\">Tofs</a>. Initially hostile to <a href=\"https://swse.fandom.com/wiki/The_New_Republic\" title=\"The New Republic\">The New Republic</a>, the Nagai eventually formed an alliance of convenience with <a href=\"https://swse.fandom.com/wiki/The_New_Republic\" title=\"The New Republic\">The New Republic</a> in an attempt to achieve victory in their war against the <a href=\"https://swse.fandom.com/wiki/Tofs\" class=\"mw-redirect\" title=\"Tofs\">Tofs</a>. </p><p>The Nagai are charismatic- a quality that is, by and large, a product of their enhanced vocal range, which allows them to tailor their speech to be more soothing. They are driven by a strong sense of personal honor, which is tempered by their own individualities. The Nagai fear nothing aside from a loss of freedom, symbolized by the return of the enemy that once enslaved their people. They have little concern for individuals outside of their own families, and they only endeavor to aid others if it serves their purposes or if they are bound by honor to do so. </p><p>Melee combat, especially the use of edged weapons, is highly integrated into Nagai culture. It is a rare Nagai who does not display an expert's hand in the use of blades of all sizes. </p><h3><span class=\"mw-headline\" id=\"Nagai_Characteristics\">Nagai Characteristics</span></h3><p><b>Personality:</b> Nagai tend to be disciplined, focused, and passionate. They kill without hesitation if honor would be served by the act, and they take great pride in hard-fought victories. They possess a grim wit that, when combined with their soothing voices, can often set enemies off-balance. </p><p><b>Physical Description:</b> Nagai possess straight black hair, dark eyes, porcelain-white skin, and slender builds. No two Nagai dress the same, and they take great pains to express their own individual sense of style. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Nagai age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-18 Years </td> \n   <td>19-44 Years </td> \n   <td>45-60 Years </td> \n   <td>61-74 Years </td> \n   <td>75+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> <a href=\"https://swse.fandom.com/wiki/Nagi\" title=\"Nagi\">Nagi</a>, a world in <a href=\"https://swse.fandom.com/wiki/The_Unknown_Regions\" title=\"The Unknown Regions\">The Unknown Regions</a>. Few non-Nagai know its exact location. </p><p><b>Languages:</b> Nagaian, a musical and lilting speech riddled with slight variations of pitch and tone that blend easily with the natural soothing voice of the Nagai. Other <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> can learn the language but rarely master it. </p><p><b>Example Names:</b> Den Siva, Harmon Sho, Hol B'shaki, Krai H'voc, Lusubrin T'shkali, Mendo, Nir Kento, Ozrei, Rei, Sin Shai, Tai, Taru. </p><p><b>Adventurers:</b> Nagai freely pursue any vocation that pleases them, and <a href=\"https://swse.fandom.com/wiki/Nobles\" class=\"mw-redirect\" title=\"Nobles\">Nobles</a>, <a href=\"https://swse.fandom.com/wiki/Scoundrels\" class=\"mw-redirect\" title=\"Scoundrels\">Scoundrels</a>, <a href=\"https://swse.fandom.com/wiki/Scouts\" class=\"mw-redirect\" title=\"Scouts\">Scouts</a>, and <a href=\"https://swse.fandom.com/wiki/Soldiers\" class=\"mw-redirect\" title=\"Soldiers\">Soldiers</a> are common. A number of Nagai have become <a href=\"https://swse.fandom.com/wiki/Jedi\" title=\"Jedi\">Jedi</a>, although there are no known <a href=\"https://swse.fandom.com/wiki/Force_Traditions\" title=\"Force Traditions\">Force Traditions</a> among the Nagai people. </p><h3><span class=\"mw-headline\" id=\"Nagai_Species_Traits\">Nagai Species Traits</span></h3><p>Nagai share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Nagai",
+        "type": "trait"
+      },
+      {
+        "name": "Lightning Reflexes",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Soothing Voice",
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "75",
+          "text": "75+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "44",
+          "low": "19",
+          "text": "19-44",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "18",
+          "low": "12",
+          "text": "12-18",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "11",
+          "low": "1",
+          "text": "1-11",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "74",
+          "low": "61",
+          "text": "61-74",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "60",
+          "low": "45",
+          "text": "45-60",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Weapon Familiarity (Tehk'la Blade:Simple Melee Weapons)",
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Nagai"
+      },
+      {
+        "value": "Lightning Reflexes"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Soothing Voice"
+      },
+      {
+        "value": "Weapon Familiarity"
+      },
+      {
+        "value": "Species"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Nagai",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535566740,
+    "modifiedTime": 1736535566740,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "tfFrPxFGKT8Hpd9H",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!tfFrPxFGKT8Hpd9H"
+}

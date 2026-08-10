@@ -1,51 +1,82 @@
-// .tabs {
-//   .item {
-//     background: rgba(0, 0, 0, 0.125);
-//     border: 1px solid;
-//     border-radius: 4px;
-//     margin: 0 10px 0;
-//     padding: 8px 4px;
-
-//     &:hover,
-//     &:focus {
-//       background: rgba(0, 0, 0, 0.125);
-//     }
-
-//     &.active {
-//       background: transparent;
-//     }
-//   }
-// }
-
 .tabs {
-  height: 40px;
-  border-top: 1px solid #AAA;
-  border-bottom: 1px solid #AAA;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: $space-xs;
+  height: auto;
+  padding: $space-xs;
+  background: var(--swse-surface);
+  border: 1px solid var(--swse-border);
+  border-radius: $radius-md;
+  box-shadow: $shadow-sm;
 
   .item {
-    line-height: 40px;
-    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: $space-xs;
+    line-height: 1.2;
+    font-family: $font-display;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--swse-text-muted);
     flex-grow: 1;
-  }
+    justify-content: center;
+    padding: $space-sm $space-md;
+    border-radius: $radius-sm;
+    border: 1px solid transparent;
+    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
 
-  .item.active {
-    text-decoration: underline;
-    text-shadow: none;
+    i {
+      font-size: 13px;
+    }
+
+    &:hover,
+    &:focus {
+      color: var(--swse-text);
+      background: var(--swse-surface-raised);
+    }
+
+    &.active {
+      color: var(--swse-bg);
+      background: var(--swse-accent);
+      border-color: var(--swse-accent);
+      text-decoration: none;
+      text-shadow: none;
+    }
   }
 }
 
 .vertical-tabs {
-
-  border-top: 1px solid #AAA;
-  border-bottom: 1px solid #AAA;
+  display: flex;
+  flex-direction: column;
+  gap: $space-xs;
+  border: 1px solid var(--swse-border);
+  border-radius: $radius-md;
+  padding: $space-xs;
+  background: var(--swse-surface);
 
   .item {
-    line-height: 40px;
-    font-weight: bold;
-  }
+    line-height: 1.4;
+    font-family: $font-display;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    color: var(--swse-text-muted);
+    padding: $space-sm $space-md;
+    border-radius: $radius-sm;
 
-  .item.active {
-    text-decoration: underline;
-    text-shadow: none;
+    &:hover,
+    &:focus {
+      color: var(--swse-text);
+      background: var(--swse-surface-raised);
+    }
+
+    &.active {
+      color: var(--swse-bg);
+      background: var(--swse-accent);
+      text-decoration: none;
+      text-shadow: none;
+    }
   }
 }

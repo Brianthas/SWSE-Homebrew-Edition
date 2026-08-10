@@ -1,0 +1,84 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "As a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a>, you can make a <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check after you or an ally within 12 squares is the target of a melee or ranged attack (but before the results of the attack roll are known), removing one use of the <i><a href=\"https://swse.fandom.com/wiki/Farseeing\" title=\"Farseeing\">Farseeing</a></i> Force Power from your active <a href=\"https://swse.fandom.com/wiki/Force_Power_Suite\" class=\"mw-redirect\" title=\"Force Power Suite\">Force Power Suite</a> (as though you had activated the <a href=\"https://swse.fandom.com/wiki/Force_Power\" class=\"mw-redirect\" title=\"Force Power\">Force Power</a>).<br><br>If your check result equals or exceeds the <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a> of the attacker, you grant the target of that attack a +5 <a href=\"https://swse.fandom.com/wiki/Force\" class=\"mw-redirect\" title=\"Force\">Force</a> bonus to their <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against that attack.<br><br>This counts as using the <i><a href=\"https://swse.fandom.com/wiki/Farseeing\" title=\"Farseeing\">Farseeing</a></i> Force Power against the attacker, but this Talent replaces the normal rules and effects of <i><a href=\"https://swse.fandom.com/wiki/Farseeing\" title=\"Farseeing\">Farseeing</a></i>. Any attack can only be affected by this Talent once (thus, multiple characters cannot use this Talent on the same attack to allow multiple rerolls).<br><br>You take a cumulative -5 penalty on <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> checks until the beginning of your next turn when you use this Talent.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:As a<a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a>, you can make a<a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a>check after you or an ally within 12 squares is the target of a melee or ranged attack (but before the results of the attack roll are known), removing one use of the<i><a href=\"https://swse.fandom.com/wiki/Farseeing\" title=\"Farseeing\">Farseeing</a></i>Force Power from your active<a href=\"https://swse.fandom.com/wiki/Force_Power_Suite\" class=\"mw-redirect\" title=\"Force Power Suite\">Force Power Suite</a>(as though you had activated the<a href=\"https://swse.fandom.com/wiki/Force_Power\" class=\"mw-redirect\" title=\"Force Power\">Force Power</a>).<br><br>If your check result equals or exceeds the<a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a>of the attacker, you grant the target of that attack a +5<a href=\"https://swse.fandom.com/wiki/Force\" class=\"mw-redirect\" title=\"Force\">Force</a>bonus to their<a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>against that attack.<br><br>This counts as using the<i><a href=\"https://swse.fandom.com/wiki/Farseeing\" title=\"Farseeing\">Farseeing</a></i>Force Power against the attacker, but this Talent replaces the normal rules and effects of<i><a href=\"https://swse.fandom.com/wiki/Farseeing\" title=\"Farseeing\">Farseeing</a></i>. Any attack can only be affected by this Talent once (thus, multiple characters cannot use this Talent on the same attack to allow multiple rerolls).<br><br>You take a cumulative -5 penalty on<a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a>checks until the beginning of your next turn when you use this Talent.",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Farseeing force power",
+          "requirement": "Farseeing",
+          "type": "FORCE POWER"
+        },
+        {
+          "text": "WatchCircle Initiate talent",
+          "requirement": "WatchCircle Initiate",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Farseeing force power, and WatchCircle Initiate talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Jedi Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Jedi Talent Trees",
+      "Core Rulebook"
+    ],
+    "isSupplied": false,
+    "talentTree": "Jedi Consular Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Jedi_Consular_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Visionary Defense",
+  "flags": {},
+  "type": "talent",
+  "folder": "jDmJWD9Q111MuzUy",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385306711,
+    "modifiedTime": 1734385306711,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "5XPyDPAurCGbsKe4",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!5XPyDPAurCGbsKe4"
+}

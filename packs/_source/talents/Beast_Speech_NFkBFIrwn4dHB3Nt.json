@@ -1,0 +1,86 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You may speak to <a href=\"https://swse.fandom.com/wiki/Beasts\" title=\"Beasts\">Beasts</a> as if you shared a language. This allows you to use <a href=\"https://swse.fandom.com/wiki/Persuasion\" title=\"Persuasion\">Persuasion</a> checks on them without penalty (though it does not inherently change their <a href=\"https://swse.fandom.com/wiki/Attitude\" class=\"mw-redirect\" title=\"Attitude\">Attitude</a>), and allows you to exchange information or requests with them, subject to the limitations of the Beast's intelligence.<br><br>Given an area with at least a moderate amount of animal life, you may make <a href=\"https://swse.fandom.com/wiki/Gather_Information\" title=\"Gather Information\">Gather Information</a> checks without paying credits, but you take a -5 on the check and are limited to information <a href=\"https://swse.fandom.com/wiki/Beasts\" title=\"Beasts\">Beasts</a> would be aware of. (For example, you could learn the location of an installation, but not the code that opens the door.)",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "a member of The Nature Priests",
+      "requirement": "The Nature Priests",
+      "type": "TRADITION"
+    },
+    "categories": [
+      {
+        "value": "Untested"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Force Talent Trees"
+      },
+      {
+        "value": "Force Tradition Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Untested",
+      "Homebrew Content",
+      "Force Talent Trees",
+      "Force Tradition Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Nature Priest Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Nature_Priest_Talent_Tree",
+    "bonusTalentTree": "Force Talent Trees",
+    "source": "Saga Edition All-Purpose Sourcebook",
+    "cost": "0"
+  },
+  "name": "Beast Speech",
+  "flags": {},
+  "type": "talent",
+  "folder": "EeSo1uT00tbhlAv6",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385309970,
+    "modifiedTime": 1734385309970,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "NFkBFIrwn4dHB3Nt",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!NFkBFIrwn4dHB3Nt"
+}

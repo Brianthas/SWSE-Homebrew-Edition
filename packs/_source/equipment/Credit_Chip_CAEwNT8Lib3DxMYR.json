@@ -1,0 +1,68 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p>The Credit Chip is a small, flat card that features a security codeout and credit algorithm memory stripes. The chip can hold a specified number of credits appropriate to the government that issued it, or it can draw from a specific account held by the user. Credit Chips not only allow quick and easy transfers of funds, but also protect users from theft. </p><p>Credit Chips are storage devices with an <a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a> score of 10 and a <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a> of 15. Improving your access to a Credit Chip is very difficult because the chip has a starting <a href=\"https://swse.fandom.com/wiki/Attitude\" class=\"mw-redirect\" title=\"Attitude\">Attitude</a> of Hostile. Once it is Friendly, you can draw from the account to which it is linked. If you fail by 5 or more on your <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> check to improve access, the Credit Chip's security program detects the intrusion attempt and <a href=\"https://swse.fandom.com/wiki/Self-Destruct_System\" title=\"Self-Destruct System\">Self-Destructs</a>. </p><p>Modifying a Credit Chip so that government and bank computers think that it draws on a different account or that it has a different value stored is almost impossible: The central bank's computers have a <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a> of 30, and a starting <a href=\"https://swse.fandom.com/wiki/Attitude\" class=\"mw-redirect\" title=\"Attitude\">Attitude</a> of Hostile; even worse, you won't know if your check succeeded until after you attempt to use the modified Credit Chip. If you fail, the government or bank computer orders the chip's <a href=\"https://swse.fandom.com/wiki/Self-Destruct_System\" title=\"Self-Destruct System\">Self-Destruct</a> programming to activate, ruining the chip. If you fail by 5 or more, the chip's <a href=\"https://swse.fandom.com/wiki/Self-Destruct_System\" title=\"Self-Destruct System\">Self-Destruct</a> programming activates, and the government or bank computer traces your location, dispatching security personnel to apprehend you. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": 0,
+        "key": "credit"
+      },
+      {
+        "mode": 2,
+        "value": "CREDIT",
+        "key": "creditType"
+      },
+      {
+        "mode": 2,
+        "value": "CONTAINER",
+        "key": "creditEntityType"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "100",
+    "weight": "0.1 Kilograms",
+    "availability": "",
+    "size": "",
+    "type": "",
+    "subtype": "Computers and Storage Devices",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "equipment": {}
+  },
+  "name": "Credit Chip",
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1749263242516,
+    "modifiedTime": 1786054380488,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "CAEwNT8Lib3DxMYR",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!CAEwNT8Lib3DxMYR"
+}

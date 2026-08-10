@@ -1,0 +1,55 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "The Airborne Beast dives sharply to attack an enemy at a lower altitude. When making a Charge attack, in addition to the competence bonus granted by the Charge attack, the Beast gains a + 1 circumstance bonus to its attack roll (up to a +5 total circumstance bonus) for every square the Beast moves downward. Additionally, the Beast can use a Move Action after resolving the Charge attack. Until the end of its next turn, the Beast takes a -2 penalty to its Reflex Defense because of the Charge Action.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "The Airborne Beast dives sharply to attack an enemy at a lower altitude. When making a Charge attack, in addition to the competence bonus granted by the Charge attack, the Beast gains a + 1 circumstance bonus to its attack roll (up to a +5 total circumstance bonus) for every square the Beast moves downward. Additionally, the Beast can use a Move Action after resolving the Charge attack. Until the end of its next turn, the Beast takes a -2 penalty to its Reflex Defense because of the Charge Action.",
+        "key": "special"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "prerequisite": {
+      "text": "Airborne Species Type",
+      "requirement": "Airborne",
+      "type": "SPECIES_TYPE"
+    },
+    "cost": "0"
+  },
+  "name": "Diving Attack",
+  "flags": {},
+  "type": "beastQuality",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749299111329,
+    "modifiedTime": 1749299111329,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "Rnkl4v6b9qc1fgCG",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!Rnkl4v6b9qc1fgCG"
+}

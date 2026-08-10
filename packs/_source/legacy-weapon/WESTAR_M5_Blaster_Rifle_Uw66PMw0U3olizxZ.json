@@ -1,0 +1,314 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "group": "POWER"
+        }
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Anti-Personnel",
+      "_id": "yMzUHczOViIBPRk9",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "3d8",
+            "key": "damage",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513470,
+        "modifiedTime": 1786051513470,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!Uw66PMw0U3olizxZ.yMzUHczOViIBPRk9"
+    },
+    {
+      "flags": {
+        "swse": {
+          "group": "POWER"
+        }
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Anti-Vehicle",
+      "_id": "TUPYevxJwx5I6gpD",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "3d10",
+            "key": "damage",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          },
+          {
+            "value": 10,
+            "key": "ammoUseMultiplier",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          },
+          {
+            "value": 5,
+            "key": "penetration",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513470,
+        "modifiedTime": 1786051513470,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!Uw66PMw0U3olizxZ.TUPYevxJwx5I6gpD"
+    },
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode",
+          "links": [
+            {
+              "type": "exclusive",
+              "name": "Autofire"
+            }
+          ]
+        }
+      },
+      "statuses": [],
+      "disabled": false,
+      "name": "Single-Shot",
+      "_id": "Fh7PACJjbef1uYx2",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513470,
+        "modifiedTime": 1786051513470,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!Uw66PMw0U3olizxZ.Fh7PACJjbef1uYx2"
+    },
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode",
+          "links": [
+            {
+              "type": "exclusive",
+              "name": "Single-Shot"
+            }
+          ]
+        }
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Autofire",
+      "_id": "fZOhRGa9pkJ5bKjh",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": -5,
+            "key": "toHitModifier",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          },
+          {
+            "value": true,
+            "key": "skipCriticalMultiply",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          },
+          {
+            "value": 10,
+            "key": "ammoUse",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513470,
+        "modifiedTime": 1786051513470,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!Uw66PMw0U3olizxZ.fZOhRGa9pkJ5bKjh"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<table style=\"width:100%; margin-top:2em; border:2px solid #999; font-size:105%; text-align:center; background:#00008B;\"> \n <tbody>\n  <tr> \n   <td><i><b>This <a href=\"https://swse.fandom.com/wiki/Homebrew_Content\" title=\"Homebrew Content\">Homebrew Content</a> has been <a href=\"https://swse.fandom.com/wiki/Category:Tested\" title=\"Category:Tested\">Tested</a> per the <a href=\"https://swse.fandom.com/wiki/Category:Untested\" title=\"Category:Untested\">Untested</a> guidelines. Whether or not it can be used is, as always, the prerogative of the Gamemaster.</b></i> </td>\n  </tr>\n </tbody>\n</table><p><i>Homebrew Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Clone_Wars_Saga_Edition_Fan_Sourcebook\" title=\"Clone Wars Saga Edition Fan Sourcebook\">Clone Wars Saga Edition Fan Sourcebook</a>&nbsp;- Equipment</i> </p><p>The ARC Blaster Rifle, as it is often referred, is the weapon of choice to many ARC Troopers as well as some commandos and officers. It is designed to be fitted with a variety of add-on systems, the most popular of which is the equivalent of a single-shot PLX-1m Micro-Missile System (3d8 damage, considered a <a href=\"https://swse.fandom.com/wiki/Heavy_Weapon\" class=\"mw-redirect\" title=\"Heavy Weapon\">Heavy Weapon</a>). </p><p>Adding the PLX-1m adds 1.5 kg to the weight of the weapon. While most ARC Troopers used the weapon in an anti-personnel capacity to provide suppression fire against infantry, the rifle is very capable in the Anti-<a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> role. It is capable of breaching heavy armor; however, this secondary fire mode is taxing on ammunition. </p><p>The M5 Blaster Rifle uses a standard <a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a> that must be reloaded after 100 shots, and a standard gas canister that must be replaced after 500 shots. Using the Anti-<a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> firing mode expends ammo ten times faster than the anti-personnel setting (e.g. a maximum of 10 Anti-<a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> shots can be fired on a single <a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a>), but deals 3d10 damage with <a href=\"https://swse.fandom.com/wiki/Penetration\" title=\"Penetration\">Penetration</a> 5 on a successful hit. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Power Pack:100",
+        "key": "ammo"
+      },
+      {
+        "mode": 2,
+        "value": "Gas Canister:500",
+        "key": "ammo"
+      }
+    ],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "1,900",
+    "weight": "5 Kilograms",
+    "availability": "Military, Rare",
+    "size": "Large",
+    "type": "",
+    "subtype": "Rifles",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "3d8",
+    "damageType": "Energy"
+  },
+  "name": "WESTAR-M5 Blaster Rifle",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/WESTAR_M5_Blaster_Rifle.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513470,
+    "modifiedTime": 1786051513569,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "Uw66PMw0U3olizxZ",
+  "_key": "!items!Uw66PMw0U3olizxZ"
+}

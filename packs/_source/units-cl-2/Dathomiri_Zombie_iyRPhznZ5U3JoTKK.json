@@ -1,0 +1,439 @@
+{
+  "effects": [],
+  "system": {
+    "health": {
+      "value": 9,
+      "min": 0,
+      "max": 9,
+      "condition": 0,
+      "override": 9
+    },
+    "shields": {
+      "value": 0,
+      "min": 0,
+      "max": 0,
+      "shieldDamage": 0
+    },
+    "description": "",
+    "credits": 0,
+    "classes": [],
+    "traits": [],
+    "age": 0,
+    "gender": "",
+    "genderDisplay": "",
+    "player": "",
+    "darkSideScore": 0,
+    "darkSideArray": [],
+    "attributes": {
+      "str": {
+        "total": 10,
+        "manual": "16",
+        "mod": 0,
+        "bonus": 0,
+        "base": 10
+      },
+      "dex": {
+        "total": 10,
+        "manual": "10",
+        "mod": 0,
+        "bonus": 0,
+        "base": 10
+      },
+      "con": {
+        "total": 10,
+        "manual": "10",
+        "mod": 0,
+        "bonus": 0,
+        "base": 10
+      },
+      "int": {
+        "total": 10,
+        "manual": "2",
+        "mod": 0,
+        "bonus": 0,
+        "base": 10
+      },
+      "wis": {
+        "total": 10,
+        "manual": "14",
+        "mod": 0,
+        "bonus": 0,
+        "base": 10
+      },
+      "cha": {
+        "total": 10,
+        "manual": "2",
+        "mod": 0,
+        "bonus": 0,
+        "base": 10
+      }
+    },
+    "crewQuality": {},
+    "crew": [],
+    "equippedIds": [],
+    "skills": {
+      "perception": {
+        "trained": true
+      }
+    },
+    "biography": "",
+    "providedItems": [
+      {
+        "name": "The Witches of Dathomir",
+        "type": "affiliation"
+      },
+      {
+        "name": "Pin",
+        "type": "feat"
+      },
+      {
+        "name": "Trip",
+        "type": "feat"
+      }
+    ],
+    "defense": {
+      "reflex": {
+        "expected": 13
+      },
+      "fortitude": {
+        "expected": 15
+      }
+    },
+    "attributeGenerationType": "Manual",
+    "changes": [],
+    "cl": 2,
+    "isNPC": true,
+    "settings": {
+      "isNPC": true
+    }
+  },
+  "name": "Dathomiri Zombie",
+  "flags": {},
+  "type": "character",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "Dathomiri Zombie",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "shields"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "depth": 1
+  },
+  "items": [
+    {
+      "_id": "PSkhtpdgAjlyMevr",
+      "name": "Trip",
+      "type": "feat",
+      "img": "systems/swse/icon/feat/Trip.png",
+      "system": {
+        "finalName": "",
+        "description": "<p><i>Reference Book: Star Wars Saga Edition Core Rulebook</i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a>, <a href=\"https://swse.fandom.com/wiki/Grappling_101\" title=\"Grappling 101\">Grappling 101</a></i> </p><p>You are skilled at Tripping <a href=\"https://swse.fandom.com/wiki/Grappled\" class=\"mw-redirect\" title=\"Grappled\">Grappled</a> foes. </p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Base_Attack_Bonus\" class=\"mw-redirect\" title=\"Base Attack Bonus\">Base Attack Bonus</a> +1 </p><p><b>Effect:</b> If you succeed on a <a href=\"https://swse.fandom.com/wiki/Grappling\" class=\"mw-redirect\" title=\"Grappling\">Grappling</a> attack and your opponent fails the opposed <a href=\"https://swse.fandom.com/wiki/Grapple\" title=\"Grapple\">Grapple</a> check, it falls <a href=\"https://swse.fandom.com/wiki/Prone\" class=\"mw-redirect\" title=\"Prone\">Prone</a> in its space and is no longer considered <a href=\"https://swse.fandom.com/wiki/Grappled\" class=\"mw-redirect\" title=\"Grappled\">Grappled</a>. A <a href=\"https://swse.fandom.com/wiki/Prone\" class=\"mw-redirect\" title=\"Prone\">Prone</a> opponent takes a -5 penalty on melee attack rolls. Melee attacks made against a <a href=\"https://swse.fandom.com/wiki/Prone\" class=\"mw-redirect\" title=\"Prone\">Prone</a> target gain a +5 bonus, while ranged attack made against a prone target take a -5 penalty. </p><p><b>Special:</b> You cannot use the <a href=\"https://swse.fandom.com/wiki/Pin\" title=\"Pin\">Pin</a> and Trip Feats in the same round. </p>",
+        "textDescription": "Reference Book: Star Wars Saga Edition Core Rulebook See also: Feats, Grappling 101 You are skilled at Tripping Grappled foes. Prerequisite: Base Attack Bonus +1 Effect: If you succeed on a Grappling attack and your opponent fails the opposed Grapple check, it falls Prone in its space and is no longer considered Grappled. A Prone opponent takes a -5 penalty on melee attack rolls. Melee attacks made against a Prone target gain a +5 bonus, while ranged attack made against a prone target take a -5 penalty. Special: You cannot use the Pin and Trip Feats in the same round. ",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "prerequisite": {
+          "text": "Base Attack Bonus 1",
+          "requirement": "1",
+          "type": "BASE ATTACK BONUS"
+        },
+        "categories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Grappling Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          },
+          {
+            "value": "Core Rulebook"
+          },
+          {
+            "value": "Feats"
+          }
+        ],
+        "supplier": {},
+        "possibleProviders": [
+          "Soldier Bonus Feats",
+          "Force Prodigy Bonus Feats",
+          "General Feats"
+        ],
+        "isSupplied": false,
+        "source": "Star Wars Saga Edition Core Rulebook",
+        "cost": "0",
+        "quantity": 1,
+        "bonusFeatCategories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          }
+        ],
+        "hasBonusFeatCategories": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.feats.Item.31lzEq57XblIuldL",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!iyRPhznZ5U3JoTKK.PSkhtpdgAjlyMevr"
+    },
+    {
+      "_id": "BKY9Bhq53wNWDVRA",
+      "name": "The Witches of Dathomir",
+      "type": "affiliation",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "<p>Native to the planet of <a href=\"https://swse.fandom.com/wiki/Dathomir\" title=\"Dathomir\">Dathomir</a>, The Witches of Dathomir were the first non-Jedi Force-users encountered by Luke Skywalker during his quest to rebuild <a href=\"https://swse.fandom.com/wiki/The_Jedi_Order\" class=\"mw-redirect\" title=\"The Jedi Order\">The Jedi Order</a>. Some 600 years before the Clone Wars, <a href=\"https://swse.fandom.com/wiki/The_Jedi_Order\" class=\"mw-redirect\" title=\"The Jedi Order\">The Jedi Order</a> banished a Jedi named Allya to the primitive planet of <a href=\"https://swse.fandom.com/wiki/Dathomir\" title=\"Dathomir\">Dathomir</a>. In exile, she founded her own sect of Force Adepts, selectively breeding with a group of exiled arms dealers, and within decades had created a Force-using society to rule. Though ruthless, Allya maintained a strict rule of law (even authoring a tome called the Book of Law for her followers to use as an example). After Allya's death, the society fragmented into six clans, and despite Allya's command to never concede to evil, some of the witches she trained fell to <a href=\"https://swse.fandom.com/wiki/The_Dark_Side\" title=\"The Dark Side\">The Dark Side</a>, becoming The Nightsisters. </p><p>The Witches of Dathomir are part of a primitive culture with a strong yet rudimentary grasp of <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a>. Though much of their own knowledge is derived from <a href=\"https://swse.fandom.com/wiki/The_Jedi\" title=\"The Jedi\">The Jedi</a> arts, over the centuries their lifestyle and philosophies have shaped their knowledge of <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a> to fit their own needs. The Witches of Dathomir train and ride fearsome <a href=\"https://swse.fandom.com/wiki/Dathomiri_Rancors\" class=\"mw-redirect\" title=\"Dathomiri Rancors\">Dathomiri Rancors</a>, using <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a> to communicate with them. Though their tribal organization makes them seem primitive, they are sophisticated and knowledgeable Force-users who, despite their rustic lifestyle, have evolved Force powers seemingly unheard of in other sects. </p><p>Members of The Witches of Dathomir can select&nbsp;<a href=\"https://swse.fandom.com/wiki/Talents\" title=\"Talents\">Talents</a>&nbsp;from the <a href=\"https://swse.fandom.com/wiki/Dathomiri_Witch_Talent_Tree\" title=\"Dathomiri Witch Talent Tree\">Dathomiri Witch Talent Tree</a>. </p><h4><span class=\"mw-headline\" id=\"Membership\"><b>Membership</b></span></h4><p>Only female natives of <a href=\"https://swse.fandom.com/wiki/Dathomir\" title=\"Dathomir\">Dathomir</a> (from <a href=\"https://swse.fandom.com/wiki/The_Rise_of_the_Empire_Era\" title=\"The Rise of the Empire Era\">The Rise of the Empire Era</a> onward) with the <a href=\"https://swse.fandom.com/wiki/Force_Sensitivity\" title=\"Force Sensitivity\">Force Sensitivity</a> feat can be members of The Witches of Dathomir. </p><h2><span class=\"mw-headline\" id=\"Dathomiri_Heroic_Units\">Dathomiri Heroic Units</span></h2><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Heroic_Units\" title=\"Heroic Units\">Heroic Units</a></i> </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>NAME </th> \n   <th>CHALLENGE LEVEL </th> \n   <th>AFFILIATION NOTES </th>\n  </tr> \n  <tr> \n   <th colspan=\"3\"><a href=\"https://swse.fandom.com/wiki/Clone_Wars_Campaign_Guide\" class=\"mw-redirect\" title=\"Clone Wars Campaign Guide\">Clone Wars Campaign Guide</a> </th>\n  </tr> \n  <tr> \n   <td><a href=\"https://swse.fandom.com/wiki/Asajj_Ventress\" title=\"Asajj Ventress\">Asajj Ventress</a> </td> \n   <td>CL 13 </td> \n   <td>An acolyte of Dooku, often working as an assassin for the Confederacy. </td>\n  </tr> \n  <tr> \n   <th colspan=\"3\"><a href=\"https://swse.fandom.com/wiki/Jedi_Academy_Training_Manual\" class=\"mw-redirect\" title=\"Jedi Academy Training Manual\">Jedi Academy Training Manual</a> </th>\n  </tr> \n  <tr> \n   <td><a href=\"https://swse.fandom.com/wiki/Tamith_Kai\" title=\"Tamith Kai\">Tamith Kai</a> </td> \n   <td>CL 10 </td> \n   <td>The Nightsister liaison to the Second Imperium, and field commander of the Shadow Academy. </td>\n  </tr>\n </tbody>\n</table><h2><span class=\"mw-headline\" id=\"Dathomiri_Nonheroic_Units\">Dathomiri Nonheroic Units</span></h2><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Nonheroic_Units\" title=\"Nonheroic Units\">Nonheroic Units</a></i> </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>NAME </th> \n   <th>CHALLENGE LEVEL </th> \n   <th>AFFILIATION NOTES </th>\n  </tr> \n  <tr> \n   <th colspan=\"3\"><a href=\"https://swse.fandom.com/wiki/Threats_of_the_Galaxy\" class=\"mw-redirect\" title=\"Threats of the Galaxy\">Threats of the Galaxy</a> </th>\n  </tr> \n  <tr> \n   <td><a href=\"https://swse.fandom.com/wiki/Force_Adept_(Character)\" title=\"Force Adept (Character)\">Force Adept</a> </td> \n   <td>CL 8 </td> \n   <td>A common Force-user, almost universal in their Force techniques. </td>\n  </tr> \n  <tr> \n   <td><a href=\"https://swse.fandom.com/wiki/Dathomiri_Witch\" title=\"Dathomiri Witch\">Dathomiri Witch</a> </td> \n   <td>CL 10 </td> \n   <td>A Dathomiri spellcaster, using her \"Spells\" to aid their clans. </td>\n  </tr> \n  <tr> \n   <td><a href=\"https://swse.fandom.com/wiki/Dathomiri_Rancor\" title=\"Dathomiri Rancor\">Dathomiri Rancor</a> </td> \n   <td>CL 11 </td> \n   <td>Intelligent Rancors, often companions to Dathomiri Witches. </td>\n  </tr> \n  <tr> \n   <th colspan=\"3\"><a href=\"https://swse.fandom.com/wiki/Jedi_Academy_Training_Manual\" class=\"mw-redirect\" title=\"Jedi Academy Training Manual\">Jedi Academy Training Manual</a> </th>\n  </tr> \n  <tr> \n   <td><a href=\"https://swse.fandom.com/wiki/Nightsister_of_Dathomir\" title=\"Nightsister of Dathomir\">Nightsister of Dathomir</a> </td> \n   <td>CL 12 </td> \n   <td>An exiled Nightsister who has embraced <a href=\"https://swse.fandom.com/wiki/The_Dark_Side\" title=\"The Dark Side\">The Dark Side</a> to their own ends. </td>\n  </tr> \n  <tr> \n   <th colspan=\"3\"><a href=\"https://swse.fandom.com/wiki/Web_Enhancements\" class=\"mw-redirect\" title=\"Web Enhancements\">Web Enhancements</a> </th>\n  </tr> \n  <tr> \n   <td><a href=\"https://swse.fandom.com/wiki/Human_Force_Adept\" title=\"Human Force Adept\">Human Force Adept</a> </td> \n   <td>CL 3 </td> \n   <td>A low-level Force-user with basic training in survival and <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a>. </td>\n  </tr>\n </tbody>\n</table>",
+        "textDescription": "Native to the planet of Dathomir, The Witches of Dathomir were the first non-Jedi Force-users encountered by Luke Skywalker during his quest to rebuild The Jedi Order. Some 600 years before the Clone Wars, The Jedi Order banished a Jedi named Allya to the primitive planet of Dathomir. In exile, she founded her own sect of Force Adepts, selectively breeding with a group of exiled arms dealers, and within decades had created a Force-using society to rule. Though ruthless, Allya maintained a strict rule of law (even authoring a tome called the Book of Law for her followers to use as an example). After Allya's death, the society fragmented into six clans, and despite Allya's command to never concede to evil, some of the witches she trained fell to The Dark Side, becoming The Nightsisters. The Witches of Dathomir are part of a primitive culture with a strong yet rudimentary grasp of The Force. Though much of their own knowledge is derived from The Jedi arts, over the centuries their lifestyle and philosophies have shaped their knowledge of The Force to fit their own needs. The Witches of Dathomir train and ride fearsome Dathomiri Rancors, using The Force to communicate with them. Though their tribal organization makes them seem primitive, they are sophisticated and knowledgeable Force-users who, despite their rustic lifestyle, have evolved Force powers seemingly unheard of in other sects. Members of The Witches of Dathomir can select Talents from the Dathomiri Witch Talent Tree. MembershipOnly female natives of Dathomir (from The Rise of the Empire Era onward) with the Force Sensitivity feat can be members of The Witches of Dathomir. Dathomiri Heroic UnitsSee also: Heroic Units  \n \n   \n   NAME  \n   CHALLENGE LEVEL  \n   AFFILIATION NOTES \n   \n   \n   Clone Wars Campaign Guide \n   \n   \n   Asajj Ventress  \n   CL 13  \n   An acolyte of Dooku, often working as an assassin for the Confederacy. \n   \n   \n   Jedi Academy Training Manual \n   \n   \n   Tamith Kai  \n   CL 10  \n   The Nightsister liaison to the Second Imperium, and field commander of the Shadow Academy. \n  \n \nDathomiri Nonheroic UnitsSee also: Nonheroic Units  \n \n   \n   NAME  \n   CHALLENGE LEVEL  \n   AFFILIATION NOTES \n   \n   \n   Threats of the Galaxy \n   \n   \n   Force Adept  \n   CL 8  \n   A common Force-user, almost universal in their Force techniques. \n   \n   \n   Dathomiri Witch  \n   CL 10  \n   A Dathomiri spellcaster, using her \"Spells\" to aid their clans. \n   \n   \n   Dathomiri Rancor  \n   CL 11  \n   Intelligent Rancors, often companions to Dathomiri Witches. \n   \n   \n   Jedi Academy Training Manual \n   \n   \n   Nightsister of Dathomir  \n   CL 12  \n   An exiled Nightsister who has embraced The Dark Side to their own ends. \n   \n   \n   Web Enhancements \n   \n   \n   Human Force Adept  \n   CL 3  \n   A low-level Force-user with basic training in survival and The Force. \n  \n \n",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "categories": [
+          {
+            "value": "The Witches of Dathomir"
+          },
+          {
+            "value": "Affiliations"
+          }
+        ],
+        "supplier": {},
+        "possibleProviders": [],
+        "isSupplied": false,
+        "cost": "0",
+        "quantity": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.affiliations.Item.MbaL1EaJM9yzaZlg",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!iyRPhznZ5U3JoTKK.BKY9Bhq53wNWDVRA"
+    },
+    {
+      "_id": "Z6uCEodpU8vk5xpp",
+      "name": "Pin",
+      "type": "feat",
+      "img": "systems/swse/icon/feat/Pin.png",
+      "system": {
+        "finalName": "",
+        "description": "<p><i>Reference Book: Star Wars Saga Edition Core Rulebook</i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a>, <a href=\"https://swse.fandom.com/wiki/Grappling_101\" title=\"Grappling 101\">Grappling 101</a></i> </p><p>You are skilled at immobilizing <a href=\"https://swse.fandom.com/wiki/Grappled\" class=\"mw-redirect\" title=\"Grappled\">Grappled</a> foes. </p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Base_Attack_Bonus\" class=\"mw-redirect\" title=\"Base Attack Bonus\">Base Attack Bonus</a> +1 </p><p><b>Effect:</b> If you succeed on a <a href=\"https://swse.fandom.com/wiki/Grappling\" class=\"mw-redirect\" title=\"Grappling\">Grappling</a> attack and your opponent fails the opposed <a href=\"https://swse.fandom.com/wiki/Grapple\" title=\"Grapple\">Grapple</a> check, your opponent is automatically Pinned until the start of your next turn. A Pinned creature can't move or take any <a href=\"https://swse.fandom.com/wiki/Actions\" class=\"mw-redirect\" title=\"Actions\">Actions</a> while Pinned, and it loses its <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> bonus (if any) to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>. </p><p><b>Special:</b> You cannot use the Pin and <a href=\"https://swse.fandom.com/wiki/Trip\" title=\"Trip\">Trip</a> Feats during the same round. You can use the Pin and <a href=\"https://swse.fandom.com/wiki/Crush\" title=\"Crush\">Crush</a> Feats in the same round, however. </p>",
+        "textDescription": "Reference Book: Star Wars Saga Edition Core Rulebook See also: Feats, Grappling 101 You are skilled at immobilizing Grappled foes. Prerequisite: Base Attack Bonus +1 Effect: If you succeed on a Grappling attack and your opponent fails the opposed Grapple check, your opponent is automatically Pinned until the start of your next turn. A Pinned creature can't move or take any Actions while Pinned, and it loses its Dexterity bonus (if any) to Reflex Defense. Special: You cannot use the Pin and Trip Feats during the same round. You can use the Pin and Crush Feats in the same round, however. ",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "prerequisite": {
+          "text": "Base Attack Bonus 1",
+          "requirement": "1",
+          "type": "BASE ATTACK BONUS"
+        },
+        "categories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Grappling Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          },
+          {
+            "value": "Core Rulebook"
+          },
+          {
+            "value": "Feats"
+          }
+        ],
+        "supplier": {},
+        "possibleProviders": [
+          "Soldier Bonus Feats",
+          "Force Prodigy Bonus Feats",
+          "General Feats"
+        ],
+        "isSupplied": false,
+        "source": "Star Wars Saga Edition Core Rulebook",
+        "cost": "0",
+        "quantity": 1,
+        "bonusFeatCategories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          }
+        ],
+        "hasBonusFeatCategories": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.feats.Item.4xZ1HNujjvtHpKaQ",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!iyRPhznZ5U3JoTKK.Z6uCEodpU8vk5xpp"
+    }
+  ],
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738608984163,
+    "modifiedTime": 1738608984163,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "iyRPhznZ5U3JoTKK",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!actors!iyRPhznZ5U3JoTKK"
+}

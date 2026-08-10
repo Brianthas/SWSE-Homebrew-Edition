@@ -1,0 +1,65 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_at_War\" title=\"Star Wars Saga Edition Galaxy at War\">Star Wars Saga Edition Galaxy at War</a></i> </p><p>Banned by all but the most depraved or desperate armies, the Radiation Grenade releases a cloud of radioactive particles that sicken any character unfortunate enough to be exposed to them. </p><p>A Radiation Grenade explodes in a burst of light smoke, affecting everything within the 2-Square <a href=\"https://swse.fandom.com/wiki/Burst\" class=\"mw-redirect\" title=\"Burst\">Burst</a> radius. The Radiation Grenade detonates on contact after it is thrown, dealing damage in the same round it is hurled. </p><p>When you make an&nbsp;<a href=\"https://swse.fandom.com/wiki/Area_Attack\" class=\"mw-redirect\" title=\"Area Attack\">Area Attack</a>&nbsp;with a Radiation Grenade, you make a single attack roll and compare the result to the&nbsp;<a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>&nbsp;of every target in the Grenade's&nbsp;<a href=\"https://swse.fandom.com/wiki/Burst\" class=\"mw-redirect\" title=\"Burst\">Burst</a>&nbsp;radius. Creatures you hit take full damage, and creatures you miss take half damage. </p><p>A target with the&nbsp;<b><a href=\"https://swse.fandom.com/wiki/Evasion\" class=\"mw-redirect\" title=\"Evasion\">Evasion</a></b>&nbsp;Talent takes half damage from a successful attack, and no damage if the attack misses. </p><p>The target also takes the effect of exposure to <a href=\"https://swse.fandom.com/wiki/Radiation\" title=\"Radiation\">Radiation</a>. The Radiation Grenade is treated as Moderate <a href=\"https://swse.fandom.com/wiki/Radiation\" title=\"Radiation\">Radiation</a> for the purposes of damage and <a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a> checks. </p><p><b>Special:</b>&nbsp;This is an&nbsp;<a href=\"https://swse.fandom.com/wiki/Area_Attack\" class=\"mw-redirect\" title=\"Area Attack\">Area Attack</a>&nbsp;Weapon. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Launchable Grenade",
+        "key": "actsAs"
+      }
+    ],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "500",
+    "weight": "0.5 Kilograms",
+    "availability": "Illegal",
+    "size": "Tiny",
+    "type": "",
+    "subtype": "Grenades",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "3d8",
+    "damageType": "Energy",
+    "specialQualities": "Special: This is an Area Attack Weapon."
+  },
+  "name": "Radiation Grenade",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Radiation_Grenade.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513510,
+    "modifiedTime": 1786051513582,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "PVOtl9v7tTNf2TdS",
+  "_key": "!items!PVOtl9v7tTNf2TdS"
+}

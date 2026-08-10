@@ -6,7 +6,8 @@ import SWSEActor from "./actor.mjs";
  * @returns {{value: number, max: number}}
  */
 export function resolveShield(actor) {
-    if (!actor) {
+    // Homebrew: personal (character) shields don't exist. Only vehicles have shields.
+    if (!actor || actor.type !== "vehicle") {
         return {max: 0, value: 0, active: false, failureChance: 0};
     }
     let shields = actor.system.shields

@@ -1,0 +1,51 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p>A being can choose to reroll any <a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a> check to <a href=\"https://swse.fandom.com/wiki/Sneak\" class=\"mw-redirect\" title=\"Sneak\">Sneak</a>, keeping the better of the two results.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Stealth::A being can choose to reroll any Stealth check to Sneak, keeping the better of the two results.",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "prerequisite": null,
+    "cost": "0"
+  },
+  "name": "Natural Camouflage",
+  "flags": {},
+  "type": "trait",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764446477063,
+    "modifiedTime": 1764446477063,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "ocaxdzdwWJT5AXe7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!ocaxdzdwWJT5AXe7"
+}

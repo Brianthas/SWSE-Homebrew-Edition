@@ -1,0 +1,60 @@
+{
+  "img": "systems/swse/icon/feat/Intimidator.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>When you <a href=\"https://swse.fandom.com/wiki/Intimidate\" class=\"mw-redirect\" title=\"Intimidate\">Intimidate</a> others, either physically or verbally, you shake their confidence so severely that it affects their performance.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in <a href=\"https://swse.fandom.com/wiki/Persuasion\" title=\"Persuasion\">Persuasion</a></p><p><b>Effect:</b> When you successfully use the <a href=\"https://swse.fandom.com/wiki/Intimidate\" class=\"mw-redirect\" title=\"Intimidate\">Intimidate</a> application of the <a href=\"https://swse.fandom.com/wiki/Persuasion\" title=\"Persuasion\">Persuasion</a> skill against a creature, instead of the normal results, the creature takes a -5 penalty to all <a href=\"https://swse.fandom.com/wiki/Skill_Checks\" title=\"Skill Checks\">Skill Checks</a> (including <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a>) and a -2 penalty to all attacks when you are within its line of sight, until the end of your next turn.</p><p>If aboard another <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a>, your enemy must be able to see or detect your <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a>.</p><p><b>Special:</b> You cannot use this Feat with the <a href=\"https://swse.fandom.com/wiki/Maniacal_Charge\" title=\"Maniacal Charge\">Maniacal Charge</a> feat.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Trained in Persuasion",
+      "requirement": "Persuasion",
+      "type": "TRAINED SKILL"
+    },
+    "categories": [
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Noble Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats",
+      "Noble Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Intimidator",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479027619,
+    "modifiedTime": 1761479027619,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "0OjFKVuIlCXV7lR2",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!0OjFKVuIlCXV7lR2"
+}

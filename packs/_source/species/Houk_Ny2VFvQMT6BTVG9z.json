@@ -1,0 +1,138 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a></i> </p><p>The Houk have well-earned reputations as bullies, cheaters, and backstabbers. They are often compared to <a href=\"https://swse.fandom.com/wiki/Wookiees\" class=\"mw-redirect\" title=\"Wookiees\">Wookiees</a> because of their great strength and violent disposition, although <a href=\"https://swse.fandom.com/wiki/Wookiees\" class=\"mw-redirect\" title=\"Wookiees\">Wookiees</a> are usually more agreeable and trustworthy. </p><p>The Houk acquired hyperspace technology several thousand years before the Battle of <a href=\"https://swse.fandom.com/wiki/Yavin\" class=\"mw-redirect\" title=\"Yavin\">Yavin</a> and spread across the galaxy, seeding many planets with small colonies. During the Rebellion era, Imperial agents captured and experimented on hundreds of Houk colonists, hoping to create strong yet obedient slaves. The Houk did not submit easily, and most of them were never seen again. At least one Houk survived the ordeal, only to betray his Imperial overlords by joining the Rebel Alliance. Such treachery gave rise to the proverb, \"Once a Houk, always a Houk.\" </p><h3><span class=\"mw-headline\" id=\"Houk_Characteristics\">Houk Characteristics</span></h3><p><b>Personality:</b> Houk are humorless, short-tempered beings who use their strength to antagonize weaker beings. Their propensity for deceit and skulduggery is matched only by the <a href=\"https://swse.fandom.com/wiki/Hutts\" class=\"mw-redirect\" title=\"Hutts\">Hutts</a>. These qualities are reflected both in their combat techniques and their political dealings. Although Houk descend from a culture where violence, corruption, and treachery are rampant, a few are actually hard workers who have learned to get along with others. </p><p><b>Physical Description:</b> Houk are hulking bipeds with thick skin (usually dark blue or violet), hairless heads marked with bony ridges and a pronounced brow, flabby jowls, beady yellow eyes, and no visible ears or nose. The average Houk stands about 2.2 meters tall. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Houk age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-12 Years </td> \n   <td>13-15 Years </td> \n   <td>16-44 Years </td> \n   <td>45-59 Years </td> \n   <td>60-79 Years </td> \n   <td>80+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> <span class=\"new\" title=\"Lijuter (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvTGlqdXRlcj9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Lijuter</span>, an arid and inhospitable planet in the Reibrin System, located in <a href=\"https://swse.fandom.com/wiki/The_Outer_Rim\" title=\"The Outer Rim\">The Outer Rim</a>. A number of <a href=\"https://swse.fandom.com/wiki/Space_Stations\" title=\"Space Stations\">Space Stations</a> orbit <span class=\"new\" title=\"Lijuter (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvTGlqdXRlcj9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Lijuter</span> and its two moons, many of them serving as offworld settlements for Houk and various unscrupulous traders and sordid passers-by. </p><p><b>Languages:</b> Houk speak Houkese, a language of grunts marked with subtle tonal inflections that differentiate words that otherwise sound the same. Written Houkese uses a simple primitive alphabet in which each letter represents a simple verb and intricate pictograms represent nouns. </p><p><b>Example Names:</b> Agamor Krin, Egome Fass, Gorb Drig, Krelba Voss, Morg Nar, Roath Vogog. </p><p><b>Adventurers:</b> Houk who travel the galaxy take full advantage of the reputation that precedes them. They often work for crime syndicates and pirates. The select few who rise above the vile corruption that passes for Houk society occasionally join independent bands of adventurers for profit and glory. Houk heroes tend to be <a href=\"https://swse.fandom.com/wiki/Soldiers\" class=\"mw-redirect\" title=\"Soldiers\">Soldiers</a>, although Houk <a href=\"https://swse.fandom.com/wiki/Scouts\" class=\"mw-redirect\" title=\"Scouts\">Scouts</a> and <a href=\"https://swse.fandom.com/wiki/Scoundrels\" class=\"mw-redirect\" title=\"Scoundrels\">Scoundrels</a> aren't unheard of either. </p><h3><span class=\"mw-headline\" id=\"Houk_Species_Traits\">Houk Species Traits</span></h3><p>Houk share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Natural Armor (+1)",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Houk",
+        "type": "trait"
+      },
+      {
+        "name": "Physically Intimidating",
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "79",
+          "low": "60",
+          "text": "60-79",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "80",
+          "text": "80+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "44",
+          "low": "16",
+          "text": "16-44",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "59",
+          "low": "45",
+          "text": "45-59",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "12",
+          "low": "1",
+          "text": "1-12",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "15",
+          "low": "13",
+          "text": "13-15",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Natural Armor (+1)"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Natural Armor"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Houk"
+      },
+      {
+        "value": "Physically Intimidating"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Houk",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535566293,
+    "modifiedTime": 1736535566293,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "Ny2VFvQMT6BTVG9z",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!Ny2VFvQMT6BTVG9z"
+}

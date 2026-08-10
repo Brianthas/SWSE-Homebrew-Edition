@@ -1,0 +1,56 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Starship Accessories",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Colossal (Frigate) or Larger",
+          "requirement": "Colossal (Frigate)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal (Frigate) or Larger",
+          "requirement": "Colossal (Cruiser)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal (Frigate) or Larger",
+          "requirement": "Colossal (Station)",
+          "type": "TRAIT"
+        }
+      ],
+      "count": 1,
+      "text": "Colossal (Frigate) or Larger",
+      "type": "OR"
+    },
+    "changes": [],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><p><b>Emplacement Points:</b>&nbsp;1</p><p><b>Size Restriction:</b> Colossal (Frigate) or Larger</p><p>Docking Clamps allow a Starship to dock with other Starships in space. Normally, this <a href=\"https://swse.fandom.com/wiki/Starship_Accessory\" class=\"mw-redirect\" title=\"Starship Accessory\">Starship Accessory</a> is used by passengers to move from shuttles to larger ships, but larger vessels can use them as makeshift Starfighter launches. Once the Docking Clamp is in place, creatures can safely move between the clamped ships. A Starship can maneuver, fight, and even travel through Hyperspace with ships of smaller size clamped to it. However, if a ship takes damage in excess of its <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a>, all Starships attached to it by Docking Clamps are shaken off.</p><p>Docking Clamps on smaller ships aren't strong enough to do much more than hold the ship in place during routine docking. These are built into the cost of all Starships and have no special game effect.</p>",
+    "cost": "2000 (Base)",
+    "emplacementPoints": "1",
+    "availability": "Common"
+  },
+  "name": "Docking Clamps",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317571,
+    "modifiedTime": 1759848317571,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "7MbEQ8ZiugLrUgBF",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!7MbEQ8ZiugLrUgBF"
+}

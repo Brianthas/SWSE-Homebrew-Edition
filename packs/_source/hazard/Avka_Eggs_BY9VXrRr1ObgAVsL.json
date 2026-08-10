@@ -1,0 +1,72 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2d6",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A being enters a square adjacent to an Avka Egg.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "On Trigger; Once per Avka Egg",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Acrobatics (DC 23): Until the end of this movement, the character can enter squares adjacent to unexploded Avka Eggs without triggering the Hazard. Knowledge (Life Sciences) (DC 18): The character recognizes the rocky outcroppings as Avka Eggs, and knows that the young inside can break out violently. Perception (DC 23): The character notices that there are creatures within the stone outcroppings waiting to emerge.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: Each time an Avka Egg is triggered, place an Avka Young in the space the egg once occupied.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Area",
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>The stony structure jutting up from the floor of the cliff quivers before shattering, spraying hard fragments of shell and revealing the <a href=\"https://swse.fandom.com/wiki/Avka_Young\" title=\"Avka Young\">Avka Young</a> inside.</i> </p><h2><span id=\"Avka_Eggs_Statistics_.28CL_7.29\"></span><span class=\"mw-headline\" id=\"Avka_Eggs_Statistics_(CL_7)\">Avka Eggs Statistics (CL 7)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Area, Natural </p><p><b>Trigger:</b> A being enters a square adjacent to an Avka Egg. </p><p><b>Attack:</b> +9 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> On Trigger; Once per Avka Egg </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Acrobatics\" title=\"Acrobatics\">Acrobatics</a> (DC 23):</b> Until the end of this movement, the character can enter squares adjacent to unexploded Avka Eggs without triggering the Hazard.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Knowledge_(Life_Sciences)\" class=\"mw-redirect\" title=\"Knowledge (Life Sciences)\">Knowledge (Life Sciences)</a> (DC 18):</b> The character recognizes the rocky outcroppings as Avka Eggs, and knows that the young inside can break out violently.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> (DC 23):</b> The character notices that there are creatures within the stone outcroppings waiting to emerge.</li>\n</ul><p><b>Special:</b> Each time an Avka Egg is triggered, place an <a href=\"https://swse.fandom.com/wiki/Avka_Young\" title=\"Avka Young\">Avka Young</a> in the space the egg once occupied. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Avka Eggs",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244305,
+    "modifiedTime": 1749263244305,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "BY9VXrRr1ObgAVsL",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!BY9VXrRr1ObgAVsL"
+}

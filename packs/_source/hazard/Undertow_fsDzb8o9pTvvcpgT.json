@@ -1,0 +1,66 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A creature begins its turn in an Undertow.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round at the start of the target's turn, until the creature leaves the Undertow.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Swim (DC 16): The character can make a Swim check as a Reaction to keep from being affected by the Undertow.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: A creature that is pulled underwater by an Undertow begins to drown. See the Endurance skill for information on holding your breath as well as on the effects of drowning.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>Underwater currents can suck swimmers down into the depths, keeping them there until it is too late.</i> </p><h2><span id=\"Undertow_Statistics_.28CL_4.29\"></span><span class=\"mw-headline\" id=\"Undertow_Statistics_(CL_4)\">Undertow Statistics (CL 4)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Natural </p><p><b>Trigger:</b> A creature begins its turn in an Undertow. </p><p><b>Attack:</b> +6 vs <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> </p><p><b>Recurrence:</b> Each round at the start of the target's turn, until the creature leaves the Undertow. </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Swim\" title=\"Swim\">Swim</a> (DC 16):</b> The character can make a <a href=\"https://swse.fandom.com/wiki/Swim\" title=\"Swim\">Swim</a> check as a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a> to keep from being affected by the Undertow.</li>\n</ul><p><b>Special:</b> A creature that is pulled underwater by an Undertow begins to drown. See the <a href=\"https://swse.fandom.com/wiki/Endurance\" title=\"Endurance\">Endurance</a> skill for information on holding your breath as well as on the effects of drowning. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Undertow",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244862,
+    "modifiedTime": 1749263244862,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "fsDzb8o9pTvvcpgT",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!fsDzb8o9pTvvcpgT"
+}

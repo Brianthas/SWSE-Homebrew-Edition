@@ -1,0 +1,113 @@
+{
+  "effects": [],
+  "system": {
+    "providedItems": [
+      {
+        "name": "Huge",
+        "type": "trait"
+      }
+    ],
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Tracked Vehicle",
+        "key": "vehicleSubType"
+      },
+      {
+        "mode": 2,
+        "value": "40",
+        "key": "baseStrength"
+      },
+      {
+        "mode": 2,
+        "value": "14",
+        "key": "baseDexterity"
+      },
+      {
+        "mode": 2,
+        "value": "14",
+        "key": "baseIntelligence"
+      },
+      {
+        "mode": 2,
+        "value": "10 (250 km/h)",
+        "key": "speedCharacterScale"
+      },
+      {
+        "mode": 2,
+        "value": "-",
+        "key": "speedStarshipScale"
+      },
+      {
+        "mode": 2,
+        "value": "130",
+        "key": "hitPointEq"
+      },
+      {
+        "mode": 2,
+        "value": "10",
+        "key": "damageThresholdBonus"
+      },
+      {
+        "mode": 2,
+        "value": "+8",
+        "key": "armorReflexDefenseBonus"
+      },
+      {
+        "mode": 2,
+        "value": "25,000",
+        "key": "cost"
+      },
+      {
+        "mode": 2,
+        "value": "2",
+        "key": "crew"
+      },
+      {
+        "mode": 2,
+        "value": "1",
+        "key": "passengers"
+      },
+      {
+        "mode": 2,
+        "value": "0.5",
+        "key": "cargoCapacity"
+      },
+      {
+        "mode": 2,
+        "value": "1 Day",
+        "key": "consumables"
+      },
+      {
+        "mode": 2,
+        "value": "4",
+        "key": "emplacementPoints"
+      }
+    ],
+    "description": "",
+    "cost": "25,000"
+  },
+  "name": "Heavy Armored Vehicle",
+  "flags": {},
+  "type": "vehicleBaseType",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.2",
+    "createdTime": 1729096745099,
+    "modifiedTime": 1729096745099,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "tycjzKylZM2WE5U9",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!tycjzKylZM2WE5U9"
+}

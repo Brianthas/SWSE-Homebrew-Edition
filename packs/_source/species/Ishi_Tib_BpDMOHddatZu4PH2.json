@@ -1,0 +1,167 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p>Ishi Tib live in schools- communal groups of thousands of individuals, governed by elected representatives who hold office for one-year terms. An Ishi Tib does not know the identity of his or her birth parents, because each Ishi Tib school assumes responsibility for the welfare of its hatchlings, creating a strong sense of community and promoting the needs of the group over those of an individual. Unlike <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> that have wrecked environmental havoc upon their homeworlds, Ishi Tib protect their planet, <span class=\"new\" title=\"Tibrin (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvVGlicmluP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Tibrin</span>, with extensive laws legislating ecological preservation. </p><p>During the Clone Wars, the Ishi Tib side with <a href=\"https://swse.fandom.com/wiki/The_Confederacy_of_Independent_Systems\" title=\"The Confederacy of Independent Systems\">The Confederacy of Independent Systems</a> after Count Dooku liberates their world from the Ishi Tib premier Suribran Tu, although <span class=\"new\" title=\"Tibrin (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvVGlicmluP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Tibrin</span> is still represented in the Galactic Senate. During the Galactic Civil War, Ishi Tib who join <a href=\"https://swse.fandom.com/wiki/The_Rebel_Alliance\" title=\"The Rebel Alliance\">The Rebel Alliance</a> plan raids against the Empire, and several Ishi Tib tactical experts are present at the briefing prior to the Battle of <a href=\"https://swse.fandom.com/wiki/Endor\" class=\"mw-redirect\" title=\"Endor\">Endor</a>. </p><h3><span class=\"mw-headline\" id=\"Ishi_Tib_Characteristics\">Ishi Tib Characteristics</span></h3><p><b>Personality:</b> The Ishi Tib are meticulous and exacting, but they are also known for their strong reverence for nature. Despite these peaceful traits, a primal undercurrent colors their moods, and in combat Ishi Tib do not hesitate to tear an enemy apart with their sharp beaks. </p><p><b>Physical Description:</b> Ishi Tib are green-skinned amphibians with protruding eye stalks and beaklike mouths. An Ishi Tib's head is like a five-pointed star, featuring two eye stalks, two cheek pouches, and a beak. Ishi Tib must routinely immerse themselves in a brine solution similar to the water of Tibrin's oceans to prevent death from dehydration. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b>&nbsp;Ishi Tib age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-6 Years </td> \n   <td>7-11 Years </td> \n   <td>12-39 Years </td> \n   <td>40-59 Years </td> \n   <td>60-79 Years </td> \n   <td>80+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> <span class=\"new\" title=\"Tibrin (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvVGlicmluP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Tibrin</span>- located in <a href=\"https://swse.fandom.com/wiki/The_Mid_Rim\" title=\"The Mid Rim\">The Mid Rim</a>- is covered by shallow oceans dotted with coral reefs and sandbars, which serve the Ishi Tib as communal centers and hubs of commerce. </p><p><b>Languages:</b> Ishi Tib read, speak, and write in Tibranese, which employs honks, squeals, and beak-clacking in its spoken form. The written language uses hieroglyphs. </p><p><b>Example Names:</b> Gume Saam, Suribran Tu, Thilis-Brin, Waks Trode, Vek Drow. </p><p><b>Adventurers:</b> Ishi Tib encountered away from their oceanic homeworld are most often ecologists and oceanographers, although a substantial number of them find work as corporate accountants or corporate overseers. </p><h3><span class=\"mw-headline\" id=\"Ishi_Tib_Species_Traits\">Ishi Tib Species Traits</span></h3><p>Ishi Tib share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Ishi Tib",
+        "type": "trait"
+      },
+      {
+        "name": "Breathe Underwater",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Ecological Awareness",
+        "type": "trait"
+      },
+      {
+        "name": "Expert Swimmer",
+        "type": "trait"
+      },
+      {
+        "name": "Low-Light Vision",
+        "type": "trait"
+      },
+      {
+        "name": "Natural Weapons",
+        "type": "trait"
+      },
+      {
+        "name": "Swimming",
+        "type": "trait"
+      },
+      {
+        "name": "Swim Speed (4)",
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "79",
+          "low": "60",
+          "text": "60-79",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "39",
+          "low": "12",
+          "text": "12-39",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "80",
+          "text": "80+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "6",
+          "low": "1",
+          "text": "1-6",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "11",
+          "low": "7",
+          "text": "7-11",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "59",
+          "low": "40",
+          "text": "40-59",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Ishi Tib"
+      },
+      {
+        "value": "Breathe Underwater"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Ecological Awareness"
+      },
+      {
+        "value": "Expert Swimmer"
+      },
+      {
+        "value": "Low-Light Vision"
+      },
+      {
+        "value": "Natural Weapons"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Swimming"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Ishi Tib",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535566356,
+    "modifiedTime": 1736535566356,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "BpDMOHddatZu4PH2",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!BpDMOHddatZu4PH2"
+}

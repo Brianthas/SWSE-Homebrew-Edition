@@ -1,0 +1,250 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode",
+          "links": [
+            {
+              "type": "exclusive",
+              "name": "Autofire"
+            }
+          ]
+        }
+      },
+      "statuses": [],
+      "disabled": false,
+      "name": "Single-Shot",
+      "_id": "OCmUhlFx2ev9UPWb",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513554,
+        "modifiedTime": 1786051513554,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!38t84fAj22bsKIbn.OCmUhlFx2ev9UPWb"
+    },
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode",
+          "links": [
+            {
+              "type": "exclusive",
+              "name": "Single-Shot"
+            }
+          ]
+        }
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Autofire",
+      "_id": "07uWsqsapj29Yjn6",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": -5,
+            "key": "toHitModifier",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          },
+          {
+            "value": true,
+            "key": "skipCriticalMultiply",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          },
+          {
+            "value": 10,
+            "key": "ammoUse",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513554,
+        "modifiedTime": 1786051513554,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!38t84fAj22bsKIbn.07uWsqsapj29Yjn6"
+    },
+    {
+      "flags": {
+        "swse": {}
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Stun",
+      "_id": "7iX5TkzAVI5kwll5",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "3d8",
+            "key": "damage",
+            "priority": null,
+            "type": "override",
+            "phase": "initial"
+          },
+          {
+            "value": "Stun",
+            "key": "damageType",
+            "priority": null,
+            "type": "override",
+            "phase": "initial"
+          }
+        ]
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513554,
+        "modifiedTime": 1786051513554,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!38t84fAj22bsKIbn.7iX5TkzAVI5kwll5"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Rebellion_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Rebellion Era Campaign Guide\">Star Wars Saga Edition Rebellion Era Campaign Guide</a></i> </p><p>Apart from the brown color of their Armor, <a href=\"https://swse.fandom.com/wiki/Espo_Troopers\" class=\"mw-redirect\" title=\"Espo Troopers\">Espo Troopers</a> are known for their Riot Guns, manufactured by BlasTech Industries. The BlasTech 500 Riot Gun is standard issue for all <a href=\"https://swse.fandom.com/wiki/Espo_Troopers\" class=\"mw-redirect\" title=\"Espo Troopers\">Espo Troopers</a>. It functions, in most ways, as a <a href=\"https://swse.fandom.com/wiki/Blaster_Carbine\" title=\"Blaster Carbine\">Blaster Carbine</a>; however, the Riot Gun is known for its indiscriminate accuracy. </p><p>When in Single-Shot mode, the Riot Gun imposes a -1 penalty to ranged attack rolls; however, the weapon grants a +2 <a href=\"https://swse.fandom.com/wiki/Equipment\" title=\"Equipment\">Equipment</a> bonus to <a href=\"https://swse.fandom.com/wiki/Autofire\" title=\"Autofire\">Autofire</a> attacks made by the weapon (meaning that, for most wielders, the weapon can be fired in <a href=\"https://swse.fandom.com/wiki/Autofire\" title=\"Autofire\">Autofire</a> mode with only a -3 penalty, instead of the normal -5). </p><p>A ESPO 500 Riot Gun requires a&nbsp;<a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a>&nbsp;to operate. After 50 shots, the&nbsp;<a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a>&nbsp;must be replaced. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Power Pack:50",
+        "key": "ammo"
+      }
+    ],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "1,200",
+    "weight": "2.2 Kilograms",
+    "availability": "Military",
+    "size": "Medium",
+    "type": "",
+    "subtype": "Rifles",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "3d8",
+    "damageType": "Energy"
+  },
+  "name": "ESPO 500 Riot Gun",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/ESPO_500_Riot_Gun.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513554,
+    "modifiedTime": 1786051513592,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "38t84fAj22bsKIbn",
+  "_key": "!items!38t84fAj22bsKIbn"
+}

@@ -1,0 +1,72 @@
+{
+  "img": "systems/swse/icon/feat/Tactical Genius.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You are a master at using multiple starship tactics over the course of long space combats.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Starship_Tactics\" title=\"Starship Tactics\">Starship Tactics</a>, <a href=\"https://swse.fandom.com/wiki/Vehicular_Combat\" title=\"Vehicular Combat\">Vehicular Combat</a>, <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a></p><p><b>Effect:</b> You regain all spent <a href=\"https://swse.fandom.com/wiki/Starship_Maneuvers\" title=\"Starship Maneuvers\">Starship Maneuvers</a> at the end of any round in which you roll a Natural 20 on an attack roll.</p><p><b>Normal:</b> Only a Natural 20 rolled on a <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> check to activate a <a href=\"https://swse.fandom.com/wiki/Starship_Maneuver\" class=\"mw-redirect\" title=\"Starship Maneuver\">Starship Maneuver</a> restores all <a href=\"https://swse.fandom.com/wiki/Starship_Maneuvers\" title=\"Starship Maneuvers\">Starship Maneuvers</a>.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Starship Tactics feat",
+          "requirement": "Starship Tactics",
+          "type": "FEAT"
+        },
+        {
+          "text": "Vehicular Combat feat",
+          "requirement": "Vehicular Combat",
+          "type": "FEAT"
+        },
+        {
+          "text": "Trained in Pilot",
+          "requirement": "Pilot",
+          "type": "TRAINED SKILL"
+        }
+      ],
+      "text": "Starship Tactics feat, Vehicular Combat feat, and Trained in Pilot",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Starships of the Galaxy",
+    "cost": "0"
+  },
+  "name": "Tactical Genius",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479029102,
+    "modifiedTime": 1761479029102,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "PNPNDdRG8YINT6wl",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!PNPNDdRG8YINT6wl"
+}

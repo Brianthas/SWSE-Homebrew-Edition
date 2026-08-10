@@ -1,0 +1,122 @@
+{
+  "name": "Blaster Rifle",
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Blaster_Rifle.webp",
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Homebrew Weapon (tovec.wikidot.com/episode-vii)</i></p><p>Switch between Energy and Stun damage as a Swift Action.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "0",
+    "weight": "",
+    "availability": "",
+    "size": "Medium",
+    "type": "",
+    "subtype": "Rifles",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "kitSlotCost": 1,
+    "damageDie": "3d8",
+    "damageType": "Energy"
+  },
+  "effects": [
+    {
+      "name": "Stun",
+      "disabled": true,
+      "img": null,
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode"
+        }
+      },
+      "transfer": true,
+      "system": {
+        "changes": [
+          {
+            "value": "3d8",
+            "key": "damage",
+            "priority": null,
+            "type": "override",
+            "phase": "initial"
+          },
+          {
+            "value": "Stun",
+            "key": "damageType",
+            "priority": null,
+            "type": "override",
+            "phase": "initial"
+          }
+        ]
+      },
+      "_id": "Tehw4VWyitwsZAca",
+      "type": "base",
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786054832738,
+        "modifiedTime": 1786054832738,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!OUyB0DyZPqaEmop7.Tehw4VWyitwsZAca"
+    }
+  ],
+  "_id": "OUyB0DyZPqaEmop7",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786054832738,
+    "modifiedTime": 1786054832738,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!OUyB0DyZPqaEmop7"
+}

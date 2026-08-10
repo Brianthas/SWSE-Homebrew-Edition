@@ -1,0 +1,70 @@
+{
+  "img": "systems/swse/icon/feat/Damage_Conversion.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scavenger%27s_Guide_to_Droids\" title=\"Star Wars Saga Edition Scavenger's Guide to Droids\">Star Wars Saga Edition Scavenger's Guide to Droids</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You can make last-minute moves to take hits on more durable portions of your chassis and/or armor, altering the damage dealt to you.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a>, <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> 13</p><p><b>Effect:</b> When you take damage from an attack against you (other than an <a href=\"https://swse.fandom.com/wiki/Area_Attack\" class=\"mw-redirect\" title=\"Area Attack\">Area Attack</a>, or an attack that deals <a href=\"https://swse.fandom.com/wiki/Ion\" class=\"mw-redirect\" title=\"Ion\">Ion</a> or <a href=\"https://swse.fandom.com/wiki/Force\" class=\"mw-redirect\" title=\"Force\">Force</a> damage) and that damage equals or exceeds your <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a>, you can take an additional 10 points of damage instead of moving down the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>. Each subsequent time you use this Feat in a single encounter, the additional damage you take increases by 5 points.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Droid",
+          "requirement": "Is a droid",
+          "type": "SPECIAL"
+        },
+        {
+          "text": "Dexterity 13",
+          "requirement": "Dexterity 13",
+          "type": "ATTRIBUTE"
+        }
+      ],
+      "text": "Droid, and Dexterity 13",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Droid Feats"
+      },
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Scavenger's Guide to Droids",
+    "cost": "0"
+  },
+  "name": "Damage Conversion",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479026419,
+    "modifiedTime": 1761479026419,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "g3gdttZ1oKYlsUkI",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!g3gdttZ1oKYlsUkI"
+}

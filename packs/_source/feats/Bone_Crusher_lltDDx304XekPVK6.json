@@ -1,0 +1,78 @@
+{
+  "img": "systems/swse/icon/feat/Bone_Crusher.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_of_Intrigue\" title=\"Star Wars Saga Edition Galaxy of Intrigue\">Star Wars Saga Edition Galaxy of Intrigue</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You are skilled at dealing lasting damage to <a href=\"https://swse.fandom.com/wiki/Grappled\" class=\"mw-redirect\" title=\"Grappled\">Grappled</a> opponents.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Crush\" title=\"Crush\">Crush</a>, <a href=\"https://swse.fandom.com/wiki/Pin\" title=\"Pin\">Pin</a></p><p><b>Effect:</b> When you deal damage to a <a href=\"https://swse.fandom.com/wiki/Grappled\" class=\"mw-redirect\" title=\"Grappled\">Grappled</a> opponent, the opponent also moves -1 step along the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Crush feat",
+          "requirement": "Crush",
+          "type": "FEAT"
+        },
+        {
+          "text": "Pin feat",
+          "requirement": "Pin",
+          "type": "FEAT"
+        }
+      ],
+      "text": "Crush feat, and Pin feat",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Soldier Bonus Feats"
+      },
+      {
+        "value": "Grappling Feats"
+      },
+      {
+        "value": "Force Prodigy Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Bonus Feats",
+      "Force Prodigy Bonus Feats",
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Galaxy of Intrigue",
+    "cost": "0"
+  },
+  "name": "Bone Crusher",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479026062,
+    "modifiedTime": 1761479026062,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "lltDDx304XekPVK6",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!lltDDx304XekPVK6"
+}

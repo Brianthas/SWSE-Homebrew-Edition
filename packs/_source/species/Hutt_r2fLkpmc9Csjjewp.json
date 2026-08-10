@@ -1,0 +1,138 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p>Hutts are long-lived gastropods who occupy a region known as Hutt Space. They are powerful, ruthless beings who continually seek to expand the boundaries of their dominion and the holdings of their individual clans, or <i>Kajidics</i>. Their appetite for power is as insatiable as their appetite for food. </p><p>Hutts are often found at the center of business and criminal enterprises. Legality (or lack thereof) does not affect whether a Hutt will pursue a venture. All that matters is how much of a benefit- and a profit- one can get from it. </p><p>Like worms, Hutts are hermaphroditic, with both male and female reproductive organs. Hutts bear their young one at a time and nourish them for a time in a brood pouch. Their large lungs enable them to stay underwater for hours at a time. Xenobiologists often classify Hutts as gastropods because of their sluglike appearance and movements. </p><p>A council of elders oversees Hutt Space. Comprised of Hutts representing the oldest and most influential clans, <a href=\"https://swse.fandom.com/wiki/The_Hutt_Kajidics\" title=\"The Hutt Kajidics\">The Hutt Kajidics</a> decide the fate of everyone who lives in Hutt Space, and all Hutts are answerable to them. </p><h3><span class=\"mw-headline\" id=\"Hutt_Characteristics\">Hutt Characteristics</span></h3><p><b>Personality:</b> Most Hutts are vicious megalomaniacs who consider their kind to be beyond mortality as perceived by lesser beings. They have a talent for manipulating other beings and enjoy accumulating and exerting power over others. A Hutt's strongest loyalty is always to their <i>Kajidic</i>, without which a Hutt is nothing but a lowly commoner. </p><p><b>Physical Description:</b> A Hutt is an immense, sluglike creature with a thick body, muscular tail, and small arms protruding from it's upper body. A Hutt's bulbous head features catlike eyes, wide nostrils, and a broad lipless mouth. An adult Hutt averages 4 meters long and weighs 1,500 kilograms. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Hutts age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-70 Years </td> \n   <td>71-90 Years </td> \n   <td>91-650 Years </td> \n   <td>651-844 Years </td> \n   <td>845-925 Years </td> \n   <td>926+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Hutts evolved on the temperate forest world of <a href=\"https://swse.fandom.com/wiki/Varl\" title=\"Varl\">Varl</a>. When a natural calamity left <a href=\"https://swse.fandom.com/wiki/Varl\" title=\"Varl\">Varl</a> a blasted wasteland, the Hutts fled and adopted a new homeworld: <a href=\"https://swse.fandom.com/wiki/Nal_Hutta\" title=\"Nal Hutta\">Nal Hutta</a>, in the Y'Toub System on the border of the Mid and Outer Rim. The Hutts have spent centuries polluting and ruining Nal Hutta's ecosystem, as well as that of <a href=\"https://swse.fandom.com/wiki/Nar_Shaddaa\" title=\"Nar Shaddaa\">Nar Shaddaa</a>, a heavily industrialized moon orbiting <a href=\"https://swse.fandom.com/wiki/Nal_Hutta\" title=\"Nal Hutta\">Nal Hutta</a>. </p><p><b>Languages:</b> Hutts speak, read, and write both Basic and Huttese. However, they consider their own language superior to Basic and usually demand that lesser beings address them in their native tongue. </p><p><b>Example Names:</b> Borga, Churabba, Dalla, Durga, Gardulla, Grelb, Grondo, Issulla, Jabba, Krova, Mardoc, Mika, Nullada, Popara, Shala, Yarella, Zonnos, Zordo. </p><p><b>Adventurers:</b> Very few Hutts manifest any desire to explore space or place themselves in harm's way. They prefer to travel the stars on space yachts or command their mini-empires from heavily fortified estates. Hutt <a href=\"https://swse.fandom.com/wiki/Nobles\" class=\"mw-redirect\" title=\"Nobles\">Nobles</a> are common, while exiled or disgraced Hutts sometimes become <a href=\"https://swse.fandom.com/wiki/Scoundrels\" class=\"mw-redirect\" title=\"Scoundrels\">Scoundrels</a>. At least one Hutt of repute has trained as a <a href=\"https://swse.fandom.com/wiki/Jedi\" title=\"Jedi\">Jedi</a>, although Hutt Force-users are exceedingly rare. </p><h3><span class=\"mw-headline\" id=\"Hutt_Species_Traits\">Hutt Species Traits</span></h3><p>Hutts share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Silver Tongued",
+        "type": "trait"
+      },
+      {
+        "name": "Large",
+        "type": "trait"
+      },
+      {
+        "name": "Supreme Stability",
+        "type": "trait"
+      },
+      {
+        "name": "Force Resistance",
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "925",
+          "low": "845",
+          "text": "845-925",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "926",
+          "text": "926+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "650",
+          "low": "91",
+          "text": "91-650",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "90",
+          "low": "71",
+          "text": "71-90",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "844",
+          "low": "651",
+          "text": "651-844",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "70",
+          "low": "1",
+          "text": "1-70",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Silver Tongued"
+      },
+      {
+        "value": "Large"
+      },
+      {
+        "value": "Supreme Stability"
+      },
+      {
+        "value": "Force Resistance"
+      },
+      {
+        "value": "Hutts"
+      },
+      {
+        "value": "Species"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Hutt",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535566315,
+    "modifiedTime": 1736535566315,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "r2fLkpmc9Csjjewp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!r2fLkpmc9Csjjewp"
+}

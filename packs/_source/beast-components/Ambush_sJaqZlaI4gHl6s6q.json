@@ -1,0 +1,56 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "The Beast deals an additional 2d6 points of damage with its Natural Weapons against an enemy that is Flat-Footed or that is denied its Dexterity bonus.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "The Beast deals an additional 2d6 points of damage with its Natural Weapons against an enemy that is Flat-Footed or that is denied its Dexterity bonus.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": "2d6",
+        "key": "sneakAttack"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "prerequisite": null,
+    "cost": "0"
+  },
+  "name": "Ambush",
+  "flags": {},
+  "type": "beastQuality",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749299111376,
+    "modifiedTime": 1749299111376,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "sJaqZlaI4gHl6s6q",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!sJaqZlaI4gHl6s6q"
+}

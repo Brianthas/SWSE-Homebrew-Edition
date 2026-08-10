@@ -1,0 +1,74 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "When using a <a href=\"https://swse.fandom.com/wiki/Force_Power\" class=\"mw-redirect\" title=\"Force Power\">Force Power</a> that directly inflicts damage, you treat the target's <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a> as though it were 5 points lower when determining if the target moves along the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Power of the Dark Side talent",
+          "requirement": "Power of the Dark Side",
+          "type": "TALENT"
+        },
+        {
+          "text": "Swift Power talent",
+          "requirement": "Swift Power",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Power of the Dark Side talent, and Swift Power talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Force Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Force Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Dark Side Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Dark_Side_Talent_Tree",
+    "bonusTalentTree": "Force Talent Trees",
+    "source": "Legacy of the Force Sourcebook",
+    "cost": "0"
+  },
+  "name": "Crushing Power",
+  "flags": {},
+  "type": "talent",
+  "folder": "2cQdnTei2lU54zBE",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385304049,
+    "modifiedTime": 1734385304049,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "ZYEqwwa7TwkvGb0y",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!ZYEqwwa7TwkvGb0y"
+}

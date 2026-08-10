@@ -1,0 +1,113 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode"
+        }
+      },
+      "statuses": [],
+      "disabled": false,
+      "name": "Single-Shot",
+      "_id": "HmuWRDY19ZPq5OLx",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513500,
+        "modifiedTime": 1786051513500,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!WsfAiGbw45hXsaA1.HmuWRDY19ZPq5OLx"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a></i> </p><p>A favorite among assassins and military sharpshooters, the Sniper Blaster Rifle is a powerful and accurate Weapon ideal for eliminating targets at Long <a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a>. Unwieldy in anything other than a prepared firing position, the Sniper Blaster Rifle is poorly suited for use in close combat. </p><p>If you do not <a href=\"https://swse.fandom.com/wiki/Aim\" title=\"Aim\">Aim</a> at your target immediately before making an attack with a Sniper Blaster Rifle, you take a -5 penalty on your attack roll. Sniper Blaster Rifles often have a <a href=\"https://swse.fandom.com/wiki/Bipod\" title=\"Bipod\">Bipod</a> and <a href=\"https://swse.fandom.com/wiki/Targeting_Scope\" title=\"Targeting Scope\">Targeting Scope</a> mounted on them, but neither is included in the cost listed. A Sniper Blaster Rifle cannot benefit from the <a href=\"https://swse.fandom.com/wiki/Rapid_Recycler\" title=\"Rapid Recycler\">Rapid Recycler</a> Weapon Upgrade. </p><p>A Sniper Blaster Rifle requires a&nbsp;<a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a>&nbsp;to operate. After 10 shots, the&nbsp;<a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a>&nbsp;must be replaced. </p><p><b>Accurate:</b> This weapon takes no penalty when firing at targets at Short&nbsp;<a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a>. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Power Pack:10",
+        "key": "ammo"
+      }
+    ],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "2,000",
+    "weight": "8 Kilograms",
+    "availability": "Military",
+    "size": "Large",
+    "type": "",
+    "subtype": "Rifles",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "3d10",
+    "damageType": "Energy"
+  },
+  "name": "Sniper Blaster Rifle",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Sniper_Blaster_Rifle.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513500,
+    "modifiedTime": 1786051513578,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "WsfAiGbw45hXsaA1",
+  "_key": "!items!WsfAiGbw45hXsaA1"
+}

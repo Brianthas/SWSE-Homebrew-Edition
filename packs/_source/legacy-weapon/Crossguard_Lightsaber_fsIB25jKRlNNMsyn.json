@@ -1,0 +1,84 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Jedi_Academy_Training_Manual\" title=\"Star Wars Saga Edition Jedi Academy Training Manual\">Star Wars Saga Edition Jedi Academy Training Manual</a></i> </p><p>An extremely rare <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> variant that is usually only found in the hands of skilled Lightsaber Duelists, the Crossguard Lightsaber (sometimes referred to as a Forked Lightsaber) has a special hilt that typically emits three (although sometimes only 2) Lightsaber blades. The first blade is the standard, full-length blade common to all Lightsabers. The Crossguard Lightsaber also emits two secondary blades, less than a <a href=\"https://swse.fandom.com/wiki/Human\" title=\"Human\">Human</a> handspan in length and narrower then the standard blade, at an angle between 45 and 135 degrees away from the primary blade. </p><p>These secondary blades are used to protect the wielder's hand from Lightsaber attacks that slide down the blade. The Crossguard Lightsaber also enables the wielder to parry incoming Lightsaber attacks between the primary and secondary blades, making it easier to <b><a href=\"https://swse.fandom.com/wiki/Block\" class=\"mw-redirect\" title=\"Block\">Block</a></b> Lightsaber attacks. </p><p>When using a Crossguard Lightsaber with the <b><a href=\"https://swse.fandom.com/wiki/Block\" class=\"mw-redirect\" title=\"Block\">Block</a></b> Talent, each successive <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check made to <b><a href=\"https://swse.fandom.com/wiki/Block\" class=\"mw-redirect\" title=\"Block\">Block</a></b> an incoming attack incurs only a cumulative -2 penalty, instead of the normal -5 penalty. However, a Crossguard Lightsaber can be difficult to master against ranged opponents, and such a wielder takes a -2 penalty on all <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> checks made to use the <b><a href=\"https://swse.fandom.com/wiki/Deflect\" class=\"mw-redirect\" title=\"Deflect\">Deflect</a></b> Talent. </p><p>A Crossguard Lightsaber requires a special&nbsp;<a href=\"https://swse.fandom.com/wiki/Energy_Cell\" title=\"Energy Cell\">Energy Cell</a>&nbsp;to operate (the cost is ten times the price of an ordinary&nbsp;<a href=\"https://swse.fandom.com/wiki/Energy_Cell\" title=\"Energy Cell\">Energy Cell</a>, but it lasts almost indefinitely). </p><p><b>Special:</b>&nbsp;Can be&nbsp;<a href=\"https://swse.fandom.com/wiki/Thrown\" class=\"mw-redirect\" title=\"Thrown\">Thrown</a> </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isThrowable"
+      }
+    ],
+    "choices": [
+      {
+        "noOptions": "NO_AVAILABLE_OPTIONS",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {
+              "payload": "AVAILABLE_LIGHTSABER_CRYSTALS"
+            },
+            "display": "AVAILABLE_LIGHTSABER_CRYSTALS",
+            "name": "AVAILABLE_LIGHTSABER_CRYSTALS",
+            "attributes": {}
+          }
+        ],
+        "description": "Lightsaber Crystal",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": false
+      }
+    ],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "4,000",
+    "weight": "0.7 Kilograms",
+    "availability": "Rare",
+    "size": "Medium",
+    "type": "",
+    "subtype": "Lightsabers",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "2d8",
+    "damageType": "Energy, Slashing"
+  },
+  "name": "Crossguard Lightsaber",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Crossguard_Lightsaber.png",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513558,
+    "modifiedTime": 1786051513595,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "fsIB25jKRlNNMsyn",
+  "_key": "!items!fsIB25jKRlNNMsyn"
+}

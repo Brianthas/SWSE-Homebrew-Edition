@@ -1,0 +1,73 @@
+{
+  "img": "systems/swse/icon/feat/Vehicular Surge.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Rebellion_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Rebellion Era Campaign Guide\">Star Wars Saga Edition Rebellion Era Campaign Guide</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You can coax more out of <a href=\"https://swse.fandom.com/wiki/Vehicles\" title=\"Vehicles\">Vehicles</a> than other pilots can, staying in the fight when others might be destroyed.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a></p><p><b>Effect:</b> If the <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> you <a href=\"https://swse.fandom.com/wiki/Pilot_(Vehicle_Combat)\" title=\"Pilot (Vehicle Combat)\">Pilot</a> is Colossal or smaller and is reduced to fewer than one-half its maximum Hit Points, once per day as a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a> your <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> gains a number of <a href=\"https://swse.fandom.com/wiki/Bonus_Hit_Points\" class=\"mw-redirect\" title=\"Bonus Hit Points\">Bonus Hit Points</a> equal to one-quarter its maximum Hit Point total. Damage is subtracted from <a href=\"https://swse.fandom.com/wiki/Bonus_Hit_Points\" class=\"mw-redirect\" title=\"Bonus Hit Points\">Bonus Hit Points</a> first, and any <a href=\"https://swse.fandom.com/wiki/Bonus_Hit_Points\" class=\"mw-redirect\" title=\"Bonus Hit Points\">Bonus Hit Points</a> remaining at the end of the encounter are lost. <a href=\"https://swse.fandom.com/wiki/Bonus_Hit_Points\" class=\"mw-redirect\" title=\"Bonus Hit Points\">Bonus Hit Points</a> do not stack.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Trained in Pilot",
+      "requirement": "Pilot",
+      "type": "TRAINED SKILL"
+    },
+    "categories": [
+      {
+        "value": "Soldier Bonus Feats"
+      },
+      {
+        "value": "Technician Bonus Feats"
+      },
+      {
+        "value": "Scoundrel Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Scout Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Bonus Feats",
+      "Technician Bonus Feats",
+      "Scoundrel Bonus Feats",
+      "General Feats",
+      "Scout Bonus Feats",
+      "Smuggler Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Rebellion Era Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Vehicular Surge",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1761479029451,
+    "modifiedTime": 1786036141517,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "seKCM1hVmHpDu4Qx",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!seKCM1hVmHpDu4Qx"
+}

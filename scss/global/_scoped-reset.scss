@@ -1,0 +1,92 @@
+// Exhaustive scoped reset.
+//
+// Foundry core styles bare elements (labels, divs, anchors, inputs, tables) with
+// light-theme colors, and those rules beat plain inheritance from a wrapper class —
+// which is why theming this sheet turned into whack-a-mole (labels, then divs, then
+// inputs, each discovered separately). sf2e avoids the problem by scoping everything
+// under one root class and being exhaustive inside it; this does the same for .swse.
+//
+// Imported FIRST inside the .swse block so component styles can still override it.
+// Selectors only — a bare declaration at a partial's root is a Dart Sass parse error,
+// so the root `color` lives on .swse in swse.scss.
+
+h1, h2, h3, h4, h5, h6,
+p, span, div, section, article, header, footer,
+ul, ol, li, dl, dt, dd,
+table, thead, tbody, tr, td, th,
+label, legend, fieldset {
+  color: inherit;
+}
+
+a {
+  color: var(--swse-accent);
+
+  &:hover,
+  &:focus {
+    color: var(--swse-text);
+    text-shadow: none;
+  }
+}
+
+input,
+select,
+textarea {
+  color: var(--swse-text);
+  background: var(--swse-control);
+  border: 1px solid var(--swse-border);
+  border-radius: $radius-sm;
+  font-family: inherit;
+
+  &:disabled {
+    background: var(--swse-bg);
+    color: var(--swse-text);
+    opacity: 1;
+  }
+
+  &::placeholder {
+    color: var(--swse-text-muted);
+    opacity: 1;
+  }
+}
+
+select option {
+  color: var(--swse-text);
+  background: var(--swse-surface);
+}
+
+// :not(.header-control) — Foundry's window-header buttons carry their icon glyph via
+// FontAwesome classes applied directly to the <button> (font-family, not a child <i>), and
+// since the "swse" class from DEFAULT_OPTIONS lands on the whole application root (header
+// included, not just .window-content), this reset was overriding font-family and turning
+// those icons into tofu boxes.
+button:not(.header-control) {
+  color: var(--swse-text);
+  background: var(--swse-surface-raised);
+  border: 1px solid var(--swse-border);
+  border-radius: $radius-sm;
+  font-family: inherit;
+
+  &:hover,
+  &:focus {
+    color: var(--swse-bg);
+    background: var(--swse-accent);
+    border-color: var(--swse-accent);
+  }
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--swse-border);
+}
+
+// Foundry's prosemirror/tinymce editors and any embedded content areas
+.editor-content {
+  color: var(--swse-text);
+}
+
+// Foundry core ships `body.game .app input:disabled:hover { border: none; box-shadow:
+// none; outline: none; }`, which strips a disabled field's border the moment the cursor
+// crosses it, making the box visibly jump. Hold the border steady instead.
+input:disabled:hover {
+  border: 1px solid var(--swse-border);
+}

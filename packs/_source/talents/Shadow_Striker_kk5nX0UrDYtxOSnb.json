@@ -1,0 +1,88 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You excel at fighting from the shadows, hitting your opponents when they least expect it. You can use each of the following actions once per encounter as a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a>:",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Hidden Movement talent",
+          "requirement": "Hidden Movement",
+          "type": "TALENT"
+        },
+        {
+          "text": "Improved Stealth talent",
+          "requirement": "Improved Stealth",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Hidden Movement talent, and Improved Stealth talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Elite Trooper Talent Trees"
+      },
+      {
+        "value": "Scout Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Infiltrator Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Elite Trooper Talent Trees",
+      "Scout Talent Trees",
+      "Core Rulebook",
+      "Infiltrator Talent Trees",
+      "Smuggler Talent Trees",
+      "Operative Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Camouflage Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Camouflage_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Scum and Villainy",
+    "cost": "0"
+  },
+  "name": "Shadow Striker",
+  "flags": {},
+  "type": "talent",
+  "folder": "AWKaWeFzgzsmb8Wm",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385303322,
+    "modifiedTime": 1786039798055,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "kk5nX0UrDYtxOSnb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!kk5nX0UrDYtxOSnb"
+}

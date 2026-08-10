@@ -1,0 +1,71 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2d10",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A being or vessel begins its turn in the Whirlpool.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round at the start of the target's turn, until the creature leaves the Whirlpool.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Pilot (DC 18): The Pilot of an aquatic vehicle caught in a Whirlpool can make a Pilot check as a Reaction to avoid the Whirlpool. Swim (DC 18): The character can make a Swim check as a Reaction to avoid the effects of the Whirlpool.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: Each square within the area of the Whirlpool is considered Difficult Terrain. When placing this Hazard, the GM should choose the direction in which the water in the area of the Whirlpool is moving. This is the direction in which targets affected by the Hazard are moved.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>Tidal forces stir up a dangerous Whirlpool, whipping anything caught in the Whirlpool around and threatening to tear it apart.</i> </p><h2><span id=\"Whirlpool_Statistics_.28CL_8.29\"></span><span class=\"mw-headline\" id=\"Whirlpool_Statistics_(CL_8)\">Whirlpool Statistics (CL 8)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Natural </p><p><b>Trigger:</b> A being or vessel begins its turn in the Whirlpool. </p><p><b>Attack:</b> +10 vs <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> </p><p><b>Recurrence:</b> Each round at the start of the target's turn, until the creature leaves the Whirlpool. </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> (DC 18):</b> The <a href=\"https://swse.fandom.com/wiki/Pilot_(Vehicle_Combat)\" title=\"Pilot (Vehicle Combat)\">Pilot</a> of an aquatic vehicle caught in a Whirlpool can make a <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> check as a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a> to avoid the Whirlpool.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Swim\" title=\"Swim\">Swim</a> (DC 18):</b> The character can make a <a href=\"https://swse.fandom.com/wiki/Swim\" title=\"Swim\">Swim</a> check as a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a> to avoid the effects of the Whirlpool.</li>\n</ul><p><b>Special:</b> Each square within the area of the Whirlpool is considered <a href=\"https://swse.fandom.com/wiki/Difficult_Terrain\" title=\"Difficult Terrain\">Difficult Terrain</a>. When placing this Hazard, the GM should choose the direction in which the water in the area of the Whirlpool is moving. This is the direction in which targets affected by the Hazard are moved. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Whirlpool",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244883,
+    "modifiedTime": 1749263244883,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "xIgazT0BCBa67EYg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!xIgazT0BCBa67EYg"
+}

@@ -1,0 +1,26 @@
+<div class="weapon-stat-block flex flex-row flex-wrap">
+    <div class="labeled-input"><label for="installation-cost">Installation Cost</label>
+        <input class="input" type="text" name="system.installationCost" value="{{item.system.installationCost}}"/>
+    </div>
+    <div class="labeled-input"><label for="rejection-attack-bonus">Rejection Attack Bonus</label>
+        <input class="input" type="text" name="system.rejectionAttackBonus" value="{{item.system.rejectionAttackBonus}}"/>
+    </div>
+    <label class="flex flex-row" style="align-items: center; gap: 4px; white-space: nowrap;">
+        <input type="checkbox" name="system.cybernetic" {{#if item.system.cybernetic}}checked{{/if}}/>
+        Cybernetic
+    </label>
+    <label class="flex flex-row" style="align-items: center; gap: 4px; white-space: nowrap;">
+        <input type="checkbox" name="system.implantDisruption" {{#if item.system.implantDisruption}}checked{{/if}}/>
+        Implant Disruption
+    </label>
+</div>
+
+<div class="weapon-meta-strip">
+    <div class="meta-field"><label for="cost">Cost</label><input class="input" type="text" name="system.cost" value="{{item.system.cost}}"/></div>
+    <div class="meta-field"><label for="weight">Weight</label><input class="input" type="text" name="system.weight" value="{{item.system.weight}}"/></div>
+    <div class="meta-field"><label for="availability">Availability</label>
+        <select class="input" data-multi-select-name="system.availability" multiple size="1" title="Some items are e.g. both Military and Rare — ctrl/cmd-click to select more than one, scroll to see all options.">
+            {{{options 'availability' selected=(splitCsv item.system.availability)}}}
+        </select>
+    </div>
+</div>

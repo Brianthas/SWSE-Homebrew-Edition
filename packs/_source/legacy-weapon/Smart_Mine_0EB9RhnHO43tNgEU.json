@@ -1,0 +1,69 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_at_War\" title=\"Star Wars Saga Edition Galaxy at War\">Star Wars Saga Edition Galaxy at War</a></i> </p><p>Computer controlled explosives, colloquially referred to as Smart Mines, can be set up in a perimeter and programmed to monitor a specific area. When activated, they explode like any other <a href=\"https://swse.fandom.com/wiki/Mine\" class=\"mw-redirect\" title=\"Mine\">Mine</a>, but the criteria for their activation can be as general or as specific as is required. Smart Mines designate targets by using sensors that detect thermal emissions, heat, or ground vibration. They are also equipped with IFF systems, so they do not harm allied units. </p><p>When a Smart Mine is installed, the operator must designate the Mine's detonation criteria and succeed on a <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> check with a DC of 10. Success indicates that the Smart Mine behaves as programmed. Specific criteria include minimum range (Typically within the Smart Mine's <a href=\"https://swse.fandom.com/wiki/Splash\" class=\"mw-redirect\" title=\"Splash\">Splash</a> radius), target size (Such as detonating only when Medium or Large creatures pass within its <a href=\"https://swse.fandom.com/wiki/Splash\" class=\"mw-redirect\" title=\"Splash\">Splash</a> area), and the minimum number of targets (Such as detonating only if two or more creatures are within the <a href=\"https://swse.fandom.com/wiki/Splash\" class=\"mw-redirect\" title=\"Splash\">Splash</a> area). </p><p>Smart Mines can be hidden beneath dirt, debris, or foliage, but a small sensor cluster still extends from the top of the Smart Mine. Spotting a Smart Mine's sensor cluster requires a DC 20 <a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> check, modified for range. Smart Mines that detonate make a single attack roll, which is compared to the <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> of every target in the Smart Mine's <a href=\"https://swse.fandom.com/wiki/Burst\" class=\"mw-redirect\" title=\"Burst\">Burst</a> radius. Creatures hit take full damage, and creatures missed take half damage. A target with the <b><a href=\"https://swse.fandom.com/wiki/Evasion\" class=\"mw-redirect\" title=\"Evasion\">Evasion</a></b> Talent takes half damage from a successful attack and no damage if the attack misses. </p><p><b><a href=\"https://swse.fandom.com/wiki/Splash\" class=\"mw-redirect\" title=\"Splash\">Splash</a>:</b> 2x2 Squares </p><p><b><a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> DC:</b> 20 </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2x2 Squares",
+        "key": "splash"
+      },
+      {
+        "mode": 2,
+        "value": "Perception DC: 20",
+        "key": "skillCheck"
+      }
+    ],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "500",
+    "weight": "1.5 Kilograms",
+    "availability": "Military",
+    "size": "",
+    "type": "",
+    "subtype": "Mines",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "5d6",
+    "damageType": "Slashing"
+  },
+  "name": "Smart Mine",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Smart_Mine.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513478,
+    "modifiedTime": 1786051513572,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "0EB9RhnHO43tNgEU",
+  "_key": "!items!0EB9RhnHO43tNgEU"
+}

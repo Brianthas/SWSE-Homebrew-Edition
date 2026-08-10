@@ -1,0 +1,64 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Once per turn, as a <a href=\"https://swse.fandom.com/wiki/Move_Action\" class=\"mw-redirect\" title=\"Move Action\">Move Action</a>, you can make a <a href=\"https://swse.fandom.com/wiki/Deception\" title=\"Deception\">Deception</a> check against the <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a> of one enemy within 12 squares and within your line of sight. If you check results equals or exceeds the target's <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a>, the target must move a number of squares equal to half its speed, and each square of movement must bring the target closer to you (though the target does avoid <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a> and obstacles).<br><br>If the target cannot avoid a <a href=\"https://swse.fandom.com/wiki/Hazard\" class=\"mw-redirect\" title=\"Hazard\">Hazard</a> (such as a pit), it stops moving in the nearest safe square. This movement is considered involuntary and does not provoke <a href=\"https://swse.fandom.com/wiki/Attacks_of_Opportunity\" title=\"Attacks of Opportunity\">Attacks of Opportunity</a>. This is a <a href=\"https://swse.fandom.com/wiki/Mind-Affecting\" class=\"mw-redirect\" title=\"Mind-Affecting\">Mind-Affecting</a> effect.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Trick Step talent",
+      "requirement": "Trick Step",
+      "type": "TALENT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Scoundrel Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Scoundrel Talent Trees",
+      "Smuggler Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Recklessness Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Recklessness_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Rebellion Era Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Lure Closer",
+  "flags": {},
+  "type": "talent",
+  "folder": "vVXqYxYsjM0SDgcD",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385310963,
+    "modifiedTime": 1786036141316,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "5W8AIOCXY93jibRJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!5W8AIOCXY93jibRJ"
+}

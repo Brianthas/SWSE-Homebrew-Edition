@@ -1,0 +1,86 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You may create a predefined illusion designed to delude a single target. The delusion persists in the target's senses for 1d4 rounds. You then move down two steps on the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a> after creating the <b>Delusion</b>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "a member of The Sorcerers of Tund",
+      "requirement": "The Sorcerers of Tund",
+      "type": "TRADITION"
+    },
+    "categories": [
+      {
+        "value": "Untested"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Force Talent Trees"
+      },
+      {
+        "value": "Force Tradition Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Untested",
+      "Homebrew Content",
+      "Force Talent Trees",
+      "Force Tradition Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Sorcerer of Tund Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Sorcerer_of_Tund_Talent_Tree",
+    "bonusTalentTree": "Force Talent Trees",
+    "source": "The Centrality",
+    "cost": "0"
+  },
+  "name": "Delusion",
+  "flags": {},
+  "type": "talent",
+  "folder": "FP4JDPtBlRVjtxP8",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385312187,
+    "modifiedTime": 1734385312187,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "XkHCGMNPznKQ6okH",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!XkHCGMNPznKQ6okH"
+}

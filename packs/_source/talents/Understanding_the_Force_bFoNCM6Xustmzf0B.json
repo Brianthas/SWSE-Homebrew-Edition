@@ -1,0 +1,91 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You may reroll a <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check made for the following uses; <a href=\"https://swse.fandom.com/wiki/Search_Your_Feelings\" class=\"mw-redirect\" title=\"Search Your Feelings\">Search Your Feelings</a>, <a href=\"https://swse.fandom.com/wiki/Sense_Force\" class=\"mw-redirect\" title=\"Sense Force\">Sense Force</a>, and <a href=\"https://swse.fandom.com/wiki/Sense_Surroundings\" class=\"mw-redirect\" title=\"Sense Surroundings\">Sense Surroundings</a>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:You may reroll a<a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a>check made for the following uses;<a href=\"https://swse.fandom.com/wiki/Search_Your_Feelings\" class=\"mw-redirect\" title=\"Search Your Feelings\">Search Your Feelings</a>,<a href=\"https://swse.fandom.com/wiki/Sense_Force\" class=\"mw-redirect\" title=\"Sense Force\">Sense Force</a>, and<a href=\"https://swse.fandom.com/wiki/Sense_Surroundings\" class=\"mw-redirect\" title=\"Sense Surroundings\">Sense Surroundings</a>.",
+        "key": "skillReRoll"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "a member of The Sorcerers of Tund",
+      "requirement": "The Sorcerers of Tund",
+      "type": "TRADITION"
+    },
+    "categories": [
+      {
+        "value": "Untested"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Force Talent Trees"
+      },
+      {
+        "value": "Force Tradition Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Untested",
+      "Homebrew Content",
+      "Force Talent Trees",
+      "Force Tradition Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Sorcerer of Tund Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Sorcerer_of_Tund_Talent_Tree",
+    "bonusTalentTree": "Force Talent Trees",
+    "source": "The Centrality",
+    "cost": "0"
+  },
+  "name": "Understanding the Force",
+  "flags": {},
+  "type": "talent",
+  "folder": "FP4JDPtBlRVjtxP8",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385312203,
+    "modifiedTime": 1734385312203,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "bFoNCM6Xustmzf0B",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!bFoNCM6Xustmzf0B"
+}

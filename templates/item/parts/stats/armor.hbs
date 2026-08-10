@@ -1,0 +1,27 @@
+<div class="weapon-stat-block flex flex-row flex-wrap">
+    <div class="labeled-input"><label for="armor-dex-override">Max Dex Bonus</label>
+        <input class="input" type="text" name="system.armorDexterityOverride" value="{{item.system.armorDexterityOverride}}" placeholder="e.g. 4 or str" title="A flat number, or &quot;str&quot; to substitute the Strength modifier instead of Dexterity."/>
+    </div>
+    <div class="labeled-input"><label for="armor-flat-check-penalty">Armor Check Penalty</label>
+        <input class="input" type="number" name="system.armorFlatCheckPenalty" value="{{item.system.armorFlatCheckPenalty}}"/>
+    </div>
+    <div class="labeled-input"><label for="armor-flat-speed-penalty">Speed Penalty (ft)</label>
+        <input class="input" type="number" name="system.armorFlatSpeedPenalty" value="{{item.system.armorFlatSpeedPenalty}}"/>
+    </div>
+    <div class="labeled-input"><label for="strength-bonus">Strength Bonus</label>
+        <input class="input" type="number" name="system.strengthBonus" value="{{item.system.strengthBonus}}"/>
+    </div>
+    <div class="labeled-input"><label for="damage-reduction">Damage Reduction</label>
+        <input class="input" type="number" name="system.damageReduction" value="{{item.system.damageReduction}}"/>
+    </div>
+</div>
+
+<div class="weapon-meta-strip">
+    <div class="meta-field"><label for="cost">Cost</label><input class="input" type="text" name="system.cost" value="{{item.system.cost}}"/></div>
+    <div class="meta-field"><label for="weight">Weight</label><input class="input" type="text" name="system.weight" value="{{item.system.weight}}"/></div>
+    <div class="meta-field"><label for="availability">Availability</label>
+        <select class="input" data-multi-select-name="system.availability" multiple size="1" title="Some items are e.g. both Military and Rare — ctrl/cmd-click to select more than one, scroll to see all options.">
+            {{{options 'availability' selected=(splitCsv item.system.availability)}}}
+        </select>
+    </div>
+</div>

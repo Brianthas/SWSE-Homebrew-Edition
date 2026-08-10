@@ -1,0 +1,75 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Your inherent speed and advanced skill reduce the danger of slicing computer systems. You must be physically linked to the system you are slicing. You can use each of the following actions once per encounter:",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Any two Talents from the Slicer Talent Tree, Burst Transfer can be one of these Talents",
+          "requirement": "Slicer Talent Tree",
+          "type": "TALENT"
+        },
+        {
+          "text": "Any two Talents from the Slicer Talent Tree, Burst Transfer can be one of these Talents",
+          "requirement": "Burst Transfer",
+          "type": "TALENT"
+        }
+      ],
+      "count": 2,
+      "text": "Any two Talents from the Slicer Talent Tree, Burst Transfer can be one of these Talents",
+      "type": "OR"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Droid Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Droid Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "2nd-Degree Droid Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/2nd-Degree_Droid_Talent_Tree",
+    "bonusTalentTree": "2nd-Degree Droid Talent Tree",
+    "source": "Star Wars Saga Edition Scavenger's Guide to Droids",
+    "cost": "0"
+  },
+  "name": "Scomp Link Slicer",
+  "flags": {},
+  "type": "talent",
+  "folder": "pmFDnvD7O18n3uBn",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385301547,
+    "modifiedTime": 1734385301547,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "1RLNL5cGAxPicgao",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!1RLNL5cGAxPicgao"
+}

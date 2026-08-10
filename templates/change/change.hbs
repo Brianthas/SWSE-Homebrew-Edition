@@ -2,7 +2,7 @@
     {{#if inherited}}title="{{change.sourceString}}"{{/if}}>
     <div style="width:100%" class="flexrow">
         <div class="key">
-            <input class="direct{{#if inherited}} disabled{{/if}}" type="text"
+            <input class="direct known-attribute-key-input{{#if inherited}} disabled{{/if}}" type="text" autocomplete="off"
                    {{#if inherited}}disabled{{else}}name="{{changepath}}.{{index}}.key"{{/if}} value="{{change.key}}"/>
         </div>
 

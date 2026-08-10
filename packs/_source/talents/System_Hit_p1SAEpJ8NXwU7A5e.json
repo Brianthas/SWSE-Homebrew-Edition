@@ -1,0 +1,67 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Whenever you deal damage to a <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> that equals or exceeds its <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a>, you move that <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> an additional -1 step on the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Expert Gunner talent",
+      "requirement": "Expert Gunner",
+      "type": "TALENT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Ace Pilot Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Ace Pilot Talent Trees",
+      "Core Rulebook"
+    ],
+    "isSupplied": false,
+    "talentTree": "Gunner Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Gunner_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Core Rulebook",
+    "cost": "0"
+  },
+  "name": "System Hit",
+  "flags": {},
+  "type": "talent",
+  "folder": "LZEx7mS93i24w1KF",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385305656,
+    "modifiedTime": 1734385305656,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "p1SAEpJ8NXwU7A5e",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!p1SAEpJ8NXwU7A5e"
+}

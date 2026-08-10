@@ -1,0 +1,56 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "When using the High Jump or Long Jump applications of the Jump skill, reduce the number of squares required for a running start by 2.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Near Human Traits:1",
+        "key": "consumes"
+      },
+      {
+        "mode": 2,
+        "value": "When using the High Jump or Long Jump applications of the Jump skill, reduce the number of squares required for a running start by 2.",
+        "key": "special"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "prerequisite": null,
+    "cost": "0"
+  },
+  "name": "Spring Step (Near-Human)",
+  "flags": {},
+  "type": "trait",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764446477616,
+    "modifiedTime": 1764446477616,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "a9WZIKfrSlPHPQCR",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!a9WZIKfrSlPHPQCR"
+}

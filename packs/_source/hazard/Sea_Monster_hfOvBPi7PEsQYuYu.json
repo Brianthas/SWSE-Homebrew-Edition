@@ -1,0 +1,72 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "4d6",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A being enters a square within reach of a Sea Monster.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round, on Initiative Count (Initiative +11)",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Knowledge (Life Sciences) (DC 19): The character identifies the telltale signs of a sea predator nearby and can tell that the area is hazardous.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: Creatures hit and damaged by this Hazard are Grabbed by a tentacle and can attempt to escape as normal. Any creature that is both Grabbed and either reduced to 0 Hit Points or rendered unconscious is consumed by the Sea Monster.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Contact",
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>The long, undulating tentacles of a sea creature reach out to grab you, threatening to crush you and drag you down beneath the surface of the Alkaline Sea.</i> </p><h2><span id=\"Sea_Monster_Statistics_.28CL_10.29\"></span><span class=\"mw-headline\" id=\"Sea_Monster_Statistics_(CL_10)\">Sea Monster Statistics (CL 10)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Contact, Natural </p><p><b>Trigger:</b> A being enters a square within reach of a Sea Monster. </p><p><b>Attack:</b> +12 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> Each round, on <a href=\"https://swse.fandom.com/wiki/Initiative_Count\" class=\"mw-redirect\" title=\"Initiative Count\">Initiative Count</a> (<a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a> +11) </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Knowledge_(Life_Sciences)\" class=\"mw-redirect\" title=\"Knowledge (Life Sciences)\">Knowledge (Life Sciences)</a> (DC 19):</b> The character identifies the telltale signs of a sea predator nearby and can tell that the area is hazardous.</li>\n</ul><p><b>Special:</b> Creatures hit and damaged by this Hazard are <a href=\"https://swse.fandom.com/wiki/Grabbed\" class=\"mw-redirect\" title=\"Grabbed\">Grabbed</a> by a tentacle and can attempt to escape as normal. Any creature that is both <a href=\"https://swse.fandom.com/wiki/Grabbed\" class=\"mw-redirect\" title=\"Grabbed\">Grabbed</a> and either reduced to 0 Hit Points or rendered unconscious is consumed by the Sea Monster. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Sea Monster",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244780,
+    "modifiedTime": 1749263244780,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "hfOvBPi7PEsQYuYu",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!hfOvBPi7PEsQYuYu"
+}

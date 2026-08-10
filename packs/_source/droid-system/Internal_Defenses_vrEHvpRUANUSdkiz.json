@@ -1,0 +1,41 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Droid Accessories (Miscellaneous Systems)",
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "droidPart"
+      }
+    ],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scavenger%27s_Guide_to_Droids\" title=\"Star Wars Saga Edition Scavenger's Guide to Droids\">Star Wars Saga Edition Scavenger's Guide to Droids</a></i></p><p>A <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> with Internal Defenses has built-in defenses that operate independently of the <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a>. Anyone opening the Droid's maintenance or access panels without the Droid's permission receives an electric shock as a 1d20 + 5 attack against the character's <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>. If the attack succeeds, the character receives damage equal to 1d8 + half the Droid's Heroic Level. The <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> is unharmed. The system remains active until disabled (<a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> DC 25, 1 hour of work) or is depleted after 10 attacks.</p>",
+    "source": "Star Wars Saga Edition Scavenger's Guide to Droids",
+    "cost": "10 x Cost Factor",
+    "weight": "(1 x Cost Factor) Kilograms",
+    "availability": "Licensed"
+  },
+  "name": "Internal Defenses",
+  "flags": {},
+  "type": "droid system",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764449016105,
+    "modifiedTime": 1764449016105,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "vrEHvpRUANUSdkiz",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!vrEHvpRUANUSdkiz"
+}

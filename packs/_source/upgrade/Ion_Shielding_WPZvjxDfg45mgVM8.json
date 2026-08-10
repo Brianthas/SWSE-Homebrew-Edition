@@ -1,0 +1,62 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_at_War\" title=\"Star Wars Saga Edition Galaxy at War\">Star Wars Saga Edition Galaxy at War</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Cybernetic_Prosthesis\" title=\"Cybernetic Prosthesis\">Cybernetic Prosthesis</a>, <a href=\"https://swse.fandom.com/wiki/Advanced_Cybernetics\" title=\"Advanced Cybernetics\">Advanced Cybernetics</a></i> </p><p>Ion-Shielding is an upgrade specifically designed for <a href=\"https://swse.fandom.com/wiki/Cybernetic_Prostheses\" class=\"mw-redirect\" title=\"Cybernetic Prostheses\">Cybernetic Prostheses</a>. When installed, a <a href=\"https://swse.fandom.com/wiki/Cybernetic_Prosthesis\" title=\"Cybernetic Prosthesis\">Cybernetic Prosthesis</a> with the Ion-Shielding upgrade protects the host from <a href=\"https://swse.fandom.com/wiki/Ion\" class=\"mw-redirect\" title=\"Ion\">Ion</a> damage. If all of a creature's cybernetic enhancements have the Ion-Shielding upgrade, the host is not treated as being cybernetically enhanced for the purposes of taking <a href=\"https://swse.fandom.com/wiki/Ion\" class=\"mw-redirect\" title=\"Ion\">Ion</a> damage. However, if even one cybernetic enhancement does not have this Ion-Shielding, the host gains no benefit. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "ionShielded"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "itemMod"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "1000",
+    "weight": "",
+    "availability": "Common",
+    "size": "",
+    "type": "",
+    "subtype": "Universal Upgrade",
+    "quantity": 1,
+    "hasItemOwner": false,
+    "upgrade": {},
+    "source": "Star Wars Saga Edition Galaxy at War",
+    "seeAlso": "Cybernetic Prosthesis, Advanced Cybernetics",
+    "upgradePointCost": "1"
+  },
+  "name": "Ion-Shielding",
+  "flags": {},
+  "type": "upgrade",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263245654,
+    "modifiedTime": 1749263245654,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "WPZvjxDfg45mgVM8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!WPZvjxDfg45mgVM8"
+}

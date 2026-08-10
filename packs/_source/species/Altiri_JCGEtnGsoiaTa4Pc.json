@@ -1,0 +1,135 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p> Altiri are a <a href=\"https://swse.fandom.com/wiki/Near-Human\" class=\"mw-redirect\" title=\"Near-Human\">Near-Human</a> Species that evolved on the eastern continent of the planet they call <a href=\"https://swse.fandom.com/wiki/Altiria\" class=\"mw-redirect\" title=\"Altiria\">Altiria</a>. Originally wandering nomads, Altiri developed a society that places great importance on individual development of one's intellect and spirituality. Through artistic expression and cultural awareness, Altiri focus on expanding their knowledge of the universe by peaceful, scientific means. Their perpetual war with the <a href=\"https://swse.fandom.com/wiki/Anarrians\" class=\"mw-redirect\" title=\"Anarrians\">Anarrians</a> is a glaring exception to this lofty goal.</p><p>Most Altiri unite under the banner of <a href=\"https://swse.fandom.com/wiki/The_Altirian_Republic\" title=\"The Altirian Republic\">The Altirian Republic</a>, a representative democracy that rules most of the eastern continent and several island chains around it. The republic's driving goal is the promotion of the Altiri, their development into the world's most advanced society, and their elevation to rulers of the planet. Republic members fervently state that they seek a peaceful existence in which knowledge and the arts are prized over all else, and many facets of their society support this ideal. At the same time, the republic maintains a sizable military force, the purpose of which is to combat the <a href=\"https://swse.fandom.com/wiki/Anarrians\" class=\"mw-redirect\" title=\"Anarrians\">Anarrians</a>. </p><p>Prior to their discovery of the <a href=\"https://swse.fandom.com/wiki/Anarrians\" class=\"mw-redirect\" title=\"Anarrians\">Anarrians</a>, the Altiri primarily worshipped the goddess Shalla, bringer of peace and good fortune. While less prominent in the present day, she is still worshipped to a large degree, and the Altiri go so far as to name their colony on Priva after her. </p><h3><span class=\"mw-headline\" id=\"Altiri_Characteristics\">Altiri Characteristics</span></h3><p><b>Personality:</b> The Altiri are a Species of scientific progress and cultural inspiration. Their feud with the <a href=\"https://swse.fandom.com/wiki/Anarrians\" class=\"mw-redirect\" title=\"Anarrians\">Anarrians</a> belies an otherwise friendly relationship with other sentients, a stack contrast that can be jarring to outsiders. Altiri place a high value on individualism, encouraging the populace to create their own accomplishments and overcome the bar set by the previous generation. </p><p><b>Physical Description:</b> Altiri are on average 1.7 meters in height. Their skin shades vary from light blue to deep indigo, and their hair color includes pure white and darker hues such as purple and black. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b>&nbsp;Altiri age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-9 Years </td> \n   <td>10-17 Years </td> \n   <td>18-49 Years </td> \n   <td>50-64 Years </td> \n   <td>65-79 Years </td> \n   <td>80+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Altiri live on the contested world of <a href=\"https://swse.fandom.com/wiki/Altiria\" class=\"mw-redirect\" title=\"Altiria\">Altiria</a>, an industrial world in constant conflict with itself between the Altiri and the <a href=\"https://swse.fandom.com/wiki/Anarrians\" class=\"mw-redirect\" title=\"Anarrians\">Anarrians</a>.&nbsp; </p><p><b>Languages:</b> Altiri use their own language of Altirish to communicate between themselves. The use of Anarrese is considered rude and is looked upon poorly.&nbsp; </p><p><b>Example</b>&nbsp;<b>Names:</b> Cediri, Prival, Shalla, Valtova.&nbsp; </p><p><b>Adventurers:</b> Altiri are often recruited to work as intelligence agents and scientists for private interests and the Altirian Republic. While well suited to work as ambassadors and diplomats, the Altiri's feud with the Anarrians strains that credibility to other <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>. Most Altiri that travel offworld do so as <a href=\"https://swse.fandom.com/wiki/Nobles\" class=\"mw-redirect\" title=\"Nobles\">Nobles</a>. </p><h3><span class=\"mw-headline\" id=\"Altiri_Species_Traits\">Altiri Species Traits</span></h3><p>Altiri share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Visually Striking",
+        "type": "trait"
+      },
+      {
+        "name": "Altiri",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Bonus Trained Skill",
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "80",
+          "text": "80+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "9",
+          "low": "1",
+          "text": "1-9",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "79",
+          "low": "65",
+          "text": "65-79",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "17",
+          "low": "10",
+          "text": "10-17",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "64",
+          "low": "50",
+          "text": "50-64",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "49",
+          "low": "18",
+          "text": "18-49",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Visually Striking"
+      },
+      {
+        "value": "Altiri"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Bonus Trained Skill"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Altiri",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535565491,
+    "modifiedTime": 1736535565491,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "JCGEtnGsoiaTa4Pc",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!JCGEtnGsoiaTa4Pc"
+}

@@ -1,0 +1,50 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p>As a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a>, a being can release an incredible Bellow. The being makes a special attack roll (1d20 + its Character Level) and compares the result to the <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> of all creatures and unattended objects in a 6-Square <a href=\"https://swse.fandom.com/wiki/Cone\" class=\"mw-redirect\" title=\"Cone\">Cone</a>. A successful hit deals 3d6 points of <a href=\"https://swse.fandom.com/wiki/Sonic\" title=\"Sonic\">Sonic</a> damage; if the attack misses, the target takes half damage instead.</p><p>Each use of this ability moves the being -1 step along the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>.</p><p>A being can choose to add more dice (d6s) to the damage it deals with its Bellow, but each additional 1d6 of damage moves the being another -1 step along the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Bellow",
+        "type": "item"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "prerequisite": null,
+    "cost": "0"
+  },
+  "name": "Bellow",
+  "flags": {},
+  "type": "trait",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764446476137,
+    "modifiedTime": 1764446476137,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "hVmeyqsrpBV0bzhx",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!hVmeyqsrpBV0bzhx"
+}

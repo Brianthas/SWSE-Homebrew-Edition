@@ -1,0 +1,73 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Whenever you roll the damage for an <a href=\"https://swse.fandom.com/wiki/Unarmed\" class=\"mw-redirect\" title=\"Unarmed\">Unarmed</a> attack, you reroll any dice that come up with a result of 1.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:Whenever you roll the damage for an<a href=\"https://swse.fandom.com/wiki/Unarmed\" class=\"mw-redirect\" title=\"Unarmed\">Unarmed</a>attack, you reroll any dice that come up with a result of 1.",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "a member of The Wardens of the Sky",
+      "requirement": "The Wardens of the Sky",
+      "type": "TRADITION"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Force Talent Trees"
+      },
+      {
+        "value": "Force Tradition Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Force Talent Trees",
+      "Force Tradition Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Warden of the Sky Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Warden_of_the_Sky_Talent_Tree",
+    "bonusTalentTree": "Force Talent Trees",
+    "source": "Star Wars Saga Edition Jedi Academy Training Manual",
+    "cost": "0"
+  },
+  "name": "Brutal Unarmed Strike",
+  "flags": {},
+  "type": "talent",
+  "folder": "xudKgUYvBvHmsMOv",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385313224,
+    "modifiedTime": 1734385313224,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "AvgbePLLTIGsfACZ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!AvgbePLLTIGsfACZ"
+}

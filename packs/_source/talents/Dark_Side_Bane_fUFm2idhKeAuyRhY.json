@@ -1,0 +1,67 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "When you use a damage-dealing <a href=\"https://swse.fandom.com/wiki/Force_Power\" class=\"mw-redirect\" title=\"Force Power\">Force Power</a> against a creature with a <a href=\"https://swse.fandom.com/wiki/Dark_Side_Score\" title=\"Dark Side Score\">Dark Side Score</a> of 1 or higher, you deal extra damage on a successful hit equal to your <a href=\"https://swse.fandom.com/wiki/Charisma\" title=\"Charisma\">Charisma</a> bonus (minimum +1).",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Dark Side Sense talent",
+      "requirement": "Dark Side Sense",
+      "type": "TALENT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Jedi Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Jedi Talent Trees",
+      "Core Rulebook"
+    ],
+    "isSupplied": false,
+    "talentTree": "Jedi Sentinel Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Jedi_Sentinel_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Legacy Era Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Dark Side Bane",
+  "flags": {},
+  "type": "talent",
+  "folder": "XHZlOCOJ4XqqIkdp",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385307178,
+    "modifiedTime": 1734385307178,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "fUFm2idhKeAuyRhY",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!fUFm2idhKeAuyRhY"
+}

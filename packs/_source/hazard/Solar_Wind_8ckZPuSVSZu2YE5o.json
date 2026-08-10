@@ -1,0 +1,73 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "3d8",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A Starship begins its turn exposed to Solar Wind.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round at the start of the Starship's turn, as long as the Starship remains exposed to the Solar Wind.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Perception (DC 17): The character detects the solar flare and predicts the imminent Solar Wind. Use Computer (DC 22): The character configures the Starship's shields to better protect it from the Hazard, granting a +5 Equipment bonus to the Starship's Fortitude Defense against the Solar Wind.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: Each creature inside the Starship takes half damage from Radiation if the Hazard's attack is successful and takes no damage on a miss.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Atmosphere",
+          "Energy",
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>A large emission of charged particles from a nearby star, probably the result of a solar flare, poses a risk of radiation.</i> </p><p>A star releases its Solar Wind as a mostly steady flow of ions that can cause damage to a Starship's systems, much like an <a href=\"https://swse.fandom.com/wiki/Ion_Cannon\" title=\"Ion Cannon\">Ion Cannon</a>. Anyone who detects the eruption of a solar flare during combat can use the incident, if they act quickly enough, to lure opponents into the Solar Wind and hope that the ion burst is enough to knock out the enemy ship's systems for a while. In addition, a Solar Wind can give away the presence of a cloaked vessel when the ions cascade against the cloaking field and reveal the ship. </p><h2><span id=\"Solar_Wind_Statistics_.28CL_7.29\"></span><span class=\"mw-headline\" id=\"Solar_Wind_Statistics_(CL_7)\">Solar Wind Statistics (CL 7)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Atmosphere, Energy, Natural </p><p><b>Trigger:</b> A Starship begins its turn exposed to Solar Wind. </p><p><b>Attack:</b> +9 vs <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> </p><p><b>Recurrence:</b> Each round at the start of the Starship's turn, as long as the Starship remains exposed to the Solar Wind. </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> (DC 17):</b> The character detects the solar flare and predicts the imminent Solar Wind.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> (DC 22):</b> The character configures the Starship's shields to better protect it from the Hazard, granting a +5 <a href=\"https://swse.fandom.com/wiki/Equipment\" title=\"Equipment\">Equipment</a> bonus to the Starship's <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> against the Solar Wind.</li>\n</ul><p><b>Special:</b> Each creature inside the Starship takes half damage from <a href=\"https://swse.fandom.com/wiki/Radiation\" title=\"Radiation\">Radiation</a> if the Hazard's attack is successful and takes no damage on a miss. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Solar Wind",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244764,
+    "modifiedTime": 1749263244764,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "8ckZPuSVSZu2YE5o",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!8ckZPuSVSZu2YE5o"
+}

@@ -1,0 +1,39 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Droid Accessories (Miscellaneous Systems)",
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "droidPart"
+      }
+    ],
+    "description": "<p>This device allows a Small, Medium, or Large Droid to launch an item held in a <a href=\"https://swse.fandom.com/wiki/Compartment_Space\" title=\"Compartment Space\">Compartment Space</a> up to 8 meters as a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a>. The item can weigh no more than 4 kg, and the droid makes a ranged attack against a <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> of 10 to launch the projectile into a designated square. Anyone within reach of the target square who has a <a href=\"https://swse.fandom.com/wiki/Readied_Action\" class=\"mw-redirect\" title=\"Readied Action\">Readied Action</a> can try to catch the item, provided the droid's attack succeeds. (If the attack fails, the item lands in a randomly determined square adjacent to the target square.) Catching the item requires a DC 10 <a href=\"https://swse.fandom.com/wiki/Abilities\" title=\"Abilities\">Dexterity</a> check and is considered a <a href=\"https://swse.fandom.com/wiki/Move_Action\" class=\"mw-redirect\" title=\"Move Action\">Move Action</a>.</p><p>Spring-Loaded Mechanisms are not typically designed (or practical) for Droids of Huge or larger size.</p>",
+    "cost": "150",
+    "weight": "3 Kilograms"
+  },
+  "name": "Spring-Loaded Mechanism",
+  "flags": {},
+  "type": "droid system",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764449015987,
+    "modifiedTime": 1764449015987,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "576rO17aVPYOCMHR",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!576rO17aVPYOCMHR"
+}

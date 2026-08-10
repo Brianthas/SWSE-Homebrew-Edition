@@ -1,0 +1,67 @@
+{
+  "img": "systems/swse/icon/feat/Surgical Expertise.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: Star Wars Saga Edition Core Rulebook</i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You can perform skillful surgical procedures quickly.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in <a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a></p><p><b>Effect:</b> You can perform <a href=\"https://swse.fandom.com/wiki/Surgery\" class=\"mw-redirect\" title=\"Surgery\">Surgery</a> in 10 minutes.</p><p><b>Normal:</b> Performing <a href=\"https://swse.fandom.com/wiki/Surgery\" class=\"mw-redirect\" title=\"Surgery\">Surgery</a> typically takes 1 hour.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Trained in Treat Injury",
+      "requirement": "Treat Injury",
+      "type": "TRAINED SKILL"
+    },
+    "categories": [
+      {
+        "value": "Technician Bonus Feats"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Noble Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Technician Bonus Feats",
+      "General Feats",
+      "Noble Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Core Rulebook",
+    "cost": "0"
+  },
+  "name": "Surgical Expertise",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479029070,
+    "modifiedTime": 1761479029070,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "HRcILPG1PfzCrg1J",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!HRcILPG1PfzCrg1J"
+}

@@ -1,0 +1,79 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "As a <a href=\"https://swse.fandom.com/wiki/Full-Round_Action\" class=\"mw-redirect\" title=\"Full-Round Action\">Full-Round Action</a>, you allow one <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> that can hear and understand you to take the <a href=\"https://swse.fandom.com/wiki/Full_Attack\" title=\"Full Attack\">Full Attack</a> Action. The <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> can replace its relevant <a href=\"https://swse.fandom.com/wiki/Ability_Score\" class=\"mw-redirect\" title=\"Ability Score\">Ability Score</a> modifier to its attack roll with your <a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a> modifier.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Directed Action talent",
+          "requirement": "Directed Action",
+          "type": "TALENT"
+        },
+        {
+          "text": "Directed Movement talent",
+          "requirement": "Directed Movement",
+          "type": "TALENT"
+        },
+        {
+          "text": "Remote Attack talent",
+          "requirement": "Remote Attack",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Directed Action talent, Directed Movement talent, and Remote Attack talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Droid Commander Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Droid Commander Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Override Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Override_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Scavenger's Guide to Droids",
+    "cost": "0"
+  },
+  "name": "Full Control",
+  "flags": {},
+  "type": "talent",
+  "folder": "TLeeASevxwG6Say4",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385310313,
+    "modifiedTime": 1734385310313,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "pXcsQQInxQ69qIis",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!pXcsQQInxQ69qIis"
+}

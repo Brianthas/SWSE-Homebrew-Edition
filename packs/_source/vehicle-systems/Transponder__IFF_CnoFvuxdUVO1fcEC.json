@@ -1,0 +1,34 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Starship Accessories",
+    "changes": [],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><table class=\"wikitable\">\n <tbody>\n  <tr>\n   <th>TRANSPONDER</th>\n   <th>EMPLACEMENT POINTS</th>\n   <th>AVAILABILITY</th>\n   <th>SIZE RESTRICTION</th>\n   <th>COST</th>\n  </tr>\n  <tr>\n   <td>IFF</td>\n   <td>0</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Military\" class=\"mw-redirect\" title=\"Military\">Military</a></td>\n   <td>-</td>\n   <td>1000</td>\n  </tr>\n  <tr>\n   <td>Masked</td>\n   <td>0</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Illegal\" class=\"mw-redirect\" title=\"Illegal\">Illegal</a></td>\n   <td>-</td>\n   <td>200 (Base)</td>\n  </tr>\n  <tr>\n   <td>Disguised (1)</td>\n   <td>0</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Illegal\" class=\"mw-redirect\" title=\"Illegal\">Illegal</a></td>\n   <td>-</td>\n   <td>500 (Base)</td>\n  </tr>\n  <tr>\n   <td>Disguised (2)</td>\n   <td>0</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Illegal\" class=\"mw-redirect\" title=\"Illegal\">Illegal</a></td>\n   <td>-</td>\n   <td>1000 (Base)</td>\n  </tr>\n  <tr>\n   <td>Disguised (3)</td>\n   <td>0</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Illegal\" class=\"mw-redirect\" title=\"Illegal\">Illegal</a></td>\n   <td>-</td>\n   <td>2000 (Base)</td>\n  </tr>\n </tbody>\n</table><p>Because a ship's Transponders are built into its sublight engines, it is difficult to remove or alter a ship's transponder code. However, there are two options: you can mask your ship's code (making it impossible to read), or you can disguise your ship's code (making it look like a different code).</p><p>A Masked Transponder requires you only to reroute engine power to overheat the transponder director, but if your Mechanics check to install the modification fails by 10 or more, you destroy your <a href=\"https://swse.fandom.com/wiki/Sublight_Drive\" title=\"Sublight Drive\">Sublight Drive</a> in addition to losing the cost of the modification. Furthermore, a Masked Transponder is immediately apparent to everyone who detects your ship, attracting the attention of the authorities.</p><p>A Disguised Transponder transmits a second signal that modifies the broadcast signal pattern of your ship's Transponder, making it look like a different ship altogether. Activating or deactivating a Disguised Transponder is a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>.</p><p>You must make a <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> check to access private information in order to find the transponder code for a ship similar to yours and then make a <a href=\"https://swse.fandom.com/wiki/Deception\" title=\"Deception\">Deception</a> check to create a deceptive appearance, forging a signal that will appear authentic. After this, installation may proceed normally. If successful, your transponder's signal will make you appear to be the mimicked ship. You may install more than one Disguised Transponder to give your ship different identities that can be turned on and off, but you take a -5 penalty on your <a href=\"https://swse.fandom.com/wiki/Deception\" title=\"Deception\">Deception</a> check for every Disguised Transponder already on your ship.</p><h4><span class=\"mw-headline\" id=\"IFF_Transponders\"><b>IFF Transponders</b></span></h4><p>IFF Transponders are a blank Friend or Foe Transponder of the type normally installed on military Starships, and you can activate or deactivate it as a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>. If you have the proper IFF codes for a given military unit, you can upload them to your IFF Transponder and appear as a \"Friend\" to its sensors.</p><p>If you do not have these codes, you can attempt a <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> check to improve access to an enemy ship's computer using your IFF Transponder, sending queries and analyzing the other ship's response. The enemy ship's <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a> is equal to 15 + its <a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a> modifier, its starting <a href=\"https://swse.fandom.com/wiki/Attitude\" class=\"mw-redirect\" title=\"Attitude\">Attitude</a> is Unfriendly (-5 penalty on your <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> check), and the DC of your <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> check is increased by 10 due to the encrypted signal. If you manage to improve the <a href=\"https://swse.fandom.com/wiki/Attitude\" class=\"mw-redirect\" title=\"Attitude\">Attitude</a> of the enemy ship's computer to Helpful, you have successfully loaded your IFF Transponder with the correct \"Friend\" codes for that unit. If the <a href=\"https://swse.fandom.com/wiki/Attitude\" class=\"mw-redirect\" title=\"Attitude\">Attitude</a> of the enemy ship's computer ever becomes Hostile, you will appear as an enemy unit on that ship's sensors.</p>",
+    "cost": "1000",
+    "emplacementPoints": "0",
+    "availability": "Military"
+  },
+  "name": "Transponder, IFF",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317809,
+    "modifiedTime": 1759848317809,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "CnoFvuxdUVO1fcEC",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!CnoFvuxdUVO1fcEC"
+}

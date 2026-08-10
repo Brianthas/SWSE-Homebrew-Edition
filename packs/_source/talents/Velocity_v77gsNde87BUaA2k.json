@@ -1,0 +1,63 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "At the start of an encounter when you make an <a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a> check to determine your place in the <a href=\"https://swse.fandom.com/wiki/Initiative_Order\" title=\"Initiative Order\">Initiative Order</a>, you can activate <a href=\"https://swse.fandom.com/wiki/Surge\" title=\"Surge\"><i>Surge</i></a> as a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a>, gaining a bonus to your <a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a> check result instead of <a href=\"https://swse.fandom.com/wiki/Jump\" title=\"Jump\">Jump</a> checks.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Surge talent",
+      "requirement": "Surge",
+      "type": "TALENT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Force Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Force Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Control Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Control_Talent_Tree",
+    "bonusTalentTree": "Force Talent Trees",
+    "source": "Legacy of the Force Sourcebook",
+    "cost": "0"
+  },
+  "name": "Velocity",
+  "flags": {},
+  "type": "talent",
+  "folder": "Aiyj1Z0FNJmbMWjE",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385303755,
+    "modifiedTime": 1734385303755,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "v77gsNde87BUaA2k",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!v77gsNde87BUaA2k"
+}

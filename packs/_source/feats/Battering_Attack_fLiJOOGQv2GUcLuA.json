@@ -1,0 +1,75 @@
+{
+  "img": "systems/swse/icon/feat/Battering_Attack.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_at_War\" title=\"Star Wars Saga Edition Galaxy at War\">Star Wars Saga Edition Galaxy at War</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You know how to use your strength to batter an opponent to the ground, knocking him or her <a href=\"https://swse.fandom.com/wiki/Prone\" class=\"mw-redirect\" title=\"Prone\">Prone</a>.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Bantha_Rush\" title=\"Bantha Rush\">Bantha Rush</a>, <a href=\"https://swse.fandom.com/wiki/Trip\" title=\"Trip\">Trip</a></p><p><b>Effect:</b> Whenever you successfully move a creature with the <a href=\"https://swse.fandom.com/wiki/Bantha_Rush\" title=\"Bantha Rush\">Bantha Rush</a> Feat, you also knock that target <a href=\"https://swse.fandom.com/wiki/Prone\" class=\"mw-redirect\" title=\"Prone\">Prone</a>.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Bantha Rush feat",
+          "requirement": "Bantha Rush",
+          "type": "FEAT"
+        },
+        {
+          "text": "Trip feat",
+          "requirement": "Trip",
+          "type": "FEAT"
+        }
+      ],
+      "text": "Bantha Rush feat, and Trip feat",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Soldier Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Jedi Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Bonus Feats",
+      "General Feats",
+      "Jedi Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Galaxy at War",
+    "cost": "0"
+  },
+  "name": "Battering Attack",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479025970,
+    "modifiedTime": 1761479025970,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "fLiJOOGQv2GUcLuA",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!fLiJOOGQv2GUcLuA"
+}

@@ -1,0 +1,118 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Once per encounter, as a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a>, you may make an <a href=\"https://swse.fandom.com/wiki/Amphistaff\" title=\"Amphistaff\">Amphistaff</a> attack against a being whose attack you negated using the <b>Amphistaff Block</b> Talent. You cannot change the Form of the <a href=\"https://swse.fandom.com/wiki/Amphistaff\" title=\"Amphistaff\">Amphistaff</a> prior to making this attack (meaning, the attack can only be made with the Quarterstaff or Spear Forms of the weapon).<br><br>Only non-area melee attacks can be riposted in this manner; you cannot use this Talent when negating the damage from melee <a href=\"https://swse.fandom.com/wiki/Area_Attacks\" title=\"Area Attacks\">Area Attacks</a>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Amphistaff Block talent",
+          "requirement": "Amphistaff Block",
+          "type": "TALENT"
+        },
+        {
+          "text": "Weapon Focus (Amphistaff)",
+          "requirement": "Weapon Focus (Amphistaff)",
+          "type": "FEAT"
+        },
+        {
+          "text": "Base Attack Bonus 10",
+          "requirement": "10",
+          "type": "BASE ATTACK BONUS"
+        }
+      ],
+      "text": "Amphistaff Block talent, Weapon Focus (Amphistaff), and Base Attack Bonus 10",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Vanguard Talent Trees"
+      },
+      {
+        "value": "Untested"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Elite Trooper Talent Trees"
+      },
+      {
+        "value": "Soldier Talent Trees"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Gladiator Talent Trees"
+      },
+      {
+        "value": "Melee Duelist Talent Trees"
+      },
+      {
+        "value": "Enforcer Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Vanguard Talent Trees",
+      "Untested",
+      "Elite Trooper Talent Trees",
+      "Soldier Talent Trees",
+      "Homebrew Content",
+      "Gladiator Talent Trees",
+      "Melee Duelist Talent Trees",
+      "Enforcer Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Master of the Amphistaff Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Master_of_the_Amphistaff_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "New Jedi Order Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Amphistaff Riposte",
+  "flags": {},
+  "type": "talent",
+  "folder": "5ZAOykoXP6Efag14",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385308682,
+    "modifiedTime": 1734385308682,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "ikddnMntMIyVgkHn",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!ikddnMntMIyVgkHn"
+}

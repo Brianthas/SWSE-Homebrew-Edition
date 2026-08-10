@@ -1,0 +1,138 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p>The Kel Dor evolved on <a href=\"https://swse.fandom.com/wiki/Dorin\" title=\"Dorin\">Dorin</a>, a world with an atmosphere consisting mostly of helium and a gas that is unique to that world. As such, Kel Dor cannot breathe on planets with common nitrogen/oxygen atmospheres. Conversely, Dorin's atmosphere is toxic to most nonnative life.</p><p>On other planets, Kel Dor dwellings provide their native atmosphere (stored in large tanks). When outside, Kel Dor must wear breath masks and goggles. They can neither see nor breathe without these devices. Most Kel Dor breath masks include vocoders that amplify the wearer's speech; while their vocal cords function normally in their native atmosphere, Kel Dor must shout to provide sound in other environments. Their eyesight however, is enhanced when they are away from <a href=\"https://swse.fandom.com/wiki/Dorin\" title=\"Dorin\">Dorin</a>. </p><h3><span class=\"mw-headline\" id=\"Kel_Dor_Characteristics\">Kel Dor Characteristics</span></h3><p><b>Personality:</b> Calm and kind, the Kel Dor never turn away a being in need. Still, most believe in quick, simple justice (even engaging in vigilantism). </p><p><b>Physical Description:</b> The average Kel Dor stands between 1.6 and 2 meters tall. Their skin ranges from peach to deep red, and most have black eyes. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Kel Dor age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-15 Years </td> \n   <td>16-44 Years </td> \n   <td>45-59 Years </td> \n   <td>60-69 Years </td> \n   <td>70+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The technological planet of <a href=\"https://swse.fandom.com/wiki/Dorin\" title=\"Dorin\">Dorin</a>. </p><p><b>Languages:</b> The Kel Dor can speak, read, and write both Basic and Kel Dor. </p><p><b>Example Names:</b> Dorn Tlo, <a href=\"https://swse.fandom.com/wiki/Plo_Koon\" title=\"Plo Koon\">Plo Koon</a>, Torin Dol. </p><p><b>Adventurers:</b> Kel Dor commonly become diplomats (<a href=\"https://swse.fandom.com/wiki/Nobles\" class=\"mw-redirect\" title=\"Nobles\">Nobles</a>), bounty hunters (<a href=\"https://swse.fandom.com/wiki/Scouts\" class=\"mw-redirect\" title=\"Scouts\">Scouts</a>), and <a href=\"https://swse.fandom.com/wiki/Jedi\" title=\"Jedi\">Jedi</a>. Given their altruism and sense of justice, many enter law enforcement. </p><h3><span class=\"mw-headline\" id=\"Kel_Dor_Species_Traits\">Kel Dor Species Traits</span></h3><p>Kel Dor share the following Species Traits: </p><h2><span class=\"mw-headline\" id=\"Additional_Kel_Dor_Species_Feats\">Additional Kel Dor Species Feats</span></h2><p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Rebellion_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Rebellion Era Campaign Guide\">Star Wars Saga Edition Rebellion Era Campaign Guide</a></i> </p><p>Kel Dor characters have access to the following <a href=\"https://swse.fandom.com/wiki/Species_Feats\" class=\"mw-redirect\" title=\"Species Feats\">Species Feats</a>. No Species Feats are considered Bonus Feats for any <a href=\"https://swse.fandom.com/wiki/Heroic_Class\" class=\"mw-redirect\" title=\"Heroic Class\">Heroic Class</a>. </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>SPECIES FEAT </th> \n   <th> </th> \n   <th>BENEFITS </th>\n  </tr> \n  <tr> \n   <td><a href=\"https://swse.fandom.com/wiki/Justice_Seeker\" title=\"Justice Seeker\">Justice Seeker</a> </td> \n   <td> </td> \n   <td>Gain a bonus to damage rolls against those who harm your allies. </td>\n  </tr> \n  <tr> \n   <td><a href=\"https://swse.fandom.com/wiki/Read_the_Winds\" title=\"Read the Winds\">Read the Winds</a> </td> \n   <td> </td> \n   <td>Detect hidden enemies within 10 squares of you. </td>\n  </tr> \n  <tr> \n   <td><a href=\"https://swse.fandom.com/wiki/Scion_of_Dorin\" title=\"Scion of Dorin\">Scion of Dorin</a> </td> \n   <td> </td> \n   <td>Gain a bonus to <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> against <a href=\"https://swse.fandom.com/wiki/Atmospheric_Hazards\" class=\"mw-redirect\" title=\"Atmospheric Hazards\">Atmospheric Hazards</a>. </td>\n  </tr>\n </tbody>\n</table>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Keen Force Sense",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Low-Light Vision",
+        "type": "trait"
+      },
+      {
+        "name": "Special Equipment",
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "15",
+          "low": "12",
+          "text": "12-15",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "70",
+          "text": "70+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "69",
+          "low": "60",
+          "text": "60-69",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "44",
+          "low": "16",
+          "text": "16-44",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "11",
+          "low": "1",
+          "text": "1-11",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "59",
+          "low": "45",
+          "text": "45-59",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Keen Force Sense"
+      },
+      {
+        "value": "Kel Dors"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Low-Light Vision"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Special Equipment"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Kel Dor",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535566416,
+    "modifiedTime": 1736535566416,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "tajB1BbiQRZjtvmg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!tajB1BbiQRZjtvmg"
+}

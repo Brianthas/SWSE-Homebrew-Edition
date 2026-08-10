@@ -1,0 +1,55 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "If the Beast hits with its Tail Attack, it can attempt to trip an enemy (as if using the Trip Feat) as a Free Action that does not provoke Attacks of Opportunity.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "If the Beast hits with its Tail Attack, it can attempt to trip an enemy (as if using the Trip Feat) as a Free Action that does not provoke Attacks of Opportunity.",
+        "key": "special"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "prerequisite": {
+      "text": "Tail Attack",
+      "requirement": "Tail",
+      "type": "BEAST_ATTACK"
+    },
+    "cost": "0"
+  },
+  "name": "Trip",
+  "flags": {},
+  "type": "beastQuality",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749299111431,
+    "modifiedTime": 1749299111431,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "Xpmdb5Y3G1scv8ym",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!Xpmdb5Y3G1scv8ym"
+}

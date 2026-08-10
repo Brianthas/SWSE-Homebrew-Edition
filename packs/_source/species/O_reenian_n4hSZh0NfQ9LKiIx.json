@@ -1,0 +1,131 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p> O'reenians are a Species of <a href=\"https://swse.fandom.com/wiki/Near-Humans\" title=\"Near-Humans\">Near-Humans</a> with a striking similarity to baseline <a href=\"https://swse.fandom.com/wiki/Humans\" class=\"mw-redirect\" title=\"Humans\">Humans</a>, with the prominent differences being their orange-hued skin and their pitch-black irises. The militaristic outlook of their society is similar to that of the <a href=\"https://swse.fandom.com/wiki/Chiss\" title=\"Chiss\">Chiss</a>, although unlike that Species, the O'reenians are not averse to striking without provocation if doing so might gain them a tactical advantage.</p><p>The people of <a href=\"https://swse.fandom.com/wiki/O%27reen\" title=\"O'reen\">O'reen</a> take the defense of their world very seriously. Despite this fact, there are many strange and powerful races throughout <a href=\"https://swse.fandom.com/wiki/The_Unknown_Regions\" title=\"The Unknown Regions\">The Unknown Regions</a> that have technology that is unfamiliar to the O'reenians, making it difficult for them to sense threats from the outside until it is too late. As a result, the O'reenians have created a network of <a href=\"https://swse.fandom.com/wiki/Orbital_Defense_Mines\" title=\"Orbital Defense Mines\">Orbital Defense Mines</a> that detect, move toward, and attack any Starship approaching O'reen without proper transponder identifiers. </p><h3><span id=\"O.27reenian_Characteristics\"></span><span class=\"mw-headline\" id=\"O'reenian_Characteristics\">O'reenian Characteristics</span></h3><p><b>Personality:</b> O'reenians are divided into several distinct castes based upon&nbsp;military service. O'reenians who serve in the military for six or more&nbsp;years&nbsp;are granted the rights and privileges of citizenship, while those who do not are relegated to menial occupations of the sort generally carried out by&nbsp;<a href=\"https://swse.fandom.com/wiki/Droids\" title=\"Droids\">Droids</a>&nbsp;on worlds more technologically advanced than <a href=\"https://swse.fandom.com/wiki/O%27reen\" title=\"O'reen\">O'reen</a>. </p><p><b>Physical Description:</b> O'reenian posses a&nbsp;humanoid&nbsp;body, with two&nbsp;arms&nbsp;with five-fingered hands, two legs, and a head; likewise, their faces feature two&nbsp;eyes, two eyebrows, a&nbsp;nose, two&nbsp;ears, and a&nbsp;mouth.&nbsp;The major distinctions between O'reenians and <a href=\"https://swse.fandom.com/wiki/Humans\" class=\"mw-redirect\" title=\"Humans\">Humans</a> are the O'reenians'&nbsp;orange-tinted skin and black eyes. O'reenians tend to have dark-brown hair. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> O'reenians age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-9 Years </td> \n   <td>10-14 Years </td> \n   <td>15-45 Years </td> \n   <td>46-64 Years </td> \n   <td>65-89 Years </td> \n   <td>90+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> O'reenians hail from the forgotten colony world of <a href=\"https://swse.fandom.com/wiki/O%27reen\" title=\"O'reen\">O'reen</a>, a temperate planet filled with natural resources under the strict control of the Magnus. </p><p><b>Languages:</b> The O'reenian's native tongue is based on a very old dialect of Bocce, and it shares enough commonality with that language that characters fluent in Bocce can decipher most of what an O'reenian says. </p><p><b>Example Names:</b> Maximus, Magnus, Janus, Vesta, Felicitas. </p><p><b>Adventurers:</b> Given the insular nature of <a href=\"https://swse.fandom.com/wiki/O%27reen\" title=\"O'reen\">O'reen</a> society, few of its members are likely to leave and wander the galaxy, although outcasts are forced into exile from time to time. Most O'reenian Heroic characters should have at least one or two levels in the <a href=\"https://swse.fandom.com/wiki/Soldier\" title=\"Soldier\">Soldier</a> class to reflect their military upbringing. </p><h3><span id=\"O.27reenian_Species_Traits\"></span><span class=\"mw-headline\" id=\"O'reenian_Species_Traits\">O'reenian Species Traits</span></h3><p>O'reenians share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Heightened Awareness",
+        "type": "trait"
+      },
+      {
+        "name": "Persistent",
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "64",
+          "low": "46",
+          "text": "46-64",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "90",
+          "text": "90+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "14",
+          "low": "10",
+          "text": "10-14",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "45",
+          "low": "15",
+          "text": "15-45",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "89",
+          "low": "65",
+          "text": "65-89",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "9",
+          "low": "1",
+          "text": "1-9",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Heightened Awareness"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "O'reenians"
+      },
+      {
+        "value": "Persistent"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "O'reenian",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535566898,
+    "modifiedTime": 1736535566898,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "n4hSZh0NfQ9LKiIx",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!n4hSZh0NfQ9LKiIx"
+}

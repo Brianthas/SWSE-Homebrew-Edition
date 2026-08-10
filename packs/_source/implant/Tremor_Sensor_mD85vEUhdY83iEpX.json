@@ -1,0 +1,43 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Advanced Cybernetics",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Use the Force:-1:IMPLANT",
+        "key": "skillBonus"
+      }
+    ],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_at_War\" title=\"Star Wars Saga Edition Galaxy at War\">Star Wars Saga Edition Galaxy at War</a></i> </p><p><b>Rejection Attack Bonus:</b>&nbsp;+7 </p><p>A Tremor Sensor is installed in the feet of the host. Connected to the nervous system, the Tremor Sensor detects minute vibrations in the ground, warning the host of approaching enemies. A creature with the Tremor Sensor enhancement takes no penalty to <a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> checks to notice targets that have <a href=\"https://swse.fandom.com/wiki/Concealment\" title=\"Concealment\">Concealment</a> or <a href=\"https://swse.fandom.com/wiki/Total_Concealment\" class=\"mw-redirect\" title=\"Total Concealment\">Total Concealment</a>, provided the target moved on it's last turn. </p>",
+    "source": "Star Wars Saga Edition Galaxy at War",
+    "cost": "400",
+    "availability": "Restricted",
+    "rejectionAttackBonus": "+7",
+    "installationCost": "3750",
+    "cybernetic": true
+  },
+  "name": "Tremor Sensor",
+  "flags": {},
+  "type": "implant",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263245130,
+    "modifiedTime": 1749263245130,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "mD85vEUhdY83iEpX",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!mD85vEUhdY83iEpX"
+}

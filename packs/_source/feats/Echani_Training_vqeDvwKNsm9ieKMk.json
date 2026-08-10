@@ -1,0 +1,70 @@
+{
+  "img": "systems/swse/icon/feat/Echani Training.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a>, <a href=\"https://swse.fandom.com/wiki/Martial_Arts_Feats\" class=\"mw-redirect\" title=\"Martial Arts Feats\">Martial Arts Feats</a></i></p><p>You are trained in Echani unarmed fighting techniques, giving you an advantage in hand-to-hand combat.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> 13, <a href=\"https://swse.fandom.com/wiki/Martial_Arts_I\" title=\"Martial Arts I\">Martial Arts I</a></p><p><b>Effect:</b> You can double the damage bonus provided by your <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> modifier to <a href=\"https://swse.fandom.com/wiki/Unarmed_Attacks\" title=\"Unarmed Attacks\">Unarmed Attacks</a> (minimum +1) provided you make only one <a href=\"https://swse.fandom.com/wiki/Unarmed\" class=\"mw-redirect\" title=\"Unarmed\">Unarmed</a> attack this turn.</p><p>Once per encounter when you deal damage to a target with an <a href=\"https://swse.fandom.com/wiki/Unarmed_Attack\" class=\"mw-redirect\" title=\"Unarmed Attack\">Unarmed Attack</a> you may make an immediate <a href=\"https://swse.fandom.com/wiki/Unarmed_Attack\" class=\"mw-redirect\" title=\"Unarmed Attack\">Unarmed Attack</a> against the target's <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> as a <a href=\"https://swse.fandom.com/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a>; if successful, you knock your opponent to the ground (<a href=\"https://swse.fandom.com/wiki/Prone\" class=\"mw-redirect\" title=\"Prone\">Prone</a>) in their current square, provided they are no more than one size larger than you.</p><h2><span class=\"mw-headline\" id=\"Additional_Echani_Training_Effects\">Additional Echani Training Effects</span></h2><p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_at_War\" title=\"Star Wars Saga Edition Galaxy at War\">Star Wars Saga Edition Galaxy at War</a></i></p><p>If you have the <b><a href=\"https://swse.fandom.com/wiki/Echani_Expertise\" class=\"mw-redirect\" title=\"Echani Expertise\">Echani Expertise</a></b> Talent, whenever you score a Critical Hit with an <a href=\"https://swse.fandom.com/wiki/Unarmed\" class=\"mw-redirect\" title=\"Unarmed\">Unarmed</a> attack, the target is immediately knocked to the ground (<a href=\"https://swse.fandom.com/wiki/Prone\" class=\"mw-redirect\" title=\"Prone\">Prone</a>) in its current square, provided that the target is no more than one size larger than you</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Dexterity 13",
+          "requirement": "Dexterity 13",
+          "type": "ATTRIBUTE"
+        },
+        {
+          "text": "Martial Arts I feat",
+          "requirement": "Martial Arts I",
+          "type": "FEAT"
+        }
+      ],
+      "text": "Dexterity 13, and Martial Arts I feat",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Martial Arts Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Echani Training",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479026751,
+    "modifiedTime": 1761479026751,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "vqeDvwKNsm9ieKMk",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!vqeDvwKNsm9ieKMk"
+}

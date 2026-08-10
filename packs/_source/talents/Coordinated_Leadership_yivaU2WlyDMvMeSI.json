@@ -1,0 +1,87 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You coordinate your actions with other leaders. Choose one Talent you possess from the Leadership Talent Tree. The bonuses you provide with this Talent are now considered to be untyped bonuses, allowing them to stack with the bonuses granted by your allies.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Born Leader talent",
+          "requirement": "Born Leader",
+          "type": "TALENT"
+        },
+        {
+          "text": "Coordinate talent",
+          "requirement": "Coordinate",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Born Leader talent, and Coordinate talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Noble Talent Trees"
+      },
+      {
+        "value": "Corporate Agent Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Officer Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Noble Talent Trees",
+      "Corporate Agent Talent Trees",
+      "Core Rulebook",
+      "Officer Talent Trees",
+      "Agent Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Leadership Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Leadership_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Coordinated Leadership",
+  "flags": {},
+  "type": "talent",
+  "folder": "xukmN6sbBXgf7AXb",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385307966,
+    "modifiedTime": 1786039798045,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "yivaU2WlyDMvMeSI",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!yivaU2WlyDMvMeSI"
+}

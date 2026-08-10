@@ -1,0 +1,83 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You know how to fight when the odds are against you. You can use each of the following actions as a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a> once per encounter:",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Melee Smash talent",
+          "requirement": "Melee Smash",
+          "type": "TALENT"
+        },
+        {
+          "text": "Stunning Strike talent",
+          "requirement": "Stunning Strike",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Melee Smash talent, and Stunning Strike talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Soldier Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Melee Duelist Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Talent Trees",
+      "Core Rulebook",
+      "Melee Duelist Talent Trees",
+      "Martial Arts Master Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Brawler Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Brawler_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Scum and Villainy",
+    "cost": "0"
+  },
+  "name": "Experienced Brawler",
+  "flags": {},
+  "type": "talent",
+  "folder": "mCMlDDiK1hy9rCjG",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385303108,
+    "modifiedTime": 1786039906819,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "KuA8onhDcHKO9H62",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!KuA8onhDcHKO9H62"
+}

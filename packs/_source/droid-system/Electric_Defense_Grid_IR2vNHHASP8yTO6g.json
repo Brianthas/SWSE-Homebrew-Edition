@@ -1,0 +1,41 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Droid Accessories (Miscellaneous Systems)",
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "droidPart"
+      }
+    ],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scavenger%27s_Guide_to_Droids\" title=\"Star Wars Saga Edition Scavenger's Guide to Droids\">Star Wars Saga Edition Scavenger's Guide to Droids</a></i></p><p>Most Combat Droids are effective at using Blasters and other Ranged Weapons. Some <a href=\"https://swse.fandom.com/wiki/Droid_Models\" class=\"mw-redirect\" title=\"Droid Models\">Droid Models</a>, however, fail miserably at melee combat and are quickly dispatched by enemies that gain the upper hand in close quarters. To improve a Droid's melee defenses, an Electric Defense Grid can be installed either on top of or as part of the Droid's Armor or outer shell. Whenever a <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> with an Electric Defense Grid is damaged by a melee attack, the attacker automatically takes 5 points of Energy damage. Melee Weapons that rely on Energy to cause damage, such as <a href=\"https://swse.fandom.com/wiki/Lightsabers\" title=\"Lightsabers\">Lightsabers</a>, are immune to the effect of the Electric Defense Grid.</p>",
+    "source": "Star Wars Saga Edition Scavenger's Guide to Droids",
+    "cost": "3000 x Cost Factor",
+    "weight": "(100 x Cost Factor) Kilograms",
+    "availability": "Restricted"
+  },
+  "name": "Electric Defense Grid",
+  "flags": {},
+  "type": "droid system",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764449016248,
+    "modifiedTime": 1764449016248,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "IR2vNHHASP8yTO6g",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!IR2vNHHASP8yTO6g"
+}

@@ -1,0 +1,76 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Any ally who gains the benefit of your <b>Born Leader</b> Talent does not lose the benefit if their line of sight to you is broken.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Born Leader talent",
+      "requirement": "Born Leader",
+      "type": "TALENT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Noble Talent Trees"
+      },
+      {
+        "value": "Corporate Agent Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Officer Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Noble Talent Trees",
+      "Corporate Agent Talent Trees",
+      "Core Rulebook",
+      "Officer Talent Trees",
+      "Agent Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Leadership Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Leadership_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Core Rulebook",
+    "cost": "0"
+  },
+  "name": "Distant Command",
+  "flags": {},
+  "type": "talent",
+  "folder": "xukmN6sbBXgf7AXb",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385307916,
+    "modifiedTime": 1786039798041,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "SphH18K7aMGzq6WX",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!SphH18K7aMGzq6WX"
+}

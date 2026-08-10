@@ -1,0 +1,63 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Choose a single Weapon Group or <a href=\"https://swse.fandom.com/wiki/Exotic_Weapon\" class=\"mw-redirect\" title=\"Exotic Weapon\">Exotic Weapon</a> you are proficient with. When you score a Critical Hit with a weapon from that group, you can make one immediate extra attack (in addition to the other effects of a Critical Hit) against a single target within <a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a>.<br><br>You may only use this Talent once per turn. You can select this Talent multiple times. its effects do not stack. Each time you take the Talent, it applies to a new Weapon Group or <a href=\"https://swse.fandom.com/wiki/Exotic_Weapon\" class=\"mw-redirect\" title=\"Exotic Weapon\">Exotic Weapon</a>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Weapon Proficiency (#payload#)",
+      "requirement": "Weapon Proficiency (#payload#)",
+      "type": "FEAT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Elite Trooper Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Elite Trooper Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Critical Master Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Critical_Master_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Force Unleashed Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Flurry Attack",
+  "flags": {},
+  "type": "talent",
+  "folder": "1eMyGoCgr6qXfLsY",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385303890,
+    "modifiedTime": 1734385303890,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "ZiRF5abOtbULcc0S",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!ZiRF5abOtbULcc0S"
+}

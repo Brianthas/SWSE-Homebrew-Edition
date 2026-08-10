@@ -1,0 +1,96 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:</i>&nbsp;<i><a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i> </p><p><b>Manufactured By:</b> <a href=\"https://swse.fandom.com/wiki/The_Mandalorians\" title=\"The Mandalorians\">The Mandalorians</a> (Organization) </p><p><b>Applicable To:</b> Any Armor, Any Weapon </p><p>A Mandalorian warrior is made great by his or her Equipment, and each piece of Mandalorian Manufacture Equipment is unique in some way. </p><p><b>Effects:</b> Mandalorian Manufacture items are made with customization in mind; any character making a <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> check to repair or modify a Mandalorian Weapon or Mandalorian Armor gains a +5 <a href=\"https://swse.fandom.com/wiki/Equipment\" title=\"Equipment\">Equipment</a> bonus on the check. </p><p>However, Mandalorian technology is often based on the designs of other cultures, causing some unusual interaction between technologies; if a Mandalorian Manufacture item is disabled, all of the <a href=\"https://swse.fandom.com/wiki/Weapon_and_Armor_Accessories\" title=\"Weapon and Armor Accessories\">Weapon and Armor Accessories</a> to that item are destroyed (and must be purchased anew, not merely repaired). </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "??",
+        "key": "cost"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "itemMod"
+      },
+      {
+        "mode": 2,
+        "value": "Any character making a Mechanics check to repair or modify a Mandalorian Weapon or Mandalorian Armor gains a +5 Equipment bonus on the check.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": "If a Mandalorian Manufacture item is disabled, all of the Weapon and Armor Accessories to that item are destroyed (and must be purchased anew, not merely repaired).",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": "Mandalorian",
+        "key": "prefix"
+      },
+      {
+        "mode": 2,
+        "value": "",
+        "key": "suffix"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "hasItemOwner": false,
+    "subtype": "General Templates",
+    "prerequisite": {
+      "children": [
+        {
+          "children": [
+            {
+              "text": "Any Armor, Any Weapon",
+              "requirement": "armor",
+              "type": "TYPE"
+            },
+            {
+              "text": "Any Armor, Any Weapon",
+              "requirement": "weapon",
+              "type": "TYPE"
+            }
+          ],
+          "count": 1,
+          "text": "Any Armor, Any Weapon",
+          "type": "OR"
+        }
+      ],
+      "text": ", and (Any Armor, Any Weapon)",
+      "type": "AND"
+    },
+    "cost": "??"
+  },
+  "name": "Mandalorian General Template",
+  "flags": {},
+  "type": "template",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.2",
+    "createdTime": 1729096741571,
+    "modifiedTime": 1729096741571,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "gBDtihdjxVHTwF1x",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!gBDtihdjxVHTwF1x"
+}

@@ -1,0 +1,63 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "As a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a>, you can designate one ally and make a <a href=\"https://swse.fandom.com/wiki/Persuasion\" title=\"Persuasion\">Persuasion</a> check, comparing the result against the <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a> of all enemies in your line of sight who can hear and understand you. If your check result equals or exceeds a target's <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a>, that target cannot attack the ally you designated until the beginning of your next turn.<br><br>Characters that use this Talent or the <a href=\"https://swse.fandom.com/wiki/Draw_Fire\" class=\"mw-redirect\" title=\"Draw Fire\"><b>Draw Fire</b></a> Talent cannot be targeted by or benefit from this Talent. You may not benefit from this Talent at the same time as the <a href=\"https://swse.fandom.com/wiki/Misplaced_Loyalty\" class=\"mw-redirect\" title=\"Misplaced Loyalty\"><b>Misplaced Loyalty</b></a> Talent.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Double Agent talent",
+      "requirement": "Double Agent",
+      "type": "TALENT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Noble Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Noble Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Collaborator Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Collaborator_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Clone Wars Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Protection",
+  "flags": {},
+  "type": "talent",
+  "folder": "V4hZrMsPnYzmRZ1x",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385303508,
+    "modifiedTime": 1734385303508,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "dY2JBPFnTQU4Dai3",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!dY2JBPFnTQU4Dai3"
+}

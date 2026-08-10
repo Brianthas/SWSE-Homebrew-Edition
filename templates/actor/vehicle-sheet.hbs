@@ -18,7 +18,6 @@
             <a class="item" data-tab="stations">Stations</a>
             <a class="item" data-tab="cargo">Cargo</a>
             <a class="item" data-tab="traits">Traits</a>
-            <a class="item" data-tab="modes">Modes</a>
             <a class="item" data-tab="changes">Changes</a>
             <a class="item" data-tab="description">Notes</a>
             <a class="item" data-tab="settings">Settings</a>
@@ -61,8 +60,13 @@
                             {{> 'systems/swse/templates/actor/parts/actor-defenses.hbs'}}
                         </div>
                     </div>
+                    <!-- Attacks gets its own full-width row: sharing a row with Skills squeezed weapon
+                         names/fire-mode dropdowns down to half the window width and truncated them
+                         badly (this panel is the same one the character sheet gives full width). -->
                     <div class="flex flex-row">
                         {{> 'systems/swse/templates/actor/parts/actor-weapon-armor-summary.hbs'}}
+                    </div>
+                    <div class="flex flex-row">
                         {{> 'systems/swse/templates/actor/parts/skills/actor-skills.hbs' disableTrained=true disableBonus=true}}
                     </div>
                 </div>
@@ -83,7 +87,33 @@
 
 
             <div class="tab changes" data-group="primary" data-tab="changes">
-                {{> 'systems/swse/templates/change/change-list.hbs' changes=actor.changes inheritedChanges=actor.inheritedChanges modes=modes changepath='system.changes'}}
+                <h2><label class="resource-label">Changes</label></h2>
+                {{> 'systems/swse/templates/change/change-list.hbs' changes=actor.changes inheritedChanges=actor.inheritedChanges modes=modes changepath='system.changes' knownAttributeKeys=knownAttributeKeys}}
+
+                <div class="modes-section">
+                    <h2><label class="resource-label">Modes
+                        <a class="control" data-action="effect-control" data-type="add-mode" title="Add Mode"><i class="far fa-plus-square"></i></a>
+                    </label></h2>
+                    <ol class="items-list">
+                        {{#each actor.effects as |mode id|}}
+                            {{#unless mode.flags.swse.itemModifier}}
+                                <li class="item draggable effect{{#if mode.isDisabled}} disabled{{/if}}" data-effect-id="{{mode._id}}" data-uuid="{{mode.uuid}}">
+                                    <div class="flexrow">
+                                        <div class="item-image"><img src="{{mode.img}}" title="{{mode.name}}" width="24" height="24"/>
+                                        </div>
+                                        <h4 class="item-name">{{mode.name}}</h4>
+                                        <div>{{#if mode.hasLinks}}<i class="fas fa-link" title="Has Links"></i>{{/if}}</div>
+                                        <div class="item-controls">
+                                            <input type="checkbox" {{#unless mode.disabled}}checked{{/unless}} data-type="disable" data-action="effect-control" data-effect-id="{{mode._id}}">
+                                            <a data-type="view" data-action="effect-control" data-effect-id="{{mode._id}}" class="item-control" title="Edit Item"><i class="fas fa-edit"></i></a>
+                                            <a data-type="delete" data-action="effect-control" data-effect-id="{{mode._id}}" class="item-control" title="Delete Item"><i class="fas fa-trash"></i></a>
+                                        </div>
+                                    </div>
+                                </li>
+                            {{/unless}}
+                        {{/each}}
+                    </ol>
+                </div>
             </div>
 
             <div class="tab settings" data-group="primary" data-tab="settings">
@@ -92,32 +122,6 @@
                         {{> 'systems/swse/templates/settings/setting.hbs' setting=setting id=id}}
                     {{/each}}
                 </div>
-            </div>
-
-            <div class="tab modes" data-group="primary" data-tab="modes">
-                <div class="section-header flexrow">
-                    <div class="entry"></div>
-                    <div class="section-header-controls">
-                        <a class="control" data-action="effect-control" data-type="add-mode"><i class="far fa-plus-square"></i></a>
-                    </div>
-                </div>
-                <ol class="items-list">
-                    {{#each actor.effects as |mode id|}}
-                        {{#unless mode.flags.swse.itemModifier}}
-                            <li class="item flexrow draggable effect{{#if mode.isDisabled}} disabled{{/if}}" data-effect-id="{{mode._id}}" data-uuid="{{mode.uuid}}">
-                                <div class="item-image"><img src="{{mode.img}}" title="{{mode.name}}" width="24" height="24"/>
-                                </div>
-                                <h4 class="item-name">{{mode.name}}</h4>
-                                <div>{{#if mode.hasLinks}}<i class="fas fa-link" title="Has Links"></i>{{/if}}</div>
-                                <div class="item-controls">
-                                    <input type="checkbox" {{#unless mode.disabled}}checked{{/unless}} data-type="disable" data-action="effect-control" data-effect-id="{{mode._id}}">
-                                    <a data-type="view" data-action="effect-control" data-effect-id="{{mode._id}}" class="item-control" title="Edit Item"><i class="fas fa-edit"></i></a>
-                                    <a data-type="delete" data-action="effect-control" data-effect-id="{{mode._id}}" class="item-control" title="Delete Item"><i class="fas fa-trash"></i></a>
-                                </div>
-                            </li>
-                        {{/unless}}
-                    {{/each}}
-                </ol>
             </div>
 
 
@@ -133,7 +137,6 @@
                 <div class="grid-2col">
                     <div>
                         {{> 'systems/swse/templates/actor/parts/item-list.hbs' container="uninstalled" label="Uninstalled" items=actor.uninstalled draggable=true delete="always"}}
-                        {{> 'systems/swse/templates/actor/parts/item-list.hbs' container="ammunition" label="Ammunition" items=actor.ammunition draggable=true delete="always" quantity=true}}
                         {{> 'systems/swse/templates/actor/parts/item-list.hbs' container="templates" label="Templates" items=actor.templates draggable=true delete="always"}}
                     </div>
                     <div>
@@ -160,7 +163,7 @@
 
             {{!-- Owned Traits Tab --}}
             <div class="tab items" data-group="primary" data-tab="traits">
-                {{> 'systems/swse/templates/actor/parts/item-list.hbs' bigLabel="Traits" compendiumFilter="-type:trait" container="items-list" fields= (arr "Source" "Prerequisites") items=actor.traits draggable=false quantity=false delete="unSupplied" overrideDelete=actor.system.ignorePrerequisites description="expandable" controls='<button type="button" class="flex-0" style="flex-basis:180px" data-action="gm-bonus">Add GM Bonus</button>'}}
+                {{> 'systems/swse/templates/actor/parts/item-list.hbs' bigLabel="Traits" compendiumFilter="-type:trait" container="items-list" fields= (arr "Source" "Prerequisites") items=actor.traits draggable=false quantity=false delete="unSupplied" overrideDelete=actor.system.settings.ignorePrerequisites description="expandable" toggles=actor.system.toggles}}
 
             </div>
         </section>

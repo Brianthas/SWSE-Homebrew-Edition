@@ -1,0 +1,64 @@
+{
+  "name": "Staff",
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Staff.webp",
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Homebrew Weapon (tovec.wikidot.com/episode-vii)</i></p><p>1d6/1d6 as a double weapon, or 1d8 wielded two-handed (double-weapon dual-attack not yet mechanically implemented; base damage set to the two-handed value).</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "two handed",
+        "key": "grip"
+      }
+    ],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "0",
+    "weight": "",
+    "availability": "",
+    "size": "Medium",
+    "type": "",
+    "subtype": "Simple Melee Weapons",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "kitSlotCost": 1,
+    "damageDie": "1d8",
+    "damageType": "Physical"
+  },
+  "effects": [],
+  "_id": "wip3jkJ8XQKxP23P",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786054832699,
+    "modifiedTime": 1786054832699,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!wip3jkJ8XQKxP23P"
+}

@@ -1,0 +1,161 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode"
+        }
+      },
+      "statuses": [],
+      "disabled": false,
+      "name": "Single-Shot",
+      "_id": "PEEcsPbIgpFnvOVB",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513537,
+        "modifiedTime": 1786051513537,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!9iy5wDS2fRq8ugPP.PEEcsPbIgpFnvOVB"
+    },
+    {
+      "flags": {
+        "swse": {}
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Stun",
+      "_id": "Jna8pTODbTpwMd6X",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "3d8",
+            "key": "damage",
+            "priority": null,
+            "type": "override",
+            "phase": "initial"
+          },
+          {
+            "value": "Stun",
+            "key": "damageType",
+            "priority": null,
+            "type": "override",
+            "phase": "initial"
+          }
+        ]
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513537,
+        "modifiedTime": 1786051513537,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!9iy5wDS2fRq8ugPP.Jna8pTODbTpwMd6X"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Force_Unleashed_Campaign_Guide\" title=\"Star Wars Saga Edition Force Unleashed Campaign Guide\">Star Wars Saga Edition Force Unleashed Campaign Guide</a></i> </p><p>The Stokhli Spray Stick is a hunting weapon designed to bring down a target without killing it. The Stokhli Spray Stick is one of the few long-range <a href=\"https://swse.fandom.com/wiki/Stun\" class=\"mw-redirect\" title=\"Stun\">Stun</a> weapons in the galaxy, and high demand for the weapon has driven its price up to match. The Stokhli Spray Stick fires a fine mist that coalesces into the form of a sticky webbing that wraps up its target as a <a href=\"https://swse.fandom.com/wiki/Net\" title=\"Net\">Net</a> does. </p><p>When the Stokhli Spray Stick's webbing strikes a target, it also discharges a stun bolt that can render some of the toughest targets unconscious. Any target struck by a Stokhli Spray Stick takes 3d8 points of <a href=\"https://swse.fandom.com/wiki/Stun\" class=\"mw-redirect\" title=\"Stun\">Stun</a> damage; additionally, the Stokhli Spray Stick's webbing functions as a <a href=\"https://swse.fandom.com/wiki/Net\" title=\"Net\">Net</a>, allowing the attacker to initiate a <a href=\"https://swse.fandom.com/wiki/Grab\" title=\"Grab\">Grab</a> or <a href=\"https://swse.fandom.com/wiki/Grapple\" title=\"Grapple\">Grapple</a> on the target at range. </p><p>A Stokhli Spray Stick requires canisters of spraymist to operate. After 80 shots, the canister must be replaced, and each canister costs 100 credits. </p><p><b>Inaccurate:</b>&nbsp;This weapon cannot fire at targets at Long&nbsp;<a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a>. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "14,000",
+    "weight": "4 Kilograms",
+    "availability": "Restricted",
+    "size": "Medium",
+    "type": "",
+    "subtype": "Rifles",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageType": "Energy"
+  },
+  "name": "Stokhli Spray Stick",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Stokhli_Spray_Stick.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513537,
+    "modifiedTime": 1786051513590,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "9iy5wDS2fRq8ugPP",
+  "_key": "!items!9iy5wDS2fRq8ugPP"
+}

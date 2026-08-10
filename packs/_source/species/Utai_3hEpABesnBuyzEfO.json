@@ -1,0 +1,142 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Threats_of_the_Galaxy\" title=\"Star Wars Saga Edition Threats of the Galaxy\">Star Wars Saga Edition Threats of the Galaxy</a></i></p><p>An ancient race of diminutive&nbsp;humanoids&nbsp;evolving on the&nbsp;Outer Rim planet of&nbsp;<a href=\"https://swse.fandom.com/wiki/Utapau\" title=\"Utapau\">Utapau</a>, the Utai make their homes in tunnels and caves amid the sinkholes that pockmarked their homeworld, colonizing them long before the surface dwelling <a href=\"https://swse.fandom.com/wiki/Pau%27ans\" class=\"mw-redirect\" title=\"Pau'ans\">Pau'ans</a> were forced to take refuge in the sinkholes after&nbsp;hyperwinds&nbsp;made life on the surface unbearable. Working together, the Utai allowed the <a href=\"https://swse.fandom.com/wiki/Pau%27ans\" class=\"mw-redirect\" title=\"Pau'ans\">Pau'ans</a> to take the lead in all societal matters, although the Utai make up more than seventy percent of the population on <a href=\"https://swse.fandom.com/wiki/Utapau\" title=\"Utapau\">Utapau</a>. Introducing the Utai to wind power, the <a href=\"https://swse.fandom.com/wiki/Pau%27ans\" class=\"mw-redirect\" title=\"Pau'ans\">Pau'ans</a> took over governmental work in the sinkholes and relegated the Utai to a labor class. </p><p>Despite their role as laborers in Utapaun society, the Utai are not mistreated and prefer their worker status. Many Utai work as&nbsp;<a href=\"https://swse.fandom.com/wiki/Varactyl\" title=\"Varactyl\">Varactyl</a>&nbsp;wranglers and&nbsp;<a href=\"https://swse.fandom.com/wiki/Dactillion\" title=\"Dactillion\">Dactillion</a>&nbsp;tamers, as they possess an innate ability to commune with animals. While Utai do not have a seat on the&nbsp;Utapaun Committee, they are represented by their city's local&nbsp;Master of Port Administration, a <a href=\"https://swse.fandom.com/wiki/Pau%27an\" title=\"Pau'an\">Pau'an</a>, and their needs are generally met. </p><h3><span class=\"mw-headline\" id=\"Utai_Characteristics\">Utai Characteristics</span></h3><p><b>Personality:</b> Most Utai are content in life, enjoying a simple life of work and peace. Utai are highly empathetic to animals, and some are said to have the ability to communicate with them. The few Utai that yearn for more in their lives sometimes find work off-world as animal handlers and beast wardens. </p><p><b>Physical Description:</b> Generally short and chubby, the Utai are pale-skinned and hairless, possessing large, oblong heads which slope backwards. Two glassy black&nbsp;eyes&nbsp;protrude from thick stalks on the Utai's face, which is otherwise unremarkable, aside from a small, puckered mouth. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Utai age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-6 Years </td> \n   <td>7-10 Years </td> \n   <td>11-35 Years </td> \n   <td>36-47 Years </td> \n   <td>48-54 Years </td> \n   <td>55+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The Utai reside on <a href=\"https://swse.fandom.com/wiki/Utapau\" title=\"Utapau\">Utapau</a>, a sinkhole planet filled with fissures and caves that they share with their <a href=\"https://swse.fandom.com/wiki/Pau%27an\" title=\"Pau'an\">Pau'an</a> neighbors. </p><p><b>Languages:</b> Utai learn Utapese, a language shared by the <a href=\"https://swse.fandom.com/wiki/Pau%27ans\" class=\"mw-redirect\" title=\"Pau'ans\">Pau'ans</a> for convenience; a rare few that work in starports also tend to learn a small amount of Basic. </p><p><b>Example Names:</b> Senin Vant, Muerdo, Raddu Mokeur, Sorn Ag, Sven Son. </p><p><b>Adventurers:</b> Utai rarely leave their homes. The few that do, do so in matters of necessity for <a href=\"https://swse.fandom.com/wiki/Utapau\" title=\"Utapau\">Utapau</a>. Utai heroes typically become <a href=\"https://swse.fandom.com/wiki/Scouts\" class=\"mw-redirect\" title=\"Scouts\">Scouts</a> due to their empathetic nature, but that nature could also call an Utai to the path of a <a href=\"https://swse.fandom.com/wiki/Jedi\" title=\"Jedi\">Jedi</a>. </p><h3><span class=\"mw-headline\" id=\"Utai_Species_Traits\">Utai Species Traits</span></h3><p>Utai share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Small",
+        "type": "trait"
+      },
+      {
+        "name": "Animal Handler",
+        "type": "trait"
+      },
+      {
+        "name": "Cooperative",
+        "type": "trait"
+      },
+      {
+        "name": "Low-Light Vision",
+        "type": "trait"
+      },
+      {
+        "name": "Utai",
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "47",
+          "low": "36",
+          "text": "36-47",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "35",
+          "low": "11",
+          "text": "11-35",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "55",
+          "text": "55+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "6",
+          "low": "1",
+          "text": "1-6",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "54",
+          "low": "48",
+          "text": "48-54",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "10",
+          "low": "7",
+          "text": "7-10",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Small"
+      },
+      {
+        "value": "Animal Handler"
+      },
+      {
+        "value": "Cooperative"
+      },
+      {
+        "value": "Low-Light Vision"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Utai"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Utai",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535567644,
+    "modifiedTime": 1736535567644,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "3hEpABesnBuyzEfO",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!3hEpABesnBuyzEfO"
+}

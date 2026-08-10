@@ -1,0 +1,67 @@
+{
+  "img": "systems/swse/icon/feat/Impersonate.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You can alter your appearance to resemble a specific person.</p><p><b>Prerequisites:</b> Shapeshift Species Trait, <a href=\"https://swse.fandom.com/wiki/Skill_Focus\" title=\"Skill Focus\">Skill Focus (Deception)</a></p><p><b>Effect:</b> You can make a <a href=\"https://swse.fandom.com/wiki/Deception\" title=\"Deception\">Deception</a> check to alter your features to that of a specific person. This Feat also allows you to change your voice to match the target's. You always treat impersonating a person as a Moderate Deception.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Shapeshift trait",
+          "requirement": "Shapeshift",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Skill Focus (Deception)",
+          "requirement": "Skill Focus (Deception)",
+          "type": "FEAT"
+        }
+      ],
+      "text": "Shapeshift trait, and Skill Focus (Deception)",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Scum and Villainy",
+    "cost": "0"
+  },
+  "name": "Impersonate",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479027369,
+    "modifiedTime": 1761479027369,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "RjM46WSU85nOzmse",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!RjM46WSU85nOzmse"
+}

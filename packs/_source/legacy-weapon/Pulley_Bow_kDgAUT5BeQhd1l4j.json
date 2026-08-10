@@ -1,0 +1,107 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode"
+        }
+      },
+      "statuses": [],
+      "disabled": false,
+      "name": "Single-Shot",
+      "_id": "KmIV8V6p7IEzJd5m",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513540,
+        "modifiedTime": 1786051513540,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!kDgAUT5BeQhd1l4j.KmIV8V6p7IEzJd5m"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<table style=\"width:100%; margin-top:2em; border:2px solid #999; font-size:105%; text-align:center; background:#00008B;\"> \n <tbody>\n  <tr> \n   <td><i><b>This <a href=\"https://swse.fandom.com/wiki/Homebrew_Content\" title=\"Homebrew Content\">Homebrew Content</a> has been <a href=\"https://swse.fandom.com/wiki/Category:Tested\" title=\"Category:Tested\">Tested</a> per the <a href=\"https://swse.fandom.com/wiki/Category:Untested\" title=\"Category:Untested\">Untested</a> guidelines. Whether or not it can be used is, as always, the prerogative of the Gamemaster.</b></i> </td>\n  </tr>\n </tbody>\n</table><p><i>Homebrew Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Clone_Wars_Saga_Edition_Fan_Sourcebook\" title=\"Clone Wars Saga Edition Fan Sourcebook\">Clone Wars Saga Edition Fan Sourcebook</a>&nbsp;- Equipment</i> </p><p>This archaic weapon was a mainstay with <a href=\"https://swse.fandom.com/wiki/Sakiyan\" title=\"Sakiyan\">Sakiyan</a> hunters and enthusiasts. It functions just like a typical <a href=\"https://swse.fandom.com/wiki/Bow\" title=\"Bow\">Bow</a> but it utilizes a series of pulleys and cams that increase its range and overall force. This weapon uses double the values of the Simple Weapon <a href=\"https://swse.fandom.com/wiki/Ranges\" class=\"mw-redirect\" title=\"Ranges\">Ranges</a>. </p><p>The wielder's <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> modifier applies to damage dealt with a Pulley Bow. A Pulley Bow only holds a single arrow at a time, but can be reloaded as a <a href=\"https://swse.fandom.com/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a>. A quiver of 10 arrows costs 20 credits, and weighs 0.8 kg. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "2,000",
+    "weight": "2 Kilograms",
+    "availability": "Rare",
+    "size": "Large",
+    "type": "",
+    "subtype": "Simple Ranged Weapons",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "1d8",
+    "damageType": "Piercing"
+  },
+  "name": "Pulley Bow",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Pulley_Bow.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513540,
+    "modifiedTime": 1786051513591,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "kDgAUT5BeQhd1l4j",
+  "_key": "!items!kDgAUT5BeQhd1l4j"
+}

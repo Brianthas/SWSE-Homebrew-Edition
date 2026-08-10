@@ -1,0 +1,55 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "The Beast can kick up a huge cloud when in dusty, dirty, or sandy terrain. Any square the beast passes through, as well as any adjacent squares, provides Concealment until the end of the Beast's next turn. The Beast can remain stationary, but it must expend a Move Action to produce the effect. Make an attack roll (1d20+5) against the Fortitude Defense of all targets within the cloud. If the attack is successful, the targets are Blinded for as long as they remain in the cloud.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "The Beast can kick up a huge cloud when in dusty, dirty, or sandy terrain. Any square the beast passes through, as well as any adjacent squares, provides Concealment until the end of the Beast's next turn. The Beast can remain stationary, but it must expend a Move Action to produce the effect. Make an attack roll (1d20+5) against the Fortitude Defense of all targets within the cloud. If the attack is successful, the targets are Blinded for as long as they remain in the cloud.",
+        "key": "special"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "prerequisite": {
+      "text": "Undertow Species Type",
+      "requirement": "Undertow",
+      "type": "SPECIES_TYPE"
+    },
+    "cost": "0"
+  },
+  "name": "Dustball",
+  "flags": {},
+  "type": "beastQuality",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749299111351,
+    "modifiedTime": 1749299111351,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "0oSkxHd9NsAmWBWq",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!0oSkxHd9NsAmWBWq"
+}

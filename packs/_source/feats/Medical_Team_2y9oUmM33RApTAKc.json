@@ -1,0 +1,63 @@
+{
+  "img": "systems/swse/icon/feat/Medical_Team.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_at_War\" title=\"Star Wars Saga Edition Galaxy at War\">Star Wars Saga Edition Galaxy at War</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a>, <a href=\"https://swse.fandom.com/wiki/Team_Feats\" class=\"mw-redirect\" title=\"Team Feats\">Team Feats</a></i></p><p>You and your allies know the value of keeping soldiers alive and perform as a cohesive healing unit.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in <a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a></p><p><b>Effect:</b> You gain a +3 competence bonus on <a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a> checks. At the time you make a check, for each ally within 12 squares of you who also has this Feat, the competence bonus increases by +1 (to a maximum of +7).</p><p>Additionally, when you use the <a href=\"https://swse.fandom.com/wiki/Aid_Another\" title=\"Aid Another\">Aid Another</a> Action to assist an ally who has this Feat with a <a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a> check to restore Hit Points, your ally restores an extra 4 Hit Points to the target.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Trained in Treat Injury",
+      "requirement": "Treat Injury",
+      "type": "TRAINED SKILL"
+    },
+    "categories": [
+      {
+        "value": "Technician Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Team Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Technician Bonus Feats",
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Galaxy at War",
+    "cost": "0"
+  },
+  "name": "Medical Team",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479027930,
+    "modifiedTime": 1761479027930,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "2y9oUmM33RApTAKc",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!2y9oUmM33RApTAKc"
+}

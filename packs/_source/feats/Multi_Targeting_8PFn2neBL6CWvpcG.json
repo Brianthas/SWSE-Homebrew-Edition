@@ -1,0 +1,67 @@
+{
+  "img": "systems/swse/icon/feat/Multi-Targeting.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scavenger%27s_Guide_to_Droids\" title=\"Star Wars Saga Edition Scavenger's Guide to Droids\">Star Wars Saga Edition Scavenger's Guide to Droids</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>Your targeting system allows you to track multiple targets over time, negating <a href=\"https://swse.fandom.com/wiki/Cover\" title=\"Cover\">Cover</a> bonuses.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a>, <a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a> 13</p><p><b>Effect:</b> You can use <a href=\"https://swse.fandom.com/wiki/Swift_Actions\" title=\"Swift Actions\">Swift Actions</a> across more than one round to <a href=\"https://swse.fandom.com/wiki/Aim\" title=\"Aim\">Aim</a> at a target with a weapon with which you are proficient. You can attack different targets prior to the completion of your <a href=\"https://swse.fandom.com/wiki/Aim\" title=\"Aim\">Aim</a> Action. If the subject of your <a href=\"https://swse.fandom.com/wiki/Aim\" title=\"Aim\">Aim</a> is out of your line of sight for any reason, you lose your <a href=\"https://swse.fandom.com/wiki/Aim\" title=\"Aim\">Aim</a> and must start again.</p><p><b>Normal:</b> You must normally use two consecutive <a href=\"https://swse.fandom.com/wiki/Swift_Actions\" title=\"Swift Actions\">Swift Actions</a> in the same round to <a href=\"https://swse.fandom.com/wiki/Aim\" title=\"Aim\">Aim</a>.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Droid",
+          "requirement": "Is a droid",
+          "type": "SPECIAL"
+        },
+        {
+          "text": "Intelligence 13",
+          "requirement": "Intelligence 13",
+          "type": "ATTRIBUTE"
+        }
+      ],
+      "text": "Droid, and Intelligence 13",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Scavenger's Guide to Droids",
+    "cost": "0"
+  },
+  "name": "Multi-Targeting",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479028074,
+    "modifiedTime": 1761479028074,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "8PFn2neBL6CWvpcG",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!8PFn2neBL6CWvpcG"
+}

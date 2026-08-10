@@ -1,0 +1,73 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "10d6",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards, Poisons",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A creature is exposed to Trihexalon.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round at the start of the target's turn, until the Trihexalon is treated.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Treat Injury (DC 30; Requires Medical Kit): The character treats the Trihexalon.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: Because Trihexalon causes disintegration of biological matter, a creature that takes full damage from Trihexalon loses any limb in contact with the Poison (roll randomly if the contact is not otherwise determined).",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Contact",
+          "Inhaled",
+          "Poison"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_of_Intrigue\" title=\"Star Wars Saga Edition Galaxy of Intrigue\">Star Wars Saga Edition Galaxy of Intrigue</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a>, <a href=\"https://swse.fandom.com/wiki/Poisons\" title=\"Poisons\">Poisons</a></i> </p><p>Also known as Dragon's Breath or Hex, this potent biological agent comes in a powder form and causes massive breakdown in organic material. </p><h2><span id=\"Trihexalon_Statistics_.28CL_15.29\"></span><span class=\"mw-headline\" id=\"Trihexalon_Statistics_(CL_15)\">Trihexalon Statistics (CL 15)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Contact, Inhaled, Poison </p><p><b>Trigger:</b> A creature is exposed to Trihexalon. </p><p><b>Attack:</b> +20 vs <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> </p><p><b>Recurrence:</b> Each round at the start of the target's turn, until the Trihexalon is treated. </p><p><b>Suggested&nbsp;<a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b>&nbsp;The following are suggested&nbsp;<a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>&nbsp;for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a> (DC 30; Requires <a href=\"https://swse.fandom.com/wiki/Medical_Kit\" title=\"Medical Kit\">Medical Kit</a>):</b> The character treats the Trihexalon.</li>\n</ul><p><b>Special:</b> Because Trihexalon causes disintegration of biological matter, a creature that takes full damage from Trihexalon loses any limb in contact with the <a href=\"https://swse.fandom.com/wiki/Poison\" class=\"mw-redirect\" title=\"Poison\">Poison</a> (roll randomly if the contact is not otherwise determined). </p>",
+    "source": "Star Wars Saga Edition Galaxy of Intrigue",
+    "cost": "0"
+  },
+  "name": "Trihexalon",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244851,
+    "modifiedTime": 1749263244851,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "AZfzH62X825wzGzG",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!AZfzH62X825wzGzG"
+}

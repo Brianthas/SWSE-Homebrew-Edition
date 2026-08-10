@@ -1,0 +1,87 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "The strength of your personality is incomparable. Once per encounter, as a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a>, you may use your <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a> as your <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>. This will also affect <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a> until your next turn.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:in: Untested, Homebrew Content, Talent Trees, Galactic Senator Talent Trees Galactic Senator Talent Tree Edit Edit source History Talk (0) This Homebrew Content has not been reviewed in a meaningful manner. If you wish to review this content yourself, then see Untested for more details. Homebrew Reference Book: New Republic Campaign Guide You are skilled with words and moving the minds of those around you to vote your way in the Senate. Your influence cannot be underestimated. Contents 1 Diplomatic Poise 2 Living Memory 3 Master of Will 4 One Word, Two Meanings 5 When the Veils Move 6 Willful Senator Diplomatic Poise[ ] Your calm and collected character are unflappable in any discussion over issues. Once per encounter, as a Reaction, you add a +5 competence bonus to your Will Defense. Living Memory[ ] Your recall of facts and events is photographic. Choose a specific Knowledge skill. With that skill, you may reroll those skill checks, keeping the better of the two results. This Talent may be taken multiple times, but with a different Knowledge skill each time. Master of Will[ ] The force of your personality is unparalleled. In any contested Deception, Perception, or Persuasion skill check, any ties are automatically given to the player with this Talent. If both players have this Talent, whoever has the highest Charisma modifier will win. If those are the same, resolve the skill check normally. One Word, Two Meanings[ ] You can use your Deception check modifier instead of your Persuasion modifier when making Persuasion checks. You are considered Trained in the Persuasion skill. If you are entitled to an Persuasion check reroll, you may reroll your Deception check instead (Subject to the same circumstances and limitations). When the Veils Move[ ] Your ability to perceive motives and intentions is very accurate. If combat is about to begin, make a DC 20 Perception check. If successful, you gain a Swift Action before Initiative is rolled. You are also not considered Flat-Footed at the beginning of combat. Even if you fail the Perception check, you are still not Flat-Footed. Willful Senator[ ] Prerequisite: Diplomatic Poise The strength of your personality is incomparable. Once per encounter, as a Reaction, you may use your Will Defense as your Fortitude Defense. This will also affect Damage Threshold until your next turn. Categories Categories: Untested Homebrew Content Talent Trees Galactic Senator Talent Trees Add category Cancel Save Community content is available under CC-BY-SA unless otherwise noted. More Fandoms Fantasy Sci-fi Star Wars",
+        "key": "skillReRoll"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Diplomatic Poise talent",
+      "requirement": "Diplomatic Poise",
+      "type": "TALENT"
+    },
+    "categories": [
+      {
+        "value": "Untested"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Galactic Senator Talent Trees"
+      },
+      {
+        "value": "Homebrew Content"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Untested",
+      "Galactic Senator Talent Trees",
+      "Homebrew Content"
+    ],
+    "isSupplied": false,
+    "talentTree": "Galactic Senator Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Galactic_Senator_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "New Republic Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Willful Senator",
+  "flags": {},
+  "type": "talent",
+  "folder": "V3mTp6VyAFy89F7j",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385305409,
+    "modifiedTime": 1734385305409,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "GeG1nHaxK2HKCWfj",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!GeG1nHaxK2HKCWfj"
+}

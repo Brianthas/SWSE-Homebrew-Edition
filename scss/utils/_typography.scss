@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Martel:wght@400;800&family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Roboto:wght@300;400;500&display=swap');
 
+// Homebrew: Orbitron for headers/display text (sci-fi/HUD feel), Roboto stays
+// for body text (already in use everywhere, no readability risk in swapping).
 $font-primary: 'Roboto', sans-serif;
 $font-secondary: 'Roboto', sans-serif;
+$font-display: 'Orbitron', sans-serif;

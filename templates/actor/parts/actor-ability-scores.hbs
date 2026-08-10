@@ -1,57 +1,64 @@
 {{!-- Ability Scores --}}
-<div class="ability-scores panel">
-    <div class="flex-row">
-        <div class="medium"></div>
-        {{#ifEquals actor.system.finalAttributeGenerationType "Semi-Manual"}}<div class="small small-header">Base Score</div>{{/ifEquals}}
-        <div class="small small-header">Score</div>
-        <div class="small small-header">Temp</div>
-        <div class="small small-header">Mod</div>
+<div class="ability-scores panel area-abilities">
+    <h1 class="top-label resource-label">Abilities</h1>
+    <div class="ability-strip">
+        {{#each actor.system.abilities as |attribute id|}}
+            {{#unless attribute.skip}}
+                <div class="ability-cell">
+                    <a class="ability-name rollable draggable" data-label="{{attribute.label}}"
+                       data-variable="@{{attribute.label}}ROLL" data-type="ability"
+                       title="Roll 1d20 + {{attribute.roll}}" data-roll="1d20 + {{attribute.roll}}">{{attribute.label}}</a>
+
+                    <div class="ability-mod" title="Modifier">{{numberFormat attribute.mod sign=true}}</div>
+
+                    <div class="ability-score">
+                        {{#ifContains ../actor.system.finalAttributeGenerationType (array "Semi-Manual" "Manual")}}
+                            <input type="number" value="{{attribute.base}}" placeholder="0"
+                                   name="system.abilities.{{id}}.base" title="Base Score"/>
+                        {{else}}
+                            <input type="number" value="{{attribute.value}}" placeholder="0" title="Score" disabled/>
+                        {{/ifContains}}
+                    </div>
+
+                    <div class="ability-temp">
+                        <input type="number" value="{{attribute.customBonus}}" placeholder="0"
+                               name="system.abilities.{{id}}.customBonus" title="Temporary / misc bonus"/>
+                    </div>
+                </div>
+            {{/unless}}
+        {{/each}}
     </div>
-    {{#each actor.system.abilities as |attribute id|}}
-        {{#unless attribute.skip}}
-            <div class="flex-row">
-                <div class="medium labeled-input" >
-                    <div class="input rollable draggable" data-label="{{attribute.label}}" data-variable="@{{attribute.label}}ROLL" data-type="ability"
-                         title="Roll 1d20 + {{attribute.roll}}"  data-roll="1d20 + {{attribute.roll}}">{{attribute.label}}</div>
-                </div>
-            {{#ifContains ../actor.system.finalAttributeGenerationType (array "Semi-Manual" "Manual")}}
-                <div class="small labeled-input">
-                    <input class="input" type="number" value="{{attribute.base}}"
-                           placeholder="0"  name="system.abilities.{{id}}.base"/>
-                </div>
-            {{/ifContains}}
-            {{#unlessContains ../actor.system.finalAttributeGenerationType (array "Manual")}}
-                <div class="small labeled-input">
-                    <input class="input" type="number" value="{{attribute.value}}"
-                           placeholder="0" disabled/>
-                </div>
-            {{/unlessContains}}
-                <div class="small labeled-input">
-                    <input class="input" type="number" value="{{attribute.customBonus}}"
-                           placeholder="" name="system.abilities.{{id}}.customBonus"/>
-                </div>
-                <div class="small labeled-input">
-                    <input class="input" type="text" value="{{attribute.mod}}"
-                           placeholder="" disabled/>
-                </div>
-            </div>
-        {{/unless}}
-    {{/each}}
+
+    <div class="field ability-bonus-choice">
+        <label for="abilityBonusChoice">Species Bonus (+2)</label>
+        <select id="abilityBonusChoice" name="system.abilityBonusChoice"
+                title="Homebrew: every character picks one ability to gain a +2 bonus to, on top of any fixed size adjustment.">
+            {{#select actor.system.abilityBonusChoice}}
+                <option value="">-</option>
+                <option value="str">Strength</option>
+                <option value="dex" {{#if actor.system.abilityBonusChoiceDexDisabled}}disabled{{/if}}>Dexterity</option>
+                <option value="con">Constitution</option>
+                <option value="int">Intelligence</option>
+                <option value="wis">Wisdom</option>
+                <option value="cha">Charisma</option>
+            {{/select}}
+        </select>
+    </div>
+
     {{#unless actor.system.lockAttributes}}
-        <div class="flex flex-row">
+        <div class="ability-actions">
             {{#ifEquals actor.system.finalAttributeGenerationType "Roll"}}
-                <div class="rollAbilities" title="Roll Abilities"><a><i class="fas fa-edit"></i></a></div>
+                <button type="button" class="rollAbilities" title="Roll Abilities"><i class="fas fa-dice"></i> Roll</button>
             {{/ifEquals}}
             {{#ifEquals actor.system.finalAttributeGenerationType "Standard Array"}}
-                <div class="assignStandardArray" title="Assign Ability Scores"><a><i class="fas fa-edit"></i></a></div>
+                <button type="button" class="assignStandardArray" title="Assign Ability Scores"><i class="fas fa-list-ol"></i> Assign</button>
             {{/ifEquals}}
             {{#ifEquals actor.system.finalAttributeGenerationType "Point Buy"}}
-                <div class="assignAttributePoints" title="Assign Ability Points"><a><i class="fas fa-edit"></i></a>
-                </div>
+                <button type="button" class="assignAttributePoints" title="Assign Ability Points"><i class="fas fa-calculator"></i> Point Buy</button>
             {{/ifEquals}}
             {{#unlessEquals actor.system.finalAttributeGenerationType "Manual"}}
                 {{#if actor.availableItems.[Ability Score Level Bonus]}}
-                    <button type="button" class="flex-0 editor" style="flex-basis:180px" data-action="level-up-bonus" title="Select Level Up Attribute Bonus for Level">Level Up Bonus</button>
+                    <button type="button" class="editor" data-action="level-up-bonus" title="Select Level Up Attribute Bonus for Level"><i class="fas fa-arrow-up"></i> Level Up Bonus</button>
                 {{/if}}
             {{/unlessEquals}}
         </div>

@@ -1,0 +1,113 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode"
+        }
+      },
+      "statuses": [],
+      "disabled": false,
+      "name": "Single-Shot",
+      "_id": "TfOQACH40comDmAu",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513490,
+        "modifiedTime": 1786051513490,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!bWrlV6VkKLgIVUi2.TfOQACH40comDmAu"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p>The projectile equivalent of a <a href=\"https://swse.fandom.com/wiki/Heavy_Blaster_Pistol\" title=\"Heavy Blaster Pistol\">Heavy Blaster Pistol</a>, the Heavy Slugthrower Pistol uses a larger round than a <a href=\"https://swse.fandom.com/wiki/Slugthrower_Pistol\" title=\"Slugthrower Pistol\">Slugthrower Pistol</a>, creating greater stopping power at the cost of increased recoil, which makes accurate firing of several shots in rapid succession a difficult prospect. </p><p>In spite of this lack of accuracy, the Heavy Slugthrower Pistol does provide a psychological advantage, both because of its large size as well as the loud report it makes when fired, something to be considered when dealing with a skittish group of unfriendly natives. </p><p>If you use the <a href=\"https://swse.fandom.com/wiki/Double_Attack\" title=\"Double Attack\">Double Attack</a>, <a href=\"https://swse.fandom.com/wiki/Triple_Attack\" title=\"Triple Attack\">Triple Attack</a>, or <a href=\"https://swse.fandom.com/wiki/Rapid_Shot\" title=\"Rapid Shot\">Rapid Shot</a> feats with a Heavy Slugthrower Pistol, you take an additional -1 penalty to attack rolls. A Heavy Slugthrower Pistol uses an ammo clip instead of a <a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a>. After 8 shots, the clip must be replaced. A clip costs 15 credits and weighs 0.1 kg. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "clip:8",
+        "key": "ammo"
+      }
+    ],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "400",
+    "weight": "2.1 Kilograms",
+    "availability": "Restricted",
+    "size": "Medium",
+    "type": "",
+    "subtype": "Pistols",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "2d8",
+    "damageType": "Piercing"
+  },
+  "name": "Heavy Slugthrower Pistol",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Heavy_Slugthrower_Pistol.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513490,
+    "modifiedTime": 1786051513576,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "bWrlV6VkKLgIVUi2",
+  "_key": "!items!bWrlV6VkKLgIVUi2"
+}

@@ -1,0 +1,113 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {}
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Stun",
+      "_id": "8xVuSk8TlcI6GcYG",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "2d8",
+            "key": "damage",
+            "priority": null,
+            "type": "override",
+            "phase": "initial"
+          },
+          {
+            "value": "Stun",
+            "key": "damageType",
+            "priority": null,
+            "type": "override",
+            "phase": "initial"
+          }
+        ]
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513512,
+        "modifiedTime": 1786051513512,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!s9v8aGiGv9cpCyoY.8xVuSk8TlcI6GcYG"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Force_Unleashed_Campaign_Guide\" title=\"Star Wars Saga Edition Force Unleashed Campaign Guide\">Star Wars Saga Edition Force Unleashed Campaign Guide</a></i> </p><p>A Neuronic Whip is a long, flexible cable connected to a power pack in a handle that delivers a stunning jolt on contact. Unlike a typical leather whip, the heavy cable can crack bones and break flesh, but it extremely unlikely to kill. As a result, the Neuronic Whip was very popular with slavers. </p><p>A target successfully hit by a Neuronic Whip takes normal <a href=\"https://swse.fandom.com/wiki/Stun\" class=\"mw-redirect\" title=\"Stun\">Stun</a> damage, plus 1d4 points of Slashing damage. Additionally, a Neuronic Whip increases the wielder's <a href=\"https://swse.fandom.com/wiki/Reach\" title=\"Reach\">Reach</a> by 1 square. </p><p>A Neuronic Whip requires an <a href=\"https://swse.fandom.com/wiki/Energy_Cell\" title=\"Energy Cell\">Energy Cell</a> to operate. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "500",
+    "weight": "0.5 Kilograms",
+    "availability": "Restricted",
+    "size": "Medium",
+    "type": "",
+    "subtype": "Exotic Melee Weapons",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageType": "Bludgeoning, Energy"
+  },
+  "name": "Neuronic Whip",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Neuronic_Whip.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513512,
+    "modifiedTime": 1786051513582,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "s9v8aGiGv9cpCyoY",
+  "_key": "!items!s9v8aGiGv9cpCyoY"
+}

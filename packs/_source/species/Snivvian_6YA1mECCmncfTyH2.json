@@ -1,0 +1,131 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i> </p><p> Snivvians are short, stocky humanoids whose hardships have produced some of the galaxy's best artists and authors. The Snivvian homeworld has extremely cold temperatures and long winters, forcing the Snivvians to live long periods of time in subterranean caverns. During those long days, Snivvians develop their artistic talents and sensibilities. Although technology would eventually lessen the need for this form of hibernation, Snivvians still feel the need- biologically and culturally- to continue the tradition.</p><p>Historically, Snivvians have withstood numerous hardships that they channel into their impressive artistic works. After gaining the ability to travel between the stars, the Snivvians attracted the brutal attention of <a href=\"https://swse.fandom.com/wiki/The_Thalassian_Slavers\" title=\"The Thalassian Slavers\">The Thalassian Slavers</a>. Snivvian culture was nearly destroyed before the Republic discovered the practice and stepped in to protect the Snivvians. This protection has been reduced during eras of warfare, but combined Republic and Snivvian forces remain sufficient to hold off lesser threats. </p><p>During <a href=\"https://swse.fandom.com/wiki/The_Old_Republic_Era\" class=\"mw-redirect\" title=\"The Old Republic Era\">The Old Republic Era</a>, the Snivvians were still rebuilding the damage done to their society by the slavers and other threats. They proceed with the intent to colonize other worlds. Many Snivvians travel throughout the galaxy, attempting to live the lives of the subjects of their future artistic works, even when it is dangerous. Snivvian enclaves made up of escaped slaves and refugees are scattered throughout the systems near their homeworld. </p><h3><span class=\"mw-headline\" id=\"Snivvian_Characteristics\">Snivvian Characteristics</span></h3><p><b>Personality:</b> Snivvians are insightful and gentle. They contemplate and seek out life lessons to incorporate into their art. However, not all follow artistic pursuits, though the exceptions are occasionally dangerous to Snivvian society. </p><p><b>Physical Description:</b> The short Snivvians have though skin, and sparse hair. They have a large, short snout, and large canines protruding from their lower jaw. Their thick skin protects them from harsh winters, and also aids them in warmer climates. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Snivvians age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-17 Years </td> \n   <td>18-49 Years </td> \n   <td>50-79 Years </td> \n   <td>80-105 Years </td> \n   <td>106+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The Outer Rim world of <a href=\"https://swse.fandom.com/wiki/Cadomai_Prime\" title=\"Cadomai Prime\">Cadomai Prime</a> is located near the Corporate Sector. It is a cold planet, with many subterranean caverns. </p><p><b>Languages:</b> Snivvians speak their own language, also called Snivvian. </p><p><b>Example Names:</b> Bakken, Dezzen, Dezirdna, Elinselor, Geezum, Marn Heirogryph, Nejet, Prinzan, Rachalt Hyst, Rincholar, Seerna, Snagletooth, Takeel, Thasca Knarr, Wiorkettle, Zereldspidar, Zutton. </p><p><b>Adventurers:</b> Snivvian adventurers are often <a href=\"https://swse.fandom.com/wiki/Scoundrels\" class=\"mw-redirect\" title=\"Scoundrels\">Scoundrels</a>, but can be of any <a href=\"https://swse.fandom.com/wiki/Heroic_Class\" class=\"mw-redirect\" title=\"Heroic Class\">Heroic Class</a>. They often <a href=\"https://swse.fandom.com/wiki/Multiclass\" class=\"mw-redirect\" title=\"Multiclass\">Multiclass</a> to broaden their experiences and knowledge. </p><h3><span class=\"mw-headline\" id=\"Snivvian_Species_Traits\">Snivvian Species Traits</span></h3><p>Snivvians share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Small",
+        "type": "trait"
+      },
+      {
+        "name": "Cold Resistance",
+        "type": "trait"
+      },
+      {
+        "name": "Observant",
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "106",
+          "text": "106+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "17",
+          "low": "12",
+          "text": "12-17",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "105",
+          "low": "80",
+          "text": "80-105",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "11",
+          "low": "1",
+          "text": "1-11",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "49",
+          "low": "18",
+          "text": "18-49",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "79",
+          "low": "50",
+          "text": "50-79",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Snivvians"
+      },
+      {
+        "value": "Small"
+      },
+      {
+        "value": "Cold Resistance"
+      },
+      {
+        "value": "Observant"
+      },
+      {
+        "value": "Species"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Snivvian",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535567266,
+    "modifiedTime": 1736535567266,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "6YA1mECCmncfTyH2",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!6YA1mECCmncfTyH2"
+}

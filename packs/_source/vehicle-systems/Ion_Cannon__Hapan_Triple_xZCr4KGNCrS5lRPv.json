@@ -1,0 +1,44 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Weapon Systems",
+    "changes": [],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><table class=\"wikitable\">\n <tbody>\n  <tr>\n   <th>ION CANNON</th>\n   <th>DAMAGE</th>\n   <th>EMPLACEMENT POINTS</th>\n   <th>AVAILABILITY</th>\n   <th>COST</th>\n  </tr>\n  <tr>\n   <td>Light</td>\n   <td>3d10x2 (<a href=\"https://swse.fandom.com/wiki/Ion\" class=\"mw-redirect\" title=\"Ion\">Ion</a>)</td>\n   <td>1</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Licensed\" class=\"mw-redirect\" title=\"Licensed\">Licensed</a></td>\n   <td>2000</td>\n  </tr>\n  <tr>\n   <td>Medium</td>\n   <td>5d10x2 (<a href=\"https://swse.fandom.com/wiki/Ion\" class=\"mw-redirect\" title=\"Ion\">Ion</a>)</td>\n   <td>2</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Restricted\" class=\"mw-redirect\" title=\"Restricted\">Restricted</a></td>\n   <td>3000</td>\n  </tr>\n  <tr>\n   <td>Heavy*</td>\n   <td>3d10x5 (<a href=\"https://swse.fandom.com/wiki/Ion\" class=\"mw-redirect\" title=\"Ion\">Ion</a>)</td>\n   <td>5</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Military\" class=\"mw-redirect\" title=\"Military\">Military</a></td>\n   <td>6000</td>\n  </tr>\n  <tr>\n   <td>Hapan Triple*</td>\n   <td>5d10x5 (<a href=\"https://swse.fandom.com/wiki/Ion\" class=\"mw-redirect\" title=\"Ion\">Ion</a>)</td>\n   <td>3</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Illegal\" class=\"mw-redirect\" title=\"Illegal\">Illegal</a></td>\n   <td>12000</td>\n  </tr>\n </tbody>\n</table><p><i>*This <a href=\"https://swse.fandom.com/wiki/Weapon_System\" class=\"mw-redirect\" title=\"Weapon System\">Weapon System</a> can only be mounted on a <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> of Colossal (Frigate) size or larger.</i></p><table class=\"wikitable\">\n <caption>\n  Ion Cannon Ranges\n </caption>\n <tbody>\n  <tr>\n   <th colspan=\"4\">RANGE BY CHARACTER SCALE</th>\n   <th></th>\n   <th colspan=\"4\"><p>RANGE BY STARSHIP SCALE</p></th>\n  </tr>\n  <tr>\n   <th>POINT-BLANK</th>\n   <th>SHORT</th>\n   <th>MEDIUM</th>\n   <th>LONG</th>\n   <th></th>\n   <th>POINT-BLANK</th>\n   <th>SHORT</th>\n   <th>MEDIUM</th>\n   <th>LONG</th>\n  </tr>\n  <tr>\n   <td>0-300 Squares</td>\n   <td>301-600 Squares</td>\n   <td>601-1,500 Squares</td>\n   <td>1,501-3,000 Squares</td>\n   <td></td>\n   <td>0-2 Squares</td>\n   <td>3-4 Squares</td>\n   <td>5-10 Squares</td>\n   <td>11-20 Squares</td>\n  </tr>\n </tbody>\n</table><p>Ion Cannons are generally viewed as defense armament, but they are quite common on pirate and military vessels. Ion Cannons deal <a href=\"https://swse.fandom.com/wiki/Ion\" class=\"mw-redirect\" title=\"Ion\">Ion</a> damage, as detailed in <a href=\"https://swse.fandom.com/wiki/Equipment\" title=\"Equipment\">Equipment</a>. Of Starship-mounted Ion Cannons, all but the smallest don't have a cyclic rate of fire high enough to allow <a href=\"https://swse.fandom.com/wiki/Autofire\" title=\"Autofire\">Autofire</a>, even when mounted in <a href=\"https://swse.fandom.com/wiki/Cannon,_Double/Quad\" title=\"Cannon, Double/Quad\">Cannon, Double/Quad</a> or <a href=\"https://swse.fandom.com/wiki/Fire-Linked\" class=\"mw-redirect\" title=\"Fire-Linked\">Fire-Linked</a> configurations.</p><h4><span class=\"mw-headline\" id=\"Hapan_Triple_Ion_Cannon\"><b>Hapan Triple Ion Cannon</b></span></h4><p>The Hapan Triple Ion Cannon is a special Capital Ship weapon that acts like a <a href=\"https://swse.fandom.com/wiki/Point-Defense_Weapon\" class=\"mw-redirect\" title=\"Point-Defense Weapon\">Point-Defense Weapon</a> (Using <a href=\"https://swse.fandom.com/wiki/Point-Defense\" title=\"Point-Defense\">Point-Defense</a> <a href=\"https://swse.fandom.com/wiki/Ranges\" class=\"mw-redirect\" title=\"Ranges\">Ranges</a> and taking no penalty for attacking ships of smaller than Colossal size). It is also capable of <a href=\"https://swse.fandom.com/wiki/Autofire\" title=\"Autofire\">Autofire</a> mode, but it may not make <a href=\"https://swse.fandom.com/wiki/Starship_Scale\" class=\"mw-redirect\" title=\"Starship Scale\">Starship Scale</a> <a href=\"https://swse.fandom.com/wiki/Area_Attacks\" title=\"Area Attacks\">Area Attacks</a>. Until the New Jedi Order era, Hapan Triple Ion Cannons are <a href=\"https://swse.fandom.com/wiki/Illegal\" class=\"mw-redirect\" title=\"Illegal\">Illegal</a> outside the Hapan Consortium, and the Hapans do not sell them to outsiders.</p>",
+    "cost": "12000",
+    "rangeStarshipMedium": "5-10 Squares",
+    "rangeStarshipShort": "3-4 Squares",
+    "rangeMedium": "601-1,500 Squares",
+    "rangeStarshipLong": "11-20 Squares",
+    "rangeStarshipPointBlank": "0-2 Squares",
+    "rangePointBlank": "0-300 Squares",
+    "damageType": "Ion",
+    "damage": "5d10x5",
+    "rangeShort": "301-600 Squares",
+    "emplacementPoints": "3",
+    "availability": "Illegal",
+    "rangeLong": "1,501-3,000 Squares"
+  },
+  "name": "Ion Cannon, Hapan Triple",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317392,
+    "modifiedTime": 1759848317392,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "xZCr4KGNCrS5lRPv",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!xZCr4KGNCrS5lRPv"
+}

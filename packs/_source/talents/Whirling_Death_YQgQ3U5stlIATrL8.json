@@ -1,0 +1,74 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You twirl your Weapon around you in a blur, creating a circle of death around you. Any enemy target that begins its turn adjacent to you takes damage equal to your <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> bonus. You must be wielding a Melee Weapon to be using this Talent.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Melee Smash talent",
+          "requirement": "Melee Smash",
+          "type": "TALENT"
+        },
+        {
+          "text": "Unrelenting Assault talent",
+          "requirement": "Unrelenting Assault",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Melee Smash talent, and Unrelenting Assault talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Elite Trooper Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Elite Trooper Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Melee Specialist Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Melee_Specialist_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Clone Wars Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Whirling Death",
+  "flags": {},
+  "type": "talent",
+  "folder": "A54XIhvQcFy4whrm",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385309244,
+    "modifiedTime": 1734385309244,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "YQgQ3U5stlIATrL8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!YQgQ3U5stlIATrL8"
+}

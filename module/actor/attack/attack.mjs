@@ -1,16 +1,16 @@
 import {UnarmedAttack} from "../unarmed-attack.mjs";
+import {CustomAttackItem} from "../custom-attack-item.mjs";
 import {getInheritableAttribute} from "../../attribute-helper.mjs";
 import {compareSizes, getSize} from "../size.mjs";
 import {
-    canFinesse,
     getFocusAttackBonuses,
     getPossibleProficiencies,
     getProficiencyBonus,
     getSpecializationDamageBonuses,
-    isFocus,
     isLightsaber,
     isMelee,
-    isRanged
+    isRanged,
+    isThrown
 } from "../attack-handler.mjs";
 import {generateArmorCheckPenalties} from "../armor-check-penalty.mjs";
 import SWSEActor from "../actor.mjs";
@@ -40,9 +40,14 @@ import SWSETemplate from "../../template/SWSETemplate.mjs";
 
 import {selectOption} from "../../common/helpers.mjs";
 import {getCrewByQuality} from "../crewDelegate.mjs";
+import {getActiveCombatToggleTerms} from "./combat-toggle.mjs";
 
 
 export const outOfRange = "out of range";
+
+// Homebrew: prefix marking an Attack's weaponId as a system.customAttacks entry rather than
+// a real embedded item's uuid (or the "Unarmed Attack" sentinel) — see custom-attack-item.mjs.
+export const CUSTOM_ATTACK_PREFIX = "CustomAttack:";
 
 
 /**
@@ -178,32 +183,6 @@ export class Attack {
         return escape(s);
     }
 
-//TODO this should reduce the current value of ammo, when it reaches 0, set the hidden item to "expended"  maybe just a suffix.
-    async reduceAmmunition(count = 1) {
-        if (!this.item || !this.item.ammunition?.hasAmmunition) {
-            return;
-        }
-
-        let ammoModifiers = getInheritableAttribute({entity: this.item, attributeKey: ["ammoUse", "ammoUseMultiplier"]})
-
-        const baseCounts = [count];
-        baseCounts.push(...ammoModifiers.filter(m => m.key === "ammoUse").map(m => parseInt(m.value)))
-        count = Math.max(...baseCounts);
-
-        for (const mod of ammoModifiers.filter(m => m.type === "ammoUseMultiplier")) {
-            count *= parseInt(mod.value, 10)
-        }
-
-        for (const ammo of this.item.ammunition.current) {
-            let response = await this.item.ammunition.decreaseAmmunition(ammo.type, count);
-
-            if (response.remaining === 0) {
-                await this.item.ammunition.ejectSpentAmmunition(ammo.type)
-            }
-        }
-    }
-
-
     getCached(key, fn) {
         if (!this.cache || this.cacheDisabled) {
             return fn();
@@ -299,8 +278,28 @@ export class Attack {
                 return new UnarmedAttack(actor);
             }
 
+            if (this.isCustomAttack) {
+                const config = (actor.system.customAttacks || []).find(c => c.id === this.customAttackId);
+                return config ? new CustomAttackItem(actor, config) : undefined;
+            }
+
             return actor.items.find(i => i.uuid === this.weaponId);
         })
+    }
+
+    // weapon-block.hbs renders this directly as the attack card's icon (`<img src="{{attack.img}}">`).
+    // Real weapon/beast-attack items already have their own img; UnarmedAttack/CustomAttackItem
+    // (synthetic, non-Item "weapons") supply their own fallback via the same getter name.
+    get img() {
+        return this.item?.img;
+    }
+
+    get isCustomAttack() {
+        return typeof this.weaponId === "string" && this.weaponId.startsWith(CUSTOM_ATTACK_PREFIX);
+    }
+
+    get customAttackId() {
+        return this.isCustomAttack ? this.weaponId.slice(CUSTOM_ATTACK_PREFIX.length) : undefined;
     }
 
     /**
@@ -330,7 +329,12 @@ export class Attack {
      */
     get name() {
         let name = this.item.name;
-        return ((this.isUnarmed && 'Unarmed Attack' !== name) ? `Unarmed Attack (${name})` : name) + this.nameModifier;
+        // A custom attack's blank Damage Die falls back to the natural unarmed damage die (see
+        // CustomAttackItem#isUnarmed) purely for damage-resolution purposes — that shouldn't
+        // also relabel it as "Unarmed Attack (Grapple)", which reads like an equipped item's
+        // display name, not a standalone custom attack.
+        const prefixUnarmed = this.isUnarmed && 'Unarmed Attack' !== name && !this.isCustomAttack;
+        return (prefixUnarmed ? `Unarmed Attack (${name})` : name) + this.nameModifier;
     }
 
     get nameModifier() {
@@ -370,14 +374,9 @@ export class Attack {
         }
 
         //we start with a D20
-        const terms = [D20()];
+        const terms = [D20(this.advantageMode)];
 
         terms.push(...appendNumericTerm(operator.baseAttackBonus, "Base Attack Bonus"));
-        terms.push(...appendNumericTerm(this.#getConditionModifier(operator), "Condition Modifier"));
-
-        if (parent !== operator) {
-            terms.push(...appendNumericTerm(this.#getConditionModifier(parent), "Vehicle Condition Modifier"));
-        }
 
         if (!parent || parent === operator) {
             let weaponTypes = getPossibleProficiencies(operator, weapon);
@@ -413,6 +412,8 @@ export class Attack {
             }
         })
 
+        terms.push(...getActiveCombatToggleTerms(this, "attack"));
+
         return Roll.fromTerms(terms
             .filter(term => !!term));
     }
@@ -433,40 +434,220 @@ export class Attack {
         return true;
     }
 
-    /**
-     * Calculates and retrieves the condition modifier for the specified operator.
-     *
-     * @param {Object} operator - The operator entity whose condition modifier is to be retrieved.
-     * @return {number} The numeric condition modifier for the given operator. Defaults to 0 if no valid condition is found.
-     */
-    #getConditionModifier(operator) {
-        let conditionBonus = getInheritableAttribute({
-            entity: operator,
-            attributeKey: "condition",
-            reduce: "FIRST"
-        })
-
-        if ("OUT" === conditionBonus || !conditionBonus) {
-            return 0;
-        }
-        return toNumber(conditionBonus);
-    }
-
     #resolveAttributeModifier(item, actor, weaponTypes) {
         let attributeStats = []
         if (isRanged(item)) {
             attributeStats.push("DEX")
+            // Homebrew: thrown weapons may use Strength instead of Dexterity.
+            if (isThrown(item)) {
+                attributeStats.push("STR")
+            }
         } else {
             attributeStats.push("STR")
-            if (canFinesse(getSize(actor), item, isFocus(actor, weaponTypes))) {
-                attributeStats.push(...(getInheritableAttribute({
-                    entity: actor,
-                    attributeKey: "finesseStat", reduce: "VALUES"
-                })));
+            // Homebrew: one-handed melee weapons may use Strength or Dexterity for attack,
+            // unconditionally (no Weapon Focus or relative-size requirement). Two-handed
+            // weapons cannot use Dexterity — except thrown weapons, which keep the choice
+            // even when wielded two-handed.
+            if (isThrown(item) || !this.#isTwoHandedMelee(actor, item)) {
+                attributeStats.push("DEX")
             }
         }
 
-        return Math.max(...(attributeStats.map(stat => this.#getCharacterAttributeModifier(actor, stat))));
+        let baseMod = Math.max(...(attributeStats.map(stat => this.#getCharacterAttributeModifier(actor, stat))));
+
+        // Homebrew: a persisted or in-dialog ability-override choice replaces the auto-picked
+        // ability outright. Strength/Dexterity/Wisdom/Charisma are offered on every weapon; the
+        // lightsaber-technique choices (Kinetic Combat, Noble Fencing Style) only apply to
+        // lightsabers — see #getAbilityChoice. Ataru only affects damage (see
+        // #getMeleeDamageAbilityModifier), attack is unaffected.
+        const abilityChoice = this.#getAbilityChoice(item);
+        if (["str", "dex", "wis", "cha"].includes(abilityChoice)) {
+            return this.#getCharacterAttributeModifier(actor, abilityChoice);
+        }
+        if (isLightsaber(item) && abilityChoice && abilityChoice !== "ataru") {
+            return this.#lightsaberAttributeMod(actor, abilityChoice);
+        }
+        return baseMod;
+    }
+
+    /**
+     * Homebrew: resolves the active ability-override choice for this attack's weapon. A pick
+     * made in the one-shot attack dialog (this.lightsaberAbility, ephemeral, one-roll-only)
+     * takes precedence when actively set; otherwise falls back to the weapon's persisted
+     * system.abilityOverride, which is what the sheet-level selector writes to.
+     */
+    #getAbilityChoice(item) {
+        if (this.lightsaberAbility && this.lightsaberAbility !== "str_dex") {
+            return this.lightsaberAbility;
+        }
+        return item.system.abilityOverride || undefined;
+    }
+
+    /**
+     * Homebrew: resolves the ability modifier for a toggled lightsaber-ability choice.
+     * "ataru" only replaces the damage-side ability (handled in #getMeleeDamageAbilityModifier);
+     * for attack it's a no-op (Ataru doesn't change the attack roll).
+     */
+    #lightsaberAttributeMod(actor, choice) {
+        if (choice === "kinetic_combat") {
+            return Math.max(this.#getCharacterAttributeModifier(actor, "WIS"), this.#getCharacterAttributeModifier(actor, "CHA"));
+        }
+        if (choice === "noble_fencing") {
+            return this.#getCharacterAttributeModifier(actor, "CHA");
+        }
+        return undefined;
+    }
+
+    /**
+     * Homebrew: builds the one-roll-only ability-override radio for the attack dialog —
+     * Strength/Dexterity auto-pick baseline plus explicit Str/Dex/Wis/Cha (offered on every
+     * weapon, no gating), plus Ataru/Kinetic Combat/Noble Fencing Style (lightsabers only, each
+     * shown only if the actor has the granting talent/power). Defaults to whichever choice is
+     * currently persisted on the weapon (system.abilityOverride) so the dialog reflects the
+     * sheet's baseline rather than always resetting to Auto. A pick made here overrides the
+     * persisted value for this attack only — see #getAbilityChoice.
+     */
+    getAbilityModifierOptions() {
+        const item = this.item;
+        const actor = this.actor;
+        const persisted = item.system.abilityOverride || "str_dex";
+
+        let rollModifier = RollModifier.createRadio("lightsaberAbility", "Ability", item.id);
+        rollModifier.CSSClasses.push("lightsaber-ability-modifier");
+
+        rollModifier.addChoice(new RollModifierChoice("Auto (Strength/Dexterity)", "str_dex", persisted === "str_dex"));
+        rollModifier.addChoice(new RollModifierChoice("Strength", "str", persisted === "str"));
+        rollModifier.addChoice(new RollModifierChoice("Dexterity", "dex", persisted === "dex"));
+        rollModifier.addChoice(new RollModifierChoice("Wisdom", "wis", persisted === "wis"));
+        rollModifier.addChoice(new RollModifierChoice("Charisma", "cha", persisted === "cha"));
+
+        if (isLightsaber(item)) {
+            if (getInheritableAttribute({entity: actor, attributeKey: "lightsaberAtaru", reduce: "OR"})) {
+                rollModifier.addChoice(new RollModifierChoice("Ataru (Double Dexterity, damage only)", "ataru", persisted === "ataru"));
+            }
+            if (getInheritableAttribute({entity: actor, attributeKey: "lightsaberKineticCombat", reduce: "OR"})) {
+                rollModifier.addChoice(new RollModifierChoice("Kinetic Combat (Wisdom or Charisma)", "kinetic_combat", persisted === "kinetic_combat"));
+            }
+            if (getInheritableAttribute({entity: actor, attributeKey: "lightsaberNobleFencing", reduce: "OR"})) {
+                rollModifier.addChoice(new RollModifierChoice("Noble Fencing Style (Charisma)", "noble_fencing", persisted === "noble_fencing"));
+            }
+        }
+
+        return rollModifier.hasChoices() ? [rollModifier] : [];
+    }
+
+    /**
+     * Persisted per-weapon ability-override choices for the sheet-level <select> (distinct from
+     * getAbilityModifierOptions(), which builds the ephemeral one-roll-only dialog radio).
+     * Str/Dex/Wis/Cha are offered on every weapon; the lightsaber techniques only when wielding
+     * a lightsaber with the granting talent/power. Empty for the unarmed sudo-attack, which has
+     * no real item to persist a choice on.
+     * @return {[{value:string, label:string}]}
+     */
+    get abilityOverrideOptions() {
+        const item = this.item;
+        if (!item || this.isUnarmed) {
+            return [];
+        }
+        const actor = this.actor;
+        const options = [
+            {value: "", label: "Auto (Strength/Dexterity)"},
+            {value: "str", label: "Strength"},
+            {value: "dex", label: "Dexterity"},
+            {value: "wis", label: "Wisdom"},
+            {value: "cha", label: "Charisma"},
+        ];
+        if (isLightsaber(item)) {
+            if (getInheritableAttribute({entity: actor, attributeKey: "lightsaberAtaru", reduce: "OR"})) {
+                options.push({value: "ataru", label: "Ataru (Double Dexterity, damage only)"});
+            }
+            if (getInheritableAttribute({entity: actor, attributeKey: "lightsaberKineticCombat", reduce: "OR"})) {
+                options.push({value: "kinetic_combat", label: "Kinetic Combat (Wisdom or Charisma)"});
+            }
+            if (getInheritableAttribute({entity: actor, attributeKey: "lightsaberNobleFencing", reduce: "OR"})) {
+                options.push({value: "noble_fencing", label: "Noble Fencing Style (Charisma)"});
+            }
+        }
+        return options;
+    }
+
+    /**
+     * Persisted per-weapon handedness choice for the sheet-level <select> — mirrors
+     * abilityOverrideOptions. Only offered when the weapon genuinely supports both 1-handed and
+     * 2-handed use (a same-size weapon, or one with grip "one or two handed") — a weapon that
+     * can ONLY ever be one size (e.g. always two-handed for this wielder) has nothing to choose,
+     * so no selector is shown and it stays purely auto-determined.
+     */
+    get handsOverrideOptions() {
+        const item = this.item;
+        const actor = this.actor;
+        if (!item || !actor || this.isUnarmed || !isMelee(item)) {
+            return [];
+        }
+        const compare = compareSizes(getSize(actor), getSize(item));
+        const isTwoHandedBySize = compare === 1;
+        const isMySize = compare === 0;
+        const optionalTwoHanded = getInheritableAttribute({
+            entity: item, attributeKey: "grip", reduce: "VALUES"
+        }).includes("one or two handed");
+
+        const offersOneHand = !isTwoHandedBySize || optionalTwoHanded;
+        const offersTwoHand = isTwoHandedBySize || isMySize || optionalTwoHanded;
+        if (!offersOneHand || !offersTwoHand) {
+            return [];
+        }
+        return [
+            {value: "", label: "Auto"},
+            {value: "1", label: "1 Hand"},
+            {value: "2", label: "2 Hand"}
+        ];
+    }
+
+    /**
+     * Homebrew: resolves the active handedness choice for this attack's weapon. A pick made in
+     * the one-shot attack dialog (this.hands, ephemeral, one-roll-only) takes precedence when
+     * actively set; otherwise falls back to the weapon's persisted system.handsOverride, which
+     * is what the sheet-level selector writes to. Undefined means "auto-determine," same as
+     * abilityOverride's #getAbilityChoice.
+     */
+    #getHandsChoice(item) {
+        if (this.hands === 1 || this.hands === 2) {
+            return this.hands;
+        }
+        const override = toNumber(item.system?.handsOverride);
+        return (override === 1 || override === 2) ? override : undefined;
+    }
+
+    /**
+     * Homebrew: shared two-handed determination for melee weapons, used by both the attack-roll
+     * and damage-roll Strength/Dexterity resolution so they stay consistent with each other.
+     */
+    #isTwoHandedMelee(actor, item) {
+        const handsChoice = this.#getHandsChoice(item);
+        if (handsChoice !== undefined) {
+            return handsChoice === 2;
+        }
+
+        let strMod = parseInt(actor.attributes.str.mod);
+        let isTwoHanded = compareSizes(getSize(actor), getSize(item)) === 1;
+        let isMySize = compareSizes(getSize(actor), getSize(item)) === 0;
+
+        if (isMySize) {
+            let grips = getInheritableAttribute({
+                entity: item,
+                attributeKey: "grip",
+                reduce: "VALUES"
+            })
+
+            if (grips.includes("two handed")) {
+                isTwoHanded = true;
+            }
+            if (strMod < 1) {
+                isTwoHanded = false;
+            }
+        }
+
+        return isTwoHanded;
     }
 
     /**
@@ -497,8 +678,11 @@ export class Attack {
 
         let terms = [];
         const doubleWeaponDamage = [];
+        let weaponDieFaces;
         if (this.isUnarmed) {
-            terms.push(...resolveUnarmedDamageDie(actor));
+            const unarmedDice = resolveUnarmedDamageDie(actor);
+            terms.push(...unarmedDice);
+            weaponDieFaces = unarmedDice.find(t => t instanceof foundry.dice.terms.Die)?.faces;
             terms.push(...appendNumericTerm(getInheritableAttribute({
                 entity: item,
                 attributeKey: "unarmedBonusDamage",
@@ -518,6 +702,7 @@ export class Attack {
             }
             if (dice) {
                 terms.push(...dice)
+                weaponDieFaces = dice.find(t => t instanceof foundry.dice.terms.Die)?.faces;
             }
         }
 
@@ -547,13 +732,15 @@ export class Attack {
             terms.push(...appendTerms(mod.value, mod.source))
         }
 
-        if (isMelee(item)) {
+        if (isMelee(item) || isThrown(item)) {
             const meleeDamageAbilityModifier = this.#getMeleeDamageAbilityModifier(actor, item);
             terms.push(...meleeDamageAbilityModifier)
         }
 
         let weaponTypes = getPossibleProficiencies(actor, item);
         terms.push(...getSpecializationDamageBonuses(actor, weaponTypes));
+
+        terms.push(...getActiveCombatToggleTerms(this, "damage", {weaponDieFaces}));
 
         if (terms[0] instanceof foundry.dice.terms.OperatorTerm) {
             terms[0] = null;
@@ -586,39 +773,30 @@ export class Attack {
      *                  which accounts for attributes like strength, item size, and wielding type.
      */
     #getMeleeDamageAbilityModifier(actor, item) {
-        let abilityMod = parseInt(actor.attributes.str.mod);
-        let isTwoHanded = this.hands === 2 || compareSizes(getSize(actor), getSize(item)) === 1;
-        let isMySize = compareSizes(getSize(actor), getSize(item)) === 0;
+        let strMod = parseInt(actor.attributes.str.mod);
+        let isTwoHanded = isMelee(item) ? this.#isTwoHandedMelee(actor, item) : false;
 
-        if (isMySize) {
-            let grips = getInheritableAttribute({
-                entity: item,
-                attributeKey: "grip",
-                reduce: "VALUES"
-            })
-
-            if (grips.includes("two handed")) {
-                isTwoHanded = true;
-            }
-            if (abilityMod < 1) {
-                isTwoHanded = false;
-            }
+        // Homebrew: one-handed melee weapons (and thrown weapons) may use Strength or
+        // Dexterity for damage. Two-handed weapons cannot use Dexterity — except thrown
+        // weapons, which keep the choice even when wielded two-handed.
+        let abilityMod = strMod;
+        if (isThrown(item) || !isTwoHanded) {
+            let dexMod = parseInt(actor.attributes.dex.mod);
+            abilityMod = Math.max(strMod, dexMod);
         }
 
-        if (isLightsaber(item)) {
-            let abilitySelect = getInheritableAttribute({
-                entity: actor,
-                attributeKey: "lightsabersDamageStat",
-                reduce: "VALUES"
-            })[0]
-            if (abilitySelect) {
-                abilitySelect = abilitySelect.toLowerCase();
-                const abilities = ["str", "dex", "con", "int", "wis", "cha"];
-                if (abilities.includes(abilitySelect)) {
-                    let replaceAbilityMod = parseInt(actor.system.abilities[`${abilitySelect}`].mod);
-                    abilityMod = replaceAbilityMod > abilityMod ? replaceAbilityMod : abilityMod;
-                }
-            }
+        // Homebrew: ability-override choice replaces the auto-picked damage ability. Ataru
+        // forces Dexterity (the two-handed doubling below then applies on top of it, same as
+        // RAW: double Dexterity only when actually wielding the lightsaber two-handed via the
+        // Handedness toggle). Kinetic Combat/Noble Fencing Style replace the ability outright
+        // instead. Strength/Dexterity/Wisdom/Charisma overrides apply to any weapon.
+        const abilityChoice = this.#getAbilityChoice(item);
+        if (["str", "dex", "wis", "cha"].includes(abilityChoice)) {
+            abilityMod = this.#getCharacterAttributeModifier(actor, abilityChoice);
+        } else if (isLightsaber(item) && abilityChoice === "ataru") {
+            abilityMod = parseInt(actor.attributes.dex.mod);
+        } else if (isLightsaber(item) && abilityChoice) {
+            abilityMod = this.#lightsaberAttributeMod(actor, abilityChoice);
         }
 
         return appendNumericTerm(isTwoHanded ? Math.max(abilityMod * 2, abilityMod) : abilityMod, "Attribute Modifier");
@@ -629,16 +807,24 @@ export class Attack {
         let isTwoHanded = compare === 1;
         let isMySize = compare === 0;
 
+        // Homebrew: some weapons (e.g. Lightsabers) may be wielded one- or two-handed
+        // regardless of their size relative to the wielder.
+        let optionalTwoHanded = getInheritableAttribute({
+            entity: this.item,
+            attributeKey: "grip",
+            reduce: "VALUES"
+        }).includes("one or two handed");
+
         let rollModifier = RollModifier.createRadio("hands", "Handedness", this.item.id);
 
-        if (!isTwoHanded) {
+        if (!isTwoHanded || optionalTwoHanded) {
             const rollModifierChoice = new RollModifierChoice(`1 Hand`, 1, !isTwoHanded && !isMySize);
             rollModifierChoice.icon = "fa-hand";
             rollModifier.addChoice(rollModifierChoice);
 
         }
 
-        if (isTwoHanded || isMySize) {
+        if (isTwoHanded || isMySize || optionalTwoHanded) {
             const rollModifierChoice1 = new RollModifierChoice(`2 Hand`, 2, isTwoHanded || isMySize);
             rollModifierChoice1.icon = "fa-hands";
             rollModifier.addChoice(rollModifierChoice1);
@@ -975,6 +1161,7 @@ export class Attack {
         let modifiers = [];
         modifiers.push(...this.getHandednessModifier())
         modifiers.push(...this.getRangeModifierBlock());
+        modifiers.push(...this.getAbilityModifierOptions());
         modifiers.push(RollModifier.createTextModifier("attack", "Miscellaneous Attack Bonus"));
         modifiers.push(RollModifier.createTextModifier("damage", "Miscellaneous Damage Bonus"));
         return modifiers
@@ -1003,14 +1190,6 @@ export class Attack {
         if (autoMiss) return true;
         if (autohit) return false;
         return attackRoll < defense;
-    }
-
-    get ammunition() {
-        return this.item.ammunition;
-    }
-
-    get hasAmmunition() {
-        return this.item.ammunition?.hasAmmunition;
     }
 
     /**
@@ -1114,16 +1293,6 @@ export class Attack {
     get template() {
         const item = this.item;
 
-        const ammoTypes = []
-        if (item.ammunition?.hasAmmunition && this.parent) {
-            const parent = this.parent;
-            Object.entries(item.ammunition.ammunition).forEach(([key, value]) => {
-                if (value.queue?.length > 0) {
-                    ammoTypes.push(parent.items.get(value.queue[0])?.subType)
-                }
-            })
-        }
-
         const autofire = item.effects?.find(effect => effect.name === "Autofire");
         if (autofire && autofire.disabled === false) {
             return {
@@ -1136,7 +1305,7 @@ export class Attack {
             }
         }
 
-        if (item.system.subtype === "Grenades" || ammoTypes.includes("Grenades")) {
+        if (item.system.subtype === "Grenades") {
             return {
                 shape: "circle",
                 size: 2,
@@ -1294,6 +1463,14 @@ export class Attack {
         }
         if (targetActors.length > 0) return targetActors;
 
+        // Only area-effect attacks (grenades, autofire cones, etc.) fall back to placing a
+        // template to pick their targets. A single-target attack with nobody targeted (via
+        // Foundry's own targeting tool — right-click a token, or press T) just rolls untargeted —
+        // no forced template-click, no blocking prompt.
+        if (this.targetType.type === Attack.TARGET_TYPES.SINGLE_TARGET) {
+            return [];
+        }
+
         let templates = await this.placeTemplate()
         const actors = selectActorsByTemplates(templates);
         cleanupTemplates(templates)
@@ -1304,9 +1481,10 @@ export class Attack {
      *
      * @return {Promise<{attack, damage}>}
      */
-    async resolve(changes = []) {
+    async resolve(changes = [], advantageMode) {
 
         this.temporaryChanges = changes || [];
+        this.advantageMode = advantageMode;
 
         let targetActors = await this.targetedActors();
         let attackRoll = this.attackRoll;
@@ -1329,6 +1507,23 @@ export class Attack {
         };
         response.rangeBreakdown = []
         let attackSummaries = []
+
+        // No target selected (single-target attacks no longer require one — see
+        // Attack#targetedActors) means there's no location to measure a range penalty against,
+        // but the roll itself still happened above and needs to actually show up on the chat
+        // card, which only renders entries out of rangeBreakdown.
+        if (targetActors.length === 0) {
+            response.rangeBreakdown.push({
+                range: undefined,
+                attack: response.attack,
+                damage: response.damage,
+                damageType: this.type,
+                notes: this.notes,
+                critical,
+                fail: autoMiss,
+                targets: []
+            });
+        }
 
         for (const targetActor of targetActors) {
             let {actors, location} = targetActor;
@@ -1357,8 +1552,16 @@ export class Attack {
             });
         }
 
-        await this.reduceAmmunition()
         response.attackSummaries = JSON.stringify(attackSummaries)
+
+        // Attack instances are cached and reused across renders (AttackDelegate's own cache,
+        // reset only on the actor's next prepareData) — temporaryChanges/advantageMode need to
+        // be scoped to just this resolve() call, or the sheet's own inline to-hit/damage preview
+        // (attack.attackRoll/damageRoll, read independently of resolve() on every render) would
+        // keep showing this roll's one-off bonus/Advantage state indefinitely afterward.
+        this.temporaryChanges = [];
+        this.advantageMode = undefined;
+
         return response;
     }
 
@@ -1489,10 +1692,17 @@ export function getDiceTermsFromString(dieString) {
 }
 
 /**
+ * Plain 1d20, or (for advantage/disadvantage) 2d20 keeping only the higher/lower result —
+ * same roll-twice mechanic as the rest of the system, see util.mjs's applyRollMode.
  *
- * @type {function(): DiceTerm}
+ * @param {"advantage"|"disadvantage"|undefined} mode
+ * @type {function(string=): DiceTerm}
  */
-const D20 = () => new foundry.dice.terms.Die({number: 1, faces: 20});
+const D20 = (mode) => {
+    if (mode === "advantage") return new foundry.dice.terms.Die({number: 2, faces: 20, modifiers: ["kh1"]});
+    if (mode === "disadvantage") return new foundry.dice.terms.Die({number: 2, faces: 20, modifiers: ["kl1"]});
+    return new foundry.dice.terms.Die({number: 1, faces: 20});
+};
 
 
 /**

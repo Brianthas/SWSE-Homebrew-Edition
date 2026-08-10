@@ -1,0 +1,142 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_at_War\" title=\"Star Wars Saga Edition Galaxy at War\">Star Wars Saga Edition Galaxy at War</a></i> </p><p>The Taung are warriors first and foremost, having battled the native <a href=\"https://swse.fandom.com/wiki/Human\" title=\"Human\">Human</a> nations for control of <a href=\"https://swse.fandom.com/wiki/Coruscant\" title=\"Coruscant\">Coruscant</a> before being driven off and forced to flee to the Outer Rim world of <a href=\"https://swse.fandom.com/wiki/Roon\" title=\"Roon\">Roon</a>, where they remain for millennia until the legendary Mandalore the First leads them to conquer another world. Taung rename both the world and themselves in his honor, becoming <a href=\"https://swse.fandom.com/wiki/The_Mandalorians\" title=\"The Mandalorians\">The Mandalorians</a>. </p><p>With a clan-based nomadic culture, Taung view battle and war as both a source of personal honor and a way to show pride in their community. Veterans of successful battles are held in high regard, to such an extent that they are the de facto leaders of their communities. Only the leader of all <a href=\"https://swse.fandom.com/wiki/The_Mandalorians\" title=\"The Mandalorians\">The Mandalorians</a>, known simply as Mandalore, holds greater sway with the clans. </p><h3><span class=\"mw-headline\" id=\"Taung_Characteristics\">Taung Characteristics</span></h3><p><b>Personality:</b> Warlike by nature, Taung are pragmatic and ruthless. But by the same token, they are also extraordinarily loyal to their clan, which serves the same function that a biological family serves for other <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>. </p><p><b>Physical Description:</b> Taung have gray skin and generally appear similar to <a href=\"https://swse.fandom.com/wiki/Humans\" class=\"mw-redirect\" title=\"Humans\">Humans</a>, except for their faces, which strongly resemble the armored visor of a Mandalorian helmet. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b>&nbsp;Taung age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-6 Years </td> \n   <td>7-12 Years </td> \n   <td>13-45 Years </td> \n   <td>46-64 Years </td> \n   <td>65-84 Years </td> \n   <td>85+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> <a href=\"https://swse.fandom.com/wiki/Coruscant\" title=\"Coruscant\">Coruscant</a>, but later <a href=\"https://swse.fandom.com/wiki/Mandalore\" title=\"Mandalore\">Mandalore</a> is adopted as their homeworld. </p><p><b>Languages:</b> Mando'a, a language with a sentence structure similar to Basic, with most of the differences stemming from frequent word merging and an emphasis on ease of pronunciation. </p><p><b>Example Names:</b> A pragmatic Species, Taung have names that describe traits, such as Atin (\"Persistent\"), Kot (\"Strength\"), and Tor (\"Justice\"). </p><p><b>Adventurers:</b> Taung are nomads, frequently traveling the stars in search of worthy opponents against whom they can test their prowess. Wandering Taung find work with mercenary companies, where their martial upbringing makes them incredibly valuable. History records no occurrences of a Taung displaying Force abilities. </p><h3><span class=\"mw-headline\" id=\"Taung_Species_Traits\">Taung Species Traits</span></h3><p>Taung share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Superior Defenses",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Armor Training",
+        "type": "trait"
+      },
+      {
+        "name": "Warrior Culture",
+        "type": "trait"
+      },
+      {
+        "name": "Taung",
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "12",
+          "low": "7",
+          "text": "7-12",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "84",
+          "low": "65",
+          "text": "65-84",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "6",
+          "low": "1",
+          "text": "1-6",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "64",
+          "low": "46",
+          "text": "46-64",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "45",
+          "low": "13",
+          "text": "13-45",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "85",
+          "text": "85+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Superior Defenses"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Armor Training"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Warrior Culture"
+      },
+      {
+        "value": "Taung"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Taung",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535567433,
+    "modifiedTime": 1736535567433,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "E2Uv0Br3T0Nj0Ifp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!E2Uv0Br3T0Nj0Ifp"
+}

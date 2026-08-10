@@ -1,0 +1,72 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2d6",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A being begins its turn adjacent to a Lava Flow.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round at the start of the target's turn, as long as the target remains adjacent to the Lava Flow.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Acrobatics (DC 27): The character tumbles away from the Lava Flow, gaining a +5 circumstance bonus to Reflex Defense against the Hazard. Jump (DC 27): The character jumps over or away from the Lava Flow, gaining a +2 circumstance bonus to Reflex Defense against the Hazard. Knowledge (Physical Sciences) (DC 22): The character can predict how the Lava Flow will move; the character and their allies gain a +1 circumstance bonus to Reflex Defense against the Hazard.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: Any being or object touched by the lava catches Fire and takes an additional 1d6 points of Fire damage each round until the Fire is extinguished.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Fire",
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>The dark orange glow and blistering heat of the lava are warnings that you should stay away.</i> </p><p>Virtually every planet in the galaxy has magma at its core, and lava can appear just about anywhere, including underground. A Lava Flow makes a good barrier. Placing a subterranean stronghold on an island surrounded by a lava moat challenges the heroes to find a different entrance. A bridge above a Lava Flow makes an exciting location for a battle as the heroes struggle to stay out of the searing magma while trying to defeat their enemies. </p><h2><span id=\"Lava_Flow_Statistics_.28CL_15.29\"></span><span class=\"mw-headline\" id=\"Lava_Flow_Statistics_(CL_15)\">Lava Flow Statistics (CL 15)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Fire, Natural </p><p><b>Trigger:</b> A being begins its turn adjacent to a Lava Flow. </p><p><b>Attack:</b> +17 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> Each round at the start of the target's turn, as long as the target remains adjacent to the Lava Flow. </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Acrobatics\" title=\"Acrobatics\">Acrobatics</a></b> <b>(DC 27):</b> The character tumbles away from the Lava Flow, gaining a +5 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against the Hazard.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Jump\" title=\"Jump\">Jump</a></b> <b>(DC 27):</b> The character jumps over or away from the Lava Flow, gaining a +2 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against the Hazard.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Knowledge_(Physical_Sciences)\" class=\"mw-redirect\" title=\"Knowledge (Physical Sciences)\">Knowledge (Physical Sciences)</a></b> <b>(DC 22):</b> The character can predict how the Lava Flow will move; the character and their allies gain a +1 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against the Hazard.</li>\n</ul><p><b>Special:</b> Any being or object touched by the lava catches <a href=\"https://swse.fandom.com/wiki/Fire\" title=\"Fire\">Fire</a> and takes an additional 1d6 points of <a href=\"https://swse.fandom.com/wiki/Fire\" title=\"Fire\">Fire</a> damage each round until the <a href=\"https://swse.fandom.com/wiki/Fire\" title=\"Fire\">Fire</a> is extinguished. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Lava Flow",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244586,
+    "modifiedTime": 1749263244586,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "ydhaPnxvafDBHxD8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!ydhaPnxvafDBHxD8"
+}

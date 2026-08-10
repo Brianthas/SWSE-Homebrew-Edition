@@ -1,0 +1,48 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Weapon Systems",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "standard",
+        "key": "gravityWell"
+      }
+    ],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><p><b>Emplacement Points:</b>&nbsp;5</p><p><b>Special:</b> This <a href=\"https://swse.fandom.com/wiki/Weapon_System\" class=\"mw-redirect\" title=\"Weapon System\">Weapon System</a> can only be mounted on a <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> of Colossal (Frigate) size or larger.</p><table class=\"wikitable\">\n <caption>\n  Gravity Well Projector Ranges\n </caption>\n <tbody>\n  <tr>\n   <th colspan=\"4\">RANGE BY CHARACTER SCALE</th>\n   <th></th>\n   <th colspan=\"4\"><p>RANGE BY STARSHIP SCALE</p></th>\n  </tr>\n  <tr>\n   <th>POINT-BLANK</th>\n   <th>SHORT</th>\n   <th>MEDIUM</th>\n   <th>LONG</th>\n   <th></th>\n   <th>POINT-BLANK</th>\n   <th>SHORT</th>\n   <th>MEDIUM</th>\n   <th>LONG</th>\n  </tr>\n  <tr>\n   <td>0-1,500 Squares</td>\n   <td>-</td>\n   <td>-</td>\n   <td>-</td>\n   <td></td>\n   <td>0-10 Squares</td>\n   <td>-</td>\n   <td>-</td>\n   <td>-</td>\n  </tr>\n </tbody>\n</table><p>Gravity Well Projectors are unique weapons in that they do not deal damage, but instead produce a special effect. Projecting a Gravity Well is treated like firing a weapon in an <a href=\"https://swse.fandom.com/wiki/Area_Attack\" class=\"mw-redirect\" title=\"Area Attack\">Area Attack</a>; the Gravity Well Projector must choose a 4x4-square (<a href=\"https://swse.fandom.com/wiki/Starship_Scale\" class=\"mw-redirect\" title=\"Starship Scale\">Starship Scale</a>) area within the generator's range and make an attack roll against a <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> of 10. If successful, the Gravity Well Projector creates a Hyperspace interdiction field in those targeted squares. Any Starship that starts its turn in a square covered by a Hyperspace interdiction field may not activate it's <a href=\"https://swse.fandom.com/wiki/Hyperdrive\" title=\"Hyperdrive\">Hyperdrive</a> on that turn.</p>",
+    "cost": "50000",
+    "rangeStarshipMedium": "-",
+    "rangeStarshipShort": "-",
+    "rangeMedium": "-",
+    "rangeStarshipLong": "-",
+    "rangeStarshipPointBlank": "0-10 Squares",
+    "rangePointBlank": "0-1,500 Squares",
+    "rangeShort": "-",
+    "emplacementPoints": "5",
+    "availability": "Military",
+    "rangeLong": "-"
+  },
+  "name": "Gravity Well Projector",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317208,
+    "modifiedTime": 1759848317208,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "xutCfH8e9mRI7DaJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!xutCfH8e9mRI7DaJ"
+}

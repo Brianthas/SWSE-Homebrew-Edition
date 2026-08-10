@@ -1,0 +1,59 @@
+{
+  "img": "systems/swse/icon/feat/Mounted_Regiment.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_at_War\" title=\"Star Wars Saga Edition Galaxy at War\">Star Wars Saga Edition Galaxy at War</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a>, <a href=\"https://swse.fandom.com/wiki/Team_Feats\" class=\"mw-redirect\" title=\"Team Feats\">Team Feats</a></i></p><p>You and your allies act as mounted calvary, specializing in using <a href=\"https://swse.fandom.com/wiki/Beasts\" title=\"Beasts\">Beasts</a> in war.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in <a href=\"https://swse.fandom.com/wiki/Ride\" title=\"Ride\">Ride</a></p><p><b>Effect:</b> You gain a +3 competence bonus on <a href=\"https://swse.fandom.com/wiki/Ride\" title=\"Ride\">Ride</a> checks. At the time you make a check, for each ally within 12 squares of you who also has this Feat, the competence bonus increases by +1 (to a maximum of +7).</p><p>Additionally, once per round as a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a> to your <a href=\"https://swse.fandom.com/wiki/Mount\" class=\"mw-redirect\" title=\"Mount\">Mount</a> being attacked, you can make a <a href=\"https://swse.fandom.com/wiki/Ride\" title=\"Ride\">Ride</a> check; if the result exceeds the Mount's <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>, use your check result against the attack instead of using the Mount's <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Trained in Ride",
+      "requirement": "Ride",
+      "type": "TRAINED SKILL"
+    },
+    "categories": [
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Team Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Galaxy at War",
+    "cost": "0"
+  },
+  "name": "Mounted Regiment",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479028055,
+    "modifiedTime": 1761479028055,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "4chx1HvHEO6qdzHW",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!4chx1HvHEO6qdzHW"
+}

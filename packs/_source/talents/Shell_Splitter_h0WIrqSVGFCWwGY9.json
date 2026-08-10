@@ -1,0 +1,89 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Like a carrion crow, you can grab your prey, gain altitude, and drop them to the ground.<br><br>Once per encounter, if you still have your three actions available (Swift, Standard, Move) on your current turn and 12 squares of vertical space above you, then as a standard action, you can attempt a <a href=\"https://swse.fandom.com/wiki/Grab\" title=\"Grab\">Grab</a> per normal rules except that you don’t provoke an Attack of Opportunity and your attack penalty is only -2.&nbsp; If you succeed, as long as the weight of your equipment + your target + their equipment doesn’t exceed twice your <a href=\"https://swse.fandom.com/wiki/Encumbrance\" title=\"Encumbrance\">Carrying Capacity</a>, you immediately spend your move action to burn 4 charges and drag your target 12 squares straight up, then spend your swift action to release the target in a square next to you - these follow up actions can’t be delayed. You cause 2d6 bludgeoning damage from the rough handling.<br><br>Instead of a grab, you can ranged grab with appropriate equipment (e.g., <a href=\"https://swse.fandom.com/wiki/Snare_Pistol\" title=\"Snare Pistol\">Snare Pistol</a>, <a href=\"https://swse.fandom.com/wiki/Whipcord\" title=\"Whipcord\">Whipcord</a>, <a href=\"https://swse.fandom.com/wiki/Shock_Whip\" title=\"Shock Whip\">Shock Whip</a>), but the target must be within 2 squares range.<br><br>Your released target doesn’t fall to the ground until the beginning of your next turn, giving them and their allies a chance to prevent the worst outcome.&nbsp; (E.g., they could activate their own fly speed on their turn.)&nbsp; Otherwise, the GM determines the target’s <a href=\"https://swse.fandom.com/wiki/Falling_Damage\" title=\"Falling Damage\">Falling Damage</a> for 18 meters at the beginning of your turn using normal rules.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": null,
+    "categories": [
+      {
+        "value": "Untested"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Therysco Creations"
+      },
+      {
+        "value": "Elite Trooper Talent Trees"
+      },
+      {
+        "value": "Soldier Talent Trees"
+      },
+      {
+        "value": "Pathfinder Talent Trees"
+      },
+      {
+        "value": "Homebrew Content"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Untested",
+      "Therysco Creations",
+      "Elite Trooper Talent Trees",
+      "Soldier Talent Trees",
+      "Pathfinder Talent Trees",
+      "Homebrew Content"
+    ],
+    "isSupplied": false,
+    "talentTree": "Jumptrooper Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Jumptrooper_Talent_Tree",
+    "bonusTalentTree": "",
+    "cost": "0"
+  },
+  "name": "Shell Splitter",
+  "flags": {},
+  "type": "talent",
+  "folder": "krjqEN0X7caYQKYf",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385307613,
+    "modifiedTime": 1734385307613,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "h0WIrqSVGFCWwGY9",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!h0WIrqSVGFCWwGY9"
+}

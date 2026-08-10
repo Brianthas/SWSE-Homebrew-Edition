@@ -1,0 +1,52 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p>Beings gain a +5 <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> bonus to their <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a> to resist Fear effects, as well as against the <a href=\"https://swse.fandom.com/wiki/Intimidate\" class=\"mw-redirect\" title=\"Intimidate\">Intimidate</a> application of the <a href=\"https://swse.fandom.com/wiki/Persuasion\" title=\"Persuasion\">Persuasion</a> skill.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "modifier": "Fear Effects",
+        "value": 5,
+        "key": "willDefenseBonus"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "prerequisite": null,
+    "cost": "0"
+  },
+  "name": "Fearless",
+  "flags": {},
+  "type": "trait",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764446475313,
+    "modifiedTime": 1764446475313,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "NodirxYMbnTMWYBu",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!NodirxYMbnTMWYBu"
+}

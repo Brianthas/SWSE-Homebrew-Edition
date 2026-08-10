@@ -1,0 +1,40 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Droid Accessories (Miscellaneous Systems)",
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "droidPart"
+      }
+    ],
+    "description": "<p>To prevent capture and analysis, the Droid comes equipped with a powerful explosive. The charge destroys the Droid from within (no attack required), and a Droid destroyed in this fashion cannot be repaired or salvaged.</p><p>The explosive is treated as an <a href=\"https://swse.fandom.com/wiki/Area_Attack\" class=\"mw-redirect\" title=\"Area Attack\">Area Attack</a> (+5 attack bonus). The damage to all targets with the area is determined by the Droid's size (see below), and the <a href=\"https://swse.fandom.com/wiki/Burst\" class=\"mw-redirect\" title=\"Burst\">Burst</a> radius of the explosion is 2 squares per 4d6 points of damage (minimum 2 squares).</p><p><a href=\"https://swse.fandom.com/wiki/Droids\" title=\"Droids\">Droids</a> of Tiny size and smaller do not deal collateral damage when they self-destruct.</p><table class=\"wikitable\">\n <tbody>\n  <tr>\n   <th>DROID SIZE</th>\n   <th>DAMAGE</th>\n  </tr>\n  <tr>\n   <td>Small</td>\n   <td>4d6</td>\n  </tr>\n  <tr>\n   <td>Medium</td>\n   <td>6d6</td>\n  </tr>\n  <tr>\n   <td>Large</td>\n   <td>8d6</td>\n  </tr>\n  <tr>\n   <td>Huge</td>\n   <td>10d6</td>\n  </tr>\n  <tr>\n   <td>Gargantuan or Larger</td>\n   <td>20d6</td>\n  </tr>\n </tbody>\n</table>",
+    "cost": "Maximum Damage x 20",
+    "weight": "(Maximum Damage x 0.1) Kilograms",
+    "availability": "Restricted"
+  },
+  "name": "Self-Destruct System",
+  "flags": {},
+  "type": "droid system",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764449016209,
+    "modifiedTime": 1764449016209,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "AMarSOqEmzjMHHIr",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!AMarSOqEmzjMHHIr"
+}

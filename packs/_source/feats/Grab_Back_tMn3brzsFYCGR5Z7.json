@@ -1,0 +1,64 @@
+{
+  "img": "systems/swse/icon/feat/Grab_Back.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You are able to counter <a href=\"https://swse.fandom.com/wiki/Grab\" title=\"Grab\">Grab</a> and <a href=\"https://swse.fandom.com/wiki/Grapple\" title=\"Grapple\">Grapple</a> attacks, redirecting them back on your attacker.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> 13</p><p><b>Effect:</b> You gain a +2 bonus to your <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against <a href=\"https://swse.fandom.com/wiki/Grab\" title=\"Grab\">Grab</a> and <a href=\"https://swse.fandom.com/wiki/Grapple\" title=\"Grapple\">Grapple</a> attacks. If an enemy misses you when making a <a href=\"https://swse.fandom.com/wiki/Grab\" title=\"Grab\">Grab</a> or <a href=\"https://swse.fandom.com/wiki/Grapple\" title=\"Grapple\">Grapple</a> attack, you can immediately make your own <a href=\"https://swse.fandom.com/wiki/Grab\" title=\"Grab\">Grab</a> attack against the same enemy as a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a>.</p><p><b>Special:</b> If you have a <a href=\"https://swse.fandom.com/wiki/Feat\" class=\"mw-redirect\" title=\"Feat\">Feat</a> that enables you to make a <a href=\"https://swse.fandom.com/wiki/Grapple\" title=\"Grapple\">Grapple</a> attack (such as <a href=\"https://swse.fandom.com/wiki/Pin\" title=\"Pin\">Pin</a> or <a href=\"https://swse.fandom.com/wiki/Trip\" title=\"Trip\">Trip</a>), you can make a <a href=\"https://swse.fandom.com/wiki/Grapple\" title=\"Grapple\">Grapple</a> attack instead.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Dexterity 13",
+      "requirement": "Dexterity 13",
+      "type": "ATTRIBUTE"
+    },
+    "categories": [
+      {
+        "value": "Soldier Bonus Feats"
+      },
+      {
+        "value": "Force Prodigy Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Bonus Feats",
+      "Force Prodigy Bonus Feats",
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Grab Back",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479027181,
+    "modifiedTime": 1761479027181,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "tMn3brzsFYCGR5Z7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!tMn3brzsFYCGR5Z7"
+}

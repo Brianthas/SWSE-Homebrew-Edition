@@ -1,0 +1,81 @@
+{
+  "img": "systems/swse/icon/feat/Dual Weapon Mastery I.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a>, <a href=\"https://swse.fandom.com/wiki/Multiple_Attacks\" title=\"Multiple Attacks\">Multiple Attacks</a></i></p><p>You are adept at fighting with two weapons and double weapons.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> 13, <a href=\"https://swse.fandom.com/wiki/Base_Attack_Bonus\" class=\"mw-redirect\" title=\"Base Attack Bonus\">Base Attack Bonus</a> +1</p><p><b>Effect:</b> When you attack with two weapons, or with both ends of a double weapon as part of a <a href=\"https://swse.fandom.com/wiki/Full_Attack\" title=\"Full Attack\">Full Attack</a> Action, you take a -5 penalty (Instead of a -10 penalty) on all attack rolls until the start of your next turn. You only gain this reduced penalty if you are wielding a weapon with which you are proficient.</p><p><b>Normal:</b> If you use a <a href=\"https://swse.fandom.com/wiki/Full_Attack\" title=\"Full Attack\">Full Attack</a> Action to make more than one attack on your turn, you take a -10 penalty on all attack rolls for the round.</p><h2><span class=\"mw-headline\" id=\"Additional_Dual_Weapon_Mastery_I_Effects\">Additional Dual Weapon Mastery I Effects</span></h2><p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><p><a href=\"https://swse.fandom.com/wiki/Vehicle_Weapons\" class=\"mw-redirect\" title=\"Vehicle Weapons\">Vehicle Weapons</a> cannot be used in one hand, so this Feat has no effect on them.</p><p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i></p><p><b><a href=\"https://swse.fandom.com/wiki/Combined_Feat\" class=\"mw-redirect\" title=\"Combined Feat\">Combined Feat</a> (<a href=\"https://swse.fandom.com/wiki/Quick_Draw\" title=\"Quick Draw\">Quick Draw</a>):</b> You can draw or holster two weapons with a single <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>; you must have both hands free to draw both weapons, and each weapon must be able to be held in one hand.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "-5",
+        "key": "dualWeaponModifier"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Dexterity 13",
+          "requirement": "Dexterity 13",
+          "type": "ATTRIBUTE"
+        },
+        {
+          "text": "Base Attack Bonus 1",
+          "requirement": "1",
+          "type": "BASE ATTACK BONUS"
+        }
+      ],
+      "text": "Dexterity 13, and Base Attack Bonus 1",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Soldier Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Jedi Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Bonus Feats",
+      "General Feats",
+      "Jedi Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Starships of the Galaxy",
+    "cost": "0"
+  },
+  "name": "Dual Weapon Mastery I",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479026691,
+    "modifiedTime": 1761479026691,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "fnO8NU45nLbr5DjZ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!fnO8NU45nLbr5DjZ"
+}

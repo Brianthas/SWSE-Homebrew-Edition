@@ -1,0 +1,152 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Web_Enhancements\" title=\"Star Wars Saga Edition Web Enhancements\">Star Wars Saga Edition Web Enhancements</a> (<a href=\"https://swse.fandom.com/wiki/Planet_Hoppers\" title=\"Planet Hoppers\">Planet Hoppers</a>)</i> </p><p>Phindians are technologically advanced sentients known for creating a variety of technical wonders, including devices capable of erasing one's memory. </p><p>Before the ride of the Empire, a criminal organization called The Syndicat ruled the Phindian homeworld. The Phindian leaders of The Syndicat used their control over the distribution of food and other provisions to keep the general population in line. Any who resisted The Syndicat had their memories erased and were exiled to other worlds. <a href=\"https://swse.fandom.com/wiki/The_Jedi\" title=\"The Jedi\">The Jedi</a> helped the Phindian population overthrow The Syndicat and install a democratic government, which remained in place until the formation of the Emperor's New Order. Despite a handful of Phindian uprisings (All of which the Imperials easily quelled), the Phindian homeworld remained under Imperial rule until shortly after the Battle of <a href=\"https://swse.fandom.com/wiki/Endor\" class=\"mw-redirect\" title=\"Endor\">Endor</a>. Within a year of their liberation, the Phindian people joined the New Republic and have remained members ever since. </p><h3><span class=\"mw-headline\" id=\"Phindian_Characteristics\">Phindian Characteristics</span></h3><p><b>Personality:</b> Phindians show great affection for family and friends, but strangers find them aloof and contrary. Though perceptive and astute, they can be cantankerous and somewhat sarcastic beings prone to melancholy and exaggeration. Dealing with them can be exasperating. For their part, Phindians like to tinker with technological devices, often preferring the company of such things above the company of other sentients. </p><p><b>Physical Description:</b> The average Phindian stands about 1.7 meters tall. Phindians are thin, mournful-looking beings with dark skin that sometimes exhibits white splotches. White circles surround their yellow or gold eyes. Phindians have long, flexible arms that hang below their knees. They prefer to wear simple, practical outfits with little adornment. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b>&nbsp;Phindians age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-12 Years </td> \n   <td>13-16 Years </td> \n   <td>17-39 Years </td> \n   <td>40-54 Years </td> \n   <td>55-74 Years </td> \n   <td>75+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> <a href=\"https://swse.fandom.com/wiki/Phindar\" title=\"Phindar\">Phindar</a>, a temperate Outer Rim planet. </p><p><b>Languages:</b> Phindians speak Phindian and Basic. Their native language consists of soft sibilants and particularly long vowel sounds. </p><p><b>Example Names:</b> Banikou, Guerra Derida, Paxxi Derida, Gerpha, Hem, Karke, Meerka, Teeyr Verke. </p><p><b>Adventurers:</b> Phindian heroes are usually <a href=\"https://swse.fandom.com/wiki/Nobles\" class=\"mw-redirect\" title=\"Nobles\">Nobles</a>, <a href=\"https://swse.fandom.com/wiki/Scoundrels\" class=\"mw-redirect\" title=\"Scoundrels\">Scoundrels</a> and <a href=\"https://swse.fandom.com/wiki/Scouts\" class=\"mw-redirect\" title=\"Scouts\">Scouts</a>. Phindian Force-users are possible, but rare. </p><h3><span class=\"mw-headline\" id=\"Phindian_Species_Traits\">Phindian Species Traits</span></h3><p>Phindians share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Bonus Feat (Skill Training (Knowledge (Technology)))",
+        "type": "trait"
+      },
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Mechanics))",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Web Enhancements",
+        "type": "trait"
+      },
+      {
+        "name": "Skill Training (Knowledge (Technology))",
+        "type": "feat"
+      },
+      {
+        "name": "Skill Focus (Mechanics)",
+        "type": "feat"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "54",
+          "low": "40",
+          "text": "40-54",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "75",
+          "text": "75+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "39",
+          "low": "17",
+          "text": "17-39",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "12",
+          "low": "1",
+          "text": "1-12",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "16",
+          "low": "13",
+          "text": "13-16",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "74",
+          "low": "55",
+          "text": "55-74",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Bonus Feat (Skill Training (Knowledge (Technology)))"
+      },
+      {
+        "value": "Phindians"
+      },
+      {
+        "value": "Conditional Bonus Feat (Skill Focus (Mechanics))"
+      },
+      {
+        "value": "Bonus Feat"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Web Enhancements"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Conditional Bonus Feat"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Phindian",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535566971,
+    "modifiedTime": 1736535566971,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "wQZzjIQjtQ5Yryh9",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!wQZzjIQjtQ5Yryh9"
+}

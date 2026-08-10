@@ -1,0 +1,82 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "As <b>Weaken Resolve</b>, except that the target doesn't stop fleeing from you if it is wounded.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Presence talent",
+          "requirement": "Presence",
+          "type": "TALENT"
+        },
+        {
+          "text": "Weaken Resolve talent",
+          "requirement": "Weaken Resolve",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Presence talent, and Weaken Resolve talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Noble Talent Trees"
+      },
+      {
+        "value": "Crime Lord Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Noble Talent Trees",
+      "Crime Lord Talent Trees",
+      "Core Rulebook"
+    ],
+    "isSupplied": false,
+    "talentTree": "Influence Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Influence_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Core Rulebook",
+    "cost": "0"
+  },
+  "name": "Improved Weaken Resolve",
+  "flags": {},
+  "type": "talent",
+  "folder": "RQ5ygSCNfkeA8kHH",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385306195,
+    "modifiedTime": 1734385306195,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "tZ2VDoSARS3TLBWz",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!tZ2VDoSARS3TLBWz"
+}

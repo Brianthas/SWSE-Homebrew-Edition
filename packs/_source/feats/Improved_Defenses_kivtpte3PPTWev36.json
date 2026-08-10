@@ -1,0 +1,68 @@
+{
+  "img": "systems/swse/icon/feat/Improved Defenses.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You are skilled at fending off attacks of many forms.</p><p><b>Effect:</b> You gain a +1 bonus to your <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>, <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>, and <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a>.</p><h2><span class=\"mw-headline\" id=\"Additional_Improved_Defenses_Effects\">Additional Improved Defenses Effects</span></h2><p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><p><b>Special:</b> This Feat does not apply to the <a href=\"https://swse.fandom.com/wiki/Vehicle_Combat\" title=\"Vehicle Combat\">Defenses</a> of a <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a>, even if you are piloting or commanding it. This is one reason many <a href=\"https://swse.fandom.com/wiki/Pilots\" class=\"mw-redirect\" title=\"Pilots\">Pilots</a> prefer the <a href=\"https://swse.fandom.com/wiki/Dodge\" title=\"Dodge\">Dodge</a> Feat to Improved Defenses.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "1",
+        "key": "fortitudeDefenseBonus"
+      },
+      {
+        "mode": 2,
+        "value": "1",
+        "key": "willDefenseBonus"
+      },
+      {
+        "mode": 2,
+        "value": "1",
+        "key": "reflexDefenseBonus"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": null,
+    "categories": [
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Starships of the Galaxy",
+    "cost": "0"
+  },
+  "name": "Improved Defenses",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479027414,
+    "modifiedTime": 1761479027414,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "kivtpte3PPTWev36",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!kivtpte3PPTWev36"
+}

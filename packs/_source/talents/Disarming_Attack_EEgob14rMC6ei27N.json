@@ -1,0 +1,119 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Choose a single <a href=\"https://swse.fandom.com/wiki/Exotic_Weapon\" class=\"mw-redirect\" title=\"Exotic Weapon\">Exotic Weapon</a> or weapon group with which you are proficient. You ignore a target's armor bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> when <a href=\"https://swse.fandom.com/wiki/Disarming\" class=\"mw-redirect\" title=\"Disarming\">Disarming</a> with such a weapon. Additionally, as a <a href=\"https://swse.fandom.com/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a>, once per encounter, you can grant yourself a +10 bonus on your attack roll when attempting to <a href=\"https://swse.fandom.com/wiki/Disarm\" title=\"Disarm\">Disarm</a> an opponent while using such a weapon.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "takeMultipleTimes"
+      },
+      {
+        "mode": 2,
+        "value": "#payload#",
+        "key": "disarmingAttack"
+      }
+    ],
+    "choices": [
+      {
+        "noOptions": "You Must have Weapon Specialization with a weapon group or an Exotic Weapon to select one for Disarming Attack.",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {
+              "payload": "AVAILABLE_DISARMING_ATTACK"
+            },
+            "display": "AVAILABLE_DISARMING_ATTACK",
+            "name": "AVAILABLE_DISARMING_ATTACK",
+            "attributes": {}
+          }
+        ],
+        "description": "Select a Weapon to use Disarming Attack.",
+        "oneOption": "You have a single weapon group or exotic weapon that qualifies for Disarming Attack",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": true
+      }
+    ],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Intelligence 13",
+          "requirement": "Intelligence 13",
+          "type": "ATTRIBUTE"
+        },
+        {
+          "text": "Improved Disarm feat",
+          "requirement": "Improved Disarm",
+          "type": "FEAT"
+        },
+        {
+          "text": "Weapon Specialization (#payload#)",
+          "requirement": "Weapon Specialization (#payload#)",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Intelligence 13, Improved Disarm feat, and Weapon Specialization (#payload#)",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Soldier Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Melee Duelist Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Talent Trees",
+      "Core Rulebook",
+      "Melee Duelist Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Weapon Specialist Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Weapon_Specialist_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Disarming Attack",
+  "flags": {},
+  "type": "talent",
+  "folder": "XzwXaSfPJWLrfoDv",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385313517,
+    "modifiedTime": 1734385313517,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "EEgob14rMC6ei27N",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!EEgob14rMC6ei27N"
+}

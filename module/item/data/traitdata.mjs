@@ -21,7 +21,7 @@ export default class TraitData extends ItemSystemDataModel {
             ...CategoriesFields(),
             ...SourceFields(),
             ...PrerequisitesFields(),
-            equipped: new fields.StringField({initial: "unequipped", blank: true, required: false}),
+            equipped: new fields.StringField({initial: "", blank: true, required: false}),
             stripping: new fields.ObjectField({initial: {}})
         };
     }

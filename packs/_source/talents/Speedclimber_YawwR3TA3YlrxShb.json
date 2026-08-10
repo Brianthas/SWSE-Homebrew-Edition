@@ -1,0 +1,80 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You do not suffer penalties when using the <a href=\"https://swse.fandom.com/wiki/Accelerated_Climbing\" class=\"mw-redirect\" title=\"Accelerated Climbing\">Accelerated Climbing</a> application of the <a href=\"https://swse.fandom.com/wiki/Climb\" title=\"Climb\">Climb</a> Skill.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Long Stride talent",
+          "requirement": "Long Stride",
+          "type": "TALENT"
+        },
+        {
+          "text": "Surefooted talent",
+          "requirement": "Surefooted",
+          "type": "TALENT"
+        },
+        {
+          "text": "Trained in Climb",
+          "requirement": "Climb",
+          "type": "TRAINED SKILL"
+        }
+      ],
+      "text": "Long Stride talent, Surefooted talent, and Trained in Climb",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Scout Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Scout Talent Trees",
+      "Smuggler Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Master Scout Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Master_Scout_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Speedclimber",
+  "flags": {},
+  "type": "talent",
+  "folder": "FC2JiFLmeaayGUKm",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385308763,
+    "modifiedTime": 1786036141320,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "YawwR3TA3YlrxShb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!YawwR3TA3YlrxShb"
+}

@@ -1,6 +1,6 @@
 {
   "id": "swse",
-  "title": "Star Wars: Saga Edition",
+  "title": "SWSE: Homebrew Edition",
   "description": "The Star Wars: Saga Edition system for FoundryVTT!",
   "version": "13.2.4",
   "compatibility": {
@@ -14,6 +14,10 @@
       "email": "lijewskirocks@gmail.com",
       "discord": "AndyL#7253",
       "url": "https://github.com/kypvalanx"
+    },
+    {
+      "name": "Bryan Hamann",
+      "url": "https://github.com/Brianthas"
     }
   ],
   "esmodules": [
@@ -46,6 +50,13 @@
       "system": "swse"
     },
     {
+      "name": "legacy-weapons",
+      "label": "Legacy Weapons",
+      "path": "packs/legacy-weapon",
+      "type": "Item",
+      "system": "swse"
+    },
+    {
       "name": "equipment",
       "label": "Equipment",
       "path": "packs/equipment",
@@ -63,13 +74,6 @@
       "name": "implant",
       "label": "Implants",
       "path": "packs/implant",
-      "type": "Item",
-      "system": "swse"
-    },
-    {
-      "name": "backgrounds",
-      "label": "Backgrounds",
-      "path": "packs/backgrounds",
       "type": "Item",
       "system": "swse"
     },
@@ -147,13 +151,6 @@
       "name": "traits",
       "label": "Traits",
       "path": "packs/traits",
-      "type": "Item",
-      "system": "swse"
-    },
-    {
-      "name": "destinies",
-      "label": "Destinies",
-      "path": "packs/destinies",
       "type": "Item",
       "system": "swse"
     },
@@ -367,8 +364,8 @@
   },
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "shields",
-  "url": "https://github.com/kypvalanx/Foundry-VTT-StarWars-SagaEdition",
-  "manifest": "https://raw.githubusercontent.com/kypvalanx/Foundry-VTT-StarWars-SagaEdition/main/system.json",
-  "download": "https://github.com/kypvalanx/Foundry-VTT-StarWars-SagaEdition/archive/refs/tags/13.2.4.zip",
+  "url": "https://github.com/Brianthas/SWSE-Homebrew-Edition",
+  "manifest": "https://raw.githubusercontent.com/Brianthas/SWSE-Homebrew-Edition/main/system.json",
+  "download": "https://github.com/Brianthas/SWSE-Homebrew-Edition/archive/refs/heads/main.zip",
   "license": "https://creativecommons.org/licenses/by-sa/3.0/legalcode"
 }

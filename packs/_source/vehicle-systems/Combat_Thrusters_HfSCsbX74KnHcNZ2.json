@@ -1,0 +1,72 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Movement Systems",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Colossal",
+          "requirement": "Colossal",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal",
+          "requirement": "Colossal (Frigate)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal",
+          "requirement": "Colossal (Cruiser)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal",
+          "requirement": "Colossal (Station)",
+          "type": "TRAIT"
+        }
+      ],
+      "count": 1,
+      "text": "Colossal",
+      "type": "OR"
+    },
+    "changes": [
+      {
+        "mode": 2,
+        "value": "-1",
+        "key": "effectiveSizeWhenTargeted"
+      },
+      {
+        "mode": 2,
+        "value": "TRUE",
+        "key": "dogfighting"
+      }
+    ],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><p><b>Emplacement Points:</b> 1</p><p><b>Size Restriction:</b> Colossal</p><p>Often used by smugglers, bounty hunters, and blockade runners, Combat Thrusters are modifications to a <a href=\"https://swse.fandom.com/wiki/Space_Transports\" title=\"Space Transports\">Space Transport's</a> existing engines and maneuvering thrusters that allow the ship to engage in space combat as though it were a <a href=\"https://swse.fandom.com/wiki/Starfighter\" class=\"mw-redirect\" title=\"Starfighter\">Starfighter</a>. A ship with Combat Thrusters is treated as one size category smaller than its actual size category for the purpose of being targeted by <a href=\"https://swse.fandom.com/wiki/Capital_Ship\" class=\"mw-redirect\" title=\"Capital Ship\">Capital Ship</a> weapons (thus imposing the penalty for attacking targets smaller than Colossal size). Additionally, the <a href=\"https://swse.fandom.com/wiki/Space_Transport\" class=\"mw-redirect\" title=\"Space Transport\">Space Transport</a> is treated as a <a href=\"https://swse.fandom.com/wiki/Starfighter\" class=\"mw-redirect\" title=\"Starfighter\">Starfighter</a> for the purpose of <a href=\"https://swse.fandom.com/wiki/Dogfighting\" class=\"mw-redirect\" title=\"Dogfighting\">Dogfighting</a> (meaning that it can engage in and be engaged in <a href=\"https://swse.fandom.com/wiki/Dogfighting\" class=\"mw-redirect\" title=\"Dogfighting\">Dogfighting</a>) and <a href=\"https://swse.fandom.com/wiki/Starship_Maneuvers\" title=\"Starship Maneuvers\">Starship Maneuvers</a>. This Starship Modification does not change the ship's size modifier to <a href=\"https://swse.fandom.com/wiki/Vehicle_Combat\" title=\"Vehicle Combat\">Reflex Defense</a>.</p>",
+    "cost": "2000 (Base)",
+    "emplacementPoints": "1",
+    "availability": "Common"
+  },
+  "name": "Combat Thrusters",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848316738,
+    "modifiedTime": 1759848316738,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "HfSCsbX74KnHcNZ2",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!HfSCsbX74KnHcNZ2"
+}

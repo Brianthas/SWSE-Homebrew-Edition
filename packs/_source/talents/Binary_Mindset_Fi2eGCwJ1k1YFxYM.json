@@ -1,0 +1,96 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You may select a single Talent whose prerequisites you meet from the <a href=\"https://swse.fandom.com/wiki/1st-Degree_Droid_Talent_Tree\" title=\"1st-Degree Droid Talent Tree\">1st-Degree Droid Talent Tree</a>; you gain the benefits of this&nbsp;Talent&nbsp;and are considered to have this&nbsp;Talent&nbsp;for the purpose of satisfying prerequisites.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Intelligence 13",
+          "requirement": "Intelligence 13",
+          "type": "ATTRIBUTE"
+        },
+        {
+          "text": "Not a Droid",
+          "requirement": "Not a Droid",
+          "type": "SPECIAL"
+        }
+      ],
+      "text": "Intelligence 13, and Not a Droid",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Untested"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Chellewalker Creations"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Technician Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Untested",
+      "Chellewalker Creations",
+      "Homebrew Content",
+      "Technician Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Science Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Science_Talent_Tree",
+    "bonusTalentTree": "",
+    "cost": "0"
+  },
+  "name": "Binary Mindset",
+  "flags": {},
+  "type": "talent",
+  "folder": "izQ7SAWCdoAMPzIJ",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385311301,
+    "modifiedTime": 1734385311301,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "Fi2eGCwJ1k1YFxYM",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!Fi2eGCwJ1k1YFxYM"
+}

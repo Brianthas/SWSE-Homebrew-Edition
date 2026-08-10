@@ -1,0 +1,96 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Control! Control! You're finally learning Control! As a <a href=\"https://swse.fandom.com/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a>, you may add +5 to your <a href=\"https://swse.fandom.com/wiki/Force_Defense\" class=\"mw-redirect\" title=\"Force Defense\">Force Defense</a> or your own rolls versus your own <a href=\"https://swse.fandom.com/wiki/Force_Defense\" class=\"mw-redirect\" title=\"Force Defense\">Force Defense</a> during the encounter.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Voices talent",
+          "requirement": "Voices",
+          "type": "TALENT"
+        },
+        {
+          "text": "Midi-chlorian Challenge talent",
+          "requirement": "Midi-chlorian Challenge",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Voices talent, and Midi-chlorian Challenge talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Untested"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Sterling Hershey Creations"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Force Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Untested",
+      "Sterling Hershey Creations",
+      "Homebrew Content",
+      "Force Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Midi-chlorian Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Midi-chlorian_Talent_Tree",
+    "bonusTalentTree": "Force Talent Trees",
+    "cost": "0"
+  },
+  "name": "Midi-chlorian Control",
+  "flags": {},
+  "type": "talent",
+  "folder": "y2Hu4MwNleyVDq9p",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385309361,
+    "modifiedTime": 1734385309361,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "y74O18vaIL7SmfzO",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!y74O18vaIL7SmfzO"
+}

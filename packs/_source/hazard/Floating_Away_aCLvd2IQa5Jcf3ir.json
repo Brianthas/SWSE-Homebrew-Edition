@@ -1,0 +1,66 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A being is forcibly moved, such as with a Bantha Rush or by a [Telekinetic] Force Power.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "On Trigger",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Climb (DC 16): As a Reaction, the character can make a Climb check to negate the additional movement by grabbing onto something solid. If no stable object is nearby, the Climb skill cannot be used in this way.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: Floating Away can move a target vertically as well as horizontally. When moved upward, the target immediately falls back down to the height at which it began without taking Falling Damage.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>A good push is all it takes to send someone careening across the surface of Iol.</i> </p><p>On planets with low gravity like <a href=\"https://swse.fandom.com/wiki/Iol\" title=\"Iol\">Iol</a>, there is always a danger that, when outside of the controlled gravity of artificial structures one might float away from the planet if given a sufficient push. Though Iol's gravity is strong enough to keep moving surface-travelers from floating out into the blackness of space, it is light enough that a creature that is sufficiently pushed will drift for some distance before landing. </p><h2><span id=\"Floating_Away_Statistics_.28CL_5.29\"></span><span class=\"mw-headline\" id=\"Floating_Away_Statistics_(CL_5)\">Floating Away Statistics (CL 5)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Natural </p><p><b>Trigger:</b> A being is forcibly moved, such as with a <a href=\"https://swse.fandom.com/wiki/Bantha_Rush\" title=\"Bantha Rush\">Bantha Rush</a> or by a [<i><a href=\"https://swse.fandom.com/wiki/Telekinetic\" class=\"mw-redirect\" title=\"Telekinetic\">Telekinetic</a></i>] Force Power. </p><p><b>Attack:</b> +7 vs <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> </p><p><b>Recurrence:</b> On Trigger </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Climb\" title=\"Climb\">Climb</a> (DC 16):</b> As a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a>, the character can make a <a href=\"https://swse.fandom.com/wiki/Climb\" title=\"Climb\">Climb</a> check to negate the additional movement by grabbing onto something solid. If no stable object is nearby, the <a href=\"https://swse.fandom.com/wiki/Climb\" title=\"Climb\">Climb</a> skill cannot be used in this way.</li>\n</ul><p><b>Special:</b> Floating Away can move a target vertically as well as horizontally. When moved upward, the target immediately falls back down to the height at which it began without taking <a href=\"https://swse.fandom.com/wiki/Falling_Damage\" title=\"Falling Damage\">Falling Damage</a>. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Floating Away",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244511,
+    "modifiedTime": 1749263244511,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "aCLvd2IQa5Jcf3ir",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!aCLvd2IQa5Jcf3ir"
+}

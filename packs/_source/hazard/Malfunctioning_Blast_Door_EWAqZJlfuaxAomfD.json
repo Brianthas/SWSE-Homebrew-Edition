@@ -1,0 +1,71 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2d6",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A being attempts to move through the Malfunctioning Blast Door.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Special",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Acrobatics (DC 26): The character dives through the opening, gaining a +5 circumstance bonus to Reflex Defense against the Hazard. Mechanics (DC 21): The character fixes the Malfunctioning Blast Door so that it no longer operates erratically. Use Computer (DC 21): The character bypasses the controls for the Malfunctioning Blast Door and forces it to remain open.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: Each round, the Malfunctioning Blast Door opens on a random Initiative Count and closes on another random Initiative Count; the Gamemaster makes each Initiative check for the door.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Artificial"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>A blast door opens and closes on its own at lightning speed and at random intervals.</i> </p><p>A malfunctioning blast door that does not stay open or closed upon request can be used in a number of ways beyond simply endangering the heroes. The door can provide <a href=\"https://swse.fandom.com/wiki/Cover\" title=\"Cover\">Cover</a> for those on one side or the other, allowing weapons fire to pass through only during the times in each round that the door is open. In addition, combatants can use the blast door to slow foes down while they try to get away. </p><h2><span id=\"Malfunctioning_Blast_Door_Statistics_.28CL_4.29\"></span><span class=\"mw-headline\" id=\"Malfunctioning_Blast_Door_Statistics_(CL_4)\">Malfunctioning Blast Door Statistics (CL 4)</span></h2><p><span id=\"Malfunctioning_Blast_Door_(CL_4)\"></span><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Artificial </p><p><b>Trigger:</b> A being attempts to move through the Malfunctioning Blast Door. </p><p><b>Attack:</b> +6 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> Special </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Acrobatics\" title=\"Acrobatics\">Acrobatics</a> (DC 26):</b> The character dives through the opening, gaining a +5 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against the Hazard.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> (DC 21):</b> The character fixes the Malfunctioning Blast Door so that it no longer operates erratically.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> (DC 21):</b> The character bypasses the controls for the Malfunctioning Blast Door and forces it to remain open.</li>\n</ul><p><b>Special:</b> Each round, the Malfunctioning Blast Door opens on a random <a href=\"https://swse.fandom.com/wiki/Initiative_Count\" class=\"mw-redirect\" title=\"Initiative Count\">Initiative Count</a> and closes on another random <a href=\"https://swse.fandom.com/wiki/Initiative_Count\" class=\"mw-redirect\" title=\"Initiative Count\">Initiative Count</a>; the Gamemaster makes each <a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a> check for the door. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Malfunctioning Blast Door",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244626,
+    "modifiedTime": 1749263244626,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "EWAqZJlfuaxAomfD",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!EWAqZJlfuaxAomfD"
+}

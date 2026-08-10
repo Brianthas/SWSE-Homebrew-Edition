@@ -1,0 +1,68 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "When an ally within 12 squares of you and in your line of sight takes damage or moves down the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a> by any means, you can designate a different ally within 12 squares of you and in your line of sight as a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a>.<br><br>The ally you designate gain <a href=\"https://swse.fandom.com/wiki/Bonus_Hit_Points\" class=\"mw-redirect\" title=\"Bonus Hit Points\">Bonus Hit Points</a> equal to 5 + your <a href=\"https://swse.fandom.com/wiki/Charisma\" title=\"Charisma\">Charisma</a> modifier (minimum +1). Damage is subtracted from <a href=\"https://swse.fandom.com/wiki/Bonus_Hit_Points\" class=\"mw-redirect\" title=\"Bonus Hit Points\">Bonus Hit Points</a> first, and any <a href=\"https://swse.fandom.com/wiki/Bonus_Hit_Points\" class=\"mw-redirect\" title=\"Bonus Hit Points\">Bonus Hit Points</a> remaining at the end of the encounter are lost.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "a member of The Tyia",
+      "requirement": "The Tyia",
+      "type": "TRADITION"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Force Talent Trees"
+      },
+      {
+        "value": "Force Tradition Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Force Talent Trees",
+      "Force Tradition Talent Trees",
+      "Jedi Knight Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Tyia Adept Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Tyia_Adept_Talent_Tree",
+    "bonusTalentTree": "Force Talent Trees",
+    "source": "Star Wars Saga Edition Jedi Academy Training Manual",
+    "cost": "0"
+  },
+  "name": "Cycle of Harmony",
+  "flags": {},
+  "type": "talent",
+  "folder": "UhQdeYuQsscQ5uRc",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385312936,
+    "modifiedTime": 1786039906823,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "hDlRPr4lnlI3Elf7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!hDlRPr4lnlI3Elf7"
+}

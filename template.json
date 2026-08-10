@@ -2,8 +2,8 @@
   "Actor": {
     "types": [
       "character",
-      "computer",
-      "vehicle"
+      "vehicle",
+      "beast"
     ],
     "templates": {
       "alignment": {
@@ -251,10 +251,16 @@
       "attributes": {
       }
     },
-    "computer": {
-      "templates": [],
-      "content": "",
-      "cursor": "root",
+    "beast": {
+      "templates": [
+        "common",
+        "alignment",
+        "characterAttributes",
+        "crew",
+        "equipment",
+        "characterSkills"
+      ],
+      "biography": "",
       "attributes": {
       }
     }

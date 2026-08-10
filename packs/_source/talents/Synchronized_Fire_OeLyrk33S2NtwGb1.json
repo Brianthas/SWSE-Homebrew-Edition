@@ -1,0 +1,67 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Once per encounter, you may ready to fire a single weapon at the same target as an ally, and you coordinate with a single weapon of your ally.<br><br>If both attacks hit, you add the damage of the two weapons together before applying the target's <a href=\"https://swse.fandom.com/wiki/Shield_Rating\" title=\"Shield Rating\">Shield Rating</a> or <a href=\"https://swse.fandom.com/wiki/Damage_Reduction\" title=\"Damage Reduction\">Damage Reduction</a>, and treat it as a single attack for purposes of exceeding the target's <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Expert Gunner talent",
+      "requirement": "Expert Gunner",
+      "type": "TALENT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Ace Pilot Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Ace Pilot Talent Trees",
+      "Core Rulebook"
+    ],
+    "isSupplied": false,
+    "talentTree": "Gunner Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Gunner_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Starships of the Galaxy",
+    "cost": "0"
+  },
+  "name": "Synchronized Fire",
+  "flags": {},
+  "type": "talent",
+  "folder": "LZEx7mS93i24w1KF",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385305691,
+    "modifiedTime": 1734385305691,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "OeLyrk33S2NtwGb1",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!OeLyrk33S2NtwGb1"
+}

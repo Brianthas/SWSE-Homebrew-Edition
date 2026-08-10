@@ -1,0 +1,58 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p>The Flight Suit is a one-piece coverall (plus a helmet) that provides life support, protects the wearer from hostile environments, and prevents the wearer from succumbing to the adverse effects of high-velocity flying. A Flight Suit includes a matching helmet and gloves that seal around the wearer and provides up to 10 hours of life support. </p><p>As long as you have life support remaining, you are immune to any hostile atmosphere or inhaled <a href=\"https://swse.fandom.com/wiki/Poison\" class=\"mw-redirect\" title=\"Poison\">Poison</a> hazard. The suit also grants a +1 <a href=\"https://swse.fandom.com/wiki/Equipment\" title=\"Equipment\">Equipment</a> bonus to your <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "1",
+        "key": "equipmentFortitudeDefenseBonus"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "1000",
+    "weight": "3 Kilograms",
+    "availability": "",
+    "size": "",
+    "type": "",
+    "subtype": "Life Support",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "equipment": {}
+  },
+  "name": "Flight Suit",
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263242796,
+    "modifiedTime": 1749263242796,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "WRwjEubP8KPDme0h",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!WRwjEubP8KPDme0h"
+}

@@ -1,0 +1,75 @@
+{
+  "img": "systems/swse/icon/feat/Armor Proficiency (Light).png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: Star Wars Saga Edition Core Rulebook</i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You are proficient with <a href=\"https://swse.fandom.com/wiki/Light_Armor\" title=\"Light Armor\">Light Armor</a>, and can wear it without impediment.</p><p><b>Effect:</b> When you wear <a href=\"https://swse.fandom.com/wiki/Light_Armor\" title=\"Light Armor\">Light Armor</a>, you take no <a href=\"https://swse.fandom.com/wiki/Armor_Check_Penalty\" class=\"mw-redirect\" title=\"Armor Check Penalty\">Armor Check Penalty</a> on attack rolls or <a href=\"https://swse.fandom.com/wiki/Skill_Checks\" title=\"Skill Checks\">Skill Checks</a>. Additionally, you benefit from all of the armor's special <a href=\"https://swse.fandom.com/wiki/Equipment\" title=\"Equipment\">Equipment</a> bonuses (if any).</p><p><b>Normal:</b> A character who wears <a href=\"https://swse.fandom.com/wiki/Light_Armor\" title=\"Light Armor\">Light Armor</a> with which they are not proficient takes a -2 <a href=\"https://swse.fandom.com/wiki/Armor_Check_Penalty\" class=\"mw-redirect\" title=\"Armor Check Penalty\">Armor Check Penalty</a> on attack rolls as well as <a href=\"https://swse.fandom.com/wiki/Skill_Checks\" title=\"Skill Checks\">Skill Checks</a> made using the following <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>: <a href=\"https://swse.fandom.com/wiki/Acrobatics\" title=\"Acrobatics\">Acrobatics</a>, <a href=\"https://swse.fandom.com/wiki/Climb\" title=\"Climb\">Climb</a>, <a href=\"https://swse.fandom.com/wiki/Endurance\" title=\"Endurance\">Endurance</a>, <a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a>, <a href=\"https://swse.fandom.com/wiki/Jump\" title=\"Jump\">Jump</a>, <a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a>, and <a href=\"https://swse.fandom.com/wiki/Swim\" title=\"Swim\">Swim</a>. Additionally, the character gains none of the armor's special <a href=\"https://swse.fandom.com/wiki/Equipment\" title=\"Equipment\">Equipment</a> bonuses.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "armor",
+        "key": "armorProficiency"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": null,
+    "categories": [
+      {
+        "value": "Soldier Bonus Feats"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Scout Bonus Feats"
+      },
+      {
+        "value": "Noble Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Bonus Feats",
+      "General Feats",
+      "Scout Bonus Feats",
+      "Noble Bonus Feats",
+      "Armor Proficiency Feat",
+      "Smuggler Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Core Rulebook",
+    "cost": "0"
+  },
+  "name": "Armor Proficiency",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1761479025848,
+    "modifiedTime": 1786044546020,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "HlNyaX47WkI2GyKg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!HlNyaX47WkI2GyKg"
+}

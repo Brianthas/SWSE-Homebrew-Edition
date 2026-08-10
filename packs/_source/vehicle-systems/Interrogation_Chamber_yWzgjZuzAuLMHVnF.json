@@ -1,0 +1,61 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Starship Accessories",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal (Frigate)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal (Cruiser)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal (Station)",
+          "type": "TRAIT"
+        }
+      ],
+      "count": 1,
+      "text": "Colossal or Larger",
+      "type": "OR"
+    },
+    "changes": [],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a> </i></p><p><b>Emplacement Points:&nbsp;</b> 0</p><p><b>Size Requirement:</b>&nbsp;Colossal or Larger</p><p>An Interrogation Chamber is a <a href=\"https://swse.fandom.com/wiki/Holding_Cell\" class=\"mw-redirect\" title=\"Holding Cell\">Holding Cell</a> specifically designed to force prisoners to confess their crimes and reveal their secrets. The Starship needs at least one <a href=\"https://swse.fandom.com/wiki/Holding_Cell\" class=\"mw-redirect\" title=\"Holding Cell\">Holding Cell</a>, and the listed cost is for converting one <a href=\"https://swse.fandom.com/wiki/Holding_Cell\" class=\"mw-redirect\" title=\"Holding Cell\">Holding Cell</a> (for a single prisoner) into an Interrogation Chamber. Interrogation Chambers are favored by Imperial Inquisitors and bounty hunters, who often question associates of a wanted target.</p><p>The only \"Legitimate\" use of an&nbsp;Interrogation Chamber is that the isolation and limited sensory input distorts the prisoner's perception of time, so you don't have to wait 24 hours to retry a failed <a href=\"https://swse.fandom.com/wiki/Persuasion\" title=\"Persuasion\">Persuasion</a> check; however, each attempt that uses an Interrogation Chamber requires six hours of uninterrupted questioning. (Don't forget that a prisoner is completely at your mercy, so you gain a +5 bonus on your <a href=\"https://swse.fandom.com/wiki/Persuasion\" title=\"Persuasion\">Persuasion</a> check.)</p><p>Additionally, when making <a href=\"https://swse.fandom.com/wiki/Persuasion\" title=\"Persuasion\">Persuasion</a> check to <a href=\"https://swse.fandom.com/wiki/Intimidate\" class=\"mw-redirect\" title=\"Intimidate\">Intimidate</a> a character into revealing a piece of secret information, an Interrogation Chamber gives you the option of seeking information whose revelation would endanger the prisoner's life or the life of one of its allies. (Normally, you can't <a href=\"https://swse.fandom.com/wiki/Intimidate\" class=\"mw-redirect\" title=\"Intimidate\">Intimidate</a> a character into doing this.) This requires you to torture the prisoner, a blatantly evil act that will increase your <a href=\"https://swse.fandom.com/wiki/Dark_Side_Score\" title=\"Dark Side Score\">Dark Side Score</a> by 1. Furthermore, if you fail your <a href=\"https://swse.fandom.com/wiki/Persuasion\" title=\"Persuasion\">Persuasion</a> check, the prisoner will attempt to give you an untrue answer that it believes you want to hear, gaining a +5 bonus on their <a href=\"https://swse.fandom.com/wiki/Deception\" title=\"Deception\">Deception</a> check for every point by which your <a href=\"https://swse.fandom.com/wiki/Persuasion\" title=\"Persuasion\">Persuasion</a> check failed.</p>",
+    "cost": "10000",
+    "emplacementPoints": "0",
+    "availability": "Illegal"
+  },
+  "name": "Interrogation Chamber",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317817,
+    "modifiedTime": 1759848317817,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "yWzgjZuzAuLMHVnF",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!yWzgjZuzAuLMHVnF"
+}

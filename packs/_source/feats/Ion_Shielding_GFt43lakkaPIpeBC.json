@@ -1,0 +1,90 @@
+{
+  "img": "systems/swse/icon/feat/Ion_Shielding.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scavenger%27s_Guide_to_Droids\" title=\"Star Wars Saga Edition Scavenger's Guide to Droids\">Star Wars Saga Edition Scavenger's Guide to Droids</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>Your systems are insulated to improve your resistance to <a href=\"https://swse.fandom.com/wiki/Ion\" class=\"mw-redirect\" title=\"Ion\">Ion</a> damage.</p><p><b>Prerequisites:</b> (<a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> and <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> 13) or (<a href=\"https://swse.fandom.com/wiki/Cyborg_Hybrid\" class=\"mw-redirect\" title=\"Cyborg Hybrid\">Cyborg Hybrid</a> and <a href=\"https://swse.fandom.com/wiki/Constitution\" title=\"Constitution\">Constitution</a> 13)</p><p><b>Effect:</b> If the <a href=\"https://swse.fandom.com/wiki/Ion\" class=\"mw-redirect\" title=\"Ion\">Ion</a> damage (Before being halved) equals or exceeds your <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a>, you move only -1 step on the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>.</p><p><b>Normal:</b> If the <a href=\"https://swse.fandom.com/wiki/Ion\" class=\"mw-redirect\" title=\"Ion\">Ion</a> damage (Before being halved) equals or exceeds your <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a>, you normally move -2 steps on the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "children": [
+            {
+              "text": "Droid",
+              "requirement": "Is a droid",
+              "type": "SPECIAL"
+            },
+            {
+              "text": "Strength 13",
+              "requirement": "Strength 13",
+              "type": "ATTRIBUTE"
+            }
+          ],
+          "text": "Droid and Strength 13",
+          "type": "AND"
+        },
+        {
+          "children": [
+            {
+              "text": "Cyborg Hybrid",
+              "requirement": "Cyborg Hybrid",
+              "type": "SPECIAL"
+            },
+            {
+              "text": "Constitution 13",
+              "requirement": "Constitution 13",
+              "type": "ATTRIBUTE"
+            }
+          ],
+          "text": "Cyborg Hybrid and Constitution 13",
+          "type": "AND"
+        }
+      ],
+      "count": 1,
+      "text": "(Droid and Strength 13) or (Cyborg Hybrid and Constitution 13)",
+      "type": "OR"
+    },
+    "categories": [
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Scavenger's Guide to Droids",
+    "cost": "0"
+  },
+  "name": "Ion Shielding",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479027625,
+    "modifiedTime": 1761479027625,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "GFt43lakkaPIpeBC",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!GFt43lakkaPIpeBC"
+}

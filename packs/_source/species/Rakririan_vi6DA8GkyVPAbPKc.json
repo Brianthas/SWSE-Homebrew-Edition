@@ -1,0 +1,158 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<table style=\"width:100%; margin-top:2em; border:2px solid #999; font-size:105%; text-align:center; background:#00008B;\"> \n <tbody>\n  <tr> \n   <td><i><b>This <a href=\"https://swse.fandom.com/wiki/Homebrew_Content\" title=\"Homebrew Content\">Homebrew Content</a> has been <a href=\"https://swse.fandom.com/wiki/Category:Tested\" title=\"Category:Tested\">Tested</a> per the <a href=\"https://swse.fandom.com/wiki/Category:Untested\" title=\"Category:Untested\">Untested</a> guidelines. Whether or not it can be used is, as always, the prerogative of the Gamemaster.</b></i> </td>\n  </tr>\n </tbody>\n</table><p><i>Homebrew Reference Book: <a href=\"https://swse.fandom.com/wiki/Corporate_Sector_Sourcebook\" title=\"Corporate Sector Sourcebook\">Corporate Sector Sourcebook</a></i></p><p>Rakririans are sentient arthropods indigenous to the planet <span class=\"new\" title=\"Rakrir (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvUmFrcmlyP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Rakrir</span>. Rakririan society has developed into being highly refined and cultured, seen by other <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> as excessively finicky and meticulous. As a result of this, few Rakririans leave their homeworld, failing to find sufficiently sophisticated locations in the wider galaxy. </p><h3><span class=\"mw-headline\" id=\"Rakririan_Characteristics\">Rakririan Characteristics</span></h3><p><b>Personality:</b> Rakririans have a highly developed sense of culture and refinement and bring new meaning to the words \"meticulous\" and \"finicky.\" </p><p><b>Physical Description:</b> Rakririans are many segmented aliens with tubular bodies, five sets of limbs and a pair of incessantly moving eyestalks. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Rakririans age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-19 Years </td> \n   <td>20-89 Years </td> \n   <td>90-114 Years </td> \n   <td>115-139 Years </td> \n   <td>140+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Few Rakririans leave <span class=\"new\" title=\"Rakrir (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvUmFrcmlyP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Rakrir</span> because there are virtually no other locations in the galaxy refined enough for them. </p><p><b>Languages:</b> Rakririan is an intricate language, with an excessive number of different variations for different meanings and interpretations to properly communicate the proper taste of Rakririans. </p><p><b>Example Names:</b> Endrigorn, Mogoyu, Sabodor. </p><p><b>Adventurers:</b> Those Rakririans that leave <span class=\"new\" title=\"Rakrir (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvUmFrcmlyP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Rakrir</span> tend to be fabulously wealthy or work in the service industries severing the wealthy. As such, <a href=\"https://swse.fandom.com/wiki/Noble\" title=\"Noble\">Noble</a> tends to be the primary role of Rakririans. </p><h3><span class=\"mw-headline\" id=\"Rakririan_Species_Traits\">Rakririan Species Traits</span></h3><p>Rakririans share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Expert Climber",
+        "type": "trait"
+      },
+      {
+        "name": "Stability",
+        "type": "trait"
+      },
+      {
+        "name": "Large",
+        "type": "trait"
+      },
+      {
+        "name": "Heightened Awareness",
+        "type": "trait"
+      },
+      {
+        "name": "Homebrew Content",
+        "type": "trait"
+      },
+      {
+        "name": "Tested",
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "19",
+          "low": "12",
+          "text": "12-19",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "11",
+          "low": "1",
+          "text": "1-11",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "139",
+          "low": "115",
+          "text": "115-139",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "89",
+          "low": "20",
+          "text": "20-89",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "140",
+          "text": "140+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "114",
+          "low": "90",
+          "text": "90-114",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Expert Climber"
+      },
+      {
+        "value": "Stability"
+      },
+      {
+        "value": "Large"
+      },
+      {
+        "value": "Rakririans"
+      },
+      {
+        "value": "Heightened Awareness"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Tested"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Rakririan",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535567048,
+    "modifiedTime": 1736535567048,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "vi6DA8GkyVPAbPKc",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!vi6DA8GkyVPAbPKc"
+}

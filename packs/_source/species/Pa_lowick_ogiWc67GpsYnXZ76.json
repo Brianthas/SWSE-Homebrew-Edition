@@ -1,0 +1,138 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_of_Intrigue\" title=\"Star Wars Saga Edition Galaxy of Intrigue\">Star Wars Saga Edition Galaxy of Intrigue</a></i> </p><p>A mining expedition discovered the Pa'lowick homeworld about ten years before the Battle of <a href=\"https://swse.fandom.com/wiki/Endor\" class=\"mw-redirect\" title=\"Endor\">Endor</a>, making Pa'lowicks one of the newer <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> to join galactic society. Though technologically primitive, Pa'lowicks have a sophisticated and highly adaptive feudal society (ruled by noble families). They welcome contact with other <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> and enjoy trading foodstuffs and primitive wares for useful technological devices they cannot build themselves. </p><p>Regular trade with other <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> has done little to change the way Pa'lowicks live. Although they like to collect high-tech items, most are content to \"Nest\" on their homeworld, enjoying the simple life of farming, fishing, hunting, and storytelling. Aside from their rich culture, Pa'lowicks have little to offer the galaxy at large- a trait that most likely spared them from Imperial enslavement. </p><p>Pa'lowick nobles periodically entertain the notion of joining the New Republic, but the New Republic has done little to entice them. The New Republic's disinterest has had little impact on Pa'lowick society, as most Pa'lowicks could care less about events shaping the galactic community. </p><h3><span id=\"Pa.27lowick_Characteristics\"></span><span class=\"mw-headline\" id=\"Pa'lowick_Characteristics\">Pa'lowick Characteristics</span></h3><p><b>Personality:</b> Pa'lowicks are natural scavengers who exhibit incredible patience. They display ritualistic tendencies, rarely changing the way they do things. Pa'lowicks strive to preserve the traditions of the past while embracing technology that is useful. Singing and storytelling are among a Pa'lowick's favorite pastimes. </p><p><b>Physical Description:</b> A Pa'lowick has a round torso, long spindly arms and legs, mottled skin (usually yellow, green, and brown), and two mouths: one at the end of a long snout, the other located below the base of the snout. Two sharp tusks jut upwards from the Pa'lowick's lower mouth, which completely grows over at middle age. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Pa'lowicks age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-16 Years </td> \n   <td>17-44 Years </td> \n   <td>45-59 Years </td> \n   <td>60-74 Years </td> \n   <td>75+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The swampy planet of <span class=\"new\" title=\"Lowick (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvTG93aWNrP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Lowick</span>, located in <a href=\"https://swse.fandom.com/wiki/The_Outer_Rim\" title=\"The Outer Rim\">The Outer Rim</a>. </p><p><b>Language:</b> Pa'lowicks speak Lowickese. With the recent introduction of technology to their world, they've adapted the Basic alphabet to create written Lowickese. To the uneducated, it looks like gibberish written in Basic. </p><p><b>Example Names:</b> Aneeda Desha, Larisselle Chatrunis, Meep Erdles, Roopak Weelak, Sal Orbego, Sy Snootles. </p><p><b>Adventurers:</b> Pa'lowick rarely leave <span class=\"new\" title=\"Lowick (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvTG93aWNrP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Lowick</span>. Those who do are dazzled by traders' tales about the rest of the galaxy. Once they're offworld for a few weeks, they often run out of credits and end up as vagabonds, criminals, or slaves. Heroes can belong to any <a href=\"https://swse.fandom.com/wiki/Heroic_Class\" class=\"mw-redirect\" title=\"Heroic Class\">Heroic Class</a>, although most Pa'lowicks encountered away from their homeworld are either <a href=\"https://swse.fandom.com/wiki/Scoundrels\" class=\"mw-redirect\" title=\"Scoundrels\">Scoundrels</a> or <a href=\"https://swse.fandom.com/wiki/Nobles\" class=\"mw-redirect\" title=\"Nobles\">Nobles</a>. </p><h3><span id=\"Pa.27lowick_Species_Traits\"></span><span class=\"mw-headline\" id=\"Pa'lowick_Species_Traits\">Pa'lowick Species Traits</span></h3><p>Pa'lowicks share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Primitive",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Expert Swimmer",
+        "type": "trait"
+      },
+      {
+        "name": "Hold Breath",
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "44",
+          "low": "17",
+          "text": "17-44",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "11",
+          "low": "1",
+          "text": "1-11",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "75",
+          "text": "75+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "74",
+          "low": "60",
+          "text": "60-74",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "59",
+          "low": "45",
+          "text": "45-59",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "16",
+          "low": "12",
+          "text": "12-16",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Primitive"
+      },
+      {
+        "value": "Pa'lowicks"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Expert Swimmer"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Hold Breath"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Pa'lowick",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535566927,
+    "modifiedTime": 1736535566927,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "ogiWc67GpsYnXZ76",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!ogiWc67GpsYnXZ76"
+}

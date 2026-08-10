@@ -1,0 +1,74 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "When you hit a character with a melee attack, you can choose to have the attack deal only half damage and switch places with that foe. Your foe must be no more than one size category larger than you, and you must end up occupying a space that was previously occupied by your target (And vice versa) to use this Talent. This movement does not provoke <a href=\"https://swse.fandom.com/wiki/Attacks_of_Opportunity\" title=\"Attacks of Opportunity\">Attacks of Opportunity</a>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Noble Fencing Style talent",
+          "requirement": "Noble Fencing Style",
+          "type": "TALENT"
+        },
+        {
+          "text": "Base Attack Bonus 5",
+          "requirement": "5",
+          "type": "BASE ATTACK BONUS"
+        }
+      ],
+      "text": "Noble Fencing Style talent, and Base Attack Bonus 5",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Noble Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Noble Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Fencing Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Fencing_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Transposing Strike",
+  "flags": {},
+  "type": "talent",
+  "folder": "Tao4B1GH1i7kDqjF",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385304922,
+    "modifiedTime": 1734385304922,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "8WPzlQy7gIUATqRi",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!8WPzlQy7gIUATqRi"
+}

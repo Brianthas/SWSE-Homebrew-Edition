@@ -1,0 +1,64 @@
+{
+  "img": "systems/swse/icon/feat/Impetuous_Move.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You have an uncanny ability to call upon your reserves when you most need them.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Constitution\" title=\"Constitution\">Constitution</a> 13</p><p><b>Effect:</b> When you catch a <a href=\"https://swse.fandom.com/wiki/Second_Wind\" class=\"mw-redirect\" title=\"Second Wind\">Second Wind</a>, you can choose to regain only half of the Hit Points you normally would with a <a href=\"https://swse.fandom.com/wiki/Second_Wind\" class=\"mw-redirect\" title=\"Second Wind\">Second Wind</a> and immediately Move up to half of your Speed. This movement does not provoke <a href=\"https://swse.fandom.com/wiki/Attacks_of_Opportunity\" title=\"Attacks of Opportunity\">Attacks of Opportunity</a>.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Constitution 13",
+      "requirement": "Constitution 13",
+      "type": "ATTRIBUTE"
+    },
+    "categories": [
+      {
+        "value": "Soldier Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Jedi Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Bonus Feats",
+      "General Feats",
+      "Jedi Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Scum and Villainy",
+    "cost": "0"
+  },
+  "name": "Impetuous Move",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479027375,
+    "modifiedTime": 1761479027375,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "OebcwWqg5WgU33Xs",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!OebcwWqg5WgU33Xs"
+}

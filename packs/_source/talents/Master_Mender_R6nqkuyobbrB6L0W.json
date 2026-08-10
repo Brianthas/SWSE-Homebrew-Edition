@@ -1,0 +1,63 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Whenever you temporarily mend a <a href=\"https://swse.fandom.com/wiki/Biotech\" class=\"mw-redirect\" title=\"Biotech\">Biotech</a> device using the <a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a> Skill, the mended device moves +4 steps on the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>. In addition, the mended device only moves -3 steps down the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a> at the end of the scene or encounter, and is only disabled if this reduction brings it to -5 steps on the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Expert Shaper talent",
+      "requirement": "Expert Shaper",
+      "type": "TALENT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Shaper Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Shaper Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Shaper Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Shaper_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Legacy Era Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Master Mender",
+  "flags": {},
+  "type": "talent",
+  "folder": "GOwaycrTM7MQ9hY9",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385311629,
+    "modifiedTime": 1734385311629,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "R6nqkuyobbrB6L0W",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!R6nqkuyobbrB6L0W"
+}

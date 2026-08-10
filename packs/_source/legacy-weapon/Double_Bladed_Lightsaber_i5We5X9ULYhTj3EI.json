@@ -1,0 +1,84 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p>The Double-Bladed Lightsaber consists of two Lightsabers fused at their hilts. These weapons are rare and require even greater skill to wield than single-bladed Lightsabers. One or both blades can be ignited at once. </p><p>With both blades ignited, a Double-Bladed Lightsaber is a Double Weapon. You can attack with both ends of the weapon as a <a href=\"https://swse.fandom.com/wiki/Full-Round_Action\" class=\"mw-redirect\" title=\"Full-Round Action\">Full-Round Action</a>, but both attack rolls take a -10 penalty (although certain <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a> and <a href=\"https://swse.fandom.com/wiki/Talents\" title=\"Talents\">Talents</a> can reduce these penalties). </p><p>A Double-Bladed Lightsaber requires two special <a href=\"https://swse.fandom.com/wiki/Energy_Cells\" class=\"mw-redirect\" title=\"Energy Cells\">Energy Cells</a> to operate (the cost of each is ten times the price of an ordinary <a href=\"https://swse.fandom.com/wiki/Energy_Cell\" title=\"Energy Cell\">Energy Cell</a>, but it lasts almost indefinitely). </p><p><b>Special:</b> Can be <a href=\"https://swse.fandom.com/wiki/Thrown\" class=\"mw-redirect\" title=\"Thrown\">Thrown</a> </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isThrowable"
+      }
+    ],
+    "choices": [
+      {
+        "noOptions": "NO_AVAILABLE_OPTIONS",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {
+              "payload": "AVAILABLE_LIGHTSABER_CRYSTALS"
+            },
+            "display": "AVAILABLE_LIGHTSABER_CRYSTALS",
+            "name": "AVAILABLE_LIGHTSABER_CRYSTALS",
+            "attributes": {}
+          }
+        ],
+        "description": "Lightsaber Crystal",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": false
+      }
+    ],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "7,000",
+    "weight": "2 Kilograms",
+    "availability": "Rare",
+    "size": "Large",
+    "type": "",
+    "subtype": "Lightsabers",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "2d8/2d8",
+    "damageType": "Energy, Slashing"
+  },
+  "name": "Double-Bladed Lightsaber",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Double_Bladed_Lightsaber.png",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513544,
+    "modifiedTime": 1786051513591,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "i5We5X9ULYhTj3EI",
+  "_key": "!items!i5We5X9ULYhTj3EI"
+}

@@ -1,0 +1,59 @@
+{
+  "img": "systems/swse/icon/feat/Survivor_of_Ryloth.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Rebellion_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Rebellion Era Campaign Guide\">Star Wars Saga Edition Rebellion Era Campaign Guide</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a>, <a href=\"https://swse.fandom.com/wiki/Species_Feats\" class=\"mw-redirect\" title=\"Species Feats\">Species Feats</a></i></p><p>You know how to survive on both the night and day sides of your homeworld, allowing you and your allies to weather the harsh environments of the galaxy.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Twi%27lek\" title=\"Twi'lek\">Twi'lek</a></p><p><b>Effect:</b>&nbsp;Once per hour when you and your allies are in an environment of <a href=\"https://swse.fandom.com/wiki/Extreme_Heat\" class=\"mw-redirect\" title=\"Extreme Heat\">Extreme Heat</a> or <a href=\"https://swse.fandom.com/wiki/Extreme_Cold\" class=\"mw-redirect\" title=\"Extreme Cold\">Extreme Cold</a>, you can make a <a href=\"https://swse.fandom.com/wiki/Survival\" title=\"Survival\">Survival</a> check. You and up to 10 allies can use the results of the <a href=\"https://swse.fandom.com/wiki/Survival\" title=\"Survival\">Survival</a> check in place of your <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> when the <a href=\"https://swse.fandom.com/wiki/Extreme_Heat\" class=\"mw-redirect\" title=\"Extreme Heat\">Extreme Heat</a> or <a href=\"https://swse.fandom.com/wiki/Extreme_Cold\" class=\"mw-redirect\" title=\"Extreme Cold\">Extreme Cold</a> makes its hourly attack roll against your <a href=\"https://swse.fandom.com/wiki/Fortitude_Defenses\" class=\"mw-redirect\" title=\"Fortitude Defenses\">Fortitude Defenses</a>.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Twi'lek species",
+      "requirement": "Twi'lek",
+      "type": "SPECIES"
+    },
+    "categories": [
+      {
+        "value": "Species Feats"
+      },
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Rebellion Era Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Survivor of Ryloth",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479029076,
+    "modifiedTime": 1761479029076,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "yDyXFi8h9TqtDmDE",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!yDyXFi8h9TqtDmDE"
+}

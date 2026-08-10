@@ -1,0 +1,66 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2d6",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A creature is exposed to Extreme Heat or Cold.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Hourly, as long as the target remains exposed to Extreme Heat or Cold.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Special: A creature that has taken damage from Extreme Heat or Cold cannot regain Hit Points or move up the Condition Track until it spends at least 1 hour in a normal environment. Heavy clothing or armor provides a +5 Equipment bonus to Fortitude Defense to resist Extreme Cold, but imposes a -5 penalty to Fortitude Defense to resist Extreme Heat.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>Extreme Heat or Cold can punish those who are unprepared for it.</i> </p><h2><span id=\"Extreme_Heat_or_Cold_Statistics_.28CL_4.29\"></span><span class=\"mw-headline\" id=\"Extreme_Heat_or_Cold_Statistics_(CL_4)\">Extreme Heat or Cold Statistics (CL 4)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Natural </p><p><b>Trigger:</b> A creature is exposed to Extreme Heat or Cold. </p><p><b>Attack:</b> +6 vs <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> </p><p><b>Recurrence:</b> Hourly, as long as the target remains exposed to Extreme Heat or Cold. </p><p><b>Special:</b> A creature that has taken damage from Extreme Heat or Cold cannot regain Hit Points or move up the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a> until it spends at least 1 hour in a normal environment. Heavy clothing or armor provides a +5 <a href=\"https://swse.fandom.com/wiki/Equipment\" title=\"Equipment\">Equipment</a> bonus to <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> to resist Extreme Cold, but imposes a -5 penalty to <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> to resist Extreme Heat. </p><h2><span class=\"mw-headline\" id=\"Additional_Extreme_Heat_or_Cold_Data\">Additional Extreme Heat or Cold Data</span></h2><p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Rebellion_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Rebellion Era Campaign Guide\">Star Wars Saga Edition Rebellion Era Campaign Guide</a></i> </p><p>Extreme Heat or Cold that would be sufficient to harm or kill a creature or Droid might not affect <a href=\"https://swse.fandom.com/wiki/Vehicles\" title=\"Vehicles\">Vehicles</a> and other machines, since most are designed to function under extreme conditions. However, in some situations, the weather on a planet might be so severe that it interferes with mechanical systems. In these cases, Gamemasters can use the following rules to represent the effects of Extreme Temperatures on <a href=\"https://swse.fandom.com/wiki/Vehicles\" title=\"Vehicles\">Vehicles</a>. These rules should not be applied to creatures or Droids, which are covered above. </p><p>Each minute a <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> operates in Extreme Heat or Cold, make an attack roll (1d20+10) against the Vehicle's <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>. If the attack succeeds, the <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> moves -1 <a href=\"https://swse.fandom.com/wiki/Persistent\" class=\"mw-redirect\" title=\"Persistent\">Persistent</a> step down the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>. This <a href=\"https://swse.fandom.com/wiki/Persistent_Condition\" class=\"mw-redirect\" title=\"Persistent Condition\">Persistent Condition</a> can be removed only if the <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> receives <a href=\"https://swse.fandom.com/wiki/Repairs\" class=\"mw-redirect\" title=\"Repairs\">Repairs</a>. </p>",
+    "source": "Star Wars Saga Edition Rebellion Era Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Extreme Heat or Cold",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244465,
+    "modifiedTime": 1749263244465,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "XeW9r215p5gpFZoy",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!XeW9r215p5gpFZoy"
+}

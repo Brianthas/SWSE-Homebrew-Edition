@@ -1,0 +1,69 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_at_War\" title=\"Star Wars Saga Edition Galaxy at War\">Star Wars Saga Edition Galaxy at War</a></i> </p><p>Static Mines are laid so that enemies trigger them and become incapacitated or killed in the resulting blast. Static Mines are small to medium explosive devices equipped with basic vibration sensors. They are concealed on or below the ground, and they detonate when triggered by nearby activity. </p><p><a href=\"https://swse.fandom.com/wiki/Mines\" title=\"Mines\">Mines</a> are difficult to spot when they are well concealed. Visually detecting any type of concealed <a href=\"https://swse.fandom.com/wiki/Mine\" class=\"mw-redirect\" title=\"Mine\">Mine</a> requires a DC 25 <a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> check. When detonated, a <a href=\"https://swse.fandom.com/wiki/Mine\" class=\"mw-redirect\" title=\"Mine\">Mine</a> makes a single attack roll, which is compared to the <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> of every target in the Mine's <a href=\"https://swse.fandom.com/wiki/Burst\" class=\"mw-redirect\" title=\"Burst\">Burst</a> radius. Targets hit take full damage, and targets missed take half damage. A target with the <b><a href=\"https://swse.fandom.com/wiki/Evasion\" class=\"mw-redirect\" title=\"Evasion\">Evasion</a></b> Talent takes half damage from a successful attack and no damage if the attack misses. </p><p><b><a href=\"https://swse.fandom.com/wiki/Splash\" class=\"mw-redirect\" title=\"Splash\">Splash</a>:</b> 2x2 Squares </p><p><b><a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> DC:</b> 25 </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2x2 Squares",
+        "key": "splash"
+      },
+      {
+        "mode": 2,
+        "value": "Perception DC: 25",
+        "key": "skillCheck"
+      }
+    ],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "100",
+    "weight": "1 Kilogram",
+    "availability": "Military",
+    "size": "",
+    "type": "",
+    "subtype": "Mines",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "4d6",
+    "damageType": "Slashing"
+  },
+  "name": "Static Mine",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Static_Mine.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513495,
+    "modifiedTime": 1786051513577,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "rg1XiHbSYysg7R0X",
+  "_key": "!items!rg1XiHbSYysg7R0X"
+}

@@ -1,0 +1,71 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2d8",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A being begins its turn on Quicksand.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "On Trigger",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Perception (DC 23): The character detects the Quicksand before they reach it, gaining a +5 circumstance bonus to Reflex Defense to avoid the Hazard. This bonus stacks with the bonus they receive from a successful Survival check against the Hazard. Survival (DC 23): The character determines the boundaries of the Quicksand and gains a +5 circumstance bonus to Reflex Defense to avoid the Hazard. This bonus stacks with the bonus they receive from a successful Perception check against the Hazard. Swim (DC 28): The character escapes from the Quicksand at the end of the round.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: A creature caught in Quicksand sinks into it over a period of 5 rounds. If the creature fully sinks into the Quicksand, it can hold its breath for a number of rounds equal to its Constitution score before it must begin making Endurance checks to Hold Breath.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>A deep bog is covered with sand and other natural objects, making it virtually unnoticeable.</i> </p><p>The hidden danger of Quicksand can be exploited by beings fighting in forests or jungles. Aside from its most obvious use as a trap, Quicksand can also be an excellent hiding place- as long as those using it can get out in a reasonable amount of time. Quicksand can also serve as an obstacle preventing heroes from obtaining a specific item or artifact. If the desired item is cast into the Quicksand, at least one of the heroes must risk his or her life to retrieve it. </p><h2><span id=\"Quicksand_Statistics_.28CL_8.29\"></span><span class=\"mw-headline\" id=\"Quicksand_Statistics_(CL_8)\">Quicksand Statistics (CL 8)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Natural </p><p><b>Trigger:</b> A being begins its turn on Quicksand. </p><p><b>Attack:</b> +10 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> On Trigger </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> (DC 23):</b> The character detects the Quicksand before they reach it, gaining a +5 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> to avoid the Hazard. This bonus stacks with the bonus they receive from a successful <a href=\"https://swse.fandom.com/wiki/Survival\" title=\"Survival\">Survival</a> check against the Hazard.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Survival\" title=\"Survival\">Survival</a> (DC 23):</b> The character determines the boundaries of the Quicksand and gains a +5 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> to avoid the Hazard. This bonus stacks with the bonus they receive from a successful <a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> check against the Hazard.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Swim\" title=\"Swim\">Swim</a> (DC 28):</b> The character escapes from the Quicksand at the end of the round.</li>\n</ul><p><b>Special:</b> A creature caught in Quicksand sinks into it over a period of 5 rounds. If the creature fully sinks into the Quicksand, it can hold its breath for a number of rounds equal to its <a href=\"https://swse.fandom.com/wiki/Constitution\" title=\"Constitution\">Constitution</a> score before it must begin making <a href=\"https://swse.fandom.com/wiki/Endurance\" title=\"Endurance\">Endurance</a> checks to <a href=\"https://swse.fandom.com/wiki/Hold_Breath\" class=\"mw-redirect\" title=\"Hold Breath\">Hold Breath</a>. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Quicksand",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244686,
+    "modifiedTime": 1749263244686,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "QGSlQgTWycewMxXy",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!QGSlQgTWycewMxXy"
+}

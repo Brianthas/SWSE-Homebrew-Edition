@@ -1,0 +1,120 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {}
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Stun",
+      "_id": "wr1Tjmm1Y30J3rEr",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "4d6",
+            "key": "damage",
+            "priority": null,
+            "type": "override",
+            "phase": "initial"
+          },
+          {
+            "value": "Stun",
+            "key": "damageType",
+            "priority": null,
+            "type": "override",
+            "phase": "initial"
+          }
+        ]
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513510,
+        "modifiedTime": 1786051513510,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!dtoAM6xKOzlnqjiV.wr1Tjmm1Y30J3rEr"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p>When the object of a mission is to detain or subdue rather than kill; mercenary units, military personnel, and local law enforcement agencies use Stun Grenades. The standard Stun Grenade unleashes concussive energy that knocks out creatures within its 2-Square <a href=\"https://swse.fandom.com/wiki/Burst\" class=\"mw-redirect\" title=\"Burst\">Burst</a> radius. It is designed to explode on contact after it is thrown, dealing damage in the same round it is hurled. </p><p>When you make an <a href=\"https://swse.fandom.com/wiki/Area_Attack\" class=\"mw-redirect\" title=\"Area Attack\">Area Attack</a> with a Stun Grenade, you make a single attack roll and compare the result to the <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> of every target in the Grenade's <a href=\"https://swse.fandom.com/wiki/Burst\" class=\"mw-redirect\" title=\"Burst\">Burst</a> radius. Creatures you hit take full <a href=\"https://swse.fandom.com/wiki/Stun\" class=\"mw-redirect\" title=\"Stun\">Stun</a> damage, and has a chance of pushing targeted creatures down the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>. </p><p>A target with the <b><a href=\"https://swse.fandom.com/wiki/Evasion\" class=\"mw-redirect\" title=\"Evasion\">Evasion</a></b> Talent takes half <a href=\"https://swse.fandom.com/wiki/Stun\" class=\"mw-redirect\" title=\"Stun\">Stun</a> damage from a successful attack, and no <a href=\"https://swse.fandom.com/wiki/Stun\" class=\"mw-redirect\" title=\"Stun\">Stun</a> damage if the attack misses its <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>. </p><p><a href=\"https://swse.fandom.com/wiki/Droids\" title=\"Droids\">Droids</a>, <a href=\"https://swse.fandom.com/wiki/Vehicles\" title=\"Vehicles\">Vehicles</a>, and objects are immune to <a href=\"https://swse.fandom.com/wiki/Stun\" class=\"mw-redirect\" title=\"Stun\">Stun</a> damage. </p><p><b>Special:</b>&nbsp;This is an&nbsp;<a href=\"https://swse.fandom.com/wiki/Area_Attack\" class=\"mw-redirect\" title=\"Area Attack\">Area Attack</a>&nbsp;Weapon. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Launchable Grenade",
+        "key": "actsAs"
+      }
+    ],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "250",
+    "weight": "0.5 Kilograms",
+    "availability": "Restricted",
+    "size": "Tiny",
+    "type": "",
+    "subtype": "Grenades",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageType": "Energy",
+    "specialQualities": "Special: This is an Area Attack Weapon."
+  },
+  "name": "Stun Grenade",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Stun_Grenade.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513510,
+    "modifiedTime": 1786051513582,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "dtoAM6xKOzlnqjiV",
+  "_key": "!items!dtoAM6xKOzlnqjiV"
+}

@@ -1,0 +1,91 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "When you wield only a single light melee weapon, or a single <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a>, and use the <a href=\"https://swse.fandom.com/wiki/Full_Attack\" title=\"Full Attack\">Full Attack</a> Action, once per turn; you can <a href=\"https://swse.fandom.com/wiki/Move\" title=\"Move\">Move</a> up to your Speed as a <a href=\"https://swse.fandom.com/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a> at any time during your turn.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "children": [
+            {
+              "text": "Double Attack with either Advanced Melee, an Exotic Weapon (Melee), or Lightsabers",
+              "requirement": "Double Attack (Advanced Melee Weapon)",
+              "type": "FEAT"
+            },
+            {
+              "text": "Double Attack with either Advanced Melee, an Exotic Weapon (Melee), or Lightsabers",
+              "requirement": "Double Attack (#payload#)",
+              "type": "FEAT"
+            },
+            {
+              "text": "Double Attack with either Advanced Melee, an Exotic Weapon (Melee), or Lightsabers",
+              "requirement": "Double Attack (Lightsabers)",
+              "type": "FEAT"
+            }
+          ],
+          "count": 1,
+          "text": "Double Attack with either Advanced Melee, an Exotic Weapon (Melee), or Lightsabers",
+          "type": "OR"
+        },
+        {
+          "text": "Weapon Finesse feat",
+          "requirement": "Weapon Finesse",
+          "type": "FEAT"
+        }
+      ],
+      "text": "(Double Attack with either Advanced Melee, an Exotic Weapon (Melee), or Lightsabers), and Weapon Finesse feat",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Melee Duelist Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Melee Duelist Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Melee Duelist Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Melee_Duelist_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Single Weapon Flourish I",
+  "flags": {},
+  "type": "talent",
+  "folder": "yJuUX8DjONvntwks",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385309187,
+    "modifiedTime": 1734385309187,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "7aFidkaCRPJLZd6h",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!7aFidkaCRPJLZd6h"
+}

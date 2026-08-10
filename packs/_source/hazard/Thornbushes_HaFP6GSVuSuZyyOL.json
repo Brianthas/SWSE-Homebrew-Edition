@@ -1,0 +1,71 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2d10",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A being begins its turn within Thornbushes.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round at the start of the target's turn, until the being escapes the Thornbushes.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Jump (DC 19): The character jumps over the Thornbushes, gaining a +5 circumstance bonus to Reflex Defense to avoid the Hazard. Perception (DC 14): The character locates a part of the Thornbushes that is less densely packed with thorns, gaining a +2 circumstance bonus to Reflex Defense against the Hazard. Stealth (DC 19): The character minimizes their contact with the thorns while moving through the bushes. As the character moves, their speed is reduced by half and the character takes half damage from a successful attack by the Thornbushes (and no damage from a miss).",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: This Hazard can be avoided by cutting through the Thornbushes with an edged tool, a melee weapon, or a Lightsaber.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>A large patch of sharp Thornbushes blocks your path.</i> </p><p>An individual Thornbush is not very threatening, but an entire field of Thornbushes can give even the hardiest soldier pause. A large patch could be used in a variety of ways. For example, the middle of the thorns could be the home for a pack of wild beasts that attack any creatures that disturb them. Thornbushes could cover a minefield that has been seeded with explosives by the heroes' enemies. Thornbushes can also provide <a href=\"https://swse.fandom.com/wiki/Concealment\" title=\"Concealment\">Concealment</a> for anyone hiding in the thicket. </p><h2><span id=\"Thornbushes_Statistics_.28CL_2.29\"></span><span class=\"mw-headline\" id=\"Thornbushes_Statistics_(CL_2)\">Thornbushes Statistics (CL 2)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Natural </p><p><b>Trigger:</b> A being begins its turn within Thornbushes. </p><p><b>Attack:</b> +4 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> Each round at the start of the target's turn, until the being escapes the Thornbushes. </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Jump\" title=\"Jump\">Jump</a> (DC 19):</b> The character jumps over the Thornbushes, gaining a +5 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> to avoid the Hazard.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> (DC 14):</b> The character locates a part of the Thornbushes that is less densely packed with thorns, gaining a +2 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against the Hazard.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a> (DC 19):</b> The character minimizes their contact with the thorns while moving through the bushes. As the character moves, their speed is reduced by half and the character takes half damage from a successful attack by the Thornbushes (and no damage from a miss).</li>\n</ul><p><b>Special:</b> This Hazard can be avoided by cutting through the Thornbushes with an edged tool, a melee weapon, or a <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a>. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Thornbushes",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244827,
+    "modifiedTime": 1749263244827,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "HaFP6GSVuSuZyyOL",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!HaFP6GSVuSuZyyOL"
+}

@@ -1,0 +1,78 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<i>Extended Critical Range (Pistols) Talent created by Wikia user LilLiteralist.</i><br><br>When you are using a <a href=\"https://swse.fandom.com/wiki/Pistol\" class=\"mw-redirect\" title=\"Pistol\">Pistol</a>, you extend the weapon's critical range by 1 (for example, 19-20 instead of 20). However, anything other than a Natural 20 is not considered an automatic hit; if you roll anything other than a Natural 20 and still miss the target, you do not score a Critical Hit.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Base Attack Bonus 10",
+          "requirement": "10",
+          "type": "BASE ATTACK BONUS"
+        },
+        {
+          "text": "Weapon Proficiency (Pistols)",
+          "requirement": "Weapon Proficiency (Pistols)",
+          "type": "FEAT"
+        }
+      ],
+      "text": "Base Attack Bonus 10, and Weapon Proficiency (Pistols)",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Gunslinger Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Gunslinger Talent Trees",
+      "Core Rulebook"
+    ],
+    "isSupplied": false,
+    "talentTree": "Gunslinger Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Gunslinger_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Extended Critical Range (Pistols)",
+  "flags": {},
+  "type": "talent",
+  "folder": "HUYIxi2GubLMS5AI",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385305832,
+    "modifiedTime": 1734385305832,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "ZSmf3Vf3LMlgOtuS",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!ZSmf3Vf3LMlgOtuS"
+}

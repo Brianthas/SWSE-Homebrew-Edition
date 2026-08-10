@@ -1,0 +1,64 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Once per encounter, you can designate an opponent you have just damaged as a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a>; that opponent cannot make <a href=\"https://swse.fandom.com/wiki/Attacks_of_Opportunity\" title=\"Attacks of Opportunity\">Attacks of Opportunity</a> against you until the end of your next turn.<br><br>You may use this in conjunction with the <b>Strike and Run</b> Talent, allowing you to benefit from both Talents as a single <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Strike and Run talent",
+      "requirement": "Strike and Run",
+      "type": "TALENT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Scoundrel Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Scoundrel Talent Trees",
+      "Smuggler Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Run and Gun Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Run_and_Gun_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Slippery Strike",
+  "flags": {},
+  "type": "talent",
+  "folder": "3gJEUmF5wS0ts9Ww",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385311203,
+    "modifiedTime": 1786036141319,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "RsYHdfh8FBHSEMMa",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!RsYHdfh8FBHSEMMa"
+}

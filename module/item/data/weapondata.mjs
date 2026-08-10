@@ -26,8 +26,41 @@ export default class WeaponData extends ItemSystemDataModel {
             ...SourceFields(),
             ...ModeFields(),
             weapon: new fields.ObjectField({initial: {}}),
-            equipped: new fields.StringField({initial: "unequipped", blank: true, required: false}),
-            stripping: new fields.ObjectField({initial: {}})
+            equipped: new fields.StringField({initial: "", blank: true, required: false}),
+            stripping: new fields.ObjectField({initial: {}}),
+            // Homebrew: persisted per-weapon ability-score override for attack/damage rolls —
+            // a manual choice the player owns, offered on every weapon (no gating). The three
+            // lightsaber-technique values carry extra mechanical effects beyond a plain ability
+            // swap (Ataru's two-handed doubling, Kinetic Combat's WIS/CHA-max) and are only
+            // offered when wielding a lightsaber with the granting talent/power.
+            abilityOverride: new fields.StringField({
+                initial: "", blank: true,
+                choices: ["", "str", "dex", "wis", "cha", "ataru", "kinetic_combat", "noble_fencing"]
+            }),
+            // Homebrew: persisted per-weapon handedness override ("1"/"2"), same pattern as
+            // abilityOverride — a StringField (not Number) so template equality checks
+            // (Handlebars ifEquals is strict ===) work the same way abilityOverride's do.
+            // Blank means auto-determine from size/grip/Strength as before. Only offered on the
+            // sheet for weapons that genuinely support a choice.
+            handsOverride: new fields.StringField({initial: "", blank: true, choices: ["", "1", "2"]}),
+            // Typed mechanical fields a weapon genuinely owns — promoted out of the generic
+            // system.changes array (see module/item/default-changes.mjs). Cross-grantable keys
+            // (toHitModifier, bonusDamage, proficiency/focus/specialization, grip, thrown, etc.)
+            // stay generic since other item types can also grant them.
+            damageDie: new fields.StringField({initial: "", blank: true, required: false}),
+            damageType: new fields.StringField({initial: "", blank: true, required: false}),
+            specialQualities: new fields.StringField({initial: "", blank: true, required: false}),
+            lightSlotCost: new fields.NumberField({initial: null, nullable: true, required: false}),
+            kitSlotCost: new fields.NumberField({initial: null, nullable: true, required: false}),
+            // Homebrew: a quick, always-visible way to hand-tune *this specific weapon's* attack/
+            // damage bonus (e.g. a lightsaber's crystal attunement granting +1 to attack) without
+            // needing a whole talent/feat/effect to express a single number. Doesn't change the
+            // toHitModifier/bonusDamage keys themselves being generic (see comment above) — these
+            // just synthesize the same generic change via defaultChanges (default-changes.mjs), so
+            // any other source that already grants toHitModifier/bonusDamage keeps working exactly
+            // as before, this only adds a nicer, weapon-scoped entry point for one-off tweaks.
+            miscAttackBonus: new fields.NumberField({initial: 0, integer: true, nullable: false, required: false}),
+            miscDamageBonus: new fields.NumberField({initial: 0, integer: true, nullable: false, required: false})
         };
     }
 }

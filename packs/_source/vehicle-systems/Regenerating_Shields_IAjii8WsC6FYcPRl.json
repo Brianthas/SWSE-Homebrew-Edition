@@ -1,0 +1,40 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Defense Systems",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "5",
+        "key": "regeneratingShields"
+      }
+    ],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><p><b>Emplacement Points:</b>&nbsp;2</p><p>Because of the importance of <a href=\"https://swse.fandom.com/wiki/Starship_Shields\" title=\"Starship Shields\">Starship Shields</a>, many engineers have tried to devise ways to improve their performance. For example, the <a href=\"https://swse.fandom.com/wiki/Mon_Calamari\" title=\"Mon Calamari\">Mon Calamari</a> install backup shield generators on their warships to keep their defenses strong, while others have added additional power generators or special computers to ensure that shield generators have the most power when they need it. All these systems are essentially ways to have <a href=\"https://swse.fandom.com/wiki/Starship_Shields\" title=\"Starship Shields\">Starship Shields</a> regenerate more quickly, even if they work on different principles.</p><p>If a ship possesses Regenerating Shields, it's current <a href=\"https://swse.fandom.com/wiki/Shield_Rating\" title=\"Shield Rating\">Shield Rating</a> increases by 10 (Up to its maximum <a href=\"https://swse.fandom.com/wiki/Shield_Rating\" title=\"Shield Rating\">Shield Rating</a>) when a System Operator uses the <a href=\"https://swse.fandom.com/wiki/Recharge_Shields\" title=\"Recharge Shields\">Recharge Shields</a> Action. Normal <a href=\"https://swse.fandom.com/wiki/Starship_Shields\" title=\"Starship Shields\">Starship Shields</a> increase their <a href=\"https://swse.fandom.com/wiki/Shield_Rating\" title=\"Shield Rating\">Shield Rating</a> by only 5 when recharged.</p>",
+    "cost": "5000 (Base)",
+    "emplacementPoints": "2",
+    "availability": "Restricted"
+  },
+  "name": "Regenerating Shields",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317025,
+    "modifiedTime": 1759848317025,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "IAjii8WsC6FYcPRl",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!IAjii8WsC6FYcPRl"
+}

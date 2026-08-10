@@ -1,0 +1,138 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Legacy_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Legacy Era Campaign Guide\">Star Wars Saga Edition Legacy Era Campaign Guide</a></i> </p><p> The amphibious Chagrians are comfortable both on land and in water. The coastal cities of their homeworld are constructed to allow the rising tides to flood the buildings. When this takes place, Chagrians swim from place to place, or use speeders, which are adapted for aquatic use. The pleasant tropical climate of <a href=\"https://swse.fandom.com/wiki/Champala\" title=\"Champala\">Champala</a>, coupled with the exotic architecture of its cities makes the Chagrian homeworld a popular destination for galactic tourists. Unlike cities, spaceports on <a href=\"https://swse.fandom.com/wiki/Champala\" title=\"Champala\">Champala</a> are built high above sea level, on the dryest parcels of land.</p><p>Although juvenile Chagrians possess a weak sense of taste, this sense fades as they mature into adults. The end result is that Chagrians rarely, if ever, enjoy consuming food and drink, and do so solely to fuel their bodies. Dining activities are traditionally viewed as a nuisance, and a waste of time, so most Chagrians choose to consume nutrient capsules in order to maintain bodily health and energy levels. When traveling, most Chagrians carry portable scanners that allow them to determine the relative nutrient value of the food they eat. Although they are unable to taste the food they eat, Chagrians view dining as an opportunity to socialize with members of other <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> that do not share their sensory deficiencies. </p><p>Society on <a href=\"https://swse.fandom.com/wiki/Champala\" title=\"Champala\">Champala</a> is peaceful and highly structured, although Chagrian legal systems are complex and often daunting to outsiders. As a rule, Chagrians are law-abiding and obedient toward figures of authority. Chagrian government ensures that every citizen is cared for, and the standard of living for even the poorest Chagrian is quite high when compared to the impoverished members of other <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>. </p><p>Chagrians have inherited an innate resistance to <a href=\"https://swse.fandom.com/wiki/Radiation\" title=\"Radiation\">Radiation</a> due to instability in Champala's primary star. Their blue skin is a direct result of this evolutionary step, and modern Chagrians continue to enjoy protection from myriad forms of <a href=\"https://swse.fandom.com/wiki/Radiation\" title=\"Radiation\">Radiation</a> as a side effect. </p><h3><span class=\"mw-headline\" id=\"Chagrian_Characteristics\">Chagrian Characteristics</span></h3><p><b>Personality:</b> Chagrians are, by and large, even-tempered and accepting of others. They appreciate law, order, and well-defined social structures. On their homeworld, they want for little, and so Chagrians are rarely selfish or greedy individuals. Due to their accepting natures, Chagrians enjoy interacting with members of many different <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>. Given their loyalty, they make excellent companions and friends. </p><p><b>Physical Description:</b> Chagrians possess thick skin that ranges in color from light blue to dark indigo. Horns (known as <i>Lethorns</i>) stem from a pair of fleshy growths that protrude from the sides of their heads. Male Chagrians also develop a pair of sharp horns on the tops of their heads, and these are known to get quite long. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Chagrians age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-12 Years </td> \n   <td>13-16 Years </td> \n   <td>17-42 Years </td> \n   <td>43-56 Years </td> \n   <td>57-75 Years </td> \n   <td>76+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> <a href=\"https://swse.fandom.com/wiki/Champala\" title=\"Champala\">Champala</a>, a tropical water world in <a href=\"https://swse.fandom.com/wiki/The_Inner_Rim\" title=\"The Inner Rim\">The Inner Rim</a>. </p><p><b>Languages:</b> Chagri is the native language of the <a href=\"https://swse.fandom.com/wiki/Champala\" title=\"Champala\">Champala</a>. Chagrians who leave their homeworld readily learn Basic in order to communicate with the rest of the galactic community. </p><p><b>Example Names:</b> Mas Amedda, Belar Tasseva, Myn Seda, Shiran Vallendri, Ketrias Gorran. </p><p><b>Adventurers:</b> Given their predisposition in dealing well with others, Chagrians make excellent <a href=\"https://swse.fandom.com/wiki/Nobles\" class=\"mw-redirect\" title=\"Nobles\">Nobles</a> and <a href=\"https://swse.fandom.com/wiki/Jedi\" title=\"Jedi\">Jedi</a>. Less scrupulous Chagrians gravitate toward the <a href=\"https://swse.fandom.com/wiki/Scoundrel\" title=\"Scoundrel\">Scoundrel</a> class, while Chagrian <a href=\"https://swse.fandom.com/wiki/Scouts\" class=\"mw-redirect\" title=\"Scouts\">Scouts</a> and <a href=\"https://swse.fandom.com/wiki/Soldiers\" class=\"mw-redirect\" title=\"Soldiers\">Soldiers</a> are not unheard of. </p><h3><span class=\"mw-headline\" id=\"Chagrian_Species_Traits\">Chagrian Species Traits</span></h3><p>Chagrians share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Breathe Underwater",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Low-Light Vision",
+        "type": "trait"
+      },
+      {
+        "name": "Radiation Resistance",
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "12",
+          "low": "1",
+          "text": "1-12",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "16",
+          "low": "13",
+          "text": "13-16",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "75",
+          "low": "57",
+          "text": "57-75",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "56",
+          "low": "43",
+          "text": "43-56",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "42",
+          "low": "17",
+          "text": "17-42",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "76",
+          "text": "76+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Breathe Underwater"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Chagrians"
+      },
+      {
+        "value": "Low-Light Vision"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Radiation Resistance"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Chagrian",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535565757,
+    "modifiedTime": 1736535565757,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "S7CDiNSmAhEeeeEL",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!S7CDiNSmAhEeeeEL"
+}

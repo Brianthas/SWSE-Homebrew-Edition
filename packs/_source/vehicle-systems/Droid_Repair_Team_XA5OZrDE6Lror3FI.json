@@ -1,0 +1,61 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Starship Accessories",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal (Frigate)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal (Cruiser)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal (Station)",
+          "type": "TRAIT"
+        }
+      ],
+      "count": 1,
+      "text": "Colossal or Larger",
+      "type": "OR"
+    },
+    "changes": [],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><p><b>Emplacement Points:</b>&nbsp;1</p><p><b>Size Restriction:</b>&nbsp;Colossal or Larger</p><p>A Droid Repair Team automatically deploys to repair a Starship when it moves -1 or more steps down the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>- no action on the part of the crew is necessary to activate it. A Droid Repair Team does not take any action other than to make a <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> check to <a href=\"https://swse.fandom.com/wiki/Jury-Rig\" class=\"mw-redirect\" title=\"Jury-Rig\">Jury-Rig</a> a Starship, moving it +1 step on the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>. A Droid Repair Team has a <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> check modifier of +13.</p><p>If a Starship takes damage that exceeds it's <a href=\"https://swse.fandom.com/wiki/Shield_Rating\" title=\"Shield Rating\">Shield Rating</a> (if any) in a round when a Droid Repair Team is active, there's a 25% chance that the Droid Repair Team is destroyed.</p>",
+    "cost": "5000 (Base)",
+    "emplacementPoints": "1",
+    "availability": "Common"
+  },
+  "name": "Droid Repair Team",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317671,
+    "modifiedTime": 1759848317671,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "XA5OZrDE6Lror3FI",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!XA5OZrDE6Lror3FI"
+}

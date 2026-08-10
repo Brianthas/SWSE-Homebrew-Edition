@@ -1,0 +1,70 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You are skilled at quietly knocking out or eliminating guards and others when they are caught unaware. If you damage an opponent that is unaware of you, that opponent cannot speak or make other noises until the end of your next turn. This is a <a href=\"https://swse.fandom.com/wiki/Stun\" class=\"mw-redirect\" title=\"Stun\">Stun</a> effect.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:in: Talent Trees, Infiltrator Talent Trees Infiltration Talent Tree Edit Edit source History Talk (0) Reference Book: Star Wars Saga Edition Force Unleashed Campaign Guide You are trained to secretly infiltrate enemy strongholds and organizations by force or by guile. Contents 1 Always Ready 2 Concealed Weapon Expert 3 Creeping Approach 4 Set for Stun 5 Silent Takedown Always Ready[ ] Prerequisite: Trained in Initiative You are accustomed to operating in response to enemy actions. When your Readied Action is triggered, it does not change your Initiative Count. Concealed Weapon Expert [ ] You are deadly with an Unarmed strike, Hold-Out Blaster Pistol, Knife, Vibrodagger, or other small concealable weapons (as determined by the Gamemaster). Once per round you can use a Swift Action to reroll an attack using one of these weapons, but you must accept the result of the reroll, even if it is worse. Creeping Approach[ ] Prerequisite: Trained in Stealth As a Swift Action, you can designate a single opponent within 12 squares that is unaware of you as the target of this Talent. Until the beginning of your next turn, that target may not make Perception checks to notice you, even if you enter the target's line of sight. If you or any of your allies attack the target, the effect of this Talent ends. Set for Stun[ ] You are particularly adept with Stun weapons. If you are using a ranged weapon that deals Stun damage (including a lethal weapon set to Stun), you can spend two consecutive Swift Actions in the same round to activate this Talent. If the Stun damage on your next attack exceeds the target's Damage Threshold, you move the target -3 steps along the Condition Track, instead of the normal -2 steps. Silent Takedown[ ] Prerequisite: Trained in Stealth You are skilled at quietly knocking out or eliminating guards and others when they are caught unaware. If you damage an opponent that is unaware of you, that opponent cannot speak or make other noises until the end of your next turn. This is a Stun effect. Categories Categories: Talent Trees Infiltrator Talent Trees Add category Cancel Save Community content is available under CC-BY-SA unless otherwise noted. More Fandoms Fantasy Sci-fi Star Wars",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Trained in Stealth",
+      "requirement": "Stealth",
+      "type": "TRAINED SKILL"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Infiltrator Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Infiltrator Talent Trees",
+      "Operative Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Infiltration Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Infiltration_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Force Unleashed Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Silent Takedown",
+  "flags": {},
+  "type": "talent",
+  "folder": "tjtIKDL2bKVJwvNT",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385306176,
+    "modifiedTime": 1786039798053,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "FIxhufYXz64xCljS",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!FIxhufYXz64xCljS"
+}

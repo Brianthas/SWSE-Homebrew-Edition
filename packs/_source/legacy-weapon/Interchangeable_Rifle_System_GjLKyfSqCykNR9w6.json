@@ -1,0 +1,108 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode"
+        }
+      },
+      "statuses": [],
+      "disabled": false,
+      "name": "Single-Shot",
+      "_id": "Gk9I6kDvK4j40EiE",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513536,
+        "modifiedTime": 1786051513536,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!GjLKyfSqCykNR9w6.Gk9I6kDvK4j40EiE"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_at_War\" title=\"Star Wars Saga Edition Galaxy at War\">Star Wars Saga Edition Galaxy at War</a></i> </p><p>The DC-17m Interchangeable Weapon System (also called the DC-17m ICWS) is a weapon unique to <a href=\"https://swse.fandom.com/wiki/Clone_Commandos\" class=\"mw-redirect\" title=\"Clone Commandos\">Clone Commandos</a>. The varying demands of the battlefield and the Clone Commandos' atypical missions led BlasTech to design this weapon to fill three different roles. </p><p>The basic configuration is a standard <a href=\"https://swse.fandom.com/wiki/Blaster_Rifle\" title=\"Blaster Rifle\">Blaster Rifle</a>. Additional attachments, however, can be added to transform the weapon into a Sniper Rifle or an Anti-Armor Grenade Launcher. <a href=\"https://swse.fandom.com/wiki/Clone_Commandos\" class=\"mw-redirect\" title=\"Clone Commandos\">Clone Commandos</a> appreciate the versatility of the ICWS, which reduces the weight they carry by reducing the number of their weapons. </p><p>An Interchangeable Rifle System can be switched among three different modes: standard Blaster-Rifle mode, Sniper-Rifle mode, and Anti-Armor mode. Switching Weapon modes is a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a>. </p><h3><span class=\"mw-headline\" id=\"Blaster-Rifle_Mode\">Blaster-Rifle Mode</span></h3><p>In Blaster-Rifle mode, the ICWS functions like a regular <a href=\"https://swse.fandom.com/wiki/Blaster_Rifle\" title=\"Blaster Rifle\">Blaster Rifle</a>. </p><h3><span class=\"mw-headline\" id=\"Sniper-Rifle_Mode\">Sniper-Rifle Mode</span></h3><p>When the ICWS is changed to Sniper-Rifle mode, the weapon includes a <a href=\"https://swse.fandom.com/wiki/Targeting_Scope\" title=\"Targeting Scope\">Targeting Scope</a> (Standard), so there is no penalty to attack at Short <a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a>. However, the wielder takes a -2 penalty against targets at unmodified Point-Blank <a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a>. </p><p><b>Accurate:</b> This weapon mode takes no penalty when firing at targets at Short&nbsp;<a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a>. </p><h3><span class=\"mw-headline\" id=\"Anti-Armor_Mode\">Anti-Armor Mode</span></h3><p>When the ICWS is in Anti-Armor mode, the Weapon functions as a single-shot <a href=\"https://swse.fandom.com/wiki/Grenade_Launcher\" title=\"Grenade Launcher\">Grenade Launcher</a> that fires special Anti-Armor Rounds (3-Square <a href=\"https://swse.fandom.com/wiki/Burst\" class=\"mw-redirect\" title=\"Burst\">Burst</a> radius), each weighing 1 kg and costing 400 credits. In this mode, the ICWS is considered a <a href=\"https://swse.fandom.com/wiki/Heavy_Weapon\" class=\"mw-redirect\" title=\"Heavy Weapon\">Heavy Weapon</a>. </p><p><b>Special:</b>&nbsp;This is an&nbsp;<a href=\"https://swse.fandom.com/wiki/Area_Attack\" class=\"mw-redirect\" title=\"Area Attack\">Area Attack</a>&nbsp;Weapon. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "4,500",
+    "weight": "5 Kilograms",
+    "availability": "Military",
+    "size": "Medium",
+    "type": "",
+    "subtype": "Rifles",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "4d6",
+    "damageType": "Slashing",
+    "specialQualities": "Special: This is an Area Attack Weapon."
+  },
+  "name": "Interchangeable Rifle System",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Interchangeable_Rifle_System.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513536,
+    "modifiedTime": 1786051513590,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "GjLKyfSqCykNR9w6",
+  "_key": "!items!GjLKyfSqCykNR9w6"
+}

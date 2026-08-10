@@ -1,0 +1,127 @@
+{
+  "img": "systems/swse/icon/feat/Slammer.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scavenger%27s_Guide_to_Droids\" title=\"Star Wars Saga Edition Scavenger's Guide to Droids\">Star Wars Saga Edition Scavenger's Guide to Droids</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You clap two <a href=\"https://swse.fandom.com/wiki/Hand\" title=\"Hand\">Hands</a>, <a href=\"https://swse.fandom.com/wiki/Claw\" title=\"Claw\">Claws</a>, or <a href=\"https://swse.fandom.com/wiki/Appendages\" title=\"Appendages\">Appendages</a> together, delivering a crushing blow to an enemy.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a>, Small size or larger, 2+ <a href=\"https://swse.fandom.com/wiki/Appendages\" title=\"Appendages\">Appendages</a>, <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> 13</p><p><b>Effect:</b> As a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a>, you slam two of your <a href=\"https://swse.fandom.com/wiki/Appendages\" title=\"Appendages\">Appendages</a> together from either side of an enemy, crushing your target between them. Make a melee attack. If the attack is successful, you deal <a href=\"https://swse.fandom.com/wiki/Unarmed\" class=\"mw-redirect\" title=\"Unarmed\">Unarmed</a> damage with double your <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> bonus. If you also exceed the target's <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a>, it has a <a href=\"https://swse.fandom.com/wiki/Persistent_Condition\" class=\"mw-redirect\" title=\"Persistent Condition\">Persistent Condition</a> that can only be removed with 8 hours of rest or a DC 20 <a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a> check.</p><p><b>Special:</b> If you also have the <a href=\"https://swse.fandom.com/wiki/Crush\" title=\"Crush\">Crush</a> Feat, increase your <a href=\"https://swse.fandom.com/wiki/Unarmed\" class=\"mw-redirect\" title=\"Unarmed\">Unarmed</a> damage by 1 die when using Slammer.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Droid",
+          "requirement": "Is a droid",
+          "type": "SPECIAL"
+        },
+        {
+          "children": [
+            {
+              "text": "Small size or larger",
+              "requirement": "Small",
+              "type": "TRAIT"
+            },
+            {
+              "text": "Small size or larger",
+              "requirement": "Medium",
+              "type": "TRAIT"
+            },
+            {
+              "text": "Small size or larger",
+              "requirement": "Large",
+              "type": "TRAIT"
+            },
+            {
+              "text": "Small size or larger",
+              "requirement": "Huge",
+              "type": "TRAIT"
+            },
+            {
+              "text": "Small size or larger",
+              "requirement": "Gargantuan",
+              "type": "TRAIT"
+            },
+            {
+              "text": "Small size or larger",
+              "requirement": "Colossal",
+              "type": "TRAIT"
+            },
+            {
+              "text": "Small size or larger",
+              "requirement": "Colossal (Frigate)",
+              "type": "TRAIT"
+            },
+            {
+              "text": "Small size or larger",
+              "requirement": "Colossal (Cruiser)",
+              "type": "TRAIT"
+            },
+            {
+              "text": "Small size or larger",
+              "requirement": "Colossal (Station)",
+              "type": "TRAIT"
+            }
+          ],
+          "count": 1,
+          "text": "Small size or larger",
+          "type": "OR"
+        },
+        {
+          "text": "2+ Appendages",
+          "requirement": "2+ Appendages",
+          "type": "SPECIAL"
+        },
+        {
+          "text": "Strength 13",
+          "requirement": "Strength 13",
+          "type": "ATTRIBUTE"
+        }
+      ],
+      "text": "Droid, (Small size or larger), 2+ Appendages, and Strength 13",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Grappling Feats"
+      },
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Scavenger's Guide to Droids",
+    "cost": "0"
+  },
+  "name": "Slammer",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479028887,
+    "modifiedTime": 1761479028887,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "70tIfNFIu70Nr1GM",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!70tIfNFIu70Nr1GM"
+}

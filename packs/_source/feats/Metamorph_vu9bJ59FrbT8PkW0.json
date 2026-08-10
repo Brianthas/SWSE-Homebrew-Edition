@@ -1,0 +1,72 @@
+{
+  "img": "systems/swse/icon/feat/Metamorph.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You are a talented shapeshifter, capable of changing your appearance and body mass.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Constitution\" title=\"Constitution\">Constitution</a> 13, Shapeshift Species Trait, <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in <a href=\"https://swse.fandom.com/wiki/Deception\" title=\"Deception\">Deception</a></p><p><b>Effect:</b> As a <a href=\"https://swse.fandom.com/wiki/Full-Round_Action\" class=\"mw-redirect\" title=\"Full-Round Action\">Full-Round Action</a>, you can change your mass when you use your Shapeshift Species Trait, increasing or decreasing your size by one step. You can maintain this form for a number of rounds per day equal to your <a href=\"https://swse.fandom.com/wiki/Constitution\" title=\"Constitution\">Constitution</a> score.</p><p>If you reduce your size to Small, you gain a +1 size bonus to your <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> and a +5 size bonus on <a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a> checks, but your <a href=\"https://swse.fandom.com/wiki/Carrying_Capacity\" class=\"mw-redirect\" title=\"Carrying Capacity\">Carrying Capacity</a> is three-quarters of what it was prior to your use of Metamorph.</p><p>If you increase your size to Large, you take a -1 penalty to your <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> and a -5 penalty on <a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a> checks. However, your <a href=\"https://swse.fandom.com/wiki/Carrying_Capacity\" class=\"mw-redirect\" title=\"Carrying Capacity\">Carrying Capacity</a> doubles, you gain a +5 size bonus to your <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a>, and your <a href=\"https://swse.fandom.com/wiki/Reach\" title=\"Reach\">Reach</a> increases by 1 square.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Constitution 13",
+          "requirement": "Constitution 13",
+          "type": "ATTRIBUTE"
+        },
+        {
+          "text": "Shapeshift trait",
+          "requirement": "Shapeshift",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Trained in Deception",
+          "requirement": "Deception",
+          "type": "TRAINED SKILL"
+        }
+      ],
+      "text": "Constitution 13, Shapeshift trait, and Trained in Deception",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Scum and Villainy",
+    "cost": "0"
+  },
+  "name": "Metamorph",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479027948,
+    "modifiedTime": 1761479027948,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "vu9bJ59FrbT8PkW0",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!vu9bJ59FrbT8PkW0"
+}

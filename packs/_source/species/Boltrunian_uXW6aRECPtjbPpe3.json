@@ -1,0 +1,165 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<table style=\"width:100%; margin-top:2em; border:2px solid #999; font-size:105%; text-align:center; background:#00008B;\"> \n <tbody>\n  <tr> \n   <td><i><b>This <a href=\"https://swse.fandom.com/wiki/Homebrew_Content\" title=\"Homebrew Content\">Homebrew Content</a> has been <a href=\"https://swse.fandom.com/wiki/Category:Tested\" title=\"Category:Tested\">Tested</a> per the <a href=\"https://swse.fandom.com/wiki/Category:Untested\" title=\"Category:Untested\">Untested</a> guidelines. Whether or not it can be used is, as always, the prerogative of the Gamemaster.</b></i> </td>\n  </tr>\n </tbody>\n</table><p><i>Homebrew Reference Book: <a href=\"https://swse.fandom.com/wiki/Dark_Forces_Campaign_Guide\" title=\"Dark Forces Campaign Guide\">Dark Forces Campaign Guide</a></i></p><p>Boltrunians are a <a href=\"https://swse.fandom.com/wiki/Near-Human\" class=\"mw-redirect\" title=\"Near-Human\">Near-Human</a> Species that developed on the Outer Rim world, <span class=\"new\" title=\"Boltrunia (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQm9sdHJ1bmlhP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Boltrunia</span>. The planet's <a href=\"https://swse.fandom.com/wiki/High_Gravity\" class=\"mw-redirect\" title=\"High Gravity\">High Gravity</a> forced the Boltrunians to develop massive strength and endurance in order to survive and flourish. As a result, Boltrunian society is a perfect example of survival of the fittest, creating a people who respect pure strength and disdain weakness. Boltrunians have little compassion for those who cannot pull their weight and will often leave weak and infirm to their deaths. </p><h3><span class=\"mw-headline\" id=\"Boltrunian_Characteristics\">Boltrunian Characteristics</span></h3><p><b>Personality:</b> Boltrunians are a powerful Species, owing their strength to the <a href=\"https://swse.fandom.com/wiki/High_Gravity\" class=\"mw-redirect\" title=\"High Gravity\">High Gravity</a> environment of their homeworld. They tend to be a cold and practical people with little use for compassion or sentimentality. </p><p><b>Physical Description:</b>&nbsp;Every inch of a Boltrunian's body is pure, rippling muscle designed to withstand the pressures of their <a href=\"https://swse.fandom.com/wiki/High_Gravity\" class=\"mw-redirect\" title=\"High Gravity\">High Gravity</a> homeworld. They have humanoid builds, but are characterized by a sharp set of bottom teeth, heavy brow ridges and their hairless and craggy skin. There are two subspecies of Boltrunian- one with green-hued skin and large ears and the other with beige skin and without external ears. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b>&nbsp;Boltrunian age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th><b>CHILD</b> </th> \n   <th><b>YOUNG ADULT</b> </th> \n   <th><b>ADULT</b> </th> \n   <th><b>MIDDLE AGE</b> </th> \n   <th><b>OLD</b> </th> \n   <th><b>VENERABLE</b> </th>\n  </tr> \n  <tr> \n   <td>1-5 Years </td> \n   <td>6-12 Years </td> \n   <td>13-300 Years </td> \n   <td>301-400 Years </td> \n   <td>401-500 Years </td> \n   <td>501+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b>&nbsp;<span class=\"new\" title=\"Boltrunia (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQm9sdHJ1bmlhP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Boltrunia</span>, a harsh and <a href=\"https://swse.fandom.com/wiki/High_Gravity\" class=\"mw-redirect\" title=\"High Gravity\">High Gravity</a> world in <a href=\"https://swse.fandom.com/wiki/The_Outer_Rim\" title=\"The Outer Rim\">The Outer Rim</a>. </p><p><b>Languages:</b>&nbsp;Boltrunians have their own guttural language which they use amongst their own kind. Most Boltrunians also speak Basic, which they use when addressing non-Boltrunians. </p><p><b>Example Names:</b>&nbsp;Maw, Shabba, Warto. </p><p><b>Adventurers:</b>&nbsp;Boltrunians are renowned for their strength and their coase nature. Boltrunians often leave their inhospitable homeworld looking for a better life but their bold and bossy nature rarely endears them to other sentients. Boltrunians are often employed as thugs, mercenaries, or other violent professions. However, many Boltrunians are happy to make an honest credit working as a freight loader or other profession where their strength is an asset. Most are just happy to be rid of their harsh homeworld. </p><h3><span class=\"mw-headline\" id=\"Boltrunian_Species_Traits\">Boltrunian Species Traits</span></h3><p>Boltrunians share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "High-Gravity Native",
+        "type": "trait"
+      },
+      {
+        "name": "Bonus Feat (Extra Second Wind)",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Homebrew Content",
+        "type": "trait"
+      },
+      {
+        "name": "Tested",
+        "type": "trait"
+      },
+      {
+        "name": "Physically Intimidating",
+        "type": "trait"
+      },
+      {
+        "name": "Extra Second Wind",
+        "type": "feat"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "500",
+          "low": "401",
+          "text": "401-500",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "12",
+          "low": "6",
+          "text": "6-12",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "300",
+          "low": "13",
+          "text": "13-300",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "5",
+          "low": "1",
+          "text": "1-5",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "501",
+          "text": "501+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "400",
+          "low": "301",
+          "text": "301-400",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "High-Gravity Native"
+      },
+      {
+        "value": "Boltrunians"
+      },
+      {
+        "value": "Bonus Feat (Extra Second Wind)"
+      },
+      {
+        "value": "Bonus Feat"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Tested"
+      },
+      {
+        "value": "Physically Intimidating"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Boltrunian",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535565688,
+    "modifiedTime": 1736535565688,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "uXW6aRECPtjbPpe3",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!uXW6aRECPtjbPpe3"
+}

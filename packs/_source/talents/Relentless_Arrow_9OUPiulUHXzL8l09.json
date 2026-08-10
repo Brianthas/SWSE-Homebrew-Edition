@@ -1,0 +1,73 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Once per turn as a <a href=\"https://swse.fandom.com/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a>, you can expend one use of the <i><a href=\"https://swse.fandom.com/wiki/Move_Object\" title=\"Move Object\">Move Object</a></i> power from your <a href=\"https://swse.fandom.com/wiki/Force_Power_Suite\" class=\"mw-redirect\" title=\"Force Power Suite\">Force Power Suite</a> to reroll an attack roll made with an <a href=\"https://swse.fandom.com/wiki/Energy_Bow\" title=\"Energy Bow\">Energy Bow</a>. The result of the reroll must be accepted, even if it is worse.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:Once per turn as a<a href=\"https://swse.fandom.com/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a>, you can expend one use of the<i><a href=\"https://swse.fandom.com/wiki/Move_Object\" title=\"Move Object\">Move Object</a></i>power from your<a href=\"https://swse.fandom.com/wiki/Force_Power_Suite\" class=\"mw-redirect\" title=\"Force Power Suite\">Force Power Suite</a>to reroll an attack roll made with an<a href=\"https://swse.fandom.com/wiki/Energy_Bow\" title=\"Energy Bow\">Energy Bow</a>. The result of the reroll must be accepted, even if it is worse.",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "a member of The Witches of Dathomir",
+      "requirement": "The Witches of Dathomir",
+      "type": "TRADITION"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Force Talent Trees"
+      },
+      {
+        "value": "Force Tradition Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Force Talent Trees",
+      "Force Tradition Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Dathomiri Witch Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Dathomiri_Witch_Talent_Tree",
+    "bonusTalentTree": "Force Talent Trees",
+    "source": "Dathomir Field Guide",
+    "cost": "0"
+  },
+  "name": "Relentless Arrow",
+  "flags": {},
+  "type": "talent",
+  "folder": "pX4bbyAVHgrVUNt0",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385304162,
+    "modifiedTime": 1734385304162,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "9OUPiulUHXzL8l09",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!9OUPiulUHXzL8l09"
+}

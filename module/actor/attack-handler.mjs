@@ -86,6 +86,16 @@ export function isMelee(weapon) {
 }
 
 /**
+ * Homebrew: thrown weapons (declared via a "thrown" boolean attribute) may use Strength
+ * instead of Dexterity for attack and damage, same as one-handed melee weapons.
+ * @param weapon {SWSEItem}
+ * @returns {boolean}
+ */
+export function isThrown(weapon) {
+    return getInheritableAttribute({entity: weapon, attributeKey: "thrown", reduce: "OR"});
+}
+
+/**
  *
  * @param weapon {SWSEItem}
  * @returns {boolean}

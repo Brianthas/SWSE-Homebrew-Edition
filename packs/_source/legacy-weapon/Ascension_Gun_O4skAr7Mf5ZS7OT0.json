@@ -1,0 +1,168 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode"
+        }
+      },
+      "statuses": [],
+      "disabled": false,
+      "name": "Single-Shot",
+      "_id": "BbOBEDETmywnblnS",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513561,
+        "modifiedTime": 1786051513561,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!O4skAr7Mf5ZS7OT0.BbOBEDETmywnblnS"
+    },
+    {
+      "flags": {
+        "swse": {}
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Stun",
+      "_id": "nsWkyjT8oKSu7Apw",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "3d8",
+            "key": "damage",
+            "priority": null,
+            "type": "override",
+            "phase": "initial"
+          },
+          {
+            "value": "Stun",
+            "key": "damageType",
+            "priority": null,
+            "type": "override",
+            "phase": "initial"
+          }
+        ]
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513561,
+        "modifiedTime": 1786051513561,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!O4skAr7Mf5ZS7OT0.nsWkyjT8oKSu7Apw"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_at_War\" title=\"Star Wars Saga Edition Galaxy at War\">Star Wars Saga Edition Galaxy at War</a></i> </p><p>The Ascension Gun is a <a href=\"https://swse.fandom.com/wiki/Heavy_Blaster_Pistol\" title=\"Heavy Blaster Pistol\">Heavy Blaster Pistol</a> with a special <a href=\"https://swse.fandom.com/wiki/Syntherope\" title=\"Syntherope\">Syntherope</a> tether and a grappling-dart launcher attached. As a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>, you can switch the Weapon from Blaster mode to Ascension mode. When fired in Ascension mode, the Weapon shoots a grappling dart attached to the <a href=\"https://swse.fandom.com/wiki/Syntherope\" title=\"Syntherope\">Syntherope</a>, tethering the Weapon to the target. If the tether is projected vertically, the Ascension Gun can pull the wielder upward at a speed of 12 squares per round, with a maximum vertical lift capacity of roughly 720 kg. </p><p>An Ascension Gun can also be used to create a zipline to a target surface after the <a href=\"https://swse.fandom.com/wiki/Syntherope\" title=\"Syntherope\">Syntherope</a> has been secured to a fixed object at the shooter's location. The zipline allows the wielder to slide along the line at a speed of 12 squares per round if the destination has a lower elevation. In Ascension mode, the Ascension Gun has a maximum Range of 30 squares (45 meters). </p><p>In Blaster mode, an Ascension Gun functions like a normal <a href=\"https://swse.fandom.com/wiki/Heavy_Blaster_Pistol\" title=\"Heavy Blaster Pistol\">Heavy Blaster Pistol</a>. Ascension Guns are somewhat bulkier than other Weapons of the same size, imposing a -5 penalty to <a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a> checks made to conceal the Weapon. </p><p>An Ascension Gun requires a <a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a> to operate. After 50 shots, the <a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a> must be replaced. Additionally, the Ascension Gun carries only two lengths of <a href=\"https://swse.fandom.com/wiki/Syntherope\" title=\"Syntherope\">Syntherope</a>; after 2 uses, the <a href=\"https://swse.fandom.com/wiki/Syntherope\" title=\"Syntherope\">Syntherope</a> must be replaced. </p><p><b>Inaccurate:</b>&nbsp;This weapon cannot fire at targets at Long&nbsp;<a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a>. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Power Pack:50",
+        "key": "ammo"
+      }
+    ],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "1,200",
+    "weight": "2 Kilograms",
+    "availability": "Military",
+    "size": "Medium",
+    "type": "",
+    "subtype": "Pistols",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "3d8",
+    "damageType": "Energy"
+  },
+  "name": "Ascension Gun",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Ascension_Gun.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513561,
+    "modifiedTime": 1786051513596,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "O4skAr7Mf5ZS7OT0",
+  "_key": "!items!O4skAr7Mf5ZS7OT0"
+}

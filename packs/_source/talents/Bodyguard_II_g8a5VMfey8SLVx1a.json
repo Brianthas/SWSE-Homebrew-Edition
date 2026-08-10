@@ -1,0 +1,78 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "When you redirect an attack to a minion using the <b>Bodyguard I</b> Talent, that minion's relevant <a href=\"https://swse.fandom.com/wiki/Defense_Scores\" class=\"mw-redirect\" title=\"Defense Scores\">Defense Score</a> gains a bonus equal to half your Class Level.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Attract Minion talent",
+          "requirement": "Attract Minion",
+          "type": "TALENT"
+        },
+        {
+          "text": "Bodyguard I talent",
+          "requirement": "Bodyguard I",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Attract Minion talent, and Bodyguard I talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Crime Lord Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Crime Lord Talent Trees",
+      "Core Rulebook"
+    ],
+    "isSupplied": false,
+    "talentTree": "Mastermind Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Mastermind_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Scum and Villainy",
+    "cost": "0"
+  },
+  "name": "Bodyguard II",
+  "flags": {},
+  "type": "talent",
+  "folder": "wsqs0ZuAxwCa4ADs",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385308881,
+    "modifiedTime": 1734385308881,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "g8a5VMfey8SLVx1a",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!g8a5VMfey8SLVx1a"
+}

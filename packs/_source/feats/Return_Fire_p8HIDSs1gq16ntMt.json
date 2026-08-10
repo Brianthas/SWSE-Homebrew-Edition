@@ -1,0 +1,114 @@
+{
+  "img": "systems/swse/icon/feat/Return_Fire.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Legacy_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Legacy Era Campaign Guide\">Star Wars Saga Edition Legacy Era Campaign Guide</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>When someone takes a shot at you and misses, you retaliate with a shot of your own.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> 15, <a href=\"https://swse.fandom.com/wiki/Quick_Draw\" title=\"Quick Draw\">Quick Draw</a>, <a href=\"https://swse.fandom.com/wiki/Weapon_Focus\" title=\"Weapon Focus\">Weapon Focus</a> (Chosen Weapon)</p><p><b>Effect:</b> Select one <a href=\"https://swse.fandom.com/wiki/Exotic_Weapon\" class=\"mw-redirect\" title=\"Exotic Weapon\">Exotic Weapon</a> or Weapon Group for which you possess the <a href=\"https://swse.fandom.com/wiki/Weapon_Focus\" title=\"Weapon Focus\">Weapon Focus</a> feat. Once per encounter as a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a>, you can make a single ranged attack with the chosen weapon against an enemy that misses you with a ranged attack, provided you have line of sight to the enemy.</p><p><b>Special:</b> This Feat does not apply to <a href=\"https://swse.fandom.com/wiki/Vehicle_Weapons\" class=\"mw-redirect\" title=\"Vehicle Weapons\">Vehicle Weapons</a> or <a href=\"https://swse.fandom.com/wiki/Heavy_Weapons\" title=\"Heavy Weapons\">Heavy Weapons</a>. You must have your weapon in hand to use this Feat. You can take this Feat multiple times. Each time you take this Feat, it applies to a different Weapon Group or <a href=\"https://swse.fandom.com/wiki/Exotic_Weapon\" class=\"mw-redirect\" title=\"Exotic Weapon\">Exotic Weapon</a>.</p><p><b>Combined Feat (<a href=\"https://swse.fandom.com/wiki/Combat_Reflexes\" title=\"Combat Reflexes\">Combat Reflexes</a>):</b> You may use this Feat a number of times during an encounter equal to your <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> bonus, but no more than once during a given enemy's turn.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "#payload#",
+        "key": "returnFire"
+      }
+    ],
+    "choices": [
+      {
+        "noOptions": "You Must Be Focussed in a weapon group or an Exotic Weapon to select one for Return Fire.",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {
+              "payload": "AVAILABLE_RETURN_FIRE"
+            },
+            "display": "AVAILABLE_RETURN_FIRE",
+            "name": "AVAILABLE_RETURN_FIRE",
+            "attributes": {}
+          }
+        ],
+        "description": "Select a Weapon to use Return Fire with.",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": true
+      }
+    ],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Dexterity 15",
+          "requirement": "Dexterity 15",
+          "type": "ATTRIBUTE"
+        },
+        {
+          "text": "Quick Draw feat",
+          "requirement": "Quick Draw",
+          "type": "FEAT"
+        },
+        {
+          "text": "Weapon Focus (#payload#)",
+          "requirement": "Weapon Focus (#payload#)",
+          "type": "FEAT"
+        }
+      ],
+      "text": "Dexterity 15, Quick Draw feat, and Weapon Focus (#payload#)",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Ranged Feats"
+      },
+      {
+        "value": "Scoundrel Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Scout Bonus Feats"
+      },
+      {
+        "value": "Noble Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Scoundrel Bonus Feats",
+      "General Feats",
+      "Scout Bonus Feats",
+      "Noble Bonus Feats",
+      "Smuggler Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Legacy Era Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Return Fire",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1761479028633,
+    "modifiedTime": 1786036141517,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "p8HIDSs1gq16ntMt",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!p8HIDSs1gq16ntMt"
+}

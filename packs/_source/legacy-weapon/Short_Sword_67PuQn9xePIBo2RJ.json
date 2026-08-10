@@ -1,0 +1,158 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "group": "Damage Type"
+        }
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Slashing",
+      "_id": "crZOsdAkVresjtau",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Slashing",
+            "key": "damageType",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513484,
+        "modifiedTime": 1786051513484,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!67PuQn9xePIBo2RJ.crZOsdAkVresjtau"
+    },
+    {
+      "flags": {
+        "swse": {
+          "group": "Damage Type"
+        }
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Piercing",
+      "_id": "IJqnodFfd5eKaLdM",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Piercing",
+            "key": "damageType",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513484,
+        "modifiedTime": 1786051513484,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!67PuQn9xePIBo2RJ.IJqnodFfd5eKaLdM"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i> </p><p>A Weapon of ancient design, the Short Sword is a simple weapon used to deflect incoming melee attacks. Short Swords are often used by warriors wielding two weapons. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "40",
+    "weight": "1.5 Kilograms",
+    "availability": "",
+    "size": "Small",
+    "type": "",
+    "subtype": "Simple Melee Weapons",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "1d6"
+  },
+  "name": "Short Sword",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Short_Sword.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513484,
+    "modifiedTime": 1786051513574,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "67PuQn9xePIBo2RJ",
+  "_key": "!items!67PuQn9xePIBo2RJ"
+}

@@ -1,0 +1,81 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Choose a&nbsp;Talent&nbsp;that you already possess. The Talent you select must be from the&nbsp;<a href=\"https://swse.fandom.com/wiki/Lightsaber_Combat_Talent_Tree\" title=\"Lightsaber Combat Talent Tree\">Lightsaber Combat Talent Tree</a>, the&nbsp;<a href=\"https://swse.fandom.com/wiki/Duelist_Talent_Tree\" title=\"Duelist Talent Tree\">Duelist Talent Tree</a>, or the&nbsp;<a href=\"https://swse.fandom.com/wiki/Lightsaber_Forms_Talent_Tree\" title=\"Lightsaber Forms Talent Tree\">Lightsaber Forms Talent Tree</a>. Once per day, as a&nbsp;<a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a>, you can spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> to impart the benefits of the chosen&nbsp;Talent&nbsp;to one or more allies, effectively granting them the&nbsp;Talent&nbsp;(even if they don't meet the prerequisites).<br><br>An ally must be within 12 squares of you, and must be able to see and hear you to gain the&nbsp;Talent; once gained, its benefits last until the end of the encounter.<br><br>You can share the&nbsp;Talent&nbsp;with a number of allies equal to one-half your Class Level (rounded down). Only allies who are Trained in the <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> Skill can gain the benefits of the Shared Talent.<br><br>You can take this Talent multiple times. Each time you do so, you must select a different Talent to share with this ability. You can share each Talent with your allies only once per day.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Talent from the Lightsaber Combat Talent Tree",
+          "requirement": "Lightsaber Combat Talent Tree",
+          "type": "TALENT"
+        },
+        {
+          "text": "Talent from the Duelist Talent Tree",
+          "requirement": "Duelist Talent Tree",
+          "type": "TALENT"
+        },
+        {
+          "text": "Talent from the Lightsaber Forms Talent Tree",
+          "requirement": "Lightsaber Forms Talent Tree",
+          "type": "TALENT"
+        }
+      ],
+      "count": 1,
+      "text": "At least 1 Talent from Lightsaber Combat Talent Tree, Duelist Talent Tree, or Lightsaber Forms Talent Tree",
+      "type": "OR"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Jedi Knight Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Jedi Knight Talent Trees",
+      "Jedi Master Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Jedi Instructor Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Jedi_Instructor_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Jedi Academy Training Manual",
+    "cost": "0"
+  },
+  "name": "Share Talent",
+  "flags": {},
+  "type": "talent",
+  "folder": "fDBr7PdOSjiS7pls",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385307009,
+    "modifiedTime": 1786039906817,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "BKPfxnSGUckIujje",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!BKPfxnSGUckIujje"
+}

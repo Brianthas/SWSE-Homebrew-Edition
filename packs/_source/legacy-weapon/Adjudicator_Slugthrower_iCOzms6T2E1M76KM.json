@@ -1,0 +1,107 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode"
+        }
+      },
+      "statuses": [],
+      "disabled": false,
+      "name": "Single-Shot",
+      "_id": "HxMnIzJelv6lzrQq",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513526,
+        "modifiedTime": 1786051513526,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!iCOzms6T2E1M76KM.HxMnIzJelv6lzrQq"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:</i>&nbsp;<i><a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Clone_Wars_Campaign_Guide\" title=\"Star Wars Saga Edition Clone Wars Campaign Guide\">Star Wars Saga Edition Clone Wars Campaign Guide</a></i> </p><p>The Czerka Adjudicator remains one of the few slugthrower hold-out pistols still in production today. It shares a lot of the same attributes- such as its small size and ease of concealment- with its <a href=\"https://swse.fandom.com/wiki/Hold-Out_Blaster_Pistol\" title=\"Hold-Out Blaster Pistol\">Hold-Out Blaster Pistol</a> cousins. </p><p>The weapon is popular and useful when slugthrowers are more numerous than blasters. With its limited ammunition capacity and slow reload time, most owners use the Adjudicator as a backup weapon. </p><p>An Adjudicator Slugthrower utilizes ammunition clips of 4 shots each, after which it must be reloaded with a <a href=\"https://swse.fandom.com/wiki/Full-Round_Action\" class=\"mw-redirect\" title=\"Full-Round Action\">Full-Round Action</a>. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "325",
+    "weight": "0.5 Kilograms",
+    "availability": "Licensed",
+    "size": "Tiny",
+    "type": "",
+    "subtype": "Pistols",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "2d4",
+    "damageType": "Piercing"
+  },
+  "name": "Adjudicator Slugthrower",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Adjudicator_Slugthrower.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513526,
+    "modifiedTime": 1786051513587,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "iCOzms6T2E1M76KM",
+  "_key": "!items!iCOzms6T2E1M76KM"
+}

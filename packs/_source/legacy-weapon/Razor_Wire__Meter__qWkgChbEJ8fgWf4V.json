@@ -1,0 +1,69 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_at_War\" title=\"Star Wars Saga Edition Galaxy at War\">Star Wars Saga Edition Galaxy at War</a></i> </p><p>Razor Wire- strings of coiled wire festooned with razor-sharp metal- has been a battlefield staple for millennia. Although not impassable to well-equipped troopers, it still slows them down enough to make them vulnerable to other defenses, such as <a href=\"https://swse.fandom.com/wiki/Automated_Sentry_Guns\" class=\"mw-redirect\" title=\"Automated Sentry Guns\">Automated Sentry Guns</a>. </p><p>Squares featuring Razor Wire are considered <a href=\"https://swse.fandom.com/wiki/Difficult_Terrain\" title=\"Difficult Terrain\">Difficult Terrain</a>. When a target attempts to move through a square that contains Razor Wire, the wire makes a +10 attack, which is compared to the <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> of the target. If the attack succeeds, the target takes 2d6 damage and is <a href=\"https://swse.fandom.com/wiki/Immobilized\" title=\"Immobilized\">Immobilized</a>. If the attack misses, the target takes half damage and can move as normal. A target with the <b><a href=\"https://swse.fandom.com/wiki/Evasion\" class=\"mw-redirect\" title=\"Evasion\">Evasion</a></b> Talent takes half damage if the attack succeeds or no damage if the attack misses. </p><p>Each square of Razor Wire has <a href=\"https://swse.fandom.com/wiki/Damage_Reduction\" title=\"Damage Reduction\">Damage Reduction</a> 1, 4 Hit Points, a <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a> of 20, and a break DC of 30. </p><p><b><a href=\"https://swse.fandom.com/wiki/Splash\" class=\"mw-redirect\" title=\"Splash\">Splash</a>:</b> N/A </p><p><b><a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> DC:</b> N/A </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "N/A",
+        "key": "splash"
+      },
+      {
+        "mode": 2,
+        "value": "Perception DC: N/A",
+        "key": "skillCheck"
+      }
+    ],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "10/Meter",
+    "weight": "2 Kilograms",
+    "availability": "Restricted",
+    "size": "",
+    "type": "",
+    "subtype": "Mines",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "2d6",
+    "damageType": "Slashing"
+  },
+  "name": "Razor Wire (Meter)",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Razor_Wire_Meter.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513488,
+    "modifiedTime": 1786051513575,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "qWkgChbEJ8fgWf4V",
+  "_key": "!items!qWkgChbEJ8fgWf4V"
+}

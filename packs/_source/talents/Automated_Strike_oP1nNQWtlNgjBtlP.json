@@ -1,0 +1,63 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "As a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>, you can make a DC 15 <a href=\"https://swse.fandom.com/wiki/Knowledge_(Tactics)\" class=\"mw-redirect\" title=\"Knowledge (Tactics)\">Knowledge (Tactics)</a> check. If successful, all <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> allies able to hear and understand you gain the benefits of the <a href=\"https://swse.fandom.com/wiki/Double_Attack\" title=\"Double Attack\">Double Attack</a> Feat for one Weapon Group with which you are proficient until the end of your next turn.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Double Attack feat",
+      "requirement": "Double Attack",
+      "type": "FEAT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Droid Commander Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Droid Commander Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Droid Commander Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Droid_Commander_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Clone Wars Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Automated Strike",
+  "flags": {},
+  "type": "talent",
+  "folder": "AMQiBDJvc4WdKpJQ",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385304313,
+    "modifiedTime": 1734385304313,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "oP1nNQWtlNgjBtlP",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!oP1nNQWtlNgjBtlP"
+}

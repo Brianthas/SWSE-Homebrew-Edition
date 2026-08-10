@@ -1,0 +1,87 @@
+{
+  "img": "systems/swse/icon/feat/Sport_Hunter.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_at_War\" title=\"Star Wars Saga Edition Galaxy at War\">Star Wars Saga Edition Galaxy at War</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You are skilled in the use of slugthrowers and sporting weapons and gain certain benefits depending on which weapon you use.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Weapon_Proficiency_(Pistols)\" class=\"mw-redirect\" title=\"Weapon Proficiency (Pistols)\">Weapon Proficiency (Pistols)</a> or <a href=\"https://swse.fandom.com/wiki/Weapon_Proficiency_(Rifles)\" class=\"mw-redirect\" title=\"Weapon Proficiency (Rifles)\">Weapon Proficiency (Rifles)</a></p><p><b>Effect:</b> When you make a ranged attack with a slugthrower or sporting weapon with which you are proficient, you gain one of the following benefits, depending on the kind of weapon you use.</p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Slugthrower_Pistol\" title=\"Slugthrower Pistol\">Slugthrower Pistol</a>:</b> When you use a <a href=\"https://swse.fandom.com/wiki/Slugthrower_Pistol\" title=\"Slugthrower Pistol\">Slugthrower Pistol</a> at Point-Blank <a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a>, you deal +1 die of damage with the weapon.</li>\n <li><b><a href=\"https://swse.fandom.com/wiki/Slugthrower_Rifle\" title=\"Slugthrower Rifle\">Slugthrower Rifle</a>:</b> When you use a <a href=\"https://swse.fandom.com/wiki/Slugthrower_Rifle\" title=\"Slugthrower Rifle\">Slugthrower Rifle</a>, the damage dice increase from d8 to d12.</li>\n <li><b><a href=\"https://swse.fandom.com/wiki/Sporting_Blaster_Pistol\" title=\"Sporting Blaster Pistol\">Sporting Blaster Pistol</a>:</b> When you use a <a href=\"https://swse.fandom.com/wiki/Sporting_Blaster_Pistol\" title=\"Sporting Blaster Pistol\">Sporting Blaster Pistol</a>, reroll any result of 1 on the damage dice until you get a result other than 1.</li>\n <li><b><a href=\"https://swse.fandom.com/wiki/Sporting_Blaster_Rifle\" title=\"Sporting Blaster Rifle\">Sporting Blaster Rifle</a>:</b> When using a <a href=\"https://swse.fandom.com/wiki/Sporting_Blaster_Rifle\" title=\"Sporting Blaster Rifle\">Sporting Blaster Rifle</a>, you gain a +1 bonus to attack rolls when you <a href=\"https://swse.fandom.com/wiki/Aim\" title=\"Aim\">Aim</a> before firing.</li>\n</ul>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:Reference Book: Star Wars Saga Edition Galaxy at War See also: Feats You are skilled in the use of slugthrowers and sporting weapons and gain certain benefits depending on which weapon you use. Prerequisites: Weapon Proficiency (Pistols) or Weapon Proficiency (Rifles) Effect: When you make a ranged attack with a slugthrower or sporting weapon with which you are proficient, you gain one of the following benefits, depending on the kind of weapon you use. Slugthrower Pistol: When you use a Slugthrower Pistol at Point-Blank Range, you deal +1 die of damage with the weapon. Slugthrower Rifle: When you use a Slugthrower Rifle, the damage dice increase from d8 to d12. Sporting Blaster Pistol: When you use a Sporting Blaster Pistol, reroll any result of 1 on the damage dice until you get a result other than 1. Sporting Blaster Rifle: When using a Sporting Blaster Rifle, you gain a +1 bonus to attack rolls when you Aim before firing.",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Weapon Proficiency (Pistols)",
+          "requirement": "Weapon Proficiency (Pistols)",
+          "type": "FEAT"
+        },
+        {
+          "text": "Weapon Proficiency (Rifles)",
+          "requirement": "Weapon Proficiency (Rifles)",
+          "type": "FEAT"
+        }
+      ],
+      "count": 1,
+      "text": "Weapon Proficiency (Pistols) or Weapon Proficiency (Rifles)",
+      "type": "OR"
+    },
+    "categories": [
+      {
+        "value": "Soldier Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Scout Bonus Feats"
+      },
+      {
+        "value": "Noble Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Bonus Feats",
+      "General Feats",
+      "Scout Bonus Feats",
+      "Noble Bonus Feats",
+      "Smuggler Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Galaxy at War",
+    "cost": "0"
+  },
+  "name": "Sport Hunter",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1761479028932,
+    "modifiedTime": 1786036141516,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "nXYqyYMnqz7DUAJC",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!nXYqyYMnqz7DUAJC"
+}

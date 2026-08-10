@@ -1,0 +1,95 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Legacy_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Legacy Era Campaign Guide\">Star Wars Saga Edition Legacy Era Campaign Guide</a></i> </p><p><b>Base Item:</b> <a href=\"https://swse.fandom.com/wiki/Lightsaber_(Weapon)\" title=\"Lightsaber (Weapon)\">Lightsaber</a> (<a href=\"https://swse.fandom.com/wiki/Lambent_Crystal\" title=\"Lambent Crystal\">Lambent Crystal</a>) </p><p><b>Heirloom Bonus:</b> <a href=\"https://swse.fandom.com/wiki/Symbol_of_the_Light\" title=\"Symbol of the Light\">Symbol of the Light</a> </p><p>After Anakin Solo dies on the planet <a href=\"https://swse.fandom.com/wiki/Myrkr\" title=\"Myrkr\">Myrkr</a>, his <a href=\"https://swse.fandom.com/wiki/Lightsaber_(Weapon)\" title=\"Lightsaber (Weapon)\">Lightsaber</a> finds its way into the hands of Ganner Rhysode and even Anakin's uncle, Luke Skywalker, who wields it in a duel against Supreme Overlord Shimrra. The Weapon is returned to Han Solo, who lays his son's <a href=\"https://swse.fandom.com/wiki/Lightsaber_(Weapon)\" title=\"Lightsaber (Weapon)\">Lightsaber</a> to rest in Chewbacca's memorial tree on <a href=\"https://swse.fandom.com/wiki/Kashyyyk\" title=\"Kashyyyk\">Kashyyyk</a>. </p><p>In the Legacy era, Anakin Solo's Lightsaber could fall into the hands of a Jedi Padawan sent on a special mission to <a href=\"https://swse.fandom.com/wiki/Kashyyyk\" title=\"Kashyyyk\">Kashyyyk</a> to retrieve the weapon as a rite of passage for reaching knighthood. </p><p><b><a href=\"https://swse.fandom.com/wiki/Lambent_Crystal\" title=\"Lambent Crystal\">Lambent Crystal</a>:</b> Wielders of this Lightsaber ignore the normal penalties when using the&nbsp;<a href=\"https://swse.fandom.com/wiki/Sense_Force\" class=\"mw-redirect\" title=\"Sense Force\">Sense Force</a> and&nbsp;<a href=\"https://swse.fandom.com/wiki/Sense_Surroundings\" class=\"mw-redirect\" title=\"Sense Surroundings\">Sense Surroundings</a>&nbsp;applications of the&nbsp;<a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a>&nbsp;Skill to sense&nbsp;<a href=\"https://swse.fandom.com/wiki/Yuuzhan_Vong\" title=\"Yuuzhan Vong\">Yuuzhan Vong</a>. </p><p><b><a href=\"https://swse.fandom.com/wiki/Symbol_of_the_Light\" title=\"Symbol of the Light\">Symbol of the Light</a>:</b> Once per encounter, as a&nbsp;<a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a>, the wielder can impose a penalty on any one attack roll or&nbsp;<a href=\"https://swse.fandom.com/wiki/Skill_Check\" class=\"mw-redirect\" title=\"Skill Check\">Skill Check</a>&nbsp;made by a character with a&nbsp;<a href=\"https://swse.fandom.com/wiki/Dark_Side_Score\" title=\"Dark Side Score\">Dark Side Score</a>&nbsp;of 1 or higher. This penalty is equal to the target's&nbsp;<a href=\"https://swse.fandom.com/wiki/Dark_Side_Score\" title=\"Dark Side Score\">Dark Side Score</a>. </p><p><b>Special:</b>&nbsp;Can be&nbsp;<a href=\"https://swse.fandom.com/wiki/Thrown\" class=\"mw-redirect\" title=\"Thrown\">Thrown</a> </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Lightsaber (Lambent Crystal)",
+        "key": "baseItem"
+      },
+      {
+        "mode": 2,
+        "value": "Symbol of the Light",
+        "key": "heirloomBonus"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isThrowable"
+      }
+    ],
+    "choices": [
+      {
+        "noOptions": "NO_AVAILABLE_OPTIONS",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {
+              "payload": "AVAILABLE_LIGHTSABER_CRYSTALS"
+            },
+            "display": "AVAILABLE_LIGHTSABER_CRYSTALS",
+            "name": "AVAILABLE_LIGHTSABER_CRYSTALS",
+            "attributes": {}
+          }
+        ],
+        "description": "Lightsaber Crystal",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": false
+      }
+    ],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "0",
+    "weight": "1 Kilogram",
+    "availability": "",
+    "size": "Medium",
+    "type": "",
+    "subtype": "Lightsabers",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "2d8",
+    "damageType": "Energy, Slashing",
+    "specialQualities": "Lambent Crystal: Wielders of this Lightsaber ignore the normal penalties when using the Sense Force and Sense Surroundings applications of the Use the Force Skill to sense Yuuzhan Vong.\n\nSymbol of the Light: Once per encounter, as a Reaction, the wielder can impose a penalty on any one attack roll or Skill Check made by a character with a Dark Side Score of 1 or higher. This penalty is equal to the target's Dark Side Score."
+  },
+  "name": "Anakin Solo's Lightsaber",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Anakin_Solos_Lightsaber.png",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513526,
+    "modifiedTime": 1786051513587,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "TNf5XdCi44RoJh8i",
+  "_key": "!items!TNf5XdCi44RoJh8i"
+}

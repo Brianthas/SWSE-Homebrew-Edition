@@ -1,0 +1,84 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You can inspire disparate beings to temporarily ally for a common cause. You can use each of the following Actions once per encounter:",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Galactic Guidance talent",
+          "requirement": "Galactic Guidance",
+          "type": "TALENT"
+        },
+        {
+          "text": "Self-Reliant talent",
+          "requirement": "Self-Reliant",
+          "type": "TALENT"
+        },
+        {
+          "text": "Trained in Persuasion",
+          "requirement": "Persuasion",
+          "type": "TRAINED SKILL"
+        },
+        {
+          "text": "Trained in Knowledge (Galactic Lore)",
+          "requirement": "Knowledge (Galactic Lore)",
+          "type": "TRAINED SKILL"
+        }
+      ],
+      "text": "Galactic Guidance talent, Self-Reliant talent, Trained in Persuasion, and Trained in Knowledge (Galactic Lore)",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Noble Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Noble Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Exile Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Exile_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Band Together",
+  "flags": {},
+  "type": "talent",
+  "folder": "IfRWHSl1FPoHzl9O",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385304656,
+    "modifiedTime": 1734385304656,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "UM6999Jv4JnBCjMF",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!UM6999Jv4JnBCjMF"
+}

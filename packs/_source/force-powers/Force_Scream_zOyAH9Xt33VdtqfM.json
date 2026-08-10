@@ -1,0 +1,107 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a></i> </p><p>You create an intense sonic scream, amplified by <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a>. </p><p><b>[<i><a href=\"https://swse.fandom.com/wiki/Dark_Side\" class=\"mw-redirect\" title=\"Dark Side\">Dark Side</a></i>]</b> </p><p><b>Time:</b>&nbsp;<a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a> </p><p><b>Targets:</b>&nbsp;All creatures within 12 squares and can hear you </p><p><b>Make a&nbsp;<a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a>&nbsp;check.&nbsp;</b>Compare the result of the check to the target's <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>. If the check equals or exceeds the target's <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>, the target sustains damage as determined by the results of your check. The result of the check determines the effects, if any: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td> </td> \n   <td>The target(s) takes 1d6 points of <a href=\"https://swse.fandom.com/wiki/Force\" class=\"mw-redirect\" title=\"Force\">Force</a> damage this round, and the target(s)'s <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a> is reduced by -5 points until the end of your next turn. </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td> </td> \n   <td>The target(s) takes 2d6 points of <a href=\"https://swse.fandom.com/wiki/Force\" class=\"mw-redirect\" title=\"Force\">Force</a> damage this round, and the target(s)'s <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a> is reduced by -5 points until the end of your next turn. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td> </td> \n   <td>The target(s) takes 3d6 points of <a href=\"https://swse.fandom.com/wiki/Force\" class=\"mw-redirect\" title=\"Force\">Force</a> damage this round, and the target(s)'s <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a> is reduced by -5 points until the end of your next turn. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td> </td> \n   <td>The target(s) takes 4d6 points of <a href=\"https://swse.fandom.com/wiki/Force\" class=\"mw-redirect\" title=\"Force\">Force</a> damage this round, and the target(s)'s <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a> is reduced by -5 points until the end of your next turn. </td>\n  </tr>\n </tbody>\n</table><p>The target adds a size modifier to its <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> for purposes of this <a href=\"https://swse.fandom.com/wiki/Force_Power\" class=\"mw-redirect\" title=\"Force Power\">Force Power</a>: Colossal, +50; Gargantuan, +20; Huge, +10; Large, +5; Medium or smaller, +0. </p><p><b>Special: </b>You can spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> to reduce the target's <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a> by -10, rather than -5. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Dark Side",
+        "key": "tag"
+      },
+      {
+        "mode": 2,
+        "value": "Standard Action",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "All creatures within 12 squares and can hear you",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "cumulative"
+      },
+      {
+        "mode": 2,
+        "value": "Use the Force",
+        "key": "rollType"
+      },
+      {
+        "mode": 2,
+        "value": "15:The target(s) takes 1d6 points of Force damage this round, and the target(s)'s Damage Threshold is reduced by -5 points until the end of your next turn.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "20:The target(s) takes 2d6 points of Force damage this round, and the target(s)'s Damage Threshold is reduced by -5 points until the end of your next turn.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "25:The target(s) takes 3d6 points of Force damage this round, and the target(s)'s Damage Threshold is reduced by -5 points until the end of your next turn.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "30:The target(s) takes 4d6 points of Force damage this round, and the target(s)'s Damage Threshold is reduced by -5 points until the end of your next turn.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "Reference Book: Star Wars Saga Edition Knights of the Old Republic Campaign Guide See also: Force Powers You create an intense sonic scream, amplified by The Force. [Dark Side] Time: Standard Action Targets: All creatures within 12 squares and can hear you Make a Use the Force check. Compare the result of the check to the target's Fortitude Defense. If the check equals or exceeds the target's Fortitude Defense, the target sustains damage as determined by the results of your check. The result of the check determines the effects, if any: The target adds a size modifier to its Fortitude Defense for purposes of this Force Power: Colossal, +50; Gargantuan, +20; Huge, +10; Large, +5; Medium or smaller, +0. Special: You can spend a Force Point to reduce the target's Damage Threshold by -10, rather than -5.",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Dark Side Force Powers"
+      },
+      {
+        "value": "Force Powers"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Force Scream",
+  "flags": {},
+  "type": "forcePower",
+  "img": "systems/swse/icon/force-power/Force_Scream.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738608590044,
+    "modifiedTime": 1738608590044,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "zOyAH9Xt33VdtqfM",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!zOyAH9Xt33VdtqfM"
+}

@@ -1,0 +1,87 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Once per encounter, while on or in a <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a>, you can move up to one-half your speed, or move the <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> up to one-half its speed if you are the <a href=\"https://swse.fandom.com/wiki/Pilot_(Vehicle_Combat)\" title=\"Pilot (Vehicle Combat)\">Pilot</a>, as a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>. This movement does not provoke <a href=\"https://swse.fandom.com/wiki/Attacks_of_Opportunity\" title=\"Attacks of Opportunity\">Attacks of Opportunity</a>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Spacehound talent",
+          "requirement": "Spacehound",
+          "type": "TALENT"
+        },
+        {
+          "text": "Stellar Warrior talent",
+          "requirement": "Stellar Warrior",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Spacehound talent, and Stellar Warrior talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Scoundrel Talent Trees"
+      },
+      {
+        "value": "Ace Pilot Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Master Privateer Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Scoundrel Talent Trees",
+      "Ace Pilot Talent Trees",
+      "Core Rulebook",
+      "Master Privateer Talent Trees",
+      "Smuggler Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Spacer Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Spacer_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Scum and Villainy",
+    "cost": "0"
+  },
+  "name": "Make a Break for It",
+  "flags": {},
+  "type": "talent",
+  "folder": "RBKzDigd5jbRGF0g",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385312282,
+    "modifiedTime": 1786036141321,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "mgckvWlcZyl4b3EV",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!mgckvWlcZyl4b3EV"
+}

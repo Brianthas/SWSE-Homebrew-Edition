@@ -1,0 +1,80 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "As a <a href=\"https://swse.fandom.com/wiki/Full-Round_Action\" class=\"mw-redirect\" title=\"Full-Round Action\">Full-Round Action</a>, you and one of your <a href=\"https://swse.fandom.com/wiki/Followers\" title=\"Followers\">Followers</a> can make a ranged attack against one target (each) in line of sight. You each take a -5 penalty to your attack rolls.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "As a Full-Round Action, you and one of your Followers can make a ranged attack against one target (each) in line of sight. You each take a -5 penalty to your attack rolls. ",
+        "key": "action"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Commanding Officer talent",
+          "requirement": "Commanding Officer",
+          "type": "TALENT"
+        },
+        {
+          "text": "Base Attack Bonus 5",
+          "requirement": "5",
+          "type": "BASE ATTACK BONUS"
+        }
+      ],
+      "text": "Commanding Officer talent, and Base Attack Bonus 5",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Soldier Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Squad Leader Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Squad_Leader_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Clone Wars Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Fire at Will",
+  "flags": {},
+  "type": "talent",
+  "folder": "KOWWbowgNSnDRJ69",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385312420,
+    "modifiedTime": 1734385312420,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "e4zIkFjnUmvX4mvc",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!e4zIkFjnUmvX4mvc"
+}

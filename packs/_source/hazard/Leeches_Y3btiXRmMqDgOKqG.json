@@ -1,0 +1,66 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A being begins its turn within an area containing Leeches.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round at the start of the target's turn, until the Leeches are removed.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Treat Injury (DC 19): The character safely removes the Leeches.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: Leeches ignore the effects of a creature's armor, unless the armor is natural or airtight.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>Tiny parasites attach to your skin and suck your fluids for nourishment.</i> </p><p>At some point, creatures traveling through a swamp must trudge through water. When they do, they might encounter Leeches. Leeches have a way of slipping past the best defenses and latching onto the skin under a creature's armor or clothing. Not only do these parasites cause damage to the creatures they attack, they can cause a group to be hesitant to enter other bodies of water, giving opponents a chance to strike. </p><h2><span id=\"Leeches_Statistics_.28CL_2.29\"></span><span class=\"mw-headline\" id=\"Leeches_Statistics_(CL_2)\">Leeches Statistics (CL 2)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Natural </p><p><b>Trigger:</b> A being begins its turn within an area containing Leeches. </p><p><b>Attack:</b> +4 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> Each round at the start of the target's turn, until the Leeches are removed. </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a></b> <b>(DC 19):</b> The character safely removes the Leeches.</li>\n</ul><p><b>Special:</b> Leeches ignore the effects of a creature's armor, unless the armor is natural or airtight. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Leeches",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244593,
+    "modifiedTime": 1749263244593,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "Y3btiXRmMqDgOKqG",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!Y3btiXRmMqDgOKqG"
+}

@@ -1,0 +1,56 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Starship Accessories",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Colossal (Frigate) or Larger",
+          "requirement": "Colossal (Frigate)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal (Frigate) or Larger",
+          "requirement": "Colossal (Cruiser)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal (Frigate) or Larger",
+          "requirement": "Colossal (Station)",
+          "type": "TRAIT"
+        }
+      ],
+      "count": 1,
+      "text": "Colossal (Frigate) or Larger",
+      "type": "OR"
+    },
+    "changes": [],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><table class=\"wikitable\">\n <tbody>\n  <tr>\n   <th>ESCAPE POD</th>\n   <th>EMPLACEMENT POINTS</th>\n   <th>AVAILABILITY</th>\n   <th>SIZE RESTRICTION</th>\n   <th>COST</th>\n  </tr>\n  <tr>\n   <td>Small Lifeboat</td>\n   <td>1</td>\n   <td>Common</td>\n   <td>Colossal or Larger</td>\n   <td>400 (Base)</td>\n  </tr>\n  <tr>\n   <td>Large Lifeboat</td>\n   <td>2</td>\n   <td>Common</td>\n   <td>Colossal (Frigate) or Larger</td>\n   <td>800 (Base)</td>\n  </tr>\n </tbody>\n</table><p>All <a href=\"https://swse.fandom.com/wiki/Space_Transports\" title=\"Space Transports\">Space Transports</a> and <a href=\"https://swse.fandom.com/wiki/Capital_Ships\" title=\"Capital Ships\">Capital Ships</a> automatically include enough Escape Pods for all living passengers and crew- they're built into the cost of the ship. By law, Starships are required to have sufficient Escape Pods on board at all times, but military Starships are exempt from this rule and may carry fewer than the normal amount (see <a href=\"https://swse.fandom.com/wiki/Gaining_Emplacement_Points\" class=\"mw-redirect\" title=\"Gaining Emplacement Points\">Gaining Emplacement Points</a>).</p><p>If a Colossal or larger Starship is destroyed, any character on board who survives may make a DC 20 <a href=\"https://swse.fandom.com/wiki/Acrobatics\" title=\"Acrobatics\">Acrobatics</a> check to reach an Escape Pod. On a failed check, the character is stuck in a bit of wreckage that has enough air and heat to keep them alive for about an hour. (Obviously, a character who gets into an Escape Pod prior to a ship's destruction does not need to make a check.)</p><p>Typical Escape Pods are small, single-use <a href=\"https://swse.fandom.com/wiki/Vehicles\" title=\"Vehicles\">Vehicles</a> providing 1 day of life support for eight Medium creatures plus rations for another week and just enough fuel to reach a nearby planet. Many large ships upgrade their Escape Pods to more capable models.</p><h3><span class=\"mw-headline\" id=\"Small_Lifeboats\">Small Lifeboats</span></h3><p>These vessels, which can be installed on ships of Colossal size or larger, provide life support for up to fifteen Medium creatures for up to 1 week, and they have enough fuel to fly across a star system to reach a habitable planet.</p><p>They include extensive survival gear, including emergency shelters, 1 week of rations, water purifiers, and a small hunting blaster. One bay includes (<a href=\"https://swse.fandom.com/wiki/Cost_Modifier_(SotG)\" class=\"mw-redirect\" title=\"Cost Modifier (SotG)\">Cost Modifier</a>)/50 Small Lifeboats, and multiple bays may be installed.</p><h3><span class=\"mw-headline\" id=\"Large_Lifeboats\">Large Lifeboats</span></h3><p>These vessels, which can be installed on ships of Colossal (Frigate) size or larger, provide life support for up to 50 Medium creatures for up to 2 months, and they include a Class 15 <a href=\"https://swse.fandom.com/wiki/Hyperdrive\" title=\"Hyperdrive\">Hyperdrive</a> with enough fuel for a single Hyperspace jump (plus a little left over for the ion engines and repulsorlifts to use during landing).</p><p>Survival gear is similar to that of a Small Lifeboat (see above). One bay includes (<a href=\"https://swse.fandom.com/wiki/Cost_Modifier_(SotG)\" class=\"mw-redirect\" title=\"Cost Modifier (SotG)\">Cost Modifier</a>)/100 Large Lifeboats, and multiple bays may be installed.</p><h2><span id=\"Escape_Pod_Statistics_.28CL_1.29\"></span> <span class=\"mw-headline\" id=\"Escape_Pod_Statistics_(CL_1)\">Escape Pod Statistics (CL 1)</span></h2><p>Huge <a href=\"https://swse.fandom.com/wiki/Starfighter\" class=\"mw-redirect\" title=\"Starfighter\">Starfighter</a></p><p><b><a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a>:</b> -2; <b>Senses:</b> <a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> +0</p><h3><span class=\"mw-headline\" id=\"Defenses\">Defenses</span></h3><p><a href=\"https://swse.fandom.com/wiki/Reflex_Defense_(Vehicles)\" class=\"mw-redirect\" title=\"Reflex Defense (Vehicles)\">Reflex Defense</a>: 10 (<a href=\"https://swse.fandom.com/wiki/Flat-Footed\" class=\"mw-redirect\" title=\"Flat-Footed\">Flat-Footed</a>: 10), <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense_(Vehicles)\" class=\"mw-redirect\" title=\"Fortitude Defense (Vehicles)\">Fortitude Defense</a>: 25; +2 Armor</p><p>Hit Points: 40; <a href=\"https://swse.fandom.com/wiki/Damage_Reduction\" title=\"Damage Reduction\">Damage Reduction</a>: 10; <a href=\"https://swse.fandom.com/wiki/Damage_Threshold_(Vehicles)\" class=\"mw-redirect\" title=\"Damage Threshold (Vehicles)\">Damage Threshold</a>: 35</p><h3><span class=\"mw-headline\" id=\"Offense\">Offense</span></h3><p><b>Speed:</b> Fly 8 Squares (<a href=\"https://swse.fandom.com/wiki/Character_Scale\" class=\"mw-redirect\" title=\"Character Scale\">Character Scale</a>), Fly 1 Squares (<a href=\"https://swse.fandom.com/wiki/Starship_Scale\" class=\"mw-redirect\" title=\"Starship Scale\">Starship Scale</a>); (Maximum Velocity 250 km/h)</p><p><b><a href=\"https://swse.fandom.com/wiki/Fighting_Space\" title=\"Fighting Space\">Fighting Space</a>:</b> 3x3 Squares (<a href=\"https://swse.fandom.com/wiki/Character_Scale\" class=\"mw-redirect\" title=\"Character Scale\">Character Scale</a>), 1 Square (<a href=\"https://swse.fandom.com/wiki/Starship_Scale\" class=\"mw-redirect\" title=\"Starship Scale\">Starship Scale</a>); <b><a href=\"https://swse.fandom.com/wiki/Total_Cover\" class=\"mw-redirect\" title=\"Total Cover\">Total Cover</a></b></p><p><b><a href=\"https://swse.fandom.com/wiki/Base_Attack_Bonus\" class=\"mw-redirect\" title=\"Base Attack Bonus\">Base Attack Bonus</a>:</b> -5; <b><a href=\"https://swse.fandom.com/wiki/Grapple\" title=\"Grapple\">Grapple</a>:</b> +20</p><h3><span class=\"mw-headline\" id=\"Abilities\">Abilities</span></h3><p><a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a>: 31, <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a>: 10, <a href=\"https://swse.fandom.com/wiki/Constitution\" title=\"Constitution\">Constitution</a>: -, <a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a>: 10</p><p><b><a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> <a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a> -2, <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> +0, <a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> +0, <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> -2, <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> +0</p><h3><span class=\"mw-headline\" id=\"Ship_Statistics\">Ship Statistics</span></h3><p><b>Crew:</b> 0 (Untrained <a href=\"https://swse.fandom.com/wiki/Crew_Quality\" title=\"Crew Quality\">Crew Quality</a>); <b>Passengers:</b> 8</p><p><b>Cargo:</b> None; <b>Consumables:</b> 1 Day; <b>Carried Craft:</b> None</p>",
+    "cost": "800 (Base)",
+    "emplacementPoints": "2",
+    "availability": "Common"
+  },
+  "name": "Escape Pod, Large Lifeboat",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317538,
+    "modifiedTime": 1759848317538,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "8V41yUGchTQHxyXb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!8V41yUGchTQHxyXb"
+}

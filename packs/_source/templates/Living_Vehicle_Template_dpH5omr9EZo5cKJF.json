@@ -1,0 +1,81 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Legacy_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Legacy Era Campaign Guide\">Star Wars Saga Edition Legacy Era Campaign Guide</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Yuuzhan_Vong_Biotech\" title=\"Yuuzhan Vong Biotech\">Yuuzhan Vong Biotech</a></i> </p><p>Used to represent everything from Yuuzhan Vong Vehicles to the spacecraft of Zonama Sekot, the&nbsp;Living Vehicle Template&nbsp;allows you to create statistics for biological analogies of existing ships. Though the template won't present the fine mechanical tuning of designing a <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> from scratch, if you just need a basic Living Vehicle comparable in firepower to an X-Wing Starfighter, the Living Vehicle Template should suffice. </p><h3><span class=\"mw-headline\" id=\"Modifications\">Modifications</span></h3><p>To create a Living Vehicle, make the following changes to an existing Vehicle: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>LIVING VEHICLE SIZE </th> \n   <th> </th> \n   <th>DOVIN BASAL DAMAGE </th>\n  </tr> \n  <tr> \n   <td>Colossal or Smaller </td> \n   <td> </td> \n   <td>7d10x2 </td>\n  </tr> \n  <tr> \n   <td>Colossal (Frigate) </td> \n   <td> </td> \n   <td>5d10x5 </td>\n  </tr> \n  <tr> \n   <td>Colossal (Cruiser) or Larger </td> \n   <td> </td> \n   <td>7d10x5 </td>\n  </tr>\n </tbody>\n</table><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Tractor_Beams\" class=\"mw-redirect\" title=\"Tractor Beams\">Tractor Beams</a>:</b> <a href=\"https://swse.fandom.com/wiki/Yuuzhan_Vong_Vehicles\" title=\"Yuuzhan Vong Vehicles\">Yuuzhan Vong Vehicles</a> can use their Dovin Basals as <a href=\"https://swse.fandom.com/wiki/Tractor_Beams\" class=\"mw-redirect\" title=\"Tractor Beams\">Tractor Beams</a>. Other kinds of Living Vehicles have comparable alternatives to emulate a Tractor Beam's effects.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Weapon_Systems\" title=\"Weapon Systems\">Weapon Systems</a>:</b> Living Vehicles have analogues for most <a href=\"https://swse.fandom.com/wiki/Weapon_Systems\" title=\"Weapon Systems\">Weapon Systems</a>. <a href=\"https://swse.fandom.com/wiki/Weapon_Systems\" title=\"Weapon Systems\">Weapon Systems</a> that deal Energy damage alone typically deal <a href=\"https://swse.fandom.com/wiki/Fire\" title=\"Fire\">Fire</a> damage instead of normal Energy damage. Other <a href=\"https://swse.fandom.com/wiki/Weapon_Systems\" title=\"Weapon Systems\">Weapon Systems</a>, even <a href=\"https://swse.fandom.com/wiki/Ion\" class=\"mw-redirect\" title=\"Ion\">Ion</a> weapons, have analogues on a Living Vehicle. They behave exactly as the <a href=\"https://swse.fandom.com/wiki/Weapon_System\" class=\"mw-redirect\" title=\"Weapon System\">Weapon System</a> does on the base <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a>.</li>\n</ul>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "itemMod"
+      },
+      {
+        "mode": 2,
+        "value": "",
+        "key": "prefix"
+      },
+      {
+        "mode": 2,
+        "value": "",
+        "key": "suffix"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "hasItemOwner": false,
+    "subtype": "Vehicle Templates",
+    "prerequisite": {
+      "children": [
+        {
+          "children": [
+            {
+              "text": "vehicle",
+              "requirement": "vehicle",
+              "type": "TYPE"
+            },
+            {
+              "text": "vehicle",
+              "requirement": "npc-vehicle",
+              "type": "TYPE"
+            }
+          ],
+          "count": 1,
+          "text": "Is a Vehicle",
+          "type": "OR"
+        }
+      ],
+      "text": "and (Is a Vehicle)",
+      "type": "AND"
+    },
+    "cost": "0"
+  },
+  "name": "Living Vehicle Template",
+  "flags": {},
+  "type": "template",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.2",
+    "createdTime": 1729096741325,
+    "modifiedTime": 1729096741325,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "dpH5omr9EZo5cKJF",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!dpH5omr9EZo5cKJF"
+}

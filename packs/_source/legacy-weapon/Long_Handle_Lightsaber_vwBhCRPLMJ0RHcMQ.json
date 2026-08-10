@@ -1,0 +1,78 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Jedi_Academy_Training_Manual\" title=\"Star Wars Saga Edition Jedi Academy Training Manual\">Star Wars Saga Edition Jedi Academy Training Manual</a></i> </p><p>The Long-Handle Lightsaber caters to a particular fighting style. The handle where the weapon is gripped is several times larger than the standard <a href=\"https://swse.fandom.com/wiki/Lightsaber_(Weapon)\" title=\"Lightsaber (Weapon)\">Lightsaber</a> handle, providing a much larger surface area upon which the wielder can place their hands. Likewise, this longer grip makes it easier to swing the weapon around the body, using arms, legs, shoulders, hips, and other joints as fulcrums upon which the Long-Handled Lightsaber can be levered. </p><p>The fighting style used with a Long-Handled Lightsaber takes advantage of the larger grip to allow the wielder to rotate the weapon around their body. When you wield the Long-Handle Lightsaber two-handed, you can choose to forgo doubling your <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> bonus to damage and instead increase the Long-Handle Lightsaber's base damage to 2d10. </p><p>Additionally, a character with the <a href=\"https://swse.fandom.com/wiki/Long_Haft_Strike\" title=\"Long Haft Strike\">Long Haft Strike</a> feat can use the Long-Handle Lightsaber as a Double Weapon. If you have this feat, you can attack with both ends of the weapon as a <a href=\"https://swse.fandom.com/wiki/Full-Round_Action\" class=\"mw-redirect\" title=\"Full-Round Action\">Full-Round Action</a>, but both attack rolls have a -10 penalty; certain <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a> and <a href=\"https://swse.fandom.com/wiki/Talents\" title=\"Talents\">Talents</a> can reduce these penalties. The haft end of a Long-Handle Lightsaber deals 1d6 points of Bludgeoning damage. </p><p>A Long-Handle Lightsaber requires a special&nbsp;<a href=\"https://swse.fandom.com/wiki/Energy_Cell\" title=\"Energy Cell\">Energy Cell</a>&nbsp;to operate (the cost is ten times the price of an ordinary&nbsp;<a href=\"https://swse.fandom.com/wiki/Energy_Cell\" title=\"Energy Cell\">Energy Cell</a>, but it lasts almost indefinitely). </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [
+      {
+        "noOptions": "NO_AVAILABLE_OPTIONS",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {
+              "payload": "AVAILABLE_LIGHTSABER_CRYSTALS"
+            },
+            "display": "AVAILABLE_LIGHTSABER_CRYSTALS",
+            "name": "AVAILABLE_LIGHTSABER_CRYSTALS",
+            "attributes": {}
+          }
+        ],
+        "description": "Lightsaber Crystal",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": false
+      }
+    ],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "4,500",
+    "weight": "2 Kilograms",
+    "availability": "Rare",
+    "size": "Large",
+    "type": "",
+    "subtype": "Lightsabers",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "2d8",
+    "damageType": "Energy, Slashing"
+  },
+  "name": "Long-Handle Lightsaber",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Long_Handle_Lightsaber.png",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513465,
+    "modifiedTime": 1786051513566,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "vwBhCRPLMJ0RHcMQ",
+  "_key": "!items!vwBhCRPLMJ0RHcMQ"
+}

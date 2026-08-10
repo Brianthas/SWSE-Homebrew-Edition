@@ -1,0 +1,40 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Cybernetic Devices",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Use the Force:-1:IMPLANT",
+        "key": "skillBonus"
+      }
+    ],
+    "description": "<p>Prosthetic replacements in the <i>Star Wars</i> universe frequently take the form of mechanical simulations powered by tiny high-capacity battery packs and motivated by the recipient's bioelectrical impulses. In effect, someone who loses a limb or an extremity can have an electronic replacement that acts (and in some cases looks) just like the original. </p><p>Cybernetic Prosthetic devices are unusual, but hardly rare. Luke Skywalker gains a cybernetic replacement for his right hand, lost in battle against Darth Vader- who in turn had much of his own body replaced with cybernetics years before. </p><p>Attaching a Cybernetic Prosthesis requires the <a href=\"https://swse.fandom.com/wiki/Cybernetic_Surgery\" title=\"Cybernetic Surgery\">Cybernetic Surgery</a> Feat. Once attached, the cybernetic replacement performs as well as the original limb or extremity. Common Cybernetic Prosthetics include arms, hands, legs, feet, and various organs. In addition to the cost of the prosthesis, the recipient must also cover the cost of the surgery (typically 500 credits). </p><p>Unlike other creatures, a creature with Cybernetic Prosthetics takes full damage from weapons and attacks that deal <a href=\"https://swse.fandom.com/wiki/Ion_Damage\" title=\"Ion Damage\">Ion Damage</a>. </p><p>Because <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a> is present in all living things, but not machines, creatures with a Cybernetic Prosthetic take a -1 penalty on <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> checks for each prosthetic replacement they possess (to a maximum penalty of -5). </p>",
+    "cost": "1500",
+    "installationCost": "500",
+    "cybernetic": true
+  },
+  "name": "Cybernetic Prosthesis",
+  "flags": {},
+  "type": "implant",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244983,
+    "modifiedTime": 1749263244983,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "1omposBDiG15gLn6",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!1omposBDiG15gLn6"
+}

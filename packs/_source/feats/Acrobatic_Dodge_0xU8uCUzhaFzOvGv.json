@@ -1,0 +1,86 @@
+{
+  "img": "systems/swse/icon/feat/Acrobatic_Dodge.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>When you react to an attack, your acrobatics training improves your mobility.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> 13, <a href=\"https://swse.fandom.com/wiki/Dodge\" title=\"Dodge\">Dodge</a>, <a href=\"https://swse.fandom.com/wiki/Mobility\" title=\"Mobility\">Mobility</a>, <a href=\"https://swse.fandom.com/wiki/Skill_Focus_(Acrobatics)\" class=\"mw-redirect\" title=\"Skill Focus (Acrobatics)\">Skill Focus (Acrobatics)</a></p><p><b>Effect:</b> Once per encounter, as a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a>, if a melee attack misses you, you can immediately move into an adjacent square without provoking an <a href=\"https://swse.fandom.com/wiki/Attack_of_Opportunity\" class=\"mw-redirect\" title=\"Attack of Opportunity\">Attack of Opportunity</a>.</p><p><b>Special:</b> You must be aware of the attacker to benefit from this Feat. You can use this Feat a second time during the encounter by spending a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a>.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Dexterity 13",
+          "requirement": "Dexterity 13",
+          "type": "ATTRIBUTE"
+        },
+        {
+          "text": "Dodge feat",
+          "requirement": "Dodge",
+          "type": "FEAT"
+        },
+        {
+          "text": "Mobility feat",
+          "requirement": "Mobility",
+          "type": "FEAT"
+        },
+        {
+          "text": "Skill Focus (Acrobatics)",
+          "requirement": "Skill Focus (Acrobatics)",
+          "type": "FEAT"
+        }
+      ],
+      "text": "Dexterity 13, Dodge feat, Mobility feat, and Skill Focus (Acrobatics)",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Force Prodigy Bonus Feats"
+      },
+      {
+        "value": "Scoundrel Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Force Prodigy Bonus Feats",
+      "Scoundrel Bonus Feats",
+      "General Feats",
+      "Smuggler Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Acrobatic Dodge",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1761479025691,
+    "modifiedTime": 1786036141513,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "0xU8uCUzhaFzOvGv",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!0xU8uCUzhaFzOvGv"
+}

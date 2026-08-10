@@ -22,8 +22,14 @@ export default class ImplantData extends ItemSystemDataModel {
             ...ItemFields(),
             ...CategoriesFields(),
             ...SourceFields(),
-            equipped: new fields.StringField({initial: "unequipped", blank: true, required: false}),
-            stripping: new fields.ObjectField({initial: {}})
+            equipped: new fields.StringField({initial: "", blank: true, required: false}),
+            stripping: new fields.ObjectField({initial: {}}),
+            cybernetic: new fields.BooleanField({initial: false, required: false}),
+            // Strings, not numbers — real data includes formatting/annotations (e.g. "12,000
+            // (2,000 if both legs are mechanical)", "+10 (no attack if both legs are mechanical)").
+            installationCost: new fields.StringField({initial: "", blank: true, required: false}),
+            rejectionAttackBonus: new fields.StringField({initial: "", blank: true, required: false}),
+            implantDisruption: new fields.BooleanField({initial: false, required: false})
         };
     }
 }

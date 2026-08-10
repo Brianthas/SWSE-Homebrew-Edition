@@ -1,0 +1,94 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Starship_Maneuvers\" title=\"Starship Maneuvers\">Starship Maneuvers</a></i> </p><p>This maneuver allows a pursuing&nbsp;<a href=\"https://swse.fandom.com/wiki/Starfighter\" class=\"mw-redirect\" title=\"Starfighter\">Starfighter</a>&nbsp;to stay with a maneuvering opponent even when it's target is attempting to escape. </p><p><b>[<i><a href=\"https://swse.fandom.com/wiki/Dogfight_(Starship_Maneuvers)\" class=\"mw-redirect\" title=\"Dogfight (Starship Maneuvers)\">Dogfight</a></i>]</b> </p><p><b>Time:</b>&nbsp;<a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a> </p><p><b>Targets:</b>&nbsp;One target engaged in a <a href=\"https://swse.fandom.com/wiki/Dogfight\" title=\"Dogfight\">Dogfight</a> with you. </p><p><b>Make a <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> check.</b> Whenever you are engaged in a <a href=\"https://swse.fandom.com/wiki/Dogfight\" title=\"Dogfight\">Dogfight</a> and one of your opponents attempts to disengage from that <a href=\"https://swse.fandom.com/wiki/Dogfight\" title=\"Dogfight\">Dogfight</a>, you may activate this maneuver as a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a>. The result of your <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> check determines the effects of this maneuver: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td> </td> \n   <td>If the target fails to <a href=\"https://swse.fandom.com/wiki/Disengage\" class=\"mw-redirect\" title=\"Disengage\">Disengage</a>, you may make an <a href=\"https://swse.fandom.com/wiki/Attack_of_Opportunity\" class=\"mw-redirect\" title=\"Attack of Opportunity\">Attack of Opportunity</a> against the target. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td> </td> \n   <td>The target suffers a -1 penalty on its opposed <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> check to <a href=\"https://swse.fandom.com/wiki/Disengage\" class=\"mw-redirect\" title=\"Disengage\">Disengage</a>. If the target fails to <a href=\"https://swse.fandom.com/wiki/Disengage\" class=\"mw-redirect\" title=\"Disengage\">Disengage</a>, you may make an <a href=\"https://swse.fandom.com/wiki/Attack_of_Opportunity\" class=\"mw-redirect\" title=\"Attack of Opportunity\">Attack of Opportunity</a> against the target. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td> </td> \n   <td>The target suffers a -2 penalty on its opposed <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> check to <a href=\"https://swse.fandom.com/wiki/Disengage\" class=\"mw-redirect\" title=\"Disengage\">Disengage</a>. If the target fails to <a href=\"https://swse.fandom.com/wiki/Disengage\" class=\"mw-redirect\" title=\"Disengage\">Disengage</a>, you may make an <a href=\"https://swse.fandom.com/wiki/Attack_of_Opportunity\" class=\"mw-redirect\" title=\"Attack of Opportunity\">Attack of Opportunity</a> against the target. </td>\n  </tr> \n  <tr> \n   <td>35 </td> \n   <td> </td> \n   <td>The target suffers a -5 penalty on its opposed <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> check to <a href=\"https://swse.fandom.com/wiki/Disengage\" class=\"mw-redirect\" title=\"Disengage\">Disengage</a>. If the target fails to <a href=\"https://swse.fandom.com/wiki/Disengage\" class=\"mw-redirect\" title=\"Disengage\">Disengage</a>, you may make an <a href=\"https://swse.fandom.com/wiki/Attack_of_Opportunity\" class=\"mw-redirect\" title=\"Attack of Opportunity\">Attack of Opportunity</a> against the target. </td>\n  </tr>\n </tbody>\n</table><p><b>Special:</b> You use this maneuver as a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a> to an opponent attempting to disengage from a <a href=\"https://swse.fandom.com/wiki/Dogfight\" title=\"Dogfight\">Dogfight</a>; you must declare that you are using this maneuver after the opponent declares the attempt but before the opposed <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> check takes place.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "20:If the target fails to Disengage, you may make an Attack of Opportunity against the target.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "25:The target suffers a -1 penalty on its opposed Pilot check to Disengage. If the target fails to Disengage, you may make an Attack of Opportunity against the target.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "30:The target suffers a -2 penalty on its opposed Pilot check to Disengage. If the target fails to Disengage, you may make an Attack of Opportunity against the target.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "35:The target suffers a -5 penalty on its opposed Pilot check to Disengage. If the target fails to Disengage, you may make an Attack of Opportunity against the target.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "Reference Book: Star Wars Saga Edition Starships of the Galaxy See also: Starship Maneuvers This maneuver allows a pursuing Starfighter to stay with a maneuvering opponent even when it's target is attempting to escape. [Dogfight] Time: Reaction Targets: One target engaged in a Dogfight with you. Make a Pilot check. Whenever you are engaged in a Dogfight and one of your opponents attempts to disengage from that Dogfight, you may activate this maneuver as a Reaction. The result of your Pilot check determines the effects of this maneuver: Special: You use this maneuver as a Reaction to an opponent attempting to disengage from a Dogfight; you must declare that you are using this maneuver after the opponent declares the attempt but before the opposed Pilot check takes place.",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "Dogfight",
+        "key": "tag"
+      },
+      {
+        "mode": 2,
+        "value": "Reaction",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "One target engaged in a Dogfight with you.",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "cumulative"
+      },
+      {
+        "mode": 2,
+        "value": "Pilot",
+        "key": "rollType"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Tallon Roll",
+  "flags": {},
+  "type": "forcePower",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738608591707,
+    "modifiedTime": 1738608591707,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX"
+  },
+  "_id": "4jWQfhshTzBOZgUL",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!4jWQfhshTzBOZgUL"
+}

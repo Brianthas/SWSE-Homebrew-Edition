@@ -1,0 +1,67 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Defense Systems",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal (Frigate)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal (Cruiser)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal (Station)",
+          "type": "TRAIT"
+        }
+      ],
+      "count": 1,
+      "text": "Colossal or Larger",
+      "type": "OR"
+    },
+    "changes": [
+      {
+        "mode": 2,
+        "value": "5",
+        "key": "standard"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a></i></p><p><b>Emplacement Points:&nbsp;</b> 5</p><p><b>Size Restriction:&nbsp;</b> Colossal or Larger</p><p>Anti-Boarding Systems are a series of cameras, blast doors, and weapons placed throughout a Starship, assisting the ship's crew in combating unwanted visitors without directly exposing themselves. Each Anti-Boarding System checkpoint (a CL 4 <a href=\"https://swse.fandom.com/wiki/Hazard\" class=\"mw-redirect\" title=\"Hazard\">Hazard</a> when active) includes the following:</p><ul>\n <li><b>Light Blast Door:</b> DR 10, 250 HP, <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a> 35, <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> 40, Break DC 60, <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> DC 25 to <a href=\"https://swse.fandom.com/wiki/Disable_Device\" class=\"mw-redirect\" title=\"Disable Device\">Disable Device</a>.</li>\n <li><b>Security Camera:</b> Allows any authorized user to make <a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> checks into the area (even when sealed).</li>\n <li><b>Blaster Rifle Turret:</b> <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> 10, DR 10, 20 HP, Attack +5, 3d8 Energy damage, <a href=\"https://swse.fandom.com/wiki/Autofire\" title=\"Autofire\">Autofire</a> capable.</li>\n</ul><p>All vital locations (Bridge/cockpit, main engineering, gunnery stations, airlocks, docking rings, and so forth) have a security checkpoint at each entrance. In addition, each section of corridor at least 10 squares long and each room at least 4 squares in size will also have a security checkpoint. Normally, the system is programmed to recognize new crew members as friendly so they won't be attacked. (Passengers are not always so fortunate.)</p><p>Although Anti-Boarding Systems are normally controlled by the ship's <a href=\"https://swse.fandom.com/wiki/System_Operator\" title=\"System Operator\">System Operator</a>,&nbsp;any character with administrator access (that is, to whom the ship's computer has an <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Attitude</a> of Helpful) can activate or deactivate the system as a routine command. As with other computers, the <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a> of a Starship's computer is 15 + the Starship's <a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a> bonus, but its default starting <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Attitude</a> is Hostile (instead of Unfriendly) while the Anti-Boarding Systems are active.</p><p>Because Starships are rarely boarded before they have been disabled or voluntarily powered down, Anti-Boarding Systems have independent backup power sources that allow their turrets to make up to 50 shots even after power is lost. (Their sensors, communications, and camera remain active for about 100 hours on internal power.) Despite this utility, Anti-Boarding Systems are rare due to the high expense involved in installing them. They are common among wealthy crime lords who might have reason to fear their \"Guests\" (often agents of other crime lords)- and perhaps their own crews- rather than any hypothetical boarders. Major corporate executives and political figures also have such systems added to their private transports, largely to fend off assassination attempts.</p>",
+    "cost": "20000 (Base)",
+    "emplacementPoints": "5",
+    "availability": "Restricted"
+  },
+  "name": "Anti-Boarding Systems",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317048,
+    "modifiedTime": 1759848317048,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "eLEIgcJHwHT1ghqP",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!eLEIgcJHwHT1ghqP"
+}

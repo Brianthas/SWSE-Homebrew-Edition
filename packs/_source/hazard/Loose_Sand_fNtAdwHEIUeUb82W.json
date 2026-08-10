@@ -1,0 +1,71 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2d8",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A being begins its turn on Loose Sand.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round at the start of the target's turn, as long as the target remains on the Loose Sand.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Acrobatics (DC 18): The character tumbles through the sand to reach more stable ground, gaining a +2 circumstance bonus to Reflex Defense against the Hazard. Jump (DC 23): The character attempts to leap out of the loose sand, gaining a +5 circumstance bonus to Reflex Defense against the Hazard. Knowledge (Physical Sciences) (DC 13): The character notices that the sand appears loose.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: If the Hazard's attack is successful, the target is restricted to one Move Action per round, but the target cannot leave its square because it is unable to find secure footing. If the Hazard's attack fails, the target can leave its square.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>The sand beneath your feet shifts as you move, making progress difficult.</i> </p><p>Technically, all sand in a desert is loose, but some areas are less tightly packed than others. Creatures unfortunate enough to stand in such an area have a hard time moving out of it. Placing Loose Sand atop a dune or in the middle of a dry riverbed could put the heroes in a position where they have little or no cover against enemies that find them. </p><h2><span id=\"Loose_Sand_Statistics_.28CL_1.29\"></span><span class=\"mw-headline\" id=\"Loose_Sand_Statistics_(CL_1)\">Loose Sand Statistics (CL 1)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Natural </p><p><b>Trigger:</b> A being begins its turn on Loose Sand. </p><p><b>Attack:</b> +3 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> Each round at the start of the target's turn, as long as the target remains on the Loose Sand. </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Acrobatics\" title=\"Acrobatics\">Acrobatics</a> (DC 18):</b> The character tumbles through the sand to reach more stable ground, gaining a +2 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against the Hazard.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Jump\" title=\"Jump\">Jump</a> (DC 23):</b> The character attempts to leap out of the loose sand, gaining a +5 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against the Hazard.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Knowledge_(Physical_Sciences)\" class=\"mw-redirect\" title=\"Knowledge (Physical Sciences)\">Knowledge (Physical Sciences)</a> (DC 13):</b> The character notices that the sand appears loose.</li>\n</ul><p><b>Special:</b> If the Hazard's attack is successful, the target is restricted to one <a href=\"https://swse.fandom.com/wiki/Move_Action\" class=\"mw-redirect\" title=\"Move Action\">Move Action</a> per round, but the target cannot leave its square because it is unable to find secure footing. If the Hazard's attack fails, the target can leave its square. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Loose Sand",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244598,
+    "modifiedTime": 1749263244598,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "fNtAdwHEIUeUb82W",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!fNtAdwHEIUeUb82W"
+}

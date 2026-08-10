@@ -1,0 +1,168 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<table style=\"width:100%; margin-top:2em; border:2px solid #999; font-size:105%; text-align:center; background:#00008B;\"> \n <tbody>\n  <tr> \n   <td><i><b>This <a href=\"https://swse.fandom.com/wiki/Homebrew_Content\" title=\"Homebrew Content\">Homebrew Content</a> has been <a href=\"https://swse.fandom.com/wiki/Category:Tested\" title=\"Category:Tested\">Tested</a> per the <a href=\"https://swse.fandom.com/wiki/Category:Untested\" title=\"Category:Untested\">Untested</a> guidelines. Whether or not it can be used is, as always, the prerogative of the Gamemaster.</b></i> </td>\n  </tr>\n </tbody>\n</table><p><i>Caarite Species data created by Wikia user Chellewalker (formally Wikia user Lukewarner) (Converted from its Ultimate Alien Anthology counterpart).</i></p><p>Caarites are sly, ingratiating beings whose friendly demeanors overshadow their penchant for crooked dealings. While they suffer from a rather poor reputation, it is difficult for anyone around a Caarite for an extended period of time to believe it capable of anything truly malicious. They wear broad grins, bearing a double row of wide, flat, white teeth. Taking advantage of their frail, friendly appearance, they seize the upper hand in negotiations, exuding an almost childlike charm when dealing directly with large groups of individuals. </p><h3><span class=\"mw-headline\" id=\"Caarite_Characteristics\">Caarite Characteristics</span></h3><p><b>Personality:</b> Caarites are friendly, entertaining, and opportunistic. They desire to get the better of their rivals by any means necessary and demonstrate few scruples at the bargaining table. </p><p><b>Physical Description:</b> Caarites stand 1 meter tall (on average), with features that are vaguely porcelain. They have slightly elongated snouts turned delicately upwards at their tips. Their broad, open faces make their open smiles look even friendlier. Their flesh is pale pink, and their bodies are hairless. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Caarites age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-10 Years </td> \n   <td>11-15 Years </td> \n   <td>16-44 Years </td> \n   <td>45-57 Years </td> \n   <td>58-74 Years </td> \n   <td>75+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The humid <a href=\"https://swse.fandom.com/wiki/Outer_Rim\" class=\"mw-redirect\" title=\"Outer Rim\">Outer Rim</a> planet of <span class=\"new\" title=\"Caarimon (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQ2Fhcmltb24/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Caarimon</span>. </p><p><b>Languages:</b> Caarites speak Caarimala and Basic. Many Caarites know at least one additional language. </p><p><b>Example Names:</b> Belrem Mar, Fiana Jor, Thurm Loogg, Velin Wir, Zoda Brell. </p><p><b>Adventurers:</b> Caarites who become adventurers do so for personal gain. They favor nonviolent tactics when face-to-face with an adversary, but they nonetheless carry a number of tools and ranged weapons. Caarites favor the <a href=\"https://swse.fandom.com/wiki/Scoundrel\" title=\"Scoundrel\">Scoundrel</a> and <a href=\"https://swse.fandom.com/wiki/Scout\" title=\"Scout\">Scout</a> classes. Because they are adverse to physical combat, they do not take up the <a href=\"https://swse.fandom.com/wiki/Soldier\" title=\"Soldier\">Soldier</a> class. Some Caarites are Force-sensitive, but their inherent greed prevents them from following the path of <a href=\"https://swse.fandom.com/wiki/The_Jedi\" title=\"The Jedi\">The Jedi</a>. </p><h3><span class=\"mw-headline\" id=\"Caarite_Species_Traits\">Caarite Species Traits</span></h3><p>Caarites share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Chellewalker Creations",
+        "type": "trait"
+      },
+      {
+        "name": "Small",
+        "type": "trait"
+      },
+      {
+        "name": "Heat Resistance",
+        "type": "trait"
+      },
+      {
+        "name": "Bonus Class Skill (Persuasion)",
+        "type": "trait"
+      },
+      {
+        "name": "Homebrew Content",
+        "type": "trait"
+      },
+      {
+        "name": "Tested",
+        "type": "trait"
+      },
+      {
+        "name": "Natural Diplomat",
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "74",
+          "low": "58",
+          "text": "58-74",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "75",
+          "text": "75+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "10",
+          "low": "1",
+          "text": "1-10",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "15",
+          "low": "11",
+          "text": "11-15",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "57",
+          "low": "45",
+          "text": "45-57",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "44",
+          "low": "16",
+          "text": "16-44",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Bonus Class Skill"
+      },
+      {
+        "value": "Chellewalker Creations"
+      },
+      {
+        "value": "Small"
+      },
+      {
+        "value": "Heat Resistance"
+      },
+      {
+        "value": "Bonus Class Skill (Persuasion)"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Tested"
+      },
+      {
+        "value": "Caarites"
+      },
+      {
+        "value": "Natural Diplomat"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Caarite",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535565706,
+    "modifiedTime": 1736535565706,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "G7p51vrT480PQ2bc",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!G7p51vrT480PQ2bc"
+}

@@ -1,0 +1,69 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Your reputation as a skilled pilot precedes you and bolsters the resolve of your allies. All allies within 6 squares of a <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> you <a href=\"https://swse.fandom.com/wiki/Pilot_(Vehicle_Combat)\" title=\"Pilot (Vehicle Combat)\">Pilot</a> can reroll one <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> check, keeping the better of the two results.<br><br>Once an ally has used this ability, that same ally cannot gain this Talent's benefit during the same encounter.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:Your reputation as a skilled pilot precedes you and bolsters the resolve of your allies. All allies within 6 squares of a<a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a>you<a href=\"https://swse.fandom.com/wiki/Pilot_(Vehicle_Combat)\" title=\"Pilot (Vehicle Combat)\">Pilot</a>can reroll one<a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a>check, keeping the better of the two results.<br><br>Once an ally has used this ability, that same ally cannot gain this Talent's benefit during the same encounter.",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": null,
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Ace Pilot Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Ace Pilot Talent Trees",
+      "Core Rulebook"
+    ],
+    "isSupplied": false,
+    "talentTree": "Expert Pilot Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Expert_Pilot_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Clone Wars Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Renowned Pilot",
+  "flags": {},
+  "type": "talent",
+  "folder": "B8MRr8X8J0fxEXCY",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385304794,
+    "modifiedTime": 1734385304794,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "hLxayco2QgDjlgrs",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!hLxayco2QgDjlgrs"
+}

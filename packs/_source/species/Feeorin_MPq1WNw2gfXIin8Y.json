@@ -1,0 +1,156 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i> </p><p>In <a href=\"https://swse.fandom.com/wiki/The_Old_Republic_Era\" class=\"mw-redirect\" title=\"The Old Republic Era\">The Old Republic Era</a>, the Feeorin are known to come from the planet <a href=\"https://swse.fandom.com/wiki/Odryn\" title=\"Odryn\">Odryn</a>, a planet of severe climatic extremes. Little else is known about the world, given the closed nature of Feeorin society. Few Feeorin venture from their homeworld, and those few outsiders who have survived a visit there tell of a world well suited for the Feeorin, but nobody else. </p><p>Feeorin are massive humanoids whose aging process allows them to grow stronger and more powerful until they die, dropping dead suddenly of old age. Because they are long-lived, they have ample time to gather and use their strength. Feeorin who travel offworld typically select careers compatible with their self-serving and aggressive nature. Feeorin encountered on their homeworld display a greater range of personality and motivation. In either case, Feeorin do not seek out acquaintance with members of other <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>. </p><h3><span class=\"mw-headline\" id=\"Feeorin_Characteristics\">Feeorin Characteristics</span></h3><p><b>Personality:</b> Feeorin are reputed to be brutal and dangerous. While this is not entirely the case, they are quick to anger and highly impersonal. They typically place their own affairs above others, causing other <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> to regard them as selfish. </p><p><b>Physical Description:</b> Feeorin are massive, highly muscled humanoids standing over 2 meters tall. Their skin tones vary wildly, from coal black to pale white but are more commonly green, yellow, or blue. Half-meter-long tendrils hang from the sides and backs of their head. They also have bright red eyes. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Feeorin age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-16 Years </td> \n   <td>17-194 Years </td> \n   <td>195-324 Years </td> \n   <td>325-399 Years </td> \n   <td>400+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The harsh Outer Rim world of <a href=\"https://swse.fandom.com/wiki/Odryn\" title=\"Odryn\">Odryn</a>, but this knowledge is lost by the classic era. </p><p><b>Languages:</b> Feeorin speak and read their own language, also named Feeorin, as well as Basic. </p><p><b>Example Names:</b> Bral, Crayl, Dod, Dreyla, Fein, Kren, Nor, Nym, Pryn, Sayla, Zun. </p><p><b>Adventurers:</b> Feeorin adventurers are typically <a href=\"https://swse.fandom.com/wiki/Soldier\" title=\"Soldier\">Soldiers</a> or <a href=\"https://swse.fandom.com/wiki/Scoundrel\" title=\"Scoundrel\">Scoundrels</a>. Force-users are uncommon, though rare Feeorin <a href=\"https://swse.fandom.com/wiki/Jedi\" title=\"Jedi\">Jedi</a> are known to have become <a href=\"https://swse.fandom.com/wiki/Jedi_Knight\" title=\"Jedi Knight\">Jedi Knights</a> and <a href=\"https://swse.fandom.com/wiki/Jedi_Master\" title=\"Jedi Master\">Jedi Masters</a>. </p><h3><span class=\"mw-headline\" id=\"Feeorin_Species_Traits\">Feeorin Species Traits</span></h3><p>Feeorin share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Great Fortitude",
+        "type": "trait"
+      },
+      {
+        "name": "Brutal",
+        "type": "trait"
+      },
+      {
+        "name": "Stronger by Age",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Low-Light Vision",
+        "type": "trait"
+      },
+      {
+        "name": "Inborn Resilience",
+        "type": "trait"
+      },
+      {
+        "name": "Feeorin",
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "324",
+          "low": "195",
+          "text": "195-324",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "400",
+          "text": "400+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "16",
+          "low": "12",
+          "text": "12-16",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "11",
+          "low": "1",
+          "text": "1-11",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "194",
+          "low": "17",
+          "text": "17-194",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "399",
+          "low": "325",
+          "text": "325-399",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Great Fortitude"
+      },
+      {
+        "value": "Brutal"
+      },
+      {
+        "value": "Stronger by Age"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Low-Light Vision"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Inborn Resilience"
+      },
+      {
+        "value": "Feeorin"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Feeorin",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535566056,
+    "modifiedTime": 1736535566056,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "MPq1WNw2gfXIin8Y",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!MPq1WNw2gfXIin8Y"
+}

@@ -1,0 +1,51 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p>A being must reroll any <a href=\"https://swse.fandom.com/wiki/Deception\" title=\"Deception\">Deception</a> check to <a href=\"https://swse.fandom.com/wiki/Deceive\" class=\"mw-redirect\" title=\"Deceive\">Deceive</a>, keeping the lower of the two results (See <a href=\"https://swse.fandom.com/wiki/The_Order_of_Rerolls\" title=\"The Order of Rerolls\">The Order of Rerolls</a>).</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Deception::A being must reroll any Deception check to Deceive, keeping the lower of the two results (See The Order of Rerolls).",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "prerequisite": null,
+    "cost": "0"
+  },
+  "name": "Mood Scales",
+  "flags": {},
+  "type": "trait",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764446477232,
+    "modifiedTime": 1764446477232,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "7HIkjmxAlspWW1ZB",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!7HIkjmxAlspWW1ZB"
+}

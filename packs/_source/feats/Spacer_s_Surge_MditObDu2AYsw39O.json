@@ -1,0 +1,59 @@
+{
+  "img": "systems/swse/icon/feat/Spacers_Surge.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Rebellion_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Rebellion Era Campaign Guide\">Star Wars Saga Edition Rebellion Era Campaign Guide</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a>, <a href=\"https://swse.fandom.com/wiki/Species_Feats\" class=\"mw-redirect\" title=\"Species Feats\">Species Feats</a></i></p><p>Whenever you pull off an amazing maneuver in a <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a>, it gives you the confidence to accomplish similarly amazing actions in the near future.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Duros\" title=\"Duros\">Duros</a></p><p><b>Effect:</b> Whenever you roll a Natural 20 on a <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> check, you gain 1 temporary <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a>. If that Force Point is not spent before the end of the encounter, it is lost.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Duros species",
+      "requirement": "Duros",
+      "type": "SPECIES"
+    },
+    "categories": [
+      {
+        "value": "Species Feats"
+      },
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Rebellion Era Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Spacer's Surge",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479028925,
+    "modifiedTime": 1761479028925,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "MditObDu2AYsw39O",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!MditObDu2AYsw39O"
+}

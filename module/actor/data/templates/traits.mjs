@@ -45,6 +45,15 @@ export class TraitsFields {
                 min: 0,
                 label: "ForcePoints",
             }),
+            // Homebrew: tracked separately from regular Force Points because a Destiny
+            // Point can be broken down into a Force Point — that converted point doesn't
+            // refresh daily the way normal Force Points do, so it needs its own bucket.
+            bonusForcePoints: new fields.NumberField({
+                initial: 0,
+                integer: true,
+                min: 0,
+                label: "Bonus Force Points",
+            }),
             destinyPoints: new fields.NumberField({
                 initial: 0,
                 integer: true,
@@ -64,7 +73,24 @@ export class TraitsFields {
                     integer: true,
                     label: "Darkside Score",
                 }),
-            })
+            }),
+            // Homebrew: the size category declared here is the single source of truth
+            // for the size-driven homebrew table — it is not overridden by species data.
+            // Player-facing sizes are limited to the three the homebrew table covers.
+            size: new fields.StringField({
+                initial: "Medium",
+                blank: false,
+                choices: ["Small", "Medium", "Large"],
+                label: "Size",
+            }),
+            // Homebrew: every character picks one ability to gain a +2 "size table" bonus to,
+            // on top of whatever fixed adjustment their size grants (see AbilityFunctions.sizeAbilityAdjustment).
+            abilityBonusChoice: new fields.StringField({
+                initial: "",
+                blank: true,
+                choices: ["", "str", "dex", "con", "int", "wis", "cha"],
+                label: "Ability Bonus Choice",
+            }),
         };
     }
 
@@ -128,11 +154,7 @@ export class TraitsFields {
                     label: "Movement Special",
                 }),
             }),
-            size: new fields.StringField({
-                initial: "Medium",
-                blank: false,
-                label: "Size",
-            }),
+            // `size` comes from #_commonCharacter() — NPCs share the same field.
             reach: new fields.NumberField({
                 initial: 1,
                 min: 1,

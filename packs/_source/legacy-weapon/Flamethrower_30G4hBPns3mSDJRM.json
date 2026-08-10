@@ -1,0 +1,108 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode"
+        }
+      },
+      "statuses": [],
+      "disabled": false,
+      "name": "Single-Shot",
+      "_id": "chqtMtSiCfChymev",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513508,
+        "modifiedTime": 1786051513508,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!30G4hBPns3mSDJRM.chqtMtSiCfChymev"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p>The Flamethrower is a ranged weapon that shoots a cone of burning chemicals in a 6-Square <a href=\"https://swse.fandom.com/wiki/Cone\" class=\"mw-redirect\" title=\"Cone\">Cone</a>. Make a single attack roll and compare it to the <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> of every target within this area (this is an <a href=\"https://swse.fandom.com/wiki/Area_Attack\" class=\"mw-redirect\" title=\"Area Attack\">Area Attack</a>). A successful attack deals 3d6 points of <a href=\"https://swse.fandom.com/wiki/Fire\" title=\"Fire\">Fire</a> damage to the target; if the attack misses, the target takes half damage instead. A target with the <b><a href=\"https://swse.fandom.com/wiki/Evasion\" class=\"mw-redirect\" title=\"Evasion\">Evasion</a></b> talent takes half damage from a successful attack, and no damage if the attack misses. </p><p>Reloading the Flamethrower is a <a href=\"https://swse.fandom.com/wiki/Full-Round_Action\" class=\"mw-redirect\" title=\"Full-Round Action\">Full-Round Action</a>. The weapon can be used five times before its chemical supply is depleted. Replacement chemical cartridges for the Flamethrower cost 200 credits, and weigh 4 kg each. </p><p><b>Special:</b>&nbsp;This is an&nbsp;<a href=\"https://swse.fandom.com/wiki/Area_Attack\" class=\"mw-redirect\" title=\"Area Attack\">Area Attack</a>&nbsp;Weapon. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "1,000",
+    "weight": "7 Kilograms",
+    "availability": "Military",
+    "size": "Medium",
+    "type": "",
+    "subtype": "Exotic Ranged Weapons",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "3d6",
+    "damageType": "Fire",
+    "specialQualities": "Special: This is an Area Attack Weapon."
+  },
+  "name": "Flamethrower",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Flamethrower.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513508,
+    "modifiedTime": 1786051513580,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "30G4hBPns3mSDJRM",
+  "_key": "!items!30G4hBPns3mSDJRM"
+}

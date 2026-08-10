@@ -1,8 +1,32 @@
 $c-white: #fff;
 $c-black: #000;
 
+// Homebrew: dark, holo-terminal-inspired theme (replaces the old light/indigo
+// palette) adapted from sf2e's CSS-variable theming approach, not its literal
+// parchment-book palette. --swse-bg/foreground/midground keep their
+// existing semantic roles (base surface / primary accent / control surface)
+// since they're already load-bearing across window chrome, forms, and other
+// components — only their values change here.
 :root {
-  --color-background: #e8e8e8;
-  --color-foreground: #424ba4;
-  --color-midground: #bcc3fd;
+  // Surface scale
+  --swse-bg: #10131a;
+  --swse-surface: #171b24;
+  --swse-surface-raised: #1f2430;
+  --swse-control: #262c3a;
+  --swse-border: #2e3648;
+
+  // Text
+  --swse-text: #e7eaf2;
+  --swse-text-muted: #9aa3b8;
+
+  // Primary accent
+  --swse-accent: #4fc3f7;
+  --swse-accent-muted: #2b8bb8;
+
+  // Category accents, echoing sf2e's trait/damage-type color-coding idea
+  // applied to SWSE's own concepts
+  --swse-accent-combat: #e2574c;
+  --swse-accent-force: #a78bfa;
+  --swse-accent-skill: #4ade80;
+  --swse-accent-darkside: #c23a3a;
 }

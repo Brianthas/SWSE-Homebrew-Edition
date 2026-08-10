@@ -1,0 +1,67 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Hazards, Diseases",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A creature is damaged by a Rakghoul's Bite attack.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "If successful, every five minutes, until the Rakghoul Disease is treated.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Knowledge (Life Sciences) (DC 21): The character identifies the Rakghoul Disease. Treat Injury (DC 25; Requires Rakghoul Serum): The character treats the Rakghoul Disease.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: After three successful attacks, the target transforms into a Rakghoul. For targets other than Medium size, adjust the Rakghoul statistics so that the size matches the target's original size.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Contact",
+          "Disease"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a>, <a href=\"https://swse.fandom.com/wiki/Diseases\" title=\"Diseases\">Diseases</a></i> </p><p>When a <a href=\"https://swse.fandom.com/wiki/Rakghoul\" title=\"Rakghoul\">Rakghoul</a> successfully damages a living creature with its Bite attack, the target may become infected with the Rakghoul Disease. </p><h2><span id=\"Rakghoul_Disease_Statistics_.28CL_6.29\"></span><span class=\"mw-headline\" id=\"Rakghoul_Disease_Statistics_(CL_6)\">Rakghoul Disease Statistics (CL 6)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Contact, Disease </p><p><b>Trigger:</b> A creature is damaged by a Rakghoul's Bite attack. </p><p><b>Attack:</b> +8 vs <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> </p><p><b>Recurrence:</b> If successful, every five minutes, until the Rakghoul Disease is treated. </p><p><b>Suggested&nbsp;<a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b>&nbsp;The following are suggested&nbsp;<a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>&nbsp;for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Knowledge_(Life_Sciences)\" class=\"mw-redirect\" title=\"Knowledge (Life Sciences)\">Knowledge (Life Sciences)</a> (DC 21):</b> The character identifies the Rakghoul Disease.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a> (DC 25; Requires Rakghoul Serum):</b> The character treats the Rakghoul Disease.</li>\n</ul><p><b>Special:</b> After three successful attacks, the target transforms into a <a href=\"https://swse.fandom.com/wiki/Rakghoul\" title=\"Rakghoul\">Rakghoul</a>. For targets other than Medium size, adjust the <a href=\"https://swse.fandom.com/wiki/Rakghoul\" title=\"Rakghoul\">Rakghoul</a> statistics so that the size matches the target's original size. </p>",
+    "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Rakghoul Disease",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244899,
+    "modifiedTime": 1749263244899,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "2HL1NnDGQGRvXymn",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!2HL1NnDGQGRvXymn"
+}

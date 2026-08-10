@@ -1,0 +1,75 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "When you make a ranged attack with a <a href=\"https://swse.fandom.com/wiki/Pistol\" class=\"mw-redirect\" title=\"Pistol\">Pistol</a> or <a href=\"https://swse.fandom.com/wiki/Rifle\" class=\"mw-redirect\" title=\"Rifle\">Rifle</a>, all allies within 6 squares of you when you made the attack gain a +1 bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> until the start of your next turn. Allies within range don't need to be within your line of sight to gain the bonus.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Battle Analysis talent",
+      "requirement": "Battle Analysis",
+      "type": "TALENT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Elite Trooper Talent Trees"
+      },
+      {
+        "value": "Soldier Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Officer Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Elite Trooper Talent Trees",
+      "Soldier Talent Trees",
+      "Core Rulebook",
+      "Officer Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Commando Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Commando_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Core Rulebook",
+    "cost": "0"
+  },
+  "name": "Cover Fire",
+  "flags": {},
+  "type": "talent",
+  "folder": "tRR8xp1BbHFljyD2",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385303523,
+    "modifiedTime": 1734385303523,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "vnBAppyqHDRdXMhx",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!vnBAppyqHDRdXMhx"
+}

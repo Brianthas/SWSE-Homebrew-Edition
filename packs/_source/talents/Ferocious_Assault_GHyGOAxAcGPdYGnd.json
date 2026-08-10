@@ -1,0 +1,78 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Once per encounter, when making an <a href=\"https://swse.fandom.com/wiki/Autofire\" title=\"Autofire\">Autofire</a> attack, you can treat the attack as a 6-Square <a href=\"https://swse.fandom.com/wiki/Cone\" class=\"mw-redirect\" title=\"Cone\">Cone</a>. Making this attack consumes 20 shots from the weapon's <a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Controlled Burst talent",
+          "requirement": "Controlled Burst",
+          "type": "TALENT"
+        },
+        {
+          "text": "Base Attack Bonus 12",
+          "requirement": "12",
+          "type": "BASE ATTACK BONUS"
+        }
+      ],
+      "text": "Controlled Burst talent, and Base Attack Bonus 12",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Elite Trooper Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Elite Trooper Talent Trees",
+      "Core Rulebook"
+    ],
+    "isSupplied": false,
+    "talentTree": "Weapon Master Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Weapon_Master_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Galaxy at War",
+    "cost": "0"
+  },
+  "name": "Ferocious Assault",
+  "flags": {},
+  "type": "talent",
+  "folder": "Jbx6AQ4WPZtZfcGj",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385313421,
+    "modifiedTime": 1734385313421,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "GHyGOAxAcGPdYGnd",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!GHyGOAxAcGPdYGnd"
+}

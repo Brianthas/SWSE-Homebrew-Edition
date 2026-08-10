@@ -1,0 +1,52 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p>Beings add a +5 <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> bonus to their <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> to resist <a href=\"https://swse.fandom.com/wiki/Extreme_Heat\" class=\"mw-redirect\" title=\"Extreme Heat\">Extreme Heat</a>.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "modifier": "Extreme Heat",
+        "value": 5,
+        "key": "fortitudeDefenseBonus"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "prerequisite": null,
+    "cost": "0"
+  },
+  "name": "Heat Resistance",
+  "flags": {},
+  "type": "trait",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764446477116,
+    "modifiedTime": 1764446477116,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "hb6FVbB6VsjRrkjH",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!hb6FVbB6VsjRrkjH"
+}

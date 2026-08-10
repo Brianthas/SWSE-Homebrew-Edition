@@ -1,0 +1,44 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Locomotion Systems",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "1.5",
+        "key": "carryCapacityMultiplier"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "droidPart"
+      }
+    ],
+    "description": "<p><b>Requires:</b> <a href=\"https://swse.fandom.com/wiki/Walking\" title=\"Walking\">Walking</a> Locomotion System</p><p><a href=\"https://swse.fandom.com/wiki/Walking\" title=\"Walking\">Walking</a> droids are usually bipedal, but a <a href=\"https://swse.fandom.com/wiki/Walking\" title=\"Walking\">Walking</a> droid can be built with three or more legs (usually four) to grant the droid extra stability and <a href=\"https://swse.fandom.com/wiki/Carrying_Capacity\" class=\"mw-redirect\" title=\"Carrying Capacity\">Carrying Capacity</a>. This doubles the cost of the <a href=\"https://swse.fandom.com/wiki/Walking\" title=\"Walking\">Walking</a> locomotion system, but the droid's <a href=\"https://swse.fandom.com/wiki/Carrying_Capacity\" class=\"mw-redirect\" title=\"Carrying Capacity\">Carrying Capacity</a> is 50% higher than that of a bipedal droid of the same <a href=\"https://swse.fandom.com/wiki/Abilities\" title=\"Abilities\">Strength</a>. In addition, the droid gains a +5 stability bonus on checks to resist attempts to knock it <a href=\"https://swse.fandom.com/wiki/Prone\" class=\"mw-redirect\" title=\"Prone\">Prone</a>.</p>",
+    "cost": "Locomotion System Cost x 2",
+    "requires": "Walking Locomotion System"
+  },
+  "name": "Extra Legs",
+  "flags": {},
+  "type": "droid system",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764449015678,
+    "modifiedTime": 1764449015678,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "bnBxZdHUWG0IyUsE",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!bnBxZdHUWG0IyUsE"
+}

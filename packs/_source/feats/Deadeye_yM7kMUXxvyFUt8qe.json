@@ -1,0 +1,88 @@
+{
+  "img": "systems/swse/icon/feat/Deadeye.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You are skilled at picking off enemies with well-Aimed ranged attacks.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Point-Blank_Shot\" title=\"Point-Blank Shot\">Point-Blank Shot</a>, <a href=\"https://swse.fandom.com/wiki/Precise_Shot\" title=\"Precise Shot\">Precise Shot</a>, <a href=\"https://swse.fandom.com/wiki/Base_Attack_Bonus\" class=\"mw-redirect\" title=\"Base Attack Bonus\">Base Attack Bonus</a> +4</p><p><b>Effect:</b> If you <a href=\"https://swse.fandom.com/wiki/Aim\" title=\"Aim\">Aim</a> before making a ranged attack and the attack hits, increase the damage you deal by an additional weapon die (3d6 becomes 4d6).</p><p><b>Special:</b> The effects of this Feat do not stack with the extra damage provided by the <a href=\"https://swse.fandom.com/wiki/Burst_Fire\" title=\"Burst Fire\">Burst Fire</a> or <a href=\"https://swse.fandom.com/wiki/Rapid_Shot\" title=\"Rapid Shot\">Rapid Shot</a> Feats.</p><h2><span class=\"mw-headline\" id=\"Additional_Deadeye_Effects\">Additional Deadeye Effects</span></h2><p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><p>A <a href=\"https://swse.fandom.com/wiki/Pilot_(Vehicle_Combat)\" title=\"Pilot (Vehicle Combat)\">Pilot</a> can use this Feat, but since they must spend at least one <a href=\"https://swse.fandom.com/wiki/Move_Action\" class=\"mw-redirect\" title=\"Move Action\">Move Action</a> operating their <a href=\"https://swse.fandom.com/wiki/Vehicles\" title=\"Vehicles\">Vehicles</a>, they must split their <a href=\"https://swse.fandom.com/wiki/Aim\" title=\"Aim\">Aim</a> (two <a href=\"https://swse.fandom.com/wiki/Swift_Actions\" title=\"Swift Actions\">Swift Actions</a>) and attack (<a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a>) into two separate turns, making it more likely that the target will break line of sight or avoid you.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Point-Blank Shot feat",
+          "requirement": "Point-Blank Shot",
+          "type": "FEAT"
+        },
+        {
+          "text": "Precise Shot feat",
+          "requirement": "Precise Shot",
+          "type": "FEAT"
+        },
+        {
+          "text": "Base Attack Bonus 4",
+          "requirement": "4",
+          "type": "BASE ATTACK BONUS"
+        }
+      ],
+      "text": "Point-Blank Shot feat, Precise Shot feat, and Base Attack Bonus 4",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Soldier Bonus Feats"
+      },
+      {
+        "value": "Ranged Feats"
+      },
+      {
+        "value": "Scoundrel Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Scout Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Bonus Feats",
+      "Scoundrel Bonus Feats",
+      "General Feats",
+      "Scout Bonus Feats",
+      "Smuggler Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Starships of the Galaxy",
+    "cost": "0"
+  },
+  "name": "Deadeye",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1761479026452,
+    "modifiedTime": 1786036141517,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "yM7kMUXxvyFUt8qe",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!yM7kMUXxvyFUt8qe"
+}

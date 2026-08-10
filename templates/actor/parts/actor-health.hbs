@@ -1,142 +1,105 @@
 {{!-- Health Block --}}
-<div class="health-block panel flex flex-col">
-    <h1 class="top-label label resource-label">Hit Points</h1>
-    <div class="flex-row">
-        <div class="labeled-input numeric-override medium" data-override="{{actor.health.override}}" data-context="health"
-             data-override-name="Total Health" data-override-key="system.health.override">
-            <label for="maxHealth" class="text">Total</label>
-            <input class="left-input" id="maxHealth" type="text"
-                   value="{{actor.health.max}}" placeholder="" disabled/>
-        </div>
-        <div class="divider"></div>
-        <div class="labeled-input medium">
-            <label for="currentHealth" class="text">Current</label>
-            <input class="right-input" id="currentHealth" type="number" name="system.health.value"
+<div class="health-block panel area-health">
+    <h1 class="top-label resource-label">Hit Points</h1>
+
+    <div class="hp-headline">
+        <div class="field">
+            <label for="currentHealth">Current</label>
+            <input id="currentHealth" type="number" name="system.health.value"
                    value="{{actor.health.value}}" data-dtype="Number"/>
         </div>
-    {{#unless disableSecondWind}}
-        <div class="labeled-input medium">
-            <label for="secondWind" class="top" title="Regardless of second winds per day, only one can be used per encounter.">Second
-                Winds/Day</label>
-            <input class="left-input" id="secondWind" type="text" placeholder="" disabled/>
-            {{#times actor.secondWind.perDay}}
-                <input class="left-control-{{this}}" data-action="toggle-second-wind" title="Spent" type="checkbox" data-name="system.secondWind.toggles.{{this}}"
-                       {{#if (lookup ../actor.system.secondWind.toggles this)}}checked{{/if}}>
-            {{/times}}
-        </div>
-
-    {{/unless}}
-
-    {{#unless disableFirstAid}}
-        <div class="labeled-input medium">
-            <label for="firstAid" class="top" title="You can usually only accept first aid once per day">First Aid/Day</label>
-            <input class="right-input" id="firstAid" type="text" placeholder="" disabled/>
-            {{#times actor.firstAid.perDay}}
-                <input class="left-control-{{this}}" data-action="toggle-first-aid" title="Performed" type="checkbox" data-name="system.firstDay.toggles.{{this}}"
-                       {{#if (lookup ../actor.system.firstDay.toggles this)}}checked{{/if}}>
-            {{/times}}
-        </div>
-    {{/unless}}
-    </div>
-
-    <div class="flex-row">
-        <div class="labeled-input">
-            <label for="damageThreshold">Damage Threshold</label>
-            <input class="left-input" id="damageThreshold" type="text"
-                   value="{{actor.system.defense.damageThreshold.total}}" placeholder="" disabled/>
-        </div>
-        <div class="labeled-input">
-            <label for="dtFort">Fort</label>
-            <input class="middle-input" id="dtFort" type="text"
-                   value="{{actor.system.defense.fortitude.total}}" placeholder="" disabled/>
-        </div>
-        <div class="labeled-input">
-            <label for="dtMisc">Misc</label>
-            <input class="right-input" id="dtMisc" type="number" name="system.defense.damageThreshold.misc"
-                   value="{{actor.system.defense.damageThreshold.misc}}" placeholder=""/>
+        <span class="hp-divider">/</span>
+        <div class="field">
+            <label for="maxHealth" title="Set on the Classes tab, from class levels plus any override.">Total</label>
+            <input id="maxHealth" type="text" value="{{actor.health.max}}" placeholder="" disabled/>
         </div>
     </div>
 
-    <div class="flex-row">
-        <div class="labeled-input">
-            <label for="damageReduction">Damage Reduction</label>
-            <input class="" id="damageReduction" type="text"
-                   value="{{actor.defense.damageReduction}}" placeholder="" disabled/>
-        </div>
+    <div class="field field-center-label">
+        <label for="maneuverDefense" title="Total Fortitude Defense + 5">Maneuver Defense</label>
+        <input id="maneuverDefense" type="text" value="{{actor.maneuverDefense}}" placeholder="" disabled/>
     </div>
 
-
-    <div class="flex-row">
-
+    <div class="stat-grid">
+        <div class="field">
+            <label for="damageReduction">Dmg Reduction</label>
+            {{!-- Blank falls back to the armor/talent-derived value shown as placeholder. --}}
+            <input id="damageReduction" type="text" name="system.defense.damageReductionOverride"
+                   value="{{actor.system.defense.damageReductionOverride}}"
+                   placeholder="{{actor.system.defense.derivedDamageReduction}}"
+                   data-dtype="String"
+                   title="Leave blank to use the value from armor and talents. Accepts notation like 5/lightsabers"/>
+        </div>
     {{#unless disableSimpleSpeedAndBaseAttackBonus}}
-        <div class="labeled-input">
+        <div class="field field-roll">
             <label for="baseAttack">Base Attack</label>
-            <input class="left-input" id="baseAttack" type="text"
-                   value="{{actor.baseAttackBonus}}" placeholder="" disabled/>
-            <div class="control-0">
-                <a class="rollable" title="Roll 1d20 + {{actor.baseAttackBonus}}" data-label="Base Attack Bonus" data-roll="1d20 + {{actor.baseAttackBonus}}"><i class="fas fa-dice-d20"></i></a>
-            </div>
+            <input id="baseAttack" type="text" value="{{actor.baseAttackBonus}}" placeholder="" disabled/>
+            <input type="checkbox" class="roll-bonus-toggle" data-action="toggle-roll-bonus-prompt" data-name="system.toggles.baseAttackBonusPrompt" title="Prompt for an additional bonus before rolling" {{#if actor.system.toggles.baseAttackBonusPrompt}}checked{{/if}}/>
+            <a class="roll-badge" data-action="roll-with-bonus-toggle" title="Roll 1d20 + {{actor.baseAttackBonus}} (Ctrl-click for Advantage, Alt-click for Disadvantage)" data-label="Base Attack Bonus" data-formula="1d20 + {{actor.baseAttackBonus}}"><i class="fas fa-dice-d20"></i></a>
         </div>
     {{/unless}}
-        <div class="labeled-input">
-            <label for="grapple">Grapple Bonus</label>
-            <input class="{{#unless disableSimpleSpeedAndBaseAttackBonus}}middle-input{{/unless}}" id="grapple" type="text"
-                   value="{{actor.grapple}}" placeholder="" disabled/>
-            <div class="control-0">
-                <a class="rollable" title="Roll 1d20 + {{actor.grapple}}" data-label="Grapple" data-roll="1d20 + {{actor.grapple}}"><i class="fas fa-dice-d20"></i></a>
-            </div>
+        <div class="field field-roll">
+            <label for="grapple">Grapple</label>
+            <input id="grapple" type="text" value="{{actor.grapple}}" placeholder="" disabled/>
+            <input type="checkbox" class="roll-bonus-toggle" data-action="toggle-roll-bonus-prompt" data-name="system.toggles.grapplePrompt" title="Prompt for an additional bonus before rolling" {{#if actor.system.toggles.grapplePrompt}}checked{{/if}}/>
+            <a class="roll-badge" data-action="roll-with-bonus-toggle" title="Roll 1d20 + {{actor.grapple}} (Ctrl-click for Advantage, Alt-click for Disadvantage)" data-label="Grapple" data-formula="1d20 + {{actor.grapple}}"><i class="fas fa-dice-d20"></i></a>
         </div>
-    {{#unless disableSimpleSpeedAndBaseAttackBonus}}
-        <div class="labeled-input">
+    </div>
+
+{{#unless disableSimpleSpeedAndBaseAttackBonus}}
+    <div class="stat-grid">
+        <div class="field">
             <label for="characterSpeed">Speed</label>
-            <input class="right-input" id="characterSpeed" type="text" title="{{actor.speed}}"
-                   value="{{actor.speed}}" placeholder="" disabled/>
+            <input id="characterSpeed" type="text" title="{{actor.speed}}" value="{{actor.speed}}" placeholder="" disabled/>
         </div>
-    {{/unless}}
-    </div>
-
-    {{#unless (or actor.isFollower disableForcePointsAndDestinyPoints)}}
-    <div class="flex-row">
-        <div class="labeled-input">
-            <label for="forcePoints">Force Points</label>
-            <input id="forcePoints" class="left-input" type="number" name="system.forcePoints.quantity" value="{{actor.forcePoints.quantity}}"
-                   data-dtype="Number"/>
-            <div class="control-0">
-                <a class="rollable" title="Roll {{actor.forcePoints.roll}}" data-label="Force Point" data-roll="{{actor.forcePoints.roll}}"><i class="fas fa-dice-d20"></i></a>
-            </div>
-        </div>
-        <div class="labeled-input">
-            <label for="destinyPoints">Destiny Points</label>
-            <input id="destinyPoints" class="right-input" type="number" name="system.destinyPoints" value="{{actor.system.destinyPoints}}"
-                   data-dtype="Number"/>
+        <div class="field">
+            <label>&nbsp;</label>
+            <button type="button" class="first-aid-button" data-action="first-aid"
+                    title="Roll your Healing Hit Die + Con modifier + character level, plus any bonus you enter, and add it to current HP (capped at max).">
+                <i class="fas fa-kit-medical"></i> First Aid
+            </button>
         </div>
     </div>
-    {{/unless}}
+{{/unless}}
 
-    <h1 class="top-label label resource-label">Shields</h1>
-    <div class="flex-row">
-        <div class="labeled-input numeric-override" data-override="{{actor.shields.override}}" data-override-name="Total Shields" data-override-key="system.shields.override">
-            <label for="maxShields" class="text">Total</label>
-            <input class="left-input" id="maxShields" type="text"
-                   value="{{actor.shields.max}}" placeholder="" disabled/>
+{{#unless disableSecondWind}}
+    <div class="field">
+        <label for="secondWind" title="Regardless of second winds per day, only one can be used per encounter.">Second Winds/Day</label>
+        <div class="toggle-track">
+            {{#times actor.secondWind.perDay}}
+                <input data-action="toggle-second-wind" title="Spent" type="checkbox" data-name="system.toggles.secondWinds.{{this}}"
+                       {{#if (lookup ../actor.system.toggles.secondWinds this)}}checked{{/if}}>
+            {{else}}
+                <span class="toggle-empty">None</span>
+            {{/times}}
         </div>
-        <div class="divider"></div>
+    </div>
+{{/unless}}
+
+{{!-- First Aid is no longer tracked here: homebrew makes it a per-injury resource
+      rather than a per-day one, so there's nothing daily to count. --}}
+
+    {{#ifEquals actor.type "vehicle"}}
+    <h1 class="top-label resource-label">Shields</h1>
+    <div class="stat-grid cols-2">
+        <div class="field numeric-override" data-override="{{actor.shields.override}}" data-override-name="Total Shields" data-override-key="system.shields.override">
+            <label for="maxShields">Total</label>
+            <input id="maxShields" type="text" value="{{actor.shields.max}}" placeholder="" disabled/>
+        </div>
         {{#if actor.shields.failureChance}}
-            <div class="labeled-input"><label>Failure Chance</label><div class="plain input static">{{actor.shields.failureChance}}</div><</div>
-
-            <div class="labeled-input">
+            <div class="field">
                 <label for="failureChance">Failure Chance</label>
-                <input class="middle-input" id="failureChance" type="text"
-                       value="{{actor.defense.fort.total}}" placeholder="" disabled/>
+                <input id="failureChance" type="text" value="{{actor.defense.fort.total}}" placeholder="" disabled/>
             </div>
         {{/if}}
-        <div class="labeled-input">
-            <label for="currentShield" class="text">Current</label>
-            <input class="right-input" id="currentShield" type="number" name="system.shields.value" value="{{actor.shields.value}}" data-dtype="Number"/>
+        <div class="field">
+            <label for="currentShield">Current</label>
+            <input id="currentShield" type="number" name="system.shields.value" value="{{actor.shields.value}}" data-dtype="Number"/>
 
             <div class="control-2" title="Toggle Shield {{#if actor.shields.active}}Off{{else}}On{{/if}}"><a data-action="shield" data-action-type="toggle" class="{{#if actor.shields.active}}cursor{{/if}}"><i class="fas fa-shield-virus"></i></a></div>
             <div class="control-1" title="Shield +5"><a data-action="shield" data-action-type="plus"><i class="fas fa-plus"></i></a></div>
             <div class="control-0" title="Shield -5"><a data-action="shield" data-action-type="minus"><i class="fas fa-minus"></i></a></div>
         </div>
     </div>
+    {{/ifEquals}}
 </div>

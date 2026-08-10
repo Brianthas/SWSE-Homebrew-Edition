@@ -1,0 +1,168 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<table style=\"width:100%; margin-top:1em; border:1px solid #999; font-size:90%; text-align:center; background:#363636\"> \n <tbody>\n  <tr> \n   <td><i>This article details the Teek Species created by <a href=\"https://swse.fandom.com/wiki/Homebrew_Content\" title=\"Homebrew Content\">Homebrew Content</a>. You may be looking for the <a href=\"https://swse.fandom.com/wiki/Homebrew_Content\" title=\"Homebrew Content\">Homebrew Content</a> character of the same name, <a href=\"https://swse.fandom.com/wiki/Teek_(Character)\" title=\"Teek (Character)\">Teek</a>.</i> </td>\n  </tr>\n </tbody>\n</table><table style=\"width:100%; margin-top:2em; border:2px solid #999; font-size:105%; text-align:center; background:#6c3636;\"> \n <tbody>\n  <tr> \n   <td><i><b>This <a href=\"https://swse.fandom.com/wiki/Homebrew_Content\" title=\"Homebrew Content\">Homebrew Content</a> has not been reviewed in a meaningful manner. If you wish to review this content yourself, then see <a href=\"https://swse.fandom.com/wiki/Category:Untested\" title=\"Category:Untested\">Untested</a> for more details.</b></i> </td>\n  </tr>\n </tbody>\n</table><p><i>Teek Species data created by Wikia user Chellewalker (formally Wikia user Lukewarner).</i></p><p>Teeks are rodentlike, simian creatures that live in the forest, scavenging and stealing things from animal nests and from <a href=\"https://swse.fandom.com/wiki/Ewok\" title=\"Ewok\">Ewok</a> dwellings. The other members of <a href=\"https://swse.fandom.com/wiki/The_Native_Tribes\" title=\"The Native Tribes\">The Native Tribes</a> hold poor relations with the Teeks, considering it a sure sign of trouble even to be seen with one of the creatures. Teeks have evolved an enormously fast metabolism, which allows them to put on bursts of incredible speed, for fleeing both from enemies and from the victims of their own thievery. </p><h3><span class=\"mw-headline\" id=\"Teek_Characteristics\">Teek Characteristics</span></h3><p><b>Personality:</b> Though Teeks are accomplished thieves and collectors of all kinds of things, they do not consider themselves dishonest, since they leave a trinket or token of equivalent value. What the Teek considers \"equal value\" is often very different from what the original owner of the stolen object might expect. </p><p><b>Physical Description:</b> Teeks have long, pointy ears and scruffy white fur, beady black eyes, and a propensity for constant chattering. A set of buckteeth makes them look stupid and goatish, but their hands are agile and fast, amazingly so. Teeks wear rudimentary clothing, with many belts, pouches, and pockets for those items they manage to snatch. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Teeks age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-15 Years </td> \n   <td>16-27 Years </td> \n   <td>28-40 Years </td> \n   <td>41-52 Years </td> \n   <td>53+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Teeks are typically found on <a href=\"https://swse.fandom.com/wiki/The_Forest_Moon_of_Endor\" title=\"The Forest Moon of Endor\">The Forest Moon of Endor</a>, though records show that the Species is not native to the Endor System. </p><p><b>Languages:</b> Teek is a rapid-fire chittering language, lacking any written form. Well-traveled Teeks might learn Ewokese or Dulok, but few on <a href=\"https://swse.fandom.com/wiki/Endor\" class=\"mw-redirect\" title=\"Endor\">Endor</a> willingly associate with the creatures. </p><p><b>Example Names:</b> Duuk, Kooj, Reet, Teek, Yeep. </p><p><b>Adventurers:</b> Teeks are mischievous beings, often taking the role of <a href=\"https://swse.fandom.com/wiki/Scoundrel\" title=\"Scoundrel\">Scoundrel</a> or <a href=\"https://swse.fandom.com/wiki/Scout\" title=\"Scout\">Scout</a>. Those that can work in groups struggle with a steep language barrier, but they make it up with their unexpected cunning. </p><h3><span class=\"mw-headline\" id=\"Teek_Species_Traits\">Teek Species Traits</span></h3><p>Teeks share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Untested",
+        "type": "trait"
+      },
+      {
+        "name": "Chellewalker Creations",
+        "type": "trait"
+      },
+      {
+        "name": "Small",
+        "type": "trait"
+      },
+      {
+        "name": "Acceleration",
+        "type": "trait"
+      },
+      {
+        "name": "Primitive",
+        "type": "trait"
+      },
+      {
+        "name": "Bonus Class Skill (Stealth)",
+        "type": "trait"
+      },
+      {
+        "name": "Homebrew Content",
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "52",
+          "low": "41",
+          "text": "41-52",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "11",
+          "low": "1",
+          "text": "1-11",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "53",
+          "text": "53+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "40",
+          "low": "28",
+          "text": "28-40",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "15",
+          "low": "12",
+          "text": "12-15",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "27",
+          "low": "16",
+          "text": "16-27",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Bonus Class Skill"
+      },
+      {
+        "value": "Untested"
+      },
+      {
+        "value": "Chellewalker Creations"
+      },
+      {
+        "value": "Small"
+      },
+      {
+        "value": "Acceleration"
+      },
+      {
+        "value": "Primitive"
+      },
+      {
+        "value": "Teeks"
+      },
+      {
+        "value": "Bonus Class Skill (Stealth)"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Species"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Teek",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535567452,
+    "modifiedTime": 1736535567452,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "YBf2ZvW4YpTriGNR",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!YBf2ZvW4YpTriGNR"
+}

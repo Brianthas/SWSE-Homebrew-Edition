@@ -1,0 +1,424 @@
+{
+  "effects": [
+    {
+      "name": "Level 1",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 1
+        }
+      },
+      "disabled": true,
+      "_id": "07l10HH8DkXrGgsd",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "provides",
+            "type": "add",
+            "value": "Jedi Master Talent Trees",
+            "phase": "initial",
+            "priority": 20
+          },
+          {
+            "key": "baseAttackBonus",
+            "type": "add",
+            "value": 1,
+            "phase": "initial",
+            "priority": 20
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786041599964,
+        "modifiedTime": 1786041599964,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!0YtwIwElUCS69rAk.07l10HH8DkXrGgsd"
+    },
+    {
+      "name": "Level 2",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 2
+        }
+      },
+      "disabled": true,
+      "_id": "TRhrkBdFbH4VBhoR",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Force Secret",
+            "key": "provides",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 1,
+            "key": "baseAttackBonus",
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!0YtwIwElUCS69rAk.TRhrkBdFbH4VBhoR"
+    },
+    {
+      "name": "Level 3",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 3
+        }
+      },
+      "disabled": true,
+      "_id": "zd2AjBRc8gWz3GLN",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Force Secret",
+            "key": "provides",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": "Jedi Master Talent Trees",
+            "key": "provides",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 1,
+            "key": "baseAttackBonus",
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!0YtwIwElUCS69rAk.zd2AjBRc8gWz3GLN"
+    },
+    {
+      "name": "Level 4",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 4
+        }
+      },
+      "disabled": true,
+      "_id": "FaTdmCqWtd1qlkfY",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Force Secret",
+            "key": "provides",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 1,
+            "key": "baseAttackBonus",
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!0YtwIwElUCS69rAk.FaTdmCqWtd1qlkfY"
+    },
+    {
+      "name": "Level 5",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 5
+        }
+      },
+      "disabled": true,
+      "_id": "6KCxMHoXf4vpqsNe",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Force Secret",
+            "key": "provides",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": "Jedi Master Talent Trees",
+            "key": "provides",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 1,
+            "key": "baseAttackBonus",
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!0YtwIwElUCS69rAk.6KCxMHoXf4vpqsNe"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><br> <i>Reference Book: Star Wars Saga Edition Core Rulebook</i> </p><p>Jedi Masters represent the pinnacle of the Jedi order. They are Jedi who are both strong enough in <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a>, and patient enough in life to pass on their skills by teaching a new generation of Jedi. The journey from Padawan Learner to Jedi Master usually takes decades, and many who start upon the path never reach its final destination. </p><p>Becoming a Jedi Master requires patience, inner strength, wisdom, and a deep connection to, and understanding of, <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a>. Further, a <a href=\"https://swse.fandom.com/wiki/Jedi_Knight\" title=\"Jedi Knight\">Jedi Knight</a> usually doesn't become a Jedi Master until they train a student to completion. Jedi are allowed only one Padawan at a time, and the training of a single Padawan can take years. </p><p>The most respected Jedi Masters are invited by their peers (And, in some cases, their former Masters) to join them on the Jedi Council. Those who join the Council use their wisdom and influence to instruct others in the ways of <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a>, and preserve peace in the galaxy. The Jedi Council is also tasked with identifying Force-sensitive children across the galaxy, and offering them instructions in the Jedi <a href=\"https://swse.fandom.com/wiki/Force_Tradition\" class=\"mw-redirect\" title=\"Force Tradition\">Force Tradition</a>. These lessons are fairly rudimentary- usually intended to teach a student \"The Basics\" until he or she is old enough to receive formal training as a Padawan. </p><p>During the Rise of the Empire era, the Jedi Council would confer the title of Jedi Master upon those deemed qualified to teach others in the ways of <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a>. During the Rebellion era and the New Jedi Order era, Jedi require no such approval; however, they must adhere to the tenets of the <a href=\"https://swse.fandom.com/wiki/Jedi_Code\" class=\"mw-redirect\" title=\"Jedi Code\">Jedi Code</a> to become Jedi Masters. </p><h4><span class=\"mw-headline\" id=\"Examples_of_Jedi_Masters_in_Star_Wars\"><b>Examples of Jedi Masters in Star Wars</b></span></h4><p><a href=\"https://swse.fandom.com/wiki/Adi_Gallia\" title=\"Adi Gallia\">Adi Gallia</a>, Eeth Koth, Luke Skywalker (The New Jedi Order era), <a href=\"https://swse.fandom.com/wiki/Kit_Fisto\" title=\"Kit Fisto\">Kit Fisto</a>, Luminara Unduli, <a href=\"https://swse.fandom.com/wiki/Mace_Windu\" title=\"Mace Windu\">Mace Windu</a>, <a href=\"https://swse.fandom.com/wiki/Obi-Wan_Kenobi\" title=\"Obi-Wan Kenobi\">Obi-Wan Kenobi (Episode III)</a>, <a href=\"https://swse.fandom.com/wiki/Plo_Koon\" title=\"Plo Koon\">Plo Koon</a>, <a href=\"https://swse.fandom.com/wiki/Shaak_Ti\" title=\"Shaak Ti\">Shaak Ti</a>, <a href=\"https://swse.fandom.com/wiki/Yoda\" title=\"Yoda\">Yoda</a>. </p><h4><span class=\"mw-headline\" id=\"Prerequisites\"><b>Prerequisites</b></span></h4><p>To qualify to become a Jedi Master, a character must fulfill the following criteria: </p><ul>\n <li><b>Minimum Level: </b>12th</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Trained_Skills\" class=\"mw-redirect\" title=\"Trained Skills\">Trained Skills</a>: </b><a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a></li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a>: </b><a href=\"https://swse.fandom.com/wiki/Force_Sensitivity\" title=\"Force Sensitivity\">Force Sensitivity</a>, <a href=\"https://swse.fandom.com/wiki/Weapon_Proficiency_(Lightsabers)\" class=\"mw-redirect\" title=\"Weapon Proficiency (Lightsabers)\">Weapon Proficiency (Lightsabers)</a></li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Force_Techniques\" title=\"Force Techniques\">Force Techniques</a>: </b>At least one</li> \n <li><b>Special: </b>Must be a member of the Jedi <a href=\"https://swse.fandom.com/wiki/Force_Tradition\" class=\"mw-redirect\" title=\"Force Tradition\">Force Tradition</a></li>\n</ul><h3><span class=\"mw-headline\" id=\"Game_Rule_Information\">Game Rule Information</span></h3><p>The following are the features of the Jedi Master <a href=\"https://swse.fandom.com/wiki/Prestige_Class\" class=\"mw-redirect\" title=\"Prestige Class\">Prestige Class</a>: </p><table class=\"wikitable\"> \n <caption>\n  Jedi Master Leveling Statistics \n </caption> \n <tbody>\n  <tr> \n   <th>LEVEL </th> \n   <th><a href=\"https://swse.fandom.com/wiki/BASE_ATTACK_BONUS\" class=\"mw-redirect\" title=\"BASE ATTACK BONUS\">BASE ATTACK BONUS</a> </th> \n   <th>CLASS FEATURES </th>\n  </tr> \n  <tr> \n   <td>1st </td> \n   <td>+1 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Defense\" class=\"mw-redirect\" title=\"Defense\">Defense</a> Bonuses, Fearless, Serenity, <a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Jedi_Master)\" title=\"Talent Trees (Jedi Master)\">Talent</a> </td>\n  </tr> \n  <tr> \n   <td>2nd </td> \n   <td>+2 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Force_Secret\" class=\"mw-redirect\" title=\"Force Secret\">Force Secret</a> </td>\n  </tr> \n  <tr> \n   <td>3rd </td> \n   <td>+3 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Force_Secret\" class=\"mw-redirect\" title=\"Force Secret\">Force Secret</a>, <a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Jedi_Master)\" title=\"Talent Trees (Jedi Master)\">Talent</a> </td>\n  </tr> \n  <tr> \n   <td>4th </td> \n   <td>+4 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Force_Secret\" class=\"mw-redirect\" title=\"Force Secret\">Force Secret</a> </td>\n  </tr> \n  <tr> \n   <td>5th </td> \n   <td>+5 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Force_Secret\" class=\"mw-redirect\" title=\"Force Secret\">Force Secret</a>, <a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Jedi_Master)\" title=\"Talent Trees (Jedi Master)\">Talent</a> </td>\n  </tr>\n </tbody>\n</table><h4><span class=\"mw-headline\" id=\"Hit_Points\"><b>Hit Points</b></span></h4><p>At each level, Jedi Masters gain 1d10 hit points + their <a href=\"https://swse.fandom.com/wiki/Constitution\" title=\"Constitution\">Constitution</a> modifier. </p><h4><span class=\"mw-headline\" id=\"Force_Points\"><b>Force Points</b></span></h4><p>Jedi Masters gain a number of <a href=\"https://swse.fandom.com/wiki/Force_Points\" title=\"Force Points\">Force Points</a> equal to 7 + one-half their Character Level, rounded down, each time they gain a new level in this <a href=\"https://swse.fandom.com/wiki/Prestige_Class\" class=\"mw-redirect\" title=\"Prestige Class\">Prestige Class</a> (Due to their strong connection to <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a>, Jedi Masters gain more <a href=\"https://swse.fandom.com/wiki/Force_Points\" title=\"Force Points\">Force Points</a> than most other <a href=\"https://swse.fandom.com/wiki/Prestige_Classes\" title=\"Prestige Classes\">Prestige Classes</a>). </p><h4><span class=\"mw-headline\" id=\"Defense_Bonuses\"><b>Defense Bonuses</b></span></h4><p>At 1st level, Jedi Masters gain a +3 <a href=\"https://swse.fandom.com/wiki/Class\" class=\"mw-redirect\" title=\"Class\">Class</a> bonus to their <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a>, <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>, and <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>. </p><h4><span class=\"mw-headline\" id=\"Fearless\"><b>Fearless</b></span></h4><p>Jedi Masters are immune to Fear effects. </p><h4><span class=\"mw-headline\" id=\"Serenity\"><b>Serenity</b></span></h4><p>The Jedi Master may enter a brief meditative state as a <a href=\"https://swse.fandom.com/wiki/Full-Round_Action\" class=\"mw-redirect\" title=\"Full-Round Action\">Full-Round Action</a>. The Jedi Master may remain in this trance as long as they wish, and they are still aware of their surroundings; however, the Jedi Master is otherwise <a href=\"https://swse.fandom.com/wiki/Helpless\" class=\"mw-redirect\" title=\"Helpless\">Helpless</a> and cannot perform any other <a href=\"https://swse.fandom.com/wiki/Actions\" class=\"mw-redirect\" title=\"Actions\">Actions</a>. Upon emerging from the trance (as a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>), the Jedi Master's first attack roll or <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> skill check made in the following round is considered to be a <a href=\"https://swse.fandom.com/wiki/Natural_20\" class=\"mw-redirect\" title=\"Natural 20\">Natural 20</a>. </p><h4><span class=\"mw-headline\" id=\"Talents\"><b>Talents</b></span></h4><p>At every odd-numbered level (1st, 3rd, 5th, and so on), a Jedi Master gains an additional <a href=\"https://swse.fandom.com/wiki/Talent\" class=\"mw-redirect\" title=\"Talent\">Talent</a>. A Jedi Master may choose a <a href=\"https://swse.fandom.com/wiki/Talent\" class=\"mw-redirect\" title=\"Talent\">Talent</a> from any of the <a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Jedi_Master)\" title=\"Talent Trees (Jedi Master)\">Talent Trees (Jedi Master)</a> or <a href=\"https://swse.fandom.com/wiki/Force_Talent_Trees\" class=\"mw-redirect\" title=\"Force Talent Trees\">Force Talent Trees</a> (including <a href=\"https://swse.fandom.com/wiki/Force_Tradition\" class=\"mw-redirect\" title=\"Force Tradition\">Force Tradition</a> Talent Trees) they wish, but they must meet the prerequisites (if any) of the chosen <a href=\"https://swse.fandom.com/wiki/Talent\" class=\"mw-redirect\" title=\"Talent\">Talent</a>. No <a href=\"https://swse.fandom.com/wiki/Talent\" class=\"mw-redirect\" title=\"Talent\">Talent</a> can be selected more than once unless expressly indicated. </p><h4><span class=\"mw-headline\" id=\"Force_Secrets\"><b>Force Secrets</b></span></h4><p>You have glimpsed an eternal truth through your contemplation of <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a>. At 2nd level, and every level thereafter, the Jedi Master gains one <a href=\"https://swse.fandom.com/wiki/Force_Secret\" class=\"mw-redirect\" title=\"Force Secret\">Force Secret</a> that, once selected, cannot be changed. </p><hr /><p><i>Homebrew (tovec.wikidot.com/episode-vii):</i> May select talents from any Force Tradition, subject to GM approval. This includes talents such as Many Shades of the Force (normally part of the Aing-Tii Monk talent tree), independent of that tree.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "1d10",
+        "key": "levelUpHitPoints"
+      },
+      {
+        "mode": 2,
+        "value": 7,
+        "key": "classForcePoints"
+      },
+      {
+        "mode": 2,
+        "value": 3,
+        "key": "classFortitudeDefenseBonus"
+      },
+      {
+        "mode": 2,
+        "value": 3,
+        "key": "classReflexDefenseBonus"
+      },
+      {
+        "mode": 2,
+        "value": 3,
+        "key": "classWillDefenseBonus"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHeroic"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isPrestige"
+      },
+      {
+        "mode": 2,
+        "value": false,
+        "key": "isFollowerTemplate"
+      },
+      {
+        "mode": 2,
+        "value": "Jedi Master Talent Trees:1",
+        "key": "provides"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Character Level 12",
+          "requirement": "12",
+          "type": "CHARACTER LEVEL"
+        },
+        {
+          "text": "Trained in Use the Force",
+          "requirement": "Use the Force",
+          "type": "TRAINED SKILL"
+        },
+        {
+          "children": [
+            {
+              "text": "Force Sensitivity feat",
+              "requirement": "Force Sensitivity",
+              "type": "FEAT"
+            },
+            {
+              "text": "Weapon Proficiency (Lightsabers)",
+              "requirement": "Weapon Proficiency (Lightsabers)",
+              "type": "FEAT"
+            }
+          ],
+          "text": "Feats: Force Sensitivity, Weapon Proficiency (Lightsabers)",
+          "type": "AND"
+        },
+        {
+          "text": "At least one Force Technique",
+          "requirement": "1",
+          "type": "FORCE TECHNIQUE"
+        },
+        {
+          "text": "Must be a member of The Jedi Force Tradition",
+          "requirement": "The Jedi",
+          "type": "TRADITION"
+        }
+      ],
+      "text": "Character Level 12, Trained in Use the Force, (Feats: Force Sensitivity, Weapon Proficiency (Lightsabers)), At least one Force Technique, and Must be a member of The Jedi Force Tradition",
+      "type": "AND"
+    },
+    "levels": [],
+    "cost": "0"
+  },
+  "name": "Jedi Master",
+  "flags": {},
+  "type": "class",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1730910735199,
+    "modifiedTime": 1786068679392,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "0YtwIwElUCS69rAk",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!0YtwIwElUCS69rAk"
+}

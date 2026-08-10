@@ -1,0 +1,41 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Processor Systems",
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "droidPart"
+      }
+    ],
+    "description": "<p><b>Requires:</b> <a href=\"https://swse.fandom.com/wiki/Remote_Processor\" title=\"Remote Processor\">Remote Processor</a></p><p>A Droid with a <a href=\"https://swse.fandom.com/wiki/Remote_Receiver\" title=\"Remote Receiver\">Remote Receiver</a> can have Synchronized Fire Circuits that better coordinate its actions with other Droids. When successfully using the <a href=\"https://swse.fandom.com/wiki/Aid_Another\" title=\"Aid Another\">Aid Another</a> action to assist another Droid connected to the same <a href=\"https://swse.fandom.com/wiki/Remote_Processor\" title=\"Remote Processor\">Remote Processor</a>, a Droid with Synchronized Fire Circuits grants an additional +5 bonus instead of a +2 bonus to the other Droid's check or roll.</p>",
+    "cost": "150",
+    "weight": "1 Kilogram",
+    "availability": "Military",
+    "requires": "Remote Processor"
+  },
+  "name": "Synchronized Fire Circuits",
+  "flags": {},
+  "type": "droid system",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764449015809,
+    "modifiedTime": 1764449015809,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "m1COCaZPtGjKrnit",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!m1COCaZPtGjKrnit"
+}

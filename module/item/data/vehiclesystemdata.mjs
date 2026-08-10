@@ -24,8 +24,32 @@ export default class VehicleSystemData extends ItemSystemDataModel {
             ...ItemFields(),
             ...CategoriesFields(),
             ...SourceFields(),
-            equipped: new fields.StringField({initial: "unequipped", blank: true, required: false}),
-            stripping: new fields.ObjectField({initial: {}})
+            equipped: new fields.StringField({initial: "", blank: true, required: false}),
+            stripping: new fields.ObjectField({initial: {}}),
+            // Universal-ish across subtypes (slot cost).
+            emplacementPoints: new fields.StringField({initial: "", blank: true, required: false}),
+            // Weapon Systems / Ammunition.
+            damage: new fields.StringField({initial: "", blank: true, required: false}),
+            damageType: new fields.StringField({initial: "", blank: true, required: false}),
+            ammo: new fields.StringField({initial: "", blank: true, required: false}),
+            ammoCapacity: new fields.StringField({initial: "", blank: true, required: false}),
+            ammoCapacityIncrease: new fields.StringField({initial: "", blank: true, required: false}),
+            rangePointBlank: new fields.StringField({initial: "", blank: true, required: false}),
+            rangeShort: new fields.StringField({initial: "", blank: true, required: false}),
+            rangeMedium: new fields.StringField({initial: "", blank: true, required: false}),
+            rangeLong: new fields.StringField({initial: "", blank: true, required: false}),
+            rangeStarshipPointBlank: new fields.StringField({initial: "", blank: true, required: false}),
+            rangeStarshipShort: new fields.StringField({initial: "", blank: true, required: false}),
+            rangeStarshipMedium: new fields.StringField({initial: "", blank: true, required: false}),
+            rangeStarshipLong: new fields.StringField({initial: "", blank: true, required: false}),
+            // Defense Systems.
+            shieldRating: new fields.StringField({initial: "", blank: true, required: false}),
+            reflexDefenseBonus: new fields.StringField({initial: "", blank: true, required: false}),
+            hitPointEq: new fields.StringField({initial: "", blank: true, required: false}),
+            // Movement Systems. `hyperdrive` deliberately excluded — see default-changes.mjs.
+            speedStarshipScale: new fields.StringField({initial: "", blank: true, required: false}),
+            dexterityBonus: new fields.StringField({initial: "", blank: true, required: false}),
+            astrogationBonus: new fields.StringField({initial: "", blank: true, required: false})
         };
     }
 }

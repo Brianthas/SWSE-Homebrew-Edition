@@ -1,0 +1,166 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Clone_Wars_Campaign_Guide\" title=\"Star Wars Saga Edition Clone Wars Campaign Guide\">Star Wars Saga Edition Clone Wars Campaign Guide</a></i> </p><p> Nautolans are one of the sentient Species native to the planet <a href=\"https://swse.fandom.com/wiki/Glee_Anselm\" title=\"Glee Anselm\">Glee Anselm</a>. Their language, Nautila, evolved underwater and is heavily tied to pheromones. Out of water, Nautila loses much of its meaning. As a result, Nautolans learn another language, typically either Basic or Anselmian, the language of the <span class=\"new\" title=\"Anselmi (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQW5zZWxtaT9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Anselmi</span> people, who are native to Glee Anselm's land masses.</p><p>Even though they are aquatic, Nautolans have little difficulty living in climates that would be uncomfortable for other amphibians. They are a hardy Species, due in part to the extra cartilage that supports their skeletal structures. Given their aquatic origins, they are excellent swimmers. </p><h3><span class=\"mw-headline\" id=\"Nautolan_Characteristics\">Nautolan Characteristics</span></h3><p><b>Personality:</b> Nautolans are loyal and steadfast companions. They wear their moods on their proverbial sleeves, expressing both joy and despair with equal zeal. Though polite and civilized under most circumstances, Nautolans tend to reflect the moods of others around them. The tendrils on their heads sense the pheromones released by others. This can inadvertently affect a Nautolan's disposition- for better or for worse. Despite their peaceful nature, Nautolans are not above defending themselves. </p><p><b>Physical Description:</b> Nautolans have thick green skin that is covered in dark, mottled spots. Their large, black eyes allow them to see well in dim light. Each Nautolan's head is crowned by long, tentaclelike tendrils, which the Nautolan decorates with leather bands, metal rings, or beaded ties. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Nautolans age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-9 Years </td> \n   <td>10-14 Years </td> \n   <td>15-40 Years </td> \n   <td>41-54 Years </td> \n   <td>55-69 Years </td> \n   <td>70+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The oceanic world of <a href=\"https://swse.fandom.com/wiki/Glee_Anselm\" title=\"Glee Anselm\">Glee Anselm</a>, located in <a href=\"https://swse.fandom.com/wiki/The_Mid_Rim\" title=\"The Mid Rim\">The Mid Rim</a>. </p><p><b>Languages:</b> Nautolans speak their native language of Nautila, an underwater language reliant on pheromones as much as sound. Out of water, most Nautolans speak Basic or Anselmian. </p><p><b>Example Names:</b> Hiskar Dorset, <a href=\"https://swse.fandom.com/wiki/Kit_Fisto\" title=\"Kit Fisto\">Kit Fisto</a>, Ploss Niklos, Renko Losa, Pin Mako, Setel Yast. </p><p><b>Adventurers:</b> Nautolans crave adventure and are as likely to be <a href=\"https://swse.fandom.com/wiki/Nobles\" class=\"mw-redirect\" title=\"Nobles\">Nobles</a> or <a href=\"https://swse.fandom.com/wiki/Scoundrels\" class=\"mw-redirect\" title=\"Scoundrels\">Scoundrels</a> as they are to be <a href=\"https://swse.fandom.com/wiki/Scouts\" class=\"mw-redirect\" title=\"Scouts\">Scouts</a> or <a href=\"https://swse.fandom.com/wiki/Soldiers\" class=\"mw-redirect\" title=\"Soldiers\">Soldiers</a>. There have also been several notable Nautolan <a href=\"https://swse.fandom.com/wiki/Jedi\" title=\"Jedi\">Jedi</a>. </p><h3><span class=\"mw-headline\" id=\"Nautolan_Species_Traits\">Nautolan Species Traits</span></h3><p>Nautolans share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Breathe Underwater",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Damage Reduction 2",
+        "type": "trait"
+      },
+      {
+        "name": "Expert Swimmer",
+        "type": "trait"
+      },
+      {
+        "name": "Low-Light Vision",
+        "type": "trait"
+      },
+      {
+        "name": "Swimming",
+        "type": "trait"
+      },
+      {
+        "name": "Pheromonal Sensor",
+        "type": "trait"
+      },
+      {
+        "name": "Swim Speed (4)",
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "40",
+          "low": "15",
+          "text": "15-40",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "14",
+          "low": "10",
+          "text": "10-14",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "70",
+          "text": "70+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "9",
+          "low": "1",
+          "text": "1-9",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "69",
+          "low": "55",
+          "text": "55-69",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "54",
+          "low": "41",
+          "text": "41-54",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Nautolans"
+      },
+      {
+        "value": "Breathe Underwater"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Damage Reduction 2"
+      },
+      {
+        "value": "Expert Swimmer"
+      },
+      {
+        "value": "Low-Light Vision"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Swimming"
+      },
+      {
+        "value": "Damage Reduction"
+      },
+      {
+        "value": "Pheromonal Sensor"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Nautolan",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535566745,
+    "modifiedTime": 1736535566745,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "6yGu5JL3nvHg7wgw",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!6yGu5JL3nvHg7wgw"
+}

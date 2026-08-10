@@ -1,5 +1,5 @@
 <div>
-    <div>{{attack.range}} Range</div>
+    {{#if attack.range}}<div>{{attack.range}} Range</div>{{/if}}
 {{#if targetsEnabled}}
     <div class="targets">
         {{#each attack.targets as |target i|}}

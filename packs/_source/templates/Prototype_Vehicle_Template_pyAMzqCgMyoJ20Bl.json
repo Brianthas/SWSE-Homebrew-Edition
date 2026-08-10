@@ -1,0 +1,480 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:</i>&nbsp;<i><a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i> </p><p>The Prototype Vehicle Template represents the model of a Starship that is used to find any hidden flaws and test new systems before the Starship goes into production. A Prototype Vehicle is lovingly hand-built by teams of engineers, since no mass-production line exists to churn it out yet. Some classes of ships are always built as Prototypes, and then have the Prototype Vehicle Template removed as a final construction stage. </p><p>The Prototype Vehicle Template can also be used to represent a unique ship built by a small group that has no intention of ever turning it into a mass-produced Starship. Some pirates and rich traders have custom ships hand-crafted for their use, and occasionally a ship is so extensively rebuilt that it qualifies as a Prototype of a new class of ship. Some Alliance <a href=\"https://swse.fandom.com/wiki/Capital_Ships\" title=\"Capital Ships\">Capital Ships</a> built from older vessels fall into this category. </p><p>A ship can have the Prototype Vehicle Template removed by a massive overhaul that reengineers all it's systems to normal tolerances. This is a time-consuming and expensive proposition. It has a base cost of 50,000 credits modified by the Starship's <a href=\"https://swse.fandom.com/wiki/Cost_Modifier_(SotG)\" class=\"mw-redirect\" title=\"Cost Modifier (SotG)\">Cost Modifier</a> based on Size, and takes 1 day per 5,000 credits of that cost. </p><h3><span class=\"mw-headline\" id=\"_Modifications\">&nbsp;Modifications</span></h3><p>To create a Prototype Vehicle, make the following changes to an existing <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a>: </p><ul>\n <li><b>Damage Threshold:</b> A Prototype Vehicle isn't quite as resistant to incoming damage, since it doesn't have the benefit of being redesigned after every bad design element has been discovered. Lower its <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a> by an amount equal to its Size Modifier (-1 Large, -2 Huge, -5 Gargantuan, -10 Colossal or Larger).</li> \n <li><b>Abilities:</b> Increase the Prototype's <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a>, <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a>, and <a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a> by 2. Prototypes have the advantage of having their systems double-checked, fine-tuned, and carefully recalibrated, and they enjoy a level of precision engineering impossible to maintain on a production line. Recalculate all statistics derived from these Abilities' modifiers.</li> \n <li><b>Speed:</b> The careful tuning of a Prototype's engines gives it a +1-Square bonus to <a href=\"https://swse.fandom.com/wiki/Starship_Scale\" class=\"mw-redirect\" title=\"Starship Scale\">Starship Scale</a> movement.</li> \n <li><b>Random Benefit/Drawback:</b> A Prototype always has at least one Benefit and one Drawback over standard Starships of its class, which are lost in mass production. (Some Prototypes have two Benefits and Drawbacks.) Roll twice randomly to see which statistic increases and which is reduced (you can't have a Benefit and Drawback in the same category):</li>\n</ul><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>RESULT </th> \n   <th>AFFECTED STATISTIC </th> \n   <th>BENEFIT </th> \n   <th>DRAWBACK </th>\n  </tr> \n  <tr> \n   <td>1-2 </td> \n   <td>Starship Armor </td> \n   <td>+2 </td> \n   <td>-2 </td>\n  </tr> \n  <tr> \n   <td>3-4 </td> \n   <td>Maximum Hit Points </td> \n   <td>+10% </td> \n   <td>-10% </td>\n  </tr> \n  <tr> \n   <td>5-6 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Shield_Rating\" title=\"Shield Rating\">Shield Rating</a> </td> \n   <td>+25% </td> \n   <td>-25% </td>\n  </tr> \n  <tr> \n   <td>7-8 </td> \n   <td>Speed (<a href=\"https://swse.fandom.com/wiki/Starship_Scale\" class=\"mw-redirect\" title=\"Starship Scale\">Starship Scale</a>) </td> \n   <td>+1 Square </td> \n   <td>-1 Square </td>\n  </tr> \n  <tr> \n   <td>9-10 </td> \n   <td>Required Crew </td> \n   <td>-70% </td> \n   <td>+30% </td>\n  </tr> \n  <tr> \n   <td>11-12 </td> \n   <td>Maximum Passengers </td> \n   <td>+50% </td> \n   <td>-50% </td>\n  </tr> \n  <tr> \n   <td>13-14 </td> \n   <td>Cargo Capacity </td> \n   <td>+50% </td> \n   <td>-50% </td>\n  </tr> \n  <tr> \n   <td>15-16 </td> \n   <td>Carried Craft </td> \n   <td>+25% (minimum 1 <a href=\"https://swse.fandom.com/wiki/Starfighter\" class=\"mw-redirect\" title=\"Starfighter\">Starfighter</a>) </td> \n   <td>-25% (minimum 1 <a href=\"https://swse.fandom.com/wiki/Starfighter\" class=\"mw-redirect\" title=\"Starfighter\">Starfighter</a>) </td>\n  </tr> \n  <tr> \n   <td>17-18 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Weapon_System\" class=\"mw-redirect\" title=\"Weapon System\">Weapon System</a> </td> \n   <td>+1 <a href=\"https://swse.fandom.com/wiki/Weapon_System\" class=\"mw-redirect\" title=\"Weapon System\">Weapon System</a> </td> \n   <td>-1 <a href=\"https://swse.fandom.com/wiki/Weapon_System\" class=\"mw-redirect\" title=\"Weapon System\">Weapon System</a> </td>\n  </tr> \n  <tr> \n   <td>19-20 </td> \n   <td>Reroll </td> \n   <td>- </td> \n   <td>- </td>\n  </tr>\n </tbody>\n</table><ul>\n <li><b>Maintenance Requirement:</b> A Prototype Vehicle manages to maintain its high precision tuning only if it is regularly given good maintenance. A Prototype Vehicle requires 8 hours of maintenance a month and a DC 20 <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> check to keep it running smoothly. If the maintenance isn't kept up, or the <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> check for doing so fails, the Prototype Vehicle loses its +2 Ability increases and its random Benefit (but not it's random Drawback), and moves -1 step down the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>.</li>\n</ul>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "itemMod"
+      },
+      {
+        "mode": 2,
+        "value": 1,
+        "key": "speedStarshipScale"
+      },
+      {
+        "mode": 2,
+        "value": "",
+        "key": "prefix"
+      },
+      {
+        "mode": 2,
+        "value": "",
+        "key": "suffix"
+      }
+    ],
+    "choices": [
+      {
+        "noOptions": "NO_AVAILABLE_OPTIONS",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "providedItems": [
+              {
+                "name": "Starship Armor (+2)",
+                "prerequisite": {
+                  "text": "0",
+                  "requirement": "0",
+                  "type": "CONDITION"
+                },
+                "type": "trait"
+              }
+            ],
+            "payloads": {},
+            "display": "Starship Armor",
+            "name": "Starship Armor",
+            "rollRange": "1",
+            "attributes": {}
+          },
+          {
+            "providedItems": [
+              {
+                "name": "Maximum Hit Points (+10%)",
+                "prerequisite": {
+                  "text": "0",
+                  "requirement": "0",
+                  "type": "CONDITION"
+                },
+                "type": "trait"
+              }
+            ],
+            "payloads": {},
+            "display": "Maximum Hit Points",
+            "name": "Maximum Hit Points",
+            "rollRange": "2",
+            "attributes": {}
+          },
+          {
+            "providedItems": [
+              {
+                "name": "Shield Rating (+25%)",
+                "prerequisite": {
+                  "text": "0",
+                  "requirement": "0",
+                  "type": "CONDITION"
+                },
+                "type": "trait"
+              }
+            ],
+            "payloads": {},
+            "display": "Shield Rating",
+            "name": "Shield Rating",
+            "rollRange": "3",
+            "attributes": {}
+          },
+          {
+            "providedItems": [
+              {
+                "name": "Starship Scale Speed (+1)",
+                "prerequisite": {
+                  "text": "0",
+                  "requirement": "0",
+                  "type": "CONDITION"
+                },
+                "type": "trait"
+              }
+            ],
+            "payloads": {},
+            "display": "Starship Scale Speed ",
+            "name": "Starship Scale Speed ",
+            "rollRange": "4",
+            "attributes": {}
+          },
+          {
+            "providedItems": [
+              {
+                "name": "Required Crew (-70%)",
+                "prerequisite": {
+                  "text": "0",
+                  "requirement": "0",
+                  "type": "CONDITION"
+                },
+                "type": "trait"
+              }
+            ],
+            "payloads": {},
+            "display": "Required Crew",
+            "name": "Required Crew",
+            "rollRange": "5",
+            "attributes": {}
+          },
+          {
+            "providedItems": [
+              {
+                "name": "Maximum Passengers (+50%)",
+                "prerequisite": {
+                  "text": "0",
+                  "requirement": "0",
+                  "type": "CONDITION"
+                },
+                "type": "trait"
+              }
+            ],
+            "payloads": {},
+            "display": "Maximum Passengers",
+            "name": "Maximum Passengers",
+            "rollRange": "6",
+            "attributes": {}
+          },
+          {
+            "providedItems": [
+              {
+                "name": "Cargo Capacity (+50%)",
+                "prerequisite": {
+                  "text": "0",
+                  "requirement": "0",
+                  "type": "CONDITION"
+                },
+                "type": "trait"
+              }
+            ],
+            "payloads": {},
+            "display": "Cargo Capacity",
+            "name": "Cargo Capacity",
+            "rollRange": "7",
+            "attributes": {}
+          },
+          {
+            "providedItems": [
+              {
+                "name": "Carried Craft (+25% minimum 1)",
+                "prerequisite": {
+                  "text": "0",
+                  "requirement": "0",
+                  "type": "CONDITION"
+                },
+                "type": "trait"
+              }
+            ],
+            "payloads": {},
+            "display": "Carried Craft",
+            "name": "Carried Craft",
+            "rollRange": "8",
+            "attributes": {}
+          },
+          {
+            "providedItems": [
+              {
+                "name": "Weapon System (+1)",
+                "prerequisite": {
+                  "text": "0",
+                  "requirement": "0",
+                  "type": "CONDITION"
+                },
+                "type": "trait"
+              }
+            ],
+            "payloads": {},
+            "display": "Weapon System",
+            "name": "Weapon System",
+            "rollRange": "9",
+            "attributes": {}
+          }
+        ],
+        "description": "Prototype Benefit",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "rollOption": "d9",
+        "showSelectionInName": true
+      },
+      {
+        "noOptions": "NO_AVAILABLE_OPTIONS",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "providedItems": [
+              {
+                "name": "Starship Armor (-2)",
+                "type": "trait"
+              }
+            ],
+            "payloads": {},
+            "display": "Starship Armor",
+            "name": "Starship Armor",
+            "rollRange": "1",
+            "attributes": {}
+          },
+          {
+            "providedItems": [
+              {
+                "name": "Maximum Hit Points (-10%)",
+                "type": "trait"
+              }
+            ],
+            "payloads": {},
+            "display": "Maximum Hit Points",
+            "name": "Maximum Hit Points",
+            "rollRange": "2",
+            "attributes": {}
+          },
+          {
+            "providedItems": [
+              {
+                "name": "Shield Rating (-25%)",
+                "type": "trait"
+              }
+            ],
+            "payloads": {},
+            "display": "Shield Rating",
+            "name": "Shield Rating",
+            "rollRange": "3",
+            "attributes": {}
+          },
+          {
+            "providedItems": [
+              {
+                "name": "Starship Scale Speed (-1)",
+                "type": "trait"
+              }
+            ],
+            "payloads": {},
+            "display": "Starship Scale Speed",
+            "name": "Starship Scale Speed",
+            "rollRange": "4",
+            "attributes": {}
+          },
+          {
+            "providedItems": [
+              {
+                "name": "Required Crew (+30%)",
+                "type": "trait"
+              }
+            ],
+            "payloads": {},
+            "display": "Required Crew",
+            "name": "Required Crew",
+            "rollRange": "5",
+            "attributes": {}
+          },
+          {
+            "providedItems": [
+              {
+                "name": "Maximum Passengers (-50%)",
+                "type": "trait"
+              }
+            ],
+            "payloads": {},
+            "display": "Maximum Passengers",
+            "name": "Maximum Passengers",
+            "rollRange": "6",
+            "attributes": {}
+          },
+          {
+            "providedItems": [
+              {
+                "name": "Cargo Capacity (-50%)",
+                "type": "trait"
+              }
+            ],
+            "payloads": {},
+            "display": "Cargo Capacity",
+            "name": "Cargo Capacity",
+            "rollRange": "7",
+            "attributes": {}
+          },
+          {
+            "providedItems": [
+              {
+                "name": "Carried Craft (-25% minimum 1)",
+                "type": "trait"
+              }
+            ],
+            "payloads": {},
+            "display": "Carried Craft",
+            "name": "Carried Craft",
+            "rollRange": "8",
+            "attributes": {}
+          },
+          {
+            "providedItems": [
+              {
+                "name": "Weapon System (-1)",
+                "type": "trait"
+              }
+            ],
+            "payloads": {},
+            "display": "Weapon System",
+            "name": "Weapon System",
+            "rollRange": "9",
+            "attributes": {}
+          }
+        ],
+        "description": "Prototype Drawback",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "rollOption": "d9",
+        "showSelectionInName": true
+      }
+    ],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Damage Threshold (-1)",
+        "prerequisite": {
+          "text": "Large",
+          "requirement": "Large",
+          "type": "TRAIT"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Damage Threshold (-2)",
+        "prerequisite": {
+          "text": "Huge",
+          "requirement": "Huge",
+          "type": "TRAIT"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Damage Threshold (-5)",
+        "prerequisite": {
+          "text": "Gargantuan",
+          "requirement": "Gargantuan",
+          "type": "TRAIT"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Damage Threshold (-10)",
+        "prerequisite": {
+          "children": [
+            {
+              "text": "Colossal",
+              "requirement": "Colossal",
+              "type": "TRAIT"
+            },
+            {
+              "text": "Colossal (Frigate)",
+              "requirement": "Colossal (Frigate)",
+              "type": "TRAIT"
+            },
+            {
+              "text": "Colossal (Cruiser)",
+              "requirement": "Colossal (Cruiser)",
+              "type": "TRAIT"
+            },
+            {
+              "text": "Colossal (Station)",
+              "requirement": "Colossal (Station)",
+              "type": "TRAIT"
+            }
+          ],
+          "count": 1,
+          "text": "Colossal or Larger",
+          "type": "OR"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Strength (+2)",
+        "prerequisite": {
+          "text": "0",
+          "requirement": "0",
+          "type": "CONDITION"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Dexterity (+2)",
+        "prerequisite": {
+          "text": "0",
+          "requirement": "0",
+          "type": "CONDITION"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Intelligence (+2)",
+        "prerequisite": {
+          "text": "0",
+          "requirement": "0",
+          "type": "CONDITION"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Maintenance Requirement",
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "hasItemOwner": false,
+    "subtype": "Vehicle Templates",
+    "prerequisite": {
+      "children": [
+        {
+          "children": [
+            {
+              "text": "vehicle",
+              "requirement": "vehicle",
+              "type": "TYPE"
+            },
+            {
+              "text": "vehicle",
+              "requirement": "npc-vehicle",
+              "type": "TYPE"
+            }
+          ],
+          "count": 1,
+          "text": "Is a Vehicle",
+          "type": "OR"
+        }
+      ],
+      "text": "and (Is a Vehicle)",
+      "type": "AND"
+    },
+    "cost": "0"
+  },
+  "name": "Prototype Vehicle Template",
+  "flags": {},
+  "type": "template",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.2",
+    "createdTime": 1729096741312,
+    "modifiedTime": 1729096741312,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "pyAMzqCgMyoJ20Bl",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!pyAMzqCgMyoJ20Bl"
+}

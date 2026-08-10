@@ -1,0 +1,102 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Jedi_Academy_Training_Manual\" title=\"Star Wars Saga Edition Jedi Academy Training Manual\">Star Wars Saga Edition Jedi Academy Training Manual</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a></i> </p><p><b>[<i><a href=\"https://swse.fandom.com/wiki/Lightsaber_Form\" class=\"mw-redirect\" title=\"Lightsaber Form\">Lightsaber Form</a></i>]</b> </p><p>You leap over or dash around your opponent, striking before they have time to react. </p><p><b>Time:</b> <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a> </p><p><b>Targets:</b> Self, plus one adjacent enemy </p><p><b>Make a <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check.</b> The result of the check determines the effect, if any: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td>You can move up to half your Speed; this movement does not provoke <a href=\"https://swse.fandom.com/wiki/Attacks_of_Opportunity\" title=\"Attacks of Opportunity\">Attacks of Opportunity</a>. You can then make a single melee attack with a <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> against an adjacent target. If the space you occupy and the space you started in are spaces that <a href=\"https://swse.fandom.com/wiki/Flank\" class=\"mw-redirect\" title=\"Flank\">Flank</a> the opponent, the opponent is considered to be <a href=\"https://swse.fandom.com/wiki/Flanked\" class=\"mw-redirect\" title=\"Flanked\">Flanked</a> for your attack. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td>You can move up to your Speed; this movement does not provoke <a href=\"https://swse.fandom.com/wiki/Attacks_of_Opportunity\" title=\"Attacks of Opportunity\">Attacks of Opportunity</a>. You can then make a single melee attack with a <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> against an adjacent target. If the space you occupy and the space you started in are spaces that <a href=\"https://swse.fandom.com/wiki/Flank\" class=\"mw-redirect\" title=\"Flank\">Flank</a> the opponent, the opponent is considered to be <a href=\"https://swse.fandom.com/wiki/Flanked\" class=\"mw-redirect\" title=\"Flanked\">Flanked</a> for your attack. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td>You can move up to your Speed, +2 squares; this movement does not provoke <a href=\"https://swse.fandom.com/wiki/Attacks_of_Opportunity\" title=\"Attacks of Opportunity\">Attacks of Opportunity</a>. You can then make a single melee attack with a <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> against an adjacent target. If the space you occupy and the space you started in are spaces that <a href=\"https://swse.fandom.com/wiki/Flank\" class=\"mw-redirect\" title=\"Flank\">Flank</a> the opponent, the opponent is considered to be <a href=\"https://swse.fandom.com/wiki/Flanked\" class=\"mw-redirect\" title=\"Flanked\">Flanked</a> for your attack. </td>\n  </tr> \n  <tr> \n   <td>35 </td> \n   <td>You can move up to your Speed, +4 squares; this movement does not provoke <a href=\"https://swse.fandom.com/wiki/Attacks_of_Opportunity\" title=\"Attacks of Opportunity\">Attacks of Opportunity</a>. You can then make a single melee attack with a <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> against an adjacent target. If the space you occupy and the space you started in are spaces that <a href=\"https://swse.fandom.com/wiki/Flank\" class=\"mw-redirect\" title=\"Flank\">Flank</a> the opponent, the opponent is considered to be <a href=\"https://swse.fandom.com/wiki/Flanked\" class=\"mw-redirect\" title=\"Flanked\">Flanked</a> for your attack. </td>\n  </tr>\n </tbody>\n</table><p><b>Lightsaber Form (<a href=\"https://swse.fandom.com/wiki/Vaapad\" class=\"mw-redirect\" title=\"Vaapad\">Vaapad</a>):</b> If you have the <a href=\"https://swse.fandom.com/wiki/Vaapad\" class=\"mw-redirect\" title=\"Vaapad\"><b>Vaapad</b></a> Talent, your target is considered <a href=\"https://swse.fandom.com/wiki/Flat-Footed\" class=\"mw-redirect\" title=\"Flat-Footed\">Flat-Footed</a> against you until the end of your turn. </p><p><b>Special:</b> You can spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> to increase your movement by 2 squares. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Lightsaber Form",
+        "key": "tag"
+      },
+      {
+        "mode": 2,
+        "value": "Standard Action",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "Self, plus one adjacent enemy",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": "Use the Force",
+        "key": "rollType"
+      },
+      {
+        "mode": 2,
+        "value": "20:You can move up to half your Speed; this movement does not provoke Attacks of Opportunity. You can then make a single melee attack with a Lightsaber against an adjacent target. If the space you occupy and the space you started in are spaces that Flank the opponent, the opponent is considered to be Flanked for your attack.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "25:You can move up to your Speed; this movement does not provoke Attacks of Opportunity. You can then make a single melee attack with a Lightsaber against an adjacent target. If the space you occupy and the space you started in are spaces that Flank the opponent, the opponent is considered to be Flanked for your attack.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "30:You can move up to your Speed, +2 squares; this movement does not provoke Attacks of Opportunity. You can then make a single melee attack with a Lightsaber against an adjacent target. If the space you occupy and the space you started in are spaces that Flank the opponent, the opponent is considered to be Flanked for your attack.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "35:You can move up to your Speed, +4 squares; this movement does not provoke Attacks of Opportunity. You can then make a single melee attack with a Lightsaber against an adjacent target. If the space you occupy and the space you started in are spaces that Flank the opponent, the opponent is considered to be Flanked for your attack.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "Reference Book: Star Wars Saga Edition Jedi Academy Training Manual See also: Force Powers [Lightsaber Form] You leap over or dash around your opponent, striking before they have time to react. Time: Standard Action Targets: Self, plus one adjacent enemy Make a Use the Force check. The result of the check determines the effect, if any: Lightsaber Form (Vaapad): If you have the Vaapad Talent, your target is considered Flat-Footed against you until the end of your turn. Special: You can spend a Force Point to increase your movement by 2 squares.",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Lightsaber Form Force Powers"
+      },
+      {
+        "value": "Force Powers"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Swift Flank",
+  "flags": {},
+  "type": "forcePower",
+  "img": "systems/swse/icon/force-power/Swift_Flank.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738608591004,
+    "modifiedTime": 1738608591004,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "tjN6kI0zE5axmosx",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!tjN6kI0zE5axmosx"
+}

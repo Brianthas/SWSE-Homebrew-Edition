@@ -1,0 +1,71 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2d10",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A creature or Droid begins its turn in the Crowd.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round at the start of the target's turn, as long as the target is in the Crowd.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Knowledge (Social Sciences) (DC 24): The character predicts the direction in which various elements within the crowd will move, gaining a +5 bonus to their Reflex Defense against the Crowd. Persuasion (DC 19): The character convinces the crowd to clear a path for the character and his or her allies, gaining a +2 circumstance bonus to their Reflex Defense against the Crowd.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: The general Attitude of the Crowd can help or hinder the efforts of creatures trying to move through it. The table below determines the modifiers (if any) that creatures receive on attempts to make their way through a Crowd.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Artificial"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>A multitude of beings assembled in one place threaten to block your way, sweep you along, or trample you.</i> </p><h2><span id=\"Crowd_Statistics_.28CL_2.29\"></span><span class=\"mw-headline\" id=\"Crowd_Statistics_(CL_2)\">Crowd Statistics (CL 2)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Artificial </p><p><b>Trigger:</b> A creature or Droid begins its turn in the Crowd. </p><p><b>Attack:</b> +4 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> Each round at the start of the target's turn, as long as the target is in the Crowd. </p><p><b>Suggested&nbsp;<a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b>&nbsp;The following are suggested&nbsp;<a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>&nbsp;for this Hazard: </p><ul>\n <li><a href=\"https://swse.fandom.com/wiki/Knowledge_(Social_Sciences)\" class=\"mw-redirect\" title=\"Knowledge (Social Sciences)\"><b>Knowledge (Social Sciences)</b></a><b> (DC 24):</b> The character predicts the direction in which various elements within the crowd will move, gaining a +5 bonus to their <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against the Crowd.</li> \n <li><a href=\"https://swse.fandom.com/wiki/Persuasion\" title=\"Persuasion\"><b>Persuasion</b></a><b> (DC 19):</b> The character convinces the crowd to clear a path for the character and his or her allies, gaining a +2 circumstance bonus to their <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against the Crowd.</li>\n</ul><p><b>Special:</b> The general <a href=\"https://swse.fandom.com/wiki/Attitude\" class=\"mw-redirect\" title=\"Attitude\">Attitude</a> of the Crowd can help or hinder the efforts of creatures trying to move through it. The table below determines the modifiers (if any) that creatures receive on attempts to make their way through a Crowd. </p><table class=\"wikitable\"> \n <caption>\n  <b>Crowd Attitude Steps</b> \n </caption> \n <tbody>\n  <tr> \n   <th>ATTITUDE </th> \n   <th>EFFECT ON CROWD </th>\n  </tr> \n  <tr> \n   <td>Hostile </td> \n   <td>+5 bonus to attack roll and +1d10 points of damage </td>\n  </tr> \n  <tr> \n   <td>Unfriendly </td> \n   <td>+2 bonus to attack roll </td>\n  </tr> \n  <tr> \n   <td>Indifferent </td> \n   <td>No effect </td>\n  </tr> \n  <tr> \n   <td>Friendly </td> \n   <td>-2 penalty to attack roll </td>\n  </tr> \n  <tr> \n   <td>Helpful </td> \n   <td>-5 penalty to attack roll and -1d10 points of damage </td>\n  </tr>\n </tbody>\n</table>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Crowd",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244396,
+    "modifiedTime": 1749263244396,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "TyfeVS1AsAwHt2lX",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!TyfeVS1AsAwHt2lX"
+}

@@ -41,7 +41,7 @@
   }
 
   img.feat {
-    border: 2px solid var(--color-foreground)
+    border: 2px solid var(--swse-accent)
   }
   img.talent {
     border: 2px solid #57a442
@@ -67,6 +67,6 @@ line {
   font-size: smaller;
 }
 .text.talent {
-  background-color: var(--color-foreground);
-  color: var(--color-background);
+  background-color: var(--swse-accent);
+  color: var(--swse-bg);
 }

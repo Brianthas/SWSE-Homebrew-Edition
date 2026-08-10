@@ -18,8 +18,8 @@ import {
 import {formatPrerequisites, meetsPrerequisites} from "../prerequisite.mjs";
 import {generateArmorBlock} from "./defense.mjs";
 import {SWSEItem} from "../item/item.mjs";
-import {CLASSES_BY_STARTING_FEAT, COLORS, KNOWN_WEIRD_UNITS, sizeArray, skills} from "../common/constants.mjs";
-import {getInheritableAttribute, getResolvedSize} from "../attribute-helper.mjs";
+import {CLASSES_BY_STARTING_FEAT, COLORS, KNOWN_WEIRD_UNITS, sizeArray, skills, characterActorTypes} from "../common/constants.mjs";
+import {getInheritableAttribute} from "../attribute-helper.mjs";
 import {activateChoices} from "../choice/choice.mjs";
 import {errorsFromActor, warningsFromActor} from "./warnings.mjs";
 import {SimpleCache} from "../common/simple-cache.mjs";
@@ -28,15 +28,40 @@ import {AttackDelegate} from "./attack/attackDelegate.mjs";
 import {cleanItemName, resolveEntity} from "../compendium/compendium-util.mjs";
 import {VALIDATORS} from "./actor-item-validation.js";
 import {generateAction} from "../action/generate-action.mjs";
-import {ActorAmmunitionDelegate} from "../item/ammunition/ammunitionDelegate.mjs";
 import {WeightDelegate} from "./weightDelegate.mjs";
-import {getGridSizeFromSize} from "./size.mjs";
+import {getGridSizeFromSize, getTokenTextureScaleFromSize} from "./size.mjs";
 import {bypassShields} from "../common/conditionalHelpers.mjs";
 import {depthMerge, titleCase} from "../common/helpers.mjs";
 import {CrewDelegate} from "./crewDelegate.mjs";
+import {getAvailableCombatToggles} from "./attack/combat-toggle.mjs";
 
 export function getEntityKey(entity) {
     return `${entity.type}:${entity.name}`;
+}
+
+// Homebrew "take the average" hit-die option: half the die, rounded up.
+function averageHitPoints(diceFormula) {
+    const match = `${diceFormula}`.match(/d(\d+)/i);
+    if (!match) return 0;
+    return Math.floor(parseInt(match[1]) / 2) + 1;
+}
+
+// Collapses a list of character levels into a compact range label, e.g.
+// [1,2,3,4,7,9,10] -> "1–4, 7, 9–10", for the Classes tab's grouped-by-class rows.
+function formatLevelRange(levels) {
+    const sorted = [...levels].sort((a, b) => a - b);
+    const parts = [];
+    let start = sorted[0];
+    let prev = sorted[0];
+    for (let i = 1; i <= sorted.length; i++) {
+        const current = sorted[i];
+        if (current !== prev + 1) {
+            parts.push(start === prev ? `${start}` : `${start}–${prev}`);
+            start = current;
+        }
+        prev = current;
+    }
+    return parts.join(", ");
 }
 
 /**
@@ -69,7 +94,6 @@ class SWSEActor extends Actor {
 
         this.attack = new AttackDelegate(this);
         this.weight = new WeightDelegate(this);
-        this.ammunitionDelegate = new ActorAmmunitionDelegate(this);
         this.crew = new CrewDelegate(this);
 
 
@@ -141,18 +165,26 @@ class SWSEActor extends Actor {
     }
 
     handleTokenupdates() {
-        if (this.type === "character") {
+        if (this.type === "character" || this.type === "beast") {
             const tokenUpdates = {};
 
             if (!!this.system.settings.autoSizeToken) {
 
-                //adjust tokens to size
-                const newSize = sizeArray[getResolvedSize(this)]
-                this.system.size = newSize;
-                this._pendingUpdates["system.size"] = newSize;
+                // adjust tokens to size — this.size (the Size dropdown on the Summary tab) is
+                // the single source of truth for a character's declared size (see the getter's
+                // own doc comment), not getResolvedSize's item/changes-driven resolution, which
+                // reads a leftover size-named Trait item from before the size-table rework and
+                // would silently overwrite the player's own dropdown choice back to whatever
+                // that stale trait said, every time actor data was prepared.
+                const newSize = this.size.name;
                 const gridSize = getGridSizeFromSize(newSize);
                 tokenUpdates["width"] = gridSize;
                 tokenUpdates["height"] = gridSize;
+                // Fine/Diminutive/Tiny/Small keep a 1x1 grid footprint (the real SWSE rule) but
+                // still look visibly smaller on the grid via a texture-only scale-down.
+                const textureScale = getTokenTextureScaleFromSize(newSize);
+                tokenUpdates["texture.scaleX"] = textureScale;
+                tokenUpdates["texture.scaleY"] = textureScale;
             }
 
             if (!!this.system.settings.allowSheetLighting) {
@@ -210,11 +242,29 @@ class SWSEActor extends Actor {
                 const dependentTokens = this.getDependentTokens({linked: true});
                 for (const tokenDocument of dependentTokens) {
                     if (tokenDocument._id && game) {
-                        try {
-                            tokenDocument.update(tokenUpdates);
-                        } catch (e) {
-                            console.log(e)
-                        }
+                        (async () => {
+                            try {
+                                // Foundry V14's token-movement validation rejects a width/height
+                                // change outright ("action is invalid") when the token's current
+                                // movementAction is unset — a real trap for any token created/
+                                // migrated before this field existed. Has to be a separate prior
+                                // update: including movementAction in the same payload as the
+                                // resize doesn't help, since validation reads the token's
+                                // pre-update value, not the incoming one.
+                                if (("width" in tokenUpdates || "height" in tokenUpdates) && !tokenDocument.movementAction) {
+                                    await tokenDocument.update({movementAction: "walk"});
+                                }
+                                // Even with movementAction set, a width/height change still gets
+                                // routed through Foundry's animated-movement pipeline by default,
+                                // which silently drops the resize (no thrown error, no applied
+                                // change — confirmed live: the update "succeeds" but width/height
+                                // stay at their old values). animate:false skips that pipeline and
+                                // applies the change directly.
+                                await tokenDocument.update(tokenUpdates, {animate: false});
+                            } catch (e) {
+                                console.log(e)
+                            }
+                        })();
                     }
                 }
             }
@@ -239,20 +289,6 @@ class SWSEActor extends Actor {
         }
         await Promise.all(links)
         return super._onDelete(options, userId);
-    }
-
-    _onCreateDescendantDocuments(parent, collection, documents, data, options, userId) {
-        super._onCreateDescendantDocuments(parent, collection, documents, data, options, userId);
-
-        //remove other condition ActiveEffects.  should identifying a condition ActiveEffect be done differently?
-        if ("effects" === collection) {
-            let activeEffect = documents[0];
-            if (activeEffect.statuses.filter(status => status.startsWith('condition')).size > 0) {
-                this.effects
-                    .filter(effect => effect !== activeEffect && effect.statuses.filter(status => status.startsWith('condition')).size > 0)
-                    .map(effect => effect.delete())
-            }
-        }
     }
 
     _onUpdate(changed, options, userId) {
@@ -397,41 +433,6 @@ class SWSEActor extends Actor {
         this.setGroupedEffect('gravity', value, true);
     }
 
-    ///start condition section
-    get condition() {
-        let condition = 0;
-
-        let conditionEffect = this.effects.find(effect => !!effect && !!effect.statuses?.find(status => status.startsWith("condition")))
-
-        if (conditionEffect) {
-            condition = conditionEffect.changes.find(change => change.key === "condition").value
-        }
-        return condition;
-    }
-
-    set condition(value){
-        this.setGroupedEffect('condition', value, true);
-    }
-
-    async reduceCondition(number = 1) {
-        let conditionIndex = SWSE.conditionTrack.indexOf(`${this.condition}`);
-
-        let resultFlavor = ""
-        //if this is reducing condition then we should consider anything that increases that reduction
-        if (number > 0 && getInheritableAttribute({entity: this, attributeKey: "implantDisruption", reduce: "OR"})) {
-            resultFlavor = "An additional step down the condition track was taken due to Implant Disruption."
-            number++;
-        }
-
-        let newCondition = SWSE.conditionTrack[Math.max(Math.min(conditionIndex + number, 5), 0)];
-
-        this.condition = newCondition;
-
-        return `condition set to ${newCondition}.  ${resultFlavor}`;
-    }
-    ///end condition section/
-
-
     get unarmedAttack(){
         return this.attack.unarmed
     }
@@ -455,7 +456,7 @@ class SWSEActor extends Actor {
         if (['vehicle', 'npc-vehicle'].includes(this.type)) {
             return this.items.filter(item => item.type === "vehicleSystem" && item.system.subtype && item.system.subtype.toLowerCase() === 'weapon systems' && !!item.system.equipped)
         }
-        if (['character', 'npc'].includes(this.type)) {
+        if (characterActorTypes.includes(this.type)) {
             let availableItems = []
             for (let crew of this.crew.members) {
                 let vehicle = game.actors.get(crew.id);
@@ -539,15 +540,6 @@ class SWSEActor extends Actor {
 
     get grapple() {
         return this.getCached("grapple", () => {
-            let condition = getInheritableAttribute({
-                entity: this,
-                attributeKey: "condition",
-                reduce: "SUM"
-            });
-
-            if(condition === "OUT"){
-                condition = 0;
-            }
             return this.baseAttackBonus + Math.max(this.attributes.str.mod, this.attributes.dex.mod) + getInheritableAttribute({
                 entity: this,
                 attributeKey: "grappleBonus",
@@ -556,7 +548,23 @@ class SWSEActor extends Actor {
                 entity: this,
                 attributeKey: "grappleSizeModifier",
                 reduce: "SUM"
-            }) + condition;
+            });
+        })
+    }
+
+    // Homebrew: Maneuver Defense, shown on the Summary tab in place of Damage Threshold
+    // (which is still fully computed/used elsewhere for the massive-damage/condition-track
+    // rules — this is purely an additional derived stat, not a replacement for it).
+    get maneuverDefense() {
+        return this.getCached("maneuverDefense", () => {
+            // Vehicles use a differently-shaped defense block (defense.fort, not
+            // defense.fortitude) and don't have a Fortitude-based Maneuver Defense concept —
+            // actor-health.hbs shows this field unconditionally (shared with the vehicle
+            // sheet), so guard rather than assume every actor type has defense.fortitude.
+            if (!characterActorTypes.includes(this.type)) {
+                return 0;
+            }
+            return this.system.defense.fortitude.total + 5;
         })
     }
 
@@ -628,12 +636,6 @@ class SWSEActor extends Actor {
         return secondWind;
     }
 
-    get firstAid(){
-        let firstAid = this.system.firstAid || {}
-        firstAid.perDay = 1
-        return firstAid;
-    }
-
     get forcePoints(){
         const forcePoints = Number.isInteger(this.system.forcePoints) ? this.system.forcePoints : (this.system.forcePoints?.quantity || 0);
         this.system.forcePoints = (typeof this.system.forcePoints === 'object') ? this.system.forcePoints || {} : {};
@@ -649,8 +651,33 @@ class SWSEActor extends Actor {
         const forceDieCount = this.levelSummary > 14 ? 3 : (this.levelSummary > 7 ? 2 : 1);
         this.system.forcePoints.roll = `${forceDieCount}d${forceDie}kh`
 
+        this.system.forcePoints.max = this.forcePointsPerDay;
+
         return this.system.forcePoints;
     }
+
+    /**
+     * Homebrew: Force Points refresh daily. Base amount steps up every 5 character
+     * levels (1-5 => 1, 6-10 => 2, 11-15 => 3, 16-20 => 4), plus 1 for Force
+     * Sensitivity and 2 for Force Boon.
+     *
+     * Force Sensitivity goes through `isForceSensitive`, which excludes droids —
+     * droids can't take that feat. Force Boon is checked by item instead, because the
+     * homebrew waives *its* prerequisite, so droids can take Boon without Sensitivity.
+     * @return {number}
+     */
+    get forcePointsPerDay() {
+        return this.getCached("forcePointsPerDay", () => {
+            const level = this.characterLevel || 0;
+            let perDay = Math.min(Math.max(Math.ceil(level / 5), 1), 4);
+
+            if (this.isForceSensitive) perDay += 1;
+            if (this.items.some(i => i.name === "Force Boon")) perDay += 2;
+
+            return perDay;
+        })
+    }
+
 
     // get remainingSkills(){
     //     let remainingSkills = getAvailableTrainedSkillCount(this);
@@ -894,6 +921,8 @@ class SWSEActor extends Actor {
             leveledClass.levelUpHitPoints = co.levelUpHitPoints;
             leveledClass.canRerollHealth = co.canRerollHealth(characterLevel);
             leveledClass.classLevelHealth = co.classLevelHealth(levelOfClass, characterLevel);
+            // Homebrew: "take the average" option, half the hit die rounded up (e.g. 1d10 -> 6).
+            leveledClass.averageHitPoints = averageHitPoints(co.levelUpHitPoints);
             leveledClass.isLatest = false;
             leveledClass.classLevel = levelOfClass;
             leveledClass.characterLevel = characterLevel;
@@ -915,6 +944,69 @@ class SWSEActor extends Actor {
             throw new Error("Cannot set classes on a real actor");
         }
         this._classes = classes;
+    }
+
+    /**
+     * The Classes tab groups the flat per-level `classes` array by class, one row per
+     * class taken rather than one row per level (which got unreadable past ~10 levels).
+     * @return {[]}
+     */
+    get classSummaries() {
+        return this.getCached("classSummaries", () => {
+            const conMod = this.system.abilities.con.mod;
+            const groups = new Map();
+            for (const leveledClass of this.classes) {
+                let group = groups.get(leveledClass.id);
+                if (!group) {
+                    group = {
+                        id: leveledClass.id,
+                        name: leveledClass.name,
+                        img: leveledClass.img,
+                        isFollowerTemplate: leveledClass.isFollowerTemplate,
+                        levels: [],
+                        totalHp: 0,
+                        hasLatest: false,
+                    };
+                    groups.set(leveledClass.id, group);
+                }
+                group.levels.push(leveledClass);
+                group.totalHp += leveledClass.classLevelHealth + conMod;
+                if (leveledClass.isLatest) group.hasLatest = true;
+            }
+            const result = Array.from(groups.values());
+            for (const group of result) {
+                group.levelRangeLabel = formatLevelRange(group.levels.map(l => l.characterLevel));
+            }
+            return result;
+        })
+    }
+
+    /**
+     * Situational combat bonuses (e.g. Sneak Attack) the actor currently has access to via a
+     * granting talent/feat/power, with their current on/off state. Rendered once at the top of
+     * the Attacks panel since toggle state is actor-global, not per-weapon.
+     * @return {[{id:string, label:string, active:boolean}]}
+     */
+    get availableCombatToggles() {
+        return this.getCached("availableCombatToggles", () => getAvailableCombatToggles(this));
+    }
+
+    /**
+     * Homebrew: "Multiclassing Hit Die for Healing is the highest Hit Die of all classes
+     * taken" — surfaced on the Classes tab next to Total HP since it's easy to lose track
+     * of once a character has a few levels in more than one class.
+     */
+    get highestClassHitDie() {
+        return this.getCached("highestClassHitDie", () => {
+            let maxSides = 0;
+            for (const co of this.itemTypes.class) {
+                const match = `${co.levelUpHitPoints}`.match(/d(\d+)/i);
+                if (match) {
+                    maxSides = Math.max(maxSides, parseInt(match[1]));
+                }
+            }
+            return maxSides > 0 ? `1d${maxSides}` : null;
+        })
     }
 
 
@@ -939,21 +1031,52 @@ class SWSEActor extends Actor {
     }
 
     get powers() {
-        return this.itemTypes["forcePower"]
+        return this.itemTypes["forcePower"].toSorted((a, b) => (a.sort || 0) - (b.sort || 0));
+    }
+
+    // Homebrew: Powers Known is (1 + Int modifier) for each time Force Training has been taken.
+    get forcePowersKnown() {
+        return this.getCached("forcePowersKnown", () => {
+            const forceTrainingCount = getInheritableAttribute({entity: this, attributeKey: "forceTraining", reduce: "COUNT"});
+            return forceTrainingCount * (1 + this.system.abilities.int.mod);
+        })
+    }
+
+    // Homebrew feat/talent progression (character level chart): 1 Talent per level; a General
+    // Feat at every odd level from 3 on; an additional Feat at every even level from 2 on while
+    // solo-classed (single class taken) — the standard SWSE not-multiclassing bonus; plus each
+    // class's own starting feat (Force Sensitivity for Jedi, Linguist for Noble, etc. — derived
+    // from that class item's own classFeat changes, not hardcoded, so it stays correct if that
+    // data changes) and any feat the actor's species grants.
+    get expectedTalentCount() {
+        return this.characterLevel;
+    }
+
+    get expectedFeatCount() {
+        const level = this.characterLevel;
+        // Math.max guards level 0 (no class taken yet) — Math.floor(-1/2) is -1, not 0, in JS.
+        const generalFeats = Math.max(0, Math.floor((level - 1) / 2));
+        const soloClassFeats = this.itemTypes.class.length === 1 ? Math.floor(level / 2) : 0;
+        const classGrantedFeats = this.itemTypes.class.reduce((sum, co) => {
+            // Every classFeat entry (including "Weapon Proficiency (X)") is granted as its own
+            // real Feat item and shows up in the Feats list, so all of them count here.
+            return sum + getInheritableAttribute({entity: co, attributeKey: "classFeat", reduce: "VALUES"}).length;
+        }, 0);
+        const speciesGrantedFeats = (this.species?.system.providedItems || []).filter(p => p.type === "feat").length;
+        // Some species grant a feat indirectly via a trait that provides into the same "General
+        // Feats" pool the odd-level count above draws from (e.g. Human's default "Bonus Feat"
+        // trait: {key: "provides", value: "General Feats"}) rather than a direct providedItems
+        // feat grant — reuse the same generic provides:<category> mechanism the rest of the
+        // system already uses for this instead of re-deriving per-species. Classes grant into
+        // their own separate named pools (e.g. "Jedi Bonus Feats"), not "General Feats", so this
+        // can't double-count against classGrantedFeats above.
+        const bonusFeatGrants = getInheritableAttribute({entity: this, attributeKey: "provides"})
+            .filter(p => (p.value.includes(":") ? p.value.split(":")[0] : p.value) === "General Feats").length;
+        return generalFeats + soloClassFeats + classGrantedFeats + speciesGrantedFeats + bonusFeatGrants;
     }
 
     get languages() {
         return this.itemTypes["language"]
-    }
-
-    get background() {
-        let backgrounds = this.itemTypes["background"];
-        return (backgrounds.length > 0 ? backgrounds[0] : null);
-    }
-
-    get destiny() {
-        let destinies = this.itemTypes["destiny"];
-        return (destinies.length > 0 ? destinies[0] : null);
     }
 
     get secrets() {
@@ -1010,12 +1133,6 @@ class SWSEActor extends Actor {
             label: "Ignore Prerequisites",
             value: this.system.settings.ignorePrerequisites
         });
-        this.settings.push({
-            type: "boolean",
-            path: "system.settings.ignorePrerequisitesOnDrop",
-            label: "Ignore Prerequisites when adding new Items",
-            value: this.system.settings.ignorePrerequisitesOnDrop
-        })
         if(this.type === "character"){
             this.settings.push({
                 type: "select",
@@ -1141,7 +1258,11 @@ class SWSEActor extends Actor {
                 })
 
                 if (attributes.length === 0) {
-                    attributes.push({type: "Stationary", value: 0});
+                    // Homebrew: base speed comes from size rather than per-species
+                    // values — 30 ft, or 25 ft at Small or smaller. Armor's flat
+                    // penalty is applied below via applyArmorSpeedPenalty().
+                    const isSmallOrSmaller = this.size.sizeIndex <= sizeArray.indexOf("Small");
+                    attributes.push({type: "Walk", value: isSmallOrSmaller ? 25 : 30});
                 }
                 let armorType = this.heaviestArmorType;
 
@@ -1150,12 +1271,25 @@ class SWSEActor extends Actor {
                 attributes = attributes.filter(attribute=> !attribute.type.includes("->"))
 
                 return attributes.map(speed => this.applyArmorSpeedPenalty(speed, armorType))
-                    .map(speed => this.applyConditionSpeedPenalty(speed, armorType))
-                    .map(speed => this.applyWeightSpeedPenalty(speed))
                     .map(speed => this.applyConversions(speed, conversions))
             }
 
         })
+    }
+
+    /**
+     * Homebrew: flat speed reduction (feet) declared by equipped armor, overriding the standard
+     * Medium/Heavy 3/4-speed penalty. Undefined if no equipped armor declares one.
+     */
+    get flatArmorSpeedPenalty() {
+        let penalty = undefined;
+        for (let armor of this.equipped.filter(item => item.type === "armor")) {
+            let itemPenalty = armor.armorFlatSpeedPenalty;
+            if (itemPenalty !== undefined) {
+                penalty = Math.max(penalty ?? 0, itemPenalty);
+            }
+        }
+        return penalty;
     }
 
     get heaviestArmorType() {
@@ -1186,54 +1320,16 @@ class SWSEActor extends Actor {
      * @return
      */
     applyArmorSpeedPenalty(speed, armorType) {
+        let flatPenalty = this.flatArmorSpeedPenalty;
+        if (flatPenalty !== undefined) {
+            speed.value = Math.max(0, speed.value - flatPenalty);
+            return speed;
+        }
         if (!armorType || "Light" === armorType) {
             return speed;
         }
         speed.value = Math.floor(speed.value * 3 / 4)
         return speed;
-    }
-
-    /**
-     * applies the speed penalty from your condition
-     * @param speed {object}
-     * @param speed.type {string}
-     * @param speed.value {number}
-     * @return
-     */
-    applyConditionSpeedPenalty(speed) {
-        let multipliers = getInheritableAttribute({
-            entity: this,
-            attributeKey: "speedMultiplier",
-            reduce: "VALUES"
-        })
-
-        multipliers.forEach(m => speed.value = parseFloat(m) * speed.value)
-        return speed
-    }
-
-    /**
-     * applies the speed penalty from your carry weight
-     * @param speed {object}
-     * @param speed.type {string}
-     * @param speed.value {number}
-     * @return
-     */
-    applyWeightSpeedPenalty(speed) {
-        if (game.settings.get("swse", "enableEncumbranceByWeight")) {
-            if (this.carriedWeight >= this.maximumCapacity) {
-                speed.value = 0;
-            } else if (this.carriedWeight >= this.strainCapacity) {
-                speed.value = 1;
-            } else if (this.carriedWeight >= this.heavyLoad) {
-                if("Fly Speed" === speed.type){
-                    speed.value = 0;
-                }else {
-                    speed.value = Math.floor(speed.value * 3 / 4)
-                }
-            }
-        }
-
-        return speed
     }
 
     get carriedWeight(){
@@ -1404,44 +1500,13 @@ class SWSEActor extends Actor {
             }
         }
 
-        let conditionReduction = 1;
-        const currentHealth = this.system.health.value;
-
-
-        let damageThreshhold = this.system.defense.damageThreshold.total;
-        let reducedToZero = false;
         if(damageTypes.includes("Energy (Ion)")){
-            if (this.takesFullDamageFromIon) {
-                if(totalDamage >= currentHealth){
-                    conditionReduction = 5;
-                    resultFlavor += "The Ion Damage reduced hitpoints to 0 and has caused them to become helpless. "
-                    reducedToZero = true;
-                } else if(totalDamage > damageThreshhold){
-                    conditionReduction = 2;
-                    resultFlavor += "An additional step was taken down the condition track due to Ion Damage. "
-                }
-            } else {
+            if (!this.takesFullDamageFromIon) {
                 totalDamage = Math.floor(totalDamage / 2);
             }
         } else if(damageTypes.includes("Energy (Stun)")){
-            if(this.isEffectedByStun){
-                if(totalDamage >= currentHealth){
-                    conditionReduction = 5;
-                    resultFlavor += "The Stun Damage reduced hitpoints to 0 and has caused them to become helpless. "
-                    reducedToZero = true;
-                } else if(totalDamage > damageThreshhold){
-                    conditionReduction = 2;
-                    resultFlavor += "An additional step was taken down the condition track due to Stun Damage. "
-                }
-            } else {
+            if(!this.isEffectedByStun){
                 totalDamage = 0;
-            }
-        }
-
-        let reducedCondition = "";
-        if (options.affectDamageThreshold) {
-            if (totalDamage > damageThreshhold || reducedToZero) {
-                reducedCondition = await this.reduceCondition(conditionReduction)
             }
         }
 
@@ -1450,7 +1515,7 @@ class SWSEActor extends Actor {
             totalDamage = 0;
         }
 
-        const content = `${this.name} has has taken ${totalDamage} damage.  ${resultFlavor}  ${reducedCondition}`
+        const content = `${this.name} has has taken ${totalDamage} damage.  ${resultFlavor}`
 
         let flags = {};
         flags.swse = {};
@@ -1489,14 +1554,6 @@ class SWSEActor extends Actor {
         flags.swse.context.damage = -healAmount;
 
         await toChat(content, this, "Damage", {flags})
-    }
-
-    get recoveryActions(){
-        return this.system.recoveryActions || 0;
-    }
-
-    get totalRecoveryActions(){
-        return 3;
     }
 
     async setAttributes(abilities) {
@@ -1608,16 +1665,41 @@ class SWSEActor extends Actor {
             return 0;
         })
     }
-    get hideForce() {
-        return this.getCached("hideForce", () => {
-            return !getInheritableAttribute({
-                entity: this,
-                attributeKey: "forceSensitivity",
-                reduce: "OR"
-            });
+
+    /**
+     * Levels taken in non-heroic ("NPC") classes — Beast, Nonheroic — per tovec's homebrew:
+     * "NPC Classes have a Base Attack and Level Bonus to Defenses equal to 3/4 their total
+     * level." Each NPC class's own per-level `baseAttackBonus` change entries already encode
+     * a 0/1/1/1-per-4-levels pattern matching floor(level * 3/4), but nothing ever actually
+     * reads those via getInheritableAttribute — _baseAttackBonus() is the sole authoritative
+     * BAB source and previously just returned characterLevel unconditionally, so NPC classes
+     * were silently getting full BAB instead of 3/4. Feeds both defenseLevelBonus (below) and
+     * _baseAttackBonus(), the two places tovec's rule actually needs to apply.
+     */
+    get nonHeroicClassLevel() {
+        return this.getCached("nonHeroicClassLevel", () => {
+            const classObjects = filterItemsByTypes(this.items.values(), ["class"]);
+            let nonHeroicLevel = 0;
+            for (let co of classObjects) {
+                if (!getInheritableAttribute({entity: co, attributeKey: "isHeroic", reduce: "OR"})) {
+                    nonHeroicLevel += co.system.levelsTaken.length;
+                }
+            }
+            return nonHeroicLevel;
         })
     }
 
+    /**
+     * The "Level Bonus" term used by Fortitude/Reflex/Will (data/templates/defenses.mjs) and
+     * by _baseAttackBonus() below — full value per heroic level, 3/4 (floored) per NPC-class
+     * level, matching tovec's rule above. A mixed heroic/NPC-class build (e.g. a smart Beast
+     * that multiclassed into a heroic class) gets both contributions summed.
+     */
+    get defenseLevelBonus() {
+        return this.getCached("defenseLevelBonus", () => {
+            return this.heroicLevel + Math.floor(this.nonHeroicClassLevel * 3 / 4);
+        })
+    }
     set isDroid(isDroid){
         if(!this.partialMock){
             throw new Error("Cannot set isDroid on a real actor");
@@ -1685,11 +1767,13 @@ class SWSEActor extends Actor {
 
     get skills() {
         return this.getCached("skills", () => {
-            return Object.entries(this.system.skills ?? {}).map(entry => {
-                let value = entry[1];
-                value.label = entry[0].titleCase();
-                return value;
-            });
+            // Homebrew: label is already correctly cased by SkillFunctions#configureSkill
+            // (module/actor/data/templates/skills.mjs) during derived-data prep. Re-deriving it
+            // here via Foundry core's String.prototype.titleCase() mangles anything with a
+            // parenthetical (e.g. "Knowledge (Bureaucracy)" -> "Knowledge (bureaucracy)"), and
+            // since `value` is the same object reference as system.skills[key], it also
+            // corrupted that copy.
+            return Object.values(this.system.skills ?? {});
         })
     }
 
@@ -1794,28 +1878,21 @@ class SWSEActor extends Actor {
         })
     }
 
-    _getClassSkills() {
-        let classSkills = new Set()
-        let skills = getInheritableAttribute({
-            entity: this,
-            attributeKey: "classSkill", reduce: "VALUES"
-        });
-
-        for (let skill of skills) {
-            if (["knowledge (all skills, taken individually)", "knowledge (all types, taken individually)"].includes(skill.toLowerCase())) {
-                classSkills.add("knowledge (galactic lore)");
-                classSkills.add("knowledge (bureaucracy)");
-                classSkills.add("knowledge (life sciences)");
-                classSkills.add("knowledge (physical sciences)");
-                classSkills.add("knowledge (social sciences)");
-                classSkills.add("knowledge (tactics)");
-                classSkills.add("knowledge (technology)");
-            } else {
-                classSkills.add(skill.toLowerCase())
-            }
-        }
-
-        return classSkills;
+    /**
+     * Equipment tab: a single unified list grouped by category (replacing the old
+     * equipped/unequipped panel split), sorted alphabetically within each group.
+     */
+    get equipmentGroups() {
+        return this.getCached("equipmentGroups", () => {
+            const sortByName = (a, b) => a.finalName.localeCompare(b.finalName);
+            const items = this.inventoryItems;
+            return {
+                weapons: items.filter(item => item.type === "weapon").sort(sortByName),
+                armor: items.filter(item => item.type === "armor").sort(sortByName),
+                general: items.filter(item => item.type === "equipment").sort(sortByName),
+                systems: items.filter(item => ["vehicleSystem", "droid system", "implant"].includes(item.type)).sort(sortByName),
+            };
+        })
     }
 
 
@@ -1977,7 +2054,8 @@ class SWSEActor extends Actor {
             }
 
             let classLevel = this.classes?.length;
-            availableItems['General Feats'] = 1 + Math.floor(classLevel / 3) + (availableItems['General Feats'] ? availableItems['General Feats'] : 0);
+            // Homebrew: a General Feat every odd level (1, 3, 5, 7, ...), in addition to Heroic Class bonus feats.
+            availableItems['General Feats'] = Math.ceil(classLevel / 2) + (availableItems['General Feats'] ? availableItems['General Feats'] : 0);
 
             let bonusTalentTrees = getInheritableAttribute({
                 entity: this,
@@ -2206,22 +2284,14 @@ class SWSEActor extends Actor {
         return this._baseAttackBonus();
     }
 
+    // Homebrew: all Heroic and Prestige classes have BAB equal to character level (no
+    // per-class progression) — but NPC classes (Beast, Nonheroic) only get 3/4 of their
+    // level per tovec's rule, same scaling as defenseLevelBonus below. Each NPC class's own
+    // per-level `baseAttackBonus` change entries already encode this exact 3/4 progression,
+    // but nothing actually reads them via getInheritableAttribute — this getter is the sole
+    // authoritative source, so it needs to apply the same split itself.
     _baseAttackBonus(override) {
-        if (override) {
-            return getInheritableAttribute({
-                entity: this,
-                attributeKey: "baseAttackBonus",
-                embeddedItemOverride: override,
-                reduce: "SUM"
-            });
-        }
-        return this.getCached("baseAttackBonus", () => {
-            return getInheritableAttribute({
-                entity: this,
-                attributeKey: "baseAttackBonus",
-                reduce: "SUM"
-            });
-        })
+        return this.defenseLevelBonus;
     }
 
     /**
@@ -2230,7 +2300,12 @@ class SWSEActor extends Actor {
      */
     get size() {
         return this.getCached("size", () => {
-            const sizeIndex = getResolvedSize(this);
+            // Homebrew: the Size category declared on the Character summary is the
+            // single source of truth for the size-driven homebrew table (ability
+            // adjustments, speed, unarmed damage, Stealth) — it no longer defers to
+            // species-declared size, so setting it always takes effect.
+            const chosen = sizeArray.indexOf(this.system.size);
+            const sizeIndex = chosen > -1 ? chosen : sizeArray.indexOf("Medium");
             return {name: sizeArray[sizeIndex], sizeIndex: sizeIndex};
         })
     }
@@ -2280,11 +2355,15 @@ class SWSEActor extends Actor {
             context.actor = this;
             context.entity = entity;
             context.ignoreAvailability = item.ignoreAvailability;
+            // Rule enforcement intentionally disabled — validators still run for their side effects
+            // (e.g. activeCategory assignment) but never block the add and never show a popup;
+            // GM does manual review instead.
+            const previousSuppressDialog = this.suppressDialog;
+            this.suppressDialog = true;
             for (const validator of VALIDATORS) {
-                if (!(await validator(context))) {
-                    return false;
-                }
+                await validator(context);
             }
+            this.suppressDialog = previousSuppressDialog;
         }
         if (entity.type === "class") {
             let levels = [0];
@@ -2712,7 +2791,18 @@ class SWSEActor extends Actor {
         }
         entity.prepareData();
 
-        entity.addItemAttributes(item.changes);
+        // resolveEntity always returns entity.clone() — so when item is already a real SWSEItem
+        // (e.g. a document fetched straight from a compendium, the common case for
+        // actor.addItem(classItem, ...)), entity is a clone built directly from item's own data
+        // and already carries item.changes' full content. Merging item.changes into it again
+        // here silently doubled every non-unique-keyed change (weaponProficiency, classFeat,
+        // ...) on every such add, cascading into doubled starting-feat grants and doubled
+        // proficiency lists downstream. Only skip for this specific case — the uuid/name-lookup
+        // branches in resolveEntity build entity from a *different* source document than item,
+        // so item.changes there can carry genuinely new overlay data that must still be merged.
+        if (!(item instanceof SWSEItem)) {
+            entity.addItemAttributes(item.changes);
+        }
         const providedItems = item.providedItems || [];
         const automaticItems = game.generated.autoItemMapping.has(getEntityKey(entity)) ? game.generated.autoItemMapping.get(getEntityKey(entity)) : [];
 
@@ -2769,7 +2859,7 @@ class SWSEActor extends Actor {
             equipType = newEquipType;
         }
         if (!!options.offerOverride) {
-            let meetsPrereqs = meetsPrerequisites(this, item.system.prerequisite, {isAdd: true});
+            let meetsPrereqs = meetsPrerequisites(this, item.system.prerequisite);
             if (meetsPrereqs.doesFail) {
                 await new Dialog({
                     title: "You Don't Meet the Prerequisites!",
@@ -2789,7 +2879,7 @@ class SWSEActor extends Actor {
                 return;
             }
         } else if (!options.skipPrerequisite) {
-            let meetsPrereqs = meetsPrerequisites(this, item.system.prerequisite, {isAdd: true});
+            let meetsPrereqs = meetsPrerequisites(this, item.system.prerequisite);
             if (meetsPrereqs.doesFail) {
                 new Dialog({
                     title: "You Don't Meet the Prerequisites!",
@@ -3029,7 +3119,11 @@ class SWSEActor extends Actor {
         this.system.finalAttributeGenerationType = attributeGeneration;
 
         this.system.sheetType = "Auto"
-        if (this.flags.core?.sheetClass === "swse.SWSEManualActorSheet" || this.type === "vehicle") {
+        // Beasts are DM-built NPC stat blocks, not player characters built via point buy —
+        // same reasoning as vehicles already getting a forced-Manual pass here. There's also
+        // no per-actor override available for beast: initializeCharacterSettings() only
+        // exposes the "Ability Generation Type" Settings-tab option for type "character".
+        if (this.flags.core?.sheetClass === "swse.SWSEManualActorSheet" || this.type === "vehicle" || this.type === "beast") {
             this.system.finalAttributeGenerationType = "Manual";
             this.system.sheetType = "Manual"
         } else if (!attributeGeneration || attributeGeneration.toLowerCase() === "default") {

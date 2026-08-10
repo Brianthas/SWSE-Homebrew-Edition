@@ -1,0 +1,87 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You deal +2 points of damage with <a href=\"https://swse.fandom.com/wiki/Unarmed_Attacks\" title=\"Unarmed Attacks\">Unarmed Attacks</a>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:in: Untested, Homebrew Content, Talent Trees, Force Adept Talent Trees Force Warrior Talent Tree Edit Edit source History Talk (0) This Homebrew Content has not been reviewed in a meaningful manner. If you wish to review this content yourself, then see Untested for more details. Homebrew Reference Book: Saga Edition All-Purpose Sourcebook You have learned to use The Force to hone your body into a powerful weapon. Contents 1 Defensive Roll 2 Force Intuition 3 Improved Defensive Roll 4 Unarmed Specialisation Defensive Roll[ ] As a Reaction, when an attack exceeds your Damage Threshold and moves you down the Condition Track, you can choose to spend a Force Point to make a Defensive Roll and not move down the Condition Track (but still take damage as normal). Force Intuition[ ] You can use your Use the Force check modifier instead of your Initiative modifier when making Initiative checks. You are considered Trained in the Initiative Skill. If you are entitled to an Initiative check reroll, you may reroll your Use the Force check instead (subject to the same circumstances and limitations). Improved Defensive Roll[ ] Prerequisite: Defensive Roll After activating the Defensive Roll Talent, you can move up to half your speed. Unarmed Specialisation[ ] Prerequisite: Weapon Focus (Simple Weapons) You deal +2 points of damage with Unarmed Attacks. Categories Categories: Untested Homebrew Content Talent Trees Force Adept Talent Trees Add category Cancel Save Community content is available under CC-BY-SA unless otherwise noted. More Fandoms Fantasy Sci-fi Star Wars",
+        "key": "skillReRoll"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Weapon Focus (Simple Weapons)",
+      "requirement": "Weapon Focus (Simple Weapons)",
+      "type": "FEAT"
+    },
+    "categories": [
+      {
+        "value": "Untested"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Force Adept Talent Trees"
+      },
+      {
+        "value": "Homebrew Content"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Untested",
+      "Force Adept Talent Trees",
+      "Homebrew Content"
+    ],
+    "isSupplied": false,
+    "talentTree": "Force Warrior Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Force_Warrior_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Saga Edition All-Purpose Sourcebook",
+    "cost": "0"
+  },
+  "name": "Unarmed Specialisation",
+  "flags": {},
+  "type": "talent",
+  "folder": "e0TDqSUWLR9Gs9qc",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385305125,
+    "modifiedTime": 1734385305125,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "HXiuG4jeRp0UeNEk",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!HXiuG4jeRp0UeNEk"
+}

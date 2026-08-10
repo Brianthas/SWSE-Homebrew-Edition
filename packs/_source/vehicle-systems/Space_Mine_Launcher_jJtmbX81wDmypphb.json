@@ -1,0 +1,37 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Weapon Systems",
+    "changes": [],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><table class=\"wikitable\">\n <tbody>\n  <tr>\n   <th>SPACE MINE LAUNCHER</th>\n   <th>DAMAGE</th>\n   <th>EMPLACEMENT POINTS</th>\n   <th>AVAILABILITY</th>\n   <th>COST</th>\n  </tr>\n  <tr>\n   <td>Standard</td>\n   <td>-</td>\n   <td>2</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Military\" class=\"mw-redirect\" title=\"Military\">Military</a></td>\n   <td>5000</td>\n  </tr>\n  <tr>\n   <td>Heavy*</td>\n   <td>-</td>\n   <td>4</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Military\" class=\"mw-redirect\" title=\"Military\">Military</a></td>\n   <td>5000</td>\n  </tr>\n </tbody>\n</table><p><i>*This <a href=\"https://swse.fandom.com/wiki/Weapon_System\" class=\"mw-redirect\" title=\"Weapon System\">Weapon System</a> can only be mounted on a <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> of Colossal (Frigate) size or larger.</i></p><p>A Space Mine Launcher carries a Starship's Space Mine payload. All Space Mine Launchers hold six Space Mines. Additional capacity may be added, increasing the cost by 25% per each additional Space Mine (Up to a maximum of twelve Space Mines).</p><h4><span class=\"mw-headline\" id=\"Space_Mines\"><b>Space Mines</b></span></h4><table class=\"wikitable\">\n <tbody>\n  <tr>\n   <th>SPACE MINE</th>\n   <th>DAMAGE</th>\n   <th>EMPLACEMENT POINTS</th>\n   <th>AVAILABILITY</th>\n   <th>COST</th>\n  </tr>\n  <tr>\n   <td>Standard</td>\n   <td>7d10x2</td>\n   <td>0</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Military\" class=\"mw-redirect\" title=\"Military\">Military</a></td>\n   <td>1000</td>\n  </tr>\n  <tr>\n   <td>Advanced</td>\n   <td>9d10x2</td>\n   <td>0</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Military\" class=\"mw-redirect\" title=\"Military\">Military</a></td>\n   <td>5000</td>\n  </tr>\n  <tr>\n   <td>Heavy*</td>\n   <td>6d10x5</td>\n   <td>0</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Military\" class=\"mw-redirect\" title=\"Military\">Military</a></td>\n   <td>5000</td>\n  </tr>\n </tbody>\n</table><p><i>*This <a href=\"https://swse.fandom.com/wiki/Weapon_System\" class=\"mw-redirect\" title=\"Weapon System\">Weapon System</a> can only be mounted on a <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> of Colossal (Frigate) size or larger.</i></p><p>A Space Mine can be deployed as a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a> at any point along a Starship's movement path. Whenever any ship enters a square in which a Space Mine was deployed, the Space Mine detonates and makes an <a href=\"https://swse.fandom.com/wiki/Area_Attack\" class=\"mw-redirect\" title=\"Area Attack\">Area Attack</a> against the <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> of all ships in that square. On a hit, it deals full damage to the target; on a miss, it deals only half damage. It is also possible for Space Mines to be designed not to be detonated by ships with specific IFF codes (To allow defenders to fly freely past them) or to be command-detonated (Requiring a <a href=\"https://swse.fandom.com/wiki/Gunner\" title=\"Gunner\">Gunner</a> to detonate them as a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a>, often after <a href=\"https://swse.fandom.com/wiki/Readying_an_Action\" class=\"mw-redirect\" title=\"Readying an Action\">Readying an Action</a>).</p><p>A Space Mine has a <a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a> bonus of +5 (Including size modifiers), which sets the DC to notice the Space Mine. Whenever a Starship is about to enter the same square as a Space Mine, the <a href=\"https://swse.fandom.com/wiki/Pilot_(Vehicle_Combat)\" title=\"Pilot (Vehicle Combat)\">Pilot</a> can make a <a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> check as a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a> to notice the Space Mine and choose a different square to move into instead. If the ship has a <a href=\"https://swse.fandom.com/wiki/System_Operator\" title=\"System Operator\">System Operator</a>, the <a href=\"https://swse.fandom.com/wiki/System_Operator\" title=\"System Operator\">System Operator</a> may make a <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> check as a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a> as well, using the ship's sensors to detect the Space Mine.</p><p>A typical Space Mine has a +5 attack bonus and deals 7d10x2 points of damage. An Advanced Space Mine has a +10 attack bonus and deals 9d10x2 points of damage. A Heavy Space Mine has a +5 attack bonus and deals 6d10x5 points of damage; however, like all Capital Ship weapons, it takes a -20 penalty on attack rolls against targets of smaller than Colossal size.</p>",
+    "cost": "5000",
+    "ammo": "Space Mine:1",
+    "emplacementPoints": "2",
+    "availability": "Military",
+    "ammoCapacity": "Space Mine:6",
+    "ammoCapacityIncrease": "Space Mine:25%:12"
+  },
+  "name": "Space Mine Launcher",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317253,
+    "modifiedTime": 1759848317253,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "jJtmbX81wDmypphb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!jJtmbX81wDmypphb"
+}

@@ -1,0 +1,34 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Weapon Systems",
+    "changes": [],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><table class=\"wikitable\">\n <tbody>\n  <tr>\n   <th>FIRE-LINKED WEAPON</th>\n   <th>DAMAGE</th>\n   <th>EMPLACEMENT POINTS</th>\n   <th>AVAILABILITY</th>\n   <th>COST</th>\n  </tr>\n  <tr>\n   <td>2</td>\n   <td>+1d10</td>\n   <td>1</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Licensed\" class=\"mw-redirect\" title=\"Licensed\">Licensed</a></td>\n   <td>x2</td>\n  </tr>\n  <tr>\n   <td>4</td>\n   <td>+2d10</td>\n   <td>2</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Restricted\" class=\"mw-redirect\" title=\"Restricted\">Restricted</a></td>\n   <td>x4</td>\n  </tr>\n  <tr>\n   <td>Optional</td>\n   <td>Special</td>\n   <td>0</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Licensed\" class=\"mw-redirect\" title=\"Licensed\">Licensed</a></td>\n   <td>+1000</td>\n  </tr>\n </tbody>\n</table><p><a href=\"https://swse.fandom.com/wiki/Weapon_Systems\" title=\"Weapon Systems\">Weapon Systems</a> of any type that deal damage can be Fire-Linked to increase their output, using up more space than a <a href=\"https://swse.fandom.com/wiki/Cannon,_Double/Quad\" title=\"Cannon, Double/Quad\">Cannon, Double/Quad</a> but costing less. (Fire-Linked Turbolasers are often described as \"Batteries,\" but this is not the same thing as a <a href=\"https://swse.fandom.com/wiki/Weapon_Battery\" class=\"mw-redirect\" title=\"Weapon Battery\">Weapon Battery</a> in game terms.) With every attack, Fire-Linked Missiles and Torpedoes consume a number of shots of ammunition equal to the number of Fire-Linked Weapons. A Fire-Linked Weapon has the given availability or the availability of its Base Weapon, whichever is more restrictive.</p><h4><span class=\"mw-headline\" id=\"Autofire\"><b>Autofire</b></span></h4><p>Fire-Linked <a href=\"https://swse.fandom.com/wiki/Blaster_Cannons\" class=\"mw-redirect\" title=\"Blaster Cannons\">Blaster Cannons</a>, <a href=\"https://swse.fandom.com/wiki/Laser_Cannons\" class=\"mw-redirect\" title=\"Laser Cannons\">Laser Cannons</a>, <a href=\"https://swse.fandom.com/wiki/Light_Ion_Cannons\" class=\"mw-redirect\" title=\"Light Ion Cannons\">Light Ion Cannons</a>, and <a href=\"https://swse.fandom.com/wiki/Light_Turbolasers\" class=\"mw-redirect\" title=\"Light Turbolasers\">Light Turbolasers</a> can fire normally or in <a href=\"https://swse.fandom.com/wiki/Autofire\" title=\"Autofire\">Autofire</a> mode, with a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a> required to switch between the two.</p><h4><span class=\"mw-headline\" id=\"Optional_Fire-Link\"><b>Optional Fire-Link</b></span></h4><p>Some Fire-Linked Weapons, such as Missiles and Torpedoes, are designed to have their Fire-Link deactivated to conserve ammunition. The Fire-Link can be turned on or off as a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>, and the extra damage and ammunition consumption applies only while the Fire-Link is activated.</p>",
+    "cost": "+1000",
+    "emplacementPoints": "+0",
+    "availability": "Licensed"
+  },
+  "name": "Fire-Linked Weapon, Optional",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317257,
+    "modifiedTime": 1759848317257,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "kzm4bOUKymfmkdf9",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!kzm4bOUKymfmkdf9"
+}

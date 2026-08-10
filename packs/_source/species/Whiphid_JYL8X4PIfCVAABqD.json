@@ -1,0 +1,138 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Force_Unleashed_Campaign_Guide\" title=\"Star Wars Saga Edition Force Unleashed Campaign Guide\">Star Wars Saga Edition Force Unleashed Campaign Guide</a></i> </p><p>Whiphids are nomadic hunters, living on and making seasonal migrations across the vast tundra of their homeworld. Whiphid society is primitive and tribal, with each tribe led by a Spearmaster. They live for the hunt and the thrill of the kill. When they were discovered by traders during <a href=\"https://swse.fandom.com/wiki/The_Old_Republic_Era\" class=\"mw-redirect\" title=\"The Old Republic Era\">The Old Republic Era</a>, the Whiphids were quite taken with the traders' technology. Since that time, numerous Whiphids have left their tribes behind in search of a lucrative and more comfortable life elsewhere in the galaxy. </p><h3><span class=\"mw-headline\" id=\"Whiphid_Characteristics\">Whiphid Characteristics</span></h3><p><b>Personality:</b> Whiphids are natural predators. They enjoy the hunt as much as the kill. Outsiders might be surprised by their agreeable and outgoing personalities, especially when some Whiphid must learn the difference between \"Friend\" and \"Food\" the hard way. A combination of greed and lack of scruples lead many into the shady side of galactic society. </p><p><b>Physical Description:</b> Whiphids are bulky bipeds covered in light brown or golden fur. A Whiphid's lower jaw sports two large tusks. Whiphids vary in bulk and size depending on the climate they live in. They often shed some weight on hotter worlds to prevent overheating. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Whiphids age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-10 Years </td> \n   <td>11-15 Years </td> \n   <td>16-84 Years </td> \n   <td>85-99 Years </td> \n   <td>100-249 Years </td> \n   <td>250+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The tundra world of <span class=\"new\" title=\"Toola (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvVG9vbGE/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Toola</span>, in the Kaelta System of <a href=\"https://swse.fandom.com/wiki/The_Outer_Rim\" title=\"The Outer Rim\">The Outer Rim</a>. </p><p><b>Languages:</b> Whiphids have no written language. They speak their native tongue of barks and growls, also called Whiphid. </p><p><b>Example Names:</b> J'Quille, K'Kruhk, Jempa, Wapnji, Aiks Fwa, Ch'Unkk, D'Wopp, Fillin Ta, Valarian, Waroopa. </p><p><b>Adventurers:</b> Though primitive, Whiphids are eager to explore the galaxy. Offworld Whiphids quickly pick up the use of technology. Many Whiphids follow their natural predatory instincts to become <a href=\"https://swse.fandom.com/wiki/Soldiers\" class=\"mw-redirect\" title=\"Soldiers\">Soldiers</a>, bounty hunters, or <a href=\"https://swse.fandom.com/wiki/Scoundrels\" class=\"mw-redirect\" title=\"Scoundrels\">Scoundrels</a>. <a href=\"https://swse.fandom.com/wiki/Nobles\" class=\"mw-redirect\" title=\"Nobles\">Nobles</a> are uncommon. Force-sensitive Whiphids are rare, but not unheard of. </p><h3><span class=\"mw-headline\" id=\"Whiphid_Species_Traits\">Whiphid Species Traits</span></h3><p>Whiphids share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Large",
+        "type": "trait"
+      },
+      {
+        "name": "Cold Resistance",
+        "type": "trait"
+      },
+      {
+        "name": "Natural Weapons",
+        "type": "trait"
+      },
+      {
+        "name": "Scent",
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "10",
+          "low": "1",
+          "text": "1-10",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "15",
+          "low": "11",
+          "text": "11-15",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "84",
+          "low": "16",
+          "text": "16-84",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "99",
+          "low": "85",
+          "text": "85-99",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "250",
+          "text": "250+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "249",
+          "low": "100",
+          "text": "100-249",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Whiphids"
+      },
+      {
+        "value": "Large"
+      },
+      {
+        "value": "Cold Resistance"
+      },
+      {
+        "value": "Natural Weapons"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Scent"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Whiphid",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535567739,
+    "modifiedTime": 1736535567739,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "JYL8X4PIfCVAABqD",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!JYL8X4PIfCVAABqD"
+}

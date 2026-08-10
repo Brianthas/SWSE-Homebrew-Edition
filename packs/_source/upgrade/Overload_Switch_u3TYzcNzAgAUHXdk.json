@@ -1,0 +1,56 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a></i> </p><p>An Overload Switch allows any Energy weapon to build a feedback loop that causes it to explode. When activated as a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>, the weapon becomes an <a href=\"https://swse.fandom.com/wiki/Improvised_Thrown_Weapon\" class=\"mw-redirect\" title=\"Improvised Thrown Weapon\">Improvised Thrown Weapon</a> (-5 penalty on your ranged attack roll) with a 2-square <a href=\"https://swse.fandom.com/wiki/Burst\" class=\"mw-redirect\" title=\"Burst\">Burst</a>. </p><p>A weapon whose size is two or more steps greater than yours (such as a <a href=\"https://swse.fandom.com/wiki/Human\" title=\"Human\">Human</a> using an <a href=\"https://swse.fandom.com/wiki/E-Web_Repeating_Blaster\" title=\"E-Web Repeating Blaster\">E-Web Repeating Blaster</a>) cannot be <a href=\"https://swse.fandom.com/wiki/Thrown\" class=\"mw-redirect\" title=\"Thrown\">Thrown</a>, so it will instead detonate at the end of your turn. </p><p>The overloaded weapon deals Energy damage equal to double its normal damage dice; for example, an overloaded <a href=\"https://swse.fandom.com/wiki/Blaster_Pistol\" title=\"Blaster Pistol\">Blaster Pistol</a> deals 6d6 points of Energy damage. Once the Overload Switch is used, the weapon is destroyed. This modification cannot be added to <a href=\"https://swse.fandom.com/wiki/Grenades\" title=\"Grenades\">Grenades</a>, <a href=\"https://swse.fandom.com/wiki/Mines\" title=\"Mines\">Mines</a>, or other <a href=\"https://swse.fandom.com/wiki/Explosives\" title=\"Explosives\">Explosives</a>. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "itemMod"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "250",
+    "weight": "",
+    "availability": "Military",
+    "size": "",
+    "type": "",
+    "subtype": "Weapon Upgrade",
+    "quantity": 1,
+    "hasItemOwner": false,
+    "upgrade": {},
+    "source": "Star Wars Saga Edition Scum and Villainy",
+    "upgradePointCost": "1"
+  },
+  "name": "Overload Switch",
+  "flags": {},
+  "type": "upgrade",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263245717,
+    "modifiedTime": 1749263245717,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "u3TYzcNzAgAUHXdk",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!u3TYzcNzAgAUHXdk"
+}

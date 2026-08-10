@@ -1,0 +1,107 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Jedi_Academy_Training_Manual\" title=\"Star Wars Saga Edition Jedi Academy Training Manual\">Star Wars Saga Edition Jedi Academy Training Manual</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a></i> </p><p><b>[<i><a href=\"https://swse.fandom.com/wiki/Lightsaber_Form\" class=\"mw-redirect\" title=\"Lightsaber Form\">Lightsaber Form</a></i>]</b> </p><p>You trade power for accuracy. </p><p><b>Time:</b> <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a> </p><p><b>Targets:</b> One enemy within reach </p><p><b>Make a <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check.</b> The result of the check determines the effects, if any: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td>You make a single melee attack with a <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> against the target, rolling twice and keeping the higher result. However, you take a -5 penalty on your damage roll. </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td>You make a single melee attack with a <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> against the target, rolling twice and keeping the higher result. However, you take a -2 penalty on your damage roll. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td>You make a single melee attack with a <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> against the target, rolling twice and keeping the higher result. However, you take a -1 penalty on your damage roll. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td>You make a single melee attack with a <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> against the target, rolling twice and keeping the higher result. </td>\n  </tr>\n </tbody>\n</table><p><b>Lightsaber Form (<a href=\"https://swse.fandom.com/wiki/Juyo\" class=\"mw-redirect\" title=\"Juyo\">Juyo</a>):</b> If you have the <a href=\"https://swse.fandom.com/wiki/Juyo\" class=\"mw-redirect\" title=\"Juyo\"><b>Juyo</b></a> Talent and miss with both attack rolls, this Form Power remains in your <a href=\"https://swse.fandom.com/wiki/Force_Power_Suite\" class=\"mw-redirect\" title=\"Force Power Suite\">Force Power Suite</a> instead of being spent as normal. </p><p><b>Special:</b> You can spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> to roll your attack roll three times, keeping the highest result. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Lightsaber Form",
+        "key": "tag"
+      },
+      {
+        "mode": 2,
+        "value": "Standard Action",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "One enemy within reach",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "cumulative"
+      },
+      {
+        "mode": 2,
+        "value": "Use the Force",
+        "key": "rollType"
+      },
+      {
+        "mode": 2,
+        "value": "15:You make a single melee attack with a Lightsaber against the target, rolling twice and keeping the higher result. However, you take a -5 penalty on your damage roll.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "20:You make a single melee attack with a Lightsaber against the target, rolling twice and keeping the higher result. However, you take a -2 penalty on your damage roll.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "25:You make a single melee attack with a Lightsaber against the target, rolling twice and keeping the higher result. However, you take a -1 penalty on your damage roll.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "30:You make a single melee attack with a Lightsaber against the target, rolling twice and keeping the higher result.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "Reference Book: Star Wars Saga Edition Jedi Academy Training Manual See also: Force Powers [Lightsaber Form] You trade power for accuracy. Time: Standard Action Targets: One enemy within reach Make a Use the Force check. The result of the check determines the effects, if any: Lightsaber Form (Juyo): If you have the Juyo Talent and miss with both attack rolls, this Form Power remains in your Force Power Suite instead of being spent as normal. Special: You can spend a Force Point to roll your attack roll three times, keeping the highest result.",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Lightsaber Form Force Powers"
+      },
+      {
+        "value": "Force Powers"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Assured Strike",
+  "flags": {},
+  "type": "forcePower",
+  "img": "systems/swse/icon/force-power/Assured_Strike.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738608589258,
+    "modifiedTime": 1738608589258,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "u5cwTuqIMpdiCtMs",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!u5cwTuqIMpdiCtMs"
+}

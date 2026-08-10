@@ -82,6 +82,20 @@ export class AbilityFields {
     }
 }
 export class AbilityFunctions {
+    // Homebrew size table: Large is +STR/-DEX, Small is +DEX/-STR, Medium is unmodified.
+    // Replaces the old per-species flat ability bonuses for playable (Medium/Large/Small) species.
+    sizeAbilityAdjustment(key) {
+        const sizeName = this.parent.size?.name;
+        if (sizeName === "Large") {
+            if (key === "str") return 2;
+            if (key === "dex") return -2;
+        } else if (sizeName === "Small") {
+            if (key === "dex") return 2;
+            if (key === "str") return -2;
+        }
+        return 0;
+    }
+
     _prepareAbilityDerivedData() {
         let actor = this.parent;
         let abilityGenType = this.settings.attributeGeneration;
@@ -93,9 +107,10 @@ export class AbilityFunctions {
         if(actor.type === "vehicle"){
             hide = ["cha", "wis"];
         }
-        if(actor.isDroid){
-            hide = ["con"]
-        }
+
+        // Homebrew: Small non-droids can't put their free "+2 any" bonus into Dexterity
+        // (they already get a fixed +2 Dex from size); Small droids are the stated exception.
+        this.abilityBonusChoiceDexDisabled = actor.size?.name === "Small" && !actor.isDroid;
 
         // Loop through ability scores, and add their modifiers to our sheet output.
         for (let [key, ability] of Object.entries(this.abilities)) {
@@ -110,6 +125,11 @@ export class AbilityFunctions {
                 });
 
                 ability.bonus = resolveValueArray(bonuses, actor);
+
+                ability.bonus += this.sizeAbilityAdjustment(key);
+                if (this.abilityBonusChoice === key) {
+                    ability.bonus += 2;
+                }
             }
 
             if(hide.includes(key)){
@@ -125,7 +145,7 @@ export class AbilityFunctions {
             );
 
             // Prepare the roll data
-            let totalModifiers = ability.mod + (this.health.condition ?? 0);
+            let totalModifiers = ability.mod;
             let label = CONFIG.SWSE.Abilities.abilitiesShort[key];
 
             ability.label = key.toUpperCase();
@@ -154,7 +174,8 @@ export class AbilityFunctions {
 
 
         //move this somewhere else.  this is prepped too early
-        this.darkside.max = this.abilities.wis.value;
+        // Homebrew: Dark Side Score maximum is half Wisdom score, rounded up (was full Wisdom score).
+        this.darkside.max = Math.ceil(this.abilities.wis.value / 2);
         this.darkside.taint = getInheritableAttribute({
             entity: actor,
             attributeKey: "darksideTaint",

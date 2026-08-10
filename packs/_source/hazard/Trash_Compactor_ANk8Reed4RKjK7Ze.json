@@ -1,0 +1,66 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "10d6",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A creature, Droid, or object begins its turn inside a Trash Compactor that has closed completely.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round at the start of the target's turn, as long as the target remains in the Trash Compactor.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Special: A Trash Compactor takes 10 rounds to close, remains closed for 5 rounds, and takes 10 rounds to open fully once more.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Artificial",
+          "Crushing"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>The powerful walls of the Trash Compactor crush anything trapped inside.</i> </p><h2><span id=\"Trash_Compactor_Statistics_.28CL_10.29\"></span><span class=\"mw-headline\" id=\"Trash_Compactor_Statistics_(CL_10)\">Trash Compactor Statistics (CL 10)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Artificial, Crushing </p><p><b>Trigger:</b> A creature, Droid, or object begins its turn inside a Trash Compactor that has closed completely. </p><p><b>Attack:</b> Automatic Success </p><p><b>Recurrence:</b> Each round at the start of the target's turn, as long as the target remains in the Trash Compactor. </p><p><b>Special:</b> A Trash Compactor takes 10 rounds to close, remains closed for 5 rounds, and takes 10 rounds to open fully once more. </p>",
+    "cost": "0"
+  },
+  "name": "Trash Compactor",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244856,
+    "modifiedTime": 1749263244856,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "ANk8Reed4RKjK7Ze",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!ANk8Reed4RKjK7Ze"
+}

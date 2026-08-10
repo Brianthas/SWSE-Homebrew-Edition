@@ -1,0 +1,63 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You can spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> to increase the result of a <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check made to activate a <a href=\"https://swse.fandom.com/wiki/Force_Power\" class=\"mw-redirect\" title=\"Force Power\">Force Power</a> with the [<i><a href=\"https://swse.fandom.com/wiki/Dark_Side\" class=\"mw-redirect\" title=\"Dark Side\">Dark Side</a></i>] descriptor. (Normally <a href=\"https://swse.fandom.com/wiki/Force_Points\" title=\"Force Points\">Force Points</a> cannot be used to increase results of [<i><a href=\"https://swse.fandom.com/wiki/Dark_Side\" class=\"mw-redirect\" title=\"Dark Side\">Dark Side</a></i>] or [<i><a href=\"https://swse.fandom.com/wiki/Light_Side\" class=\"mw-redirect\" title=\"Light Side\">Light Side</a></i>] Force Powers.)",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Dark Side Savant talent",
+      "requirement": "Dark Side Savant",
+      "type": "TALENT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Force Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Force Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Dark Side Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Dark_Side_Talent_Tree",
+    "bonusTalentTree": "Force Talent Trees",
+    "source": "Legacy of the Force Sourcebook",
+    "cost": "0"
+  },
+  "name": "Dark Power",
+  "flags": {},
+  "type": "talent",
+  "folder": "2cQdnTei2lU54zBE",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385304068,
+    "modifiedTime": 1734385304068,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "2Dz4E89RPfkmLW7i",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!2Dz4E89RPfkmLW7i"
+}

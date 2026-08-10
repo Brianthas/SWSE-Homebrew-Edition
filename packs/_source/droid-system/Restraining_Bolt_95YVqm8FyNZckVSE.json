@@ -1,0 +1,38 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Processor Systems",
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "droidPart"
+      }
+    ],
+    "description": "<p>A Restraining Bolt turns off a Droid's motor impulse without actually shutting down the Droid. The Restraining Bolt is activated with a handheld device called a <a href=\"https://swse.fandom.com/wiki/Droid_Caller\" title=\"Droid Caller\">Droid Caller</a>. Restraining Bolts must be secured to specific locations on Droids. Attaching or removing a Restraining Bolt is a <a href=\"https://swse.fandom.com/wiki/Full-Round_Action\" class=\"mw-redirect\" title=\"Full-Round Action\">Full-Round Action</a> and requires a DC 10 <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> check. A Droid fitted with a Restraining Bolt can't upgrade or improve its <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>.</p><p>A Droid with a <a href=\"https://swse.fandom.com/wiki/Heuristic_Processor\" title=\"Heuristic Processor\">Heuristic Processor</a> can attempt to remove its own Restraining Bolt as a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a> with a successful DC 20 <a href=\"https://swse.fandom.com/wiki/Abilities\" title=\"Abilities\">Charisma</a> check followed by a successful DC 15 <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> check. A Droid that fails the <a href=\"https://swse.fandom.com/wiki/Abilities\" title=\"Abilities\">Charisma</a> check can't attempt to remove the Restraining Bolt again until 24 hours pass.</p>",
+    "cost": "5"
+  },
+  "name": "Restraining Bolt",
+  "flags": {},
+  "type": "droid system",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764449015757,
+    "modifiedTime": 1764449015757,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "95YVqm8FyNZckVSE",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!95YVqm8FyNZckVSE"
+}

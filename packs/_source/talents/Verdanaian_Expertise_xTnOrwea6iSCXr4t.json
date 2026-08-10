@@ -1,0 +1,65 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "While adjacent to an opponent, you can spend a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a> to activate this Talent. If the designated opponent <a href=\"https://swse.fandom.com/wiki/Moves\" class=\"mw-redirect\" title=\"Moves\">Moves</a> or <a href=\"https://swse.fandom.com/wiki/Withdraws\" class=\"mw-redirect\" title=\"Withdraws\">Withdraws</a> before the beginning of your next turn, you can choose to move with that opponent, up to a total distance equal to your current speed.<br><br>Unless your opponent uses the <a href=\"https://swse.fandom.com/wiki/Withdraw\" title=\"Withdraw\">Withdraw</a> Action or makes an <a href=\"https://swse.fandom.com/wiki/Acrobatics\" title=\"Acrobatics\">Acrobatics</a> check to avoid <a href=\"https://swse.fandom.com/wiki/Attacks_of_Opportunity\" title=\"Attacks of Opportunity\">Attacks of Opportunity</a>, its movement provokes an <a href=\"https://swse.fandom.com/wiki/Attack_of_Opportunity\" class=\"mw-redirect\" title=\"Attack of Opportunity\">Attack of Opportunity</a> from you for the first square moved as normal (but not subsequent squares in the same movement). If your target moves farther than your speed, you must still end this movement closer to the target than you began.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:in: Talent Trees, Martial Arts Master Talent Trees Martial Arts Forms Talent Tree Edit Edit source History Talk (0) Reference Book: Star Wars Saga Edition Galaxy at War You have advanced training in one or more martial art forms, turning your body into a lethal weapon. Although any character can practice these forms, you have the dedication and perseverance to go beyond what most beings are capable of. Contents 1 Echani Expertise 2 Hijkata Expertise 3 K'tara Expertise 4 K'thri Expertise 5 Stava Expertise 6 Tae-Jitsu Expertise 7 Wrruushi Expertise 8 Homebrew Martial Arts Forms Talents 8.1 Verdanaian Expertise Echani Expertise[ ] Prerequisite: Base Attack Bonus +10 When making an Unarmed attack, you extend your critical threat range by 1 (for example, 19-20 instead of 20). However, anything other than a Natural 20 is not considered an automatic hit; if you roll anything other than a Natural 20 and still miss the target, you do not score a Critical Hit. Hijkata Expertise[ ] When you damage a creature or Droid with an Unarmed attack, the target takes a penalty to its next attack roll equal to your Strength bonus. K'tara Expertise[ ] Once per turn, when you damage a creature or Droid with an Unarmed attack, you can make an attack to Disarm as a Swift Action. Also, you do not take the -5 penalty to your attack roll if the target is wielding a Weapon with more than one hand. K'thri Expertise[ ] Any enemy that begins its turn adjacent to you takes damage equal to your Strength modifier (minimum 1 point) if you are able to make an Attack of Opportunity against them. You can use this Talent only while wearing Light Armor or no Armor. Stava Expertise[ ] When you successfully Grab an enemy, he or she must make an opposed Grab check to break free of your Grab. If you are initiating a Grapple, you can reroll your Grapple check. However, you must accept the result of the reroll, even if it is worse. You can use this Talent only while wearing Light Armor or no Armor. Tae-Jitsu Expertise[ ] Once per turn, when you damage a creature or Droid with an Unarmed attack, compare your attack roll to the target's Damage Threshold. If your attack roll equals or exceeds the target's Damage Threshold, the target is moved -1 step on the Condition Track, regardless of the damage result of your attack. Wrruushi Expertise[ ] Once per turn, when you damage a creature or Droid with an Unarmed attack, you can make an attack against the target's Fortitude Defense as a Free Action. If that attack is successful, the target can only take a single Swift Action on their next turn. You can use this Talent only while wearing Light Armor or no Armor. Homebrew Martial Arts Forms Talents[ ] This Homebrew Content has not been reviewed in a meaningful manner. If you wish to review this content yourself, then see Untested for more details. Verdanaian Expertise[ ] Homebrew Reference Book: Clone Wars Saga Edition Fan Sourcebook - Jedi Knights (Part 1) While adjacent to an opponent, you can spend a Swift Action to activate this Talent. If the designated opponent Moves or Withdraws before the beginning of your next turn, you can choose to move with that opponent, up to a total distance equal to your current speed. Unless your opponent uses the Withdraw Action or makes an Acrobatics check to avoid Attacks of Opportunity, its movement provokes an Attack of Opportunity from you for the first square moved as normal (but not subsequent squares in the same movement). If your target moves farther than your speed, you must still end this movement closer to the target than you began. Categories Categories: Talent Trees Martial Arts Master Talent Trees Add category Cancel Save Community content is available under CC-BY-SA unless otherwise noted. More Fandoms Fantasy Sci-fi Star Wars",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": null,
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Martial Arts Master Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Martial Arts Master Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Martial Arts Forms Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Martial_Arts_Forms_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Clone Wars Saga Edition Fan Sourcebook - Jedi Knights (Part 1)",
+    "cost": "0"
+  },
+  "name": "Verdanaian Expertise",
+  "flags": {},
+  "type": "talent",
+  "folder": "GfZ5WRZrLtBS4oTr",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385308568,
+    "modifiedTime": 1734385308568,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "xTnOrwea6iSCXr4t",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!xTnOrwea6iSCXr4t"
+}

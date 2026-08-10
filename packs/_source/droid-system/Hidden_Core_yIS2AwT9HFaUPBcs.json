@@ -1,0 +1,41 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Processor Systems",
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "droidPart"
+      }
+    ],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scavenger%27s_Guide_to_Droids\" title=\"Star Wars Saga Edition Scavenger's Guide to Droids\">Star Wars Saga Edition Scavenger's Guide to Droids</a></i></p><p>The <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> has a concealed back-up copy of its personality and the data, skills, and memories it regards as critical to its mission or operation. The copy can be concealed within the Droid's main <a href=\"https://swse.fandom.com/wiki/Processor\" class=\"mw-redirect\" title=\"Processor\">Processor</a> or be installed as a hidden secondary data store elsewhere within the <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a>. The backup restores itself 1d6 days after a <a href=\"https://swse.fandom.com/wiki/Memory_Wipe\" class=\"mw-redirect\" title=\"Memory Wipe\">Memory Wipe</a> with a successful DC 20 <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> check (roll 1d20 + 10, or 1d20 + the Droid's current <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> Skill modifier, whichever is greater). If unsuccessful, the Hidden Core tries to restore itself again every 1d6 days. Discovering a Hidden Core requires a <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> check against the Droid's <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a>. The character making the <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> check must state that he or she is looking for a Hidden Core or for anything suspicious. For double the standard cost of a Hidden Core (for a cost of 400), the Hidden Core's installer can automatically provide a <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a> of 30 for this check.</p>",
+    "source": "Star Wars Saga Edition Scavenger's Guide to Droids",
+    "cost": "200",
+    "weight": "1 Kilogram",
+    "availability": "Restricted"
+  },
+  "name": "Hidden Core",
+  "flags": {},
+  "type": "droid system",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764449015820,
+    "modifiedTime": 1764449015820,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "yIS2AwT9HFaUPBcs",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!yIS2AwT9HFaUPBcs"
+}

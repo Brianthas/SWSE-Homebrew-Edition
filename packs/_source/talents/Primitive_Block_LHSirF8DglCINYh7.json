@@ -1,0 +1,67 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "As a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a>, you may negate a melee attack by making a successful <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check. The DC of the <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check is equal to the result of the attack roll you wish to negate, and you take a cumulative -5 penalty on your <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> checks to use this Talent for every time you have used <b>Primitive Block</b> since the beginning of your last turn.<br><br>You must have an <b>Empowered</b> <b>Weapon</b> drawn to use this Talent, and you must be aware of the attack and not <a href=\"https://swse.fandom.com/wiki/Flat-Footed\" class=\"mw-redirect\" title=\"Flat-Footed\">Flat-Footed</a>. You may spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> to use this Talent to negate an attack against an adjacent character.<br><br>You may use the <b>Primitive Block</b> Talent to negate melee <a href=\"https://swse.fandom.com/wiki/Area_Attacks\" title=\"Area Attacks\">Area Attacks</a>, such as those made by the <a href=\"https://swse.fandom.com/wiki/Whirlwind_Attack\" title=\"Whirlwind Attack\">Whirlwind Attack</a> feat. If you succeed on the <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check, you take half damage if the attack hit, and no damage if the attack missed.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Empower Weapon talent",
+      "requirement": "Empower Weapon",
+      "type": "TALENT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Force Adept Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Force Adept Talent Trees",
+      "Core Rulebook"
+    ],
+    "isSupplied": false,
+    "talentTree": "Force Item Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Force_Item_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Primitive Block",
+  "flags": {},
+  "type": "talent",
+  "folder": "pXJtqru8YsEmvGxP",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385305081,
+    "modifiedTime": 1734385305081,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "LHSirF8DglCINYh7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!LHSirF8DglCINYh7"
+}

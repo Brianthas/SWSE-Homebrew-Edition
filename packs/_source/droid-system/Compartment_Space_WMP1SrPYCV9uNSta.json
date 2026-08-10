@@ -1,0 +1,38 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Droid Accessories (Miscellaneous Systems)",
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "droidPart"
+      }
+    ],
+    "description": "<p>For every 50 credits spent, the Droid can carry 1 kg of material or <a href=\"https://swse.fandom.com/wiki/Equipment\" title=\"Equipment\">Equipment</a> in Compartment Space. A Droid's size determines the maximum weight of items stored in Compartment Space, as noted below:</p><table class=\"wikitable\">\n <tbody>\n  <tr>\n   <th>DROID SIZE</th>\n   <th></th>\n   <th>MAXIMUM WEIGHT LIMIT</th>\n  </tr>\n  <tr>\n   <td>Small</td>\n   <td></td>\n   <td>5 kg</td>\n  </tr>\n  <tr>\n   <td>Medium</td>\n   <td></td>\n   <td>10 kg</td>\n  </tr>\n  <tr>\n   <td>Large</td>\n   <td></td>\n   <td>20 kg</td>\n  </tr>\n  <tr>\n   <td>Huge</td>\n   <td></td>\n   <td>50 kg</td>\n  </tr>\n  <tr>\n   <td>Gargantuan</td>\n   <td></td>\n   <td>500 kg</td>\n  </tr>\n  <tr>\n   <td>Colossal</td>\n   <td></td>\n   <td>5,000 kg</td>\n  </tr>\n </tbody>\n</table>",
+    "cost": "50"
+  },
+  "name": "Compartment Space",
+  "flags": {},
+  "type": "droid system",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764449016237,
+    "modifiedTime": 1764449016237,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "WMP1SrPYCV9uNSta",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!WMP1SrPYCV9uNSta"
+}

@@ -1,0 +1,73 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "1d8",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Poisons, Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A creature comes into contact with Falsin's Rot.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Daily, until Falsin's Rot is treated.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Treat Injury (DC 20; Requires Medical Kit): The character treats Falsin's Rot.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: A character who remains at -3 steps on the Condition Track for two days as a result of Falsin's Rot permanently loses the use of an affected limb.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Contact",
+          "Natural",
+          "Poison"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_of_Intrigue\" title=\"Star Wars Saga Edition Galaxy of Intrigue\">Star Wars Saga Edition Galaxy of Intrigue</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Poisons\" title=\"Poisons\">Poisons</a>, <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p>Named after the fungus's first recorded victim, Falsin's Rot is a much-feared parasite that is rare in Nyriaan's more civilized locations. It begins as a spore that can take root anywhere on a subject's skin, although infections usually begin on the extremities. Painful, itching lesions form as the fungus multiplies, spreading along the limbs and onto the victim's torso and abdomen. If left alone, Falsin's Rot consumes a subject in less than a standard week. </p><p>Although deadly in the earliest days of Nyriaan's colonization, Falsin's Rot can be treated and cured. Treatment consists of applications of salves concocted from combinations of local flora and standard medicinal compounds, such as bacta. If treated early, few signs of the infection remain. Victims of advanced cases exhibit severe scarring, with the worst cases resulting in limb loss. </p><h2><span id=\"Falsin.27s_Rot_Statistics_.28CL_7.29\"></span><span class=\"mw-headline\" id=\"Falsin's_Rot_Statistics_(CL_7)\">Falsin's Rot Statistics (CL 7)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Contact, Natural, Poison </p><p><b>Trigger:</b> A creature comes into contact with Falsin's Rot. </p><p><b>Attack:</b> +10 vs <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> </p><p><b>Recurrence:</b> Daily, until Falsin's Rot is treated. </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a> (DC 20; Requires <a href=\"https://swse.fandom.com/wiki/Medical_Kit\" title=\"Medical Kit\">Medical Kit</a>):</b> The character treats Falsin's Rot.</li>\n</ul><p><b>Special:</b> A character who remains at -3 steps on the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a> for two days as a result of Falsin's Rot permanently loses the use of an affected limb. </p>",
+    "source": "Star Wars Saga Edition Galaxy of Intrigue",
+    "cost": "0"
+  },
+  "name": "Falsin's Rot",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244482,
+    "modifiedTime": 1749263244482,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "LT4r8Jr92dhqzJA7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!LT4r8Jr92dhqzJA7"
+}

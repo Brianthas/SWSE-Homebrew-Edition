@@ -1,0 +1,62 @@
+{
+  "name": "Combat Gloves",
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Combat_Gloves.webp",
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Homebrew Weapon (tovec.wikidot.com/episode-vii)</i></p><p>Increases unarmed damage (approximated as +1d4; intended as a one-step die increase).</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "1d4",
+        "key": "unarmedBonusDamage"
+      }
+    ],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "0",
+    "weight": "",
+    "availability": "",
+    "size": "Small",
+    "type": "",
+    "subtype": "Simple Melee Weapons",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "lightSlotCost": 1
+  },
+  "effects": [],
+  "_id": "HdKJOGPTL0n793Uo",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786054832684,
+    "modifiedTime": 1786054832684,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!HdKJOGPTL0n793Uo"
+}

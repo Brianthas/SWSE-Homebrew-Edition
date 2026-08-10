@@ -1,0 +1,82 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Your knowledge of genetic manipulation and cloning allows you to create desired mutations or other alterations. Specific traits are given on the table below. You may add as many traits as you like, though each trait can only be added once unless otherwise noted.<br><br>All traits must be selected at clone gestation, and clones must be grown from embryos, using the appropriate Species <a href=\"https://swse.fandom.com/wiki/Age\" class=\"mw-redirect\" title=\"Age\">Age</a> table to reach maturity unless otherwise noted.<br><br>Before beginning cloning, you must acquire a DNA sample of living tissue from a donor, and pay 50,000 credits per Heroic Level, or 10,000 credits per <a href=\"https://swse.fandom.com/wiki/Nonheroic\" title=\"Nonheroic\">Nonheroic</a> Level of the creature or being to be cloned in order to cover genetic research and development. This is for pure genetic replication.<br><br>Creating the clone requires a DC 25 <a href=\"https://swse.fandom.com/wiki/Knowledge_(Life_Sciences)\" class=\"mw-redirect\" title=\"Knowledge (Life Sciences)\">Knowledge (Life Sciences)</a> check; you can't <a href=\"https://swse.fandom.com/wiki/Take_10\" class=\"mw-redirect\" title=\"Take 10\">Take 10</a> or <a href=\"https://swse.fandom.com/wiki/Take_20\" class=\"mw-redirect\" title=\"Take 20\">Take 20</a> on this check, the time to grow the clone is determined by the <a href=\"https://swse.fandom.com/wiki/Cloning_Tank\" class=\"mw-redirect\" title=\"Cloning Tank\">Cloning Tank</a>. The condition of the DNA, as well as the Equipment used for cloning, may make the process more difficult:<br><br>If the check succeeds, you create a level 1 (<a href=\"https://swse.fandom.com/wiki/Heroic\" class=\"mw-redirect\" title=\"Heroic\">Heroic</a> or <a href=\"https://swse.fandom.com/wiki/Nonheroic\" title=\"Nonheroic\">Nonheroic</a>) <a href=\"https://swse.fandom.com/wiki/Child\" class=\"mw-redirect\" title=\"Child\">Child</a>-aged clone with the same <a href=\"https://swse.fandom.com/wiki/Abilities\" title=\"Abilities\">Abilities</a>, gender, and <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> as the donor (modified for the <a href=\"https://swse.fandom.com/wiki/Child\" class=\"mw-redirect\" title=\"Child\">Child</a> template, minus bonuses from <a href=\"https://swse.fandom.com/wiki/Cybernetics\" class=\"mw-redirect\" title=\"Cybernetics\">Cybernetics</a>, <a href=\"https://swse.fandom.com/wiki/Destiny\" title=\"Destiny\">Destiny</a>, or levels gained). If the check fails, the clone is defective, although its organic matter can still be salvaged. If the check fails by 5 or more, you lose all credits spent creating the clone, though you may start over with a fresh DNA sample if you wish.<br><br>Other characters <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in <a href=\"https://swse.fandom.com/wiki/Knowledge_(Life_Sciences)\" class=\"mw-redirect\" title=\"Knowledge (Life Sciences)\">Knowledge (Life Sciences)</a> can assist you, reducing proportionately the time needed to complete the cloning process. They can make a <a href=\"https://swse.fandom.com/wiki/Knowledge_(Life_Sciences)\" class=\"mw-redirect\" title=\"Knowledge (Life Sciences)\">Knowledge (Life Sciences)</a> check to <a href=\"https://swse.fandom.com/wiki/Aid_Another\" title=\"Aid Another\">Aid Another</a> on your check.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Trained in Knowledge (Life Sciences)",
+      "requirement": "Knowledge (Life Sciences)",
+      "type": "TRAINED SKILL"
+    },
+    "categories": [
+      {
+        "value": "Untested"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Medic Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Untested",
+      "Homebrew Content",
+      "Medic Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Cloner Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Cloner_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Clone Wars Saga Edition Fan Sourcebook - Grand Army of the Republic (Part 1)",
+    "cost": "0"
+  },
+  "name": "Clone Scientist",
+  "flags": {},
+  "type": "talent",
+  "folder": "xyMbyI0VQk3y1elY",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385303428,
+    "modifiedTime": 1734385303428,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "BJjJjS9aD1PORCS9",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!BJjJjS9aD1PORCS9"
+}

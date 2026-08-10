@@ -1,0 +1,67 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Poisons, Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A creature ingests Quongoosh Essence.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round at the start of the target's turn, until the Quongoosh Essence is treated.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Treat Injury (DC 15; Requires Medical Kit): The character treats the Quongoosh Essence.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: A target moved to the \"Helpless\" step on the Condition Track by Quongoosh Essence becomes Blinded but not unconscious or otherwise helpless as a result of this Poison.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Ingested",
+          "Poison"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_of_Intrigue\" title=\"Star Wars Saga Edition Galaxy of Intrigue\">Star Wars Saga Edition Galaxy of Intrigue</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Poisons\" title=\"Poisons\">Poisons</a>, <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>Quongoosh Essence is a dangerous Poison that causes paralysis and blindness in its victim.</i> </p><h2><span id=\"Quongoosh_Essence_Statistics_.28CL_3.29\"></span><span class=\"mw-headline\" id=\"Quongoosh_Essence_Statistics_(CL_3)\">Quongoosh Essence Statistics (CL 3)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Ingested, Poison </p><p><b>Trigger:</b> A creature ingests Quongoosh Essence. </p><p><b>Attack:</b> +5 vs <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> </p><p><b>Recurrence:</b> Each round at the start of the target's turn, until the Quongoosh Essence is treated. </p><p><b>Suggested&nbsp;<a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b>&nbsp;The following are suggested&nbsp;<a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>&nbsp;for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a> (DC 15; Requires <a href=\"https://swse.fandom.com/wiki/Medical_Kit\" title=\"Medical Kit\">Medical Kit</a>):</b> The character treats the Quongoosh Essence.</li>\n</ul><p><b>Special:</b> A target moved to the \"Helpless\" step on the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a> by Quongoosh Essence becomes <a href=\"https://swse.fandom.com/wiki/Blinded\" class=\"mw-redirect\" title=\"Blinded\">Blinded</a> but not unconscious or otherwise helpless as a result of this Poison. </p>",
+    "source": "Star Wars Saga Edition Galaxy of Intrigue",
+    "cost": "0"
+  },
+  "name": "Quongoosh Essence",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244693,
+    "modifiedTime": 1749263244693,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "iHUbmCiNrAbmzX1B",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!iHUbmCiNrAbmzX1B"
+}

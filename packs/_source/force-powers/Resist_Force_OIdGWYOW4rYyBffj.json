@@ -1,0 +1,94 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a></i> </p><p>You use <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a> to protect yourself from an opponent's <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a>. </p><p><b>Time:</b>&nbsp;<a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a> </p><p><b>Targets:</b>&nbsp;Self. </p><p><b>Make a&nbsp;<a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a>&nbsp;check. </b>The result of the check determines the effects, if any: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td> </td> \n   <td>You gain +1 to the <a href=\"https://swse.fandom.com/wiki/Defense\" class=\"mw-redirect\" title=\"Defense\">Defense</a> score of your choice against <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a> used against you, until the beginning of your next turn. </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td> </td> \n   <td>You gain +2 to the <a href=\"https://swse.fandom.com/wiki/Defense\" class=\"mw-redirect\" title=\"Defense\">Defense</a> score of your choice against <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a> used against you, until the beginning of your next turn. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td> </td> \n   <td>You gain +3 to the <a href=\"https://swse.fandom.com/wiki/Defense\" class=\"mw-redirect\" title=\"Defense\">Defense</a> score of your choice against <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a> used against you, until the beginning of your next turn. </td>\n  </tr>\n </tbody>\n</table><p><b>Special: </b>You can spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> to apply the bonus provided by this <a href=\"https://swse.fandom.com/wiki/Force_Power\" class=\"mw-redirect\" title=\"Force Power\">Force Power</a> to any two <a href=\"https://swse.fandom.com/wiki/Defense\" class=\"mw-redirect\" title=\"Defense\">Defense</a> scores of your choice. </p><p>You can maintain <i>Resist Force</i> from round to round, extending the normal duration. Maintaining the <i>Resist Force</i> <a href=\"https://swse.fandom.com/wiki/Force_Power\" class=\"mw-redirect\" title=\"Force Power\">Force Power</a> is a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>. If you take damage while maintaining <i>Resist Force</i>, you must succeed on a <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check (DC = 15 + damage taken) to continue maintaining the <i>Resist Force</i>. You may have multiple instances of <i>Resist Force</i> active at once, but maintaining each one requires a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a> each round, and each one must be activated by a separate use of <i>Resist Force</i>. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Standard Action",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "Self.",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "cumulative"
+      },
+      {
+        "mode": 2,
+        "value": "Use the Force",
+        "key": "rollType"
+      },
+      {
+        "mode": 2,
+        "value": "15:You gain +1 to the Defense score of your choice against Force Powers used against you, until the beginning of your next turn.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "20:You gain +2 to the Defense score of your choice against Force Powers used against you, until the beginning of your next turn.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "25:You gain +3 to the Defense score of your choice against Force Powers used against you, until the beginning of your next turn.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "Reference Book: Star Wars Saga Edition Knights of the Old Republic Campaign Guide See also: Force Powers You use The Force to protect yourself from an opponent's Force Powers. Time: Standard Action Targets: Self. Make a Use the Force check. The result of the check determines the effects, if any: Special: You can spend a Force Point to apply the bonus provided by this Force Power to any two Defense scores of your choice. You can maintain Resist Force from round to round, extending the normal duration. Maintaining the Resist Force Force Power is a Swift Action. If you take damage while maintaining Resist Force, you must succeed on a Use the Force check (DC = 10 + damage taken) to continue maintaining the Resist Force. You may have multiple instances of Resist Force active at once, but maintaining each one requires a Swift Action each round, and each one must be activated by a separate use of Resist Force.",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Force Powers"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Resist Force",
+  "flags": {},
+  "type": "forcePower",
+  "img": "systems/swse/icon/force-power/Resist_Force.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1738608590776,
+    "modifiedTime": 1786067531988,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "OIdGWYOW4rYyBffj",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!OIdGWYOW4rYyBffj"
+}

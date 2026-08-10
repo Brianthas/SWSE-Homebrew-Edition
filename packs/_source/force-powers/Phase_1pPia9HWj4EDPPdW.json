@@ -1,0 +1,94 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Clone_Wars_Campaign_Guide\" title=\"Star Wars Saga Edition Clone Wars Campaign Guide\">Star Wars Saga Edition Clone Wars Campaign Guide</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a></i> </p><p>You can pass through solid objects, such as walls and doors. </p><p><b>Time:</b> <a href=\"https://swse.fandom.com/wiki/Move_Action\" class=\"mw-redirect\" title=\"Move Action\">Move Action</a> </p><p><b>Targets:</b> Self </p><p><b>Make a <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check.</b> The result of the check determines the effect, if any: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td> </td> \n   <td>You gain a Phasing Speed of 2 squares; your Phasing Speed can never exceed your own base Speed. When moving using your Phasing Speed, you can move through the spaces of your enemies, as well as through walls, <a href=\"https://swse.fandom.com/wiki/Vehicles\" title=\"Vehicles\">Vehicles</a>, large objects, and other obstructions, but must end your movement in a legal, unoccupied space. You retain this Phasing Speed until the beginning of your next turn. You may move up to your Phasing Speed as a part of the activation of this Force Power. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td> </td> \n   <td>You gain a Phasing Speed of 4 squares; your Phasing Speed can never exceed your own base Speed. When moving using your Phasing Speed, you can move through the spaces of your enemies, as well as through walls, <a href=\"https://swse.fandom.com/wiki/Vehicles\" title=\"Vehicles\">Vehicles</a>, large objects, and other obstructions, but must end your movement in a legal, unoccupied space. You retain this Phasing Speed until the beginning of your next turn. You may move up to your Phasing Speed as a part of the activation of this Force Power. </td>\n  </tr> \n  <tr> \n   <td>35 </td> \n   <td> </td> \n   <td>You gain a Phasing Speed of 6 squares; your Phasing Speed can never exceed your own base Speed. When moving using your Phasing Speed, you can move through the spaces of your enemies, as well as through walls, <a href=\"https://swse.fandom.com/wiki/Vehicles\" title=\"Vehicles\">Vehicles</a>, large objects, and other obstructions, but must end your movement in a legal, unoccupied space. You retain this Phasing Speed until the beginning of your next turn. You may move up to your Phasing Speed as a part of the activation of this Force Power. </td>\n  </tr> \n  <tr> \n   <td>40 </td> \n   <td> </td> \n   <td>You gain a Phasing Speed of 8 squares; your Phasing Speed can never exceed your own base Speed. When moving using your Phasing Speed, you can move through the spaces of your enemies, as well as through walls, <a href=\"https://swse.fandom.com/wiki/Vehicles\" title=\"Vehicles\">Vehicles</a>, large objects, and other obstructions, but must end your movement in a legal, unoccupied space. You retain this Phasing Speed until the beginning of your next turn. You may move up to your Phasing Speed as a part of the activation of this Force Power. </td>\n  </tr>\n </tbody>\n</table><p><b>Special:</b> You can spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> to increase your Phasing Speed by 2 squares. </p><p>You can maintain&nbsp;<i>Phase </i>from round to round, extending the normal duration. Maintaining the&nbsp;<i>Phase </i>Force Power&nbsp;is a&nbsp;<a href=\"https://swse.fandom.com/wiki/Move_Action\" class=\"mw-redirect\" title=\"Move Action\">Move Action</a>, and whenever you maintain this Force Power you can move up to your Phasing Speed. If you take damage while maintaining&nbsp;<i>Phase</i>, you must succeed on a&nbsp;<a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a>&nbsp;check (DC = 15 + damage taken) to continue maintaining the&nbsp;<i>Phase</i>. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Move Action",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "Self",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": "Use the Force",
+        "key": "rollType"
+      },
+      {
+        "mode": 2,
+        "value": "25:You gain a Phasing Speed of 2 squares; your Phasing Speed can never exceed your own base Speed. When moving using your Phasing Speed, you can move through the spaces of your enemies, as well as through walls, Vehicles, large objects, and other obstructions, but must end your movement in a legal, unoccupied space. You retain this Phasing Speed until the beginning of your next turn. You may move up to your Phasing Speed as a part of the activation of this Force Power.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "30:You gain a Phasing Speed of 4 squares; your Phasing Speed can never exceed your own base Speed. When moving using your Phasing Speed, you can move through the spaces of your enemies, as well as through walls, Vehicles, large objects, and other obstructions, but must end your movement in a legal, unoccupied space. You retain this Phasing Speed until the beginning of your next turn. You may move up to your Phasing Speed as a part of the activation of this Force Power.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "35:You gain a Phasing Speed of 6 squares; your Phasing Speed can never exceed your own base Speed. When moving using your Phasing Speed, you can move through the spaces of your enemies, as well as through walls, Vehicles, large objects, and other obstructions, but must end your movement in a legal, unoccupied space. You retain this Phasing Speed until the beginning of your next turn. You may move up to your Phasing Speed as a part of the activation of this Force Power.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "40:You gain a Phasing Speed of 8 squares; your Phasing Speed can never exceed your own base Speed. When moving using your Phasing Speed, you can move through the spaces of your enemies, as well as through walls, Vehicles, large objects, and other obstructions, but must end your movement in a legal, unoccupied space. You retain this Phasing Speed until the beginning of your next turn. You may move up to your Phasing Speed as a part of the activation of this Force Power.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "Reference Book: Star Wars Saga Edition Clone Wars Campaign Guide See also: Force Powers You can pass through solid objects, such as walls and doors. Time: Move Action Targets: Self Make a Use the Force check. The result of the check determines the effect, if any: Special: You can spend a Force Point to increase your Phasing Speed by 2 squares. You can maintain Phase from round to round, extending the normal duration. Maintaining the Phase Force Power is a Move Action, and whenever you maintain this Force Power you can move up to your Phasing Speed. If you take damage while maintaining Phase, you must succeed on a Use the Force check (DC = 10 + damage taken) to continue maintaining the Phase.",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Force Powers"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Phase",
+  "flags": {},
+  "type": "forcePower",
+  "img": "systems/swse/icon/force-power/Phase.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1738608590633,
+    "modifiedTime": 1786067531773,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "1pPia9HWj4EDPPdW",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!1pPia9HWj4EDPPdW"
+}

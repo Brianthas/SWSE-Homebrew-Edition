@@ -1,0 +1,152 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p>Ithorians are tall humanoids whose appearance leads many to refer to them colloquially as \"Hammerheads.\" Peaceful and gentle, Ithorians are widely recognized as talented artists, brilliant agricultural engineers, and skilled diplomats.</p><p>Ithorians are perhaps the greatest ecologists in the galaxy, devoting their technology to preserving the natural beauty of their homeworld's jungles. They live in \"Herds,\" dwelling in cities that hover above the surface of their planet and striving to maintain the ecological balance in the \"Mother Jungle.\" </p><p>Ithorians also travel the galaxy in massive \"Herd Ships,\" masterpieces of environmental engineering that carry a perfect replica of their native jungle. Many look forward to trading for the exotic wares the Ithorians bring from distant planets. </p><h3><span class=\"mw-headline\" id=\"Ithorian_Characteristics\">Ithorian Characteristics</span></h3><p><b>Personality:</b> Ithorians tend to be calm, peaceful, tranquil, and gentile. </p><p><b>Physical Description:</b> Ithorians are humanoid, ranging in height from 1.8 to 2.3 meters tall, with long necks that curl forward and end in dome-shaped heads. They have two mouths, one on each side of their neck, producing a stereo effect when they talk. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Ithorians age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-13 Years </td> \n   <td>14-17 Years </td> \n   <td>18-44 Years </td> \n   <td>45-69 Years </td> \n   <td>70-84 Years </td> \n   <td>85+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The jungle world of <a href=\"https://swse.fandom.com/wiki/Ithor\" title=\"Ithor\">Ithor</a>, or a specific Herd Ship. </p><p><b>Language:</b> Ithorians can read and write both Basic and Ithor. When they speak the languages, they speak in a stereophonic voice. </p><p><b>Example Names:</b> Fandomar, Momaw, Oraltor, Tomia, Trangle, Umwaw. </p><p><b>Adventurers:</b> Ithorians tend to concentrate on peaceful professions. They love to meet new beings and see new places. Often, wanderlust leads them to explore the greater galaxy as <a href=\"https://swse.fandom.com/wiki/Scouts\" class=\"mw-redirect\" title=\"Scouts\">Scouts</a>, before they eventually return home. </p><h3><span class=\"mw-headline\" id=\"Ithorian_Species_Traits\">Ithorian Species Traits</span></h3><p>Ithorians share the following Species Traits: </p><h2><span class=\"mw-headline\" id=\"Additional_Ithorian_Species_Feats\">Additional Ithorian Species Feats</span></h2><p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Rebellion_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Rebellion Era Campaign Guide\">Star Wars Saga Edition Rebellion Era Campaign Guide</a></i> </p><p>Ithorian characters have access to the following <a href=\"https://swse.fandom.com/wiki/Species_Feats\" class=\"mw-redirect\" title=\"Species Feats\">Species Feats</a>. No Species Feats are considered Bonus Feats for any <a href=\"https://swse.fandom.com/wiki/Heroic_Class\" class=\"mw-redirect\" title=\"Heroic Class\">Heroic Class</a>. </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>SPECIES FEAT </th> \n   <th> </th> \n   <th>BENEFITS </th>\n  </tr> \n  <tr> \n   <td><a href=\"https://swse.fandom.com/wiki/Devastating_Bellow\" title=\"Devastating Bellow\">Devastating Bellow</a> </td> \n   <td> </td> \n   <td>Deal more damage with your Bellow attacks. </td>\n  </tr> \n  <tr> \n   <td><a href=\"https://swse.fandom.com/wiki/Nature_Specialist\" title=\"Nature Specialist\">Nature Specialist</a> </td> \n   <td> </td> \n   <td>Increase the die type when adding <a href=\"https://swse.fandom.com/wiki/Force_Points\" title=\"Force Points\">Force Points</a> to a <a href=\"https://swse.fandom.com/wiki/Knowledge_(Life_Sciences)\" class=\"mw-redirect\" title=\"Knowledge (Life Sciences)\">Knowledge (Life Sciences)</a> check. </td>\n  </tr> \n  <tr> \n   <td><a href=\"https://swse.fandom.com/wiki/Strong_Bellow\" title=\"Strong Bellow\">Strong Bellow</a> </td> \n   <td> </td> \n   <td>Use your Bellow ability without moving down the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>. </td>\n  </tr>\n </tbody>\n</table>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Knowledge (Life Sciences)))",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Iron Will",
+        "type": "trait"
+      },
+      {
+        "name": "Bellow",
+        "type": "trait"
+      },
+      {
+        "name": "Survival Instinct",
+        "type": "trait"
+      },
+      {
+        "name": "Skill Focus (Knowledge (Life Sciences))",
+        "type": "feat"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "13",
+          "low": "1",
+          "text": "1-13",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "69",
+          "low": "45",
+          "text": "45-69",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "17",
+          "low": "14",
+          "text": "14-17",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "84",
+          "low": "70",
+          "text": "70-84",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "44",
+          "low": "18",
+          "text": "18-44",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "85",
+          "text": "85+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Conditional Bonus Feat (Skill Focus (Knowledge (Life Sciences)))"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Iron Will"
+      },
+      {
+        "value": "Ithorians"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Bellow"
+      },
+      {
+        "value": "Conditional Bonus Feat"
+      },
+      {
+        "value": "Survival Instinct"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Ithorian",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535566362,
+    "modifiedTime": 1736535566362,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "XhOLs4HlcW6Qf5yZ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!XhOLs4HlcW6Qf5yZ"
+}

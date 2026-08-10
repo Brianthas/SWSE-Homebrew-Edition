@@ -1,0 +1,82 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Legacy_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Legacy Era Campaign Guide\">Star Wars Saga Edition Legacy Era Campaign Guide</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a></i> </p><p>You call upon <a href=\"https://swse.fandom.com/wiki/The_Dark_Side\" title=\"The Dark Side\">The&nbsp;Dark Side</a>&nbsp;to cause lightning to arc out from your body, striking adjacent enemies. </p><p><b>[<i><a href=\"https://swse.fandom.com/wiki/Dark_Side\" class=\"mw-redirect\" title=\"Dark Side\">Dark Side</a></i>]</b> </p><p><b>Time:</b> <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a> </p><p><b>Targets:</b> All enemies adjacent to you. </p><p><b>Make a <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check.</b> Compare the result to each target's <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>. If the attack hits, the target takes 3d6 points of <a href=\"https://swse.fandom.com/wiki/Force\" class=\"mw-redirect\" title=\"Force\">Force</a> damage and moves -1 step along the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>. If the attack misses, the target takes half damage and does not move along the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>. </p><p><b>Special:</b> You may spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> when you activate this Force Power to increase the damage dealt by +2d6. </p><p>You can maintain the <i>Lightning Burst</i> Force Power as a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a>, provided you haven't moved since activating the Force Power. When you maintain a <i>Lightning Burst</i>, make a new <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check and compare the result to the <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> of each target in range (as described above). </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Dark Side",
+        "key": "tag"
+      },
+      {
+        "mode": 2,
+        "value": "Standard Action",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "All enemies adjacent to you.",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": "Use the Force",
+        "key": "rollType"
+      },
+      {
+        "mode": 2,
+        "value": "Reference Book: Star Wars Saga Edition Legacy Era Campaign Guide See also: Force Powers You call upon The Dark Side to cause lightning to arc out from your body, striking adjacent enemies. [Dark Side] Time: Standard Action Targets: All enemies adjacent to you. Make a Use the Force check. Compare the result to each target's Reflex Defense. If the attack hits, the target takes 3d6 points of Force damage and moves -1 step along the Condition Track. If the attack misses, the target takes half damage and does not move along the Condition Track. Special: You may spend a Force Point when you activate this Force Power to increase the damage dealt by +2d6. You can maintain the Lightning Burst Force Power as a Standard Action, provided you haven't moved since activating the Force Power. When you maintain a Lightning Burst, make a new Use the Force check and compare the result to the Reflex Defense of each target in range (as described above).",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Dark Side Force Powers"
+      },
+      {
+        "value": "Force Powers"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Lightning Burst",
+  "flags": {},
+  "type": "forcePower",
+  "img": "systems/swse/icon/force-power/Lightning_Burst.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738608590451,
+    "modifiedTime": 1738608590451,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "PNBwaqychzn84Qwx",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!PNBwaqychzn84Qwx"
+}

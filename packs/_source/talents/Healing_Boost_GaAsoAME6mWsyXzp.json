@@ -1,0 +1,63 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "When healing somebody through <i><a href=\"https://swse.fandom.com/wiki/Vital_Transfer\" title=\"Vital Transfer\">Vital Transfer</a></i>, the amount of damage healed increases by 1 point per your Class Level.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Vital Transfer force power",
+      "requirement": "Vital Transfer",
+      "type": "FORCE POWER"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Jedi Knight Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Jedi Knight Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Jedi Healer Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Jedi_Healer_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Clone Wars Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Healing Boost",
+  "flags": {},
+  "type": "talent",
+  "folder": "A3SI1H7jzdgQaA7w",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385306942,
+    "modifiedTime": 1734385306942,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "GaAsoAME6mWsyXzp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!GaAsoAME6mWsyXzp"
+}

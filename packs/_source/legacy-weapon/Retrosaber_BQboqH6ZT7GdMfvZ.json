@@ -1,0 +1,78 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Jedi_Academy_Training_Manual\" title=\"Star Wars Saga Edition Jedi Academy Training Manual\">Star Wars Saga Edition Jedi Academy Training Manual</a></i> </p><p>For modern Jedi, there is almost no reason to use an <a href=\"https://swse.fandom.com/wiki/Archaic_Lightsaber\" title=\"Archaic Lightsaber\">Archaic Lightsaber</a> with its special, belt-mounted <a href=\"https://swse.fandom.com/wiki/Power_Packs\" class=\"mw-redirect\" title=\"Power Packs\">Power Packs</a> other than for nostalgic reasons. However, Jedi artisans have spent years examining Archaic <a href=\"https://swse.fandom.com/wiki/Power_Packs\" class=\"mw-redirect\" title=\"Power Packs\">Power Packs</a>, in search of a way to turn its disadvantages into advantages. At least one Jedi Master claims to have found a way to reconstruct the Archaic <a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a> using modern technology, creating a version of the <a href=\"https://swse.fandom.com/wiki/Archaic_Lightsaber\" title=\"Archaic Lightsaber\">Archaic Lightsaber</a> that uses the most cutting edge components. </p><p>Though still possessing the form of an <a href=\"https://swse.fandom.com/wiki/Archaic_Lightsaber\" title=\"Archaic Lightsaber\">Archaic Lightsaber</a>- a blade-emitting hilt connected to a belt-mounted <a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a>- this weapon takes advantage of thousands of years of technological achievement to produce a weapon that is not only as potent as the modern <a href=\"https://swse.fandom.com/wiki/Lightsaber_(Weapon)\" title=\"Lightsaber (Weapon)\">Lightsaber</a>, but also possesses some unique advantages that Jedi artisans have sought for decades. </p><p>As a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>, a wielder can dial up the Retrosaber's power, increasing the base damage to 2d10 until the end of the wielder's next turn. At the end of the wielder's next turn, the Retrosaber begins to burn out, decreasing the weapon's base damage to 2d4 for one round. During that round, the Retrosaber's damage may not be dialed back up to 2d10. </p><p>A Retrosaber requires a special&nbsp;<a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a>&nbsp;to operate (costing 600 credits, but it lasts almost indefinitely). </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [
+      {
+        "noOptions": "NO_AVAILABLE_OPTIONS",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {
+              "payload": "AVAILABLE_LIGHTSABER_CRYSTALS"
+            },
+            "display": "AVAILABLE_LIGHTSABER_CRYSTALS",
+            "name": "AVAILABLE_LIGHTSABER_CRYSTALS",
+            "attributes": {}
+          }
+        ],
+        "description": "Lightsaber Crystal",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": false
+      }
+    ],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "4,000",
+    "weight": "0.8 Kilograms",
+    "availability": "Rare",
+    "size": "Medium",
+    "type": "",
+    "subtype": "Lightsabers",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "2d8",
+    "damageType": "Energy, Slashing"
+  },
+  "name": "Retrosaber",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Retrosaber.png",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513478,
+    "modifiedTime": 1786051513572,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "BQboqH6ZT7GdMfvZ",
+  "_key": "!items!BQboqH6ZT7GdMfvZ"
+}

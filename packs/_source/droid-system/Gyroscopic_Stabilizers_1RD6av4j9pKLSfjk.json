@@ -1,0 +1,40 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Locomotion Systems",
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "droidPart"
+      }
+    ],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scavenger%27s_Guide_to_Droids\" title=\"Star Wars Saga Edition Scavenger's Guide to Droids\">Star Wars Saga Edition Scavenger's Guide to Droids</a></i></p><p>Using an integrated system of gyroscopes, hydraulics, and high-speed processing, this system gives a <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> greater stability. The <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> gains a +5 stability bonus to checks and <a href=\"https://swse.fandom.com/wiki/Defenses\" title=\"Defenses\">Defenses</a> to resist attempts to knock it <a href=\"https://swse.fandom.com/wiki/Prone\" class=\"mw-redirect\" title=\"Prone\">Prone</a>. This bonus stacks with the bonus provided by the <a href=\"https://swse.fandom.com/wiki/Extra_Legs\" title=\"Extra Legs\">Extra Legs</a> Locomotion System.</p>",
+    "source": "Star Wars Saga Edition Scavenger's Guide to Droids",
+    "cost": "2 x Cost Factor x (Speed Squared)",
+    "weight": "(4 x Cost Factor) Kilograms"
+  },
+  "name": "Gyroscopic Stabilizers",
+  "flags": {},
+  "type": "droid system",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764449015734,
+    "modifiedTime": 1764449015734,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "1RD6av4j9pKLSfjk",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!1RD6av4j9pKLSfjk"
+}

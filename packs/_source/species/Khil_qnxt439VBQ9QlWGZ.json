@@ -1,0 +1,142 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i> </p><p>Even in <a href=\"https://swse.fandom.com/wiki/The_Old_Republic_Era\" class=\"mw-redirect\" title=\"The Old Republic Era\">The Old Republic Era</a>, the Khil are considered to be one of the oldest Species of the Republic. They are avid travelers and settlers, spreading colonies and settlements throughout the galaxy. During this era, the Khil are particularly active colonizers. They respect planets already inhabited by native sapient <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> or other colonists, preferring to use worlds without significant major threats, be they intelligent or highly predatory. However, once a colony is established, the Khil become fully dedicated to its success. They are a peace-loving Species, but they are also highly driven and can become vindictive when impeded or crossed by an enemy. </p><p>The Khil are technologically advanced. Their cosmopolitan cities attest to their willingness to live in harmony with other peaceful <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>. They are enthusiastic supporters of the Republic and the peaceful oder it represents. Unfortunately, in these days of interstellar warfare, the Khil find they cannot follow their peaceful ideals. While they greatly prefer a political solution when possible, they recognize that the Mandalorians and the Sith are unlikely to be swayed by negotiation. Khil deviousness and vindictiveness become especially apparent when they defend their homeworld and colonies. They have no desire to see their hard work destroyed, especially by a war-loving enemy. </p><h3><span class=\"mw-headline\" id=\"Khil_Characteristics\">Khil Characteristics</span></h3><p><b>Personality:</b> Khil are highly intelligent and dedicated to their tasks, hating to leave projects unfinished. They become especially frustrated with those who would impede their progress, regardless of whether an individual or government blocks their way. Their vindictive side surprises many who know them only as peaceful creatures. They view music as high art; it pervades their culture and society. </p><p><b>Physical Description:</b> To <a href=\"https://swse.fandom.com/wiki/Humans\" class=\"mw-redirect\" title=\"Humans\">Humans</a>, Khil faces are ghastly. Their skin is a sickly green, and they have fleshy strands (Hullepi) hanging were one would expect a mouth. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Khil age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-10 Years </td> \n   <td>11-15 Years </td> \n   <td>16-49 Years </td> \n   <td>50-74 Years </td> \n   <td>75-89 Years </td> \n   <td>90+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The Colonies world of <a href=\"https://swse.fandom.com/wiki/Belnar\" title=\"Belnar\">Belnar</a> features dank, marshy environments with wide open spaces. Khil can also come from one of their many colonies, or live in most any civilized area of the galaxy. </p><p><b>Languages:</b> Khilese is a melodious language, pleasing to other <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>. They \"Speak\" or sing the language by breathing through their Hullepi, which are of different lengths, and therefore produce different tones. It is impossible for other <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> to speak Khilese, though they can learn to understand it. Not surprisingly, their written language is also ornate and resembles poetic prose. </p><p><b>Example Names:</b> Geld Bernar, Greldo Farnor, Tarlo Ganar, Revel Mallinor, Xamar. </p><p><b>Adventurers:</b> Though they are avid colonizers, they are not willing explorers. Khil prefer to follow in the tracks of others, when possible. However, their compulsive nature drives them in unusual directions. Khil adventurers can be of any <a href=\"https://swse.fandom.com/wiki/Class\" class=\"mw-redirect\" title=\"Class\">Class</a>, and a few Khil become <a href=\"https://swse.fandom.com/wiki/Jedi\" title=\"Jedi\">Jedi</a>. </p><h3><span class=\"mw-headline\" id=\"Khil_Species_Traits\">Khil Species Traits</span></h3><p>Khil share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Dependable Worker",
+        "type": "trait"
+      },
+      {
+        "name": "Cooperative Spirit",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Self-Sustaining",
+        "type": "trait"
+      },
+      {
+        "name": "Khil",
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "90",
+          "text": "90+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "49",
+          "low": "16",
+          "text": "16-49",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "15",
+          "low": "11",
+          "text": "11-15",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "10",
+          "low": "1",
+          "text": "1-10",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "89",
+          "low": "75",
+          "text": "75-89",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "74",
+          "low": "50",
+          "text": "50-74",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Dependable Worker"
+      },
+      {
+        "value": "Cooperative Spirit"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Self-Sustaining"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Khil"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Khil",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535566454,
+    "modifiedTime": 1736535566454,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "qnxt439VBQ9QlWGZ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!qnxt439VBQ9QlWGZ"
+}

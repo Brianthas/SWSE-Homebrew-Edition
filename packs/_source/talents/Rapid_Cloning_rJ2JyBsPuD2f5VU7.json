@@ -1,0 +1,93 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You have found ways to increase the rate of aging of clones to more quickly put them in service. The overall cost of the creation of the clone is increased by the age modifier. When a clone whose age has been accelerated moves at least -2 steps down the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a> in the same encounter, they also add a year to their relative <a href=\"https://swse.fandom.com/wiki/Age\" class=\"mw-redirect\" title=\"Age\">Age</a>. Also note that while accelerated <a href=\"https://swse.fandom.com/wiki/Aging\" class=\"mw-redirect\" title=\"Aging\">Aging</a> brings the clones to physical maturity more quickly, mentally, they progress at their actual physical age.<br><br>This means that a <a href=\"https://swse.fandom.com/wiki/Human\" title=\"Human\">Human</a> clone who is engineered to age twice as fast as normal, will be a physical adult after eight years (<a href=\"https://swse.fandom.com/wiki/Humans\" class=\"mw-redirect\" title=\"Humans\">Humans</a> are <a href=\"https://swse.fandom.com/wiki/Adults\" class=\"mw-redirect\" title=\"Adults\">Adults</a> at 16-40 years old), giving them no modifiers of a <a href=\"https://swse.fandom.com/wiki/Child\" class=\"mw-redirect\" title=\"Child\">Child</a> to <a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a>, <a href=\"https://swse.fandom.com/wiki/Wisdom\" title=\"Wisdom\">Wisdom</a> and <a href=\"https://swse.fandom.com/wiki/Charisma\" title=\"Charisma\">Charisma</a> until they are twelve years old (twenty-four in clone years).",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Clone Scientist talent",
+          "requirement": "Clone Scientist",
+          "type": "TALENT"
+        },
+        {
+          "text": "Trained in Knowledge (Life Sciences)",
+          "requirement": "Knowledge (Life Sciences)",
+          "type": "TRAINED SKILL"
+        }
+      ],
+      "text": "Clone Scientist talent, and Trained in Knowledge (Life Sciences)",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Untested"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Medic Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Untested",
+      "Homebrew Content",
+      "Medic Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Cloner Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Cloner_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Clone Wars Saga Edition Fan Sourcebook - Grand Army of the Republic (Part 1)",
+    "cost": "0"
+  },
+  "name": "Rapid Cloning",
+  "flags": {},
+  "type": "talent",
+  "folder": "xyMbyI0VQk3y1elY",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385303457,
+    "modifiedTime": 1734385303457,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "rJ2JyBsPuD2f5VU7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!rJ2JyBsPuD2f5VU7"
+}

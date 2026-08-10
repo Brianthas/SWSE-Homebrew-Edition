@@ -1,0 +1,65 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A creature begins its turn in Zero-Gravity.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Once, after 8 hours within Zero-Gravity.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Treat Injury (DC 20): The character removes the Persistent Condition.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: The Persistent Condition from Space Sickness is removed from a creature after 8 hours of rest.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>In <a href=\"https://swse.fandom.com/wiki/Zero-Gravity\" class=\"mw-redirect\" title=\"Zero-Gravity\">Zero-Gravity</a>, some creatures have a hard time maintaining their internal equilibrium.</i> </p><h2><span id=\"Space_Sickness_Statistics_.28CL_1.29\"></span><span class=\"mw-headline\" id=\"Space_Sickness_Statistics_(CL_1)\">Space Sickness Statistics (CL 1)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Natural </p><p><b>Trigger:</b> A creature begins its turn in <a href=\"https://swse.fandom.com/wiki/Zero-Gravity\" class=\"mw-redirect\" title=\"Zero-Gravity\">Zero-Gravity</a>. </p><p><b>Attack:</b> +0 vs <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> </p><p><b>Recurrence: </b>Once, after 8 hours within <a href=\"https://swse.fandom.com/wiki/Zero-Gravity\" class=\"mw-redirect\" title=\"Zero-Gravity\">Zero-Gravity</a>. </p><p><b>Suggested&nbsp;Skills:</b>&nbsp;The following are suggested&nbsp;Skills&nbsp;for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a>&nbsp;(DC 20):</b> The character removes the <a href=\"https://swse.fandom.com/wiki/Persistent_Condition\" class=\"mw-redirect\" title=\"Persistent Condition\">Persistent Condition</a>.</li>\n</ul><p><b>Special:</b> The <a href=\"https://swse.fandom.com/wiki/Persistent_Condition\" class=\"mw-redirect\" title=\"Persistent Condition\">Persistent Condition</a> from Space Sickness is removed from a creature after 8 hours of rest. </p>",
+    "cost": "0"
+  },
+  "name": "Space Sickness",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244894,
+    "modifiedTime": 1749263244894,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "fUGWsF4UkevD1Nq4",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!fUGWsF4UkevD1Nq4"
+}

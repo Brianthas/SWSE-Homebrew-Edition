@@ -1,0 +1,94 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Starship_Maneuvers\" title=\"Starship Maneuvers\">Starship Maneuvers</a></i> </p><p>A teamwork-focused&nbsp;<a href=\"https://swse.fandom.com/wiki/Starfighter\" class=\"mw-redirect\" title=\"Starfighter\">Starfighter</a>&nbsp;tactic, the&nbsp;<i>Corellian Slip</i>&nbsp;maneuver allows a&nbsp;<a href=\"https://swse.fandom.com/wiki/Pilot_(Vehicle_Combat)\" title=\"Pilot (Vehicle Combat)\">Pilot</a>&nbsp;to destroy an opposing Starship that threatens one of his or her allies by flying at the enemy vessel head-on. </p><p><b>Time:</b>&nbsp;<a href=\"https://swse.fandom.com/wiki/Full-Round_Action\" class=\"mw-redirect\" title=\"Full-Round Action\">Full-Round Action</a> </p><p><b>Targets:</b>&nbsp;One enemy <a href=\"https://swse.fandom.com/wiki/Airspeeder\" class=\"mw-redirect\" title=\"Airspeeder\">Airspeeder</a> or <a href=\"https://swse.fandom.com/wiki/Starfighter\" class=\"mw-redirect\" title=\"Starfighter\">Starfighter</a> within (2 x your Vehicle's Speed) squares. </p><p><b>Make a&nbsp;<a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a>&nbsp;check.</b> When you activate this maneuver, you move up to twice your Vehicle's Speed in a straight line through your opponent's square. If something halts your movement before you enter your opponent's square (such as being drawn into a <a href=\"https://swse.fandom.com/wiki/Dogfight\" title=\"Dogfight\">Dogfight</a>), the maneuver fails to activate. When you enter your opponent's square, you make an attack as a <a href=\"https://swse.fandom.com/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a> against the target. The result of the check determines the effects, if any: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td> </td> \n   <td>If you destroy your target with your attack, a <a href=\"https://swse.fandom.com/wiki/Collision\" class=\"mw-redirect\" title=\"Collision\">Collision</a> does not occur. </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td> </td> \n   <td>You receive a +1 circumstance bonus to your attack roll. Additionally, if you destroy your target with your attack, a <a href=\"https://swse.fandom.com/wiki/Collision\" class=\"mw-redirect\" title=\"Collision\">Collision</a> does not occur. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td> </td> \n   <td>You receive a +1 circumstance bonus to your attack roll and deal +1 die of damage. Additionally, if you destroy your target with your attack, a <a href=\"https://swse.fandom.com/wiki/Collision\" class=\"mw-redirect\" title=\"Collision\">Collision</a> does not occur. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td> </td> \n   <td>You receive a +2 circumstance bonus to your attack roll and deal +1 die of damage. Additionally, if you destroy your target with your attack, a <a href=\"https://swse.fandom.com/wiki/Collision\" class=\"mw-redirect\" title=\"Collision\">Collision</a> does not occur. </td>\n  </tr> \n  <tr> \n   <td>35 </td> \n   <td> </td> \n   <td>You receive a +2 circumstance bonus to your attack roll and deal +2 dice of damage. Additionally, if you destroy your target with your attack, a <a href=\"https://swse.fandom.com/wiki/Collision\" class=\"mw-redirect\" title=\"Collision\">Collision</a> does not occur. </td>\n  </tr>\n </tbody>\n</table><p><b>Special:</b> If you fail to successfully activate this maneuver, you still move through your opponent's square and a <a href=\"https://swse.fandom.com/wiki/Collision\" class=\"mw-redirect\" title=\"Collision\">Collision</a> occurs. You do not get to make an attack as a <a href=\"https://swse.fandom.com/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a>, and you cannot make a <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> check to <a href=\"https://swse.fandom.com/wiki/Avoid_Collision\" title=\"Avoid Collision\">Avoid Collision</a>. (Your opponent may do so, however.)</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "15:If you destroy your target with your attack, a Collision does not occur.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "20:You receive a +1 circumstance bonus to your attack roll. Additionally, if you destroy your target with your attack, a Collision does not occur.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "25:You receive a +1 circumstance bonus to your attack roll and deal +1 die of damage. Additionally, if you destroy your target with your attack, a Collision does not occur.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "30:You receive a +2 circumstance bonus to your attack roll and deal +1 die of damage. Additionally, if you destroy your target with your attack, a Collision does not occur.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "35:You receive a +2 circumstance bonus to your attack roll and deal +2 dice of damage. Additionally, if you destroy your target with your attack, a Collision does not occur.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "Reference Book: Star Wars Saga Edition Starships of the Galaxy See also: Starship Maneuvers A teamwork-focused Starfighter tactic, the Corellian Slip maneuver allows a Pilot to destroy an opposing Starship that threatens one of his or her allies by flying at the enemy vessel head-on. Time: Full-Round Action Targets: One enemy Airspeeder or Starfighter within (2 x your Vehicle's Speed) squares. Make a Pilot check. When you activate this maneuver, you move up to twice your Vehicle's Speed in a straight line through your opponent's square. If something halts your movement before you enter your opponent's square (such as being drawn into a Dogfight), the maneuver fails to activate. When you enter your opponent's square, you make an attack as a Free Action against the target. The result of the check determines the effects, if any: Special: If you fail to successfully activate this maneuver, you still move through your opponent's square and a Collision occurs. You do not get to make an attack as a Free Action, and you cannot make a Pilot check to Avoid Collision. (Your opponent may do so, however.)",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "Full-Round Action",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "One enemy Airspeeder or Starfighter within (2 x your Vehicle's Speed) squares.",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "cumulative"
+      },
+      {
+        "mode": 2,
+        "value": "Pilot",
+        "key": "rollType"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Corellian Slip",
+  "flags": {},
+  "type": "forcePower",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738608591356,
+    "modifiedTime": 1738608591356,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX"
+  },
+  "_id": "TvKByqj9Ou8Q4jya",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!TvKByqj9Ou8Q4jya"
+}

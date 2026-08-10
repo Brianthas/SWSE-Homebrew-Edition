@@ -1,0 +1,55 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "As part of its Move Action, an Airborne Beast uses the Tumble ability of the Acrobatics skill to fly through a threatened area or the fighting space of an enemy without provoking an Attack of Opportunity. The Beast must make a successful DC 15 Acrobatics check and is considered Trained in Acrobatics for the purpose of using this Special Quality.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "As part of its Move Action, an Airborne Beast uses the Tumble ability of the Acrobatics skill to fly through a threatened area or the fighting space of an enemy without provoking an Attack of Opportunity. The Beast must make a successful DC 15 Acrobatics check and is considered Trained in Acrobatics for the purpose of using this Special Quality.",
+        "key": "special"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "prerequisite": {
+      "text": "Airborne Species Type",
+      "requirement": "Airborne",
+      "type": "SPECIES_TYPE"
+    },
+    "cost": "0"
+  },
+  "name": "Aerobatics",
+  "flags": {},
+  "type": "beastQuality",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749299111324,
+    "modifiedTime": 1749299111324,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "XON2zPbsK2hD6EpL",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!XON2zPbsK2hD6EpL"
+}

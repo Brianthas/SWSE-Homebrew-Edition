@@ -1,0 +1,103 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "As a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a>, if an attack you have made with the Whip Form of the <a href=\"https://swse.fandom.com/wiki/Amphistaff\" title=\"Amphistaff\">Amphistaff</a> is negated (such as with the <b><a href=\"https://swse.fandom.com/wiki/Block\" class=\"mw-redirect\" title=\"Block\">Block</a></b> Talent) you may activate this Talent. You may reroll your attack, keeping the new result but your attack no longer causes damage.<br><br>If the result equals or exceeds both the targets <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> and <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>, the target moves -1 <a href=\"https://swse.fandom.com/wiki/Persistent\" class=\"mw-redirect\" title=\"Persistent\">Persistent</a> step along the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a> as the Amphistaff's fangs graze the targets skin.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:in: Untested, Homebrew Content, Talent Trees, and 6 more Soldier Talent Trees Elite Trooper Talent Trees Gladiator Talent Trees Melee Duelist Talent Trees Enforcer Talent Trees Vanguard Talent Trees Master of the Amphistaff Talent Tree Edit Edit source History Talk (0) This Homebrew Content has not been reviewed in a meaningful manner. If you wish to review this content yourself, then see Untested for more details. Homebrew Reference Book: New Jedi Order Campaign Guide The Amphistaff is the chosen weapon of the Yuuzhan Vong Warrior Caste, though other Castes are known to utilise the weapon (excluding the Shaper Caste, whom are forbidden to use them or their progeny). The following Talents allow you to improve your prowess with an Amphistaff. These Talents may only be taken by Yuuzhan Vong characters. Contents 1 Amphistaff Block 2 Amphistaff Riposte 3 Spearing Accuracy 4 Spiral Shower 5 Venom Rake Amphistaff Block[ ] Prerequisite: Base Attack Bonus +2 As a Reaction, you may negate a melee attack by making a successful Initiative check. The DC of the Initiative check is equal to the result of the attack roll you wish to negate, and you take a cumulative -5 penalty on your Initiative check for every time you have used Amphistaff Block since the beginning of your last turn. You may use this to negate melee Area Attacks. If you succeed on the Initiative check, you take half damage if the attack hits, and no damage if the attack misses. You must have an Amphistaff drawn and in the Quarterstaff or Spear Forms to use this Talent. You must be aware of the attack and not be Flat-Footed. Amphistaff Riposte[ ] Prerequisites: Amphistaff Block, Weapon Focus (Amphistaff), Base Attack Bonus +10 Once per encounter, as a Reaction, you may make an Amphistaff attack against a being whose attack you negated using the Amphistaff Block Talent. You cannot change the Form of the Amphistaff prior to making this attack (meaning, the attack can only be made with the Quarterstaff or Spear Forms of the weapon). Only non-area melee attacks can be riposted in this manner; you cannot use this Talent when negating the damage from melee Area Attacks. Spearing Accuracy[ ] You treat an Amphistaff in Spear Form as a Simple Weapon (Ranged), not a Thrown Weapon, for the purposes of determining Range. Additionally, you may recall the thrown Amphistaff as a Swift Action, but it does not return until the end of your next turn. Spiral Shower[ ] Prerequisites: Weapon Focus (Amphistaff), Base Attack Bonus +5 You have learned how to extend the range of an Amphistaff's Spit Venom. The Spit Venom attack range is increased to 20 squares (instead of 10 square), but attacks made beyond 10 squares incur a -2 penalty on the attack roll. Venom Rake[ ] As a Reaction, if an attack you have made with the Whip Form of the Amphistaff is negated (such as with the Block Talent) you may activate this Talent. You may reroll your attack, keeping the new result but your attack no longer causes damage. If the result equals or exceeds both the targets Reflex Defense and Fortitude Defense, the target moves -1 Persistent step along the Condition Track as the Amphistaff's fangs graze the targets skin. Categories Categories: Untested Homebrew Content Talent Trees Soldier Talent Trees Elite Trooper Talent Trees Gladiator Talent Trees Melee Duelist Talent Trees Enforcer Talent Trees Vanguard Talent Trees Add category Cancel Save Community content is available under CC-BY-SA unless otherwise noted. More Fandoms Fantasy Sci-fi Star Wars",
+        "key": "skillReRoll"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": null,
+    "categories": [
+      {
+        "value": "Vanguard Talent Trees"
+      },
+      {
+        "value": "Untested"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Elite Trooper Talent Trees"
+      },
+      {
+        "value": "Soldier Talent Trees"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Gladiator Talent Trees"
+      },
+      {
+        "value": "Melee Duelist Talent Trees"
+      },
+      {
+        "value": "Enforcer Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Vanguard Talent Trees",
+      "Untested",
+      "Elite Trooper Talent Trees",
+      "Soldier Talent Trees",
+      "Homebrew Content",
+      "Gladiator Talent Trees",
+      "Melee Duelist Talent Trees",
+      "Enforcer Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Master of the Amphistaff Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Master_of_the_Amphistaff_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "New Jedi Order Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Venom Rake",
+  "flags": {},
+  "type": "talent",
+  "folder": "5ZAOykoXP6Efag14",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385308714,
+    "modifiedTime": 1734385308714,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "PSE2bDNTYPrfZiDi",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!PSE2bDNTYPrfZiDi"
+}

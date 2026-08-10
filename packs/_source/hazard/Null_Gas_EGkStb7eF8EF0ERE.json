@@ -1,0 +1,68 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "3d10",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards, Poisons",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A creature is exposed to Null Gas.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round at the start of the target's turn, as long as the target remains exposed to Null Gas.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Special: After 1 minute of exposure to Null Gas, a creature is affected as if in a Vacuum and must deal with the effects of Suffocation.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Atmosphere",
+          "Artificial",
+          "Poison"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_at_War\" title=\"Star Wars Saga Edition Galaxy at War\">Star Wars Saga Edition Galaxy at War</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a>, <a href=\"https://swse.fandom.com/wiki/Poisons\" title=\"Poisons\">Poisons</a></i> </p><p><i>Null Gas is a unique type of gas that neutralizes oxygen in the air.</i> </p><h2><span id=\"Null_Gas_Statistics_.28CL_12.29\"></span><span class=\"mw-headline\" id=\"Null_Gas_Statistics_(CL_12)\">Null Gas Statistics (CL 12)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Atmosphere, Artificial, Poison </p><p><b>Trigger:</b> A creature is exposed to Null Gas. </p><p><b>Attack:</b> +14 vs <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> </p><p><b>Recurrence:</b> Each round at the start of the target's turn, as long as the target remains exposed to Null Gas. </p><p><b>Special:</b> After 1 minute of exposure to Null Gas, a creature is affected as if in a <a href=\"https://swse.fandom.com/wiki/Vacuum\" title=\"Vacuum\">Vacuum</a> and must deal with the effects of <a href=\"https://swse.fandom.com/wiki/Suffocation\" class=\"mw-redirect\" title=\"Suffocation\">Suffocation</a>. </p>",
+    "source": "Star Wars Saga Edition Galaxy at War",
+    "cost": "0"
+  },
+  "name": "Null Gas",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244636,
+    "modifiedTime": 1749263244636,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "EGkStb7eF8EF0ERE",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!EGkStb7eF8EF0ERE"
+}

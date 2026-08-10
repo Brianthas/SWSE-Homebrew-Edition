@@ -1,0 +1,145 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Threats_of_the_Galaxy\" title=\"Star Wars Saga Edition Threats of the Galaxy\">Star Wars Saga Edition Threats of the Galaxy</a></i> </p><p>The Chistori are a race of obscure saurian humanoids. So scarce is the information of these people that even the Jedi Archives have no information on the Chistori homeworld. What little is known about this Species comes from their interactions with others. Fierce and warlike, they are quick to anger and tend to use excessive force to deal with even the smallest slights. As a result, few spacefaring Species have any reason to seek them out. </p><h3><span class=\"mw-headline\" id=\"Chistori_Characteristics\">Chistori Characteristics</span></h3><p><b>Personality:</b> The same talents that make them excellent warriors shows through in the Chistori's interactions with other <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>, with most encounters ending in violence. Chistori are an impatient Species and have little use for the rigidity of order and discipline, preferring instead to go their own way and do as they please. </p><p><b>Physical Description:</b> The reptilian Chistori stand about 1.9 meters tall and have lithe, though muscled, builds. Thick scales cover their bodies, usually blue or purple on their backs and brown and tan on their chests, abdomens, and faces. Their most pronounced feature is a large snout under which is a hinged jaw filled with sharp teeth, perfect for rending flesh. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Chistori age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>13-18 Years </td> \n   <td>19-44 Years </td> \n   <td>45-59 Years </td> \n   <td>60-69 Years </td> \n   <td>70+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The Chistori homeworld is unknown, and many Chistori who wander the galaxy either have forgotten where they come from, or guard this information with their lives. </p><p><b>Languages:</b> Lacking experience or even contact with other cultures means that the Chistori speak only the language of their people. Eventually, necessity forces these stubborn warriors to pick up Basic, but they still use words from their own language in everyday speech. </p><p><b>Example Names:</b> Cydon Prax, Desann, Grish B'reen. </p><p><b>Adventurers:</b> The few Chistori who find reasons to leave their homeworld find work as bounty hunters, mercenaries, and assassins, professions that reflect their particular talents and capabilities. Interestingly, <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a> seems almost completely unknown to the Chistori, either as a religion or as practiced by <a href=\"https://swse.fandom.com/wiki/The_Jedi\" title=\"The Jedi\">The Jedi</a>. </p><h3><span class=\"mw-headline\" id=\"Chistori_Species_Traits\">Chistori Species Traits</span></h3><p>Chistori share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Cold-Blooded",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Damage Reduction 2",
+        "type": "trait"
+      },
+      {
+        "name": "Rage",
+        "type": "trait"
+      },
+      {
+        "name": "Chistori",
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "18",
+          "low": "13",
+          "text": "13-18",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "59",
+          "low": "45",
+          "text": "45-59",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "69",
+          "low": "60",
+          "text": "60-69",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "11",
+          "low": "1",
+          "text": "1-11",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "70",
+          "text": "70+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "44",
+          "low": "19",
+          "text": "19-44",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Cold-Blooded"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Damage Reduction 2"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Rage"
+      },
+      {
+        "value": "Damage Reduction"
+      },
+      {
+        "value": "Chistori"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Chistori",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535565804,
+    "modifiedTime": 1736535565804,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "J4nJ2h5cCL5izeJF",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!J4nJ2h5cCL5izeJF"
+}

@@ -111,7 +111,7 @@ export class CompendiumWeb extends Application {
             mutation: (value) => {
                 return (index) => {
                     const actor = game.actors.get(value)
-                    index.hide ||= !(meetsPrerequisites(actor, index.prerequisite, {isAdd: true})).doesFail;
+                    index.hide ||= !(meetsPrerequisites(actor, index.prerequisite)).doesFail;
 
                     for (const item of actor.items) {
                         if(item.name === index.name){
@@ -705,6 +705,9 @@ export class CompendiumWeb extends Application {
 
 export function initializeCompendiumButtons() {
     Hooks.on("renderCompendiumDirectory", (function (e, t) {
+        // core's CompendiumDirectory is ApplicationV2 in V14 — the hook now passes a raw HTMLElement,
+        // not jQuery, so wrap it once here to keep the jQuery-based button code below working unchanged.
+        t = $(t);
         const featTalentButton = $(`<button type="button" class="feat-web-button constant-button" data-tooltip="SWSE.TALENT_AND_FEAT_WEB"><b class="button-text">Talent and Feat Web</b></button>`);
         featTalentButton.on("click", (function () {
             const options = {

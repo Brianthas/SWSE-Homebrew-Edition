@@ -1,0 +1,71 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "4d6",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A being enters a square within 3 squares of a Deadly Carnivorous Plant.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round, on Initiative Count (Initiative +10)",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Acrobatics (DC 24): The character makes this check as a part of a Move Action; if the check is successful, the character can pass within 3 squares of a Deadly Carnivorous Plant during that Move Action without triggering the Hazard. Knowledge (Life Sciences) (DC 19): The character identifies the Deadly Carnivorous Plant.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: A being reduced to 0 Hit Points by a Deadly Carnivorous Plant takes a -10 penalty to Endurance checks as long as it remains within 3 squares of the Hazard.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>A Carnivorous Plant lashes out at a nearby creature, trying to drain it of its life essence.</i> </p><p><a href=\"https://swse.fandom.com/wiki/Durace\" title=\"Durace\">Durace</a> is home to many species of meat-eating plants. Though fauna is rare on the planet, these plants can consume creatures of up to Large size, living on the nutrition taken from those creatures for years at a time. </p><h2><span id=\"Deadly_Carnivorous_Plants_Statistics_.28CL_11.29\"></span><span class=\"mw-headline\" id=\"Deadly_Carnivorous_Plants_Statistics_(CL_11)\">Deadly Carnivorous Plants Statistics (CL 11)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Natural </p><p><b>Trigger:</b> A being enters a square within 3 squares of a Deadly Carnivorous Plant. </p><p><b>Attack:</b> +13 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> Each round, on <a href=\"https://swse.fandom.com/wiki/Initiative_Count\" class=\"mw-redirect\" title=\"Initiative Count\">Initiative Count</a> (<a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a> +10) </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Acrobatics\" title=\"Acrobatics\">Acrobatics</a> (DC 24):</b> The character makes this check as a part of a <a href=\"https://swse.fandom.com/wiki/Move_Action\" class=\"mw-redirect\" title=\"Move Action\">Move Action</a>; if the check is successful, the character can pass within 3 squares of a Deadly Carnivorous Plant during that Move Action without triggering the Hazard.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Knowledge_(Life_Sciences)\" class=\"mw-redirect\" title=\"Knowledge (Life Sciences)\">Knowledge (Life Sciences)</a> (DC 19):</b> The character identifies the Deadly Carnivorous Plant.</li>\n</ul><p><b>Special:</b> A being reduced to 0 Hit Points by a Deadly Carnivorous Plant takes a -10 penalty to <a href=\"https://swse.fandom.com/wiki/Endurance\" title=\"Endurance\">Endurance</a> checks as long as it remains within 3 squares of the Hazard. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Deadly Carnivorous Plants",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244445,
+    "modifiedTime": 1749263244445,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "oiFbOWAa0U4HmtsT",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!oiFbOWAa0U4HmtsT"
+}

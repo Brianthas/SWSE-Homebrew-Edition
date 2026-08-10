@@ -1,0 +1,82 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "After activating the <b>Defensive Roll</b> Talent, you can move up to half your speed.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Defensive Roll talent",
+      "requirement": "Defensive Roll",
+      "type": "TALENT"
+    },
+    "categories": [
+      {
+        "value": "Untested"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Force Adept Talent Trees"
+      },
+      {
+        "value": "Homebrew Content"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Untested",
+      "Force Adept Talent Trees",
+      "Homebrew Content"
+    ],
+    "isSupplied": false,
+    "talentTree": "Force Warrior Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Force_Warrior_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Saga Edition All-Purpose Sourcebook",
+    "cost": "0"
+  },
+  "name": "Improved Defensive Roll",
+  "flags": {},
+  "type": "talent",
+  "folder": "e0TDqSUWLR9Gs9qc",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385305116,
+    "modifiedTime": 1734385305116,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "huta2R851lRKJ05D",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!huta2R851lRKJ05D"
+}

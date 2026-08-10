@@ -1,25 +1,27 @@
-<div class="skills-header swse flex-grow resource flex-group-center">
-    <label class="resource-label">Skills</label>
+<div class="skills-header swse resource panel area-skills">
+    <h1 class="top-label resource-label">Skills
+        <span class="skills-counter" title="Trained skills used / available">{{actor.trainedSkills.length}} / {{actor.system.availableTrainedSkillCount}}</span>
+    </h1>
 
-    <table class="skill">
-        <thead>
-        <tr>
-            <td></td>
-            <td></td>
-            <th>Total</th>
-            <th>Ability</th>
-            {{#unless disableTrained}}
-                <th>Trained</th>{{/unless}}
-            {{#unless disableBonus}}
-                <th>Bonus</th>{{/unless}}
-        </tr>
-        </thead>
-        <tbody>
+    <div class="skill-row skill-row-header">
+        <span class="skill-toggle"></span>
+        <span class="skill-roll"></span>
+        <span class="skill-name">Skill</span>
+        <span class="skill-total" title="Total bonus">Tot</span>
+        <span class="skill-ability" title="Related ability and its modifier">Abil</span>
+        {{#unless disableTrained}}
+            <span class="skill-trained" title="Trained">Trn</span>
+        {{/unless}}
+        {{#unless disableBonus}}
+            <span class="skill-bonus" title="Misc bonus">Misc</span>
+        {{/unless}}
+    </div>
+
+    <ul class="skill-list">
         {{#each actor.system.skills as |skill id|}}
             {{#unless skill.hide}}
                 {{> 'systems/swse/templates/actor/parts/skills/skill-row.hbs' skill=skill skillId=id toggles=../actor.system.toggles disableTrained=../disableTrained disableBonus=../disableBonus depth=0}}
             {{/unless}}
         {{/each}}
-        </tbody>
-    </table>
+    </ul>
 </div>

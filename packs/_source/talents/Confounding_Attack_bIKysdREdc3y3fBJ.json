@@ -1,0 +1,75 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Once per encounter, whenever you would use <b>Uncanny Instincts</b>, you can forgo the movement to make an immediate melee or ranged attack against the opponent that hit you. If your attack is a melee attack that hits and deals damage, you and your opponent immediately switch places; assuming both you and your opponent can end in a legal space.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Tangle Up talent",
+          "requirement": "Tangle Up",
+          "type": "TALENT"
+        },
+        {
+          "text": "Uncanny Instincts talent",
+          "requirement": "Uncanny Instincts",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Tangle Up talent, and Uncanny Instincts talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Outlaw Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Outlaw Talent Trees",
+      "Engineer Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Outlaw Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Outlaw_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Scum and Villainy",
+    "cost": "0"
+  },
+  "name": "Confounding Attack",
+  "flags": {},
+  "type": "talent",
+  "folder": "Gy2njcXwDydffknD",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385310130,
+    "modifiedTime": 1786039798050,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "bIKysdREdc3y3fBJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!bIKysdREdc3y3fBJ"
+}

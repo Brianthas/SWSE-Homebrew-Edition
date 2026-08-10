@@ -1,0 +1,68 @@
+<div class="swse panel area-identity">
+    <h1 class="top-label resource-label">Beast</h1>
+    <div class="identity-body">
+        <div class="identity-portrait">
+            <img class="profile-img" src="{{actor.img}}" alt="{{actor.name}}" data-edit="img" title="{{actor.name}}"/>
+        </div>
+
+        <div class="field-grid">
+            <div class="field field-wide">
+                <label for="name">Name</label>
+                <input class="input" name="name" id="name" type="text" value="{{actor.name}}" placeholder=""/>
+            </div>
+
+            <div class="field field-wide">
+                <label for="player">Player</label>
+                <input class="input" name="system.details.player" id="player" type="text"
+                       value="{{actor.system.details.player}}" placeholder=""/>
+            </div>
+
+            <div class="field field-wide item clickable">
+                <label for="species">Species</label>
+                <div class="field-value" id="species"{{#if actor.species}} data-action="view" data-item-id="{{actor.species.id}}" {{else}} data-action="compendium" data-type="Item" data-filter="-type:species" {{/if}}>{{#if actor.species}}{{actor.species.name}}{{else}}Add Species{{/if}}</div>
+                {{#if actor.species}}
+                    <div class="control-1">
+                        <a class="" data-action="view" data-item-id="{{actor.species.id}}" title="view item"><i class="fas fa-eye"></i></a>
+                    </div>
+                    <div class="control-0">
+                        <a class="" data-action="delete" data-item-id="{{actor.species.id}}" title="delete item"><i class="fas fa-trash"></i></a>
+                    </div>
+                {{else}}
+                    <div class="control-0">
+                        <a data-action="compendium" data-type="Item" data-filter="-type:species"
+                           title="{{localize "Open Compendium"}}"><i class="fas fa-folder-plus"></i></a>
+                    </div>
+                {{/if}}
+            </div>
+
+            <div class="field field-wide">
+                <label for="classSummary">Classes</label>
+                <input class="input" id="classSummary" type="text" value="{{actor.classSummary}}" placeholder="" disabled/>
+            </div>
+
+            <div class="field">
+                <label for="level">Level</label>
+                <input class="input" id="level" type="text" value="{{actor.levelSummary}}" placeholder="" disabled/>
+            </div>
+
+            {{!-- Homebrew "Beast HD" table: size drives the per-level-up Hit Die (Fine
+                  through Colossal (Station)), so this actor type gets the full size range
+                  instead of the 3-option Small/Medium/Large field on the character sheet. --}}
+            <div class="field">
+                <label for="actorSize">Size</label>
+                <select id="actorSize" name="system.size"
+                        title="Drives the homebrew size table (ability adjustment, speed, unarmed damage, Stealth, Beast HD).">
+                    {{{options 'beast-size' selected=actor.system.size}}}
+                </select>
+            </div>
+
+            <div class="field field-wide">
+                <label>&nbsp;</label>
+                <button type="button" class="long-rest-button" data-action="long-rest"
+                        title="Restore HP and Force Points, and reset Second Wind uses">
+                    <i class="fas fa-moon"></i> Long Rest
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

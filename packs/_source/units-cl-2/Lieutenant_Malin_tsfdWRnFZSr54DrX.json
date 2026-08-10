@@ -1,0 +1,4457 @@
+{
+  "effects": [],
+  "system": {
+    "health": {
+      "value": 19,
+      "min": 0,
+      "max": 19,
+      "condition": 0,
+      "override": 19
+    },
+    "shields": {
+      "value": 0,
+      "min": 0,
+      "max": 0,
+      "shieldDamage": 0
+    },
+    "description": "",
+    "credits": 0,
+    "classes": [],
+    "traits": [],
+    "age": 0,
+    "gender": "",
+    "genderDisplay": "",
+    "player": "",
+    "darkSideScore": 0,
+    "darkSideArray": [],
+    "attributes": {
+      "str": {
+        "total": 10,
+        "manual": "8",
+        "mod": 0,
+        "bonus": 0,
+        "base": 10
+      },
+      "dex": {
+        "total": 10,
+        "manual": "9",
+        "mod": 0,
+        "bonus": 0,
+        "base": 10
+      },
+      "con": {
+        "total": 10,
+        "manual": "10",
+        "mod": 0,
+        "bonus": 0,
+        "base": 10
+      },
+      "int": {
+        "total": 10,
+        "manual": "14",
+        "mod": 0,
+        "bonus": 0,
+        "base": 10
+      },
+      "wis": {
+        "total": 10,
+        "manual": "10",
+        "mod": 0,
+        "bonus": 0,
+        "base": 10
+      },
+      "cha": {
+        "total": 10,
+        "manual": "13",
+        "mod": 0,
+        "bonus": 0,
+        "base": 10
+      }
+    },
+    "crewQuality": {},
+    "crew": [],
+    "equippedIds": [],
+    "skills": {
+      "persuasion": {
+        "trained": true
+      },
+      "knowledge (bureaucracy)": {
+        "trained": true
+      },
+      "gather information": {
+        "trained": true
+      },
+      "use computer": {
+        "trained": true
+      },
+      "mechanics": {
+        "trained": true
+      },
+      "perception": {
+        "trained": true
+      }
+    },
+    "biography": "",
+    "providedItems": [
+      {
+        "quantity": "6",
+        "name": "Nonheroic",
+        "type": "class",
+        "firstLevel": true
+      },
+      {
+        "name": "Human",
+        "answers": [
+          "Medium"
+        ],
+        "type": "species"
+      },
+      {
+        "name": "Basic",
+        "type": "language"
+      },
+      {
+        "name": "Bocce",
+        "type": "language"
+      },
+      {
+        "name": "Sy Bisti",
+        "type": "language"
+      },
+      {
+        "name": "Expert Briber",
+        "type": "feat"
+      },
+      {
+        "name": "Friends in Low Places",
+        "type": "feat"
+      },
+      {
+        "payloads": {
+          "payload": "Mechanics"
+        },
+        "name": "Skill Focus",
+        "type": "feat"
+      },
+      {
+        "payloads": {
+          "payload": "Mechanics"
+        },
+        "name": "Skill Training",
+        "type": "feat"
+      },
+      {
+        "payloads": {
+          "payload": "Use Computer"
+        },
+        "name": "Skill Training",
+        "type": "feat"
+      },
+      {
+        "payloads": {
+          "payload": "Pistols"
+        },
+        "name": "Weapon Proficiency",
+        "type": "feat"
+      },
+      {
+        "payloads": {
+          "payload": "Simple Weapons"
+        },
+        "name": "Weapon Proficiency",
+        "type": "feat"
+      },
+      {
+        "equip": "equipped",
+        "name": "Blaster Pistol",
+        "type": "item"
+      },
+      {
+        "equip": "equipped",
+        "name": "Comlink",
+        "type": "item"
+      },
+      {
+        "equip": "equipped",
+        "name": "Datapad",
+        "type": "item"
+      }
+    ],
+    "size": "Medium",
+    "defense": {
+      "will": {
+        "expected": 10
+      },
+      "reflex": {
+        "expected": 9
+      },
+      "fortitude": {
+        "expected": 10
+      }
+    },
+    "sizeOverride": "Medium",
+    "attributeGenerationType": "Manual",
+    "changes": [],
+    "cl": 2,
+    "isNPC": true,
+    "settings": {
+      "isNPC": true
+    }
+  },
+  "name": "Lieutenant Malin",
+  "flags": {},
+  "type": "character",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "Lieutenant Malin",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "shields"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "depth": 1
+  },
+  "items": [
+    {
+      "_id": "JEVnXAxsEJ96Mlz8",
+      "name": "Nonheroic",
+      "type": "class",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "<p><i>See also: <a href=\"https://swse.fandom.com/wiki/Nonheroic_Units\" title=\"Nonheroic Units\">Nonheroic Units</a></i> </p><p>Nonheroic characters include everything from professional workers to petty criminals, police officers to common thugs. They lack the inclination or training to be heroes. but they are capable in their own fields. Skilled engineers, educated professors, and master architects are all Nonheroic characters, as is the local governor, the self-serving spice merchant, and the baseline Imperial <a href=\"https://swse.fandom.com/wiki/Stormtrooper\" title=\"Stormtrooper\">Stormtrooper</a>. </p><p>Nonheroic characters do not gain <a href=\"https://swse.fandom.com/wiki/Talents\" title=\"Talents\">Talents</a>, do not add their Nonheroic Class Level to their <a href=\"https://swse.fandom.com/wiki/Defense_Scores\" class=\"mw-redirect\" title=\"Defense Scores\">Defense Scores</a>, and do not gain <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">Force Points</a> or <a href=\"https://swse.fandom.com/wiki/Destiny_Points\" class=\"mw-redirect\" title=\"Destiny Points\">Destiny Points</a>. In addition, they only get to increase one <a href=\"https://swse.fandom.com/wiki/Ability_Score\" class=\"mw-redirect\" title=\"Ability Score\">Ability Score</a> by one point every fourth level (instead of increasing two scores by one point each). However, they gain <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a> normally as they advance in level. </p><h3><span class=\"mw-headline\" id=\"Game_Rule_Information\">Game Rule Information</span></h3><p>Nonheroic characters have the following game statistics. </p><table class=\"wikitable\"> \n <caption>\n  Nonheroic Leveling Statistics \n </caption> \n <tbody>\n  <tr> \n   <th>LEVEL </th> \n   <th>BASE ATTACK BONUS </th> \n   <th> </th> \n   <th>LEVEL </th> \n   <th>BASE ATTACK BONUS </th>\n  </tr> \n  <tr> \n   <td>1st </td> \n   <td>+0 </td> \n   <td> </td> \n   <td>11th </td> \n   <td>+8 </td>\n  </tr> \n  <tr> \n   <td>2nd </td> \n   <td>+1 </td> \n   <td> </td> \n   <td>12th </td> \n   <td>+9 </td>\n  </tr> \n  <tr> \n   <td>3rd </td> \n   <td>+2 </td> \n   <td> </td> \n   <td>13th </td> \n   <td>+9 </td>\n  </tr> \n  <tr> \n   <td>4th </td> \n   <td>+3 </td> \n   <td> </td> \n   <td>14th </td> \n   <td>+10 </td>\n  </tr> \n  <tr> \n   <td>5th </td> \n   <td>+3 </td> \n   <td> </td> \n   <td>15th </td> \n   <td>+11 </td>\n  </tr> \n  <tr> \n   <td>6th </td> \n   <td>+4 </td> \n   <td> </td> \n   <td>16th </td> \n   <td>+12 </td>\n  </tr> \n  <tr> \n   <td>7th </td> \n   <td>+5 </td> \n   <td> </td> \n   <td>17th </td> \n   <td>+12 </td>\n  </tr> \n  <tr> \n   <td>8th </td> \n   <td>+6 </td> \n   <td> </td> \n   <td>18th </td> \n   <td>+13 </td>\n  </tr> \n  <tr> \n   <td>9th </td> \n   <td>+6 </td> \n   <td> </td> \n   <td>19th </td> \n   <td>+14 </td>\n  </tr> \n  <tr> \n   <td>10th </td> \n   <td>+7 </td> \n   <td> </td> \n   <td>20th </td> \n   <td>+15 </td>\n  </tr>\n </tbody>\n</table><h4><span class=\"mw-headline\" id=\"Hit_Points\"><b>Hit Points</b></span></h4><p>At each level, Nonheroic characters gain 1d4 Hit Points + their <a href=\"https://swse.fandom.com/wiki/Constitution\" title=\"Constitution\">Constitution</a> modifier. </p><h4><span class=\"mw-headline\" id=\"Force_Points\"><b>Force Points</b></span></h4><p>Nonheroic characters do not gain <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">Force Points</a>. </p><h4><span class=\"mw-headline\" id=\"Class_Features\"><b>Class Features</b></span></h4><p>Nonheroic characters receive no special class features other than some starting <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a> at 1st level. </p><h4><span class=\"mw-headline\" id=\"Starting_Feats\"><b>Starting Feats</b></span></h4><p>A Nonheroic character gains three starting <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a> at 1st level, chosen from the following list: </p><p><a href=\"https://swse.fandom.com/wiki/Armor_Proficiency_(Light)\" title=\"Armor Proficiency (Light)\">Armor Proficiency (Light)</a>, <a href=\"https://swse.fandom.com/wiki/Armor_Proficiency_(Medium)\" title=\"Armor Proficiency (Medium)\">Armor Proficiency (Medium)</a>, <a href=\"https://swse.fandom.com/wiki/Skill_Focus\" title=\"Skill Focus\">Skill Focus</a>*, <a href=\"https://swse.fandom.com/wiki/Skill_Training\" title=\"Skill Training\">Skill Training</a>*, <a href=\"https://swse.fandom.com/wiki/Weapon_Proficiency_(Advanced_Melee_Weapons)\" class=\"mw-redirect\" title=\"Weapon Proficiency (Advanced Melee)\">Weapon Proficiency (Advanced Melee)</a>, <a href=\"https://swse.fandom.com/wiki/Weapon_Proficiency_(Heavy_Weapons)\" class=\"mw-redirect\" title=\"Weapon Proficiency (Heavy Weapons)\">Weapon Proficiency (Heavy Weapons)</a>, <a href=\"https://swse.fandom.com/wiki/Weapon_Proficiency_(Pistols)\" class=\"mw-redirect\" title=\"Weapon Proficiency (Pistols)\">Weapon Proficiency (Pistols)</a>, <a href=\"https://swse.fandom.com/wiki/Weapon_Proficiency_(Rifles)\" class=\"mw-redirect\" title=\"Weapon Proficiency (Rifles)\">Weapon Proficiency (Rifles)</a>, <a href=\"https://swse.fandom.com/wiki/Weapon_Proficiency_(Simple_Weapons)\" class=\"mw-redirect\" title=\"Weapon Proficiency (Simple Weapons)\">Weapon Proficiency (Simple Weapons)</a>. </p><p><i>*This Feat may be taken more than once. Each time the Feat is selected, it applies to a different <a href=\"https://swse.fandom.com/wiki/Skill\" class=\"mw-redirect\" title=\"Skill\">Skill</a>.</i> </p><h4><span class=\"mw-headline\" id=\"Multiclassing\"><b>Multiclassing</b></span></h4><p>A Nonheroic character can <a href=\"https://swse.fandom.com/wiki/Multiclass\" class=\"mw-redirect\" title=\"Multiclass\">Multiclass</a> into a heroic class. The normal multiclassing rules apply. </p><h4><span class=\"mw-headline\" id=\"Class_Skills\"><b>Class Skills</b></span></h4><p>(Trained in 1 + <a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a> modifier, minimum 1): </p><ul>\n <li><a href=\"https://swse.fandom.com/wiki/Acrobatics\" title=\"Acrobatics\">Acrobatics</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Climb\" title=\"Climb\">Climb</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Deception\" title=\"Deception\">Deception</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Endurance\" title=\"Endurance\">Endurance</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Gather_Information\" title=\"Gather Information\">Gather Information</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Jump\" title=\"Jump\">Jump</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Knowledge\" title=\"Knowledge\">Knowledge</a> (all types, taken individually)</li> \n <li><a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Persuasion\" title=\"Persuasion\">Persuasion</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Ride\" title=\"Ride\">Ride</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Survival\" title=\"Survival\">Survival</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Swim\" title=\"Swim\">Swim</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a></li>\n</ul><h3><span class=\"mw-headline\" id=\"Character_Archetypes\">Character Archetypes</span></h3><p>The following pregenerated characters are examples of typical allies and opponents that you can throw into an adventure or campaign. They represent some of the more common characters seen across the various <i>Star Wars</i> eras. Add personalities and histories to these archetypal characters as you see fit. </p><h4><span class=\"mw-headline\" id=\"Creating_Non-Human_Characters\"><b>Creating Non-Human Characters</b></span></h4><p>The statistics provided here use the <a href=\"https://swse.fandom.com/wiki/Human\" title=\"Human\">Human</a> Species as the baseline. If you wish to change the character's <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>, follow these simple rules: </p><ul>\n <li>Remove one of the character's <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a>. (<a href=\"https://swse.fandom.com/wiki/Human\" title=\"Human\">Human</a> characters gain a bonus <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feat</a>).</li> \n <li>Remove one of the character's <a href=\"https://swse.fandom.com/wiki/Trained_Skills\" class=\"mw-redirect\" title=\"Trained Skills\">Trained Skills</a>. (<a href=\"https://swse.fandom.com/wiki/Human\" title=\"Human\">Human</a> characters gain a bonus <a href=\"https://swse.fandom.com/wiki/Trained_Skill\" class=\"mw-redirect\" title=\"Trained Skill\">Trained Skill</a>).</li> \n <li>Add the relevant Species Traits for the selected <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>.</li>\n</ul>",
+        "textDescription": "See also: Nonheroic Units Nonheroic characters include everything from professional workers to petty criminals, police officers to common thugs. They lack the inclination or training to be heroes. but they are capable in their own fields. Skilled engineers, educated professors, and master architects are all Nonheroic characters, as is the local governor, the self-serving spice merchant, and the baseline Imperial Stormtrooper. Nonheroic characters do not gain Talents, do not add their Nonheroic Class Level to their Defense Scores, and do not gain Force Points or Destiny Points. In addition, they only get to increase one Ability Score by one point every fourth level (instead of increasing two scores by one point each). However, they gain Feats normally as they advance in level. Game Rule InformationNonheroic characters have the following game statistics.  \n \n  Nonheroic Leveling Statistics \n  \n \n   \n   LEVEL  \n   BASE ATTACK BONUS  \n     \n   LEVEL  \n   BASE ATTACK BONUS \n   \n   \n   1st  \n   +0  \n     \n   11th  \n   +8 \n   \n   \n   2nd  \n   +1  \n     \n   12th  \n   +9 \n   \n   \n   3rd  \n   +2  \n     \n   13th  \n   +9 \n   \n   \n   4th  \n   +3  \n     \n   14th  \n   +10 \n   \n   \n   5th  \n   +3  \n     \n   15th  \n   +11 \n   \n   \n   6th  \n   +4  \n     \n   16th  \n   +12 \n   \n   \n   7th  \n   +5  \n     \n   17th  \n   +12 \n   \n   \n   8th  \n   +6  \n     \n   18th  \n   +13 \n   \n   \n   9th  \n   +6  \n     \n   19th  \n   +14 \n   \n   \n   10th  \n   +7  \n     \n   20th  \n   +15 \n  \n \nHit PointsAt each level, Nonheroic characters gain 1d4 Hit Points + their Constitution modifier. Force PointsNonheroic characters do not gain Force Points. Class FeaturesNonheroic characters receive no special class features other than some starting Feats at 1st level. Starting FeatsA Nonheroic character gains three starting Feats at 1st level, chosen from the following list: Armor Proficiency (Light), Armor Proficiency (Medium), Skill Focus*, Skill Training*, Weapon Proficiency (Advanced Melee), Weapon Proficiency (Heavy Weapons), Weapon Proficiency (Pistols), Weapon Proficiency (Rifles), Weapon Proficiency (Simple Weapons). *This Feat may be taken more than once. Each time the Feat is selected, it applies to a different Skill. MulticlassingA Nonheroic character can Multiclass into a heroic class. The normal multiclassing rules apply. Class Skills(Trained in 1 + Intelligence modifier, minimum 1): \n Acrobatics \n Climb \n Deception \n Endurance \n Gather Information \n Initiative \n Jump \n Knowledge (all types, taken individually) \n Mechanics \n Perception \n Persuasion \n Pilot \n Ride \n Stealth \n Survival \n Swim \n Treat Injury \n Use Computer\nCharacter ArchetypesThe following pregenerated characters are examples of typical allies and opponents that you can throw into an adventure or campaign. They represent some of the more common characters seen across the various Star Wars eras. Add personalities and histories to these archetypal characters as you see fit. Creating Non-Human CharactersThe statistics provided here use the Human Species as the baseline. If you wish to change the character's Species, follow these simple rules: \n Remove one of the character's Feats. (Human characters gain a bonus Feat). \n Remove one of the character's Trained Skills. (Human characters gain a bonus Trained Skill). \n Add the relevant Species Traits for the selected Species.\n",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": 1,
+            "key": "trainedSkillsFirstLevel",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Acrobatics",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Climb",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Deception",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Endurance",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Gather Information",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Initiative",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Jump",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Knowledge (all types, taken individually)",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Mechanics",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Perception",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Persuasion",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Pilot",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Ride",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Stealth",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Survival",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Swim",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Treat Injury",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Use Computer",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "1d4",
+            "key": "levelUpHitPoints",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "1d4",
+            "key": "firstLevelHitPoints",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": 3,
+            "key": "availableClassFeats",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Armor Proficiency (Light)",
+            "key": "classFeat",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Armor Proficiency (Medium)",
+            "key": "classFeat",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Skill Focus",
+            "key": "classFeat",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Skill Training",
+            "key": "classFeat",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Weapon Proficiency (Advanced Melee)",
+            "key": "classFeat",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Weapon Proficiency (Heavy Weapons)",
+            "key": "classFeat",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Weapon Proficiency (Pistols)",
+            "key": "classFeat",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Weapon Proficiency (Rifles)",
+            "key": "classFeat",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Weapon Proficiency (Simple Weapons)",
+            "key": "classFeat",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": false,
+            "key": "isHeroic",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": false,
+            "key": "isPrestige",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": false,
+            "key": "isFollowerTemplate",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "prerequisite": null,
+        "levels": [],
+        "cost": "0",
+        "quantity": 1,
+        "levelsTaken": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "displayName": "Nonheroic"
+      },
+      "effects": [
+        {
+          "_id": "iyyLY06tnyQT41Ub",
+          "name": "Level 1",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 0,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 1
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!tsfdWRnFZSr54DrX.JEVnXAxsEJ96Mlz8.iyyLY06tnyQT41Ub"
+        },
+        {
+          "_id": "Dd5PeArnMmwuZ4y8",
+          "name": "Level 2",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 2
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!tsfdWRnFZSr54DrX.JEVnXAxsEJ96Mlz8.Dd5PeArnMmwuZ4y8"
+        },
+        {
+          "_id": "AGLZjYZFA0XbbIcz",
+          "name": "Level 3",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 3
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!tsfdWRnFZSr54DrX.JEVnXAxsEJ96Mlz8.AGLZjYZFA0XbbIcz"
+        },
+        {
+          "_id": "60EyVOvCqtvNwa8l",
+          "name": "Level 4",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 4
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!tsfdWRnFZSr54DrX.JEVnXAxsEJ96Mlz8.60EyVOvCqtvNwa8l"
+        },
+        {
+          "_id": "AUbLNSfE7xkejisg",
+          "name": "Level 5",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 0,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 5
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!tsfdWRnFZSr54DrX.JEVnXAxsEJ96Mlz8.AUbLNSfE7xkejisg"
+        },
+        {
+          "_id": "HsOKPpwHP78lDxNQ",
+          "name": "Level 6",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 6
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!tsfdWRnFZSr54DrX.JEVnXAxsEJ96Mlz8.HsOKPpwHP78lDxNQ"
+        },
+        {
+          "_id": "Qi3x9DRacMjJ4IUH",
+          "name": "Level 7",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 7
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!tsfdWRnFZSr54DrX.JEVnXAxsEJ96Mlz8.Qi3x9DRacMjJ4IUH"
+        },
+        {
+          "_id": "uAVfMc4SNW04ckny",
+          "name": "Level 8",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 8
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!tsfdWRnFZSr54DrX.JEVnXAxsEJ96Mlz8.uAVfMc4SNW04ckny"
+        },
+        {
+          "_id": "5a74kgE47hrrriJ6",
+          "name": "Level 9",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 0,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 9
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!tsfdWRnFZSr54DrX.JEVnXAxsEJ96Mlz8.5a74kgE47hrrriJ6"
+        },
+        {
+          "_id": "7W0n9V1rMZXUFxOv",
+          "name": "Level 10",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 10
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!tsfdWRnFZSr54DrX.JEVnXAxsEJ96Mlz8.7W0n9V1rMZXUFxOv"
+        },
+        {
+          "_id": "sfK76FQz2LtEvSjd",
+          "name": "Level 11",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 11
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!tsfdWRnFZSr54DrX.JEVnXAxsEJ96Mlz8.sfK76FQz2LtEvSjd"
+        },
+        {
+          "_id": "GLNHdVb6zofWDuBh",
+          "name": "Level 12",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 12
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!tsfdWRnFZSr54DrX.JEVnXAxsEJ96Mlz8.GLNHdVb6zofWDuBh"
+        },
+        {
+          "_id": "4u9VgOmi5Zi2bh3t",
+          "name": "Level 13",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 0,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 13
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!tsfdWRnFZSr54DrX.JEVnXAxsEJ96Mlz8.4u9VgOmi5Zi2bh3t"
+        },
+        {
+          "_id": "nwgVXJxaIWLlRP62",
+          "name": "Level 14",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 14
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!tsfdWRnFZSr54DrX.JEVnXAxsEJ96Mlz8.nwgVXJxaIWLlRP62"
+        },
+        {
+          "_id": "K4IewKUtmP56Gafm",
+          "name": "Level 15",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 15
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!tsfdWRnFZSr54DrX.JEVnXAxsEJ96Mlz8.K4IewKUtmP56Gafm"
+        },
+        {
+          "_id": "wu4UBx5QSNNU6kYZ",
+          "name": "Level 16",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 16
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!tsfdWRnFZSr54DrX.JEVnXAxsEJ96Mlz8.wu4UBx5QSNNU6kYZ"
+        },
+        {
+          "_id": "L2WaC6fNtZHEWFgN",
+          "name": "Level 17",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 0,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 17
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!tsfdWRnFZSr54DrX.JEVnXAxsEJ96Mlz8.L2WaC6fNtZHEWFgN"
+        },
+        {
+          "_id": "HBQ7nrdHar2kXecL",
+          "name": "Level 18",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 18
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!tsfdWRnFZSr54DrX.JEVnXAxsEJ96Mlz8.HBQ7nrdHar2kXecL"
+        },
+        {
+          "_id": "VxbK51YBscQnjiCl",
+          "name": "Level 19",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 19
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!tsfdWRnFZSr54DrX.JEVnXAxsEJ96Mlz8.VxbK51YBscQnjiCl"
+        },
+        {
+          "_id": "BmnVSX12FkTPFRZ9",
+          "name": "Level 20",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 20
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!tsfdWRnFZSr54DrX.JEVnXAxsEJ96Mlz8.BmnVSX12FkTPFRZ9"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.classes.Item.LsCS2YrlZ54IU8lg",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!tsfdWRnFZSr54DrX.JEVnXAxsEJ96Mlz8"
+    },
+    {
+      "_id": "SaklMMUBy7Uj68t5",
+      "name": "Human",
+      "type": "species",
+      "img": "systems/swse/icon/species/default.png",
+      "system": {
+        "finalName": "",
+        "description": "<p><i>See also: <a href=\"https://swse.fandom.com/wiki/Near-Humans\" title=\"Near-Humans\">Near-Humans</a></i> </p><p>Humans dominate the <a href=\"https://swse.fandom.com/wiki/Core_Worlds\" class=\"mw-redirect\" title=\"Core Worlds\">Core Worlds</a> and can be found in virtually every corner of the galaxy. They are the ancestors of early spacefaring pioneers, conquerors, traders, travelers, and refugees. Humans have always been people on the move. As a result, they can be found on almost every inhabited planet. As a Species, Humans are physically, culturally, and politically diverse. Hardy or fine, light-skinned or dark, Humans remain one of the most dominant Species throughout all eras of play. </p><h3><span class=\"mw-headline\" id=\"Human_Characteristics\">Human Characteristics</span></h3><p><b>Personality:</b> Human personality runs the gamut of possibilities, though members of this Species tend to be highly adaptable, tenacious, and willing to keep striving no matter the odds. They are flexible and ambitious, diverse in their tastes, morals, customs, and habits. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Humans age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-15 Years </td> \n   <td>16-40 Years </td> \n   <td>41-59 Years </td> \n   <td>60-79 Years </td> \n   <td>80+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworlds:</b> Various, including <a href=\"https://swse.fandom.com/wiki/Coruscant\" title=\"Coruscant\">Coruscant</a>, <a href=\"https://swse.fandom.com/wiki/Corellia\" title=\"Corellia\">Corellia</a>, <a href=\"https://swse.fandom.com/wiki/Naboo\" title=\"Naboo\">Naboo</a>, <a href=\"https://swse.fandom.com/wiki/Tatooine\" title=\"Tatooine\">Tatooine</a>, and <a href=\"https://swse.fandom.com/wiki/Alderaan\" title=\"Alderaan\">Alderaan</a>. </p><p><b>Languages:</b> Humans speak, read, and write Basic. They often learn other languages as well, including obscure ones. </p><p><b>Example Names:</b> Anakin, Arani, Bail, Ben, Biggs, Boba, Corran, Dack, Dané, Galak, Garm, Han, Jango, Jodo, Lando, Leia, Luke, Mace, Mara, Obi-Wan, Owen, Padmé, Qui-Gon, Sia-Lan, Rann, Talon, Vor'en, Wedge, Winter. </p><p><b>Adventurers:</b> Humans aren't afraid to try anything, and Human adventurers are the most audacious, daring, and ambitious members of an audacious, daring, and ambitious Species. A Human can earn glory by amassing power, wealth, and fame. More than any other <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>, Humans champion causes rather than territories or groups. </p><h3><span class=\"mw-headline\" id=\"Human_Species_Traits\">Human Species Traits</span></h3><p>Humans share the following Species Traits: </p>",
+        "textDescription": "See also: Near-Humans Humans dominate the Core Worlds and can be found in virtually every corner of the galaxy. They are the ancestors of early spacefaring pioneers, conquerors, traders, travelers, and refugees. Humans have always been people on the move. As a result, they can be found on almost every inhabited planet. As a Species, Humans are physically, culturally, and politically diverse. Hardy or fine, light-skinned or dark, Humans remain one of the most dominant Species throughout all eras of play. Human CharacteristicsPersonality: Human personality runs the gamut of possibilities, though members of this Species tend to be highly adaptable, tenacious, and willing to keep striving no matter the odds. They are flexible and ambitious, diverse in their tastes, morals, customs, and habits. Age Groups: Humans age at the following stages:  \n \n   \n   CHILD  \n   YOUNG ADULT  \n   ADULT  \n   MIDDLE AGE  \n   OLD  \n   VENERABLE \n   \n   \n   1-11 Years  \n   12-15 Years  \n   16-40 Years  \n   41-59 Years  \n   60-79 Years  \n   80+ Years \n  \n \nHomeworlds: Various, including Coruscant, Corellia, Naboo, Tatooine, and Alderaan. Languages: Humans speak, read, and write Basic. They often learn other languages as well, including obscure ones. Example Names: Anakin, Arani, Bail, Ben, Biggs, Boba, Corran, Dack, Dané, Galak, Garm, Han, Jango, Jodo, Lando, Leia, Luke, Mace, Mara, Obi-Wan, Owen, Padmé, Qui-Gon, Sia-Lan, Rann, Talon, Vor'en, Wedge, Winter. Adventurers: Humans aren't afraid to try anything, and Human adventurers are the most audacious, daring, and ambitious members of an audacious, daring, and ambitious Species. A Human can earn glory by amassing power, wealth, and fame. More than any other Species, Humans champion causes rather than territories or groups. Human Species TraitsHumans share the following Species Traits: ",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [],
+        "choices": [
+          {
+            "noOptions": "NO_AVAILABLE_OPTIONS",
+            "availableSelections": 1,
+            "payload": "#payload#",
+            "options": [
+              {
+                "providedItems": [
+                  {
+                    "name": "Bonus Feat",
+                    "type": "trait"
+                  },
+                  {
+                    "name": "Near-Human Trait",
+                    "type": "trait"
+                  }
+                ],
+                "payloads": {},
+                "display": "Near-Human (Give Up Bonus Trained Skill)",
+                "name": "Near-Human (Give Up Bonus Trained Skill)",
+                "attributes": {}
+              },
+              {
+                "providedItems": [
+                  {
+                    "name": "Bonus Trained Skill",
+                    "type": "trait"
+                  },
+                  {
+                    "name": "Near-Human Trait",
+                    "type": "trait"
+                  }
+                ],
+                "payloads": {},
+                "display": "Near-Human (Give Up Bonus Feat)",
+                "name": "Near-Human (Give Up Bonus Feat)",
+                "attributes": {}
+              },
+              {
+                "isDefault": true,
+                "providedItems": [
+                  {
+                    "name": "Bonus Trained Skill",
+                    "type": "trait"
+                  },
+                  {
+                    "name": "Bonus Feat",
+                    "type": "trait"
+                  }
+                ],
+                "payloads": {},
+                "display": "Human (Default)",
+                "name": "Human (Default)",
+                "attributes": {}
+              }
+            ],
+            "description": "Select Near-Human Option:",
+            "type": "SELECT",
+            "isFirstLevel": false,
+            "showSelectionInName": true
+          }
+        ],
+        "modes": [],
+        "providedItems": [
+          {
+            "name": "Medium",
+            "type": "trait"
+          },
+          {
+            "name": "Base Speed (6)",
+            "type": "trait"
+          },
+          {
+            "name": "Middle age",
+            "prerequisite": {
+              "high": "59",
+              "low": "41",
+              "text": "41-59",
+              "type": "AGE"
+            },
+            "type": "trait"
+          },
+          {
+            "name": "Adult",
+            "prerequisite": {
+              "high": "40",
+              "low": "16",
+              "text": "16-40",
+              "type": "AGE"
+            },
+            "type": "trait"
+          },
+          {
+            "name": "Child",
+            "prerequisite": {
+              "high": "11",
+              "low": "1",
+              "text": "1-11",
+              "type": "AGE"
+            },
+            "type": "trait"
+          },
+          {
+            "name": "Venerable",
+            "prerequisite": {
+              "high": "",
+              "low": "80",
+              "text": "80+",
+              "type": "AGE"
+            },
+            "type": "trait"
+          },
+          {
+            "name": "Old",
+            "prerequisite": {
+              "high": "79",
+              "low": "60",
+              "text": "60-79",
+              "type": "AGE"
+            },
+            "type": "trait"
+          },
+          {
+            "name": "Young adult",
+            "prerequisite": {
+              "high": "15",
+              "low": "12",
+              "text": "12-15",
+              "type": "AGE"
+            },
+            "type": "trait"
+          }
+        ],
+        "payload": "",
+        "buildInstructions": [],
+        "categories": [
+          {
+            "value": "Humans"
+          },
+          {
+            "value": "Bonus Feat"
+          },
+          {
+            "value": "Medium"
+          },
+          {
+            "value": "Species"
+          },
+          {
+            "value": "Bonus Trained Skill"
+          }
+        ],
+        "traits": [],
+        "cost": "0",
+        "quantity": 1,
+        "selectedChoices": [
+          "Medium"
+        ],
+        "displayName": "Human (Medium)"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.species.Item.hkBEXYR8S6uTxWST",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!tsfdWRnFZSr54DrX.SaklMMUBy7Uj68t5"
+    },
+    {
+      "_id": "qu7hl1iOiQtRCura",
+      "name": "Medium",
+      "type": "trait",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "",
+        "textDescription": "",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": 4,
+            "key": "sizeIndex"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Frigate) Size",
+              "requirement": "Colossal (Frigate)",
+              "type": "SIZE"
+            },
+            "value": -10,
+            "key": "shipSkillModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Frigate) Size",
+              "requirement": "Colossal (Frigate)",
+              "type": "SIZE"
+            },
+            "value": -10,
+            "key": "reflexDefenseBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Frigate) Size",
+              "requirement": "Colossal (Frigate)",
+              "type": "SIZE"
+            },
+            "value": "2d8",
+            "key": "unarmedDamage"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Frigate) Size",
+              "requirement": "Colossal (Frigate)",
+              "type": "SIZE"
+            },
+            "value": "1 square",
+            "key": "vehicleFightingSpace"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Frigate) Size",
+              "requirement": "Colossal (Frigate)",
+              "type": "SIZE"
+            },
+            "value": "stealth:-20",
+            "key": "skillBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Frigate) Size",
+              "requirement": "Colossal (Frigate)",
+              "type": "SIZE"
+            },
+            "value": 100,
+            "key": "damageThresholdSizeModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Frigate) Size",
+              "requirement": "Colossal (Frigate)",
+              "type": "SIZE"
+            },
+            "value": 25,
+            "key": "grappleSizeModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Cruiser) Size",
+              "requirement": "Colossal (Cruiser)",
+              "type": "SIZE"
+            },
+            "value": -10,
+            "key": "shipSkillModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Cruiser) Size",
+              "requirement": "Colossal (Cruiser)",
+              "type": "SIZE"
+            },
+            "value": -10,
+            "key": "reflexDefenseBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Cruiser) Size",
+              "requirement": "Colossal (Cruiser)",
+              "type": "SIZE"
+            },
+            "value": "2d8",
+            "key": "unarmedDamage"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Cruiser) Size",
+              "requirement": "Colossal (Cruiser)",
+              "type": "SIZE"
+            },
+            "value": "4 squares",
+            "key": "vehicleFightingSpace"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Cruiser) Size",
+              "requirement": "Colossal (Cruiser)",
+              "type": "SIZE"
+            },
+            "value": "stealth:-20",
+            "key": "skillBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Cruiser) Size",
+              "requirement": "Colossal (Cruiser)",
+              "type": "SIZE"
+            },
+            "value": 200,
+            "key": "damageThresholdSizeModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Cruiser) Size",
+              "requirement": "Colossal (Cruiser)",
+              "type": "SIZE"
+            },
+            "value": 30,
+            "key": "grappleSizeModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Station) Size",
+              "requirement": "Colossal (Station)",
+              "type": "SIZE"
+            },
+            "value": -10,
+            "key": "shipSkillModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Station) Size",
+              "requirement": "Colossal (Station)",
+              "type": "SIZE"
+            },
+            "value": -10,
+            "key": "reflexDefenseBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Station) Size",
+              "requirement": "Colossal (Station)",
+              "type": "SIZE"
+            },
+            "value": "2d8",
+            "key": "unarmedDamage"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Station) Size",
+              "requirement": "Colossal (Station)",
+              "type": "SIZE"
+            },
+            "value": "4 squares",
+            "key": "vehicleFightingSpace"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Station) Size",
+              "requirement": "Colossal (Station)",
+              "type": "SIZE"
+            },
+            "value": "stealth:-20",
+            "key": "skillBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Station) Size",
+              "requirement": "Colossal (Station)",
+              "type": "SIZE"
+            },
+            "value": 500,
+            "key": "damageThresholdSizeModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Station) Size",
+              "requirement": "Colossal (Station)",
+              "type": "SIZE"
+            },
+            "value": 35,
+            "key": "grappleSizeModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal Size",
+              "requirement": "Colossal",
+              "type": "SIZE"
+            },
+            "value": -10,
+            "key": "shipSkillModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal Size",
+              "requirement": "Colossal",
+              "type": "SIZE"
+            },
+            "value": -10,
+            "key": "reflexDefenseBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal Size",
+              "requirement": "Colossal",
+              "type": "SIZE"
+            },
+            "value": "2d8",
+            "key": "unarmedDamage"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal Size",
+              "requirement": "Colossal",
+              "type": "SIZE"
+            },
+            "value": "1 square",
+            "key": "vehicleFightingSpace"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal Size",
+              "requirement": "Colossal",
+              "type": "SIZE"
+            },
+            "value": "stealth:-20",
+            "key": "skillBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal Size",
+              "requirement": "Colossal",
+              "type": "SIZE"
+            },
+            "value": 50,
+            "key": "damageThresholdSizeModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal Size",
+              "requirement": "Colossal",
+              "type": "SIZE"
+            },
+            "value": 20,
+            "key": "grappleSizeModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Gargantuan Size",
+              "requirement": "Gargantuan",
+              "type": "SIZE"
+            },
+            "value": -5,
+            "key": "reflexDefenseBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Gargantuan Size",
+              "requirement": "Gargantuan",
+              "type": "SIZE"
+            },
+            "value": "16 squares",
+            "key": "characterFightingSpace"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Gargantuan Size",
+              "requirement": "Gargantuan",
+              "type": "SIZE"
+            },
+            "value": -5,
+            "key": "shipSkillModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Gargantuan Size",
+              "requirement": "Gargantuan",
+              "type": "SIZE"
+            },
+            "value": "2d6",
+            "key": "unarmedDamage"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Gargantuan Size",
+              "requirement": "Gargantuan",
+              "type": "SIZE"
+            },
+            "value": "stealth:-15",
+            "key": "skillBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Gargantuan Size",
+              "requirement": "Gargantuan",
+              "type": "SIZE"
+            },
+            "value": 20,
+            "key": "damageThresholdSizeModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Gargantuan Size",
+              "requirement": "Gargantuan",
+              "type": "SIZE"
+            },
+            "value": 15,
+            "key": "grappleSizeModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Huge Size",
+              "requirement": "Huge",
+              "type": "SIZE"
+            },
+            "value": -2,
+            "key": "reflexDefenseBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Huge Size",
+              "requirement": "Huge",
+              "type": "SIZE"
+            },
+            "value": "9 squares",
+            "key": "characterFightingSpace"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Huge Size",
+              "requirement": "Huge",
+              "type": "SIZE"
+            },
+            "value": -2,
+            "key": "shipSkillModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Huge Size",
+              "requirement": "Huge",
+              "type": "SIZE"
+            },
+            "value": "1d8",
+            "key": "unarmedDamage"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Huge Size",
+              "requirement": "Huge",
+              "type": "SIZE"
+            },
+            "value": "stealth:-10",
+            "key": "skillBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Huge Size",
+              "requirement": "Huge",
+              "type": "SIZE"
+            },
+            "value": 10,
+            "key": "damageThresholdSizeModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Huge Size",
+              "requirement": "Huge",
+              "type": "SIZE"
+            },
+            "value": 10,
+            "key": "grappleSizeModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Large Size",
+              "requirement": "Large",
+              "type": "SIZE"
+            },
+            "value": -1,
+            "key": "reflexDefenseBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Large Size",
+              "requirement": "Large",
+              "type": "SIZE"
+            },
+            "value": "4 squares",
+            "key": "characterFightingSpace"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Large Size",
+              "requirement": "Large",
+              "type": "SIZE"
+            },
+            "value": -1,
+            "key": "shipSkillModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Large Size",
+              "requirement": "Large",
+              "type": "SIZE"
+            },
+            "value": "1d6",
+            "key": "unarmedDamage"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Large Size",
+              "requirement": "Large",
+              "type": "SIZE"
+            },
+            "value": "stealth:-5",
+            "key": "skillBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Large Size",
+              "requirement": "Large",
+              "type": "SIZE"
+            },
+            "value": 5,
+            "key": "damageThresholdSizeModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Large Size",
+              "requirement": "Large",
+              "type": "SIZE"
+            },
+            "value": 5,
+            "key": "grappleSizeModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Medium Size",
+              "requirement": "Medium",
+              "type": "SIZE"
+            },
+            "value": 0,
+            "key": "reflexDefenseBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Medium Size",
+              "requirement": "Medium",
+              "type": "SIZE"
+            },
+            "value": "1 square",
+            "key": "characterFightingSpace"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Medium Size",
+              "requirement": "Medium",
+              "type": "SIZE"
+            },
+            "value": 0,
+            "key": "shipSkillModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Medium Size",
+              "requirement": "Medium",
+              "type": "SIZE"
+            },
+            "value": "1d4",
+            "key": "unarmedDamage"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Medium Size",
+              "requirement": "Medium",
+              "type": "SIZE"
+            },
+            "value": "stealth:0",
+            "key": "skillBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Medium Size",
+              "requirement": "Medium",
+              "type": "SIZE"
+            },
+            "value": 0,
+            "key": "damageThresholdSizeModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Small Size",
+              "requirement": "Small",
+              "type": "SIZE"
+            },
+            "value": 1,
+            "key": "reflexDefenseBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Small Size",
+              "requirement": "Small",
+              "type": "SIZE"
+            },
+            "value": "1 square",
+            "key": "characterFightingSpace"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Small Size",
+              "requirement": "Small",
+              "type": "SIZE"
+            },
+            "value": 1,
+            "key": "shipSkillModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Small Size",
+              "requirement": "Small",
+              "type": "SIZE"
+            },
+            "value": "1d3",
+            "key": "unarmedDamage"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Small Size",
+              "requirement": "Small",
+              "type": "SIZE"
+            },
+            "value": "stealth:5",
+            "key": "skillBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Small Size",
+              "requirement": "Small",
+              "type": "SIZE"
+            },
+            "value": 0,
+            "key": "damageThresholdSizeModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Tiny Size",
+              "requirement": "Tiny",
+              "type": "SIZE"
+            },
+            "value": 2,
+            "key": "reflexDefenseBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Tiny Size",
+              "requirement": "Tiny",
+              "type": "SIZE"
+            },
+            "value": 2,
+            "key": "shipSkillModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Tiny Size",
+              "requirement": "Tiny",
+              "type": "SIZE"
+            },
+            "value": "1 square",
+            "key": "characterFightingSpace"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Tiny Size",
+              "requirement": "Tiny",
+              "type": "SIZE"
+            },
+            "value": "1d2",
+            "key": "unarmedDamage"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Tiny Size",
+              "requirement": "Tiny",
+              "type": "SIZE"
+            },
+            "value": "stealth:10",
+            "key": "skillBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Tiny Size",
+              "requirement": "Tiny",
+              "type": "SIZE"
+            },
+            "value": 0,
+            "key": "damageThresholdSizeModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Diminutive Size",
+              "requirement": "Diminutive",
+              "type": "SIZE"
+            },
+            "value": 5,
+            "key": "reflexDefenseBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Diminutive Size",
+              "requirement": "Diminutive",
+              "type": "SIZE"
+            },
+            "value": 5,
+            "key": "shipSkillModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Diminutive Size",
+              "requirement": "Diminutive",
+              "type": "SIZE"
+            },
+            "value": "1 square",
+            "key": "characterFightingSpace"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Diminutive Size",
+              "requirement": "Diminutive",
+              "type": "SIZE"
+            },
+            "value": "1",
+            "key": "unarmedDamage"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Diminutive Size",
+              "requirement": "Diminutive",
+              "type": "SIZE"
+            },
+            "value": "stealth:15",
+            "key": "skillBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Diminutive Size",
+              "requirement": "Diminutive",
+              "type": "SIZE"
+            },
+            "value": 0,
+            "key": "damageThresholdSizeModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Fine Size",
+              "requirement": "Fine",
+              "type": "SIZE"
+            },
+            "value": 10,
+            "key": "reflexDefenseBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Fine Size",
+              "requirement": "Fine",
+              "type": "SIZE"
+            },
+            "value": 10,
+            "key": "shipSkillModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Fine Size",
+              "requirement": "Fine",
+              "type": "SIZE"
+            },
+            "value": "1 square",
+            "key": "characterFightingSpace"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Fine Size",
+              "requirement": "Fine",
+              "type": "SIZE"
+            },
+            "value": "1",
+            "key": "unarmedDamage"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Fine Size",
+              "requirement": "Fine",
+              "type": "SIZE"
+            },
+            "value": "stealth:20",
+            "key": "skillBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Fine Size",
+              "requirement": "Fine",
+              "type": "SIZE"
+            },
+            "value": 0,
+            "key": "damageThresholdSizeModifier"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "categories": [],
+        "supplier": {
+          "id": "SaklMMUBy7Uj68t5",
+          "name": "Human (Medium)",
+          "type": "species"
+        },
+        "possibleProviders": [],
+        "isSupplied": false,
+        "prerequisite": null,
+        "cost": "0",
+        "quantity": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.traits.Item.QwaI60YLgHi3Vaih",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!tsfdWRnFZSr54DrX.qu7hl1iOiQtRCura"
+    },
+    {
+      "_id": "axgNolRQId6RrEf4",
+      "name": "Base Speed",
+      "type": "trait",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "A being has a base speed of 6.",
+        "textDescription": "A being has a base speed of 6.",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": "Base Speed 6",
+            "key": "speed",
+            "source": null,
+            "sourceString": "Base Speed",
+            "sourceDescription": "Base Speed"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "categories": [],
+        "supplier": {
+          "id": "SaklMMUBy7Uj68t5",
+          "name": "Human (Medium)",
+          "type": "species"
+        },
+        "possibleProviders": [],
+        "isSupplied": false,
+        "prerequisite": null,
+        "cost": "0",
+        "quantity": 1,
+        "selectedChoices": [
+          "6"
+        ],
+        "displayName": "Base Speed (6)"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.traits.Item.v1yuYqZao137Q7gS",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!tsfdWRnFZSr54DrX.axgNolRQId6RrEf4"
+    },
+    {
+      "_id": "rfXm83lkBFe8Qv7m",
+      "name": "Child",
+      "type": "trait",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "A being is a child.",
+        "textDescription": "A being is a child.",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": -3,
+            "key": "strengthBonus"
+          },
+          {
+            "mode": 2,
+            "value": -3,
+            "key": "constitutionBonus"
+          },
+          {
+            "mode": 2,
+            "value": -1,
+            "key": "dexterityBonus"
+          },
+          {
+            "mode": 2,
+            "value": -1,
+            "key": "intelligenceBonus"
+          },
+          {
+            "mode": 2,
+            "value": -1,
+            "key": "wisdomBonus"
+          },
+          {
+            "mode": 2,
+            "value": -1,
+            "key": "charismaBonus"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "categories": [],
+        "supplier": {
+          "id": "SaklMMUBy7Uj68t5",
+          "name": "Human (Medium)",
+          "type": "species"
+        },
+        "possibleProviders": [],
+        "isSupplied": false,
+        "prerequisite": {
+          "high": "11",
+          "low": "1",
+          "text": "1-11",
+          "type": "AGE"
+        },
+        "cost": "0",
+        "quantity": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.traits.Item.cEAVsEhyomuZAsPr",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!tsfdWRnFZSr54DrX.rfXm83lkBFe8Qv7m"
+    },
+    {
+      "_id": "pXjDyFjM30cxijib",
+      "name": "Old",
+      "type": "trait",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "A being is old.",
+        "textDescription": "A being is old.",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": -2,
+            "key": "strengthBonus"
+          },
+          {
+            "mode": 2,
+            "value": -2,
+            "key": "constitutionBonus"
+          },
+          {
+            "mode": 2,
+            "value": -2,
+            "key": "dexterityBonus"
+          },
+          {
+            "mode": 2,
+            "value": 1,
+            "key": "intelligenceBonus"
+          },
+          {
+            "mode": 2,
+            "value": 1,
+            "key": "wisdomBonus"
+          },
+          {
+            "mode": 2,
+            "value": 1,
+            "key": "charismaBonus"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "categories": [],
+        "supplier": {
+          "id": "SaklMMUBy7Uj68t5",
+          "name": "Human (Medium)",
+          "type": "species"
+        },
+        "possibleProviders": [],
+        "isSupplied": false,
+        "prerequisite": {
+          "high": "79",
+          "low": "60",
+          "text": "60-79",
+          "type": "AGE"
+        },
+        "cost": "0",
+        "quantity": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.traits.Item.2dCL3C9dmOVIqzoU",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!tsfdWRnFZSr54DrX.pXjDyFjM30cxijib"
+    },
+    {
+      "_id": "y9wXTVO2eKWQ0qLS",
+      "name": "Venerable",
+      "type": "trait",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "A being is venerable.",
+        "textDescription": "A being is venerable.",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": -3,
+            "key": "strengthBonus"
+          },
+          {
+            "mode": 2,
+            "value": -3,
+            "key": "constitutionBonus"
+          },
+          {
+            "mode": 2,
+            "value": -3,
+            "key": "dexterityBonus"
+          },
+          {
+            "mode": 2,
+            "value": 1,
+            "key": "intelligenceBonus"
+          },
+          {
+            "mode": 2,
+            "value": 1,
+            "key": "wisdomBonus"
+          },
+          {
+            "mode": 2,
+            "value": 1,
+            "key": "charismaBonus"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "categories": [],
+        "supplier": {
+          "id": "SaklMMUBy7Uj68t5",
+          "name": "Human (Medium)",
+          "type": "species"
+        },
+        "possibleProviders": [],
+        "isSupplied": false,
+        "prerequisite": {
+          "high": "",
+          "low": "80",
+          "text": "80+",
+          "type": "AGE"
+        },
+        "cost": "0",
+        "quantity": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.traits.Item.NrMhFjCtY2H0qTB3",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!tsfdWRnFZSr54DrX.y9wXTVO2eKWQ0qLS"
+    },
+    {
+      "_id": "13AHy23Kxl8lQKJy",
+      "name": "Young adult",
+      "type": "trait",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "A being is a young adult.",
+        "textDescription": "A being is a young adult.",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": -1,
+            "key": "strengthBonus"
+          },
+          {
+            "mode": 2,
+            "value": -1,
+            "key": "constitutionBonus"
+          },
+          {
+            "mode": 2,
+            "value": -1,
+            "key": "dexterityBonus"
+          },
+          {
+            "mode": 2,
+            "value": -1,
+            "key": "intelligenceBonus"
+          },
+          {
+            "mode": 2,
+            "value": -1,
+            "key": "wisdomBonus"
+          },
+          {
+            "mode": 2,
+            "value": -1,
+            "key": "charismaBonus"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "categories": [],
+        "supplier": {
+          "id": "SaklMMUBy7Uj68t5",
+          "name": "Human (Medium)",
+          "type": "species"
+        },
+        "possibleProviders": [],
+        "isSupplied": false,
+        "prerequisite": {
+          "high": "15",
+          "low": "12",
+          "text": "12-15",
+          "type": "AGE"
+        },
+        "cost": "0",
+        "quantity": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.traits.Item.z9uG4TqwSjFrRdZo",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!tsfdWRnFZSr54DrX.13AHy23Kxl8lQKJy"
+    },
+    {
+      "_id": "QvCRotmCVdjlfK2x",
+      "name": "Adult",
+      "type": "trait",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "A being is an adult.",
+        "textDescription": "A being is an adult.",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "categories": [],
+        "supplier": {
+          "id": "SaklMMUBy7Uj68t5",
+          "name": "Human (Medium)",
+          "type": "species"
+        },
+        "possibleProviders": [],
+        "isSupplied": false,
+        "prerequisite": {
+          "high": "40",
+          "low": "16",
+          "text": "16-40",
+          "type": "AGE"
+        },
+        "cost": "0",
+        "quantity": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.traits.Item.fqDzTExYEnEbJJFM",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!tsfdWRnFZSr54DrX.QvCRotmCVdjlfK2x"
+    },
+    {
+      "_id": "PjQHEBYP412tfQZ7",
+      "name": "Middle age",
+      "type": "trait",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "A being is a middle aged.",
+        "textDescription": "A being is a middle aged.",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": -1,
+            "key": "strengthBonus"
+          },
+          {
+            "mode": 2,
+            "value": -1,
+            "key": "constitutionBonus"
+          },
+          {
+            "mode": 2,
+            "value": -1,
+            "key": "dexterityBonus"
+          },
+          {
+            "mode": 2,
+            "value": 1,
+            "key": "intelligenceBonus"
+          },
+          {
+            "mode": 2,
+            "value": 1,
+            "key": "wisdomBonus"
+          },
+          {
+            "mode": 2,
+            "value": 1,
+            "key": "charismaBonus"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "categories": [],
+        "supplier": {
+          "id": "SaklMMUBy7Uj68t5",
+          "name": "Human (Medium)",
+          "type": "species"
+        },
+        "possibleProviders": [],
+        "isSupplied": false,
+        "prerequisite": {
+          "high": "59",
+          "low": "41",
+          "text": "41-59",
+          "type": "AGE"
+        },
+        "cost": "0",
+        "quantity": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.traits.Item.GMaYIym4qbPurZYm",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!tsfdWRnFZSr54DrX.PjQHEBYP412tfQZ7"
+    },
+    {
+      "_id": "8O4iTamLTnmbdD6q",
+      "name": "Expert Briber",
+      "type": "feat",
+      "img": "systems/swse/icon/feat/default.png",
+      "system": {
+        "finalName": "",
+        "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_of_Intrigue\" title=\"Star Wars Saga Edition Galaxy of Intrigue\">Star Wars Saga Edition Galaxy of Intrigue</a></i> </p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i> </p><p>You are adept at greasing the palms of contacts to minimize the amount of the <a href=\"https://swse.fandom.com/wiki/Bribe\" class=\"mw-redirect\" title=\"Bribe\">Bribe</a> normally required. </p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Charisma\" title=\"Charisma\">Charisma</a> 13 </p><p><b>Effect:</b> When using the <a href=\"https://swse.fandom.com/wiki/Haggle\" class=\"mw-redirect\" title=\"Haggle\">Haggle</a> or <a href=\"https://swse.fandom.com/wiki/Bribery\" class=\"mw-redirect\" title=\"Bribery\">Bribery</a> applications of the <a href=\"https://swse.fandom.com/wiki/Persuasion\" title=\"Persuasion\">Persuasion</a> skill, you reduce the DC to reduce the price of the item haggled over by 10. </p>",
+        "textDescription": "Reference Book: Star Wars Saga Edition Galaxy of Intrigue See also: Feats You are adept at greasing the palms of contacts to minimize the amount of the Bribe normally required. Prerequisite: Charisma 13 Effect: When using the Haggle or Bribery applications of the Persuasion skill, you reduce the DC to reduce the price of the item haggled over by 10. ",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "prerequisite": {
+          "text": "Charisma 13",
+          "requirement": "Charisma 13",
+          "type": "ATTRIBUTE"
+        },
+        "categories": [
+          {
+            "value": "Scoundrel Bonus Feats"
+          },
+          {
+            "value": "Feats"
+          },
+          {
+            "value": "Noble Bonus Feats"
+          }
+        ],
+        "supplier": {},
+        "possibleProviders": [
+          "Scoundrel Bonus Feats",
+          "General Feats",
+          "Noble Bonus Feats"
+        ],
+        "isSupplied": false,
+        "source": "Star Wars Saga Edition Galaxy of Intrigue",
+        "cost": "0",
+        "quantity": 1,
+        "bonusFeatCategories": [
+          {
+            "value": "Scoundrel Bonus Feats"
+          },
+          {
+            "value": "Noble Bonus Feats"
+          }
+        ],
+        "hasBonusFeatCategories": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.feats.Item.K2OFNFVW1zDyp0Cu",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!tsfdWRnFZSr54DrX.8O4iTamLTnmbdD6q"
+    },
+    {
+      "_id": "fIj2kJmo2MOF4zLf",
+      "name": "Bocce",
+      "type": "language",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "",
+        "textDescription": "",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "cost": "0",
+        "quantity": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.languages.Item.PCtQqNWnLJOjaJG9",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!tsfdWRnFZSr54DrX.fIj2kJmo2MOF4zLf"
+    },
+    {
+      "_id": "zmmRs7LwhCumEEfH",
+      "name": "Basic",
+      "type": "language",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "",
+        "textDescription": "",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "cost": "0",
+        "quantity": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.languages.Item.o4f9dgsWl8G158mI",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!tsfdWRnFZSr54DrX.zmmRs7LwhCumEEfH"
+    },
+    {
+      "_id": "zW3pUWT5p9qYf2tz",
+      "name": "Friends in Low Places",
+      "type": "feat",
+      "img": "systems/swse/icon/feat/default.png",
+      "system": {
+        "finalName": "",
+        "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a></i> </p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i> </p><p>Given enough time, you can dig up the right tool for the job. </p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in <a href=\"https://swse.fandom.com/wiki/Gather_Information\" title=\"Gather Information\">Gather Information</a> </p><p><b>Effect:</b> Whenever you would acquire a license for a <a href=\"https://swse.fandom.com/wiki/Restricted\" class=\"mw-redirect\" title=\"Restricted\">Restricted</a> or <a href=\"https://swse.fandom.com/wiki/Military\" class=\"mw-redirect\" title=\"Military\">Military</a> object, you can substitute a <a href=\"https://swse.fandom.com/wiki/Gather_Information\" title=\"Gather Information\">Gather Information</a> check for a <a href=\"https://swse.fandom.com/wiki/Knowledge\" title=\"Knowledge\">Knowledge (Bureaucracy)</a> check. Reduce the <a href=\"https://swse.fandom.com/wiki/Black_Market\" class=\"mw-redirect\" title=\"Black Market\">Black Market</a> cost multiplier of such items by 1. </p>",
+        "textDescription": "Reference Book: Star Wars Saga Edition Scum and Villainy See also: Feats Given enough time, you can dig up the right tool for the job. Prerequisite: Trained in Gather Information Effect: Whenever you would acquire a license for a Restricted or Military object, you can substitute a Gather Information check for a Knowledge (Bureaucracy) check. Reduce the Black Market cost multiplier of such items by 1. ",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "prerequisite": {
+          "text": "Trained in Gather Information",
+          "requirement": "Gather Information",
+          "type": "TRAINED SKILL"
+        },
+        "categories": [
+          {
+            "value": "Scoundrel Bonus Feats"
+          },
+          {
+            "value": "Feats"
+          },
+          {
+            "value": "Noble Bonus Feats"
+          }
+        ],
+        "supplier": {},
+        "possibleProviders": [
+          "Scoundrel Bonus Feats",
+          "General Feats",
+          "Noble Bonus Feats"
+        ],
+        "isSupplied": false,
+        "source": "Star Wars Saga Edition Scum and Villainy",
+        "cost": "0",
+        "quantity": 1,
+        "bonusFeatCategories": [
+          {
+            "value": "Scoundrel Bonus Feats"
+          },
+          {
+            "value": "Noble Bonus Feats"
+          }
+        ],
+        "hasBonusFeatCategories": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.feats.Item.k7c3mK6ZbdYMinJi",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!tsfdWRnFZSr54DrX.zW3pUWT5p9qYf2tz"
+    },
+    {
+      "_id": "dVBE2TnHGwhk3fa8",
+      "name": "Skill Training",
+      "type": "feat",
+      "img": "systems/swse/icon/feat/Skill Training.png",
+      "system": {
+        "finalName": "",
+        "description": "<p><i>Reference Book: Star Wars Saga Edition Core Rulebook</i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i> </p><p>You are considered <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in a new <a href=\"https://swse.fandom.com/wiki/Skill\" class=\"mw-redirect\" title=\"Skill\">Skill</a>. </p><p><b>Effect:</b> Choose one <a href=\"https://swse.fandom.com/wiki/Untrained_Skill\" class=\"mw-redirect\" title=\"Untrained Skill\">Untrained Skill</a> from your list of Class Skills. You become <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in that <a href=\"https://swse.fandom.com/wiki/Skill\" class=\"mw-redirect\" title=\"Skill\">Skill</a>. </p><p><b>Special:</b> This Feat may be selected multiple times. Each time you take this Feat, it applies to a different Class Skill. </p>",
+        "textDescription": "Reference Book: Star Wars Saga Edition Core Rulebook See also: Feats You are considered Trained in a new Skill. Effect: Choose one Untrained Skill from your list of Class Skills. You become Trained in that Skill. Special: This Feat may be selected multiple times. Each time you take this Feat, it applies to a different Class Skill. ",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": "true",
+            "key": "takeMultipleTimes",
+            "source": null,
+            "sourceString": "Skill Training",
+            "sourceDescription": "Skill Training"
+          },
+          {
+            "mode": 2,
+            "value": "1",
+            "key": "trainedSkills",
+            "source": null,
+            "sourceString": "Skill Training",
+            "sourceDescription": "Skill Training"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "prerequisite": null,
+        "categories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Technician Bonus Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          },
+          {
+            "value": "Core Rulebook"
+          },
+          {
+            "value": "Scoundrel Bonus Feats"
+          },
+          {
+            "value": "Feats"
+          },
+          {
+            "value": "Scout Bonus Feats"
+          },
+          {
+            "value": "Jedi Bonus Feats"
+          },
+          {
+            "value": "Noble Bonus Feats"
+          }
+        ],
+        "supplier": {},
+        "possibleProviders": [
+          "Soldier Bonus Feats",
+          "Technician Bonus Feats",
+          "Force Prodigy Bonus Feats",
+          "Scoundrel Bonus Feats",
+          "General Feats",
+          "Scout Bonus Feats",
+          "Jedi Bonus Feats",
+          "Noble Bonus Feats",
+          "Nonheroic Starting Feats"
+        ],
+        "isSupplied": false,
+        "source": "Star Wars Saga Edition Core Rulebook",
+        "cost": "0",
+        "quantity": 1,
+        "bonusFeatCategories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Technician Bonus Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          },
+          {
+            "value": "Scoundrel Bonus Feats"
+          },
+          {
+            "value": "Scout Bonus Feats"
+          },
+          {
+            "value": "Jedi Bonus Feats"
+          },
+          {
+            "value": "Noble Bonus Feats"
+          }
+        ],
+        "hasBonusFeatCategories": true,
+        "selectedChoices": [
+          "Use Computer"
+        ],
+        "displayName": "Skill Training (Use Computer)"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.feats.Item.S1TMfEDNhU2p20HD",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!tsfdWRnFZSr54DrX.dVBE2TnHGwhk3fa8"
+    },
+    {
+      "_id": "yrUw7nfpg7kwXURH",
+      "name": "Sy Bisti",
+      "type": "language",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "is a trade language spoken on The Outer Rim and also in parts of The Unknown Regions. Though the language is not as widespread as Bocce, many inhabitants of worlds on the edge of The Unknown Regions and Wild Space use Sy Bisti as a common language between Species that have not learned Basic.",
+        "textDescription": "is a trade language spoken on The Outer Rim and also in parts of The Unknown Regions. Though the language is not as widespread as Bocce, many inhabitants of worlds on the edge of The Unknown Regions and Wild Space use Sy Bisti as a common language between Species that have not learned Basic.",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": "trade language",
+            "key": "note"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "cost": "0",
+        "quantity": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.languages.Item.4brnFeO76ZmIlnbD",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!tsfdWRnFZSr54DrX.yrUw7nfpg7kwXURH"
+    },
+    {
+      "_id": "hmqvYAmEiGN5yByj",
+      "name": "Weapon Proficiency",
+      "type": "feat",
+      "img": "systems/swse/icon/feat/Weapon Proficiency.png",
+      "system": {
+        "finalName": "",
+        "description": "<p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i> </p><p>You are proficient with a particular kind of weaponry. </p><p><b>Effect:</b> Choose one Weapon Group. You are proficient with all weapons of the selected group. Weapon Groups include the following: </p><ul>\n <li>Simple Weapons (includes <a href=\"https://swse.fandom.com/wiki/Simple_Weapons_(Melee)\" title=\"Simple Weapons (Melee)\">Simple Weapons (Melee)</a>, <a href=\"https://swse.fandom.com/wiki/Simple_Weapons_(Ranged)\" title=\"Simple Weapons (Ranged)\">Simple Weapons (Ranged)</a>, and <a href=\"https://swse.fandom.com/wiki/Grenades\" title=\"Grenades\">Grenades</a>)</li> \n <li><a href=\"https://swse.fandom.com/wiki/Pistols\" title=\"Pistols\">Pistols</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Rifles\" title=\"Rifles\">Rifles</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Lightsabers\" title=\"Lightsabers\">Lightsabers</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Heavy_Weapons\" title=\"Heavy Weapons\">Heavy Weapons</a> (includes both <a href=\"https://swse.fandom.com/wiki/Heavy_Weapons\" title=\"Heavy Weapons\">Heavy Weapons</a> and <a href=\"https://swse.fandom.com/wiki/Vehicle_Weapons\" class=\"mw-redirect\" title=\"Vehicle Weapons\">Vehicle Weapons</a>)</li> \n <li><a href=\"https://swse.fandom.com/wiki/Advanced_Melee_Weapons\" title=\"Advanced Melee\">Advanced Melee</a></li>\n</ul><p><b>Normal:</b> If you wield a weapon with which you are not proficient, you take a -5 penalty to your attack rolls. </p><p><b>Special:</b> You can gain this Feat multiple times. Each time you take the Feat, it applies to a different Weapon Group. You cannot take <a href=\"https://swse.fandom.com/wiki/Exotic_Weapons\" title=\"Exotic Weapons\">Exotic Weapons</a> as a weapon group; instead you must select the <a href=\"https://swse.fandom.com/wiki/Exotic_Weapon_Proficiency\" title=\"Exotic Weapon Proficiency\">Exotic Weapon Proficiency</a> Feat to gain proficiency with a specific Exotic Weapon. </p><h2><span class=\"mw-headline\" id=\"Additional_Weapon_Proficiency\">Additional Weapon Proficiency</span></h2><p><i>Reference Book:</i>&nbsp;<i><a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i> </p><p><b><a href=\"https://swse.fandom.com/wiki/Combined_Feat\" class=\"mw-redirect\" title=\"Combined Feat\">Combined Feat</a> (<a href=\"https://swse.fandom.com/wiki/Quick_Draw\" title=\"Quick Draw\">Quick Draw</a>):</b> You can draw and ignite your <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> as a single <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>. </p>",
+        "textDescription": "See also: Feats You are proficient with a particular kind of weaponry. Effect: Choose one Weapon Group. You are proficient with all weapons of the selected group. Weapon Groups include the following: \n Simple Weapons (includes Simple Weapons (Melee), Simple Weapons (Ranged), and Grenades) \n Pistols \n Rifles \n Lightsabers \n Heavy Weapons (includes both Heavy Weapons and Vehicle Weapons) \n Advanced Melee\nNormal: If you wield a weapon with which you are not proficient, you take a -5 penalty to your attack rolls. Special: You can gain this Feat multiple times. Each time you take the Feat, it applies to a different Weapon Group. You cannot take Exotic Weapons as a weapon group; instead you must select the Exotic Weapon Proficiency Feat to gain proficiency with a specific Exotic Weapon. Additional Weapon ProficiencyReference Book: Star Wars Saga Edition Knights of the Old Republic Campaign Guide Combined Feat (Quick Draw): You can draw and ignite your Lightsaber as a single Swift Action. ",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": "true",
+            "key": "takeMultipleTimes",
+            "source": null,
+            "sourceString": "Weapon Proficiency",
+            "sourceDescription": "Weapon Proficiency"
+          },
+          {
+            "mode": 2,
+            "value": "Pistols",
+            "key": "weaponProficiency",
+            "source": null,
+            "sourceString": "Weapon Proficiency",
+            "sourceDescription": "Weapon Proficiency"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "prerequisite": null,
+        "categories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Technician Bonus Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          },
+          {
+            "value": "Scoundrel Bonus Feats"
+          },
+          {
+            "value": "Feats"
+          },
+          {
+            "value": "Scout Bonus Feats"
+          },
+          {
+            "value": "Noble Bonus Feats"
+          }
+        ],
+        "supplier": {},
+        "possibleProviders": [
+          "Soldier Bonus Feats",
+          "Technician Bonus Feats",
+          "Force Prodigy Bonus Feats",
+          "Scoundrel Bonus Feats",
+          "General Feats",
+          "Scout Bonus Feats",
+          "Noble Bonus Feats",
+          "Weapon Proficiency Feat"
+        ],
+        "isSupplied": false,
+        "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+        "cost": "0",
+        "quantity": 1,
+        "bonusFeatCategories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Technician Bonus Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          },
+          {
+            "value": "Scoundrel Bonus Feats"
+          },
+          {
+            "value": "Scout Bonus Feats"
+          },
+          {
+            "value": "Noble Bonus Feats"
+          }
+        ],
+        "hasBonusFeatCategories": true,
+        "selectedChoices": [
+          "Pistols"
+        ],
+        "displayName": "Weapon Proficiency (Pistols)"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.feats.Item.teGxPoir4r6uzHdC",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!tsfdWRnFZSr54DrX.hmqvYAmEiGN5yByj"
+    },
+    {
+      "_id": "cpsnGeDreDHdRue0",
+      "name": "Blaster Pistol",
+      "type": "weapon",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "<p>\"Blaster Pistol\" is a blanket term for literally thousands of different designs from hundreds of manufacturers, such as the popular BlasTech DL-18. Blaster Pistols are popular with urban police forces, traders, and anyone who needs to pack respectable firepower in an easily carried package. </p><p>A Blaster Pistol requires a <a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a> to operate. After 100 shots, the <a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a> must be replaced. </p>",
+        "textDescription": "\"Blaster Pistol\" is a blanket term for literally thousands of different designs from hundreds of manufacturers, such as the popular BlasTech DL-18. Blaster Pistols are popular with urban police forces, traders, and anyone who needs to pack respectable firepower in an easily carried package. A Blaster Pistol requires a Power Pack to operate. After 100 shots, the Power Pack must be replaced. ",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": "Power Pack:100",
+            "key": "ammo"
+          },
+          {
+            "mode": 2,
+            "value": "3d6",
+            "key": "damage"
+          },
+          {
+            "mode": 2,
+            "value": "Energy",
+            "key": "damageType"
+          },
+          {
+            "mode": 2,
+            "value": "500",
+            "key": "cost"
+          },
+          {
+            "mode": 2,
+            "value": "1 Kilogram",
+            "key": "weight"
+          },
+          {
+            "mode": 2,
+            "value": "Restricted",
+            "key": "availability"
+          },
+          {
+            "mode": 2,
+            "value": "Small",
+            "key": "size"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "cost": "500",
+        "weight": "",
+        "availability": "",
+        "size": "Small",
+        "type": "",
+        "subtype": "Pistols",
+        "quantity": 1,
+        "categories": [],
+        "items": [],
+        "supplier": {},
+        "possibleProviders": [],
+        "isSupplied": false,
+        "activeModes": [],
+        "weapon": {},
+        "equipped": "equipped"
+      },
+      "effects": [
+        {
+          "_id": "hju8ChN5rlc1FY3P",
+          "name": "Single-Shot",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": []
+          },
+          "disabled": false,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "linkData": [
+                {
+                  "type": "EXCLUSIVE",
+                  "group": "Fire Mode"
+                }
+              ],
+              "group": "Fire Mode"
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!tsfdWRnFZSr54DrX.cpsnGeDreDHdRue0.hju8ChN5rlc1FY3P"
+        },
+        {
+          "_id": "TmOMmCh04Om6u3rD",
+          "name": "Stun",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "damage",
+                "value": "3d6",
+                "priority": null,
+                "type": "override"
+              },
+              {
+                "key": "damageType",
+                "value": "Stun",
+                "priority": null,
+                "type": "override"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {}
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!tsfdWRnFZSr54DrX.cpsnGeDreDHdRue0.TmOMmCh04Om6u3rD"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.weapons.Item.920jTSMFRrW9T1nl",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!tsfdWRnFZSr54DrX.cpsnGeDreDHdRue0"
+    },
+    {
+      "_id": "4w6uMGElnG3mgcQy",
+      "name": "Skill Focus",
+      "type": "feat",
+      "img": "systems/swse/icon/feat/Skill Focus.png",
+      "system": {
+        "finalName": "",
+        "description": "<p><i>Reference Book: Star Wars Saga Edition Core Rulebook</i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i> </p><p>One of your <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> is particularly well honed. </p><p><b>Effect:</b> Choose one <a href=\"https://swse.fandom.com/wiki/Skill\" class=\"mw-redirect\" title=\"Skill\">Skill</a> in which you are <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a>. You gain a +5 competence bonus on all <a href=\"https://swse.fandom.com/wiki/Skill_Checks\" title=\"Skill Checks\">Skill Checks</a> made with that <a href=\"https://swse.fandom.com/wiki/Skill\" class=\"mw-redirect\" title=\"Skill\">Skill</a>. </p><p><b>Special:</b> This Feat may be selected multiple times. Its effects do not stack. Each time you take this Feat, it applies to a different <a href=\"https://swse.fandom.com/wiki/Trained_Skill\" class=\"mw-redirect\" title=\"Trained Skill\">Trained Skill</a>. </p>",
+        "textDescription": "Reference Book: Star Wars Saga Edition Core Rulebook See also: Feats One of your Skills is particularly well honed. Effect: Choose one Skill in which you are Trained. You gain a +5 competence bonus on all Skill Checks made with that Skill. Special: This Feat may be selected multiple times. Its effects do not stack. Each time you take this Feat, it applies to a different Trained Skill. ",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": "true",
+            "key": "takeMultipleTimes",
+            "source": null,
+            "sourceString": "Skill Focus",
+            "sourceDescription": "Skill Focus"
+          },
+          {
+            "mode": 2,
+            "value": "Mechanics",
+            "key": "skillFocus",
+            "source": null,
+            "sourceString": "Skill Focus",
+            "sourceDescription": "Skill Focus"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "prerequisite": {
+          "text": "Trained in Mechanics",
+          "requirement": "Mechanics",
+          "type": "TRAINED SKILL"
+        },
+        "categories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Technician Bonus Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          },
+          {
+            "value": "Core Rulebook"
+          },
+          {
+            "value": "Scoundrel Bonus Feats"
+          },
+          {
+            "value": "Feats"
+          },
+          {
+            "value": "Scout Bonus Feats"
+          },
+          {
+            "value": "Jedi Bonus Feats"
+          },
+          {
+            "value": "Noble Bonus Feats"
+          }
+        ],
+        "supplier": {},
+        "possibleProviders": [
+          "Soldier Bonus Feats",
+          "Technician Bonus Feats",
+          "Force Prodigy Bonus Feats",
+          "Scoundrel Bonus Feats",
+          "General Feats",
+          "Scout Bonus Feats",
+          "Jedi Bonus Feats",
+          "Noble Bonus Feats",
+          "Nonheroic Starting Feats"
+        ],
+        "isSupplied": false,
+        "source": "Star Wars Saga Edition Core Rulebook",
+        "cost": "0",
+        "quantity": 1,
+        "bonusFeatCategories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Technician Bonus Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          },
+          {
+            "value": "Scoundrel Bonus Feats"
+          },
+          {
+            "value": "Scout Bonus Feats"
+          },
+          {
+            "value": "Jedi Bonus Feats"
+          },
+          {
+            "value": "Noble Bonus Feats"
+          }
+        ],
+        "hasBonusFeatCategories": true,
+        "selectedChoices": [
+          "Mechanics"
+        ],
+        "displayName": "Skill Focus (Mechanics)"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.feats.Item.kxag5i3sEfG1wTWa",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!tsfdWRnFZSr54DrX.4w6uMGElnG3mgcQy"
+    },
+    {
+      "_id": "Yywt3hK7pvZoWuJ1",
+      "name": "Skill Training",
+      "type": "feat",
+      "img": "systems/swse/icon/feat/Skill Training.png",
+      "system": {
+        "finalName": "",
+        "description": "<p><i>Reference Book: Star Wars Saga Edition Core Rulebook</i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i> </p><p>You are considered <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in a new <a href=\"https://swse.fandom.com/wiki/Skill\" class=\"mw-redirect\" title=\"Skill\">Skill</a>. </p><p><b>Effect:</b> Choose one <a href=\"https://swse.fandom.com/wiki/Untrained_Skill\" class=\"mw-redirect\" title=\"Untrained Skill\">Untrained Skill</a> from your list of Class Skills. You become <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in that <a href=\"https://swse.fandom.com/wiki/Skill\" class=\"mw-redirect\" title=\"Skill\">Skill</a>. </p><p><b>Special:</b> This Feat may be selected multiple times. Each time you take this Feat, it applies to a different Class Skill. </p>",
+        "textDescription": "Reference Book: Star Wars Saga Edition Core Rulebook See also: Feats You are considered Trained in a new Skill. Effect: Choose one Untrained Skill from your list of Class Skills. You become Trained in that Skill. Special: This Feat may be selected multiple times. Each time you take this Feat, it applies to a different Class Skill. ",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": "true",
+            "key": "takeMultipleTimes",
+            "source": null,
+            "sourceString": "Skill Training",
+            "sourceDescription": "Skill Training"
+          },
+          {
+            "mode": 2,
+            "value": "1",
+            "key": "trainedSkills",
+            "source": null,
+            "sourceString": "Skill Training",
+            "sourceDescription": "Skill Training"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "prerequisite": null,
+        "categories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Technician Bonus Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          },
+          {
+            "value": "Core Rulebook"
+          },
+          {
+            "value": "Scoundrel Bonus Feats"
+          },
+          {
+            "value": "Feats"
+          },
+          {
+            "value": "Scout Bonus Feats"
+          },
+          {
+            "value": "Jedi Bonus Feats"
+          },
+          {
+            "value": "Noble Bonus Feats"
+          }
+        ],
+        "supplier": {},
+        "possibleProviders": [
+          "Soldier Bonus Feats",
+          "Technician Bonus Feats",
+          "Force Prodigy Bonus Feats",
+          "Scoundrel Bonus Feats",
+          "General Feats",
+          "Scout Bonus Feats",
+          "Jedi Bonus Feats",
+          "Noble Bonus Feats",
+          "Nonheroic Starting Feats"
+        ],
+        "isSupplied": false,
+        "source": "Star Wars Saga Edition Core Rulebook",
+        "cost": "0",
+        "quantity": 1,
+        "bonusFeatCategories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Technician Bonus Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          },
+          {
+            "value": "Scoundrel Bonus Feats"
+          },
+          {
+            "value": "Scout Bonus Feats"
+          },
+          {
+            "value": "Jedi Bonus Feats"
+          },
+          {
+            "value": "Noble Bonus Feats"
+          }
+        ],
+        "hasBonusFeatCategories": true,
+        "selectedChoices": [
+          "Mechanics"
+        ],
+        "displayName": "Skill Training (Mechanics)"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.feats.Item.S1TMfEDNhU2p20HD",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!tsfdWRnFZSr54DrX.Yywt3hK7pvZoWuJ1"
+    },
+    {
+      "_id": "oWhYTQB5OOtYSjfq",
+      "name": "Comlink",
+      "type": "equipment",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "<table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>COMLINK </th> \n   <th>COST </th> \n   <th>WEIGHT </th>\n  </tr> \n  <tr> \n   <td>Short-Range </td> \n   <td>25 </td> \n   <td>0.1 kg </td>\n  </tr> \n  <tr> \n   <td>Long-Range </td> \n   <td>250 </td> \n   <td>1 kg </td>\n  </tr>\n </tbody>\n</table><p>A personal communications transceiver, the Comlink consists of a receiver, a transmitter, and a power source. Comlinks come in a variety of shapes and styles. </p><p>Short-Range Comlinks have a range of 50 kilometers or low orbit, and they can be built into helmets and Armor; for example, <a href=\"https://swse.fandom.com/wiki/Stormtrooper_Armor\" title=\"Stormtrooper Armor\">Stormtrooper Armor</a> includes a helmet equipped with a Short-Range Comlink. </p><p>A Long-Range Comlink has a range of 200 kilometers or high orbit, and it requires with a backpack-sized <span class=\"new\" title=\"Comset (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQ29tc2V0P2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Comset</span>. For double the cost, a Long-Range Comlink can be miniaturized to a wrist-sized unit. </p><ul>\n <li><b>Encryption: </b> A Comlink can have hardwired encryption routines (adding +10 to the DC of all <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> checks made to intercept your transmission) for ten times the base cost.</li> \n <li><b>Video Capability: </b> A Comlink can have Video capability (two-dimensional images in addition to Audio) for twice the base cost.</li> \n <li><b>Holo Capability: </b> A Comlink can have Holo capability (three-dimensional images in addition to Audio) for five times the base cost.</li>\n</ul><h2><span class=\"mw-headline\" id=\"Additional_Calls_for_Help\">Additional Calls for Help</span></h2><p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a></i> </p><p>From the point of view of the criminal, the best way to avoid trouble is be far away before law officers reach the scene. As a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a> <span>, any Comlink can use a short emergency code to contact local dispatchers that can send one or two patrolling </span> <a href=\"https://swse.fandom.com/wiki/Security_Officers\" class=\"mw-redirect\" title=\"Security Officers\">Security Officers</a> <span> to investigate.</span> </p><p>Although response times vary considerably from planet to planet, <a href=\"https://swse.fandom.com/wiki/Security_Officers\" class=\"mw-redirect\" title=\"Security Officers\">Security Officers</a> usually appear 1d4x10 rounds after dispatch reports a crime in progress. Multiply these times by 5 for areas with no regular security presence (such as frontier or wilderness areas), multiply by 2 for lightly patrolled areas, multiply by 1/2 for heavily patrolled areas, and multiply by 1/5 for areas with a constant security presence (such as near major government facilities). </p><p>If a major crime is in progress (such as a bank robbery, hostage situation, or open blaster fire) or if the first officer on the scene calls for backup, multiple units are dispatched, increasing the chances of an early response. Roll 1d4+1 to determine the number of units deployed, then determine the response time for each unit separately. </p><p>In a serious emergency, officers can call for a crisis response team of <a href=\"https://swse.fandom.com/wiki/Security_Specialists_(SaV)\" class=\"mw-redirect\" title=\"Security Specialists (SaV)\">Security Specialists</a> with heavier armor, better weapons, armored vehicles, and so forth. Because these teams don't patrol the area regularly, they have a typical response time of 2d10+10 minutes, modified as above. </p>",
+        "textDescription": " \n \n   \n   COMLINK  \n   COST  \n   WEIGHT \n   \n   \n   Short-Range  \n   25  \n   0.1 kg \n   \n   \n   Long-Range  \n   250  \n   1 kg \n  \n \nA personal communications transceiver, the Comlink consists of a receiver, a transmitter, and a power source. Comlinks come in a variety of shapes and styles. Short-Range Comlinks have a range of 50 kilometers or low orbit, and they can be built into helmets and Armor; for example, Stormtrooper Armor includes a helmet equipped with a Short-Range Comlink. A Long-Range Comlink has a range of 200 kilometers or high orbit, and it requires with a backpack-sized Comset. For double the cost, a Long-Range Comlink can be miniaturized to a wrist-sized unit. \n Encryption: A Comlink can have hardwired encryption routines (adding +10 to the DC of all Use Computer checks made to intercept your transmission) for ten times the base cost. \n Video Capability: A Comlink can have Video capability (two-dimensional images in addition to Audio) for twice the base cost. \n Holo Capability: A Comlink can have Holo capability (three-dimensional images in addition to Audio) for five times the base cost.\nAdditional Calls for HelpReference Book: Star Wars Saga Edition Scum and Villainy From the point of view of the criminal, the best way to avoid trouble is be far away before law officers reach the scene. As a Swift Action, any Comlink can use a short emergency code to contact local dispatchers that can send one or two patrolling Security Officers to investigate. Although response times vary considerably from planet to planet, Security Officers usually appear 1d4x10 rounds after dispatch reports a crime in progress. Multiply these times by 5 for areas with no regular security presence (such as frontier or wilderness areas), multiply by 2 for lightly patrolled areas, multiply by 1/2 for heavily patrolled areas, and multiply by 1/5 for areas with a constant security presence (such as near major government facilities). If a major crime is in progress (such as a bank robbery, hostage situation, or open blaster fire) or if the first officer on the scene calls for backup, multiple units are dispatched, increasing the chances of an early response. Roll 1d4+1 to determine the number of units deployed, then determine the response time for each unit separately. In a serious emergency, officers can call for a crisis response team of Security Specialists with heavier armor, better weapons, armored vehicles, and so forth. Because these teams don't patrol the area regularly, they have a typical response time of 2d10+10 minutes, modified as above. ",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "cost": "0",
+        "weight": "",
+        "availability": "",
+        "size": "",
+        "type": "",
+        "subtype": "Communications Devices",
+        "quantity": 1,
+        "categories": [],
+        "items": [],
+        "supplier": {},
+        "possibleProviders": [],
+        "isSupplied": false,
+        "equipment": {},
+        "source": "Star Wars Saga Edition Scum and Villainy",
+        "equipped": "equipped"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.equipment.Item.XDD8jKvzMursbylE",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!tsfdWRnFZSr54DrX.oWhYTQB5OOtYSjfq"
+    },
+    {
+      "_id": "V6OWDvqZShSPIevT",
+      "name": "Weapon Proficiency",
+      "type": "feat",
+      "img": "systems/swse/icon/feat/Weapon Proficiency.png",
+      "system": {
+        "finalName": "",
+        "description": "<p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i> </p><p>You are proficient with a particular kind of weaponry. </p><p><b>Effect:</b> Choose one Weapon Group. You are proficient with all weapons of the selected group. Weapon Groups include the following: </p><ul>\n <li>Simple Weapons (includes <a href=\"https://swse.fandom.com/wiki/Simple_Weapons_(Melee)\" title=\"Simple Weapons (Melee)\">Simple Weapons (Melee)</a>, <a href=\"https://swse.fandom.com/wiki/Simple_Weapons_(Ranged)\" title=\"Simple Weapons (Ranged)\">Simple Weapons (Ranged)</a>, and <a href=\"https://swse.fandom.com/wiki/Grenades\" title=\"Grenades\">Grenades</a>)</li> \n <li><a href=\"https://swse.fandom.com/wiki/Pistols\" title=\"Pistols\">Pistols</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Rifles\" title=\"Rifles\">Rifles</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Lightsabers\" title=\"Lightsabers\">Lightsabers</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Heavy_Weapons\" title=\"Heavy Weapons\">Heavy Weapons</a> (includes both <a href=\"https://swse.fandom.com/wiki/Heavy_Weapons\" title=\"Heavy Weapons\">Heavy Weapons</a> and <a href=\"https://swse.fandom.com/wiki/Vehicle_Weapons\" class=\"mw-redirect\" title=\"Vehicle Weapons\">Vehicle Weapons</a>)</li> \n <li><a href=\"https://swse.fandom.com/wiki/Advanced_Melee_Weapons\" title=\"Advanced Melee\">Advanced Melee</a></li>\n</ul><p><b>Normal:</b> If you wield a weapon with which you are not proficient, you take a -5 penalty to your attack rolls. </p><p><b>Special:</b> You can gain this Feat multiple times. Each time you take the Feat, it applies to a different Weapon Group. You cannot take <a href=\"https://swse.fandom.com/wiki/Exotic_Weapons\" title=\"Exotic Weapons\">Exotic Weapons</a> as a weapon group; instead you must select the <a href=\"https://swse.fandom.com/wiki/Exotic_Weapon_Proficiency\" title=\"Exotic Weapon Proficiency\">Exotic Weapon Proficiency</a> Feat to gain proficiency with a specific Exotic Weapon. </p><h2><span class=\"mw-headline\" id=\"Additional_Weapon_Proficiency\">Additional Weapon Proficiency</span></h2><p><i>Reference Book:</i>&nbsp;<i><a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i> </p><p><b><a href=\"https://swse.fandom.com/wiki/Combined_Feat\" class=\"mw-redirect\" title=\"Combined Feat\">Combined Feat</a> (<a href=\"https://swse.fandom.com/wiki/Quick_Draw\" title=\"Quick Draw\">Quick Draw</a>):</b> You can draw and ignite your <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> as a single <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>. </p>",
+        "textDescription": "See also: Feats You are proficient with a particular kind of weaponry. Effect: Choose one Weapon Group. You are proficient with all weapons of the selected group. Weapon Groups include the following: \n Simple Weapons (includes Simple Weapons (Melee), Simple Weapons (Ranged), and Grenades) \n Pistols \n Rifles \n Lightsabers \n Heavy Weapons (includes both Heavy Weapons and Vehicle Weapons) \n Advanced Melee\nNormal: If you wield a weapon with which you are not proficient, you take a -5 penalty to your attack rolls. Special: You can gain this Feat multiple times. Each time you take the Feat, it applies to a different Weapon Group. You cannot take Exotic Weapons as a weapon group; instead you must select the Exotic Weapon Proficiency Feat to gain proficiency with a specific Exotic Weapon. Additional Weapon ProficiencyReference Book: Star Wars Saga Edition Knights of the Old Republic Campaign Guide Combined Feat (Quick Draw): You can draw and ignite your Lightsaber as a single Swift Action. ",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": "true",
+            "key": "takeMultipleTimes",
+            "source": null,
+            "sourceString": "Weapon Proficiency",
+            "sourceDescription": "Weapon Proficiency"
+          },
+          {
+            "mode": 2,
+            "value": "Simple Weapons",
+            "key": "weaponProficiency",
+            "source": null,
+            "sourceString": "Weapon Proficiency",
+            "sourceDescription": "Weapon Proficiency"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "prerequisite": null,
+        "categories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Technician Bonus Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          },
+          {
+            "value": "Scoundrel Bonus Feats"
+          },
+          {
+            "value": "Feats"
+          },
+          {
+            "value": "Scout Bonus Feats"
+          },
+          {
+            "value": "Noble Bonus Feats"
+          }
+        ],
+        "supplier": {},
+        "possibleProviders": [
+          "Soldier Bonus Feats",
+          "Technician Bonus Feats",
+          "Force Prodigy Bonus Feats",
+          "Scoundrel Bonus Feats",
+          "General Feats",
+          "Scout Bonus Feats",
+          "Noble Bonus Feats",
+          "Weapon Proficiency Feat"
+        ],
+        "isSupplied": false,
+        "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+        "cost": "0",
+        "quantity": 1,
+        "bonusFeatCategories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Technician Bonus Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          },
+          {
+            "value": "Scoundrel Bonus Feats"
+          },
+          {
+            "value": "Scout Bonus Feats"
+          },
+          {
+            "value": "Noble Bonus Feats"
+          }
+        ],
+        "hasBonusFeatCategories": true,
+        "selectedChoices": [
+          "Simple Weapons"
+        ],
+        "displayName": "Weapon Proficiency (Simple Weapons)"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.feats.Item.teGxPoir4r6uzHdC",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!tsfdWRnFZSr54DrX.V6OWDvqZShSPIevT"
+    },
+    {
+      "_id": "VZhr9v1ED6S6ZcRW",
+      "name": "Datapad",
+      "type": "equipment",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "These handheld personal computers serve as notebooks, day planners, calculators, and sketchpads. In addition to performing basic computer functions, Datapads can interface with larger computer networks directly or via Comlink.\n\nA Datapad is a computer with an Intelligence score of 12. Basic Datapads also exist (Intelligence 10, 100 credits), but they are actually just storage devices with display, input, and editing capability; they have no ability to run programs.",
+        "textDescription": "These handheld personal computers serve as notebooks, day planners, calculators, and sketchpads. In addition to performing basic computer functions, Datapads can interface with larger computer networks directly or via Comlink.\n\nA Datapad is a computer with an Intelligence score of 12. Basic Datapads also exist (Intelligence 10, 100 credits), but they are actually just storage devices with display, input, and editing capability; they have no ability to run programs.",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": "1000",
+            "key": "cost"
+          },
+          {
+            "mode": 2,
+            "value": "0.5 kg",
+            "key": "weight"
+          },
+          {
+            "mode": 2,
+            "value": 12,
+            "key": "int"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "cost": "1000",
+        "weight": "",
+        "availability": "",
+        "size": "",
+        "type": "",
+        "subtype": "Computers and Storage Devices",
+        "quantity": 1,
+        "categories": [],
+        "items": [],
+        "supplier": {},
+        "possibleProviders": [],
+        "isSupplied": false,
+        "equipment": {},
+        "equipped": "equipped"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.equipment.Item.tCjmIH2vtmxFD3lK",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!tsfdWRnFZSr54DrX.VZhr9v1ED6S6ZcRW"
+    }
+  ],
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738609005466,
+    "modifiedTime": 1738609005466,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "tsfdWRnFZSr54DrX",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!actors!tsfdWRnFZSr54DrX"
+}

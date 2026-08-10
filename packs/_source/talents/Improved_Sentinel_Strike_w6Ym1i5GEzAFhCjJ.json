@@ -1,0 +1,63 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Increase the damage dice of your <b><a href=\"https://swse.fandom.com/wiki/Sentinel_Strike\" class=\"mw-redirect\" title=\"Sentinel Strike\">Sentinel Strike</a></b> to d8, instead of d6.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Sentinel Strike talent",
+      "requirement": "Sentinel Strike",
+      "type": "TALENT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Jedi Knight Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Jedi Knight Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Jedi Shadow Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Jedi_Shadow_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Improved Sentinel Strike",
+  "flags": {},
+  "type": "talent",
+  "folder": "xzgPNYMXDseRwiCG",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385307324,
+    "modifiedTime": 1734385307324,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "w6Ym1i5GEzAFhCjJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!w6Ym1i5GEzAFhCjJ"
+}

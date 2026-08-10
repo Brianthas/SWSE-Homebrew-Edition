@@ -1,0 +1,87 @@
+{
+  "img": "systems/swse/icon/feat/Mobility.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: Star Wars Saga Edition Core Rulebook</i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You are skilled at moving past opponents and avoiding opportunistic attacks.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> 13, <a href=\"https://swse.fandom.com/wiki/Dodge\" title=\"Dodge\">Dodge</a></p><p><b>Effect:</b> You get a +5 dodge bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against <a href=\"https://swse.fandom.com/wiki/Attacks_of_Opportunity\" title=\"Attacks of Opportunity\">Attacks of Opportunity</a> caused when you move out of or into a threatened area.</p><p><b>Special:</b> A situation that makes you lose your <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> (If any) also makes you lose dodge bonuses. Dodge bonuses also stack with each other, unlike most other types of bonuses.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Dexterity 13",
+          "requirement": "Dexterity 13",
+          "type": "ATTRIBUTE"
+        },
+        {
+          "text": "Dodge feat",
+          "requirement": "Dodge",
+          "type": "FEAT"
+        }
+      ],
+      "text": "Dexterity 13, and Dodge feat",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Force Prodigy Bonus Feats"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Scoundrel Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Scout Bonus Feats"
+      },
+      {
+        "value": "Jedi Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Force Prodigy Bonus Feats",
+      "Scoundrel Bonus Feats",
+      "General Feats",
+      "Scout Bonus Feats",
+      "Jedi Bonus Feats",
+      "Smuggler Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Core Rulebook",
+    "cost": "0"
+  },
+  "name": "Mobility",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1761479028025,
+    "modifiedTime": 1786036141513,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "5NqlWjeYVrN7qfik",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!5NqlWjeYVrN7qfik"
+}

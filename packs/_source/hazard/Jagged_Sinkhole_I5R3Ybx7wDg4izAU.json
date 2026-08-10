@@ -1,0 +1,66 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2d10",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A Ground Vehicle ends its turn in a Jagged Sinkhole, or any Vehicle lands in a Jagged Sinkhole.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round, on Initiative Count (Initiative +8)",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Perception (DC 22): The character recognizes the Jagged Sinkhole. Pilot (DC 22): Using the Vehicle's drive systems, the character is able to dislodge the ship from the Jagged Sinkhole. This Skill Check requires a Move Action; if the check is successful, the Vehicle can move as normal. Use the Force (DC Varies): The Move Object Force Power can be used to pull a trapped Vehicle out of the Jagged Sinkhole.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>The Vehicle slowly begins to sink into the rocks upon which it sits. Jagged shards of volcanic rock dig into the hull of the Vehicle, grinding and tearing holes as it slips further below the surface.</i> </p><p>Vehicles that land on the surface of <a href=\"https://swse.fandom.com/wiki/Durace\" title=\"Durace\">Durace</a> may sink into the jagged volcanic rock that appears to be solid but actually hides a deep sinkhole. </p><h2><span id=\"Jagged_Sinkhole_Statistics_.28CL_9.29\"></span><span class=\"mw-headline\" id=\"Jagged_Sinkhole_Statistics_(CL_9)\">Jagged Sinkhole Statistics (CL 9)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Natural </p><p><b>Trigger:</b> A <a href=\"https://swse.fandom.com/wiki/Ground_Vehicle\" class=\"mw-redirect\" title=\"Ground Vehicle\">Ground Vehicle</a> ends its turn in a Jagged Sinkhole, or any <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> lands in a Jagged Sinkhole. </p><p><b>Attack:</b> +9 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> Each round, on <a href=\"https://swse.fandom.com/wiki/Initiative_Count\" class=\"mw-redirect\" title=\"Initiative Count\">Initiative Count</a> (<a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a> +8) </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> (DC 22):</b> The character recognizes the Jagged Sinkhole.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> (DC 22):</b> Using the Vehicle's drive systems, the character is able to dislodge the ship from the Jagged Sinkhole. This Skill Check requires a <a href=\"https://swse.fandom.com/wiki/Move_Action\" class=\"mw-redirect\" title=\"Move Action\">Move Action</a>; if the check is successful, the Vehicle can move as normal.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> (DC Varies):</b> The <i><a href=\"https://swse.fandom.com/wiki/Move_Object\" title=\"Move Object\">Move Object</a></i> Force Power can be used to pull a trapped <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> out of the Jagged Sinkhole.</li>\n</ul>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Jagged Sinkhole",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244561,
+    "modifiedTime": 1749263244561,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "I5R3Ybx7wDg4izAU",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!I5R3Ybx7wDg4izAU"
+}

@@ -1,0 +1,71 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "1d6",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "The encounter begins, or a predetermined round number begins (Gamemaster's choice)",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each Round on Initiative Count (Initiative +8) for 10 Rounds",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Acrobatics (DC 22): As a Reaction to being hit by this Hazard's attack, the character can make an Acrobatics check to keep from being Knocked Prone. Knowledge (Physical Sciences) (DC 17): The character recognizes the area as one susceptible to flash flooding. Swim (DC 17): The character makes this check as a part of a Move Action, and if successful can Swim as normal in the flooded area (This skill can only be used after five rounds of flooding).",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: Each round that it attacks after the first round, the Flash Flood gains a cumulative +1 bonus to its attack rolls. After three rounds, the water is rushing into the area at knee height to a Human; after five rounds, the water is at waist height; and after ten rounds the water is higher than an average Human's head. After ten rounds, the area is effectively flooded, and Gamemasters can either allow heroes to Swim as normal or use the Flooded River Hazard.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>Water begins to trickle across the ground slowly, then grows into a rush as flood waters push their way across the ground at breakneck pace.</i> </p><p>The nature of the landscape on <a href=\"https://swse.fandom.com/wiki/Volik\" title=\"Volik\">Volik</a> lends itself to Flash Floods. While most of the time this does no more harm than washing away some hidden cache of weapon and contraband, in the right spot a Flash Flood can turn a once-dry plain into a quick-flowing river in a matter of seconds. Gamemasters can use the Hazard to represent Flash Floods that spring up when the heroes are engaged in a combat encounter. The area of the Flash Flood can start small and grow over time, or the entire area of the battlefield could be subjected to the Flash Flood Hazard. </p><h2><span id=\"Flash_Flood_Statistics_.28CL_7.29\"></span><span class=\"mw-headline\" id=\"Flash_Flood_Statistics_(CL_7)\">Flash Flood Statistics (CL 7)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b>&nbsp;Natural </p><p><b>Trigger:</b> The encounter begins, or a predetermined round number begins (Gamemaster's choice) </p><p><b>Attack:</b> +7 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> Each Round on <a href=\"https://swse.fandom.com/wiki/Initiative_Count\" class=\"mw-redirect\" title=\"Initiative Count\">Initiative Count</a> (<a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a> +8) for 10 Rounds </p><p><b>Suggested&nbsp;<a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b>&nbsp;The following are suggested&nbsp;<a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>&nbsp;for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Acrobatics\" title=\"Acrobatics\">Acrobatics</a> (DC 22):</b> As a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a> to being hit by this Hazard's attack, the character can make an <a href=\"https://swse.fandom.com/wiki/Acrobatics\" title=\"Acrobatics\">Acrobatics</a> check to keep from being <a href=\"https://swse.fandom.com/wiki/Knocked_Prone\" class=\"mw-redirect\" title=\"Knocked Prone\">Knocked Prone</a>.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Knowledge_(Physical_Sciences)\" class=\"mw-redirect\" title=\"Knowledge (Physical Sciences)\">Knowledge (Physical Sciences)</a> (DC 17):</b> The character recognizes the area as one susceptible to flash flooding.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Swim\" title=\"Swim\">Swim</a> (DC 17):</b> The character makes this check as a part of a <a href=\"https://swse.fandom.com/wiki/Move_Action\" class=\"mw-redirect\" title=\"Move Action\">Move Action</a>, and if successful can <a href=\"https://swse.fandom.com/wiki/Swim\" title=\"Swim\">Swim</a> as normal in the flooded area (This skill can only be used after five rounds of flooding).</li>\n</ul><p><b>Special:</b> Each round that it attacks after the first round, the Flash Flood gains a cumulative +1 bonus to its attack rolls. After three rounds, the water is rushing into the area at knee height to a <a href=\"https://swse.fandom.com/wiki/Human\" title=\"Human\">Human</a>; after five rounds, the water is at waist height; and after ten rounds the water is higher than an average Human's head. After ten rounds, the area is effectively flooded, and Gamemasters can either allow heroes to <a href=\"https://swse.fandom.com/wiki/Swim\" title=\"Swim\">Swim</a> as normal or use the <a href=\"https://swse.fandom.com/wiki/Flooded_River\" title=\"Flooded River\">Flooded River</a> Hazard. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Flash Flood",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244504,
+    "modifiedTime": 1749263244504,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "FNdyIPzHQzXvjEp7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!FNdyIPzHQzXvjEp7"
+}

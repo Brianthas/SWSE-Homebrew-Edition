@@ -1,0 +1,74 @@
+{
+  "img": "systems/swse/icon/feat/Extra Second Wind.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: Star Wars Saga Edition Core Rulebook</i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You tend to come back from the edge of oblivion more often.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in <a href=\"https://swse.fandom.com/wiki/Endurance\" title=\"Endurance\">Endurance</a></p><p><b>Effect:</b> You can catch your <a href=\"https://swse.fandom.com/wiki/Second_Wind\" class=\"mw-redirect\" title=\"Second Wind\">Second Wind</a> one additional time per day, but you can still only catch a <a href=\"https://swse.fandom.com/wiki/Second_Wind\" class=\"mw-redirect\" title=\"Second Wind\">Second Wind</a> once per encounter.</p><p><b>Normal:</b> A hero can normally catch his or her <a href=\"https://swse.fandom.com/wiki/Second_Wind\" class=\"mw-redirect\" title=\"Second Wind\">Second Wind</a> only once per day.</p><p><b>Special:</b> You can take this Feat multiple times; each time you take this Feat, you can catch a <a href=\"https://swse.fandom.com/wiki/Second_Wind\" class=\"mw-redirect\" title=\"Second Wind\">Second Wind</a> one additional time per day. A <a href=\"https://swse.fandom.com/wiki/Nonheroic\" title=\"Nonheroic\">Nonheroic</a> character that takes this Feat for the first time can catch a <a href=\"https://swse.fandom.com/wiki/Second_Wind\" class=\"mw-redirect\" title=\"Second Wind\">Second Wind</a> once per day.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      },
+      {
+        "mode": 2,
+        "value": "1",
+        "key": "bonusSecondWind"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Trained in Endurance",
+      "requirement": "Endurance",
+      "type": "TRAINED SKILL"
+    },
+    "categories": [
+      {
+        "value": "Force Prodigy Bonus Feats"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Force Prodigy Bonus Feats",
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Core Rulebook",
+    "cost": "0"
+  },
+  "name": "Extra Second Wind",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479026874,
+    "modifiedTime": 1761479026874,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "zkfDR1xF4fSADPoq",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!zkfDR1xF4fSADPoq"
+}

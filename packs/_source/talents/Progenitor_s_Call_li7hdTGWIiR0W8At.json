@@ -1,0 +1,67 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You have learned to sense the call of your ancestors and wield it through <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a>. Once per encounter, you can telepathically disrupt an opponent by making a <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check against the target's <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a>. If you succeed, the target is confused by the call, moving -1 <a href=\"https://swse.fandom.com/wiki/Persistent\" class=\"mw-redirect\" title=\"Persistent\">Persistent</a> step down the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a> and losing its <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a> on its next turn.<br><br>A creature can only be affected by this power once per encounter, and the <a href=\"https://swse.fandom.com/wiki/Persistent_Condition\" class=\"mw-redirect\" title=\"Persistent Condition\">Persistent Condition</a> can be removed with a DC 15 <a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a> check or by resting for 8 hours. This is a <a href=\"https://swse.fandom.com/wiki/Mind-Affecting\" class=\"mw-redirect\" title=\"Mind-Affecting\">Mind-Affecting</a> effect.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "a member of The Order of Shasa",
+      "requirement": "The Order of Shasa",
+      "type": "TRADITION"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Force Talent Trees"
+      },
+      {
+        "value": "Force Tradition Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Force Talent Trees",
+      "Force Tradition Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Order of Shasa Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Order_of_Shasa_Talent_Tree",
+    "bonusTalentTree": "Force Talent Trees",
+    "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Progenitor's Call",
+  "flags": {},
+  "type": "talent",
+  "folder": "bUCCCbkbOvso4bx8",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385310104,
+    "modifiedTime": 1734385310104,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "li7hdTGWIiR0W8At",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!li7hdTGWIiR0W8At"
+}

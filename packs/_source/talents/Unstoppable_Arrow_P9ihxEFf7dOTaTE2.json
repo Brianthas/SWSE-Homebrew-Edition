@@ -1,0 +1,73 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "As a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a>, you may make a single attack with an <a href=\"https://swse.fandom.com/wiki/Energy_Bow\" title=\"Energy Bow\">Energy Bow</a> against a target you sensed through the <a href=\"https://swse.fandom.com/wiki/Sense_Surroundings\" class=\"mw-redirect\" title=\"Sense Surroundings\">Sense Surroundings</a> aspect of the <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> skill since the beginning of your turn. That attack ignores all <a href=\"https://swse.fandom.com/wiki/Concealment\" title=\"Concealment\">Concealment</a> and <a href=\"https://swse.fandom.com/wiki/Cover\" title=\"Cover\">Cover</a> from any source that is not resistant to <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> attacks. Attacks made in this way that pass through <a href=\"https://swse.fandom.com/wiki/Cover\" title=\"Cover\">Cover</a> to reach the target deal one less die of damage.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:in: Talent Trees, Force Talent Trees, Force Tradition Talent Trees Dathomiri Witch Talent Tree Edit Edit source History Talk (0) The Force-using witches of the planet Dathomir are primitive yet powerful beings. They use ancient training handed down for generations as the basis of their powers. Only Force-users that are part of The Witches of Dathomir Force Tradition may select Talents from this tree. Contents 1 Adept Spellcaster 2 Charm Beast 3 Command Beast 4 Flight 5 Homebrew Dathomiri Witch Talents 5.1 Binding Sickle 5.2 Dathomiri Hunter 5.3 Ichor Crafter 5.4 Intuitive Aim 5.5 Relentless Arrow 5.6 Sweeping Sickle 5.7 Unstoppable Arrow Adept Spellcaster[ ] You may use any Force Power that normally requires a Swift Action, Move Action, or Standard Action as a Full-Round Action instead. If you choose to do so, you may reroll your Use the Force check to activate that power, but you must accept the result of the reroll, even if it is worse. Charm Beast[ ] You may use a Use the Force check in place of a Persuasion check when attempting to change the Attitude of an undomesticated creature with an Intelligence of 2 or less. Additionally, you do not take the normal -5 penalty on the check if the creature can't speak or understand your language. This Talent is identical to the Beastwarden Talent of the same name, and both are considered to be the same Talent for the purposes of satisfying prerequisites. Command Beast[ ] Prerequisite: Charm Beast Whenever you manage to shift the Attitude of a Beast to Indifferent or Friendly, you may treat that creature as a domesticated animal- but for you only (it remains undomesticated in its response to other creatures). Additionally, you may use this Beast as a Mount, as per the Ride skill, provided that it is at least one size category larger than you and has a comfortable place for you to sit. Flight[ ] Prerequisite: Adept Spellcaster As a Swift Action, you can spend a Force Point to fly. You gain a fly speed equal to your base speed, and you can ascend at half speed or descend at double speed. The flight lasts until the start of your next turn; if you're still airborne at that time, you fall. Homebrew Dathomiri Witch Talents[ ] This Homebrew Content has not been reviewed in a meaningful manner. If you wish to review this content yourself, then see Untested for more details. Binding Sickle[ ] Homebrew Reference Book: Dathomir Field Guide You can make Grab or Grapple attempts against any enemy within the reach of a Chain Sickle that you are wielding. These attempts use your weapon's attack bonus with in place of your Grapple modifier. When you would deal damage as part of a Grapple (such as through the Throw or Crush feats), you deal additional damage equal to your Dexterity modifier (minimum +1). Dathomiri Hunter[ ] Homebrew Reference Book: Dathomir Field Guide When you use a Chain Sickle or an Energy Bow, your damage die increases by one step (from d8s to d10s). In addition, you gain a +2 bonus to Use the Force checks made to Sense Surroundings. Ichor Crafter[ ] Homebrew Reference Book: Dathomir Field Guide Prerequisite: Ichor Creation Items you create through the Ichor Creation Force Power gain one applicable benefit as though enhanced by the Tech Specialist feat. Intuitive Aim[ ] Homebrew Reference Book: Dathomir Field Guide Prerequisite: Dathomiri Hunter When you take the Aim Action with an Energy Bow, you need only spend a single Swift Action (instead of the normal two Swift Actions) as long as you have used the Sense Surroundings aspect of the Use the Force skill since the beginning of your turn. Relentless Arrow[ ] Homebrew Reference Book: Dathomir Field Guide Prerequisite: Move Object Once per turn as a Free Action, you can expend one use of the Move Object power from your Force Power Suite to reroll an attack roll made with an Energy Bow. The result of the reroll must be accepted, even if it is worse. Sweeping Sickle[ ] Homebrew Reference Book: Dathomir Field Guide Prerequisite: Binding Sickle When you miss with an attack made with a Chain Sickle, or fail a Grapple attempt made with one, the target of that attack or attempt takes damage equal to your Dexterity modifier (minimum +1). Unstoppable Arrow[ ] Homebrew Reference Book: Dathomir Field Guide Prerequisites: Dathomiri Hunter, Intuitive Aim As a Standard Action, you may make a single attack with an Energy Bow against a target you sensed through the Sense Surroundings aspect of the Use the Force skill since the beginning of your turn. That attack ignores all Concealment and Cover from any source that is not resistant to Lightsaber attacks. Attacks made in this way that pass through Cover to reach the target deal one less die of damage. Categories Categories: Talent Trees Force Talent Trees Force Tradition Talent Trees Add category Cancel Save Community content is available under CC-BY-SA unless otherwise noted. More Fandoms Fantasy Sci-fi Star Wars",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "a member of The Witches of Dathomir",
+      "requirement": "The Witches of Dathomir",
+      "type": "TRADITION"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Force Talent Trees"
+      },
+      {
+        "value": "Force Tradition Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Force Talent Trees",
+      "Force Tradition Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Dathomiri Witch Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Dathomiri_Witch_Talent_Tree",
+    "bonusTalentTree": "Force Talent Trees",
+    "source": "Dathomir Field Guide",
+    "cost": "0"
+  },
+  "name": "Unstoppable Arrow",
+  "flags": {},
+  "type": "talent",
+  "folder": "pX4bbyAVHgrVUNt0",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385304179,
+    "modifiedTime": 1734385304179,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "P9ihxEFf7dOTaTE2",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!P9ihxEFf7dOTaTE2"
+}

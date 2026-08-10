@@ -1,0 +1,107 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Jedi_Academy_Training_Manual\" title=\"Star Wars Saga Edition Jedi Academy Training Manual\">Star Wars Saga Edition Jedi Academy Training Manual</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a></i> </p><p><b>[<i><a href=\"https://swse.fandom.com/wiki/Lightsaber_Form\" class=\"mw-redirect\" title=\"Lightsaber Form\">Lightsaber Form</a></i>]</b> </p><p>You seize the moment when your opponent gives you an opening, darting in to strike. </p><p><b>Time:</b> <a href=\"https://swse.fandom.com/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a> (when you make an <a href=\"https://swse.fandom.com/wiki/Attack_of_Opportunity\" class=\"mw-redirect\" title=\"Attack of Opportunity\">Attack of Opportunity</a>) </p><p><b>Targets:</b> One enemy within reach </p><p><b>Make a <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check.</b> The result of the check determines the effects, if any: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td>If you hit with your <a href=\"https://swse.fandom.com/wiki/Attack_of_Opportunity\" class=\"mw-redirect\" title=\"Attack of Opportunity\">Attack of Opportunity</a>, you deal an additional +1 die of damage. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td>If you hit with your <a href=\"https://swse.fandom.com/wiki/Attack_of_Opportunity\" class=\"mw-redirect\" title=\"Attack of Opportunity\">Attack of Opportunity</a>, you deal an additional +2 dice of damage. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td>If you hit with your <a href=\"https://swse.fandom.com/wiki/Attack_of_Opportunity\" class=\"mw-redirect\" title=\"Attack of Opportunity\">Attack of Opportunity</a>, you deal an additional +3 dice of damage. </td>\n  </tr> \n  <tr> \n   <td>35 </td> \n   <td>If you hit with your <a href=\"https://swse.fandom.com/wiki/Attack_of_Opportunity\" class=\"mw-redirect\" title=\"Attack of Opportunity\">Attack of Opportunity</a>, you deal an additional +4 dice of damage. </td>\n  </tr>\n </tbody>\n</table><p><b>Lightsaber Form (<a href=\"https://swse.fandom.com/wiki/Makashi\" class=\"mw-redirect\" title=\"Makashi\">Makashi</a>)</b>: If you have the <a href=\"https://swse.fandom.com/wiki/Makashi\" class=\"mw-redirect\" title=\"Makashi\"><b>Makashi</b></a> Talent, you gain a +2 <a href=\"https://swse.fandom.com/wiki/Force\" class=\"mw-redirect\" title=\"Force\">Force</a> bonus on <a href=\"https://swse.fandom.com/wiki/Attacks_of_Opportunity\" title=\"Attacks of Opportunity\">Attacks of Opportunity</a> (including this one) until the end of your next turn. </p><p><b>Special:</b> If you hit with the <a href=\"https://swse.fandom.com/wiki/Attack_of_Opportunity\" class=\"mw-redirect\" title=\"Attack of Opportunity\">Attack of Opportunity</a>, you can immediately spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> as a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a> to reduce the target's Speed by 2 squares until the end of its next turn. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Lightsaber Form",
+        "key": "tag"
+      },
+      {
+        "mode": 2,
+        "value": "Free Action (when you make an Attack of Opportunity)",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "One enemy within reach",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "cumulative"
+      },
+      {
+        "mode": 2,
+        "value": "Use the Force",
+        "key": "rollType"
+      },
+      {
+        "mode": 2,
+        "value": "20:If you hit with your Attack of Opportunity, you deal an additional +1 die of damage.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "25:If you hit with your Attack of Opportunity, you deal an additional +2 dice of damage.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "30:If you hit with your Attack of Opportunity, you deal an additional +3 dice of damage.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "35:If you hit with your Attack of Opportunity, you deal an additional +4 dice of damage.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "Reference Book: Star Wars Saga Edition Jedi Academy Training Manual See also: Force Powers [Lightsaber Form] You seize the moment when your opponent gives you an opening, darting in to strike. Time: Free Action (when you make an Attack of Opportunity) Targets: One enemy within reach Make a Use the Force check. The result of the check determines the effects, if any: Lightsaber Form (Makashi): If you have the Makashi Talent, you gain a +2 Force bonus on Attacks of Opportunity (including this one) until the end of your next turn. Special: If you hit with the Attack of Opportunity, you can immediately spend a Force Point as a Reaction to reduce the target's Speed by 2 squares until the end of its next turn.",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Lightsaber Form Force Powers"
+      },
+      {
+        "value": "Force Powers"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Contentious Opportunity",
+  "flags": {},
+  "type": "forcePower",
+  "img": "systems/swse/icon/force-power/Contentious_Opportunity.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738608589486,
+    "modifiedTime": 1738608589486,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "7OhLbvC5tHxZU1VZ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!7OhLbvC5tHxZU1VZ"
+}

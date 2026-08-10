@@ -1,0 +1,70 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You can reroll any <a href=\"https://swse.fandom.com/wiki/Ride\" title=\"Ride\">Ride</a> check, but the result of the reroll must be accepted, even if it is worse.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:You can reroll any<a href=\"https://swse.fandom.com/wiki/Ride\" title=\"Ride\">Ride</a>check, but the result of the reroll must be accepted, even if it is worse.",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Trained in Ride",
+      "requirement": "Ride",
+      "type": "TRAINED SKILL"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Scout Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Scout Talent Trees",
+      "Smuggler Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Mobile Scout Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Mobile_Scout_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Expert Rider",
+  "flags": {},
+  "type": "talent",
+  "folder": "zWfOJZHKxzXpXMFZ",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385309852,
+    "modifiedTime": 1786036141316,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "2LhhOOnbvdelPrna",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!2LhhOOnbvdelPrna"
+}

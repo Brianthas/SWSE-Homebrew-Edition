@@ -1,0 +1,91 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You may use your <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check modifier instead of your <a href=\"https://swse.fandom.com/wiki/Deception\" title=\"Deception\">Deception</a> check for purposes of <a href=\"https://swse.fandom.com/wiki/Deceptive_Appearance\" class=\"mw-redirect\" title=\"Deceptive Appearance\">Deceptive Appearance</a>. You are considered <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in the <a href=\"https://swse.fandom.com/wiki/Deception\" title=\"Deception\">Deception</a> skill for the purposes of using this Talent. If you are entitled to a <a href=\"https://swse.fandom.com/wiki/Deception\" title=\"Deception\">Deception</a> check reroll for <a href=\"https://swse.fandom.com/wiki/Deceptive_Appearance\" class=\"mw-redirect\" title=\"Deceptive Appearance\">Deceptive Appearance</a>, you may reroll your <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check instead.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:You may use your<a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a>check modifier instead of your<a href=\"https://swse.fandom.com/wiki/Deception\" title=\"Deception\">Deception</a>check for purposes of<a href=\"https://swse.fandom.com/wiki/Deceptive_Appearance\" class=\"mw-redirect\" title=\"Deceptive Appearance\">Deceptive Appearance</a>. You are considered<a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a>in the<a href=\"https://swse.fandom.com/wiki/Deception\" title=\"Deception\">Deception</a>skill for the purposes of using this Talent. If you are entitled to a<a href=\"https://swse.fandom.com/wiki/Deception\" title=\"Deception\">Deception</a>check reroll for<a href=\"https://swse.fandom.com/wiki/Deceptive_Appearance\" class=\"mw-redirect\" title=\"Deceptive Appearance\">Deceptive Appearance</a>, you may reroll your<a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a>check instead.",
+        "key": "skillReRoll"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "a member of The Sorcerers of Tund",
+      "requirement": "The Sorcerers of Tund",
+      "type": "TRADITION"
+    },
+    "categories": [
+      {
+        "value": "Untested"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Force Talent Trees"
+      },
+      {
+        "value": "Force Tradition Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Untested",
+      "Homebrew Content",
+      "Force Talent Trees",
+      "Force Tradition Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Sorcerer of Tund Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Sorcerer_of_Tund_Talent_Tree",
+    "bonusTalentTree": "Force Talent Trees",
+    "source": "The Centrality",
+    "cost": "0"
+  },
+  "name": "Illusionary Disguise",
+  "flags": {},
+  "type": "talent",
+  "folder": "FP4JDPtBlRVjtxP8",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385312196,
+    "modifiedTime": 1734385312196,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "kcO0UWFOXsLHLYfu",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!kcO0UWFOXsLHLYfu"
+}

@@ -1,0 +1,113 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You have learned how to extend the range of an Amphistaff's Spit Venom. The Spit Venom attack range is increased to 20 squares (instead of 10 square), but attacks made beyond 10 squares incur a -2 penalty on the attack roll.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Weapon Focus (Amphistaff)",
+          "requirement": "Weapon Focus (Amphistaff)",
+          "type": "FEAT"
+        },
+        {
+          "text": "Base Attack Bonus 5",
+          "requirement": "5",
+          "type": "BASE ATTACK BONUS"
+        }
+      ],
+      "text": "Weapon Focus (Amphistaff), and Base Attack Bonus 5",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Vanguard Talent Trees"
+      },
+      {
+        "value": "Untested"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Elite Trooper Talent Trees"
+      },
+      {
+        "value": "Soldier Talent Trees"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Gladiator Talent Trees"
+      },
+      {
+        "value": "Melee Duelist Talent Trees"
+      },
+      {
+        "value": "Enforcer Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Vanguard Talent Trees",
+      "Untested",
+      "Elite Trooper Talent Trees",
+      "Soldier Talent Trees",
+      "Homebrew Content",
+      "Gladiator Talent Trees",
+      "Melee Duelist Talent Trees",
+      "Enforcer Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Master of the Amphistaff Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Master_of_the_Amphistaff_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "New Jedi Order Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Spiral Shower",
+  "flags": {},
+  "type": "talent",
+  "folder": "5ZAOykoXP6Efag14",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385308698,
+    "modifiedTime": 1734385308698,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "ziIq1ESo8ehMLQ4Q",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!ziIq1ESo8ehMLQ4Q"
+}

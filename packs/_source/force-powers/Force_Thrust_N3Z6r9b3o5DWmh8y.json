@@ -1,0 +1,82 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>See also: <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a></i> </p><p>You use <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a> to push a target away from you. </p><p><b>[<i><a href=\"https://swse.fandom.com/wiki/Telekinetic\" class=\"mw-redirect\" title=\"Telekinetic\">Telekinetic</a></i>]</b> </p><p><b>Time:</b> <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a> </p><p><b>Targets:</b> One object or character within 12 squares and within line of sight. </p><p><b>Make a <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check.</b> The target makes a <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> check. If you beat the target's <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> check, you push it back 1 square plus an additional square for every 5 points by which you exceed the target's check result. If you push the target into a larger object, the target takes 1d6 points of damage. </p><p>The target adds its <a href=\"https://swse.fandom.com/wiki/Base_Attack_Bonus\" class=\"mw-redirect\" title=\"Base Attack Bonus\">Base Attack Bonus</a> and its size modifier to its <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> check: Colossal, +20; Gargantuan, +15; Huge, +10; Large, +5; Medium, +0; Small, -5; Tiny, -10; Diminutive, -15; Fine, -20. In addition, it gets a +5 stability bonus if it has more than two legs or is otherwise exceptionally stable. </p><p><b>Special:</b> You can spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> to apply a -5 penalty to the target's <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> check to resist your <i>Force Thrust</i>. Additionally, if you successfully push the target into a larger object, you deal an additional 2d6 points of damage from the extreme force of the thrust. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Telekinetic",
+        "key": "tag"
+      },
+      {
+        "mode": 2,
+        "value": "Standard Action",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "One object or character within 12 squares and within line of sight.",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": "Use the Force",
+        "key": "rollType"
+      },
+      {
+        "mode": 2,
+        "value": "See also: Force Powers You use The Force to push a target away from you. [Telekinetic] Time: Standard Action Targets: One object or character within 12 squares and within line of sight. Make a Use the Force check. The target makes a Strength check. If you beat the target's Strength check, you push it back 1 square plus an additional square for every 5 points by which you exceed the target's check result. If you push the target into a larger object, the target takes 1d6 points of damage. The target adds its Base Attack Bonus and its size modifier to its Strength check: Colossal, +20; Gargantuan, +15; Huge, +10; Large, +5; Medium, +0; Small, -5; Tiny, -10; Diminutive, -15; Fine, -20. In addition, it gets a +5 stability bonus if it has more than two legs or is otherwise exceptionally stable. Special: You can spend a Force Point to apply a -5 penalty to the target's Strength check to resist your Force Thrust. Additionally, if you successfully push the target into a larger object, you deal an additional 2d6 points of damage from the extreme force of the thrust.",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Force Powers"
+      },
+      {
+        "value": "Telekinetic Force Powers"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Force Thrust",
+  "flags": {},
+  "type": "forcePower",
+  "img": "systems/swse/icon/force-power/Force_Thrust.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738608590164,
+    "modifiedTime": 1738608590164,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "N3Z6r9b3o5DWmh8y",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!N3Z6r9b3o5DWmh8y"
+}

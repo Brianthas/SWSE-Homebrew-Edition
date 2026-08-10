@@ -1,0 +1,107 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a></i> </p><p>You call upon <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a> to surround an enemy in a swirling vortex of <a href=\"https://swse.fandom.com/wiki/Force\" class=\"mw-redirect\" title=\"Force\">Force</a> energy. The whirlwind lifts them about half a meter off the ground, spinning them in the air and buffeting them with <a href=\"https://swse.fandom.com/wiki/Force\" class=\"mw-redirect\" title=\"Force\">Force</a> energy. </p><p><b>[<i><a href=\"https://swse.fandom.com/wiki/Telekinetic\" class=\"mw-redirect\" title=\"Telekinetic\">Telekinetic</a></i>]</b> </p><p><b>Time:</b>&nbsp;<a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a> </p><p><b>Targets:</b>&nbsp;One creature or <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> within 12 squares, and within line of sight. </p><p><b>Make a&nbsp;<a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a>&nbsp;check. </b>The result of the check determines the effects, if any: </p><p>Compare the result of the check to the target's&nbsp;<a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>. If the check result equals or exceeds the target's&nbsp;<a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>, the target is captured within the whirlwind and immobilized until the beginning of your next turn. Any attack rolls or <a href=\"https://swse.fandom.com/wiki/Skill_Checks\" title=\"Skill Checks\">Skill Checks</a> the target attempts while within the whirlwind are at a -5 penalty. The target falls <a href=\"https://swse.fandom.com/wiki/Prone\" class=\"mw-redirect\" title=\"Prone\">Prone</a> when the effect ends. The target also sustains damage at the end of your turn as determined by the results of your <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td> </td> \n   <td>The target takes 1d6 points of <a href=\"https://swse.fandom.com/wiki/Force\" class=\"mw-redirect\" title=\"Force\">Force</a> damage. </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td> </td> \n   <td>The target takes 2d6 points of <a href=\"https://swse.fandom.com/wiki/Force\" class=\"mw-redirect\" title=\"Force\">Force</a> damage. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td> </td> \n   <td>The target takes 3d6 points of <a href=\"https://swse.fandom.com/wiki/Force\" class=\"mw-redirect\" title=\"Force\">Force</a> damage. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td> </td> \n   <td>The target takes 4d6 points of <a href=\"https://swse.fandom.com/wiki/Force\" class=\"mw-redirect\" title=\"Force\">Force</a> damage. </td>\n  </tr>\n </tbody>\n</table><p>The target adds a size modifier to its <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> for purposes of this <a href=\"https://swse.fandom.com/wiki/Force_Power\" class=\"mw-redirect\" title=\"Force Power\">Force Power</a>: Colossal, +50; Gargantuan, +20; Huge, +10; Large, +5; Medium and smaller, +0. </p><p><b>Special:&nbsp;</b>You can spend a&nbsp;<a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a>&nbsp;to increase the penalty to the target's attack rolls and <a href=\"https://swse.fandom.com/wiki/Skill_Checks\" title=\"Skill Checks\">Skill Checks</a> while inside the whirlwind from a -5 penalty to a -10 penalty. </p><p>You can maintain&nbsp;<i>Force Whirlwind</i>&nbsp;from round to round, extending the normal duration. Maintaining the&nbsp;<i>Force Whirlwind</i>&nbsp;<a href=\"https://swse.fandom.com/wiki/Force_Power\" class=\"mw-redirect\" title=\"Force Power\">Force Power</a>&nbsp;is a&nbsp;<a href=\"https://swse.fandom.com/wiki/Move_Action\" class=\"mw-redirect\" title=\"Move Action\">Move Action</a>, and you must make a new&nbsp;<a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a>&nbsp;check each round. If you take damage while maintaining&nbsp;<i>Force Whirlwind</i>, you must succeed on a&nbsp;<a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a>&nbsp;check (DC = 15 + damage taken) to continue maintaining the&nbsp;<i>Force Whirlwind</i>. If a target within a <i>Force Whirlwind</i> is attacked or otherwise damaged or moved down the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a> by you or one of your allies, the effects of the <i>Force Whirlwind</i> end immediately. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Telekinetic",
+        "key": "tag"
+      },
+      {
+        "mode": 2,
+        "value": "Standard Action",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "One creature or Droid within 12 squares, and within line of sight.",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "cumulative"
+      },
+      {
+        "mode": 2,
+        "value": "Use the Force",
+        "key": "rollType"
+      },
+      {
+        "mode": 2,
+        "value": "15:The target takes 1d6 points of Force damage.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "20:The target takes 2d6 points of Force damage.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "25:The target takes 3d6 points of Force damage.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "30:The target takes 4d6 points of Force damage.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "Reference Book: Star Wars Saga Edition Knights of the Old Republic Campaign Guide See also: Force Powers You call upon The Force to surround an enemy in a swirling vortex of Force energy. The whirlwind lifts them about half a meter off the ground, spinning them in the air and buffeting them with Force energy. [Telekinetic] Time: Standard Action Targets: One creature or Droid within 12 squares, and within line of sight. Make a Use the Force check. The result of the check determines the effects, if any: Compare the result of the check to the target's Fortitude Defense. If the check result equals or exceeds the target's Fortitude Defense, the target is captured within the whirlwind and immobilized until the beginning of your next turn. Any attack rolls or Skill Checks the target attempts while within the whirlwind are at a -5 penalty. The target falls Prone when the effect ends. The target also sustains damage at the end of your turn as determined by the results of your Use the Force check: The target adds a size modifier to its Fortitude Defense for purposes of this Force Power: Colossal, +50; Gargantuan, +20; Huge, +10; Large, +5; Medium and smaller, +0. Special: You can spend a Force Point to increase the penalty to the target's attack rolls and Skill Checks while inside the whirlwind from a -5 penalty to a -10 penalty. You can maintain Force Whirlwind from round to round, extending the normal duration. Maintaining the Force Whirlwind Force Power is a Move Action, and you must make a new Use the Force check each round. If you take damage while maintaining Force Whirlwind, you must succeed on a Use the Force check (DC = 10 + damage taken) to continue maintaining the Force Whirlwind. If a target within a Force Whirlwind is attacked or otherwise damaged or moved down the Condition Track by you or one of your allies, the effects of the Force Whirlwind end immediately.",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Force Powers"
+      },
+      {
+        "value": "Telekinetic Force Powers"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Force Whirlwind",
+  "flags": {},
+  "type": "forcePower",
+  "img": "systems/swse/icon/force-power/Force_Whirlwind.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1738608590198,
+    "modifiedTime": 1786067532223,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "wQsAMnO2h9F6vGLy",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!wQsAMnO2h9F6vGLy"
+}

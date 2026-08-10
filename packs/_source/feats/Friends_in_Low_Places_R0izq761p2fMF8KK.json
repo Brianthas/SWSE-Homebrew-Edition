@@ -1,0 +1,65 @@
+{
+  "img": "systems/swse/icon/feat/Friends_in_Low_Places.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>Given enough time, you can dig up the right tool for the job.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in <a href=\"https://swse.fandom.com/wiki/Gather_Information\" title=\"Gather Information\">Gather Information</a></p><p><b>Effect:</b> Whenever you would acquire a license for a <a href=\"https://swse.fandom.com/wiki/Restricted\" class=\"mw-redirect\" title=\"Restricted\">Restricted</a> or <a href=\"https://swse.fandom.com/wiki/Military\" class=\"mw-redirect\" title=\"Military\">Military</a> object, you can substitute a <a href=\"https://swse.fandom.com/wiki/Gather_Information\" title=\"Gather Information\">Gather Information</a> check for a <a href=\"https://swse.fandom.com/wiki/Knowledge\" title=\"Knowledge\">Knowledge (Bureaucracy)</a> check. Reduce the <a href=\"https://swse.fandom.com/wiki/Black_Market\" class=\"mw-redirect\" title=\"Black Market\">Black Market</a> cost multiplier of such items by 1.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Trained in Gather Information",
+      "requirement": "Gather Information",
+      "type": "TRAINED SKILL"
+    },
+    "categories": [
+      {
+        "value": "Scoundrel Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Noble Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Scoundrel Bonus Feats",
+      "General Feats",
+      "Noble Bonus Feats",
+      "Smuggler Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Scum and Villainy",
+    "cost": "0"
+  },
+  "name": "Friends in Low Places",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1761479027123,
+    "modifiedTime": 1786036141515,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "R0izq761p2fMF8KK",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!R0izq761p2fMF8KK"
+}

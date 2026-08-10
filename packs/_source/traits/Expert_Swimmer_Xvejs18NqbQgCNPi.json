@@ -1,0 +1,51 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p>A being may choose to reroll any&nbsp;<a href=\"https://swse.fandom.com/wiki/Swim\" title=\"Swim\">Swim</a>&nbsp;check, but the result of the reroll must be accepted, even if it is worse. In addition, a being may choose to&nbsp;<a href=\"https://swse.fandom.com/wiki/Take_10\" class=\"mw-redirect\" title=\"Take 10\">Take 10</a>&nbsp;on&nbsp;<a href=\"https://swse.fandom.com/wiki/Swim\" title=\"Swim\">Swim</a>&nbsp;checks, even when distracted or threatened.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Swim::A being may choose to reroll any Swim check, but the result of the reroll must be accepted, even if it is worse. In addition, a being may choose to Take 10 on Swim checks, even when distracted or threatened.",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "prerequisite": null,
+    "cost": "0"
+  },
+  "name": "Expert Swimmer",
+  "flags": {},
+  "type": "trait",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764446475449,
+    "modifiedTime": 1764446475449,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "Xvejs18NqbQgCNPi",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!Xvejs18NqbQgCNPi"
+}

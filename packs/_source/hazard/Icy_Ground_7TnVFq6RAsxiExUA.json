@@ -1,0 +1,71 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2d10",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A being or Wheeled Vehicle moves into the Icy Ground.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "On Trigger",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Jump (DC 19): The character leaps over the ice, gaining a +5 circumstance bonus to Reflex Defense to avoid the Hazard. Pilot (DC 14): When operating a Wheeled Vehicle, the character maintains control of the vehicle even if the Hazard's attack is successful. Stealth (DC 24): Using the same technique used for moving silently, the character can move at half speed and is not affected by the Hazard's attack.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: Immediately after the Hazard's successful attack, the target is knocked Prone, ending its Move Action. The target must spend a Move Action to stand up. As the target attempts to regain its footing, the Hazard makes an Attack of Opportunity against the target with a -5 penalty. If the attack is successful, the target slips on the ice and falls Prone again, but it takes no extra damage.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Artificial or Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>The slick surface of the ice makes any movement a gamble.</i> </p><p>Attacks made by this hazard can be avoided if the target is using equipment that grants better traction on icy surfaces. Spiked footwear, for example, provides a hero with the means to keep his or her balance on slippery surfaces and to avoid the Hazard's attack. Heroes riding in a vehicle that does not touch the ground are not affected by the Hazard's attack. </p><h2><span id=\"Icy_Ground_Statistics_.28CL_2.29\"></span><span class=\"mw-headline\" id=\"Icy_Ground_Statistics_(CL_2)\">Icy Ground Statistics (CL 2)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Artificial or Natural </p><p><b>Trigger:</b> A being or <a href=\"https://swse.fandom.com/wiki/Wheeled_Vehicle\" class=\"mw-redirect\" title=\"Wheeled Vehicle\">Wheeled Vehicle</a> moves into the Icy Ground. </p><p><b>Attack:</b> +4 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> On Trigger </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Jump\" title=\"Jump\">Jump</a> (DC 19):</b> The character leaps over the ice, gaining a +5 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> to avoid the Hazard.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> (DC 14):</b> When operating a <a href=\"https://swse.fandom.com/wiki/Wheeled_Vehicle\" class=\"mw-redirect\" title=\"Wheeled Vehicle\">Wheeled Vehicle</a>, the character maintains control of the vehicle even if the Hazard's attack is successful.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a> (DC 24):</b> Using the same technique used for moving silently, the character can move at half speed and is not affected by the Hazard's attack.</li>\n</ul><p><b>Special:</b> Immediately after the Hazard's successful attack, the target is knocked <a href=\"https://swse.fandom.com/wiki/Prone\" class=\"mw-redirect\" title=\"Prone\">Prone</a>, ending its <a href=\"https://swse.fandom.com/wiki/Move\" title=\"Move\">Move</a> Action. The target must spend a <a href=\"https://swse.fandom.com/wiki/Move_Action\" class=\"mw-redirect\" title=\"Move Action\">Move Action</a> to stand up. As the target attempts to regain its footing, the Hazard makes an <a href=\"https://swse.fandom.com/wiki/Attack_of_Opportunity\" class=\"mw-redirect\" title=\"Attack of Opportunity\">Attack of Opportunity</a> against the target with a -5 penalty. If the attack is successful, the target slips on the ice and falls <a href=\"https://swse.fandom.com/wiki/Prone\" class=\"mw-redirect\" title=\"Prone\">Prone</a> again, but it takes no extra damage. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Icy Ground",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244537,
+    "modifiedTime": 1749263244537,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "7TnVFq6RAsxiExUA",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!7TnVFq6RAsxiExUA"
+}

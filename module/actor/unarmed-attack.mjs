@@ -12,6 +12,10 @@ export class UnarmedAttack {
         return "Unarmed Attack";
     }
 
+    get img() {
+        return "systems/swse/icon/item/weapons/fist.webp";
+    }
+
     get system(){
         return this;
     }

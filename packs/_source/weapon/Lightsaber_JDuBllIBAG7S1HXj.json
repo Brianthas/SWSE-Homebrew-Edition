@@ -1,0 +1,64 @@
+{
+  "name": "Lightsaber",
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Lightsaber.png",
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Homebrew Weapon (tovec.wikidot.com/episode-vii)</i></p><p>May be wielded one- or two-handed.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "one or two handed",
+        "key": "grip"
+      }
+    ],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "0",
+    "weight": "",
+    "availability": "",
+    "size": "Small",
+    "type": "",
+    "subtype": "Lightsabers",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "lightSlotCost": 1,
+    "damageDie": "3d8",
+    "damageType": "Energy"
+  },
+  "effects": [],
+  "_id": "JDuBllIBAG7S1HXj",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786054832720,
+    "modifiedTime": 1786056458391,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!JDuBllIBAG7S1HXj"
+}

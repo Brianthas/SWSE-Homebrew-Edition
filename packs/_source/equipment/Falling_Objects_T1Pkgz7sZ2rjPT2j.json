@@ -1,0 +1,53 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p>Just as creatures take damage when they fall (see <a href=\"https://swse.fandom.com/wiki/Falling_Damage\" title=\"Falling Damage\">Falling Damage</a>), so too do they take damage when hit by Falling Objects. When a creature could be hit by a Falling Object, make an attack roll (using the attack bonus listed in the table below) against the target's <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>. If the attack succeeds, the target takes the listed damage. If the attack fails, the target takes half damage instead. This is considered an <a href=\"https://swse.fandom.com/wiki/Area_Attack\" class=\"mw-redirect\" title=\"Area Attack\">Area Attack</a>. Objects of Fine and Diminutive size are too small to deal damage, regardless of the distance fallen. A Falling Object must land wholly or partly in a target's <a href=\"https://swse.fandom.com/wiki/Fighting_Space\" title=\"Fighting Space\">Fighting Space</a> to deal damage to the target. </p><p>The GM may adjust the damage depending on the circumstances. For example, a Colossal object might be extremely light (such as a gas-filled passenger balloon). Objects that are forced downward (such as a piston in a <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> factory or a closing door) deal damage as if they were two size categories larger than they actually are. </p><p>Additionally, if the target is at least three size categories smaller than the Falling Object, the target cannot move unless it succeeds on a <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> check to lift the object off itself (see the table below for the check DC) or a DC 15 <a href=\"https://swse.fandom.com/wiki/Acrobatics\" title=\"Acrobatics\">Acrobatics</a> check to crawl out from underneath. The GM can modify the DCs for either check based on the circumstances; for example, a character might find themselves trapped under an object that has opening or gaps that allow them to wiggle free. </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>OBJECT SIZE </th> \n   <th>EXAMPLE(S) </th> \n   <th>ATTACK BONUS </th> \n   <th>DAMAGE </th> \n   <th><a href=\"https://swse.fandom.com/wiki/STRENGTH\" class=\"mw-redirect\" title=\"STRENGTH\">STRENGTH</a> CHECK DC </th>\n  </tr> \n  <tr> \n   <td>Tiny </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Blaster_Pistol\" title=\"Blaster Pistol\">Blaster Pistol</a>, <a href=\"https://swse.fandom.com/wiki/Datapad\" title=\"Datapad\">Datapad</a> </td> \n   <td>-5 </td> \n   <td>1d4 </td> \n   <td>- </td>\n  </tr> \n  <tr> \n   <td>Small </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Blaster_Rifle\" title=\"Blaster Rifle\">Blaster Rifle</a> </td> \n   <td>-2 </td> \n   <td>1d6 </td> \n   <td>- </td>\n  </tr> \n  <tr> \n   <td>Medium </td> \n   <td>Locker, <a href=\"https://swse.fandom.com/wiki/Heavy_Armor\" title=\"Heavy Armor\">Heavy Armor</a> </td> \n   <td>+0 </td> \n   <td>2d6 </td> \n   <td>5 </td>\n  </tr> \n  <tr> \n   <td>Large </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Speeder_Bike\" class=\"mw-redirect\" title=\"Speeder Bike\">Speeder Bike</a> </td> \n   <td>+2 </td> \n   <td>4d6 </td> \n   <td>10 </td>\n  </tr> \n  <tr> \n   <td>Huge </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Landspeeder\" class=\"mw-redirect\" title=\"Landspeeder\">Landspeeder</a> </td> \n   <td>+5 </td> \n   <td>8d6 </td> \n   <td>15 </td>\n  </tr> \n  <tr> \n   <td>Gargantuan </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Starfighter\" class=\"mw-redirect\" title=\"Starfighter\">Starfighter</a> </td> \n   <td>+10 </td> \n   <td>12d6 </td> \n   <td>20 </td>\n  </tr> \n  <tr> \n   <td>Colossal </td> \n   <td><a href=\"https://swse.fandom.com/wiki/AT-AT\" title=\"AT-AT\">AT-AT</a> </td> \n   <td>+20 </td> \n   <td>20d6 </td> \n   <td>25 </td>\n  </tr>\n </tbody>\n</table>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "0",
+    "weight": "",
+    "availability": "",
+    "size": "",
+    "type": "",
+    "subtype": "Equipment",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "equipment": {},
+    "seeAlso": "Hazards"
+  },
+  "name": "Falling Objects",
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263243673,
+    "modifiedTime": 1749263243673,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "T1Pkgz7sZ2rjPT2j",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!T1Pkgz7sZ2rjPT2j"
+}

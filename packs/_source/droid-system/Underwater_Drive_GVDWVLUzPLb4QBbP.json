@@ -1,0 +1,41 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Locomotion Systems",
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "droidPart"
+      }
+    ],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scavenger%27s_Guide_to_Droids\" title=\"Star Wars Saga Edition Scavenger's Guide to Droids\">Star Wars Saga Edition Scavenger's Guide to Droids</a></i></p><p>A <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> purchased on a water world such as <a href=\"https://swse.fandom.com/wiki/Mon_Calamari_(Planet)\" title=\"Mon Calamari (Planet)\">Mon Calamari</a> comes with an Underwater Drive as a standard option. The drive process is simple. The engine draws water in through the front of the drive and expels it quickly out the back. An Underwater Drive gives the <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> a Swim Speed equal to its base land Speed.</p>",
+    "source": "Star Wars Saga Edition Scavenger's Guide to Droids",
+    "cost": "20 x Cost Factor x (Speed Squared)",
+    "weight": "(10 x Cost Factor) Kilograms",
+    "availability": "Licensed"
+  },
+  "name": "Underwater Drive",
+  "flags": {},
+  "type": "droid system",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764449015662,
+    "modifiedTime": 1764449015662,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "GVDWVLUzPLb4QBbP",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!GVDWVLUzPLb4QBbP"
+}

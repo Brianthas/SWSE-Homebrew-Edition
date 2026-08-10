@@ -1,0 +1,76 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2d8",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A being or vessel begins its turn in Rough Waters.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "On Trigger",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Knowledge (Physical Sciences) (DC 14): The character identifies the presence of Rough Waters and recognizes the Hazard's effects on swimming creatures and aquatic vehicles.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Pilot (DC 14): The Pilot of an aquatic vehicle affected by Rough Waters can make a Pilot check as a Reaction to avoid the Rough Waters.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Swim (DC 14): The character can make a Swim check as a reaction to avoid the effects of the Rough Waters.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>The wind whips across the water, causing whitecaps and tumultuous conditions.</i> </p><h2><span id=\"Rough_Waters_Statistics_.28CL_3.29\"></span><span class=\"mw-headline\" id=\"Rough_Waters_Statistics_(CL_3)\">Rough Waters Statistics (CL 3)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Natural </p><p><b>Trigger:</b> A being or vessel begins its turn in Rough Waters. </p><p><b>Attack:</b> +5 vs <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> </p><p><b>Recurrence:</b> On Trigger </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Knowledge_(Physical_Sciences)\" class=\"mw-redirect\" title=\"Knowledge (Physical Sciences)\">Knowledge (Physical Sciences)</a> (DC 14):</b> The character identifies the presence of Rough Waters and recognizes the Hazard's effects on swimming creatures and aquatic vehicles.</li>\n</ul><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> (DC 14):</b> The <a href=\"https://swse.fandom.com/wiki/Pilot_(Vehicle_Combat)\" title=\"Pilot (Vehicle Combat)\">Pilot</a> of an aquatic vehicle affected by Rough Waters can make a <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> check as a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a> to avoid the Rough Waters.</li>\n</ul><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Swim\" title=\"Swim\">Swim</a> (DC 14):</b> The character can make a <a href=\"https://swse.fandom.com/wiki/Swim\" title=\"Swim\">Swim</a> check as a reaction to avoid the effects of the Rough Waters.</li>\n</ul>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Rough Waters",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244709,
+    "modifiedTime": 1749263244709,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "QIyPHNo0iftp2hJ2",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!QIyPHNo0iftp2hJ2"
+}

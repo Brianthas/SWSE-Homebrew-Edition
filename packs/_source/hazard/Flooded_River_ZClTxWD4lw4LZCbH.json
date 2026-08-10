@@ -1,0 +1,71 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2d10",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A being begins its turn within a Flooded River.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round at the start of the target's turn, as long as the target remains within the Flooded River.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Survival (DC 21): The character locates the narrowest point at which to cross the river. The character and their allies gain a +1 circumstance bonus to Reflex Defense against the Hazard. Swim (DC 26): The character swims at its normal swim speed, gaining a +2 circumstance bonus to Reflex Defense against the Hazard.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: If the Hazard's attack roll exceeds the target's Reflex Defense by 5 or more, the target is swept up in the current, moves downstream at a rate of 6 squares per round, and is unable to control the direction of its movement.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>The water in the river is high, and the current is strong enough to sweep you away.</i> </p><p>Combining a Flooded River Hazard with a <span class=\"new\" title=\"Waterfall (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvV2F0ZXJmYWxsP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Waterfall</span> Hazard adds an extra level of risk for any creatures caught up in the flow, especially if they are involved in combat in the water and are not paying attention to where they are going. </p><h2><span id=\"Flooded_River_Statistics_.28CL_4.29\"></span><span class=\"mw-headline\" id=\"Flooded_River_Statistics_(CL_4)\">Flooded River Statistics (CL 4)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Natural </p><p><b>Trigger:</b> A being begins its turn within a Flooded River. </p><p><b>Attack:</b> +6 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> Each round at the start of the target's turn, as long as the target remains within the Flooded River. </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Survival\" title=\"Survival\">Survival</a> (DC 21):</b> The character locates the narrowest point at which to cross the river. The character and their allies gain a +1 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against the Hazard.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Swim\" title=\"Swim\">Swim</a> (DC 26):</b> The character swims at its normal swim speed, gaining a +2 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against the Hazard.</li>\n</ul><p><b>Special:</b> If the Hazard's attack roll exceeds the target's <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> by 5 or more, the target is swept up in the current, moves downstream at a rate of 6 squares per round, and is unable to control the direction of its movement. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Flooded River",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244499,
+    "modifiedTime": 1749263244499,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "ZClTxWD4lw4LZCbH",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!ZClTxWD4lw4LZCbH"
+}

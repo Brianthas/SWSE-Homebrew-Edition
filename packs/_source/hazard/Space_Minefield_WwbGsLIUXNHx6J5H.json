@@ -1,0 +1,72 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "3d10",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A Starship begins its turn within a Space Minefield.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round at the start of the Starship's turn, as long as the Starship remains within the Space Minefield.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Pilot (DC 32): The character dodges the mines as they pass through the field, granting the ship a +5 circumstance bonus to Reflex Defense against the Hazard for the round.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: One square of space can contain up to 1d6+3 space mines, but only one attack occurs per ship per square.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Artificial",
+          "Energy"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>Space mines litter the area around your ship.</i> </p><p>Many pilots consider negotiating a Space Minefield to be attempting suicide, but entering such a dangerous area can pay off. After all, somebody took the time to plant dozens of mines, perhaps to protect something valuable in the area. Any Starships seeking to cross the Space Minefield can blast one mine at a time to open a path or can fly through and trust their pilots' skills. Combatants in a minefield can use a <a href=\"https://swse.fandom.com/wiki/Tractor_Beam\" title=\"Tractor Beam\">Tractor Beam</a> to pull mines out of the way or to propel them at an enemy ship. </p><h2><span id=\"Space_Minefield_Statistics_.28CL_15.29\"></span><span class=\"mw-headline\" id=\"Space_Minefield_Statistics_(CL_15)\">Space Minefield Statistics (CL 15)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Artificial, Energy </p><p><b>Trigger:</b> A Starship begins its turn within a Space Minefield. </p><p><b>Attack:</b> +17 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> Each round at the start of the Starship's turn, as long as the Starship remains within the Space Minefield. </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> (DC 32):</b> The character dodges the mines as they pass through the field, granting the ship a +5 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against the Hazard for the round.</li>\n</ul><p><b>Special:</b> One square of space can contain up to 1d6+3 space mines, but only one attack occurs per ship per square. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Space Minefield",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244801,
+    "modifiedTime": 1749263244801,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "WwbGsLIUXNHx6J5H",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!WwbGsLIUXNHx6J5H"
+}

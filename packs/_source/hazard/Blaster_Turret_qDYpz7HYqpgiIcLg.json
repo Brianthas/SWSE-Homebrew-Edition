@@ -1,0 +1,66 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "3d6",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "The Blaster Turret detects a being within its line of sight.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round, on Initiative Count (Initiative +5)",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Stealth: The character makes a Stealth check, opposed by the turret's Perception check (+5, with Darkvision). If the character's check is successful, the character is not noticed by the Blaster Turret.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Artificial",
+          "Energy"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>This automated turret blasts enemies that come within its range.</i> </p><h2><span id=\"Blaster_Turret_Statistics_.28CL_2.29\"></span><span class=\"mw-headline\" id=\"Blaster_Turret_Statistics_(CL_2)\">Blaster Turret Statistics (CL 2)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Artificial, Energy </p><p><b>Trigger:</b> The Blaster Turret detects a being within its line of sight. </p><p><b>Attack:</b> +4 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> Each round, on <a href=\"https://swse.fandom.com/wiki/Initiative_Count\" class=\"mw-redirect\" title=\"Initiative Count\">Initiative Count</a> (<a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a> +5) </p><p><b>Suggested&nbsp;<a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b>&nbsp;The following are suggested&nbsp;<a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>&nbsp;for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a>:</b> The character makes a <a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a> check, opposed by the turret's <a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> check (+5, with <a href=\"https://swse.fandom.com/wiki/Darkvision\" title=\"Darkvision\">Darkvision</a>). If the character's check is successful, the character is not noticed by the Blaster Turret.</li>\n</ul>",
+    "cost": "0"
+  },
+  "name": "Blaster Turret",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244357,
+    "modifiedTime": 1749263244357,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "qDYpz7HYqpgiIcLg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!qDYpz7HYqpgiIcLg"
+}

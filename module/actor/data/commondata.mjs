@@ -2,6 +2,7 @@ import {AbilityFields} from "./templates/abilities.mjs";
 import {HealthFields} from "./templates/health.mjs";
 import {ShieldFields} from "./templates/shields.mjs";
 import {DefenseFields} from "./templates/defenses.mjs";
+import {SlotFields} from "./templates/slots.mjs";
 
 const fields = foundry.data.fields;
 
@@ -20,8 +21,12 @@ export default class CommonActorData {
             shields: new fields.SchemaField({
                 ...ShieldFields.common,
             }),
+            ...SlotFields.common,
             toggles: new fields.ObjectField({
                 label: "Stored Sheet Toggles",
+            }),
+            combatToggles: new fields.ObjectField({
+                label: "Active Situational Combat Bonuses",
             }),
             overrides: new fields.ObjectField({
                 label: "Stored Sheet Overrides",
@@ -43,6 +48,22 @@ export default class CommonActorData {
                 priority: new fields.NumberField({initial: 1}),
                 value: new fields.StringField({})
             })),
+            // Homebrew: attacks that aren't backed by an equipped item (e.g. a Grapple check) —
+            // see module/actor/custom-attack-item.mjs, which wraps one of these into the same
+            // "virtual item" shape UnarmedAttack already uses so it flows through the existing
+            // Attack pipeline (bonuses, advantage/disadvantage, etc.) unmodified.
+            customAttacks: new fields.ArrayField(new fields.SchemaField({
+                id: new fields.DocumentIdField(),
+                name: new fields.StringField({required: true, initial: "Custom Attack"}),
+                ability: new fields.StringField({initial: ""}),
+                damageDie: new fields.StringField({initial: ""}),
+                damageType: new fields.StringField({initial: ""}),
+                proficient: new fields.BooleanField({initial: true}),
+                notes: new fields.StringField({initial: ""})
+            }), {
+                label: "Custom Attacks",
+                initial: []
+            }),
             settings: new fields.SchemaField({
                 isNPC: new fields.BooleanField({
                     initial: false
@@ -54,9 +75,6 @@ export default class CommonActorData {
                     initial: false
                 }),
                 ignorePrerequisites: new fields.BooleanField({
-                    initial: false
-                }),
-                ignorePrerequisitesOnDrop: new fields.BooleanField({
                     initial: false
                 }),
                 attributeGeneration: new fields.StringField({

@@ -1,0 +1,142 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_of_Intrigue\" title=\"Star Wars Saga Edition Galaxy of Intrigue\">Star Wars Saga Edition Galaxy of Intrigue</a></i></p><p>Bith have been part of <a href=\"https://swse.fandom.com/wiki/The_Galactic_Republic\" title=\"The Galactic Republic\">The Galactic Republic</a> for thousands of years. Intellectually advanced humanoids, Bith have over-sized brains evolved to handle abstract skills such as language, mathematics, music, and scientific analysis. This fundamental shift to the intellect has caused brain functions related to instinct and biological drives to diminish. Their greater brainpower also means that Bith need to spend only four hours in a meditative trance to regain the energy that most <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> require eight hours to recover. </p><p>As a culture, Bith find the concept of warfare abhorrent, and most are pacifists. During the time of the Republic, the Bith are one of the loudest proponents for finding diplomatic solutions and for banning weapons and the industries of war. This pacifistic streak has roots in the Bith's past, when competition between two major corporations got out of hand, resulting in the release of a biological weapon that turned the surface of <a href=\"https://swse.fandom.com/wiki/Clak%27dor_VII\" title=\"Clak'dor VII\">Clak'dor VII</a> into an ecological wasteland. The survivors consequently sealed their cities in immense domes, while many ambitious Bith left their homeworld to travel the galaxy. During the time of the Clone Wars, the Bith hole up in their domed cities, remaining neutral and trying to ride out the worst of the fighting. Their wholesale return to galactic society does not occur until well into the time of <a href=\"https://swse.fandom.com/wiki/The_New_Republic\" title=\"The New Republic\">The New Republic</a>. </p><p>Bith are highly sought after in a wide variety of fields, including engineering, programming, education, commercial art, and, most importantly, ship design. Music is a vital and revered pursuit in Bith society. Bith musicians are relatively common (and welcome) and can be found playing in extravagant opera houses, seedy cantinas, and everything in between. </p><h3><span class=\"mw-headline\" id=\"Bith_Characteristics\">Bith Characteristics</span></h3><p><b>Personality:</b> Bith are calm and rational, with a natural talent for technical and intellectual pursuits. Despite (or as a result of) its violent past, Bith culture is pacifistic. Individual Bith, however, run the range of demeanors, but most Bith lean toward using nonaggression to overcome difficulties. All Bith are stimulated by intellectual problems and artistic endeavors. </p><p><b>Physical Description:</b> Bith are humanoid in shape; their most notable features are their bulbous heads and huge black eyes. Their skin is often somewhere between gray and pink, although some Bith have skin tints of yellow or green. They lack an external nose but have a finely tuned sense of smell. Their large eyes give them incredibly focused vision, allowing them to see into the microscopic scale, but in turn, they have poor long-range vision. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b>&nbsp;Bith age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-15 Years </td> \n   <td>16-50 Years </td> \n   <td>51-70 Years </td> \n   <td>71-84 Years </td> \n   <td>85+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Bith originate from <a href=\"https://swse.fandom.com/wiki/Clak%27dor_VII\" title=\"Clak'dor VII\">Clak'dor VII</a>, a small planet in <a href=\"https://swse.fandom.com/wiki/The_Outer_Rim\" title=\"The Outer Rim\">The Outer Rim</a> that suffered heavily from the effects of biological warfare during a brief civil conflict. The inhabitants now reside in domed cities, and rarely venture out of them onto the surface of the planet. </p><p><b>Languages:</b> Bith speak and read Bith. Those who leave the confines of their cities learn Basic as well. </p><p><b>Example Names:</b> Doikk, Figrin, Jinkins, Lirin, Nalan, Tech, Tedn, Thai. </p><p><b>Adventurers:</b> Given their predilection for intellectual and peaceful pursuits, most Bith heroes are <a href=\"https://swse.fandom.com/wiki/Noble\" title=\"Noble\">Nobles</a>. Force-users are uncommon, but some Bith have served with distinction in <a href=\"https://swse.fandom.com/wiki/The_Jedi_Order\" class=\"mw-redirect\" title=\"The Jedi Order\">The Jedi Order</a> over the millennia. </p><h3><span class=\"mw-headline\" id=\"Bith_Species_Traits\">Bith Species Traits</span></h3><p>Bith share the following Species Traits: </p><h2><span class=\"mw-headline\" id=\"Alternate_Bith_Species_Traits\">Alternate Bith Species Traits</span></h2><p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Threats_of_the_Galaxy\" title=\"Star Wars Saga Edition Threats of the Galaxy\">Star Wars Saga Edition Threats of the Galaxy</a></i> </p><p>The following Species Traits can be utilized instead when making certain Bith NPCs: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Bith",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Evolved Intellect",
+        "type": "trait"
+      },
+      {
+        "name": "Scent",
+        "type": "trait"
+      },
+      {
+        "name": "Meditative Trance",
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "70",
+          "low": "51",
+          "text": "51-70",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "11",
+          "low": "1",
+          "text": "1-11",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "85",
+          "text": "85+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "84",
+          "low": "71",
+          "text": "71-84",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "15",
+          "low": "12",
+          "text": "12-15",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "50",
+          "low": "16",
+          "text": "16-50",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Bith"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Evolved Intellect"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Scent"
+      },
+      {
+        "value": "Meditative Trance"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Bith",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535565661,
+    "modifiedTime": 1736535565661,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "7amF8777Sb12vpgq",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!7amF8777Sb12vpgq"
+}

@@ -1,0 +1,67 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2d10",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A being begins its turn within an Insect Swarm.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round at the start of the target's turn, as long as the target remains within the Insect Swarm.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Knowledge (Life Sciences) (DC 14): The character identifies the Insect Swarm. Survival (DC 19): The character realizes that entering a body of water or a sealed environment is the best way to avoid the Insect Swarm.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Atmosphere",
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>A dark cloud rapidly approaches, alang with a law buzzing sound that gradually increases in volume.</i> </p><p>Tiny insects are common in swamps. On their own, they are merely a nuisance, but in large groups they become mare dangerous. Insect Swarms can be a diversion, good for distracting pursuers while giving the pursued time to regroup. Swarms can also ruin the aim of combatants, drawing their attention away from intended targets as they brush the bugs aside. </p><h2><span id=\"Insect_Swarm_Statistics_.28CL_3.29\"></span><span class=\"mw-headline\" id=\"Insect_Swarm_Statistics_(CL_3)\">Insect Swarm Statistics (CL 3)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Atmosphere, Natural </p><p><b>Trigger:</b> A being begins its turn within an Insect Swarm. </p><p><b>Attack:</b> +5 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> Each round at the start of the target's turn, as long as the target remains within the Insect Swarm. </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Knowledge_(Life_Sciences)\" class=\"mw-redirect\" title=\"Knowledge (Life Sciences)\">Knowledge (Life Sciences)</a></b> <b>(DC 14):</b> The character identifies the Insect Swarm.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Survival\" title=\"Survival\">Survival</a></b> <b>(DC 19):</b> The character realizes that entering a body of water or a sealed environment is the best way to avoid the Insect Swarm.</li>\n</ul>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Insect Swarm",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244544,
+    "modifiedTime": 1749263244544,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "DI6ujQ9gNRRnrjzl",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!DI6ujQ9gNRRnrjzl"
+}

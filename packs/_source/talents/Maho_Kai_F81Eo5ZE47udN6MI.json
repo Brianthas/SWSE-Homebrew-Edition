@@ -1,0 +1,84 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<i>Maho-Kai Lightsaber Form Talent created by Wikia user SirenEyes.</i><br><br>Whenever you make multiple attacks with any type of&nbsp;<a href=\"https://swse.fandom.com/wiki/Lightsaber_(Weapon)\" title=\"Lightsaber (Weapon)\">Lightsaber</a>&nbsp;as part of a <a href=\"https://swse.fandom.com/wiki/Full_Attack\" title=\"Full Attack\">Full Attack</a>, you may choose to forgo an attack and instead activate a <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Power</a> that requires a&nbsp;<a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a>&nbsp;or&nbsp;<a href=\"https://swse.fandom.com/wiki/Move_Action\" class=\"mw-redirect\" title=\"Move Action\">Move Action</a> to activate. When activating a <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Power</a> in this manner, apply the attack roll penalty to the <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check to activate the <a href=\"https://swse.fandom.com/wiki/Force_Power\" class=\"mw-redirect\" title=\"Force Power\">Force Power</a>. You may only activate one <a href=\"https://swse.fandom.com/wiki/Force_Power\" class=\"mw-redirect\" title=\"Force Power\">Force Power</a> in this manner each <a href=\"https://swse.fandom.com/wiki/The_Combat_Round\" title=\"The Combat Round\">Round</a>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Double Attack (Lightsabers)",
+          "requirement": "Double Attack (Lightsabers)",
+          "type": "FEAT"
+        },
+        {
+          "text": "Skill Focus (Use the Force)",
+          "requirement": "Skill Focus (Use the Force)",
+          "type": "FEAT"
+        },
+        {
+          "text": "Base Attack Bonus 12",
+          "requirement": "12",
+          "type": "BASE ATTACK BONUS"
+        }
+      ],
+      "text": "Double Attack (Lightsabers), Skill Focus (Use the Force), and Base Attack Bonus 12",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Jedi Knight Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Jedi Knight Talent Trees",
+      "Force Adept Talent Trees",
+      "Jedi Master Talent Trees",
+      "Sith Apprentice Talent Trees",
+      "Sith Lord Talent Trees",
+      "Imperial Legionnaire Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Lightsaber Forms Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Lightsaber_Forms_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Clone Wars Saga Edition Fan Sourcebook - The Dark Side",
+    "cost": "0"
+  },
+  "name": "Maho-Kai",
+  "flags": {},
+  "type": "talent",
+  "folder": "x4jWUHVJP5WpFRjm",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385308258,
+    "modifiedTime": 1786070303378,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "F81Eo5ZE47udN6MI",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!F81Eo5ZE47udN6MI"
+}

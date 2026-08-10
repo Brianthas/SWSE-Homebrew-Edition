@@ -1,0 +1,70 @@
+{
+  "img": "systems/swse/icon/feat/K_tara Training.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_at_War\" title=\"Star Wars Saga Edition Galaxy at War\">Star Wars Saga Edition Galaxy at War</a></i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a>, <a href=\"https://swse.fandom.com/wiki/Martial_Arts_Feats\" class=\"mw-redirect\" title=\"Martial Arts Feats\">Martial Arts Feats</a></i></p><p>You are trained in the K'tara style of <a href=\"https://swse.fandom.com/wiki/Unarmed\" class=\"mw-redirect\" title=\"Unarmed\">Unarmed</a> fighting, which enables you to neutralize enemies before they even know that you are present.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Martial_Arts_I\" title=\"Martial Arts I\">Martial Arts I</a>, <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in <a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a></p><p><b>Effect:</b> You roll an extra die of damage against a <a href=\"https://swse.fandom.com/wiki/Flat-Footed\" class=\"mw-redirect\" title=\"Flat-Footed\">Flat-Footed</a> enemy on one <a href=\"https://swse.fandom.com/wiki/Unarmed_Attack\" class=\"mw-redirect\" title=\"Unarmed Attack\">Unarmed Attack</a> during your turn.</p><p>Once per encounter, when you deal damage with an <a href=\"https://swse.fandom.com/wiki/Unarmed_Attack\" class=\"mw-redirect\" title=\"Unarmed Attack\">Unarmed Attack</a> to a target that has been denied its <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>, make a second <a href=\"https://swse.fandom.com/wiki/Unarmed\" class=\"mw-redirect\" title=\"Unarmed\">Unarmed</a> attack against the target's <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> as a <a href=\"https://swse.fandom.com/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a>. If successful, you render the target incapable of speech until the end of your next turn. This is a <a href=\"https://swse.fandom.com/wiki/Stunning\" class=\"mw-redirect\" title=\"Stunning\">Stunning</a> effect.</p><p><b>Special:</b> If you have the <b><a href=\"https://swse.fandom.com/wiki/K%27tara_Expertise\" class=\"mw-redirect\" title=\"K'tara Expertise\">K'tara Expertise</a></b> Talent, you can spend two <a href=\"https://swse.fandom.com/wiki/Swift_Actions\" title=\"Swift Actions\">Swift Actions</a> to cause a single adjacent enemy to be <a href=\"https://swse.fandom.com/wiki/Flat-Footed\" class=\"mw-redirect\" title=\"Flat-Footed\">Flat-Footed</a> against your first attack during the same round.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Martial Arts I feat",
+          "requirement": "Martial Arts I",
+          "type": "FEAT"
+        },
+        {
+          "text": "Trained in Stealth",
+          "requirement": "Stealth",
+          "type": "TRAINED SKILL"
+        }
+      ],
+      "text": "Martial Arts I feat, and Trained in Stealth",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Martial Arts Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Galaxy at War",
+    "cost": "0"
+  },
+  "name": "K'tara Training",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479027676,
+    "modifiedTime": 1761479027676,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "lYXIY8W7xv3RQdRk",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!lYXIY8W7xv3RQdRk"
+}

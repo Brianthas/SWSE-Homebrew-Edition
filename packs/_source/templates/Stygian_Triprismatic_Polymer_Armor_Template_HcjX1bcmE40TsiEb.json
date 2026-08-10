@@ -1,0 +1,90 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:</i>&nbsp;<i><a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Rebellion_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Rebellion Era Campaign Guide\">Star Wars Saga Edition Rebellion Era Campaign Guide</a></i> </p><p><b>Manufactured By:</b>&nbsp;<a href=\"https://swse.fandom.com/wiki/The_Galactic_Empire\" title=\"The Galactic Empire\">The Galactic Empire</a>&nbsp;(Organization) and <a href=\"https://swse.fandom.com/wiki/The_Mandalorians\" title=\"The Mandalorians\">The Mandalorians</a> (Organization) </p><p><b>Applicable To:</b>&nbsp;Any Armor </p><p>Harder and more durable than standard Plastoid, Stygian-Triprismatic Polymer is used in the manufacture of Blackhole Stormtrooper Armor and some types of Mandalorian Armor. </p><p><b>Armor:</b> A Suit of Armor possessing the Stygian-Triprismatic Polymer Armor Template increase its <a href=\"https://swse.fandom.com/wiki/Equipment\" title=\"Equipment\">Equipment</a> bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> by +1, as well as granting a +2 <a href=\"https://swse.fandom.com/wiki/Equipment\" title=\"Equipment\">Equipment</a> bonus to <a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a> checks to avoid being detected be electronic sensors. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "@cost*0.2",
+        "key": "cost"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "itemMod"
+      },
+      {
+        "mode": 2,
+        "value": "+1",
+        "key": "armorReflexDefenseBonus"
+      },
+      {
+        "mode": 2,
+        "modifier": "electronic sensors",
+        "value": "stealth:2",
+        "key": "skillBonus"
+      },
+      {
+        "mode": 2,
+        "value": "Stygian-Triprismatic Polymer",
+        "key": "prefix"
+      },
+      {
+        "mode": 2,
+        "value": "",
+        "key": "suffix"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "hasItemOwner": false,
+    "subtype": "Armor Templates",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Any Armor",
+          "requirement": "armor",
+          "type": "TYPE"
+        },
+        {
+          "text": "Any Armor",
+          "requirement": "armor",
+          "type": "TYPE"
+        }
+      ],
+      "text": "Any Armor, and Any Armor",
+      "type": "AND"
+    },
+    "cost": "@cost*0.2"
+  },
+  "name": "Stygian-Triprismatic Polymer Armor Template",
+  "flags": {},
+  "type": "template",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.2",
+    "createdTime": 1729096741445,
+    "modifiedTime": 1729096741445,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "HcjX1bcmE40TsiEb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!HcjX1bcmE40TsiEb"
+}

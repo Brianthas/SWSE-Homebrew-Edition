@@ -1,0 +1,119 @@
+{
+  "img": "systems/swse/icon/feat/Tool_Frenzy.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scavenger%27s_Guide_to_Droids\" title=\"Star Wars Saga Edition Scavenger's Guide to Droids\">Star Wars Saga Edition Scavenger's Guide to Droids</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You use all your built-in <a href=\"https://swse.fandom.com/wiki/Appendages\" title=\"Appendages\">Appendages</a>, <a href=\"https://swse.fandom.com/wiki/Claw\" title=\"Claw\">Claws</a>, <a href=\"https://swse.fandom.com/wiki/Probe\" title=\"Probe\">Probes</a>, <a href=\"https://swse.fandom.com/wiki/Instrument\" title=\"Instrument\">Instruments</a>, and <a href=\"https://swse.fandom.com/wiki/Tool\" title=\"Tool\">Tools</a> at once to slash, pierce, burn, or cut your enemy in a frenzied melee attack.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a>, Small size or larger, 2+ <a href=\"https://swse.fandom.com/wiki/Tool\" title=\"Tool\">Tool</a> Appendages</p><p><b>Effect:</b> As a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a>, using <a href=\"https://swse.fandom.com/wiki/Appendages\" title=\"Appendages\">Appendages</a> not normally considered <a href=\"https://swse.fandom.com/wiki/Weapons\" title=\"Weapons\">Weapons</a>, you can make several strikes as a single attack against a single target. Make an <a href=\"https://swse.fandom.com/wiki/Unarmed\" class=\"mw-redirect\" title=\"Unarmed\">Unarmed</a> melee attack with a +2 bonus; until the end of your next turn, you take a -2 penalty to your <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>. Use the damage die of the highest rated <a href=\"https://swse.fandom.com/wiki/Appendage\" class=\"mw-redirect\" title=\"Appendage\">Appendage</a> when determining damage.</p><p><b>Special:</b> True melee or ranged <a href=\"https://swse.fandom.com/wiki/Weapons\" title=\"Weapons\">Weapons</a> are not considered <a href=\"https://swse.fandom.com/wiki/Tool\" title=\"Tool\">Tools</a> for the purposes of this Feat.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Droid",
+          "requirement": "Is a droid",
+          "type": "SPECIAL"
+        },
+        {
+          "children": [
+            {
+              "text": "Small size or larger",
+              "requirement": "Small",
+              "type": "TRAIT"
+            },
+            {
+              "text": "Small size or larger",
+              "requirement": "Medium",
+              "type": "TRAIT"
+            },
+            {
+              "text": "Small size or larger",
+              "requirement": "Large",
+              "type": "TRAIT"
+            },
+            {
+              "text": "Small size or larger",
+              "requirement": "Huge",
+              "type": "TRAIT"
+            },
+            {
+              "text": "Small size or larger",
+              "requirement": "Gargantuan",
+              "type": "TRAIT"
+            },
+            {
+              "text": "Small size or larger",
+              "requirement": "Colossal",
+              "type": "TRAIT"
+            },
+            {
+              "text": "Small size or larger",
+              "requirement": "Colossal (Frigate)",
+              "type": "TRAIT"
+            },
+            {
+              "text": "Small size or larger",
+              "requirement": "Colossal (Cruiser)",
+              "type": "TRAIT"
+            },
+            {
+              "text": "Small size or larger",
+              "requirement": "Colossal (Station)",
+              "type": "TRAIT"
+            }
+          ],
+          "count": 1,
+          "text": "Small size or larger",
+          "type": "OR"
+        },
+        {
+          "text": "2+ Tool Appendages",
+          "requirement": "2+ Tool Appendages",
+          "type": "SPECIAL"
+        }
+      ],
+      "text": "Droid, (Small size or larger), and 2+ Tool Appendages",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Scavenger's Guide to Droids",
+    "cost": "0"
+  },
+  "name": "Tool Frenzy",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479029237,
+    "modifiedTime": 1761479029237,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "dwhPrlNGsJf9YKEf",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!dwhPrlNGsJf9YKEf"
+}

@@ -1,0 +1,138 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i> </p><p>Arkanian society and history are among the most complex in the Old Republic. At different times in its history, Arkanian has belonged to both the Republic and the Sith Empire, and played important roles in each. Knowledge and research are extremely important to the Arkanians, and they are highly skilled academicians and scientists. It is therefore not surprising that <a href=\"https://swse.fandom.com/wiki/Arkania\" title=\"Arkania\">Arkania</a> would become a main repository of the history of the Sith Empire, as well as home to vast libraries of information from across the galaxy. </p><p>Arkanians are not afraid to profit from their research and high intelligence. Arkanian corporations amass wealth by bringing key medical treatments and technology to the market at opportune times. Many in the galaxy find the Arkanians arrogant and aloof. They are horrified by the direction of some Arkanian research, particularly their work in genetic engineering. Indeed, the Arkanians are known to have transformed entire <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> over the course of generations, often to the detriment of the <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>.&nbsp; </p><p>Even the Arkanian Species itself had not been off-limits to research and genetic engineering. Specific subspecies, such as the <a href=\"https://swse.fandom.com/wiki/Arkanian_Offshoots\" class=\"mw-redirect\" title=\"Arkanian Offshoots\">Arkanian Offshoots</a>, were engineered for specific tasks. However, the <a href=\"https://swse.fandom.com/wiki/Arkanian_Offshoots\" class=\"mw-redirect\" title=\"Arkanian Offshoots\">Arkanian Offshoots</a> are less harder and shorter lived than the original Arkanians- a trait not helped by occasional attempts by racist Purebloods to wipe them out. They also differ in physical appearance, typically in skin tone, eyes, and ears. Reactions to <a href=\"https://swse.fandom.com/wiki/Arkanian_Offshoots\" class=\"mw-redirect\" title=\"Arkanian Offshoots\">Arkanian Offshoots</a> vary widely within Arkanian society. Much to the horror of the occasional outsiders who visit <a href=\"https://swse.fandom.com/wiki/Arkanian_Offshoot\" title=\"Arkanian Offshoot\">Arkanian Offshoot</a> communities, some Arkanian regard them as merely tools or as a slave <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>. However, such feelings are not universal. Many regard the <a href=\"https://swse.fandom.com/wiki/Arkanian_Offshoots\" class=\"mw-redirect\" title=\"Arkanian Offshoots\">Arkanian Offshoots</a> as an example of the cruel consequences of Arkanian corporate greed. </p><h3><span class=\"mw-headline\" id=\"Arkanian_Characteristics\">Arkanian Characteristics</span></h3><p><b>Personality:</b> Arkanians are arrogant and regard themselves superior to all other <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>. Even those with a more moderate viewpoint still believe themselves to be among the more intelligent <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> in the galaxy. As such, they prefer the company of fellow Arkanians. </p><p><b>Physical Description:</b> Arkanians are bipedal humanoids with a near-<a href=\"https://swse.fandom.com/wiki/Human\" title=\"Human\">Human</a> appearance. Arkanian eyes have no visible iris or pupil, and are typically stark white in color. They possess four clawed digits, three fingers and a thumb. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Arkanians age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-12 Years </td> \n   <td>13-18 Years </td> \n   <td>19-44 Years </td> \n   <td>45-76 Years </td> \n   <td>77-99 Years </td> \n   <td>100+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The frigid and inhospitable world of <a href=\"https://swse.fandom.com/wiki/Arkania\" title=\"Arkania\">Arkania</a>, in the Perave System of <a href=\"https://swse.fandom.com/wiki/The_Colonies\" title=\"The Colonies\">The Colonies</a> region. </p><p><b>Languages:</b> Arkanians speak their native tongue of Arkanian, as well as Basic. </p><p><b>Example Names:</b> Arkoh Adasca, Dolvan Genarik, Jaro Salaban, Kalor Nelprin, Marael Kortva, Sulan Bek. </p><p><b>Adventures:</b> Arkanian heroes are typically <a href=\"https://swse.fandom.com/wiki/Noble\" title=\"Noble\">Nobles</a>, <a href=\"https://swse.fandom.com/wiki/Scout\" title=\"Scout\">Scouts</a>, or <a href=\"https://swse.fandom.com/wiki/Scoundrel\" title=\"Scoundrel\">Scoundrels</a>. Many attempt to counter the reputation that all Arkanians are greedy, out-of-control scientists out to change the galaxy to benefit Arkanian corporations. Even <a href=\"https://swse.fandom.com/wiki/Jedi\" title=\"Jedi\">Jedi</a> Arkanians are met with skepticism and distrust, despite their position. </p><h3><span class=\"mw-headline\" id=\"Arkanian_Species_Traits\">Arkanian Species Traits</span></h3><p>Arkanians share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Flash of Genius",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Darkvision",
+        "type": "trait"
+      },
+      {
+        "name": "Logical Reasoning",
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "44",
+          "low": "19",
+          "text": "19-44",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "76",
+          "low": "45",
+          "text": "45-76",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "100",
+          "text": "100+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "12",
+          "low": "1",
+          "text": "1-12",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "18",
+          "low": "13",
+          "text": "13-18",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "99",
+          "low": "77",
+          "text": "77-99",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Flash of Genius"
+      },
+      {
+        "value": "Arkanians"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Darkvision"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Logical Reasoning"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Arkanian",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535565565,
+    "modifiedTime": 1736535565565,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "bSWXf1lCq8wh4EwO",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!bSWXf1lCq8wh4EwO"
+}

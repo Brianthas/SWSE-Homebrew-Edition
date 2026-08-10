@@ -1,0 +1,91 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "As a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>, you and any allies affected by your <b><a href=\"https://swse.fandom.com/wiki/Battle_Meditation\" class=\"mw-redirect\" title=\"Battle Meditation\">Battle Meditation</a></b> gain a +2 insight bonus to their <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>, lasting as long as they are affected by your <b><a href=\"https://swse.fandom.com/wiki/Battle_Meditation\" class=\"mw-redirect\" title=\"Battle Meditation\">Battle Meditation</a></b>. Additionally, you gain a +1 bonus to your <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> checks to <b><a href=\"https://swse.fandom.com/wiki/Block\" class=\"mw-redirect\" title=\"Block\">Block</a></b> and <b><a href=\"https://swse.fandom.com/wiki/Deflect\" class=\"mw-redirect\" title=\"Deflect\">Deflect</a></b> (as per the Talents) for each adjacent ally wielding a <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Battle Meditation talent",
+          "requirement": "Battle Meditation",
+          "type": "TALENT"
+        },
+        {
+          "children": [
+            {
+              "text": "Block talent",
+              "requirement": "Block",
+              "type": "TALENT"
+            },
+            {
+              "text": "Deflect talent",
+              "requirement": "Deflect",
+              "type": "TALENT"
+            }
+          ],
+          "count": 1,
+          "text": "Block or Deflect",
+          "type": "OR"
+        },
+        {
+          "text": "Jedi Battle Commander talent",
+          "requirement": "Jedi Battle Commander",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Battle Meditation talent, (Block or Deflect), and Jedi Battle Commander talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Jedi Knight Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Jedi Knight Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Jedi Battlemaster Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Jedi_Battlemaster_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Defensive Circle",
+  "flags": {},
+  "type": "talent",
+  "folder": "brum7FSmkqEvpVRv",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385306525,
+    "modifiedTime": 1734385306525,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "PZrQCFR3QeILfcCC",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!PZrQCFR3QeILfcCC"
+}

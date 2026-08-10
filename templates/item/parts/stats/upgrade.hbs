@@ -1,0 +1,18 @@
+<div class="weapon-stat-block flex flex-row flex-wrap">
+    <div class="labeled-input"><label for="upgrade-point-cost">Upgrade Point Cost</label>
+        <input class="input" type="number" name="system.upgradePointCost" value="{{item.system.upgradePointCost}}"/>
+    </div>
+    <div class="labeled-input"><label for="see-also">See Also</label>
+        <input class="input" type="text" name="system.seeAlso" value="{{item.system.seeAlso}}"/>
+    </div>
+</div>
+
+<div class="weapon-meta-strip">
+    <div class="meta-field"><label for="cost">Cost</label><input class="input" type="text" name="system.cost" value="{{item.system.cost}}"/></div>
+    <div class="meta-field"><label for="weight">Weight</label><input class="input" type="text" name="system.weight" value="{{item.system.weight}}"/></div>
+    <div class="meta-field"><label for="availability">Availability</label>
+        <select class="input" data-multi-select-name="system.availability" multiple size="1" title="Some items are e.g. both Military and Rare — ctrl/cmd-click to select more than one, scroll to see all options.">
+            {{{options 'availability' selected=(splitCsv item.system.availability)}}}
+        </select>
+    </div>
+</div>

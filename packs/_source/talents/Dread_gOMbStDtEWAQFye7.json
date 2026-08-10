@@ -1,0 +1,78 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "As a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a>, you can instill bone-chilling fear in an opponent whom you selected for your <b>Hunter's Target</b>. Make a <a href=\"https://swse.fandom.com/wiki/Persuasion\" title=\"Persuasion\">Persuasion</a> check against your target's <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a>. If you equal or exceed your target's <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a>, that target takes a -5 penalty to its <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a>.<br><br>This is a <a href=\"https://swse.fandom.com/wiki/Mind-Affecting\" class=\"mw-redirect\" title=\"Mind-Affecting\">Mind-Affecting</a> effect. The penalty remains as long as you have line of sight to your target and immediately ends if the line of sight is broken.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Hunter's Mark talent",
+          "requirement": "Hunter's Mark",
+          "type": "TALENT"
+        },
+        {
+          "text": "Hunter's Target talent",
+          "requirement": "Hunter's Target",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Hunter's Mark talent, and Hunter's Target talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Bounty Hunter Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Core Rulebook",
+      "Bounty Hunter Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Bounty Hunter Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Bounty_Hunter_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Scum and Villainy",
+    "cost": "0"
+  },
+  "name": "Dread",
+  "flags": {},
+  "type": "talent",
+  "folder": "fTxo0dFHf6Zx5BEu",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385302930,
+    "modifiedTime": 1734385302930,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "gOMbStDtEWAQFye7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!gOMbStDtEWAQFye7"
+}

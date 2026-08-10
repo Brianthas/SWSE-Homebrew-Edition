@@ -1,0 +1,66 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Starship Accessories",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Gargantuan or Larger",
+          "requirement": "Gargantuan",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Gargantuan or Larger",
+          "requirement": "Colossal",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Gargantuan or Larger",
+          "requirement": "Colossal (Frigate)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Gargantuan or Larger",
+          "requirement": "Colossal (Cruiser)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Gargantuan or Larger",
+          "requirement": "Colossal (Station)",
+          "type": "TRAIT"
+        }
+      ],
+      "count": 1,
+      "text": "Gargantuan or Larger",
+      "type": "OR"
+    },
+    "changes": [],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a> </i></p><p><b>Emplacement Points:&nbsp;</b> 1</p><p><b>Size Restriction:&nbsp;</b> Gargantuan or Larger</p><p>A fully equipped Starship Workshop is able to do tasks just not possible with even the best handheld tools. A good Workshop includes numerous benches and storage racks, a full set of permanently mounted fusion cutters, flood lamps, magnifying viewers, beam drills, tethers, power prybars, clamps, and similar tools. It can be used to repair or modify anything from <a href=\"https://swse.fandom.com/wiki/Weapons\" title=\"Weapons\">Weapons</a> to Droids to ship systems.</p><p><a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> checks and <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> checks made to repair, modify, or construct objects in the workshop (or the Starship in which the Workshop is located) gain a +2 <a href=\"https://swse.fandom.com/wiki/Equipment\" title=\"Equipment\">Equipment</a> bonus.</p>",
+    "cost": "3000 (Base)",
+    "emplacementPoints": "1",
+    "availability": "Common"
+  },
+  "name": "Workshop",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317732,
+    "modifiedTime": 1759848317732,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "x1OKCXnU53ya74Kc",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!x1OKCXnU53ya74Kc"
+}

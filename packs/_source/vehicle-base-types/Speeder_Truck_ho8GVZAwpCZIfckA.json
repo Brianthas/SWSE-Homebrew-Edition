@@ -1,0 +1,144 @@
+{
+  "effects": [],
+  "system": {
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Speeder",
+        "key": "vehicleSubType"
+      },
+      {
+        "mode": 2,
+        "value": "30",
+        "key": "baseStrength"
+      },
+      {
+        "mode": 2,
+        "value": "12",
+        "key": "baseDexterity"
+      },
+      {
+        "mode": 2,
+        "value": "12",
+        "key": "baseIntelligence"
+      },
+      {
+        "mode": 2,
+        "value": "8 (100-250 km/h)",
+        "key": "speedCharacterScale"
+      },
+      {
+        "mode": 2,
+        "value": "-",
+        "key": "speedStarshipScale"
+      },
+      {
+        "mode": 2,
+        "value": "90",
+        "key": "hitPointEq"
+      },
+      {
+        "mode": 2,
+        "value": "10",
+        "key": "damageThresholdBonus"
+      },
+      {
+        "mode": 2,
+        "value": "+1",
+        "key": "armorReflexDefenseBonus"
+      },
+      {
+        "mode": 2,
+        "value": "20,000",
+        "key": "cost"
+      },
+      {
+        "mode": 2,
+        "value": "1",
+        "key": "crew"
+      },
+      {
+        "mode": 2,
+        "value": "2",
+        "key": "passengers"
+      },
+      {
+        "mode": 2,
+        "value": "50.0",
+        "key": "cargoCapacity"
+      },
+      {
+        "mode": 2,
+        "value": "1 Week",
+        "key": "consumables"
+      },
+      {
+        "mode": 2,
+        "value": "1",
+        "key": "emplacementPoints"
+      }
+    ],
+    "description": "",
+    "choices": [
+      {
+        "noOptions": "NO_AVAILABLE_OPTIONS",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "providedItems": [
+              {
+                "name": "Colossal",
+                "type": "trait"
+              }
+            ],
+            "payloads": {},
+            "display": "Colossal",
+            "name": "Colossal",
+            "attributes": {}
+          },
+          {
+            "providedItems": [
+              {
+                "name": "Gargantuan",
+                "type": "trait"
+              }
+            ],
+            "payloads": {},
+            "display": "Gargantuan",
+            "name": "Gargantuan",
+            "attributes": {}
+          }
+        ],
+        "description": "Select an available size",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": true
+      }
+    ],
+    "cost": "20,000"
+  },
+  "name": "Speeder Truck",
+  "flags": {},
+  "type": "vehicleBaseType",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.2",
+    "createdTime": 1729096745035,
+    "modifiedTime": 1729096745035,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "ho8GVZAwpCZIfckA",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!ho8GVZAwpCZIfckA"
+}

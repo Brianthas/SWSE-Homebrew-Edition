@@ -1,0 +1,211 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {}
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Attuned",
+      "_id": "MX7Pk9z5Egfk9z1e",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": 1,
+            "key": "bonusDamageDie",
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.4.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!hvIOevBJ9BMUsuT9.MX7Pk9z5Egfk9z1e"
+    },
+    {
+      "flags": {
+        "swse": {}
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Ignite",
+      "_id": "kBpxAIV5n3LR6vdi",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": 0.3,
+            "key": "auraLuminosity",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 0.4,
+            "key": "auraBright",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 0.9,
+            "key": "auraDim",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": "torch",
+            "key": "auraAnimationType",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 5,
+            "key": "auraAnimationSpeed",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 2,
+            "key": "auraAnimationIntensity",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": "#lightsaberColor#",
+            "key": "auraColor",
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.4.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!hvIOevBJ9BMUsuT9.kBpxAIV5n3LR6vdi"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Jedi_Academy_Training_Manual\" title=\"Star Wars Saga Edition Jedi Academy Training Manual\">Star Wars Saga Edition Jedi Academy Training Manual</a></i> </p><p>A Phond Crystal reduces the cutting power of the <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> blade but solidifies the energy beam, making it more effective at battering down an opponent's <a href=\"https://swse.fandom.com/wiki/Shield_Rating\" title=\"Shield Rating\">Shield Rating</a>. When you wield an attuned <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> with a Phond Crystal, you deal +1 die of damage when using the <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> against targets that have an active <a href=\"https://swse.fandom.com/wiki/Shield_Rating\" title=\"Shield Rating\">Shield Rating</a> (That is, when the attack's damage would be reduced by SR). </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "itemMod"
+      }
+    ],
+    "choices": [
+      {
+        "noOptions": "NO_AVAILABLE_OPTIONS",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {
+              "payload": "AVAILABLE_LIGHTSABER_COLORS"
+            },
+            "display": "AVAILABLE_LIGHTSABER_COLORS",
+            "name": "AVAILABLE_LIGHTSABER_COLORS",
+            "attributes": {}
+          }
+        ],
+        "description": "Select a lightsaber color.",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": true
+      }
+    ],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "0",
+    "weight": "",
+    "availability": "",
+    "size": "",
+    "type": "",
+    "subtype": "Lightsaber Crystals",
+    "quantity": 1,
+    "hasItemOwner": false,
+    "upgrade": {},
+    "prerequisite": {
+      "text": "Lightsabers",
+      "requirement": "lightsabers",
+      "type": "SUBTYPE"
+    },
+    "source": "Star Wars Saga Edition Jedi Academy Training Manual"
+  },
+  "name": "Phond Crystal",
+  "flags": {},
+  "type": "upgrade",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263246065,
+    "modifiedTime": 1749263246065,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "hvIOevBJ9BMUsuT9",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!hvIOevBJ9BMUsuT9"
+}

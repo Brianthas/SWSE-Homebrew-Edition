@@ -42,16 +42,6 @@ export function lilLiteralistHomebrewOptions() {
 
     });
 
-    //4
-    game.settings.register("swse", "homebrewUseLilLiteralistSkills", {
-        name: "Homebrew: Lil'Literalist's Skill",
-        hint: "Climb, Jump, and Swim are all incorporated into a new skill called Athletics, a class skill for Jedi, Scouts, and Soldiers.",
-        scope: "world",
-        config: true,
-        default: false,
-        type: Boolean
-    });
-
     //5
     game.settings.register("swse", "homebrewRanges", {
         name: "Homebrew: Ranges",
@@ -64,17 +54,6 @@ export function lilLiteralistHomebrewOptions() {
             default: "Vanilla Ranges",
             halfRange: "Lil'Literalist: Cut the weapon ranges in half (except for thrown)",
         }
-    });
-}
-
-export function darthauthorHomebrewOptions() {
-    game.settings.register("swse", "homebrewUseDarthauthorSkills", {
-        name: "Homebrew: Darthauthor's Skill",
-        hint: "Acrobatics and Jump are now one skill. Climb and Swim are one skill. Gather Information and Persuasion are one skill. Knowledge (Force) is a skill.",
-        scope: "world",
-        config: true,
-        default: false,
-        type: Boolean
     });
 }
 
@@ -109,13 +88,5 @@ export function commonHomebrewOptions() {
             "Crunchy Crit": "adds max damage to rolled damage",
             "Max Damage": "replaces the roll with max damage"
         }
-    });
-    game.settings.register("swse", "disableBackgroundDestinyLimit", {
-        name: "Disable Background Destiny Limit",
-        hint: "Allows you to select more than one Background or destiny",
-        scope: "world",
-        config: true,
-        default: false,
-        type: Boolean
     });
 }

@@ -1,0 +1,40 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Droid Accessories (Miscellaneous Systems)",
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "droidPart"
+      }
+    ],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scavenger%27s_Guide_to_Droids\" title=\"Star Wars Saga Edition Scavenger's Guide to Droids\">Star Wars Saga Edition Scavenger's Guide to Droids</a></i></p><p><a href=\"https://swse.fandom.com/wiki/Droids\" title=\"Droids\">Droids</a> are sometimes used as messengers to deliver important messages and items across the galaxy. To protect items entrusted into their care, these <a href=\"https://swse.fandom.com/wiki/Droids\" title=\"Droids\">Droids</a> can have hidden Courier Compartments installed in their <a href=\"https://swse.fandom.com/wiki/Droid_Chassis\" title=\"Droid Chassis\">Droid Chassis</a>. Such compartments are also favorites of smugglers who own <a href=\"https://swse.fandom.com/wiki/Droids\" title=\"Droids\">Droids</a>. A <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> with a Courier Compartment might walk right past a starport inspection team that is on the way to tear its master's ship apart.</p><p>Courier Compartments can be installed in four locations within a <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a>. A Courier Compartment in the torso can hold an item that is 3 sizes smaller than the Droid's size. A Courier Compartment in the arm or leg can hold an item that is 4 sizes smaller than the Droid's size. A head compartment can hold an item that is 5 sizes smaller. Detecting a Courier Compartment requires a successful <a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> check with a DC equal to the Droid's <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a> +5.</p><p>A common accessory in a Courier Compartment is a Toaster, which destroys the contents of the Courier Compartment with a brief blast of plasma energy triggered by the <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a>. Installing a Toaster into a Courier Compartment doubles the cost of the Courier Compartment.</p><p><i>Example: S-3PO, a protocol Droid in service to Count Czasiz, has a Courier Compartment hidden in it's left arm. As a Medium <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a>, the Courier Compartment can an hold item of up to Fine size, so it can hold the skifter sabacc card the Count needs to guarantee his next win.</i></p>",
+    "source": "Star Wars Saga Edition Scavenger's Guide to Droids",
+    "cost": "200",
+    "weight": "(2 x Cost Factor) Kilograms"
+  },
+  "name": "Courier Compartments",
+  "flags": {},
+  "type": "droid system",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764449016193,
+    "modifiedTime": 1764449016193,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "PUR2J4W3fQ2Q7PXn",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!PUR2J4W3fQ2Q7PXn"
+}

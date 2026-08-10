@@ -1,0 +1,90 @@
+<div class="classes-header swse resource panel area-equipment">
+    <h1 class="top-label resource-label">
+        Equipment
+        <span class="skills-counter" title="Light slots / Kit slots (Strength score / Strength modifier +1)">L {{actor.system.lightSlots.used}}/{{actor.system.lightSlots.max}} &nbsp; K {{actor.system.kitSlots.used}}/{{actor.system.kitSlots.max}}</span>
+        <div class="classes-header-actions labeled-actions">
+            <a data-action="compendium" data-type="Item" data-pack="swse.weapons" title="Weapons"><i class="fas fa-folder-plus"></i><span>Weapons</span></a>
+            <a data-action="compendium" data-type="Item" data-pack="swse.armor" title="Armor"><i class="fas fa-folder-plus"></i><span>Armor</span></a>
+            <a data-action="compendium" data-type="Item" data-pack="swse.equipment" title="Equipment"><i class="fas fa-folder-plus"></i><span>Equipment</span></a>
+            <a data-action="compendium" data-type="Item" data-pack="swse.templates" title="Templates"><i class="fas fa-folder-plus"></i><span>Templates</span></a>
+        </div>
+    </h1>
+
+    {{> 'systems/swse/templates/credits/credit-chip.hbs'}}
+
+    {{#if actor.equipmentGroups.weapons.length}}
+        <div class="equipment-group">
+            <div class="equipment-row equipment-row-header">
+                <span class="equipment-group-label">Weapons</span>
+                <span class="equip-toggle">Equip</span>
+                <span class="slot-toggle">Slot</span>
+                <span class="integrated-toggle" title="Integrated — surgically built-in, doubles this item's own slot cost">Int</span>
+                <span class="equipment-qty">Qty</span>
+                <span class="equipment-controls"></span>
+            </div>
+            <ul class="equipment-list">
+                {{#each actor.equipmentGroups.weapons as |item id|}}
+                    {{> 'systems/swse/templates/actor/parts/equipment-row.hbs' item=item delete="always"}}
+                {{/each}}
+            </ul>
+        </div>
+    {{/if}}
+
+    {{#if actor.equipmentGroups.armor.length}}
+        <div class="equipment-group">
+            <div class="equipment-row equipment-row-header">
+                <span class="equipment-group-label">Armor</span>
+                <span class="equip-toggle">Equip</span>
+                <span class="slot-toggle">Slot</span>
+                <span class="integrated-toggle" title="Integrated — surgically built-in, doubles this item's own slot cost">Int</span>
+                <span class="equipment-qty">Qty</span>
+                <span class="equipment-controls"></span>
+            </div>
+            <ul class="equipment-list">
+                {{#each actor.equipmentGroups.armor as |item id|}}
+                    {{> 'systems/swse/templates/actor/parts/equipment-row.hbs' item=item delete="always"}}
+                {{/each}}
+            </ul>
+        </div>
+    {{/if}}
+
+    <div class="equipment-group">
+        <div class="equipment-row equipment-row-header">
+            <span class="equipment-group-label">
+                General Equipment
+                <a data-action="create" data-action-type="equipment" title="Add new equipment"><i class="fas fa-plus"></i></a>
+            </span>
+            <span class="equip-toggle">Equip</span>
+            <span class="slot-toggle">Slot</span>
+            <span class="integrated-toggle" title="Integrated — surgically built-in, doubles this item's own slot cost">Int</span>
+            <span class="equipment-qty">Qty</span>
+            <span class="equipment-controls"></span>
+        </div>
+        <div class="equipment-quick-create">
+            <input type="text" class="editor" data-action="quickCreate" data-action-type="equipment" placeholder="New equipment">
+        </div>
+        <ul class="equipment-list">
+            {{#each actor.equipmentGroups.general as |item id|}}
+                {{> 'systems/swse/templates/actor/parts/equipment-row.hbs' item=item delete="always"}}
+            {{/each}}
+        </ul>
+    </div>
+
+    {{#if actor.equipmentGroups.systems.length}}
+        <div class="equipment-group">
+            <div class="equipment-row equipment-row-header">
+                <span class="equipment-group-label">Vehicle/Droid Systems &amp; Implants</span>
+                <span class="equip-toggle">Equip</span>
+                <span class="slot-toggle">Slot</span>
+                <span class="integrated-toggle" title="Integrated — surgically built-in, doubles this item's own slot cost">Int</span>
+                <span class="equipment-qty">Qty</span>
+                <span class="equipment-controls"></span>
+            </div>
+            <ul class="equipment-list">
+                {{#each actor.equipmentGroups.systems as |item id|}}
+                    {{> 'systems/swse/templates/actor/parts/equipment-row.hbs' item=item delete="always"}}
+                {{/each}}
+            </ul>
+        </div>
+    {{/if}}
+</div>

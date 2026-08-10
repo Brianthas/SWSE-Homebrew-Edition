@@ -1,0 +1,167 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Jedi_Academy_Training_Manual\" title=\"Star Wars Saga Edition Jedi Academy Training Manual\">Star Wars Saga Edition Jedi Academy Training Manual</a></i></p><p>Celegians are an ancient Species known for their great intellect and wisdom. Evolved from ocean-dwelling invertebrates, the Celegians' ancestors eventually adapted to living on land. The atmosphere of their homeworld is rich in cyanogen gas, which is poisonous to most sentient beings. Conversely, oxygen is lethal to Celegians. </p><p>To move their massive jellyfishlike bodies, Celegians evolved a natural form of locomotion similar to a repulsorlift generator. Their soft fleshy bodies, writhing masses of tentacles, and and dependence on life-support chambers result in Celegians looking as if they constantly float in water. </p><h3><span class=\"mw-headline\" id=\"Celegian_Characteristics\">Celegian Characteristics</span></h3><p><b>Personality:</b> Celegians are wise, thoughtful beings who search for logical solutions to problems. They enjoy contemplating riddles, puzzles, and paradoxes. Celegians rarely put themselves in harm's way and avoid conflict whenever possible. </p><p><b>Physical Description:</b> A Celegian's body resembles a brainlike organism with a mass of tentacles floating beneath it. The brain averages 1.2 meters in diameter, and the tentacles vary in length from 1.8 to 2.2 meters. Away from their homeworld, Celegians are always encountered within some sort of mobile life-support chamber, usually made of transparisteel. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Celegians age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-10 Years </td> \n   <td>11-20 Years </td> \n   <td>21-142 Years </td> \n   <td>143-210 Years </td> \n   <td>211-250 Years </td> \n   <td>251+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> <span class=\"new\" title=\"Celegia (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQ2VsZWdpYT9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Celegia</span>, an ancient world of raging seas located in <a href=\"https://swse.fandom.com/wiki/The_Expansion_Region\" title=\"The Expansion Region\">The Expansion Region</a>. </p><p><b>Languages:</b> Celegians communicate using a sophisticated form of telepathy. They possess no spoken or written language. </p><p><b>Example Names:</b> Ealu, Jolorr, Ooroo, Ruwaa. </p><p><b>Adventurers:</b> Celegians are natural explorers and are occasionally found in the company of other <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> with similar interests. Celegians encountered far from their homeworld are usually <a href=\"https://swse.fandom.com/wiki/Nobles\" class=\"mw-redirect\" title=\"Nobles\">Nobles</a> or <a href=\"https://swse.fandom.com/wiki/Scouts\" class=\"mw-redirect\" title=\"Scouts\">Scouts</a>. Celegian <a href=\"https://swse.fandom.com/wiki/Jedi\" title=\"Jedi\">Jedi</a> are extremely rare. </p><h3><span class=\"mw-headline\" id=\"Celegian_Species_Traits\">Celegian Species Traits</span></h3><p>Celegians share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Broadcast Telepath",
+        "type": "trait"
+      },
+      {
+        "name": "Flight",
+        "type": "trait"
+      },
+      {
+        "name": "Expert Swimmer",
+        "type": "trait"
+      },
+      {
+        "name": "Swimming",
+        "type": "trait"
+      },
+      {
+        "name": "Special Equipment",
+        "type": "trait"
+      },
+      {
+        "name": "Hovering",
+        "type": "trait"
+      },
+      {
+        "name": "Fly Speed (6)",
+        "type": "trait"
+      },
+      {
+        "name": "Swim Speed (10)",
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "142",
+          "low": "21",
+          "text": "21-142",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "251",
+          "text": "251+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "10",
+          "low": "1",
+          "text": "1-10",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "20",
+          "low": "11",
+          "text": "11-20",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "250",
+          "low": "211",
+          "text": "211-250",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "210",
+          "low": "143",
+          "text": "143-210",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Broadcast Telepath"
+      },
+      {
+        "value": "Flight"
+      },
+      {
+        "value": "Expert Swimmer"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Swimming"
+      },
+      {
+        "value": "Special Equipment"
+      },
+      {
+        "value": "Hovering"
+      },
+      {
+        "value": "Celegians"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Celegian",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535565738,
+    "modifiedTime": 1736535565738,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "12Ba4bserZa0hoJU",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!12Ba4bserZa0hoJU"
+}

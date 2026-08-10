@@ -1,0 +1,74 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Whenever you take damage on behalf of an ally through the use of a Talent (including <b><a href=\"https://swse.fandom.com/wiki/Harm%27s_Way\" class=\"mw-redirect\" title=\"Harm's Way\">Harm's Way</a></b>), you gain <a href=\"https://swse.fandom.com/wiki/Damage_Reduction\" title=\"Damage Reduction\">Damage Reduction</a> equal to your Class Level until the end of your next turn.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Bodyguard's Sacrifice talent",
+          "requirement": "Bodyguard's Sacrifice",
+          "type": "TALENT"
+        },
+        {
+          "text": "Take the Hit talent",
+          "requirement": "Take the Hit",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Bodyguard's Sacrifice talent, and Take the Hit talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Elite Trooper Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Elite Trooper Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Protection Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Protection_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Legacy Era Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Roll With It",
+  "flags": {},
+  "type": "talent",
+  "folder": "rgOCjhqUk8GECD2t",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385310762,
+    "modifiedTime": 1734385310762,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "BdDFRB2UCNvFXYvv",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!BdDFRB2UCNvFXYvv"
+}

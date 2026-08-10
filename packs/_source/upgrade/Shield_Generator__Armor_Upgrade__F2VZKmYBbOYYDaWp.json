@@ -1,0 +1,55 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a></i> </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th><a href=\"https://swse.fandom.com/wiki/SHIELD_RATING\" class=\"mw-redirect\" title=\"SHIELD RATING\">SHIELD RATING</a> </th> \n   <th>COST </th> \n   <th>UPGRADE POINT COST </th> \n   <th>AVAILABILITY </th>\n  </tr> \n  <tr> \n   <td>5 </td> \n   <td>5,000 </td> \n   <td>2 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Restricted\" class=\"mw-redirect\" title=\"Restricted\">Restricted</a> </td>\n  </tr> \n  <tr> \n   <td>10 </td> \n   <td>10,000 </td> \n   <td>3 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Military\" class=\"mw-redirect\" title=\"Military\">Military</a> </td>\n  </tr>\n </tbody>\n</table><p>A deflector Shield Generator can be built into a suit of <a href=\"https://swse.fandom.com/wiki/Medium_Armor\" title=\"Medium Armor\">Medium Armor</a> or <a href=\"https://swse.fandom.com/wiki/Heavy_Armor\" title=\"Heavy Armor\">Heavy Armor</a>, giving it the same kind of protection <a href=\"https://swse.fandom.com/wiki/Starships\" class=\"mw-redirect\" title=\"Starships\">Starships</a> and some Battle <a href=\"https://swse.fandom.com/wiki/Droids\" title=\"Droids\">Droids</a> enjoy. Due to their bulk and power requirements, it is not possible to install anything but the smallest of Shield Generators into a suit of Armor; in fact, only <a href=\"https://swse.fandom.com/wiki/Heavy_Armor\" title=\"Heavy Armor\">Heavy Armor</a> of at least Medium size can carry a SR 10 Shield Generator. </p><p>Shield Generators operate for 10 rounds on a standard <a href=\"https://swse.fandom.com/wiki/Energy_Cell\" title=\"Energy Cell\">Energy Cell</a>. (Suits of Armor with Shield Generators commonly have the <a href=\"https://swse.fandom.com/wiki/Internal_Generator\" title=\"Internal Generator\">Internal Generator</a> Upgrade.) Turning a Shield Generator on or off is a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>. When active, reduce the damage you take by the Armor's <a href=\"https://swse.fandom.com/wiki/Shield_Rating\" title=\"Shield Rating\">Shield Rating</a>. If the damage is equal to or greater than the Armor's <a href=\"https://swse.fandom.com/wiki/Shield_Rating\" title=\"Shield Rating\">Shield Rating</a>, the <a href=\"https://swse.fandom.com/wiki/Shield_Rating\" title=\"Shield Rating\">Shield Rating</a> is reduced by 5 points. By spending three <a href=\"https://swse.fandom.com/wiki/Swift_Actions\" title=\"Swift Actions\">Swift Actions</a> on the same or consecutive rounds, the wearer can make a DC 20 <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> check to restore lost shield power. If the check succeeds, the Armor's <a href=\"https://swse.fandom.com/wiki/Shield_Rating\" title=\"Shield Rating\">Shield Rating</a> increases by 5 points (up to its maximum <a href=\"https://swse.fandom.com/wiki/Shield_Rating\" title=\"Shield Rating\">Shield Rating</a>). </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "itemMod"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "0",
+    "weight": "",
+    "availability": "",
+    "size": "",
+    "type": "",
+    "subtype": "Armor Upgrade",
+    "quantity": 1,
+    "hasItemOwner": false,
+    "upgrade": {},
+    "source": "Star Wars Saga Edition Scum and Villainy"
+  },
+  "name": "Shield Generator (Armor Upgrade)",
+  "flags": {},
+  "type": "upgrade",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263245723,
+    "modifiedTime": 1749263245723,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "F2VZKmYBbOYYDaWp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!F2VZKmYBbOYYDaWp"
+}

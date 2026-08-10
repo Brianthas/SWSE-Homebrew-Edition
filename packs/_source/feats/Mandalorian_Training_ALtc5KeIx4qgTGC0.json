@@ -1,0 +1,56 @@
+{
+  "img": "systems/swse/icon/feat/Mandalorian Training.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You are trained in Mandalorian fighting techniques, giving you an advantage in many types of combat.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Charging_Fire\" title=\"Charging Fire\">Charging Fire</a></p><p><b>Effect:</b> When using the <a href=\"https://swse.fandom.com/wiki/Charging_Fire\" title=\"Charging Fire\">Charging Fire</a> Feat, you gain a +2 bonus to a ranged attack made at the end of a <a href=\"https://swse.fandom.com/wiki/Charge\" title=\"Charge\">Charge</a>. As with a normal <a href=\"https://swse.fandom.com/wiki/Charge\" title=\"Charge\">Charge</a>, you still take a -2 penalty to your <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>, but you also gain a +2 morale bonus to your <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a> until the beginning of your next turn.</p><p><b>Normal:</b> You gain no bonus to a ranged attack make at the end of a <a href=\"https://swse.fandom.com/wiki/Charge\" title=\"Charge\">Charge</a> with the <a href=\"https://swse.fandom.com/wiki/Charging_Fire\" title=\"Charging Fire\">Charging Fire</a> Feat.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Charging Fire feat",
+      "requirement": "Charging Fire",
+      "type": "FEAT"
+    },
+    "categories": [
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Mandalorian Training",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479027821,
+    "modifiedTime": 1761479027821,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "ALtc5KeIx4qgTGC0",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!ALtc5KeIx4qgTGC0"
+}

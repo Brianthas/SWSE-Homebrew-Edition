@@ -1,0 +1,85 @@
+{
+  "img": "systems/swse/icon/feat/Risk_Taker.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_at_War\" title=\"Star Wars Saga Edition Galaxy at War\">Star Wars Saga Edition Galaxy at War</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You're not afraid to make great leaps or climb treacherous slopes, and you know how to put forth the extra effort to make the impossible seem routine.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in <a href=\"https://swse.fandom.com/wiki/Climb\" title=\"Climb\">Climb</a> or <a href=\"https://swse.fandom.com/wiki/Jump\" title=\"Jump\">Jump</a></p><p><b>Effect:</b> You fall only if you fail a <a href=\"https://swse.fandom.com/wiki/Climb\" title=\"Climb\">Climb</a> check by 10 or more. Additionally, if you make a <a href=\"https://swse.fandom.com/wiki/Jump\" title=\"Jump\">Jump</a> check and fail to land on a safe or solid surface (such as if you fall into a pit or fail to clear a stream of lava), you can spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> as a <a href=\"https://swse.fandom.com/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a> and add the result of the <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> roll to your distance jumped. However, you must land in the first available safe square.</p><p><b>Normal:</b> You fall if you fail a <a href=\"https://swse.fandom.com/wiki/Climb\" title=\"Climb\">Climb</a> check by 5 or more.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Trained in Climb",
+          "requirement": "Climb",
+          "type": "TRAINED SKILL"
+        },
+        {
+          "text": "Trained in Jump",
+          "requirement": "Jump",
+          "type": "TRAINED SKILL"
+        }
+      ],
+      "count": 1,
+      "text": "Trained in Climb or Jump",
+      "type": "OR"
+    },
+    "categories": [
+      {
+        "value": "Soldier Bonus Feats"
+      },
+      {
+        "value": "Force Prodigy Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Scout Bonus Feats"
+      },
+      {
+        "value": "Jedi Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Bonus Feats",
+      "Force Prodigy Bonus Feats",
+      "General Feats",
+      "Scout Bonus Feats",
+      "Jedi Bonus Feats",
+      "Smuggler Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Galaxy at War",
+    "cost": "0"
+  },
+  "name": "Risk Taker",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1761479028654,
+    "modifiedTime": 1786036141514,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "H7hTiB99sx1UBdGG",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!H7hTiB99sx1UBdGG"
+}

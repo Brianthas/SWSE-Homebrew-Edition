@@ -1,0 +1,95 @@
+{
+  "img": "systems/swse/icon/feat/Savage Attack.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Force_Unleashed_Campaign_Guide\" title=\"Star Wars Saga Edition Force Unleashed Campaign Guide\">Star Wars Saga Edition Force Unleashed Campaign Guide</a></i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You are well trained in attacking multiple times in a round.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Double_Attack\" title=\"Double Attack\">Double Attack</a> (Chosen Weapon)</p><p><b>Effect:</b> Choose one weapon groups or <a href=\"https://swse.fandom.com/wiki/Exotic_Weapon\" class=\"mw-redirect\" title=\"Exotic Weapon\">Exotic Weapon</a> you have selected for the <a href=\"https://swse.fandom.com/wiki/Double_Attack\" title=\"Double Attack\">Double Attack</a> Feat. When you use a <a href=\"https://swse.fandom.com/wiki/Full_Attack\" title=\"Full Attack\">Full Attack</a> Action and successfully hit the target with your first attack, you deal +1 die of damage on each successful attack remaining in the <a href=\"https://swse.fandom.com/wiki/Full_Attack\" title=\"Full Attack\">Full Attack</a> made against that target.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "#payload#",
+        "key": "savageAttack"
+      },
+      {
+        "mode": 2,
+        "value": "#payload#",
+        "key": "relentlessAttack"
+      }
+    ],
+    "choices": [
+      {
+        "noOptions": "You Must have Double Attack for a weapon group or an Exotic Weapon to select one for Savage Attack.",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {
+              "payload": "AVAILABLE_SAVAGE_ATTACK"
+            },
+            "display": "AVAILABLE_SAVAGE_ATTACK",
+            "name": "AVAILABLE_SAVAGE_ATTACK",
+            "attributes": {}
+          }
+        ],
+        "description": "Select a Weapon to use with Savage Attack.",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": true
+      }
+    ],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Double Attack (#payload#)",
+      "requirement": "Double Attack (#payload#)",
+      "type": "FEAT"
+    },
+    "categories": [
+      {
+        "value": "Soldier Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Jedi Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Bonus Feats",
+      "General Feats",
+      "Jedi Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Force Unleashed Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Savage Attack",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479028736,
+    "modifiedTime": 1761479028736,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "kJQVW1C2vovarJyD",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!kJQVW1C2vovarJyD"
+}

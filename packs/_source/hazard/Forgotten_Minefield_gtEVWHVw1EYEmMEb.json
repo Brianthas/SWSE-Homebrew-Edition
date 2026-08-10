@@ -1,0 +1,75 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "6d6",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A being enters a square containing or adjacent to a Forgotten Mine; targeting the triggering being and any being in a square adjacent to the Mine.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "On Trigger; Once per Mine",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Acrobatics (DC 26): The character makes this check as a part of a Move Action; if the check succeeds, the character can enter squares adjacent to a Mine during that Move Action without triggering the Hazard.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: Each Mine in the Forgotten Minefield should take up 1 square. There should be at least 1 Mine per hero placed in the encounter area, plus additional Mines for particularly large battlefields.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Area",
+          "Artificial",
+          "Contact",
+          "Energy",
+          "Fire"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>Unseen explosive devices beneath the surface are triggered by creatures moving across the mines' trigger zones.</i> </p><p>As a result of the ongoing conflict between the <a href=\"https://swse.fandom.com/wiki/Altiri\" title=\"Altiri\">Altiri</a> and the <a href=\"https://swse.fandom.com/wiki/Anarrians\" class=\"mw-redirect\" title=\"Anarrians\">Anarrians</a>, there are many locations across the world that have been seeded with explosives as a deterrent against invasion. However, many times these minefields are left unmarked and are forgotten until some unaware citizen stumbles across a hidden mine. The following hazard can be used to add some spice to a combat encounter on <a href=\"https://swse.fandom.com/wiki/Altiria/Anarris\" title=\"Altiria/Anarris\">Altiria/Anarris</a>, giving the heroes reason to be extra cautious during their movement across the battlefield. </p><h2><span id=\"Forgotten_Minefield_Statistics_.28CL_13.29\"></span><span class=\"mw-headline\" id=\"Forgotten_Minefield_Statistics_(CL_13)\">Forgotten Minefield Statistics (CL 13)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Area, Artificial, Contact, Energy, Fire </p><p><b>Trigger:</b> A being enters a square containing or adjacent to a Forgotten Mine; targeting the triggering being and any being in a square adjacent to the Mine. </p><p><b>Attack:</b> +15 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> On Trigger; Once per Mine </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Acrobatics\" title=\"Acrobatics\">Acrobatics</a> (DC 26):</b> The character makes this check as a part of a <a href=\"https://swse.fandom.com/wiki/Move_Action\" class=\"mw-redirect\" title=\"Move Action\">Move Action</a>; if the check succeeds, the character can enter squares adjacent to a Mine during that <a href=\"https://swse.fandom.com/wiki/Move_Action\" class=\"mw-redirect\" title=\"Move Action\">Move Action</a> without triggering the Hazard.</li>\n</ul><p><b>Special:</b> Each Mine in the Forgotten Minefield should take up 1 square. There should be at least 1 Mine per hero placed in the encounter area, plus additional Mines for particularly large battlefields. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Forgotten Minefield",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244516,
+    "modifiedTime": 1749263244516,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "gtEVWHVw1EYEmMEb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!gtEVWHVw1EYEmMEb"
+}

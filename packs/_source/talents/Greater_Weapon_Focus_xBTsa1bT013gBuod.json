@@ -1,0 +1,99 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Choose one <a href=\"https://swse.fandom.com/wiki/Exotic_Weapon\" class=\"mw-redirect\" title=\"Exotic Weapon\">Exotic Weapon</a> or weapon group with which you're proficient. You gain a +1 bonus on attack rolls with the chosen <a href=\"https://swse.fandom.com/wiki/Exotic_Weapon\" class=\"mw-redirect\" title=\"Exotic Weapon\">Exotic Weapon</a> or weapon from the chosen group. This bonus stacks with the bonus granted by the <a href=\"https://swse.fandom.com/wiki/Weapon_Focus\" title=\"Weapon Focus\">Weapon Focus</a> feat.<br><br>You may select this Talent multiple times. Each time you select this Talent, it applies to a different <a href=\"https://swse.fandom.com/wiki/Exotic_Weapon\" class=\"mw-redirect\" title=\"Exotic Weapon\">Exotic Weapon</a> or weapon group.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "takeMultipleTimes"
+      },
+      {
+        "mode": 2,
+        "value": "#payload#",
+        "key": "greaterWeaponFocus"
+      }
+    ],
+    "choices": [
+      {
+        "noOptions": "You Must have Weapon Focus with a weapon group or an Exotic Weapon to select one for Greater Weapon Focus.",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {
+              "payload": "AVAILABLE_GREATER_WEAPON_FOCUS"
+            },
+            "display": "AVAILABLE_GREATER_WEAPON_FOCUS",
+            "name": "AVAILABLE_GREATER_WEAPON_FOCUS",
+            "attributes": {}
+          }
+        ],
+        "description": "Select a Weapon to use Greater Weapon Focus.",
+        "oneOption": "You have a single weapon group or exotic weapon that qualifies for Greater Weapon Focus",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": true
+      }
+    ],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Weapon Focus (#payload#)",
+      "requirement": "Weapon Focus (#payload#)",
+      "type": "FEAT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Elite Trooper Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Elite Trooper Talent Trees",
+      "Core Rulebook"
+    ],
+    "isSupplied": false,
+    "talentTree": "Weapon Master Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Weapon_Master_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Core Rulebook",
+    "cost": "0"
+  },
+  "name": "Greater Weapon Focus",
+  "flags": {},
+  "type": "talent",
+  "folder": "Jbx6AQ4WPZtZfcGj",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385313382,
+    "modifiedTime": 1734385313382,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "xBTsa1bT013gBuod",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!xBTsa1bT013gBuod"
+}

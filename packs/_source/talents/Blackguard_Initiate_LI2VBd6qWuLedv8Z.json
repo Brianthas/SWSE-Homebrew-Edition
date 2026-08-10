@@ -1,0 +1,89 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You have been trained balance <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a> within yourself, holding the quaking power within you. As a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a>, you can grant yourself a bonus to your attack rolls equal to your <a href=\"https://swse.fandom.com/wiki/Dark_Side_Score\" title=\"Dark Side Score\">Dark Side Score</a> or <a href=\"https://swse.fandom.com/wiki/Wisdom\" title=\"Wisdom\">Wisdom</a> modifier (whichever is lower). However, while this effect is active, you suffer a penalty to your <a href=\"https://swse.fandom.com/wiki/Defenses\" title=\"Defenses\">Defenses</a> equal to your <a href=\"https://swse.fandom.com/wiki/Dark_Side_Score\" title=\"Dark Side Score\">Dark Side Score</a>.<br><br>This effect lasts a number of rounds equal to your <a href=\"https://swse.fandom.com/wiki/Wisdom\" title=\"Wisdom\">Wisdom</a> modifier (minimum 1 round).",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "a member of The Blackguard",
+      "requirement": "The Blackguard",
+      "type": "TRADITION"
+    },
+    "categories": [
+      {
+        "value": "Untested"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Chellewalker Creations"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Force Talent Trees"
+      },
+      {
+        "value": "Force Tradition Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Untested",
+      "Chellewalker Creations",
+      "Homebrew Content",
+      "Force Talent Trees",
+      "Force Tradition Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Blackguard Wilder Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Blackguard_Wilder_Talent_Tree",
+    "bonusTalentTree": "Force Talent Trees",
+    "cost": "0"
+  },
+  "name": "Blackguard Initiate",
+  "flags": {},
+  "type": "talent",
+  "folder": "PlQO7Xs6r78ijpgk",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385302714,
+    "modifiedTime": 1734385302714,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "LI2VBd6qWuLedv8Z",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!LI2VBd6qWuLedv8Z"
+}

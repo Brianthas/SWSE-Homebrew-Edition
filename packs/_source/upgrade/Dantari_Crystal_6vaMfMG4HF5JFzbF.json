@@ -1,0 +1,211 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {}
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Attuned",
+      "_id": "SgOV8qNMiKVivjTg",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "If you wield an attuned Lightsaber with a Dantari Crystal and roll a natural 19 on a Use the Force check made to activate a Force Power, you regain some of your spent Force Powers. If you have a Dark Side Score of 0, you regain all spent Force Powers with the [Light Side] descriptor. If you have a Dark Side Score of 1+, you regain all spent Force Powers with the [Dark Side] descriptor. If you roll a natural 20 on a Use the Force check made to activate a Force Power, you still regain all spent Force Powers.",
+            "key": "special",
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.4.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!6vaMfMG4HF5JFzbF.SgOV8qNMiKVivjTg"
+    },
+    {
+      "flags": {
+        "swse": {}
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Ignite",
+      "_id": "gO2wk0XONqHvs0sG",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": 0.3,
+            "key": "auraLuminosity",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 0.4,
+            "key": "auraBright",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 0.9,
+            "key": "auraDim",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": "torch",
+            "key": "auraAnimationType",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 5,
+            "key": "auraAnimationSpeed",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 2,
+            "key": "auraAnimationIntensity",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": "#lightsaberColor#",
+            "key": "auraColor",
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.4.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!6vaMfMG4HF5JFzbF.gO2wk0XONqHvs0sG"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Jedi_Academy_Training_Manual\" title=\"Star Wars Saga Edition Jedi Academy Training Manual\">Star Wars Saga Edition Jedi Academy Training Manual</a></i> </p><p>Found on the planet <a href=\"https://swse.fandom.com/wiki/Dantooine\" title=\"Dantooine\">Dantooine</a>, Dantari Crystals originate in the eggs of the <a href=\"https://swse.fandom.com/wiki/Kinrath\" class=\"mw-redirect\" title=\"Kinrath\">Kinrath</a>, creatures native to the planet. Dantari Crystals were harvested in the ancient days of the Jedi, but once <a href=\"https://swse.fandom.com/wiki/Ilum\" title=\"Ilum\">Ilum</a> became a source or <a href=\"https://swse.fandom.com/wiki/Lightsaber_Crystals\" class=\"mw-redirect\" title=\"Lightsaber Crystals\">Lightsaber Crystals</a>, few Jedi saw the need to deal with the deadly <a href=\"https://swse.fandom.com/wiki/Kinrath\" class=\"mw-redirect\" title=\"Kinrath\">Kinrath</a>. Dantari Crystals harvested from <a href=\"https://swse.fandom.com/wiki/Kinrath\" class=\"mw-redirect\" title=\"Kinrath\">Kinrath</a> eggs supposedly reflect the true disposition of their wielders. If you wield an attuned <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> with a Dantari Crystal and roll a natural 19 on a <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check made to activate a <a href=\"https://swse.fandom.com/wiki/Force_Power\" class=\"mw-redirect\" title=\"Force Power\">Force Power</a>, you regain some of your spent <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a>. If you have a <a href=\"https://swse.fandom.com/wiki/Dark_Side_Score\" title=\"Dark Side Score\">Dark Side Score</a> of 0, you regain all spent <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a> with the [<i><a href=\"https://swse.fandom.com/wiki/Light_Side\" class=\"mw-redirect\" title=\"Light Side\">Light Side</a></i>] descriptor. If you have a <a href=\"https://swse.fandom.com/wiki/Dark_Side_Score\" title=\"Dark Side Score\">Dark Side Score</a> of 1+, you regain all spent <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a> with the [<i><a href=\"https://swse.fandom.com/wiki/Dark_Side\" class=\"mw-redirect\" title=\"Dark Side\">Dark Side</a></i>] descriptor. If you roll a natural 20 on a <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check made to activate a <a href=\"https://swse.fandom.com/wiki/Force_Power\" class=\"mw-redirect\" title=\"Force Power\">Force Power</a>, you still regain all spent <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a>. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "itemMod"
+      }
+    ],
+    "choices": [
+      {
+        "noOptions": "NO_AVAILABLE_OPTIONS",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {
+              "payload": "AVAILABLE_LIGHTSABER_COLORS"
+            },
+            "display": "AVAILABLE_LIGHTSABER_COLORS",
+            "name": "AVAILABLE_LIGHTSABER_COLORS",
+            "attributes": {}
+          }
+        ],
+        "description": "Select a lightsaber color.",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": true
+      }
+    ],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "0",
+    "weight": "",
+    "availability": "",
+    "size": "",
+    "type": "",
+    "subtype": "Lightsaber Crystals",
+    "quantity": 1,
+    "hasItemOwner": false,
+    "upgrade": {},
+    "prerequisite": {
+      "text": "Lightsabers",
+      "requirement": "lightsabers",
+      "type": "SUBTYPE"
+    },
+    "source": "Star Wars Saga Edition Jedi Academy Training Manual"
+  },
+  "name": "Dantari Crystal",
+  "flags": {},
+  "type": "upgrade",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263245952,
+    "modifiedTime": 1749263245952,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "6vaMfMG4HF5JFzbF",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!6vaMfMG4HF5JFzbF"
+}

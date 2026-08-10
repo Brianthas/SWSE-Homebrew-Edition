@@ -1,0 +1,158 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<table style=\"width:100%; margin-top:2em; border:2px solid #999; font-size:105%; text-align:center; background:#00008B;\"> \n <tbody>\n  <tr> \n   <td><i><b>This <a href=\"https://swse.fandom.com/wiki/Homebrew_Content\" title=\"Homebrew Content\">Homebrew Content</a> has been <a href=\"https://swse.fandom.com/wiki/Category:Tested\" title=\"Category:Tested\">Tested</a> per the <a href=\"https://swse.fandom.com/wiki/Category:Untested\" title=\"Category:Untested\">Untested</a> guidelines. Whether or not it can be used is, as always, the prerogative of the Gamemaster.</b></i> </td>\n  </tr>\n </tbody>\n</table><p><i>Tridactyl Species data created by Sterling Hershey (<a target=\"_blank\" rel=\"nofollow noreferrer noopener\" class=\"external text\" href=\"https://www.sterlinghershey.com/blog/2011/5/11/star-wars-wednesday-yodas-species-in-play.html\">source</a>).</i></p><p>Tridactyls are members of a diminutive reptilian race that is found throughout the galaxy. The Tridactyl race is shrouded in mystery. Even the name \"Tridactyl\" is a descriptive term first applied to them by Republic scientists because of their three-fingered hands. The Tridactyls have no apparent knowledge of their homeworld, heritage or even a name for themselves (or at least none that they share with outsiders). </p><p>They first appeared in known space several millennia ago in small numbers, and still live in isolated communities where they stay away from the galactic mainstream. Their reclusiveness has lead to many myths, rumors and wild speculation. The Tridactyls are often mistaken for <a href=\"https://swse.fandom.com/wiki/Lanniks\" class=\"mw-redirect\" title=\"Lanniks\">Lanniks</a>, or even <span class=\"new\" title=\"Whills (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvV2hpbGxzP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Whills</span>, although they are a distinct Species. </p><p>The Tridactyls are naturally talented with <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a>. While they are not all Force-sensitive (contrary to common belief), <a href=\"https://swse.fandom.com/wiki/Force_Sensitivity\" title=\"Force Sensitivity\">Force Sensitivity</a> is much more common in Tridactyls than in others and they tend to be very powerful Force-users. </p><h3><span class=\"mw-headline\" id=\"Tridactyl_Characteristics\">Tridactyl Characteristics</span></h3><p><b>Personality:</b>&nbsp;Tridactlys are humble, playful, and slow to anger.&nbsp; </p><p><b>Physical Description:</b>&nbsp;Tridactyls average about 0.7 meters tall. They are green or greenish-brown skinned with large pointed ears and three digits on each hand, with small vestigial claws. Hair tends to be sparse and white or grey. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Tridactyls age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-90 Years </td> \n   <td>91-150 Years </td> \n   <td>150-499 Years </td> \n   <td>500-599 Years </td> \n   <td>600-719 Years </td> \n   <td>720+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b>&nbsp;Unknown. The home of the Tridactyls is lost to history. A few small and hidden communities of them have been documented throughout the galaxy, tending to be on undeveloped worlds on <a href=\"https://swse.fandom.com/wiki/The_Outer_Rim\" title=\"The Outer Rim\">The Outer Rim</a> or in <a href=\"https://swse.fandom.com/wiki/Wild_Space\" title=\"Wild Space\">Wild Space</a>. </p><p><b>Languages:</b>&nbsp;Tridactyls speak, read, and write Basic (although often an idiosyncratic dialect using non-standard grammar and sentence construction). They often learn other languages as well, including obscure ones. </p><p><b>Example Names:</b>&nbsp;Grogu, Minch, Vandar Tokare, Yaddle, Yoda. </p><p><b>Adventurers:</b>&nbsp;Tridactlys are reclusive and few of their already small number go on adventures. Their natural inclination towards <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a> means that most Tridactyls that leave their communities for the greater galaxy become <a href=\"https://swse.fandom.com/wiki/Jedi\" title=\"Jedi\">Jedi</a>. </p><h3><span class=\"mw-headline\" id=\"Tridactyl_Species_Traits\">Tridactyl Species Traits</span></h3><p>Tridactyls share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Small",
+        "type": "trait"
+      },
+      {
+        "name": "Sterling Hershey Creations",
+        "type": "trait"
+      },
+      {
+        "name": "Homebrew Content",
+        "type": "trait"
+      },
+      {
+        "name": "Bonus Trained Skill",
+        "type": "trait"
+      },
+      {
+        "name": "Tested",
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "499",
+          "low": "150",
+          "text": "150-499",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "90",
+          "low": "1",
+          "text": "1-90",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "720",
+          "text": "720+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "599",
+          "low": "500",
+          "text": "500-599",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "150",
+          "low": "91",
+          "text": "91-150",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "719",
+          "low": "600",
+          "text": "600-719",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Bonus Feat",
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Small"
+      },
+      {
+        "value": "Sterling Hershey Creations"
+      },
+      {
+        "value": "Bonus Feat"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Tridactyls"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Bonus Trained Skill"
+      },
+      {
+        "value": "Tested"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Tridactyl",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535567560,
+    "modifiedTime": 1736535567560,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "OnEOpLzPpF3TWooI",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!OnEOpLzPpF3TWooI"
+}

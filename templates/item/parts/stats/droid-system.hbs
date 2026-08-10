@@ -1,0 +1,27 @@
+<div class="weapon-stat-block flex flex-row flex-wrap">
+    <div class="labeled-input"><label for="requires">Requires</label>
+        <input class="input" type="text" name="system.requires" value="{{item.system.requires}}"/>
+    </div>
+    <div class="labeled-input"><label for="base-speed-scalable">Base Speed</label>
+        <input class="input" type="text" name="system.baseSpeedScalable" value="{{item.system.baseSpeedScalable}}"/>
+    </div>
+    <div class="labeled-input"><label for="appendage-type">Appendage Type</label>
+        <input class="input" type="text" name="system.appendageType" value="{{item.system.appendageType}}"/>
+    </div>
+    <div class="labeled-input"><label for="appendages">Appendages</label>
+        <input class="input" type="text" name="system.appendages" value="{{item.system.appendages}}"/>
+    </div>
+    <div class="labeled-input"><label for="droid-unarmed-damage-scalable">Unarmed Damage</label>
+        <input class="input" type="text" name="system.droidUnarmedDamageScalable" value="{{item.system.droidUnarmedDamageScalable}}"/>
+    </div>
+</div>
+
+<div class="weapon-meta-strip">
+    <div class="meta-field"><label for="cost">Cost</label><input class="input" type="text" name="system.cost" value="{{item.system.cost}}"/></div>
+    <div class="meta-field"><label for="weight">Weight</label><input class="input" type="text" name="system.weight" value="{{item.system.weight}}"/></div>
+    <div class="meta-field"><label for="availability">Availability</label>
+        <select class="input" data-multi-select-name="system.availability" multiple size="1" title="Some items are e.g. both Military and Rare — ctrl/cmd-click to select more than one, scroll to see all options.">
+            {{{options 'availability' selected=(splitCsv item.system.availability)}}}
+        </select>
+    </div>
+</div>

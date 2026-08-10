@@ -1,0 +1,71 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2d12",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A being enters a square within 3 squares of a Carnivorous Plant.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round at the end of the target's turn, while the being remains within 3 squares of the Carnivorous Plant.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Acrobatics (DC 22): As a Reaction, the character avoids being Grabbed when attacked by the plant, but they still take damage. Knowledge (Life Sciences) (DC 22): The character identifies the Carnivorous Plant, and knows that it will attack if they get too close, gaining a +2 circumstance bonus to Reflex Defense against the Hazard. Stealth (DC 27): When the character begins their turn within 3 squares of the Carnivorous Plant, the character avoids being detected by the Hazard for 1 round.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: If the Hazard's attack roll exceeds the target's Reflex Defense by 5 or more, the target is Grabbed and pulled toward the plant at a rate of 1 square per round. If the target reaches the Carnivorous Plant, the target is swallowed and can be freed only by destroying the Carnivorous Plant (Reflex Defense 8, Fortitude Defense 14).",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>A large plant uses its vinelike tentacles to consume living creatures.</i> </p><p>Beings that erect permanent installations in forests or jungles often place Carnivorous Plants along commonly used paths as natural guardians and as a first line of defense against interlopers. Some beings might even bring them indoors for extra security. </p><h2><span id=\"Carnivorous_Plants_Statistics_.28CL_6.29\"></span><span class=\"mw-headline\" id=\"Carnivorous_Plants_Statistics_(CL_6)\">Carnivorous Plants Statistics (CL 6)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Natural </p><p><b>Trigger:</b> A being enters a square within 3 squares of a Carnivorous Plant. </p><p><b>Attack:</b> +8 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> Each round at the end of the target's turn, while the being remains within 3 squares of the Carnivorous Plant. </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Acrobatics\" title=\"Acrobatics\">Acrobatics</a> (DC 22):</b> As a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a>, the character avoids being <a href=\"https://swse.fandom.com/wiki/Grabbed\" class=\"mw-redirect\" title=\"Grabbed\">Grabbed</a> when attacked by the plant, but they still take damage.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Knowledge_(Life_Sciences)\" class=\"mw-redirect\" title=\"Knowledge (Life Sciences)\">Knowledge (Life Sciences)</a> (DC 22):</b> The character identifies the Carnivorous Plant, and knows that it will attack if they get too close, gaining a +2 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against the Hazard.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a> (DC 27):</b> When the character begins their turn within 3 squares of the Carnivorous Plant, the character avoids being detected by the Hazard for 1 round.</li>\n</ul><p><b>Special:</b> If the Hazard's attack roll exceeds the target's <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> by 5 or more, the target is <a href=\"https://swse.fandom.com/wiki/Grabbed\" class=\"mw-redirect\" title=\"Grabbed\">Grabbed</a> and pulled toward the plant at a rate of 1 square per round. If the target reaches the Carnivorous Plant, the target is swallowed and can be freed only by destroying the Carnivorous Plant (<a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> 8, <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> 14). </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Carnivorous Plants",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244406,
+    "modifiedTime": 1749263244406,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "oH46UN3xSQU3KJL5",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!oH46UN3xSQU3KJL5"
+}

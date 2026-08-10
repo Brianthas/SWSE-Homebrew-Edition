@@ -1,0 +1,94 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Starship_Maneuvers\" title=\"Starship Maneuvers\">Starship Maneuvers</a></i> </p><p>This maneuver allows a Starship to slip free of close pursuit, escaping from a&nbsp;<a href=\"https://swse.fandom.com/wiki/Dogfight\" title=\"Dogfight\">Dogfight</a>&nbsp;more easily. </p><p><b>[<i><a href=\"https://swse.fandom.com/wiki/Dogfight_(Starship_Maneuvers)\" class=\"mw-redirect\" title=\"Dogfight (Starship Maneuvers)\">Dogfight</a></i>]</b> </p><p><b>Time:</b>&nbsp;<a href=\"https://swse.fandom.com/wiki/Move_Action\" class=\"mw-redirect\" title=\"Move Action\">Move Action</a> </p><p><b>Targets:</b>&nbsp;Self </p><p><b>Make a&nbsp;<a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a>&nbsp;check.</b> The result of the check determines the effects, if any: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td> </td> \n   <td>You immediately attempt to disengage from the <a href=\"https://swse.fandom.com/wiki/Dogfight\" title=\"Dogfight\">Dogfight</a> (no action required). You gain a +2 bonus on your opposed <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> check to <a href=\"https://swse.fandom.com/wiki/Disengage\" class=\"mw-redirect\" title=\"Disengage\">Disengage</a>. </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td> </td> \n   <td>You immediately attempt to disengage from the <a href=\"https://swse.fandom.com/wiki/Dogfight\" title=\"Dogfight\">Dogfight</a> (no action required). You gain a +5 bonus on your opposed <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> check to <a href=\"https://swse.fandom.com/wiki/Disengage\" class=\"mw-redirect\" title=\"Disengage\">Disengage</a>. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td> </td> \n   <td>You immediately attempt to disengage from the <a href=\"https://swse.fandom.com/wiki/Dogfight\" title=\"Dogfight\">Dogfight</a> (no action required). You gain a +10 bonus on your opposed <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> check to <a href=\"https://swse.fandom.com/wiki/Disengage\" class=\"mw-redirect\" title=\"Disengage\">Disengage</a>. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td> </td> \n   <td>You immediately attempt to disengage from the <a href=\"https://swse.fandom.com/wiki/Dogfight\" title=\"Dogfight\">Dogfight</a> (no action required). You gain a +20 bonus on your opposed <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> check to <a href=\"https://swse.fandom.com/wiki/Disengage\" class=\"mw-redirect\" title=\"Disengage\">Disengage</a>. </td>\n  </tr>\n </tbody>\n</table>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "15:You immediately attempt to disengage from the Dogfight (no action required). You gain a +2 bonus on your opposed Pilot check to Disengage.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "20:You immediately attempt to disengage from the Dogfight (no action required). You gain a +5 bonus on your opposed Pilot check to Disengage.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "25:You immediately attempt to disengage from the Dogfight (no action required). You gain a +10 bonus on your opposed Pilot check to Disengage.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "30:You immediately attempt to disengage from the Dogfight (no action required). You gain a +20 bonus on your opposed Pilot check to Disengage.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "Reference Book: Star Wars Saga Edition Starships of the Galaxy See also: Starship Maneuvers This maneuver allows a Starship to slip free of close pursuit, escaping from a Dogfight more easily. [Dogfight] Time: Move Action Targets: Self Make a Pilot check. The result of the check determines the effects, if any:",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "Dogfight",
+        "key": "tag"
+      },
+      {
+        "mode": 2,
+        "value": "Move Action",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "Self",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "cumulative"
+      },
+      {
+        "mode": 2,
+        "value": "Pilot",
+        "key": "rollType"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Evasive Action",
+  "flags": {},
+  "type": "forcePower",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738608591436,
+    "modifiedTime": 1738608591436,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX"
+  },
+  "_id": "YrBpZt1QeDOjYGAM",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!YrBpZt1QeDOjYGAM"
+}

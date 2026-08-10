@@ -1,0 +1,75 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Your outsider status makes you cautious, observant, and ready for action. If an enemy fails a <a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a> or a <a href=\"https://swse.fandom.com/wiki/Deception\" title=\"Deception\">Deception</a> check opposed by your <a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> check, you can take one <a href=\"https://swse.fandom.com/wiki/Move_Action\" class=\"mw-redirect\" title=\"Move Action\">Move Action</a> as a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a>. If multiple enemies fail on the same turn (such as when you detect several enemies sneaking up on you), the number of <a href=\"https://swse.fandom.com/wiki/Move_Actions\" title=\"Move Actions\">Move Actions</a> you take cannot exceed your <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> modifier (minimum 1).",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Outsider's Eye talent",
+          "requirement": "Outsider's Eye",
+          "type": "TALENT"
+        },
+        {
+          "text": "Trained in Perception",
+          "requirement": "Perception",
+          "type": "TRAINED SKILL"
+        }
+      ],
+      "text": "Outsider's Eye talent, and Trained in Perception",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Scoundrel Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Scoundrel Talent Trees",
+      "Smuggler Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Outsider Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Outsider_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Wary",
+  "flags": {},
+  "type": "talent",
+  "folder": "0KgR3IL28k1zRdup",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385310283,
+    "modifiedTime": 1786036141322,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "y520BBSJ08QAL9NO",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!y520BBSJ08QAL9NO"
+}

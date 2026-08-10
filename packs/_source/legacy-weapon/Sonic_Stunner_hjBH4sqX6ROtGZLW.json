@@ -1,0 +1,161 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode"
+        }
+      },
+      "statuses": [],
+      "disabled": false,
+      "name": "Single-Shot",
+      "_id": "V7ei9hDicGzvJWl4",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513501,
+        "modifiedTime": 1786051513501,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!hjBH4sqX6ROtGZLW.V7ei9hDicGzvJWl4"
+    },
+    {
+      "flags": {
+        "swse": {}
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Stun",
+      "_id": "hNTT7yoRcuiZtnpL",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "3d6",
+            "key": "damage",
+            "priority": null,
+            "type": "override",
+            "phase": "initial"
+          },
+          {
+            "value": "Stun",
+            "key": "damageType",
+            "priority": null,
+            "type": "override",
+            "phase": "initial"
+          }
+        ]
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513501,
+        "modifiedTime": 1786051513501,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!hjBH4sqX6ROtGZLW.hNTT7yoRcuiZtnpL"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:</i> <i><a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Threats_of_the_Galaxy\" title=\"Star Wars Saga Edition Threats of the Galaxy\">Star Wars Saga Edition Threats of the Galaxy</a></i> </p><p>A Sonic Stunner creates waves of sonic energy that assault the aural receptors of anyone it targets. The weapon fires a concentrated burst of sonic energy (using technology similar to sonic weapons used by <a href=\"https://swse.fandom.com/wiki/Geonosians\" class=\"mw-redirect\" title=\"Geonosians\">Geonosians</a>) that manipulates the minds of living beings, causing them great pain. </p><p>Even deaf creatures can be harmed by a Sonic Stunner, because it creates high-frequency vibrations that penetrate the brain. However, unlike with most blaster weapons, only the target of the attack hears any noise, making the weapon otherwise silent. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "450",
+    "weight": "1 Kilogram",
+    "availability": "Illegal",
+    "size": "Tiny",
+    "type": "",
+    "subtype": "Pistols",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageType": "Energy"
+  },
+  "name": "Sonic Stunner",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Sonic_Stunner.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513501,
+    "modifiedTime": 1786051513578,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "hjBH4sqX6ROtGZLW",
+  "_key": "!items!hjBH4sqX6ROtGZLW"
+}

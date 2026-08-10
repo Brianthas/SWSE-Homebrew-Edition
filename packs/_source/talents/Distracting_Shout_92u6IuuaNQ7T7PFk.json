@@ -1,0 +1,64 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Once per encounter, as a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a> to one of your allies being attacked, you can make a <a href=\"https://swse.fandom.com/wiki/Deception\" title=\"Deception\">Deception</a> check, replacing the <a href=\"https://swse.fandom.com/wiki/Defense_Scores\" class=\"mw-redirect\" title=\"Defense Scores\">Defense Scores</a> of that ally with the result of your <a href=\"https://swse.fandom.com/wiki/Deception\" title=\"Deception\">Deception</a> check for the resolution of that attack. If any <a href=\"https://swse.fandom.com/wiki/Defense_Scores\" class=\"mw-redirect\" title=\"Defense Scores\">Defense Scores</a> are higher than the <a href=\"https://swse.fandom.com/wiki/Deception\" title=\"Deception\">Deception</a> check result, your ally can use that <a href=\"https://swse.fandom.com/wiki/Defense_Score\" class=\"mw-redirect\" title=\"Defense Score\">Defense Score</a> instead. If the attack still hits, this does not count as the one use per encounter aspect of this Talent.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Cunning Distraction talent",
+      "requirement": "Cunning Distraction",
+      "type": "TALENT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Charlatan Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Charlatan Talent Trees",
+      "Melee Duelist Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Trickery Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Trickery_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Scum and Villainy",
+    "cost": "0"
+  },
+  "name": "Distracting Shout",
+  "flags": {},
+  "type": "talent",
+  "folder": "fQgV01jFb9o4eOnu",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385312798,
+    "modifiedTime": 1786039906816,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "92u6IuuaNQ7T7PFk",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!92u6IuuaNQ7T7PFk"
+}

@@ -1,0 +1,123 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "When commanding your <a href=\"https://swse.fandom.com/wiki/Followers\" title=\"Followers\">Followers</a>, the type they gain is increased by one step (a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a> allows a <a href=\"https://swse.fandom.com/wiki/Move_Action\" class=\"mw-redirect\" title=\"Move Action\">Move Action</a>, a <a href=\"https://swse.fandom.com/wiki/Move_Action\" class=\"mw-redirect\" title=\"Move Action\">Move Action</a> allows a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a>, and a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a> allows a <a href=\"https://swse.fandom.com/wiki/Full-Round_Action\" class=\"mw-redirect\" title=\"Full-Round Action\">Full-Round Action</a>). Additionally, your <a href=\"https://swse.fandom.com/wiki/Followers\" title=\"Followers\">Followers</a> gain Hit Points equal to their <a href=\"https://swse.fandom.com/wiki/Constitution\" title=\"Constitution\">Constitution</a> modifier times your Heroic Level.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Akk Dog Master talent",
+          "requirement": "Akk Dog Master",
+          "type": "TALENT"
+        },
+        {
+          "text": "Commanding Officer talent",
+          "requirement": "Commanding Officer",
+          "type": "TALENT"
+        },
+        {
+          "text": "Inspire Loyalty talent",
+          "requirement": "Inspire Loyalty",
+          "type": "TALENT"
+        },
+        {
+          "text": "Reconnaissance Team Leader talent",
+          "requirement": "Reconnaissance Team Leader",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Akk Dog Master talent, Commanding Officer talent, Inspire Loyalty talent, and Reconnaissance Team Leader talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Untested"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Chellewalker Creations"
+      },
+      {
+        "value": "Noble Talent Trees"
+      },
+      {
+        "value": "Soldier Talent Trees"
+      },
+      {
+        "value": "Scout Talent Trees"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "MERC 1 Creations"
+      },
+      {
+        "value": "DarkwulfStudios Creations"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Untested",
+      "Chellewalker Creations",
+      "Noble Talent Trees",
+      "Soldier Talent Trees",
+      "Scout Talent Trees",
+      "Homebrew Content",
+      "MERC 1 Creations",
+      "DarkwulfStudios Creations",
+      "Smuggler Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Exceptional Followers Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Exceptional_Followers_Talent_Tree",
+    "bonusTalentTree": "",
+    "cost": "0"
+  },
+  "name": "Capable Leader",
+  "flags": {},
+  "type": "talent",
+  "folder": "P6a4VASP5mQ68xHt",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385304634,
+    "modifiedTime": 1786036141318,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "Gnnk1nLb1ZAMjJYg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!Gnnk1nLb1ZAMjJYg"
+}

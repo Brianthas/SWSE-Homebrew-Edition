@@ -1,0 +1,541 @@
+{
+  "effects": [],
+  "system": {
+    "health": {
+      "value": 250,
+      "min": 0,
+      "max": 250,
+      "condition": 0,
+      "override": 250,
+      "bonusHP": null
+    },
+    "shields": {
+      "value": 0,
+      "min": 0,
+      "max": null,
+      "shieldDamage": 0
+    },
+    "description": "",
+    "credits": 0,
+    "classes": [],
+    "traits": [],
+    "age": 0,
+    "gender": "",
+    "genderDisplay": "",
+    "player": "",
+    "crewQuality": {},
+    "crew": [],
+    "attributes": {
+      "str": {
+        "total": 0,
+        "mod": 0,
+        "bonus": 0,
+        "base": 0
+      },
+      "dex": {
+        "total": 0,
+        "mod": 0,
+        "bonus": 0,
+        "base": 0
+      },
+      "int": {
+        "total": 0,
+        "mod": 0,
+        "bonus": 0,
+        "base": 0
+      }
+    },
+    "equippedIds": [],
+    "skills": {
+      "pilot (pilot)": {
+        "value": 0,
+        "attribute": "dex",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Pilot",
+        "sizeMod": true
+      },
+      "initiative (pilot)": {
+        "value": 0,
+        "attribute": "dex",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Initiative",
+        "sizeMod": true
+      },
+      "deception (pilot)": {
+        "value": 0,
+        "attribute": "dex",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Starship_Deception",
+        "sizeMod": true
+      },
+      "stealth (pilot)": {
+        "value": 0,
+        "attribute": "dex",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Stealth#Starship_Stealth",
+        "sizeMod": true
+      },
+      "pilot (copilot)": {
+        "value": 0,
+        "attribute": "dex",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Pilot"
+      },
+      "use computer (commander)": {
+        "value": 0,
+        "attribute": "int",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Use_Computer"
+      },
+      "knowledge (tactics) (commander)": {
+        "value": 0,
+        "attribute": "int",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Knowledge"
+      },
+      "use computer (system operator)": {
+        "value": 0,
+        "attribute": "int",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Use_Computer"
+      },
+      "mechanics (system operator)": {
+        "value": 0,
+        "attribute": "int",
+        "uut": false,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Mechanics"
+      },
+      "mechanics (engineer)": {
+        "value": 0,
+        "attribute": "int",
+        "uut": false,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Mechanics"
+      }
+    },
+    "biography": "",
+    "abilities": {
+      "str": {
+        "base": 49,
+        "value": 10,
+        "manual": null,
+        "customBonus": 0
+      },
+      "dex": {
+        "base": 10,
+        "value": 10,
+        "manual": null,
+        "customBonus": 0
+      },
+      "int": {
+        "base": 12,
+        "value": 10,
+        "manual": null,
+        "customBonus": 0
+      },
+      "con": {
+        "value": 10,
+        "manual": null,
+        "base": 10,
+        "customBonus": 0
+      },
+      "wis": {
+        "value": 10,
+        "manual": null,
+        "base": 10,
+        "customBonus": 0
+      },
+      "cha": {
+        "value": 10,
+        "manual": null,
+        "base": 10,
+        "customBonus": 0
+      }
+    },
+    "changes": [
+      {},
+      {}
+    ],
+    "cl": {
+      "value": 0
+    },
+    "vehicle": {
+      "cover": "Total Cover:",
+      "passengers": "60 (Support Droids)",
+      "crewQuality": "Normal",
+      "consumables": "1 Month",
+      "cargo": {
+        "capacity": 20000
+      },
+      "speed": {
+        "starshipScale": 1,
+        "characterScale": 12,
+        "maximumVelocity": 300
+      },
+      "crew": 9
+    },
+    "darkside": {
+      "value": 0
+    },
+    "toggles": {},
+    "overrides": {},
+    "actorLinks": [],
+    "settings": {
+      "isNPC": false,
+      "autoSizeToken": false,
+      "allowSheetLighting": false,
+      "ignorePrerequisites": false,
+      "ignorePrerequisitesOnDrop": false,
+      "attributeGeneration": "Default"
+    },
+    "defense": {
+      "ref": {
+        "value": 10
+      },
+      "fort": {
+        "value": 10
+      },
+      "will": {
+        "value": 10
+      },
+      "reff": {
+        "value": 10
+      },
+      "special": "",
+      "dr": 0
+    },
+    "details": {
+      "biography": "",
+      "description": "",
+      "gender": "",
+      "sex": "",
+      "age": 0,
+      "experience": 0,
+      "cl": "",
+      "height": "",
+      "weight": "",
+      "species": "Human",
+      "classes": "",
+      "senses": "",
+      "lang": "",
+      "specialHp": "",
+      "immunities": "",
+      "weaknesses": "",
+      "fightSpace": "",
+      "atkOptions": "",
+      "specialActions": "",
+      "forceP": "",
+      "forceS": "",
+      "forceT": "",
+      "specialQualities": "",
+      "talents": "",
+      "feats": "",
+      "skills": "",
+      "systems": "",
+      "possesses": "",
+      "notes": ""
+    },
+    "xp": "",
+    "baseAttack": 0,
+    "grapple": 0,
+    "forcePoints": 0,
+    "destinyPoints": 0,
+    "darkSide": {
+      "value": 0
+    },
+    "level": {
+      "value": 0
+    },
+    "speed": {
+      "base": 6,
+      "swim": 1.5,
+      "climb": 1.5,
+      "fly": null,
+      "special": ""
+    },
+    "size": "Medium",
+    "reach": 1
+  },
+  "name": "Trade Federation Cargo Freighter",
+  "flags": {},
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "Trade Federation Cargo Freighter",
+    "displayName": 0,
+    "actorLink": true,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "shields"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "depth": 1
+  },
+  "items": [
+    {
+      "_id": "AaSnPb1rOsXe0jhm",
+      "name": "Colossal",
+      "type": "trait",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "",
+        "textDescription": "",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": "Colossal",
+            "key": "size"
+          },
+          {
+            "mode": 2,
+            "value": 0,
+            "key": "reflexDefenseBonusScalable"
+          },
+          {
+            "mode": 2,
+            "value": "1 square",
+            "key": "characterFightingSpaceScalable"
+          },
+          {
+            "mode": 2,
+            "value": 0,
+            "key": "shipSkillModifierScalable"
+          },
+          {
+            "mode": 2,
+            "value": "1d4",
+            "key": "unarmedDamageScalable"
+          },
+          {
+            "mode": 2,
+            "value": "stealth:0",
+            "key": "skillBonusScalable"
+          },
+          {
+            "mode": 2,
+            "value": 0,
+            "key": "damageThresholdSizeModifierScalable"
+          },
+          {
+            "mode": 2,
+            "value": "0 squares",
+            "key": "vehicleFightingSpaceScalable"
+          },
+          {
+            "mode": 2,
+            "value": 0,
+            "key": "grappleSizeModifierScalable"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "categories": [],
+        "supplier": {},
+        "possibleProviders": [],
+        "isSupplied": false,
+        "prerequisite": null,
+        "cost": "0",
+        "quantity": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.2",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!9tQVXcKqjyqvbEFW.AaSnPb1rOsXe0jhm"
+    },
+    {
+      "_id": "Ucj2bwOY17qZyCCZ",
+      "name": "Hyperdrive, Class 3",
+      "type": "vehicleSystem",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "subtype": "Movement Systems",
+        "changes": [
+          {
+            "mode": 2,
+            "value": "2",
+            "key": "emplacementPoints"
+          },
+          {
+            "mode": 2,
+            "value": "1500 (Base)",
+            "key": "cost"
+          },
+          {
+            "mode": 2,
+            "value": "Common",
+            "key": "availability"
+          },
+          {
+            "mode": 2,
+            "value": "3",
+            "key": "hyperdrive"
+          }
+        ],
+        "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><table class=\"wikitable\">\n <tbody>\n  <tr>\n   <th>HYPERDRIVE</th>\n   <th>EMPLACEMENT POINTS</th>\n   <th>AVAILABILITY</th>\n   <th>SIZE RESTRICTION</th>\n   <th>COST</th>\n  </tr>\n  <tr>\n   <td>Class 0.75</td>\n   <td>4</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Military\" class=\"mw-redirect\" title=\"Military\">Military</a></td>\n   <td>Colossal (Cruiser) or Smaller</td>\n   <td>5000 (Base)</td>\n  </tr>\n  <tr>\n   <td>Class 1</td>\n   <td>3</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Licensed\" class=\"mw-redirect\" title=\"Licensed\">Licensed</a></td>\n   <td>Colossal (Cruiser) or Smaller</td>\n   <td>3000 (Base)</td>\n  </tr>\n  <tr>\n   <td>Class 1.5</td>\n   <td>3</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Licensed\" class=\"mw-redirect\" title=\"Licensed\">Licensed</a></td>\n   <td>Colossal (Cruiser) or Smaller</td>\n   <td>2500 (Base)</td>\n  </tr>\n  <tr>\n   <td>Class 2</td>\n   <td>3</td>\n   <td>Common</td>\n   <td>-</td>\n   <td>2000 (Base)</td>\n  </tr>\n  <tr>\n   <td>Class 3</td>\n   <td>2</td>\n   <td>Common</td>\n   <td>-</td>\n   <td>1500 (Base)</td>\n  </tr>\n  <tr>\n   <td>Class 4</td>\n   <td>2</td>\n   <td>Common</td>\n   <td>-</td>\n   <td>1000 (Base)</td>\n  </tr>\n  <tr>\n   <td>Class 5</td>\n   <td>2</td>\n   <td>Common</td>\n   <td>-</td>\n   <td>500 (Base)</td>\n  </tr>\n  <tr>\n   <td>Class 6</td>\n   <td>2</td>\n   <td>Common</td>\n   <td>-</td>\n   <td>400 (Base)</td>\n  </tr>\n  <tr>\n   <td>Class 8</td>\n   <td>1</td>\n   <td>Common</td>\n   <td>-</td>\n   <td>300 (Base)</td>\n  </tr>\n  <tr>\n   <td>Class 10</td>\n   <td>1</td>\n   <td>Common</td>\n   <td>-</td>\n   <td>200 (Base)</td>\n  </tr>\n  <tr>\n   <td>Class 15</td>\n   <td>1</td>\n   <td>Common</td>\n   <td>-</td>\n   <td>100 (Base)</td>\n  </tr>\n </tbody>\n</table><p>The Hyperdrive is the most important piece of technology in the known galaxy. Modern civilization was driven by the realization of fast and reliable galactic travel thousands of years ago with the advent of the Hyperdrive. Hyperdrives are rated by numeric Class: the smaller the number, the better the Hyperdrive (See <a href=\"https://swse.fandom.com/wiki/Astrogation\" title=\"Astrogation\">Astrogation</a> for more details).</p><p>The best Hyperdrive ever created is the Class .5. It's not possible to install a Class .5 Hyperdrive, because no manufacturer creates such a delicate and unreliable piece of equipment. The only way to achieve a Hyperdrive of this type is to modify a Class .75 Hyperdrive using the <a href=\"https://swse.fandom.com/wiki/Starship_Designer\" title=\"Starship Designer\">Starship Designer</a> Feat. Because of its inherent unreliability, Class .5 Hyperdrives are <a href=\"https://swse.fandom.com/wiki/Illegal\" class=\"mw-redirect\" title=\"Illegal\">Illegal</a> under all but the most unusual circumstances.</p><p>A Class .5 Hyperdrive is very carefully tuned and delicate, so it tends to malfunction much more often than a standard Hyperdrive. It requires eight hours of maintenance per month and a DC 20 <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> check to keep one running smoothly. If the maintenance isn't kept up, or the <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> check for doing so fails, you take a -5 penalty on <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> checks made to <a href=\"https://swse.fandom.com/wiki/Astrogate\" class=\"mw-redirect\" title=\"Astrogate\">Astrogate</a> until the Hyperdrive receives proper maintenance. Furthermore, any time you would normally have an <a href=\"https://swse.fandom.com/wiki/Astrogation_Mishap\" class=\"mw-redirect\" title=\"Astrogation Mishap\">Astrogation Mishap</a>, the Hyperdrive is instead disabled until repaired (Normally requiring 1 hour of work and a DC 20 <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> check).</p><p>The Class 1 Hyperdrive is considered the pinnacle of stable Hyperdrive technology from the Clone Wars forward. It is the favored technology of military vessels, but it's high cost often results in designers settling for a Class 2 or Class 3 drive, which were state of the art during most of the Rise of the Empire era.</p><p>A Hyperdrive of Class 4 to Class 6 is normally either old technology or an aftermarket retrofit crammed into a vessel not designed to support a Hyperdrive. Backup Hyperdrives, usually ranging from Class 8 to Class 15, are often used as emergency systems. Though no one wants to wait a month to arrive someplace when using a Class 10 Backup Hyperdrive, often the alternative is to drift aimlessly in space for centuries.</p><h3><span class=\"mw-headline\" id=\"Hyperdrives_for_Starfighters\">Hyperdrives for Starfighters</span></h3><p>Because of their bulk, Hyperdrives are always treated as <a href=\"https://swse.fandom.com/wiki/Nonstandard_Modifications\" class=\"mw-redirect\" title=\"Nonstandard Modifications\">Nonstandard Modifications</a> for <a href=\"https://swse.fandom.com/wiki/Starfighters\" title=\"Starfighters\">Starfighters</a>. Some alternatives have been devised to allow <a href=\"https://swse.fandom.com/wiki/Starfighters\" title=\"Starfighters\">Starfighters</a> to travel through Hyperspace without installing internal Hyperdrives.</p><h4><span class=\"mw-headline\" id=\"Hyperdrive_Sleds\"><b>Hyperdrive Sleds</b></span></h4><p>A Hyperdrive Sled is bolted onto the exterior of a <a href=\"https://swse.fandom.com/wiki/Starfighter\" class=\"mw-redirect\" title=\"Starfighter\">Starfighter</a>, such as a <a href=\"https://swse.fandom.com/wiki/CloakShape_Fighter\" title=\"CloakShape Fighter\">CloakShape Fighter</a>. A Hyperdrive Sled costs five times as much as a normal Hyperdrive, but it is not considered a <a href=\"https://swse.fandom.com/wiki/Nonstandard_Modification\" class=\"mw-redirect\" title=\"Nonstandard Modification\">Nonstandard Modification</a>, it requires no <a href=\"https://swse.fandom.com/wiki/Emplacement_Points\" class=\"mw-redirect\" title=\"Emplacement Points\">Emplacement Points</a>, and it can be added with 1 hour of work and a DC 15 <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> check. A Hyperdrive Sled does interfere with maneuverability, however, so a <a href=\"https://swse.fandom.com/wiki/Starfighter\" class=\"mw-redirect\" title=\"Starfighter\">Starfighter</a> takes a -2 penalty to it's <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> score while attached to a Hyperdrive Sled.</p><h4><span class=\"mw-headline\" id=\"Hyperdrive_Rings\"><b>Hyperdrive Rings</b></span></h4><p>A Hyperdrive Ring is designed for only occasional or temporary use. A Hyperdrive Ring costs as much as a normal Hyperdrive for a <a href=\"https://swse.fandom.com/wiki/Starfighter\" class=\"mw-redirect\" title=\"Starfighter\">Starfighter</a> of a given size, but it is not considered a <a href=\"https://swse.fandom.com/wiki/Nonstandard_Modification\" class=\"mw-redirect\" title=\"Nonstandard Modification\">Nonstandard Modification</a> and it requires no <a href=\"https://swse.fandom.com/wiki/Emplacement_Points\" class=\"mw-redirect\" title=\"Emplacement Points\">Emplacement Points</a>. The <a href=\"https://swse.fandom.com/wiki/Pilot_(Vehicle_Combat)\" title=\"Pilot (Vehicle Combat)\">Pilot</a> of a <a href=\"https://swse.fandom.com/wiki/Starfighter\" class=\"mw-redirect\" title=\"Starfighter\">Starfighter</a> must take a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a> and make a DC 10 <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> check to dock or disconnect from a Hyperdrive Ring. If the <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> check fails, the docking or undocking was unsuccessful; if it fails by 10 or more, a <a href=\"https://swse.fandom.com/wiki/Collision\" class=\"mw-redirect\" title=\"Collision\">Collision</a> occurs, destroying the Hyperdrive Ring.</p><p>In addition to requiring docking and undocking, Hyperdrive Rings have some other drawbacks. If a Starship attached to a Hyperdrive Ring takes damage equal to or exceeding it's <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a>, the Hyperdrive Ring is destroyed. Like a Hyperdrive Sled, a Hyperdrive Ring is bulky and awkward, so a <a href=\"https://swse.fandom.com/wiki/Starfighter\" class=\"mw-redirect\" title=\"Starfighter\">Starfighter</a> docked to one takes a -4 penalty to it's <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> score. Finally, a Starfighter can't enter atmosphere or land with a Hyperdrive Ring attached, so it must be left in orbit- and some pirates and shipjackers enjoy the easy pickings of an unattended target.</p>",
+        "cost": "1500 (Base)",
+        "quantity": 1,
+        "providedItems": [],
+        "equipped": "installed"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.2",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!9tQVXcKqjyqvbEFW.Ucj2bwOY17qZyCCZ"
+    }
+  ],
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.2",
+    "createdTime": 1785035925568,
+    "modifiedTime": 1785035925568,
+    "lastModifiedBy": "lyU5Zj9fsO0d8kF6"
+  },
+  "ownership": {
+    "default": 0,
+    "lyU5Zj9fsO0d8kF6": 3
+  },
+  "_id": "9tQVXcKqjyqvbEFW",
+  "sort": 0,
+  "_key": "!actors!9tQVXcKqjyqvbEFW"
+}

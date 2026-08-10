@@ -11,13 +11,22 @@
 
 /* Styles limited to swse sheets */
 .swse {
+  color: var(--swse-text);
+
+  @import 'global/scoped-reset';
+
   @import 'components/forms';
   @import 'components/resource';
   @import 'components/tabs';
+  @import 'components/summary';
+  @import 'components/classes';
+  @import 'components/force';
+  @import 'components/equipment';
   @import 'components/items';
   @import 'components/item';
   @import 'components/species';
   @import 'components/attack';
+  @import 'components/attacks';
   @import 'components/attributes';
   @import 'components/ammunition';
   @import 'components/item_attribute';
@@ -29,3 +38,4 @@
 }
 @import 'components/chat';
 @import 'components/compendium';
+@import 'components/autocomplete';

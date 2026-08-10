@@ -3,6 +3,7 @@ import {defaultAttributes, getGroupedSkillMap, NEW_LINE, skillDetails, skills} f
 import {resolveValueArray, toNumber} from "../../../common/util.mjs";
 import {generateArmorCheckPenalties} from "../../armor-check-penalty.mjs";
 import {DEFAULT_SKILL} from "../../../common/classDefaults.mjs";
+import {titleCase} from "../../../common/helpers.mjs";
 
 const fields = foundry.data.fields;
 
@@ -165,9 +166,7 @@ export class SkillFunctions {
             ) {
                 classSkills.add("knowledge (galactic lore)");
                 classSkills.add("knowledge (bureaucracy)");
-                classSkills.add("knowledge (life sciences)");
-                classSkills.add("knowledge (physical sciences)");
-                classSkills.add("knowledge (social sciences)");
+                classSkills.add("knowledge (sciences)");
                 classSkills.add("knowledge (tactics)");
                 classSkills.add("knowledge (technology)");
             } else {
@@ -186,23 +185,19 @@ export class SkillFunctions {
         //move to parameter
         let groupedSkillMap = options.groupedSkillMap ?? getGroupedSkillMap() ?? new Map()
 
-        let heavyLoadAffected = actor.carriedWeight > actor.heavyLoad;
         let halfCharacterLevel = Math.floor(system.level.value / 2);
 
         let classSkills = system.classSkills;
-        let classes = Object.keys(system.classLevel)
-
-        groupedSkillMap.forEach((skill, key) => {
-            if(skill.classes.find(cls => classes.includes(cls))){
-                classSkills.add(key.toLowerCase())
-            }
-        })
 
         let automaticTrainedSkill = getInheritableAttribute({
             entity: actor,
             attributeKey: "automaticTrainedSkill",
             reduce: "VALUES_TO_LOWERCASE",
         });
+        // Homebrew size table: Small characters are automatically trained in Stealth.
+        if (actor.size?.name === "Small" && !automaticTrainedSkill.includes("stealth")) {
+            automaticTrainedSkill.push("stealth");
+        }
         let skillBonus = getInheritableAttribute({
             entity: actor,
             attributeKey: "skillBonus",
@@ -230,6 +225,13 @@ export class SkillFunctions {
         }).map((skill) => (skill || "").toLowerCase());
 
         let acPenalty = generateArmorCheckPenalties(actor);
+        // Homebrew: some armor applies a flat ACP to Strength/Dexterity-based skills regardless
+        // of proficiency, separate from (and additive with) the non-proficiency ACP above.
+        let flatArmorCheckPenalty = 0;
+        for (const item of actor.equipped) {
+            if (item.type !== "armor") continue;
+            flatArmorCheckPenalty = Math.min(flatArmorCheckPenalty, -Math.abs(item.armorFlatCheckPenalty || 0));
+        }
         let builtSkills = {};
 
         const skillMap = new Map();
@@ -260,12 +262,24 @@ export class SkillFunctions {
             const customSkill = groupedSkillMap?.get(resSkill)
             const skill = this.createNewSkill(resSkill, actor.system.skills[resSkill] || {}, customSkill)
             let abilityMod = system.abilities[skill.ability]?.mod;
+
+            const skillAttributeChanges = getInheritableAttribute({
+                entity: actor,
+                attributeKey: "skillAttribute"
+            });
+            for (const change of skillAttributeChanges) {
+                const [attrSkillKey, altAttribute] = (change.value || "").split(":");
+                if ((attrSkillKey || "").toLowerCase() !== key || !altAttribute) continue;
+                const altMod = system.abilities[altAttribute.toLowerCase()]?.mod;
+                if (altMod > abilityMod) {
+                    abilityMod = altMod;
+                    skill.ability = altAttribute.toLowerCase();
+                }
+            }
+
             let notes = [];
 
             skill.isClass = this.isClassSkill(key, actor, classSkills);
-            if (key === "use the force" && !skill.isClass) {
-                skill.hide = true;
-            }
 
             let situationalSkillNames = customSkill?.grouped || []
 
@@ -287,9 +301,6 @@ export class SkillFunctions {
             if (automaticTrainedSkill.includes(key)) {
                 skill.trained = true;
                 skill.locked = true;
-                if (!skill.isClass) {
-                    skill.blockedSkill = true;
-                }
             }
 
             let trainedSkillBonus = skill.trained === true ? 5 : 0;
@@ -314,13 +325,6 @@ export class SkillFunctions {
                 description: `Ability Skill Modifier: ${abilitySkillBonus}`,
             });
 
-            //Condition modifier - always
-            bonuses.push({
-                value: system.health?.condition ?? 0,
-                description: `Condition Modifier: ${system.health?.condition ?? 0
-                    }`,
-            });
-
             //Armor and Weight penalty - only if exists
             if (skill.acp) {
                 bonuses.push({
@@ -328,13 +332,14 @@ export class SkillFunctions {
                     description: `Armor Class Penalty: ${acPenalty}`,
                 });
                 skill.armorPenalty = acPenalty;
+            }
 
-                if (heavyLoadAffected) {
-                    bonuses.push({
-                        value: -10,
-                        description: `Heavy Load Penalty: -10`,
-                    });
-                }
+            //Homebrew flat Armor Check Penalty - Strength/Dexterity skills only
+            if (skill.ability === "str" || skill.ability === "dex") {
+                bonuses.push({
+                    value: flatArmorCheckPenalty,
+                    description: `Armor Check Penalty: ${flatArmorCheckPenalty}`,
+                });
             }
 
             //Skill Focus bonus - Skill Focus only
@@ -446,11 +451,10 @@ export class SkillFunctions {
         skill.value = resolveValueArray(nonZeroBonuses.map(bonus => bonus.value), actor);
         skill.variable = `@${actor.cleanSkillName(label)}`;
         actor.resolvedVariables.set(skill.variable, "1d20 + " + skill.value);
-        skill.label = label.replace(/\(/g, "( ").titleCase().replace(/\( /g, "(")
+        skill.label = titleCase(label)
         skill.key = label.toLowerCase()
         actor.resolvedLabels.set(skill.variable, skill.label);
         skill.abilityBonus = skillAttributeMod;
-        skill.rowColor = label === "Initiative" || label === "Perception" ? "highlighted-skill" : "";
         skill.situationalSkills = [];
 
     }
@@ -494,7 +498,11 @@ export class SkillFunctions {
 
      createNewSkill(skill, actualSkill = {}, customSkill = {}) {
 
-        return {...DEFAULT_SKILL, ...(skillDetails[skill] || {}), ...customSkill, ...actualSkill}
+        const merged = {...DEFAULT_SKILL, ...(skillDetails[skill] || {}), ...customSkill, ...actualSkill};
+        // Canonical ability always wins over a stale persisted value (e.g. from before a
+        // homebrew ability-score change), since there's no player-facing way to set this per-skill.
+        merged.ability = customSkill?.ability ?? skillDetails[skill]?.ability ?? merged.ability;
+        return merged;
 
     }
 
@@ -504,11 +512,10 @@ export class SkillFunctions {
         skill.value = resolveValueArray(nonZeroBonuses.map(bonus => bonus.value), actor);
         skill.variable = `@${actor.cleanSkillName(label)}`;
         actor.resolvedVariables.set(skill.variable, "1d20 + " + skill.value);
-        skill.label = label.replace(/\(/g, "( ").titleCase().replace(/\( /g, "(")
+        skill.label = titleCase(label)
         skill.key = label.toLowerCase()
         actor.resolvedLabels.set(skill.variable, skill.label);
         skill.abilityBonus = skillAttributeMod;
-        skill.rowColor = label === "Initiative" || label === "Perception" ? "highlighted-skill" : "";
         skill.situationalSkills = [];
     }
 

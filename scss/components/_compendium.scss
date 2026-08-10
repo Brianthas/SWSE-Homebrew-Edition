@@ -11,6 +11,52 @@
   }
   border-bottom: thin solid #7a7971;
 }
+.entry-tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+// Collapsible per-talent-tree section header (grouped Talents browser, compendium-browser.mjs).
+// Deliberately loud/banner-style rather than a plain <h3> — this is the primary "you're now
+// looking at the X Talent Tree" landmark when a search narrows down to one tree.
+.directory-group {
+  margin: 4px 0;
+}
+
+.group-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  padding: 6px 10px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--swse-bg);
+  background: var(--swse-accent);
+  border-radius: 4px;
+  cursor: pointer;
+
+  &:hover {
+    background: var(--swse-text);
+  }
+
+  i {
+    font-size: 12px;
+  }
+
+  .group-count {
+    font-weight: 400;
+    opacity: 0.8;
+  }
+}
+
+.group-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 .compendium-filter{
   position: relative;
   padding: 4px 6px;

@@ -1,0 +1,75 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You are skilled at fighting armored characters, taking advantage of their weaknesses. You can use each of the following Actions once per encounter:",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Acute Senses talent",
+          "requirement": "Acute Senses",
+          "type": "TALENT"
+        },
+        {
+          "text": "Keen Shot talent",
+          "requirement": "Keen Shot",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Acute Senses talent, and Keen Shot talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Scout Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Scout Talent Trees",
+      "Smuggler Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Master Scout Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Master_Scout_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Piercing Hit",
+  "flags": {},
+  "type": "talent",
+  "folder": "FC2JiFLmeaayGUKm",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385308725,
+    "modifiedTime": 1786036141321,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "sFb07TLSd4OuC7jj",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!sFb07TLSd4OuC7jj"
+}

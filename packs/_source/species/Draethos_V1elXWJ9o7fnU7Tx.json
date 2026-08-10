@@ -1,0 +1,153 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i> </p><p> Draethos are long-lived humanoids from a little known, largely secret world in <a href=\"https://swse.fandom.com/wiki/The_Outer_Rim\" title=\"The Outer Rim\">The Outer Rim</a>. When on their homeworld, Draethos are fierce and unrepentant warriors. They are rules by haughty, spoiled aristocrats more interested in local affairs than galactic politics. The warriors spend their time perfecting their skills and hunting fierce predators on their homeworld of <a href=\"https://swse.fandom.com/wiki/Draethos_(Planet)\" title=\"Draethos (Planet)\">Draethos</a>.</p><p>Draethos residing offworld are usually exiles who chose not to become warriors, each for his own reason. Thus, they are highly intelligent and pacifistic. Exiled Draethos become enthralled with learning as much as they can, though they might never practically apply their detailed knowledge of a given subject. They dislike debate- even on subject they know extremely well- because Draethos fear overlooking details or being unable to adequately explain what they have learned. Older Draethos eventually overcome this barrier. </p><p>Partly due to their long lives, Draethos society is slow to evolve and relies heavily on tradition. Attitudes developed before <a href=\"https://swse.fandom.com/wiki/The_Old_Republic_Era\" class=\"mw-redirect\" title=\"The Old Republic Era\">The Old Republic Era</a> remain central to Draethos society thousands of years later. The stability of the Draethos culture caused exiles to have trouble understanding the complex changes in alien societies. </p><h3><span class=\"mw-headline\" id=\"Draethos_Characteristics\">Draethos Characteristics</span></h3><p><b>Personality:</b> The typical personalities of the Draethos vary greater between offworld residents and those remaining on <a href=\"https://swse.fandom.com/wiki/Draethos_(Planet)\" title=\"Draethos (Planet)\">Draethos</a>. Exiles are highly intelligent, but socially inept. They avoid conflict whenever possible. Draethos living on their homeworld live up to their fierce and aggressive reputations. </p><p><b>Physical Description:</b> A Draethos's most prominent feature is a lipless mouth, which creates the illusion of a large overbite. Their tightly muscled humanoid bodies are covered in a scaly skin ranging from violet to mauve to gray. Their hands are clawlike, contributing to the Draethos's skeletal appearance. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Draethos age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-12 Years </td> \n   <td>13-17 Years </td> \n   <td>18-399 Years </td> \n   <td>400-699 Years </td> \n   <td>700-780 Years </td> \n   <td>781+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Few offworlders know the exact location of the Outer Rim world <a href=\"https://swse.fandom.com/wiki/Draethos_(Planet)\" title=\"Draethos (Planet)\">Draethos</a>, the Draethos homeworld. It features jagged, windswept mountains and deep, sprawling cave systems. </p><p><b>Languages:</b> Draethos is an erratic-sounding language full of harsh clicks and sighs. Exiled Draethos also quickly learn Basic and any other languages common to the region. </p><p><b>Example Names:</b> Odan-Urr, Omal-Zan, Uval-Nor, Shal-Orl, Tyan-Ruu </p><p><b>Adventures:</b> Draethos on <a href=\"https://swse.fandom.com/wiki/Draethos_(Planet)\" title=\"Draethos (Planet)\">Draethos</a> are primarily <a href=\"https://swse.fandom.com/wiki/Soldiers\" class=\"mw-redirect\" title=\"Soldiers\">Soldiers</a>, with a few <a href=\"https://swse.fandom.com/wiki/Noble\" title=\"Noble\">Noble</a> leaders. Force-users follow ancient and mysterious Draethos <a href=\"https://swse.fandom.com/wiki/Force_Traditions\" title=\"Force Traditions\">Force Traditions</a>. exiled Draethos can belong to any <a href=\"https://swse.fandom.com/wiki/Heroic_Class\" class=\"mw-redirect\" title=\"Heroic Class\">Heroic Class</a>, and few have gone on the join the ranks of <a href=\"https://swse.fandom.com/wiki/The_Jedi\" title=\"The Jedi\">The Jedi</a>. </p><h3><span class=\"mw-headline\" id=\"Draethos_Species_Traits\">Draethos Species Traits</span></h3><p>Draethos share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Natural Armor (+1)",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Draethos",
+        "type": "trait"
+      },
+      {
+        "name": "Bonus Feat (Weapon Proficiency (Advanced Melee))",
+        "type": "trait"
+      },
+      {
+        "name": "Low-Light Vision",
+        "type": "trait"
+      },
+      {
+        "name": "Natural Telepath",
+        "type": "trait"
+      },
+      {
+        "name": "Weapon Proficiency (Advanced Melee)",
+        "type": "feat"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "12",
+          "low": "1",
+          "text": "1-12",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "17",
+          "low": "13",
+          "text": "13-17",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "780",
+          "low": "700",
+          "text": "700-780",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "699",
+          "low": "400",
+          "text": "400-699",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "781",
+          "text": "781+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "399",
+          "low": "18",
+          "text": "18-399",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Natural Armor (+1)"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Draethos"
+      },
+      {
+        "value": "Bonus Feat (Weapon Proficiency (Advanced Melee))"
+      },
+      {
+        "value": "Low-Light Vision"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Natural Telepath"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Draethos",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535565923,
+    "modifiedTime": 1736535565923,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "V1elXWJ9o7fnU7Tx",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!V1elXWJ9o7fnU7Tx"
+}

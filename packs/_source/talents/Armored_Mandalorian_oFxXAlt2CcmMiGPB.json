@@ -1,0 +1,79 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Mandalorians wear armor constantly and learn to adjust to take an impact on the strongest section of their armor. You add your armor's <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> bonus as an <a href=\"https://swse.fandom.com/wiki/Equipment\" title=\"Equipment\">Equipment</a> bonus to your Elite Trooper <a href=\"https://swse.fandom.com/wiki/Damage_Reduction\" title=\"Damage Reduction\">Damage Reduction</a> (with a maximum bonus equal to your base <a href=\"https://swse.fandom.com/wiki/Elite_Trooper\" title=\"Elite Trooper\">Elite Trooper</a> DR).<br><br>Additionally, if a <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> does not ignore the DR of the armor you are wearing (such as <a href=\"https://swse.fandom.com/wiki/Cortosis_Weave/Phrik_Alloy_General_Template\" title=\"Cortosis Weave/Phrik Alloy General Template\">Cortosis Weave/Phrik Alloy General Template</a>), a <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> does not ignore your <a href=\"https://swse.fandom.com/wiki/Elite_Trooper\" title=\"Elite Trooper\">Elite Trooper</a> Damage Reduction.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Dexterity 13",
+          "requirement": "Dexterity 13",
+          "type": "ATTRIBUTE"
+        },
+        {
+          "text": "Mandalorian Glory talent",
+          "requirement": "Mandalorian Glory",
+          "type": "TALENT"
+        },
+        {
+          "text": "Proficient with Armor",
+          "requirement": "Armor",
+          "type": "PROFICIENCY"
+        }
+      ],
+      "text": "Dexterity 13, Mandalorian Glory talent, and Proficient with Armor",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Elite Trooper Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Elite Trooper Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Mandalorian Warrior Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Mandalorian_Warrior_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Armored Mandalorian",
+  "flags": {},
+  "type": "talent",
+  "folder": "YNhf2uiebtxsCm7g",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385308475,
+    "modifiedTime": 1734385308475,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "oFxXAlt2CcmMiGPB",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!oFxXAlt2CcmMiGPB"
+}

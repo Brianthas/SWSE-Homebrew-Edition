@@ -1,8 +1,14 @@
-<div class="flex flex-col weapon-summary-header swse flex-grow">
+<div class="flex flex-col weapon-summary-header swse panel area-attacks">
+    <h1 class="top-label resource-label">Attacks
+        {{#unlessEquals actor.type "vehicle"}}
+            <a class="add-custom-attack-btn" data-action="add-custom-attack" title="Add a custom attack that isn't tied to any equipped item (e.g. Grapple)"><i class="fas fa-plus"></i></a>
+        {{/unlessEquals}}
+    </h1>
     <div class="flex flex-row attack-button" data-action="fullAttack">
         <button type="button" id="fullAttack">Full Attack</button>
 <!--        <button class="tiny fas fa-ellipsis" data-attack-key="fullAttack" data-action="attack-more"></button>-->
     </div>
+    {{> 'systems/swse/templates/actor/parts/attack/combat-toggle.hbs' actor=actor}}
     {{#each actor.armors as |armor id|}}
 
         {{> 'systems/swse/templates/actor/parts/armor-block.hbs' armor=armor actor=../actor toggles=../actor.system.toggles id=id}}

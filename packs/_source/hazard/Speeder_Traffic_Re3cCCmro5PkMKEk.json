@@ -1,0 +1,66 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "4d6",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A being begins its turn within Speeder Traffic.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round at the start of the target's turn, as long as the target remains within Speeder Traffic.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Acrobatics (DC 23): The character weaves and tumbles through the Speeder Traffic, gaining a +2 circumstance bonus to Reflex Defense against the Hazard. Jump (DC 23): The character jumps out of the way of an oncoming speeder or makes an effort to leap from one speeder to another, gaining a +2 circumstance bonus to Reflex Defense against the Hazard. Perception (DC 18): The character watches carefully for oncoming speeders, gaining a +1 circumstance bonus to Reflex Defense against the Hazard's attacks.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Artificial"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>Dozens of speeders zip by as you attempt to cross to the other side of the thoroughfare.</i> </p><p>The last thing that speeder pilots want to see in their path is a bunch of creatures in the middle of a fight. Nevertheless, combatants who find themselves in speeder lanes can use the vehicles in a variety of ways. If combatants put the speeders between themselves and their opponents, the vehicles can provide <a href=\"https://swse.fandom.com/wiki/Cover\" title=\"Cover\">Cover</a> or prevent their foes from reaching them. If the combatants join the traffic to continue their battle between or atop the vehicles, they can use the speeders as island platforms from which to launch their assaults. </p><h2><span id=\"Speeder_Traffic_Statistics_.28CL_8.29\"></span><span class=\"mw-headline\" id=\"Speeder_Traffic_Statistics_(CL_8)\">Speeder Traffic Statistics (CL 8)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Artificial </p><p><b>Trigger:</b> A being begins its turn within Speeder Traffic. </p><p><b>Attack:</b> +10 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> Each round at the start of the target's turn, as long as the target remains within Speeder Traffic. </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Acrobatics\" title=\"Acrobatics\">Acrobatics</a> (DC 23):</b> The character weaves and tumbles through the Speeder Traffic, gaining a +2 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against the Hazard.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Jump\" title=\"Jump\">Jump</a> (DC 23):</b> The character jumps out of the way of an oncoming speeder or makes an effort to leap from one speeder to another, gaining a +2 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against the Hazard.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> (DC 18):</b> The character watches carefully for oncoming speeders, gaining a +1 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against the Hazard's attacks.</li>\n</ul>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Speeder Traffic",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244753,
+    "modifiedTime": 1749263244753,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "Re3cCCmro5PkMKEk",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!Re3cCCmro5PkMKEk"
+}

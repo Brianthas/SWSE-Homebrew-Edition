@@ -1,0 +1,145 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Clone_Wars_Campaign_Guide\" title=\"Star Wars Saga Edition Clone Wars Campaign Guide\">Star Wars Saga Edition Clone Wars Campaign Guide</a></i> </p><p>Nelvaanians, also referred to as Nelvaans, are a Species of tribal humanoids from the planet <a href=\"https://swse.fandom.com/wiki/Nelvaan\" title=\"Nelvaan\">Nelvaan</a>. They are a primitive Species, using only crude technology. Male Nelvaanians are responsible for hunting game and protecting the tribe, while females are responsible for the day-to-day affairs of their tribe, which includes raising cubs. </p><p>At the top of the Nelvaanian tribe is the chief, who rules with the help of his mate and a shaman. A tribal chief is not chosen by trial, nor is he elected to his position. Instead, the chief's ascension is determined by the grace of the \"Great Mother\" and is established through a show of mutual admiration and respect among the entire tribe. Religion and spirituality are the center of Nelvaanian society. Elders are revered, as are mothers of all ages. </p><p>During the Clone Wars, male Nelvaanians are abducted by the Techno Union and subjected to extensive physiological and genetic manipulation in an attempt to create a race of mutant warriors. The experiments are partially successful, turing the males of the Species into monstrous versions of their former selves. However, the experiments are stopped by Anakin Skywalker, and the modified Nelvaanians reunite with their tribes. </p><h3><span class=\"mw-headline\" id=\"Nelvaanian_Characteristics\">Nelvaanian Characteristics</span></h3><p><b>Personality:</b> Nelvaanians are closely tied by the bonds of family and kinship. They are superstitious, attributing magical powers to most technology, which they mistrust. Nevertheless, they are honorable and faithful once their trust is earned. Genetically modified male Nelvaanians are somewhat less astute than their female counterparts, and this extends to their social graces, as well. </p><p><b>Physical Description:</b> The Nelvaanians are a humanoid <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> with pronounced canine characteristics. They have blue-green fur, large teeth in a pronounced muzzle, and two pointy, independently movable ears. A thick mane of black hair on their heads extends down the napes of their necks, and this tends to whiten with age. After the experiments of the Techno Union, nearly all Nelvaanian males are transformed into hulking monstrosities due to intense genetic manipulation. This trait persists in males born after the Clone Wars, though females are not subject to the mutation. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Nelvaanians age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-7 Years </td> \n   <td>8-20 Years </td> \n   <td>21-30 Years </td> \n   <td>31-45 Years </td> \n   <td>46-64 Years </td> \n   <td>65+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Nelvaanians hail from the frigid ice world of <a href=\"https://swse.fandom.com/wiki/Nelvaan\" title=\"Nelvaan\">Nelvaan</a>, a frozen ice ball located in <a href=\"https://swse.fandom.com/wiki/The_Outer_Rim\" title=\"The Outer Rim\">The Outer Rim</a>. </p><p><b>Languages:</b> Nelvaanians speak their tribal tongue of Nelvaanese, a series of growls and grunts with a surprisingly elegant written form. </p><p><b>Example Names:</b> Harvos, Orvos, Tuzes-Adaz. </p><p><b>Adventurers:</b> Nelvaanians are rarely encountered away from Nelvaan, but those who are become <a href=\"https://swse.fandom.com/wiki/Soldiers\" class=\"mw-redirect\" title=\"Soldiers\">Soldiers</a> and <a href=\"https://swse.fandom.com/wiki/Scouts\" class=\"mw-redirect\" title=\"Scouts\">Scouts</a>. </p><h3><span class=\"mw-headline\" id=\"Nelvaanian_Species_Traits\">Nelvaanian Species Traits</span></h3><p>Nelvaanians share the following Species Traits: </p><h2><span class=\"mw-headline\" id=\"Additional_Nelvaanian_Species_Feats\">Additional Nelvaanian Species Feats</span></h2><p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Clone_Wars_Campaign_Guide\" title=\"Star Wars Saga Edition Clone Wars Campaign Guide\">Star Wars Saga Edition Clone Wars Campaign Guide</a></i> </p><p>Nelvaanian characters have access to the following <a href=\"https://swse.fandom.com/wiki/Species_Feats\" class=\"mw-redirect\" title=\"Species Feats\">Species Feats</a>. No Species Feats are considered Bonus Feats for any <a href=\"https://swse.fandom.com/wiki/Heroic_Class\" class=\"mw-redirect\" title=\"Heroic Class\">Heroic Class</a>. </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>SPECIES FEAT </th> \n   <th> </th> \n   <th>BENEFITS </th>\n  </tr> \n  <tr> \n   <td><a href=\"https://swse.fandom.com/wiki/Anointed_Hunter\" title=\"Anointed Hunter\">Anointed Hunter</a> </td> \n   <td> </td> \n   <td>Move 2 or more squares and gain a +1 bonus on attacks with thrown weapons until the end of your next turn. </td>\n  </tr>\n </tbody>\n</table>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Shadow Swiftness",
+        "type": "trait"
+      },
+      {
+        "name": "Primitive",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Low-Light Vision",
+        "type": "trait"
+      },
+      {
+        "name": "Scent",
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "7",
+          "low": "1",
+          "text": "1-7",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "45",
+          "low": "31",
+          "text": "31-45",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "64",
+          "low": "46",
+          "text": "46-64",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "20",
+          "low": "8",
+          "text": "8-20",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "65",
+          "text": "65+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "30",
+          "low": "21",
+          "text": "21-30",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Shadow Swiftness"
+      },
+      {
+        "value": "Primitive"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Low-Light Vision"
+      },
+      {
+        "value": "Nelvaanians"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Scent"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Nelvaanian",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535566775,
+    "modifiedTime": 1736535566775,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "aRbKianUWLFUvNsg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!aRbKianUWLFUvNsg"
+}

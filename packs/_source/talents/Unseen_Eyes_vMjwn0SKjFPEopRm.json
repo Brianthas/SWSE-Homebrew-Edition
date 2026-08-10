@@ -1,0 +1,84 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Whenever you use the <b>Force Haze</b> Talent, allies hidden by the <b>Force Haze</b> can reroll any <a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> check, keeping the better of the two results. Additionally, allies hidden by the <b>Force Haze</b> gain a +2 bonus on all damage rolls against foes that are unaware of them.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:Whenever you use the<b>Force Haze</b>Talent, allies hidden by the<b>Force Haze</b>can reroll any<a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a>check, keeping the better of the two results. Additionally, allies hidden by the<b>Force Haze</b>gain a +2 bonus on all damage rolls against foes that are unaware of them.",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Clear Mind talent",
+          "requirement": "Clear Mind",
+          "type": "TALENT"
+        },
+        {
+          "text": "Force Haze talent",
+          "requirement": "Force Haze",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Clear Mind talent, and Force Haze talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Jedi Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Jedi Talent Trees",
+      "Core Rulebook"
+    ],
+    "isSupplied": false,
+    "talentTree": "Jedi Sentinel Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Jedi_Sentinel_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Clone Wars Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Unseen Eyes",
+  "flags": {},
+  "type": "talent",
+  "folder": "XHZlOCOJ4XqqIkdp",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385307282,
+    "modifiedTime": 1734385307282,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "vMjwn0SKjFPEopRm",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!vMjwn0SKjFPEopRm"
+}

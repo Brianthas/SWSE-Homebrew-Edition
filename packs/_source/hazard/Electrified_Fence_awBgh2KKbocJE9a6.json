@@ -1,0 +1,68 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2d6",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A creature comes into contact with an Electrified Fence.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round at the start of the target's turn, as long as the target remains exposed to the Electrified Fence.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Acrobatics (DC 21): The character tumbles away from the Electrified Fence, gaining a +5 circumstance bonus to Reflex Defense to avoid the Hazard. Jump (DC 26): The character leaps over the Electrified Fence without taking damage.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Artificial",
+          "Contact",
+          "Energy"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>The metal fence before you crackles with energy.</i> </p><p>This Hazard can be as simple as an electrified chain-link fence, or it can take forms such as a powered metal wall, a series of lethal laser beams spanning the gap between relay posts, or a force field that seals off a particular area up to a certain height. Combatants can use the Hazard to keep their opponents at bay while firing at them from relative safety. The Hazard can also keep creatures confined to a specific area and prevent them from fleeing. </p><h2><span id=\"Electrified_Fence_Statistics_.28CL_5.29\"></span><span class=\"mw-headline\" id=\"Electrified_Fence_Statistics_(CL_5)\">Electrified Fence Statistics (CL 5)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Artificial, Contact, Energy </p><p><b>Trigger:</b> A creature comes into contact with an Electrified Fence. </p><p><b>Attack:</b> +7 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> Each round at the start of the target's turn, as long as the target remains exposed to the Electrified Fence. </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Acrobatics\" title=\"Acrobatics\">Acrobatics</a></b> <b>(DC 21):</b> The character tumbles away from the Electrified Fence, gaining a +5 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> to avoid the Hazard.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Jump\" title=\"Jump\">Jump</a></b> <b>(DC 26):</b> The character leaps over the Electrified Fence without taking damage.</li>\n</ul>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Electrified Fence",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244461,
+    "modifiedTime": 1749263244461,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "awBgh2KKbocJE9a6",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!awBgh2KKbocJE9a6"
+}

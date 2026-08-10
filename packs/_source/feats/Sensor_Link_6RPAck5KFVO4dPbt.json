@@ -1,0 +1,72 @@
+{
+  "img": "systems/swse/icon/feat/Sensor_Link.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scavenger%27s_Guide_to_Droids\" title=\"Star Wars Saga Edition Scavenger's Guide to Droids\">Star Wars Saga Edition Scavenger's Guide to Droids</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You can broadcast your sensor input to an ally, such as another Droid or a <a href=\"https://swse.fandom.com/wiki/Friendly\" class=\"mw-redirect\" title=\"Friendly\">Friendly</a> computer system.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> or <a href=\"https://swse.fandom.com/wiki/Cyborg_Hybrid\" class=\"mw-redirect\" title=\"Cyborg Hybrid\">Cyborg Hybrid</a></p><p><b>Effect:</b> As a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>, you can broadcast the input from your audio, visual, and special sensors to a Droid ally, <a href=\"https://swse.fandom.com/wiki/Comlink\" title=\"Comlink\">Comlink</a>, communications system, or holographic receiver within 24 squares.</p><p>That ally is aware of anything you are aware of, and can use the <a href=\"https://swse.fandom.com/wiki/Aid_Another\" title=\"Aid Another\">Aid Another</a> Action to aid on your <a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> checks even if you do not have line of sight to one another. If both you and your ally have Sensor Link, you share information simultaneously, granting a +2 bonus to <a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> checks.</p><p><b>Special:</b> <a href=\"https://swse.fandom.com/wiki/Cyborg_Hybrids\" class=\"mw-redirect\" title=\"Cyborg Hybrids\">Cyborg Hybrids</a> with built-in <a href=\"https://swse.fandom.com/wiki/Subcutaneous_Comlink\" title=\"Subcutaneous Comlink\">Subcutaneous Comlink</a> can also take this Feat.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Droid",
+          "requirement": "Is a droid",
+          "type": "SPECIAL"
+        },
+        {
+          "text": "Cyborg Hybrid",
+          "requirement": "Cyborg Hybrid",
+          "type": "SPECIAL"
+        }
+      ],
+      "count": 1,
+      "text": "Droid or Cyborg Hybrid",
+      "type": "OR"
+    },
+    "categories": [
+      {
+        "value": "Technician Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Technician Bonus Feats",
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Scavenger's Guide to Droids",
+    "cost": "0"
+  },
+  "name": "Sensor Link",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479028763,
+    "modifiedTime": 1761479028763,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "6RPAck5KFVO4dPbt",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!6RPAck5KFVO4dPbt"
+}

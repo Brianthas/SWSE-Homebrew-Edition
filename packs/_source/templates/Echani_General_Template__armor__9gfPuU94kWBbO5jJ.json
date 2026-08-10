@@ -1,0 +1,96 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:</i>&nbsp;<i><a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i> </p><p><b>Manufactured By:</b> The <span class=\"new\" title=\"Echani (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvRWNoYW5pP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Echani</span> (<a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>) </p><p><b>Applicable To:</b> Any Armor, Any Slashing or Piercing Weapon (excluding <a href=\"https://swse.fandom.com/wiki/Lightsabers\" title=\"Lightsabers\">Lightsabers</a>) </p><p>Extremely rare, items of Echani Manufacture are hand-crafted by the powerful and skilled Echani warriors, and each individual item is unique. </p><p><b>Weapons:</b> Once per encounter the wielder of an Echani Manufacture Weapon can declare that the critical range of their weapon is increased by one (thus scoring a Critical Hit on a Natural 19 or Natural 20 on most weapons). The use of this ability can be declared after the attack roll is made, but before the attack is resolved. However, Echani Manufacture Weapons have half as many Hit Points as other weapons of their kind. </p><p><b>Armors:</b> Echani Manufacture Armors weighs half as much as other Armors of its kind, and once per encounter the wearer can move at their normal speed (not the adjusted speed for wearing the Armor) for one round, though the Armor's bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> is reduced by 1. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "??",
+        "key": "cost"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "itemMod"
+      },
+      {
+        "mode": 2,
+        "value": "once per encounter the wearer can move at their normal speed (not the adjusted speed for wearing the Armor) for one round",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": -1,
+        "key": "armorReflexDefenseBonus"
+      },
+      {
+        "mode": 2,
+        "value": "Echani",
+        "key": "prefix"
+      },
+      {
+        "mode": 2,
+        "value": "",
+        "key": "suffix"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "hasItemOwner": false,
+    "subtype": "General Templates",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Any Armor",
+          "requirement": "armor",
+          "type": "TYPE"
+        },
+        {
+          "children": [
+            {
+              "text": "Any Armor",
+              "requirement": "armor",
+              "type": "TYPE"
+            }
+          ],
+          "count": 1,
+          "text": "Any Armor, Any Slashing or Piercing Weapon (excluding Lightsabers)",
+          "type": "OR"
+        }
+      ],
+      "text": "Any Armor, and (Any Armor, Any Slashing or Piercing Weapon (excluding Lightsabers))",
+      "type": "AND"
+    },
+    "cost": "??"
+  },
+  "name": "Echani General Template (armor)",
+  "flags": {},
+  "type": "template",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.2",
+    "createdTime": 1729096741529,
+    "modifiedTime": 1729096741529,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "9gfPuU94kWBbO5jJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!9gfPuU94kWBbO5jJ"
+}

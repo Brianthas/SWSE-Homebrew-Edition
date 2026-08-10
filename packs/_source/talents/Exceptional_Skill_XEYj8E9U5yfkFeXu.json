@@ -1,0 +1,94 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "When you select this Talent, choose one <a href=\"https://swse.fandom.com/wiki/Trained_Skill\" class=\"mw-redirect\" title=\"Trained Skill\">Trained Skill</a>. Whenever you roll a <a href=\"https://swse.fandom.com/wiki/Skill_Check\" class=\"mw-redirect\" title=\"Skill Check\">Skill Check</a> with that <a href=\"https://swse.fandom.com/wiki/Skill\" class=\"mw-redirect\" title=\"Skill\">Skill</a>, a result of 2-7 on the die is always treated as though you had rolled an 8. You can select this Talent multiple times. Each time you do so, you must choose a different <a href=\"https://swse.fandom.com/wiki/Skill\" class=\"mw-redirect\" title=\"Skill\">Skill</a> to gain the benefits of this Talent.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "takeMultipleTimes"
+      },
+      {
+        "mode": 2,
+        "value": "#payload#",
+        "key": "exceptionalSkill"
+      }
+    ],
+    "choices": [
+      {
+        "noOptions": "You Must have a trained skill to take Exceptional Skill.",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {
+              "payload": "AVAILABLE_EXCEPTIONAL_SKILL"
+            },
+            "display": "AVAILABLE_EXCEPTIONAL_SKILL",
+            "name": "AVAILABLE_EXCEPTIONAL_SKILL",
+            "attributes": {}
+          }
+        ],
+        "description": "Select a Skill to use with Exceptional Skill",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": true
+      }
+    ],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": null,
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Noble Talent Trees"
+      },
+      {
+        "value": "Technician Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Noble Talent Trees",
+      "Technician Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Superior Skills Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Superior_Skills_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Galaxy of Intrigue",
+    "cost": "0"
+  },
+  "name": "Exceptional Skill",
+  "flags": {},
+  "type": "talent",
+  "folder": "ntWoq4fvhgAT9r6P",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385312557,
+    "modifiedTime": 1734385312557,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "XEYj8E9U5yfkFeXu",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!XEYj8E9U5yfkFeXu"
+}

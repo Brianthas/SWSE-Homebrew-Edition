@@ -1,0 +1,74 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You have seen more action in more places than most people know exist, and little in the galaxy gets you rattled. Any character using a Fear effect on you must roll twice, keeping the lower result on any <a href=\"https://swse.fandom.com/wiki/Skill_Checks\" title=\"Skill Checks\">Skill Checks</a> and attack rolls.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Tested in Battle talent",
+          "requirement": "Tested in Battle",
+          "type": "TALENT"
+        },
+        {
+          "text": "Trained in Initiative",
+          "requirement": "Initiative",
+          "type": "TRAINED SKILL"
+        }
+      ],
+      "text": "Tested in Battle talent, and Trained in Initiative",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Soldier Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Veteran Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Veteran_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Galaxy at War",
+    "cost": "0"
+  },
+  "name": "Seen It All",
+  "flags": {},
+  "type": "talent",
+  "folder": "jcI47uHVsndxoKKE",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385313205,
+    "modifiedTime": 1734385313205,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "xHOZd0tfxopILCRz",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!xHOZd0tfxopILCRz"
+}

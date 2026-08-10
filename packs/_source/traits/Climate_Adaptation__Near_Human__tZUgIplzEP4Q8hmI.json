@@ -1,0 +1,122 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Resistant to a specific climate. Select one: freezing, rarefied atmosphere, searing, smoky, tropical, or watery. When challenged by an environmental factor in that climate (chosen from those listed, or others at the Gamemaster's discretion), can reroll an Endurance or a Survival check, taking the better result.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Near Human Traits:1",
+        "key": "consumes"
+      },
+      {
+        "mode": 2,
+        "value": "Survival:kh:",
+        "key": "skillReRoll"
+      },
+      {
+        "mode": 2,
+        "value": "Endurance:kh:",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [
+      {
+        "noOptions": "NO_AVAILABLE_OPTIONS",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {},
+            "display": "Freezing",
+            "name": "Freezing",
+            "attributes": {},
+            "value": "Freezing"
+          },
+          {
+            "payloads": {},
+            "display": "Rarefied Atmosphere",
+            "name": "Rarefied Atmosphere",
+            "attributes": {},
+            "value": "Rarefied Atmosphere"
+          },
+          {
+            "payloads": {},
+            "display": "Searing",
+            "name": "Searing",
+            "attributes": {},
+            "value": "Searing"
+          },
+          {
+            "payloads": {},
+            "display": "Smoky",
+            "name": "Smoky",
+            "attributes": {},
+            "value": "Smoky"
+          },
+          {
+            "payloads": {},
+            "display": "Tropical",
+            "name": "Tropical",
+            "attributes": {},
+            "value": "Tropical"
+          },
+          {
+            "payloads": {},
+            "display": "Watery",
+            "name": "Watery",
+            "attributes": {},
+            "value": "Watery"
+          },
+          {
+            "payloads": {},
+            "display": "%%%FREETEXT%%%",
+            "name": "%%%FREETEXT%%%",
+            "attributes": {},
+            "value": "%%%FREETEXT%%%"
+          }
+        ],
+        "description": "Choose a resistance to a specific climate",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": true
+      }
+    ],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "prerequisite": null,
+    "cost": "0"
+  },
+  "name": "Climate Adaptation (Near-Human)",
+  "flags": {},
+  "type": "trait",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764446478152,
+    "modifiedTime": 1764446478152,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "tZUgIplzEP4Q8hmI",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!tZUgIplzEP4Q8hmI"
+}

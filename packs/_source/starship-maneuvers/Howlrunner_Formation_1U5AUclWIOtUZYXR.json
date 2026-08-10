@@ -1,0 +1,74 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Starship_Maneuvers\" title=\"Starship Maneuvers\">Starship Maneuvers</a></i> </p><p>This <a href=\"https://swse.fandom.com/wiki/Attack_Pattern\" class=\"mw-redirect\" title=\"Attack Pattern\">Attack Pattern</a> divides an attacking force into two or more groups, making it easier to attack an enemy's flanks. </p><p><b>[<i><a href=\"https://swse.fandom.com/wiki/Attack_Pattern\" class=\"mw-redirect\" title=\"Attack Pattern\">Attack Pattern</a></i>]</b> </p><p><b>Time:</b>&nbsp;<a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a> </p><p><b>Targets:</b>&nbsp;Self </p><p><b>Make a&nbsp;<a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a>&nbsp;check.</b> If you succeed on a DC 20 <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> check, you successfully activate this maneuver. While you are using <i>Howlrunner Formation</i> as your chosen <a href=\"https://swse.fandom.com/wiki/Attack_Pattern\" class=\"mw-redirect\" title=\"Attack Pattern\">Attack Pattern</a>, you gain a +1 maneuver bonus on attack rolls made with Vehicle Weapons while adjacent to any other allied <a href=\"https://swse.fandom.com/wiki/Airspeeder\" class=\"mw-redirect\" title=\"Airspeeder\">Airspeeder</a> or <a href=\"https://swse.fandom.com/wiki/Starfighter\" class=\"mw-redirect\" title=\"Starfighter\">Starfighter</a>. </p><p><b>Special:</b> If any adjacent allies are using <i>Howlrunner Formation</i> as well, your maneuver bonus on attack rolls increases to +2. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Reference Book: Star Wars Saga Edition Starships of the Galaxy See also: Starship Maneuvers This Attack Pattern divides an attacking force into two or more groups, making it easier to attack an enemy's flanks. [Attack Pattern] Time: Swift Action Targets: Self Make a Pilot check. If you succeed on a DC 20 Pilot check, you successfully activate this maneuver. While you are using Howlrunner Formation as your chosen Attack Pattern, you gain a +1 maneuver bonus on attack rolls made with Vehicle Weapons while adjacent to any other allied Airspeeder or Starfighter. Special: If any adjacent allies are using Howlrunner Formation as well, your maneuver bonus on attack rolls increases to +2.",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "Attack Pattern",
+        "key": "tag"
+      },
+      {
+        "mode": 2,
+        "value": "Swift Action",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "Self",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": "Pilot",
+        "key": "rollType"
+      },
+      {
+        "mode": 2,
+        "value": "20:Pilot check, you successfully activate this maneuver. While you are using Howlrunner Formation as your chosen Attack Pattern, you gain a +1 maneuver bonus on attack rolls made with Vehicle Weapons while adjacent to any other allied Airspeeder or Starfighter.",
+        "key": "check"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Howlrunner Formation",
+  "flags": {},
+  "type": "forcePower",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738608591469,
+    "modifiedTime": 1738608591469,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX"
+  },
+  "_id": "1U5AUclWIOtUZYXR",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!1U5AUclWIOtUZYXR"
+}

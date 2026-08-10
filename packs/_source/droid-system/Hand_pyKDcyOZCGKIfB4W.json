@@ -1,0 +1,42 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Appendages",
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "droidPart"
+      }
+    ],
+    "description": "<p>A Droid is considered to have a true Hand if its gripping Appendage includes at least three digits, one of which is opposable. Factory-model <a href=\"https://swse.fandom.com/wiki/3PO_Series_Protocol_Droid\" class=\"mw-redirect\" title=\"3PO Series Protocol Droid\">3PO Series Protocol Droids</a> and <a href=\"https://swse.fandom.com/wiki/B1_Series_Battle_Droid\" class=\"mw-redirect\" title=\"B1 Series Battle Droid\">B1 Series Battle Droids</a> come equipped with Hands.</p>",
+    "cost": "50 x Cost Factor",
+    "weight": "(5 x Cost Factor) Kilograms",
+    "appendages": "1",
+    "appendageType": "Hand",
+    "droidUnarmedDamageScalable": "1d3"
+  },
+  "name": "Hand",
+  "flags": {},
+  "type": "droid system",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764449015909,
+    "modifiedTime": 1764449015909,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "pyKDcyOZCGKIfB4W",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!pyKDcyOZCGKIfB4W"
+}

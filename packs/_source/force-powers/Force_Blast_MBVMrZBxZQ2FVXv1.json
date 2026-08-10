@@ -1,0 +1,94 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Force_Unleashed_Campaign_Guide\" title=\"Star Wars Saga Edition Force Unleashed Campaign Guide\">Star Wars Saga Edition Force Unleashed Campaign Guide</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a></i> </p><p>You use&nbsp;<a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a>&nbsp;to create a ball of compressed air and debris that you can hurl at enemy targets. </p><p><b>Time:</b> <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a> </p><p><b>Targets:</b> One target within 12 squares and within line of sight. </p><p><b>Make a <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check.</b> Compare the result of your <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check to the <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> of the target; if you exceed the target's <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>, you deal damage with the <i>Force Blast</i>. The result of the check determines the result, if any: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td> </td> \n   <td>The <i>Force Blast</i> deals 2d6 points of damage to the target. </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td> </td> \n   <td>The <i>Force Blast</i> deals 3d6 points of damage to the target. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td> </td> \n   <td>The <i>Force Blast</i> deals 4d6 points of damage to the target. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td> </td> \n   <td>The <i>Force Blast</i> deals 5d6 points of damage to the target. </td>\n  </tr>\n </tbody>\n</table><p><b>Special:</b> You can spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> to add one-half your Heroic Level as a damage bonus on a <i>Force Blast</i> just as you would with a normal Weapon. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Standard Action",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "One target within 12 squares and within line of sight.",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": "Use the Force",
+        "key": "rollType"
+      },
+      {
+        "mode": 2,
+        "value": "15:The Force Blast deals 2d6 points of damage to the target.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "20:The Force Blast deals 3d6 points of damage to the target.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "25:The Force Blast deals 4d6 points of damage to the target.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "30:The Force Blast deals 5d6 points of damage to the target.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "Reference Book: Star Wars Saga Edition Force Unleashed Campaign Guide See also: Force Powers You use The Force to create a ball of compressed air and debris that you can hurl at enemy targets. Time: Standard Action Targets: One target within 12 squares and within line of sight. Make a Use the Force check. Compare the result of your Use the Force check to the Reflex Defense of the target; if you exceed the target's Reflex Defense, you deal damage with the Force Blast. The result of the check determines the result, if any: Special: You can spend a Force Point to add one-half your Heroic Level as a damage bonus on a Force Blast just as you would with a normal Weapon.",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Force Powers"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Force Blast",
+  "flags": {},
+  "type": "forcePower",
+  "img": "systems/swse/icon/force-power/Force_Blast.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738608589939,
+    "modifiedTime": 1738608589939,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "MBVMrZBxZQ2FVXv1",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!MBVMrZBxZQ2FVXv1"
+}

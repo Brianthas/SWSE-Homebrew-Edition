@@ -1,105 +1,69 @@
-<!--TODO find a spot for the portrait -->
-<div class="summary-header swse">
-    <div class="large labeled-input">
-        <label for="name" class="text">Name</label>
-        <input class="input" name="name" id="name" type="text" value="{{actor.name}}" placeholder=""/>
-    </div>
+<div class="swse panel area-identity">
+    <h1 class="top-label resource-label">Character</h1>
+    <div class="identity-body">
+        <div class="identity-portrait">
+            <img class="profile-img" src="{{actor.img}}" alt="{{actor.name}}" data-edit="img" title="{{actor.name}}"/>
+        </div>
 
-    <div class="large labeled-input">
-        <label for="player" class="text">Player</label>
-        <input class="input" name="system.details.player" id="player" type="text" value="{{actor.system.details.player}}"
-               placeholder=""/>
-    </div>
-
-    <div class="medium labeled-input">
-        <label for="classSummary" class="text">Classes</label>
-        <input class="input" id="classSummary" type="text" value="{{actor.classSummary}}" placeholder=""
-               disabled/>
-    </div>
-
-    <div class="small labeled-input">
-        <label for="level" class="text">Level</label>
-        <input class="input" id="level" type="text" value="{{actor.levelSummary}}" placeholder="" disabled/>
-    </div>
-
-    <div class="small labeled-input">
-        <label for="challenge" class="text">CL</label>
-        <input class="input" id="challenge" name="system.details.cl" type="text" value="{{actor.system.details.cl}}" placeholder=""/>
-    </div>
-
-    <div class="large labeled-input item clickable">
-        <label for="species" class="text">Species</label>
-        <div class="input" id="species"{{#if actor.species}} data-action="view" data-item-id="{{actor.species.id}}" {{else}} data-action="compendium" data-type="Item" data-filter="-type:species" {{/if}}>{{#if actor.species}}{{actor.species.name}}{{else}}Add Species{{/if}}</div>
-        {{#if actor.species}}
-            <div class="control-1">
-                <a class="" data-action="view" data-item-id="{{actor.species.id}}"
-                   title="view item"><i
-                        class="fas fa-eye"></i></a>
+        <div class="field-grid">
+            <div class="field field-wide">
+                <label for="name">Name</label>
+                <input class="input" name="name" id="name" type="text" value="{{actor.name}}" placeholder=""/>
             </div>
-            <div class="control-0">
-                <a class="" data-action="delete" data-item-id="{{actor.species.id}}"
-                   title="delete item"><i
-                        class="fas fa-trash"></i></a>
+
+            <div class="field field-wide">
+                <label for="player">Player</label>
+                <input class="input" name="system.details.player" id="player" type="text"
+                       value="{{actor.system.details.player}}" placeholder=""/>
             </div>
-        {{else}}
-            <div class="control-0">
-                <a data-action="compendium" data-type="Item" data-filter="-type:species"
-                   title="{{localize "Open Compendium"}}"><i class="fas fa-folder-plus"></i></a>
+
+            <div class="field field-wide item clickable">
+                <label for="species">Species</label>
+                <div class="field-value" id="species"{{#if actor.species}} data-action="view" data-item-id="{{actor.species.id}}" {{else}} data-action="compendium" data-type="Item" data-filter="-type:species" {{/if}}>{{#if actor.species}}{{actor.species.name}}{{else}}Add Species{{/if}}</div>
+                {{#if actor.species}}
+                    <div class="control-1">
+                        <a class="" data-action="view" data-item-id="{{actor.species.id}}" title="view item"><i class="fas fa-eye"></i></a>
+                    </div>
+                    <div class="control-0">
+                        <a class="" data-action="delete" data-item-id="{{actor.species.id}}" title="delete item"><i class="fas fa-trash"></i></a>
+                    </div>
+                {{else}}
+                    <div class="control-0">
+                        <a data-action="compendium" data-type="Item" data-filter="-type:species"
+                           title="{{localize "Open Compendium"}}"><i class="fas fa-folder-plus"></i></a>
+                    </div>
+                {{/if}}
             </div>
-        {{/if}}
-    </div>
 
-    <div class="medium labeled-input clickable">
-        <label for="gender" class="text clickable">Gender</label>
-        <div class="input clickable" data-action="gender" id="gender">{{#if actor.system.details.gender}}{{actor.system.details.gender}}{{else}}{{#if actor.system.details.sex}}{{actor.system.details.sex}}{{/if}}{{/if}}</div>
-    </div>
-
-
-    <div class="medium labeled-input">
-        <label for="age" class="text clickable">Age</label>
-        <div class="input clickable" data-action="age" id="age">{{#if actor.system.details.age}}{{actor.system.details.age}} years{{/if}}</div>
-    </div>
-
-    <div class="small labeled-input">
-        <label for="height" class="text">Height</label>
-        <input class="input" id="height" name="system.details.height" type="text" value="{{actor.system.details.height}}" placeholder=""/>
-    </div>
-
-    <div class="small labeled-input">
-        <label for="weight" class="text">Weight</label>
-        <input class="input" id="weight" name="system.details.weight" type="text" value="{{actor.system.details.weight}}" placeholder=""/>
-    </div>
-
-
-
-    {{#unless actor.isFollower}}
-    <div class="large labeled-input item" data-item-id="{{#if actor.destiny}}{{actor.destiny.id}}{{else}}{{#if actor.background}}{{actor.background.id}}{{/if}}{{/if}}">
-        <label for="destiny" class="text">{{#if actor.destiny}}Destiny{{else}}{{#if actor.background}}Background{{else}}Destiny or Background{{/if}}{{/if}}</label>
-        <input class="input" id="destiny"  type="text" value="{{#if actor.destiny}}{{actor.destiny.name}}{{else}}{{#if actor.background}}{{actor.background.name}}{{/if}}{{/if}}" placeholder="" disabled/>
-        {{#ifEither actor.destiny actor.background}}
-            <div class="control-1">
-                <a data-action="view"
-                   title="{{localize "Edit"}}"><i class="fas fa-eye"></i></a>
+            <div class="field field-wide">
+                <label for="classSummary">Classes</label>
+                <input class="input" id="classSummary" type="text" value="{{actor.classSummary}}" placeholder="" disabled/>
             </div>
-            <div class="control-0">
-                <a data-action="delete" data-action-target="swse.background"
-                   title="{{localize "Delete"}}"><i class="fas fa-trash"></i></a>
-            </div>
-        {{else}}
-            <div class="control-1">
-                <a data-action="compendium" data-type="Item" data-filter="-type:destiny"
-                   title="{{localize "Open Destiny Compendium"}}"><i class="fas fa-folder-plus"></i></a>
-            </div>
-            <div class="control-0">
-                <a data-action="compendium" data-type="Item" data-filter="-type:background"
-                   title="{{localize "Open Background Compendium"}}"><i class="fas fa-folder-plus"></i></a>
-            </div>
-        {{/ifEither}}
 
+            <div class="field">
+                <label for="level">Level</label>
+                <input class="input" id="level" type="text" value="{{actor.levelSummary}}" placeholder="" disabled/>
+            </div>
+
+            <div class="field">
+                <label for="actorSize">Size</label>
+                <select id="actorSize" name="system.size"
+                        title="Drives the homebrew size table (ability adjustment, speed, unarmed damage, Stealth).">
+                    {{#select actor.system.size}}
+                        <option value="Small">Small</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Large">Large</option>
+                    {{/select}}
+                </select>
+            </div>
+
+            <div class="field field-wide">
+                <label>&nbsp;</label>
+                <button type="button" class="long-rest-button" data-action="long-rest"
+                        title="Restore HP and Force Points, and reset Second Wind uses">
+                    <i class="fas fa-moon"></i> Long Rest
+                </button>
+            </div>
+        </div>
     </div>
-    <div class="small labeled-input">
-        <label for="experience" class="text">XP</label>
-        <input class="input" id="experience" name="system.details.experience" type="number" value="{{actor.system.details.experience}}" placeholder=""/>
-    </div>
-    {{/unless}}
 </div>

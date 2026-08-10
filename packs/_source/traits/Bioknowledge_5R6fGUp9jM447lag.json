@@ -1,0 +1,56 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p>A being may choose to reroll any <a href=\"https://swse.fandom.com/wiki/Knowledge_(Life_Science)\" class=\"mw-redirect\" title=\"Knowledge (Life Science)\">Knowledge (Life Science)</a> or <a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a> check, but the result of the reroll must be accepted, even if it is worse.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Knowledge (Life Science)::A being may choose to reroll any Knowledge (Life Science) or Treat Injury check, but the result of the reroll must be accepted, even if it is worse.",
+        "key": "skillReRoll"
+      },
+      {
+        "mode": 2,
+        "value": "Treat Injury::A being may choose to reroll any Knowledge (Life Science) or Treat Injury check, but the result of the reroll must be accepted, even if it is worse.",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "prerequisite": null,
+    "cost": "0"
+  },
+  "name": "Bioknowledge",
+  "flags": {},
+  "type": "trait",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764446476181,
+    "modifiedTime": 1764446476181,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "5R6fGUp9jM447lag",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!5R6fGUp9jM447lag"
+}

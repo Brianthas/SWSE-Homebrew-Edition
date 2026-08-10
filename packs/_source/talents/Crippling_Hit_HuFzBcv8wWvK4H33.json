@@ -1,0 +1,78 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Whenever you make an attack that causes a <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> to move -1 or more steps down the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>, you may also cause it to lose one of the following systems: <a href=\"https://swse.fandom.com/wiki/Hyperdrive\" title=\"Hyperdrive\">Hyperdrive</a>, one <a href=\"https://swse.fandom.com/wiki/Weapon_System\" class=\"mw-redirect\" title=\"Weapon System\">Weapon System</a> or <a href=\"https://swse.fandom.com/wiki/Weapon_Battery\" class=\"mw-redirect\" title=\"Weapon Battery\">Weapon Battery</a>, or communications.<br><br>The system remains inoperable until the target regains all steps on the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Expert Gunner talent",
+          "requirement": "Expert Gunner",
+          "type": "TALENT"
+        },
+        {
+          "text": "System Hit talent",
+          "requirement": "System Hit",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Expert Gunner talent, and System Hit talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Ace Pilot Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Ace Pilot Talent Trees",
+      "Core Rulebook"
+    ],
+    "isSupplied": false,
+    "talentTree": "Gunner Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Gunner_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Starships of the Galaxy",
+    "cost": "0"
+  },
+  "name": "Crippling Hit",
+  "flags": {},
+  "type": "talent",
+  "folder": "LZEx7mS93i24w1KF",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385305662,
+    "modifiedTime": 1734385305662,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "HuFzBcv8wWvK4H33",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!HuFzBcv8wWvK4H33"
+}

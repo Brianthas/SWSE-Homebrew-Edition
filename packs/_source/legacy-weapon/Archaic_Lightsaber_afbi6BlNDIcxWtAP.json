@@ -1,0 +1,78 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Jedi_Academy_Training_Manual\" title=\"Star Wars Saga Edition Jedi Academy Training Manual\">Star Wars Saga Edition Jedi Academy Training Manual</a></i> </p><p>Before <a href=\"https://swse.fandom.com/wiki/The_Great_Sith_War\" class=\"mw-redirect\" title=\"The Great Sith War\">The Great Sith War</a>, Lightsabers required significantly higher power output to maintain the stable, solid blade that makes the weapon useful both for offense and defense. As a result, Lightsabers required large power cells, some larger than a <a href=\"https://swse.fandom.com/wiki/Human\" title=\"Human\">Human</a> hand, to function at full capacity. These power cells were worn on the belt or on the back, and were connected to the hilt of the Archaic Lightsaber via a long, slender cord. </p><p>Around the same time that Pulse-Wave weapons were phased out in favor of modern blasters, Lightsabers underwent a design revolution that miniaturized the power cells required to fuel the energy blade. With the development of this new technology, the Jedi devised methods of Lightsaber creation that integrated these drastically smaller power cells into the hilt of the Lightsaber, eliminating the need for the external <a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a>. With this revolution, the Archaic Lightsaber design was almost entirely abandoned. </p><p>The Archaic <a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a> has one advantage over its modern analogs. The fact that the Archaic Lightsaber is physically attached to the Archaic <a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a> by a power cord means that the weapon doesn't go far, or roll away on its own when dropped, though any kind of force applied to the power cord (such as a <a href=\"https://swse.fandom.com/wiki/Disarm\" title=\"Disarm\">Disarm</a> attempt) immediately disconnects the Archaic Lightsaber from its power source. </p><p>An Archaic Lightsaber is somewhat weaker than the classic <a href=\"https://swse.fandom.com/wiki/Lightsaber_(Weapon)\" title=\"Lightsaber (Weapon)\">Lightsaber</a> due to the lack of a sophisticated power supply and the distance of the <a href=\"https://swse.fandom.com/wiki/Energy_Cell\" title=\"Energy Cell\">Energy Cell</a> from the Archaic Lightsaber's main body. </p><p>An Archaic Lightsaber requires a special&nbsp;<a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a>&nbsp;to operate (costing 600 credits, but it lasts almost indefinitely). </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [
+      {
+        "noOptions": "NO_AVAILABLE_OPTIONS",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {
+              "payload": "AVAILABLE_LIGHTSABER_CRYSTALS"
+            },
+            "display": "AVAILABLE_LIGHTSABER_CRYSTALS",
+            "name": "AVAILABLE_LIGHTSABER_CRYSTALS",
+            "attributes": {}
+          }
+        ],
+        "description": "Lightsaber Crystal",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": false
+      }
+    ],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "2,000",
+    "weight": "1 Kilogram",
+    "availability": "Rare",
+    "size": "Medium",
+    "type": "",
+    "subtype": "Lightsabers",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "2d6",
+    "damageType": "Energy, Slashing"
+  },
+  "name": "Archaic Lightsaber",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Archaic_Lightsaber.png",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513517,
+    "modifiedTime": 1786051513583,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "afbi6BlNDIcxWtAP",
+  "_key": "!items!afbi6BlNDIcxWtAP"
+}

@@ -1,0 +1,168 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode"
+        }
+      },
+      "statuses": [],
+      "disabled": false,
+      "name": "Single-Shot",
+      "_id": "5eubh5sYEb6JuVcX",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513475,
+        "modifiedTime": 1786051513475,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!jKpj3gHOHVrUZJx2.5eubh5sYEb6JuVcX"
+    },
+    {
+      "flags": {
+        "swse": {}
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Stun",
+      "_id": "ZtaYuPtX43NieYaR",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "3d8",
+            "key": "damage",
+            "priority": null,
+            "type": "override",
+            "phase": "initial"
+          },
+          {
+            "value": "Stun",
+            "key": "damageType",
+            "priority": null,
+            "type": "override",
+            "phase": "initial"
+          }
+        ]
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513475,
+        "modifiedTime": 1786051513475,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!jKpj3gHOHVrUZJx2.ZtaYuPtX43NieYaR"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Rebellion_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Rebellion Era Campaign Guide\">Star Wars Saga Edition Rebellion Era Campaign Guide</a></i> </p><p>The Siang Lance is one of the few types of technological devices found on <span class=\"new\" title=\"Kilia IV (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvS2lsaWFfSVY/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Kilia IV</span>, although only a small number of functional Siang Lances remain. By law, only members of a noble house may use a Siang Lance. In practice, a Siang Lance is given to active members of <a href=\"https://swse.fandom.com/wiki/The_Kilian_Rangers\" title=\"The Kilian Rangers\">The Kilian Rangers</a> as a badge of office and to remind themselves and others of one half of their oaths: to defend justice, chivalry, and the people of <span class=\"new\" title=\"Kilia IV (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvS2lsaWFfSVY/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Kilia IV</span>. </p><p>A Siang Lance is an ancient model of a <a href=\"https://swse.fandom.com/wiki/Sporting_Blaster_Rifle\" title=\"Sporting Blaster Rifle\">Sporting Blaster Rifle</a> with an affixed <a href=\"https://swse.fandom.com/wiki/Bayonet\" title=\"Bayonet\">Bayonet</a>. It is typically wielded with one hand, leaving the other hand free to use the Kilian Ranger's <a href=\"https://swse.fandom.com/wiki/Shield_Gauntlet\" title=\"Shield Gauntlet\">Shield Gauntlet</a>. A Siang Lance can be used to make <a href=\"https://swse.fandom.com/wiki/Attacks_of_Opportunity\" title=\"Attacks of Opportunity\">Attacks of Opportunity</a>. When you would make an <a href=\"https://swse.fandom.com/wiki/Attack_of_Opportunity\" class=\"mw-redirect\" title=\"Attack of Opportunity\">Attack of Opportunity</a> against a target, you may choose either to fire the Siang Lance as a Ranged Weapon or to use the weapon's <a href=\"https://swse.fandom.com/wiki/Bayonet\" title=\"Bayonet\">Bayonet</a> as a Melee Weapon. </p><p>A Siang Lance requires a <a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a> to operate. After 100 shots, the <a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a> must be replaced. </p><p><b>Accurate:</b> This weapon takes no penalty when firing at targets at Short&nbsp;<a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a>. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Power Pack:100",
+        "key": "ammo"
+      }
+    ],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "2,000",
+    "weight": "4 Kilograms",
+    "availability": "Illegal, Rare",
+    "size": "Medium",
+    "type": "",
+    "subtype": "Exotic Ranged Weapons",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "3d8",
+    "damageType": "Energy"
+  },
+  "name": "Siang Lance",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Siang_Lance.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513475,
+    "modifiedTime": 1786051513571,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "jKpj3gHOHVrUZJx2",
+  "_key": "!items!jKpj3gHOHVrUZJx2"
+}

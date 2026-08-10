@@ -1,0 +1,89 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "When you would normally deal additional damage through the <b><a href=\"https://swse.fandom.com/wiki/Sneak_Attack\" class=\"mw-redirect\" title=\"Sneak Attack\">Sneak Attack</a></b> Talent, you may choose to forgo the additional d6 of damage to instead add +4 to the damage total. The ability may be used multiple times per attack. (For example, a character that has two instances of the <b><a href=\"https://swse.fandom.com/wiki/Sneak_Attack\" class=\"mw-redirect\" title=\"Sneak Attack\">Sneak Attack</a></b> may choose to deal +8 points of damage instead of rolling an additional 2d6.)",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "a member of The Blackguard",
+      "requirement": "The Blackguard",
+      "type": "TRADITION"
+    },
+    "categories": [
+      {
+        "value": "Untested"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Chellewalker Creations"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Force Talent Trees"
+      },
+      {
+        "value": "Force Tradition Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Untested",
+      "Chellewalker Creations",
+      "Homebrew Content",
+      "Force Talent Trees",
+      "Force Tradition Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Blackguard Wilder Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Blackguard_Wilder_Talent_Tree",
+    "bonusTalentTree": "Force Talent Trees",
+    "cost": "0"
+  },
+  "name": "Wilder Trinity Assassin",
+  "flags": {},
+  "type": "talent",
+  "folder": "PlQO7Xs6r78ijpgk",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385302740,
+    "modifiedTime": 1734385302740,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "txtKsdSWEujPAr9M",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!txtKsdSWEujPAr9M"
+}

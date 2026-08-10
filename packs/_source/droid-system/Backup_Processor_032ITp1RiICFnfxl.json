@@ -1,0 +1,39 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Processor Systems",
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "droidPart"
+      }
+    ],
+    "description": "<p><b>Requires:</b> <a href=\"https://swse.fandom.com/wiki/Remote_Processor\" title=\"Remote Processor\">Remote Processor</a></p><p>A Droid with a <a href=\"https://swse.fandom.com/wiki/Remote_Receiver\" title=\"Remote Receiver\">Remote Receiver</a> can also have a Backup Processor that allows the Droid to function even if it loses contact with its <a href=\"https://swse.fandom.com/wiki/Remote_Processor\" title=\"Remote Processor\">Remote Processor</a>. The Droid will continue executing its last received orders until contact is reestablished.</p>",
+    "cost": "100",
+    "requires": "Remote Processor"
+  },
+  "name": "Backup Processor",
+  "flags": {},
+  "type": "droid system",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764449015825,
+    "modifiedTime": 1764449015825,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "032ITp1RiICFnfxl",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!032ITp1RiICFnfxl"
+}

@@ -1,0 +1,67 @@
+{
+  "img": "systems/swse/icon/feat/Cybernetic Surgery.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: Star Wars Saga Edition Core Rulebook</i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You can perform the surgical procedures necessary to graft cybernetic components onto living flesh.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in <a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a></p><p><b>Effect:</b> You can install <a href=\"https://swse.fandom.com/wiki/Cybernetic_Devices\" title=\"Cybernetic Devices\">Cybernetic Devices</a> on living beings. The surgical procedure takes 1 hour of uninterrupted work, after which you must make a DC 20 <a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a> check. If the check succeeds, the <a href=\"https://swse.fandom.com/wiki/Cybernetic_Device\" class=\"mw-redirect\" title=\"Cybernetic Device\">Cybernetic Device</a> is installed correctly. If the check fails, the device is not properly installed; however, you can try again after another uninterrupted hour of surgery.</p><p><b>Special:</b> You can install a <a href=\"https://swse.fandom.com/wiki/Cybernetic_Prosthesis\" title=\"Cybernetic Prosthesis\">Cybernetic Prosthesis</a> or <a href=\"https://swse.fandom.com/wiki/Energy-Binding_Prosthesis\" title=\"Energy-Binding Prosthesis\">Energy-Binding Prosthesis</a> on yourself, but you take a -5 penalty on the <a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a> skill check (you cannot install a <a href=\"https://swse.fandom.com/wiki/Rhen-Orm_Biocomputer\" title=\"Rhen-Orm Biocomputer\">Rhen-Orm Biocomputer</a> or a <a href=\"https://swse.fandom.com/wiki/Subelectronic_Converter\" title=\"Subelectronic Converter\">Subelectronic Converter</a> on yourself). If you have the <a href=\"https://swse.fandom.com/wiki/Surgical_Expertise\" title=\"Surgical Expertise\">Surgical Expertise</a> Feat, you can install a <a href=\"https://swse.fandom.com/wiki/Cybernetic_Device\" class=\"mw-redirect\" title=\"Cybernetic Device\">Cybernetic Device</a> in 10 minutes instead of 1 hour.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Trained in Treat Injury",
+      "requirement": "Treat Injury",
+      "type": "TRAINED SKILL"
+    },
+    "categories": [
+      {
+        "value": "Technician Bonus Feats"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Noble Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Technician Bonus Feats",
+      "General Feats",
+      "Noble Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Core Rulebook",
+    "cost": "0"
+  },
+  "name": "Cybernetic Surgery",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479026411,
+    "modifiedTime": 1761479026411,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "iP2ESuGNq50q7GF7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!iP2ESuGNq50q7GF7"
+}

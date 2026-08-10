@@ -1,0 +1,58 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "This large specialized tank is filled with the powerful healing agent, Bacta, which promotes rapid healing.\n\nA Bacta Tank can be used in conjunction with Surgery. If the Treat Injury check is successful, the patient heals a number of hit points equal to it's Character Level, in addition to that provided by Surgery.\n\nA Bacta Tank can also be used when treating Disease, Poison, or Radiation in a creature. In this case, the Bacta Tank grants a +5 Equipment bonus on your Treat Injury check.\n\nA Bacta Tank and a supply of Bacta is expensive, so much medical equipment is usually found only in hospitals, aboard Capital Ships, and within major military bases. Each hour of treatment consumes one liter of Bacta, which costs 100 credits. A typical Bacta Tank holds up to 300 liters of Bacta, and the Bacta Tank must hold at least 150 liters at all times to provide any benefit. Only one creature can be immersed in the tank at any given time.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": 1,
+        "key": "bacta"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "100",
+    "weight": "2 kg",
+    "availability": "",
+    "size": "",
+    "type": "",
+    "subtype": "Medical Gear",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "equipment": {}
+  },
+  "name": "Bacta (liter)",
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1749263244232,
+    "modifiedTime": 1786054380487,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "4ThmdL5v5n8sbifv",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!4ThmdL5v5n8sbifv"
+}

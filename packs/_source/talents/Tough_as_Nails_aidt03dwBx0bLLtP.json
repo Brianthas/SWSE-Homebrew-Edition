@@ -1,0 +1,77 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You can catch a <a href=\"https://swse.fandom.com/wiki/Second_Wind\" class=\"mw-redirect\" title=\"Second Wind\">Second Wind</a> one extra time per day. If you have this Talent and the <a href=\"https://swse.fandom.com/wiki/Extra_Second_Wind\" title=\"Extra Second Wind\">Extra Second Wind</a> feat, you can catch your <a href=\"https://swse.fandom.com/wiki/Second_Wind\" class=\"mw-redirect\" title=\"Second Wind\">Second Wind</a> a total of three times per day.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "1",
+        "key": "bonusSecondWind"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": null,
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Elite Trooper Talent Trees"
+      },
+      {
+        "value": "Soldier Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Officer Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Elite Trooper Talent Trees",
+      "Soldier Talent Trees",
+      "Core Rulebook",
+      "Officer Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Commando Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Commando_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Core Rulebook",
+    "cost": "0"
+  },
+  "name": "Tough as Nails",
+  "flags": {},
+  "type": "talent",
+  "folder": "tRR8xp1BbHFljyD2",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385303558,
+    "modifiedTime": 1734385303558,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "aidt03dwBx0bLLtP",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!aidt03dwBx0bLLtP"
+}

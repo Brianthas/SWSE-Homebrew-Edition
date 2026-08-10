@@ -1,0 +1,71 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "4d8",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A Starship begins its turn within the gravity well of a Black Hole.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round at the start of the Starship's turn, as long as the Starship remains within the Black Hole's gravity well.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Mechanics (DC 36): The character works diligently to keep the ship from breaking apart, granting the vessel a +2 Equipment bonus to Fortitude Defense against the Black Hole. Pilot (DC 36): The character fights the severe pull of gravity and flies the Starship toward safety, moving 1 square away from the center of the Hazard. Use Computer (DC 31): The character detects the Black Hole on the Starship's sensors, granting a +2 circumstance bonus to the crew's Mechanics checks and Pilot checks when dealing with the Hazard.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: The event horizon for the Black Hole covers an area with a 10-square radius (Starship Scale) centered on the Black Hole's central square. Within the event horizon, missiles and torpedoes are ineffective, and attacks with laser weapons take a -20 penalty.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>The gravity well of this collapsed star is so strong that not even light can escape.</i> </p><p>Black Holes are among the most dangerous cosmic objects known to exist; even the <a href=\"https://swse.fandom.com/wiki/Star_Destroyers\" title=\"Star Destroyers\">Star Destroyers</a> of the Empire steer clear of them. What could bring a group of heroes to such a place? Perhaps they must attempt to rescue the crew of a research station being held hostage by pirates, or raid a secret military installation positioned in a barely stable orbit. Combat just on the edge of the event horizon might be possible, but any ship that falls into the gravity well of the Black Hole must escape or fall victim to the Hazard's crushing power. </p><h2><span id=\"Black_Hole_Statistics_.28CL_20.29\"></span><span class=\"mw-headline\" id=\"Black_Hole_Statistics_(CL_20)\">Black Hole Statistics (CL 20)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Natural </p><p><b>Trigger:</b> A Starship begins its turn within the gravity well of a Black Hole. </p><p><b>Attack:</b> +22 vs <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> </p><p><b>Recurrence:</b> Each round at the start of the Starship's turn, as long as the Starship remains within the Black Hole's gravity well. </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> (DC 36):</b> The character works diligently to keep the ship from breaking apart, granting the vessel a +2 <a href=\"https://swse.fandom.com/wiki/Equipment\" title=\"Equipment\">Equipment</a> bonus to <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> against the Black Hole.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> (DC 36):</b> The character fights the severe pull of gravity and flies the Starship toward safety, moving 1 square away from the center of the Hazard.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> (DC 31):</b> The character detects the Black Hole on the Starship's sensors, granting a +2 circumstance bonus to the crew's <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> checks and <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> checks when dealing with the Hazard.</li>\n</ul><p><b>Special:</b> The event horizon for the Black Hole covers an area with a 10-square radius (<a href=\"https://swse.fandom.com/wiki/Starship_Scale\" class=\"mw-redirect\" title=\"Starship Scale\">Starship Scale</a>) centered on the Black Hole's central square. Within the event horizon, missiles and torpedoes are ineffective, and attacks with laser weapons take a -20 penalty. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Black Hole",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244346,
+    "modifiedTime": 1749263244346,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "3hqrgZh8PSKf5MMA",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!3hqrgZh8PSKf5MMA"
+}

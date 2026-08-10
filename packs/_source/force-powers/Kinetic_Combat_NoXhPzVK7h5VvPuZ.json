@@ -1,0 +1,67 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Homebrew (tovec.wikidot.com/episode-vii):</i> Replaces the RAW telekinetic-weapon effect. While wielding a Lightsaber, you may use the higher of your Wisdom or Charisma modifier in place of Strength/Dexterity for both attack and damage rolls, selected as a per-attack toggle.</p><p>Reference Book: Star Wars Saga Edition Knights of the Old Republic Campaign Guide</p><p>See also: Force Powers</p><p>You use The Force to manipulate your chosen Weapon, allowing it to operate independent of your grasp. [Telekinetic]</p><p><b>Time:</b> Standard Action</p><p><b>Targets:</b> One one-handed Melee Weapon you currently have drawn.</p><p>Make a Use the Force check. If you succeed on a DC 20 check, you can telekinetically move a one-handed melee weapon you hold up to 12 squares away, and make an attack with it. The weapon is considered to be held by you, even if it is hovering nearby and not in your hands.</p><p>The attack uses your Base Attack Bonus modified by your Charisma modifier as the attack bonus for the attack roll. A successful attack deals normal melee damage, adding one-half your Heroic Level to damage as normal, but substituting your Charisma modifier in place of your Strength modifier as the bonus toward damage.</p><p>Talents and Feats that would normally enhance a weapon's use do not do so while you are using Kinetic Combat to wield the weapon (for example, you cannot use Mighty Swing or Power Attack while wielding the weapon).</p><p>The weapon Threatens all squares adjacent to it, and it can be used to make an Attack of Opportunity if a target provokes one from the weapon. Any Attacks of Opportunity made by the weapon count as though they were made by you.</p><p><b>Special:</b> You can spend a Force Point to gain a +1 bonus on attack rolls with a weapon wielded using Kinetic Combat.</p><p>You can maintain Kinetic Combat from round to round, extending the normal duration. Maintaining the Kinetic Combat Force Power is a Swift Action, and as a Standard Action each round you can direct the weapon to move up to 6 squares, and make a single attack against a target adjacent to the weapon, though the weapon must remain within 12 squares of you or the Force Power's effect ends.</p><p>If you take damage while maintaining Kinetic Combat, you must succeed on a Use the Force check (DC = 15 + damage taken) to continue maintaining the Kinetic Combat.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "lightsaberKineticCombat"
+      },
+      {
+        "mode": 2,
+        "value": "Telekinetic",
+        "key": "tag"
+      },
+      {
+        "mode": 2,
+        "value": "Make a Use the Force check. If you succeed on a DC 20 check, you can telekinetically move a one-handed melee weapon you hold up to 12 squares away, and make an attack with it, using your Base Attack Bonus modified by your Charisma modifier as the attack bonus, and your Charisma modifier in place of Strength as the bonus to damage.",
+        "key": "shortDescription"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Force Powers"
+      },
+      {
+        "value": "Telekinetic Force Powers"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Kinetic Combat",
+  "flags": {},
+  "type": "forcePower",
+  "img": "systems/swse/icon/force-power/Kinetic_Combat.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1738608590418,
+    "modifiedTime": 1786056126871,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "NoXhPzVK7h5VvPuZ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!NoXhPzVK7h5VvPuZ"
+}

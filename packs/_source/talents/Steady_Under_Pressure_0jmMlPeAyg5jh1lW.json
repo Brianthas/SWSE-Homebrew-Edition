@@ -1,0 +1,69 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You can choose to reroll any <a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a> check, keeping the better of the two results.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:You can choose to reroll any<a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a>check, keeping the better of the two results.",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": null,
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Shaper Talent Trees"
+      },
+      {
+        "value": "Medic Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Shaper Talent Trees",
+      "Medic Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Advanced Medicine Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Advanced_Medicine_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Force Unleashed Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Steady Under Pressure",
+  "flags": {},
+  "type": "talent",
+  "folder": "v70bZwBQgAIzuVnd",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385301828,
+    "modifiedTime": 1734385301828,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "0jmMlPeAyg5jh1lW",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!0jmMlPeAyg5jh1lW"
+}

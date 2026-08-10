@@ -1,0 +1,42 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Appendages",
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "droidPart"
+      }
+    ],
+    "description": "<p>Few <a href=\"https://swse.fandom.com/wiki/Droids\" title=\"Droids\">Droids</a> have no actual manipulators. The bare minimum is a Probe that can push or pull objects.</p>",
+    "cost": "2 x Cost Factor",
+    "weight": "(0.5 x Cost Factor) Kilograms",
+    "appendages": "1",
+    "appendageType": "Probe",
+    "droidUnarmedDamageScalable": "1"
+  },
+  "name": "Probe",
+  "flags": {},
+  "type": "droid system",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764449015875,
+    "modifiedTime": 1764449015875,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "1pB4xft4YcsqbVyL",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!1pB4xft4YcsqbVyL"
+}

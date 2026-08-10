@@ -1,0 +1,81 @@
+{
+  "img": "systems/swse/icon/feat/Improved_Sleight_of_Hand.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You manipulate small objects quickly, and they seemingly disappear with a flick of your wrist. You excel at hiding objects when observed, even at close range.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> 15, <a href=\"https://swse.fandom.com/wiki/Skill_Focus_(Deception)\" class=\"mw-redirect\" title=\"Skill Focus (Deception)\">Skill Focus (Deception)</a>, <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in <a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a></p><p><b>Effect:</b> When using the <a href=\"https://swse.fandom.com/wiki/Sleight_of_Hand\" class=\"mw-redirect\" title=\"Sleight of Hand\">Sleight of Hand</a> application of the <a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a> Skill, you can use your <a href=\"https://swse.fandom.com/wiki/Deception\" title=\"Deception\">Deception</a> Skill to improve your chances of success. Prior to making the <a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a> check, you can make a <a href=\"https://swse.fandom.com/wiki/Deception\" title=\"Deception\">Deception</a> check as a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>. The opposed <a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> check of anyone attempting to notice your action must exceed both your <a href=\"https://swse.fandom.com/wiki/Deception\" title=\"Deception\">Deception</a> check and your <a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a> check.</p><p>Additionally, you can, as a single Action, use Improved Sleight of Hand to simultaneously draw and palm a weapon two sizes smaller than you. Make a <a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a> check as a <a href=\"https://swse.fandom.com/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a> when drawing your weapon to successfully conceal it in a position in your hand (Or similar appendage), where you can use it on a following Action. Once the weapon is used, you can attempt to palm it again as a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Dexterity 15",
+          "requirement": "Dexterity 15",
+          "type": "ATTRIBUTE"
+        },
+        {
+          "text": "Skill Focus (Deception)",
+          "requirement": "Skill Focus (Deception)",
+          "type": "FEAT"
+        },
+        {
+          "text": "Trained in Stealth",
+          "requirement": "Stealth",
+          "type": "TRAINED SKILL"
+        }
+      ],
+      "text": "Dexterity 15, Skill Focus (Deception), and Trained in Stealth",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Force Prodigy Bonus Feats"
+      },
+      {
+        "value": "Scoundrel Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Force Prodigy Bonus Feats",
+      "Scoundrel Bonus Feats",
+      "General Feats",
+      "Smuggler Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Improved Sleight of Hand",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1761479027481,
+    "modifiedTime": 1786036141513,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "2F7vnOhSplWmGOpH",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!2F7vnOhSplWmGOpH"
+}

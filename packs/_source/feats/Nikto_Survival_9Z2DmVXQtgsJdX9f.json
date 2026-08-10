@@ -1,0 +1,62 @@
+{
+  "img": "systems/swse/icon/feat/Nikto_Survival.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You gain an additional boost to your <a href=\"https://swse.fandom.com/wiki/Survival\" title=\"Survival\">Survival</a> checks, based on your <a href=\"https://swse.fandom.com/wiki/Nikto\" title=\"Nikto\">Nikto</a> subspecies.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Nikto\" title=\"Nikto\">Nikto</a></p><p><b>Effect:</b> Select a <a href=\"https://swse.fandom.com/wiki/Nikto\" title=\"Nikto\">Nikto</a> subspecies: Kajain'sa'Nikto (Desert), Kadas'sa'Nikto (Forest), Esral'sa'Nikto (Mountains), Gluss'sa'Nikto (Ocean), M'shento'su,Nikto (Arctic). In addition to the usual <a href=\"https://swse.fandom.com/wiki/Nikto\" title=\"Nikto\">Nikto</a> Species Traits, when operating in an environment advantageous to your native subspecies, you can reroll any <a href=\"https://swse.fandom.com/wiki/Survival\" title=\"Survival\">Survival</a> check, taking the better result.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:Reference Book: Star Wars Saga Edition Unknown Regions See also: Feats You gain an additional boost to your Survival checks, based on your Nikto subspecies. Prerequisite: Nikto Effect: Select a Nikto subspecies: Kajain'sa'Nikto (Desert), Kadas'sa'Nikto (Forest), Esral'sa'Nikto (Mountains), Gluss'sa'Nikto (Ocean), M'shento'su,Nikto (Arctic). In addition to the usual Nikto Species Traits, when operating in an environment advantageous to your native subspecies, you can reroll any Survival check, taking the better result.",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Nikto species",
+      "requirement": "Nikto",
+      "type": "SPECIES"
+    },
+    "categories": [
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Nikto Survival",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479028138,
+    "modifiedTime": 1761479028138,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "9Z2DmVXQtgsJdX9f",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!9Z2DmVXQtgsJdX9f"
+}

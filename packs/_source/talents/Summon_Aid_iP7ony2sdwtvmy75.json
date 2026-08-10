@@ -1,0 +1,63 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Once per round, as a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a>, when an enemy moves adjacent to you, you can enable one ally within your line of sight to immediately make a <a href=\"https://swse.fandom.com/wiki/Charge\" title=\"Charge\">Charge</a> attack against the triggering enemy. The ally you choose must be able to <a href=\"https://swse.fandom.com/wiki/Charge\" title=\"Charge\">Charge</a> the enemy from his or her current square under normal <a href=\"https://swse.fandom.com/wiki/Charge\" title=\"Charge\">Charge</a> rules.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Get Down talent",
+      "requirement": "Get Down",
+      "type": "TALENT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Noble Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Noble Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Anticipation Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Anticipation_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Galaxy at War",
+    "cost": "0"
+  },
+  "name": "Summon Aid",
+  "flags": {},
+  "type": "talent",
+  "folder": "RtvW04U1SSC7ysXR",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385302187,
+    "modifiedTime": 1734385302187,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "iP7ony2sdwtvmy75",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!iP7ony2sdwtvmy75"
+}

@@ -1,0 +1,63 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You have an extraordinarily strong connection to <a href=\"https://swse.fandom.com/wiki/The_Living_Force\" class=\"mw-redirect\" title=\"The Living Force\">The Living Force</a>. Whenever you roll a Natural 20 on a <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check, you gain one temporary <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a>. If the <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> is not used by the end of the encounter, it is lost. You cannot take this Talent if you already possess the <b>Force Flow</b> Talent, and vice versa.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Strong in the Force feat",
+      "requirement": "Strong in the Force",
+      "type": "FEAT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Force Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Force Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Alter Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Alter_Talent_Tree",
+    "bonusTalentTree": "Force Talent Trees",
+    "source": "Legacy of the Force Sourcebook",
+    "cost": "0"
+  },
+  "name": "Force Prodigy",
+  "flags": {},
+  "type": "talent",
+  "folder": "5lvvY96FVcYHpl0q",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385302062,
+    "modifiedTime": 1734385302062,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "zbywe1qGp2k3XvgM",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!zbywe1qGp2k3XvgM"
+}

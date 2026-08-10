@@ -1,0 +1,55 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "When in water or underwater, as a Swift Action, the Beast produces an inky substance, which expands out from the creature in all directions at a rate of 1 square per round, up to a 3-square radius. The cloud grants Concealment to characters within or behind it.\nAdditionally, the Beast makes an attack roll (1d20+5) against the Fortitude Defense of water-breathing creatures within the cloud. If the attack succeeds, the target takes 1d6 points of damage and moves -1 step on the Condition Track. If the attack fails, the target takes half damage and does not move on the Condition Track.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "When in water or underwater, as a Swift Action, the Beast produces an inky substance, which expands out from the creature in all directions at a rate of 1 square per round, up to a 3-square radius. The cloud grants Concealment to characters within or behind it.\nAdditionally, the Beast makes an attack roll (1d20+5) against the Fortitude Defense of water-breathing creatures within the cloud. If the attack succeeds, the target takes 1d6 points of damage and moves -1 step on the Condition Track. If the attack fails, the target takes half damage and does not move on the Condition Track.",
+        "key": "special"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "prerequisite": {
+      "text": "Aquatic Species Type",
+      "requirement": "Aquatic",
+      "type": "SPECIES_TYPE"
+    },
+    "cost": "0"
+  },
+  "name": "Ink Cloud",
+  "flags": {},
+  "type": "beastQuality",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749299111341,
+    "modifiedTime": 1749299111341,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "L22jrxGcR9OlHZ2Y",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!L22jrxGcR9OlHZ2Y"
+}

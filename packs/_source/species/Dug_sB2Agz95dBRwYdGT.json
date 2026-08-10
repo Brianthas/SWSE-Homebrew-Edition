@@ -1,0 +1,124 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Clone_Wars_Campaign_Guide\" title=\"Star Wars Saga Edition Clone Wars Campaign Guide\">Star Wars Saga Edition Clone Wars Campaign Guide</a></i> </p><p>Dugs are an arboreal Species from the Republic world of <a href=\"https://swse.fandom.com/wiki/Malastare\" title=\"Malastare\">Malastare</a>. They are strong and agile for their size, and climb and jump exceptionally well. Dugs unwillingly share their homeworld with the <a href=\"https://swse.fandom.com/wiki/Gran\" title=\"Gran\">Gran</a>, who establish trade colonies on <a href=\"https://swse.fandom.com/wiki/Malastare\" title=\"Malastare\">Malastare</a> in 8,000 BBY. The Dugs fight a long, intense war against the <a href=\"https://swse.fandom.com/wiki/Gran\" title=\"Gran\">Gran</a>. Eventually the Republic interferes and sides with the <a href=\"https://swse.fandom.com/wiki/Gran\" title=\"Gran\">Gran</a>, negotiating a truce that essentially demilitarizes the Dugs. </p><p>In response to their marginalization, the Dugs develop a culture based, in large part, on self-pity. They are self-congratulatory to a fault, and every Dug claims at least one celebrated hero or martyr in their family tree. Beads, worn on their ear fins, represent these purported patriots and their stories of heroism. To question the legitimacy of a Dug's collection of martyr beads is a grave insult that can be retracted only by the death of the offending party. </p><h3><span class=\"mw-headline\" id=\"Dug_Characteristics\">Dug Characteristics</span></h3><p><b>Personality:</b> The Dugs' reputation for violence and bullying is well-deserved. As a <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>, they are adversarial, preferring to solve problems through intimidation and hostile acts. They consider themselves to be beleaguered warriors, underdogs who must fight against the rest of the universe for what is rightfully theirs. Despite their best efforts, the Dugs are continually mired in defeat. They tend to be xenophobic, and this fear of outsiders often manifests as blatant bigotry. </p><p><b>Physical Description:</b> Dugs are vaguely humanoid, in that they possess a torso, two legs, and two arms. The positions of their limbs are reversed, however, so that they use their upper limbs for walking and their lower limbs to manipulate objects. They have brown skin, floppy ear flaps, and large mouths filled with broad, flat teeth. Male Dugs possess a flap of skin on their throats that can be inflated and used to produce mating calls during the appropriate season. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Dugs age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-9 Years </td> \n   <td>10-14 Years </td> \n   <td>15-44 Years </td> \n   <td>45-59 Years </td> \n   <td>60-74 Years </td> \n   <td>75+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> <a href=\"https://swse.fandom.com/wiki/The_Mid_Rim\" title=\"The Mid Rim\">The Mid Rim</a> planet of <a href=\"https://swse.fandom.com/wiki/Malastare\" title=\"Malastare\">Malastare</a>. </p><p><b>Languages:</b> Few Dugs bother to learn Basic, and those who can speak it only with minor difficulty. They rarely do so, however, hoping instead to force others to acknowledge Dug society by making them learn their native language. </p><p><b>Example Names:</b> Drodwa, Flugello, Flugo, Gorlok, Langro Dis, Luvagwa, Pugwis, Rewulga, Sebulba, Sloor. </p><p><b>Adventurers:</b> Dugs are drawn to occupations that involve skullduggery and violence, and they make exceptional <a href=\"https://swse.fandom.com/wiki/Scoundrels\" class=\"mw-redirect\" title=\"Scoundrels\">Scoundrels</a>, <a href=\"https://swse.fandom.com/wiki/Scouts\" class=\"mw-redirect\" title=\"Scouts\">Scouts</a>, and <a href=\"https://swse.fandom.com/wiki/Soldiers\" class=\"mw-redirect\" title=\"Soldiers\">Soldiers</a>. Dug <a href=\"https://swse.fandom.com/wiki/Nobles\" class=\"mw-redirect\" title=\"Nobles\">Nobles</a> are rare, and the typical Dug does not possess the mental acuity or patience required to become a <a href=\"https://swse.fandom.com/wiki/Jedi\" title=\"Jedi\">Jedi</a>. </p><h3><span class=\"mw-headline\" id=\"Dug_Species_Traits\">Dug Species Traits</span></h3><p>Dugs share the following Species Traits: </p><h2><span class=\"mw-headline\" id=\"Alternate_Dug_Species_Traits\">Alternate Dug Species Traits</span></h2><p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Web_Enhancements\" title=\"Star Wars Saga Edition Web Enhancements\">Star Wars Saga Edition Web Enhancements</a> (<a href=\"https://swse.fandom.com/wiki/Star_Wars_Miniatures_Previews#Legacy_of_the_Force_by_Gary_M._Sarli_and_Sterling_Hershey\" title=\"Star Wars Miniatures Previews\">Legacy of the Force Miniatures Preview</a>)</i> </p><p>The following Species Traits can be utilized instead when making certain Bith NPCs: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Small",
+        "type": "trait"
+      },
+      {
+        "name": "Athletic",
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "74",
+          "low": "60",
+          "text": "60-74",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "14",
+          "low": "10",
+          "text": "10-14",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "44",
+          "low": "15",
+          "text": "15-44",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "75",
+          "text": "75+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "9",
+          "low": "1",
+          "text": "1-9",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "59",
+          "low": "45",
+          "text": "45-59",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Small"
+      },
+      {
+        "value": "Athletic"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Dugs"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Dug",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535565943,
+    "modifiedTime": 1736535565943,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "sB2Agz95dBRwYdGT",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!sB2Agz95dBRwYdGT"
+}

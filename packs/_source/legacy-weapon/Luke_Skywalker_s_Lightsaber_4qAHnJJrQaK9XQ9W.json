@@ -1,0 +1,95 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<table style=\"width:100%; margin-top:1em; border:1px solid #999; font-size:90%; text-align:center; background:#363636\"> \n <tbody>\n  <tr> \n   <td><i>This article details the <a href=\"https://swse.fandom.com/wiki/Legacy_Era_Campaign_Guide\" class=\"mw-redirect\" title=\"Legacy Era Campaign Guide\">Legacy Era Campaign Guide</a> Heirloom Item Luke Skywalker's Lightsaber. For other uses, see <a href=\"https://swse.fandom.com/wiki/Luke_Skywalker_(Disambiguation)\" title=\"Luke Skywalker (Disambiguation)\">Luke Skywalker (Disambiguation)</a>.</i> </td>\n  </tr>\n </tbody>\n</table><p><br> <i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Legacy_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Legacy Era Campaign Guide\">Star Wars Saga Edition Legacy Era Campaign Guide</a></i> </p><p><b>Base Item:</b>&nbsp;<a href=\"https://swse.fandom.com/wiki/Lightsaber_(Weapon)\" title=\"Lightsaber (Weapon)\">Lightsaber</a> </p><p><b>Heirloom Bonus:</b>&nbsp;<a href=\"https://swse.fandom.com/wiki/Legendary_Icon\" title=\"Legendary Icon\">Legendary Icon</a> </p><p>Once the Lightsaber of Anakin Skywalker before his transformation into Darth Vader, this blue-bladed <a href=\"https://swse.fandom.com/wiki/Lightsaber_(Weapon)\" title=\"Lightsaber (Weapon)\">Lightsaber</a> was given to Luke Skywalker by Obi-Wan Kenobi on <a href=\"https://swse.fandom.com/wiki/Tatooine\" title=\"Tatooine\">Tatooine</a> and served as Luke's primary Weapon until the fateful duel on Cloud City. Years later, the <a href=\"https://swse.fandom.com/wiki/Lightsaber_(Weapon)\" title=\"Lightsaber (Weapon)\">Lightsaber</a> reappeared in the hands of Luke's clone, and was then handed down through the Skywalker family via Mara Jade Skywalker and their son, Ben Skywalker. </p><p>The heroes might come into the possession of this iconic <a href=\"https://swse.fandom.com/wiki/Lightsaber_(Weapon)\" title=\"Lightsaber (Weapon)\">Lightsaber</a> simply by being a member of the Skywalker lineage, or perhaps the weapon is recovered from the remnants of the <span class=\"new\" title=\"Ossus Academy (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvT3NzdXNfQWNhZGVteT9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Ossus Academy</span> following the Sith-Imperial War. </p><p><b><a href=\"https://swse.fandom.com/wiki/Legendary_Icon\" title=\"Legendary Icon\">Legendary Icon</a>:</b>&nbsp;When carrying this item in plain sight, you gain favorable circumstances on all&nbsp;<a href=\"https://swse.fandom.com/wiki/Charisma\" title=\"Charisma\">Charisma</a>-based&nbsp;<a href=\"https://swse.fandom.com/wiki/Skill_Checks\" title=\"Skill Checks\">Skill Checks</a>&nbsp;(except&nbsp;<a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a>&nbsp;checks). </p><p><b>Special:</b>&nbsp;Can be&nbsp;<a href=\"https://swse.fandom.com/wiki/Thrown\" class=\"mw-redirect\" title=\"Thrown\">Thrown</a> </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Lightsaber",
+        "key": "baseItem"
+      },
+      {
+        "mode": 2,
+        "value": "Legendary Icon",
+        "key": "heirloomBonus"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isThrowable"
+      }
+    ],
+    "choices": [
+      {
+        "noOptions": "NO_AVAILABLE_OPTIONS",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {
+              "payload": "AVAILABLE_LIGHTSABER_CRYSTALS"
+            },
+            "display": "AVAILABLE_LIGHTSABER_CRYSTALS",
+            "name": "AVAILABLE_LIGHTSABER_CRYSTALS",
+            "attributes": {}
+          }
+        ],
+        "description": "Lightsaber Crystal",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": false
+      }
+    ],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "0",
+    "weight": "1 Kilogram",
+    "availability": "",
+    "size": "Medium",
+    "type": "",
+    "subtype": "Lightsabers",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "2d8",
+    "damageType": "Energy, Slashing",
+    "specialQualities": "Legendary Icon: When carrying this item in plain sight, you gain favorable circumstances on all Charisma-based Skill Checks (except Use the Force checks)."
+  },
+  "name": "Luke Skywalker's Lightsaber",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Luke_Skywalkers_Lightsaber.png",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513533,
+    "modifiedTime": 1786051513589,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "4qAHnJJrQaK9XQ9W",
+  "_key": "!items!4qAHnJJrQaK9XQ9W"
+}

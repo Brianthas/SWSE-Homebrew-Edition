@@ -1,0 +1,67 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Defense Systems",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal (Frigate)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal (Cruiser)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal (Station)",
+          "type": "TRAIT"
+        }
+      ],
+      "count": 1,
+      "text": "Colossal or Larger",
+      "type": "OR"
+    },
+    "changes": [
+      {
+        "mode": 2,
+        "value": "standard",
+        "key": "ramming"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a> </i></p><table class=\"wikitable\">\n <tbody>\n  <tr>\n   <th>REINFORCED KEEL</th>\n   <th>EMPLACEMENT POINTS</th>\n   <th>AVAILABILITY</th>\n   <th>SIZE RESTRICTION</th>\n   <th>COST</th>\n  </tr>\n  <tr>\n   <td>Standard</td>\n   <td>2</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Military\" class=\"mw-redirect\" title=\"Military\">Military</a></td>\n   <td>Gargantuan or larger</td>\n   <td>4000 (Base)</td>\n  </tr>\n  <tr>\n   <td>Boarding</td>\n   <td>4</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Military\" class=\"mw-redirect\" title=\"Military\">Military</a></td>\n   <td>Gargantuan or larger</td>\n   <td>10000 (Base)</td>\n  </tr>\n </tbody>\n</table><p>A Starship's Keel can be reinforced to allow it to survive greater physical shocks. Although this has no impact on its DR or HP, it does cause the ship to take only half damage from <a href=\"https://swse.fandom.com/wiki/Collisions\" title=\"Collisions\">Collisions</a>. If a ship with a Reinforced Keel <a href=\"https://swse.fandom.com/wiki/Rams\" class=\"mw-redirect\" title=\"Rams\">Rams</a> another ship, it deals +2 damage per die of ramming damage (and still only takes half damage itself).</p><p>Rarely, pirate ships with Reinforced Keels are also built with a series of docking grapples around the nose of the ship, which is fitted with a large airlock. These Boarding Keels can be used to <a href=\"https://swse.fandom.com/wiki/Ram\" title=\"Ram\">Ram</a>&nbsp;an enemy ship and immediately dock with it. If a ship with a Boarding Keel successfully rams another ship and deals enough damage to move it one step down its <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>, the two ships are stuck together (as if they had used <a href=\"https://swse.fandom.com/wiki/Tractor_Beams\" class=\"mw-redirect\" title=\"Tractor Beams\">Tractor Beams</a> to drag themselves into the same square). The airlock at the nose of the ramming ship then opens and allows boarders to invade the target ship.</p>",
+    "cost": "4000 (Base)",
+    "emplacementPoints": "2",
+    "availability": "Military"
+  },
+  "name": "Reinforced Keel",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848316969,
+    "modifiedTime": 1759848316969,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "YdfWY3epRj35JUrO",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!YdfWY3epRj35JUrO"
+}

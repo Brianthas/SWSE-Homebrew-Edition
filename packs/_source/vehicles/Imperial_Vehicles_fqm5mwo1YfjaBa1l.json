@@ -1,0 +1,382 @@
+{
+  "effects": [],
+  "system": {
+    "health": {
+      "value": 10,
+      "min": 0,
+      "max": 10,
+      "condition": 0,
+      "bonusHP": null,
+      "override": null
+    },
+    "shields": {
+      "value": 0,
+      "min": 0,
+      "max": null,
+      "shieldDamage": 0
+    },
+    "description": "",
+    "credits": 0,
+    "classes": [],
+    "traits": [],
+    "age": 0,
+    "gender": "",
+    "genderDisplay": "",
+    "player": "",
+    "crewQuality": {},
+    "crew": [],
+    "attributes": {
+      "str": {
+        "total": 0,
+        "mod": 0,
+        "bonus": 0,
+        "base": 0
+      },
+      "dex": {
+        "total": 0,
+        "mod": 0,
+        "bonus": 0,
+        "base": 0
+      },
+      "int": {
+        "total": 0,
+        "mod": 0,
+        "bonus": 0,
+        "base": 0
+      }
+    },
+    "equippedIds": [],
+    "skills": {
+      "pilot (pilot)": {
+        "value": 0,
+        "attribute": "dex",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Pilot",
+        "sizeMod": true
+      },
+      "initiative (pilot)": {
+        "value": 0,
+        "attribute": "dex",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Initiative",
+        "sizeMod": true
+      },
+      "deception (pilot)": {
+        "value": 0,
+        "attribute": "dex",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Starship_Deception",
+        "sizeMod": true
+      },
+      "stealth (pilot)": {
+        "value": 0,
+        "attribute": "dex",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Stealth#Starship_Stealth",
+        "sizeMod": true
+      },
+      "pilot (copilot)": {
+        "value": 0,
+        "attribute": "dex",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Pilot"
+      },
+      "use computer (commander)": {
+        "value": 0,
+        "attribute": "int",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Use_Computer"
+      },
+      "knowledge (tactics) (commander)": {
+        "value": 0,
+        "attribute": "int",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Knowledge"
+      },
+      "use computer (system operator)": {
+        "value": 0,
+        "attribute": "int",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Use_Computer"
+      },
+      "mechanics (system operator)": {
+        "value": 0,
+        "attribute": "int",
+        "uut": false,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Mechanics"
+      },
+      "mechanics (engineer)": {
+        "value": 0,
+        "attribute": "int",
+        "uut": false,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Mechanics"
+      }
+    },
+    "biography": "",
+    "abilities": {
+      "str": {
+        "value": 10,
+        "manual": null,
+        "base": 10,
+        "customBonus": 0
+      },
+      "dex": {
+        "value": 10,
+        "manual": null,
+        "base": 10,
+        "customBonus": 0
+      },
+      "con": {
+        "value": 10,
+        "manual": null,
+        "base": 10,
+        "customBonus": 0
+      },
+      "int": {
+        "value": 10,
+        "manual": null,
+        "base": 10,
+        "customBonus": 0
+      },
+      "wis": {
+        "value": 10,
+        "manual": null,
+        "base": 10,
+        "customBonus": 0
+      },
+      "cha": {
+        "value": 10,
+        "manual": null,
+        "base": 10,
+        "customBonus": 0
+      }
+    },
+    "changes": [],
+    "cl": {
+      "value": 0
+    },
+    "vehicle": {
+      "speed": {},
+      "crewQuality": "Normal",
+      "cargo": {},
+      "crew": 0
+    },
+    "darkside": {
+      "value": 0
+    },
+    "toggles": {},
+    "overrides": {},
+    "actorLinks": [],
+    "settings": {
+      "isNPC": false,
+      "autoSizeToken": false,
+      "allowSheetLighting": false,
+      "ignorePrerequisites": false,
+      "ignorePrerequisitesOnDrop": false,
+      "attributeGeneration": "Default"
+    },
+    "defense": {
+      "ref": {
+        "value": 10
+      },
+      "fort": {
+        "value": 10
+      },
+      "will": {
+        "value": 10
+      },
+      "reff": {
+        "value": 10
+      },
+      "special": "",
+      "dr": 0
+    },
+    "details": {
+      "biography": "",
+      "description": "",
+      "gender": "",
+      "sex": "",
+      "age": 0,
+      "experience": 0,
+      "cl": "",
+      "height": "",
+      "weight": "",
+      "species": "Human",
+      "classes": "",
+      "senses": "",
+      "lang": "",
+      "specialHp": "",
+      "immunities": "",
+      "weaknesses": "",
+      "fightSpace": "",
+      "atkOptions": "",
+      "specialActions": "",
+      "forceP": "",
+      "forceS": "",
+      "forceT": "",
+      "specialQualities": "",
+      "talents": "",
+      "feats": "",
+      "skills": "",
+      "systems": "",
+      "possesses": "",
+      "notes": ""
+    },
+    "xp": "",
+    "baseAttack": 0,
+    "grapple": 0,
+    "forcePoints": 0,
+    "destinyPoints": 0,
+    "darkSide": {
+      "value": 0
+    },
+    "level": {
+      "value": 0
+    },
+    "speed": {
+      "base": 6,
+      "swim": 1.5,
+      "climb": 1.5,
+      "fly": null,
+      "special": ""
+    },
+    "size": "Medium",
+    "reach": 1
+  },
+  "name": "Imperial Vehicles",
+  "flags": {},
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "Imperial Vehicles",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "shields"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "depth": 1
+  },
+  "items": [],
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.2",
+    "createdTime": 1785035905515,
+    "modifiedTime": 1785035905515,
+    "lastModifiedBy": "lyU5Zj9fsO0d8kF6"
+  },
+  "ownership": {
+    "default": 0,
+    "lyU5Zj9fsO0d8kF6": 3
+  },
+  "_id": "fqm5mwo1YfjaBa1l",
+  "sort": 0,
+  "_key": "!actors!fqm5mwo1YfjaBa1l"
+}

@@ -1,0 +1,119 @@
+// The Force tab: Force Powers list matches the "Used? / Force Power" spreadsheet layout —
+// no separate link column since the name itself opens the power (reuses .classes-header's
+// header-bar + corner-icon treatment from _classes.scss).
+
+.force-power-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: $space-2xs;
+}
+
+.force-power-row {
+  display: flex;
+  align-items: center;
+  gap: $space-sm;
+  min-height: 26px;
+  padding: 0 $space-xs;
+  border-radius: $radius-sm;
+  background: var(--swse-surface-raised);
+
+  .item-delete {
+    margin-left: auto;
+    opacity: 0.6;
+
+    &:hover {
+      opacity: 1;
+      color: var(--swse-accent-combat);
+    }
+  }
+}
+
+.force-power-row-header {
+  background: transparent;
+  margin-top: $space-xs;
+
+  .force-power-used, .force-power-name {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--swse-text-muted);
+  }
+}
+
+// Expand-in-place toggle, matching the Attacks panel's .attack-toggle — a discoverable +/-
+// affordance instead of relying on clicking the name (which just opens the item sheet here).
+.force-power-toggle {
+  width: 14px;
+  flex: 0 0 14px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.force-power-detail {
+  flex-direction: column;
+  margin: $space-2xs 0 $space-2xs 22px;
+  padding: $space-xs;
+  font-size: 12px;
+  color: var(--swse-text-muted);
+  background: var(--swse-surface-raised);
+  border-left: 2px solid var(--swse-border);
+  border-radius: $radius-sm;
+}
+
+.force-power-used {
+  width: 20px;
+  flex: 0 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  input[type=checkbox] {
+    margin: 0;
+  }
+}
+
+.force-power-name {
+  flex: 1 1 auto;
+  min-width: 0;
+  color: var(--swse-text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+
+  &:hover {
+    color: var(--swse-accent);
+  }
+}
+
+// The shared .skills-counter default (font-weight 400, opacity 0.7) reads as too faint here —
+// Bryan called it out as hard to read. Scoped to this one span so Classes/Equipment/Skills'
+// counters (same shared class) are untouched.
+.force-powers-known {
+  font-weight: 700;
+  opacity: 1;
+  color: var(--swse-text);
+}
+
+// A labeled action button (icon + text) sitting next to the plain icon-only compendium shortcut
+// in the same .classes-header-actions row — scoped to just this button rather than reusing the
+// Equipment tab's .labeled-actions modifier, since that would also shrink the untouched
+// compendium icon down to match.
+.classes-header-actions a.end-of-combat-btn {
+  width: auto;
+  height: 20px;
+  padding: 0 $space-xs;
+  gap: $space-2xs;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+
+  i {
+    font-size: 10px;
+  }
+}

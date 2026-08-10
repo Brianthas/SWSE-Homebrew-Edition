@@ -1,0 +1,40 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Weapon Systems",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Harpooned",
+        "key": "applyEffect"
+      }
+    ],
+    "description": "<p><i>Reference Book: Star Wars Saga Edition Core Rulebook</i></p><p>A <a href=\"https://swse.fandom.com/wiki/Gunner\" title=\"Gunner\">Gunner</a> may use the Harpoon Gun to make a <a href=\"https://swse.fandom.com/wiki/Grapple\" title=\"Grapple\">Grapple</a> check against a target <a href=\"https://swse.fandom.com/wiki/Walker\" class=\"mw-redirect\" title=\"Walker\">Walker</a>. The <a href=\"https://swse.fandom.com/wiki/Gunner\" title=\"Gunner\">Gunner</a> must make an attack roll against the <a href=\"https://swse.fandom.com/wiki/Walker\" class=\"mw-redirect\" title=\"Walker\">Walker</a>; if successful, the <a href=\"https://swse.fandom.com/wiki/Pilot_(Vehicle_Combat)\" title=\"Pilot (Vehicle Combat)\">Pilot</a> of the <a href=\"https://swse.fandom.com/wiki/Walker\" class=\"mw-redirect\" title=\"Walker\">Walker</a> must make an opposed <a href=\"https://swse.fandom.com/wiki/Grapple\" title=\"Grapple\">Grapple</a> check. If the <a href=\"https://swse.fandom.com/wiki/Grapple\" title=\"Grapple\">Grapple</a> check succeeds, the target <a href=\"https://swse.fandom.com/wiki/Walker\" class=\"mw-redirect\" title=\"Walker\">Walker</a> cannot move without first making a <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> check (DC = Harpoon Gun's <a href=\"https://swse.fandom.com/wiki/Grapple\" title=\"Grapple\">Grapple</a> check result). If this <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> check fails, the <a href=\"https://swse.fandom.com/wiki/Walker\" class=\"mw-redirect\" title=\"Walker\">Walker</a> suffers an automatic <a href=\"https://swse.fandom.com/wiki/Collision\" class=\"mw-redirect\" title=\"Collision\">Collision</a>, taking twice its <a href=\"https://swse.fandom.com/wiki/Collision\" class=\"mw-redirect\" title=\"Collision\">Collision</a> damage.</p>",
+    "cost": "200",
+    "emplacementPoints": "1",
+    "availability": "Licensed"
+  },
+  "name": "Harpoon Gun",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317419,
+    "modifiedTime": 1759848317419,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "LPAKosKmojPW2wq5",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!LPAKosKmojPW2wq5"
+}

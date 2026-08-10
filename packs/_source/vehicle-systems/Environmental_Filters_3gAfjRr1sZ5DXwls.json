@@ -1,0 +1,66 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Starship Accessories",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Gargantuan or Larger",
+          "requirement": "Gargantuan",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Gargantuan or Larger",
+          "requirement": "Colossal",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Gargantuan or Larger",
+          "requirement": "Colossal (Frigate)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Gargantuan or Larger",
+          "requirement": "Colossal (Cruiser)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Gargantuan or Larger",
+          "requirement": "Colossal (Station)",
+          "type": "TRAIT"
+        }
+      ],
+      "count": 1,
+      "text": "Gargantuan or Larger",
+      "type": "OR"
+    },
+    "changes": [],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a></i></p><p><b>Emplacement Points:&nbsp;</b> 2</p><p><b>Size Restriction:&nbsp;</b> Gargantuan or Larger</p><p>Environmental Filters allow a Starship to support more than one set of environmental conditions. This is common on luxury liners that wish to provide comfortable quarters for multiple <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> at once. Normally, only a few rooms are provided with an alternative environment, but entire sections of a ship can be given different gravity, atmosphere, and lighting if desired. On rare occasions, these systems have been used offensively by making things difficult for hijackers or pirates. As a <a href=\"https://swse.fandom.com/wiki/Full-Round_Actions\" title=\"Full-Round Actions\">Full-Round Action</a>, a character with administrator access to the ship's computer in the command or engineering center of a ship can make DC 25 <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> check to flood any section with <a href=\"https://swse.fandom.com/wiki/Toxic_Atmosphere\" title=\"Toxic Atmosphere\">Toxic Atmosphere</a>, <a href=\"https://swse.fandom.com/wiki/Extreme_Temperatures\" class=\"mw-redirect\" title=\"Extreme Temperatures\">Extreme Temperatures</a>, <a href=\"https://swse.fandom.com/wiki/Radiation\" title=\"Radiation\">Radiation</a> (Mild), <a href=\"https://swse.fandom.com/wiki/Smoke\" title=\"Smoke\">Smoke</a>, or a <a href=\"https://swse.fandom.com/wiki/Gravity\" title=\"Gravity\">Gravity</a> fluctuation (Low, High, or Zero-Gravity).</p>",
+    "cost": "2000 (Base)",
+    "emplacementPoints": "2",
+    "availability": "Licensed"
+  },
+  "name": "Environmental Filters",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317588,
+    "modifiedTime": 1759848317588,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "3gAfjRr1sZ5DXwls",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!3gAfjRr1sZ5DXwls"
+}

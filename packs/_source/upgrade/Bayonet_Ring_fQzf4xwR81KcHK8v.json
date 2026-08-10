@@ -1,0 +1,61 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a></i> </p><p>A Bayonet Ring is a simple upgrade added to a melee weapon of Small or lesser size. Once upgraded, the weapon can be mounted on a specific type of ranged weapon. The type of ranged weapon must be chosen at the time you install the upgrade; the weapon must be of Medium size, and it cannot require a <a href=\"https://swse.fandom.com/wiki/Bipod\" title=\"Bipod\">Bipod</a> or other mount for any normal operation (such as a <a href=\"https://swse.fandom.com/wiki/Heavy_Repeating_Blaster\" title=\"Heavy Repeating Blaster\">Heavy Repeating Blaster</a>). The most common combination is placing a <a href=\"https://swse.fandom.com/wiki/Vibrodagger\" title=\"Vibrodagger\">Vibrodagger</a> on a <a href=\"https://swse.fandom.com/wiki/Blaster_Rifle\" title=\"Blaster Rifle\">Blaster Rifle</a>, but other combinations are possible as well (such as a <a href=\"https://swse.fandom.com/wiki/Stun_Baton\" title=\"Stun Baton\">Stun Baton</a> mounted onto a <a href=\"https://swse.fandom.com/wiki/Grenade_Launcher\" title=\"Grenade Launcher\">Grenade Launcher</a>, a combination preferred for riot control). </p><p>While the upgraded melee weapon is mounted on its ranged weapon, the combined weapon becomes Large size, and it must be wielded in two hands. In addition, the melee weapon's damage dice increase by one step: d2s to d3s, d3s to d4s, d4s to d6s, d6s to d8s, d8s to d10s, and d10s to d12s. However, its damage type and Weapon Group stay the same despite these changes, and it is otherwise treated as a <a href=\"https://swse.fandom.com/wiki/Bayonet\" title=\"Bayonet\">Bayonet</a> in all respects. Both the melee weapon with the Bayonet Ring Weapon Upgrade and the ranged weapon can be used separately; mounting or removing the upgraded melee weapon requires a <a href=\"https://swse.fandom.com/wiki/Move_Action\" class=\"mw-redirect\" title=\"Move Action\">Move Action</a>. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "itemMod"
+      },
+      {
+        "mode": 2,
+        "value": "Bayonet",
+        "key": "suffix"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "100% of Weapon Cost",
+    "weight": "",
+    "availability": "Common",
+    "size": "",
+    "type": "",
+    "subtype": "Weapon Upgrade",
+    "quantity": 1,
+    "hasItemOwner": false,
+    "upgrade": {},
+    "source": "Star Wars Saga Edition Scum and Villainy",
+    "upgradePointCost": "0"
+  },
+  "name": "Bayonet Ring",
+  "flags": {},
+  "type": "upgrade",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263245556,
+    "modifiedTime": 1749263245556,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "fQzf4xwR81KcHK8v",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!fQzf4xwR81KcHK8v"
+}

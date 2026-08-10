@@ -1,0 +1,74 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<table style=\"width:100%; margin-top:2em; border:2px solid #999; font-size:105%; text-align:center; background:#00008B;\"> \n <tbody>\n  <tr> \n   <td><i><b>This <a href=\"https://swse.fandom.com/wiki/Homebrew_Content\" title=\"Homebrew Content\">Homebrew Content</a> has been <a href=\"https://swse.fandom.com/wiki/Category:Tested\" title=\"Category:Tested\">Tested</a> per the <a href=\"https://swse.fandom.com/wiki/Category:Untested\" title=\"Category:Untested\">Untested</a> guidelines. Whether or not it can be used is, as always, the prerogative of the Gamemaster.</b></i> </td>\n  </tr>\n </tbody>\n</table><p><i>Disruptor Weapon Templates weapon data created by unknown Wikia user.</i> </p><p><b>Manufactured By:</b> N/A </p><p><b>Applicable To:</b> Any Blaster Weapon </p><p><span class=\"new\" title=\"Disruptor (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvRGlzcnVwdG9yP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Disruptor</span> weapons are made in different configurations and models. Such weapons are considered violent and illicit in most of the galaxy. </p><p><b>Weapons:</b> A Disruptor Weapon treats all targets as if their <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a> was 5 points lower than it is. If damage from the Disruptor Weapon kills or destroys a target, that target is disintegrated and ceases to exist. Disruptor Weapons can fire only once every other round. You cannot use any <a href=\"https://swse.fandom.com/wiki/Feat\" class=\"mw-redirect\" title=\"Feat\">Feat</a>, <a href=\"https://swse.fandom.com/wiki/Talent\" class=\"mw-redirect\" title=\"Talent\">Talent</a>, or other special ability that consumes more than one shot from the weapon per round (such as <a href=\"https://swse.fandom.com/wiki/Double_Attack\" title=\"Double Attack\">Double Attack</a> or <a href=\"https://swse.fandom.com/wiki/Rapid_Shot\" title=\"Rapid Shot\">Rapid Shot</a>) with a Disruptor Weapon. Disruptor weapon has 1/10 the ammo capacity than base item if it is a <a href=\"https://swse.fandom.com/wiki/Pistol\" class=\"mw-redirect\" title=\"Pistol\">Pistol</a>, or 1/5 the capacity if it is any other weapon type. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "??",
+        "key": "cost"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "itemMod"
+      },
+      {
+        "mode": 2,
+        "value": "Disruptor",
+        "key": "prefix"
+      },
+      {
+        "mode": 2,
+        "value": "",
+        "key": "suffix"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "hasItemOwner": false,
+    "subtype": "Weapon Templates",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Any Weapon",
+          "requirement": "weapon",
+          "type": "TYPE"
+        }
+      ],
+      "text": "Any Weapon, and ",
+      "type": "AND"
+    },
+    "cost": "??"
+  },
+  "name": "Disruptor Weapon Template",
+  "flags": {},
+  "type": "template",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.2",
+    "createdTime": 1729096741389,
+    "modifiedTime": 1729096741389,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "sn2aZE9KywRQpJZC",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!sn2aZE9KywRQpJZC"
+}

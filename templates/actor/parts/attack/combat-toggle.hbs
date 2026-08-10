@@ -1,0 +1,11 @@
+{{#if actor.availableCombatToggles.length}}
+    <ul class="combat-toggle-list">
+        {{#each actor.availableCombatToggles as |toggle|}}
+            <li>
+                <a class="combat-toggle-pill {{#if toggle.active}}active{{/if}}"
+                   data-action="combat-toggle" data-toggle-id="{{toggle.id}}"
+                   title="{{toggle.label}} — click to toggle on/off">{{toggle.label}}</a>
+            </li>
+        {{/each}}
+    </ul>
+{{/if}}

@@ -1,0 +1,84 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Jedi_Academy_Training_Manual\" title=\"Star Wars Saga Edition Jedi Academy Training Manual\">Star Wars Saga Edition Jedi Academy Training Manual</a></i> </p><p>After the decline of <a href=\"https://swse.fandom.com/wiki/The_Sith\" title=\"The Sith\">The Sith</a> in the Tapani Sector, the art of creating a true <a href=\"https://swse.fandom.com/wiki/Archaic_Lightfoil\" title=\"Archaic Lightfoil\">Archaic Lightfoil</a> was all but lost. However, craftsfolk in the employ of the nobles from the Tapani Sector continued to try and meet the demand for the archaic weapon millennia after the secrets of building the original Lightfoil died with the Sith who had mastered them. The Modern Lightfoil, still popular among young Tapani Sector nobles, is less potent than its original form, but can be built even by those who have no training in <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a>. </p><p>A Modern Lightfoil is delicately balanced, and its wielder can choose to consider it a Small weapon whenever it would be beneficial. However, a Modern Lightfoil cannot be wielded Two-Handed. </p><p>A Modern Lightfoil requires a special&nbsp;<a href=\"https://swse.fandom.com/wiki/Energy_Cell\" title=\"Energy Cell\">Energy Cell</a>&nbsp;to operate (the cost is ten times the price of an ordinary&nbsp;<a href=\"https://swse.fandom.com/wiki/Energy_Cell\" title=\"Energy Cell\">Energy Cell</a>, but it lasts almost indefinitely). </p><p><b>Special:</b>&nbsp;Can be&nbsp;<a href=\"https://swse.fandom.com/wiki/Thrown\" class=\"mw-redirect\" title=\"Thrown\">Thrown</a> </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isThrowable"
+      }
+    ],
+    "choices": [
+      {
+        "noOptions": "NO_AVAILABLE_OPTIONS",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {
+              "payload": "AVAILABLE_LIGHTSABER_CRYSTALS"
+            },
+            "display": "AVAILABLE_LIGHTSABER_CRYSTALS",
+            "name": "AVAILABLE_LIGHTSABER_CRYSTALS",
+            "attributes": {}
+          }
+        ],
+        "description": "Lightsaber Crystal",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": false
+      }
+    ],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "2,500",
+    "weight": "0.5 Kilograms",
+    "availability": "Rare",
+    "size": "Medium",
+    "type": "",
+    "subtype": "Lightsabers",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "2d6",
+    "damageType": "Energy, Slashing"
+  },
+  "name": "Modern Lightfoil",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Modern_Lightfoil.png",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513493,
+    "modifiedTime": 1786051513576,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "IhCtxkS2zHQglkGu",
+  "_key": "!items!IhCtxkS2zHQglkGu"
+}

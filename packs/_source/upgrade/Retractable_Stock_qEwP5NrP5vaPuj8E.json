@@ -1,0 +1,56 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a></i> </p><p>Any <a href=\"https://swse.fandom.com/wiki/Rifle\" class=\"mw-redirect\" title=\"Rifle\">Rifle</a> or <a href=\"https://swse.fandom.com/wiki/Pistol\" class=\"mw-redirect\" title=\"Pistol\">Pistol</a> (as well as <a href=\"https://swse.fandom.com/wiki/Rifle\" class=\"mw-redirect\" title=\"Rifle\">Rifle</a>- or <a href=\"https://swse.fandom.com/wiki/Pistol\" class=\"mw-redirect\" title=\"Pistol\">Pistol</a>-like <a href=\"https://swse.fandom.com/wiki/Exotic_Weapons_(Ranged)\" title=\"Exotic Weapons (Ranged)\">Exotic Weapons (Ranged)</a>) can have a Retractable Stock added. This Upgrade requires 1 <a href=\"https://swse.fandom.com/wiki/Upgrade_Slot\" class=\"mw-redirect\" title=\"Upgrade Slot\">Upgrade Slot</a> for a <a href=\"https://swse.fandom.com/wiki/Pistol\" class=\"mw-redirect\" title=\"Pistol\">Pistol</a>, but 0 <a href=\"https://swse.fandom.com/wiki/Upgrade_Slots\" title=\"Upgrade Slots\">Upgrade Slots</a> for a <a href=\"https://swse.fandom.com/wiki/Rifle\" class=\"mw-redirect\" title=\"Rifle\">Rifle</a>. (A <a href=\"https://swse.fandom.com/wiki/Rifle\" class=\"mw-redirect\" title=\"Rifle\">Rifle</a> already has a stock, which can be replaced with the Retractable Stock.) Extending or folding a Retractable Stock is a <a href=\"https://swse.fandom.com/wiki/Move_Action\" class=\"mw-redirect\" title=\"Move Action\">Move Action</a>. </p><p>When the Retractable Stock is folded, the following rules apply: </p><ul>\n <li>Treat the Weapon as a <a href=\"https://swse.fandom.com/wiki/Pistol\" class=\"mw-redirect\" title=\"Pistol\">Pistol</a> for purposes of proficiency and <a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a>.</li> \n <li>You cannot <a href=\"https://swse.fandom.com/wiki/Brace\" class=\"mw-redirect\" title=\"Brace\">Brace</a> the Weapon while using it in <a href=\"https://swse.fandom.com/wiki/Autofire\" title=\"Autofire\">Autofire</a> mode, even if it is an <a href=\"https://swse.fandom.com/wiki/Autofire\" title=\"Autofire\">Autofire</a>-only Weapon.</li>\n</ul><p>When the Retractable Stock is extended, the following rules apply: </p><ul>\n <li>Treat the Weapon as a <a href=\"https://swse.fandom.com/wiki/Rifle\" class=\"mw-redirect\" title=\"Rifle\">Rifle</a> for purposes of proficiency and <a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a>.</li> \n <li>You take a -5 penalty on attack rolls with the Weapon if you use it in one hand (regardless of its size relative to you).</li>\n</ul><p>Certain Weapons come with a Retractable Stock as a standard feature, as detailed in their descriptions. No <a href=\"https://swse.fandom.com/wiki/Upgrade_Slots\" title=\"Upgrade Slots\">Upgrade Slots</a> are spent in this case. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "itemMod"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "100",
+    "weight": "",
+    "availability": "Common",
+    "size": "",
+    "type": "",
+    "subtype": "Weapon Upgrade",
+    "quantity": 1,
+    "hasItemOwner": false,
+    "upgrade": {},
+    "source": "Star Wars Saga Edition Scum and Villainy",
+    "upgradePointCost": "0 or 1 (See below)"
+  },
+  "name": "Retractable Stock",
+  "flags": {},
+  "type": "upgrade",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263245837,
+    "modifiedTime": 1749263245837,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "qEwP5NrP5vaPuj8E",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!qEwP5NrP5vaPuj8E"
+}

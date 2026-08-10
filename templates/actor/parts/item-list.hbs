@@ -1,6 +1,9 @@
 {{#if bigLabel}}
 <div class="flexrow">
     <h2><label class="resource-label">{{bigLabel}}
+        {{#if counterExpected}}
+            <span class="skills-counter" title="Expected by level {{counterLevel}}, per the homebrew feat/talent progression">{{counterCurrent}} / {{counterExpected}} expected</span>
+        {{/if}}
         {{#if compendiumFilter}}
             <a data-action="compendium" data-type="Item" data-filter="{{compendiumFilter}}"
                title="{{localize "Open Compendium"}}"><i class="fas fa-folder-plus"></i></a>
@@ -53,7 +56,7 @@
         <ol class="items-list">
             {{#each items as |item id|}}
                 {{#unless item.system.hidden}}
-                    {{> 'systems/swse/templates/actor/parts/item-entry.hbs'  acceptsTemplates=../acceptsTemplates item=item fields=../fields draggable=../draggable quantity=../quantity delete=../delete description=../description overrideDelete=../overrideDelete usable=../usable rollable=../rollable}}
+                    {{> 'systems/swse/templates/actor/parts/item-entry.hbs'  acceptsTemplates=../acceptsTemplates item=item fields=../fields draggable=../draggable quantity=../quantity delete=../delete description=../description overrideDelete=../overrideDelete usable=../usable rollable=../rollable toggles=../toggles}}
                 {{/unless}}
             {{/each}}
         </ol>

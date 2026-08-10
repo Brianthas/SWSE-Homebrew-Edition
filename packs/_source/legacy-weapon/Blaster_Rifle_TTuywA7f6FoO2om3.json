@@ -1,0 +1,250 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode",
+          "links": [
+            {
+              "type": "exclusive",
+              "name": "Autofire"
+            }
+          ]
+        }
+      },
+      "statuses": [],
+      "disabled": false,
+      "name": "Single-Shot",
+      "_id": "vyOc31B0G4CF7lIc",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513528,
+        "modifiedTime": 1786051513528,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!TTuywA7f6FoO2om3.vyOc31B0G4CF7lIc"
+    },
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode",
+          "links": [
+            {
+              "type": "exclusive",
+              "name": "Single-Shot"
+            }
+          ]
+        }
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Autofire",
+      "_id": "iUPWeoiJb7ugyPEC",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": -5,
+            "key": "toHitModifier",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          },
+          {
+            "value": true,
+            "key": "skipCriticalMultiply",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          },
+          {
+            "value": 10,
+            "key": "ammoUse",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513528,
+        "modifiedTime": 1786051513528,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!TTuywA7f6FoO2om3.iUPWeoiJb7ugyPEC"
+    },
+    {
+      "flags": {
+        "swse": {}
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Stun",
+      "_id": "2MXhistVccAv9EOF",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "3d8",
+            "key": "damage",
+            "priority": null,
+            "type": "override",
+            "phase": "initial"
+          },
+          {
+            "value": "Stun",
+            "key": "damageType",
+            "priority": null,
+            "type": "override",
+            "phase": "initial"
+          }
+        ]
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513528,
+        "modifiedTime": 1786051513528,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!TTuywA7f6FoO2om3.2MXhistVccAv9EOF"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p>The basic Blaster Rifle is standard issue to soldiers across the galaxy. Some Blaster Rifles, such as the BlasTech E-11 (or its \"Clone,\" the SoroSuub Stormtrooper One), have a <a href=\"https://swse.fandom.com/wiki/Retractable_Stock\" title=\"Retractable Stock\">Retractable Stock</a>. A Blaster Rifle without a <a href=\"https://swse.fandom.com/wiki/Retractable_Stock\" title=\"Retractable Stock\">Retractable Stock</a> costs 900 credits (instead of 1,000 credits). </p><p>A Blaster Rifle requires a <a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a> to operate. After 50 shots, the <a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a> must be replaced. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Power Pack:50",
+        "key": "ammo"
+      }
+    ],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "1,000",
+    "weight": "4.5 Kilograms",
+    "availability": "Restricted",
+    "size": "Medium",
+    "type": "",
+    "subtype": "Rifles",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "3d8",
+    "damageType": "Energy"
+  },
+  "name": "Blaster Rifle",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Blaster_Rifle.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513528,
+    "modifiedTime": 1786051513588,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "TTuywA7f6FoO2om3",
+  "_key": "!items!TTuywA7f6FoO2om3"
+}

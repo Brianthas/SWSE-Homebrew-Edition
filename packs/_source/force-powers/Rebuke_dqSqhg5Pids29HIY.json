@@ -1,0 +1,79 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>See also: <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a></i> </p><p>You harmlessly absorb or deflect one <a href=\"https://swse.fandom.com/wiki/Force_Power\" class=\"mw-redirect\" title=\"Force Power\">Force Power</a> used against you, perhaps even turning it against its creator. </p><p><b>Time:</b> <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a> </p><p><b>Targets:</b>&nbsp;One <a href=\"https://swse.fandom.com/wiki/Force_Power\" class=\"mw-redirect\" title=\"Force Power\">Force Power</a> directed at you. </p><p><b>Make a <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check.</b> If your result equals or exceeds the check result of the <a href=\"https://swse.fandom.com/wiki/Force_Power\" class=\"mw-redirect\" title=\"Force Power\">Force Power</a> directed at you, you harmlessly redirect it and suffer no ill effects. If your result exceeds the check result of the <a href=\"https://swse.fandom.com/wiki/Force_Power\" class=\"mw-redirect\" title=\"Force Power\">Force Power</a> directed at you by 5 or more, you may choose to turn the <a href=\"https://swse.fandom.com/wiki/Force_Power\" class=\"mw-redirect\" title=\"Force Power\">Force Power</a> against its creator, who suffers the effect based on the creator’s original <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check. </p><p><b>Special:</b> If you successfully reflect a <a href=\"https://swse.fandom.com/wiki/Force_Power\" class=\"mw-redirect\" title=\"Force Power\">Force Power</a> back at its originator, the originator may attempt to <i>Rebuke</i> the <a href=\"https://swse.fandom.com/wiki/Force_Power\" class=\"mw-redirect\" title=\"Force Power\">Force Power</a> as well, expending a use of the <i>Rebuke</i> <a href=\"https://swse.fandom.com/wiki/Force_Power\" class=\"mw-redirect\" title=\"Force Power\">Force Power</a> and using your <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check as its target DC. If they reflect it back again, both you and the originator are affected by the <a href=\"https://swse.fandom.com/wiki/Force_Power\" class=\"mw-redirect\" title=\"Force Power\">Force Power</a>. You can spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> as a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a> to suffer no effects from a <a href=\"https://swse.fandom.com/wiki/Force_Power\" class=\"mw-redirect\" title=\"Force Power\">Force Power</a> that has been Rebuked twice- once by you and once by the Force Power's originator. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Reaction",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "One Force Power directed at you.",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "cumulative"
+      },
+      {
+        "mode": 2,
+        "value": "Use the Force",
+        "key": "rollType"
+      },
+      {
+        "mode": 2,
+        "value": "See also: Force Powers You harmlessly absorb or deflect one Force Power used against you, perhaps even turning it against its creator. Time: Reaction Targets: One Force Power directed at you. Make a Use the Force check. If your result equals or exceeds the check result of the Force Power directed at you, you harmlessly redirect it and suffer no ill effects. If your result exceeds the check result of the Force Power directed at you by 5 or more, you may choose to turn the Force Power against its creator, who suffers the effect based on the creator’s original Use the Force check. Special: If you successfully reflect a Force Power back at its originator, the originator may attempt to Rebuke the Force Power as well, expending a use of the Rebuke Force Power and using your Use the Force check as its target DC. If they reflect it back again, both you and the originator are affected by the Force Power. You can spend a Force Point as a Reaction to suffer no effects from a Force Power that has been Rebuked twice- once by you and once by the Force Power's originator.",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Force Powers"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Rebuke",
+  "flags": {},
+  "type": "forcePower",
+  "img": "systems/swse/icon/force-power/Rebuke.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738608590727,
+    "modifiedTime": 1738608590727,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "dqSqhg5Pids29HIY",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!dqSqhg5Pids29HIY"
+}

@@ -1,0 +1,113 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode"
+        }
+      },
+      "statuses": [],
+      "disabled": false,
+      "name": "Single-Shot",
+      "_id": "CmHyb828szG84CdI",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513526,
+        "modifiedTime": 1786051513526,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!QTxi10ij7XrWt85J.CmHyb828szG84CdI"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Force_Unleashed_Campaign_Guide\" title=\"Star Wars Saga Edition Force Unleashed Campaign Guide\">Star Wars Saga Edition Force Unleashed Campaign Guide</a></i> </p><p>A Bryar Pistol is a cut-down version of a <a href=\"https://swse.fandom.com/wiki/Bryar_Rifle\" title=\"Bryar Rifle\">Bryar Rifle</a>. Though it has less <a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a> than the <a href=\"https://swse.fandom.com/wiki/Bryar_Rifle\" title=\"Bryar Rifle\">Bryar Rifle</a> (using standard Pistol <a href=\"https://swse.fandom.com/wiki/Ranges\" class=\"mw-redirect\" title=\"Ranges\">Ranges</a>) and deals slightly less damage, the Bryar Pistol is actually more manageable and accurate at Short <a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a> than the <a href=\"https://swse.fandom.com/wiki/Bryar_Rifle\" title=\"Bryar Rifle\">Bryar Rifle</a>. </p><p>As a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>, you can prime a Bryar Pistol for a built-up shot. If you make no attacks with the Bryar Pistol before the start of your next turn, the next attack you make before the end of the encounter deals +1 die of damage and consumes 5 charges. </p><p>You may not use any ability that consumes more than one shot (such as <a href=\"https://swse.fandom.com/wiki/Autofire\" title=\"Autofire\">Autofire</a> or <a href=\"https://swse.fandom.com/wiki/Rapid_Shot\" title=\"Rapid Shot\">Rapid Shot</a>) in conjunction with a primed shot. A Bryar Pistol requires a&nbsp;<a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a>&nbsp;to operate. After 100 shots, the&nbsp;<a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a>&nbsp;must be recharged. </p><p><b>Accurate:</b> This weapon takes no penalty when firing at targets at Short&nbsp;<a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a>. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Power Pack:100",
+        "key": "ammo"
+      }
+    ],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "1,350",
+    "weight": "3 Kilograms",
+    "availability": "Licensed",
+    "size": "Medium",
+    "type": "",
+    "subtype": "Pistols",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "3d4",
+    "damageType": "Energy"
+  },
+  "name": "Bryar Pistol",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Bryar_Pistol.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513526,
+    "modifiedTime": 1786051513588,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "QTxi10ij7XrWt85J",
+  "_key": "!items!QTxi10ij7XrWt85J"
+}

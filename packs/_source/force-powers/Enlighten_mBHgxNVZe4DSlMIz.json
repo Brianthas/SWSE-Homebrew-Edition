@@ -1,0 +1,90 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Legacy_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Legacy Era Campaign Guide\">Star Wars Saga Edition Legacy Era Campaign Guide</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a></i> </p><p>You reach out to an ally telepathically, sharing visions of the near future to give the ally an edge or to protect the ally from harm. </p><p><b>[<i><a href=\"https://swse.fandom.com/wiki/Light_Side\" class=\"mw-redirect\" title=\"Light Side\">Light Side</a></i>, <i><a href=\"https://swse.fandom.com/wiki/Mind-Affecting\" class=\"mw-redirect\" title=\"Mind-Affecting\">Mind-Affecting</a></i>]</b> </p><p><b>Time:</b> <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a> or <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a> </p><p><b>Targets:</b> One ally within 12 squares of you and in your line of sight. </p><p><b>Make a <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check.</b> The target may use the check result instead of one attack roll, <a href=\"https://swse.fandom.com/wiki/Skill_Check\" class=\"mw-redirect\" title=\"Skill Check\">Skill Check</a>, or opposed check it makes before the start of your next turn, or the target can use the check result in place of one of its <a href=\"https://swse.fandom.com/wiki/Defenses\" title=\"Defenses\">Defenses</a> until the start of your next turn. </p><p><b>Special:</b> You may spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> when you activate this Force Power to prolong the effect until the end of your next turn. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Light Side",
+        "key": "tag"
+      },
+      {
+        "mode": 2,
+        "value": "Mind-Affecting",
+        "key": "tag"
+      },
+      {
+        "mode": 2,
+        "value": "Reaction or Swift Action",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "One ally within 12 squares of you and in your line of sight.",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": "Use the Force",
+        "key": "rollType"
+      },
+      {
+        "mode": 2,
+        "value": "Reference Book: Star Wars Saga Edition Legacy Era Campaign Guide See also: Force Powers You reach out to an ally telepathically, sharing visions of the near future to give the ally an edge or to protect the ally from harm. [Light Side, Mind-Affecting] Time: Reaction or Swift Action Targets: One ally within 12 squares of you and in your line of sight. Make a Use the Force check. The target may use the check result instead of one attack roll, Skill Check, or opposed check it makes before the start of your next turn, or the target can use the check result in place of one of its Defenses until the start of your next turn. Special: You may spend a Force Point when you activate this Force Power to prolong the effect until the end of your next turn.",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Light Side Force Powers"
+      },
+      {
+        "value": "Mind-Affecting Force Powers"
+      },
+      {
+        "value": "Force Powers"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Enlighten",
+  "flags": {},
+  "type": "forcePower",
+  "img": "systems/swse/icon/force-power/Enlighten.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738608589802,
+    "modifiedTime": 1738608589802,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "mBHgxNVZe4DSlMIz",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!mBHgxNVZe4DSlMIz"
+}

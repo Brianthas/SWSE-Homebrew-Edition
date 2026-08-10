@@ -1,0 +1,74 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "When you make a successful ranged attack against an enemy that you have <a href=\"https://swse.fandom.com/wiki/Aimed\" class=\"mw-redirect\" title=\"Aimed\">Aimed</a> at and the attack deals damage, the target cannot use a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a> to make an attack roll on his or her next turn. This is a <a href=\"https://swse.fandom.com/wiki/Stunning\" class=\"mw-redirect\" title=\"Stunning\">Stunning</a> effect.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Pinning Shot talent",
+          "requirement": "Pinning Shot",
+          "type": "TALENT"
+        },
+        {
+          "text": "Precision Shot talent",
+          "requirement": "Precision Shot",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Pinning Shot talent, and Precision Shot talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Gunslinger Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Gunslinger Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Sharpshooter Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Sharpshooter_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Galaxy at War",
+    "cost": "0"
+  },
+  "name": "Harrying Shot",
+  "flags": {},
+  "type": "talent",
+  "folder": "nbrMKW7DB6gly31d",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385311678,
+    "modifiedTime": 1734385311678,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "L6iombmncdRt10xj",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!L6iombmncdRt10xj"
+}

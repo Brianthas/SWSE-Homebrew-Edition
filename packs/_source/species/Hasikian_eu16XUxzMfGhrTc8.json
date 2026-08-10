@@ -1,0 +1,158 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<table style=\"width:100%; margin-top:2em; border:2px solid #999; font-size:105%; text-align:center; background:#00008B;\"> \n <tbody>\n  <tr> \n   <td><i><b>This <a href=\"https://swse.fandom.com/wiki/Homebrew_Content\" title=\"Homebrew Content\">Homebrew Content</a> has been <a href=\"https://swse.fandom.com/wiki/Category:Tested\" title=\"Category:Tested\">Tested</a> per the <a href=\"https://swse.fandom.com/wiki/Category:Untested\" title=\"Category:Untested\">Untested</a> guidelines. Whether or not it can be used is, as always, the prerogative of the Gamemaster.</b></i> </td>\n  </tr>\n </tbody>\n</table><p><i>Homebrew Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Clone_Wars_Saga_Edition_Fan_Sourcebook\" title=\"Clone Wars Saga Edition Fan Sourcebook\">Clone Wars Saga Edition Fan Sourcebook</a>&nbsp;- Species</i></p><p>Hasikians are a Species responsible for many great works of art and literature, perhaps a result of the deep emotions they feel, and the rapidness with which they change emotional states. After one too many spacers tried asking for directions and ended up getting any number of emotional outbursts as a result, it became a running joke that the reason the scales on a Hasikian's head change color is to help outsiders keep track of when it's safe to approach them. </p><h3><span class=\"mw-headline\" id=\"Hasikian_Characteristics\">Hasikian Characteristics</span></h3><p><b>Personality:</b> Hasikians are incredibly empathetic amongst one another, but are often considered self-absorbed by other <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>. This is largely because Hasikians have a hard time reading other Species' body language, as they depend on the color changes of head scales to determine mood. Hasikians are a very emotional Species, suffering from mood swings that shift quickly. However, Hasikians are loyal and supportive friends once they come to learn to read a person's moods. </p><p><b>Physical Description:</b> Hasikians are reptilian humanoids covered in fine scales that are usually brightly colored. The head scales of a Hasikian change color based on their moods. A typical Hasikian stands at 1.8 meters tall and weighs about 85 kilograms. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b>&nbsp;Hasikians age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-17 Years </td> \n   <td>18-36 Years </td> \n   <td>37-55 Years </td> \n   <td>56-80 Years </td> \n   <td>81+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> It is unknown which world the Hasikians originated from, but they can be found in small numbers throughout the galaxy. </p><p><b>Languages:</b> Hasikians have a native language that incorporates occasional sibilants and ululations, but most often speak Basic. </p><p><b>Example Names:</b> D'Hartayan, L'Whoroo, T'Seely. </p><p><b>Adventurers:</b> Hasikians can be of any <a href=\"https://swse.fandom.com/wiki/Heroic_Class\" class=\"mw-redirect\" title=\"Heroic Class\">Heroic Class</a>, and Force-sensitive members of this Species are often detected at birth and sent to the Jedi Temple for training, though it is difficult for them to overcome their mood swings. </p><h3><span class=\"mw-headline\" id=\"Hasikian_Species_Traits\">Hasikian Species Traits</span></h3><p>Hasikians share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Homebrew Content",
+        "type": "trait"
+      },
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Survival))",
+        "type": "trait"
+      },
+      {
+        "name": "Tested",
+        "type": "trait"
+      },
+      {
+        "name": "Mood Scales",
+        "type": "trait"
+      },
+      {
+        "name": "Skill Focus (Survival)",
+        "type": "feat"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "81",
+          "text": "81+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "11",
+          "low": "1",
+          "text": "1-11",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "55",
+          "low": "37",
+          "text": "37-55",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "36",
+          "low": "18",
+          "text": "18-36",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "17",
+          "low": "12",
+          "text": "12-17",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "80",
+          "low": "56",
+          "text": "56-80",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Hasikians"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Conditional Bonus Feat (Skill Focus (Survival))"
+      },
+      {
+        "value": "Tested"
+      },
+      {
+        "value": "Mood Scales"
+      },
+      {
+        "value": "Conditional Bonus Feat"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Hasikian",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535566262,
+    "modifiedTime": 1736535566262,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "eu16XUxzMfGhrTc8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!eu16XUxzMfGhrTc8"
+}

@@ -1,0 +1,110 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Once per encounter, you can use a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a> to ignore the <a href=\"https://swse.fandom.com/wiki/Damage_Reduction\" title=\"Damage Reduction\">Damage Reduction</a> of a single target within your line of sight for the rest of your turn.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Perception::in: Talent Trees, Scout Talent Trees, Bounty Hunter Talent Trees, and 6 more Gunslinger Talent Trees Gladiator Talent Trees Pathfinder Talent Trees Martial Arts Master Talent Trees Vanguard Talent Trees Core Rulebook Awareness Talent Tree Edit Edit source History Talk (0) Reference Book: Star Wars Saga Edition Core Rulebook You are exceptionally good at noticing things and avoiding perilous situations. Contents 1 Acute Senses 2 Expert Tracker 3 Improved Initiative 4 Keen Shot 5 Uncanny Dodge I 6 Uncanny Dodge II 7 Additional Awareness Talents 7.1 Reset Initiative 7.2 Weak Point Acute Senses[ ] You may reroll any Perception check, but the result of the reroll must be accepted, even if it is worse. This Talent applies to Use Computer checks made to perceive enemy ships (see Use Sensors). Expert Tracker[ ] Prerequisite: Acute Senses You take no penalty on Survival checks made to Follow Tracks while moving your normal Speed. Improved Initiative[ ] Prerequisite: Acute Senses You may choose to reroll any Initiative check, but the result of the reroll must be accepted, even if it is worse. Keen Shot[ ] Prerequisite: Acute Senses You take no penalty on your attack roll when attacking a target with Concealment (but not Total Concealment). Uncanny Dodge I[ ] Prerequisite: Acute Senses, Improved Initiative You retain your Dexterity bonus to your Reflex Defense regardless of being caught Flat-Footed or struck by a hidden attacker. You still lose your Dexterity bonus to your Reflex Defense if you are Immobilized. If you are the Pilot, this Talent applies to your Vehicle. Uncanny Dodge II[ ] Prerequisite: Acute Senses, Improved Initiative, Uncanny Dodge I You cannot be Flanked. You can react to opponents on opposite sides of you as easily as you can react to a single attacker. If you are the Pilot, this Talent applies to your Vehicle. Additional Awareness Talents[ ] Reset Initiative[ ] Reference Book: Star Wars Saga Edition Force Unleashed Campaign Guide Prerequisites: Acute Senses, Improved Initiative, Trained in Initiative Once per encounter, at any time after the first round (that is, the first full round after the Surprise Round, if one occurs), you can set your Initiative Count to your current Initiative +5. Weak Point[ ] Reference Book: Star Wars Saga Edition Knights of the Old Republic Campaign Guide Prerequisites: Acute Senses, Keen Shot Once per encounter, you can use a Swift Action to ignore the Damage Reduction of a single target within your line of sight for the rest of your turn. Categories Categories: Talent Trees Scout Talent Trees Bounty Hunter Talent Trees Gunslinger Talent Trees Gladiator Talent Trees Pathfinder Talent Trees Martial Arts Master Talent Trees Vanguard Talent Trees Core Rulebook Add category Cancel Save Community content is available under CC-BY-SA unless otherwise noted. More Fandoms Fantasy Sci-fi Star Wars",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Acute Senses talent",
+          "requirement": "Acute Senses",
+          "type": "TALENT"
+        },
+        {
+          "text": "Keen Shot talent",
+          "requirement": "Keen Shot",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Acute Senses talent, and Keen Shot talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Vanguard Talent Trees"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Gunslinger Talent Trees"
+      },
+      {
+        "value": "Pathfinder Talent Trees"
+      },
+      {
+        "value": "Martial Arts Master Talent Trees"
+      },
+      {
+        "value": "Scout Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Bounty Hunter Talent Trees"
+      },
+      {
+        "value": "Gladiator Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Vanguard Talent Trees",
+      "Gunslinger Talent Trees",
+      "Pathfinder Talent Trees",
+      "Martial Arts Master Talent Trees",
+      "Scout Talent Trees",
+      "Core Rulebook",
+      "Bounty Hunter Talent Trees",
+      "Gladiator Talent Trees",
+      "Smuggler Talent Trees",
+      "Operative Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Awareness Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Awareness_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Weak Point",
+  "flags": {},
+  "type": "talent",
+  "folder": "vYIVddzScJuQnahq",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385302460,
+    "modifiedTime": 1786039798052,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "8ouyIdXSYYTWaMg8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!8ouyIdXSYYTWaMg8"
+}

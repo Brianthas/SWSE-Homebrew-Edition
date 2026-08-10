@@ -1,0 +1,67 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "3d10",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A Vehicle or Starship begins its turn in an area affected by a Meteor Shower.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each Round on Initiative Count (Initiative +12)",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Pilot (DC 24): As a Reaction to the Meteor Shower's attack, the Pilot of a Vehicle can make a Pilot check to gain a +2 dodge bonus to their Reflex Defense against the Meteor Shower's attacks until the start of his or her next turn. Use Computer (DC 19): The character identifies the impending Meteorite Shower with sensors.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Area",
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>Meteor showers in the upper atmosphere of a planet can be extremely dangerous for <a href=\"https://swse.fandom.com/wiki/Vehicles\" title=\"Vehicles\">Vehicles</a> passing through that area, as most of the meteors have not yet been burned away by atmospheric entry.</i> </p><p>Meteor showers consist of falling rocks, which usually burn up or explode as they plummet through the planet's atmosphere. However, rocks that reach the world's surface or strike a ship in flight can deal plenty of damage. </p><h2><span id=\"Meteorite_Storm_Statistics_.28CL_15.29\"></span><span class=\"mw-headline\" id=\"Meteorite_Storm_Statistics_(CL_15)\">Meteorite Storm Statistics (CL 15)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b>&nbsp;Area, Natural </p><p><b>Trigger:</b> A Vehicle or Starship begins its turn in an area affected by a Meteor Shower. </p><p><b>Attack:</b> +17 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> Each Round on <a href=\"https://swse.fandom.com/wiki/Initiative_Count\" class=\"mw-redirect\" title=\"Initiative Count\">Initiative Count</a> (<a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a> +12) </p><p><b>Suggested&nbsp;<a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b>&nbsp;The following are suggested&nbsp;<a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>&nbsp;for this Hazard: </p><ul>\n <li><a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\"><b>Pilot</b></a><b> (DC 24):</b> As a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a> to the Meteor Shower's attack, the <a href=\"https://swse.fandom.com/wiki/Pilot_(Vehicle_Combat)\" title=\"Pilot (Vehicle Combat)\">Pilot</a> of a <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> can make a <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> check to gain a +2 dodge bonus to their <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against the Meteor Shower's attacks until the start of his or her next turn.</li> \n <li><a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\"><b>Use Computer</b></a><b> (DC 19):</b> The character identifies the impending Meteorite Shower with sensors.</li>\n</ul>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Meteor Shower",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244614,
+    "modifiedTime": 1749263244614,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "XTfsEJoICOQBHsQj",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!XTfsEJoICOQBHsQj"
+}

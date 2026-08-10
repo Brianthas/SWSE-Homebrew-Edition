@@ -1,0 +1,166 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p>Almost every culture in the galaxy has a legend about immortal creatures that lurk in the shadows, existing only to feed upon the unwary. And in most cases, the Anzati are the monsters of those legends. They have roamed the galaxy for eons, cunning predators hidden amid the crowd, capable of invisibly and efficiently tracking, killing, and feeding on their prey, taking nourishment from their victims' life energy contained within the gelid substance they call soup. </p><p>Despite their long life span, few Anzati are expert scholars, and although they indulge in different pastimes throughout their lives, Anzati rarely pursue skills that do not directly relate to the hunt. </p><h3><span class=\"mw-headline\" id=\"Anzati_Characteristics\">Anzati Characteristics</span></h3><p><b>Personality:</b> For Anzati, the hunt for soup is their primary goal, and they pursue it with the devotion of an addict craving the next fix. The common belief is that Anzati view all others as mere livestock, but only the most decadent Anzati subscribe to this view. However, Anzati do enjoy the perverse joke that forming friendships with other <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> is akin to playing with their food. </p><p><b>Physical Description:</b> Although their appearance is similar to that of <a href=\"https://swse.fandom.com/wiki/Humans\" class=\"mw-redirect\" title=\"Humans\">Humans</a>, the Anzati are an unusual Species, and are most noted for their lack of a readily detectable pulse and for their low body temperature. An Anzati's other distinguishing physical trait is a pair of cheek pouches, each of which conceals a proboscis that extends for feeding. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b>&nbsp;Anzati age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-12 Years </td> \n   <td>13-99 Years </td> \n   <td>100-649 Years </td> \n   <td>650-799 Years </td> \n   <td>800-950 Years </td> \n   <td>951+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Anzati are native to <span class=\"new\" title=\"Anzat (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQW56YXQ/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Anzat</span>, a mountainous world located in <a href=\"https://swse.fandom.com/wiki/The_Mid_Rim\" title=\"The Mid Rim\">The Mid Rim</a>. The planet's sky is covered in an omnipresent aurora that has deep religious significance for the Anzati. </p><p><b>Languages:</b> Anzati speak Anzat, an ancient language known only to them. </p><p><b>Example Names:</b> Akku Seii, Dannik Jerriko, Nikkos Tyris, Rath Kelk ko, Sa lje Tasha, Volfe Karkko. </p><p><b>Adventurers:</b> Due to their predatory nature, Anzati find themselves drawn to the professions of assassin and <a href=\"https://swse.fandom.com/wiki/Scoundrels\" class=\"mw-redirect\" title=\"Scoundrels\">Scoundrels</a>, which better enable them to hunt for nourishment. It is the rare Anzati that does not shun the morality of the <a href=\"https://swse.fandom.com/wiki/Jedi\" title=\"Jedi\">Jedi</a> Knights, although Force-users are not uncommon among the Anzati. </p><h3><span class=\"mw-headline\" id=\"Anzati_Species_Traits\">Anzati Species Traits</span></h3><p>Anzati share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Bonus Class Skill (Survival)",
+        "type": "trait"
+      },
+      {
+        "name": "Bonus Class Skill (Stealth)",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Low-Light Vision",
+        "type": "trait"
+      },
+      {
+        "name": "Mesmerize",
+        "type": "trait"
+      },
+      {
+        "name": "Presence Sense",
+        "type": "trait"
+      },
+      {
+        "name": "Anzati",
+        "type": "trait"
+      },
+      {
+        "name": "Energy Drain",
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "649",
+          "low": "100",
+          "text": "100-649",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "12",
+          "low": "1",
+          "text": "1-12",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "99",
+          "low": "13",
+          "text": "13-99",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "950",
+          "low": "800",
+          "text": "800-950",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "951",
+          "text": "951+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "799",
+          "low": "650",
+          "text": "650-799",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Bonus Class Skill"
+      },
+      {
+        "value": "Bonus Class Skill (Survival)"
+      },
+      {
+        "value": "Bonus Class Skill (Stealth)"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Low-Light Vision"
+      },
+      {
+        "value": "Mesmerize"
+      },
+      {
+        "value": "Presence Sense"
+      },
+      {
+        "value": "Anzati"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Energy Drain"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Anzati",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535565531,
+    "modifiedTime": 1736535565531,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "Bl4zeFXLo8SRuJS4",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!Bl4zeFXLo8SRuJS4"
+}

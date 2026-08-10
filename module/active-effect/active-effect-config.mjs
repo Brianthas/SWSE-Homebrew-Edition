@@ -1,86 +1,48 @@
-import {onCollapseToggle} from "../common/util.mjs";
-import {
-    _adjustPropertyBySpan,
-    onChangeControl, _onLinkControl,
-    onSpanTextInput,
-    onToggle
-} from "../common/listeners.mjs";
+import {_onLinkControl} from "../common/listeners.mjs";
 
 /**
- * Extend the base ActiveEffect entity
+ * Extend the base ActiveEffect config sheet (ApplicationV2, HandlebarsApplicationMixin(DocumentSheetV2) in core).
+ * Adopts core's own details/duration/changes tabs unmodified, and adds one SWSE-specific tab: "links"
+ * (linking effects to each other, via SWSEActiveEffect#addLink/#removeLink/#links).
  * @extends {ActiveEffectConfig}
  */
 export class SWSEActiveEffectConfig extends foundry.applications.sheets.ActiveEffectConfig {
-    get template() {
-        const path = "systems/swse/templates/active-effect";
-        console.log(super.template)
-        return `${path}/active-effect-sheet.hbs`;
+    static DEFAULT_OPTIONS = {
+        classes: ["swse", "sheet", "effect"],
+        actions: {
+            "link-control": SWSEActiveEffectConfig.#onLinkControl
+        }
+    };
+
+    static PARTS = {
+        ...super.PARTS,
+        links: {template: "systems/swse/templates/active-effect/links.hbs"}
+    };
+
+    static TABS = {
+        sheet: {
+            tabs: [...super.TABS.sheet.tabs, {id: "links", icon: "fas fa-link"}],
+            initial: super.TABS.sheet.initial,
+            labelPrefix: "EFFECT.TABS"
+        }
+    };
+
+    /** V1-era compatibility alias — several shared listener helpers (module/common/listeners.mjs) still use
+     * `this.object` as the document-being-edited, matching V1 DocumentSheet's alias for `this.document`. */
+    get object() {
+        return this.document;
     }
 
     /** @override */
-    static get defaultOptions() {
-        return foundry.utils.mergeObject(super.defaultOptions, {
-            classes: ["swse", "sheet", "effect"],
-            closeOnSubmit: false,
-            submitOnChange:true
-        });
-    }
-    getData(options={}) {
-        let data = super.getData(options);
-        data.editable = this.isEditable;
-        data.owner = this.document.parent.isOwner
-        data.document = this.document;
-        return data;
+    async _preparePartContext(partId, context) {
+        context = await super._preparePartContext(partId, context);
+        if (partId === "links") {
+            context.links = this.document.links;
+        }
+        return context;
     }
 
-    activateListeners(html) {
-        //this.options.submitOnClose = true;
-        super.activateListeners(html);
-
-        html.find(".collapse-toggle").on("click", event => onCollapseToggle(event))
-
-        // Everything below here is only needed if the sheet is editable
-        if (!this.isEditable) return;
-        html.find("img[data-edit]").click(ev => this._onEditImage(ev));
-        html.find(".editor-content[data-edit]").each((i, div) => this._activateEditor(div));
-
-        // html.find("span.text-box.direct").on("click", (event) => {
-        //     this._onSpanTextInput(event, null, "text"); // this._adjustItemPropertyBySpan.bind(this)
-        // });
-        html.find("[data-action=direct-field]").on("click", (event) => {
-            onSpanTextInput.call(this, event, _adjustPropertyBySpan.bind(this), "text"); // this._adjustItemPropertyBySpan.bind(this)
-        });
-
-
-        // html.find("select.direct").on("change", changeSelect.bind(this));
-        // html.find("input[type=text].direct").on("change", changeText.bind(this));
-        // html.find("input[type=number].direct").on("change", changeText.bind(this));
-        // html.find("input[type=checkbox].direct").on("click", changeCheckbox.bind(this));
-        html.find('[data-action="change-control"]').click(onChangeControl.bind(this));
-        html.find('[data-action="link-control"]').click(_onLinkControl.bind(this));
-
-        html.find(".toggle").on("click", onToggle.bind(this))
+    static #onLinkControl(event, target) {
+        _onLinkControl.call(this, event, target);
     }
-
-
-    _onEditImage(event) {
-        const attr = event.currentTarget.dataset.edit;
-        const current = foundry.utils.getProperty(this.document, attr);
-        const fp = new FilePicker({
-            type: "image",
-            current: current,
-            callback: path => {
-                event.currentTarget.src = path;
-                if ( this.options.submitOnChange ) {
-                    this._onSubmit(event);
-                }
-            },
-            top: this.position.top + 40,
-            left: this.position.left + 10
-        });
-        return fp.browse();
-    }
-
-
-
 }

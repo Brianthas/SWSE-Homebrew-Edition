@@ -1,0 +1,72 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2d6",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A being or object begins its turn in the Freezing Rain.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Every 10 minutes, until the being leaves the Freezing Rain.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Endurance (DC 26): The character forces themselves to move through the storm, gaining a +5 circumstance bonus to Fortitude Defense against the Freezing Rain. Knowledge (Physical Sciences) (DC 16): The character identifies the Freezing Rain before it reaches them.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: A being that gains a Persistent Condition resulting from this Hazard cannot move up the Condition Track until it spends at least 1 hour resting in a normal environment.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Atmosphere",
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>You are pelted by tiny pieces of ice and drenched by rain that chills you to the bone.</i> </p><p>Not only does Freezing Rain affect unprotected creatures caught in the middle of the storm, but the precipitation coats objects, including buildings and vehicles, with ice that makes their use more difficult. Due to the inconvenience this Hazard causes, Freezing Rain makes a good cover through which enemies can approach a group of heroes or an unsuspecting installation. </p><h2><span id=\"Freezing_Rain_Statistics_.28CL_4.29\"></span><span class=\"mw-headline\" id=\"Freezing_Rain_Statistics_(CL_4)\">Freezing Rain Statistics (CL 4)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Atmosphere, Natural </p><p><b>Trigger:</b> A being or object begins its turn in the Freezing Rain. </p><p><b>Attack:</b> +6 vs <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> </p><p><b>Recurrence:</b> Every 10 minutes, until the being leaves the Freezing Rain. </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Endurance\" title=\"Endurance\">Endurance</a> (DC 26):</b> The character forces themselves to move through the storm, gaining a +5 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> against the Freezing Rain.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Knowledge_(Physical_Sciences)\" class=\"mw-redirect\" title=\"Knowledge (Physical Sciences)\">Knowledge (Physical Sciences)</a> (DC 16):</b> The character identifies the Freezing Rain before it reaches them.</li>\n</ul><p><b>Special:</b> A being that gains a <a href=\"https://swse.fandom.com/wiki/Persistent_Condition\" class=\"mw-redirect\" title=\"Persistent Condition\">Persistent Condition</a> resulting from this Hazard cannot move up the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a> until it spends at least 1 hour resting in a normal environment. </p><p>Any object exposed to this Hazard for at least 1 hour becomes difficult to use because of ice build-up; until the ice is removed, attack rolls and skill checks that involve the use of the affected object take a -2 penalty. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Freezing Rain",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244520,
+    "modifiedTime": 1749263244520,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "WwoF4lVm7doM3gLy",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!WwoF4lVm7doM3gLy"
+}

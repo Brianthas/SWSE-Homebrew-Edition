@@ -1,0 +1,74 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Clone_Wars_Campaign_Guide\" title=\"Star Wars Saga Edition Clone Wars Campaign Guide\">Star Wars Saga Edition Clone Wars Campaign Guide</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a></i> </p><p>You can tap into and read technological devices and, in some cases, control them. </p><p><b>Time:</b> <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a> </p><p><b>Targets:</b> One <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> or electronic device touched. </p><p><b>Make a <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check.</b> Compare the result to the target's <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a>. If the check equals or exceeds the target's <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a>, you discover one piece of information contained within the target's memory as determined by the <a href=\"https://swse.fandom.com/wiki/Access_Information\" class=\"mw-redirect\" title=\"Access Information\">Access Information</a> application of the <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> Skill. For every 5 points by which you exceed the target's <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a>, you can learn one additional piece of information. </p><p>Alternatively, if you target a <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> and succeed at your <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check, you may choose one of the following effects and apply it to the targeted <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a>: </p><ul>\n <li>The Droid's senses are jammed, allowing you to make <a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a> checks against the <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> until the end of your next turn, even though it is aware of you.</li> \n <li>The <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> is denied its <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> bonus to its <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against your next attack made before the end of your next turn.</li> \n <li>On its next two turns, the <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> does nothing except flee from you at top speed.</li>\n</ul><p><b>Special:</b> You can spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> to learn two more pieces of information or extend one of the <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a>-specific effects of this Force Power by one additional round. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Standard Action",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "One Droid or electronic device touched.",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": "Use the Force",
+        "key": "rollType"
+      },
+      {
+        "mode": 2,
+        "value": "Reference Book: Star Wars Saga Edition Clone Wars Campaign Guide See also: Force Powers You can tap into and read technological devices and, in some cases, control them. Time: Standard Action Targets: One Droid or electronic device touched. Make a Use the Force check. Compare the result to the target's Will Defense. If the check equals or exceeds the target's Will Defense, you discover one piece of information contained within the target's memory as determined by the Access Information application of the Use Computer Skill. For every 5 points by which you exceed the target's Will Defense, you can learn one additional piece of information. Alternatively, if you target a Droid and succeed at your Use the Force check, you may choose one of the following effects and apply it to the targeted Droid: The Droid's senses are jammed, allowing you to make Stealth checks against the Droid until the end of your next turn, even though it is aware of you. The Droid is denied its Dexterity bonus to its Reflex Defense against your next attack made before the end of your next turn. On its next two turns, the Droid does nothing except flee from you at top speed. Special: You can spend a Force Point to learn two more pieces of information or extend one of the Droid-specific effects of this Force Power by one additional round.",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Force Powers"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Technometry",
+  "flags": {},
+  "type": "forcePower",
+  "img": "systems/swse/icon/force-power/Technometry.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738608591019,
+    "modifiedTime": 1738608591019,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "qSGD1QfCXQaqtaMv",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!qSGD1QfCXQaqtaMv"
+}

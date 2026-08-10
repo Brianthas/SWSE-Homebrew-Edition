@@ -1,0 +1,156 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a></i> </p><p> Toydarians are small, winged aliens from the planet <a href=\"https://swse.fandom.com/wiki/Toydaria\" title=\"Toydaria\">Toydaria</a>. They are known as shrewd merchants and able con artists, even though many lead reputable lives. Because their homeworld is located within Hutt Space, many Toydarians who leave <a href=\"https://swse.fandom.com/wiki/Toydaria\" title=\"Toydaria\">Toydaria</a> find themselves either unemployed or indentured to <a href=\"https://swse.fandom.com/wiki/Hutt\" title=\"Hutt\">Hutt</a> criminal interests. Toydarians easily resist Mind-Affecting <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a> and are even more resilient to such abilities than their <a href=\"https://swse.fandom.com/wiki/Hutt\" title=\"Hutt\">Hutt</a> overlords. </p><p>Toydarians have an unsavory reputation, but not all Toydarians are criminals. However, their sharp minds and keen wit often make those who deal with Toydarians feel like they have been taken advantage of. Most Toydarians have some degree of business savvy, and many have a penchant for gambling (even to their own detriment). </p><p>Toydarians are capable of flight from birth, and can hover in place. Toydarians prefer to fly at all times, though the speed with which their wings beat consumes large amounts of energy. As a result, Toydarians consume several times more food than <a href=\"https://swse.fandom.com/wiki/Humans\" class=\"mw-redirect\" title=\"Humans\">Humans</a> do in a single day, and some of the bloodiest wars in Toydarian history have been fought over food supplies. Though they have integrated technology into their society and culture, most Toydarians prefer the simple pleasures of small villages and tight-knit communities. </p><h3><span class=\"mw-headline\" id=\"Toydarian_Characteristics\">Toydarian Characteristics</span></h3><p><b>Personality:</b> Toydarians are proud and loyal beings who can sometimes border on sycophantic. Likewise, unsavory Toydarians put their keen minds to work deceiving their business partners and tricking unsuspecting folk into being the victims of Toydarian confidence schemes. </p><p><b>Physical Description:</b> Toydarians are rarely more than 1.5 meters tall. Toydarian skin color ranges from blue to green to pink. They are pudgy, with spindly limbs and a pair of fluttering wings that keeps them aloft. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Toydarians age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-6 Years </td> \n   <td>7-14 Years </td> \n   <td>15-60 Years </td> \n   <td>61-75 Years </td> \n   <td>76-90 Years </td> \n   <td>91+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Toydarians hail from <a href=\"https://swse.fandom.com/wiki/Toydaria\" title=\"Toydaria\">Toydaria</a>, an out-of-the-way planet in Hutt Space. <a href=\"https://swse.fandom.com/wiki/Airspeeders\" title=\"Airspeeders\">Airspeeders</a> are banned on <a href=\"https://swse.fandom.com/wiki/Toydaria\" title=\"Toydaria\">Toydaria</a> given the large amount of pedestrian air traffic. </p><p><b>Languages:</b> Toydarians speak their own language, known as Toydarian, as well as Huttese. Toydarians also speak Basic, though Huttese is their true second language. </p><p><b>Example Names:</b> Reti, Watto, Zlato. </p><p><b>Adventurers:</b> Toydarian heroes are likely among those Toydarians who have ventured forth from their home planet in search of fame, fortune, and glory. Toydarian heroes tend to gravitate toward the <a href=\"https://swse.fandom.com/wiki/Scoundrel\" title=\"Scoundrel\">Scoundrel</a> class where their sharp wits can be put to best use, though some may be <a href=\"https://swse.fandom.com/wiki/Nobles\" class=\"mw-redirect\" title=\"Nobles\">Nobles</a> as well. Toydarians also favor the <a href=\"https://swse.fandom.com/wiki/Scout\" title=\"Scout\">Scout</a> class, especially for the extra mobility. </p><h3><span class=\"mw-headline\" id=\"Toydarian_Species_Traits\">Toydarian Species Traits</span></h3><p>Toydarians share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Small",
+        "type": "trait"
+      },
+      {
+        "name": "Force Resistance",
+        "type": "trait"
+      },
+      {
+        "name": "Flight",
+        "type": "trait"
+      },
+      {
+        "name": "Hovering",
+        "type": "trait"
+      },
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Deception))",
+        "type": "trait"
+      },
+      {
+        "name": "Skill Focus (Deception)",
+        "type": "feat"
+      },
+      {
+        "name": "Fly Speed (6)",
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "6",
+          "low": "1",
+          "text": "1-6",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "60",
+          "low": "15",
+          "text": "15-60",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "75",
+          "low": "61",
+          "text": "61-75",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "90",
+          "low": "76",
+          "text": "76-90",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "14",
+          "low": "7",
+          "text": "7-14",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "91",
+          "text": "91+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Small"
+      },
+      {
+        "value": "Toydarians"
+      },
+      {
+        "value": "Force Resistance"
+      },
+      {
+        "value": "Flight"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Hovering"
+      },
+      {
+        "value": "Conditional Bonus Feat (Skill Focus (Deception))"
+      },
+      {
+        "value": "Conditional Bonus Feat"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Toydarian",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535567542,
+    "modifiedTime": 1736535567542,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "DTkqiKzkJBbCxpWV",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!DTkqiKzkJBbCxpWV"
+}

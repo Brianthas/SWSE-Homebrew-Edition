@@ -1,0 +1,72 @@
+{
+  "img": "systems/swse/icon/feat/Rapid Shot.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You can make two quick shots with a ranged weapon as a single attack.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Base_Attack_Bonus\" class=\"mw-redirect\" title=\"Base Attack Bonus\">Base Attack Bonus</a> +1</p><p><b>Effect:</b> When using a ranged weapon with which you are proficient, you may fire two shots as a single attack against a single target. You take a -2 penalty on your attack roll, but you deal +1 die of damage with a successful attack.</p><p><b>Special:</b> Using this Feat fires two shots and can only be done if the weapon has sufficient ammunition remaining. The effects of this Feat do not stack with the extra damage provided by the <a href=\"https://swse.fandom.com/wiki/Burst_Fire\" title=\"Burst Fire\">Burst Fire</a> Feat or the <a href=\"https://swse.fandom.com/wiki/Deadeye\" title=\"Deadeye\">Deadeye</a> Feat. If you do not have a <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> score of 13 or higher, increase the penalty to attacks to -5 when using this Feat with non-<a href=\"https://swse.fandom.com/wiki/Vehicle_Weapons\" class=\"mw-redirect\" title=\"Vehicle Weapons\">Vehicle Weapons</a>.</p><h2><span class=\"mw-headline\" id=\"Additional_Rapid_Shot_Effects\">Additional Rapid Shot Effects</span></h2><p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><p><b>Special:</b> This Feat works normally with Vehicle Weapons. However, if you are using a <a href=\"https://swse.fandom.com/wiki/Missiles_and_Torpedoes\" title=\"Missiles and Torpedoes\">Missile</a> or a <a href=\"https://swse.fandom.com/wiki/Missiles_and_Torpedoes\" title=\"Missiles and Torpedoes\">Torpedo</a> and you miss with your attack roll, the projectile does not gain the benefit of this Feat for the second attack roll.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Base Attack Bonus 1",
+      "requirement": "1",
+      "type": "BASE ATTACK BONUS"
+    },
+    "categories": [
+      {
+        "value": "Soldier Bonus Feats"
+      },
+      {
+        "value": "Ranged Feats"
+      },
+      {
+        "value": "Scoundrel Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Scout Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Bonus Feats",
+      "Scoundrel Bonus Feats",
+      "General Feats",
+      "Scout Bonus Feats",
+      "Smuggler Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Starships of the Galaxy",
+    "cost": "0"
+  },
+  "name": "Rapid Shot",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1761479028492,
+    "modifiedTime": 1786036141514,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "D4SDcyM7Eypoehih",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!D4SDcyM7Eypoehih"
+}

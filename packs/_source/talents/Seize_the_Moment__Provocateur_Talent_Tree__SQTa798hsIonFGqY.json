@@ -1,0 +1,67 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Once per turn as a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a>, when an enemy is reduced to 0 Hit Points or is moved down the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a> by any means, you allow one ally within your line of sight to take their <a href=\"https://swse.fandom.com/wiki/Second_Wind\" class=\"mw-redirect\" title=\"Second Wind\">Second Wind</a> immediately (as a <a href=\"https://swse.fandom.com/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a>).<br><br>Furthermore, when your ally takes their <a href=\"https://swse.fandom.com/wiki/Second_Wind\" class=\"mw-redirect\" title=\"Second Wind\">Second Wind</a>, they regain a number of additional Hit Points equal to your Class Level.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Distress to Discord talent",
+      "requirement": "Distress to Discord",
+      "type": "TALENT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Charlatan Talent Trees"
+      },
+      {
+        "value": "Noble Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Charlatan Talent Trees",
+      "Noble Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Provocateur Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Provocateur_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Legacy Era Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Seize the Moment (Provocateur Talent Tree)",
+  "flags": {},
+  "type": "talent",
+  "folder": "BxJnWIxzwLsXqSbE",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385310832,
+    "modifiedTime": 1734385310832,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "SQTa798hsIonFGqY",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!SQTa798hsIonFGqY"
+}

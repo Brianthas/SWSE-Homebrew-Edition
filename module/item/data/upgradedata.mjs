@@ -20,8 +20,10 @@ export default class UpgradeData extends ItemSystemDataModel {
             ...ItemFields(),
             ...ModFields(),
             upgrade: new fields.ObjectField({initial: {}}),
-            equipped: new fields.StringField({initial: "unequipped", blank: true, required: false}),
-            stripping: new fields.ObjectField({initial: {}})
+            equipped: new fields.StringField({initial: "", blank: true, required: false}),
+            stripping: new fields.ObjectField({initial: {}}),
+            upgradePointCost: new fields.NumberField({initial: null, required: false}),
+            seeAlso: new fields.StringField({initial: "", blank: true, required: false})
         };
     }
 }

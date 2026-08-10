@@ -1,0 +1,67 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "4d6",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A Starship begins its turn within an Asteroid Field.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round at the start of the Starship's turn, as long as the Starship remains within the Asteroid Field.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Perception (DC 19): The character notices asteroids heading toward the Starship. Pilot (DC 28): The character tries to avoid hitting any asteroids for 1 round, gaining a +5 circumstance bonus to the Starship's Reflex Defense to avoid the incoming rocks.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Atmosphere",
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>\"The possibility of successfully navigating an asteroid field is approximately 3,720 to 7.\" -C-3PO</i> </p><p>An Asteroid Field holds a lot of potential for space encounters. If creatures are willing to risk the asteroids and find a large enough rock, they could hide within the field and wait to ambush unsuspecting foes. The Asteroid Field could also be used as a line of defense for a group that sets up a base of operations inside one of the larger asteroids. Alternatively, the heroes could pick up a distress call from a vessel trapped within the field and try to help it escape. Of course, an Asteroid Field makes a good backdrop for a high-speed chase scene as well. </p><h2><span id=\"Asteroid_Field_Statistics_.28CL_10.29\"></span><span class=\"mw-headline\" id=\"Asteroid_Field_Statistics_(CL_10)\">Asteroid Field Statistics (CL 10)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Atmosphere, Natural </p><p><b>Trigger:</b> A Starship begins its turn within an Asteroid Field. </p><p><b>Attack:</b> +12 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> Each round at the start of the Starship's turn, as long as the Starship remains within the Asteroid Field. </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> (DC 19):</b> The character notices asteroids heading toward the Starship.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> (DC 28):</b> The character tries to avoid hitting any asteroids for 1 round, gaining a +5 circumstance bonus to the Starship's <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> to avoid the incoming rocks.</li>\n</ul>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Asteroid Field",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244281,
+    "modifiedTime": 1749263244281,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "Z9M9Ego939IZCKOr",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!Z9M9Ego939IZCKOr"
+}

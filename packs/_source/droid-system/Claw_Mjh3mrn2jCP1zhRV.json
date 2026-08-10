@@ -1,0 +1,42 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Appendages",
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "droidPart"
+      }
+    ],
+    "description": "<p>Claws are an intermediate step between <a href=\"https://swse.fandom.com/wiki/Tool\" title=\"Tool\">Tools</a> and <a href=\"https://swse.fandom.com/wiki/Hand\" title=\"Hand\">Hands</a>. They are useful for grabbing onto objects to be moved, but aren't very good for tasks that require fine manipulation. For example, while a Droid could easily carry a blaster in its Claw, it would have difficulty firing it. A Droid using a Claw to perform a task that normally requires a true hand must make a DC 15 <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> check to succeed at the task. If the check fails, the Droid drops the object it is attempting to manipulate.</p>",
+    "cost": "20 x Cost Factor",
+    "weight": "(5 x Cost Factor) Kilograms",
+    "appendages": "1",
+    "appendageType": "Claw",
+    "droidUnarmedDamageScalable": "1d4"
+  },
+  "name": "Claw",
+  "flags": {},
+  "type": "droid system",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764449015866,
+    "modifiedTime": 1764449015866,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "Mjh3mrn2jCP1zhRV",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!Mjh3mrn2jCP1zhRV"
+}

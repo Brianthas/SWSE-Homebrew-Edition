@@ -1,0 +1,45 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><br> Whenever a being reduces a living creature with an <a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a> score of 3 or higher to 0 Hit Points, or the being knocks the creature unconscious by moving it down the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>, the being can transform the target into a Joiner. The target must be <a href=\"https://swse.fandom.com/wiki/Helpless\" class=\"mw-redirect\" title=\"Helpless\">Helpless</a> for this to occur. The process takes 1 minute and exposes the target to mind-altering pheromones.</p><p>Once the target becomes a Joiner, its <a href=\"https://swse.fandom.com/wiki/Attitude\" class=\"mw-redirect\" title=\"Attitude\">Attitude</a> shifts to <a href=\"https://swse.fandom.com/wiki/Friendly\" class=\"mw-redirect\" title=\"Friendly\">Friendly</a> to the being and its allies, and the target gains a +10 bonus to its <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a> against attempts to use <a href=\"https://swse.fandom.com/wiki/Persuasion\" title=\"Persuasion\">Persuasion</a> to alter its perceptions of its new being friends.</p><p>A target transformed into a Joiner in this manner can make a DC 20 <a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a> check once per day to remove the effect and return to its original <a href=\"https://swse.fandom.com/wiki/Attitude\" class=\"mw-redirect\" title=\"Attitude\">Attitude</a>. This is a <a href=\"https://swse.fandom.com/wiki/Mind-Affecting\" class=\"mw-redirect\" title=\"Mind-Affecting\">Mind-Affecting</a> effect.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "prerequisite": null,
+    "cost": "0"
+  },
+  "name": "Joiners",
+  "flags": {},
+  "type": "trait",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764446476500,
+    "modifiedTime": 1764446476500,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "eiB2q2PqlmqfGxyL",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!eiB2q2PqlmqfGxyL"
+}

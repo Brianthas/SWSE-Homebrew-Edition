@@ -1,26 +1,77 @@
 {{!-- Defenses Block --}}
-<div class="defenses-block panel flex flex-col">
-    <div class="flex-row">
-        <h1 class="huge resource-label">Defenses
-            <a data-action="to-chat" data-action-type="defense" title="Share"><i class="fas fa-share"></i></a>
-        </h1>
-        <div class="large large-header">Base<br/></div>
-        <div class="large large-header">Level/<br/>Armor</div>
-        <div class="large large-header">Ability<br/></div>
-        <div class="large large-header">Class<br/></div>
-        <div class="large large-header">Misc<br/></div>
+<div class="defenses-block panel area-defenses">
+    <h1 class="top-label resource-label">Defenses
+        <a data-action="to-chat" data-action-type="defense" title="Share"><i class="fas fa-share"></i></a>
+    </h1>
+
+    <div class="defense-table">
+        <span class="defense-head"></span>
+        <span class="defense-head" title="Total">Tot</span>
+        <span class="defense-head" title="Base">Base</span>
+        <span class="defense-head" title="Level / Armor">Lvl</span>
+        <span class="defense-head" title="Ability">Abil</span>
+        <span class="defense-head" title="Assigned Defense points (4 to spend, max 2 each)">Def 1</span>
+        <span class="defense-head" title="Additional Defense points gained at level 10 (4 to spend, max 2 each)">Def 10</span>
+        <span class="defense-head" title="Miscellaneous">Misc</span>
+
+        {{#each actor.system.defense as |def id|}}
+            {{#unless def.skip}}
+                {{#if def.defenseBlock}}
+                    {{> 'systems/swse/templates/actor/parts/actor-defense-block.hbs'
+                        def=def
+                        toggles=../actor.system.toggles
+                        budget=../actor.system.defense.pointBudget
+                        poolKey=(toLowercase def.name)
+                        pool=(lookup ../actor.system.defense.defensePoints (toLowercase def.name))}}
+                {{/if}}
+            {{/unless}}
+        {{/each}}
     </div>
-    {{#each actor.system.defense as |def id|}}
-        {{#unless def.skip}}
-            {{#if def.defenseBlock}}
-                {{> 'systems/swse/templates/actor/parts/actor-defense-block.hbs'def=def toggles=../actor.system.toggles}}
-            {{/if}}
-        {{/unless}}
-    {{/each}}
 
+    {{!-- Point budget readout: homebrew grants 4 points (max 2 per Defense), plus a
+          second pool of 4 at level 10. --}}
+    <div class="defense-budget">
+        <span class="{{#if actor.system.defense.pointBudget.level1Over}}over-budget{{/if}}">
+            Def 1: {{actor.system.defense.pointBudget.level1Used}} / {{actor.system.defense.pointBudget.level1Max}}
+        </span>
+        {{#if actor.system.defense.pointBudget.level10Unlocked}}
+            <span class="{{#if actor.system.defense.pointBudget.level10Over}}over-budget{{/if}}">
+                Def 10: {{actor.system.defense.pointBudget.level10Used}} / {{actor.system.defense.pointBudget.level10Max}}
+            </span>
+        {{else}}
+            <span class="budget-locked">Def 10 unlocks at level 10</span>
+        {{/if}}
+    </div>
 
+    {{!-- A plain manual add-on for anything not modeled elsewhere (e.g. Improved Defenses) —
+          folds into the Misc column above so the combined bonus is visible on the main row;
+          always additive, never replaces the auto-computed portion.
+          Character-only: DefenseFields.npc (vehicles/npc-vehicles) doesn't declare this schema
+          field, so an editable input bound to it here would silently fail to save on those. --}}
+    {{#ifEquals actor.type "character"}}
+    <div class="defense-additional-modifier">
+        <span class="defense-additional-modifier-label" title="Adds to the Misc column above and the total.">Additional Modifiers</span>
+        <div class="defense-additional-modifier-rows">
+            <label title="Fortitude">
+                Fort
+                <input type="number" name="system.defense.additionalModifier.fortitude"
+                       value="{{actor.system.defense.additionalModifier.fortitude}}" data-dtype="Number"/>
+            </label>
+            <label title="Reflex">
+                Ref
+                <input type="number" name="system.defense.additionalModifier.reflex"
+                       value="{{actor.system.defense.additionalModifier.reflex}}" data-dtype="Number"/>
+            </label>
+            <label title="Will">
+                Will
+                <input type="number" name="system.defense.additionalModifier.will"
+                       value="{{actor.system.defense.additionalModifier.will}}" data-dtype="Number"/>
+            </label>
+        </div>
+    </div>
+    {{/ifEquals}}
 
     {{#each actor.system.defense.situationalBonuses as |bonus id|}}
-        <div class="panel">{{bonus}}</div>
+        <div class="field-value">{{bonus}}</div>
     {{/each}}
 </div>

@@ -1,0 +1,149 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p> Sluissi are pioneers of faster-than-light propulsion, having developed space travel before their first contact with <a href=\"https://swse.fandom.com/wiki/Duros\" title=\"Duros\">Duros</a> and <a href=\"https://swse.fandom.com/wiki/Human\" title=\"Human\">Human</a> explorers and the Old Republic. Their home planet of <a href=\"https://swse.fandom.com/wiki/Sluis_Van\" title=\"Sluis Van\">Sluis Van</a> is known for centuries as an excellent shipyard. The Sluissi use their shipyards to reinforce and expand their contact with other <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> and to maintain and improve their position within the Republic.</p><p>Sluissi <a href=\"https://swse.fandom.com/wiki/Technicians\" class=\"mw-redirect\" title=\"Technicians\">Technicians</a> are renowned for Starship construction and modification. Although Sluissi methods are slower than others, customers are willing to wait to own the best Starship technology available. The Sluissi consider Starship construction to be an art form. So respected are Sluissi shipyards that the slow pace of construction is tolerated by even the Empire, albeit impatiently. </p><h3><span class=\"mw-headline\" id=\"Sluissi_Characteristics\">Sluissi Characteristics</span></h3><p><b>Personality:</b> Sluissi are tinkerers at heart. Even those who do not pursue mechanical arts professionally dabble in them regularly. Most Sluissi encountered away from their homeworld and colonies are apprentice mechanics or skilled <a href=\"https://swse.fandom.com/wiki/Technicians\" class=\"mw-redirect\" title=\"Technicians\">Technicians</a>. They have an unhurried style that tries the patience of even the most tolerant travelers and clients. Sluissi are sociable, even among other <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>. </p><p><b>Physical Description:</b> Sluissi have long, legless, and distinctly serpentine bodies that are covered in fine scales, typically ranging in color from light brown to dark green. A Sluissi's eyes are round and totally black. A forked tongue aids a Sluissi's sense of smell. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Sluissi age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-8 Years </td> \n   <td>9-14 Years </td> \n   <td>15-39 Years </td> \n   <td>40-59 Years </td> \n   <td>60-75 Years </td> \n   <td>76+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The Outer Rim world of <a href=\"https://swse.fandom.com/wiki/Sluis_Van\" title=\"Sluis Van\">Sluis Van</a>, a planet surrounded by its countless orbital shipyards. </p><p><b>Languages:</b> Sluissi speak Sluissese. They also speak Basic, although they tend to lisp and slur many words due to the snakelike structures of their tongues and mouth. </p><p><b>Example Names:</b> Hass Sonax, Mektiss Risohr, Secles Uslopos, Sekae N'sehnor, Sirlahn Alsek, Ten Dorne, Usahn L'sehl, Vsil Ejahsa. </p><p><b>Adventurers:</b> Sluissi travel individually or in small groups. They easily find work as <a href=\"https://swse.fandom.com/wiki/Technicians\" class=\"mw-redirect\" title=\"Technicians\">Technicians</a> and Starship mechanics throughout the galaxy. </p><h3><span class=\"mw-headline\" id=\"Sluissi_Species_Traits\">Sluissi Species Traits</span></h3><p>Sluissi share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Sluissi",
+        "type": "trait"
+      },
+      {
+        "name": "Serpentine",
+        "type": "trait"
+      },
+      {
+        "name": "Conditional Bonus Feat (Tech Specialist)",
+        "type": "trait"
+      },
+      {
+        "name": "Careful Worker",
+        "type": "trait"
+      },
+      {
+        "name": "Tech Specialist",
+        "type": "feat"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "14",
+          "low": "9",
+          "text": "9-14",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "59",
+          "low": "40",
+          "text": "40-59",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "39",
+          "low": "15",
+          "text": "15-39",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "75",
+          "low": "60",
+          "text": "60-75",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "8",
+          "low": "1",
+          "text": "1-8",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "76",
+          "text": "76+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Sluissi"
+      },
+      {
+        "value": "Serpentine"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Conditional Bonus Feat"
+      },
+      {
+        "value": "Conditional Bonus Feat (Tech Specialist)"
+      },
+      {
+        "value": "Careful Worker"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Sluissi",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535567261,
+    "modifiedTime": 1736535567261,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "bzYfoMlxDd51N5R6",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!bzYfoMlxDd51N5R6"
+}

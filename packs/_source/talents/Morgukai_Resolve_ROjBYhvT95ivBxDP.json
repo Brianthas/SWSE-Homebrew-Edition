@@ -1,0 +1,82 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Morgukai warriors have trained their minds to resist the effects of Jedi mind tricks, and as such, gain a +5 bonus to their <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a> versus any <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a> with the [<i><a href=\"https://swse.fandom.com/wiki/Mind-Affecting\" class=\"mw-redirect\" title=\"Mind-Affecting\">Mind-Affecting</a></i>] descriptor.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Nikto Survival feat",
+      "requirement": "Nikto Survival",
+      "type": "FEAT"
+    },
+    "categories": [
+      {
+        "value": "Untested"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Elite Trooper Talent Trees"
+      },
+      {
+        "value": "Homebrew Content"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Untested",
+      "Elite Trooper Talent Trees",
+      "Homebrew Content"
+    ],
+    "isSupplied": false,
+    "talentTree": "Morgukai Warrior Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Morgukai_Warrior_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Clone Wars Saga Edition Fan Sourcebook - Jedi Knights (Part 3)",
+    "cost": "0"
+  },
+  "name": "Morgukai Resolve",
+  "flags": {},
+  "type": "talent",
+  "folder": "G4rsoSmbm2Xgb8t3",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385309902,
+    "modifiedTime": 1734385309902,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "ROjBYhvT95ivBxDP",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!ROjBYhvT95ivBxDP"
+}

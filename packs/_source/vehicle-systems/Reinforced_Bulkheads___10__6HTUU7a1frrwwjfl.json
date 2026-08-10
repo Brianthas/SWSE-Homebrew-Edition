@@ -1,0 +1,35 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Defense Systems",
+    "changes": [],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><table class=\"wikitable\">\n <tbody>\n  <tr>\n   <th>REINFORCED BULKHEADS</th>\n   <th>EMPLACEMENT POINTS</th>\n   <th>AVAILABILITY</th>\n   <th>COST</th>\n  </tr>\n  <tr>\n   <td>+10%</td>\n   <td>2</td>\n   <td>Common</td>\n   <td>2000 (Base)</td>\n  </tr>\n  <tr>\n   <td>+20%</td>\n   <td>5</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Licensed\" class=\"mw-redirect\" title=\"Licensed\">Licensed</a></td>\n   <td>5000 (Base)</td>\n  </tr>\n  <tr>\n   <td>+30%</td>\n   <td>10</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Restricted\" class=\"mw-redirect\" title=\"Restricted\">Restricted</a></td>\n   <td>10000 (Base)</td>\n  </tr>\n </tbody>\n</table><p>The overall durability of a craft can be increased by reinforcing it's internal bulkheads. Reinforced Bulkheads increase a Starship's Hit Points by 10%, 20%, or 30% (These improvements don't stack).</p>",
+    "cost": "2000 (Base)",
+    "emplacementPoints": "2",
+    "availability": "Common",
+    "hitPointEq": "10"
+  },
+  "name": "Reinforced Bulkheads, +10%",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848316941,
+    "modifiedTime": 1759848316941,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "6HTUU7a1frrwwjfl",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!6HTUU7a1frrwwjfl"
+}

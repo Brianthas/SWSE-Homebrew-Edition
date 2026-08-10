@@ -1,0 +1,68 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2d8",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "An attack misses a square adjacent to the Exposed Plasma Conduit.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round at the start of the target's turn, as long as the target remains exposed to the Exposed Plasma Conduit.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Jump (DC 23): The character leaps over or away from the spilled plasma, gaining a +2 circumstance bonus to Reflex Defense against the Hazard. Treat Injury (DC 18; Requires Medpac): The character treats an injured creature for plasma burns. Use Computer (DC 28): The character slices into the control network and diverts the plasma flow away from the area, negating the Hazard.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Artificial or Natural",
+          "Contact",
+          "Fire"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>A channel for moving superheated plasma has been ruptured, spilling its contents into the open.</i> </p><p>Plasma conduits are most commonly encountered within manufacturing facilities or power plants, but they can appear anywhere that plasma is used. Since the means of transporting this superheated material must be very strong to prevent its accidental release, ruptures are rare. Most of the time, combatants who seek to use this Hazard to their advantage will create it by shooting the conduit themselves. Then they use the unexpected danger as a diversion to keep their enemies occupied while they flee, or they let the plasma create a means of escape by burning through the floor. </p><h2><span id=\"Exposed_Plasma_Conduit_Statistics_.28CL_9.29\"></span><span class=\"mw-headline\" id=\"Exposed_Plasma_Conduit_Statistics_(CL_9)\">Exposed Plasma Conduit Statistics (CL 9)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Artificial or Natural, Contact, Fire </p><p><b>Trigger:</b> An attack misses a square adjacent to the Exposed Plasma Conduit. </p><p><b>Attack:</b> +11 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> Each round at the start of the target's turn, as long as the target remains exposed to the Exposed Plasma Conduit. </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Jump\" title=\"Jump\">Jump</a></b> <b>(DC 23):</b> The character leaps over or away from the spilled plasma, gaining a +2 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against the Hazard.</li> \n <li><a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\"><b>Treat Injury</b></a> <b>(DC 18; Requires <a href=\"https://swse.fandom.com/wiki/Medpac\" title=\"Medpac\">Medpac</a>):</b> The character treats an injured creature for plasma burns.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> (DC 28):</b> The character slices into the control network and diverts the plasma flow away from the area, negating the Hazard.</li>\n</ul>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Exposed Plasma Conduit",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244470,
+    "modifiedTime": 1749263244470,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "XFtv1yRpw1sPchO3",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!XFtv1yRpw1sPchO3"
+}

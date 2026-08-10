@@ -1,0 +1,113 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode"
+        }
+      },
+      "statuses": [],
+      "disabled": false,
+      "name": "Single-Shot",
+      "_id": "UVXEVr8El0Y3e2ru",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513525,
+        "modifiedTime": 1786051513525,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!3BAAWqFsjsuB3JIV.UVXEVr8El0Y3e2ru"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p>Created and produced by the <a href=\"https://swse.fandom.com/wiki/Verpine\" title=\"Verpine\">Verpine</a>, the Shattergun is an extremely powerful but deceptively fragile handgun. Utilizing a magnetic coil, the Verpine Shattergun is nearly silent when fired, but it causes tremendous kinetic damage with small metallic projectiles that are accelerated to just under the speed of sound. The <a href=\"https://swse.fandom.com/wiki/Verpine\" title=\"Verpine\">Verpine</a> could increase the velocity of the projectiles, but the resulting sonic boom would be far more detrimental to the shooter than the benefit provided. </p><p>On a successful Critical Hit, a Verpine Shattergun deals an additional 1d10 points of damage (after multiplying for the Critical Hit). Verpine Shatterguns are extremely fragile, so if the weapon takes any damage, it is considered disabled until <a href=\"https://swse.fandom.com/wiki/Repaired\" class=\"mw-redirect\" title=\"Repaired\">Repaired</a> with a <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> check. <a href=\"https://swse.fandom.com/wiki/Verpine\" title=\"Verpine\">Verpine</a> treat Verpine Shatterguns as <a href=\"https://swse.fandom.com/wiki/Pistols\" title=\"Pistols\">Pistols</a>, rather than as <a href=\"https://swse.fandom.com/wiki/Exotic_Weapons_(Ranged)\" title=\"Exotic Weapons (Ranged)\">Exotic Weapons (Ranged)</a>. </p><p>A Verpine Shattergun is treated as a <a href=\"https://swse.fandom.com/wiki/Pistol\" class=\"mw-redirect\" title=\"Pistol\">Pistol</a> for the purpose of determining <a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a>, and it uses a special ammunition clip, which costs 1,000 credits for 50 shots. After 50 shots, the ammunition clip must be replaced. </p><p><b>Accurate:</b> This weapon takes no penalty when firing at targets at Short&nbsp;<a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a>. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Pistols",
+        "key": "treatedAs"
+      }
+    ],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "15,000",
+    "weight": "1 Kilogram",
+    "availability": "Illegal, Rare",
+    "size": "Medium",
+    "type": "",
+    "subtype": "Exotic Ranged Weapons",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "3d10",
+    "damageType": "Energy"
+  },
+  "name": "Verpine Shattergun",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Verpine_Shattergun.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513525,
+    "modifiedTime": 1786051513587,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "3BAAWqFsjsuB3JIV",
+  "_key": "!items!3BAAWqFsjsuB3JIV"
+}

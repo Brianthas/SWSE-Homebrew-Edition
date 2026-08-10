@@ -1,0 +1,82 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Movement Systems",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Gargantuan or Smaller",
+          "requirement": "Diminutive",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Gargantuan or Smaller",
+          "requirement": "Fine",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Gargantuan or Smaller",
+          "requirement": "Small",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Gargantuan or Smaller",
+          "requirement": "Medium",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Gargantuan or Smaller",
+          "requirement": "Large",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Gargantuan or Smaller",
+          "requirement": "Huge",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Gargantuan or Smaller",
+          "requirement": "Gargantuan",
+          "type": "TRAIT"
+        }
+      ],
+      "count": 1,
+      "text": "Gargantuan or Smaller",
+      "type": "OR"
+    },
+    "changes": [
+      {
+        "mode": 2,
+        "value": "25%",
+        "key": "atmosphericThrusterBonus"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><table class=\"wikitable\">\n <tbody>\n  <tr>\n   <th>ATMOSPHERIC THRUSTERS</th>\n   <th>EMPLACEMENT POINTS</th>\n   <th>AVAILABILITY</th>\n   <th>SIZE RESTRICTION</th>\n   <th>COST</th>\n  </tr>\n  <tr>\n   <td>Standard</td>\n   <td>2</td>\n   <td>Common</td>\n   <td>Colossal or Smaller</td>\n   <td>2000 (Base)</td>\n  </tr>\n  <tr>\n   <td>Advanced</td>\n   <td>5</td>\n   <td>Common</td>\n   <td>Gargantuan or Smaller</td>\n   <td>5000 (Base)</td>\n  </tr>\n </tbody>\n</table><p>Atmospheric Thrusters increase a Starship's speed when the ship is flying in the atmosphere of a planet. Any Starship able to operate in an atmosphere has some engine system designed for air flight, normally a combination of repulsorlifts and ion engines. Atmospheric Thrusters are an augmentation of these base systems, designed to make the Starship more competitive with a dedicated <a href=\"https://swse.fandom.com/wiki/Airspeeder\" class=\"mw-redirect\" title=\"Airspeeder\">Airspeeder</a>.</p><p>Standard Atmospheric Thrusters increase a Starship's maximum velocity and fly speed by 10%, while Advanced Atmospheric Thrusters increase these by 25% (rounded down to the nearest square of speed and 10 km/h). Thus, an <a href=\"https://swse.fandom.com/wiki/X-Wing\" class=\"mw-redirect\" title=\"X-Wing\">X-Wing</a> with Standard Atmospheric Thrusters has a maximum velocity of 1,150 km/h and a fly speed of 17 squares at <a href=\"https://swse.fandom.com/wiki/Character_Scale\" class=\"mw-redirect\" title=\"Character Scale\">Character Scale</a>.</p><p>Atmospheric Thrusters have no effect on <a href=\"https://swse.fandom.com/wiki/Starship_Scale\" class=\"mw-redirect\" title=\"Starship Scale\">Starship Scale</a> movement.</p>",
+    "cost": "5000 (Base)",
+    "emplacementPoints": "5",
+    "availability": "Common"
+  },
+  "name": "Atmospheric Thrusters, Advanced",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848316870,
+    "modifiedTime": 1759848316870,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "TatuSADywqfeHShY",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!TatuSADywqfeHShY"
+}

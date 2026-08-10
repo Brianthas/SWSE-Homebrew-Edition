@@ -1,0 +1,207 @@
+// Attacks panel: pf2e/sf2e-style compact card, one row per weapon (replacing the old bare
+// formula rows) — icon, name, ability override, baseline to-hit/damage, and a one-click Attack
+// button, all visible without expanding. Expand for range/crit/type/notes/modes detail. Same
+// idiom as the Classes tab (_classes.scss): flex-column list of cards, a header row-style
+// toggle/control pattern reused from the existing collapsible-container/data-toggle-id system.
+
+.attack-list {
+  display: flex;
+  flex-direction: column;
+  gap: $space-2xs;
+}
+
+// The "+" icon sits inline in the "ATTACKS" header bar, which is light-on-dark
+// (.top-label: color:var(--swse-bg) on background:var(--swse-accent)) — but a plain <a> picks
+// up the sitewide `color: var(--swse-accent)` link rule instead of the bar's own text color,
+// rendering the same cyan on cyan and making it invisible. Swap to a small dark chip instead,
+// the same background/color-swap contrast trick .classes-header-actions a already uses
+// elsewhere (_classes.scss) for icons embedded in this same bright header-bar idiom.
+.weapon-summary-header .top-label a.add-custom-attack-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  margin-left: $space-2xs;
+  border-radius: $radius-sm;
+  background: var(--swse-bg);
+  color: var(--swse-accent);
+
+  &:hover {
+    background: var(--swse-text);
+  }
+}
+
+// The character sheet places this panel (actor-weapon-armor-summary.hbs) via .summary-grid's
+// CSS Grid, where it already stretches to fill its cell. The vehicle sheet places the same
+// panel in a plain flex row instead — without an explicit width it only sizes to its content,
+// squeezing the weapon rows' name/dropdown columns down to nothing and truncating them badly.
+.weapon-summary-header {
+  width: 100%;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.attack-card {
+  background: var(--swse-surface-raised);
+  border-radius: $radius-sm;
+  padding: $space-2xs $space-xs;
+}
+
+.attack-row {
+  display: flex;
+  align-items: center;
+  gap: $space-xs;
+  min-height: 30px;
+}
+
+.attack-toggle {
+  width: 14px;
+  flex: 0 0 14px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.attack-image {
+  width: 24px;
+  flex: 0 0 24px;
+  height: 24px;
+  border-radius: $radius-sm;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.attack-name {
+  flex: 1 1 auto;
+  min-width: 0;
+  font-weight: 700;
+  color: var(--swse-text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+a.attack-name {
+  cursor: pointer;
+
+  &:hover {
+    color: var(--swse-accent);
+  }
+}
+
+.attack-ability-select {
+  width: 84px;
+  flex: 0 0 84px;
+  height: 22px;
+  min-height: 0;
+  padding: 0 $space-2xs;
+  font-size: 10px;
+}
+
+.attack-hands-select {
+  width: 60px;
+  flex: 0 0 60px;
+  height: 22px;
+  min-height: 0;
+  padding: 0 $space-2xs;
+  font-size: 10px;
+}
+
+.attack-tohit, .attack-damage {
+  flex: 0 1 140px;
+  min-width: 0;
+  font-size: 11px;
+  color: var(--swse-text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.attack-roll-btn {
+  width: 26px;
+  flex: 0 0 26px;
+  height: 26px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: $radius-sm;
+  background: var(--swse-accent-combat);
+  color: var(--swse-bg);
+  cursor: pointer;
+
+  // fa-dice-d20's glyph reads slightly off-center within its own bounding box — optical, not
+  // layout, nudge. Measured directly via pixel-bounds analysis of a zoomed screenshot (modal
+  // background color vs. glyph-colored pixels, corner-radius bleed and capture-edge artifacts
+  // excluded) and iterated against that measurement: -1px left ~0.56px of rightward bias,
+  // -1.6px overshot ~0.34px left the other way — -1.25px measures dead-center horizontally.
+  i {
+    transform: translate(-1.25px, 0.5px);
+  }
+
+  &:hover {
+    background: var(--swse-text);
+  }
+}
+
+// Only rendered for custom (non-equipment) attacks — real weapons are deleted/unequipped
+// from the Equipment tab instead.
+.attack-delete-btn {
+  width: 18px;
+  flex: 0 0 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  color: var(--swse-text-muted);
+  cursor: pointer;
+
+  &:hover {
+    color: var(--swse-accent-combat);
+  }
+}
+
+.attack-detail {
+  flex-direction: column;
+  gap: $space-2xs;
+  margin: $space-2xs 0 $space-2xs 22px;
+  padding-left: $space-xs;
+  border-left: 2px solid var(--swse-border);
+}
+
+.attack-detail-row {
+  display: flex;
+  gap: $space-md;
+}
+
+.detail-item {
+  display: flex;
+  align-items: baseline;
+  gap: $space-2xs;
+}
+
+.detail-label {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--swse-text-muted);
+}
+
+.detail-value {
+  font-size: 11px;
+  color: var(--swse-text);
+}
+
+.attack-notes {
+  font-size: 11px;
+  color: var(--swse-text-muted);
+
+  &:empty {
+    display: none;
+  }
+}

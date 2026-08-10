@@ -1,0 +1,156 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Force_Unleashed_Campaign_Guide\" title=\"Star Wars Saga Edition Force Unleashed Campaign Guide\">Star Wars Saga Edition Force Unleashed Campaign Guide</a></i> </p><p> Gran originally came from the world and system of <a href=\"https://swse.fandom.com/wiki/Kinyen\" title=\"Kinyen\">Kinyen</a> in <a href=\"https://swse.fandom.com/wiki/The_Expansion_Region\" title=\"The Expansion Region\">The Expansion Region</a>. They are longtime members of galactic society, with numerous colonies. Although most of these colonies are peaceful, their colony on <a href=\"https://swse.fandom.com/wiki/Malastare\" title=\"Malastare\">Malastare</a> quickly became embroiled in a bitter conflict with the native <a href=\"https://swse.fandom.com/wiki/Dugs\" class=\"mw-redirect\" title=\"Dugs\">Dugs</a>, forcing the Gran to act aggressively to protect themselves.</p><p>Gran place society over self, and they receive training that complements both their personal talents and society's needs. The desire to maintain balance within society caused the Gran to establish alien-only areas of <a href=\"https://swse.fandom.com/wiki/Kinyen\" title=\"Kinyen\">Kinyen</a>. This was intended to restrict alien influence and avoid trouble between <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>, such as what happened on <a href=\"https://swse.fandom.com/wiki/Malastare\" title=\"Malastare\">Malastare</a>. During <a href=\"https://swse.fandom.com/wiki/The_Dark_Times\" class=\"mw-redirect\" title=\"The Dark Times\">The Dark Times</a>, the Empire has pushed the Gran leadership to grant access to all areas. When the Gran refused, <a href=\"https://swse.fandom.com/wiki/Kinyen\" title=\"Kinyen\">Kinyen</a> was subjected to orbital bombardment. The <a href=\"https://swse.fandom.com/wiki/Kinyen\" title=\"Kinyen\">Kinyen</a> Gran relented, but the incident inspired many Gran to resist the new Empire. </p><h3><span class=\"mw-headline\" id=\"Gran_Characteristics\">Gran Characteristics</span></h3><p><b>Personality:</b> Gran are highly social and unable to stand solitude, or isolation from other Gran, for any length of time. Most are talkative, friendly, and hospitable. They are slow to anger. Gran friendships are for life. Gran from <a href=\"https://swse.fandom.com/wiki/Malastare\" title=\"Malastare\">Malastare</a> and other colonies follow looser social codes than those from the homeworld . </p><p><b>Physical Description:</b> The beige-skinned Gran have three distinctive eye stalks with pitch-black eyes, ahead of small horns and large, triangular ears. Males and females have similar builds. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Gran age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-10 Years </td> \n   <td>11-15 Years </td> \n   <td>16-40 Years </td> \n   <td>41-62 Years </td> \n   <td>63-79 Years </td> \n   <td>80+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> <a href=\"https://swse.fandom.com/wiki/Kinyen\" title=\"Kinyen\">Kinyen</a>, with colonies on many other worlds, including <span class=\"new\" title=\"Hok (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvSG9rP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Hok</span> and <a href=\"https://swse.fandom.com/wiki/Malastare\" title=\"Malastare\">Malastare</a>. </p><p><b>Languages:</b> Gran speak, read, and write their own language of Gran, as well as Basic. </p><p><b>Example Names:</b> Ainlee Teem, Aks Moe, Ask Aak, Baskol Yeesrim, Cera Vixe, Cruegar, Kea R- Lan, Mawhonic, Nadin Paal, Ree-Yees, Vee Naaq. </p><p><b>Adventurers:</b> Heroic Gran are often <a href=\"https://swse.fandom.com/wiki/Nobles\" class=\"mw-redirect\" title=\"Nobles\">Nobles</a>, <a href=\"https://swse.fandom.com/wiki/Scoundrels\" class=\"mw-redirect\" title=\"Scoundrels\">Scoundrels</a>, <a href=\"https://swse.fandom.com/wiki/Scouts\" class=\"mw-redirect\" title=\"Scouts\">Scouts</a>, and bounty hunters. Prior to <a href=\"https://swse.fandom.com/wiki/The_Dark_Times\" class=\"mw-redirect\" title=\"The Dark Times\">The Dark Times</a>, Gran <a href=\"https://swse.fandom.com/wiki/Jedi\" title=\"Jedi\">Jedi</a> were common, and it is possible that some survived the initial Jedi Purge. After the bombardment of <a href=\"https://swse.fandom.com/wiki/Kinyen\" title=\"Kinyen\">Kinyen</a>, individualistic Gran find themselves open to other methods of serving society, looking for new ways to resist the Empire. </p><h3><span class=\"mw-headline\" id=\"Gran_Species_Traits\">Gran Species Traits</span></h3><p>Gran share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Target Awareness",
+        "type": "trait"
+      },
+      {
+        "name": "Innate Accuracy",
+        "type": "trait"
+      },
+      {
+        "name": "Conditional Bonus Feat (Precise Shot)",
+        "type": "trait"
+      },
+      {
+        "name": "Gran",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Darkvision",
+        "type": "trait"
+      },
+      {
+        "name": "Precise Shot",
+        "type": "feat"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "15",
+          "low": "11",
+          "text": "11-15",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "40",
+          "low": "16",
+          "text": "16-40",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "79",
+          "low": "63",
+          "text": "63-79",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "62",
+          "low": "41",
+          "text": "41-62",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "80",
+          "text": "80+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "10",
+          "low": "1",
+          "text": "1-10",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Target Awareness"
+      },
+      {
+        "value": "Innate Accuracy"
+      },
+      {
+        "value": "Conditional Bonus Feat (Precise Shot)"
+      },
+      {
+        "value": "Gran"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Darkvision"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Conditional Bonus Feat"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Gran",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535566206,
+    "modifiedTime": 1736535566206,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "FrwyLFiwgzWGDnvD",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!FrwyLFiwgzWGDnvD"
+}

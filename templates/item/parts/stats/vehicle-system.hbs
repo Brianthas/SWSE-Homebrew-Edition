@@ -1,0 +1,90 @@
+<div class="weapon-stat-block flex flex-row flex-wrap">
+    <div class="labeled-input"><label for="emplacement-points">Emplacement Points</label>
+        <input class="input" type="text" name="system.emplacementPoints" value="{{item.system.emplacementPoints}}"/>
+    </div>
+
+    {{#ifEquals item.system.subtype "Weapon Systems"}}
+        <div class="labeled-input"><label for="damage">Damage</label>
+            <input class="input" type="text" name="system.damage" value="{{item.system.damage}}"/>
+        </div>
+        <div class="labeled-input"><label for="damage-type">Damage Type</label>
+            <input class="input" type="text" name="system.damageType" value="{{item.system.damageType}}"/>
+        </div>
+        <div class="labeled-input"><label for="ammo">Ammo</label>
+            <input class="input" type="text" name="system.ammo" value="{{item.system.ammo}}"/>
+        </div>
+        <div class="labeled-input"><label for="ammo-capacity">Ammo Capacity</label>
+            <input class="input" type="text" name="system.ammoCapacity" value="{{item.system.ammoCapacity}}"/>
+        </div>
+        <div class="labeled-input"><label for="ammo-capacity-increase">Ammo Capacity Increase</label>
+            <input class="input" type="text" name="system.ammoCapacityIncrease" value="{{item.system.ammoCapacityIncrease}}"/>
+        </div>
+        <div class="labeled-input"><label for="range-point-blank">Range (Point Blank)</label>
+            <input class="input" type="text" name="system.rangePointBlank" value="{{item.system.rangePointBlank}}"/>
+        </div>
+        <div class="labeled-input"><label for="range-short">Range (Short)</label>
+            <input class="input" type="text" name="system.rangeShort" value="{{item.system.rangeShort}}"/>
+        </div>
+        <div class="labeled-input"><label for="range-medium">Range (Medium)</label>
+            <input class="input" type="text" name="system.rangeMedium" value="{{item.system.rangeMedium}}"/>
+        </div>
+        <div class="labeled-input"><label for="range-long">Range (Long)</label>
+            <input class="input" type="text" name="system.rangeLong" value="{{item.system.rangeLong}}"/>
+        </div>
+        <div class="labeled-input"><label for="range-starship-point-blank">Range (Starship Point Blank)</label>
+            <input class="input" type="text" name="system.rangeStarshipPointBlank" value="{{item.system.rangeStarshipPointBlank}}"/>
+        </div>
+        <div class="labeled-input"><label for="range-starship-short">Range (Starship Short)</label>
+            <input class="input" type="text" name="system.rangeStarshipShort" value="{{item.system.rangeStarshipShort}}"/>
+        </div>
+        <div class="labeled-input"><label for="range-starship-medium">Range (Starship Medium)</label>
+            <input class="input" type="text" name="system.rangeStarshipMedium" value="{{item.system.rangeStarshipMedium}}"/>
+        </div>
+        <div class="labeled-input"><label for="range-starship-long">Range (Starship Long)</label>
+            <input class="input" type="text" name="system.rangeStarshipLong" value="{{item.system.rangeStarshipLong}}"/>
+        </div>
+    {{/ifEquals}}
+
+    {{#ifEquals item.system.subtype "Ammunition"}}
+        <div class="labeled-input"><label for="damage">Damage</label>
+            <input class="input" type="text" name="system.damage" value="{{item.system.damage}}"/>
+        </div>
+        <div class="labeled-input"><label for="damage-type">Damage Type</label>
+            <input class="input" type="text" name="system.damageType" value="{{item.system.damageType}}"/>
+        </div>
+    {{/ifEquals}}
+
+    {{#ifEquals item.system.subtype "Defense Systems"}}
+        <div class="labeled-input"><label for="shield-rating">Shield Rating</label>
+            <input class="input" type="text" name="system.shieldRating" value="{{item.system.shieldRating}}"/>
+        </div>
+        <div class="labeled-input"><label for="reflex-defense-bonus">Reflex Defense Bonus</label>
+            <input class="input" type="text" name="system.reflexDefenseBonus" value="{{item.system.reflexDefenseBonus}}"/>
+        </div>
+        <div class="labeled-input"><label for="hit-point-eq">Hit Points</label>
+            <input class="input" type="text" name="system.hitPointEq" value="{{item.system.hitPointEq}}"/>
+        </div>
+    {{/ifEquals}}
+
+    {{#ifEquals item.system.subtype "Movement Systems"}}
+        <div class="labeled-input"><label for="speed-starship-scale">Starship-Scale Speed</label>
+            <input class="input" type="text" name="system.speedStarshipScale" value="{{item.system.speedStarshipScale}}"/>
+        </div>
+        <div class="labeled-input"><label for="dexterity-bonus">Dexterity Bonus</label>
+            <input class="input" type="text" name="system.dexterityBonus" value="{{item.system.dexterityBonus}}"/>
+        </div>
+        <div class="labeled-input"><label for="astrogation-bonus">Astrogation Bonus</label>
+            <input class="input" type="text" name="system.astrogationBonus" value="{{item.system.astrogationBonus}}"/>
+        </div>
+    {{/ifEquals}}
+</div>
+
+<div class="weapon-meta-strip">
+    <div class="meta-field"><label for="cost">Cost</label><input class="input" type="text" name="system.cost" value="{{item.system.cost}}"/></div>
+    <div class="meta-field"><label for="weight">Weight</label><input class="input" type="text" name="system.weight" value="{{item.system.weight}}"/></div>
+    <div class="meta-field"><label for="availability">Availability</label>
+        <select class="input" data-multi-select-name="system.availability" multiple size="1" title="Some items are e.g. both Military and Rare — ctrl/cmd-click to select more than one, scroll to see all options.">
+            {{{options 'availability' selected=(splitCsv item.system.availability)}}}
+        </select>
+    </div>
+</div>

@@ -1,0 +1,70 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "When <a href=\"https://swse.fandom.com/wiki/Running\" class=\"mw-redirect\" title=\"Running\">Running</a>, you are not restricted to a straight line; and you can reroll <a href=\"https://swse.fandom.com/wiki/Endurance\" title=\"Endurance\">Endurance</a> checks, keeping the better of the two results, while <a href=\"https://swse.fandom.com/wiki/Running\" class=\"mw-redirect\" title=\"Running\">Running</a>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:When<a href=\"https://swse.fandom.com/wiki/Running\" class=\"mw-redirect\" title=\"Running\">Running</a>, you are not restricted to a straight line; and you can reroll<a href=\"https://swse.fandom.com/wiki/Endurance\" title=\"Endurance\">Endurance</a>checks, keeping the better of the two results, while<a href=\"https://swse.fandom.com/wiki/Running\" class=\"mw-redirect\" title=\"Running\">Running</a>.",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Dexterity 13",
+      "requirement": "Dexterity 13",
+      "type": "ATTRIBUTE"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Enforcer Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Enforcer Talent Trees",
+      "Agent Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Enforcement Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Enforcement_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Force Unleashed Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Pursuit",
+  "flags": {},
+  "type": "talent",
+  "folder": "WckNKek2F1ZJfSmW",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385304558,
+    "modifiedTime": 1786039798039,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "A9Lb8S5J9DTa4Zng",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!A9Lb8S5J9DTa4Zng"
+}

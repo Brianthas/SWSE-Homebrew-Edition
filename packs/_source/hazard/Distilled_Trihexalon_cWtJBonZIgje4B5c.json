@@ -1,0 +1,68 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2d6",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards, Poisons",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A creature comes into contact with Distilled Trihexalon.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round at the start of the target's turn, until the Distilled Trihexalon is treated.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Treat Injury (DC 15; Requires Medical Kit): The character treats the Distilled Trihexalon.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Artificial",
+          "Contact",
+          "Poison"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Dawn_of_Defiance\" title=\"Star Wars Saga Edition Dawn of Defiance\">Star Wars Saga Edition Dawn of Defiance</a> (<a href=\"https://swse.fandom.com/wiki/A_Wretched_Hive\" title=\"A Wretched Hive\">A Wretched Hive</a>)</i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a>, <a href=\"https://swse.fandom.com/wiki/Poisons\" title=\"Poisons\">Poisons</a></i> </p><p>The <a href=\"https://swse.fandom.com/wiki/Twi%27lek_Poisoner\" title=\"Twi'lek Poisoner\">Twi'lek Poisoner</a> carries four vials of a distilled and refined chemical weapon called trihexalon. Normally used as a chemical weapon, trihexalon can be refined and altered to react (Or fail to react) with certain biochemical compositions. The Twi'lek Poisoner's Distilled Trihexalon is engineered to affect all non-<a href=\"https://swse.fandom.com/wiki/Twi%27leks\" class=\"mw-redirect\" title=\"Twi'leks\">Twi'leks</a>, preventing the poison from being used against her. </p><h2><span id=\"Distilled_Trihexalon_Statistics_.28CL_3.29\"></span><span class=\"mw-headline\" id=\"Distilled_Trihexalon_Statistics_(CL_3)\">Distilled Trihexalon Statistics (CL 3)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Artificial, Contact, Poison </p><p><b>Trigger:</b> A creature comes into contact with Distilled Trihexalon. </p><p><b>Attack:</b> +5 vs <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> </p><p><b>Recurrence:</b> Each round at the start of the target's turn, until the Distilled Trihexalon is treated. </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a> (DC 15; Requires <a href=\"https://swse.fandom.com/wiki/Medical_Kit\" title=\"Medical Kit\">Medical Kit</a>):</b> The character treats the Distilled Trihexalon.</li>\n</ul>",
+    "source": "Star Wars Saga Edition Dawn of Defiance (A Wretched Hive)",
+    "cost": "0"
+  },
+  "name": "Distilled Trihexalon",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244449,
+    "modifiedTime": 1749263244449,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "cWtJBonZIgje4B5c",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!cWtJBonZIgje4B5c"
+}

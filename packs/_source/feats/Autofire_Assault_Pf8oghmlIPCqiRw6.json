@@ -1,0 +1,89 @@
+{
+  "img": "systems/swse/icon/feat/Autofire_Assault.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Legacy_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Legacy Era Campaign Guide\">Star Wars Saga Edition Legacy Era Campaign Guide</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>Your <a href=\"https://swse.fandom.com/wiki/Autofire\" title=\"Autofire\">Autofire</a> attacks are devastating when focused in a single area for multiple rounds.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Weapon_Focus\" title=\"Weapon Focus\">Weapon Focus</a> (Chosen Weapon)</p><p><b>Effect:</b> When wielding a weapon for which you possess the <a href=\"https://swse.fandom.com/wiki/Weapon_Focus\" title=\"Weapon Focus\">Weapon Focus</a> Feat, and you target the same area with an <a href=\"https://swse.fandom.com/wiki/Autofire\" title=\"Autofire\">Autofire</a> attack that you made an <a href=\"https://swse.fandom.com/wiki/Autofire\" title=\"Autofire\">Autofire</a> attack against on your last turn, the penalty on the <a href=\"https://swse.fandom.com/wiki/Autofire\" title=\"Autofire\">Autofire</a> attack is reduced to -2 (-1 if using a <a href=\"https://swse.fandom.com/wiki/Braced\" class=\"mw-redirect\" title=\"Braced\">Braced</a> <a href=\"https://swse.fandom.com/wiki/Autofire\" title=\"Autofire\">Autofire</a>-only weapon or the <b><a href=\"https://swse.fandom.com/wiki/Controlled_Burst\" class=\"mw-redirect\" title=\"Controlled Burst\">Controlled Burst</a></b> Talent) and you deal +1 die of damage on a hit.</p><p><b>Normal:</b> A -5 penalty applies to <a href=\"https://swse.fandom.com/wiki/Autofire\" title=\"Autofire\">Autofire</a> attack rolls, and there are no bonuses for consecutive rounds of fire in the same squares.</p><p><b>Special:</b> This Feat cannot be used with the <a href=\"https://swse.fandom.com/wiki/Autofire_Sweep\" title=\"Autofire Sweep\">Autofire Sweep</a> Feat or the <a href=\"https://swse.fandom.com/wiki/Burst_Fire\" title=\"Burst Fire\">Burst Fire</a> Feat.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "#payload#",
+        "key": "autofireAssault"
+      }
+    ],
+    "choices": [
+      {
+        "noOptions": "You Must Be Focussed in a weapon group or an Exotic Weapon to select one for Autofire Assault.",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {
+              "payload": "AVAILABLE_AUTOFIRE_ASSAULT"
+            },
+            "display": "AVAILABLE_AUTOFIRE_ASSAULT",
+            "name": "AVAILABLE_AUTOFIRE_ASSAULT",
+            "attributes": {}
+          }
+        ],
+        "description": "Select a Weapon to use Autofire Assault with.",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": true
+      }
+    ],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Weapon Focus (#payload#)",
+      "requirement": "Weapon Focus (#payload#)",
+      "type": "FEAT"
+    },
+    "categories": [
+      {
+        "value": "Soldier Bonus Feats"
+      },
+      {
+        "value": "Ranged Feats"
+      },
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Bonus Feats",
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Legacy Era Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Autofire Assault",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479025921,
+    "modifiedTime": 1761479025921,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "Pf8oghmlIPCqiRw6",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!Pf8oghmlIPCqiRw6"
+}

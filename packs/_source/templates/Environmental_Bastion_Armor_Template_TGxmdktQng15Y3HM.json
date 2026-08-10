@@ -1,0 +1,95 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:</i>&nbsp;<i><a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i> </p><p><b>Manufactured By:</b> N/A </p><p><b>Applicable To:</b> Any Armor that provides an <a href=\"https://swse.fandom.com/wiki/Equipment\" title=\"Equipment\">Equipment</a> bonus to <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> </p><p>Environmental Bastion Armors are designed to protect the wearer from harsh environments- including <a href=\"https://swse.fandom.com/wiki/Vacuum\" title=\"Vacuum\">Vacuum</a>- and provide a comfortable environment for whatever <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> they are made for (for example, <a href=\"https://swse.fandom.com/wiki/Ubese\" title=\"Ubese\">Ubese</a> wear Environmental Bastion Armor that produces atmosphere similar to their homeworld's). </p><p><b>Armor:</b> Environmental Bastion Armor acts as a sealed <a href=\"https://swse.fandom.com/wiki/Space_Suit\" title=\"Space Suit\">Space Suit</a>, providing a number of hours of breathable air to the wielder equal to the armor's <a href=\"https://swse.fandom.com/wiki/Equipment\" title=\"Equipment\">Equipment</a> bonus to <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "??",
+        "key": "cost"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "itemMod"
+      },
+      {
+        "mode": 2,
+        "value": "Environmental Bastion Armor acts as a sealed Space Suit, providing a number of hours of breathable air to the wielder equal to the armor's Equipment bonus to Fortitude Defense.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": "Environmental Bastion",
+        "key": "prefix"
+      },
+      {
+        "mode": 2,
+        "value": "",
+        "key": "suffix"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "hasItemOwner": false,
+    "subtype": "Armor Templates",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Any Armor",
+          "requirement": "armor",
+          "type": "TYPE"
+        },
+        {
+          "children": [
+            {
+              "text": "Any Armor that provides an Equipment bonus to Fortitude Defense",
+              "requirement": "armor",
+              "type": "TYPE"
+            },
+            {
+              "text": "Any Armor that provides an Equipment bonus to Fortitude Defense",
+              "requirement": "equipmentFortitudeDefenseBonus:>0",
+              "type": "ATTRIBUTE"
+            }
+          ],
+          "text": "Any Armor that provides an Equipment bonus to Fortitude Defense",
+          "type": "AND"
+        }
+      ],
+      "text": "Any Armor, and (Any Armor that provides an Equipment bonus to Fortitude Defense)",
+      "type": "AND"
+    },
+    "cost": "??"
+  },
+  "name": "Environmental Bastion Armor Template",
+  "flags": {},
+  "type": "template",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.2",
+    "createdTime": 1729096741431,
+    "modifiedTime": 1729096741431,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "TGxmdktQng15Y3HM",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!TGxmdktQng15Y3HM"
+}

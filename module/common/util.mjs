@@ -651,7 +651,24 @@ export function getOrdinal(i) {
  */
 export function d20Result(roll) {
     let term = roll.terms.find(term => term.faces === 20);
-    return term.results[0].result;
+    // With advantage/disadvantage (2d20kh1/2d20kl1) the discarded die is still present in
+    // results, just flagged inactive — fall back to results[0] for a plain 1d20 term, where
+    // the single result is always active.
+    let active = term.results.find(result => result.active) || term.results[0];
+    return active.result;
+}
+
+/**
+ * Rewrites a formula's leading 1d20 term into 2d20kh1 (advantage) or 2d20kl1 (disadvantage) —
+ * roll twice, keep the higher/lower result, matching the standard d20-system mechanic. Formulas
+ * that don't start with a plain 1d20 (e.g. non-d20 rolls sharing a generic roll handler) are
+ * returned unchanged, and an unrecognized/absent mode is a no-op.
+ */
+export function applyRollMode(formula, mode) {
+    if (!formula) return formula;
+    if (mode === "advantage") return formula.replace(/^1d20\b/, "2d20kh1");
+    if (mode === "disadvantage") return formula.replace(/^1d20\b/, "2d20kl1");
+    return formula;
 }
 
 export function getAttackRange(range, isAccurate, isInaccurate, actor) {
@@ -1117,11 +1134,6 @@ export function parseModifiers(tokens) {
             case "p":
                 modifiers.push({modType: "prerequisite", type: toks[1], requirement: toks[2]});
                 break;
-            case "ammunition":
-            case "ammo":
-            case "a":
-                //where the standardized ammo parsing will go
-                break;
             case "type":
             case "t":
                 modifiers.push({modType: "type", type: toks[1]});
@@ -1190,7 +1202,7 @@ export function equippedItems(entity, type = null) {
  * @type {string[]}
  */
 const CONDITIONALLY_INHERITABLE_TYPES = [ "trait", "feat", "talent"];
-const ALWAYS_INHERITABLE_TYPES = ["background", "destiny", "class", "forcePower", "forceSecret", "forceTechnique", "affiliation", "forceRegimen", "species", "vehicleBaseType", "beastAttack",
+const ALWAYS_INHERITABLE_TYPES = ["class", "forcePower", "forceSecret", "forceTechnique", "affiliation", "forceRegimen", "species", "vehicleBaseType", "beastAttack",
     "beastSense",
     "beastType",
     "beastQuality"];
@@ -1202,7 +1214,7 @@ export function inheritableItems(actor, options={}) {
         actualInheritable.push(...actor.itemsWithTypes(ALWAYS_INHERITABLE_TYPES));
 
         possibleInheritableItems = possibleInheritableItems.filter(item => {
-            if(!item.system.prerequisite){
+            if(!item.system.prerequisite || item.type === 'feat' || item.type === 'talent'){
                 actualInheritable.push(item)
                 return false;
             }
@@ -1272,11 +1284,11 @@ export function viewableEntityFromEntityType(type) {
     }
 }
 
-export function onCollapseToggle(event) {
+export function onCollapseToggle(event, target) {
     let down = "fa-minus";
     let up = "fa-plus";
     event.stopPropagation();
-    let button = $(event.currentTarget);
+    let button = $(target ?? event.currentTarget);
 
     let children = button.find("i.fas");
     children.each((i, e) => {
@@ -1606,17 +1618,20 @@ export function toChat(content, actor = undefined, flavor="", context={}) {
     return cls.create(msg, {});
 }
 
-function performAttack(actor, type, attackKey, macro) {
+function performAttack(actor, type, attackKey, macro, rollMode) {
     return async html => {
         let macroName = html.find("#macro-name")[0];
         let attackRoll = html.find("#attack-roll")[0];
         let damageRoll = html.find("#damage-roll")[0];
+        let advantageMode = rollMode && rollMode !== "normal" ? rollMode : undefined;
         let changes = [
             {key: "toHitModifier", value: attackRoll.value},
             {key: "damage", value: damageRoll.value}
         ]
 
         if(macro){
+            // Roll mode is a one-off situational call, not something worth baking into a
+            // reusable macro — deliberately not passed through here.
             await createAttackMacro({
                 macroName: macroName.value,
                 actorUUID: actor.uuid,
@@ -1631,55 +1646,70 @@ function performAttack(actor, type, attackKey, macro) {
             actorUUID: actor.uuid,
             type: type === "fullAttack" ? Attack.TYPES.FULL_ATTACK : Attack.TYPES.SINGLE_ATTACK,
             attackKeys: [attackKey],
-            changes: changes
+            changes: changes,
+            advantageMode
         });
     };
 }
 
 export function attackOptions(actor) {
     const options = [];
-    
+
     options.push({
-        label: "Attack or Add Macro with options",
+        label: "Attack with Bonus...",
         icon: '<i class="fas fa-edit"/>',
         callback: async (element) => {
-            console.log("Context menu clicked", element);
-
             const type = element.dataset.action;
             const attackKey = element.dataset.attackKey;
 
             const attackName = actor.attack.attacks.find(a => a.attackKey === attackKey)?.name;
 
-
-            let attackWithOptions = `<div>
+            // Attack/Damage Bonus first — the field a player actually wants most of the time
+            // (a one-off situational bonus, e.g. flanking/cover) — Macro Name is secondary and
+            // only matters if "Save Macro" gets used, not every visit to this dialog. Modeled on
+            // dnd5e's own roll-configuration dialog (read directly from the installed dnd5e
+            // system): a bordered "Configuration" fieldset around the input fields, then
+            // Advantage/Normal/Disadvantage as three separate buttons — no radio group — with
+            // the recommended one (Normal) picked out via the dialog's own `default` styling.
+            let attackWithOptions = `<fieldset>
+    <legend>Configuration</legend>
     <div class="medium labeled-input">
-        <label for="macro-name" class="text">Macro Name</label>
+        <label for="attack-roll" class="text">Attack Bonus</label>
+        <input class="input" id="attack-roll" type="text" value="0" placeholder="e.g. 2 or -5" autofocus/>
+    </div>
+    <div class="medium labeled-input">
+        <label for="damage-roll" class="text">Damage Bonus</label>
+        <input class="input" id="damage-roll" type="text" value="0" placeholder="e.g. 1d6 or 4"/>
+    </div>
+    <div class="medium labeled-input">
+        <label for="macro-name" class="text">Macro Name (if saving)</label>
         <input class="input" id="macro-name" type="text" value="${actor.name + " : " + attackName}" placeholder=""/>
     </div>
-    <div class="medium labeled-input">
-        <label for="attack-roll" class="text">Attack Roll</label>
-        <input class="input" id="attack-roll" type="text" value="0" placeholder=""/>
-    </div>
-    <div class="medium labeled-input">
-        <label for="damage-roll" class="text">Damage Roll</label>
-        <input class="input" id="damage-roll" type="text" value="0" placeholder=""/>
-    </div>
-</div>`
+</fieldset>`
 
             await Dialog.wait({
-                title: `Attack or Add Macro with options`,
+                title: `Attack with Bonus — ${attackName}`,
                 content: attackWithOptions,
                 buttons: {
-                    attack:{
-                        label: "Attack",
-                        callback: performAttack(actor, type, attackKey)
+                    advantage: {
+                        label: "Advantage",
+                        callback: performAttack(actor, type, attackKey, false, "advantage")
                     },
-                    saveMacro:{
+                    normal: {
+                        label: "Normal",
+                        callback: performAttack(actor, type, attackKey, false, "normal")
+                    },
+                    disadvantage: {
+                        label: "Disadvantage",
+                        callback: performAttack(actor, type, attackKey, false, "disadvantage")
+                    },
+                    saveMacro: {
                         label: "Save Macro",
-                        callback: performAttack(actor, type, attackKey, true)
+                        callback: performAttack(actor, type, attackKey, true, "normal")
                     }
                 },
-                callback: performAttack(actor, type, attackKey)
+                default: "normal",
+                callback: performAttack(actor, type, attackKey, false, "normal")
 
             })
         }

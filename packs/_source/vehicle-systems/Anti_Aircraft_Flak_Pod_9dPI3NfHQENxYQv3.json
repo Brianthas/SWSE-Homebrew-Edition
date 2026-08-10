@@ -1,0 +1,34 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Weapon Systems",
+    "changes": [],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Rebellion_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Rebellion Era Campaign Guide\">Star Wars Saga Edition Rebellion Era Campaign Guide</a></i></p><p>The Flak Pod uses a rapid-loading system to launch dozens of Flak Missiles in a scatter pattern. These missiles use onboard targeting systems to home in on enemy ships. Firing an Anti-Aircraft Flak Pod is an <a href=\"https://swse.fandom.com/wiki/Area_Attack\" class=\"mw-redirect\" title=\"Area Attack\">Area Attack</a>, even at <a href=\"https://swse.fandom.com/wiki/Starship_Scale\" class=\"mw-redirect\" title=\"Starship Scale\">Starship Scale</a>: the Flak Pod <a href=\"https://swse.fandom.com/wiki/Gunner\" title=\"Gunner\">Gunner</a> must choose a 2x2-Square (<a href=\"https://swse.fandom.com/wiki/Starship_Scale\" class=\"mw-redirect\" title=\"Starship Scale\">Starship Scale</a>) area within the pod's range and make an attack roll against a <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> of 10.</p><p>If successful, compare the result to the <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> of each ship in that area. If the attack roll hits a target, the Flak Missiles deal 5d10x5 damage to that ship; if the attack misses, the Flak Missiles deal half damage. <a href=\"https://swse.fandom.com/wiki/Pilots\" class=\"mw-redirect\" title=\"Pilots\">Pilots</a> with the <b><a href=\"https://swse.fandom.com/wiki/Vehicular_Evasion\" class=\"mw-redirect\" title=\"Vehicular Evasion\">Vehicular Evasion</a></b> Talent cause their ship to take half damage from a hit or no damage on a miss.</p>",
+    "cost": "-",
+    "availability": "Military",
+    "damage": "5d10x5"
+  },
+  "name": "Anti-Aircraft Flak Pod",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317470,
+    "modifiedTime": 1759848317470,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "9dPI3NfHQENxYQv3",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!9dPI3NfHQENxYQv3"
+}

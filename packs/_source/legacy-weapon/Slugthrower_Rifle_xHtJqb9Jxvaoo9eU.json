@@ -1,0 +1,195 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode",
+          "links": [
+            {
+              "type": "exclusive",
+              "name": "Autofire"
+            }
+          ]
+        }
+      },
+      "statuses": [],
+      "disabled": false,
+      "name": "Single-Shot",
+      "_id": "TosoorNM7dvDFCsG",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513560,
+        "modifiedTime": 1786051513560,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!xHtJqb9Jxvaoo9eU.TosoorNM7dvDFCsG"
+    },
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode",
+          "links": [
+            {
+              "type": "exclusive",
+              "name": "Single-Shot"
+            }
+          ]
+        }
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Autofire",
+      "_id": "mHJtU15Psxj4BDqI",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": -5,
+            "key": "toHitModifier",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          },
+          {
+            "value": true,
+            "key": "skipCriticalMultiply",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          },
+          {
+            "value": 10,
+            "key": "ammoUse",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513560,
+        "modifiedTime": 1786051513560,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!xHtJqb9Jxvaoo9eU.mHJtU15Psxj4BDqI"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p>A Slugthrower Rifle is the larger cousin of the <a href=\"https://swse.fandom.com/wiki/Slugthrower_Pistol\" title=\"Slugthrower Pistol\">Slugthrower Pistol</a>. It doesn't need a <a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a>; instead, it takes clips containing \"Slugs,\" with each clip holding 20 Slugs. Clips cost 40 credits and, weigh 0.2 kg. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Slug Clip:20:40:0.2",
+        "key": "ammo"
+      }
+    ],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "300",
+    "weight": "4 Kilograms",
+    "availability": "Restricted",
+    "size": "Medium",
+    "type": "",
+    "subtype": "Rifles",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "2d8",
+    "damageType": "Piercing"
+  },
+  "name": "Slugthrower Rifle",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Slugthrower_Rifle.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513560,
+    "modifiedTime": 1786051513596,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "xHtJqb9Jxvaoo9eU",
+  "_key": "!items!xHtJqb9Jxvaoo9eU"
+}

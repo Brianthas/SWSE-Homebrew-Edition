@@ -1,0 +1,64 @@
+{
+  "img": "systems/swse/icon/feat/Biotech_Surgery.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Legacy_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Legacy Era Campaign Guide\">Star Wars Saga Edition Legacy Era Campaign Guide</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You can perform the surgical procedures necessary to graft <a href=\"https://swse.fandom.com/wiki/Biotech\" class=\"mw-redirect\" title=\"Biotech\">Biotech</a> components onto living flesh, similar to those used by the <a href=\"https://swse.fandom.com/wiki/Yuuzhan_Vong\" title=\"Yuuzhan Vong\">Yuuzhan Vong</a>.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in <a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a></p><p><b>Effect:</b> You can install <a href=\"https://swse.fandom.com/wiki/Bio-Implants\" title=\"Bio-Implants\">Bio-Implants</a> onto a living being. The surgical procedure takes 1 hour of uninterrupted work, after which you must make a DC 20 <a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a> check. If the check succeeds, the prosthesis is installed correctly. If the check fails, the prosthesis is not installed properly; however, you can try again after another uninterrupted hour of surgery.</p><p><b>Special:</b> You can install <a href=\"https://swse.fandom.com/wiki/Bio-Implants\" title=\"Bio-Implants\">Bio-Implants</a> on yourself, but you take a -5 penalty on the <a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a> check. If you have the <a href=\"https://swse.fandom.com/wiki/Surgical_Expertise\" title=\"Surgical Expertise\">Surgical Expertise</a> Feat, you can install a <a href=\"https://swse.fandom.com/wiki/Bio-Implant\" class=\"mw-redirect\" title=\"Bio-Implant\">Bio-Implant</a> in 10 minutes instead of 1 hour.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Trained in Treat Injury",
+      "requirement": "Treat Injury",
+      "type": "TRAINED SKILL"
+    },
+    "categories": [
+      {
+        "value": "Technician Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Noble Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Technician Bonus Feats",
+      "General Feats",
+      "Noble Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Legacy Era Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Biotech Surgery",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479026019,
+    "modifiedTime": 1761479026019,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "oDP5uFwVaBNIIxon",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!oDP5uFwVaBNIIxon"
+}

@@ -1,0 +1,138 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Clone_Wars_Campaign_Guide\" title=\"Star Wars Saga Edition Clone Wars Campaign Guide\">Star Wars Saga Edition Clone Wars Campaign Guide</a></i> </p><p>The watery planet of <a href=\"https://swse.fandom.com/wiki/Kamino\" title=\"Kamino\">Kamino</a> is home to a Species of cloners known as Kaminoans. These tall aliens are the result of generations of selective breeding and genetic modification that began when their world suffered a drastic change in climate. These restrictive breeding programs have made Kaminoans an extremely adaptable Species. Apart from gender, Kaminoans have little variation, and to the untrained eye they all look the same. Subtle variations have been introduced into their genetic codes, however, allowing for diversity within a strict set of parameters. </p><p>The economy of Kamino is based on cloning for profit, but not every Kaminoan is a cloner by trade. The majority of Kaminoans support their communities with various skills and specialized abilities. They strive to perform their work flawlessly, and seek perfection. Because Kaminoans are moderately xenophobic and rarely venture away from their homeworld, they are a rare sight in other parts of the galaxy. </p><h3><span class=\"mw-headline\" id=\"Kaminoan_Characteristics\">Kaminoan Characteristics</span></h3><p><b>Personality:</b> Kaminoans see themselves as superior to other forms of life. They harbor a private intolerance for imperfection, but they are, nonetheless, polite to outsiders. To a Kaminoan, any Species that seeks self improvement is worthy of respect, but those who do not are obviously inferior and deserve their inevitable decline. This attitude is reflected in their cloning processes, where entire crops of clones might be eliminated due to a single, subtle flaw. </p><p><b>Physical Description:</b> Kaminoans are tall and gaunt, with pale skin, three-fingered hands, and long necks. Their faces are small and dominated by a pair of large, black eyes. Every male Kaminoan has a finlike crest on the top of his head, but female Kaminoans have no such feature. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Kaminoans age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-6 Years </td> \n   <td>7-10 Years </td> \n   <td>11-39 Years </td> \n   <td>40-59 Years </td> \n   <td>60-79 Years </td> \n   <td>80+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The ocean world of <a href=\"https://swse.fandom.com/wiki/Kamino\" title=\"Kamino\">Kamino</a>, located in <a href=\"https://swse.fandom.com/wiki/The_Outer_Rim\" title=\"The Outer Rim\">The Outer Rim</a>. </p><p><b>Languages:</b> Kaminoans learn their own language of Kaminoan, and most learn Basic in their adulthood. </p><p><b>Example Names:</b> Ava Lim, Lama Su, Maru Lan, Tau Shei, Taga Sai, Seva Ke, Taun We. </p><p><b>Adventurers:</b> Because they are genetically designed, Kaminoans are bred to fulfill a specific role or niche. They make excellent <a href=\"https://swse.fandom.com/wiki/Nobles\" class=\"mw-redirect\" title=\"Nobles\">Nobles</a>, <a href=\"https://swse.fandom.com/wiki/Scouts\" class=\"mw-redirect\" title=\"Scouts\">Scouts</a>, and <a href=\"https://swse.fandom.com/wiki/Soldiers\" class=\"mw-redirect\" title=\"Soldiers\">Soldiers</a>. <a href=\"https://swse.fandom.com/wiki/Scoundrels\" class=\"mw-redirect\" title=\"Scoundrels\">Scoundrels</a>, though rare, are not unheard of. Kaminoans are not bred with <a href=\"https://swse.fandom.com/wiki/Force_Sensitivity\" title=\"Force Sensitivity\">Force Sensitivity</a>, though anomalies are possible. Kaminoan <a href=\"https://swse.fandom.com/wiki/Jedi\" title=\"Jedi\">Jedi</a> are essentially nonexistent. </p><h3><span class=\"mw-headline\" id=\"Kaminoan_Species_Traits\">Kaminoan Species Traits</span></h3><p>Kaminoans share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Treat Injury))",
+        "type": "trait"
+      },
+      {
+        "name": "Resilient",
+        "type": "trait"
+      },
+      {
+        "name": "Skill Focus (Treat Injury)",
+        "type": "feat"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "6",
+          "low": "1",
+          "text": "1-6",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "80",
+          "text": "80+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "59",
+          "low": "40",
+          "text": "40-59",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "39",
+          "low": "11",
+          "text": "11-39",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "10",
+          "low": "7",
+          "text": "7-10",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "79",
+          "low": "60",
+          "text": "60-79",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Kaminoans"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Conditional Bonus Feat (Skill Focus (Treat Injury))"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Resilient"
+      },
+      {
+        "value": "Conditional Bonus Feat"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Kaminoan",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535566404,
+    "modifiedTime": 1736535566404,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "GSngZkE13aYwiE8r",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!GSngZkE13aYwiE8r"
+}

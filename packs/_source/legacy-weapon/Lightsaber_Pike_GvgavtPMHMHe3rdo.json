@@ -1,0 +1,78 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Jedi_Academy_Training_Manual\" title=\"Star Wars Saga Edition Jedi Academy Training Manual\">Star Wars Saga Edition Jedi Academy Training Manual</a></i> </p><p>The favored weapon of the Emperor's Shadow Guard, the Lightsaber Pike resembles a conventional polearm in many respects. The long haft of the weapon is made of Phrik alloy, meaning that a <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> does not ignore the Lightsaber Pike's <a href=\"https://swse.fandom.com/wiki/Damage_Reduction\" title=\"Damage Reduction\">Damage Reduction</a>. </p><p>At the end of the handle is a slightly shorter and thicker Lightsaber blade, which can be activated as a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a> using a switch about midway down the weapon's haft. A Lightsaber Pike increases the wielder's <a href=\"https://swse.fandom.com/wiki/Reach\" title=\"Reach\">Reach</a> by 1 square, but imposes a -2 penalty on <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> checks to use the <b><a href=\"https://swse.fandom.com/wiki/Block\" class=\"mw-redirect\" title=\"Block\">Block</a></b> or <b><a href=\"https://swse.fandom.com/wiki/Deflect\" class=\"mw-redirect\" title=\"Deflect\">Deflect</a></b> talents. </p><p>A character with the <a href=\"https://swse.fandom.com/wiki/Long_Haft_Strike\" title=\"Long Haft Strike\">Long Haft Strike</a> feat can use the Lightsaber Pike as a Double Weapon. If you have this Feat, you can attack with both ends of a Lightsaber Pike as a <a href=\"https://swse.fandom.com/wiki/Full-Round_Action\" class=\"mw-redirect\" title=\"Full-Round Action\">Full-Round Action</a>, but both attack rolls take a -10 penalty; certain <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a> and <a href=\"https://swse.fandom.com/wiki/Talents\" title=\"Talents\">Talents</a> can reduce these penalties. The non-Lightsaber end of the Lightsaber Pike deals 1d6 damage. </p><p>A Lightsaber Pike requires a special&nbsp;<a href=\"https://swse.fandom.com/wiki/Energy_Cell\" title=\"Energy Cell\">Energy Cell</a>&nbsp;to operate (the cost is ten times the price of an ordinary&nbsp;<a href=\"https://swse.fandom.com/wiki/Energy_Cell\" title=\"Energy Cell\">Energy Cell</a>, but it lasts almost indefinitely). </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [
+      {
+        "noOptions": "NO_AVAILABLE_OPTIONS",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {
+              "payload": "AVAILABLE_LIGHTSABER_CRYSTALS"
+            },
+            "display": "AVAILABLE_LIGHTSABER_CRYSTALS",
+            "name": "AVAILABLE_LIGHTSABER_CRYSTALS",
+            "attributes": {}
+          }
+        ],
+        "description": "Lightsaber Crystal",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": false
+      }
+    ],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "4,000",
+    "weight": "2 Kilograms",
+    "availability": "Rare",
+    "size": "Large",
+    "type": "",
+    "subtype": "Lightsabers",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "2d8",
+    "damageType": "Energy, Slashing"
+  },
+  "name": "Lightsaber Pike",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Lightsaber_Pike.png",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513518,
+    "modifiedTime": 1786051513584,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "GvgavtPMHMHe3rdo",
+  "_key": "!items!GvgavtPMHMHe3rdo"
+}

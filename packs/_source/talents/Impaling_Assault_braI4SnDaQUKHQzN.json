@@ -1,0 +1,71 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You can hit your opponents to slow them down. Whenever you successfully damage an opponent using a Piercing weapon that you have the <b>Weapon Specialization</b> Talent for, your opponent reduces its speed by 2 squares until the end of your next turn. The effects of multiple <b>Impaling Assaults</b> do not stack.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Weapon Specialization talent",
+      "requirement": "Weapon Specialization",
+      "type": "TALENT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Soldier Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Melee Duelist Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Talent Trees",
+      "Core Rulebook",
+      "Melee Duelist Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Weapon Specialist Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Weapon_Specialist_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Scum and Villainy",
+    "cost": "0"
+  },
+  "name": "Impaling Assault",
+  "flags": {},
+  "type": "talent",
+  "folder": "XzwXaSfPJWLrfoDv",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385313531,
+    "modifiedTime": 1734385313531,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "braI4SnDaQUKHQzN",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!braI4SnDaQUKHQzN"
+}

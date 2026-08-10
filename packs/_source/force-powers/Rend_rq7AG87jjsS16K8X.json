@@ -1,0 +1,82 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Clone_Wars_Campaign_Guide\" title=\"Star Wars Saga Edition Clone Wars Campaign Guide\">Star Wars Saga Edition Clone Wars Campaign Guide</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a></i> </p><p>You can move a single target, whether it is a creature or object, in two different directions simultaneously. </p><p><b>[<i><a href=\"https://swse.fandom.com/wiki/Dark_Side\" class=\"mw-redirect\" title=\"Dark Side\">Dark Side</a></i>]</b> </p><p><b>Time:</b> <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a> </p><p><b>Targets:</b> One target in your line of sight and within 6 squares of you. </p><p><b>Make a <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check.</b> Compare the result with the target's <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>. If the check equals or exceeds the target's <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>, the target takes 3d6 points of damage. If your <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check is a Natural 20, you score the equivalent of a Critical Hit, and the target takes double damage. If you deal enough damage to reduce the target to 0 Hit Points, you rip the target into two separate parts (living creatures are automatically killed). </p><p><b>Special:</b> If your <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check succeeds, you can spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> to deal an additional 2d6 points of damage to the target. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Dark Side",
+        "key": "tag"
+      },
+      {
+        "mode": 2,
+        "value": "Standard Action",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "One target in your line of sight and within 6 squares of you.",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": "Use the Force",
+        "key": "rollType"
+      },
+      {
+        "mode": 2,
+        "value": "Reference Book: Star Wars Saga Edition Clone Wars Campaign Guide See also: Force Powers You can move a single target, whether it is a creature or object, in two different directions simultaneously. [Dark Side] Time: Standard Action Targets: One target in your line of sight and within 6 squares of you. Make a Use the Force check. Compare the result with the target's Reflex Defense. If the check equals or exceeds the target's Reflex Defense, the target takes 3d6 points of damage. If your Use the Force check is a Natural 20, you score the equivalent of a Critical Hit, and the target takes double damage. If you deal enough damage to reduce the target to 0 Hit Points, you rip the target into two separate parts (living creatures are automatically killed). Special: If your Use the Force check succeeds, you can spend a Force Point to deal an additional 2d6 points of damage to the target.",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Dark Side Force Powers"
+      },
+      {
+        "value": "Force Powers"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Rend",
+  "flags": {},
+  "type": "forcePower",
+  "img": "systems/swse/icon/force-power/Rend.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738608590743,
+    "modifiedTime": 1738608590743,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "rq7AG87jjsS16K8X",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!rq7AG87jjsS16K8X"
+}

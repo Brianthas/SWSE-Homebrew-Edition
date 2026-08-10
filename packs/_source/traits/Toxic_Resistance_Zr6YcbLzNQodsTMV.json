@@ -1,0 +1,58 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p>Beings receive a +5&nbsp;<a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>&nbsp;bonus to their&nbsp;<a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>&nbsp;against&nbsp;<a href=\"https://swse.fandom.com/wiki/Poisons\" title=\"Poisons\">Poisons</a> and <a href=\"https://swse.fandom.com/wiki/Toxic_Atmospheres\" class=\"mw-redirect\" title=\"Toxic Atmospheres\">Toxic Atmospheres</a>.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "modifier": "Poisons",
+        "value": 5,
+        "key": "fortitudeDefenseBonus"
+      },
+      {
+        "mode": 2,
+        "modifier": "Toxic Atmospheres",
+        "value": 5,
+        "key": "fortitudeDefenseBonus"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "prerequisite": null,
+    "cost": "0"
+  },
+  "name": "Toxic Resistance",
+  "flags": {},
+  "type": "trait",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764446475419,
+    "modifiedTime": 1764446475419,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "Zr6YcbLzNQodsTMV",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!Zr6YcbLzNQodsTMV"
+}

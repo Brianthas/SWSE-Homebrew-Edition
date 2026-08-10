@@ -1,0 +1,69 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "When acting in the <a href=\"https://swse.fandom.com/wiki/Surprise_Round\" class=\"mw-redirect\" title=\"Surprise Round\">Surprise Round</a>, you and your allies can take an extra <a href=\"https://swse.fandom.com/wiki/Move_Action\" class=\"mw-redirect\" title=\"Move Action\">Move Action</a>. Any character can gain only one extra <a href=\"https://swse.fandom.com/wiki/Move_Action\" class=\"mw-redirect\" title=\"Move Action\">Move Action</a> during the <a href=\"https://swse.fandom.com/wiki/Surprise_Round\" class=\"mw-redirect\" title=\"Surprise Round\">Surprise Round</a>, regardless of the number of characters with this Talent in your group.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:in: Talent Trees, Jedi Knight Talent Trees Jedi Watchman Talent Tree Edit Edit source History Talk (0) Reference Book: Star Wars Saga Edition Knights of the Old Republic Campaign Guide Jedi Watchmen are elite Jedi tasked with protecting and watching over a specific world or region of space. They seek out and destroy threats to the Republic and The Jedi Order. As such, they have enhanced their abilities to blend in and covertly investigate threats at their source. All Jedi Watchmen are appointed and approved by the Jedi Council before training; many begin as Jedi Councilors. A Jedi Watchman's assignments might change, as directed by the council. Contents 1 Force Warning 2 Improved Quick Draw (Lightsabers) 3 Sheltering Stance 4 Vigilance 5 Watchman's Advance Force Warning[ ] Allies within 12 squares can choose to reroll their Initiative checks at the start of combat, but must keep the result of the reroll, even if it is worse. Furthermore, if any allies within 12 squares are Surprised at the start of an encounter, but you are not, you can designate a number of those allies equal to your Wisdom modifier (minimum 1); those allies are no longer considered Surprised, and can act normally during the Surprise Round. Improved Quick Draw (Lightsabers)[ ] Prerequisites: Quick Draw, Weapon Focus (Lightsabers) If you are carrying a Lightsaber (either in your hand or at your belt), you can draw the Lightsaber, ignite it, and make a single attack during the Surprise Round, even if you are Surprised. If you are not Surprised, you can take any single Action of your choice, as normal. Additionally, once per turn you may draw and ignite a Lightsaber as a Free Action on your turn. Sheltering Stance[ ] Prerequisite: Block or Deflect, Vigilance Whenever you are adjacent to an ally, you may use the Block or Deflect Talents on attacks that target that ally without the need to spend a Force Point. Vigilance[ ] As a Swift Action you may designate one adjacent ally as the target of this Talent. That target gains a +1 deflection bonus to their Reflex Defense as long as you remain adjacent to them. You may change the target of this Talent as a Swift Action. Watchman's Advance[ ] Prerequisite: Force Warning When acting in the Surprise Round, you and your allies can take an extra Move Action. Any character can gain only one extra Move Action during the Surprise Round, regardless of the number of characters with this Talent in your group. Categories Categories: Talent Trees Jedi Knight Talent Trees Add category Cancel Save Community content is available under CC-BY-SA unless otherwise noted. More Fandoms Fantasy Sci-fi Star Wars",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Force Warning talent",
+      "requirement": "Force Warning",
+      "type": "TALENT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Jedi Knight Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Jedi Knight Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Jedi Watchman Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Jedi_Watchman_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Watchman's Advance",
+  "flags": {},
+  "type": "talent",
+  "folder": "GUeZcOJY7RQiliHc",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385307452,
+    "modifiedTime": 1734385307452,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "AmmW8yAOK8oJmZBO",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!AmmW8yAOK8oJmZBO"
+}

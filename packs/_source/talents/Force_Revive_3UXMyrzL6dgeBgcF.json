@@ -1,0 +1,74 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "When an ally affected by your <b><a href=\"https://swse.fandom.com/wiki/Battle_Meditation\" class=\"mw-redirect\" title=\"Battle Meditation\">Battle Meditation</a></b> is reduced to 0 hit points, you can spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> as a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a>, allowing that ally to take its <a href=\"https://swse.fandom.com/wiki/Second_Wind\" class=\"mw-redirect\" title=\"Second Wind\">Second Wind</a> as a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a> immediately (though the target still falls <a href=\"https://swse.fandom.com/wiki/Unconscious\" class=\"mw-redirect\" title=\"Unconscious\">Unconscious</a> before the <a href=\"https://swse.fandom.com/wiki/Second_Wind\" class=\"mw-redirect\" title=\"Second Wind\">Second Wind</a> is triggered).",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Battle Meditation talent",
+          "requirement": "Battle Meditation",
+          "type": "TALENT"
+        },
+        {
+          "text": "Jedi Battle Commander talent",
+          "requirement": "Jedi Battle Commander",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Battle Meditation talent, and Jedi Battle Commander talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Jedi Knight Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Jedi Knight Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Jedi Battlemaster Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Jedi_Battlemaster_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Force Revive",
+  "flags": {},
+  "type": "talent",
+  "folder": "brum7FSmkqEvpVRv",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385306531,
+    "modifiedTime": 1734385306531,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "3UXMyrzL6dgeBgcF",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!3UXMyrzL6dgeBgcF"
+}

@@ -1,0 +1,123 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "A number of times per encounter equal to your <a href=\"https://swse.fandom.com/wiki/Charisma\" title=\"Charisma\">Charisma</a> modifier (minimum 1), your <a href=\"https://swse.fandom.com/wiki/Followers\" title=\"Followers\">Followers</a> gain a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a> that can be used as normal. Additionally, your <a href=\"https://swse.fandom.com/wiki/Followers\" title=\"Followers\">Followers</a> gain a number of <a href=\"https://swse.fandom.com/wiki/Trained_Skills\" class=\"mw-redirect\" title=\"Trained Skills\">Trained Skills</a> equal to their <a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a> score, and may take regular <a href=\"https://swse.fandom.com/wiki/Actions\" class=\"mw-redirect\" title=\"Actions\">Actions</a> instead of <a href=\"https://swse.fandom.com/wiki/Follower_Actions\" class=\"mw-redirect\" title=\"Follower Actions\">Follower Actions</a> (you still must spend the equivalent <a href=\"https://swse.fandom.com/wiki/Action\" class=\"mw-redirect\" title=\"Action\">Action</a> for your <a href=\"https://swse.fandom.com/wiki/Followers\" title=\"Followers\">Followers</a>).",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Akk Dog Master talent",
+          "requirement": "Akk Dog Master",
+          "type": "TALENT"
+        },
+        {
+          "text": "Commanding Officer talent",
+          "requirement": "Commanding Officer",
+          "type": "TALENT"
+        },
+        {
+          "text": "Inspire Loyalty talent",
+          "requirement": "Inspire Loyalty",
+          "type": "TALENT"
+        },
+        {
+          "text": "Reconnaissance Team Leader talent",
+          "requirement": "Reconnaissance Team Leader",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Akk Dog Master talent, Commanding Officer talent, Inspire Loyalty talent, and Reconnaissance Team Leader talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Untested"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Chellewalker Creations"
+      },
+      {
+        "value": "Noble Talent Trees"
+      },
+      {
+        "value": "Soldier Talent Trees"
+      },
+      {
+        "value": "Scout Talent Trees"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "MERC 1 Creations"
+      },
+      {
+        "value": "DarkwulfStudios Creations"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Untested",
+      "Chellewalker Creations",
+      "Noble Talent Trees",
+      "Soldier Talent Trees",
+      "Scout Talent Trees",
+      "Homebrew Content",
+      "MERC 1 Creations",
+      "DarkwulfStudios Creations",
+      "Smuggler Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Exceptional Followers Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Exceptional_Followers_Talent_Tree",
+    "bonusTalentTree": "",
+    "cost": "0"
+  },
+  "name": "Independent Initiative",
+  "flags": {},
+  "type": "talent",
+  "folder": "P6a4VASP5mQ68xHt",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385304643,
+    "modifiedTime": 1786036141321,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "oV1A6orIwj3RIvWE",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!oV1A6orIwj3RIvWE"
+}

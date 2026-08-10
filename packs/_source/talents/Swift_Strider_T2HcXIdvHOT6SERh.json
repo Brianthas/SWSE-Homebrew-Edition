@@ -1,0 +1,89 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You are skilled at maneuvering on the battlefield thanks to your experience surviving in dangerous places. You can use each of the following actions once per encounter:",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:in: Talent Trees, Scout Talent Trees, Outlaw Talent Trees, Core Rulebook Fringer Talent Tree Edit Edit source History Talk (0) Reference Book: Star Wars Saga Edition Core Rulebook You're especially skilled at \"getting by\" on backwater worlds. Contents 1 Barter 2 Fringe Savant 3 Long Stride 4 Jury-Rigger 5 Additional Fringer Talents 5.1 Flee 5.2 Keep it Together 5.3 Sidestep 5.4 Surge 5.5 Swift Strider Barter[ ] You may reroll any Persuasion check made to Haggle. You must, however, accept the results of the reroll, even if it is worse. Fringe Savant[ ] Whenever you roll a Natural 20 on a Skill Check during an encounter, you gain one temporary Force Point. If the Force Point is not used before the end of the encounter, it is lost. Long Stride[ ] Your Speed increases by 2 squares if you are wearing Light Armor or no Armor. If you have a natural Fly, Climb, or Swim Speed, it increases by 2 squares as well. You cannot use this Talent if you are wearing Medium Armor or Heavy Armor. Jury-Rigger[ ] You may reroll any Mechanics check made to Jury-Rig. You must, however, accept the result of the reroll, even if it is worse. Additional Fringer Talents[ ] Flee[ ] Reference Book: Star Wars Saga Edition Scum and Villainy Prerequisite: Long Stride As a Standard Action, you can designate a single opponent and move up to your Speed away from that opponent; this movement does not provoke Attacks of Opportunity from that opponent, though it might provoke as normal for all other opponents. In addition, your Speed increases by 2 until the end of your next turn. Keep it Together[ ] Reference Book: Star Wars Saga Edition Scum and Villainy Prerequisite: Jury-Rigger Whenever you successfully Jury-Rig a device or Vehicle, the item does not move -5 steps along the Condition Track at the end of the encounter, though it does move -2 Persistent steps down the Condition Track. Sidestep[ ] Reference Book: Star Wars Saga Edition Scum and Villainy Prerequisite: Long Stride You can use a Swift Action to reduce the cost of each move into a diagonal space to 1 until the end of your turn if you are wearing Light Armor or no Armor. You cannot use this Talent if you are wearing Medium Armor or Heavy Armor. Surge[ ] Reference Book: Star Wars Saga Edition Scum and Villainy Prerequisite: Long Stride Once per encounter, you can use a Swift Action to move up to your Speed. Swift Strider[ ] Reference Book: Star Wars Saga Edition Scum and Villainy Prerequisites: Long Stride, Sidestep You are skilled at maneuvering on the battlefield thanks to your experience surviving in dangerous places. You can use each of the following actions once per encounter: Blurring Burst: As a Move Action, move up to your Speed, and gain a +2 bonus to your Reflex Defense until the end of the encounter. Sudden Assault: Make a Charge attack against an enemy within range as a Standard Action. You take no penalty to your Reflex Defense for this attack. Weaving Stride: Move up to your Speed as a Move Action. You gain a cumulative +2 dodge bonus to your Reflex Defense for each Attack of Opportunity made against you during this movement. This bonus lasts until the beginning of your next turn. Categories Categories: Talent Trees Scout Talent Trees Outlaw Talent Trees Core Rulebook Add category Cancel Save Community content is available under CC-BY-SA unless otherwise noted. More Fandoms Fantasy Sci-fi Star Wars",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Long Stride talent",
+          "requirement": "Long Stride",
+          "type": "TALENT"
+        },
+        {
+          "text": "Sidestep talent",
+          "requirement": "Sidestep",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Long Stride talent, and Sidestep talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Scout Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Outlaw Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Scout Talent Trees",
+      "Core Rulebook",
+      "Outlaw Talent Trees",
+      "Smuggler Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Fringer Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Fringer_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Scum and Villainy",
+    "cost": "0"
+  },
+  "name": "Swift Strider",
+  "flags": {},
+  "type": "talent",
+  "folder": "ozAYcA75dshDyTBy",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385305312,
+    "modifiedTime": 1786036141319,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "T2HcXIdvHOT6SERh",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!T2HcXIdvHOT6SERh"
+}

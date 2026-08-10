@@ -1,0 +1,67 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You can hurl <a href=\"https://swse.fandom.com/wiki/Simple_Weapons_(Melee)\" title=\"Simple Weapons (Melee)\">Simple Weapons (Melee)</a>, or <a href=\"https://swse.fandom.com/wiki/Advanced_Melee_Weapons\" title=\"Advanced Melee\">Advanced Melee</a> your size or smaller as a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a>, treating it as a <a href=\"https://swse.fandom.com/wiki/Thrown_Weapon\" class=\"mw-redirect\" title=\"Thrown Weapon\">Thrown Weapon</a>. The <a href=\"https://swse.fandom.com/wiki/Thrown_Weapon\" class=\"mw-redirect\" title=\"Thrown Weapon\">Thrown Weapon</a> deals normal weapon damage if it hits.<br><br>If the weapon deals piercing or slashing damage, it becomes embedded in your target, remaining there and causing an additional die of damage each round at the end of the target's turn, and also when it is removed (removing the embedded weapon is a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>, and an adjacent ally can remove the embedded weapon for you).<br><br>Your target must be within 6 squares of you. The weapon does not automatically return to you, but you can retrieve it with the <i><a href=\"https://swse.fandom.com/wiki/Move_Object\" title=\"Move Object\">Move Object</a></i> Force Power (dealing an additional die of damage in the process, if the weapon is embedded in the target, as above).",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Empower Weapon talent",
+      "requirement": "Empower Weapon",
+      "type": "TALENT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Force Adept Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Force Adept Talent Trees",
+      "Core Rulebook"
+    ],
+    "isSupplied": false,
+    "talentTree": "Force Item Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Force_Item_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Force Throw",
+  "flags": {},
+  "type": "talent",
+  "folder": "pXJtqru8YsEmvGxP",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385305065,
+    "modifiedTime": 1734385305065,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "8umVHy54lNzyvMJx",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!8umVHy54lNzyvMJx"
+}

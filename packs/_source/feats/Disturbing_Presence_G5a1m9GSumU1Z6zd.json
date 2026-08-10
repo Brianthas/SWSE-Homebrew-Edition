@@ -1,0 +1,65 @@
+{
+  "img": "systems/swse/icon/feat/Disturbing_Presence.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_of_Intrigue\" title=\"Star Wars Saga Edition Galaxy of Intrigue\">Star Wars Saga Edition Galaxy of Intrigue</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>Your presence is such that enemies let you move past them freely.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in <a href=\"https://swse.fandom.com/wiki/Deception\" title=\"Deception\">Deception</a></p><p><b>Effect:</b> If you succeed on a DC 15 <a href=\"https://swse.fandom.com/wiki/Deception\" title=\"Deception\">Deception</a> check, you can move through the <a href=\"https://swse.fandom.com/wiki/Threatened\" class=\"mw-redirect\" title=\"Threatened\">Threatened</a> area or <a href=\"https://swse.fandom.com/wiki/Fighting_Space\" title=\"Fighting Space\">Fighting Space</a> of an enemy as part of your move action without provoking an attack of opportunity. Each <a href=\"https://swse.fandom.com/wiki/Threatened\" class=\"mw-redirect\" title=\"Threatened\">Threatened</a> space or occupied space that you move through in this manner counts as 2 squares of movement.</p><p><b>Normal:</b> You can <a href=\"https://swse.fandom.com/wiki/Tumble\" class=\"mw-redirect\" title=\"Tumble\">Tumble</a> through an occupied enemy square only by using the <a href=\"https://swse.fandom.com/wiki/Acrobatics\" title=\"Acrobatics\">Acrobatics</a> Skill.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Trained in Deception",
+      "requirement": "Deception",
+      "type": "TRAINED SKILL"
+    },
+    "categories": [
+      {
+        "value": "Scoundrel Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Noble Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Scoundrel Bonus Feats",
+      "General Feats",
+      "Noble Bonus Feats",
+      "Smuggler Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Galaxy of Intrigue",
+    "cost": "0"
+  },
+  "name": "Disturbing Presence",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1761479026577,
+    "modifiedTime": 1786036141514,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "G5a1m9GSumU1Z6zd",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!G5a1m9GSumU1Z6zd"
+}

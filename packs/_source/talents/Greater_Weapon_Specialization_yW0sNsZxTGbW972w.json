@@ -1,0 +1,110 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Choose one <a href=\"https://swse.fandom.com/wiki/Exotic_Weapon\" class=\"mw-redirect\" title=\"Exotic Weapon\">Exotic Weapon</a> or one of the following weapon groups: <a href=\"https://swse.fandom.com/wiki/Advanced_Melee_Weapons\" title=\"Advanced Melee\">Advanced Melee</a>, <a href=\"https://swse.fandom.com/wiki/Heavy_Weapons\" title=\"Heavy Weapons\">Heavy Weapons</a>, <a href=\"https://swse.fandom.com/wiki/Pistols\" title=\"Pistols\">Pistols</a>, <a href=\"https://swse.fandom.com/wiki/Rifles\" title=\"Rifles\">Rifles</a>, or <a href=\"https://swse.fandom.com/wiki/Simple_Weapons\" title=\"Simple Weapons\">Simple Weapons</a>. You gain a +2 bonus on damage rolls with the chosen <a href=\"https://swse.fandom.com/wiki/Exotic_Weapon\" class=\"mw-redirect\" title=\"Exotic Weapon\">Exotic Weapon</a> or a weapon from the chosen group. This bonus stacks with the bonus granted by the <b><a href=\"https://swse.fandom.com/wiki/Weapon_Specialization\" class=\"mw-redirect\" title=\"Weapon Specialization\">Weapon Specialization</a></b> Talent.<br><br>You may select this Talent multiple times. Each time you select this Talent, it applies to a different <a href=\"https://swse.fandom.com/wiki/Exotic_Weapon\" class=\"mw-redirect\" title=\"Exotic Weapon\">Exotic Weapon</a> or weapon group.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "takeMultipleTimes"
+      },
+      {
+        "mode": 2,
+        "value": "#payload#",
+        "key": "greaterWeaponSpecialization"
+      }
+    ],
+    "choices": [
+      {
+        "noOptions": "You Must have Weapon Specialization with a weapon group or an Exotic Weapon to select one for Greater Weapon Specialization.",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {
+              "payload": "AVAILABLE_GREATER_WEAPON_SPECIALIZATION"
+            },
+            "display": "AVAILABLE_GREATER_WEAPON_SPECIALIZATION",
+            "name": "AVAILABLE_GREATER_WEAPON_SPECIALIZATION",
+            "attributes": {}
+          }
+        ],
+        "description": "Select a Weapon to use Greater Weapon Specialization with.",
+        "oneOption": "You have a single weapon group or exotic weapon that qualifies for Greater Weapon Specialization",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": true
+      }
+    ],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Greater Weapon Focus (#payload#)",
+          "requirement": "Greater Weapon Focus (#payload#)",
+          "type": "TALENT"
+        },
+        {
+          "text": "Weapon Specialization (#payload#)",
+          "requirement": "Weapon Specialization (#payload#)",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Greater Weapon Focus (#payload#), and Weapon Specialization (#payload#)",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Elite Trooper Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Elite Trooper Talent Trees",
+      "Core Rulebook"
+    ],
+    "isSupplied": false,
+    "talentTree": "Weapon Master Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Weapon_Master_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Core Rulebook",
+    "cost": "0"
+  },
+  "name": "Greater Weapon Specialization",
+  "flags": {},
+  "type": "talent",
+  "folder": "Jbx6AQ4WPZtZfcGj",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385313388,
+    "modifiedTime": 1734385313388,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "yW0sNsZxTGbW972w",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!yW0sNsZxTGbW972w"
+}

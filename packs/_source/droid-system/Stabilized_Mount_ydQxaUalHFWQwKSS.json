@@ -1,0 +1,40 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Appendages",
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "droidPart"
+      }
+    ],
+    "description": "<p><b>Requires:</b> <a href=\"https://swse.fandom.com/wiki/Tool\" title=\"Tool\">Tool</a> Appendage</p><p>For five times the listed cost and weight, a <a href=\"https://swse.fandom.com/wiki/Tool\" title=\"Tool\">Tool</a> Appendage can be stabilized so that it can hold a larger Weapon. This allows the Droid to use that Weapon as if it was wielded in two hands.</p>",
+    "cost": "Appendage Cost x 5",
+    "weight": "Appendage Weight x 5",
+    "requires": "Tool Appendage"
+  },
+  "name": "Stabilized Mount",
+  "flags": {},
+  "type": "droid system",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764449015855,
+    "modifiedTime": 1764449015855,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "ydQxaUalHFWQwKSS",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!ydQxaUalHFWQwKSS"
+}

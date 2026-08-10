@@ -1,0 +1,72 @@
+{
+  "img": "systems/swse/icon/feat/Improved_Opportunistic_Trickery.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_of_Intrigue\" title=\"Star Wars Saga Edition Galaxy of Intrigue\">Star Wars Saga Edition Galaxy of Intrigue</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>When your opponent lets down its guard, you open it up to additional attacks.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Combat_Reflexes\" title=\"Combat Reflexes\">Combat Reflexes</a>, <a href=\"https://swse.fandom.com/wiki/Opportunistic_Trickery\" title=\"Opportunistic Trickery\">Opportunistic Trickery</a></p><p><b>Effect:</b> Whenever an opponent provokes an <a href=\"https://swse.fandom.com/wiki/Attack_of_Opportunity\" class=\"mw-redirect\" title=\"Attack of Opportunity\">Attack of Opportunity</a> from you, once per turn you can sacrifice the attack to reduce the target's <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> by 5 until the end of the target's next turn.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Combat Reflexes feat",
+          "requirement": "Combat Reflexes",
+          "type": "FEAT"
+        },
+        {
+          "text": "Opportunistic Trickery feat",
+          "requirement": "Opportunistic Trickery",
+          "type": "FEAT"
+        }
+      ],
+      "text": "Combat Reflexes feat, and Opportunistic Trickery feat",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Scoundrel Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Scoundrel Bonus Feats",
+      "General Feats",
+      "Smuggler Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Galaxy of Intrigue",
+    "cost": "0"
+  },
+  "name": "Improved Opportunistic Trickery",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1761479027467,
+    "modifiedTime": 1786036141515,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "f2wDCcqZMM0RDg2j",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!f2wDCcqZMM0RDg2j"
+}

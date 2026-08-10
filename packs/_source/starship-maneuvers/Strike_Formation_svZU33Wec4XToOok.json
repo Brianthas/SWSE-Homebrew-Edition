@@ -1,0 +1,74 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Starship_Maneuvers\" title=\"Starship Maneuvers\">Starship Maneuvers</a></i> </p><p><a href=\"https://swse.fandom.com/wiki/Pilots\" class=\"mw-redirect\" title=\"Pilots\">Pilots</a>&nbsp;who use a&nbsp;<i>Strike Formation</i>&nbsp;<a href=\"https://swse.fandom.com/wiki/Attack_Pattern\" class=\"mw-redirect\" title=\"Attack Pattern\">Attack Pattern</a> devote themselves to overwhelming an enemy with damage rather than concerning themselves with their own defense. </p><p><b>[<i><a href=\"https://swse.fandom.com/wiki/Attack_Pattern\" class=\"mw-redirect\" title=\"Attack Pattern\">Attack Pattern</a></i>]</b> </p><p><b>Time:</b>&nbsp;<a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a> </p><p><b>Targets:</b>&nbsp;Self </p><p><b>Make a&nbsp;<a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a>&nbsp;check.</b> If you succeed on a DC 20 <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> check, you activate this maneuver. While you are using <i>Strike Formation</i> as your chosen <a href=\"https://swse.fandom.com/wiki/Attack_Pattern\" class=\"mw-redirect\" title=\"Attack Pattern\">Attack Pattern</a>, you add +1 die of damage as a maneuver bonus on all damage rolls made with <a href=\"https://swse.fandom.com/wiki/Weapon_Systems\" title=\"Weapon Systems\">Weapon Systems</a> aboard your ship, but take a -2 penalty to your <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> as well. </p><p><b>Special:</b>&nbsp;You may choose to deactivate this&nbsp;<a href=\"https://swse.fandom.com/wiki/Attack_Pattern\" class=\"mw-redirect\" title=\"Attack Pattern\">Attack Pattern</a>&nbsp;at any time with a&nbsp;<a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>. This maneuver remains spent if you do so. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Reference Book: Star Wars Saga Edition Starships of the Galaxy See also: Starship Maneuvers Pilots who use a Strike Formation Attack Pattern devote themselves to overwhelming an enemy with damage rather than concerning themselves with their own defense. [Attack Pattern] Time: Swift Action Targets: Self Make a Pilot check. If you succeed on a DC 20 Pilot check, you activate this maneuver. While you are using Strike Formation as your chosen Attack Pattern, you add +1 die of damage as a maneuver bonus on all damage rolls made with Weapon Systems aboard your ship, but take a -2 penalty to your Reflex Defense as well. Special: You may choose to deactivate this Attack Pattern at any time with a Swift Action. This maneuver remains spent if you do so.",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "Attack Pattern",
+        "key": "tag"
+      },
+      {
+        "mode": 2,
+        "value": "Swift Action",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "Self",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": "Pilot",
+        "key": "rollType"
+      },
+      {
+        "mode": 2,
+        "value": "20:Pilot check, you activate this maneuver. While you are using Strike Formation as your chosen Attack Pattern, you add +1 die of damage as a maneuver bonus on all damage rolls made with Weapon Systems aboard your ship, but take a -2 penalty to your Reflex Defense as well.",
+        "key": "check"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Strike Formation",
+  "flags": {},
+  "type": "forcePower",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738608591692,
+    "modifiedTime": 1738608591692,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX"
+  },
+  "_id": "svZU33Wec4XToOok",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!svZU33Wec4XToOok"
+}

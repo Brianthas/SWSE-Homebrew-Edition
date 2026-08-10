@@ -1,0 +1,55 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "When the Beast succeeds with a melee attack using its Natural Weapons and the attack deals damage greater than the target's Damage Threshold, the target takes an additional 5 points of damage and moves -1 step on the Condition Track. Targets with the Arctic Species Type are immune to this Special Quality.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "When the Beast succeeds with a melee attack using its Natural Weapons and the attack deals damage greater than the target's Damage Threshold, the target takes an additional 5 points of damage and moves -1 step on the Condition Track. Targets with the Arctic Species Type are immune to this Special Quality.",
+        "key": "special"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "prerequisite": {
+      "text": "Arctic Species Type",
+      "requirement": "Arctic",
+      "type": "SPECIES_TYPE"
+    },
+    "cost": "0"
+  },
+  "name": "Icy Shock",
+  "flags": {},
+  "type": "beastQuality",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749299111346,
+    "modifiedTime": 1749299111346,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "0Jr4ggtN07TnhOVO",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!0Jr4ggtN07TnhOVO"
+}

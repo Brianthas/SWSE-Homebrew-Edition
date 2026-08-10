@@ -1,0 +1,110 @@
+{
+  "effects": [],
+  "system": {
+    "providedItems": [
+      {
+        "name": "Colossal",
+        "type": "trait"
+      }
+    ],
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Space Transport",
+        "key": "vehicleSubType"
+      },
+      {
+        "mode": 2,
+        "value": "48",
+        "key": "baseStrength"
+      },
+      {
+        "mode": 2,
+        "value": "10",
+        "key": "baseDexterity"
+      },
+      {
+        "mode": 2,
+        "value": "12",
+        "key": "baseIntelligence"
+      },
+      {
+        "mode": 2,
+        "value": "6 (50-100 km/h)",
+        "key": "speedCharacterScale"
+      },
+      {
+        "mode": 2,
+        "value": "-",
+        "key": "speedStarshipScale"
+      },
+      {
+        "mode": 2,
+        "value": "120",
+        "key": "hitPointEq"
+      },
+      {
+        "mode": 2,
+        "value": "10",
+        "key": "damageThresholdBonus"
+      },
+      {
+        "mode": 2,
+        "value": "+3",
+        "key": "armorReflexDefenseBonus"
+      },
+      {
+        "mode": 2,
+        "value": "125,000",
+        "key": "cost"
+      },
+      {
+        "mode": 2,
+        "value": "10",
+        "key": "crew"
+      },
+      {
+        "mode": 2,
+        "value": "200",
+        "key": "passengers"
+      },
+      {
+        "mode": 2,
+        "value": "250.0",
+        "key": "cargoCapacity"
+      },
+      {
+        "mode": 2,
+        "value": "1 Week",
+        "key": "consumables"
+      },
+      {
+        "mode": 2,
+        "value": "1",
+        "key": "emplacementPoints"
+      }
+    ],
+    "description": "",
+    "cost": "125,000"
+  },
+  "name": "Barge",
+  "flags": {},
+  "type": "vehicleBaseType",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "systemId": "swse",
+    "systemVersion": "0.7.28",
+    "coreVersion": "11.313",
+    "createdTime": 1714658199820,
+    "modifiedTime": 1714658200003,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX"
+  },
+  "_id": "yRRW6d0iSyiVHyFb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!yRRW6d0iSyiVHyFb"
+}

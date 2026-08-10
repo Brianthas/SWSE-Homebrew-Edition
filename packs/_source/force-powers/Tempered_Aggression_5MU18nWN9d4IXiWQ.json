@@ -1,0 +1,105 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Jedi_Academy_Training_Manual\" title=\"Star Wars Saga Edition Jedi Academy Training Manual\">Star Wars Saga Edition Jedi Academy Training Manual</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a></i> </p><p><b>[<i><a href=\"https://swse.fandom.com/wiki/Lightsaber_Form\" class=\"mw-redirect\" title=\"Lightsaber Form\">Lightsaber Form</a>, <a href=\"https://swse.fandom.com/wiki/Dark_Side\" class=\"mw-redirect\" title=\"Dark Side\">Dark Side</a></i>]</b> </p><p>You throw yourself against an opponent, controlling your aggression to prevent it from getting the better of you. </p><p><b>Time:</b> <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a> </p><p><b>Targets:</b> One enemy within reach </p><p><b>Make a <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check.</b> The result of the check determines the effect, if any: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td>You can make a single melee attack with a <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> against the target. If you beat the target's <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> by 10 or more, the attack is considered a Critical Hit. </td>\n  </tr> \n  <tr> \n   <td>35 </td> \n   <td>You can make a single melee attack with a <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> against the target. If you beat the target's <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> by 5 or more, the attack is considered a Critical Hit. </td>\n  </tr> \n  <tr> \n   <td>40 </td> \n   <td>You can make a single melee attack with a <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> against the target. If you beat the target's <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> by 2 or more, the attack is considered a Critical Hit. </td>\n  </tr>\n </tbody>\n</table><p><b>Lightsaber Form (<a href=\"https://swse.fandom.com/wiki/Vaapad\" class=\"mw-redirect\" title=\"Vaapad\">Vaapad</a>):</b> If you have the <a href=\"https://swse.fandom.com/wiki/Vaapad\" class=\"mw-redirect\" title=\"Vaapad\"><b>Vaapad</b></a> Talent, this Form Power does not have the [<i><a href=\"https://swse.fandom.com/wiki/Dark_Side\" class=\"mw-redirect\" title=\"Dark Side\">Dark Side</a></i>] descriptor for you. </p><p><b>Special:</b> You can spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> to deal +2 dice of damage with the attack if it hits. These additional dice of damage are added after damage is doubled, if it is a Critical Hit. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Lightsaber Form",
+        "key": "tag"
+      },
+      {
+        "mode": 2,
+        "value": "Dark Side",
+        "key": "tag"
+      },
+      {
+        "mode": 2,
+        "value": "Standard Action",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "One enemy within reach",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": "Use the Force",
+        "key": "rollType"
+      },
+      {
+        "mode": 2,
+        "value": "30:You can make a single melee attack with a Lightsaber against the target. If you beat the target's Reflex Defense by 10 or more, the attack is considered a Critical Hit.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "35:You can make a single melee attack with a Lightsaber against the target. If you beat the target's Reflex Defense by 5 or more, the attack is considered a Critical Hit.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "40:You can make a single melee attack with a Lightsaber against the target. If you beat the target's Reflex Defense by 2 or more, the attack is considered a Critical Hit.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "Reference Book: Star Wars Saga Edition Jedi Academy Training Manual See also: Force Powers [Lightsaber Form, Dark Side] You throw yourself against an opponent, controlling your aggression to prevent it from getting the better of you. Time: Standard Action Targets: One enemy within reach Make a Use the Force check. The result of the check determines the effect, if any: Lightsaber Form (Vaapad): If you have the Vaapad Talent, this Form Power does not have the [Dark Side] descriptor for you. Special: You can spend a Force Point to deal +2 dice of damage with the attack if it hits. These additional dice of damage are added after damage is doubled, if it is a Critical Hit.",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Lightsaber Form Force Powers"
+      },
+      {
+        "value": "Dark Side Force Powers"
+      },
+      {
+        "value": "Force Powers"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Tempered Aggression",
+  "flags": {},
+  "type": "forcePower",
+  "img": "systems/swse/icon/force-power/Tempered_Aggression.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738608591035,
+    "modifiedTime": 1738608591035,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "5MU18nWN9d4IXiWQ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!5MU18nWN9d4IXiWQ"
+}

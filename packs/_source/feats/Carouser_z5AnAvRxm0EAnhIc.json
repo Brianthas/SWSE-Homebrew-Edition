@@ -1,0 +1,91 @@
+{
+  "img": "systems/swse/icon/feat/Carouser.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<table style=\"width:100%; margin-top:2em; border:2px solid #999; font-size:105%; text-align:center; background:#00008B;\">\n <tbody>\n  <tr>\n   <td><i><b>This <a href=\"https://swse.fandom.com/wiki/Homebrew_Content\" title=\"Homebrew Content\">Homebrew Content</a> has been <a href=\"https://swse.fandom.com/wiki/Category:Tested\" title=\"Category:Tested\">Tested</a> per the <a href=\"https://swse.fandom.com/wiki/Category:Untested\" title=\"Category:Untested\">Untested</a> guidelines. Whether or not it can be used is, as always, the prerogative of the Gamemaster.</b></i></td>\n  </tr>\n </tbody>\n</table><p><i>Homebrew Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Legacy_of_the_Force_Sourcebook\" title=\"Legacy of the Force Sourcebook\">Legacy of the Force Sourcebook</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You can drink others under the table and never suffer the aftereffects.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Constitution\" title=\"Constitution\">Constitution</a> 13, <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in <a href=\"https://swse.fandom.com/wiki/Endurance\" title=\"Endurance\">Endurance</a></p><p><b>Effect:</b> You gain a +5 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> to resist the effects of <a href=\"https://swse.fandom.com/wiki/Poison\" class=\"mw-redirect\" title=\"Poison\">Poison</a>, and even after a raucous night of partying, you heal as though you had a full night's rest (see <a href=\"https://swse.fandom.com/wiki/Natural_Healing\" class=\"mw-redirect\" title=\"Natural Healing\">Natural Healing</a>).</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Constitution 13",
+          "requirement": "Constitution 13",
+          "type": "ATTRIBUTE"
+        },
+        {
+          "text": "Trained in Endurance",
+          "requirement": "Endurance",
+          "type": "TRAINED SKILL"
+        }
+      ],
+      "text": "Constitution 13, and Trained in Endurance",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Force Prodigy Bonus Feats"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Scoundrel Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Tested"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Force Prodigy Bonus Feats",
+      "Scoundrel Bonus Feats",
+      "General Feats",
+      "Smuggler Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Legacy of the Force Sourcebook",
+    "cost": "0"
+  },
+  "name": "Carouser",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1761479026179,
+    "modifiedTime": 1786036141517,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "z5AnAvRxm0EAnhIc",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!z5AnAvRxm0EAnhIc"
+}

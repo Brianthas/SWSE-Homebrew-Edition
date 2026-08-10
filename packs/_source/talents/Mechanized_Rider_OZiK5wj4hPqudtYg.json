@@ -1,0 +1,75 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You use your riding experience to improve your skills on a <a href=\"https://swse.fandom.com/wiki/Speeder\" class=\"mw-redirect\" title=\"Speeder\">Speeder</a> or a <a href=\"https://swse.fandom.com/wiki/Swoop_Bike\" class=\"mw-redirect\" title=\"Swoop Bike\">Swoop Bike</a>. When riding a <a href=\"https://swse.fandom.com/wiki/Speeder\" class=\"mw-redirect\" title=\"Speeder\">Speeder</a> or a <a href=\"https://swse.fandom.com/wiki/Swoop_Bike\" class=\"mw-redirect\" title=\"Swoop Bike\">Swoop Bike</a> (or another, similar <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a>), you can use the following applications of the <a href=\"https://swse.fandom.com/wiki/Ride\" title=\"Ride\">Ride</a> skill: <a href=\"https://swse.fandom.com/wiki/Fast_Mount_or_Dismount\" class=\"mw-redirect\" title=\"Fast Mount or Dismount\">Fast Mount or Dismount</a>, <a href=\"https://swse.fandom.com/wiki/Soft_Fall\" class=\"mw-redirect\" title=\"Soft Fall\">Soft Fall</a>, <a href=\"https://swse.fandom.com/wiki/Stay_in_Saddle\" class=\"mw-redirect\" title=\"Stay in Saddle\">Stay in Saddle</a>, and <a href=\"https://swse.fandom.com/wiki/Use_Mount_as_Cover\" class=\"mw-redirect\" title=\"Use Mount as Cover\">Use Mount as Cover</a>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Trained in Ride",
+          "requirement": "Ride",
+          "type": "TRAINED SKILL"
+        },
+        {
+          "text": "Trained in Pilot",
+          "requirement": "Pilot",
+          "type": "TRAINED SKILL"
+        }
+      ],
+      "text": "Trained in Ride, and Trained in Pilot",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Scout Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Scout Talent Trees",
+      "Smuggler Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Mobile Scout Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Mobile_Scout_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Mechanized Rider",
+  "flags": {},
+  "type": "talent",
+  "folder": "zWfOJZHKxzXpXMFZ",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385309865,
+    "modifiedTime": 1786036141319,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "OZiK5wj4hPqudtYg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!OZiK5wj4hPqudtYg"
+}

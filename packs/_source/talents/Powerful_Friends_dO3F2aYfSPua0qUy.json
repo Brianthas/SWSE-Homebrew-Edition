@@ -1,0 +1,82 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You have a powerful contact who has an extended sphere of influence. The contact could be an Imperial Senator, a high-level military officer, a regional governor, an infamous crime lord, or another person of similar significance.<br><br>Once per encounter, you can invoke the name or office of your powerful contact and <a href=\"https://swse.fandom.com/wiki/Take_20\" class=\"mw-redirect\" title=\"Take 20\">Take 20</a> on one <a href=\"https://swse.fandom.com/wiki/Persuasion\" title=\"Persuasion\">Persuasion</a> check, with no increase in the time needed to make the check.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Connections talent",
+          "requirement": "Connections",
+          "type": "TALENT"
+        },
+        {
+          "text": "Influential Friends talent",
+          "requirement": "Influential Friends",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Connections talent, and Influential Friends talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Noble Talent Trees"
+      },
+      {
+        "value": "Corporate Agent Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Noble Talent Trees",
+      "Corporate Agent Talent Trees",
+      "Core Rulebook"
+    ],
+    "isSupplied": false,
+    "talentTree": "Lineage Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Lineage_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Force Unleashed Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Powerful Friends",
+  "flags": {},
+  "type": "talent",
+  "folder": "0kPNBcceQb3WtjKR",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385308328,
+    "modifiedTime": 1734385308328,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "dO3F2aYfSPua0qUy",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!dO3F2aYfSPua0qUy"
+}

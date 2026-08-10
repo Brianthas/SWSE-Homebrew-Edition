@@ -1,10 +1,10 @@
 import {SWSEActiveEffect} from "../active-effect/active-effect.mjs";
 import {addBlankMode, addBlankModificationEffect} from "./util.mjs";
 
-export function onChangeControl(event) {
+export function onChangeControl(event, target) {
     event.preventDefault();
 
-    let element = $(event.currentTarget);
+    let element = $(target ?? event.currentTarget);
     let type = element.data("action-type")
     const {changes, updatePath} = getChanges.call(this);
     let update;
@@ -30,10 +30,10 @@ export function onChangeControl(event) {
     this.object.safeUpdate(update);
 }
 
-export function _onLinkControl(event) {
+export function _onLinkControl(event, target) {
     event.preventDefault();
 
-    let element = $(event.currentTarget);
+    let element = $(target ?? event.currentTarget);
     let type = element.data("action-type")
     if ('delete' === type) {
         let name = element.data("name")
@@ -42,9 +42,10 @@ export function _onLinkControl(event) {
     }
 }
 
-export function onEffectControl(event){
+export function onEffectControl(event, target){
     event.stopPropagation();
-    let element = $(event.currentTarget);
+    target ??= event.currentTarget;
+    let element = $(target);
     let effectId = element.data("effectId");
     if(effectId){
         console.warn("onEffectControl should not use effectId")
@@ -71,7 +72,7 @@ export function onEffectControl(event){
             parentDoc.deleteEmbeddedDocuments("ActiveEffect", [effectId]);
             break;
         case 'disable':
-            fromUuidSync(effectUuid).disable(!event.currentTarget.checked)
+            fromUuidSync(effectUuid).disable(!target.checked)
             break;
         case "add-modification":
             addBlankModificationEffect.call(parentDoc);
@@ -197,9 +198,9 @@ function _onFocusOut(event, changed)  {
 
 }
 
-export function onToggle(event) {
+export function onToggle(event, actionTarget) {
     event.stopPropagation();
-    const target = $(event.currentTarget)
+    const target = $(actionTarget ?? event.currentTarget)
     let toggleId = target.data("toggleId")
     let data = {};
     const {system, updatePath} = getSystem.call(this);

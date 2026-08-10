@@ -1,0 +1,187 @@
+// Equipment tab: a single unified item list grouped by category (Weapons/Armor/General
+// Equipment/Systems), replacing the old side-by-side Equipped/Unequipped panel split.
+// Row idiom matches Skills/Classes: flex-column <ul>, fixed-width flex-child columns via
+// plain classes, a -header row variant for column labels.
+
+.equipment-group {
+  margin-bottom: $space-sm;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.equipment-group-label {
+  flex: 1 1 auto;
+  min-width: 0;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--swse-text-muted);
+  display: flex;
+  align-items: center;
+  gap: $space-xs;
+
+  a {
+    color: var(--swse-accent);
+  }
+}
+
+.equipment-quick-create {
+  margin: $space-2xs 0;
+
+  input {
+    width: 100%;
+  }
+}
+
+.equipment-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: $space-2xs;
+}
+
+.equipment-row {
+  display: flex;
+  align-items: center;
+  gap: $space-sm;
+  min-height: 28px;
+  padding: 0 $space-xs;
+  border-radius: $radius-sm;
+  background: var(--swse-surface-raised);
+}
+
+.equipment-row-header {
+  background: transparent;
+  padding: 0 $space-xs;
+  margin-bottom: $space-2xs;
+
+  .equip-toggle, .slot-toggle, .integrated-toggle, .equipment-qty {
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--swse-text-muted);
+    text-align: center;
+  }
+
+  .equipment-controls {
+    width: 44px;
+    flex: 0 0 44px;
+  }
+}
+
+.equipment-image {
+  width: 22px;
+  flex: 0 0 22px;
+  height: 22px;
+  border-radius: $radius-sm;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.equipment-name {
+  flex: 1 1 auto;
+  min-width: 0;
+  color: var(--swse-text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+
+  &:hover {
+    color: var(--swse-accent);
+  }
+}
+
+.equip-toggle, .slot-toggle, .integrated-toggle {
+  width: 28px;
+  flex: 0 0 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    border-radius: $radius-sm;
+    border: 1px solid var(--swse-border);
+    color: var(--swse-text-muted);
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+
+    &:hover {
+      border-color: var(--swse-accent);
+      color: var(--swse-accent);
+    }
+
+    &.active, &.slot-type-light, &.slot-type-kit {
+      background: var(--swse-accent);
+      border-color: var(--swse-accent);
+      color: var(--swse-bg);
+    }
+  }
+}
+
+.equipment-qty {
+  width: 70px;
+  flex: 0 0 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: $space-2xs;
+
+  .qty-value {
+    min-width: 16px;
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .qty-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    font-size: 9px;
+    color: var(--swse-text-muted);
+    cursor: pointer;
+
+    &:hover {
+      color: var(--swse-accent);
+    }
+  }
+}
+
+.equipment-controls {
+  width: 44px;
+  flex: 0 0 44px;
+  display: flex;
+  justify-content: flex-end;
+  gap: $space-xs;
+
+  .item-control {
+    color: var(--swse-text-muted);
+
+    &:hover {
+      color: var(--swse-accent);
+    }
+
+    &.item-delete:hover {
+      color: var(--swse-accent-combat);
+    }
+  }
+}

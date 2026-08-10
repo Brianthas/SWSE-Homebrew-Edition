@@ -1,0 +1,112 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:</i>&nbsp;<i><a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i> </p><p>An Archaic Vehicle is one from a much earlier era of technology. Despite potentially having all the same basic technology as modern vessels (<a href=\"https://swse.fandom.com/wiki/Laser_Cannons\" class=\"mw-redirect\" title=\"Laser Cannons\">Laser Cannons</a>, <a href=\"https://swse.fandom.com/wiki/Starship_Shields\" title=\"Starship Shields\">Starship Shields</a>, <a href=\"https://swse.fandom.com/wiki/Hyperdrive\" title=\"Hyperdrive\">Hyperdrives</a>, and so on), an Archaic Vehicle suffers some disadvantages when facing vessels from higher levels of technology. The Archaic Vehicle Template can also be used to represent a Starship built by a culture whose technology is less developed than the galactic norm. </p><p>Even extremely ancient Starships can be sufficiently upgraded that they no longer suffer the disadvantages of the Archaic Vehicle Template. This requires 1 week of work x the Vehicle's cost modifier (see <a href=\"https://swse.fandom.com/wiki/Starship_Modifications\" class=\"mw-redirect\" title=\"Starship Modifications\">Starship Modifications</a>), and credits equal to 1/10 the ship's original cost. For each week of work, you must succeed on a DC 25 <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> check, or that week's effort is lost. If multiple characters work on upgrading an Archaic Vehicle, divide the total time required by the number of characters who succeed on the <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> check. </p><h3><span class=\"mw-headline\" id=\"Modifications\">Modifications</span></h3><p>All the modifications for the Archaic Vehicle Template apply only when the ship is in combat with modern Starships. If two Archaic Vehicles engage in combat, ignore all changes made by this template. </p><ul>\n <li><b>Challenge Level (CL):</b> The CL of an Archaic Vehicle is 2/3 its normal value (rounded up).</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a>:</b> Against modern weapons, an Archaic Vehicle has only half it's normal <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a>.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Shield_Rating\" title=\"Shield Rating\">Shield Rating</a> (SR):</b> Any time the SR value of an Archaic Vehicle is exceeded, there is a 50% chance they fail entirely. They may be recharged normally (using the <a href=\"https://swse.fandom.com/wiki/Recharge_Shields\" title=\"Recharge Shields\">Recharge Shields</a> Action).</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Weapon_Systems\" title=\"Weapon Systems\">Weapon Systems</a>:</b> The <a href=\"https://swse.fandom.com/wiki/Weapon_Systems\" title=\"Weapon Systems\">Weapon Systems</a> of an Archaic Vehicle can't score Critical Hits against nonarchaic vessels. \n  <ul>\n   <li>All attack rolls made by Archaic Vehicles against modern vessels take a -2 penalty, since older scanners have difficulty tracking modern ships.</li>\n  </ul></li>\n</ul>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "-0.5*@Cost",
+        "key": "cost"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "itemMod"
+      },
+      {
+        "mode": 2,
+        "value": "-50%",
+        "key": "damageThresholdBonus"
+      },
+      {
+        "mode": 2,
+        "value": "50%",
+        "key": "shieldFailureChance"
+      },
+      {
+        "mode": 2,
+        "value": false,
+        "key": "criticalHits"
+      },
+      {
+        "mode": 2,
+        "modifier": "Archaic Vehicles",
+        "value": true,
+        "key": "criticalHits"
+      },
+      {
+        "mode": 2,
+        "value": -2,
+        "key": "vehicleAttackBonus"
+      },
+      {
+        "mode": 2,
+        "value": "",
+        "key": "prefix"
+      },
+      {
+        "mode": 2,
+        "value": "",
+        "key": "suffix"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "hasItemOwner": false,
+    "subtype": "Vehicle Templates",
+    "prerequisite": {
+      "children": [
+        {
+          "children": [
+            {
+              "text": "vehicle",
+              "requirement": "vehicle",
+              "type": "TYPE"
+            },
+            {
+              "text": "vehicle",
+              "requirement": "npc-vehicle",
+              "type": "TYPE"
+            }
+          ],
+          "count": 1,
+          "text": "Is a Vehicle",
+          "type": "OR"
+        }
+      ],
+      "text": "and (Is a Vehicle)",
+      "type": "AND"
+    },
+    "cost": "-0.5*@Cost"
+  },
+  "name": "Archaic Vehicle Template",
+  "flags": {},
+  "type": "template",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.2",
+    "createdTime": 1729096741295,
+    "modifiedTime": 1729096741295,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "kn2rrW9mHTlFlKhi",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!kn2rrW9mHTlFlKhi"
+}

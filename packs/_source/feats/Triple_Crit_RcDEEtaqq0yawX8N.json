@@ -1,0 +1,73 @@
+{
+  "img": "systems/swse/icon/feat/Triple Crit.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: Star Wars Saga Edition Core Rulebook</i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>Choose one type of Weapon, such as a <a href=\"https://swse.fandom.com/wiki/Blaster_Pistol\" title=\"Blaster Pistol\">Blaster Pistol</a>, <a href=\"https://swse.fandom.com/wiki/Vibrodagger\" title=\"Vibrodagger\">Vibrodagger</a>, or <a href=\"https://swse.fandom.com/wiki/Lightsaber_(Weapon)\" title=\"Lightsaber (Weapon)\">Lightsaber</a>. You deal more damage on a Critical Hit with that Weapon.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Base_Attack_Bonus\" class=\"mw-redirect\" title=\"Base Attack Bonus\">Base Attack Bonus</a> +8</p><p><b>Effect:</b> Choose one Weapon with which you are proficient. When you score a Critical Hit with the selected weapon, you deal triple damage. You may select \"<a href=\"https://swse.fandom.com/wiki/Unarmed_Attack\" class=\"mw-redirect\" title=\"Unarmed Attack\">Unarmed Attack</a>\" as a Weapon for purposes of this <a href=\"https://swse.fandom.com/wiki/Feat\" class=\"mw-redirect\" title=\"Feat\">Feat</a>.</p><p><b>Normal:</b> A Critical Hit normally deals double damage to the target.</p><p><b>Special:</b> You can gain this Feat multiple times. The effects do not stack. Each time you take this Feat, it applies to a different Weapon. It's possible to take Triple Crit with a specific <a href=\"https://swse.fandom.com/wiki/Vehicle_Weapon\" class=\"mw-redirect\" title=\"Vehicle Weapon\">Vehicle Weapon</a>.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Base Attack Bonus 8",
+      "requirement": "8",
+      "type": "BASE ATTACK BONUS"
+    },
+    "categories": [
+      {
+        "value": "Soldier Bonus Feats"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Jedi Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Bonus Feats",
+      "General Feats",
+      "Jedi Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Core Rulebook",
+    "cost": "0"
+  },
+  "name": "Triple Crit",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479029301,
+    "modifiedTime": 1761479029301,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "RcDEEtaqq0yawX8N",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!RcDEEtaqq0yawX8N"
+}

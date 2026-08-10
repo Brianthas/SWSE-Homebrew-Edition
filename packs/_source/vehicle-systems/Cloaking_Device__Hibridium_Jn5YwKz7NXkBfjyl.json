@@ -1,0 +1,61 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Starship Accessories",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal (Frigate)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal (Cruiser)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal (Station)",
+          "type": "TRAIT"
+        }
+      ],
+      "count": 1,
+      "text": "Colossal or Larger",
+      "type": "OR"
+    },
+    "changes": [],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><table class=\"wikitable\">\n <tbody>\n  <tr>\n   <th>CLOAKING DEVICE</th>\n   <th>EMPLACEMENT POINTS</th>\n   <th>AVAILABILITY</th>\n   <th>SIZE RESTRICTION</th>\n   <th>COST</th>\n  </tr>\n  <tr>\n   <td>Hibridium</td>\n   <td>3</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Military\" class=\"mw-redirect\" title=\"Military\">Military</a></td>\n   <td>Colossal or Larger</td>\n   <td>50,000 (Base)</td>\n  </tr>\n  <tr>\n   <td>Stygium</td>\n   <td>1</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Military\" class=\"mw-redirect\" title=\"Military\">Military</a></td>\n   <td>Huge or Larger</td>\n   <td>100,000,000 (Base)</td>\n  </tr>\n </tbody>\n</table><p>A Cloaking Device creates a field of invisibility around a ship, making it nearly impossible to detect with sensors or the naked eye. The oldest form is the Stygium Cloaking Device, which uses rare crystals found only on <a href=\"https://swse.fandom.com/wiki/Aeten_II\" title=\"Aeten II\">Aeten II</a>, a planet of <a href=\"https://swse.fandom.com/wiki/The_Outer_Rim\" title=\"The Outer Rim\">The Outer Rim</a>. These devices were used extensively on military craft during the time of the Old Republic. They were fantastically expensive, but fairly small and extremely effective. The supply of Stygium crystals was so limited that they were almost impossible to find by the time of the Empire. A second technology uses Hibridium, an ore found on the planet <a href=\"https://swse.fandom.com/wiki/Garos_IV\" title=\"Garos IV\">Garos IV</a>. These cloaks are much larger and produce a \"Double-Blind\" effect, making it impossible for those within the ship to see out as long as the Cloaking Device is operating.</p><p>A cloaked ship is considered to have <a href=\"https://swse.fandom.com/wiki/Total_Concealment\" class=\"mw-redirect\" title=\"Total Concealment\">Total Concealment</a>, and may alway make a <a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a> check to <a href=\"https://swse.fandom.com/wiki/Sneak\" class=\"mw-redirect\" title=\"Sneak\">Sneak</a>. (Remember to apply the -10 penalty to notice a target that has <a href=\"https://swse.fandom.com/wiki/Total_Concealment\" class=\"mw-redirect\" title=\"Total Concealment\">Total Concealment</a> when making checks to notice a cloaked ship.) Noticing a cloaked ship does not negate it's <a href=\"https://swse.fandom.com/wiki/Concealment\" title=\"Concealment\">Concealment</a>, but does allow you to make attacks against it, taking the normal penalty on attacks for <a href=\"https://swse.fandom.com/wiki/Concealment\" title=\"Concealment\">Concealment</a>. A Starship using a Hibridium Cloaking Device also treats all other targets as having <a href=\"https://swse.fandom.com/wiki/Total_Concealment\" class=\"mw-redirect\" title=\"Total Concealment\">Total Concealment</a> as long as the cloak is active.</p>",
+    "cost": "50000 (Base)",
+    "emplacementPoints": "3",
+    "availability": "Military"
+  },
+  "name": "Cloaking Device, Hibridium",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317775,
+    "modifiedTime": 1759848317775,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "Jn5YwKz7NXkBfjyl",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!Jn5YwKz7NXkBfjyl"
+}

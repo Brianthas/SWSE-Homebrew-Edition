@@ -1,0 +1,93 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Your skills with the flight controls have improved enough that you waste little fuel.&nbsp; Double the amount of charges that you can get out of a jet pack’s fuel cell - for you, a full fuel cell usually supplies 20 charges.<br><br>Though still shaky with high-speed maneuvers, you can use some in short bursts.&nbsp; If your jet pack is activated, then by burning 2 charges, spending a swift action, and succeeding on a Pilot Check, DC 20, you can double your fly speed during one move action this turn.&nbsp; If your check fails, your swift action and charges are wasted.&nbsp; If and when you gain your Jumptrooper Qualification, you lose this speed boost maneuver.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Trained in Pilot",
+      "requirement": "Pilot",
+      "type": "TRAINED SKILL"
+    },
+    "categories": [
+      {
+        "value": "Untested"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Therysco Creations"
+      },
+      {
+        "value": "Elite Trooper Talent Trees"
+      },
+      {
+        "value": "Soldier Talent Trees"
+      },
+      {
+        "value": "Pathfinder Talent Trees"
+      },
+      {
+        "value": "Homebrew Content"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Untested",
+      "Therysco Creations",
+      "Elite Trooper Talent Trees",
+      "Soldier Talent Trees",
+      "Pathfinder Talent Trees",
+      "Homebrew Content"
+    ],
+    "isSupplied": false,
+    "talentTree": "Jumptrooper Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Jumptrooper_Talent_Tree",
+    "bonusTalentTree": "",
+    "cost": "0"
+  },
+  "name": "Jumptrooper Training",
+  "flags": {},
+  "type": "talent",
+  "folder": "krjqEN0X7caYQKYf",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385307545,
+    "modifiedTime": 1734385307545,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "XAqs7en2PDYwiz1C",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!XAqs7en2PDYwiz1C"
+}

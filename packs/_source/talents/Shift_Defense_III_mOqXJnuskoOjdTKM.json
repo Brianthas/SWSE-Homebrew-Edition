@@ -1,0 +1,78 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "As a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>, you can gain a +5 competence bonus to one <a href=\"https://swse.fandom.com/wiki/Defense\" class=\"mw-redirect\" title=\"Defense\">Defense</a> (<a href=\"https://swse.fandom.com/wiki/Reflex\" class=\"mw-redirect\" title=\"Reflex\">Reflex</a>, <a href=\"https://swse.fandom.com/wiki/Fortitude\" class=\"mw-redirect\" title=\"Fortitude\">Fortitude</a>, or <a href=\"https://swse.fandom.com/wiki/Will\" class=\"mw-redirect\" title=\"Will\">Will</a>) by taking a -5 penalty to your other two <a href=\"https://swse.fandom.com/wiki/Defenses\" title=\"Defenses\">Defenses</a>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Shift Defense I talent",
+          "requirement": "Shift Defense I",
+          "type": "TALENT"
+        },
+        {
+          "text": "Shift Defense II talent",
+          "requirement": "Shift Defense II",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Shift Defense I talent, and Shift Defense II talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Officer Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Core Rulebook",
+      "Officer Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Military Tactics Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Military_Tactics_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Core Rulebook",
+    "cost": "0"
+  },
+  "name": "Shift Defense III",
+  "flags": {},
+  "type": "talent",
+  "folder": "NfETUqBj5GcE5r4j",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385309550,
+    "modifiedTime": 1734385309550,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "mOqXJnuskoOjdTKM",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!mOqXJnuskoOjdTKM"
+}

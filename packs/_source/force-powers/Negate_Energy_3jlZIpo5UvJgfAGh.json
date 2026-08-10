@@ -1,0 +1,74 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>See also: <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a></i> </p><p>You spontaneously negate a single attack that deals Energy damage, such as a <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> or Blaster. </p><p><b>Time:</b> <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a> </p><p><b>Targets:</b> One attack made against you that deals Energy damage. </p><p><b>Make a <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check.</b> If the result of the check equals or exceeds the damage dealt by the Energy Weapon, the attack is negated and you take no damage. If your check is less than the amount of damage dealt, you fail to negate the attack and take damage as normal. </p><p><b>Special:</b> You must be aware of the attack (and not <a href=\"https://swse.fandom.com/wiki/Flat-Footed\" class=\"mw-redirect\" title=\"Flat-Footed\">Flat-Footed</a>) to negate it. If you are successful, you can spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> to regain Hit Points equal to the damage of the negated attack, up to a maximum of your full normal Hit Points. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Reaction",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "One attack made against you that deals Energy damage.",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": "Use the Force",
+        "key": "rollType"
+      },
+      {
+        "mode": 2,
+        "value": "See also: Force Powers You spontaneously negate a single attack that deals Energy damage, such as a Lightsaber or Blaster. Time: Reaction Targets: One attack made against you that deals Energy damage. Make a Use the Force check. If the result of the check equals or exceeds the damage dealt by the Energy Weapon, the attack is negated and you take no damage. If your check is less than the amount of damage dealt, you fail to negate the attack and take damage as normal. Special: You must be aware of the attack (and not Flat-Footed) to negate it. If you are successful, you can spend a Force Point to regain Hit Points equal to the damage of the negated attack, up to a maximum of your full normal Hit Points.",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Force Powers"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Negate Energy",
+  "flags": {},
+  "type": "forcePower",
+  "img": "systems/swse/icon/force-power/Negate_Energy.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738608590584,
+    "modifiedTime": 1738608590584,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "3jlZIpo5UvJgfAGh",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!3jlZIpo5UvJgfAGh"
+}

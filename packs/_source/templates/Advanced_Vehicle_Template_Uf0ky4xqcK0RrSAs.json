@@ -1,0 +1,263 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:</i>&nbsp;<i><a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i> </p><p>An Advanced Vehicle is on the cutting edge of technology, one that includes numerous new systems and improvements to old systems. Individual prototypes of new ship classes, specially modified private vessels for the rich and powerful, and special ships built by cultures that have particularly advanced technology are all represented by adding this template to standard Starships. </p><p>Advanced Vehicles are rarely a class of vessel. Even the most cutting-edge culture can't make more than a few of these vessels at a time. They require regular maintenance (taking 1 day and a DC 30 <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> check each week) or move -1 <a href=\"https://swse.fandom.com/wiki/Persistent\" class=\"mw-redirect\" title=\"Persistent\">Persistent</a> step on the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a> until missed <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> checks are made. </p><h3><span class=\"mw-headline\" id=\"Modifications\">Modifications</span></h3><p>To create an Advanced Vehicle, make the following changes to an existing Starship: </p><ul>\n <li><b>Challenge Level (CL):</b> The CL of an Advanced Vehicle is 125% of its normal value (rounded up).</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Shield_Rating\" title=\"Shield Rating\">Shield Rating</a> (SR):</b> Increase the ship's SR by an amount based on its size; Huge +5, Gargantuan +10, Colossal +20, Colossal (Frigate) +30, Colossal (Cruiser) +40, Colossal (Station) +50. If the base ship doesn't have <a href=\"https://swse.fandom.com/wiki/Starship_Shields\" title=\"Starship Shields\">Starship Shields</a> normally, give it shields with a total SR of double the given bonus +10.</li> \n <li><b>Hit Points:</b> Increase the ship's total Hit Points by 25% (rounded up).</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a>:</b> Increase the ship's <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> by the following bonus based on its size; Huge +2, Gargantuan +6, Colossal +10, Colossal (Frigate) +16, Colossal (Cruiser) +22, Colossal (Station) +36. Increase the ship's <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>, <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a>, and <a href=\"https://swse.fandom.com/wiki/Grapple\" title=\"Grapple\">Grapple</a> modifier to represent the new <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> modifier.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a>:</b> Increase the <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> of Huge and Gargantuan Starships by 8, Colossal (Station) ships by 2, and all others by 4. Increase the ship's <a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a>, <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>, and <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> check modifier to represent the new <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> modifier.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a>:</b> Increase the ship's <a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a> by 4. Increase your weapon attack bonuses to represent your new <a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a> modifier.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Weapon_Systems\" title=\"Weapon Systems\">Weapon Systems</a>:</b> Increase the damage dealt by all <a href=\"https://swse.fandom.com/wiki/Weapon_Systems\" title=\"Weapon Systems\">Weapon Systems</a> by 1 die.</li>\n</ul>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "??",
+        "key": "cost"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "itemMod"
+      },
+      {
+        "mode": 2,
+        "value": "+25%",
+        "key": "challengeLevel"
+      },
+      {
+        "mode": 2,
+        "value": 1,
+        "key": "vehicleBonusDamage"
+      },
+      {
+        "mode": 2,
+        "value": "",
+        "key": "prefix"
+      },
+      {
+        "mode": 2,
+        "value": "",
+        "key": "suffix"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Advanced Shields (+5)",
+        "prerequisite": {
+          "text": "Huge",
+          "requirement": "Huge",
+          "type": "TRAIT"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Advanced Shields (+10)",
+        "prerequisite": {
+          "text": "Gargantuan",
+          "requirement": "Gargantuan",
+          "type": "TRAIT"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Advanced Shields (+20)",
+        "prerequisite": {
+          "text": "Colossal",
+          "requirement": "Colossal",
+          "type": "TRAIT"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Advanced Shields (+30)",
+        "prerequisite": {
+          "text": "Colossal (Frigate)",
+          "requirement": "Colossal (Frigate)",
+          "type": "TRAIT"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Advanced Shields (+40)",
+        "prerequisite": {
+          "text": "Colossal (Cruiser)",
+          "requirement": "Colossal (Cruiser)",
+          "type": "TRAIT"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Advanced Shields (+50)",
+        "prerequisite": {
+          "text": "Colossal (Station)",
+          "requirement": "Colossal (Station)",
+          "type": "TRAIT"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Strength (+2)",
+        "prerequisite": {
+          "text": "Huge",
+          "requirement": "Huge",
+          "type": "TRAIT"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Strength (+6)",
+        "prerequisite": {
+          "text": "Gargantuan",
+          "requirement": "Gargantuan",
+          "type": "TRAIT"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Strength (+10)",
+        "prerequisite": {
+          "text": "Colossal",
+          "requirement": "Colossal",
+          "type": "TRAIT"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Strength (+16)",
+        "prerequisite": {
+          "text": "Colossal (Frigate)",
+          "requirement": "Colossal (Frigate)",
+          "type": "TRAIT"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Strength (+22)",
+        "prerequisite": {
+          "text": "Colossal (Cruiser)",
+          "requirement": "Colossal (Cruiser)",
+          "type": "TRAIT"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Strength (+36)",
+        "prerequisite": {
+          "text": "Colossal (Station)",
+          "requirement": "Colossal (Station)",
+          "type": "TRAIT"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Dexterity (+8)",
+        "prerequisite": {
+          "text": "Huge",
+          "requirement": "Huge",
+          "type": "TRAIT"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Dexterity (+8)",
+        "prerequisite": {
+          "text": "Gargantuan",
+          "requirement": "Gargantuan",
+          "type": "TRAIT"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Dexterity (+4)",
+        "prerequisite": {
+          "text": "Colossal",
+          "requirement": "Colossal",
+          "type": "TRAIT"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Dexterity (+4)",
+        "prerequisite": {
+          "text": "Colossal (Frigate)",
+          "requirement": "Colossal (Frigate)",
+          "type": "TRAIT"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Dexterity (+4)",
+        "prerequisite": {
+          "text": "Colossal (Cruiser)",
+          "requirement": "Colossal (Cruiser)",
+          "type": "TRAIT"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Dexterity (+2)",
+        "prerequisite": {
+          "text": "Colossal (Station)",
+          "requirement": "Colossal (Station)",
+          "type": "TRAIT"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Intelligence (+4)",
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "hasItemOwner": false,
+    "subtype": "Vehicle Templates",
+    "prerequisite": {
+      "children": [
+        {
+          "children": [
+            {
+              "text": "vehicle",
+              "requirement": "vehicle",
+              "type": "TYPE"
+            },
+            {
+              "text": "vehicle",
+              "requirement": "npc-vehicle",
+              "type": "TYPE"
+            }
+          ],
+          "count": 1,
+          "text": "Is a Vehicle",
+          "type": "OR"
+        }
+      ],
+      "text": "and (Is a Vehicle)",
+      "type": "AND"
+    },
+    "cost": "??"
+  },
+  "name": "Advanced Vehicle Template",
+  "flags": {},
+  "type": "template",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.2",
+    "createdTime": 1729096741288,
+    "modifiedTime": 1729096741288,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "Uf0ky4xqcK0RrSAs",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!Uf0ky4xqcK0RrSAs"
+}

@@ -1,0 +1,745 @@
+{
+  "effects": [
+    {
+      "name": "Level 1",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 1
+        }
+      },
+      "disabled": true,
+      "_id": "1DoetZjFtjW70Uh9",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Delay Damage",
+            "key": "providedTrait",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": "Elite Trooper Talent Trees",
+            "key": "provides",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 1,
+            "key": "baseAttackBonus",
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!W4m1QjJ6zIe5vuku.1DoetZjFtjW70Uh9"
+    },
+    {
+      "name": "Level 2",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 2
+        }
+      },
+      "disabled": true,
+      "_id": "llOoz68qUrrgUMrO",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": 1,
+            "key": "damageReduction",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": "Damage Reduction",
+            "key": "providedTrait",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 1,
+            "key": "baseAttackBonus",
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!W4m1QjJ6zIe5vuku.llOoz68qUrrgUMrO"
+    },
+    {
+      "name": "Level 3",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 3
+        }
+      },
+      "disabled": true,
+      "_id": "XG64ScNZDq7kVEoa",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Elite Trooper Talent Trees",
+            "key": "provides",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 1,
+            "key": "baseAttackBonus",
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!W4m1QjJ6zIe5vuku.XG64ScNZDq7kVEoa"
+    },
+    {
+      "name": "Level 4",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 4
+        }
+      },
+      "disabled": true,
+      "_id": "aZCJ0x7fM5cDY5sO",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": 1,
+            "key": "damageReduction",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": "Damage Reduction",
+            "key": "providedTrait",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 1,
+            "key": "baseAttackBonus",
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!W4m1QjJ6zIe5vuku.aZCJ0x7fM5cDY5sO"
+    },
+    {
+      "name": "Level 5",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 5
+        }
+      },
+      "disabled": true,
+      "_id": "g4cSEHqn1TosVztx",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Elite Trooper Talent Trees",
+            "key": "provides",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 1,
+            "key": "baseAttackBonus",
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!W4m1QjJ6zIe5vuku.g4cSEHqn1TosVztx"
+    },
+    {
+      "name": "Level 6",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 6
+        }
+      },
+      "disabled": true,
+      "_id": "pn05Zy3Q0ok2kdxB",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": 1,
+            "key": "damageReduction",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": "Damage Reduction",
+            "key": "providedTrait",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 1,
+            "key": "baseAttackBonus",
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!W4m1QjJ6zIe5vuku.pn05Zy3Q0ok2kdxB"
+    },
+    {
+      "name": "Level 7",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 7
+        }
+      },
+      "disabled": true,
+      "_id": "ylijvqSzHjSyVLWO",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Elite Trooper Talent Trees",
+            "key": "provides",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 1,
+            "key": "baseAttackBonus",
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!W4m1QjJ6zIe5vuku.ylijvqSzHjSyVLWO"
+    },
+    {
+      "name": "Level 8",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 8
+        }
+      },
+      "disabled": true,
+      "_id": "O6v1vK7Jj7WJeABd",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": 1,
+            "key": "damageReduction",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": "Damage Reduction",
+            "key": "providedTrait",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 1,
+            "key": "baseAttackBonus",
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!W4m1QjJ6zIe5vuku.O6v1vK7Jj7WJeABd"
+    },
+    {
+      "name": "Level 9",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 9
+        }
+      },
+      "disabled": true,
+      "_id": "UZoYg8Xqu6TSRzbj",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Elite Trooper Talent Trees",
+            "key": "provides",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 1,
+            "key": "baseAttackBonus",
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!W4m1QjJ6zIe5vuku.UZoYg8Xqu6TSRzbj"
+    },
+    {
+      "name": "Level 10",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 10
+        }
+      },
+      "disabled": true,
+      "_id": "KQhY5en5nBsIUVkX",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": 1,
+            "key": "damageReduction",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": "Damage Reduction",
+            "key": "providedTrait",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 1,
+            "key": "baseAttackBonus",
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!W4m1QjJ6zIe5vuku.KQhY5en5nBsIUVkX"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: Star Wars Saga Edition Core Rulebook</i> </p><p>The Elite Trooper represents an individual who has received advanced combat training. More than a mere <a href=\"https://swse.fandom.com/wiki/Soldier\" title=\"Soldier\">Soldier</a>, the Elite Trooper is highly trained and capable of taking on any number of combat-related missions, such as guarding an important location, assaulting an enemy base, or participating in a stealthy insertion into enemy territory. They're a crack shot and, though trained in the use of armor, can easily operate without it if the situation warrants. When the fighting gets particularly brutal, the Elite Trooper can dispatch foes hand-to-hand as easily as they can with a blaster. </p><p>Elite Troopers exist in a variety of roles, but unlike Imperial <a href=\"https://swse.fandom.com/wiki/Stormtrooper\" title=\"Stormtrooper\">Stormtroopers</a>- the \"Elite Troops\" of the Empire, they rely on skill and ingenuity more than sheer force and blind obedience to the Empire's will. Thus, the best missions for them involve penetrating attacks deep behind enemy lines, or guerrilla warfare conducted on enemy-held worlds- situations where versatility and sheer determination are the Elite Trooper's best armaments and armor. </p><h4><span class=\"mw-headline\" id=\"Examples_of_Elite_Troopers_in_Star_Wars\"><b>Examples of Elite Troopers in Star Wars</b></span></h4><p>General Madine, Major Derlin, Kyle Katarn, Lieutenant Page, Kell Tainer, ARC Trooper Alpha-02. </p><h4><span class=\"mw-headline\" id=\"Prerequisites\"><b>Prerequisites</b></span></h4><p>To qualify to become an Elite Trooper, a character must fulfill the following criteria: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Base_Attack_Bonus\" class=\"mw-redirect\" title=\"Base Attack Bonus\">Base Attack Bonus</a>:</b> +7</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a>:</b> <a href=\"https://swse.fandom.com/wiki/Armor_Proficiency_(Light)\" title=\"Armor Proficiency (Light)\">Armor Proficiency (Light)</a>, <a href=\"https://swse.fandom.com/wiki/Armor_Proficiency_(Medium)\" title=\"Armor Proficiency (Medium)\">Armor Proficiency (Medium)</a>, <a href=\"https://swse.fandom.com/wiki/Martial_Arts_I\" title=\"Martial Arts I\">Martial Arts I</a>, <a href=\"https://swse.fandom.com/wiki/Point-Blank_Shot\" title=\"Point-Blank Shot\">Point-Blank Shot</a> or <a href=\"https://swse.fandom.com/wiki/Flurry\" title=\"Flurry\">Flurry</a></li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Talents\" title=\"Talents\">Talents</a>:</b> At least one <a href=\"https://swse.fandom.com/wiki/Talent\" class=\"mw-redirect\" title=\"Talent\">Talent</a> from the <a href=\"https://swse.fandom.com/wiki/Armor_Specialist_Talent_Tree\" title=\"Armor Specialist Talent Tree\">Armor Specialist Talent Tree</a>, <a href=\"https://swse.fandom.com/wiki/Commando_Talent_Tree\" title=\"Commando Talent Tree\">Commando Talent Tree</a>, <a href=\"https://swse.fandom.com/wiki/Mercenary_Talent_Tree\" title=\"Mercenary Talent Tree\">Mercenary Talent Tree</a>, or <a href=\"https://swse.fandom.com/wiki/Weapon_Specialist_Talent_Tree\" title=\"Weapon Specialist Talent Tree\">Weapon Specialist Talent Tree</a></li>\n</ul><h3><span class=\"mw-headline\" id=\"Game_Rule_Information\">Game Rule Information</span></h3><p>The following are the features of the Elite Trooper&nbsp;<a href=\"https://swse.fandom.com/wiki/Prestige_Class\" class=\"mw-redirect\" title=\"Prestige Class\">Prestige Class</a>: </p><table class=\"wikitable\"> \n <caption>\n  <b>Elite Trooper Leveling Statistics</b> \n </caption> \n <tbody>\n  <tr> \n   <th>LEVEL </th> \n   <th><a href=\"https://swse.fandom.com/wiki/BASE_ATTACK_BONUS\" class=\"mw-redirect\" title=\"BASE ATTACK BONUS\">BASE ATTACK BONUS</a> </th> \n   <th>CLASS FEATURES </th>\n  </tr> \n  <tr> \n   <td>1st </td> \n   <td>+1 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Defense\" class=\"mw-redirect\" title=\"Defense\">Defense</a> Bonuses, Delay Damage, <a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Elite_Trooper)\" title=\"Talent Trees (Elite Trooper)\">Talent</a> </td>\n  </tr> \n  <tr> \n   <td>2nd </td> \n   <td>+2 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Damage_Reduction\" title=\"Damage Reduction\">Damage Reduction</a> 1 </td>\n  </tr> \n  <tr> \n   <td>3rd </td> \n   <td>+3 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Elite_Trooper)\" title=\"Talent Trees (Elite Trooper)\">Talent</a> </td>\n  </tr> \n  <tr> \n   <td>4th </td> \n   <td>+4 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Damage_Reduction\" title=\"Damage Reduction\">Damage Reduction</a> 2 </td>\n  </tr> \n  <tr> \n   <td>5th </td> \n   <td>+5 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Elite_Trooper)\" title=\"Talent Trees (Elite Trooper)\">Talent</a> </td>\n  </tr> \n  <tr> \n   <td>6th </td> \n   <td>+6 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Damage_Reduction\" title=\"Damage Reduction\">Damage Reduction</a> 3 </td>\n  </tr> \n  <tr> \n   <td>7th </td> \n   <td>+7 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Elite_Trooper)\" title=\"Talent Trees (Elite Trooper)\">Talent</a> </td>\n  </tr> \n  <tr> \n   <td>8th </td> \n   <td>+8 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Damage_Reduction\" title=\"Damage Reduction\">Damage Reduction</a> 4 </td>\n  </tr> \n  <tr> \n   <td>9th </td> \n   <td>+9 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Elite_Trooper)\" title=\"Talent Trees (Elite Trooper)\">Talent</a> </td>\n  </tr> \n  <tr> \n   <td>10th </td> \n   <td>+10 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Damage_Reduction\" title=\"Damage Reduction\">Damage Reduction</a> 5 </td>\n  </tr>\n </tbody>\n</table><h4><span class=\"mw-headline\" id=\"Hit_Points\"><b>Hit Points</b></span></h4><p>At each level, Elite Troopers gain 1d12 hit points + their <a href=\"https://swse.fandom.com/wiki/Constitution\" title=\"Constitution\">Constitution</a> modifier. </p><h4><span class=\"mw-headline\" id=\"Force_Points\"><b>Force Points</b></span></h4><p>Elite Troopers gain a number of <a href=\"https://swse.fandom.com/wiki/Force_Points\" title=\"Force Points\">Force Points</a> equal to 6 + one-half their Character Level, rounded down, each time they gain a new level in this <a href=\"https://swse.fandom.com/wiki/Prestige_Class\" class=\"mw-redirect\" title=\"Prestige Class\">Prestige Class</a>. </p><h4><span class=\"mw-headline\" id=\"Defense_Bonuses\"><b>Defense Bonuses</b></span></h4><p>At 1st level, Elite Troopers gain a +2 <a href=\"https://swse.fandom.com/wiki/Class\" class=\"mw-redirect\" title=\"Class\">Class</a> bonus to their <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>, and a +4 <a href=\"https://swse.fandom.com/wiki/Class\" class=\"mw-redirect\" title=\"Class\">Class</a> bonus to their <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>. </p><h4><span class=\"mw-headline\" id=\"Delay_Damage\"><b>Delay Damage</b></span></h4><p>Elite Troopers are among the toughest individuals in the galaxy. After being exposed to numerous threats, foes, and combat situations, you've developed the ability to delay effects that would drop lesser creatures. </p><p>Once per encounter as a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a>, you can choose to delay the effect of a single attack, ability, or effect used against you. The damage or effect does not take hold until the end of your next turn. </p><h4><span class=\"mw-headline\" id=\"Talents\"><b>Talents</b></span></h4><p>At every odd-numbered level (1st, 3rd, 5th, and so on), an Elite Trooper gains an additional <a href=\"https://swse.fandom.com/wiki/Talent\" class=\"mw-redirect\" title=\"Talent\">Talent</a>. An Elite Trooper may choose a <a href=\"https://swse.fandom.com/wiki/Talent\" class=\"mw-redirect\" title=\"Talent\">Talent</a> from any of the <a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Elite_Trooper)\" title=\"Talent Trees (Elite Trooper)\">Talent Trees (Elite Trooper)</a> they wish, but they must meet the prerequisites (if any) of the chosen <a href=\"https://swse.fandom.com/wiki/Talent\" class=\"mw-redirect\" title=\"Talent\">Talent</a>. No <a href=\"https://swse.fandom.com/wiki/Talent\" class=\"mw-redirect\" title=\"Talent\">Talent</a> can be selected more than once unless expressly indicated. </p><h4><span class=\"mw-headline\" id=\"Damage_Reduction\"><b>Damage Reduction</b></span></h4><p>At 2nd level, you gain <a href=\"https://swse.fandom.com/wiki/Damage_Reduction\" title=\"Damage Reduction\">Damage Reduction</a> 1 (DR 1), which means that you reduce the damage you take from any attack by 1. </p><p>At every even-numbered level after 2nd, your <a href=\"https://swse.fandom.com/wiki/Damage_Reduction\" title=\"Damage Reduction\">Damage Reduction</a> improves by 1 (DR 2 at 4th level, DR 3 at 6th level, and so on). </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "1d12",
+        "key": "levelUpHitPoints"
+      },
+      {
+        "mode": 2,
+        "value": 6,
+        "key": "classForcePoints"
+      },
+      {
+        "mode": 2,
+        "value": 4,
+        "key": "classFortitudeDefenseBonus"
+      },
+      {
+        "mode": 2,
+        "value": 2,
+        "key": "classReflexDefenseBonus"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHeroic"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isPrestige"
+      },
+      {
+        "mode": 2,
+        "value": false,
+        "key": "isFollowerTemplate"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Base Attack Bonus 7",
+          "requirement": "7",
+          "type": "BASE ATTACK BONUS"
+        },
+        {
+          "children": [
+            {
+              "text": "Armor Proficiency feat",
+              "requirement": "Armor Proficiency",
+              "type": "FEAT"
+            },
+            {
+              "text": "Martial Arts I feat",
+              "requirement": "Martial Arts I",
+              "type": "FEAT"
+            },
+            {
+              "children": [
+                {
+                  "text": "Point-Blank Shot feat",
+                  "requirement": "Point-Blank Shot",
+                  "type": "FEAT"
+                },
+                {
+                  "text": "Flurry feat",
+                  "requirement": "Flurry",
+                  "type": "FEAT"
+                }
+              ],
+              "count": 1,
+              "text": "Point-Blank Shot feat or Flurry feat",
+              "type": "OR"
+            }
+          ],
+          "text": "Armor Proficiency feat, Martial Arts I feat, and Point-Blank Shot feat or Flurry feat",
+          "type": "AND"
+        },
+        {
+          "children": [
+            {
+              "text": "Talent from the Armor Specialist Talent Tree",
+              "requirement": "Armor Specialist Talent Tree",
+              "type": "TALENT"
+            },
+            {
+              "text": "Talent from the Commando Talent Tree",
+              "requirement": "Commando Talent Tree",
+              "type": "TALENT"
+            },
+            {
+              "text": "Talent from the Mercenary Talent Tree",
+              "requirement": "Mercenary Talent Tree",
+              "type": "TALENT"
+            },
+            {
+              "text": "Talent from the Weapon Specialist Talent Tree",
+              "requirement": "Weapon Specialist Talent Tree",
+              "type": "TALENT"
+            }
+          ],
+          "count": 1,
+          "text": "Talent from the Armor Specialist Talent Tree, Talent from the Commando Talent Tree, Talent from the Mercenary Talent Tree or Talent from the Weapon Specialist Talent Tree",
+          "type": "OR"
+        }
+      ],
+      "text": "Base Attack Bonus 7, Armor Proficiency feat, Martial Arts I feat, and Point-Blank Shot feat or Flurry feat, and Talent from the Armor Specialist Talent Tree, Talent from the Commando Talent Tree, Talent from the Mercenary Talent Tree or Talent from the Weapon Specialist Talent Tree",
+      "type": "AND"
+    },
+    "levels": [],
+    "cost": "0"
+  },
+  "name": "Elite Trooper",
+  "flags": {},
+  "type": "class",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1730910735084,
+    "modifiedTime": 1786044418407,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "W4m1QjJ6zIe5vuku",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!W4m1QjJ6zIe5vuku"
+}

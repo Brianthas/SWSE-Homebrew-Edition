@@ -1,0 +1,89 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:</i>&nbsp;<i><a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i> </p><p><b>Manufactured By:</b> The <a href=\"https://swse.fandom.com/wiki/Dashade\" title=\"Dashade\">Dashade</a> (<a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>) </p><p><b>Applicable To:</b> Any Weapon </p><p>The <a href=\"https://swse.fandom.com/wiki/Dashade\" title=\"Dashade\">Dashade</a> Species specializes in creating Weapons capable of inflicting great pain- if not great damage- upon an opponent. </p><p><b>Weapons:</b> A target moved down the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a> by an attack from a Dashade Manufacture Weapon can only spend 2 <a href=\"https://swse.fandom.com/wiki/Swift_Actions\" title=\"Swift Actions\">Swift Actions</a> per turn to <a href=\"https://swse.fandom.com/wiki/Recover\" title=\"Recover\">Recover</a>. This effect lasts until the target return to its normal state (all conditions removed). Dashade Manufacture Weapons are considered <a href=\"https://swse.fandom.com/wiki/Illegal\" class=\"mw-redirect\" title=\"Illegal\">Illegal</a>, and take a -2 penalty to damage rolls. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "??",
+        "key": "cost"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "itemMod"
+      },
+      {
+        "mode": 2,
+        "value": "A target moved down the Condition Track by an attack from a Dashade Manufacture Weapon can only spend 2 Swift Actions per turn to Recover. This effect lasts until the target return to its normal state (all conditions removed).",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": "-2",
+        "key": "bonusDamage"
+      },
+      {
+        "mode": 2,
+        "value": "Dashade",
+        "key": "prefix"
+      },
+      {
+        "mode": 2,
+        "value": "",
+        "key": "suffix"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "hasItemOwner": false,
+    "subtype": "Weapon Templates",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Any Weapon",
+          "requirement": "weapon",
+          "type": "TYPE"
+        },
+        {
+          "text": "Any Weapon",
+          "requirement": "weapon",
+          "type": "TYPE"
+        }
+      ],
+      "text": "Any Weapon, and Any Weapon",
+      "type": "AND"
+    },
+    "cost": "??"
+  },
+  "name": "Dashade Weapon Template",
+  "flags": {},
+  "type": "template",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.2",
+    "createdTime": 1729096741349,
+    "modifiedTime": 1729096741349,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "WuU84H6ruvRAaQ8s",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!WuU84H6ruvRAaQ8s"
+}

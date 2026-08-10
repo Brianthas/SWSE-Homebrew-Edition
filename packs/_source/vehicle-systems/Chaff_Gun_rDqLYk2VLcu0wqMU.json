@@ -1,0 +1,37 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Weapon Systems",
+    "changes": [],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_at_War\" title=\"Star Wars Saga Edition Galaxy at War\">Star Wars Saga Edition Galaxy at War</a></i></p><p><b>Emplacement Points:</b>&nbsp;1</p><p>The Arakyd Caltrop-5 Chaff Gun is a typical example of this type of weapon. A Chaff Gun shoots a canister packed with thousands of durasteel shrapnel pieces. Intermixed in this canister are dozens of tiny scramblers that confuse sensor data, making it difficult to lock onto the vessel firing the Chaff Gun with missiles, torpedoes, or fire control computers. In a pinch, Chaff Guns fired in an atmosphere can be used offensively. When fired behind a vessel, the Chaff Gun creates a cloud of debris that can damage pursuing ships' engines and clug intake valves.</p><p>When used in <a href=\"https://swse.fandom.com/wiki/Starship_Scale\" class=\"mw-redirect\" title=\"Starship Scale\">Starship Scale</a>, a Chaff Gun creates a cloud of debris in a single square in your Vehicle's space. Attempts to hit you with other than <a href=\"https://swse.fandom.com/wiki/Area_Attack\" class=\"mw-redirect\" title=\"Area Attack\">Area Attack</a>-weapons take a -5 penalty to attack rolls while the <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> remains in the space with the chaff. Any other <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> entering a square filled with chaff takes a -5 penalty to <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> checks while in the square. The chaff cloud disperses at the end of your next turn.</p><p>A standard Chaff Gun holds six canisters. Additional canisters can be added, increasing the cost by 25% for each additional canister (up to a maximum of twelve canisters).</p>",
+    "cost": "2000",
+    "ammo": "Chaff Canister:1",
+    "emplacementPoints": "1",
+    "availability": "-",
+    "ammoCapacity": "Chaff Canister:6",
+    "ammoCapacityIncrease": "Chaff Canister:25%:12"
+  },
+  "name": "Chaff Gun",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317412,
+    "modifiedTime": 1759848317412,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "rDqLYk2VLcu0wqMU",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!rDqLYk2VLcu0wqMU"
+}

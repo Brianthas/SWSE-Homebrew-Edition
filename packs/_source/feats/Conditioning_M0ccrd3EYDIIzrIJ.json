@@ -1,0 +1,91 @@
+{
+  "img": "systems/swse/icon/feat/Conditioning.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You are in excellent physical condition, enabling you to extend physical activities. You might not have great strength, but you have a lot of stamina.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> 13, <a href=\"https://swse.fandom.com/wiki/Constitution\" title=\"Constitution\">Constitution</a> 13</p><p><b>Effect:</b> You can reroll any <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a>- or <a href=\"https://swse.fandom.com/wiki/Constitution\" title=\"Constitution\">Constitution</a>-based <a href=\"https://swse.fandom.com/wiki/Skill_Checks\" title=\"Skill Checks\">Skill Checks</a> for <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> that you are <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in. The result of the reroll must be accepted even if it is worse. Additionally, once per encounter you can add your <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> modifier to your <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> as a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a>; this bonus lasts until the beginning of your next turn.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Strength::Reference Book: Star Wars Saga Edition Knights of the Old Republic Campaign Guide See also: Feats You are in excellent physical condition, enabling you to extend physical activities. You might not have great strength, but you have a lot of stamina. Prerequisites: Strength 13, Constitution 13 Effect: You can reroll any Strength- or Constitution-based Skill Checks for Skills that you are Trained in. The result of the reroll must be accepted even if it is worse. Additionally, once per encounter you can add your Strength modifier to your Fortitude Defense as a Reaction; this bonus lasts until the beginning of your next turn.",
+        "key": "skillReRoll"
+      },
+      {
+        "mode": 2,
+        "value": "Constitution::Reference Book: Star Wars Saga Edition Knights of the Old Republic Campaign Guide See also: Feats You are in excellent physical condition, enabling you to extend physical activities. You might not have great strength, but you have a lot of stamina. Prerequisites: Strength 13, Constitution 13 Effect: You can reroll any Strength- or Constitution-based Skill Checks for Skills that you are Trained in. The result of the reroll must be accepted even if it is worse. Additionally, once per encounter you can add your Strength modifier to your Fortitude Defense as a Reaction; this bonus lasts until the beginning of your next turn.",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Strength 13",
+          "requirement": "Strength 13",
+          "type": "ATTRIBUTE"
+        },
+        {
+          "text": "Constitution 13",
+          "requirement": "Constitution 13",
+          "type": "ATTRIBUTE"
+        }
+      ],
+      "text": "Strength 13, and Constitution 13",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Soldier Bonus Feats"
+      },
+      {
+        "value": "Force Prodigy Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Scout Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Bonus Feats",
+      "Force Prodigy Bonus Feats",
+      "General Feats",
+      "Scout Bonus Feats",
+      "Smuggler Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Conditioning",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1761479026298,
+    "modifiedTime": 1786036141514,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "M0ccrd3EYDIIzrIJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!M0ccrd3EYDIIzrIJ"
+}

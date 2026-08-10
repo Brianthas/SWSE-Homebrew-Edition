@@ -1,0 +1,74 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You use your extensive databanks to better analyze scientific data. You can add double your <a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a> modifier to your <a href=\"https://swse.fandom.com/wiki/Knowledge_(Life_Sciences)\" class=\"mw-redirect\" title=\"Knowledge (Life Sciences)\">Knowledge (Life Sciences)</a> and <a href=\"https://swse.fandom.com/wiki/Knowledge_(Physical_Sciences)\" class=\"mw-redirect\" title=\"Knowledge (Physical Sciences)\">Knowledge (Physical Sciences)</a> skill checks.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Trained in Knowledge (Life Sciences)",
+          "requirement": "Knowledge (Life Sciences)",
+          "type": "TRAINED SKILL"
+        },
+        {
+          "text": "Trained in Knowledge (Physical Sciences)",
+          "requirement": "Knowledge (Physical Sciences)",
+          "type": "TRAINED SKILL"
+        }
+      ],
+      "text": "Trained in Knowledge (Life Sciences) and Knowledge (Physical Sciences)",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Droid Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Droid Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "1st-Degree Droid Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/1st-Degree_Droid_Talent_Tree",
+    "bonusTalentTree": "1st-Degree Droid Talent Tree",
+    "source": "Star Wars Saga Edition Scavenger's Guide to Droids",
+    "cost": "0"
+  },
+  "name": "Science Analyzer",
+  "flags": {},
+  "type": "talent",
+  "folder": "5N8Y3uKMmJDcm05M",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385301460,
+    "modifiedTime": 1734385301460,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "phQboLPt3JJD9mBv",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!phQboLPt3JJD9mBv"
+}

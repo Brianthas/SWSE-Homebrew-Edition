@@ -9,8 +9,8 @@ import {AbilityFields, AbilityFunctions} from "./templates/abilities.mjs";
 import {DefenseFunctions} from "./templates/defenses.mjs";
 import {DetailFields, DetailFunctions} from "./templates/details.mjs";
 import {HealthFunctions} from "./templates/health.mjs";
-import {ShieldFunctions} from "./templates/shields.mjs";
 import {SkillFields, SkillFunctions} from "./templates/skills.mjs";
+import {SlotFunctions} from "./templates/slots.mjs";
 import {TraitsFields, TraitsFunctions} from "./templates/traits.mjs";
 
 const fields = foundry.data.fields;
@@ -19,8 +19,8 @@ const characterFunctionClasses = [
     DefenseFunctions,
     DetailFunctions,
     HealthFunctions,
-    ShieldFunctions,
     SkillFunctions,
+    SlotFunctions,
     TraitsFunctions,
 ];
 
@@ -99,14 +99,14 @@ export class CharacterDataModel extends SystemDataModel.mixin(...characterFuncti
             //Validate character build choices
             this.#_validateLevelUpOptions();
 
-            //Shields
-            this._prepareShieldsDerivedData();
-
             //Defenses
             this._prepareDefenseDerivedData();
 
             //Health
             this._prepareHealthDerivedData();
+
+            //Light/Kit carrying-capacity slots
+            this._prepareSlotsDerivedData();
 
             //Settings
             this.#initializeCharacterSettings();
@@ -345,7 +345,11 @@ export class CharacterDataModel extends SystemDataModel.mixin(...characterFuncti
         let actor = system.parent;
 
         if (!type && !backupType) {
-            if (!KNOWN_WEIRD_UNITS.includes(actor.name)) {
+            // Pre-built NPC stat blocks have their talents/feats attached directly rather than
+            // "spent" against a class-granted slot budget the way a player builds a PC, so they
+            // routinely have nothing here for this PC-leveling-budget check to match against —
+            // not a real problem worth logging, unlike the same failure on an actual player character.
+            if (!actor.system.settings?.isNPC && !KNOWN_WEIRD_UNITS.includes(actor.name)) {
                 console.error(
                     "tried to reduce undefined on: " + actor.name,
                     actor

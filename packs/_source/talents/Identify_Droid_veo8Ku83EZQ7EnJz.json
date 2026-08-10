@@ -1,0 +1,85 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You use your experience in mechanics to recall a Droid's traits and abilities. As a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>, you can select a single <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> within line of sight and make a <a href=\"https://swse.fandom.com/wiki/Knowledge_(Technology)\" class=\"mw-redirect\" title=\"Knowledge (Technology)\">Knowledge (Technology)</a> check against a DC equal to 15 + the Droid's CL. If the check is successful, you immediately learn any two (your choice) of the following pieces of information:",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Trained in Knowledge (Technology)",
+      "requirement": "Knowledge (Technology)",
+      "type": "TRAINED SKILL"
+    },
+    "categories": [
+      {
+        "value": "Untested"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Darth borehd Creations"
+      },
+      {
+        "value": "Technician Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Untested",
+      "Homebrew Content",
+      "Darth borehd Creations",
+      "Technician Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Mechanic Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Mechanic_Talent_Tree",
+    "bonusTalentTree": "",
+    "cost": "0"
+  },
+  "name": "Identify Droid",
+  "flags": {},
+  "type": "talent",
+  "folder": "z9R7CDae8jm2dEmB",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385309063,
+    "modifiedTime": 1734385309063,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "veo8Ku83EZQ7EnJz",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!veo8Ku83EZQ7EnJz"
+}

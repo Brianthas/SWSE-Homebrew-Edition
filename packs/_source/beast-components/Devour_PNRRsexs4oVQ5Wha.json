@@ -1,0 +1,55 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "If the Beast hits with its Bite attack against a target two size categories or more smaller than itself, it can automatically make a Grapple check with its Bite attack at its full bonus (even if it has already taken a Full-Round Action).\nIf the Grapple check is successful, the Beast can begin devouring its target, and each round the target is in the Beast's mouth, the Beast deals damage equal to 1d8 + its Strength modifier + half its Beast Level rounded down.\n\nIf the target reaches 0 Hit Points, it is swallowed by the Beast and continues to take 1d6 points of Acid damage each round.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "If the Beast hits with its Bite attack against a target two size categories or more smaller than itself, it can automatically make a Grapple check with its Bite attack at its full bonus (even if it has already taken a Full-Round Action).\nIf the Grapple check is successful, the Beast can begin devouring its target, and each round the target is in the Beast's mouth, the Beast deals damage equal to 1d8 + its Strength modifier + half its Beast Level rounded down.\n\nIf the target reaches 0 Hit Points, it is swallowed by the Beast and continues to take 1d6 points of Acid damage each round.",
+        "key": "special"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "prerequisite": {
+      "text": "Bite Attack",
+      "requirement": "Bite",
+      "type": "BEAST_ATTACK"
+    },
+    "cost": "0"
+  },
+  "name": "Devour",
+  "flags": {},
+  "type": "beastQuality",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749299111388,
+    "modifiedTime": 1749299111388,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "PNRRsexs4oVQ5Wha",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!PNRRsexs4oVQ5Wha"
+}

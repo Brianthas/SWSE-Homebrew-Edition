@@ -1,0 +1,82 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Legacy_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Legacy Era Campaign Guide\">Star Wars Saga Edition Legacy Era Campaign Guide</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a></i> </p><p>You use&nbsp;<a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a>&nbsp;to spray an area with dangerous debris. </p><p><b>[<i><a href=\"https://swse.fandom.com/wiki/Telekinetic\" class=\"mw-redirect\" title=\"Telekinetic\">Telekinetic</a></i>]</b> </p><p><b>Time:</b> <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a> </p><p><b>Targets:</b> All targets within a 2x2 square area (the entire area must be within 12 squares of you and in your line of sight). </p><p><b>Make a <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check.</b> Compare the result to the <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> of each target in the affected area. If the check result equals or exceeds a target's <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>, the target takes 3d8 points of Bludgeoning, Piercing, or Slashing damage (your choice) and takes a -2 penalty on all attack rolls until the start of your next turn. This is an <a href=\"https://swse.fandom.com/wiki/Area_Attack\" class=\"mw-redirect\" title=\"Area Attack\">Area Attack</a>. </p><p><b>Special:</b> You may spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> when you activate this Force Power, in which case targets whose <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> you fail to exceed with your <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check take half damage. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Telekinetic",
+        "key": "tag"
+      },
+      {
+        "mode": 2,
+        "value": "Standard Action",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "All targets within a 2x2 square area (the entire area must be within 12 squares of you and in your line of sight).",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": "Use the Force",
+        "key": "rollType"
+      },
+      {
+        "mode": 2,
+        "value": "Reference Book: Star Wars Saga Edition Legacy Era Campaign Guide See also: Force Powers You use The Force to spray an area with dangerous debris. [Telekinetic] Time: Standard Action Targets: All targets within a 2x2 square area (the entire area must be within 12 squares of you and in your line of sight). Make a Use the Force check. Compare the result to the Reflex Defense of each target in the affected area. If the check result equals or exceeds a target's Reflex Defense, the target takes 3d8 points of Bludgeoning, Piercing, or Slashing damage (your choice) and takes a -2 penalty on all attack rolls until the start of your next turn. This is an Area Attack. Special: You may spend a Force Point when you activate this Force Power, in which case targets whose Reflex Defense you fail to exceed with your Use the Force check take half damage.",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Force Powers"
+      },
+      {
+        "value": "Telekinetic Force Powers"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Ballistakinesis",
+  "flags": {},
+  "type": "forcePower",
+  "img": "systems/swse/icon/force-power/Ballistakinesis.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738608589276,
+    "modifiedTime": 1738608589276,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "eSuFCFMVOLacHE57",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!eSuFCFMVOLacHE57"
+}

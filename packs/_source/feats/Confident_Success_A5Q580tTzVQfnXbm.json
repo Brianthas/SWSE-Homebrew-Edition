@@ -1,0 +1,59 @@
+{
+  "img": "systems/swse/icon/feat/Confident_Success.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Rebellion_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Rebellion Era Campaign Guide\">Star Wars Saga Edition Rebellion Era Campaign Guide</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a>, <a href=\"https://swse.fandom.com/wiki/Species_Feats\" class=\"mw-redirect\" title=\"Species Feats\">Species Feats</a></i></p><p>You have confidence in your ability to learn information that others consider secret, and in doing so, boost your confidence in other areas.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Bothan\" title=\"Bothan\">Bothan</a></p><p><b>Effect:</b> Whenever you successfully use the <a href=\"https://swse.fandom.com/wiki/Learn_Secret_Information\" class=\"mw-redirect\" title=\"Learn Secret Information\">Learn Secret Information</a> application of the <a href=\"https://swse.fandom.com/wiki/Gather_Information\" title=\"Gather Information\">Gather Information</a> Skill, you gain 1 <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a>. You cannot gain more than 3 <a href=\"https://swse.fandom.com/wiki/Force_Points\" title=\"Force Points\">Force Points</a> each level, and you cannot have more <a href=\"https://swse.fandom.com/wiki/Force_Points\" title=\"Force Points\">Force Points</a> than you gained when you reached your current level.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Bothan species",
+      "requirement": "Bothan",
+      "type": "SPECIES"
+    },
+    "categories": [
+      {
+        "value": "Species Feats"
+      },
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Rebellion Era Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Confident Success",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479026312,
+    "modifiedTime": 1761479026312,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "A5Q580tTzVQfnXbm",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!A5Q580tTzVQfnXbm"
+}

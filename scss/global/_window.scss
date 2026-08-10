@@ -3,27 +3,84 @@
 }
 
 .window-app .window-content{
-  background: var(--color-background);
+  background: var(--swse-bg);
+  // Same class of bug as the chat message fix: a dark background with no matching
+  // text color, applied globally to every Foundry window (Dialogs included), so
+  // e.g. Dialog.prompt/.confirm content rendered near-invisible dark-on-dark.
+  // Deliberately no `a { color }` sub-rule here — this selector's specificity beat
+  // plenty of existing single-class button colors elsewhere on the actor sheet
+  // (.level-roll-btn etc, also <a> tags), making their icon/text match their own
+  // background. Plain inherited text color doesn't have that problem since a direct
+  // rule on the element always wins over an inherited one regardless of specificity.
+  color: var(--swse-text);
 }
 
-.dialog .dialog-buttons button.default {
-  background: var(--color-foreground);
-  border: 2px groove var(--color-border-light-secondary);
+// Choice-picker dialogs (choice.mjs) build a plain <select> outside .swse scope, so the
+// sheet's own `select option` rule (_scoped-reset.scss) never reaches it — the native
+// dropdown list rendered light-on-light/beige with barely-readable text.
+.window-app select {
+  color: var(--swse-text);
+  background: var(--swse-control);
+}
+
+.window-app select option {
+  color: var(--swse-text);
+  background: var(--swse-surface);
+}
+
+// Flat, bordered buttons instead of the old 3D "groove" bevel — modeled on dnd5e's own roll
+// configuration dialog (read directly from the installed dnd5e system): every button reads the
+// same neutral card style, and only the single recommended/default choice (e.g. "Normal" on an
+// Advantage/Normal/Disadvantage row) stands out, via a highlighted border rather than a
+// different fill — keeps a whole row of same-weight actions (Attack/Save Macro, or
+// Advantage/Normal/Disadvantage) from all shouting at once.
+.dialog .dialog-buttons {
+  flex-grow: 0;
+  flex-wrap: wrap;
+  gap: $space-xs;
 }
 
 .dialog .dialog-buttons button {
-  background: var(--color-foreground);
-  border: 2px groove var(--color-border-light-secondary);
+  background: var(--swse-surface-raised);
+  border: 1px solid var(--swse-border);
+  border-radius: $radius-sm;
+  color: var(--swse-text);
+  transition: border-color 0.1s, background 0.1s;
+
+  &:hover {
+    border-color: var(--swse-accent);
+  }
 }
 
-.dialog .dialog-buttons {
-  flex-grow: 0;
+.dialog .dialog-buttons button.default {
+  border: 1px solid var(--swse-accent);
+  background: var(--swse-accent);
+  color: var(--swse-bg);
+  font-weight: 700;
+}
+
+// A bordered, labeled grouping for a dialog's input fields — same "Configuration" fieldset
+// shape dnd5e's roll dialogs use, dropped in wherever a plain <div> wrapper previously sat.
+.dialog fieldset {
+  border: 1px solid var(--swse-border);
+  border-radius: $radius-sm;
+  padding: $space-sm;
+  margin: 0 0 $space-sm;
+}
+
+.dialog fieldset legend {
+  padding: 0 $space-2xs;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--swse-text-muted);
 }
 
 .rollable {
   &:hover,
   &:focus {
-    color: #000;
+    color: var(--swse-accent);
     text-shadow: 0 0 10px var(--color-shadow-primary);
     cursor: pointer;
   }
@@ -33,19 +90,20 @@
 }
 
 .cursor {
-  color: #000;
+  color: var(--swse-accent);
   text-shadow: 0 0 10px var(--color-shadow-primary);
 }
 .input,
 .textarea {
-  border: 1px solid var(--color-foreground);
+  border: 1px solid var(--swse-accent);
   font-family: inherit;
   font-size: inherit;
   padding: 3px 6px;
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: var(--swse-control);
+  color: var(--swse-text);
   min-height: 25px;
 }
 
 .border-light {
-  border: 1px solid var(--color-foreground);
+  border: 1px solid var(--swse-accent);
 }

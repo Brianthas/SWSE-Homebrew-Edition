@@ -1,0 +1,91 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Having to protect the passback, the centerbreaker has to leverage their strength to an even greater degree than the linebreakers to keep the defenders at bay. When using the <a href=\"https://swse.fandom.com/wiki/Charge\" title=\"Charge\">Charge</a> Action, you can move with your opponent while using the <a href=\"https://swse.fandom.com/wiki/Bantha_Rush\" title=\"Bantha Rush\">Bantha Rush</a> feat. If you have the <a href=\"https://swse.fandom.com/wiki/Improved_Bantha_Rush\" title=\"Improved Bantha Rush\">Improved Bantha Rush</a> feat, you can move with them as many squares as you push them back.<br><br><b>Suktub Defender</b><br><br>You are a legendary linebreaker in the smashball arena, your skill on either side worthy of the Suktub Trophy. You can do each of the following abilities once per encounter:",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Endurance (for Forced March)::in: Untested, Homebrew Content, Talent Trees, and 2 more Scout Talent Trees TheMightyWagon Creations Smashball Pro Talent Tree Edit Edit source History Talk (0) This Homebrew Content has not been reviewed in a meaningful manner. If you wish to review this content yourself, then see Untested for more details. Smashball Pro Talent Tree content created by Wikia user TheMightyWagon. Although combat sports are dominant in galactic culture, there's still a massive audience for other kinds of displays of athleticism, especially the contact sport of smashball. Your time rising up from the amateur circuits to the professional leagues have made you uniquely suited for great displays of raw physicality. Contents 1 Practiced Cardio 2 Smashball Pass 3 Perfect Spiral 4 Linebreaker Charge 5 Centerbreaker Charge Practiced Cardio[ ] Prerequisite: Trained in Endurance You might not be the best player, but you've taken practice seriously, and you incredible endurance proves it. You may choose to reroll any Endurance check for Forced March, to continue Running, or to Swim/Tread Water, keeping the better of the two results. Smashball Pass[ ] Playing passback in smashball taught you the importance of making good throws under pressure. When using a Thrown Weapon, you can Aim with a single Swift Action instead of two. Additionally, you can benefit from Aiming with a Thrown Weapon even if the weapon makes an Area Attack. When using this Talent, you do not gain the benefits of the Deadeye Feat if the Thrown Weapon is making an Area Attack. Perfect Spiral[ ] Prerequisite: Smashball Pass You've mastered the art of making it easy for a catchback to receive your passes, regardless of their skill or distance. If you've Aimed with a Thrown weapon or object, you reduce the Range by one category for the purposes of that attack roll (for example, from Medium to Short Range). Additionally, if an ally has Readied an Action to receive a Thrown weapon or object from you, you can throw it to them as a Move Action, provided you Aim and the weapon or object is at least one size category smaller than you. This throw is automatically successful. At GM discretion, some objects may not be aerodynamic enough to work with this ability. Linebreaker Charge[ ] As a linebreaker, you're expected to charge forth and break down the defenses of the opponents to create openings for your fellow players to score. When using the Charge Action, you can move up to double your Speed. Centerbreaker Charge[ ] Prerequisites: Linebreaker Charge, Bantha Rush Having to protect the passback, the centerbreaker has to leverage their strength to an even greater degree than the linebreakers to keep the defenders at bay. When using the Charge Action, you can move with your opponent while using the Bantha Rush feat. If you have the Improved Bantha Rush feat, you can move with them as many squares as you push them back. Suktub Defender Prerequisites: Centerbreaker Charge, Improved Bantha Rush You are a legendary linebreaker in the smashball arena, your skill on either side worthy of the Suktub Trophy. You can do each of the following abilities once per encounter: Make a Charge attack. The distance you push a target with Improved Bantha Rush is a number of squares equal to your Strength modifier. Make a Charge attack. You can make Acrobatics checks to Tumble through Threatened Areas or an enemy's Fighting Space when you Charge. This does not count as Difficult Terrain; however, the DC to Tumble increases by 2 for each additional Threatened Area or enemy's Fighting Space you Tumble through. Make a Charge attack. At the end of the Charge, if you succeed on a Grab or Grapple check, the defender may not attempt to escape the Grab or Grapple until after the end of your next turn. Categories Categories: Untested Homebrew Content Talent Trees Scout Talent Trees TheMightyWagon Creations Add category Cancel Save Community content is available under CC-BY-SA unless otherwise noted. More Fandoms Fantasy Sci-fi Star Wars",
+        "key": "skillReRoll"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Improved Bantha Rush feat",
+      "requirement": "Improved Bantha Rush",
+      "type": "FEAT"
+    },
+    "categories": [
+      {
+        "value": "Untested"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Scout Talent Trees"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "TheMightyWagon Creations"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Untested",
+      "Scout Talent Trees",
+      "Homebrew Content",
+      "TheMightyWagon Creations",
+      "Smuggler Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Smashball Pro Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Smashball_Pro_Talent_Tree",
+    "bonusTalentTree": "",
+    "cost": "0"
+  },
+  "name": "Centerbreaker Charge",
+  "flags": {},
+  "type": "talent",
+  "folder": "08WiucvuUQ8qLuHr",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385312115,
+    "modifiedTime": 1786036141319,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "X1HgKEfwu3eYDXJL",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!X1HgKEfwu3eYDXJL"
+}

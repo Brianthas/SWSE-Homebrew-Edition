@@ -1,0 +1,84 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Starship_Maneuvers\" title=\"Starship Maneuvers\">Starship Maneuvers</a></i> </p><p>This maneuver allows a&nbsp;<a href=\"https://swse.fandom.com/wiki/Pilot_(Vehicle_Combat)\" title=\"Pilot (Vehicle Combat)\">Pilot</a>&nbsp;to accelerate quickly away from an opponent before returning to make an attack. </p><p><b>Time:</b>&nbsp;<a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a> </p><p><b>Targets:</b>&nbsp;One target within range. </p><p><b>Make a&nbsp;<a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a>&nbsp;check.</b> If you end your turn further away from your target than when your turn began, you may activate this maneuver as a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a> to make an immediate <a href=\"https://swse.fandom.com/wiki/Attack_Run\" title=\"Attack Run\">Attack Run</a> against that target. The result of your <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> check determines the penalty to your <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> imposed by the <a href=\"https://swse.fandom.com/wiki/Attack_Run\" title=\"Attack Run\">Attack Run</a>: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td> </td> \n   <td>The <a href=\"https://swse.fandom.com/wiki/Attack_Run\" title=\"Attack Run\">Attack Run</a> imposes a -10 penalty to your <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> instead of the normal -2. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td> </td> \n   <td>The <a href=\"https://swse.fandom.com/wiki/Attack_Run\" title=\"Attack Run\">Attack Run</a> imposes a -5 penalty to your <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> instead of the normal -2. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td> </td> \n   <td>The <a href=\"https://swse.fandom.com/wiki/Attack_Run\" title=\"Attack Run\">Attack Run</a> imposes the normal -2 penalty to your <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>. </td>\n  </tr> \n  <tr> \n   <td>35 </td> \n   <td> </td> \n   <td>The <a href=\"https://swse.fandom.com/wiki/Attack_Run\" title=\"Attack Run\">Attack Run</a> imposes a -1 penalty to your <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> instead of the normal -2. </td>\n  </tr>\n </tbody>\n</table>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "20:The Attack Run imposes a -10 penalty to your Reflex Defense instead of the normal -2.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "25:The Attack Run imposes a -5 penalty to your Reflex Defense instead of the normal -2.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "30:The Attack Run imposes the normal -2 penalty to your Reflex Defense.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "35:The Attack Run imposes a -1 penalty to your Reflex Defense instead of the normal -2.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "Reference Book: Star Wars Saga Edition Starships of the Galaxy See also: Starship Maneuvers This maneuver allows a Pilot to accelerate quickly away from an opponent before returning to make an attack. Time: Reaction Targets: One target within range. Make a Pilot check. If you end your turn further away from your target than when your turn began, you may activate this maneuver as a Reaction to make an immediate Attack Run against that target. The result of your Pilot check determines the penalty to your Reflex Defense imposed by the Attack Run:",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "Reaction",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "One target within range.",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": "Pilot",
+        "key": "rollType"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Segnor's Loop",
+  "flags": {},
+  "type": "forcePower",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738608591560,
+    "modifiedTime": 1738608591560,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX"
+  },
+  "_id": "JT8njABSkvX5el7w",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!JT8njABSkvX5el7w"
+}

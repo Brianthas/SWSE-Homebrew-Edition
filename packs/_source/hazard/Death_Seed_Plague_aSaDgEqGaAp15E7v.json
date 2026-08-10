@@ -1,0 +1,51 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Hazards, Diseases",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "8",
+        "key": "challengeLevel"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Disease"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Jedi_Academy_Training_Manual\" title=\"Star Wars Saga Edition Jedi Academy Training Manual\">Star Wars Saga Edition Jedi Academy Training Manual</a></i> </p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a>,&nbsp;<a href=\"https://swse.fandom.com/wiki/Diseases\" title=\"Diseases\">Diseases</a></i> </p><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b>&nbsp;Disease </p><p><b>Challenge Level:</b>&nbsp;8 </p><p>The Death Seed Plague is a dangerous disease caused by parasitic <a href=\"https://swse.fandom.com/wiki/Droch\" title=\"Droch\">Droch</a>. A creature infected with Death Seed Plague moves -1 <a href=\"https://swse.fandom.com/wiki/Persistent\" class=\"mw-redirect\" title=\"Persistent\">Persistent</a> step down the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a> and takes a -5 penalty to its <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>. If the Droch's initial Bite attack is successful, the attack occurs each day (1d20+1) the disease remains untreated (The penalty to <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> is not cumulative). If the plague moves the creature to the bottom of the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>, the creature dies. </p><p>The <a href=\"https://swse.fandom.com/wiki/Persistent_Condition\" class=\"mw-redirect\" title=\"Persistent Condition\">Persistent Condition</a> remains as long as the disease is untreated, and treating the disease requires a successful DC 25 <a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a> check. Using a Bacta Tank reduces the <a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a> DC to 15. </p>",
+    "source": "Star Wars Saga Edition Jedi Academy Training Manual",
+    "cost": "0"
+  },
+  "name": "Death Seed Plague",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244437,
+    "modifiedTime": 1749263244437,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "aSaDgEqGaAp15E7v",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!aSaDgEqGaAp15E7v"
+}

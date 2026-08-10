@@ -1,0 +1,74 @@
+{
+  "img": "systems/swse/icon/feat/Experienced_Negotiators.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<table style=\"width:100%; margin-top:2em; border:2px solid #999; font-size:105%; text-align:center; background:#00008B;\">\n <tbody>\n  <tr>\n   <td><i><b>This <a href=\"https://swse.fandom.com/wiki/Homebrew_Content\" title=\"Homebrew Content\">Homebrew Content</a> has been <a href=\"https://swse.fandom.com/wiki/Category:Tested\" title=\"Category:Tested\">Tested</a> per the <a href=\"https://swse.fandom.com/wiki/Category:Untested\" title=\"Category:Untested\">Untested</a> guidelines. Whether or not it can be used is, as always, the prerogative of the Gamemaster.</b></i></td>\n  </tr>\n </tbody>\n</table><p><i>Experienced Negotiators feat data created by Wikia user Chellewalker.</i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a>, <a href=\"https://swse.fandom.com/wiki/Team_Feats\" class=\"mw-redirect\" title=\"Team Feats\">Team Feats</a></i></p><p>You and your allies know how to work in tandem to influence those around you.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in <a href=\"https://swse.fandom.com/wiki/Persuasion\" title=\"Persuasion\">Persuasion</a></p><p><b>Effect:</b> You gain a +3 competence bonus on <a href=\"https://swse.fandom.com/wiki/Persuasion\" title=\"Persuasion\">Persuasion</a> checks. At the time you make a check, for each ally within 12 squares of you who also has this Feat, the competence bonus increases by +1 (to a maximum of +7).</p><p>Additionally, you can spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> as a <a href=\"https://swse.fandom.com/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a> to ignore the penalties from Indifferent <a href=\"https://swse.fandom.com/wiki/Attitudes\" class=\"mw-redirect\" title=\"Attitudes\">Attitudes</a> (but not any other <a href=\"https://swse.fandom.com/wiki/Attitudes\" class=\"mw-redirect\" title=\"Attitudes\">Attitudes</a>) until the end of the encounter.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Trained in Persuasion",
+      "requirement": "Persuasion",
+      "type": "TRAINED SKILL"
+    },
+    "categories": [
+      {
+        "value": "Chellewalker Creations"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Team Feats"
+      },
+      {
+        "value": "Tested"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "",
+    "cost": "0"
+  },
+  "name": "Experienced Negotiators",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479026818,
+    "modifiedTime": 1761479026818,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "6sENASVmPGEtV5bK",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!6sENASVmPGEtV5bK"
+}

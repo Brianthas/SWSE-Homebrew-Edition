@@ -1,0 +1,211 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {}
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Attuned",
+      "_id": "14pSkI82Z6uVBzAD",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "use the force:2",
+            "key": "skillBonus",
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.4.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!21BRctl0e4DnVUws.14pSkI82Z6uVBzAD"
+    },
+    {
+      "flags": {
+        "swse": {}
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Ignite",
+      "_id": "iKLPX8W61aT1ulXj",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": 0.3,
+            "key": "auraLuminosity",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 0.4,
+            "key": "auraBright",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 0.9,
+            "key": "auraDim",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": "torch",
+            "key": "auraAnimationType",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 5,
+            "key": "auraAnimationSpeed",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 2,
+            "key": "auraAnimationIntensity",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": "#lightsaberColor#",
+            "key": "auraColor",
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.4.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!21BRctl0e4DnVUws.iKLPX8W61aT1ulXj"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Jedi_Academy_Training_Manual\" title=\"Star Wars Saga Edition Jedi Academy Training Manual\">Star Wars Saga Edition Jedi Academy Training Manual</a></i> </p><p>Like the <a href=\"https://swse.fandom.com/wiki/Solari_Crystal\" title=\"Solari Crystal\">Solari Crystal</a>, the Jenraux Crystal widens the blade of a <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a>. Unlike the <a href=\"https://swse.fandom.com/wiki/Solari_Crystal\" title=\"Solari Crystal\">Solari Crystal</a>, however, it also causes the blade to absorb kinetic energy, making it exceptionally effective at defending against incoming melee attacks. When you wield an attuned <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> constructed with a Jenraux Crystal, you gain a +2 <a href=\"https://swse.fandom.com/wiki/Force\" class=\"mw-redirect\" title=\"Force\">Force</a> bonus on <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> checks made to <b><a href=\"https://swse.fandom.com/wiki/Block\" class=\"mw-redirect\" title=\"Block\">Block</a></b> incoming attacks with the <b><a href=\"https://swse.fandom.com/wiki/Block\" class=\"mw-redirect\" title=\"Block\">Block</a></b> Talent. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "itemMod"
+      }
+    ],
+    "choices": [
+      {
+        "noOptions": "NO_AVAILABLE_OPTIONS",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {
+              "payload": "AVAILABLE_LIGHTSABER_COLORS"
+            },
+            "display": "AVAILABLE_LIGHTSABER_COLORS",
+            "name": "AVAILABLE_LIGHTSABER_COLORS",
+            "attributes": {}
+          }
+        ],
+        "description": "Select a lightsaber color.",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": true
+      }
+    ],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "0",
+    "weight": "",
+    "availability": "",
+    "size": "",
+    "type": "",
+    "subtype": "Lightsaber Crystals",
+    "quantity": 1,
+    "hasItemOwner": false,
+    "upgrade": {},
+    "prerequisite": {
+      "text": "Lightsabers",
+      "requirement": "lightsabers",
+      "type": "SUBTYPE"
+    },
+    "source": "Star Wars Saga Edition Jedi Academy Training Manual"
+  },
+  "name": "Jenraux Crystal",
+  "flags": {},
+  "type": "upgrade",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263246090,
+    "modifiedTime": 1749263246090,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "21BRctl0e4DnVUws",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!21BRctl0e4DnVUws"
+}

@@ -1,0 +1,81 @@
+{
+  "img": "systems/swse/icon/feat/Meat_Shield.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_of_Intrigue\" title=\"Star Wars Saga Edition Galaxy of Intrigue\">Star Wars Saga Edition Galaxy of Intrigue</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You are adept at using an opponent's defense to your own advantage.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Point-Blank_Shot\" title=\"Point-Blank Shot\">Point-Blank Shot</a>, <a href=\"https://swse.fandom.com/wiki/Precise_Shot\" title=\"Precise Shot\">Precise Shot</a>, <a href=\"https://swse.fandom.com/wiki/Base_Attack_Bonus\" class=\"mw-redirect\" title=\"Base Attack Bonus\">Base Attack Bonus</a> +4</p><p><b>Effect:</b> Whenever an opponent attacks you while in <a href=\"https://swse.fandom.com/wiki/Cover\" title=\"Cover\">Cover</a> provided by another character, creature, or Droid, you are treated as being in <a href=\"https://swse.fandom.com/wiki/Cover\" title=\"Cover\">Cover</a> from attacks by that opponent.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Point-Blank Shot feat",
+          "requirement": "Point-Blank Shot",
+          "type": "FEAT"
+        },
+        {
+          "text": "Precise Shot feat",
+          "requirement": "Precise Shot",
+          "type": "FEAT"
+        },
+        {
+          "text": "Base Attack Bonus 4",
+          "requirement": "4",
+          "type": "BASE ATTACK BONUS"
+        }
+      ],
+      "text": "Point-Blank Shot feat, Precise Shot feat, and Base Attack Bonus 4",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Soldier Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Scout Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Bonus Feats",
+      "General Feats",
+      "Scout Bonus Feats",
+      "Smuggler Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Galaxy of Intrigue",
+    "cost": "0"
+  },
+  "name": "Meat Shield",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1761479027909,
+    "modifiedTime": 1786036141516,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "hqyFrp0MNdL31kSU",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!hqyFrp0MNdL31kSU"
+}

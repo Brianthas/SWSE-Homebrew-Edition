@@ -1,0 +1,61 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Jedi_Academy_Training_Manual\" title=\"Star Wars Saga Edition Jedi Academy Training Manual\">Star Wars Saga Edition Jedi Academy Training Manual</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Lightsaber_Construction\" title=\"Lightsaber Construction\">Lightsaber Construction</a></i> </p><p>A Beckon Call is a small <a href=\"https://swse.fandom.com/wiki/Communications_Devices\" title=\"Communications Devices\">Communications Device</a> that links up with the <a href=\"https://swse.fandom.com/wiki/Slave_Circuit\" class=\"mw-redirect\" title=\"Slave Circuit\">Slave Circuits</a> on a <a href=\"https://swse.fandom.com/wiki/Starship\" class=\"mw-redirect\" title=\"Starship\">Starship</a>. When activated, the Beckon Call transmits a signal to the <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> it is linked to, activating it's autopilot programming and summoning the <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> to the nearest safe spot close to the wielder. A Beckon Call functions only when connected to a <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> with a <a href=\"https://swse.fandom.com/wiki/Slave_Circuit\" class=\"mw-redirect\" title=\"Slave Circuit\">Slave Circuit</a>. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "itemMod"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "0",
+    "weight": "",
+    "availability": "",
+    "size": "",
+    "type": "",
+    "subtype": "Lightsaber Modifications",
+    "quantity": 1,
+    "hasItemOwner": false,
+    "upgrade": {},
+    "prerequisite": {
+      "text": "Lightsabers",
+      "requirement": "lightsabers",
+      "type": "SUBTYPE"
+    },
+    "source": "Star Wars Saga Edition Jedi Academy Training Manual",
+    "seeAlso": "Lightsaber Construction"
+  },
+  "name": "Beckon Call",
+  "flags": {},
+  "type": "upgrade",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263246137,
+    "modifiedTime": 1749263246137,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "cKIobmgnAOHM4seX",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!cKIobmgnAOHM4seX"
+}

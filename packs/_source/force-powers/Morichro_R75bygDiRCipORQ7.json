@@ -1,0 +1,74 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Clone_Wars_Campaign_Guide\" title=\"Star Wars Saga Edition Clone Wars Campaign Guide\">Star Wars Saga Edition Clone Wars Campaign Guide</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a></i> </p><p>You slow the vital functions of a target, causing them to slip into a deep sleep or even die. </p><p><b>Time:</b> <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a> </p><p><b>Targets:</b> One living creature you have <a href=\"https://swse.fandom.com/wiki/Grabbed\" class=\"mw-redirect\" title=\"Grabbed\">Grabbed</a> or <a href=\"https://swse.fandom.com/wiki/Grappled\" class=\"mw-redirect\" title=\"Grappled\">Grappled</a>. </p><p><b>Make a <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check.</b> Compare the result to the target's <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>. If you succeed, the target moves -1 step down the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>. Each round you maintain this Force Power, if your <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check exceeds the target's <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>, the target moves another step down the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>. </p><p>If you move a target to the bottom of the Condition Track with this Force Power, you can choose to kill the target or place it into a <a href=\"https://swse.fandom.com/wiki/Force_Trance\" class=\"mw-redirect\" title=\"Force Trance\">Force Trance</a> even if it is unwilling. Additionally, if you use this Force Power on an already unconscious target, you can consider the target willing for the purposes of putting them in a <a href=\"https://swse.fandom.com/wiki/Force_Trance\" class=\"mw-redirect\" title=\"Force Trance\">Force Trance</a>. </p><p><b>Special:</b> You can maintain&nbsp;<i>Morichro </i>from round to round, extending the normal duration. Maintaining the&nbsp;<i>Morichro </i>Force Power&nbsp;is a&nbsp;<a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a>, and you must make a new <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check each round. </p><p>If you take damage while maintaining&nbsp;<i>Morichro</i>, you must succeed on a&nbsp;<a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a>&nbsp;check (DC = 15 + damage taken) to continue maintaining the&nbsp;<i>Morichro</i>. If the target escapes your <a href=\"https://swse.fandom.com/wiki/Grab\" title=\"Grab\">Grab</a> or the <a href=\"https://swse.fandom.com/wiki/Grab\" title=\"Grab\">Grab</a> ends for any reason, you cannot maintain <i>Morichro</i> on your next turn. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Standard Action",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "One living creature you have Grabbed or Grappled.",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": "Use the Force",
+        "key": "rollType"
+      },
+      {
+        "mode": 2,
+        "value": "Reference Book: Star Wars Saga Edition Clone Wars Campaign Guide See also: Force Powers You slow the vital functions of a target, causing them to slip into a deep sleep or even die. Time: Standard Action Targets: One living creature you have Grabbed or Grappled. Make a Use the Force check. Compare the result to the target's Fortitude Defense. If you succeed, the target moves -1 step down the Condition Track. Each round you maintain this Force Power, if your Use the Force check exceeds the target's Fortitude Defense, the target moves another step down the Condition Track. If you move a target to the bottom of the Condition Track with this Force Power, you can choose to kill the target or place it into a Force Trance even if it is unwilling. Additionally, if you use this Force Power on an already unconscious target, you can consider the target willing for the purposes of putting them in a Force Trance. Special: You can maintain Morichro from round to round, extending the normal duration. Maintaining the Morichro Force Power is a Standard Action, and you must make a new Use the Force check each round. If you take damage while maintaining Morichro, you must succeed on a Use the Force check (DC = 10 + damage taken) to continue maintaining the Morichro. If the target escapes your Grab or the Grab ends for any reason, you cannot maintain Morichro on your next turn.",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Force Powers"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Morichro",
+  "flags": {},
+  "type": "forcePower",
+  "img": "systems/swse/icon/force-power/Morichro.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1738608590552,
+    "modifiedTime": 1786067532007,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "R75bygDiRCipORQ7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!R75bygDiRCipORQ7"
+}

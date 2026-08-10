@@ -1,0 +1,79 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Whenever you successfully Redirect a blaster bolt and hit your target, the redirected attack deals +1 die of damage.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Redirect Shot talent",
+      "requirement": "Redirect Shot",
+      "type": "TALENT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Sith Apprentice Talent Trees"
+      },
+      {
+        "value": "Jedi Talent Trees"
+      },
+      {
+        "value": "Jedi Knight Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Imperial Knight Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Sith Apprentice Talent Trees",
+      "Jedi Talent Trees",
+      "Jedi Knight Talent Trees",
+      "Core Rulebook",
+      "Imperial Legionnaire Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Lightsaber Combat Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Lightsaber_Combat_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Rebellion Era Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Precise Redirect",
+  "flags": {},
+  "type": "talent",
+  "folder": "DG4mM6KEY51ryMWX",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385308113,
+    "modifiedTime": 1786070305490,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "ctPtCdGNaA27JyBj",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!ctPtCdGNaA27JyBj"
+}

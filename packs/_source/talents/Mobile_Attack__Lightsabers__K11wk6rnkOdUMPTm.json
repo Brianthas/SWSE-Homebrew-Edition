@@ -1,0 +1,79 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Immediately after making a <a href=\"https://swse.fandom.com/wiki/Full_Attack\" title=\"Full Attack\">Full Attack</a> where you attacked with two <a href=\"https://swse.fandom.com/wiki/Lightsabers\" title=\"Lightsabers\">Lightsabers</a> (or both ends of a <a href=\"https://swse.fandom.com/wiki/Double-Bladed_Lightsaber\" title=\"Double-Bladed Lightsaber\">Double-Bladed Lightsaber</a>), you may <a href=\"https://swse.fandom.com/wiki/Move\" title=\"Move\">Move</a> up to your Speed as a <a href=\"https://swse.fandom.com/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Multiattack Proficiency (Lightsabers) talent",
+          "requirement": "Multiattack Proficiency (Lightsabers)",
+          "type": "TALENT"
+        },
+        {
+          "text": "Dual Weapon Mastery I feat",
+          "requirement": "Dual Weapon Mastery I",
+          "type": "FEAT"
+        },
+        {
+          "text": "Weapon Focus (Lightsabers)",
+          "requirement": "Weapon Focus (Lightsabers)",
+          "type": "FEAT"
+        }
+      ],
+      "text": "Multiattack Proficiency (Lightsabers) talent, Dual Weapon Mastery I feat, and Weapon Focus (Lightsabers)",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Jedi Knight Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Jedi Knight Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Jedi Battlemaster Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Jedi_Battlemaster_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Mobile Attack (Lightsabers)",
+  "flags": {},
+  "type": "talent",
+  "folder": "brum7FSmkqEvpVRv",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385306559,
+    "modifiedTime": 1734385306559,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "K11wk6rnkOdUMPTm",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!K11wk6rnkOdUMPTm"
+}

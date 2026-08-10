@@ -1,0 +1,72 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Hazards, Diseases",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A creature is damaged by a Vongspawn's Unarmed attack.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "If successful, every five minutes, until Vongspawn fails an attack roll.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Treat Injury (DC 40; Requires Medical Kit): The character treats the Vongspawn. Force Points cannot be spent to increase the check result.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "6",
+        "key": "challengeLevel"
+      },
+      {
+        "mode": 2,
+        "value": "Special: If Vongspawn pushes the target to the bottom of the Condition Track, the target dies instead of falling unconscious. As this is a Yuuzhan Vong Disease, Force Points cannot be used to prevent Death. However, a Destiny Point can be spent to turn a successful attack by Vongspawn into a miss, thereby stopping the advancement of the Disease.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Contact",
+          "Disease"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Legacy_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Legacy Era Campaign Guide\">Star Wars Saga Edition Legacy Era Campaign Guide</a></i> </p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a>,&nbsp;<a href=\"https://swse.fandom.com/wiki/Diseases\" title=\"Diseases\">Diseases</a></i> </p><p><b>Keywords:</b>&nbsp;Contact, Disease </p><p><b>Challenge Level:</b>&nbsp;6 </p><p>Yongspawn are beings that have been infected and mutated by sabotaged <a href=\"https://swse.fandom.com/wiki/Yuuzhan_Vong\" title=\"Yuuzhan Vong\">Yuuzhan Vong</a> Coral Seeds. Most Vongspawn become outcasts, left to struggle with the painful and violent Disease on their own. Naturally, they often become violent or desperate in their search for a cure. The highest concentration of these unfortunate beings is thought to be in the lower levels of <a href=\"https://swse.fandom.com/wiki/Coruscant\" title=\"Coruscant\">Coruscant</a>. </p><h3><span class=\"mw-headline\" id=\"Vongspawn_Coral_Seeds\">Vongspawn Coral Seeds</span></h3><p>The term \"Vongspawn\" started as a curse word, but after the <a href=\"https://swse.fandom.com/wiki/Yuuzhan_Vong\" title=\"Yuuzhan Vong\">Yuuzhan Vong</a> Invasion it became a derisive term referring to those unfortunate individuals infected by the Sith-sabotaged <a href=\"https://swse.fandom.com/wiki/Yuuzhan_Vong\" title=\"Yuuzhan Vong\">Yuuzhan Vong</a> Coral Seeds. Dormant sabotaged seeds must be activated by a Sith using <a href=\"https://swse.fandom.com/wiki/The_Dark_Side\" title=\"The Dark Side\">The Dark Side</a> of <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a>. Active Coral Seeds can infect any <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>, causing painful spikes to grow from the victim's skin. Other mutations have been documented as well. The Disease is nigh incurable, though it is possible that the <a href=\"https://swse.fandom.com/wiki/Yuuzhan_Vong\" title=\"Yuuzhan Vong\">Yuuzhan Vong</a> will develop a cure someday. Even <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a> provides little help. Those with the Disease are exiled from their communities out of fear of transmitting the symptoms and mutations to others. </p><h2><span id=\"_Vongspawn_Statistics_.28CL_6.29\"></span><span class=\"mw-headline\" id=\"_Vongspawn_Statistics_(CL_6)\">&nbsp;Vongspawn Statistics (CL 6)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Contact, Disease </p><p><b>Trigger:</b> A creature is damaged by a Vongspawn's <a href=\"https://swse.fandom.com/wiki/Unarmed\" class=\"mw-redirect\" title=\"Unarmed\">Unarmed</a> attack. </p><p><b>Attack:</b> +10 vs <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> </p><p><b>Recurrence:</b> If successful, every five minutes, until Vongspawn fails an attack roll. </p><p><b>Suggested&nbsp;<a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b>&nbsp;The following are suggested&nbsp;<a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>&nbsp;for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a> (DC 40; Requires <a href=\"https://swse.fandom.com/wiki/Medical_Kit\" title=\"Medical Kit\">Medical Kit</a>):</b> The character treats the Vongspawn. <a href=\"https://swse.fandom.com/wiki/Force_Points\" title=\"Force Points\">Force Points</a> cannot be spent to increase the check result.</li>\n</ul><p><b>Special:</b> If Vongspawn pushes the target to the bottom of the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>, the target dies instead of falling unconscious. As this is a <a href=\"https://swse.fandom.com/wiki/Yuuzhan_Vong\" title=\"Yuuzhan Vong\">Yuuzhan Vong</a> Disease, <a href=\"https://swse.fandom.com/wiki/Force_Points\" title=\"Force Points\">Force Points</a> cannot be used to prevent <a href=\"https://swse.fandom.com/wiki/Death\" class=\"mw-redirect\" title=\"Death\">Death</a>. However, a <a href=\"https://swse.fandom.com/wiki/Destiny_Point\" class=\"mw-redirect\" title=\"Destiny Point\">Destiny Point</a> can be spent to turn a successful attack by Vongspawn into a miss, thereby stopping the advancement of the Disease. </p><p>A character or creature that survives the Disease becomes a Vongspawn, applying the below Vongspawn Template. </p><h3><span class=\"mw-headline\" id=\"Vongspawn_Template\">Vongspawn Template</span></h3><p>The following rules apply to any character or creature that becomes a Vongspawn: </p><ul>\n <li>The <a href=\"https://swse.fandom.com/wiki/Persistent_Condition\" class=\"mw-redirect\" title=\"Persistent Condition\">Persistent Condition</a> of the Disease cannot be removed until the Disease is cured.</li> \n <li>Spiky growths appear on the Vongspawn's body. The Vongspawn is unable to wear normal Armor until cured.</li> \n <li>When a Vongspawn hits a target with an <a href=\"https://swse.fandom.com/wiki/Unarmed\" class=\"mw-redirect\" title=\"Unarmed\">Unarmed</a> attack, the Vongspawn makes a secondary attack (1d20+10) against the target's <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>. If the attack hits, the target becomes infected with the Disease.</li>\n</ul>",
+    "source": "Star Wars Saga Edition Legacy Era Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Vongspawn",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244871,
+    "modifiedTime": 1749263244871,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "IcSItACZW4frHgAo",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!IcSItACZW4frHgAo"
+}

@@ -1,0 +1,51 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p>A being can choose to reroll any&nbsp;<a href=\"https://swse.fandom.com/wiki/Ride\" title=\"Ride\">Ride</a>&nbsp;check, but the result of the reroll must be accepted, even if it is worse. Additionally, a being can make&nbsp;<a href=\"https://swse.fandom.com/wiki/Persuasion\" title=\"Persuasion\">Persuasion</a>&nbsp;checks to change the&nbsp;<a href=\"https://swse.fandom.com/wiki/Attitude\" class=\"mw-redirect\" title=\"Attitude\">Attitude</a>&nbsp;of an undomesticated creature that has an&nbsp;<a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a>&nbsp;score of 2 or lower.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Ride::A being can choose to reroll any Ride check, but the result of the reroll must be accepted, even if it is worse. Additionally, a being can make Persuasion checks to change the Attitude of an undomesticated creature that has an Intelligence score of 2 or lower.",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "prerequisite": null,
+    "cost": "0"
+  },
+  "name": "Animal Handler",
+  "flags": {},
+  "type": "trait",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764446477419,
+    "modifiedTime": 1764446477419,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "H6MSvRBvmxfPWqNf",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!H6MSvRBvmxfPWqNf"
+}

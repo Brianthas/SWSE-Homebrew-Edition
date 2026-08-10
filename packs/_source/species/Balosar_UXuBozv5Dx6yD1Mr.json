@@ -1,0 +1,138 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a></i> </p><p>Balosars are humanoids with a shady reputation throughout the <a href=\"https://swse.fandom.com/wiki/Core_Worlds\" class=\"mw-redirect\" title=\"Core Worlds\">Core Worlds</a>. They can easily pass for <a href=\"https://swse.fandom.com/wiki/Human\" title=\"Human\">Human</a> (when their antennapalps are retracted) and tend to live among the lowest echelons of society, preying on the vices of the weak-willed or impoverished. </p><p>Relief agencies have been trying to end the vicious circle of poverty, pollution, and corruption on <span class=\"new\" title=\"Balosar (Planet) (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQmFsb3Nhcl8oUGxhbmV0KT9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Balosar</span> for years, but the planet's government offers little assistance. Offworld corporations regularly line Balosar bureaucrats' pockets with credits in exchange for state-owned real estate on which they build sweatshop factories. <span class=\"new\" title=\"Balosar (Planet) (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQmFsb3Nhcl8oUGxhbmV0KT9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Balosar</span> offers no shortage of manual labor. </p><h3><span class=\"mw-headline\" id=\"Balosar_Characteristics\">Balosar Characteristics</span></h3><p><b>Personality:</b> Balosars are often weak-willed and self-absorbed. Many suffer from severe depression and feel like they're trapped; others grudgingly accept their lot in life with a sarcastic grin. A Balosar's moral and ethical outlook is often skewed by hard life experiences, and many have trouble distinguishing between right and wrong. </p><p><b>Physical Description:</b> A Balosar has coarse hair, a frail-looking frame, and retractable antennapalps atop their heads. The average Balosar stands about 1.6 meters tall, and most have sickly complexions from a lack of sunlight and clean air. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Balosars age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-12 Years </td> \n   <td>13-15 Years </td> \n   <td>16-39 Years </td> \n   <td>40-52 Years </td> \n   <td>53-64 Years </td> \n   <td>65+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> <span class=\"new\" title=\"Balosar (Planet) (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQmFsb3Nhcl8oUGxhbmV0KT9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Balosar</span> is an inhospitable <a href=\"https://swse.fandom.com/wiki/Core_World\" class=\"mw-redirect\" title=\"Core World\">Core World</a> that has seen better days. The planet's high crime rate and corrupt government discourages tourists, and the air is barely breathable because of industrial pollution. </p><p><b>Languages:</b> Balosars speak their own language, which consists of deep vocalizations and throaty rasps. Written Balosar is crude looking, but is no less complex than written Basic. </p><p><b>Example Names:</b> Veya Bar'jaraka, Nina Dar'Eboros, Elan Sleazebaggano, Zirk Mer'darro. </p><p><b>Adventurers:</b> Although crime runs rampant on <span class=\"new\" title=\"Balosar (Planet) (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQmFsb3Nhcl8oUGxhbmV0KT9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Balosar</span>, the Species' tendency toward criminal activities has more to do with the deplorable conditions of the planet than any biological imperative. Many Balosars leave their homeworld in search of a better life, only to find life on other planets equally harsh. A Balosar hero can belong to any <a href=\"https://swse.fandom.com/wiki/Heroic_Class\" class=\"mw-redirect\" title=\"Heroic Class\">Heroic Class</a>. </p><h3><span class=\"mw-headline\" id=\"Balosar_Species_Traits\">Balosar Species Traits</span></h3><p>Balosars share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Heightened Awareness",
+        "type": "trait"
+      },
+      {
+        "name": "Toxic Resistance",
+        "type": "trait"
+      },
+      {
+        "name": "Mental Fortitude",
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "64",
+          "low": "53",
+          "text": "53-64",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "15",
+          "low": "13",
+          "text": "13-15",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "12",
+          "low": "1",
+          "text": "1-12",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "52",
+          "low": "40",
+          "text": "40-52",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "65",
+          "text": "65+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "39",
+          "low": "16",
+          "text": "16-39",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Balosars"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Heightened Awareness"
+      },
+      {
+        "value": "Toxic Resistance"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Mental Fortitude"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Balosar",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535565592,
+    "modifiedTime": 1736535565592,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "UXuBozv5Dx6yD1Mr",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!UXuBozv5Dx6yD1Mr"
+}

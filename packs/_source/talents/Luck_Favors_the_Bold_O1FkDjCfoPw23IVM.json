@@ -1,0 +1,63 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "If at least one enemy within your line of sight is aware of you and you do not have <a href=\"https://swse.fandom.com/wiki/Cover\" title=\"Cover\">Cover</a> against that enemy, at the start of your turn if you are conscious you gain a number of <a href=\"https://swse.fandom.com/wiki/Bonus_Hit_Points\" class=\"mw-redirect\" title=\"Bonus Hit Points\">Bonus Hit Points</a> equal to 5 + one-half your Heroic Level. Damage is subtracted from <a href=\"https://swse.fandom.com/wiki/Bonus_Hit_Points\" class=\"mw-redirect\" title=\"Bonus Hit Points\">Bonus Hit Points</a> first, and any <a href=\"https://swse.fandom.com/wiki/Bonus_Hit_Points\" class=\"mw-redirect\" title=\"Bonus Hit Points\">Bonus Hit Points</a> remaining at the end of the encounter are lost. <a href=\"https://swse.fandom.com/wiki/Bonus_Hit_Points\" class=\"mw-redirect\" title=\"Bonus Hit Points\">Bonus Hit Points</a> do not stack.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Face the Foe talent",
+      "requirement": "Face the Foe",
+      "type": "TALENT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Noble Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Noble Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Gambling Leader Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Gambling_Leader_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Rebellion Era Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Luck Favors the Bold",
+  "flags": {},
+  "type": "talent",
+  "folder": "3Bs4XPceJz4KqWW6",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385305446,
+    "modifiedTime": 1734385305446,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "O1FkDjCfoPw23IVM",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!O1FkDjCfoPw23IVM"
+}

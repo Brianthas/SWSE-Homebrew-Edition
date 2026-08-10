@@ -1,0 +1,75 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Whenever you are attacked in combat and adjacent to a creature other than your attacker, you can move 1 square as a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a>. The attack, intended for you, instead targets the adjacent creature, though if you move away from a creature that <a href=\"https://swse.fandom.com/wiki/Threatens\" class=\"mw-redirect\" title=\"Threatens\">Threatens</a> you, it can make an <a href=\"https://swse.fandom.com/wiki/Attack_of_Opportunity\" class=\"mw-redirect\" title=\"Attack of Opportunity\">Attack of Opportunity</a> before the original attack is resolved.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Improved Soft Cover talent",
+          "requirement": "Improved Soft Cover",
+          "type": "TALENT"
+        },
+        {
+          "text": "Innocuous talent",
+          "requirement": "Innocuous",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Improved Soft Cover talent, and Innocuous talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Charlatan Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Charlatan Talent Trees",
+      "Melee Duelist Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Trickery Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Trickery_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Scum and Villainy",
+    "cost": "0"
+  },
+  "name": "Treacherous",
+  "flags": {},
+  "type": "talent",
+  "folder": "fQgV01jFb9o4eOnu",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385312829,
+    "modifiedTime": 1786039906825,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "w3oUGrDAdapZJ0Fg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!w3oUGrDAdapZJ0Fg"
+}

@@ -1,0 +1,63 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Once per encounter, as a <a href=\"https://swse.fandom.com/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a>, you can increase the damage dealt by one of your weapons by 1 or 2 damage dice in exchange for moving -1 step down the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a> for each die increased. The weapon must be permanently mounted to your chassis (as a <a href=\"https://swse.fandom.com/wiki/Tool\" title=\"Tool\">Tool</a>), and it must use your internal power supply. Handheld weapons, such as <a href=\"https://swse.fandom.com/wiki/Blaster_Rifle\" title=\"Blaster Rifle\">Blaster Rifles</a>, do not qualify for this Talent.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Equipped with a Weapon Tool",
+      "requirement": "a Weapon Tool",
+      "type": "EQUIPPED"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Droid Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Droid Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "4th-Degree Droid Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/4th-Degree_Droid_Talent_Tree",
+    "bonusTalentTree": "4th-Degree Droid Talent Tree",
+    "source": "Star Wars Saga Edition Scavenger's Guide to Droids",
+    "cost": "0"
+  },
+  "name": "Weapons Power Surge",
+  "flags": {},
+  "type": "talent",
+  "folder": "0E0eNIKSywyw3ezG",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385301663,
+    "modifiedTime": 1734385301663,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "FCUpu0ysuK97eARw",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!FCUpu0ysuK97eARw"
+}

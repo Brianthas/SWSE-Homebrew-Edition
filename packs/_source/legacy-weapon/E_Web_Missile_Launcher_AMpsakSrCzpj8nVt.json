@@ -1,0 +1,108 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode"
+        }
+      },
+      "statuses": [],
+      "disabled": false,
+      "name": "Single-Shot",
+      "_id": "TdtSMsa1ZJRb0VI6",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513556,
+        "modifiedTime": 1786051513556,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!AMpsakSrCzpj8nVt.TdtSMsa1ZJRb0VI6"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Force_Unleashed_Campaign_Guide\" title=\"Star Wars Saga Edition Force Unleashed Campaign Guide\">Star Wars Saga Edition Force Unleashed Campaign Guide</a></i> </p><p>A variant of the <a href=\"https://swse.fandom.com/wiki/E-Web_Repeating_Blaster\" title=\"E-Web Repeating Blaster\">E-Web Repeating Blaster</a>, the E-Web Missile Launcher consists of a heavy, tripod-mounted firing mechanism from which missiles are launched. When mounted on a tripod, it is treated as one size smaller for purposes of being wielded (allowing a Medium character to operate it with two hands). </p><p>An E-Web Missile Launcher operates only in Single-Fire mode, though it does not require a <a href=\"https://swse.fandom.com/wiki/Power_Generator\" title=\"Power Generator\">Power Generator</a>. An E-Web Missile Launcher is an <a href=\"https://swse.fandom.com/wiki/Area_Attack\" class=\"mw-redirect\" title=\"Area Attack\">Area Attack</a> Weapon that damages all targets in a 2-square by 2-square area. </p><p>When you make an&nbsp;<a href=\"https://swse.fandom.com/wiki/Area_Attack\" class=\"mw-redirect\" title=\"Area Attack\">Area Attack</a>&nbsp;with an E-Web Missile Launcher, you make a single attack roll and compare the result to the&nbsp;<a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>&nbsp;of every target in the Weapon's <a href=\"https://swse.fandom.com/wiki/Burst\" class=\"mw-redirect\" title=\"Burst\">Burst</a>&nbsp;radius. Creatures you hit take full damage, and creatures you miss take half damage. A target with the&nbsp;<b><a href=\"https://swse.fandom.com/wiki/Evasion\" class=\"mw-redirect\" title=\"Evasion\">Evasion</a></b>&nbsp;talent takes half damage from a successful attack, and no damage if the attack misses. </p><p>Usually, a second crewmember is required to reload an E-Web Missile Launcher between shots, jamming a live missile into the launch tube as a <a href=\"https://swse.fandom.com/wiki/Move_Action\" class=\"mw-redirect\" title=\"Move Action\">Move Action</a>. An E-Web Missile Launcher can fire only a single shot each round, after which the Weapon must be reloaded. </p><p>The wielder of an E-Web Missile Launcher can spend two <a href=\"https://swse.fandom.com/wiki/Swift_Actions\" title=\"Swift Actions\">Swift Actions</a> in the same round immediately before making an attack to treat the <a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a> to the target as though it were one step shorter (Short becomes Point-Blank, Medium becomes Short, and so forth); this benefit stacks with the effect of the <a href=\"https://swse.fandom.com/wiki/Far_Shot\" title=\"Far Shot\">Far Shot</a> Feat. </p><p>The missiles fired by an E-Web Missile Launcher cost 75 credits each. </p><p><b>Special:</b>&nbsp;This is an&nbsp;<a href=\"https://swse.fandom.com/wiki/Area_Attack\" class=\"mw-redirect\" title=\"Area Attack\">Area Attack</a>&nbsp;Weapon. </p><p><b>Special:</b>&nbsp;An E-Web Missile Launcher mounted on a tripod is treated as a Large weapon, rather than Huge. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "9,500",
+    "weight": "42 Kilograms",
+    "availability": "Military",
+    "size": "Huge",
+    "type": "",
+    "subtype": "Heavy Weapons",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "6d6",
+    "damageType": "Slashing",
+    "specialQualities": "Special: This is an Area Attack Weapon.\n\nSpecial: An E-Web Missile Launcher mounted on a tripod is treated as a Large weapon, rather than Huge."
+  },
+  "name": "E-Web Missile Launcher",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/E_Web_Missile_Launcher.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513556,
+    "modifiedTime": 1786051513594,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "AMpsakSrCzpj8nVt",
+  "_key": "!items!AMpsakSrCzpj8nVt"
+}

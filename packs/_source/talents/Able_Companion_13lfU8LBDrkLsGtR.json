@@ -1,0 +1,123 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Your <a href=\"https://swse.fandom.com/wiki/Followers\" title=\"Followers\">Followers</a> gain an additional <a href=\"https://swse.fandom.com/wiki/Feat\" class=\"mw-redirect\" title=\"Feat\">Feat</a>, which they must meet the prerequisites for, and another <a href=\"https://swse.fandom.com/wiki/Feat\" class=\"mw-redirect\" title=\"Feat\">Feat</a> every 3rd level (as per a normal character). Additionally, your <a href=\"https://swse.fandom.com/wiki/Followers\" title=\"Followers\">Followers</a> now benefit from changes to their <a href=\"https://swse.fandom.com/wiki/Ability_Scores\" class=\"mw-redirect\" title=\"Ability Scores\">Ability Scores</a> and bonus <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a> from their <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>; if your Follower's <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> does not change their <a href=\"https://swse.fandom.com/wiki/Ability_Scores\" class=\"mw-redirect\" title=\"Ability Scores\">Ability Scores</a>, you can raise a single one of their <a href=\"https://swse.fandom.com/wiki/Abilities\" title=\"Abilities\">Abilities</a> from a 10 to a 12.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Akk Dog Master talent",
+          "requirement": "Akk Dog Master",
+          "type": "TALENT"
+        },
+        {
+          "text": "Commanding Officer talent",
+          "requirement": "Commanding Officer",
+          "type": "TALENT"
+        },
+        {
+          "text": "Inspire Loyalty talent",
+          "requirement": "Inspire Loyalty",
+          "type": "TALENT"
+        },
+        {
+          "text": "Reconnaissance Team Leader talent",
+          "requirement": "Reconnaissance Team Leader",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Akk Dog Master talent, Commanding Officer talent, Inspire Loyalty talent, and Reconnaissance Team Leader talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Untested"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Chellewalker Creations"
+      },
+      {
+        "value": "Noble Talent Trees"
+      },
+      {
+        "value": "Soldier Talent Trees"
+      },
+      {
+        "value": "Scout Talent Trees"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "MERC 1 Creations"
+      },
+      {
+        "value": "DarkwulfStudios Creations"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Untested",
+      "Chellewalker Creations",
+      "Noble Talent Trees",
+      "Soldier Talent Trees",
+      "Scout Talent Trees",
+      "Homebrew Content",
+      "MERC 1 Creations",
+      "DarkwulfStudios Creations",
+      "Smuggler Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Exceptional Followers Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Exceptional_Followers_Talent_Tree",
+    "bonusTalentTree": "",
+    "cost": "0"
+  },
+  "name": "Able Companion",
+  "flags": {},
+  "type": "talent",
+  "folder": "P6a4VASP5mQ68xHt",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385304628,
+    "modifiedTime": 1786036141316,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "13lfU8LBDrkLsGtR",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!13lfU8LBDrkLsGtR"
+}

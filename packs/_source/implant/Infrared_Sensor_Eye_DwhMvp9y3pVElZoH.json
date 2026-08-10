@@ -1,0 +1,43 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Advanced Cybernetics",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Use the Force:-1:IMPLANT",
+        "key": "skillBonus"
+      }
+    ],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_at_War\" title=\"Star Wars Saga Edition Galaxy at War\">Star Wars Saga Edition Galaxy at War</a></i> </p><p><b>Rejection Attack Bonus:</b>&nbsp;+14 </p><p>The cybernetic replacement eye includes special infrared sensors that allow the host to see not only visible light but also heat signatures. This grants the host Darkvision. </p>",
+    "source": "Star Wars Saga Edition Galaxy at War",
+    "cost": "300",
+    "availability": "Restricted",
+    "rejectionAttackBonus": "+14",
+    "installationCost": "2250",
+    "cybernetic": true
+  },
+  "name": "Infrared Sensor Eye",
+  "flags": {},
+  "type": "implant",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263245044,
+    "modifiedTime": 1749263245044,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "DwhMvp9y3pVElZoH",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!DwhMvp9y3pVElZoH"
+}

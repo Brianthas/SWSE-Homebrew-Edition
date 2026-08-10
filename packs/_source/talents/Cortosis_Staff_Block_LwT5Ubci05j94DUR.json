@@ -1,0 +1,93 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "As a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a>, you may negate a melee attack by making a successful opposed attack roll. The DC of the attack roll is equal to the result of the attack roll you wish to negate, and you take a cumulative -5 penalty to your attack rolls to use this Talent for every time you have used <b>Cortosis Staff Block</b> since the beginning of your last turn.<br><br>You must have a <a href=\"https://swse.fandom.com/wiki/Cortosis_Staff\" title=\"Cortosis Staff\">Cortosis Staff</a> drawn to use this Talent, and you must be aware of the attack and not <a href=\"https://swse.fandom.com/wiki/Flat-Footed\" class=\"mw-redirect\" title=\"Flat-Footed\">Flat-Footed</a>. You may spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> to use this Talent to negate an attack against an adjacent character.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Exotic Weapon Proficiency (Cortosis Staff)",
+          "requirement": "Exotic Weapon Proficiency (Cortosis Staff)",
+          "type": "FEAT"
+        },
+        {
+          "text": "Nikto Survival feat",
+          "requirement": "Nikto Survival",
+          "type": "FEAT"
+        }
+      ],
+      "text": "Exotic Weapon Proficiency (Cortosis Staff), and Nikto Survival feat",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Untested"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Elite Trooper Talent Trees"
+      },
+      {
+        "value": "Homebrew Content"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Untested",
+      "Elite Trooper Talent Trees",
+      "Homebrew Content"
+    ],
+    "isSupplied": false,
+    "talentTree": "Morgukai Warrior Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Morgukai_Warrior_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Clone Wars Saga Edition Fan Sourcebook - Jedi Knights (Part 3)",
+    "cost": "0"
+  },
+  "name": "Cortosis Staff Block",
+  "flags": {},
+  "type": "talent",
+  "folder": "G4rsoSmbm2Xgb8t3",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385309895,
+    "modifiedTime": 1734385309895,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "LwT5Ubci05j94DUR",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!LwT5Ubci05j94DUR"
+}

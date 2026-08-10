@@ -1,0 +1,45 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p>A Junker is always on the verge of falling apart, and sometimes does so in the middle of combat. Every time a Junker moves down the Condition Track, one of its systems fail. A failed system is totally nonfunctional and remains that way until the Junker moves back up the Condition Track. Roll percentage dice to see what system fails (see below). If you roll a system your Junker does not have (such as rolling a Hyperdrive malfunction on a ship lacking a Hyperdrive), simply ignore the result- you got lucky.</p><br><table class=\"wikitable\"><tbody><tr><th>D%</th><th></th><th>FAILED SYSTEM</th></tr><tr><td>01-30</td><td></td><td><a href=\"/wiki/Hyperdrive\" title=\"Hyperdrive\">Hyperdrive</a></td></tr><tr><td>31-60</td><td></td><td>Engines (reduce <a href=\"/wiki/Starship_Scale\" class=\"mw-redirect\" title=\"Starship Scale\">Starship Scale</a> Speed by 1 square, and <a href=\"/wiki/Character_Scale\" class=\"mw-redirect\" title=\"Character Scale\">Character Scale</a> movement by the same percentage)</td></tr><tr><td>61-85</td><td></td><td>One <a href=\"/wiki/Weapon_System\" class=\"mw-redirect\" title=\"Weapon System\">Weapon System</a> or <a href=\"/wiki/Weapon_Battery\" class=\"mw-redirect\" title=\"Weapon Battery\">Weapon Battery</a> (determine which randomly)</td></tr><tr><td>86-95</td><td></td><td>Computer Core (-5 to all <a href=\"/wiki/Perception\" title=\"Perception\">Perception</a> and <a href=\"/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> checks made with the Starship's equipment)</td></tr><tr><td>96-100</td><td></td><td><a href=\"/wiki/Starship_Shields\" title=\"Starship Shields\">Starship Shields</a></td></tr></tbody></table>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "prerequisite": null,
+    "cost": "0"
+  },
+  "name": "System Failures",
+  "flags": {},
+  "type": "trait",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764446478146,
+    "modifiedTime": 1764446478146,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "ftxIZJ9LZ54nIBmI",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!ftxIZJ9LZ54nIBmI"
+}

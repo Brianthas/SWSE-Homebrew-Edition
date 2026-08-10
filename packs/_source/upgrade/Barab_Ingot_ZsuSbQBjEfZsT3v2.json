@@ -1,0 +1,211 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {}
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Attuned",
+      "_id": "LEkqSEH7eRMes5su",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Fire",
+            "key": "damageType",
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.4.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!ZsuSbQBjEfZsT3v2.LEkqSEH7eRMes5su"
+    },
+    {
+      "flags": {
+        "swse": {}
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Ignite",
+      "_id": "n6JxSZNjeMgbGQdi",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": 0.3,
+            "key": "auraLuminosity",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 0.4,
+            "key": "auraBright",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 0.9,
+            "key": "auraDim",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": "flame",
+            "key": "auraAnimationType",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 2,
+            "key": "auraAnimationSpeed",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 4,
+            "key": "auraAnimationIntensity",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": "#lightsaberColor#",
+            "key": "auraColor",
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.4.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!ZsuSbQBjEfZsT3v2.n6JxSZNjeMgbGQdi"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Jedi_Academy_Training_Manual\" title=\"Star Wars Saga Edition Jedi Academy Training Manual\">Star Wars Saga Edition Jedi Academy Training Manual</a></i> </p><p>Found on <a href=\"https://swse.fandom.com/wiki/Barab_I\" title=\"Barab I\">Barab I</a>, a Barab Ingot is a special crystal found inside ore littering the planet's <a href=\"https://swse.fandom.com/wiki/Radiation\" title=\"Radiation\">Radiation</a>-baked surface. Though the <a href=\"https://swse.fandom.com/wiki/Radiation\" title=\"Radiation\">Radiation</a> on the surface of the planet makes it difficult to find these crystals, a few <a href=\"https://swse.fandom.com/wiki/Jedi\" title=\"Jedi\">Jedi</a> have managed to locate Barab Ingots suitable for use as <a href=\"https://swse.fandom.com/wiki/Lightsaber_Crystals\" class=\"mw-redirect\" title=\"Lightsaber Crystals\">Lightsaber Crystals</a>. However, the constant infusion of <a href=\"https://swse.fandom.com/wiki/Radiation\" title=\"Radiation\">Radiation</a> on the surface of <a href=\"https://swse.fandom.com/wiki/Barab_I\" title=\"Barab I\">Barab I</a> causes a Barab Ingot to produce a <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> blade that burns like <a href=\"https://swse.fandom.com/wiki/Fire\" title=\"Fire\">Fire</a>. A <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> constructed with a Barab Ingot deals <a href=\"https://swse.fandom.com/wiki/Fire\" title=\"Fire\">Fire</a> damage instead of energy and slashing damage. Any target that takes damage from the weapon also catches on <a href=\"https://swse.fandom.com/wiki/Fire\" title=\"Fire\">Fire</a>. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "itemMod"
+      }
+    ],
+    "choices": [
+      {
+        "noOptions": "NO_AVAILABLE_OPTIONS",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {
+              "payload": "AVAILABLE_LIGHTSABER_COLORS"
+            },
+            "display": "AVAILABLE_LIGHTSABER_COLORS",
+            "name": "AVAILABLE_LIGHTSABER_COLORS",
+            "attributes": {}
+          }
+        ],
+        "description": "Select a lightsaber color.",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": true
+      }
+    ],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "0",
+    "weight": "",
+    "availability": "",
+    "size": "",
+    "type": "",
+    "subtype": "Lightsaber Crystals",
+    "quantity": 1,
+    "hasItemOwner": false,
+    "upgrade": {},
+    "prerequisite": {
+      "text": "Lightsabers",
+      "requirement": "lightsabers",
+      "type": "SUBTYPE"
+    },
+    "source": "Star Wars Saga Edition Jedi Academy Training Manual"
+  },
+  "name": "Barab Ingot",
+  "flags": {},
+  "type": "upgrade",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263245945,
+    "modifiedTime": 1749263245945,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "ZsuSbQBjEfZsT3v2",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!ZsuSbQBjEfZsT3v2"
+}

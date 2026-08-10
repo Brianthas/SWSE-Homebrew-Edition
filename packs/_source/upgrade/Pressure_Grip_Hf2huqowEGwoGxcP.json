@@ -1,0 +1,61 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Jedi_Academy_Training_Manual\" title=\"Star Wars Saga Edition Jedi Academy Training Manual\">Star Wars Saga Edition Jedi Academy Training Manual</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Lightsaber_Construction\" title=\"Lightsaber Construction\">Lightsaber Construction</a></i> </p><p>One of the most popular <a href=\"https://swse.fandom.com/wiki/Lightsaber_Modifications\" class=\"mw-redirect\" title=\"Lightsaber Modifications\">Lightsaber Modifications</a>, the Pressure Grip is a staple of most <a href=\"https://swse.fandom.com/wiki/Jedi\" title=\"Jedi\">Jedi</a> who prefer simple, straightforward <a href=\"https://swse.fandom.com/wiki/Lightsaber_Construction\" title=\"Lightsaber Construction\">Lightsaber Construction</a>. The Pressure Grip senses when the wielder's hand no longer grasps it, deactivating the <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> immediately when it is dropped or <a href=\"https://swse.fandom.com/wiki/Disarmed\" class=\"mw-redirect\" title=\"Disarmed\">Disarmed</a>. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "itemMod"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "0",
+    "weight": "",
+    "availability": "",
+    "size": "",
+    "type": "",
+    "subtype": "Lightsaber Modifications",
+    "quantity": 1,
+    "hasItemOwner": false,
+    "upgrade": {},
+    "prerequisite": {
+      "text": "Lightsabers",
+      "requirement": "lightsabers",
+      "type": "SUBTYPE"
+    },
+    "source": "Star Wars Saga Edition Jedi Academy Training Manual",
+    "seeAlso": "Lightsaber Construction"
+  },
+  "name": "Pressure Grip",
+  "flags": {},
+  "type": "upgrade",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263246178,
+    "modifiedTime": 1749263246178,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "Hf2huqowEGwoGxcP",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!Hf2huqowEGwoGxcP"
+}

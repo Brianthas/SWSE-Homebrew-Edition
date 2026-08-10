@@ -1,0 +1,68 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2d10",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A Vehicle begins its turn in an Acidic Storm.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "On Trigger; descending through an Acidic Storm takes three rounds.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Pilot (DC 23): The character reduces the number of rounds it takes to pass through the Acidic Storm by 1 round.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Atmosphere",
+          "Energy",
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See Also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>Purple lightning flashes out of the dark clouds as you descend toward the planet's surface.</i> </p><p><a href=\"https://swse.fandom.com/wiki/Durace\" title=\"Durace\">Durace</a> is constantly wracked by Acidic Storms, from which bolts of purple lightning strike out. While the primary effect of such a storm is similar to the <a href=\"https://swse.fandom.com/wiki/Toxic_Atmosphere\" title=\"Toxic Atmosphere\">Toxic Atmosphere</a> Hazard, <a href=\"https://swse.fandom.com/wiki/Vehicles\" title=\"Vehicles\">Vehicles</a> passing through the area of a violet lightning storm might be struck by the highly charged bolts, which can render a ship inoperable if it does not flee the storm quickly enough. </p><h2><span id=\"Acidic_Storm_Statistics_.28CL_9.29\"></span><span class=\"mw-headline\" id=\"Acidic_Storm_Statistics_(CL_9)\">Acidic Storm Statistics (CL 9)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Atmosphere, Energy, Natural </p><p><b>Trigger:</b> A <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> begins its turn in an Acidic Storm. </p><p><b>Attack:</b> +11 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> On Trigger; descending through an Acidic Storm takes three rounds. </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> (DC 23):</b> The character reduces the number of rounds it takes to pass through the Acidic Storm by 1 round.</li>\n</ul>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Acidic Storm",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244300,
+    "modifiedTime": 1749263244300,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "72FwQsgmsW1mJT39",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!72FwQsgmsW1mJT39"
+}

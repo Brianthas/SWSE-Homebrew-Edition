@@ -1,0 +1,33 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Weapon Systems",
+    "changes": [],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Legacy_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Legacy Era Campaign Guide\">Star Wars Saga Edition Legacy Era Campaign Guide</a></i></p><p><b>Emplacement Points:</b>&nbsp;2</p><p>With the remnants of the Galactic Alliance Core Fleet hiding throughout the galaxy and Roan Fel loyalists spreading dissent throughout the galaxy, Darth Krayt's Empire needs ways to block Hyperspace routes and pull ships back into Realspace. Rather than continuing the tradition of using massive Interdiction Starships, the Empire has come to rely on Gravity Mines instead. Cheaper to produce and expendable, these Gravity Mines create a mass shadow (Similar to the <a href=\"https://swse.fandom.com/wiki/Gravity_Well_Projectors\" class=\"mw-redirect\" title=\"Gravity Well Projectors\">Gravity Well Projectors</a> used on the old <i><a href=\"https://swse.fandom.com/wiki/Interdictor-Class_Star_Destroyers\" class=\"mw-redirect\" title=\"Interdictor-Class Star Destroyers\">Interdictor</a></i> <a href=\"https://swse.fandom.com/wiki/Interdictor-Class_Star_Destroyers\" class=\"mw-redirect\" title=\"Interdictor-Class Star Destroyers\">-Class Star Destroyers</a>) that pulls ships out of Hyperspace and keeps them out. Unlike Interdiction ships, Gravity Mines are small and difficult to detect with sensors. Hundreds of mines can be spread throughout an engagement zone in order to create a field of overlapping mass shadows.</p><p>A ship equipped with a Gravity Mine Launcher can deploy a Gravity Mine into an adjacent square as a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a>. Whenever another Starship enters a Gravity Mine's square or any adjacent square (Either in Realspace or Hyperspace), the mine activates, creating a zone that fills the mine's square and all adjacent squares (A 3x3 square area) with a mass shadow. Ships in these squares and ships that enter these squares are pulled from Hyperspace and cannot enter Hyperspace again while in one of these squares.</p><h5><span id=\"Gravity_Mine.2C_Magnetic\"></span> <span class=\"mw-headline\" id=\"Gravity_Mine,_Magnetic\"><b>Gravity Mine, Magnetic</b></span></h5><p>The Empire has also developed a more expensive variant of the Gravity Mine that is used when trying to target a single ship or a small number of ships. These mines activate a mass shadow field and then magnetically attach themselves to the Starship that triggered the mine, making it impossible for the ship to destroy the mine without assistance (Or having countermeasures in place, such as someone ready to exit the ship and remove the mine manually).</p><h4><span class=\"mw-headline\" id=\"Gravity_Mines\"><b>Gravity Mines</b></span></h4><table class=\"wikitable\">\n <tbody>\n  <tr>\n   <th>SPACE MINE</th>\n   <th>DAMAGE</th>\n   <th>EMPLACEMENT POINTS</th>\n   <th>AVAILABILITY</th>\n   <th>COST</th>\n  </tr>\n  <tr>\n   <td>Standard</td>\n   <td>-</td>\n   <td>-</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Military\" class=\"mw-redirect\" title=\"Military\">Military</a></td>\n   <td>1000</td>\n  </tr>\n  <tr>\n   <td>Magnetic</td>\n   <td>-</td>\n   <td>-</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Military\" class=\"mw-redirect\" title=\"Military\">Military</a></td>\n   <td>4000</td>\n  </tr>\n </tbody>\n</table><p>Gravity Mines have a <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> of 12, 20 Hit Points, and a <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a> of 10. Magnetic Gravity Mines also have a <a href=\"https://swse.fandom.com/wiki/Grapple\" title=\"Grapple\">Grapple</a> modifier of +10; when a ship enters a Magnetic Gravity Mine's space, it make a free <a href=\"https://swse.fandom.com/wiki/Grapple\" title=\"Grapple\">Grapple</a> attempt against that ship's <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>, and if successful, it attaches itself to the target ship. An attached Magnetic Gravity Mine cannot be targeted by the ship it is attached to.</p>",
+    "cost": "1000",
+    "availability": "Military"
+  },
+  "name": "Gravity Mine, Standard",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317220,
+    "modifiedTime": 1759848317220,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "ha6ab8t80aaYJO7M",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!ha6ab8t80aaYJO7M"
+}

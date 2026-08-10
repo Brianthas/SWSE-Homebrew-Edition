@@ -1,0 +1,53 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>See also: <a href=\"https://swse.fandom.com/wiki/Character_Combat\" title=\"Character Combat\">Character Combat</a></i> </p><p>Sometimes you'd rather knock an opponent unconscious than kill them. That's why many weapons have Stun settings and why <a href=\"https://swse.fandom.com/wiki/Stun_Batons\" class=\"mw-redirect\" title=\"Stun Batons\">Stun Batons</a> and <a href=\"https://swse.fandom.com/wiki/Stun_Grenades\" class=\"mw-redirect\" title=\"Stun Grenades\">Stun Grenades</a> are popular with law enforcement agencies throughout the galaxy. </p><p>Various melee weapons and blasters have a Stun setting, and switching a weapon to its Stun setting (or resetting it to normal damage) is a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>. Some Stun weapons, such as <a href=\"https://swse.fandom.com/wiki/Stun_Grenades\" class=\"mw-redirect\" title=\"Stun Grenades\">Stun Grenades</a>, only have a Stun setting. </p><p>Unless otherwise noted, the Stun setting on a blaster weapon has a maximum range of 6 squares (no <a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a> penalties). </p><p>Only creatures can be Stunned. <a href=\"https://swse.fandom.com/wiki/Droids\" title=\"Droids\">Droids</a>, <a href=\"https://swse.fandom.com/wiki/Vehicles\" title=\"Vehicles\">Vehicles</a>, and objects are immune to Stun Damage. </p><p>When you make a successful attack with a weapon that deals Stun Damage, subtract half of the Stun Damage from the target's Hit Points. Additional effects may occur as well, depending on the amount of damage dealt: </p><ul>\n <li>If the Stun Damage reduces the target's current Hit Points to 0, the target moves -5 steps on the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a> and is knocked unconscious.</li> \n <li>If the Stun Damage (before being halved) equals or exceeds the target's <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a>, the target moves -2 steps on the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>.</li>\n</ul><p>A creature knocked unconscious by Stun Damage does not die if it rolls a Natural 1 on its <a href=\"https://swse.fandom.com/wiki/Constitution\" title=\"Constitution\">Constitution</a> check to regain consciousnesses or if it fails the check by 5 or more points. It simply remains <a href=\"https://swse.fandom.com/wiki/Unconscious\" class=\"mw-redirect\" title=\"Unconscious\">Unconscious</a>. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "0",
+    "weight": "",
+    "availability": "",
+    "size": "",
+    "type": "",
+    "subtype": "Equipment",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "equipment": {},
+    "seeAlso": "Character Combat"
+  },
+  "name": "Stun Damage",
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263243600,
+    "modifiedTime": 1749263243600,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "G35D8Xa21od2TOmR",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!G35D8Xa21od2TOmR"
+}

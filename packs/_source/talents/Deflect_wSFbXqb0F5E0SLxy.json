@@ -1,0 +1,81 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "As a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a>, you may negate a ranged attack by making a successful <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check. The DC of the check is equal to the result of the attack roll you wish to negate, and you take a cumulative -5 penalty on your <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check for every time you used <b>Block</b> or <b>Deflect</b> since the beginning of your last turn. You may spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> to use this Talent to negate an attack against an adjacent character.<br><br>You can use this Talent to deflect some of the barrage of shots fired from a ranged weapon set on <a href=\"https://swse.fandom.com/wiki/Autofire\" title=\"Autofire\">Autofire</a>, or the <i><a href=\"https://swse.fandom.com/wiki/Force_Lightning\" title=\"Force Lightning\">Force Lightning</a></i> Force Power. If you succeed on the <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check, you take half damage if the attack hits, and no damage if the attack misses.<br><br>You must have a <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> drawn and ignited to use this Talent, and you must be aware of the attack and not <a href=\"https://swse.fandom.com/wiki/Flat-Footed\" class=\"mw-redirect\" title=\"Flat-Footed\">Flat-Footed</a>.<br><br>This Talent cannot be used to negate attacks made by Colossal (Frigate) or larger-size <a href=\"https://swse.fandom.com/wiki/Vehicles\" title=\"Vehicles\">Vehicles</a> unless the attack is made with a <a href=\"https://swse.fandom.com/wiki/Point-Defense\" title=\"Point-Defense\">Point-Defense</a> Weapon System.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "deflect",
+        "key": "rollable"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": null,
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Sith Apprentice Talent Trees"
+      },
+      {
+        "value": "Jedi Talent Trees"
+      },
+      {
+        "value": "Jedi Knight Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Imperial Knight Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Sith Apprentice Talent Trees",
+      "Jedi Talent Trees",
+      "Jedi Knight Talent Trees",
+      "Core Rulebook",
+      "Imperial Legionnaire Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Lightsaber Combat Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Lightsaber_Combat_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Core Rulebook",
+    "cost": "0"
+  },
+  "name": "Deflect",
+  "flags": {},
+  "type": "talent",
+  "folder": "DG4mM6KEY51ryMWX",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385308054,
+    "modifiedTime": 1786070306806,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "wSFbXqb0F5E0SLxy",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!wSFbXqb0F5E0SLxy"
+}

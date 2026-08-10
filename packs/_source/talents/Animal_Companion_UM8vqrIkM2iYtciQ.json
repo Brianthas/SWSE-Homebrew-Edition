@@ -1,0 +1,74 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You gain the service of a loyal <b>Animal Companion</b>. This <a href=\"https://swse.fandom.com/wiki/Beast\" title=\"Beast\">Beast</a> is generated using the <a href=\"https://swse.fandom.com/wiki/Standard_Score_Package\" class=\"mw-redirect\" title=\"Standard Score Package\">Standard Score Package</a>, has levels of the <a href=\"https://swse.fandom.com/wiki/Beast\" title=\"Beast\">Beast</a> class equal to one-half your Character Level (rounded down, minimum of 1), a Natural Armor bonus of +1, a single type of natural attack, and a single <a href=\"https://swse.fandom.com/wiki/Beast_Trait\" class=\"mw-redirect\" title=\"Beast Trait\">Beast Trait</a>.<br><br>The <b>Animal Companion</b> may be any size up to Large. Unlike normal <a href=\"https://swse.fandom.com/wiki/Beasts\" title=\"Beasts\">Beasts</a>, the <b>Animal Companion</b> adds its <a href=\"https://swse.fandom.com/wiki/Beast\" title=\"Beast\">Beast</a> Class Level to <a href=\"https://swse.fandom.com/wiki/Defenses\" title=\"Defenses\">Defenses</a>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Calming Aura talent",
+          "requirement": "Calming Aura",
+          "type": "TALENT"
+        },
+        {
+          "text": "Nature Sense talent",
+          "requirement": "Nature Sense",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Calming Aura talent, and Nature Sense talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Force Adept Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Force Adept Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Beastwarden Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Beastwarden_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Saga Edition All-Purpose Sourcebook",
+    "cost": "0"
+  },
+  "name": "Animal Companion",
+  "flags": {},
+  "type": "talent",
+  "folder": "AHyChDY4my175aHA",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385302621,
+    "modifiedTime": 1734385302621,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "UM8vqrIkM2iYtciQ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!UM8vqrIkM2iYtciQ"
+}

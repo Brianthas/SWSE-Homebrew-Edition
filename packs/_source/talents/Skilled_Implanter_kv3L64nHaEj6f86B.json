@@ -1,0 +1,69 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Whenever you use the <a href=\"https://swse.fandom.com/wiki/Biotech_Surgery\" title=\"Biotech Surgery\">Biotech Surgery</a> Feat to install a <a href=\"https://swse.fandom.com/wiki/Bio-Implant\" class=\"mw-redirect\" title=\"Bio-Implant\">Bio-Implant</a>, the <a href=\"https://swse.fandom.com/wiki/Bio-Implant%27s\" class=\"mw-redirect\" title=\"Bio-Implant's\">Bio-Implant's</a> attack bonus against the recipient's <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> is halved.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Treat Injury (repair or modify a Biotech object)::in: Talent Trees, Shaper Talent Trees Shaper Talent Tree Edit Edit source History Talk (0) Reference Book: Star Wars Saga Edition Legacy Era Campaign Guide You manipulate Yuuzhan Vong Biotech in new ways, molding it to your own ends and making it more effective. Contents 1 Biotech Mastery 2 Expedient Mending 3 Expert Shaper 4 Master Mender 5 Skilled Implanter Biotech Mastery[ ] Prerequisite: Biotech Specialist When using the Biotech Specialist Feat to modify Biotech, you are able to make the appropriate modification in half of the normal time for half the normal cost. In addition, you can Take 10 on the Mechanics check (even when distracted or threatened), but you cannot Take 20. Expedient Mending[ ] Prerequisite: Expert Shaper You can temporarily mend a damaged or disabled Biotech device using the Treat Injury Skill as a Standard Action instead of a Full-Round Action. Expert Shaper[ ] You may reroll any Treat Injury check made to repair or modify a Biotech object, but the result of the reroll must be accepted, even if it is worse. Master Mender[ ] Prerequisite: Expert Shaper Whenever you temporarily mend a Biotech device using the Treat Injury Skill, the mended device moves +4 steps on the Condition Track. In addition, the mended device only moves -3 steps down the Condition Track at the end of the scene or encounter, and is only disabled if this reduction brings it to -5 steps on the Condition Track. Skilled Implanter [ ] Prerequisite: Biotech Surgery Whenever you use the Biotech Surgery Feat to install a Bio-Implant, the Bio-Implant's attack bonus against the recipient's Fortitude Defense is halved. Categories Categories: Talent Trees Shaper Talent Trees Add category Cancel Save Community content is available under CC-BY-SA unless otherwise noted. More Fandoms Fantasy Sci-fi Star Wars",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Biotech Surgery feat",
+      "requirement": "Biotech Surgery",
+      "type": "FEAT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Shaper Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Shaper Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Shaper Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Shaper_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Legacy Era Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Skilled Implanter",
+  "flags": {},
+  "type": "talent",
+  "folder": "GOwaycrTM7MQ9hY9",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385311635,
+    "modifiedTime": 1734385311635,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "kv3L64nHaEj6f86B",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!kv3L64nHaEj6f86B"
+}

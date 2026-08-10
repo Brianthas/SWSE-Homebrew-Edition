@@ -1,0 +1,85 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<i>Y</i> ou gain a single <a href=\"https://swse.fandom.com/wiki/Follower\" class=\"mw-redirect\" title=\"Follower\">Follower</a>. Choose either the Aggressive, Defensive, or Utility <a href=\"https://swse.fandom.com/wiki/Follower_Templates\" title=\"Follower Templates\">Follower Template</a> for your <a href=\"https://swse.fandom.com/wiki/Follower\" class=\"mw-redirect\" title=\"Follower\">Follower</a>, generating the follower's statistics using the rules found in the <a href=\"https://swse.fandom.com/wiki/Followers\" title=\"Followers\">Followers</a> page. This <a href=\"https://swse.fandom.com/wiki/Follower\" class=\"mw-redirect\" title=\"Follower\">Follower</a> gains one Armor Proficiency Feat of your choice and <a href=\"https://swse.fandom.com/wiki/Weapon_Proficiency_(Rifles)\" class=\"mw-redirect\" title=\"Weapon Proficiency (Rifles)\">Weapon Proficiency (Rifles)</a>, in addition to those provided by the <a href=\"https://swse.fandom.com/wiki/Follower_Templates\" title=\"Follower Templates\">Follower Templates</a>. The <a href=\"https://swse.fandom.com/wiki/Follower\" class=\"mw-redirect\" title=\"Follower\">Follower</a> must meet the prerequisites for the Armor Proficiency Feat you select.<br><br>You can select this Talent multiple times. Each time you do, you gain one additional <a href=\"https://swse.fandom.com/wiki/Follower\" class=\"mw-redirect\" title=\"Follower\">Follower</a> (maximum of three <a href=\"https://swse.fandom.com/wiki/Followers\" title=\"Followers\">Followers</a>).",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "createFollower"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "takeMultipleTimes"
+      },
+      {
+        "mode": 2,
+        "value": 3,
+        "key": "takeMultipleTimesMax"
+      },
+      {
+        "mode": 2,
+        "value": "Armor Proficiency Feat:1",
+        "key": "followerCreationProvides"
+      },
+      {
+        "mode": 2,
+        "value": "FEAT:Weapon Proficiency (Rifles)",
+        "key": "followerCreationProvides"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": null,
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Soldier Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Squad Leader Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Squad_Leader_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Clone Wars Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Commanding Officer",
+  "flags": {},
+  "type": "talent",
+  "folder": "KOWWbowgNSnDRJ69",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385312403,
+    "modifiedTime": 1734385312403,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "ze5nDquehR5Kd65q",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!ze5nDquehR5Kd65q"
+}

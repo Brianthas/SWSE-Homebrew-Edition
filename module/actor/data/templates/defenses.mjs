@@ -52,6 +52,23 @@ export class DefenseFields {
         };
     }
 
+    /**
+     * Homebrew: classes no longer grant Defense bonuses. Instead a Heroic character
+     * assigns 4 points across the three Defenses (max 2 each), and at level 10 gains a
+     * second pool of 4 more (max 2 each again, so 4 total per Defense).
+     * Kept out of `system.defense`, which is rebuilt as derived data every prepare.
+     */
+    static #_defensePointPool(label) {
+        return new fields.SchemaField({
+            level1: new fields.NumberField({
+                initial: 0, integer: true, min: 0, max: 2, label: `${label} Defense Points`,
+            }),
+            level10: new fields.NumberField({
+                initial: 0, integer: true, min: 0, max: 2, label: `${label} Defense Points (Level 10)`,
+            }),
+        });
+    }
+
     static get character() {
         return {
             damageThreshold:  new fields.SchemaField({
@@ -61,10 +78,49 @@ export class DefenseFields {
                     label: `Misc Damage Threshold`,
                 })
             }),
+            // Blank means "use the value derived from armor/talents/templates"; anything
+            // here replaces it. A string rather than a number so DR can carry its
+            // bypass notation (e.g. "5/lightsabers", "2/-"). Display-only — the damage
+            // application in actor.mjs reads the raw damageReduction attributes itself.
+            damageReductionOverride: new fields.StringField({
+                initial: "",
+                blank: true,
+                label: `Damage Reduction Override`,
+            }),
+            defensePoints: new fields.SchemaField({
+                fortitude: this.#_defensePointPool("Fortitude"),
+                reflex: this.#_defensePointPool("Reflex"),
+                will: this.#_defensePointPool("Will"),
+            }),
+            // A plain manual add-on for anything not modeled elsewhere (e.g. Improved Defenses)
+            // — folds into the same Misc column/tooltip as item/talent-granted bonuses (see
+            // applyBonuses/resolvedWill), so the combined total shows in one place. Always
+            // additive, never an override.
+            additionalModifier: new fields.SchemaField({
+                fortitude: new fields.NumberField({initial: 0, integer: true, nullable: false, label: "Fortitude Additional Modifier"}),
+                reflex: new fields.NumberField({initial: 0, integer: true, nullable: false, label: "Reflex Additional Modifier"}),
+                will: new fields.NumberField({initial: 0, integer: true, nullable: false, label: "Will Additional Modifier"}),
+            }),
         }
     }
 }
 export class DefenseFunctions {
+    /**
+     * Homebrew: the player-assigned Defense points for one Defense, replacing the old
+     * per-class Defense bonus. The level-10 pool only counts once the character
+     * actually reaches level 10.
+     * @param name {"fortitude"|"reflex"|"will"}
+     * @return {number}
+     */
+    assignedDefensePoints(name) {
+        const pool = this.defense?.defensePoints?.[name];
+        if (!pool) return 0;
+
+        const level1 = pool.level1 || 0;
+        const level10 = (this.parent?.characterLevel || 0) >= 10 ? (pool.level10 || 0) : 0;
+        return level1 + level10;
+    }
+
     get armorBonus() {
         let actor = this.parent;
         let armorReflexDefenseBonus = this.armorReflexDefenseBonus || 0;
@@ -85,7 +141,7 @@ export class DefenseFunctions {
         } else {
             return this._selectRefBonus(
                 actor,
-                actor.heroicLevel,
+                actor.defenseLevelBonus,
                 armorReflexDefenseBonus
             );
         }
@@ -102,7 +158,7 @@ export class DefenseFunctions {
         return Math.max(...bonuses);
     }
 
-    resolvedFort(condition) {
+    resolvedFort() {
         const actor = this.parent;
         let fortitudeDefense = this.defense?.fortitude ?? {};
 
@@ -110,28 +166,25 @@ export class DefenseFunctions {
         let bonuses = [];
         bonuses.push({value: 10, type: "Base"});
 
-        //+ heroic level
-        let heroicLevel = actor.heroicLevel;
-        bonuses.push({value: heroicLevel, type: "Armor"});
+        //+ level bonus — full per heroic level, 3/4 (floored) per NPC-class (Beast/Nonheroic)
+        // level, per tovec's homebrew (see SWSEActor#defenseLevelBonus).
+        let levelBonus = actor.defenseLevelBonus;
+        bonuses.push({value: levelBonus, type: "Armor"});
 
         //+ equipment bonus
         let equipmentBonus = this._getEquipmentFortBonus(actor);
         bonuses.push({value: equipmentBonus, type: "Armor"});
 
         //+ ability modifier
-        let ability = actor.isDroid || actor.ignoreCon()?
+        let ability = actor.ignoreCon() ?
             CONFIG.SWSE.Defense.defense.fortitude.droidAbility :
             CONFIG.SWSE.Defense.defense.fortitude.ability;
         let abilityBonus = actor.system.abilities[ability].mod;
         bonuses.push({value: abilityBonus, type: "Ability"});
 
         //+ class bonus
-        let classBonus =
-            getInheritableAttribute({
-                entity: actor,
-                attributeKey: "classFortitudeDefenseBonus",
-                reduce: "MAX",
-            }) || 0;
+        // Homebrew: assigned Defense points replace the old per-class Defense bonus.
+        let classBonus = this.assignedDefensePoints("fortitude");
         bonuses.push({value: classBonus, type: "Class"});
 
         //+ fortitude defense bonus
@@ -143,9 +196,9 @@ export class DefenseFunctions {
         });
         bonuses.push({value: fortitudeDefenseBonus["SUM"], type: "Miscellaneous"});
 
-        //+ condition modifier
-        bonuses.push({value: condition, type: "Condition"});
-
+        //+ manual additional modifier — tagged "Manual" (shows as its own line in the Misc
+        // column's tooltip breakdown) but folds into the same Misc total as everything else.
+        bonuses.push({value: this.defense.additionalModifier?.fortitude || 0, type: "Manual"});
 
         //total
         let name = "Fortitude";
@@ -159,7 +212,7 @@ export class DefenseFunctions {
         return fortitudeDefense;
     }
 
-     resolvedWill(condition) {
+     resolvedWill() {
         const system = this;
         const actor = system.parent;
         const skip = ["vehicle", "npc-vehicle"].includes(actor.type);
@@ -167,9 +220,10 @@ export class DefenseFunctions {
         let bonuses = [];
         bonuses.push(10); //base
 
-        //+ heroic level
-        let heroicLevel = actor.heroicLevel;
-        bonuses.push(heroicLevel);
+        //+ level bonus — full per heroic level, 3/4 (floored) per NPC-class (Beast/Nonheroic)
+        // level, per tovec's homebrew (see SWSEActor#defenseLevelBonus).
+        let levelBonus = actor.defenseLevelBonus;
+        bonuses.push(levelBonus);
 
         //+ ability modifier
         let ability = actor.isDroid ?
@@ -181,12 +235,8 @@ export class DefenseFunctions {
 
         bonuses.push(...this.implantInterference(actor))
         //+ class bonus
-        let classBonus =
-            getInheritableAttribute({
-                entity: actor,
-                attributeKey: "classWillDefenseBonus",
-                reduce: "MAX",
-            }) || 0;
+        // Homebrew: assigned Defense points replace the old per-class Defense bonus.
+        let classBonus = system.assignedDefensePoints("will");
         bonuses.push(classBonus);
         willDefense.classBonus = classBonus;
 
@@ -200,7 +250,7 @@ export class DefenseFunctions {
 
         let otherBonus = willDefenseBonus["SUM"];
         let miscBonusTip = willDefenseBonus["SUMMARY"];
-        let miscBonuses = [otherBonus, condition];
+        let miscBonuses = [otherBonus];
 
         for (let val of getInheritableAttribute({
             entity: actor,
@@ -230,14 +280,16 @@ export class DefenseFunctions {
                 }
             }
         }
-        miscBonusTip += `Condition: ${condition};  `;
+        //+ manual additional modifier — folded into miscBonuses (not pushed to `bonuses`
+        // directly) so it's included in the displayed Misc total/tooltip like everything else.
+        miscBonuses.push(this.defense.additionalModifier?.will || 0);
         willDefense.miscBonusTip = miscBonusTip;
 
         let miscBonus = resolveValueArray(miscBonuses);
         bonuses.push(miscBonus);
         willDefense.miscBonus = miscBonus;
 
-        let armorBonus = resolveValueArray([heroicLevel]);
+        let armorBonus = resolveValueArray([levelBonus]);
         willDefense.armorBonus = armorBonus;
 
         let total = system.overrides.will ?? resolveValueArray(bonuses, actor);
@@ -270,7 +322,7 @@ export class DefenseFunctions {
         return [];
     }
 
-    resolvedRef(condition) {
+    resolvedRef() {
         const system = this;
         const actor = system.parent;
         let reflexDefense = system.defense?.ref ?? {};
@@ -287,19 +339,21 @@ export class DefenseFunctions {
         let ability = actor.isDroid ?
             CONFIG.SWSE.Defense.defense.reflex.droidAbility :
             CONFIG.SWSE.Defense.defense.reflex.ability;
-        let abilityBonus = Math.min(
-            actor.system.abilities[ability].mod,
-            this._getEquipmentMaxDexBonus(actor)
-        );
+        let armorDexOverride = this._getArmorDexterityOverride(actor);
+        let abilityBonus;
+        if (armorDexOverride !== undefined) {
+            abilityBonus = armorDexOverride === "str" ? actor.system.abilities.str.mod : toNumber(armorDexOverride);
+        } else {
+            abilityBonus = Math.min(
+                actor.system.abilities[ability].mod,
+                this._getEquipmentMaxDexBonus(actor)
+            );
+        }
         bonuses.push({value: abilityBonus, type: "Ability"});
 
         //+ class bonus
-        let classBonus =
-            getInheritableAttribute({
-                entity: actor,
-                attributeKey: "classReflexDefenseBonus",
-                reduce: "MAX",
-            }) || 0;
+        // Homebrew: assigned Defense points replace the old per-class Defense bonus.
+        let classBonus = system.assignedDefensePoints("reflex");
         bonuses.push({value: classBonus, type: "Class"});
 
         //+ reflex defense bonus
@@ -311,6 +365,10 @@ export class DefenseFunctions {
         });
         let otherBonus = reflexDefenseBonus["SUM"];
         bonuses.push({value: otherBonus, type: "Miscellaneous"});
+
+        //+ manual additional modifier — before _resolveFFRef below so flat-footed Reflex
+        // inherits it too; folds into the same Misc total/tooltip as everything else.
+        bonuses.push({value: this.defense.additionalModifier?.reflex || 0, type: "Manual"});
 
         let naturalArmorBonus = getInheritableAttribute({
             entity: actor,
@@ -326,16 +384,7 @@ export class DefenseFunctions {
             attributeFilter: (attr) => !attr.modifier,
         });
 
-        if (
-            game.settings.get("swse", "enableEncumbranceByWeight") &&
-            actor.weight >= actor.strainCapacity
-        ) {
-            const negativeAbilityBonus = abilityBonus * -1;
-            bonuses.push({value: negativeAbilityBonus, type: "Encumbrance"});
-            //miscBonusTip += `Strained Capacity: ${negativeAbilityBonus};  `;
-        }
         bonuses.push({value: bonusDodgeReflexDefense["SUM"], type: "Dodge"});
-        bonuses.push({value: condition, type: "Condition"});
         bonuses.push({value: naturalArmorBonus, type: "Natural"});
 
         reflexDefense.defenseModifiers = [
@@ -367,9 +416,38 @@ export class DefenseFunctions {
         defense.abilityBonus = bonuses.find(b => b.type === "Ability")?.value || 0;
         defense.armorBonus = bonuses.find(b => b.type === "Armor")?.value || 0;
         defense.classBonus = bonuses.find(b => b.type === "Class")?.value || 0;
+        // "Manual" (the player-entered Additional Modifier box) intentionally folds into the
+        // Misc column/tooltip here, same as every other non-Ability/Armor/Class/Base bonus —
+        // so the whole combined bonus is visible in one place on the main defense row.
         const miscBonus = bonuses.filter(b => !(b.type === "Ability" || b.type === "Armor" || b.type === "Class" || b.type === "Base"));
         defense.miscBonus = miscBonus.reduce((acc, obj) => acc + toNumber(obj.value), 0);
         defense.miscBonusTip = miscBonus.map(b => `${b.type} ${b.value > -1 ? "Bonus" : "Modifier"}: ${b.value}`).join("\n");
+    }
+
+    /**
+     * Homebrew: how many Defense points are assigned vs available. Two pools of 4
+     * (max 2 per Defense each), the second unlocking at level 10 — so a single Defense
+     * can hold at most 2 before level 10 and 4 after.
+     */
+    _resolveDefensePointBudget() {
+        const pools = this.defense?.defensePoints ?? {};
+        const names = ["fortitude", "reflex", "will"];
+        const sum = (key) => names.reduce((total, name) => total + (pools[name]?.[key] || 0), 0);
+
+        const level10Unlocked = (this.parent?.characterLevel || 0) >= 10;
+        const level1Used = sum("level1");
+        const level10Used = level10Unlocked ? sum("level10") : 0;
+
+        return {
+            level1Used,
+            level1Max: 4,
+            level1Over: level1Used > 4,
+            level10Unlocked,
+            level10Used,
+            level10Max: 4,
+            level10Over: level10Used > 4,
+            perDefenseMax: 2
+        };
     }
 
     _prepareDefenseDerivedData() {
@@ -377,26 +455,26 @@ export class DefenseFunctions {
         const actor = system.parent;
         system.defense = system.defense ?? {};
 
-        let condition = getInheritableAttribute({
-            entity: actor,
-            attributeKey: "condition",
-            reduce: "FIRST"
-        }) || "0"
-
-        condition = condition === "OUT" ?  0 : condition;
-
         //TODO can we filter attributes by proficiency in the get search so we can get rid of some of the complex armor logic?
 
-        system.defense.fortitude = this.resolvedFort(condition);
-        system.defense.will = this.resolvedWill(condition);
-        system.defense.reflex = this.resolvedRef(condition);
+        system.defense.pointBudget = this._resolveDefensePointBudget();
+
+        system.defense.fortitude = this.resolvedFort();
+        system.defense.will = this.resolvedWill();
+        system.defense.reflex = this.resolvedRef();
         system.defense.damageThreshold = this._resolveDt(system);
         system.defense.situationalBonuses = this._getSituationalBonuses(actor);
-        system.defense.damageReduction = getInheritableAttribute({
+        // Keep the derived value available so the sheet can show it as a placeholder,
+        // then let an explicit override replace it.
+        system.defense.derivedDamageReduction = getInheritableAttribute({
             entity: actor,
             attributeKey: "damageReduction",
             reduce: "SUM",
         });
+        const drOverride = (system.defense.damageReductionOverride || "").trim();
+        system.defense.damageReduction = drOverride
+            ? drOverride
+            : system.defense.derivedDamageReduction;
 
         let armors = [];
 
@@ -424,6 +502,23 @@ export class DefenseFunctions {
         return bonus;
     }
 
+    /**
+     * Homebrew: some armor replaces the Dex-mod term of Reflex Defense outright rather than
+     * capping it. Returns the override ("str" or a flat number) from equipped armor, if any.
+     */
+    _getArmorDexterityOverride(actor) {
+        let equipped = actor.itemTypes.armor.filter(
+            (item) => item.equipped === "equipped"
+        );
+        for (let item of equipped) {
+            let override = item.armorDexterityOverride;
+            if (override !== undefined && override !== "") {
+                return override;
+            }
+        }
+        return undefined;
+    }
+
     _getEquipmentFortBonus(actor) {
         let equipped = actor.items.filter((item) => item.system.equipped);
         let bonus = 0;
@@ -437,7 +532,7 @@ export class DefenseFunctions {
         return bonus;
     }
 
-    _selectRefBonus(actor, heroicLevel, armorBonus) {
+    _selectRefBonus(actor, levelBonus, armorBonus) {
         if (armorBonus) {
             let proficientWithEquipped = true;
 
@@ -458,7 +553,7 @@ export class DefenseFunctions {
                 if (improvedArmoredDefense) {
                     return Math.max(
                         armorBonus,
-                        heroicLevel + Math.floor(armorBonus / 2)
+                        levelBonus + Math.floor(armorBonus / 2)
                     );
                 }
 
@@ -468,12 +563,12 @@ export class DefenseFunctions {
                     reduce: "OR",
                 });
                 if (armoredDefense || actor.isFollower) {
-                    return Math.max(armorBonus, heroicLevel);
+                    return Math.max(armorBonus, levelBonus);
                 }
             }
             return armorBonus;
         }
-        return heroicLevel;
+        return levelBonus;
     }
 
     _resolveFFRef(

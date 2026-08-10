@@ -1,0 +1,107 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a></i> </p><p>You call upon the strength of <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a>, reaching out to your ally and sharing your strength with them. </p><p><b>[<i><a href=\"https://swse.fandom.com/wiki/Light_Side\" class=\"mw-redirect\" title=\"Light Side\">Light Side</a></i>]</b> </p><p><b>Time:</b>&nbsp;<a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a> </p><p><b>Targets:</b>&nbsp;One ally within 12 squares of you, and within your line of sight. </p><p><b>Make a&nbsp;<a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a>&nbsp;check.&nbsp;</b>The result of the check determines the effects, if any: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td> </td> \n   <td>The target gains a +1 bonus to their <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a> against <a href=\"https://swse.fandom.com/wiki/Mind-Affecting\" class=\"mw-redirect\" title=\"Mind-Affecting\">Mind-Affecting</a> and Fear effects until the start of your next turn. </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td> </td> \n   <td>The target gains a +2 bonus to their <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a> against <a href=\"https://swse.fandom.com/wiki/Mind-Affecting\" class=\"mw-redirect\" title=\"Mind-Affecting\">Mind-Affecting</a> and Fear effects until the start of your next turn. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td> </td> \n   <td>The target gains a +5 bonus to their <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a> against <a href=\"https://swse.fandom.com/wiki/Mind-Affecting\" class=\"mw-redirect\" title=\"Mind-Affecting\">Mind-Affecting</a> and Fear effects until the start of your next turn. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td> </td> \n   <td>The target gains a +10 bonus to their <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a> against <a href=\"https://swse.fandom.com/wiki/Mind-Affecting\" class=\"mw-redirect\" title=\"Mind-Affecting\">Mind-Affecting</a> and Fear effects until the start of your next turn. </td>\n  </tr>\n </tbody>\n</table><p><b>Special: </b>You can spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> when you activate this <a href=\"https://swse.fandom.com/wiki/Force_Power\" class=\"mw-redirect\" title=\"Force Power\">Force Power</a> to have the bonus apply against all effects that target <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a> (not just <a href=\"https://swse.fandom.com/wiki/Mind-Affecting\" class=\"mw-redirect\" title=\"Mind-Affecting\">Mind-Affecting</a> and Fear effects). </p><p>You can maintain&nbsp;<i>Valor</i>&nbsp;from round to round, extending the normal duration. Maintaining the&nbsp;<i>Valor</i>&nbsp;<a href=\"https://swse.fandom.com/wiki/Force_Power\" class=\"mw-redirect\" title=\"Force Power\">Force Power</a>&nbsp;is a&nbsp;<a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>. If you take damage while maintaining&nbsp;<i>Valor</i>, you must succeed on a&nbsp;<a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a>&nbsp;check (DC = 15 + damage taken) to continue maintaining the&nbsp;<i>Valor</i>. You may have multiple instances of&nbsp;<i>Valor</i>&nbsp;active at once (affecting different allies), but maintaining each one requires a&nbsp;<a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>&nbsp;each round, and each one must be activated by a separate use of&nbsp;<i>Valor</i>. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Light Side",
+        "key": "tag"
+      },
+      {
+        "mode": 2,
+        "value": "Standard Action",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "One ally within 12 squares of you, and within your line of sight.",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "cumulative"
+      },
+      {
+        "mode": 2,
+        "value": "Use the Force",
+        "key": "rollType"
+      },
+      {
+        "mode": 2,
+        "value": "15:The target gains a +1 bonus to their Will Defense against Mind-Affecting and Fear effects until the start of your next turn.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "20:The target gains a +2 bonus to their Will Defense against Mind-Affecting and Fear effects until the start of your next turn.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "25:The target gains a +5 bonus to their Will Defense against Mind-Affecting and Fear effects until the start of your next turn.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "30:The target gains a +10 bonus to their Will Defense against Mind-Affecting and Fear effects until the start of your next turn.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "Reference Book: Star Wars Saga Edition Knights of the Old Republic Campaign Guide See also: Force Powers You call upon the strength of The Force, reaching out to your ally and sharing your strength with them. [Light Side] Time: Standard Action Targets: One ally within 12 squares of you, and within your line of sight. Make a Use the Force check. The result of the check determines the effects, if any: Special: You can spend a Force Point when you activate this Force Power to have the bonus apply against all effects that target Will Defense (not just Mind-Affecting and Fear effects). You can maintain Valor from round to round, extending the normal duration. Maintaining the Valor Force Power is a Swift Action. If you take damage while maintaining Valor, you must succeed on a Use the Force check (DC = 10 + damage taken) to continue maintaining the Valor. You may have multiple instances of Valor active at once (affecting different allies), but maintaining each one requires a Swift Action each round, and each one must be activated by a separate use of Valor.",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Light Side Force Powers"
+      },
+      {
+        "value": "Force Powers"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Valor",
+  "flags": {},
+  "type": "forcePower",
+  "img": "systems/swse/icon/force-power/Valor.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1738608591121,
+    "modifiedTime": 1786067531933,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "LPPTRtFeCxBsi1of",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!LPPTRtFeCxBsi1of"
+}

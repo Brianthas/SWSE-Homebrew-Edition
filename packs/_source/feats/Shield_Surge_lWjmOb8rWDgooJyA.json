@@ -1,0 +1,83 @@
+{
+  "img": "systems/swse/icon/feat/Shield_Surge.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scavenger%27s_Guide_to_Droids\" title=\"Star Wars Saga Edition Scavenger's Guide to Droids\">Star Wars Saga Edition Scavenger's Guide to Droids</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You can surge the power of a Vehicle's shields through your direct data link at precisely the right moment to reduce the damage to the <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> from incoming enemy fire.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> or <a href=\"https://swse.fandom.com/wiki/Cyborg_Hybrid\" class=\"mw-redirect\" title=\"Cyborg Hybrid\">Cyborg Hybrid</a>, <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a></p><p><b>Effect:</b> As a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a>, when your <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> takes damage above its <a href=\"https://swse.fandom.com/wiki/Shield_Rating\" title=\"Shield Rating\">Shield Rating</a>, after the <a href=\"https://swse.fandom.com/wiki/Shield_Rating\" title=\"Shield Rating\">Shield Rating</a> is reduced you can reduce the amount of damage sustained by the <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> by an amount up to the remaining <a href=\"https://swse.fandom.com/wiki/Shield_Rating\" title=\"Shield Rating\">Shield Rating</a>. However, the <a href=\"https://swse.fandom.com/wiki/Shield_Rating\" title=\"Shield Rating\">Shield Rating</a> is immediately reduced by one point for every point of damage reduced.</p><p><b>Special:</b> The <a href=\"https://swse.fandom.com/wiki/Recharge_Shields\" title=\"Recharge Shields\">Recharge Shields</a> Action cannot be used on the <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> until a full round after the use of Shield Surge. You must have a <a href=\"https://swse.fandom.com/wiki/Scomp_Link\" title=\"Scomp Link\">Scomp Link</a> or similar direct data link to the <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> to use this Feat.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "children": [
+            {
+              "text": "Droid",
+              "requirement": "Is a droid",
+              "type": "SPECIAL"
+            },
+            {
+              "text": "Cyborg Hybrid",
+              "requirement": "Cyborg Hybrid",
+              "type": "SPECIAL"
+            }
+          ],
+          "count": 1,
+          "text": "Droid or Cyborg Hybrid",
+          "type": "OR"
+        },
+        {
+          "text": "Trained in Mechanics",
+          "requirement": "Mechanics",
+          "type": "TRAINED SKILL"
+        }
+      ],
+      "text": "(Droid or Cyborg Hybrid), and Trained in Mechanics",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Technician Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Technician Bonus Feats",
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Scavenger's Guide to Droids",
+    "cost": "0"
+  },
+  "name": "Shield Surge",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479028810,
+    "modifiedTime": 1761479028810,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "lWjmOb8rWDgooJyA",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!lWjmOb8rWDgooJyA"
+}

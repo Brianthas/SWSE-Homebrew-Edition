@@ -1,0 +1,67 @@
+{
+  "img": "systems/swse/icon/feat/Focused Rage.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Force_Unleashed_Campaign_Guide\" title=\"Star Wars Saga Edition Force Unleashed Campaign Guide\">Star Wars Saga Edition Force Unleashed Campaign Guide</a></i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You retain better focus when enraged.</p><p><b>Prerequisites:</b> Rage Species Trait, <a href=\"https://swse.fandom.com/wiki/Controlled_Rage\" title=\"Controlled Rage\">Controlled Rage</a></p><p><b>Effect:</b> While Raging, you can use <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> that require patience and concentration, at a -5 penalty.</p><p><b>Normal:</b> While Raging, you cannot use <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> that require patience and concentration, such as <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a>, <a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a>, or <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a>.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Rage trait",
+          "requirement": "Rage",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Controlled Rage feat",
+          "requirement": "Controlled Rage",
+          "type": "FEAT"
+        }
+      ],
+      "text": "Rage trait, and Controlled Rage feat",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Force Unleashed Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Focused Rage",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479026999,
+    "modifiedTime": 1761479026999,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "3zHfO68AGUbtp5J2",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!3zHfO68AGUbtp5J2"
+}

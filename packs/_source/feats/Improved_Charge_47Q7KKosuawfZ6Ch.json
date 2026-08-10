@@ -1,0 +1,83 @@
+{
+  "img": "systems/swse/icon/feat/Improved Charge.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: Star Wars Saga Edition Core Rulebook</i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You can <a href=\"https://swse.fandom.com/wiki/Charge\" title=\"Charge\">Charge</a> around obstacles.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> 13, <a href=\"https://swse.fandom.com/wiki/Dodge\" title=\"Dodge\">Dodge</a>, <a href=\"https://swse.fandom.com/wiki/Mobility\" title=\"Mobility\">Mobility</a></p><p><b>Effect:</b> You can make a <a href=\"https://swse.fandom.com/wiki/Charge\" title=\"Charge\">Charge</a> without having to move in a straight line, and you can alter your direction when making a <a href=\"https://swse.fandom.com/wiki/Charge\" title=\"Charge\">Charge</a> to avoid obstacles. All other <a href=\"https://swse.fandom.com/wiki/Charge\" title=\"Charge\">Charge</a> rules apply.</p><p><b>Normal:</b> A character must <a href=\"https://swse.fandom.com/wiki/Charge\" title=\"Charge\">Charge</a> in an unobstructed straight line.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Dexterity 13",
+          "requirement": "Dexterity 13",
+          "type": "ATTRIBUTE"
+        },
+        {
+          "text": "Dodge feat",
+          "requirement": "Dodge",
+          "type": "FEAT"
+        },
+        {
+          "text": "Mobility feat",
+          "requirement": "Mobility",
+          "type": "FEAT"
+        }
+      ],
+      "text": "Dexterity 13, Dodge feat, and Mobility feat",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Soldier Bonus Feats"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Jedi Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Bonus Feats",
+      "General Feats",
+      "Jedi Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Core Rulebook",
+    "cost": "0"
+  },
+  "name": "Improved Charge",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479027401,
+    "modifiedTime": 1761479027401,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "47Q7KKosuawfZ6Ch",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!47Q7KKosuawfZ6Ch"
+}

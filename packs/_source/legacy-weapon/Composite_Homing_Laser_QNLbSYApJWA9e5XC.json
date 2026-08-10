@@ -1,0 +1,189 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode",
+          "links": [
+            {
+              "type": "exclusive",
+              "name": "Autofire"
+            }
+          ]
+        }
+      },
+      "statuses": [],
+      "disabled": false,
+      "name": "Single-Shot",
+      "_id": "xdb6V5eaUgm3rYXT",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513469,
+        "modifiedTime": 1786051513469,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!QNLbSYApJWA9e5XC.xdb6V5eaUgm3rYXT"
+    },
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode",
+          "links": [
+            {
+              "type": "exclusive",
+              "name": "Single-Shot"
+            }
+          ]
+        }
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Autofire",
+      "_id": "OSMtXh9FGzBqLIOb",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": -5,
+            "key": "toHitModifier",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          },
+          {
+            "value": true,
+            "key": "skipCriticalMultiply",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          },
+          {
+            "value": 10,
+            "key": "ammoUse",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513469,
+        "modifiedTime": 1786051513469,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!QNLbSYApJWA9e5XC.OSMtXh9FGzBqLIOb"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<table style=\"width:100%; margin-top:1em; border:1px solid #999; font-size:90%; text-align:center; background:#363636\"> \n <tbody>\n  <tr> \n   <td><i>This article details the Composite Homing Laser Heavy Weapon created by <a href=\"https://swse.fandom.com/wiki/Homebrew_Content\" title=\"Homebrew Content\">Homebrew Content</a>. You may be looking for the <a href=\"https://swse.fandom.com/wiki/Homebrew_Content\" title=\"Homebrew Content\">Homebrew Content</a> Weapon System of the same name, the <a href=\"https://swse.fandom.com/wiki/Composite_Homing_Laser\" title=\"Composite Homing Laser\">Composite Homing Laser</a>.</i> </td>\n  </tr>\n </tbody>\n</table><table style=\"width:100%; margin-top:2em; border:2px solid #999; font-size:105%; text-align:center; background:#6c3636;\"> \n <tbody>\n  <tr> \n   <td><i><b>This <a href=\"https://swse.fandom.com/wiki/Homebrew_Content\" title=\"Homebrew Content\">Homebrew Content</a> has not been reviewed in a meaningful manner. If you wish to review this content yourself, then see <a href=\"https://swse.fandom.com/wiki/Category:Untested\" title=\"Category:Untested\">Untested</a> for more details.</b></i> </td>\n  </tr>\n </tbody>\n</table><p><i>Homebrew Reference Book: <a href=\"https://swse.fandom.com/wiki/Clone_Wars_Saga_Edition_Fan_Sourcebook\" title=\"Clone Wars Saga Edition Fan Sourcebook\">Clone Wars Saga Edition Fan Sourcebook</a> - Droids</i> </p><p>Composite laser weaponry was relatively new during the Clone Wars. An advancement of laser cannon technology, Composite Homing Lasers form a beam that sustained itself for a limited time. This advantage allowed gunners to adjust their aim during a shot, increasing accuracy significantly by providing a +2 <a href=\"https://swse.fandom.com/wiki/Equipment\" title=\"Equipment\">Equipment</a> bonus to attack rolls. Also, if the attack is powerful enough to reduce the target to 0 Hit Points, a Composite Homing Laser can make an additional attack as a <a href=\"https://swse.fandom.com/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a> against any adjacent target. </p><p>Alternatively, Composite Homing Lasers can be used to make <a href=\"https://swse.fandom.com/wiki/Area_Attacks\" title=\"Area Attacks\">Area Attacks</a> as per <a href=\"https://swse.fandom.com/wiki/Autofire\" title=\"Autofire\">Autofire</a>, but in a straight line (4-square by 1-square, rather than 2-square by 2-square). The intense power consumption of these lasers requires the use of a <a href=\"https://swse.fandom.com/wiki/Power_Generator\" title=\"Power Generator\">Power Generator</a> to operate. Homing lasers are a variant of composite lasers that can be sustained indefinitely, allowing them to zigzag across the battlefield until they find their target, or bore through thick armor plating. </p><p>Composite Homing Lasers function identically to standard composite lasers, but have an alternate firing technique that forgoes the bonus to attack rolls and ability to hit adjacent targets in favor of <a href=\"https://swse.fandom.com/wiki/Penetration\" title=\"Penetration\">Penetration</a> 5. Switching between settings is a <a href=\"https://swse.fandom.com/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a>. Both types of composite lasers use the same range modifiers as <a href=\"https://swse.fandom.com/wiki/Heavy_Weapons\" title=\"Heavy Weapons\">Heavy Weapons</a>. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "14,000",
+    "weight": "52 Kilograms",
+    "availability": "Military",
+    "size": "Huge",
+    "type": "",
+    "subtype": "Heavy Weapons",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "3d10",
+    "damageType": "Energy"
+  },
+  "name": "Composite Homing Laser",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Composite_Homing_Laser.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513469,
+    "modifiedTime": 1786051513568,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "QNLbSYApJWA9e5XC",
+  "_key": "!items!QNLbSYApJWA9e5XC"
+}

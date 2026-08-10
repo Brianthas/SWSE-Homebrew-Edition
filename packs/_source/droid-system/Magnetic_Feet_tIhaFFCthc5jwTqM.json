@@ -1,0 +1,39 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Locomotion Systems",
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "droidPart"
+      }
+    ],
+    "description": "<p><b>Requires:</b> <a href=\"https://swse.fandom.com/wiki/Walking\" title=\"Walking\">Walking</a>, <a href=\"https://swse.fandom.com/wiki/Wheeled\" title=\"Wheeled\">Wheeled</a>, or <a href=\"https://swse.fandom.com/wiki/Tracked\" title=\"Tracked\">Tracked</a> Locomotion System</p><p>Magnetic grippers enable a Droid to cling to a ship's hull, even when the ship is moving at high speed. Only droids with <a href=\"https://swse.fandom.com/wiki/Walking\" title=\"Walking\">Walking</a>, <a href=\"https://swse.fandom.com/wiki/Wheeled\" title=\"Wheeled\">Wheeled</a>, or <a href=\"https://swse.fandom.com/wiki/Tracked\" title=\"Tracked\">Tracked</a> Locomotion Systems can have Magnetic Feet.</p>",
+    "cost": "Locomotion System Cost x 2",
+    "requires": "Walking, Wheeled, or Tracked Locomotion System"
+  },
+  "name": "Magnetic Feet",
+  "flags": {},
+  "type": "droid system",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764449015653,
+    "modifiedTime": 1764449015653,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "tIhaFFCthc5jwTqM",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!tIhaFFCthc5jwTqM"
+}

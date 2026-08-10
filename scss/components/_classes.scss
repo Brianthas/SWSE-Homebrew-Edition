@@ -1,0 +1,280 @@
+// Classes tab: one row per class taken (not per level — a level-10 character used to
+// be 10 nearly-identical rows just to track incremental HP). Expand a row for the
+// per-level HP breakdown, reusing the same toggle/.control pattern as situational skills.
+
+.classes-header {
+  .top-label {
+    position: relative;
+  }
+
+  .classes-header-actions {
+    position: absolute;
+    top: 50%;
+    right: $space-sm;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    gap: $space-sm;
+
+    a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 22px;
+      height: 22px;
+      border-radius: $radius-sm;
+      background: var(--swse-bg);
+      color: var(--swse-accent);
+
+      &:hover {
+        background: var(--swse-text);
+        color: var(--swse-bg);
+      }
+    }
+
+    // Multiple distinct compendium-shortcut icons sitting side by side (e.g. Equipment tab's
+    // Weapons/Armor/Equipment/Templates row) are otherwise indistinguishable without hovering
+    // each one — show the label instead of relying on the `title` tooltip.
+    &.labeled-actions a {
+      width: auto;
+      height: 20px;
+      padding: 0 $space-xs;
+      gap: $space-2xs;
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+      white-space: nowrap;
+
+      i {
+        font-size: 10px;
+      }
+    }
+  }
+}
+
+.class-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: $space-2xs;
+}
+
+.class-group {
+  background: var(--swse-surface-raised);
+  border-radius: $radius-sm;
+  padding: $space-2xs $space-xs;
+}
+
+.class-row {
+  display: flex;
+  align-items: center;
+  gap: $space-xs;
+  min-height: 30px;
+}
+
+.class-toggle {
+  width: 14px;
+  flex: 0 0 14px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.class-image {
+  width: 24px;
+  flex: 0 0 24px;
+  height: 24px;
+  border-radius: $radius-sm;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.class-name {
+  flex: 1 1 auto;
+  min-width: 0;
+  font-weight: 700;
+  color: var(--swse-text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  &:hover {
+    color: var(--swse-accent);
+  }
+}
+
+.class-die {
+  width: 28px;
+  flex: 0 0 28px;
+  font-size: 10px;
+  text-align: center;
+  color: var(--swse-text-muted);
+}
+
+.class-levels {
+  width: 72px;
+  flex: 0 0 72px;
+  font-size: 11px;
+  color: var(--swse-text-muted);
+}
+
+.class-hp {
+  width: 36px;
+  flex: 0 0 36px;
+  text-align: right;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.class-controls {
+  width: 52px;
+  flex: 0 0 52px;
+  display: flex;
+  justify-content: flex-end;
+  gap: $space-xs;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: $radius-sm;
+    background: var(--swse-surface);
+    border: 1px solid var(--swse-border);
+    color: var(--swse-text);
+
+    &:hover {
+      background: var(--swse-accent);
+      color: var(--swse-bg);
+      border-color: var(--swse-accent);
+    }
+  }
+
+  .item-duplicate {
+    background: var(--swse-accent);
+    color: var(--swse-bg);
+    border-color: var(--swse-accent);
+
+    &:hover {
+      background: var(--swse-text);
+      border-color: var(--swse-text);
+    }
+  }
+}
+
+.class-level-detail {
+  margin: $space-2xs 0 $space-2xs 22px;
+  padding-left: $space-xs;
+  border-left: 2px solid var(--swse-border);
+  display: flex;
+  flex-direction: column;
+  gap: $space-2xs;
+}
+
+.class-level-row {
+  display: flex;
+  align-items: center;
+  gap: $space-xs;
+  min-height: 24px;
+}
+
+.class-level-row-header {
+  .level-label, .level-hp, .level-con, .level-total {
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--swse-text-muted);
+  }
+}
+
+.level-label {
+  width: 44px;
+  flex: 0 0 44px;
+  font-size: 11px;
+  color: var(--swse-text-muted);
+}
+
+.level-hp {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  gap: $space-2xs;
+}
+
+.level-hp-fixed {
+  font-size: 11px;
+  color: var(--swse-text);
+}
+
+.level-hp-input {
+  width: 44px;
+  min-width: 0;
+  height: 20px;
+  min-height: 0;
+  padding: 0 $space-2xs;
+  text-align: center;
+  font-size: 11px;
+}
+
+.level-roll-btn, .level-avg-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 20px;
+  height: 20px;
+  padding: 0 $space-2xs;
+  border-radius: $radius-sm;
+  background: var(--swse-accent);
+  color: var(--swse-bg);
+  font-size: 9px;
+  font-weight: 700;
+  cursor: pointer;
+
+  &:hover {
+    background: var(--swse-text);
+  }
+}
+
+.level-con, .level-total {
+  width: 36px;
+  flex: 0 0 36px;
+  text-align: right;
+  font-size: 11px;
+  color: var(--swse-text-muted);
+}
+
+.class-summary-footer {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr auto 1fr auto;
+  align-items: center;
+  gap: $space-xs $space-sm;
+  margin-top: $space-sm;
+  padding-top: $space-sm;
+  border-top: 1px solid var(--swse-border);
+
+  .label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--swse-text-muted);
+    text-align: right;
+  }
+
+  .value {
+    font-weight: 700;
+  }
+
+  input.hp-override {
+    width: 70px;
+    text-align: center;
+  }
+}

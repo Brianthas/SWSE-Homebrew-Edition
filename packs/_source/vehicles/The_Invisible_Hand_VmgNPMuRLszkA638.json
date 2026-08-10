@@ -1,0 +1,1209 @@
+{
+  "effects": [],
+  "system": {
+    "health": {
+      "value": 1800,
+      "min": 0,
+      "max": 1800,
+      "condition": 0,
+      "override": 1800,
+      "bonusHP": null
+    },
+    "shields": {
+      "value": 0,
+      "min": 0,
+      "max": null,
+      "shieldDamage": 0
+    },
+    "description": "",
+    "credits": 0,
+    "classes": [],
+    "traits": [],
+    "age": 0,
+    "gender": "",
+    "genderDisplay": "",
+    "player": "",
+    "crewQuality": {},
+    "crew": [],
+    "attributes": {
+      "str": {
+        "total": 0,
+        "mod": 0,
+        "bonus": 0,
+        "base": 0
+      },
+      "dex": {
+        "total": 0,
+        "mod": 0,
+        "bonus": 0,
+        "base": 0
+      },
+      "int": {
+        "total": 0,
+        "mod": 0,
+        "bonus": 0,
+        "base": 0
+      }
+    },
+    "equippedIds": [],
+    "skills": {
+      "pilot (pilot)": {
+        "value": 0,
+        "attribute": "dex",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Pilot",
+        "sizeMod": true
+      },
+      "initiative (pilot)": {
+        "value": 0,
+        "attribute": "dex",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Initiative",
+        "sizeMod": true
+      },
+      "deception (pilot)": {
+        "value": 0,
+        "attribute": "dex",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Starship_Deception",
+        "sizeMod": true
+      },
+      "stealth (pilot)": {
+        "value": 0,
+        "attribute": "dex",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Stealth#Starship_Stealth",
+        "sizeMod": true
+      },
+      "pilot (copilot)": {
+        "value": 0,
+        "attribute": "dex",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Pilot"
+      },
+      "use computer (commander)": {
+        "value": 0,
+        "attribute": "int",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Use_Computer"
+      },
+      "knowledge (tactics) (commander)": {
+        "value": 0,
+        "attribute": "int",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Knowledge"
+      },
+      "use computer (system operator)": {
+        "value": 0,
+        "attribute": "int",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Use_Computer"
+      },
+      "mechanics (system operator)": {
+        "value": 0,
+        "attribute": "int",
+        "uut": false,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Mechanics"
+      },
+      "mechanics (engineer)": {
+        "value": 0,
+        "attribute": "int",
+        "uut": false,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Mechanics"
+      }
+    },
+    "biography": "",
+    "abilities": {
+      "str": {
+        "base": 98,
+        "value": 10,
+        "manual": null,
+        "customBonus": 0
+      },
+      "dex": {
+        "base": 12,
+        "value": 10,
+        "manual": null,
+        "customBonus": 0
+      },
+      "int": {
+        "base": 22,
+        "value": 10,
+        "manual": null,
+        "customBonus": 0
+      },
+      "con": {
+        "value": 10,
+        "manual": null,
+        "base": 10,
+        "customBonus": 0
+      },
+      "wis": {
+        "value": 10,
+        "manual": null,
+        "base": 10,
+        "customBonus": 0
+      },
+      "cha": {
+        "value": 10,
+        "manual": null,
+        "base": 10,
+        "customBonus": 0
+      }
+    },
+    "changes": [
+      {},
+      {}
+    ],
+    "cl": {
+      "value": 0
+    },
+    "vehicle": {
+      "cover": "Total Cover:",
+      "passengers": "125",
+      "crewQuality": "Expert",
+      "consumables": "1 Year",
+      "cargo": {
+        "capacity": 29000
+      },
+      "speed": {
+        "starshipScale": 2,
+        "characterScale": 2,
+        "maximumVelocity": 1050
+      },
+      "crew": 350
+    },
+    "darkside": {
+      "value": 0
+    },
+    "toggles": {},
+    "overrides": {},
+    "actorLinks": [],
+    "settings": {
+      "isNPC": false,
+      "autoSizeToken": false,
+      "allowSheetLighting": false,
+      "ignorePrerequisites": false,
+      "ignorePrerequisitesOnDrop": false,
+      "attributeGeneration": "Default"
+    },
+    "defense": {
+      "ref": {
+        "value": 10
+      },
+      "fort": {
+        "value": 10
+      },
+      "will": {
+        "value": 10
+      },
+      "reff": {
+        "value": 10
+      },
+      "special": "",
+      "dr": 0
+    },
+    "details": {
+      "biography": "",
+      "description": "",
+      "gender": "",
+      "sex": "",
+      "age": 0,
+      "experience": 0,
+      "cl": "",
+      "height": "",
+      "weight": "",
+      "species": "Human",
+      "classes": "",
+      "senses": "",
+      "lang": "",
+      "specialHp": "",
+      "immunities": "",
+      "weaknesses": "",
+      "fightSpace": "",
+      "atkOptions": "",
+      "specialActions": "",
+      "forceP": "",
+      "forceS": "",
+      "forceT": "",
+      "specialQualities": "",
+      "talents": "",
+      "feats": "",
+      "skills": "",
+      "systems": "",
+      "possesses": "",
+      "notes": ""
+    },
+    "xp": "",
+    "baseAttack": 0,
+    "grapple": 0,
+    "forcePoints": 0,
+    "destinyPoints": 0,
+    "darkSide": {
+      "value": 0
+    },
+    "level": {
+      "value": 0
+    },
+    "speed": {
+      "base": 6,
+      "swim": 1.5,
+      "climb": 1.5,
+      "fly": null,
+      "special": ""
+    },
+    "size": "Medium",
+    "reach": 1
+  },
+  "name": "The Invisible Hand",
+  "flags": {},
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "The Invisible Hand",
+    "displayName": 0,
+    "actorLink": true,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "shields"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "depth": 1
+  },
+  "items": [
+    {
+      "_id": "5eW6W31sNQPgwv9u",
+      "name": "Colossal",
+      "type": "trait",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "",
+        "textDescription": "",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": "Colossal",
+            "key": "size"
+          },
+          {
+            "mode": 2,
+            "value": 0,
+            "key": "reflexDefenseBonusScalable"
+          },
+          {
+            "mode": 2,
+            "value": "1 square",
+            "key": "characterFightingSpaceScalable"
+          },
+          {
+            "mode": 2,
+            "value": 0,
+            "key": "shipSkillModifierScalable"
+          },
+          {
+            "mode": 2,
+            "value": "1d4",
+            "key": "unarmedDamageScalable"
+          },
+          {
+            "mode": 2,
+            "value": "stealth:0",
+            "key": "skillBonusScalable"
+          },
+          {
+            "mode": 2,
+            "value": 0,
+            "key": "damageThresholdSizeModifierScalable"
+          },
+          {
+            "mode": 2,
+            "value": "0 squares",
+            "key": "vehicleFightingSpaceScalable"
+          },
+          {
+            "mode": 2,
+            "value": 0,
+            "key": "grappleSizeModifierScalable"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "categories": [],
+        "supplier": {},
+        "possibleProviders": [],
+        "isSupplied": false,
+        "prerequisite": null,
+        "cost": "0",
+        "quantity": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.2",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!VmgNPMuRLszkA638.5eW6W31sNQPgwv9u"
+    },
+    {
+      "_id": "QMYkJ09PgNGznBCZ",
+      "name": "Hyperdrive, Class 1",
+      "type": "vehicleSystem",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "subtype": "Movement Systems",
+        "prerequisite": {
+          "children": [
+            {
+              "text": "Colossal (Cruiser) or Smaller",
+              "requirement": "Diminutive",
+              "type": "TRAIT"
+            },
+            {
+              "text": "Colossal (Cruiser) or Smaller",
+              "requirement": "Fine",
+              "type": "TRAIT"
+            },
+            {
+              "text": "Colossal (Cruiser) or Smaller",
+              "requirement": "Small",
+              "type": "TRAIT"
+            },
+            {
+              "text": "Colossal (Cruiser) or Smaller",
+              "requirement": "Medium",
+              "type": "TRAIT"
+            },
+            {
+              "text": "Colossal (Cruiser) or Smaller",
+              "requirement": "Large",
+              "type": "TRAIT"
+            },
+            {
+              "text": "Colossal (Cruiser) or Smaller",
+              "requirement": "Huge",
+              "type": "TRAIT"
+            },
+            {
+              "text": "Colossal (Cruiser) or Smaller",
+              "requirement": "Gargantuan",
+              "type": "TRAIT"
+            },
+            {
+              "text": "Colossal (Cruiser) or Smaller",
+              "requirement": "Colossal",
+              "type": "TRAIT"
+            },
+            {
+              "text": "Colossal (Cruiser) or Smaller",
+              "requirement": "Colossal (Frigate)",
+              "type": "TRAIT"
+            },
+            {
+              "text": "Colossal (Cruiser) or Smaller",
+              "requirement": "Colossal (Cruiser)",
+              "type": "TRAIT"
+            }
+          ],
+          "count": 1,
+          "text": "Colossal (Cruiser) or Smaller",
+          "type": "OR"
+        },
+        "changes": [
+          {
+            "mode": 2,
+            "value": "3",
+            "key": "emplacementPoints"
+          },
+          {
+            "mode": 2,
+            "value": "3000 (Base)",
+            "key": "cost"
+          },
+          {
+            "mode": 2,
+            "value": "Licensed",
+            "key": "availability"
+          },
+          {
+            "mode": 2,
+            "value": "1",
+            "key": "hyperdrive"
+          }
+        ],
+        "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><table class=\"wikitable\">\n <tbody>\n  <tr>\n   <th>HYPERDRIVE</th>\n   <th>EMPLACEMENT POINTS</th>\n   <th>AVAILABILITY</th>\n   <th>SIZE RESTRICTION</th>\n   <th>COST</th>\n  </tr>\n  <tr>\n   <td>Class 0.75</td>\n   <td>4</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Military\" class=\"mw-redirect\" title=\"Military\">Military</a></td>\n   <td>Colossal (Cruiser) or Smaller</td>\n   <td>5000 (Base)</td>\n  </tr>\n  <tr>\n   <td>Class 1</td>\n   <td>3</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Licensed\" class=\"mw-redirect\" title=\"Licensed\">Licensed</a></td>\n   <td>Colossal (Cruiser) or Smaller</td>\n   <td>3000 (Base)</td>\n  </tr>\n  <tr>\n   <td>Class 1.5</td>\n   <td>3</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Licensed\" class=\"mw-redirect\" title=\"Licensed\">Licensed</a></td>\n   <td>Colossal (Cruiser) or Smaller</td>\n   <td>2500 (Base)</td>\n  </tr>\n  <tr>\n   <td>Class 2</td>\n   <td>3</td>\n   <td>Common</td>\n   <td>-</td>\n   <td>2000 (Base)</td>\n  </tr>\n  <tr>\n   <td>Class 3</td>\n   <td>2</td>\n   <td>Common</td>\n   <td>-</td>\n   <td>1500 (Base)</td>\n  </tr>\n  <tr>\n   <td>Class 4</td>\n   <td>2</td>\n   <td>Common</td>\n   <td>-</td>\n   <td>1000 (Base)</td>\n  </tr>\n  <tr>\n   <td>Class 5</td>\n   <td>2</td>\n   <td>Common</td>\n   <td>-</td>\n   <td>500 (Base)</td>\n  </tr>\n  <tr>\n   <td>Class 6</td>\n   <td>2</td>\n   <td>Common</td>\n   <td>-</td>\n   <td>400 (Base)</td>\n  </tr>\n  <tr>\n   <td>Class 8</td>\n   <td>1</td>\n   <td>Common</td>\n   <td>-</td>\n   <td>300 (Base)</td>\n  </tr>\n  <tr>\n   <td>Class 10</td>\n   <td>1</td>\n   <td>Common</td>\n   <td>-</td>\n   <td>200 (Base)</td>\n  </tr>\n  <tr>\n   <td>Class 15</td>\n   <td>1</td>\n   <td>Common</td>\n   <td>-</td>\n   <td>100 (Base)</td>\n  </tr>\n </tbody>\n</table><p>The Hyperdrive is the most important piece of technology in the known galaxy. Modern civilization was driven by the realization of fast and reliable galactic travel thousands of years ago with the advent of the Hyperdrive. Hyperdrives are rated by numeric Class: the smaller the number, the better the Hyperdrive (See <a href=\"https://swse.fandom.com/wiki/Astrogation\" title=\"Astrogation\">Astrogation</a> for more details).</p><p>The best Hyperdrive ever created is the Class .5. It's not possible to install a Class .5 Hyperdrive, because no manufacturer creates such a delicate and unreliable piece of equipment. The only way to achieve a Hyperdrive of this type is to modify a Class .75 Hyperdrive using the <a href=\"https://swse.fandom.com/wiki/Starship_Designer\" title=\"Starship Designer\">Starship Designer</a> Feat. Because of its inherent unreliability, Class .5 Hyperdrives are <a href=\"https://swse.fandom.com/wiki/Illegal\" class=\"mw-redirect\" title=\"Illegal\">Illegal</a> under all but the most unusual circumstances.</p><p>A Class .5 Hyperdrive is very carefully tuned and delicate, so it tends to malfunction much more often than a standard Hyperdrive. It requires eight hours of maintenance per month and a DC 20 <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> check to keep one running smoothly. If the maintenance isn't kept up, or the <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> check for doing so fails, you take a -5 penalty on <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> checks made to <a href=\"https://swse.fandom.com/wiki/Astrogate\" class=\"mw-redirect\" title=\"Astrogate\">Astrogate</a> until the Hyperdrive receives proper maintenance. Furthermore, any time you would normally have an <a href=\"https://swse.fandom.com/wiki/Astrogation_Mishap\" class=\"mw-redirect\" title=\"Astrogation Mishap\">Astrogation Mishap</a>, the Hyperdrive is instead disabled until repaired (Normally requiring 1 hour of work and a DC 20 <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> check).</p><p>The Class 1 Hyperdrive is considered the pinnacle of stable Hyperdrive technology from the Clone Wars forward. It is the favored technology of military vessels, but it's high cost often results in designers settling for a Class 2 or Class 3 drive, which were state of the art during most of the Rise of the Empire era.</p><p>A Hyperdrive of Class 4 to Class 6 is normally either old technology or an aftermarket retrofit crammed into a vessel not designed to support a Hyperdrive. Backup Hyperdrives, usually ranging from Class 8 to Class 15, are often used as emergency systems. Though no one wants to wait a month to arrive someplace when using a Class 10 Backup Hyperdrive, often the alternative is to drift aimlessly in space for centuries.</p><h3><span class=\"mw-headline\" id=\"Hyperdrives_for_Starfighters\">Hyperdrives for Starfighters</span></h3><p>Because of their bulk, Hyperdrives are always treated as <a href=\"https://swse.fandom.com/wiki/Nonstandard_Modifications\" class=\"mw-redirect\" title=\"Nonstandard Modifications\">Nonstandard Modifications</a> for <a href=\"https://swse.fandom.com/wiki/Starfighters\" title=\"Starfighters\">Starfighters</a>. Some alternatives have been devised to allow <a href=\"https://swse.fandom.com/wiki/Starfighters\" title=\"Starfighters\">Starfighters</a> to travel through Hyperspace without installing internal Hyperdrives.</p><h4><span class=\"mw-headline\" id=\"Hyperdrive_Sleds\"><b>Hyperdrive Sleds</b></span></h4><p>A Hyperdrive Sled is bolted onto the exterior of a <a href=\"https://swse.fandom.com/wiki/Starfighter\" class=\"mw-redirect\" title=\"Starfighter\">Starfighter</a>, such as a <a href=\"https://swse.fandom.com/wiki/CloakShape_Fighter\" title=\"CloakShape Fighter\">CloakShape Fighter</a>. A Hyperdrive Sled costs five times as much as a normal Hyperdrive, but it is not considered a <a href=\"https://swse.fandom.com/wiki/Nonstandard_Modification\" class=\"mw-redirect\" title=\"Nonstandard Modification\">Nonstandard Modification</a>, it requires no <a href=\"https://swse.fandom.com/wiki/Emplacement_Points\" class=\"mw-redirect\" title=\"Emplacement Points\">Emplacement Points</a>, and it can be added with 1 hour of work and a DC 15 <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> check. A Hyperdrive Sled does interfere with maneuverability, however, so a <a href=\"https://swse.fandom.com/wiki/Starfighter\" class=\"mw-redirect\" title=\"Starfighter\">Starfighter</a> takes a -2 penalty to it's <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> score while attached to a Hyperdrive Sled.</p><h4><span class=\"mw-headline\" id=\"Hyperdrive_Rings\"><b>Hyperdrive Rings</b></span></h4><p>A Hyperdrive Ring is designed for only occasional or temporary use. A Hyperdrive Ring costs as much as a normal Hyperdrive for a <a href=\"https://swse.fandom.com/wiki/Starfighter\" class=\"mw-redirect\" title=\"Starfighter\">Starfighter</a> of a given size, but it is not considered a <a href=\"https://swse.fandom.com/wiki/Nonstandard_Modification\" class=\"mw-redirect\" title=\"Nonstandard Modification\">Nonstandard Modification</a> and it requires no <a href=\"https://swse.fandom.com/wiki/Emplacement_Points\" class=\"mw-redirect\" title=\"Emplacement Points\">Emplacement Points</a>. The <a href=\"https://swse.fandom.com/wiki/Pilot_(Vehicle_Combat)\" title=\"Pilot (Vehicle Combat)\">Pilot</a> of a <a href=\"https://swse.fandom.com/wiki/Starfighter\" class=\"mw-redirect\" title=\"Starfighter\">Starfighter</a> must take a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a> and make a DC 10 <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> check to dock or disconnect from a Hyperdrive Ring. If the <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> check fails, the docking or undocking was unsuccessful; if it fails by 10 or more, a <a href=\"https://swse.fandom.com/wiki/Collision\" class=\"mw-redirect\" title=\"Collision\">Collision</a> occurs, destroying the Hyperdrive Ring.</p><p>In addition to requiring docking and undocking, Hyperdrive Rings have some other drawbacks. If a Starship attached to a Hyperdrive Ring takes damage equal to or exceeding it's <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a>, the Hyperdrive Ring is destroyed. Like a Hyperdrive Sled, a Hyperdrive Ring is bulky and awkward, so a <a href=\"https://swse.fandom.com/wiki/Starfighter\" class=\"mw-redirect\" title=\"Starfighter\">Starfighter</a> docked to one takes a -4 penalty to it's <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> score. Finally, a Starfighter can't enter atmosphere or land with a Hyperdrive Ring attached, so it must be left in orbit- and some pirates and shipjackers enjoy the easy pickings of an unattended target.</p>",
+        "cost": "3000 (Base)",
+        "quantity": 1,
+        "providedItems": [],
+        "equipped": "installed"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.2",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!VmgNPMuRLszkA638.QMYkJ09PgNGznBCZ"
+    },
+    {
+      "_id": "xmxmUiDCG6O9V1ys",
+      "name": "Hyperdrive, Class 10",
+      "type": "vehicleSystem",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "subtype": "Movement Systems",
+        "changes": [
+          {
+            "mode": 2,
+            "value": "1",
+            "key": "emplacementPoints"
+          },
+          {
+            "mode": 2,
+            "value": "200 (Base)",
+            "key": "cost"
+          },
+          {
+            "mode": 2,
+            "value": "Common",
+            "key": "availability"
+          },
+          {
+            "mode": 2,
+            "value": "10",
+            "key": "hyperdrive"
+          }
+        ],
+        "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><table class=\"wikitable\">\n <tbody>\n  <tr>\n   <th>HYPERDRIVE</th>\n   <th>EMPLACEMENT POINTS</th>\n   <th>AVAILABILITY</th>\n   <th>SIZE RESTRICTION</th>\n   <th>COST</th>\n  </tr>\n  <tr>\n   <td>Class 0.75</td>\n   <td>4</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Military\" class=\"mw-redirect\" title=\"Military\">Military</a></td>\n   <td>Colossal (Cruiser) or Smaller</td>\n   <td>5000 (Base)</td>\n  </tr>\n  <tr>\n   <td>Class 1</td>\n   <td>3</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Licensed\" class=\"mw-redirect\" title=\"Licensed\">Licensed</a></td>\n   <td>Colossal (Cruiser) or Smaller</td>\n   <td>3000 (Base)</td>\n  </tr>\n  <tr>\n   <td>Class 1.5</td>\n   <td>3</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Licensed\" class=\"mw-redirect\" title=\"Licensed\">Licensed</a></td>\n   <td>Colossal (Cruiser) or Smaller</td>\n   <td>2500 (Base)</td>\n  </tr>\n  <tr>\n   <td>Class 2</td>\n   <td>3</td>\n   <td>Common</td>\n   <td>-</td>\n   <td>2000 (Base)</td>\n  </tr>\n  <tr>\n   <td>Class 3</td>\n   <td>2</td>\n   <td>Common</td>\n   <td>-</td>\n   <td>1500 (Base)</td>\n  </tr>\n  <tr>\n   <td>Class 4</td>\n   <td>2</td>\n   <td>Common</td>\n   <td>-</td>\n   <td>1000 (Base)</td>\n  </tr>\n  <tr>\n   <td>Class 5</td>\n   <td>2</td>\n   <td>Common</td>\n   <td>-</td>\n   <td>500 (Base)</td>\n  </tr>\n  <tr>\n   <td>Class 6</td>\n   <td>2</td>\n   <td>Common</td>\n   <td>-</td>\n   <td>400 (Base)</td>\n  </tr>\n  <tr>\n   <td>Class 8</td>\n   <td>1</td>\n   <td>Common</td>\n   <td>-</td>\n   <td>300 (Base)</td>\n  </tr>\n  <tr>\n   <td>Class 10</td>\n   <td>1</td>\n   <td>Common</td>\n   <td>-</td>\n   <td>200 (Base)</td>\n  </tr>\n  <tr>\n   <td>Class 15</td>\n   <td>1</td>\n   <td>Common</td>\n   <td>-</td>\n   <td>100 (Base)</td>\n  </tr>\n </tbody>\n</table><p>The Hyperdrive is the most important piece of technology in the known galaxy. Modern civilization was driven by the realization of fast and reliable galactic travel thousands of years ago with the advent of the Hyperdrive. Hyperdrives are rated by numeric Class: the smaller the number, the better the Hyperdrive (See <a href=\"https://swse.fandom.com/wiki/Astrogation\" title=\"Astrogation\">Astrogation</a> for more details).</p><p>The best Hyperdrive ever created is the Class .5. It's not possible to install a Class .5 Hyperdrive, because no manufacturer creates such a delicate and unreliable piece of equipment. The only way to achieve a Hyperdrive of this type is to modify a Class .75 Hyperdrive using the <a href=\"https://swse.fandom.com/wiki/Starship_Designer\" title=\"Starship Designer\">Starship Designer</a> Feat. Because of its inherent unreliability, Class .5 Hyperdrives are <a href=\"https://swse.fandom.com/wiki/Illegal\" class=\"mw-redirect\" title=\"Illegal\">Illegal</a> under all but the most unusual circumstances.</p><p>A Class .5 Hyperdrive is very carefully tuned and delicate, so it tends to malfunction much more often than a standard Hyperdrive. It requires eight hours of maintenance per month and a DC 20 <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> check to keep one running smoothly. If the maintenance isn't kept up, or the <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> check for doing so fails, you take a -5 penalty on <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> checks made to <a href=\"https://swse.fandom.com/wiki/Astrogate\" class=\"mw-redirect\" title=\"Astrogate\">Astrogate</a> until the Hyperdrive receives proper maintenance. Furthermore, any time you would normally have an <a href=\"https://swse.fandom.com/wiki/Astrogation_Mishap\" class=\"mw-redirect\" title=\"Astrogation Mishap\">Astrogation Mishap</a>, the Hyperdrive is instead disabled until repaired (Normally requiring 1 hour of work and a DC 20 <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> check).</p><p>The Class 1 Hyperdrive is considered the pinnacle of stable Hyperdrive technology from the Clone Wars forward. It is the favored technology of military vessels, but it's high cost often results in designers settling for a Class 2 or Class 3 drive, which were state of the art during most of the Rise of the Empire era.</p><p>A Hyperdrive of Class 4 to Class 6 is normally either old technology or an aftermarket retrofit crammed into a vessel not designed to support a Hyperdrive. Backup Hyperdrives, usually ranging from Class 8 to Class 15, are often used as emergency systems. Though no one wants to wait a month to arrive someplace when using a Class 10 Backup Hyperdrive, often the alternative is to drift aimlessly in space for centuries.</p><h3><span class=\"mw-headline\" id=\"Hyperdrives_for_Starfighters\">Hyperdrives for Starfighters</span></h3><p>Because of their bulk, Hyperdrives are always treated as <a href=\"https://swse.fandom.com/wiki/Nonstandard_Modifications\" class=\"mw-redirect\" title=\"Nonstandard Modifications\">Nonstandard Modifications</a> for <a href=\"https://swse.fandom.com/wiki/Starfighters\" title=\"Starfighters\">Starfighters</a>. Some alternatives have been devised to allow <a href=\"https://swse.fandom.com/wiki/Starfighters\" title=\"Starfighters\">Starfighters</a> to travel through Hyperspace without installing internal Hyperdrives.</p><h4><span class=\"mw-headline\" id=\"Hyperdrive_Sleds\"><b>Hyperdrive Sleds</b></span></h4><p>A Hyperdrive Sled is bolted onto the exterior of a <a href=\"https://swse.fandom.com/wiki/Starfighter\" class=\"mw-redirect\" title=\"Starfighter\">Starfighter</a>, such as a <a href=\"https://swse.fandom.com/wiki/CloakShape_Fighter\" title=\"CloakShape Fighter\">CloakShape Fighter</a>. A Hyperdrive Sled costs five times as much as a normal Hyperdrive, but it is not considered a <a href=\"https://swse.fandom.com/wiki/Nonstandard_Modification\" class=\"mw-redirect\" title=\"Nonstandard Modification\">Nonstandard Modification</a>, it requires no <a href=\"https://swse.fandom.com/wiki/Emplacement_Points\" class=\"mw-redirect\" title=\"Emplacement Points\">Emplacement Points</a>, and it can be added with 1 hour of work and a DC 15 <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> check. A Hyperdrive Sled does interfere with maneuverability, however, so a <a href=\"https://swse.fandom.com/wiki/Starfighter\" class=\"mw-redirect\" title=\"Starfighter\">Starfighter</a> takes a -2 penalty to it's <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> score while attached to a Hyperdrive Sled.</p><h4><span class=\"mw-headline\" id=\"Hyperdrive_Rings\"><b>Hyperdrive Rings</b></span></h4><p>A Hyperdrive Ring is designed for only occasional or temporary use. A Hyperdrive Ring costs as much as a normal Hyperdrive for a <a href=\"https://swse.fandom.com/wiki/Starfighter\" class=\"mw-redirect\" title=\"Starfighter\">Starfighter</a> of a given size, but it is not considered a <a href=\"https://swse.fandom.com/wiki/Nonstandard_Modification\" class=\"mw-redirect\" title=\"Nonstandard Modification\">Nonstandard Modification</a> and it requires no <a href=\"https://swse.fandom.com/wiki/Emplacement_Points\" class=\"mw-redirect\" title=\"Emplacement Points\">Emplacement Points</a>. The <a href=\"https://swse.fandom.com/wiki/Pilot_(Vehicle_Combat)\" title=\"Pilot (Vehicle Combat)\">Pilot</a> of a <a href=\"https://swse.fandom.com/wiki/Starfighter\" class=\"mw-redirect\" title=\"Starfighter\">Starfighter</a> must take a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a> and make a DC 10 <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> check to dock or disconnect from a Hyperdrive Ring. If the <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> check fails, the docking or undocking was unsuccessful; if it fails by 10 or more, a <a href=\"https://swse.fandom.com/wiki/Collision\" class=\"mw-redirect\" title=\"Collision\">Collision</a> occurs, destroying the Hyperdrive Ring.</p><p>In addition to requiring docking and undocking, Hyperdrive Rings have some other drawbacks. If a Starship attached to a Hyperdrive Ring takes damage equal to or exceeding it's <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a>, the Hyperdrive Ring is destroyed. Like a Hyperdrive Sled, a Hyperdrive Ring is bulky and awkward, so a <a href=\"https://swse.fandom.com/wiki/Starfighter\" class=\"mw-redirect\" title=\"Starfighter\">Starfighter</a> docked to one takes a -4 penalty to it's <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> score. Finally, a Starfighter can't enter atmosphere or land with a Hyperdrive Ring attached, so it must be left in orbit- and some pirates and shipjackers enjoy the easy pickings of an unattended target.</p>",
+        "cost": "200 (Base)",
+        "quantity": 1,
+        "providedItems": [],
+        "equipped": "installed"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.2",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!VmgNPMuRLszkA638.xmxmUiDCG6O9V1ys"
+    },
+    {
+      "_id": "wumv47zptje2OHzc",
+      "name": "Turbolaser, Medium",
+      "type": "vehicleSystem",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "subtype": "Weapon Systems",
+        "prerequisite": {
+          "children": [],
+          "count": 1,
+          "text": "Colossal (Frigate) or larger",
+          "type": "OR"
+        },
+        "changes": [
+          {
+            "mode": 2,
+            "value": "9-20 Squares",
+            "key": "rangeStarshipMedium"
+          },
+          {
+            "mode": 2,
+            "value": "5-8 Squares",
+            "key": "rangeStarshipShort"
+          },
+          {
+            "mode": 2,
+            "value": "1,201-3,000 Squares",
+            "key": "rangeMedium"
+          },
+          {
+            "mode": 2,
+            "value": "21-40 Squares",
+            "key": "rangeStarshipLong"
+          },
+          {
+            "mode": 2,
+            "value": "0-4 Squares",
+            "key": "rangeStarshipPointBlank"
+          },
+          {
+            "mode": 2,
+            "value": "0-600 Squares",
+            "key": "rangePointBlank"
+          },
+          {
+            "mode": 2,
+            "value": "7d10x5",
+            "key": "damage"
+          },
+          {
+            "mode": 2,
+            "value": "601-1,200 Squares",
+            "key": "rangeShort"
+          },
+          {
+            "mode": 2,
+            "value": "5",
+            "key": "emplacementPoints"
+          },
+          {
+            "mode": 2,
+            "value": "10000",
+            "key": "cost"
+          },
+          {
+            "mode": 2,
+            "value": "Military",
+            "key": "availability"
+          },
+          {
+            "mode": 2,
+            "value": "3,001-6,000 Squares",
+            "key": "rangeLong"
+          },
+          {
+            "mode": 2,
+            "value": ", Quad",
+            "key": "suffix"
+          },
+          {
+            "mode": 2,
+            "value": ", Battery",
+            "key": "suffix"
+          },
+          {
+            "mode": 2,
+            "value": "Gunners",
+            "key": "providesSlot"
+          },
+          {
+            "mode": 2,
+            "value": "Gunners",
+            "key": "providesSlot"
+          },
+          {
+            "mode": 2,
+            "value": "Gunners",
+            "key": "providesSlot"
+          },
+          {
+            "mode": 2,
+            "value": "Gunners",
+            "key": "providesSlot"
+          },
+          {
+            "mode": 2,
+            "value": "Gunners",
+            "key": "providesSlot"
+          }
+        ],
+        "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><table class=\"wikitable\">\n <tbody>\n  <tr>\n   <th>TURBOLASER</th>\n   <th>DAMAGE</th>\n   <th>EMPLACEMENT POINTS</th>\n   <th>AVAILABILITY</th>\n   <th>COST</th>\n  </tr>\n  <tr>\n   <td>Light*</td>\n   <td>3d10x5</td>\n   <td>2</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Military\" class=\"mw-redirect\" title=\"Military\">Military</a></td>\n   <td>5000</td>\n  </tr>\n  <tr>\n   <td>Medium*</td>\n   <td>5d10x5</td>\n   <td>5</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Military\" class=\"mw-redirect\" title=\"Military\">Military</a></td>\n   <td>10,000</td>\n  </tr>\n  <tr>\n   <td>Heavy*</td>\n   <td>7d10x5</td>\n   <td>10</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Military\" class=\"mw-redirect\" title=\"Military\">Military</a></td>\n   <td>20,000</td>\n  </tr>\n </tbody>\n</table><p><i>*This <a href=\"https://swse.fandom.com/wiki/Weapon_System\" class=\"mw-redirect\" title=\"Weapon System\">Weapon System</a> can only be mounted on a <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> of Colossal (Frigate) size or larger.</i></p><p>Turbolasers are Capital Ship weapons designed to use the immense power necessary to blast through the dense armor and shielding of other large targets. They use turbine generators to build the necessary energy, storing it in a capacitor bank until it is discharged. The barrels of Turbolasers require substantial cooling to survive the enormous energy involved, so many are designed to recoil into a cryogenic \"Sleeve\" immediately after firing. Because of this longer firing sequence, all but the smallest Turbolasers are incapable of <a href=\"https://swse.fandom.com/wiki/Autofire\" title=\"Autofire\">Autofire</a> even when mounted in <a href=\"https://swse.fandom.com/wiki/Cannon,_Double/Quad\" title=\"Cannon, Double/Quad\">Cannon, Double/Quad</a> or <a href=\"https://swse.fandom.com/wiki/Fire-Linked\" class=\"mw-redirect\" title=\"Fire-Linked\">Fire-Linked</a> configurations.</p><table class=\"wikitable\">\n <caption>\n  Turbolaser Ranges\n </caption>\n <tbody>\n  <tr>\n   <th colspan=\"4\">RANGE BY CHARACTER SCALE</th>\n   <th></th>\n   <th colspan=\"4\"><p>RANGE BY STARSHIP SCALE</p></th>\n  </tr>\n  <tr>\n   <th>POINT-BLANK</th>\n   <th>SHORT</th>\n   <th>MEDIUM</th>\n   <th>LONG</th>\n   <th></th>\n   <th>POINT-BLANK</th>\n   <th>SHORT</th>\n   <th>MEDIUM</th>\n   <th>LONG</th>\n  </tr>\n  <tr>\n   <td>0-600 Squares</td>\n   <td>601-1,200 Squares</td>\n   <td>1,201-3,000 Squares</td>\n   <td>3,001-6,000 Squares</td>\n   <td></td>\n   <td>0-4 Squares</td>\n   <td>5-8 Squares</td>\n   <td>9-20 Squares</td>\n   <td>21-40 Squares</td>\n  </tr>\n </tbody>\n</table><h2><span class=\"mw-headline\" id=\"Homebrew_Rapidfire_Turbolaser\">Homebrew Rapidfire Turbolaser</span></h2><table style=\"width:100%; margin-top:2em; border:2px solid #999; font-size:105%; text-align:center; background:#6c3636;\">\n <tbody>\n  <tr>\n   <td><i><b>This <a href=\"https://swse.fandom.com/wiki/Homebrew_Content\" title=\"Homebrew Content\">Homebrew Content</a> has not been reviewed in a meaningful manner. If you wish to review this content yourself, then see <a href=\"https://swse.fandom.com/wiki/Category:Untested\" title=\"Category:Untested\">Untested</a> for more details.</b></i></td>\n  </tr>\n </tbody>\n</table><p><i>Homebrew Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Clone_Wars_Saga_Edition_Fan_Sourcebook\" title=\"Clone Wars Saga Edition Fan Sourcebook\">Clone Wars Saga Edition Fan Sourcebook</a>&nbsp;- Vehicles and Vessels</i></p><p><b>Emplacement Points:</b> 3</p><p><b>Size Restriction:</b> Colossal or Larger</p><p>During the Clone Wars, Separatist engineers did a wide range of experimentation with Turbolaser technology, creating a number of variations on the standard weapon. One such variant was the Rapidfire Turbolaser, which was able to fire set to <a href=\"https://swse.fandom.com/wiki/Autofire_(Vehicle_Combat)\" title=\"Autofire (Vehicle Combat)\">Autofire</a>.</p><p>In addition, the Rapidfire Turbolaser is considered <a href=\"https://swse.fandom.com/wiki/Braced\" class=\"mw-redirect\" title=\"Braced\">Braced</a>; only taking a -2 penalty to its <a href=\"https://swse.fandom.com/wiki/Autofire_(Vehicle_Combat)\" title=\"Autofire (Vehicle Combat)\">Autofire</a> attacks. While the expensive technology was only scaled to work with Light Turbolasers and drew an incredible amount of power, they were considered a great success.</p>",
+        "cost": "10000",
+        "quantity": 1,
+        "providedItems": [],
+        "equipped": "gunnerInstalled"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.2",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!VmgNPMuRLszkA638.wumv47zptje2OHzc"
+    },
+    {
+      "_id": "0HuzM3umBx9hMdXM",
+      "name": "Laser Cannon, Medium",
+      "type": "vehicleSystem",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "subtype": "Weapon Systems",
+        "changes": [
+          {
+            "mode": 2,
+            "value": "3-5 Squares",
+            "key": "rangeStarshipMedium"
+          },
+          {
+            "mode": 2,
+            "value": "2 Squares",
+            "key": "rangeStarshipShort"
+          },
+          {
+            "mode": 2,
+            "value": "301-750 Squares",
+            "key": "rangeMedium"
+          },
+          {
+            "mode": 2,
+            "value": "6-10 Squares",
+            "key": "rangeStarshipLong"
+          },
+          {
+            "mode": 2,
+            "value": "0-1 Squares",
+            "key": "rangeStarshipPointBlank"
+          },
+          {
+            "mode": 2,
+            "value": "0-150 Squares",
+            "key": "rangePointBlank"
+          },
+          {
+            "mode": 2,
+            "value": "6d10x2",
+            "key": "damage"
+          },
+          {
+            "mode": 2,
+            "value": "151-300 Squares",
+            "key": "rangeShort"
+          },
+          {
+            "mode": 2,
+            "value": "1",
+            "key": "emplacementPoints"
+          },
+          {
+            "mode": 2,
+            "value": "4000",
+            "key": "cost"
+          },
+          {
+            "mode": 2,
+            "value": "Restricted",
+            "key": "availability"
+          },
+          {
+            "mode": 2,
+            "value": "751-1,500 Squares",
+            "key": "rangeLong"
+          },
+          {
+            "mode": 2,
+            "value": ", Double",
+            "key": "suffix"
+          },
+          {
+            "mode": 2,
+            "value": ", Battery",
+            "key": "suffix"
+          },
+          {
+            "mode": 2,
+            "value": "Gunners",
+            "key": "providesSlot"
+          },
+          {
+            "mode": 2,
+            "value": "Gunners",
+            "key": "providesSlot"
+          },
+          {
+            "mode": 2,
+            "value": "Gunners",
+            "key": "providesSlot"
+          },
+          {
+            "mode": 2,
+            "value": "Gunners",
+            "key": "providesSlot"
+          }
+        ],
+        "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><table class=\"wikitable\">\n <tbody>\n  <tr>\n   <th>LASER CANNON</th>\n   <th>DAMAGE</th>\n   <th>EMPLACEMENT POINTS</th>\n   <th>AVAILABILITY</th>\n   <th>COST</th>\n  </tr>\n  <tr>\n   <td>Light</td>\n   <td>3d10x2</td>\n   <td>1</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Licensed\" class=\"mw-redirect\" title=\"Licensed\">Licensed</a></td>\n   <td>1500</td>\n  </tr>\n  <tr>\n   <td>Medium</td>\n   <td>4d10x2</td>\n   <td>1</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Restricted\" class=\"mw-redirect\" title=\"Restricted\">Restricted</a></td>\n   <td>4000</td>\n  </tr>\n  <tr>\n   <td>Heavy</td>\n   <td>5d10x2</td>\n   <td>2</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Military\" class=\"mw-redirect\" title=\"Military\">Military</a></td>\n   <td>6000</td>\n  </tr>\n </tbody>\n</table><p>Laser Cannons are the most common Starship weapons, carried by Starfighters and Space Transports as primary armament and Capital Ships as <a href=\"https://swse.fandom.com/wiki/Point-Defense_Weapons\" class=\"mw-redirect\" title=\"Point-Defense Weapons\">Point-Defense Weapons</a>. They generally have a better Range than <a href=\"https://swse.fandom.com/wiki/Blaster_Cannons\" class=\"mw-redirect\" title=\"Blaster Cannons\">Blaster Cannons</a>, but they are somewhat more expensive.</p><table class=\"wikitable\">\n <caption>\n  Laser Cannon Ranges\n </caption>\n <tbody>\n  <tr>\n   <th colspan=\"4\">RANGE BY CHARACTER SCALE</th>\n   <th></th>\n   <th colspan=\"4\"><p>RANGE BY STARSHIP SCALE</p></th>\n  </tr>\n  <tr>\n   <th>POINT-BLANK</th>\n   <th>SHORT</th>\n   <th>MEDIUM</th>\n   <th>LONG</th>\n   <th></th>\n   <th>POINT-BLANK</th>\n   <th>SHORT</th>\n   <th>MEDIUM</th>\n   <th>LONG</th>\n  </tr>\n  <tr>\n   <td>0-150 Squares</td>\n   <td>151-300 Squares</td>\n   <td>301-750 Squares</td>\n   <td>751-1,500 Squares</td>\n   <td></td>\n   <td>0-1 Squares</td>\n   <td>2 Squares</td>\n   <td>3-5 Squares</td>\n   <td>6-10 Squares</td>\n  </tr>\n </tbody>\n</table>",
+        "cost": "4000",
+        "quantity": 1,
+        "providedItems": [],
+        "equipped": "gunnerInstalled"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.2",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!VmgNPMuRLszkA638.0HuzM3umBx9hMdXM"
+    },
+    {
+      "_id": "ysTvTQix9OveckgO",
+      "name": "Ion Cannon, Heavy",
+      "type": "vehicleSystem",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "subtype": "Weapon Systems",
+        "changes": [
+          {
+            "mode": 2,
+            "value": "5-10 Squares",
+            "key": "rangeStarshipMedium"
+          },
+          {
+            "mode": 2,
+            "value": "3-4 Squares",
+            "key": "rangeStarshipShort"
+          },
+          {
+            "mode": 2,
+            "value": "601-1,500 Squares",
+            "key": "rangeMedium"
+          },
+          {
+            "mode": 2,
+            "value": "11-20 Squares",
+            "key": "rangeStarshipLong"
+          },
+          {
+            "mode": 2,
+            "value": "0-2 Squares",
+            "key": "rangeStarshipPointBlank"
+          },
+          {
+            "mode": 2,
+            "value": "0-300 Squares",
+            "key": "rangePointBlank"
+          },
+          {
+            "mode": 2,
+            "value": "Ion",
+            "key": "damageType"
+          },
+          {
+            "mode": 2,
+            "value": "3d10x5 ",
+            "key": "damage"
+          },
+          {
+            "mode": 2,
+            "value": "301-600 Squares",
+            "key": "rangeShort"
+          },
+          {
+            "mode": 2,
+            "value": "5",
+            "key": "emplacementPoints"
+          },
+          {
+            "mode": 2,
+            "value": "6000",
+            "key": "cost"
+          },
+          {
+            "mode": 2,
+            "value": "Military",
+            "key": "availability"
+          },
+          {
+            "mode": 2,
+            "value": "1,501-3,000 Squares",
+            "key": "rangeLong"
+          }
+        ],
+        "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><table class=\"wikitable\">\n <tbody>\n  <tr>\n   <th>ION CANNON</th>\n   <th>DAMAGE</th>\n   <th>EMPLACEMENT POINTS</th>\n   <th>AVAILABILITY</th>\n   <th>COST</th>\n  </tr>\n  <tr>\n   <td>Light</td>\n   <td>3d10x2 (<a href=\"https://swse.fandom.com/wiki/Ion\" class=\"mw-redirect\" title=\"Ion\">Ion</a>)</td>\n   <td>1</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Licensed\" class=\"mw-redirect\" title=\"Licensed\">Licensed</a></td>\n   <td>2000</td>\n  </tr>\n  <tr>\n   <td>Medium</td>\n   <td>5d10x2 (<a href=\"https://swse.fandom.com/wiki/Ion\" class=\"mw-redirect\" title=\"Ion\">Ion</a>)</td>\n   <td>2</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Restricted\" class=\"mw-redirect\" title=\"Restricted\">Restricted</a></td>\n   <td>3000</td>\n  </tr>\n  <tr>\n   <td>Heavy*</td>\n   <td>3d10x5 (<a href=\"https://swse.fandom.com/wiki/Ion\" class=\"mw-redirect\" title=\"Ion\">Ion</a>)</td>\n   <td>5</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Military\" class=\"mw-redirect\" title=\"Military\">Military</a></td>\n   <td>6000</td>\n  </tr>\n  <tr>\n   <td>Hapan Triple*</td>\n   <td>5d10x5 (<a href=\"https://swse.fandom.com/wiki/Ion\" class=\"mw-redirect\" title=\"Ion\">Ion</a>)</td>\n   <td>3</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Illegal\" class=\"mw-redirect\" title=\"Illegal\">Illegal</a></td>\n   <td>12000</td>\n  </tr>\n </tbody>\n</table><p><i>*This <a href=\"https://swse.fandom.com/wiki/Weapon_System\" class=\"mw-redirect\" title=\"Weapon System\">Weapon System</a> can only be mounted on a <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> of Colossal (Frigate) size or larger.</i></p><table class=\"wikitable\">\n <caption>\n  Ion Cannon Ranges\n </caption>\n <tbody>\n  <tr>\n   <th colspan=\"4\">RANGE BY CHARACTER SCALE</th>\n   <th></th>\n   <th colspan=\"4\"><p>RANGE BY STARSHIP SCALE</p></th>\n  </tr>\n  <tr>\n   <th>POINT-BLANK</th>\n   <th>SHORT</th>\n   <th>MEDIUM</th>\n   <th>LONG</th>\n   <th></th>\n   <th>POINT-BLANK</th>\n   <th>SHORT</th>\n   <th>MEDIUM</th>\n   <th>LONG</th>\n  </tr>\n  <tr>\n   <td>0-300 Squares</td>\n   <td>301-600 Squares</td>\n   <td>601-1,500 Squares</td>\n   <td>1,501-3,000 Squares</td>\n   <td></td>\n   <td>0-2 Squares</td>\n   <td>3-4 Squares</td>\n   <td>5-10 Squares</td>\n   <td>11-20 Squares</td>\n  </tr>\n </tbody>\n</table><p>Ion Cannons are generally viewed as defense armament, but they are quite common on pirate and military vessels. Ion Cannons deal <a href=\"https://swse.fandom.com/wiki/Ion\" class=\"mw-redirect\" title=\"Ion\">Ion</a> damage, as detailed in <a href=\"https://swse.fandom.com/wiki/Equipment\" title=\"Equipment\">Equipment</a>. Of Starship-mounted Ion Cannons, all but the smallest don't have a cyclic rate of fire high enough to allow <a href=\"https://swse.fandom.com/wiki/Autofire\" title=\"Autofire\">Autofire</a>, even when mounted in <a href=\"https://swse.fandom.com/wiki/Cannon,_Double/Quad\" title=\"Cannon, Double/Quad\">Cannon, Double/Quad</a> or <a href=\"https://swse.fandom.com/wiki/Fire-Linked\" class=\"mw-redirect\" title=\"Fire-Linked\">Fire-Linked</a> configurations.</p><h4><span class=\"mw-headline\" id=\"Hapan_Triple_Ion_Cannon\"><b>Hapan Triple Ion Cannon</b></span></h4><p>The Hapan Triple Ion Cannon is a special Capital Ship weapon that acts like a <a href=\"https://swse.fandom.com/wiki/Point-Defense_Weapon\" class=\"mw-redirect\" title=\"Point-Defense Weapon\">Point-Defense Weapon</a> (Using <a href=\"https://swse.fandom.com/wiki/Point-Defense\" title=\"Point-Defense\">Point-Defense</a> <a href=\"https://swse.fandom.com/wiki/Ranges\" class=\"mw-redirect\" title=\"Ranges\">Ranges</a> and taking no penalty for attacking ships of smaller than Colossal size). It is also capable of <a href=\"https://swse.fandom.com/wiki/Autofire\" title=\"Autofire\">Autofire</a> mode, but it may not make <a href=\"https://swse.fandom.com/wiki/Starship_Scale\" class=\"mw-redirect\" title=\"Starship Scale\">Starship Scale</a> <a href=\"https://swse.fandom.com/wiki/Area_Attacks\" title=\"Area Attacks\">Area Attacks</a>. Until the New Jedi Order era, Hapan Triple Ion Cannons are <a href=\"https://swse.fandom.com/wiki/Illegal\" class=\"mw-redirect\" title=\"Illegal\">Illegal</a> outside the Hapan Consortium, and the Hapans do not sell them to outsiders.</p>",
+        "cost": "6000",
+        "quantity": 1,
+        "providedItems": [],
+        "equipped": "gunnerInstalled"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.2",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!VmgNPMuRLszkA638.ysTvTQix9OveckgO"
+    },
+    {
+      "_id": "FB1K5m1xJ56kt7zv",
+      "name": "Ion Cannon, Medium",
+      "type": "vehicleSystem",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "subtype": "Weapon Systems",
+        "changes": [
+          {
+            "mode": 2,
+            "value": "5-10 Squares",
+            "key": "rangeStarshipMedium"
+          },
+          {
+            "mode": 2,
+            "value": "3-4 Squares",
+            "key": "rangeStarshipShort"
+          },
+          {
+            "mode": 2,
+            "value": "601-1,500 Squares",
+            "key": "rangeMedium"
+          },
+          {
+            "mode": 2,
+            "value": "11-20 Squares",
+            "key": "rangeStarshipLong"
+          },
+          {
+            "mode": 2,
+            "value": "0-2 Squares",
+            "key": "rangeStarshipPointBlank"
+          },
+          {
+            "mode": 2,
+            "value": "0-300 Squares",
+            "key": "rangePointBlank"
+          },
+          {
+            "mode": 2,
+            "value": "Ion",
+            "key": "damageType"
+          },
+          {
+            "mode": 2,
+            "value": "3d10x2 ",
+            "key": "damage"
+          },
+          {
+            "mode": 2,
+            "value": "301-600 Squares",
+            "key": "rangeShort"
+          },
+          {
+            "mode": 2,
+            "value": "2",
+            "key": "emplacementPoints"
+          },
+          {
+            "mode": 2,
+            "value": "3000",
+            "key": "cost"
+          },
+          {
+            "mode": 2,
+            "value": "Restricted",
+            "key": "availability"
+          },
+          {
+            "mode": 2,
+            "value": "1,501-3,000 Squares",
+            "key": "rangeLong"
+          },
+          {
+            "mode": 2,
+            "value": ", Point-Defense",
+            "key": "suffix"
+          },
+          {
+            "mode": 2,
+            "value": ", Battery",
+            "key": "suffix"
+          },
+          {
+            "mode": 2,
+            "value": "Gunners",
+            "key": "providesSlot"
+          },
+          {
+            "mode": 2,
+            "value": "Gunners",
+            "key": "providesSlot"
+          },
+          {
+            "mode": 2,
+            "value": "Gunners",
+            "key": "providesSlot"
+          },
+          {
+            "mode": 2,
+            "value": "Gunners",
+            "key": "providesSlot"
+          },
+          {
+            "mode": 2,
+            "value": "Gunners",
+            "key": "providesSlot"
+          }
+        ],
+        "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><table class=\"wikitable\">\n <tbody>\n  <tr>\n   <th>ION CANNON</th>\n   <th>DAMAGE</th>\n   <th>EMPLACEMENT POINTS</th>\n   <th>AVAILABILITY</th>\n   <th>COST</th>\n  </tr>\n  <tr>\n   <td>Light</td>\n   <td>3d10x2 (<a href=\"https://swse.fandom.com/wiki/Ion\" class=\"mw-redirect\" title=\"Ion\">Ion</a>)</td>\n   <td>1</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Licensed\" class=\"mw-redirect\" title=\"Licensed\">Licensed</a></td>\n   <td>2000</td>\n  </tr>\n  <tr>\n   <td>Medium</td>\n   <td>5d10x2 (<a href=\"https://swse.fandom.com/wiki/Ion\" class=\"mw-redirect\" title=\"Ion\">Ion</a>)</td>\n   <td>2</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Restricted\" class=\"mw-redirect\" title=\"Restricted\">Restricted</a></td>\n   <td>3000</td>\n  </tr>\n  <tr>\n   <td>Heavy*</td>\n   <td>3d10x5 (<a href=\"https://swse.fandom.com/wiki/Ion\" class=\"mw-redirect\" title=\"Ion\">Ion</a>)</td>\n   <td>5</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Military\" class=\"mw-redirect\" title=\"Military\">Military</a></td>\n   <td>6000</td>\n  </tr>\n  <tr>\n   <td>Hapan Triple*</td>\n   <td>5d10x5 (<a href=\"https://swse.fandom.com/wiki/Ion\" class=\"mw-redirect\" title=\"Ion\">Ion</a>)</td>\n   <td>3</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Illegal\" class=\"mw-redirect\" title=\"Illegal\">Illegal</a></td>\n   <td>12000</td>\n  </tr>\n </tbody>\n</table><p><i>*This <a href=\"https://swse.fandom.com/wiki/Weapon_System\" class=\"mw-redirect\" title=\"Weapon System\">Weapon System</a> can only be mounted on a <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> of Colossal (Frigate) size or larger.</i></p><table class=\"wikitable\">\n <caption>\n  Ion Cannon Ranges\n </caption>\n <tbody>\n  <tr>\n   <th colspan=\"4\">RANGE BY CHARACTER SCALE</th>\n   <th></th>\n   <th colspan=\"4\"><p>RANGE BY STARSHIP SCALE</p></th>\n  </tr>\n  <tr>\n   <th>POINT-BLANK</th>\n   <th>SHORT</th>\n   <th>MEDIUM</th>\n   <th>LONG</th>\n   <th></th>\n   <th>POINT-BLANK</th>\n   <th>SHORT</th>\n   <th>MEDIUM</th>\n   <th>LONG</th>\n  </tr>\n  <tr>\n   <td>0-300 Squares</td>\n   <td>301-600 Squares</td>\n   <td>601-1,500 Squares</td>\n   <td>1,501-3,000 Squares</td>\n   <td></td>\n   <td>0-2 Squares</td>\n   <td>3-4 Squares</td>\n   <td>5-10 Squares</td>\n   <td>11-20 Squares</td>\n  </tr>\n </tbody>\n</table><p>Ion Cannons are generally viewed as defense armament, but they are quite common on pirate and military vessels. Ion Cannons deal <a href=\"https://swse.fandom.com/wiki/Ion\" class=\"mw-redirect\" title=\"Ion\">Ion</a> damage, as detailed in <a href=\"https://swse.fandom.com/wiki/Equipment\" title=\"Equipment\">Equipment</a>. Of Starship-mounted Ion Cannons, all but the smallest don't have a cyclic rate of fire high enough to allow <a href=\"https://swse.fandom.com/wiki/Autofire\" title=\"Autofire\">Autofire</a>, even when mounted in <a href=\"https://swse.fandom.com/wiki/Cannon,_Double/Quad\" title=\"Cannon, Double/Quad\">Cannon, Double/Quad</a> or <a href=\"https://swse.fandom.com/wiki/Fire-Linked\" class=\"mw-redirect\" title=\"Fire-Linked\">Fire-Linked</a> configurations.</p><h4><span class=\"mw-headline\" id=\"Hapan_Triple_Ion_Cannon\"><b>Hapan Triple Ion Cannon</b></span></h4><p>The Hapan Triple Ion Cannon is a special Capital Ship weapon that acts like a <a href=\"https://swse.fandom.com/wiki/Point-Defense_Weapon\" class=\"mw-redirect\" title=\"Point-Defense Weapon\">Point-Defense Weapon</a> (Using <a href=\"https://swse.fandom.com/wiki/Point-Defense\" title=\"Point-Defense\">Point-Defense</a> <a href=\"https://swse.fandom.com/wiki/Ranges\" class=\"mw-redirect\" title=\"Ranges\">Ranges</a> and taking no penalty for attacking ships of smaller than Colossal size). It is also capable of <a href=\"https://swse.fandom.com/wiki/Autofire\" title=\"Autofire\">Autofire</a> mode, but it may not make <a href=\"https://swse.fandom.com/wiki/Starship_Scale\" class=\"mw-redirect\" title=\"Starship Scale\">Starship Scale</a> <a href=\"https://swse.fandom.com/wiki/Area_Attacks\" title=\"Area Attacks\">Area Attacks</a>. Until the New Jedi Order era, Hapan Triple Ion Cannons are <a href=\"https://swse.fandom.com/wiki/Illegal\" class=\"mw-redirect\" title=\"Illegal\">Illegal</a> outside the Hapan Consortium, and the Hapans do not sell them to outsiders.</p>",
+        "cost": "3000",
+        "quantity": 1,
+        "providedItems": [],
+        "equipped": "gunnerInstalled"
+      },
+      "effects": [
+        {
+          "name": "Point-Defense",
+          "disabled": false,
+          "flags": {
+            "swse": {
+              "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><p><b>Emplacement Points:</b>&nbsp;0</p><p>Normally, only <a href=\"https://swse.fandom.com/wiki/Blaster_Cannons\" class=\"mw-redirect\" title=\"Blaster Cannons\">Blaster Cannons</a>, <a href=\"https://swse.fandom.com/wiki/Laser_Cannons\" class=\"mw-redirect\" title=\"Laser Cannons\">Laser Cannons</a>, and <a href=\"https://swse.fandom.com/wiki/Light_Ion_Cannons\" class=\"mw-redirect\" title=\"Light Ion Cannons\">Light Ion Cannons</a> can be Point-Defense Weapons. Modifying a <a href=\"https://swse.fandom.com/wiki/Weapon_System\" class=\"mw-redirect\" title=\"Weapon System\">Weapon System</a> to be Point-Defense costs 4000 credits per <a href=\"https://swse.fandom.com/wiki/Weapon_System\" class=\"mw-redirect\" title=\"Weapon System\">Weapon System</a> but has no <a href=\"https://swse.fandom.com/wiki/Emplacement_Point\" class=\"mw-redirect\" title=\"Emplacement Point\">Emplacement Point</a> requirement (Other than what is required to mount the <a href=\"https://swse.fandom.com/wiki/Weapon_System\" class=\"mw-redirect\" title=\"Weapon System\">Weapon System</a> itself). A Point-Defense Weapon takes no penalty for attacking targets of smaller than Colossal size.</p>",
+              "itemModifier": true
+            }
+          },
+          "img": "icons/svg/item-bag.svg",
+          "origin": null,
+          "_id": "9Tw61MXlZaZem33F",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "value": 0,
+                "key": "emplacementPoints",
+                "type": "add"
+              },
+              {
+                "value": "+4000",
+                "key": "cost",
+                "type": "add"
+              },
+              {
+                "value": "Restricted",
+                "key": "availability",
+                "type": "add"
+              }
+            ]
+          },
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "13.2.2",
+            "lastModifiedBy": null,
+            "createdTime": null,
+            "modifiedTime": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!VmgNPMuRLszkA638.FB1K5m1xJ56kt7zv.9Tw61MXlZaZem33F"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.2",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!VmgNPMuRLszkA638.FB1K5m1xJ56kt7zv"
+    }
+  ],
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.2",
+    "createdTime": 1785035906185,
+    "modifiedTime": 1785035906185,
+    "lastModifiedBy": "lyU5Zj9fsO0d8kF6"
+  },
+  "ownership": {
+    "default": 0,
+    "lyU5Zj9fsO0d8kF6": 3
+  },
+  "_id": "VmgNPMuRLszkA638",
+  "sort": 0,
+  "_key": "!actors!VmgNPMuRLszkA638"
+}

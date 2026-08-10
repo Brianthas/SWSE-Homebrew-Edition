@@ -1,0 +1,42 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Weapon Systems",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Energy Sphere:10",
+        "key": "ammoGeneration"
+      }
+    ],
+    "description": "<table style=\"width:100%; margin-top:1em; border:1px solid #999; font-size:90%; text-align:center; background:#363636\">\n <tbody>\n  <tr>\n   <td><i>This article details the Energy Bomblet Generator <a href=\"https://swse.fandom.com/wiki/Weapon_System\" class=\"mw-redirect\" title=\"Weapon System\">Weapon System</a> found in the <a href=\"https://swse.fandom.com/wiki/Clone_Wars_Campaign_Guide\" class=\"mw-redirect\" title=\"Clone Wars Campaign Guide\">Clone Wars Campaign Guide</a>. You may be looking for the <a href=\"https://swse.fandom.com/wiki/Homebrew_Content\" title=\"Homebrew Content\">Homebrew Content</a> Starship Accessory of the same name, the <a href=\"https://swse.fandom.com/wiki/Energy_Bomblet_Generator_(CWSB)\" title=\"Energy Bomblet Generator (CWSB)\">Energy Bomblet Generator</a>.</i></td>\n  </tr>\n </tbody>\n</table><p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Clone_Wars_Campaign_Guide\" title=\"Star Wars Saga Edition Clone Wars Campaign Guide\">Star Wars Saga Edition Clone Wars Campaign Guide</a></i></p><p>The energy spheres dropped by the <a href=\"https://swse.fandom.com/wiki/Scurrg_H-6_Prototype_Bomber\" title=\"Scurrg H-6 Prototype Bomber\">Scurrg H-6 Prototype Bomber</a> are produced by the Bomblet Generator, which uses the ship's primary power source to create them. The generator can produce one Bomblet every 10 rounds (1 minute), but it can hold no more than ten energy spheres at anyone time.</p><p>Energy Bomblets suffer a -20 penalty to against targets smaller than Colossal size and have a 4-Square <a href=\"https://swse.fandom.com/wiki/Splash\" class=\"mw-redirect\" title=\"Splash\">Splash</a> radius.</p><p>The Energy Bomblet Generator is a modular design, allowing it to be removed and incorporated into other compatible <a href=\"https://swse.fandom.com/wiki/Starfighters\" title=\"Starfighters\">Starfighters</a>. The <a href=\"https://swse.fandom.com/wiki/Scurrg_H-6_Prototype_Bomber\" title=\"Scurrg H-6 Prototype Bomber\">Scurrg H-6 Prototype Bomber</a> can easily be equipped with a standard Bomb Chute that drops standard Proton Bombs.</p>",
+    "cost": "-",
+    "ammo": "Energy Sphere:1",
+    "availability": "-",
+    "ammoCapacity": "Energy Sphere:10",
+    "damage": "8d10x5"
+  },
+  "name": "Energy Bomblet Generator",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317406,
+    "modifiedTime": 1759848317406,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "TVtrOSNfgIAxuKXB",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!TVtrOSNfgIAxuKXB"
+}

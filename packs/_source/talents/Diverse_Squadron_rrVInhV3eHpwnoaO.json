@@ -1,0 +1,74 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "When you use the <b>Squadron Maneuvers</b> Talent, you may choose <a href=\"https://swse.fandom.com/wiki/Talents\" title=\"Talents\">Talents</a> that you possess from the <a href=\"https://swse.fandom.com/wiki/Blockade_Runner_Talent_Tree\" title=\"Blockade Runner Talent Tree\">Blockade Runner Talent Tree</a>, and the <a href=\"https://swse.fandom.com/wiki/Wingman_Talent_Tree\" title=\"Wingman Talent Tree\">Wingman Talent Tree</a> as well as the <a href=\"https://swse.fandom.com/wiki/Expert_Pilot_Talent_Tree\" title=\"Expert Pilot Talent Tree\">Expert Pilot Talent Tree</a> and <a href=\"https://swse.fandom.com/wiki/Gunner_Talent_Tree\" title=\"Gunner Talent Tree\">Gunner Talent Tree</a>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Charisma 13",
+          "requirement": "Charisma 13",
+          "type": "ATTRIBUTE"
+        },
+        {
+          "text": "Squadron Maneuvers talent",
+          "requirement": "Squadron Maneuvers",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Charisma 13, and Squadron Maneuvers talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Ace Pilot Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Ace Pilot Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Squadron Leader Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Squadron_Leader_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "New Jedi Order Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Diverse Squadron",
+  "flags": {},
+  "type": "talent",
+  "folder": "IDgltOySl2AwtFJs",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385312528,
+    "modifiedTime": 1734385312528,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "rrVInhV3eHpwnoaO",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!rrVInhV3eHpwnoaO"
+}

@@ -1,0 +1,145 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p>Rodians hail from the Tyrius System of <a href=\"https://swse.fandom.com/wiki/The_Mid_Rim\" title=\"The Mid Rim\">The Mid Rim</a>, their homeworld humid and choked with heavy rain forests teeming with dangerous life forms. In this hostile environment, the Rodians evolved into brutal hunters and killers to survive. As a result, Rodian culture centers around the concept of \"The Hunt.\" Their art glorifies violence and the art of stalking prey. The more intelligent and dangerous a hunter's prey, the more honorable the hunt. Rodians have numerous annual festivals that exists solely to honor such activities. </p><p>Since joining the rest of the galaxy's spacefaring Species, the Rodians have come to view bounty hunting as the most honorable profession in existence, and many have found great success in this field. </p><h3><span class=\"mw-headline\" id=\"Rodian_Characteristics\">Rodian Characteristics</span></h3><p><b>Personality:</b> Rodians tend to be violent, tenacious, and dedicated. </p><p><b>Physical Description:</b> Rodians are humanoid, with multifaceted eyes, a tapered snout, and deep green skin, the average Rodian stands 1.6 meters tall. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Rodians age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-12 Years </td> \n   <td>13-15 Years </td> \n   <td>16-35 Years </td> \n   <td>36-49 Years </td> \n   <td>50-59 Years </td> \n   <td>60+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The industrial world of <a href=\"https://swse.fandom.com/wiki/Rodia\" title=\"Rodia\">Rodia</a>. </p><p><b>Languages:</b> Rodians speak, read, and write both Rodese and Basic, and many learn to speak Huttese as well. </p><p><b>Example Names:</b> Andoorni, Beedo, Chido, Doda, Greedo, Greeata, Kelko, Navik, Neela, Neesh, Wald. </p><p><b>Adventurers:</b> Rodian adventurers leave their homeworld to improve their skills, hoping to one day return and claim the title of Hunt Master. To this end, they take on roles that allow them to flex their hunting skills and increase their battle prowess, most commonly working as bounty hunters or mercenaries as <a href=\"https://swse.fandom.com/wiki/Soldiers\" class=\"mw-redirect\" title=\"Soldiers\">Soldiers</a>. </p><h3><span class=\"mw-headline\" id=\"Rodian_Species_Traits\">Rodian Species Traits</span></h3><p>Rodians share the following Species Traits: </p><h2><span class=\"mw-headline\" id=\"Additional_Rodian_Species_Feats\">Additional Rodian Species Feats</span></h2><p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Rebellion_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Rebellion Era Campaign Guide\">Star Wars Saga Edition Rebellion Era Campaign Guide</a></i> </p><p>Rodian characters have access to the following <a href=\"https://swse.fandom.com/wiki/Species_Feats\" class=\"mw-redirect\" title=\"Species Feats\">Species Feats</a>. No Species Feats are considered Bonus Feats for any <a href=\"https://swse.fandom.com/wiki/Heroic_Class\" class=\"mw-redirect\" title=\"Heroic Class\">Heroic Class</a>. </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>SPECIES FEAT </th> \n   <th> </th> \n   <th>BENEFITS </th>\n  </tr> \n  <tr> \n   <td><a href=\"https://swse.fandom.com/wiki/Fringe_Benefits\" title=\"Fringe Benefits\">Fringe Benefits</a> </td> \n   <td> </td> \n   <td>Reduce the cost multiplier of goods bought on the <a href=\"https://swse.fandom.com/wiki/Black_Market\" class=\"mw-redirect\" title=\"Black Market\">Black Market</a>. </td>\n  </tr> \n  <tr> \n   <td><a href=\"https://swse.fandom.com/wiki/Hunter%27s_Instincts\" title=\"Hunter's Instincts\">Hunter's Instincts</a> </td> \n   <td> </td> \n   <td>Reroll <a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> checks, always keeping the better result. </td>\n  </tr> \n  <tr> \n   <td><a href=\"https://swse.fandom.com/wiki/Master_Tracker\" title=\"Master Tracker\">Master Tracker</a> </td> \n   <td> </td> \n   <td>Increase the die type when adding <a href=\"https://swse.fandom.com/wiki/Force_Points\" title=\"Force Points\">Force Points</a> to a <a href=\"https://swse.fandom.com/wiki/Survival\" title=\"Survival\">Survival</a> check. </td>\n  </tr>\n </tbody>\n</table>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Heightened Awareness",
+        "type": "trait"
+      },
+      {
+        "name": "Low-Light Vision",
+        "type": "trait"
+      },
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Survival))",
+        "type": "trait"
+      },
+      {
+        "name": "Skill Focus (Survival)",
+        "type": "feat"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "60",
+          "text": "60+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "35",
+          "low": "16",
+          "text": "16-35",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "12",
+          "low": "1",
+          "text": "1-12",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "49",
+          "low": "36",
+          "text": "36-49",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "15",
+          "low": "13",
+          "text": "13-15",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "59",
+          "low": "50",
+          "text": "50-59",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Heightened Awareness"
+      },
+      {
+        "value": "Rodians"
+      },
+      {
+        "value": "Low-Light Vision"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Conditional Bonus Feat (Skill Focus (Survival))"
+      },
+      {
+        "value": "Conditional Bonus Feat"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Rodian",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535567108,
+    "modifiedTime": 1736535567108,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "ei1RR57sLS8fLBBO",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!ei1RR57sLS8fLBBO"
+}

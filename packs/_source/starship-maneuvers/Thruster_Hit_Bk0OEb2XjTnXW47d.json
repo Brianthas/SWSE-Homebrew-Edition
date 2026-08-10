@@ -1,0 +1,89 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Fleet_Maneuvers\" title=\"Fleet Maneuvers\">Fleet Maneuvers</a>, <a href=\"https://swse.fandom.com/wiki/Starship_Maneuvers\" title=\"Starship Maneuvers\">Starship Maneuvers</a></i> </p><p>This maneuver allows you to target an opponent's maneuvering thrusters, reducing the maneuverability they provide to a ship. </p><p><b>[<i><a href=\"https://swse.fandom.com/wiki/Gunner_(Starship_Maneuvers)\" class=\"mw-redirect\" title=\"Gunner (Starship Maneuvers)\">Gunner</a></i>]</b> </p><p><b>Time:</b>&nbsp;<a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a> </p><p><b>Targets:</b>&nbsp;One <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> that you just attacked. </p><p><b>Make an attack roll.</b> If you deal damage to a <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> with a Critical Hit or deal damage to a <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> that is equal to or greater than its <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a>, you may activate this maneuver as a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a>. Compare the result of your attack roll to the target's <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> to determine the effects, if any: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>RESULT </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td><i>Exceeds Target's <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a></i> </td> \n   <td> </td> \n   <td>The target takes a -1 penalty to its <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>, <a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a> checks, and <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> checks for the remainder of the encounter. </td>\n  </tr> \n  <tr> \n   <td><i>Exceeds Target's <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> by 5</i> </td> \n   <td> </td> \n   <td>The target takes a -2 penalty to its <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>, <a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a> checks, and <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> checks for the remainder of the encounter. </td>\n  </tr> \n  <tr> \n   <td><i>Exceeds Target's <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> by 10</i> </td> \n   <td> </td> \n   <td>The target takes a -5 penalty to its <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>, <a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a> checks, and <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> checks for the remainder of the encounter. Additionally, the target can only move in a straight line for the remainder of the encounter. </td>\n  </tr>\n </tbody>\n</table>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Exceeds Target's Reflex Defense:The target takes a -1 penalty to its Reflex Defense, Initiative checks, and Pilot checks for the remainder of the encounter.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "Exceeds Target's Reflex Defense by 5:The target takes a -2 penalty to its Reflex Defense, Initiative checks, and Pilot checks for the remainder of the encounter.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "Exceeds Target's Reflex Defense by 10:The target takes a -5 penalty to its Reflex Defense, Initiative checks, and Pilot checks for the remainder of the encounter. Additionally, the target can only move in a straight line for the remainder of the encounter.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "Reference Book: Star Wars Saga Edition Starships of the Galaxy See also: Fleet Maneuvers, Starship Maneuvers This maneuver allows you to target an opponent's maneuvering thrusters, reducing the maneuverability they provide to a ship. [Gunner] Time: Reaction Targets: One Vehicle that you just attacked. Make an attack roll. If you deal damage to a Vehicle with a Critical Hit or deal damage to a Vehicle that is equal to or greater than its Damage Threshold, you may activate this maneuver as a Reaction. Compare the result of your attack roll to the target's Reflex Defense to determine the effects, if any:",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "Gunner",
+        "key": "tag"
+      },
+      {
+        "mode": 2,
+        "value": "Reaction",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "One Vehicle that you just attacked.",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "cumulative"
+      },
+      {
+        "mode": 2,
+        "value": "attack",
+        "key": "rollType"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Thruster Hit",
+  "flags": {},
+  "type": "forcePower",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738608591756,
+    "modifiedTime": 1738608591756,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX"
+  },
+  "_id": "Bk0OEb2XjTnXW47d",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!Bk0OEb2XjTnXW47d"
+}

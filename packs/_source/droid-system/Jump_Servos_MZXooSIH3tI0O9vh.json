@@ -1,0 +1,39 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Locomotion Systems",
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "droidPart"
+      }
+    ],
+    "description": "<p><b>Requires:</b>&nbsp;<a href=\"https://swse.fandom.com/wiki/Walking\" title=\"Walking\">Walking</a>&nbsp;Locomotion System</p><p>Repulsorlift-assisted Jump Servos can be added to any Droid with a <a href=\"https://swse.fandom.com/wiki/Walking\" title=\"Walking\">Walking</a> Locomotion System. Jump Servos grant the Droid the ability to treat all <a href=\"https://swse.fandom.com/wiki/Jumps\" class=\"mw-redirect\" title=\"Jumps\">Jumps</a> as <a href=\"https://swse.fandom.com/wiki/Running_Jumps\" class=\"mw-redirect\" title=\"Running Jumps\">Running Jumps</a>, even without a head start (see the <a href=\"https://swse.fandom.com/wiki/Jump\" title=\"Jump\">Jump</a> skill). In addition, the droid may reroll a failed <a href=\"https://swse.fandom.com/wiki/Jump\" title=\"Jump\">Jump</a> check (keeping the better result) and <a href=\"https://swse.fandom.com/wiki/Take_10\" class=\"mw-redirect\" title=\"Take 10\">Take 10</a> on <a href=\"https://swse.fandom.com/wiki/Jump\" title=\"Jump\">Jump</a> checks even when rushed or threatened. Jump Servos double the cost of a <a href=\"https://swse.fandom.com/wiki/Walking\" title=\"Walking\">Walking</a> Locomotion System.</p>",
+    "cost": "Locomotion System Cost x 2",
+    "requires": "Walking Locomotion System"
+  },
+  "name": "Jump Servos",
+  "flags": {},
+  "type": "droid system",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764449015687,
+    "modifiedTime": 1764449015687,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "MZXooSIH3tI0O9vh",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!MZXooSIH3tI0O9vh"
+}

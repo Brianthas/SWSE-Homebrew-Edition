@@ -1,0 +1,63 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You can use your ability to circumvent <a href=\"https://swse.fandom.com/wiki/Behavioral_Inhibitors\" class=\"mw-redirect\" title=\"Behavioral Inhibitors\">Behavioral Inhibitors</a> to temporarily break the programming of a <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> that you have a data link with. Make a <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> check opposed by the Droid's <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a>. Breaking the Droid's programming overrides its <a href=\"https://swse.fandom.com/wiki/Behavioral_Inhibitors\" class=\"mw-redirect\" title=\"Behavioral Inhibitors\">Behavioral Inhibitors</a> for a number of rounds equal to your <a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a> bonus.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Trained in Use Computer",
+      "requirement": "Use Computer",
+      "type": "TRAINED SKILL"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Independent Droid Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Independent Droid Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Elite Droid Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Elite_Droid_Talent_Tree",
+    "bonusTalentTree": "Elite Droid Talent Tree",
+    "source": "Star Wars Saga Edition Scavenger's Guide to Droids",
+    "cost": "0"
+  },
+  "name": "Break Program",
+  "flags": {},
+  "type": "talent",
+  "folder": "WQvxkq6OUhZiis9m",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385304461,
+    "modifiedTime": 1734385304461,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "4bbgWqh8JCxQT3Ue",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!4bbgWqh8JCxQT3Ue"
+}

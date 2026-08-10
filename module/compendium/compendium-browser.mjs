@@ -78,6 +78,11 @@ export class SWSECompendiumBrowser extends Application {
         }
         this.defaultString = split.join(" ")
         this.selectedEntityType = args[0].type || "Item"
+        // The type/pack filter this browser was opened with (e.g. "-type:forcePower").
+        // do_filter() re-derives postFilters from scratch on every keystroke, so without
+        // keeping this separately, typing a plain search term (no leading "-") wiped the
+        // filter entirely and the list widened to every item type.
+        this.baseFilterStrings = this.defaultString.split(" ").filter(t => t.startsWith("-"));
 
         this.do_filter(this.defaultString);
 
@@ -134,7 +139,22 @@ export class SWSECompendiumBrowser extends Application {
         }
     }
 
+    /**
+     * Whether this browser should group its results by talentTree instead of listing them
+     * flat — on whenever it was opened filtered specifically to talents (the Feats & Talents
+     * tab's Talents folder icon), which covers Force Talents as a natural subset without
+     * needing a separate Force-specific flag (a talent tree like "Ace Combat" isn't Force-
+     * related at all, so this isn't scoped to "Force" trees specifically).
+     */
+    get isGroupedByTalentTree() {
+        return (this.baseFilterStrings || []).some(f => /^-type:talent$/i.test(f));
+    }
+
     async _createInitialElements() {
+        if (this.isGroupedByTalentTree) {
+            return this._createGroupedElements();
+        }
+
         let items = [];
         for (let a = 0; items.length < this.lazyLoadTreshold && a < this.items.length; a++) {
             const item = this.items[a];
@@ -148,6 +168,60 @@ export class SWSECompendiumBrowser extends Application {
         for (let item of items) {
             await this._addEntryElement(item);
         }
+    }
+
+    /**
+     * Renders every currently-matching item grouped under a collapsible header per talent
+     * tree, instead of one flat lazy-loaded list — talent trees are few enough (~200) and
+     * collapsed by default, so rendering all of them up front (rather than lazy-loading) is
+     * cheap. A tree with an active search match auto-expands, so typing a talent or tree name
+     * lands you straight on the result instead of needing a second click to open it.
+     */
+    async _createGroupedElements() {
+        this._expandedGroups = this._expandedGroups || new Set();
+        const isSearching = !!this.searchString;
+
+        const passing = this.items.filter(entry => this._passesFilters(entry.item));
+        const groups = new Map();
+        for (const entry of passing) {
+            const tree = entry.item.talentTree || "Other";
+            if (!groups.has(tree)) groups.set(tree, []);
+            groups.get(tree).push(entry);
+        }
+
+        const rootElem = this.element.find(".directory-list");
+        for (const tree of [...groups.keys()].sort((a, b) => a.localeCompare(b))) {
+            const entries = groups.get(tree);
+            const expanded = isSearching || this._expandedGroups.has(tree);
+
+            const groupElem = $(await foundry.applications.handlebars.renderTemplate(
+                "systems/swse/templates/compendium/compendium-browser_group.hbs",
+                {treeName: tree, count: entries.length, expanded}
+            ));
+            rootElem.append(groupElem);
+
+            const itemsList = groupElem.find(".group-items");
+            for (const entry of entries) {
+                entry.item.compendiumModifier = this.options.actionModifier;
+                const elem = $(await foundry.applications.handlebars.renderTemplate("systems/swse/templates/compendium/compendium-browser_entry.hbs", entry));
+                itemsList.append(elem);
+                this.activateEntryListeners(elem);
+            }
+
+            groupElem.find(".group-header").on("click", () => this._toggleGroup(tree, groupElem));
+        }
+    }
+
+    _toggleGroup(tree, groupElem) {
+        const itemsList = groupElem.find(".group-items");
+        const nowExpanded = itemsList.css("display") === "none";
+        itemsList.css("display", nowExpanded ? "block" : "none");
+        groupElem.find(".group-header i")
+            .toggleClass("fa-chevron-right", !nowExpanded)
+            .toggleClass("fa-chevron-down", nowExpanded);
+
+        if (nowExpanded) this._expandedGroups.add(tree);
+        else this._expandedGroups.delete(tree);
     }
 
     async _addEntryElement(item) {
@@ -179,8 +253,10 @@ export class SWSECompendiumBrowser extends Application {
         await this._createInitialElements();
         const rootElem = this.element.find(".directory-list");
 
-        // Create function for lazy loading
+        // Create function for lazy loading — grouped mode already renders every matching item
+        // up front (see _createGroupedElements), nothing left to lazily add on scroll.
         const lazyLoad = async () => {
+            if (this.isGroupedByTalentTree) return;
             let createdItems = 0;
             for (let a = this.lazyIndex; a < this.items.length && createdItems < this.lazyAdd; a++) {
                 const item = this.items[a];
@@ -439,7 +515,10 @@ export class SWSECompendiumBrowser extends Application {
                 talentTree: item.system?.talentTree,
                 groupTypes: item.system?.possibleProviders || [],
                 subType: item.system?.subtype,
-                isExotic: item.system?.subtype?.toLowerCase().includes("exotic")
+                isExotic: item.system?.subtype?.toLowerCase().includes("exotic"),
+                // Descriptor tags (e.g. a Force Power's [Telekinetic]/[Dark Side]/[Mind-Affecting])
+                // — searchable here and shown as a badge on the entry row.
+                tags: getInheritableAttribute({entity: item, attributeKey: "tag", reduce: "VALUES"})
             },
         };
 
@@ -477,7 +556,10 @@ export class SWSECompendiumBrowser extends Application {
 
         let search = html.find('input[name="search"]');
         search.keyup(this._onFilterResults.bind(this));
-        search.val(this.defaultString)
+        // Was unconditionally reset to the raw "-type:class" filter string on every
+        // render (activateListeners re-fires on every re-render, including while
+        // typing), wiping out anything the user typed and blocking search entirely.
+        // The template already renders the correct free-text portion via searchString.
 
         html.each((i, li) => {
             li.addEventListener("drop", (ev) => this._onDrop(ev));
@@ -572,7 +654,10 @@ export class SWSECompendiumBrowser extends Application {
             }
         }
 
-        this.postFilters = this.generateFilters(filterStrings);
+        // Always keep the browser's original type/pack filter applied, even when the
+        // current search has no "-" terms of its own (see baseFilterStrings above).
+        const mergedFilterStrings = [...new Set([...(this.baseFilterStrings || []), ...filterStrings])];
+        this.postFilters = this.generateFilters(mergedFilterStrings);
         const enableHomebrewContent = game.settings.get("swse", "enableHomebrewContent");
         if(!enableHomebrewContent){
             this.postFilters.push({
@@ -723,11 +808,14 @@ export class SWSECompendiumBrowser extends Application {
             .reduce((previousValue, currentValue) => previousValue || currentValue, false);
 
 
+        let matchesTag = (item.tags || []).some(tag => this.filterQuery.test(tag));
+
         if (!this.filterQuery.test(item.name)
             && !this.filterQuery.test(item.talentTree)
             && !this.filterQuery.test(item.type)
             && !this.filterQuery.test(item.subType)
-            && !matchesProviderGroup) return false;
+            && !matchesProviderGroup
+            && !matchesTag) return false;
 
         let groupedFilters = {};
         this.postFilters.forEach(f => {

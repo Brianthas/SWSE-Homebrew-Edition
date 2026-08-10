@@ -1,0 +1,66 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A torrent of water begins pouring into the cavern; targeting every being in the area.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Every minute once the water level is at least 1 square deep, until the being escapes the Rising Water.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Endurance (DC 19): The character resists the urge to breathe when submerged and gains a +2 circumstance bonus to Fortitude Defense against the Hazard. Perception (DC 24): The character spots an opening through which air is escaping, which indicates a way out of the cavern. Swim (DC 14): The character moves through the water, gaining a +1 circumstance bonus to Fortitude Defense against the Hazard.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: The water level rises at a rate of 1 square per minute (10 rounds) until the cavern is filled with water. Creatures within the filled cavern must hold their breath or begin drowning.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>The water level in the cavern is rising fast. You need to find a way out.</i> </p><p>This Hazard makes for a good test of wits, especially if the heroes are trapped in a cave (Whether by accident or by their opponents' design) with no apparent way out. Although the situation seems to grow more dire as the water rises, clever heroes will realize that the air must be going somewhere. This Hazard can also be used to endanger other creatures that need to be rescued by the heroes. In addition, setting a battle in a cavern that is filling rapidly with water adds both a sense of urgency and a cinematic element to the combat. </p><h2><span id=\"Rising_Water_Statistics_.28CL_3.29\"></span><span class=\"mw-headline\" id=\"Rising_Water_Statistics_(CL_3)\">Rising Water Statistics (CL 3)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Natural </p><p><b>Trigger:</b> A torrent of water begins pouring into the cavern; targeting every being in the area. </p><p><b>Attack:</b> +5 vs <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> </p><p><b>Recurrence:</b> Every minute once the water level is at least 1 square deep, until the being escapes the Rising Water. </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Endurance\" title=\"Endurance\">Endurance</a> (DC 19):</b> The character resists the urge to breathe when submerged and gains a +2 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> against the Hazard.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> (DC 24):</b> The character spots an opening through which air is escaping, which indicates a way out of the cavern.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Swim\" title=\"Swim\">Swim</a> (DC 14):</b> The character moves through the water, gaining a +1 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> against the Hazard.</li>\n</ul><p><b>Special:</b> The water level rises at a rate of 1 square per minute (10 rounds) until the cavern is filled with water. Creatures within the filled cavern must hold their breath or begin drowning. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Rising Water",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244702,
+    "modifiedTime": 1749263244702,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "Tq256tUXJASwA4OH",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!Tq256tUXJASwA4OH"
+}

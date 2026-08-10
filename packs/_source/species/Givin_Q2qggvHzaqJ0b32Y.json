@@ -1,0 +1,152 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_of_Intrigue\" title=\"Star Wars Saga Edition Galaxy of Intrigue\">Star Wars Saga Edition Galaxy of Intrigue</a></i> </p><p>Even with the diversity of <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> in the galaxy, the Givin often manage to shock or at least cause unease in most humanoids, since they greatly resemble walking skeletons. However, Givin are universally sought after as starship builders and engineers, both for their mathematically inclined minds and for their unique physiology that allows them to survive in complete vacuum. </p><p> Mathematics permeates every aspect of Givin society, so much so that even their language is infused with such concepts. Givin children start training early, preparing their minds to handle incredibly complex equations. Rigorous competitions determine the best and the brightest students, who are sent to monasteries where they spend their lives in deep contemplation, attempting to unravel the mysteries of life through formulae and mathematics.</p><p>The shipyards that circle <a href=\"https://swse.fandom.com/wiki/Yag%27Duhl\" title=\"Yag'Duhl\">Yag'Duhl</a>, the Givin homeworld, produce sturdy and elegant starships and compete on a level matched only by the <a href=\"https://swse.fandom.com/wiki/Duros\" title=\"Duros\">Duros</a> and <a href=\"https://swse.fandom.com/wiki/Verpine\" title=\"Verpine\">Verpine</a>, the only <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> that receive grudging respect from the Givin. However, Givin designers do not equip their ships with Navicomputers, since most Givin can calculate hyperspace jumps in their heads, and they often overlook life-support systems. Members of other <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> that purchase Givin built ships must add these components. </p><h3><span class=\"mw-headline\" id=\"Givin_Characteristics\">Givin Characteristics</span></h3><p><b>Personality:</b> Givin are so analytical and logical that they think and converse in mathematical terminology. They typically keep to themselves, leading other <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> to consider them withdrawn and somber. Givin approach most events with only vague interest. However, when presented with a mathematical puzzle, they become animated and verbose, especially with anyone that can keep up with their explanations. Givin informally refer to members of other <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> as \"Soft\" and regard most of them with a mix of pity and contempt because of their inability to survive in a vacuum unaided. </p><p><b>Physical Description:</b> Givin are gaunt and skeletal, with exteriors covered in sealed carapaces. These exoskeletons act as organic vacuum suits, allowing the Givin to survive in a complete lack of atmosphere and making them immune to the effects of inhalants. Their faces are best described as forlorn, with frowning mouths and dark, triangular eyes. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b>&nbsp;Givin age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-10 Years </td> \n   <td>11-14 Years </td> \n   <td>15-48 Years </td> \n   <td>49-64 Years </td> \n   <td>65-79 Years </td> \n   <td>80+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Givin are from the planet <a href=\"https://swse.fandom.com/wiki/Yag%27Duhl\" title=\"Yag'Duhl\">Yag'Duhl</a>, located in <a href=\"https://swse.fandom.com/wiki/The_Inner_Rim\" title=\"The Inner Rim\">The Inner Rim</a>. Massive tidal forces constantly tug at the water and atmosphere of the planet, exposing areas to hard vacuum. The Givin reside inside sealed cities that are able to withstand the massive crush of tidal energy. </p><p><b>Languages:</b> The Givin language is thick with mathematical terms, and the written language conveys information using hundreds of mathematical symbols. Individuals without a grounding in advanced mathematics find the Species' language almost incomprehensible. </p><p><b>Example Names:</b> Elis Helrot, Lersia Narth, Na-Soth Larr, Nisil Alarin, Siadru Nalas. </p><p><b>Adventurers:</b> Givin that leave their homeworld are likely to become <a href=\"https://swse.fandom.com/wiki/Nobles\" class=\"mw-redirect\" title=\"Nobles\">Nobles</a> or <a href=\"https://swse.fandom.com/wiki/Scouts\" class=\"mw-redirect\" title=\"Scouts\">Scouts</a>. Givin <a href=\"https://swse.fandom.com/wiki/Scoundrels\" class=\"mw-redirect\" title=\"Scoundrels\">Scoundrels</a> are also relatively common and have a propensity for gambling, a pursuit in which their mathematical skills give them an edge. Givin <a href=\"https://swse.fandom.com/wiki/Soldiers\" class=\"mw-redirect\" title=\"Soldiers\">Soldiers</a> are tough and make excellent troops in hard vacuum encounters. Givin Force-users are rare. </p><h3><span class=\"mw-headline\" id=\"Givin_Species_Traits\">Givin Species Traits</span></h3><p>Givin share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Deductive Reasoning",
+        "type": "trait"
+      },
+      {
+        "name": "Givin",
+        "type": "trait"
+      },
+      {
+        "name": "Great Fortitude",
+        "type": "trait"
+      },
+      {
+        "name": "Vacuum Immunity",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Damage Reduction 2",
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "80",
+          "text": "80+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "64",
+          "low": "49",
+          "text": "49-64",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "10",
+          "low": "1",
+          "text": "1-10",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "14",
+          "low": "11",
+          "text": "11-14",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "48",
+          "low": "15",
+          "text": "15-48",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "79",
+          "low": "65",
+          "text": "65-79",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Deductive Reasoning"
+      },
+      {
+        "value": "Givin"
+      },
+      {
+        "value": "Great Fortitude"
+      },
+      {
+        "value": "Vacuum Immunity"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Damage Reduction 2"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Damage Reduction"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Givin",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535566159,
+    "modifiedTime": 1736535566159,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "Q2qggvHzaqJ0b32Y",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!Q2qggvHzaqJ0b32Y"
+}

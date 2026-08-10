@@ -1,0 +1,61 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Starship Accessories",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal (Frigate)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal (Cruiser)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal (Station)",
+          "type": "TRAIT"
+        }
+      ],
+      "count": 1,
+      "text": "Colossal or Larger",
+      "type": "OR"
+    },
+    "changes": [],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><p><b>Emplacement Points:</b>&nbsp;1</p><p><b>Size Restriction:</b>&nbsp;Colossal or Larger</p><p>A Medical Suite, which can be installed on ships of Colossal size or larger, provides the necessary facilities to maintain the health of a crew over a long period. A Medical Suite includes (Size Modifier)/5 medical beds and (Size Modifier)/50 <a href=\"https://swse.fandom.com/wiki/Bacta_Tank\" title=\"Bacta Tank\">Bacta Tanks</a>. (A Starship may combine multiple Medical Suites when determining the facilities available.) When a Starship can't accommodate a Bacta Tank, a medical bed is usually sufficient to stabilize a patient. A medical bed contains monitoring equipment to keep track of vital signs and the <a href=\"https://swse.fandom.com/wiki/Medical_Gear\" title=\"Medical Gear\">Medical Gear</a> needed to deal with most common injuries and illnesses. Treat a medical bed as a <a href=\"https://swse.fandom.com/wiki/Medpac\" title=\"Medpac\">Medpac</a> (10 uses, with a single charge costing as much as a <a href=\"https://swse.fandom.com/wiki/Medpac\" title=\"Medpac\">Medpac</a>), a <a href=\"https://swse.fandom.com/wiki/Medical_Kit\" title=\"Medical Kit\">Medical Kit</a>, and a <a href=\"https://swse.fandom.com/wiki/Surgery_Kit\" title=\"Surgery Kit\">Surgery Kit</a>.</p>",
+    "cost": "3000 (Base)",
+    "emplacementPoints": "1",
+    "availability": "Common"
+  },
+  "name": "Medical Suite",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317610,
+    "modifiedTime": 1759848317610,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "dsmWNAzVdx6TrhAU",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!dsmWNAzVdx6TrhAU"
+}

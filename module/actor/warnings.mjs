@@ -58,9 +58,15 @@ export function warningsFromActor(actor) {
         if (availableTrainedSkillCount < 0) {
             warnings.push(`<span>Too Many Skills Selected: ${Math.abs(availableTrainedSkillCount)}</span>`)
         }
-        for (let item of Object.entries(actor.availableItems || {})) {
-            if (item[1] !== 0) {
-                warnings.push(`<span data-action="compendium-web" data-type="feat, talent" data-provider-source="${item[0]}">Items from ${item[0]} remaining: ${item[1]}</span>`)
+        // Pre-built NPC stat blocks weren't authored through the PC "spend slots as you level"
+        // flow this budget-tracking is meant to police, so it routinely reads as under/over-spent
+        // for them without anything actually being wrong — same reasoning as the isNPC gate on
+        // the matching console.error in characterdata.mjs's #_reduceAvailable.
+        if (!actor.system.settings?.isNPC) {
+            for (let item of Object.entries(actor.availableItems || {})) {
+                if (item[1] !== 0) {
+                    warnings.push(`<span data-action="compendium-web" data-type="feat, talent" data-provider-source="${item[0]}">Items from ${item[0]} remaining: ${item[1]}</span>`)
+                }
             }
         }
         for (let feat of actor.system.inactiveProvidedFeats || []) {
@@ -74,25 +80,12 @@ export function warningsFromActor(actor) {
 
 
 
-        for (let skill of Object.values(actor.system.skills)) {
-            if (skill.blockedSkill) {
-                warnings.push(`<span>The ${skill.label} skill is provided but is not a Class Skill</span>`)
-            }
+        if (actor.system.lightSlots?.used > actor.system.lightSlots?.max) {
+            warnings.push(`<span>Light slots over capacity: ${actor.system.lightSlots.used}/${actor.system.lightSlots.max}</span>`)
         }
 
-
-        if (game.settings.get("swse", "enableEncumbranceByWeight")) {
-            if (actor.weight >= actor.heavyLoad) {
-                warnings.push(`<span title="When carrying a heavy load a character takes a -10 penalty on some checks and the character's speed is reduced to three-quarters normal. A character can move up to three times his or her speed when Running with a Heavy Load.">You're carrying a <b>Heavy Load</b></span>`)
-            }
-
-            if (actor.weight >= actor.strainCapacity) {
-                warnings.push(`<span title="Loses Dexterity Bonus to Reflex Defense and can only move one square">You're carrying more than your <b>Carry Capacity</b></span>`)
-            }
-
-            if (actor.weight >= actor.maximumCapacity) {
-                warnings.push(`<span>You're carrying more than your <b>Maximum Capacity</b></span>`)
-            }
+        if (actor.system.kitSlots?.used > actor.system.kitSlots?.max) {
+            warnings.push(`<span>Kit slots over capacity: ${actor.system.kitSlots.used}/${actor.system.kitSlots.max}</span>`)
         }
     }
 

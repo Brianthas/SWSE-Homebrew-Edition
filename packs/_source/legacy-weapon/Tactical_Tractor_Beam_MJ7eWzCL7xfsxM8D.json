@@ -1,0 +1,107 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode"
+        }
+      },
+      "statuses": [],
+      "disabled": false,
+      "name": "Single-Shot",
+      "_id": "D8kgHLDhAAbZxzxV",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513561,
+        "modifiedTime": 1786051513561,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!MJ7eWzCL7xfsxM8D.D8kgHLDhAAbZxzxV"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_at_War\" title=\"Star Wars Saga Edition Galaxy at War\">Star Wars Saga Edition Galaxy at War</a></i> </p><p>This rare Weapon is found only in the hands of wealthy armies or extremely successful mercenary groups. Utilizing the same technology as Starship-sized <a href=\"https://swse.fandom.com/wiki/Tractor_Beams\" class=\"mw-redirect\" title=\"Tractor Beams\">Tractor Beams</a>, the Tactical Tractor Beam allows fast construction of defensive positions by lifting and moving artificial and natural barriers. Because of the massive power requirements and temperamental nature of the Weapon, a Tactical Tractor Beam should be mounted on a large <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> or <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> in order to wield the Weapon efficiently in combat. </p><p>A Tactical Tractor Beam can also be fired from a tripod. When mounted on a tripod, it is treated as one size smaller for purposes of being wielded- allowing a Medium character to operate it with two hands. The Tactical Tractor Beam requires a <a href=\"https://swse.fandom.com/wiki/Power_Generator\" title=\"Power Generator\">Power Generator</a> to operate. </p><p>The Tactical Tractor Beam functions like a <a href=\"https://swse.fandom.com/wiki/Tractor_Beam\" title=\"Tractor Beam\">Tractor Beam</a>, but it can affect only Huge or smaller targets. If a Tactical Tractor Beam has successfully <a href=\"https://swse.fandom.com/wiki/Grabbed\" class=\"mw-redirect\" title=\"Grabbed\">Grabbed</a> an object, it can move the object up to 10 squares in any direction rather than being limited to bringing the object closer. </p><p>Additionally, a Tactical Tractor Beam operator can hurl a <a href=\"https://swse.fandom.com/wiki/Grabbed\" class=\"mw-redirect\" title=\"Grabbed\">Grabbed</a> object at another target within 10 squares, making a ranged attack roll with the weapon against the new target. If the attack rolls equals or exceeds the target's <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>, the target takes damage based on the size of the object hurled (see <a href=\"https://swse.fandom.com/wiki/Falling_Objects\" title=\"Falling Objects\">Falling Objects</a>). </p><p>Normally, the Tactical Tractor Beam requires a second crewman to regulate the Weapon's <a href=\"https://swse.fandom.com/wiki/Power_Generator\" title=\"Power Generator\">Power Generator</a>. The second crewman must spend a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a> while adjacent to the Weapon to regulate its power. After you regulate the Tactical Tractor Beam's power, it functions normally until the beginning of your next turn. </p><p>If the weapon's power is not regulated- that is, if a second crewman has not done so since the same <a href=\"https://swse.fandom.com/wiki/Initiative_Count\" class=\"mw-redirect\" title=\"Initiative Count\">Initiative Count</a> on the previous round- apply a -2 penalty to all attack rolls made with the weapon. </p><p><b>Special:</b>&nbsp;A Tactical Tractor Beam mounted on a&nbsp;tripod&nbsp;is treated as a Large weapon, rather than Huge. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "8,000",
+    "weight": "25 Kilograms",
+    "availability": "Military",
+    "size": "Huge",
+    "type": "",
+    "subtype": "Heavy Weapons",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageType": "Energy",
+    "specialQualities": "Special: A Tactical Tractor Beam mounted on a tripod is treated as a Large weapon, rather than Huge."
+  },
+  "name": "Tactical Tractor Beam",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Tactical_Tractor_Beam.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513561,
+    "modifiedTime": 1786051513596,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "MJ7eWzCL7xfsxM8D",
+  "_key": "!items!MJ7eWzCL7xfsxM8D"
+}

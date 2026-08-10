@@ -1,0 +1,69 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "When you select this Talent, choose one <a href=\"https://swse.fandom.com/wiki/Trained_Skill\" class=\"mw-redirect\" title=\"Trained Skill\">Trained Skill</a>. Whenever you fail a <a href=\"https://swse.fandom.com/wiki/Skill_Check\" class=\"mw-redirect\" title=\"Skill Check\">Skill Check</a> with that <a href=\"https://swse.fandom.com/wiki/Skill\" class=\"mw-redirect\" title=\"Skill\">Skill</a>, you gain one temporary <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a>. That <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> can only be spent to add to a <a href=\"https://swse.fandom.com/wiki/Skill_Check\" class=\"mw-redirect\" title=\"Skill Check\">Skill Check</a> with the <a href=\"https://swse.fandom.com/wiki/Skill\" class=\"mw-redirect\" title=\"Skill\">Skill</a> you chose for this Talent. If the <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> is not spent by the end of the encounter, it is lost.<br><br>For the purposes of this Talent, failing a <a href=\"https://swse.fandom.com/wiki/Skill_Check\" class=\"mw-redirect\" title=\"Skill Check\">Skill Check</a> means failing to get the minimum possible result from the <a href=\"https://swse.fandom.com/wiki/Skill_Check\" class=\"mw-redirect\" title=\"Skill Check\">Skill Check</a>. You can select this Talent multiple times. Each time you do so, you must choose a different <a href=\"https://swse.fandom.com/wiki/Skill\" class=\"mw-redirect\" title=\"Skill\">Skill</a> to gain the benefits of this <a href=\"https://swse.fandom.com/wiki/Talent\" class=\"mw-redirect\" title=\"Talent\">Talent</a>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:in: Talent Trees, Noble Talent Trees, Technician Talent Trees Superior Skills Talent Tree Edit Edit source History Talk (0) Reference Book: Star Wars Saga Edition Galaxy of Intrigue You're not just good at what you do, you're the best. Failure is but a stumbling block, and great success always follows. Contents 1 Assured Skill 2 Critical Skill Success 3 Exceptional Skill 4 Reliable Boon 5 Skill Boon 6 Skill Confidence 7 Skillful Recovery Assured Skill[ ] When you select this Talent, choose one Skill. Whenever you roll a Skill Check with that Skill, you can choose to lose any competence bonuses to that Skill Check and instead roll twice, keeping either result. You can select this Talent multiple times. Each time you do so, you must choose a different Skill to gain the benefits of this Talent. Critical Skill Success[ ] Whenever you roll a Natural 20 on a Skill Check, choose one other Skill. Once before the end of your next turn, you can choose to gain a +5 competence bonus to a check with that Skill as a Free Action. Exceptional Skill[ ] When you select this Talent, choose one Trained Skill. Whenever you roll a Skill Check with that Skill, a result of 2-7 on the die is always treated as though you had rolled an 8. You can select this Talent multiple times. Each time you do so, you must choose a different Skill to gain the benefits of this Talent. Reliable Boon[ ] Whenever you spend a Force Point to add to a Skill Check, you always reroll a result of 1 on any of your Force Point dice, and continue to reroll until you get a result of 2 or higher. Skill Boon[ ] When you select this Talent, choose one Trained Skill. Whenever you spend a Force Point to add to that Skill, increase the die type of your Force Point by one step (i.e. from d6 to d8, d8 to d10, d10 to d12), to a maximum of d12. You can select this Talent multiple times. Each time you do so, you must choose a different Skill to gain the benefits of this Talent. Skill Confidence[ ] Prerequisites: Critical Skill Success When you select this Talent, choose one Trained Skill. Whenever you roll a Natural 19 or a Natural 20 on a Skill Check with that Skill, you gain the benefits of the Critical Skill Success Talent and also gain Bonus Hit Points equal to your Charisma modifier. You can select this Talent multiple times. Each time you do so, you must choose a different Skill to gain the benefits of this Talent. Skillful Recovery[ ] When you select this Talent, choose one Trained Skill. Whenever you fail a Skill Check with that Skill, you gain one temporary Force Point. That Force Point can only be spent to add to a Skill Check with the Skill you chose for this Talent. If the Force Point is not spent by the end of the encounter, it is lost. For the purposes of this Talent, failing a Skill Check means failing to get the minimum possible result from the Skill Check. You can select this Talent multiple times. Each time you do so, you must choose a different Skill to gain the benefits of this Talent. Categories Categories: Talent Trees Noble Talent Trees Technician Talent Trees Add category Cancel Save Community content is available under CC-BY-SA unless otherwise noted. More Fandoms Fantasy Sci-fi Star Wars",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": null,
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Noble Talent Trees"
+      },
+      {
+        "value": "Technician Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Noble Talent Trees",
+      "Technician Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Superior Skills Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Superior_Skills_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Galaxy of Intrigue",
+    "cost": "0"
+  },
+  "name": "Skillful Recovery",
+  "flags": {},
+  "type": "talent",
+  "folder": "ntWoq4fvhgAT9r6P",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385312596,
+    "modifiedTime": 1734385312596,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "xkFLEK0KxPOrB7xM",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!xkFLEK0KxPOrB7xM"
+}

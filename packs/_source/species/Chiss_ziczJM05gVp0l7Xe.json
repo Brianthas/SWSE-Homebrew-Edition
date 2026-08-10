@@ -1,0 +1,135 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Legacy_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Legacy Era Campaign Guide\">Star Wars Saga Edition Legacy Era Campaign Guide</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/The_Chiss_Ascendancy\" title=\"The Chiss Ascendancy\">The Chiss Ascendancy</a></i> </p><p>Originating on the cold world of <a href=\"https://swse.fandom.com/wiki/Csilla\" title=\"Csilla\">Csilla</a> in <a href=\"https://swse.fandom.com/wiki/The_Unknown_Regions\" title=\"The Unknown Regions\">The Unknown Regions</a>, the Chiss are largely unknown to the greater galactic community until five years after the Battle of <a href=\"https://swse.fandom.com/wiki/Yavin\" class=\"mw-redirect\" title=\"Yavin\">Yavin</a>, when a Chiss known as Grand Admiral Thrawn rallies the Imperial remnants and goes to war against the New Republic. Even then, the Chiss remain an enigmatic, secretive Species. Their origins are largely unknown, even to the Chiss themselves, though some scientists believe they are descended from an isolated <a href=\"https://swse.fandom.com/wiki/Human\" title=\"Human\">Human</a> colony lost to time. </p><p>The Chiss are technologically advanced, keenly interested in art and science, and skilled at mathematics. Though logical in their mindset, they are also appreciative of philosophy, and interested in other cultures. Given their xenophobic tendencies, it comes as no surprise that the Chiss use their understanding of non-Chiss cultures to gain a tactical advantage over potential adversaries. </p><p>Chiss society is highly ordered and structured. Rule of law is controlled and enforced by a small number of ruling \"Families.\" These ruling families, also known as clans or houses, are more akin to different branches of government than to actual familial units. As a rule, a Chiss will never knowingly do anything to bring shame upon his or her family, for entire lines have been exiled for the actions of a single family member. </p><p>The culture of the Chiss is based on a strict code of conduct. As a rule, they do not attack an opponent unless they are attacked first. Thrawn ignores this imperative when he seizes control of the Imperial remnants, and consequently he is exiled from his people. Although most Chiss are peaceful, once embroiled in military conflict, they do not relent until their opponents are either totally destroyed, or completely subjugated. </p><h3><span class=\"mw-headline\" id=\"Chiss_Characteristics\">Chiss Characteristics</span></h3><p><b>Personality:</b> Many of the galaxy's perceptions of the Chiss and how they behave is initially based on the personality of Grand Admiral Thrawn. As the years pass, it becomes increasingly obvious that all Chiss are individuals, and that Thrawn was an exceptional member of his Species in a number of ways. As such, the impression of the Chiss held by the galaxy at large is that they are arrogant, aloof, and calculating individuals. While this may be true in some instances, Chiss personalities are as varied as those of any other <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>. In general, they tend to be well-educated, artistic, and cautious in their dealings with strangers. </p><p><b>Physical Description:</b> Chiss have deep blue skin and red glowing eyes. The shade of their skin and the crimson of their eyes deepens with the amount of oxygen in the atmosphere that they breathe. They tend to have black hair, though some individuals, especially female Chiss, develop grey hair as they age. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Chiss age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-10 Years </td> \n   <td>11-13 Years </td> \n   <td>14-50 Years </td> \n   <td>51-62 Years </td> \n   <td>63-79 Years </td> \n   <td>80+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The frigid world of <a href=\"https://swse.fandom.com/wiki/Csilla\" title=\"Csilla\">Csilla</a>, in <a href=\"https://swse.fandom.com/wiki/The_Unknown_Regions\" title=\"The Unknown Regions\">The Unknown Regions</a>. </p><p><b>Languages:</b> Cheunh is the complex and nuance-laden language of the Chiss. Most non-Chiss have difficulty learning the intricacies of Cheunh. Chiss on the other hand, have little difficulty mastering Basic, though most of them are unfamiliar with it. </p><p><b>Example Names:</b> Chiss traditionally have long, tripartite names. When dealing with non-Chiss, these names are abbreviated. Examples of abbreviated Chiss names include Deel, Prakk, Karyce, Lev, Sorn, Szardra, Thrawn, Voss, and Zilvad. </p><p><b>Adventurers:</b> Their keen mental acuity allows the Chiss the excel at nearly any occupation they choose to pursue. While there are no known Chiss <a href=\"https://swse.fandom.com/wiki/Jedi\" title=\"Jedi\">Jedi</a>, Force-sensitive Chiss children help navigate the complex Hyperlanes of <a href=\"https://swse.fandom.com/wiki/The_Unknown_Regions\" title=\"The Unknown Regions\">The Unknown Regions</a>. </p><h3><span class=\"mw-headline\" id=\"Chiss_Species_Traits\">Chiss Species Traits</span></h3><p>Chiss share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Chiss",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Low-Light Vision",
+        "type": "trait"
+      },
+      {
+        "name": "Bonus Trained Skill",
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "13",
+          "low": "11",
+          "text": "11-13",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "80",
+          "text": "80+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "10",
+          "low": "1",
+          "text": "1-10",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "79",
+          "low": "63",
+          "text": "63-79",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "50",
+          "low": "14",
+          "text": "14-50",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "62",
+          "low": "51",
+          "text": "51-62",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Chiss"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Low-Light Vision"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Bonus Trained Skill"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Chiss",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535565798,
+    "modifiedTime": 1736535565798,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "ziczJM05gVp0l7Xe",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!ziczJM05gVp0l7Xe"
+}

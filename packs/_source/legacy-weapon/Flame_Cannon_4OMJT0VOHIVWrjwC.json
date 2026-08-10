@@ -1,0 +1,108 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode"
+        }
+      },
+      "statuses": [],
+      "disabled": false,
+      "name": "Single-Shot",
+      "_id": "aA3tj4WZNpNGrIEC",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513490,
+        "modifiedTime": 1786051513490,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!4OMJT0VOHIVWrjwC.aA3tj4WZNpNGrIEC"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_at_War\" title=\"Star Wars Saga Edition Galaxy at War\">Star Wars Saga Edition Galaxy at War</a></i> </p><p>The Flame Cannon is a larger version of the regular <a href=\"https://swse.fandom.com/wiki/Flamethrower\" title=\"Flamethrower\">Flamethrower</a>, with a considerably longer range, hotter temperature, and greater fuel capacity. Examples include the Merr-Sonn Model CR-28 and the Czerka CZ-28 Flamestrike. Mounted on ground <a href=\"https://swse.fandom.com/wiki/Vehicles\" title=\"Vehicles\">Vehicles</a> or tripods, the Flame Cannon is ideal for clearing out bunkers or as a weapon of shock and terror. </p><p>When mounted on a tripod, the Flame Cannon is treated as one size smaller for purposes of being wielded, allowing a Medium character to operate it with two hands. The Flame Cannon shoot a <a href=\"https://swse.fandom.com/wiki/Cone\" class=\"mw-redirect\" title=\"Cone\">Cone</a> of burning chemicals 12 squares long and 8 squares wide at the terminus. </p><p>Make a single attack roll and compare the result to the <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> of every target within this area. A successful attack deals 5d6 points of <a href=\"https://swse.fandom.com/wiki/Fire\" title=\"Fire\">Fire</a> damage to the target. If the attack misses, the target instead takes half damage. A target with the <b><a href=\"https://swse.fandom.com/wiki/Evasion\" class=\"mw-redirect\" title=\"Evasion\">Evasion</a></b> Talent takes half damage from a successful attack and no damage if the attack misses. The normal rules for taking <a href=\"https://swse.fandom.com/wiki/Fire\" title=\"Fire\">Fire</a> damage apply. </p><p>Reloading a Flame Cannon is a <a href=\"https://swse.fandom.com/wiki/Full-Round_Action\" class=\"mw-redirect\" title=\"Full-Round Action\">Full-Round Action</a>. The weapon can be used 20 times before its chemical supply is depleted. Replacement tanks for the Flame Cannon cost 600 credits and weigh 20 kg each. </p><p><b>Special:</b>&nbsp;This is an&nbsp;<a href=\"https://swse.fandom.com/wiki/Area_Attack\" class=\"mw-redirect\" title=\"Area Attack\">Area Attack</a>&nbsp;Weapon. </p><p><b>Special:</b> A Flame Cannon mounted on a tripod is treated as a Large weapon, rather than Huge. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "3,000",
+    "weight": "15 Kilograms",
+    "availability": "Military",
+    "size": "Huge",
+    "type": "",
+    "subtype": "Heavy Weapons",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "5d6",
+    "damageType": "Fire",
+    "specialQualities": "Special: This is an Area Attack Weapon.\n\nSpecial: A Flame Cannon mounted on a tripod is treated as a Large weapon, rather than Huge."
+  },
+  "name": "Flame Cannon",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Flame_Cannon.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513490,
+    "modifiedTime": 1786051513576,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "4OMJT0VOHIVWrjwC",
+  "_key": "!items!4OMJT0VOHIVWrjwC"
+}

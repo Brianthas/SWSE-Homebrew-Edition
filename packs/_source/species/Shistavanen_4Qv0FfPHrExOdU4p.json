@@ -1,0 +1,166 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i></p><p>More commonly known to the galactic populace by the nickname Wolfmen, the Shistavanen are an isolationist Species that originates in the Uvena System. Having evolved from predators, Shistavanen excel at hunting and can track prey through crowded urban streets and across desolate plains with equal ease. </p><p>Although the vast majority of Shistavanen prefer to remain within their home system, a growing minority choose to travel the galaxy's Hyperlanes. Even during the height of the First Galactic Empire's discrimination against non-<a href=\"https://swse.fandom.com/wiki/Humans\" class=\"mw-redirect\" title=\"Humans\">Humans</a>, Imperial Intelligence made frequent use of those Shistavanen it could recruit; other Shistavanen joined <a href=\"https://swse.fandom.com/wiki/The_Rebel_Alliance\" title=\"The Rebel Alliance\">The Rebel Alliance</a>. </p><h3><span class=\"mw-headline\" id=\"Shistavanen_Characteristics\">Shistavanen Characteristics</span></h3><p><b>Personality:</b> The Shistavanen are aggressive and forthright to the point of rudeness, and they prefer the company of their own kind over that of other <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>. Known and feared for their surly temperament, some Shistavanen overcome their natural tendencies and are more sociable and outgoing, but only a rare few fully overcome their cultural prejudices. </p><p><b>Physical Description:</b> Shistavanen have large, slightly glowing eyes, pointed ears, and pronounced muzzles lined with sharp teeth. Their bodies are covered with thick brown or black fur, and their fingers and toes are tipped with the sharp claws of their predatory ancestors. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b>&nbsp;Shistavanen age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-9 Years </td> \n   <td>10-13 Years </td> \n   <td>14-40 Years </td> \n   <td>41-60 Years </td> \n   <td>61-95 Years </td> \n   <td>96+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Shistavanen come from <span class=\"new\" title=\"Uvena Prime (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvVXZlbmFfUHJpbWU/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Uvena Prime</span>, one of several habitable planets in the Uvena System in <a href=\"https://swse.fandom.com/wiki/The_Outer_Rim_Territories\" class=\"mw-redirect\" title=\"The Outer Rim Territories\">The Outer Rim Territories</a>. The Shistavanen were quick to colonize the remaining worlds of their system in an effort to keep outsiders from getting too involved in their affairs. </p><p><b>Languages:</b> Shistavanen read, speak, and write Shistavanen, which is composed mostly of barks and growls of varying volume and pitch. </p><p><b>Example Names:</b> Hovrak, Lak Sivrak, Riv Shiel, Severian, Voolvif Monn. </p><p><b>Adventurers:</b> Those Shistavanen who overcome their Species' xenophobic tendencies and head out into the galaxy engage in a wide array of occupations, but most rely on their quick reflexes and keen senses and become bounty hunters, explorers, mercenaries, pilots, or sport hunters. Shistavanen have also served in both the Old and New Jedi Orders. </p><h3><span class=\"mw-headline\" id=\"Shistavanen_Species_Traits\">Shistavanen Species Traits</span></h3><p>Shistavanen share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Perception))",
+        "type": "trait"
+      },
+      {
+        "name": "Bonus Class Skill (Survival)",
+        "type": "trait"
+      },
+      {
+        "name": "Shistavanen",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Low-Light Vision",
+        "type": "trait"
+      },
+      {
+        "name": "Natural Weapons",
+        "type": "trait"
+      },
+      {
+        "name": "Quick Reflexes",
+        "type": "trait"
+      },
+      {
+        "name": "Skill Focus (Perception)",
+        "type": "feat"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "40",
+          "low": "14",
+          "text": "14-40",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "60",
+          "low": "41",
+          "text": "41-60",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "96",
+          "text": "96+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "13",
+          "low": "10",
+          "text": "10-13",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "9",
+          "low": "1",
+          "text": "1-9",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "95",
+          "low": "61",
+          "text": "61-95",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Bonus Class Skill"
+      },
+      {
+        "value": "Conditional Bonus Feat (Skill Focus (Perception))"
+      },
+      {
+        "value": "Bonus Class Skill (Survival)"
+      },
+      {
+        "value": "Shistavanen"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Low-Light Vision"
+      },
+      {
+        "value": "Natural Weapons"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Conditional Bonus Feat"
+      },
+      {
+        "value": "Quick Reflexes"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Shistavanen",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535567215,
+    "modifiedTime": 1736535567215,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "4Qv0FfPHrExOdU4p",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!4Qv0FfPHrExOdU4p"
+}

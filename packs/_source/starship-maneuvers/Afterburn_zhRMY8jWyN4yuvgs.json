@@ -1,0 +1,89 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Starship_Maneuvers\" title=\"Starship Maneuvers\">Starship Maneuvers</a></i> </p><p>This maneuver allows a&nbsp;<a href=\"https://swse.fandom.com/wiki/Pilot_(Vehicle_Combat)\" title=\"Pilot (Vehicle Combat)\">Pilot</a>&nbsp;to throttle up and blast past enemies, to avoid becoming entangled in&nbsp;<a href=\"https://swse.fandom.com/wiki/Dogfights\" class=\"mw-redirect\" title=\"Dogfights\">Dogfights</a>. </p><p><b>Time:</b>&nbsp;<a href=\"https://swse.fandom.com/wiki/Full-Round_Action\" class=\"mw-redirect\" title=\"Full-Round Action\">Full-Round Action</a> </p><p><b>Targets:</b>&nbsp;Self </p><p><b>Make a&nbsp;<a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a>&nbsp;check.</b> The result of the check determines the effects, if any: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td> </td> \n   <td>You immediately take the <a href=\"https://swse.fandom.com/wiki/All-Out_Movement\" title=\"All-Out Movement\">All-Out Movement</a> Action as a <a href=\"https://swse.fandom.com/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a>. Additionally, during this Action you gain a +1 maneuver bonus on all <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> checks made to resist another <a href=\"https://swse.fandom.com/wiki/Pilot_(Vehicle_Combat)\" title=\"Pilot (Vehicle Combat)\">Pilot</a> initiating a <a href=\"https://swse.fandom.com/wiki/Dogfight\" title=\"Dogfight\">Dogfight</a>. </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td> </td> \n   <td>You immediately take the <a href=\"https://swse.fandom.com/wiki/All-Out_Movement\" title=\"All-Out Movement\">All-Out Movement</a> Action as a <a href=\"https://swse.fandom.com/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a>. Additionally, during this Action you gain a +2 maneuver bonus on all <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> checks made to resist another <a href=\"https://swse.fandom.com/wiki/Pilot_(Vehicle_Combat)\" title=\"Pilot (Vehicle Combat)\">Pilot</a> initiating a <a href=\"https://swse.fandom.com/wiki/Dogfight\" title=\"Dogfight\">Dogfight</a>. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td> </td> \n   <td>You immediately take the <a href=\"https://swse.fandom.com/wiki/All-Out_Movement\" title=\"All-Out Movement\">All-Out Movement</a> Action as a <a href=\"https://swse.fandom.com/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a>. Additionally, during this Action you gain a +5 maneuver bonus on all <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> checks made to resist another <a href=\"https://swse.fandom.com/wiki/Pilot_(Vehicle_Combat)\" title=\"Pilot (Vehicle Combat)\">Pilot</a> initiating a <a href=\"https://swse.fandom.com/wiki/Dogfight\" title=\"Dogfight\">Dogfight</a>. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td> </td> \n   <td>You immediately take the <a href=\"https://swse.fandom.com/wiki/All-Out_Movement\" title=\"All-Out Movement\">All-Out Movement</a> Action as a <a href=\"https://swse.fandom.com/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a>. Additionally, during this Action you gain a +10 maneuver bonus on all <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> checks made to resist another <a href=\"https://swse.fandom.com/wiki/Pilot_(Vehicle_Combat)\" title=\"Pilot (Vehicle Combat)\">Pilot</a> initiating a <a href=\"https://swse.fandom.com/wiki/Dogfight\" title=\"Dogfight\">Dogfight</a>. </td>\n  </tr>\n </tbody>\n</table>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "15:You immediately take the All-Out Movement Action as a Free Action. Additionally, during this Action you gain a +1 maneuver bonus on all Pilot checks made to resist another Pilot initiating a Dogfight.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "20:You immediately take the All-Out Movement Action as a Free Action. Additionally, during this Action you gain a +2 maneuver bonus on all Pilot checks made to resist another Pilot initiating a Dogfight.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "25:You immediately take the All-Out Movement Action as a Free Action. Additionally, during this Action you gain a +5 maneuver bonus on all Pilot checks made to resist another Pilot initiating a Dogfight.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "30:You immediately take the All-Out Movement Action as a Free Action. Additionally, during this Action you gain a +10 maneuver bonus on all Pilot checks made to resist another Pilot initiating a Dogfight.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "Reference Book: Star Wars Saga Edition Starships of the Galaxy See also: Starship Maneuvers This maneuver allows a Pilot to throttle up and blast past enemies, to avoid becoming entangled in Dogfights. Time: Full-Round Action Targets: Self Make a Pilot check. The result of the check determines the effects, if any:",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "Full-Round Action",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "Self",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "cumulative"
+      },
+      {
+        "mode": 2,
+        "value": "Pilot",
+        "key": "rollType"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Afterburn",
+  "flags": {},
+  "type": "forcePower",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738608591289,
+    "modifiedTime": 1738608591289,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX"
+  },
+  "_id": "zhRMY8jWyN4yuvgs",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!zhRMY8jWyN4yuvgs"
+}

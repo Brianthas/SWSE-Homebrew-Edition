@@ -1,0 +1,64 @@
+{
+  "img": "systems/swse/icon/feat/Improved Rapid Strike.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>Your <a href=\"https://swse.fandom.com/wiki/Rapid_Strike\" title=\"Rapid Strike\">Rapid Strike</a> is more effective with Light Melee Weapons.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Rapid_Strike\" title=\"Rapid Strike\">Rapid Strike</a></p><p><b>Effect:</b> When using a Light Melee Weapon or <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> with the <a href=\"https://swse.fandom.com/wiki/Rapid_Strike\" title=\"Rapid Strike\">Rapid Strike</a> Feat, you can take a -5 penalty to your attack roll to gain +2 dice of damage on a successful strike.</p><p><b>Special:</b> This does not stack with the <a href=\"https://swse.fandom.com/wiki/Rapid_Strike\" title=\"Rapid Strike\">Rapid Strike</a> Feat or extra damage provided by any source that does not stack with the <a href=\"https://swse.fandom.com/wiki/Rapid_Strike\" title=\"Rapid Strike\">Rapid Strike</a> Feat (such as <a href=\"https://swse.fandom.com/wiki/Mighty_Swing\" title=\"Mighty Swing\">Mighty Swing</a>). If you do not have a <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> of 13 or higher, the penalty to your attack roll is -10 instead of -5.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Rapid Strike feat",
+      "requirement": "Rapid Strike",
+      "type": "FEAT"
+    },
+    "categories": [
+      {
+        "value": "Soldier Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Jedi Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Bonus Feats",
+      "General Feats",
+      "Jedi Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Improved Rapid Strike",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479027473,
+    "modifiedTime": 1761479027473,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "sJqXAskuudJMeiN6",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!sJqXAskuudJMeiN6"
+}

@@ -1,0 +1,65 @@
+{
+  "img": "systems/swse/icon/feat/Perfect_Intuition.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Rebellion_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Rebellion Era Campaign Guide\">Star Wars Saga Edition Rebellion Era Campaign Guide</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a>, <a href=\"https://swse.fandom.com/wiki/Species_Feats\" class=\"mw-redirect\" title=\"Species Feats\">Species Feats</a></i></p><p>Your insights serve you well, giving you some of the fastest reaction times among members of your Species.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Cerean\" title=\"Cerean\">Cerean</a></p><p><b>Effect:</b> Whenever you reroll an <a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a> check, you always keep the better result, even if you have multiple reroll abilities.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Initiative:akh:Reference Book: Star Wars Saga Edition Rebellion Era Campaign Guide See also: Feats, Species Feats Your insights serve you well, giving you some of the fastest reaction times among members of your Species. Prerequisite: Cerean Effect: Whenever you reroll an Initiative check, you always keep the better result, even if you have multiple reroll abilities.",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Cerean species",
+      "requirement": "Cerean",
+      "type": "SPECIES"
+    },
+    "categories": [
+      {
+        "value": "Species Feats"
+      },
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Rebellion Era Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Perfect Intuition",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479028269,
+    "modifiedTime": 1761479028269,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "iqBHTeefmC1pAXBz",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!iqBHTeefmC1pAXBz"
+}

@@ -1,0 +1,72 @@
+{
+  "img": "systems/swse/icon/feat/Suppression_Fire.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Threats_of_the_Galaxy\" title=\"Star Wars Saga Edition Threats of the Galaxy\">Star Wars Saga Edition Threats of the Galaxy</a></i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You can lay down a hail of blaster fire to pin your enemies.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> 13, <a href=\"https://swse.fandom.com/wiki/Burst_Fire\" title=\"Burst Fire\">Burst Fire</a>, <a href=\"https://swse.fandom.com/wiki/Weapon_Proficiency_(Heavy_Weapons)\" class=\"mw-redirect\" title=\"Weapon Proficiency (Heavy Weapons)\">Weapon Proficiency (Heavy Weapons)</a></p><p><b>Effect:</b> When you use the <a href=\"https://swse.fandom.com/wiki/Aid_Another\" title=\"Aid Another\">Aid Another</a> action to impose a penalty to an enemy's attack rolls and your attack roll exceeds the target's <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a>, that enemy must end its next turn in a position where it has <a href=\"https://swse.fandom.com/wiki/Cover\" title=\"Cover\">Cover</a> from you if possible. Targets whose level is equal to or higher than your Character Level are immune to the effect of Suppression Fire. This is a <a href=\"https://swse.fandom.com/wiki/Mind-Affecting\" class=\"mw-redirect\" title=\"Mind-Affecting\">Mind-Affecting</a> Fear effect.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Strength 13",
+          "requirement": "Strength 13",
+          "type": "ATTRIBUTE"
+        },
+        {
+          "text": "Burst Fire feat",
+          "requirement": "Burst Fire",
+          "type": "FEAT"
+        },
+        {
+          "text": "Weapon Proficiency (Heavy Weapons)",
+          "requirement": "Weapon Proficiency (Heavy Weapons)",
+          "type": "FEAT"
+        }
+      ],
+      "text": "Strength 13, Burst Fire feat, and Weapon Proficiency (Heavy Weapons)",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Threats of the Galaxy",
+    "cost": "0"
+  },
+  "name": "Suppression Fire",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479029058,
+    "modifiedTime": 1761479029058,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "wOOgFcs5fRug8ee3",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!wOOgFcs5fRug8ee3"
+}

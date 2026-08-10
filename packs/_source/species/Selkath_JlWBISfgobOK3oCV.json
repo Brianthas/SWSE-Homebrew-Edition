@@ -1,0 +1,153 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i> </p><p> The Selkath are amphibious beings native to the planet <a href=\"https://swse.fandom.com/wiki/Manaan\" title=\"Manaan\">Manaan</a>. During <a href=\"https://swse.fandom.com/wiki/The_Old_Republic_Era\" class=\"mw-redirect\" title=\"The Old Republic Era\">The Old Republic Era</a>, <a href=\"https://swse.fandom.com/wiki/Manaan\" title=\"Manaan\">Manaan</a> is one of the most important planets in the galaxy. As the sole source of Kolto (a naturally occurring healing agent, much more effective than Bacta), <a href=\"https://swse.fandom.com/wiki/Manaan\" title=\"Manaan\">Manaan</a> is able to retain its neutrality by supplying all sides of a conflict with the vital substance. The Selkath leaders might favor one side over another if it is in the long-term interests of the planet. However, Selkath closely guard their neutrality, lest they fall prey to powerful corporations, or oppressive invaders.</p><p>Few Selkath travel offworld, preferring the habitat of their homeworld. They have never joined the Republic, or any galactic organization, so most have little reason to leave. They enjoy the technology and wealth produced by the sale of Kolto. All contact with offworlders occurs in Ahto; the Selkath live in underwater cities and settlements scattered around the planet. As amphibious creatures, they are equally at home in either locale. However, those areas closer to Ahto are home to more sophisticated and technologically advanced Selkath settlements. Historically, Selkath settlements were divided by clan affiliation. However, those affiliations have become less pronounced due to the importance of Kolto production. </p><h3><span class=\"mw-headline\" id=\"Selkath_Characteristics\">Selkath Characteristics</span></h3><p><b>Personality:</b> Selkath prefer negotiation and diplomacy to direct, possibly rash actions, especially where influential governments are concerned. They are not pacifists so much as pragmatics, being less reserved when dealing with other Selkath. </p><p><b>Physical Description:</b> Selkath are amphibious humanoids, with large eyes on each side of their wide, flat heads. They have concealed gill slits that work equally well in air or water. They have natural poisoned, retractile claws, but it is socially unacceptable (and illegal on <a href=\"https://swse.fandom.com/wiki/Manaan\" title=\"Manaan\">Manaan</a>) to use them against an opponent. Nevertheless, highly enraged Selkath occasionally disregard this restriction. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Selkath age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-10 Years </td> \n   <td>11-15 Years </td> \n   <td>16-54 Years </td> \n   <td>55-84 Years </td> \n   <td>85-99 Years </td> \n   <td>100+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> <a href=\"https://swse.fandom.com/wiki/Manaan\" title=\"Manaan\">Manaan</a> is a temperate world in <a href=\"https://swse.fandom.com/wiki/The_Mid_Rim\" title=\"The Mid Rim\">The Mid Rim</a>. </p><p><b>Languages:</b> Selkath speak their own language, also called Selkath. </p><p><b>Example Names:</b> Qual, Shasa, Shaelas, Shelkar. </p><p><b>Adventurers:</b> Selkath adventurers are normally <a href=\"https://swse.fandom.com/wiki/Scouts\" class=\"mw-redirect\" title=\"Scouts\">Scouts</a> or <a href=\"https://swse.fandom.com/wiki/Nobles\" class=\"mw-redirect\" title=\"Nobles\">Nobles</a>. Few Selkath are known to have joined <a href=\"https://swse.fandom.com/wiki/The_Jedi_Order\" class=\"mw-redirect\" title=\"The Jedi Order\">The Jedi Order</a>, though some Force-sensitive Selkath create <a href=\"https://swse.fandom.com/wiki/The_Order_of_Shasa\" title=\"The Order of Shasa\">The Order of Shasa</a>. </p><h3><span class=\"mw-headline\" id=\"Selkath_Species_Traits\">Selkath Species Traits</span></h3><p>Selkath share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Selkath",
+        "type": "trait"
+      },
+      {
+        "name": "Breathe Underwater",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Expert Swimmer",
+        "type": "trait"
+      },
+      {
+        "name": "Able Healers",
+        "type": "trait"
+      },
+      {
+        "name": "Swimming",
+        "type": "trait"
+      },
+      {
+        "name": "Swim Speed (4)",
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "54",
+          "low": "16",
+          "text": "16-54",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "99",
+          "low": "85",
+          "text": "85-99",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "84",
+          "low": "55",
+          "text": "55-84",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "100",
+          "text": "100+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "15",
+          "low": "11",
+          "text": "11-15",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "10",
+          "low": "1",
+          "text": "1-10",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Selkath"
+      },
+      {
+        "value": "Breathe Underwater"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Expert Swimmer"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Able Healers"
+      },
+      {
+        "value": "Swimming"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Selkath",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535567181,
+    "modifiedTime": 1736535567181,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "JlWBISfgobOK3oCV",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!JlWBISfgobOK3oCV"
+}

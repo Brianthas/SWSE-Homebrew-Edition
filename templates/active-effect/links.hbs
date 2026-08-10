@@ -1,0 +1,15 @@
+<section class="tab{{#if tab.active}} active{{/if}}" data-group="{{tab.group}}" data-tab="{{tab.id}}">
+    <ol class="item-list">
+        {{#each links as |link i|}}
+            <li class="flexrow item">
+                <div>{{link.name}}</div>
+                <div>type: {{link.type}}</div>
+
+                <div class="change-controls">
+                    <a class="change-control" data-action="link-control" data-action-type="delete" data-name="{{link.name}}" data-uuid="{{link.uuid}}"><i
+                            class="fas fa-trash"></i></a>
+                </div>
+            </li>
+        {{/each}}
+    </ol>
+</section>

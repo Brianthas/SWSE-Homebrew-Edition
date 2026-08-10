@@ -1,0 +1,71 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Once per round, when you deal damage equal to or greater than the target's <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a>, you can make a <a href=\"https://swse.fandom.com/wiki/Persuasion\" title=\"Persuasion\">Persuasion</a> check as a <a href=\"https://swse.fandom.com/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a>; if the result equals or exceeds the target's <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a>, you fill the target with terror, causing it to flee from you at top speed for 1 minute. The target can't take <a href=\"https://swse.fandom.com/wiki/Standard_Actions\" title=\"Standard Actions\">Standard Actions</a>, <a href=\"https://swse.fandom.com/wiki/Swift_Actions\" title=\"Swift Actions\">Swift Actions</a>, or <a href=\"https://swse.fandom.com/wiki/Full-Round_Actions\" title=\"Full-Round Actions\">Full-Round Actions</a> while fleeing, but the target stops fleeing and can act normally if it is wounded. As a <a href=\"https://swse.fandom.com/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a> or <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a>, the target can spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> (if it has not already spent one earlier in the round) to negate the effect. The effect is automatically negated if the target's level is equal to or higher than your Character Level. This is a <a href=\"https://swse.fandom.com/wiki/Mind-Affecting\" class=\"mw-redirect\" title=\"Mind-Affecting\">Mind-Affecting</a> fear effect.<br><br>Unlike with other <a href=\"https://swse.fandom.com/wiki/Mind-Affecting\" class=\"mw-redirect\" title=\"Mind-Affecting\">Mind-Affecting</a> effects, you need only to hail a <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> to weaken the crew's resolve. When you deal damage that equals or exceeds a Vehicle's <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a>, you may use this Talent; in addition, you may <a href=\"https://swse.fandom.com/wiki/Ready\" class=\"mw-redirect\" title=\"Ready\">Ready</a> an Action to use this Talent after any <a href=\"https://swse.fandom.com/wiki/Gunner\" title=\"Gunner\">Gunner</a> on your <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> deals damage that equals or exceeds a Vehicle's <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a>. You make your check against the Vehicle's <a href=\"https://swse.fandom.com/wiki/Commander\" title=\"Commander\">Commander</a>; all <a href=\"https://swse.fandom.com/wiki/Nonheroic\" title=\"Nonheroic\">Nonheroic</a> crews are assumed to have a <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a> of 10. The effect is automatically negated if the target Vehicle's Challenge Level is greater than your Heroic Level or your Vehicle's Challenge Level.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Presence talent",
+      "requirement": "Presence",
+      "type": "TALENT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Noble Talent Trees"
+      },
+      {
+        "value": "Crime Lord Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Noble Talent Trees",
+      "Crime Lord Talent Trees",
+      "Core Rulebook"
+    ],
+    "isSupplied": false,
+    "talentTree": "Influence Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Influence_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Core Rulebook",
+    "cost": "0"
+  },
+  "name": "Weaken Resolve",
+  "flags": {},
+  "type": "talent",
+  "folder": "RQ5ygSCNfkeA8kHH",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385306202,
+    "modifiedTime": 1734385306202,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "woVuS6EO5XEkrGui",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!woVuS6EO5XEkrGui"
+}

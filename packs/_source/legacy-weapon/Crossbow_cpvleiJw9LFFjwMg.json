@@ -1,0 +1,107 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode"
+        }
+      },
+      "statuses": [],
+      "disabled": false,
+      "name": "Single-Shot",
+      "_id": "qFhwsCIUD6qRGVe8",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513473,
+        "modifiedTime": 1786051513473,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!cpvleiJw9LFFjwMg.qFhwsCIUD6qRGVe8"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p>A primitive weapon used by cultures lacking access to blaster or black-powder weaponry, the Crossbow requires more time to reload than a <a href=\"https://swse.fandom.com/wiki/Bow\" title=\"Bow\">Bow</a>, and it exchanges <a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a> for greater stopping power. </p><p>In spite of these drawbacks, professional assassins use modified Crossbows because they are quiet and do not show up on <a href=\"https://swse.fandom.com/wiki/Weapon_Detectors\" class=\"mw-redirect\" title=\"Weapon Detectors\">Weapon Detectors</a>. As a further benefit to explorers, crossbow bolts can be manufactured by hand with a little time and effort, although the quality of such makeshift ammunition might be questionable. </p><p>A Crossbow holds only a single bolt at a time, and it requires a <a href=\"https://swse.fandom.com/wiki/Move_Action\" class=\"mw-redirect\" title=\"Move Action\">Move Action</a> to reload. A case of 10 crossbow bolts costs 20 credits and weighs 0.6 kg. </p><p><b>Inaccurate:</b>&nbsp;This weapon cannot fire at targets at Long&nbsp;<a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a>. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "300",
+    "weight": "1.8 Kilograms",
+    "availability": "",
+    "size": "Medium",
+    "type": "",
+    "subtype": "Simple Ranged Weapons",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "1d8",
+    "damageType": "Piercing"
+  },
+  "name": "Crossbow",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Crossbow.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513473,
+    "modifiedTime": 1786051513571,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "cpvleiJw9LFFjwMg",
+  "_key": "!items!cpvleiJw9LFFjwMg"
+}

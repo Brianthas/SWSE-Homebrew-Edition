@@ -1,0 +1,89 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Starship_Maneuvers\" title=\"Starship Maneuvers\">Starship Maneuvers</a></i> </p><p>This maneuver allows a ship to close in on its target, striking from short range with devastating effect. </p><p><b>Time:</b>&nbsp;<a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a> </p><p><b>Targets:</b>&nbsp;One adjacent <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a>. </p><p><b>Make a&nbsp;<a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a>&nbsp;check.</b> The result of the check determines the effects, if any: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td> </td> \n   <td>If you successfully damage the target of this maneuver this turn, compare your attack roll to the target's <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>. If your attack roll exceeds the target's <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>, the target moves -1 step down the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>. </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td> </td> \n   <td>You gain a +1 maneuver bonus to your next attack roll made against the chosen target. Additionally, if you successfully damage the target of this maneuver this turn, compare your attack roll to the target's <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>. If your attack roll exceeds the target's <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>, the target moves -1 step down the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td> </td> \n   <td>You gain a +2 maneuver bonus to your next attack roll made against the chosen target. Additionally, if you successfully damage the target of this maneuver this turn, compare your attack roll to the target's <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>. If your attack roll exceeds the target's <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>, the target moves -1 step down the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td> </td> \n   <td>You gain a +5 maneuver bonus to your next attack roll made against the chosen target. Additionally, if you successfully damage the target of this maneuver this turn, compare your attack roll to the target's <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>. If your attack roll exceeds the target's <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>, the target moves -1 step down the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>. </td>\n  </tr>\n </tbody>\n</table>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "15:If you successfully damage the target of this maneuver this turn, compare your attack roll to the target's Fortitude Defense. If your attack roll exceeds the target's Fortitude Defense, the target moves -1 step down the Condition Track.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "20:You gain a +1 maneuver bonus to your next attack roll made against the chosen target. Additionally, if you successfully damage the target of this maneuver this turn, compare your attack roll to the target's Fortitude Defense. If your attack roll exceeds the target's Fortitude Defense, the target moves -1 step down the Condition Track.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "25:You gain a +2 maneuver bonus to your next attack roll made against the chosen target. Additionally, if you successfully damage the target of this maneuver this turn, compare your attack roll to the target's Fortitude Defense. If your attack roll exceeds the target's Fortitude Defense, the target moves -1 step down the Condition Track.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "30:You gain a +5 maneuver bonus to your next attack roll made against the chosen target. Additionally, if you successfully damage the target of this maneuver this turn, compare your attack roll to the target's Fortitude Defense. If your attack roll exceeds the target's Fortitude Defense, the target moves -1 step down the Condition Track.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "Reference Book: Star Wars Saga Edition Starships of the Galaxy See also: Starship Maneuvers This maneuver allows a ship to close in on its target, striking from short range with devastating effect. Time: Swift Action Targets: One adjacent Vehicle. Make a Pilot check. The result of the check determines the effects, if any:",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "Swift Action",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "One adjacent Vehicle.",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "cumulative"
+      },
+      {
+        "mode": 2,
+        "value": "Pilot",
+        "key": "rollType"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "I Have You Now",
+  "flags": {},
+  "type": "forcePower",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738608591486,
+    "modifiedTime": 1738608591486,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX"
+  },
+  "_id": "8bOEcOAVuBW4rrVP",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!8bOEcOAVuBW4rrVP"
+}

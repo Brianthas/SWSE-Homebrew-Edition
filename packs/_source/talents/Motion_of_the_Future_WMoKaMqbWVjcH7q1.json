@@ -1,0 +1,80 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "As a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>, you can peer into the future in search of signs of danger, removing one use of the <i><a href=\"https://swse.fandom.com/wiki/Farseeing\" title=\"Farseeing\">Farseeing</a></i> Force Power from your active <a href=\"https://swse.fandom.com/wiki/Force_Power_Suite\" class=\"mw-redirect\" title=\"Force Power Suite\">Force Power Suite</a> (as though you had just activated the Force Power).<br><br>Any time before the end of your next turn when you are the target of an attack or <a href=\"https://swse.fandom.com/wiki/Force_Power\" class=\"mw-redirect\" title=\"Force Power\">Force Power</a>, you can force your attacker to reroll the attack roll (or <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check) against you, keeping the second result. This counts as using the <i><a href=\"https://swse.fandom.com/wiki/Farseeing\" title=\"Farseeing\">Farseeing</a></i> Force Power against the attacker, but this Talent replaces the normal rules and effect of that Force Power.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:As a<a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>, you can peer into the future in search of signs of danger, removing one use of the<i><a href=\"https://swse.fandom.com/wiki/Farseeing\" title=\"Farseeing\">Farseeing</a></i>Force Power from your active<a href=\"https://swse.fandom.com/wiki/Force_Power_Suite\" class=\"mw-redirect\" title=\"Force Power Suite\">Force Power Suite</a>(as though you had just activated the Force Power).<br><br>Any time before the end of your next turn when you are the target of an attack or<a href=\"https://swse.fandom.com/wiki/Force_Power\" class=\"mw-redirect\" title=\"Force Power\">Force Power</a>, you can force your attacker to reroll the attack roll (or<a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a>check) against you, keeping the second result. This counts as using the<i><a href=\"https://swse.fandom.com/wiki/Farseeing\" title=\"Farseeing\">Farseeing</a></i>Force Power against the attacker, but this Talent replaces the normal rules and effect of that Force Power.",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Force Perception talent",
+          "requirement": "Force Perception",
+          "type": "TALENT"
+        },
+        {
+          "text": "Farseeing force power",
+          "requirement": "Farseeing",
+          "type": "FORCE POWER"
+        }
+      ],
+      "text": "Force Perception talent, and Farseeing force power",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Force Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Force Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Sense Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Sense_Talent_Tree",
+    "bonusTalentTree": "Force Talent Trees",
+    "source": "Star Wars Saga Edition Jedi Academy Training Manual",
+    "cost": "0"
+  },
+  "name": "Motion of the Future",
+  "flags": {},
+  "type": "talent",
+  "folder": "FrSDSdy4zKdILgmO",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385311438,
+    "modifiedTime": 1734385311438,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "WMoKaMqbWVjcH7q1",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!WMoKaMqbWVjcH7q1"
+}

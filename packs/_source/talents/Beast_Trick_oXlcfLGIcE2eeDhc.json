@@ -1,0 +1,63 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You can use the <i><a href=\"https://swse.fandom.com/wiki/Mind_Trick\" title=\"Mind Trick\">Mind Trick</a></i> Force Power on creatures with an <a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a> score of 2 and lower. However, a <a href=\"https://swse.fandom.com/wiki/Beast\" title=\"Beast\">Beast</a> with an <a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a> score of 2 or less still cannot perform any complex actions, or understand complex commands it wouldn't otherwise be able to understand.<br><br>An affected Beast might understand \"Attack those sith troopers!\" but it would not comprehend, \"Break into the command center, and disable the communications array.\"",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Mind Trick force power",
+      "requirement": "Mind Trick",
+      "type": "FORCE POWER"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Force Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Force Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Control Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Control_Talent_Tree",
+    "bonusTalentTree": "Force Talent Trees",
+    "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Beast Trick",
+  "flags": {},
+  "type": "talent",
+  "folder": "Aiyj1Z0FNJmbMWjE",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385303660,
+    "modifiedTime": 1734385303660,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "oXlcfLGIcE2eeDhc",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!oXlcfLGIcE2eeDhc"
+}

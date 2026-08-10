@@ -1,0 +1,164 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "group": "Damage Type"
+        }
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Slashing",
+      "_id": "56d6soXnQpoGiMQY",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Slashing",
+            "key": "damageType",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513499,
+        "modifiedTime": 1786051513499,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!WZYN4lDpUP8qSIfG.56d6soXnQpoGiMQY"
+    },
+    {
+      "flags": {
+        "swse": {
+          "group": "Damage Type"
+        }
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Piercing",
+      "_id": "nekwtTAoibSyXGq6",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Piercing",
+            "key": "damageType",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513499,
+        "modifiedTime": 1786051513499,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!WZYN4lDpUP8qSIfG.nekwtTAoibSyXGq6"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p>While many weapons rely on highly advanced technology, Knives still see wide use. A Knife is completely silent, and serves well in close-combat skirmishes. </p><p><b>Special:</b> Can be <a href=\"https://swse.fandom.com/wiki/Thrown\" class=\"mw-redirect\" title=\"Thrown\">Thrown</a> </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isThrowable"
+      }
+    ],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "25",
+    "weight": "1 Kilogram",
+    "availability": "",
+    "size": "Tiny",
+    "type": "",
+    "subtype": "Simple Melee Weapons",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "1d4"
+  },
+  "name": "Knife",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Knife.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513499,
+    "modifiedTime": 1786051513578,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "WZYN4lDpUP8qSIfG",
+  "_key": "!items!WZYN4lDpUP8qSIfG"
+}

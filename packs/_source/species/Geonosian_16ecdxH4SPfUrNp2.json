@@ -1,0 +1,149 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Clone_Wars_Campaign_Guide\" title=\"Star Wars Saga Edition Clone Wars Campaign Guide\">Star Wars Saga Edition Clone Wars Campaign Guide</a></i> </p><p>The Geonosians are a caste-dominated Species from the world of <a href=\"https://swse.fandom.com/wiki/Geonosis\" title=\"Geonosis\">Geonosis</a>, in the system of the same name. They dwell in a spectacular architectural realm carved from the soaring, rocky spires that dot the planet's landscape. They are somewhat resistant to the <a href=\"https://swse.fandom.com/wiki/Radiation\" title=\"Radiation\">Radiation</a> that occasionally showers their world, though Geonosians actually live underground to escape that phenomenon. </p><p>Geonosians are born into specific castes divided along the lines of their physical attributes, and though most Geonosians are content to remain within their caste until they die, some develop ambition. The life of a low-ranking Geonosian Worker is ordinarily one of ongoing toil, laboring to fulfill the whims of a Geonosian Aristocracy that sometimes makes spectacular demands. The society allows Geonosians from lower castes to escape from the drudgery through gladiatorial combat. </p><p>Geonosians relish battle and public executions. Anyone the Geonosians capture is sent to the arena, to provide amusement for the masses. There, the hapless individual either faces some savage beast or fights to the death against another sentient being. A Geonosian from a low caste who volunteers for these battles can, if they survive, achieve some measure of status by distinguishing themselves in the arena- if only in the form of fame, fortune, and the right to be recognized by Aristocrats (though still not treated quite as equal). Most who survive long enough to amass any real wealth or prestige use it to buy their way off <a href=\"https://swse.fandom.com/wiki/Geonosis\" title=\"Geonosis\">Geonosis</a>, never to return. </p><p>Despite their proximity to the Corellian Run trade route, Geonosians receive few visitors. They might get none at all if their Droid factories weren't among the finest and most productive in the galaxy. </p><h3><span class=\"mw-headline\" id=\"Geonosian_Characteristics\">Geonosian Characteristics</span></h3><p><b>Personality:</b> Geonosians tend to be contemptuous of other <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>, although the lucky few who escape the toil of their caste-driven society quickly learn to be more tolerant. Geonosian Aristocrats are manipulative, domineering, and ambitious. They constantly strive to improve their standing and holdings while conspiring to eliminate or ruin their rivals. Geonosian Warriors are highly competitive and eager to prove themselves. </p><p><b>Physical Description:</b> Geonosians come in two varieties: Aristocrats (Leaders) and Warriors (Drones). Both varieties are physically strong and covered with bony ridges that protect arms, legs, and vital organs. They walk on two legs, and most Geonosians have rapidly fluttering wings sprouting from their bony shoulder blades. They stand 1.6 to 1.8 meters tall. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Geonosians age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-6 Years </td> \n   <td>7-10 Years </td> \n   <td>11-35 Years </td> \n   <td>36-50 Years </td> \n   <td>51-64 Years </td> \n   <td>65+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> <a href=\"https://swse.fandom.com/wiki/Geonosis\" title=\"Geonosis\">Geonosis</a>, a rocky world in <a href=\"https://swse.fandom.com/wiki/The_Outer_Rim\" title=\"The Outer Rim\">The Outer Rim</a> that is periodically bombarded by <a href=\"https://swse.fandom.com/wiki/Radiation\" title=\"Radiation\">Radiation</a> showers. <a href=\"https://swse.fandom.com/wiki/Geonosis\" title=\"Geonosis\">Geonosis</a> has its own asteroid ring, believed to be the remains of two collided moons. </p><p><b>Languages:</b> Geonosians speak Geonosian, an articulate language of clicks and whistles. </p><p><b>Example Names:</b> Deetle, Eorlax, Hadiss, Krylla, Lysslo, Mazzag, Poggle, Qorn, Sollas, Vikkal. </p><p><b>Adventurers:</b> Due to their reluctance to leave their hives, Geonosians are rarely encountered away from their homeworld. A few manage to buy their way offworld. Some Geonosians Aristocrats pursue offworld adventurers as <a href=\"https://swse.fandom.com/wiki/Scoundrels\" class=\"mw-redirect\" title=\"Scoundrels\">Scoundrels</a> or <a href=\"https://swse.fandom.com/wiki/Nobles\" class=\"mw-redirect\" title=\"Nobles\">Nobles</a>, while free Warriors might become <a href=\"https://swse.fandom.com/wiki/Scouts\" class=\"mw-redirect\" title=\"Scouts\">Scouts</a> or <a href=\"https://swse.fandom.com/wiki/Soldiers\" class=\"mw-redirect\" title=\"Soldiers\">Soldiers</a>. No Geonosian Force-users are known to exist. </p><h3><span class=\"mw-headline\" id=\"Geonosian_Species_Traits\">Geonosian Species Traits</span></h3><p>Geonosians share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Climbing",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Flight",
+        "type": "trait"
+      },
+      {
+        "name": "Low-Light Vision",
+        "type": "trait"
+      },
+      {
+        "name": "Radiation Resistance",
+        "type": "trait"
+      },
+      {
+        "name": "Fly Speed (6)",
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "50",
+          "low": "36",
+          "text": "36-50",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "64",
+          "low": "51",
+          "text": "51-64",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "65",
+          "text": "65+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "35",
+          "low": "11",
+          "text": "11-35",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "6",
+          "low": "1",
+          "text": "1-6",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "10",
+          "low": "7",
+          "text": "7-10",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Geonosians"
+      },
+      {
+        "value": "Climbing"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Flight"
+      },
+      {
+        "value": "Low-Light Vision"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Radiation Resistance"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Geonosian",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535566153,
+    "modifiedTime": 1736535566153,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "16ecdxH4SPfUrNp2",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!16ecdxH4SPfUrNp2"
+}

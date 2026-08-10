@@ -1,0 +1,66 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A being stands in Crashing Waves on the Hazard's Initiative Count.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round, on Initiative Count (Initiative +5)",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Acrobatics (DC 13): The character can make a Acrobatics check as a Reaction to avoid being knocked Prone by the waves.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: Crashing Waves occur along the shore of an ocean, an inland sea, or another large body of water. When placing this Hazard, the GM should choose a direction from which the waves come. This is the direction in which targets affected by the Hazard are pulled.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>Waves of water crash into the shore where you stand, threatening to drag you out when they recede.</i> </p><h2><span id=\"Crashing_Waves_Statistics_.28CL_1.29\"></span><span class=\"mw-headline\" id=\"Crashing_Waves_Statistics_(CL_1)\"><span id=\"Crashing_Waves_(CL_1)\"></span>Crashing Waves Statistics (CL 1)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Natural </p><p><b>Trigger:</b> A being stands in Crashing Waves on the Hazard's <a href=\"https://swse.fandom.com/wiki/Initiative_Count\" class=\"mw-redirect\" title=\"Initiative Count\">Initiative Count</a>. </p><p><b>Attack:</b> +4 vs <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> </p><p><b>Recurrence:</b> Each round, on <a href=\"https://swse.fandom.com/wiki/Initiative_Count\" class=\"mw-redirect\" title=\"Initiative Count\">Initiative Count</a> (<a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a> +5) </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Acrobatics\" title=\"Acrobatics\">Acrobatics</a> (DC 13):</b> The character can make a <a href=\"https://swse.fandom.com/wiki/Acrobatics\" title=\"Acrobatics\">Acrobatics</a> check as a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a> to avoid being knocked <a href=\"https://swse.fandom.com/wiki/Prone_Targets\" title=\"Prone Targets\">Prone</a> by the waves.</li>\n</ul><p><b>Special:</b> Crashing Waves occur along the shore of an ocean, an inland sea, or another large body of water. When placing this Hazard, the GM should choose a direction from which the waves come. This is the direction in which targets affected by the Hazard are pulled. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Crashing Waves",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244400,
+    "modifiedTime": 1749263244400,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "yFROUIcRLCVgC0t4",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!yFROUIcRLCVgC0t4"
+}

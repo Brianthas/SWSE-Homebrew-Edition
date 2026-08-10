@@ -1,0 +1,61 @@
+{
+  "img": "systems/swse/icon/feat/Trample.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>When charging, your living <a href=\"https://swse.fandom.com/wiki/Mount\" class=\"mw-redirect\" title=\"Mount\">Mount</a> can flatten smaller targets between you and your target.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in <a href=\"https://swse.fandom.com/wiki/Ride\" title=\"Ride\">Ride</a></p><p><b>Effect:</b> When you use the <a href=\"https://swse.fandom.com/wiki/Mounted_Charge\" class=\"mw-redirect\" title=\"Mounted Charge\">Mounted Charge</a> Action, your <a href=\"https://swse.fandom.com/wiki/Mount\" class=\"mw-redirect\" title=\"Mount\">Mount</a> can make a single melee attack as a <a href=\"https://swse.fandom.com/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a>. While <a href=\"https://swse.fandom.com/wiki/Charging\" class=\"mw-redirect\" title=\"Charging\">Charging</a>, compare the result to the <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> of each enemy whose square you <a href=\"https://swse.fandom.com/wiki/Charge\" title=\"Charge\">Charge</a> through. Each enemy hit by the attack takes Claw, Gore, or Slam damage from the Mount's Natural Weapons plus the Mount's <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> modifier. You or your <a href=\"https://swse.fandom.com/wiki/Mount\" class=\"mw-redirect\" title=\"Mount\">Mount</a> still can make a regular attack at the end of the <a href=\"https://swse.fandom.com/wiki/Charge\" title=\"Charge\">Charge</a>.</p><p><b>Special:</b> You can use this Feat if either you or your <a href=\"https://swse.fandom.com/wiki/Mount\" class=\"mw-redirect\" title=\"Mount\">Mount</a> has taken it. <a href=\"https://swse.fandom.com/wiki/Mounts\" title=\"Mounts\">Mounts</a> with this Feat do not require the prerequisite.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Trained in Ride",
+      "requirement": "Ride",
+      "type": "TRAINED SKILL"
+    },
+    "categories": [
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Scout Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats",
+      "Scout Bonus Feats",
+      "Smuggler Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Trample",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1761479029257,
+    "modifiedTime": 1786036141517,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "v4Kw7VsUh4FSO2HC",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!v4Kw7VsUh4FSO2HC"
+}

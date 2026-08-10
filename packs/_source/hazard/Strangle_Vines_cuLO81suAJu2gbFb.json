@@ -1,0 +1,71 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2d6",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A being begins its turn within Strangle Vines.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round at the start of the target's turn, as long as the target remains within the Strangle Vines.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Endurance (DC 27): If the character is being choked by the Strangle Vines, for 1 round they take only half damage and do not move on the Condition Track. Knowledge (Life Sciences) (DC 22): The character identifies the Strangle Vines. As a result, the character and their allies gain a +1 circumstance bonus to Reflex Defense against the Strangle Vines.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: If the Hazard's attack roll exceeds the target's Reflex Defense by 5 or more, the Strangle Vines wrap around the target's neck and begin choking the victim.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>A mass of vines hangs down from the trees, creating a curtain of vegetation that can choke an unwary creature.</i> </p><p>Strangle Vines wrap themselves around an unsuspecting victim and often choke the creature to death. Galactic scholars of botany and life sciences cannot agree about why the vines behave in this manner. Strangle Vines inadvertently guard valuable items left behind by their victims, waiting to entrap any creatures that come along later to retrieve the objects. </p><h2><span id=\"Strangle_Vines_Statistics_.28CL_6.29\"></span><span class=\"mw-headline\" id=\"Strangle_Vines_Statistics_(CL_6)\">Strangle Vines Statistics (CL 6)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Natural </p><p><b>Trigger:</b> A being begins its turn within Strangle Vines. </p><p><b>Attack:</b> +8 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> Each round at the start of the target's turn, as long as the target remains within the Strangle Vines. </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Endurance\" title=\"Endurance\">Endurance</a></b> <b>(DC 27):</b> If the character is being choked by the Strangle Vines, for 1 round they take only half damage and do not move on the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Knowledge_(Life_Sciences)\" class=\"mw-redirect\" title=\"Knowledge (Life Sciences)\">Knowledge (Life Sciences)</a></b> <b>(DC 22):</b> The character identifies the Strangle Vines. As a result, the character and their allies gain a +1 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against the Strangle Vines.</li>\n</ul><p><b>Special:</b> If the Hazard's attack roll exceeds the target's <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> by 5 or more, the Strangle Vines wrap around the target's neck and begin choking the victim. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Strangle Vines",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244759,
+    "modifiedTime": 1749263244759,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "cuLO81suAJu2gbFb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!cuLO81suAJu2gbFb"
+}

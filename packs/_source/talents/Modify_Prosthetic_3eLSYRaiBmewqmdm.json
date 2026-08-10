@@ -1,0 +1,101 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You may upgrade a <a href=\"https://swse.fandom.com/wiki/Cybernetic_Prosthesis\" title=\"Cybernetic Prosthesis\">Cybernetic Prosthesis</a> just as you would any other item via the <a href=\"https://swse.fandom.com/wiki/Tech_Specialist\" title=\"Tech Specialist\">Tech Specialist</a> Feat, using any of the following benefits:",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Skill Focus (Mechanics)",
+          "requirement": "Skill Focus (Mechanics)",
+          "type": "FEAT"
+        },
+        {
+          "text": "Cybernetic Surgery feat",
+          "requirement": "Cybernetic Surgery",
+          "type": "FEAT"
+        },
+        {
+          "text": "Patient Builder talent",
+          "requirement": "Patient Builder",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Skill Focus (Mechanics), Cybernetic Surgery feat, and Patient Builder talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Untested"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Darth borehd Creations"
+      },
+      {
+        "value": "Technician Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Untested",
+      "Homebrew Content",
+      "Darth borehd Creations",
+      "Technician Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Mechanic Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Mechanic_Talent_Tree",
+    "bonusTalentTree": "",
+    "cost": "0"
+  },
+  "name": "Modify Prosthetic",
+  "flags": {},
+  "type": "talent",
+  "folder": "z9R7CDae8jm2dEmB",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385309070,
+    "modifiedTime": 1734385309070,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "3eLSYRaiBmewqmdm",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!3eLSYRaiBmewqmdm"
+}

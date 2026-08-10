@@ -1,0 +1,70 @@
+{
+  "img": "systems/swse/icon/feat/Hijkata Training.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_at_War\" title=\"Star Wars Saga Edition Galaxy at War\">Star Wars Saga Edition Galaxy at War</a></i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a>, <a href=\"https://swse.fandom.com/wiki/Martial_Arts_Feats\" class=\"mw-redirect\" title=\"Martial Arts Feats\">Martial Arts Feats</a></i></p><p>You are trained in the Hijkata style of Unarmed fighting and can quickly turn enemies' attacks against them.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Combat_Reflexes\" title=\"Combat Reflexes\">Combat Reflexes</a>, <a href=\"https://swse.fandom.com/wiki/Martial_Arts_I\" title=\"Martial Arts I\">Martial Arts I</a></p><p><b>Effect:</b> Once per round, when an adjacent enemy successfully damages you with a melee attack, you can make an <a href=\"https://swse.fandom.com/wiki/Attack_of_Opportunity\" class=\"mw-redirect\" title=\"Attack of Opportunity\">Attack of Opportunity</a> with an <a href=\"https://swse.fandom.com/wiki/Unarmed_Attack\" class=\"mw-redirect\" title=\"Unarmed Attack\">Unarmed Attack</a> at a -5 penalty against that enemy, even if the enemy's attack normally would not provoke an <a href=\"https://swse.fandom.com/wiki/Attack_of_Opportunity\" class=\"mw-redirect\" title=\"Attack of Opportunity\">Attack of Opportunity</a>.</p><p>Once per encounter, when an enemy provokes an <a href=\"https://swse.fandom.com/wiki/Attack_of_Opportunity\" class=\"mw-redirect\" title=\"Attack of Opportunity\">Attack of Opportunity</a> from you and you successfully damage that enemy with an <a href=\"https://swse.fandom.com/wiki/Unarmed\" class=\"mw-redirect\" title=\"Unarmed\">Unarmed</a> Attack of Opportunity, that enemy takes a penalty to attack rolls equal to your <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> modifier (Minimum +1, for a minimum penalty of -1) until the end of your next turn.</p><p><b>Special:</b> If you have the <b><a href=\"https://swse.fandom.com/wiki/Hijkata_Expertise\" class=\"mw-redirect\" title=\"Hijkata Expertise\">Hijkata Expertise</a></b> Talent, once per encounter, you can spend a <a href=\"https://swse.fandom.com/wiki/Full-Round_Action\" class=\"mw-redirect\" title=\"Full-Round Action\">Full-Round Action</a> to designate a single adjacent ally. Until the start of your next turn, any enemy adjacent to you or the designated ally that makes an attack roll against that ally provokes an <a href=\"https://swse.fandom.com/wiki/Attack_of_Opportunity\" class=\"mw-redirect\" title=\"Attack of Opportunity\">Attack of Opportunity</a> from you. If the ally moves during his or her turn, you can immediately move a number of squares up to your Speed as a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a>; however, you must end your movement in a square that is adjacent to the designated ally.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Combat Reflexes feat",
+          "requirement": "Combat Reflexes",
+          "type": "FEAT"
+        },
+        {
+          "text": "Martial Arts I feat",
+          "requirement": "Martial Arts I",
+          "type": "FEAT"
+        }
+      ],
+      "text": "Combat Reflexes feat, and Martial Arts I feat",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Martial Arts Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Galaxy at War",
+    "cost": "0"
+  },
+  "name": "Hijkata Training",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479027306,
+    "modifiedTime": 1761479027306,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "qqFzs4YUhyKiMNde",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!qqFzs4YUhyKiMNde"
+}

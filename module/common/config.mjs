@@ -75,7 +75,7 @@ SWSE.Abilities.abilitiesShort = {
 SWSE.Abilities.droidSkip = {
     str: false,
     dex: false,
-    con: true,
+    con: false,
     int: false,
     wis: false,
     cha: false,
@@ -85,22 +85,24 @@ SWSE.Abilities.droidSkip = {
 
 SWSE.Abilities.standardScorePackage = [15,14,13,12,10,8];
 
+// Homebrew: cost is relative to a Score 10 baseline (0 points), with partial refunds for
+// dropping to 8 or 9, instead of the old flat 0-at-8 scale.
 SWSE.Abilities.abilityCost = {
-    8:  0,
-    9:  1,
-    10: 2,
-    11: 3,
-    12: 4,
-    13: 5,
-    14: 6,
-    15: 8,
+    8:  -2,
+    9:  -1,
+    10: 0,
+    11: 1,
+    12: 2,
+    13: 3,
+    14: 5,
+    15: 7,
     16: 10,
     17: 13,
-    18: 16
+    18: 17
 }
 
 SWSE.Abilities.defaultAbilityRoll = "4d6kh3";
-SWSE.Abilities.defaultPointBuyTotal = 28;
+SWSE.Abilities.defaultPointBuyTotal = 25;
 SWSE.Abilities.droidPointBuyTotal = 21;
 
 SWSE.Skills = {};
@@ -123,10 +125,6 @@ SWSE.Defense.defense = {
     will: {ability: "wis", droidAbility: "wis"},
 }
 
-SWSE.conditionTrack = ["0", "-1", "-2", "-5", "-10", "OUT"]
-
-
-
 /**
  * set the available attributes for an item attribute field
  * @type {*[]}
@@ -135,36 +133,6 @@ SWSE.RecognizedAttributes = [];
 
 export function initializeStatusEffects(config){
     config.statusEffects.push(...[
-        {
-            id: "condition-1",
-            label: "EFFECT.StatusCondition-1",
-            icon: "systems/swse/icon/status/condition-1.png",
-            changes: [{key: "condition", value:"-1"}]
-        },
-        {
-            id: "condition-2",
-            label: "EFFECT.StatusCondition-2",
-            icon: "systems/swse/icon/status/condition-2.png",
-            changes: [{key: "condition", value:"-2"}]
-        },
-        {
-            id: "condition-5",
-            label: "EFFECT.StatusCondition-5",
-            icon: "systems/swse/icon/status/condition-5.png",
-            changes: [{key: "condition", value:"-5"}]
-        },
-        {
-            id: "condition-10",
-            label: "EFFECT.StatusCondition-10",
-            icon: "systems/swse/icon/status/condition-10.png",
-            changes: [{key: "condition", value:"-10"}, {key: "speedMultiplier", value: "0.5"}]
-        },
-        {
-            id: "conditionHelpless",
-            label: "EFFECT.StatusConditionHelpless",
-            icon: "systems/swse/icon/status/helpless.png",
-            changes: [{key: "condition", value:"OUT"}, {key: "dexterityMax", value: "0"}, {key: "dexterityMaxBonus", value: "0"}]
-        },
         {
             id: "gravityLow",
             label: "EFFECT.StatusGravityLow",

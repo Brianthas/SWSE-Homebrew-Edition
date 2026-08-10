@@ -1,0 +1,69 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Starship_Maneuvers\" title=\"Starship Maneuvers\">Starship Maneuvers</a></i> </p><p>This maneuver allows a&nbsp;<a href=\"https://swse.fandom.com/wiki/Pilot_(Vehicle_Combat)\" title=\"Pilot (Vehicle Combat)\">Pilot</a>&nbsp;to loop a&nbsp;<a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a>&nbsp;through the same location it just left, launching a surprise attack on an unsuspecting opponent. </p><p><b>[<i><a href=\"https://swse.fandom.com/wiki/Dogfight_(Starship_Maneuvers)\" class=\"mw-redirect\" title=\"Dogfight (Starship Maneuvers)\">Dogfight</a></i>]</b> </p><p><b>Time:</b>&nbsp;<a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a> </p><p><b>Targets:</b>&nbsp;One target engaged in a <a href=\"https://swse.fandom.com/wiki/Dogfight\" title=\"Dogfight\">Dogfight</a> with you. </p><p><b>Make a&nbsp;<a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a>&nbsp;check.</b> If you are engaged in a <a href=\"https://swse.fandom.com/wiki/Dogfight\" title=\"Dogfight\">Dogfight</a> and an opponent fails their opposed <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> check to make an attack against you, you may activate this maneuver with a DC 20 <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> check as a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a>. If successful, you may make an <a href=\"https://swse.fandom.com/wiki/Attack_of_Opportunity\" class=\"mw-redirect\" title=\"Attack of Opportunity\">Attack of Opportunity</a> against that opponent. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Reference Book: Star Wars Saga Edition Starships of the Galaxy See also: Starship Maneuvers This maneuver allows a Pilot to loop a Vehicle through the same location it just left, launching a surprise attack on an unsuspecting opponent. [Dogfight] Time: Reaction Targets: One target engaged in a Dogfight with you. Make a Pilot check. If you are engaged in a Dogfight and an opponent fails their opposed Pilot check to make an attack against you, you may activate this maneuver with a DC 20 Pilot check as a Reaction. If successful, you may make an Attack of Opportunity against that opponent.",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "Dogfight",
+        "key": "tag"
+      },
+      {
+        "mode": 2,
+        "value": "Reaction",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "One target engaged in a Dogfight with you.",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": "Pilot",
+        "key": "rollType"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Skywalker Loop",
+  "flags": {},
+  "type": "forcePower",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738608591660,
+    "modifiedTime": 1738608591660,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX"
+  },
+  "_id": "yPnuQ4RHGs2LbbIX",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!yPnuQ4RHGs2LbbIX"
+}

@@ -1,0 +1,41 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Processor Systems",
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "droidPart"
+      }
+    ],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scavenger%27s_Guide_to_Droids\" title=\"Star Wars Saga Edition Scavenger's Guide to Droids\">Star Wars Saga Edition Scavenger's Guide to Droids</a></i></p><p>Highly <a href=\"https://swse.fandom.com/wiki/Illegal\" class=\"mw-redirect\" title=\"Illegal\">Illegal</a>, a Personality Downloader is a custom-built electronic unit designed to quickly suppress an existing Droid's personality with a new one. Thieves, pirates, smugglers, infiltrators, and other scoundrels occasionally use a Personality Downloader to take control of an enemy's <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> for their own use. Using the device requires the attacker to plug the Personality Downloader into one of the Droid's data ports. <a href=\"https://swse.fandom.com/wiki/Droids\" title=\"Droids\">Droids</a> with <a href=\"https://swse.fandom.com/wiki/Locked_Access\" title=\"Locked Access\">Locked Access</a> or without accessible data ports must be coaxed into complying. Once the Personality Downloader is attached, the user makes a <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> check opposed by the Droid's <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a>. If the check is successful, the personality copies itself to the Droid's <a href=\"https://swse.fandom.com/wiki/Processor\" class=\"mw-redirect\" title=\"Processor\">Processor</a> and suppresses the existing personality in 5 minutes. The process is imperfect, however. To maintain control, every 10 minutes the new personality must make another <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> check opposed by the original personality. The invading personality continues to use the attacking character's <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> skill, even though the actual character is not actively involved after the initial download is successful.</p>",
+    "source": "Star Wars Saga Edition Scavenger's Guide to Droids",
+    "cost": "5000+ (see below)",
+    "weight": "2 Kilograms",
+    "availability": "Illegal"
+  },
+  "name": "Personality Downloader",
+  "flags": {},
+  "type": "droid system",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764449015765,
+    "modifiedTime": 1764449015765,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "UfFs3B2P8qDdSxcX",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!UfFs3B2P8qDdSxcX"
+}

@@ -1,0 +1,68 @@
+{
+  "img": "systems/swse/icon/feat/Mounted_Defense.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Threats_of_the_Galaxy\" title=\"Star Wars Saga Edition Threats of the Galaxy\">Star Wars Saga Edition Threats of the Galaxy</a></i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You are able to react to incoming attacks, using your <a href=\"https://swse.fandom.com/wiki/Mount\" class=\"mw-redirect\" title=\"Mount\">Mount</a> or <a href=\"https://swse.fandom.com/wiki/Speeder_Bike\" class=\"mw-redirect\" title=\"Speeder Bike\">Speeder Bike</a> to absorb attacks against you.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> or <a href=\"https://swse.fandom.com/wiki/Ride\" title=\"Ride\">Ride</a></p><p><b>Effect:</b> When riding a <a href=\"https://swse.fandom.com/wiki/Beast\" title=\"Beast\">Beast</a> as a <a href=\"https://swse.fandom.com/wiki/Mount\" class=\"mw-redirect\" title=\"Mount\">Mount</a> or on a <a href=\"https://swse.fandom.com/wiki/Speeder_Bike\" class=\"mw-redirect\" title=\"Speeder Bike\">Speeder Bike</a> (As a passenger or a <a href=\"https://swse.fandom.com/wiki/Pilot_(Vehicle_Combat)\" title=\"Pilot (Vehicle Combat)\">Pilot</a>), once per encounter you can redirect any attack made against you at your <a href=\"https://swse.fandom.com/wiki/Mount\" class=\"mw-redirect\" title=\"Mount\">Mount</a> or <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> instead. The decision to redirect the attack is made after the result of the attack roll is determined but before damage or other effects are resolved.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Trained in Pilot",
+          "requirement": "Pilot",
+          "type": "TRAINED SKILL"
+        },
+        {
+          "text": "Trained in Ride",
+          "requirement": "Ride",
+          "type": "TRAINED SKILL"
+        }
+      ],
+      "count": 1,
+      "text": "Trained in Pilot or Ride",
+      "type": "OR"
+    },
+    "categories": [
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Threats of the Galaxy",
+    "cost": "0"
+  },
+  "name": "Mounted Defense",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479028050,
+    "modifiedTime": 1761479028050,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "e2GGRjVlTWHNsMnB",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!e2GGRjVlTWHNsMnB"
+}

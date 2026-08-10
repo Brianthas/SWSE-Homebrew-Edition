@@ -1,0 +1,106 @@
+{
+  "img": "systems/swse/icon/feat/Halt.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>When making an <a href=\"https://swse.fandom.com/wiki/Attack_of_Opportunity\" class=\"mw-redirect\" title=\"Attack of Opportunity\">Attack of Opportunity</a>, you can stop an enemy in its tracks.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Trip\" title=\"Trip\">Trip</a>, <a href=\"https://swse.fandom.com/wiki/Weapon_Focus\" title=\"Weapon Focus\">Weapon Focus</a> (Chosen Weapon), <a href=\"https://swse.fandom.com/wiki/Base_Attack_Bonus\" class=\"mw-redirect\" title=\"Base Attack Bonus\">Base Attack Bonus</a> +8</p><p><b>Effect:</b> If you hit with an <a href=\"https://swse.fandom.com/wiki/Attack_of_Opportunity\" class=\"mw-redirect\" title=\"Attack of Opportunity\">Attack of Opportunity</a>, while wielding a weapon for which you possess the <a href=\"https://swse.fandom.com/wiki/Weapon_Focus\" title=\"Weapon Focus\">Weapon Focus</a> Feat, against an enemy of up to one size larger than you, compare the same die roll against the target's <a href=\"https://swse.fandom.com/wiki/Grapple\" title=\"Grapple\">Grapple</a> check. If the die roll succeeds against the <a href=\"https://swse.fandom.com/wiki/Grapple\" title=\"Grapple\">Grapple</a> check, the target immediately halts all movement and falls <a href=\"https://swse.fandom.com/wiki/Prone\" class=\"mw-redirect\" title=\"Prone\">Prone</a> in its current square. The target can spend any remaining <a href=\"https://swse.fandom.com/wiki/Actions\" class=\"mw-redirect\" title=\"Actions\">Actions</a> normally.</p><p>If your attack exceeds the target's <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a>, the target loses any remaining <a href=\"https://swse.fandom.com/wiki/Actions\" class=\"mw-redirect\" title=\"Actions\">Actions</a> and ends its turn immediately. Apply damage normally to the target regardless of the results of this Feat.</p><p><b>Special:</b> If the target is using the <a href=\"https://swse.fandom.com/wiki/Charge\" title=\"Charge\">Charge</a> Action when moving past you, its <a href=\"https://swse.fandom.com/wiki/Charge\" title=\"Charge\">Charge</a> is ended if you successfully knock it <a href=\"https://swse.fandom.com/wiki/Prone\" class=\"mw-redirect\" title=\"Prone\">Prone</a>, and the target cannot <a href=\"https://swse.fandom.com/wiki/Charge\" title=\"Charge\">Charge</a> again on this turn.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "#payload#",
+        "key": "halt"
+      }
+    ],
+    "choices": [
+      {
+        "noOptions": "You Must Be Focussed in a weapon group or an Exotic Weapon to select one for Halt.",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {
+              "payload": "AVAILABLE_HALT"
+            },
+            "display": "AVAILABLE_HALT",
+            "name": "AVAILABLE_HALT",
+            "attributes": {}
+          }
+        ],
+        "description": "Select a Weapon to use Halt with.",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": true
+      }
+    ],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Trip feat",
+          "requirement": "Trip",
+          "type": "FEAT"
+        },
+        {
+          "text": "Weapon Focus (#payload#)",
+          "requirement": "Weapon Focus (#payload#)",
+          "type": "FEAT"
+        },
+        {
+          "text": "Base Attack Bonus 8",
+          "requirement": "8",
+          "type": "BASE ATTACK BONUS"
+        }
+      ],
+      "text": "Trip feat, Weapon Focus (#payload#), and Base Attack Bonus 8",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Soldier Bonus Feats"
+      },
+      {
+        "value": "Force Prodigy Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Bonus Feats",
+      "Force Prodigy Bonus Feats",
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Halt",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479027269,
+    "modifiedTime": 1761479027269,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "viXdYzIsxfAXc0hU",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!viXdYzIsxfAXc0hU"
+}

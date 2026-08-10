@@ -1,0 +1,142 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i> </p><p> The <a href=\"https://swse.fandom.com/wiki/Massassi\" title=\"Massassi\">Massassi</a> and Kissai are two subspecies of the original Sith race of <a href=\"https://swse.fandom.com/wiki/Korriban\" title=\"Korriban\">Korriban</a>. The Kissai are the priests and spiritual leaders who indoctrinate their comrades in the teaching of <a href=\"https://swse.fandom.com/wiki/The_Sith\" title=\"The Sith\">The Sith</a>.</p><p>The Kissai are just as ruthless as the <a href=\"https://swse.fandom.com/wiki/Massassi\" title=\"Massassi\">Massassi</a>, but they are more intelligent and observant. Their strict cultural standards demand that they serve their masters well, a trait instilled in them by the Dark Jedi who first enslaved their Species. When the <a href=\"https://swse.fandom.com/wiki/Massassi\" title=\"Massassi\">Massassi</a> and Kissai flee <a href=\"https://swse.fandom.com/wiki/Korriban\" title=\"Korriban\">Korriban</a> (well before the arrival of the eventual Sith Lords) to resettle on <a href=\"https://swse.fandom.com/wiki/Ziost\" title=\"Ziost\">Ziost</a>, the Kissai oversee the rebuilding efforts. </p><p>The Kissai serve The Sith directly, but the Sith Lord Naga Sadow has other ideas for the <a href=\"https://swse.fandom.com/wiki/Massassi\" title=\"Massassi\">Massassi</a> caste. The Kissai are largely left on <a href=\"https://swse.fandom.com/wiki/Ziost\" title=\"Ziost\">Ziost</a> as the servants of other Sith Lords, but Sadow uses <a href=\"https://swse.fandom.com/wiki/Sith_Alchemy\" class=\"mw-redirect\" title=\"Sith Alchemy\">Sith Alchemy</a> to transform the <a href=\"https://swse.fandom.com/wiki/Massassi\" title=\"Massassi\">Massassi</a> into his hulking, brutish soldiers. His <a href=\"https://swse.fandom.com/wiki/Massassi\" title=\"Massassi\">Massassi</a> crews labor under his command on <a href=\"https://swse.fandom.com/wiki/Yavin_4\" title=\"Yavin 4\">Yavin 4</a>, building temples and providing the means for him to hide his ship and practice his dark arts. After Sadow's death, they become a primitive, tribal society worshiping one of Sadow's creations as a dark god. </p><h3><span class=\"mw-headline\" id=\"Kissai_Characteristics\">Kissai Characteristics</span></h3><p><b>Personality:</b> Kissai are loyal and capable allies who prefer to work with others, making them excellent aides and assistants. They respond well to instruction and are adaptable despite great adversity. </p><p><b>Physical Description:</b> Kissai have glowing yellow eyes and crimson hides. They are humanoid with distinctly sharp, predatory features. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Kissai age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-10 Years </td> \n   <td>11-15 Years </td> \n   <td>16-30 Years </td> \n   <td>31-42 Years </td> \n   <td>43-59 Years </td> \n   <td>60+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b>&nbsp;The ancient Sith world of&nbsp;<a href=\"https://swse.fandom.com/wiki/Korriban\" title=\"Korriban\">Korriban</a>, resettled later to&nbsp;<a href=\"https://swse.fandom.com/wiki/Ziost\" title=\"Ziost\">Ziost</a>. </p><p><b>Languages:</b>&nbsp;Kissai speak and read the ancient language of the Sith, and most tend to learn Basic to better serve their Sith masters. </p><p><b>Example Names:</b>&nbsp;Drophan, Kalgrath, Uburluh, Zythmnr. </p><p><b>Adventurers:</b> Most beings in the galaxy would not recognize a Kissai at first glance, though their unique appearance tends to draws attention to themselves. Kissai do not become&nbsp;<a href=\"https://swse.fandom.com/wiki/Jedi\" title=\"Jedi\">Jedi</a>&nbsp;during <a href=\"https://swse.fandom.com/wiki/The_Old_Republic_Era\" class=\"mw-redirect\" title=\"The Old Republic Era\">The Old Republic Era</a>, and instead most adventurous Kissai become&nbsp;<a href=\"https://swse.fandom.com/wiki/Nobles\" class=\"mw-redirect\" title=\"Nobles\">Nobles</a> or&nbsp;<a href=\"https://swse.fandom.com/wiki/Scoundrels\" class=\"mw-redirect\" title=\"Scoundrels\">Scoundrels</a>. </p><h3><span class=\"mw-headline\" id=\"Kissai_Species_Traits\">Kissai Species Traits</span></h3><p>Kissai share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Inspired",
+        "type": "trait"
+      },
+      {
+        "name": "Warrior's Awareness",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Kissai",
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "15",
+          "low": "11",
+          "text": "11-15",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "42",
+          "low": "31",
+          "text": "31-42",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "60",
+          "text": "60+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "30",
+          "low": "16",
+          "text": "16-30",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "59",
+          "low": "43",
+          "text": "43-59",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "10",
+          "low": "1",
+          "text": "1-10",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Weapon Familiarity (Massassi Lanvarok:Simple Ranged Weapons)",
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Inspired"
+      },
+      {
+        "value": "Warrior's Awareness"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Weapon Familiarity"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Kissai"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Kissai",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535566482,
+    "modifiedTime": 1736535566482,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "TM9VyJKn0t27dbOW",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!TM9VyJKn0t27dbOW"
+}

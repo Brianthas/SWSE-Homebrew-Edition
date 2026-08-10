@@ -1,0 +1,67 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Poisons, Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A creature is injected with the Paralytic Poison.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round at the start of the target's turn, until the Paralytic Poison is treated.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Treat Injury (DC 16; Requires Medical Kit): The character treats the Paralytic Poison.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: A creature moved to the bottom of the Condition Track by Paralytic Poison is Immobilized but does not fall unconscious.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Artificial",
+          "Contact",
+          "Poison"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>See also: <a href=\"https://swse.fandom.com/wiki/Poisons\" title=\"Poisons\">Poisons</a>, <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>An injected Poison renders a target immobile for a short time.</i> </p><h2><span id=\"Paralytic_Poison_Statistics_.28CL_5.29\"></span><span class=\"mw-headline\" id=\"Paralytic_Poison_Statistics_(CL_5)\">Paralytic Poison Statistics (CL 5)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Artificial, Contact, Poison </p><p><b>Trigger:</b> A creature is injected with the Paralytic Poison. </p><p><b>Attack:</b> +10 vs <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> </p><p><b>Recurrence:</b> Each round at the start of the target's turn, until the Paralytic Poison is treated. </p><p><b>Suggested&nbsp;<a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b>&nbsp;The following are suggested&nbsp;<a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>&nbsp;for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a> (DC 16; Requires <a href=\"https://swse.fandom.com/wiki/Medical_Kit\" title=\"Medical Kit\">Medical Kit</a>):</b> The character treats the Paralytic Poison.</li>\n</ul><p><b>Special:</b> A creature moved to the bottom of the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a> by Paralytic Poison is <a href=\"https://swse.fandom.com/wiki/Immobilized\" title=\"Immobilized\">Immobilized</a> but does not fall unconscious. </p>",
+    "cost": "0"
+  },
+  "name": "Paralytic Poison",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244668,
+    "modifiedTime": 1749263244668,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "uK42HBnsvaAMqYB7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!uK42HBnsvaAMqYB7"
+}

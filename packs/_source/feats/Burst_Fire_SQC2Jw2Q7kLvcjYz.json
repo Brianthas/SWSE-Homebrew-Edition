@@ -1,0 +1,59 @@
+{
+  "img": "systems/swse/icon/feat/Burst Fire.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>When using a ranged weapon in <a href=\"https://swse.fandom.com/wiki/Autofire\" title=\"Autofire\">Autofire</a> mode, you can fire a short Burst at a single foe.</p><p><b>Prerequisite:</b> Proficient with <a href=\"https://swse.fandom.com/wiki/Heavy_Weapons\" title=\"Heavy Weapons\">Heavy Weapons</a></p><p><b>Effect:</b> When using a ranged weapon with <a href=\"https://swse.fandom.com/wiki/Autofire\" title=\"Autofire\">Autofire</a> capability, and that you are Proficient with, in <a href=\"https://swse.fandom.com/wiki/Autofire\" title=\"Autofire\">Autofire</a> mode, you may fire a short burst as a single attack against a single target. You take a -5 penalty on your attack roll, but deal +2 dice of damage.</p><p>The effects of this Feat do not stack with the extra damage provided by the <a href=\"https://swse.fandom.com/wiki/Deadeye\" title=\"Deadeye\">Deadeye</a> or <a href=\"https://swse.fandom.com/wiki/Rapid_Shot\" title=\"Rapid Shot\">Rapid Shot</a> feats.</p><p>If you do not have a <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> of 13 or higher, increase the penalty on attacks to -10 when using this Feat with non-<a href=\"https://swse.fandom.com/wiki/Vehicle_Weapons\" class=\"mw-redirect\" title=\"Vehicle Weapons\">Vehicle Weapons</a>.</p><p><b>Special:</b> Firing a burst expends five shots, and can only be done if the weapon has at least five shots remaining.</p><h2><span class=\"mw-headline\" id=\"Additional_Burst_Fire_Effects\">Additional Burst Fire Effects</span></h2><p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><p><a href=\"https://swse.fandom.com/wiki/Vehicle_Weapons\" class=\"mw-redirect\" title=\"Vehicle Weapons\">Vehicle Weapons</a> capable of <a href=\"https://swse.fandom.com/wiki/Autofire\" title=\"Autofire\">Autofire</a> can be used with this feat normally. Additional dice of damage are added before any multiplier from the <a href=\"https://swse.fandom.com/wiki/Vehicle_Weapon\" class=\"mw-redirect\" title=\"Vehicle Weapon\">Vehicle Weapon</a> is applied.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Proficient with Heavy Weapons",
+      "requirement": "Heavy Weapons",
+      "type": "PROFICIENCY"
+    },
+    "categories": [
+      {
+        "value": "Ranged Feats"
+      },
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Starships of the Galaxy",
+    "cost": "0"
+  },
+  "name": "Burst Fire",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479026151,
+    "modifiedTime": 1761479026151,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "SQC2Jw2Q7kLvcjYz",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!SQC2Jw2Q7kLvcjYz"
+}

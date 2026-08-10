@@ -1,0 +1,89 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>See also: <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a></i> </p><p><a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a> enables you to jump great heights and distances as well as move quickly. </p><p><b>Time:</b> <a href=\"https://swse.fandom.com/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a> </p><p><b>Targets:</b> Self </p><p><b>Make a <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check.</b> The result of the check determines the effect, if any: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>10 </td> \n   <td> </td> \n   <td>You gain a +10 <a href=\"https://swse.fandom.com/wiki/Force\" class=\"mw-redirect\" title=\"Force\">Force</a> bonus on <a href=\"https://swse.fandom.com/wiki/Jump\" title=\"Jump\">Jump</a> checks and your speed increases by 2 squares until the start of your next turn. The <a href=\"https://swse.fandom.com/wiki/Force\" class=\"mw-redirect\" title=\"Force\">Force</a> bonus on <a href=\"https://swse.fandom.com/wiki/Jump\" title=\"Jump\">Jump</a> checks includes the adjustment for increased speed. </td>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td> </td> \n   <td>You gain a +20 <a href=\"https://swse.fandom.com/wiki/Force\" class=\"mw-redirect\" title=\"Force\">Force</a> bonus on <a href=\"https://swse.fandom.com/wiki/Jump\" title=\"Jump\">Jump</a> checks and your speed increases by 4 squares until the start of your next turn. The <a href=\"https://swse.fandom.com/wiki/Force\" class=\"mw-redirect\" title=\"Force\">Force</a> bonus on <a href=\"https://swse.fandom.com/wiki/Jump\" title=\"Jump\">Jump</a> checks includes the adjustment for increased speed. </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td> </td> \n   <td>You gain a +30 <a href=\"https://swse.fandom.com/wiki/Force\" class=\"mw-redirect\" title=\"Force\">Force</a> bonus on <a href=\"https://swse.fandom.com/wiki/Jump\" title=\"Jump\">Jump</a> checks and your speed increases by 6 squares until the start of your next turn. The <a href=\"https://swse.fandom.com/wiki/Force\" class=\"mw-redirect\" title=\"Force\">Force</a> bonus on <a href=\"https://swse.fandom.com/wiki/Jump\" title=\"Jump\">Jump</a> checks includes the adjustment for increased speed. </td>\n  </tr>\n </tbody>\n</table><p><b>Special:</b> Using the <i>Surge</i> Force Power counts as a <a href=\"https://swse.fandom.com/wiki/Running_Start\" class=\"mw-redirect\" title=\"Running Start\">Running Start</a> for determining a <a href=\"https://swse.fandom.com/wiki/Jump\" title=\"Jump\">Jump</a> DC. You can spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> to increase the <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Power's</a> bonus on <a href=\"https://swse.fandom.com/wiki/Jump\" title=\"Jump\">Jump</a> checks by 10 and increase your speed by an additional 2 squares. </p><p>You may spend a <a href=\"https://swse.fandom.com/wiki/Destiny_Point\" class=\"mw-redirect\" title=\"Destiny Point\">Destiny Point</a> to gain an additional 4 squares of movement; when you do so, you may also use any and all movement for the round as a part of a <a href=\"https://swse.fandom.com/wiki/Jump\" title=\"Jump\">Jump</a> (no <a href=\"https://swse.fandom.com/wiki/Jump\" title=\"Jump\">Jump</a> check required). </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Free Action",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "Self",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": "Use the Force",
+        "key": "rollType"
+      },
+      {
+        "mode": 2,
+        "value": "10:You gain a +10 Force bonus on Jump checks and your speed increases by 2 squares until the start of your next turn. The Force bonus on Jump checks includes the adjustment for increased speed.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "15:You gain a +20 Force bonus on Jump checks and your speed increases by 4 squares until the start of your next turn. The Force bonus on Jump checks includes the adjustment for increased speed.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "20:You gain a +30 Force bonus on Jump checks and your speed increases by 6 squares until the start of your next turn. The Force bonus on Jump checks includes the adjustment for increased speed.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "See also: Force Powers The Force enables you to jump great heights and distances as well as move quickly. Time: Free Action Targets: Self Make a Use the Force check. The result of the check determines the effect, if any: Special: Using the Surge Force Power counts as a Running Start for determining a Jump DC. You can spend a Force Point to increase the Force Power's bonus on Jump checks by 10 and increase your speed by an additional 2 squares. You may spend a Destiny Point to gain an additional 4 squares of movement; when you do so, you may also use any and all movement for the round as a part of a Jump (no Jump check required).",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Force Powers"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Surge",
+  "flags": {},
+  "type": "forcePower",
+  "img": "systems/swse/icon/force-power/Surge.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738608590987,
+    "modifiedTime": 1738608590987,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "JwgqJmon5I1Lu1o3",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!JwgqJmon5I1Lu1o3"
+}

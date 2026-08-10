@@ -1,0 +1,89 @@
+{
+  "img": "systems/swse/icon/feat/Erratic_Target.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scavenger%27s_Guide_to_Droids\" title=\"Star Wars Saga Edition Scavenger's Guide to Droids\">Star Wars Saga Edition Scavenger's Guide to Droids</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You bob, swerve, dip, and dive to avoid incoming shots and other attacks.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a>, <a href=\"https://swse.fandom.com/wiki/Hovering\" title=\"Hovering\">Hovering</a> or <a href=\"https://swse.fandom.com/wiki/Flying\" title=\"Flying\">Flying</a> Locomotion, <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> 13, <a href=\"https://swse.fandom.com/wiki/Dodge\" title=\"Dodge\">Dodge</a></p><p><b>Effect:</b> You can reduce your Speed by up to 2 squares to increase your <a href=\"https://swse.fandom.com/wiki/Dodge\" title=\"Dodge\">Dodge</a> bonus by 1 for each square of speed you give up, until the start of your next turn. You must move at least 2 squares to gain this benefit.</p><p><b>Special:</b> To use this Feat you must be equipped with and using <a href=\"https://swse.fandom.com/wiki/Hovering\" title=\"Hovering\">Hovering</a> or <a href=\"https://swse.fandom.com/wiki/Flying\" title=\"Flying\">Flying</a> Locomotion.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Droid",
+          "requirement": "Is a droid",
+          "type": "SPECIAL"
+        },
+        {
+          "children": [
+            {
+              "text": "Hovering",
+              "requirement": "Hovering",
+              "type": "EQUIPPED"
+            },
+            {
+              "text": "Flying",
+              "requirement": "Flying",
+              "type": "EQUIPPED"
+            }
+          ],
+          "count": 1,
+          "text": "Hovering or Flying",
+          "type": "OR"
+        },
+        {
+          "text": "Dexterity 13",
+          "requirement": "Dexterity 13",
+          "type": "ATTRIBUTE"
+        },
+        {
+          "text": "Dodge feat",
+          "requirement": "Dodge",
+          "type": "FEAT"
+        }
+      ],
+      "text": "Droid, (Hovering or Flying), Dexterity 13, and Dodge feat",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Scavenger's Guide to Droids",
+    "cost": "0"
+  },
+  "name": "Erratic Target",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479026780,
+    "modifiedTime": 1761479026780,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "seI1Qq4XcTSH77aK",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!seI1Qq4XcTSH77aK"
+}

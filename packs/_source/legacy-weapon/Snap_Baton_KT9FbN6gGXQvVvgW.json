@@ -1,0 +1,114 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {}
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Stun",
+      "_id": "9HPTywfPB6grMBpO",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "2d4",
+            "key": "damage",
+            "priority": null,
+            "type": "override",
+            "phase": "initial"
+          },
+          {
+            "value": "Stun",
+            "key": "damageType",
+            "priority": null,
+            "type": "override",
+            "phase": "initial"
+          }
+        ]
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513468,
+        "modifiedTime": 1786051513468,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!KT9FbN6gGXQvVvgW.9HPTywfPB6grMBpO"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Clone_Wars_Campaign_Guide\" title=\"Star Wars Saga Edition Clone Wars Campaign Guide\">Star Wars Saga Edition Clone Wars Campaign Guide</a></i> </p><p>The Snap Baton is a collapsible Weapon that expands from its tiny handle to become a 1-meter-long rod. In its collapsed form, it is easily carried in a pocket or <a href=\"https://swse.fandom.com/wiki/Utility_Belt\" title=\"Utility Belt\">Utility Belt</a>. </p><p>Expanding or collapsing a Snap Baton takes a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>. Several models are available, including specially colored versions to appeal to a wide range of customers. Models that incorporate additional functions such as a panic alarm or a built-in <a href=\"https://swse.fandom.com/wiki/Glow_Rod\" title=\"Glow Rod\">Glow Rod</a> sell for double the price. </p><p>One model made by Merr-Sonn even includes an outer layer of sound dampening material that muffles the sound made when the Snap Baton hit its target. Snap Batons are popular in urban areas, especially with thugs. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "100",
+    "weight": "1 Kilogram",
+    "availability": "",
+    "size": "Small",
+    "type": "",
+    "subtype": "Simple Melee Weapons",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "2d4",
+    "damageType": "Bludgeoning"
+  },
+  "name": "Snap Baton",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Snap_Baton.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513468,
+    "modifiedTime": 1786051513567,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "KT9FbN6gGXQvVvgW",
+  "_key": "!items!KT9FbN6gGXQvVvgW"
+}

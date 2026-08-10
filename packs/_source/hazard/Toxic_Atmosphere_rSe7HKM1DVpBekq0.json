@@ -1,0 +1,72 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "1d6",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A creature begins its turn in a Toxic Atmosphere.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round at the start of the target's turn, as long as the target remains in the Toxic Atmosphere.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Knowledge (Physical Sciences) (DC 17): The character identifies the presence of a Toxic Atmosphere.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: Creatures that have special protection against a Toxic Atmosphere, such as environmentally sealed Space Suits, are not affected by this Hazard.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Atmosphere",
+          "Contact",
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>A Toxic Atmosphere is filled with chemicals that harm most creatures.</i> </p><h2><span id=\"Toxic_Atmosphere_Statistics_.28CL_6.29\"></span><span class=\"mw-headline\" id=\"Toxic_Atmosphere_Statistics_(CL_6)\">Toxic Atmosphere Statistics (CL 6)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Atmosphere, Contact, Natural </p><p><b>Trigger:</b> A creature begins its turn in a Toxic Atmosphere. </p><p><b>Attack:</b> +5 vs <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> </p><p><b>Recurrence:</b> Each round at the start of the target's turn, as long as the target remains in the Toxic Atmosphere. </p><p><b>Suggested&nbsp;<a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b>&nbsp;The following are suggested&nbsp;<a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>&nbsp;for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Knowledge_(Physical_Sciences)\" class=\"mw-redirect\" title=\"Knowledge (Physical Sciences)\">Knowledge (Physical Sciences)</a> (DC 17):</b> The character identifies the presence of a Toxic Atmosphere.</li>\n</ul><p><b>Special:</b> Creatures that have special protection against a Toxic Atmosphere, such as environmentally sealed <a href=\"https://swse.fandom.com/wiki/Space_Suits\" class=\"mw-redirect\" title=\"Space Suits\">Space Suits</a>, are not affected by this Hazard. </p>",
+    "cost": "0"
+  },
+  "name": "Toxic Atmosphere",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244832,
+    "modifiedTime": 1749263244832,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "rSe7HKM1DVpBekq0",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!rSe7HKM1DVpBekq0"
+}

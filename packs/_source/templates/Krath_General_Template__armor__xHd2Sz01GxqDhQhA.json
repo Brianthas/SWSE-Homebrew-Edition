@@ -1,0 +1,125 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:</i>&nbsp;<i><a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i> </p><p><b>Manufactured By:</b> <a href=\"https://swse.fandom.com/wiki/The_Krath\" title=\"The Krath\">The Krath</a> (Organization) </p><p><b>Applicable To:</b> Any Armor, Any Melee Slashing or Piercing Weapon </p><p>Items created by <a href=\"https://swse.fandom.com/wiki/The_Krath\" title=\"The Krath\">The Krath</a> typically have a cruel and dangerous twist. </p><p><b>Weapons:</b> If an attack roll with a Krath Manufacture Weapon equals or exceeds the target's <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> as well as its <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>, the target takes 1d4 damage at the beginning of it's next turn. </p><p><b>Armors:</b> Krath Manufacture Armors and Shields provide <a href=\"https://swse.fandom.com/wiki/Damage_Reduction\" title=\"Damage Reduction\">Damage Reduction</a> 2 against Energy damage. </p><p><b>Special:</b> Krath Manufacture Weapons and Armor hold the taint of <a href=\"https://swse.fandom.com/wiki/The_Dark_Side\" title=\"The Dark Side\">The Dark Side</a> within them, and any character wielding a Krath Weapon or wearing Krath Armor treat their <a href=\"https://swse.fandom.com/wiki/Dark_Side_Score\" title=\"Dark Side Score\">Dark Side Score</a> as one higher than it actually is for purposes of being targeted by effects that only affect targets with a <a href=\"https://swse.fandom.com/wiki/Dark_Side_Score\" title=\"Dark Side Score\">Dark Side Score</a>. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "??",
+        "key": "cost"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "itemMod"
+      },
+      {
+        "mode": 2,
+        "value": 1,
+        "key": "darksideTaint"
+      },
+      {
+        "mode": 2,
+        "modifier": "Energy",
+        "value": "2",
+        "key": "damageReduction"
+      },
+      {
+        "mode": 2,
+        "value": "Krath",
+        "key": "prefix"
+      },
+      {
+        "mode": 2,
+        "value": "",
+        "key": "suffix"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "hasItemOwner": false,
+    "subtype": "General Templates",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Any Armor",
+          "requirement": "armor",
+          "type": "TYPE"
+        },
+        {
+          "children": [
+            {
+              "text": "Any Armor",
+              "requirement": "armor",
+              "type": "TYPE"
+            },
+            {
+              "children": [
+                {
+                  "text": "Any Armor, Any Melee Slashing or Piercing Weapon",
+                  "requirement": "Melee Weapons",
+                  "type": "WEAPON_GROUP"
+                },
+                {
+                  "children": [
+                    {
+                      "text": "Any Armor, Any Melee Slashing or Piercing Weapon",
+                      "requirement": "Slashing",
+                      "type": "DAMAGE_TYPE"
+                    },
+                    {
+                      "text": "Any Armor, Any Melee Slashing or Piercing Weapon",
+                      "requirement": "Piercing",
+                      "type": "DAMAGE_TYPE"
+                    }
+                  ],
+                  "count": 1,
+                  "text": "Any Armor, Any Melee Slashing or Piercing Weapon, or Any Armor, Any Melee Slashing or Piercing Weapon",
+                  "type": "OR"
+                }
+              ],
+              "text": "Any Armor, Any Melee Slashing or Piercing Weapon",
+              "type": "AND"
+            }
+          ],
+          "count": 1,
+          "text": "Any Armor, Any Melee Slashing or Piercing Weapon",
+          "type": "OR"
+        }
+      ],
+      "text": "Any Armor, and (Any Armor, Any Melee Slashing or Piercing Weapon)",
+      "type": "AND"
+    },
+    "cost": "??"
+  },
+  "name": "Krath General Template (armor)",
+  "flags": {},
+  "type": "template",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.2",
+    "createdTime": 1729096741566,
+    "modifiedTime": 1729096741566,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "xHd2Sz01GxqDhQhA",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!xHd2Sz01GxqDhQhA"
+}

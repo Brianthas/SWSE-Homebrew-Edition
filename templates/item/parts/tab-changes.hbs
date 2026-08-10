@@ -1,0 +1,3 @@
+<section class="tab attributes scrollable{{#if tab.active}} active{{/if}}" data-group="{{tab.group}}" data-tab="{{tab.id}}">
+    {{> 'systems/swse/templates/change/change-list.hbs' changes=item.changes inheritedChanges=item.inheritedChanges changepath='system.changes' knownAttributeKeys=knownAttributeKeys}}
+</section>

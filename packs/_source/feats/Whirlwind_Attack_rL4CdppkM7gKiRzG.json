@@ -1,0 +1,80 @@
+{
+  "img": "systems/swse/icon/feat/Whirlwind Attack.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: Star Wars Saga Edition Core Rulebook</i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You can strike nearby opponents in an amazing, spinning melee attack.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> 13, <a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a> 13, <a href=\"https://swse.fandom.com/wiki/Melee_Defense\" title=\"Melee Defense\">Melee Defense</a>, <a href=\"https://swse.fandom.com/wiki/Base_Attack_Bonus\" class=\"mw-redirect\" title=\"Base Attack Bonus\">Base Attack Bonus</a> +4</p><p><b>Effect:</b> As a <a href=\"https://swse.fandom.com/wiki/Full-Round_Action\" class=\"mw-redirect\" title=\"Full-Round Action\">Full-Round Action</a>, you can make an <a href=\"https://swse.fandom.com/wiki/Area_Attack\" class=\"mw-redirect\" title=\"Area Attack\">Area Attack</a> with your melee weapon, striking every target within your reach. This Whirlwind Attack uses the <a href=\"https://swse.fandom.com/wiki/Area_Attack\" class=\"mw-redirect\" title=\"Area Attack\">Area Attack</a> rules; you make one attack roll and apply the result to every target in range.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Dexterity 13",
+          "requirement": "Dexterity 13",
+          "type": "ATTRIBUTE"
+        },
+        {
+          "text": "Intelligence 13",
+          "requirement": "Intelligence 13",
+          "type": "ATTRIBUTE"
+        },
+        {
+          "text": "Melee Defense feat",
+          "requirement": "Melee Defense",
+          "type": "FEAT"
+        },
+        {
+          "text": "Base Attack Bonus 4",
+          "requirement": "4",
+          "type": "BASE ATTACK BONUS"
+        }
+      ],
+      "text": "Dexterity 13, Intelligence 13, Melee Defense feat, and Base Attack Bonus 4",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Core Rulebook",
+    "cost": "0"
+  },
+  "name": "Whirlwind Attack",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479029597,
+    "modifiedTime": 1761479029597,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "rL4CdppkM7gKiRzG",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!rL4CdppkM7gKiRzG"
+}

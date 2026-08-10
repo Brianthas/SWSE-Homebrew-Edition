@@ -1,0 +1,83 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Immediately after making a <a href=\"https://swse.fandom.com/wiki/Full_Attack\" title=\"Full Attack\">Full Attack</a> where you attack with two <a href=\"https://swse.fandom.com/wiki/Pistols\" title=\"Pistols\">Pistols</a>, you may move up to your <a href=\"https://swse.fandom.com/wiki/Speed\" title=\"Speed\">Speed</a> as a <a href=\"https://swse.fandom.com/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Multiattack Proficiency (Pistols) talent",
+          "requirement": "Multiattack Proficiency (Pistols)",
+          "type": "TALENT"
+        },
+        {
+          "text": "Dual Weapon Mastery I feat",
+          "requirement": "Dual Weapon Mastery I",
+          "type": "FEAT"
+        },
+        {
+          "text": "Weapon Focus (Pistols)",
+          "requirement": "Weapon Focus (Pistols)",
+          "type": "FEAT"
+        }
+      ],
+      "text": "Multiattack Proficiency (Pistols) talent, Dual Weapon Mastery I feat, and Weapon Focus (Pistols)",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Gunslinger Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Gunslinger Talent Trees",
+      "Core Rulebook"
+    ],
+    "isSupplied": false,
+    "talentTree": "Gunslinger Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Gunslinger_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Mobile Attack (Pistols)",
+  "flags": {},
+  "type": "talent",
+  "folder": "HUYIxi2GubLMS5AI",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385305785,
+    "modifiedTime": 1734385305785,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "1rm5ErktNL9w6xMS",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!1rm5ErktNL9w6xMS"
+}

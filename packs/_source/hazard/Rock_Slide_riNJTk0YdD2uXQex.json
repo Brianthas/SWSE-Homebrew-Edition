@@ -1,0 +1,66 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2d12",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A loud noise occurs within the area of the Hazard; targeting every being and object in the area.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round at the start of the target's turn, as long as the target remains within the area of the Rock Slide.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Knowledge (Physical Sciences) (DC 23): The character determines from the surroundings that the area might be unstable. A minor seismic quake, a shot from a blaster bolt, or an explosive could cause a Rock Slide. Survival (DC 28): After observing the area, the character finds a few places where he or she could take cover during a Rock Slide, gaining a +5 circumstance bonus to Reflex Defense against the Hazard.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Artificial or Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>A large mass of rocks and boulders tumbles down the mountainside toward you.</i> </p><p>Rock Slides can be particularly dangerous to a group of heroes. Their enemies can start a Rock Slide intentionally and perhaps even direct its path by placing artificial structures to funnel the rocks or by using <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a> to move boulders onto a desired course. In addition, you can use a Rock Slide to steer heroes in a particular direction. </p><h2><span id=\"Rock_Slide_Statistics_.28CL_9.29\"></span><span class=\"mw-headline\" id=\"Rock_Slide_Statistics_(CL_9)\">Rock Slide Statistics (CL 9)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Artificial or Natural </p><p><b>Trigger:</b> A loud noise occurs within the area of the Hazard; targeting every being and object in the area. </p><p><b>Attack:</b> +11 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> Each round at the start of the target's turn, as long as the target remains within the area of the Rock Slide. </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Knowledge_(Physical_Sciences)\" class=\"mw-redirect\" title=\"Knowledge (Physical Sciences)\">Knowledge (Physical Sciences)</a> (DC 23):</b> The character determines from the surroundings that the area might be unstable. A minor seismic quake, a shot from a blaster bolt, or an explosive could cause a Rock Slide.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Survival\" title=\"Survival\">Survival</a> (DC 28):</b> After observing the area, the character finds a few places where he or she could take cover during a Rock Slide, gaining a +5 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against the Hazard.</li>\n</ul>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Rock Slide",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244714,
+    "modifiedTime": 1749263244714,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "riNJTk0YdD2uXQex",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!riNJTk0YdD2uXQex"
+}

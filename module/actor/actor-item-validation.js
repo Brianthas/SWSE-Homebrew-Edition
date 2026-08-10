@@ -25,8 +25,6 @@ const isPermittedForActorType = (actor, type) => {
             "forceRegimen",
             "trait",
             "template",
-            "background",
-            "destiny",
             "beastAttack",
             "beastSense",
             "beastType",
@@ -160,9 +158,9 @@ const handleTalent = async (context) => {
             `Attempting to add ${context.entity.finalName}. You don't have more talents available of these types: <br/><ul><li>${Array.from(possibleProviders).join("</li><li>")}</li></ul>`, `Insufficient Talents`,
             context.actor.suppressDialog);
         return false;
-    } else if (possibleTalentTrees.size > 1) {
+    } else if (possibleTalentTrees.size > 1 && !context.actor.suppressDialog) {
         let content = `<p>Select an unused talent source.</p>
-                    <div><select id='choice'>${optionString}</select> 
+                    <div><select id='choice'>${optionString}</select>
                     </div>`;
 
         await Dialog.prompt({
@@ -213,9 +211,11 @@ const handleFeat = async (context) => {
     } else if (possibleFeatTypes.length > 1) {
         let preselected = getAnswer([...(context.itemAnswers||[]), ...(context.answers||[])], possibleFeatTypes)
 
-        if(!preselected){
+        if (preselected) {
+            possibleFeatTypes = preselected;
+        } else if (!context.actor.suppressDialog) {
             let content = `<p>Select an unused feat type.</p>
-                    <div><select id='choice'>${optionString}</select> 
+                    <div><select id='choice'>${optionString}</select>
                     </div>`;
 
             await Dialog.prompt({
@@ -227,7 +227,7 @@ const handleFeat = async (context) => {
                 }
             });
         } else {
-            possibleFeatTypes = preselected;
+            possibleFeatTypes = possibleFeatTypes[0];
         }
 
     }
@@ -250,12 +250,14 @@ const handleForceItems = async (context) => {
         }
     }
     if (!foundCategory && !context.actor.availableItems[viewable]) {
-        await Dialog.prompt({
-            title: `You can't take any more ${viewable.titleCase()}`,
-            content: `You can't take any more ${viewable.titleCase()}`,
-            callback: () => {
-            }
-        });
+        if (!context.actor.suppressDialog) {
+            await Dialog.prompt({
+                title: `You can't take any more ${viewable.titleCase()}`,
+                content: `You can't take any more ${viewable.titleCase()}`,
+                callback: () => {
+                }
+            });
+        }
         return false;
     }
     context.entity.system.activeCategory = context.entity.system.activeCategory || viewable;
@@ -286,29 +288,33 @@ const handleClass = async (context) => {
         return false;
     }
     if (context.entity.name === "Beast" && !context.isFirstLevel && context.actor.classes.filter(clazz => clazz.name === "Beast").length === 0) {
-        new Dialog({
-            title: "The Beast class is not allowed at this time",
-            content: `The Beast class is only allowed to be taken at first level or if it has been taken in a previous level`,
-            buttons: {
-                ok: {
-                    icon: '<i class="fas fa-check"></i>',
-                    label: 'Ok'
+        if (!context.actor.suppressDialog) {
+            new Dialog({
+                title: "The Beast class is not allowed at this time",
+                content: `The Beast class is only allowed to be taken at first level or if it has been taken in a previous level`,
+                buttons: {
+                    ok: {
+                        icon: '<i class="fas fa-check"></i>',
+                        label: 'Ok'
+                    }
                 }
-            }
-        }).render(true);
+            }).render(true);
+        }
         return false;
     }
     if (context.entity.name !== "Beast" && context.actor.classes.filter(clazz => clazz.name === "Beast").length > 0 && context.actor.getAttribute("INT") < 3) {
-        new Dialog({
-            title: "The Beast class is not allowed to multiclass at this time",
-            content: `Beasts can only multiclass when they have an Intelligence higher than 2.`,
-            buttons: {
-                ok: {
-                    icon: '<i class="fas fa-check"></i>',
-                    label: 'Ok'
+        if (!context.actor.suppressDialog) {
+            new Dialog({
+                title: "The Beast class is not allowed to multiclass at this time",
+                content: `Beasts can only multiclass when they have an Intelligence higher than 2.`,
+                buttons: {
+                    ok: {
+                        icon: '<i class="fas fa-check"></i>',
+                        label: 'Ok'
+                    }
                 }
-            }
-        }).render(true);
+            }).render(true);
+        }
         return false
     }
     SWSEActor.updateOrAddChange(context.entity, "isFirstLevel", context.isFirstLevel);
@@ -333,44 +339,25 @@ const handleSpeciesAndVehicleBase = async (context) => {
     let type = context.entity.type;
     let viewable = type.replace(/([A-Z])/g, " $1");
     if (context.actor.itemTypes[type].length > 0) {
-        new Dialog({
-            title: `${viewable.titleCase()} Selection`,
-            content: `Only one ${viewable.titleCase()} allowed at a time.  Please remove the existing one before adding a new one.`,
-            buttons: {
-                ok: {
-                    icon: '<i class="fas fa-check"></i>',
-                    label: 'Ok'
+        if (!context.actor.suppressDialog) {
+            new Dialog({
+                title: `${viewable.titleCase()} Selection`,
+                content: `Only one ${viewable.titleCase()} allowed at a time.  Please remove the existing one before adding a new one.`,
+                buttons: {
+                    ok: {
+                        icon: '<i class="fas fa-check"></i>',
+                        label: 'Ok'
+                    }
                 }
-            }
-        }).render(true);
+            }).render(true);
+        }
         return false
     }
     return true
 }
 
-const handleBackgroundAndDestiny = async (context) => {
-    if (!(context.entity.type === "background" || context.entity.type === "destiny") || game.settings.get("swse", "disableBackgroundDestinyLimit")) {
-        return true;
-    }
-    if (context.actor.itemTypes["background"].length > 0 || context.actor.itemTypes["destiny"].length > 0 ) {
-        new Dialog({
-            title: `${context.entity.type.titleCase()} Selection`,
-            content: `Only one background or destiny allowed at a time.  Please remove the existing one before adding a new one.`,
-            buttons: {
-                ok: {
-                    icon: '<i class="fas fa-check"></i>',
-                    label: 'Ok'
-                }
-            }
-        }).render(true);
-        return false
-    }
-
-    return true;
-}
-
 const handlePrerequisites = async (context) => {
-    if (EQUIPABLE_TYPES.includes(context.entity.type)) {
+    if (EQUIPABLE_TYPES.includes(context.entity.type) || context.entity.type === 'feat' || context.entity.type === 'talent') {
         return true;
     }
     let meetsPrereqs = meetsPrerequisites(context.actor, context.entity.system.prerequisite, {isLoad: true});
@@ -436,6 +423,5 @@ export const VALIDATORS = [
     handleForceItems,
     handleClass,
     handleSpeciesAndVehicleBase,
-    handleBackgroundAndDestiny,
     handlePrerequisites
 ]

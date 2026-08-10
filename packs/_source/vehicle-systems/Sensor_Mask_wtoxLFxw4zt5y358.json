@@ -1,0 +1,66 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Starship Accessories",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Gargantuan or Larger",
+          "requirement": "Gargantuan",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Gargantuan or Larger",
+          "requirement": "Colossal",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Gargantuan or Larger",
+          "requirement": "Colossal (Frigate)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Gargantuan or Larger",
+          "requirement": "Colossal (Cruiser)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Gargantuan or Larger",
+          "requirement": "Colossal (Station)",
+          "type": "TRAIT"
+        }
+      ],
+      "count": 1,
+      "text": "Gargantuan or Larger",
+      "type": "OR"
+    },
+    "changes": [],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a> </i></p><p><b>Emplacement Points: <i>&nbsp;</i></b> 1</p><p><b>Size Restriction:</b>&nbsp;Gargantuan or Larger</p><p>An extremely expensive modification that is both highly <a href=\"https://swse.fandom.com/wiki/Illegal\" class=\"mw-redirect\" title=\"Illegal\">Illegal</a> and highly successful, a Sensor Mask is a combination of sensors, chemical and electronic emitters, holographic projectors, and other anti-detection systems that make detecting the ship difficult. Rather than attempting to hide the ship by negating sensor emissions, a Sensor Mask reads the signals emitted by enemy sensors as they strike the ship, and then replicates those same sensor signals on the far side of the ship, effectively making it seem like the sensor signals passed right through the ship (as though it were open space). A Sensor Mask adds +10 to the DC of any <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> check made to detect the ship.</p>",
+    "cost": "150000 (Base)",
+    "emplacementPoints": "1",
+    "availability": "Illegal"
+  },
+  "name": "Sensor Mask",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317748,
+    "modifiedTime": 1759848317748,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "wtoxLFxw4zt5y358",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!wtoxLFxw4zt5y358"
+}

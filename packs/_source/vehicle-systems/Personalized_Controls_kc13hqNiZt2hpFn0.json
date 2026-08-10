@@ -1,0 +1,81 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Starship Accessories",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Colossal or Smaller",
+          "requirement": "Diminutive",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Smaller",
+          "requirement": "Fine",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Smaller",
+          "requirement": "Small",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Smaller",
+          "requirement": "Medium",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Smaller",
+          "requirement": "Large",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Smaller",
+          "requirement": "Huge",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Smaller",
+          "requirement": "Gargantuan",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Smaller",
+          "requirement": "Colossal",
+          "type": "TRAIT"
+        }
+      ],
+      "count": 1,
+      "text": "Colossal or Smaller",
+      "type": "OR"
+    },
+    "changes": [],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a> </i></p><p><b>Emplacement Points:&nbsp;</b> 0</p><p><b>Size Restriction:&nbsp;</b> Colossal or Smaller</p><p>One advantage of smaller ships is that their controls can be personalized to allow the single character controlling a given ship's function to have everything tuned to his or her preferences. This level of personalization simply isn't possible on ships with dozen or hundreds of crew members.</p><p>Any or all of the basic functions performed by a <a href=\"https://swse.fandom.com/wiki/Space_Transport\" class=\"mw-redirect\" title=\"Space Transport\">Space Transport</a> or <a href=\"https://swse.fandom.com/wiki/Starfighter\" class=\"mw-redirect\" title=\"Starfighter\">Starfighter</a>&nbsp;<a href=\"https://swse.fandom.com/wiki/Pilot_(Vehicle_Combat)\" title=\"Pilot (Vehicle Combat)\">Pilot</a>, <a href=\"https://swse.fandom.com/wiki/Copilot\" title=\"Copilot\">Copilot</a>, <a href=\"https://swse.fandom.com/wiki/Gunner\" title=\"Gunner\">Gunner</a>, <a href=\"https://swse.fandom.com/wiki/Commander\" title=\"Commander\">Commander</a>, <a href=\"https://swse.fandom.com/wiki/System_Operator\" title=\"System Operator\">System Operator</a>, or <a href=\"https://swse.fandom.com/wiki/Engineer\" title=\"Engineer\">Engineer</a> can be personalized to a single, specific character. (The price listed is for personalizing the controls of one of these positions.) Personalized Controls grant that one character a +1 bonus on checks with any <a href=\"https://swse.fandom.com/wiki/Skill\" class=\"mw-redirect\" title=\"Skill\">Skill</a> relevant to that crew position (usually <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a>, <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a>, or <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a>). However, the high degree of personalization also makes it more difficult for anyone else to use the controls, giving any other character a -2 penalty on <a href=\"https://swse.fandom.com/wiki/Skill_Checks\" title=\"Skill Checks\">Skill Checks</a> relating to the same position.</p>",
+    "cost": "1000",
+    "emplacementPoints": "0",
+    "availability": "Common"
+  },
+  "name": "Personalized Controls",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317490,
+    "modifiedTime": 1759848317490,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "kc13hqNiZt2hpFn0",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!kc13hqNiZt2hpFn0"
+}

@@ -1,0 +1,77 @@
+{
+  "img": "systems/swse/icon/feat/Knife_Trick.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You can use a concealed weapon to deadly effect.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Lightning_Draw\" title=\"Lightning Draw\">Lightning Draw</a>, <a href=\"https://swse.fandom.com/wiki/Quick_Draw\" title=\"Quick Draw\">Quick Draw</a>, <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in <a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a></p><p><b>Effect:</b> If you have a concealed weapon, you <a href=\"https://swse.fandom.com/wiki/Threaten\" class=\"mw-redirect\" title=\"Threaten\">Threaten</a> squares as though armed with a melee weapon. When you can make an <a href=\"https://swse.fandom.com/wiki/Attack_of_Opportunity\" class=\"mw-redirect\" title=\"Attack of Opportunity\">Attack of Opportunity</a>, you can draw a weapon you have successfully concealed on your person and make a single attack against the target.</p><p>If you choose not to draw your concealed weapon and attack with it, you cannot make the <a href=\"https://swse.fandom.com/wiki/Attack_of_Opportunity\" class=\"mw-redirect\" title=\"Attack of Opportunity\">Attack of Opportunity</a> unless you would otherwise normally be able to do so.</p><p><b>Normal:</b> With the <a href=\"https://swse.fandom.com/wiki/Quick_Draw\" title=\"Quick Draw\">Quick Draw</a> feat, drawing or holstering a weapon is a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Lightning Draw feat",
+          "requirement": "Lightning Draw",
+          "type": "FEAT"
+        },
+        {
+          "text": "Quick Draw feat",
+          "requirement": "Quick Draw",
+          "type": "FEAT"
+        },
+        {
+          "text": "Trained in Stealth",
+          "requirement": "Stealth",
+          "type": "TRAINED SKILL"
+        }
+      ],
+      "text": "Lightning Draw feat, Quick Draw feat, and Trained in Stealth",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Scoundrel Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Scoundrel Bonus Feats",
+      "General Feats",
+      "Smuggler Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Scum and Villainy",
+    "cost": "0"
+  },
+  "name": "Knife Trick",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1761479027719,
+    "modifiedTime": 1786036141513,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "4LFXHsF1689VXwfQ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!4LFXHsF1689VXwfQ"
+}

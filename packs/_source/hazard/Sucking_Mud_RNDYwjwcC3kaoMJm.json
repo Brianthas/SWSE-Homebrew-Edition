@@ -1,0 +1,66 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A being begins its turn on Sucking Mud.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round at the start of the target's turn, as long as the target remains on the Sucking Mud.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Jump (DC 13): The character leaps over the patch of mud, gaining a +5 circumstance bonus to Reflex Defense against the Hazard. Perception (DC 13): The character spots the Sucking Mud, gaining a +2 circumstance bonus to Reflex Defense to avoid the Hazard. Survival (DC 18): The character knows a technique to escape from the Sucking Mud more easily, gaining a +2 circumstance bonus to a Strength check to free themselves from the mud.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: If the Hazard successfully attacks a creature, the target becomes stuck in the Sucking Mud and cannot move from their current square until they succeed on a DC 15 Strength check to free themselves.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>The patch of ground ahead looks different from the turf you have seen before now, and the small skeletons visible in the dirt unsettle you.</i> </p><p>Soil can be composed of many different substances, and some dirt thickens when it turns to mud. These patches of Sucking Mud grab and hold any creature that tries to move through them. Combatants who know the location of a patch of Sucking Mud can use it to lure their enemies into a trap. Melee combat between two opponents stuck in Sucking Mud becomes interesting, especially if both are trapped some distance from one another. </p><h2><span id=\"Sucking_Mud_Statistics_.28CL_1.29\"></span><span class=\"mw-headline\" id=\"Sucking_Mud_Statistics_(CL_1)\">Sucking Mud Statistics (CL 1)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Natural </p><p><b>Trigger:</b> A being begins its turn on Sucking Mud. </p><p><b>Attack:</b> +3 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> Each round at the start of the target's turn, as long as the target remains on the Sucking Mud. </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Jump\" title=\"Jump\">Jump</a> (DC 13):</b> The character leaps over the patch of mud, gaining a +5 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against the Hazard.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> (DC 13):</b> The character spots the Sucking Mud, gaining a +2 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> to avoid the Hazard.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Survival\" title=\"Survival\">Survival</a> (DC 18):</b> The character knows a technique to escape from the Sucking Mud more easily, gaining a +2 circumstance bonus to a <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> check to free themselves from the mud.</li>\n</ul><p><b>Special:</b> If the Hazard successfully attacks a creature, the target becomes stuck in the Sucking Mud and cannot move from their current square until they succeed on a DC 15 <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> check to free themselves. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Sucking Mud",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244796,
+    "modifiedTime": 1749263244796,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "RNDYwjwcC3kaoMJm",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!RNDYwjwcC3kaoMJm"
+}

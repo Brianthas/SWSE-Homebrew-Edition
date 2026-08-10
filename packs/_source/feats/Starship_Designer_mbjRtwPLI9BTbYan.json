@@ -1,0 +1,71 @@
+{
+  "img": "systems/swse/icon/feat/Starship Designer.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a>, <a href=\"https://swse.fandom.com/wiki/SotG_Starship_Modifications\" title=\"SotG Starship Modifications\">Starship Modifications</a></i></p><p>You are trained to design (and redesign) <a href=\"https://swse.fandom.com/wiki/Starships\" class=\"mw-redirect\" title=\"Starships\">Starships</a>.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Tech_Specialist\" title=\"Tech Specialist\">Tech Specialist</a>, <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a></p><p><b>Effect:</b> You can design a <a href=\"https://swse.fandom.com/wiki/Starship\" class=\"mw-redirect\" title=\"Starship\">Starship</a> from scratch. Doing so takes a minimum of 30 days and a DC 25 <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> check, adding 1 to the DC and 1 to the time for every additional 100,000 credits of the design's final cost beyond the first 100,000 credits (even a genius Starship Designer can spend years working out the blueprints for a Star Destroyer). Other characters <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in the <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> skill may use the <a href=\"https://swse.fandom.com/wiki/Aid_Another\" title=\"Aid Another\">Aid Another</a> action to assist your <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> check; if any assisting character also has the Starship Designer Feat, divide the Starship's cost by the number of characters who have this Feat (including the primary designer) when determining the time required.</p><p>When making <a href=\"https://swse.fandom.com/wiki/Starship_Modifications\" class=\"mw-redirect\" title=\"Starship Modifications\">Starship Modifications</a>, you never treat the work as though it were a <a href=\"https://swse.fandom.com/wiki/Nonstandard_Modifications\" class=\"mw-redirect\" title=\"Nonstandard Modifications\">Nonstandard Modification</a>, even if it normally would be. Additionally, you can make custom modifications to Starships. Each of these modifications has a base cost of 5,000 credits (multiplied by the Starship Size Cost Modifier) and requires a DC 25 <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> check. On a failed check, the modification fails; you must spend half again as much time and money to make a second attempt, and you gain a +2 bonus on your <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> check for each attempt after the first.</p><p>Installation of a custom modification normally takes one day per 5,000 credits of the final cost. The same system can be customized multiple times, but doing so becomes increasingly difficult and expensive. For every previous custom modification on a given system, increase the DC by 5 and the base cost by 10,000 credits. No system can be customized more than three times. Multiple benefits from successive customizations stack. Typical customizations are described below. The Gamemaster may allow other modifications.</p><ul>\n <li><i>Add Emplacement:</i> You add 1 unused <a href=\"https://swse.fandom.com/wiki/Emplacement_Points\" class=\"mw-redirect\" title=\"Emplacement Points\">Emplacement Point</a> to a Starship.</li>\n <li><i>Improve Hull:</i> You add a number of Hit Points to a Starship equal to 1/2 its <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> score (rounded down to the nearest multiple of 10).</li>\n <li><i>Improve Hyperdrive:</i> You can reengineer a hyperdrive to improve its class by 1 step. The hyperdrive obeys all the restrictions of its new class.</li>\n <li><i>Improve Shields:</i> The <a href=\"https://swse.fandom.com/wiki/Shield_Rating\" title=\"Shield Rating\">Shield Rating</a> of the shields is increased by 5.</li>\n <li><i>Improve Weapons:</i> You grant one Vehicle Weapon a +1 <a href=\"https://swse.fandom.com/wiki/Equipment\" title=\"Equipment\">Equipment</a> bonus on attack rolls.</li>\n</ul><h2><span class=\"mw-headline\" id=\"Additional_Starship_Design_Rules\">Additional Starship Design Rules</span></h2><p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Web_Enhancements\" title=\"Star Wars Saga Edition Web Enhancements\">Star Wars Saga Edition Web Enhancements</a> (<a href=\"https://swse.fandom.com/wiki/Jedi_Counseling\" title=\"Jedi Counseling\">Jedi Counseling</a>)</i></p><p><b>Q:</b> I've run into some issues with the Starship Design rules in <i><a href=\"https://swse.fandom.com/wiki/Starships_of_the_Galaxy\" class=\"mw-redirect\" title=\"Starships of the Galaxy\">Starships of the Galaxy</a></i>. It seems that you can't make any existing Starships using these rules and starting with a Stock Starship. Am I doing something wrong?</p><p><b>A:</b> Probably not. A vast number of individual Starships have been created over the last few decades since <i>A New Hope</i> came out, and at no point was there a cohesive Starship design system to guide authors of fiction or gaming products. As such, it is effectively impossible to reverse-engineer a design system that covers all these varied examples- or, at least, any such system would be so complex that it wouldn't be easy to use in a game.</p><p>Given that, we designed the system from the point of the typical hero who might be interested in modifying an existing Starship or scratch-building a new one. This hero doesn't have the benefit of vast numbers of the best engineers and test pilots in the galaxy (like at the Corellian Engineering Corporation), nor does this hero have an entire star system dedicated to the building of city-sized Starships with mass-production facilities to match (like at Kuat Drive Yards).</p><p>This hero, instead, is relegated to building \"A typical new Starship from a typical production facility,\" as noted at the bottom of Table 3–8: <a href=\"https://swse.fandom.com/wiki/Stock_Ship_Types\" class=\"mw-redirect\" title=\"Stock Ship Types\">Stock Ship Types</a>. The Stock Starships are designed to reflect that, making it possible to make something decent and functional, but not something that would easily outshine the big name starships.</p><p>For example, a hero could build a decent light freighter, something comparable to a <a href=\"https://swse.fandom.com/wiki/YT-1300\" class=\"mw-redirect\" title=\"YT-1300\">YT-1300</a> in stats and price.</p><p>The biggest difference? The <a href=\"https://swse.fandom.com/wiki/YT-1300\" class=\"mw-redirect\" title=\"YT-1300\">YT-1300</a> would have a lot of extra <a href=\"https://swse.fandom.com/wiki/Emplacement_Points\" class=\"mw-redirect\" title=\"Emplacement Points\">Emplacement Points</a> left over- and that's precisely what the Corellian Engineering Corporation is known for. Think about it: if any yahoo on a backwater planet could build a freighter that's just as good, why would the YT-series freighters sell so well throughout the galaxy?</p><p>Since most heroes won't ever control a galaxy-spanning corporate giant and be able to use these resources, it seems a little silly to spend page space exploring the ins and outs of galactic-scale mass production. Similarly, we might give broad outlines of supply and demand by listing a planet's major exports and imports, but we won't be creating rules that account for macroeconomic cycles, unemployment, inflation, and so forth. (Let's face it: Most of us are just here to shoot Stormtroopers.)</p><p>Now, if you as the GM want to build Starships beyond what the <a href=\"https://swse.fandom.com/wiki/Stock_Starships\" class=\"mw-redirect\" title=\"Stock Starships\">Stock Starships</a> can manage, there's really not a reason for you to hamstring yourself with those rules: just write up stats that seem like a good challenge for your players, using similar Starships as benchmarks for things like price, appropriate game statistics for that type of ship, and so forth.</p><p>And if you and your players really want more comprehensive rules that go beyond those in the book, by all means do so! You might look at <a href=\"https://swse.fandom.com/wiki/Gear_Templates\" title=\"Gear Templates\">Gear Templates</a> to get some inspiration for coming up with appropriate special benefits and restrictions for different manufacturers.</p><p>Alternatively, you might allow manufacturers to come up with \"Proprietary\" Stock Starships that are better than the typical ones listed in the book. For example, Kuat Drive Yards might have a really good \"Stock Star Destroyer\" and Corellian Engineering Corporation might have an outstanding \"Stock YT-Series,\" and they use these as the baseline for producing several similar Starship designs.</p><p><b>Q:</b> When building a new design from a Stock Starship, can you remove or replace existing systems that come with the stock ship? For example, could I take those high-performance engines off a stock interceptor and use the cash to buy other systems?</p><p><b>A:</b> You can, but it's not very efficient. You get only 1/4 the listed value of any system you remove from a Starship, even a Stock Starship.</p><p>Stock Starships usually get their starting systems at a substantial discount because they are so well integrated into the baseline design. Removing them requires a lot of inefficient workarounds, resulting in a lower price comparable to selling a used Starship component.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Tech Specialist feat",
+          "requirement": "Tech Specialist",
+          "type": "FEAT"
+        },
+        {
+          "text": "Trained in Mechanics",
+          "requirement": "Mechanics",
+          "type": "TRAINED SKILL"
+        }
+      ],
+      "text": "Tech Specialist feat, and Trained in Mechanics",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Technician Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Technician Bonus Feats",
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Starships of the Galaxy",
+    "cost": "0"
+  },
+  "name": "Starship Designer",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479028963,
+    "modifiedTime": 1761479028963,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "mbjRtwPLI9BTbYan",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!mbjRtwPLI9BTbYan"
+}

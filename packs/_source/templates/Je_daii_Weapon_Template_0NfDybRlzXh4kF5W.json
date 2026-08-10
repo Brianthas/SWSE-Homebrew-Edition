@@ -1,0 +1,74 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<table style=\"width:100%; margin-top:2em; border:2px solid #999; font-size:105%; text-align:center; background:#00008B;\"> \n <tbody>\n  <tr> \n   <td><i><b>This <a href=\"https://swse.fandom.com/wiki/Homebrew_Content\" title=\"Homebrew Content\">Homebrew Content</a> has been <a href=\"https://swse.fandom.com/wiki/Category:Tested\" title=\"Category:Tested\">Tested</a> per the <a href=\"https://swse.fandom.com/wiki/Category:Untested\" title=\"Category:Untested\">Untested</a> guidelines. Whether or not it can be used is, as always, the prerogative of the Gamemaster.</b></i> </td>\n  </tr>\n </tbody>\n</table><p><i>Je'daii Weapon Template data created by Wikia user SaintSirNicholas.</i> </p><p><b>Manufactured By:</b> <a href=\"https://swse.fandom.com/wiki/The_Je%27daii_Rangers\" title=\"The Je'daii Rangers\">The Je'daii Rangers</a> (<a href=\"https://swse.fandom.com/wiki/Force_Tradition\" class=\"mw-redirect\" title=\"Force Tradition\">Force Tradition</a>) </p><p><b>Applicable To:</b> Any <a href=\"https://swse.fandom.com/wiki/Simple_Weapon_(Melee)\" class=\"mw-redirect\" title=\"Simple Weapon (Melee)\">Simple Weapon (Melee)</a> </p><p>Je'daii Weapons are items that have undergone an arcane enhancement process; favored by <a href=\"https://swse.fandom.com/wiki/The_Je%27daii_Rangers\" title=\"The Je'daii Rangers\">The Je'daii Rangers</a> in the days prior to the spread of <a href=\"https://swse.fandom.com/wiki/Lightsabers\" title=\"Lightsabers\">Lightsabers</a>, Je'daii Weapons are not only resistant to damage, but also channel <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a> through them. Ancient Je'daii Rangers used Force Alchemy to fundamentally alter the chemical makeup of their Weapons, resulting in something far more dangerous than the typical <a href=\"https://swse.fandom.com/wiki/Axe\" title=\"Axe\">Axe</a> or <a href=\"https://swse.fandom.com/wiki/War_Sword\" title=\"War Sword\">War Sword</a>. </p><p><b>Weapons:</b> A <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> does not ignore a Je'daii Weapon's <a href=\"https://swse.fandom.com/wiki/Damage_Reduction\" title=\"Damage Reduction\">Damage Reduction</a>. Additionally, a character proficient with a Je'daii Weapon can spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> as a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a> to gain a bonus to damage rolls with the Je'daii Weapon equal to his or her <a href=\"https://swse.fandom.com/wiki/Wisdom\" title=\"Wisdom\">Wisdom</a> modifier. This bonus to damage applies to the next attack made with the Je'daii Weapon before the start of the character's next turn. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "??",
+        "key": "cost"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "itemMod"
+      },
+      {
+        "mode": 2,
+        "value": "daii",
+        "key": "prefix"
+      },
+      {
+        "mode": 2,
+        "value": "",
+        "key": "suffix"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "hasItemOwner": false,
+    "subtype": "Weapon Templates",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Any Weapon",
+          "requirement": "weapon",
+          "type": "TYPE"
+        }
+      ],
+      "text": "Any Weapon, and ",
+      "type": "AND"
+    },
+    "cost": "??"
+  },
+  "name": "Je'daii Weapon Template",
+  "flags": {},
+  "type": "template",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.2",
+    "createdTime": 1729096741400,
+    "modifiedTime": 1729096741400,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "0NfDybRlzXh4kF5W",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!0NfDybRlzXh4kF5W"
+}

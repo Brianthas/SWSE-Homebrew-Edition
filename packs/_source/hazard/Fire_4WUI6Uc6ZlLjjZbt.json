@@ -1,0 +1,61 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "1d6",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A creature, Droid, or object takes Fire damage.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round at the start of the target's turn, until the flames are extinguished. A creature can put out the flames as a Full-Round Action.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Artificial or Natural",
+          "Fire"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>A creature or character that takes Fire damage also catches on Fire. When clothing or objects catch Fire, they continue to burn and take Fire damage.</i> </p><h2><span id=\"Fire_Statistics_.28CL_3.29\"></span><span class=\"mw-headline\" id=\"Fire_Statistics_(CL_3)\">Fire Statistics (CL 3)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b>&nbsp;Artificial or Natural, Fire </p><p><b>Trigger:</b> A creature, Droid, or object takes Fire damage. </p><p><b>Attack:</b> +5 vs <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> </p><p><b>Recurrence:</b> Each round at the start of the target's turn, until the flames are extinguished. A creature can put out the flames as a <a href=\"https://swse.fandom.com/wiki/Full-Round_Action\" class=\"mw-redirect\" title=\"Full-Round Action\">Full-Round Action</a>. </p>",
+    "cost": "0"
+  },
+  "name": "Fire",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244274,
+    "modifiedTime": 1749263244274,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "4WUI6Uc6ZlLjjZbt",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!4WUI6Uc6ZlLjjZbt"
+}

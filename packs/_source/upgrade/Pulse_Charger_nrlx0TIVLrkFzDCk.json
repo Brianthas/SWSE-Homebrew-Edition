@@ -1,0 +1,56 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a></i> </p><p>Any Blaster Weapon can be fitted with a Pulse Charger. A Pulse Charger forces more power into the blast chamber, producing more powerful shots at the expense of lost accuracy. This Upgrade causes a -1 penalty on all attack rolls with the weapon, but the weapon deals +1 point of damage per die. </p><p>Thus, a <a href=\"https://swse.fandom.com/wiki/Sporting_Blaster_Pistol\" title=\"Sporting Blaster Pistol\">Sporting Blaster Pistol</a> with a Pulse Charger imposes a -1 penalty on attack rolls and deals 3d4+3 points of Energy damage on a hit. A blaster with a Pulse Charger has only one-half the normal number of shots from a <a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a>. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "itemMod"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "2000",
+    "weight": "",
+    "availability": "Military",
+    "size": "",
+    "type": "",
+    "subtype": "Weapon Upgrade",
+    "quantity": 1,
+    "hasItemOwner": false,
+    "upgrade": {},
+    "source": "Star Wars Saga Edition Scum and Villainy",
+    "upgradePointCost": "1"
+  },
+  "name": "Pulse Charger",
+  "flags": {},
+  "type": "upgrade",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263245712,
+    "modifiedTime": 1749263245712,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "nrlx0TIVLrkFzDCk",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!nrlx0TIVLrkFzDCk"
+}

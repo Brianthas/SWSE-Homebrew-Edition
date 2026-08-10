@@ -1,0 +1,142 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a></i> </p><p>Ubiquitous in spaceports throughout the galaxy, Ryn are a Species of nomads and adventurers, scoundrels, strels, and rogues. No one is certain where the Ryn come from; no record of a homeworld exists, and Ryn culture, such as it is, requires them to never sleep in the same place twice. Some speculate that the Ryn were a race of warriors, dispatched to <a href=\"https://swse.fandom.com/wiki/Core_Worlds\" class=\"mw-redirect\" title=\"Core Worlds\">Core Worlds</a> ages ago to contend with some threat, while others suggest that the Ryn were a tribe of ten thousand musicians gifted to a world that had no artists of their own. Either could be true, for the Ryn are as fearless in battle as they are skilled in music. </p><p>For all their talents, Ryn find the galaxy largely inhospitable. They have a reputation for being untrustworthy and treacherous, dangerous to befriend and fickle in their loyalties. Although that is true of many Ryn, most are just free spirits looking to survive. They are among the hardest working people known. </p><p>The Ryn are natural entertainers. Between jobs, they supplement their incomes through fortune-telling using Sabacc cards (a game they are believed to have invented), singing, dancing, and any other musical arts (see <a href=\"https://swse.fandom.com/wiki/Sabacc_Fortune-Telling\" title=\"Sabacc Fortune-Telling\">Sabacc Fortune-Telling</a>). </p><h3><span class=\"mw-headline\" id=\"Ryn_Characteristics\">Ryn Characteristics</span></h3><p><b>Personality:</b> Wanderlust consumes the Ryn. They cannot abide confinement and constraint, and they itch to move on shortly after they arrive in a new place. Ryn are fun-loving and flamboyant, but centuries of cruelty, oppression, and exploitation have taken their toll. This has led some Ryn to become more insular and secretive, which of course, does nothing to diminish the suspicion and distrust others have for the Ryn. </p><p><b>Physical Description:</b> Ryn are humanoid, but slightly shorter than <a href=\"https://swse.fandom.com/wiki/Humans\" class=\"mw-redirect\" title=\"Humans\">Humans</a>. All Ryn have thick, muscular tails that end in white tufts. Prehensile, their tails can support their weight and even act as a third arm. A fine coat of smoke-gray fur covers their bodies, while they grow thick white to blue-white hair on their heads. Males wear thin moustaches and beards. A Ryn's most distinctive feature is its nose. A chitinous organ, similar to a beak, it is perforated to allow the passage of air. Ryn can pipe sounds through these holes to create a variety of tones, whistles, and pops. Skilled Ryn can use these \"beaks\" to create music. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Ryn age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-10 Years </td> \n   <td>11-20 Years </td> \n   <td>21-40 Years </td> \n   <td>41-60 Years </td> \n   <td>61-80 Years </td> \n   <td>81+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The Ryn are believed to have come from somewhere among the <a href=\"https://swse.fandom.com/wiki/Core_Worlds\" class=\"mw-redirect\" title=\"Core Worlds\">Core Worlds</a>, but they have traveled for so long that even the Ryn no longer remember from where they hail. </p><p><b>Languages:</b> Ryn all speak Basic and Ryn, and they are quick studies, learning languages from all over the galaxy. </p><p><b>Example Names:</b> Camarata, Cisgat, Clarani, Droma, Ferfer, Gaph, Lenya, Melisma, Mezza, Romany, R'vanna, Sapha. </p><p><b>Adventurers:</b> Ryn are born to adventure and are happiest when traveling and exploring. They rarely stay in any place for long and get agitated if forced to stay put. Danger does little to frighten them. Thus, they find themselves in difficult situations. Even though the Ryns' nomadic penchant makes them poorly suited to be Jedi, they are skilled users of <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a>- even if they are not aware they are using it. Those with the strongest abilities become spirit adepts and travel wherever <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a> takes them. </p><h3><span class=\"mw-headline\" id=\"Ryn_Species_Traits\">Ryn Species Traits</span></h3><p>Ryn share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Connections",
+        "type": "trait"
+      },
+      {
+        "name": "Ryn",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Musical Obfuscation",
+        "type": "trait"
+      },
+      {
+        "name": "Prehensile Tail",
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "10",
+          "low": "1",
+          "text": "1-10",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "40",
+          "low": "21",
+          "text": "21-40",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "81",
+          "text": "81+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "80",
+          "low": "61",
+          "text": "61-80",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "20",
+          "low": "11",
+          "text": "11-20",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "60",
+          "low": "41",
+          "text": "41-60",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Connections"
+      },
+      {
+        "value": "Ryn"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Musical Obfuscation"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Prehensile Tail"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Ryn",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535567141,
+    "modifiedTime": 1736535567141,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "F0MDdUFUlemLxWEk",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!F0MDdUFUlemLxWEk"
+}

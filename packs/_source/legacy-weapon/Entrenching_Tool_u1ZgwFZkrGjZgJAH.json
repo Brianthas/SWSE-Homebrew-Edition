@@ -1,0 +1,158 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "group": "Damage Type"
+        }
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Slashing",
+      "_id": "S9dhv3cnBmZliPTq",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Slashing",
+            "key": "damageType",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513478,
+        "modifiedTime": 1786051513478,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!u1ZgwFZkrGjZgJAH.S9dhv3cnBmZliPTq"
+    },
+    {
+      "flags": {
+        "swse": {
+          "group": "Damage Type"
+        }
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Piercing",
+      "_id": "EdvQQQOsOn6JPiQj",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Piercing",
+            "key": "damageType",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513478,
+        "modifiedTime": 1786051513478,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!u1ZgwFZkrGjZgJAH.EdvQQQOsOn6JPiQj"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_at_War\" title=\"Star Wars Saga Edition Galaxy at War\">Star Wars Saga Edition Galaxy at War</a></i> </p><p>Used by soldiers for thousands of years, the Entrenching Tool is a durable, multipurpose tool that also can be an effective melee weapon. The Entrenching Tool can be configured as a short shovel, a pickaxe, or even a makeshift hammer. </p><p>The Entrenching Tool is designed to be durable enough for combat, but it is not as balanced as a regular Weapon. The wielder takes a -2 penalty to attack rolls (<a href=\"https://swse.fandom.com/wiki/Improvised_Weapons\" class=\"mw-redirect\" title=\"Improvised Weapons\">Improvised Weapons</a> normally impose a -5 penalty to attack rolls) and can choose to deal either Piercing or Slashing damage. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "50",
+    "weight": "1 Kilogram",
+    "availability": "",
+    "size": "Small",
+    "type": "",
+    "subtype": "Simple Melee Weapons",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "1d6"
+  },
+  "name": "Entrenching Tool",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Entrenching_Tool.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513478,
+    "modifiedTime": 1786051513572,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "u1ZgwFZkrGjZgJAH",
+  "_key": "!items!u1ZgwFZkrGjZgJAH"
+}

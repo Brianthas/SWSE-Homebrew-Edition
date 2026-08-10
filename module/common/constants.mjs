@@ -15,6 +15,27 @@ export const dieSize = ["1", "1d2", "1d3", "1d4", "1d6", "1d8", "2d6", "2d8", "3
 export const dieSize_vanilla = ["1", "1d2", "1d3", "1d4", "1d6", "1d8", "1d10", "1d12"];
 export const dieType = ["1", "2", "3", "4", "6", "8", "10", "12"];
 export const sizeArray = ["Fine", "Diminutive", "Tiny", "Small", "Medium", "Large", "Huge", "Gargantuan", "Colossal", "Colossal (Frigate)", "Colossal (Cruiser)", "Colossal (Station)"];
+// Fine-Colossal, but not the starship-scale Colossal (Frigate)/(Cruiser)/(Station) variants — no
+// beast in this campaign is ship-scale; a starship-sized creature is just "Colossal".
+export const beastSizeArray = ["Fine", "Diminutive", "Tiny", "Small", "Medium", "Large", "Huge", "Gargantuan", "Colossal"];
+// Core damage/availability enums for the typed gear-type item sheets (Item Schema & Sheet
+// Overhaul, Track A) — legacy compendium data has messier free-text variants (typos, combined
+// "X, Y" values); these dropdowns cover the common case, an unmatched legacy value just shows
+// as unselected until manually reselected.
+export const DAMAGE_TYPES = ["Bludgeoning", "Piercing", "Slashing", "Energy", "Ion", "Sonic", "Stun", "Fire", "Physical"];
+export const AVAILABILITY_TYPES = ["Licensed", "Restricted", "Military", "Rare", "Illegal"];
+// Homebrew "Beast HD" table — the Beast class's per-level-up hit die scales by the
+// creature's size instead of being a flat die like every other class. Only consulted for
+// beast-type actors' own Beast class levels (see SWSEItem#levelUpHitPoints). Tiny-Gargantuan
+// are Bryan's original chart; Fine/Diminutive (below) and the Colossal tiers (above) extend
+// the same progression — step-down by die size on the small end, step-up by dice count on the
+// large end, matching how this system already scales other things (e.g. unarmed damage) past
+// a single die's range.
+export const BEAST_HIT_DIE_BY_SIZE = {
+    Fine: "1", Diminutive: "1d2", Tiny: "1d4", Small: "1d6", Medium: "1d8",
+    Large: "1d10", Huge: "1d12", Gargantuan: "1d20",
+    Colossal: "2d12",
+};
 export const SIZE_CHANGES = {
     "Fine" : [
         {"key" : "reflexDefenseBonus","value" : "10","mode" : 2},
@@ -44,15 +65,14 @@ export const SIZE_CHANGES = {
         {"key" : "reflexDefenseBonus","value" : "1","mode" : 2},
         {"key" : "characterFightingSpace","value" : "1 square","mode" : 2},
         {"key" : "shipSkillModifier","value" : "1","mode" : 2},
-        {"key" : "unarmedDamage","value" : "1d3","mode" : 2},
-        {"key" : "skillBonus","value" : "stealth:5","mode" : 2},
+        {"key" : "unarmedDamage","value" : "1d4","mode" : 2},
         {"key" : "damageThresholdSizeModifier","value" : "0","mode" : 2},
     ],
     "Medium" : [
         {"key" : "reflexDefenseBonus","value" : "0","mode" : 2},
         {"key" : "characterFightingSpace","value" : "1 square","mode" : 2},
         {"key" : "shipSkillModifier","value" : "0","mode" : 2},
-        {"key" : "unarmedDamage","value" : "1d4","mode" : 2},
+        {"key" : "unarmedDamage","value" : "1d6","mode" : 2},
         {"key" : "skillBonus","value" : "stealth:0","mode" : 2},
         {"key" : "damageThresholdSizeModifier","value" : "0","mode" : 2},
     ],
@@ -60,7 +80,7 @@ export const SIZE_CHANGES = {
         {"key" : "reflexDefenseBonus","value" : "-1","mode" : 2},
         {"key" : "characterFightingSpace","value" : "4 squares","mode" : 2},
         {"key" : "shipSkillModifier","value" : "-1","mode" : 2},
-        {"key" : "unarmedDamage","value" : "1d6","mode" : 2},
+        {"key" : "unarmedDamage","value" : "1d8","mode" : 2},
         {"key" : "skillBonus","value" : "stealth:-5","mode" : 2},
         {"key" : "damageThresholdSizeModifier","value" : "5","mode" : 2},
         {"key" : "grappleSizeModifier","value" : "5","mode" : 2},
@@ -623,23 +643,31 @@ export const WEAPON_INCLUSION_LIST = []
 
 export const d20 = "1d20";
 export const defaultAttributes = ["strength", "dexterity", "constitution", "wisdom", "intelligence", "charisma"]
-export const defaultSkills = ["Acrobatics", "Climb", "Deception", "Endurance", "Gather Information", "Initiative", "Jump",
-    "Knowledge (Bureaucracy)", "Knowledge (Galactic Lore)", "Knowledge (Life Sciences)", "Knowledge (Physical Sciences)",
-    "Knowledge (Social Sciences)", "Knowledge (Tactics)", "Knowledge (Technology)", "Mechanics", "Perception",
-    "Persuasion", "Pilot", "Ride", "Stealth", "Survival", "Swim", "Treat Injury", "Use Computer", "Use the Force"];
+export const defaultSkills = ["Acrobatics", "Biotech", "Deception", "Endurance", "Gather Information", "Initiative",
+    "Knowledge (Bureaucracy)", "Knowledge (Galactic Lore)",
+    "Knowledge (Tactics)", "Knowledge (Technology)", "Mechanics", "Perception",
+    "Persuasion", "Pilot", "Stealth", "Survival", "Treat Injury", "Use Computer", "Use the Force"];
 export const defaultVehicleSkills = ["Pilot (Pilot)", "Initiative (Pilot)", "Stealth (Pilot)", "Deception (Pilot)", "Pilot (Copilot)", "Use Computer (Commander)", "Knowledge (Tactics) (Commander)", "Mechanics (System Operator)", "Use Computer (System Operator)", "Mechanics (Engineer)"];
 
 export const allDefaultSkills = [...defaultSkills, ...defaultVehicleSkills];
     export function getGroupedSkillMap() {
-    if (game.settings.get("swse", "homebrewUseLilLiteralistSkills")) {
-        return HOMEBREW_LILLITERALIST_SKILLS;
-    }
-
-    if (game.settings.get("swse", "homebrewUseDarthauthorSkills")) {
-        return HOMEBREW_DARTHAUTHOR_SKILLS;
-    }
-    return undefined;
+    return EPISODE_VII_HOMEBREW_SKILLS;
 }
+
+// Homebrew (Episode VII houserules): Athletics replaces Climb/Jump/Swim; Knowledge (Sciences)
+// replaces the "hard science" Knowledge subskills. Unconditional — this is this fork's actual
+// ruleset, not an optional toggle. The old individual skills no longer exist in any form (no
+// situational sub-skill breakdown) — only the consolidated parent skill is rollable.
+export const EPISODE_VII_HOMEBREW_SKILLS = new Map([
+    ["Athletics", {
+        ability: "str",
+        uut: true
+    }],
+    ["Knowledge (Sciences)", {
+        ability: "int",
+        uut: false
+    }]
+]);
 
 export function skills(actorType = "character", removeGroupedSkills = true) {
     let skills = actorType === "character" ? [...defaultSkills] : [...defaultVehicleSkills];
@@ -669,12 +697,12 @@ export const skillDetails = {
         acp: true,
         link: "https://swse.fandom.com/wiki/Acrobatics"
     },
-    "Climb": {
+    "Biotech": {
         value: 0,
-        ability: "str",
+        ability: "wis",
         uut: true,
-        acp: true,
-        link: "https://swse.fandom.com/wiki/Climb"
+        acp: false,
+        link: "https://swse.fandom.com/wiki/Biotech"
     },
     "Deception": {
         value: 0,
@@ -704,13 +732,6 @@ export const skillDetails = {
         acp: true,
         link: "https://swse.fandom.com/wiki/Initiative"
     },
-    "Jump": {
-        value: 0,
-        ability: "str",
-        uut: true,
-        acp: true,
-        link: "https://swse.fandom.com/wiki/Jump"
-    },
     "Knowledge (Bureaucracy)": {
         value: 0,
         ability: "int",
@@ -719,27 +740,6 @@ export const skillDetails = {
         link: "https://swse.fandom.com/wiki/Knowledge"
     },
     "Knowledge (Galactic Lore)": {
-        value: 0,
-        ability: "int",
-        uut: true,
-        acp: false,
-        link: "https://swse.fandom.com/wiki/Knowledge"
-    },
-    "Knowledge (Life Sciences)": {
-        value: 0,
-        ability: "int",
-        uut: true,
-        acp: false,
-        link: "https://swse.fandom.com/wiki/Knowledge"
-    },
-    "Knowledge (Physical Sciences)": {
-        value: 0,
-        ability: "int",
-        uut: true,
-        acp: false,
-        link: "https://swse.fandom.com/wiki/Knowledge"
-    },
-    "Knowledge (Social Sciences)": {
         value: 0,
         ability: "int",
         uut: true,
@@ -788,13 +788,6 @@ export const skillDetails = {
         acp: false,
         link: "https://swse.fandom.com/wiki/Pilot"
     },
-    "Ride": {
-        value: 0,
-        ability: "dex",
-        uut: true,
-        acp: false,
-        link: "https://swse.fandom.com/wiki/Ride"
-    },
     "Stealth": {
         value: 0,
         ability: "dex",
@@ -808,13 +801,6 @@ export const skillDetails = {
         uut: true,
         acp: false,
         link: "https://swse.fandom.com/wiki/Survival"
-    },
-    "Swim": {
-        value: 0,
-        ability: "str",
-        uut: true,
-        acp: true,
-        link: "https://swse.fandom.com/wiki/Swim"
     },
     "Treat Injury": {
         value: 0,
@@ -832,20 +818,14 @@ export const skillDetails = {
     },
     "Use the Force": {
         value: 0,
-        ability: "cha",
+        // Homebrew: Use the Force defaults to Wisdom (Force of Personality feat lets Charisma substitute
+        // when higher, via the existing skillAttribute inheritable-attribute mechanism).
+        ability: "wis",
         uut: false,
         acp: false,
         link: "https://swse.fandom.com/wiki/Use_the_Force"
     }
 }
-
-export const HEAVY_LOAD_SKILLS = ["acrobatics",
-    "climb",
-    "endurance",
-    "initiative",
-    "jump",
-    "stealth",
-    "swim"]
 
 export const lightsaberForms = ["Ataru",
     "Djem So",
@@ -880,13 +860,13 @@ export const COLORS = {
 }
 
 export const vehicleActorTypes = ["vehicle", "npc-vehicle"];
-export const characterActorTypes = ["character", "npc"];
+export const characterActorTypes = ["character", "npc", "beast"];
 
 export const uniqueKey = ["damage", "stunDamage"];
 
 export const weaponGroup = {
     "Ranged Weapons": ["Heavy Weapons", "Pistols", "Rifles", "Simple Ranged Weapons", "Exotic Ranged Weapons", "Ranged Natural Weapons", 'Weapon Systems'],
-    "Melee Weapons": ["Advanced Melee Weapons", "Lightsabers", "Simple Melee Weapons", "Exotic Melee Weapons", "Melee Natural Weapons"]
+    "Melee Weapons": ["Advanced Melee", "Lightsabers", "Simple Melee Weapons", "Exotic Melee Weapons", "Melee Natural Weapons"]
 };
 
 export const EQUIPABLE_TYPES = ["armor", "weapon", "equipment", "upgrade", "trait", "vehicleSystem"];
@@ -898,9 +878,9 @@ export const LIGHTSABER_WEAPON_TYPES = ["lightsabers", "lightsaber"];
 export const SIMPLE_WEAPON_TYPES = ['simple melee weapons', 'simple ranged weapons', 'simple melee weapon', 'simple ranged weapon', "grenades"];
 
 export const SUBTYPES = {
-    "weapon": ["Advanced Melee Weapons", "Exotic Melee Weapons", "Exotic Ranged Weapons", "Grenades", "Heavy Weapons", "Lightsabers", "Mines", "Pistols", "Rifles", "Simple Melee Weapons", "Simple Ranged Weapons", "Explosives"],
+    "weapon": ["Advanced Melee", "Exotic Melee Weapons", "Exotic Ranged Weapons", "Grenades", "Heavy Weapons", "Lightsabers", "Mines", "Pistols", "Rifles", "Simple Melee Weapons", "Simple Ranged Weapons", "Explosives"],
     "armor": ["Light Armor", "Medium Armor", "Heavy Armor", "Droid Accessories (Droid Armor)", "Energy Shield"],
-    "equipment": ["Equipment", "Communications Devices", "Computers and Storage Devices", "Cybernetic Devices", "Detection and Surveillance Devices", "Life Support", "Medical Gear", "Hazard", "Survival Gear", "Tools", "Weapon and Armor Accessories", "Advanced Cybernetics", "Implants", "Sith Artifacts", "Locomotion Systems", "Processor Systems", "Appendages", "Droid Accessories (Sensor Systems)", "Droid Accessories (Translator Units)", "Droid Accessories (Miscellaneous Systems)", "Droid Accessories (Communications Systems)", "Droid Accessories (Droid Stations)", "Droid Accessories (Shield Generator Systems)", "Droid Accessories (Hardened Systems)", "Ammunition"],
+    "equipment": ["Equipment", "Communications Devices", "Computers and Storage Devices", "Cybernetic Devices", "Detection and Surveillance Devices", "Life Support", "Medical Gear", "Hazard", "Survival Gear", "Tools", "Weapon and Armor Accessories", "Advanced Cybernetics", "Implants", "Sith Artifacts", "Locomotion Systems", "Processor Systems", "Appendages", "Droid Accessories (Sensor Systems)", "Droid Accessories (Translator Units)", "Droid Accessories (Miscellaneous Systems)", "Droid Accessories (Communications Systems)", "Droid Accessories (Droid Stations)", "Droid Accessories (Shield Generator Systems)", "Droid Accessories (Hardened Systems)"],
     "upgrade": ["Weapon Upgrade", "Armor Upgrade", "Universal Upgrade", "Armor Trait", "Device Trait",
         "Droid Trait",
         "Vehicle Trait",
@@ -910,7 +890,6 @@ export const SUBTYPES = {
         "Sith Abomination Trait", "Lightsaber Crystals", "Lightsaber Modifications"],
     "template": ["Vehicle Templates", "Weapon Templates", "Armor Templates", "Droid Templates", "General Templates"],
     "vehicleSystem": ["Starship Accessories", "Weapon Systems", "Defense Systems", "Movement Systems", "Droid Accessories (Droid Stations)"],
-    "background": ["event", "occupation", "planet of origin"],
     "class": ["Nonheroic", "Heroic", "Prestige"],
     "species": ["Organic", "Droid"],
     "beastattack": ["Melee Natural Weapons", "Ranged Natural Weapons"],
@@ -1002,6 +981,20 @@ export const SIZE_CARRY_CAPACITY_MODIFIER = {
     "Fine": 0.01
 }
 
+// Homebrew: Kit slots lose 1 per size category below Medium. Large+ bonuses are
+// deliberately not automated (the ruleset leaves them "case by case").
+export const KIT_SLOT_SIZE_PENALTY = {
+    "Colossal": 0,
+    "Gargantuan": 0,
+    "Huge": 0,
+    "Large": 0,
+    "Medium": 0,
+    "Small": 1,
+    "Tiny": 2,
+    "Diminutive": 3,
+    "Fine": 4
+}
+
 export const GRAVITY_CARRY_CAPACITY_MODIFIER = {
     "Normal": 1,
     "High": 0.5,
@@ -1014,7 +1007,6 @@ export const ITEM_ONLY_ATTRIBUTES = [
     "damageType",
     "takeMultipleTimes",
     "isThrowable",
-    "ammo",
     "itemMod",
     "overheatLimit",
     "prefix",
@@ -1038,53 +1030,9 @@ export const CLASSES_BY_STARTING_FEAT = {
     "Force Training": ["Force Prodigy"],
     "Point-Blank Shot": ["Scoundrel"],
     "Armor Proficiency (Medium)": ["Soldier", "Nonheroic"],
-    "Weapon Proficiency (Advanced Melee Weapons)": ["Nonheroic"]
+    "Weapon Proficiency (Advanced Melee)": ["Nonheroic"]
 }
 
 export const KNOWN_WEIRD_UNITS = [
     "Eldewn and Elsae Sarvool"
 ]
-export const HOMEBREW_DARTHAUTHOR_SKILLS = new Map([
-    [
-        "Athletics",
-        {
-            grouped: ["Climb", "Swim"],
-            classes: ["Scout", "Soldier", "Force Prodigy"],
-            ability: "str",
-            uut: true
-        }
-    ],
-    [
-        "Agility",
-        {
-            grouped: ["Jump", "Acrobatics"],
-            classes: ["Scout", "Soldier", "Jedi", "Scoundrel", "Force Prodigy"],
-            ability: "dex",
-            uut: true
-        }
-    ],
-    [
-        "Diplomacy",
-        {
-            grouped: ["Gather Information", "Persuasion"],
-            classes: ["Noble", "Scoundrel", "Technician"],
-            ability: "cha",
-            uut: true
-        }
-    ],
-    [
-        "Knowledge (Force)",
-        {
-            classes: ["Jedi", "Noble", "Scoundrel", "Scout", "Soldier", "Technician", "Force Prodigy"],
-            ability: "int",
-            uut: false
-        }
-    ]
-]);
-export const HOMEBREW_LILLITERALIST_SKILLS = new Map([["Athletics", {
-    grouped: ["Jump", "Climb", "Swim"],
-    classes: ["Scout", "Soldier", "Jedi"],
-    ability: "str",
-    uut: true
-}]]);
-export const UNINHERITABLE_AMMO_CHANGES = ['actsAs'];

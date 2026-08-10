@@ -11,5 +11,12 @@
         {{#if item.talentTree}}
             <div>{{item.talentTree}}</div>
         {{/if}}
+        {{#if item.tags.length}}
+            <div class="entry-tags">
+                {{#each item.tags as |tag id|}}
+                    <span class="tag">{{tag}}</span>
+                {{/each}}
+            </div>
+        {{/if}}
     </div>
 </li>

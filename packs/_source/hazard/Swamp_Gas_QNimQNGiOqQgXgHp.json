@@ -1,0 +1,69 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2d10",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A spark or energy source comes into contact with Swamp Gas; targeting every being and object within a 2x2-square area.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "On Trigger",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Acrobatics (DC 21): The character rolls away from the Swamp Gas as it ignites, gaining a +2 circumstance bonus to Reflex Defense against the Hazard. Knowledge (Physical Sciences) (DC 16): The character recognizes the presence of Swamp Gas.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Area",
+          "Atmosphere",
+          "Fire",
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>A near-transparent cloud of gas is exuded by decomposing matter in a swamp.</i> </p><p>Virtually undetectable to the naked eye, Swamp Gas can be troublesome when it drifts into an occupied area, especially around creatures that are capable of making a fire. Combatants who detect the presence of the gas during combat often try to use it to their advantage, such as by firing a blaster bolt through the gas when it is near an opponent or setting off a grenade near the gas to boost the destructive power of the explosion. Clever creatures might capture Swamp Gas in a breakable container and use it as a grenade. </p><h2><span id=\"Swamp_Gas_Statistics_.28CL_4.29\"></span><span class=\"mw-headline\" id=\"Swamp_Gas_Statistics_(CL_4)\">Swamp Gas Statistics (CL 4)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Area, Atmosphere, Fire, Natural </p><p><b>Trigger:</b> A spark or energy source comes into contact with Swamp Gas; targeting every being and object within a 2x2-square area. </p><p><b>Attack:</b> +6 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> On Trigger </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Acrobatics\" title=\"Acrobatics\">Acrobatics</a> (DC 21):</b> The character rolls away from the Swamp Gas as it ignites, gaining a +2 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against the Hazard.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Knowledge_(Physical_Sciences)\" class=\"mw-redirect\" title=\"Knowledge (Physical Sciences)\">Knowledge (Physical Sciences)</a> (DC 16):</b> The character recognizes the presence of Swamp Gas.</li>\n</ul>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Swamp Gas",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244808,
+    "modifiedTime": 1749263244808,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "QNimQNGiOqQgXgHp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!QNimQNGiOqQgXgHp"
+}

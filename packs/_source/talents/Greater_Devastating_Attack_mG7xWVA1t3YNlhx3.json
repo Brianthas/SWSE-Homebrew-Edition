@@ -1,0 +1,110 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Choose a single <a href=\"https://swse.fandom.com/wiki/Exotic_Weapon\" class=\"mw-redirect\" title=\"Exotic Weapon\">Exotic Weapon</a> or weapon group with which you're proficient. Whenever you make a successful attack against a target using the chosen <a href=\"https://swse.fandom.com/wiki/Exotic_Weapon\" class=\"mw-redirect\" title=\"Exotic Weapon\">Exotic Weapon</a> or weapon from the chosen group, you treat your target's <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a> as if it were 10 points lower when determining the results of your attack.<br><br>This replaces the effects of the <b><a href=\"https://swse.fandom.com/wiki/Devastating_Attack\" class=\"mw-redirect\" title=\"Devastating Attack\">Devastating Attack</a></b> Talent.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "takeMultipleTimes"
+      },
+      {
+        "mode": 2,
+        "value": "#payload#",
+        "key": "greaterDevastatingAttack"
+      }
+    ],
+    "choices": [
+      {
+        "noOptions": "You Must have Greater Weapon Focus and Devastating Attack with a weapon group or an Exotic Weapon to select one for Greater Devastating Attack.",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {
+              "payload": "AVAILABLE_GREATER_DEVASTATING_ATTACK"
+            },
+            "display": "AVAILABLE_GREATER_DEVASTATING_ATTACK",
+            "name": "AVAILABLE_GREATER_DEVASTATING_ATTACK",
+            "attributes": {}
+          }
+        ],
+        "description": "Select a Weapon to use Greater Devastating Attack.",
+        "oneOption": "You have a single weapon group or exotic weapon that qualifies for Greater Devastating Attack",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": true
+      }
+    ],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Greater Weapon Focus (#payload#)",
+          "requirement": "Greater Weapon Focus (#payload#)",
+          "type": "TALENT"
+        },
+        {
+          "text": "Devastating Attack (#payload#)",
+          "requirement": "Devastating Attack (#payload#)",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Greater Weapon Focus (#payload#), and Devastating Attack (#payload#)",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Elite Trooper Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Elite Trooper Talent Trees",
+      "Core Rulebook"
+    ],
+    "isSupplied": false,
+    "talentTree": "Weapon Master Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Weapon_Master_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Core Rulebook",
+    "cost": "0"
+  },
+  "name": "Greater Devastating Attack",
+  "flags": {},
+  "type": "talent",
+  "folder": "Jbx6AQ4WPZtZfcGj",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385313364,
+    "modifiedTime": 1734385313364,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "mG7xWVA1t3YNlhx3",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!mG7xWVA1t3YNlhx3"
+}

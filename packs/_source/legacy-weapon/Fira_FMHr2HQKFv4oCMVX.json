@@ -1,0 +1,158 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "group": "Damage Type"
+        }
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Slashing",
+      "_id": "lDmxlf5sLKBEOeFJ",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Slashing",
+            "key": "damageType",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513484,
+        "modifiedTime": 1786051513484,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!FMHr2HQKFv4oCMVX.lDmxlf5sLKBEOeFJ"
+    },
+    {
+      "flags": {
+        "swse": {
+          "group": "Damage Type"
+        }
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Piercing",
+      "_id": "m2sK3nTwnLEBhsxY",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Piercing",
+            "key": "damageType",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513484,
+        "modifiedTime": 1786051513484,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!FMHr2HQKFv4oCMVX.m2sK3nTwnLEBhsxY"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i> </p><p>The Fira is a traditional weapon used by <a href=\"https://swse.fandom.com/wiki/Selkath\" title=\"Selkath\">Selkath</a> warriors belonging to <a href=\"https://swse.fandom.com/wiki/The_Order_of_Shasha\" class=\"mw-redirect\" title=\"The Order of Shasha\">The Order of Shasha</a>. Constructed from the wreckage of a kolto harvester and forged in underwater volcanic vents, Fira are tough, curved swords made out of an alloy of cortosis (thus benefiting from the <a href=\"https://swse.fandom.com/wiki/Cortosis_Weave_General_Template\" class=\"mw-redirect\" title=\"Cortosis Weave General Template\">Cortosis Weave General Template</a>). </p><p>If an attack roll with a Fira against a living creature equals or exceeds both the target's <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> and <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>, the target takes half damage again on the following round from the grievous wound. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "100",
+    "weight": "2 Kilograms",
+    "availability": "Rare",
+    "size": "Medium",
+    "type": "",
+    "subtype": "Exotic Melee Weapons",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "1d8"
+  },
+  "name": "Fira",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Fira.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513484,
+    "modifiedTime": 1786051513574,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "FMHr2HQKFv4oCMVX",
+  "_key": "!items!FMHr2HQKFv4oCMVX"
+}

@@ -1,0 +1,66 @@
+{
+  "img": "systems/swse/icon/feat/Cut_the_Red_Tape.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_of_Intrigue\" title=\"Star Wars Saga Edition Galaxy of Intrigue\">Star Wars Saga Edition Galaxy of Intrigue</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You know how to work the bureaucratic system to get information you need.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in <a href=\"https://swse.fandom.com/wiki/Knowledge_(Bureaucracy)\" class=\"mw-redirect\" title=\"Knowledge (Bureaucracy)\">Knowledge (Bureaucracy)</a></p><p><b>Effect:</b> You can use your <a href=\"https://swse.fandom.com/wiki/Knowledge_(Bureaucracy)\" class=\"mw-redirect\" title=\"Knowledge (Bureaucracy)\">Knowledge (Bureaucracy)</a> modifier instead of your <a href=\"https://swse.fandom.com/wiki/Gather_Information\" title=\"Gather Information\">Gather Information</a> modifier when making <a href=\"https://swse.fandom.com/wiki/Gather_Information\" title=\"Gather Information\">Gather Information</a> checks. If you are entitled to a <a href=\"https://swse.fandom.com/wiki/Gather_Information\" title=\"Gather Information\">Gather Information</a> check reroll, you can reroll your <a href=\"https://swse.fandom.com/wiki/Knowledge_(Bureaucracy)\" class=\"mw-redirect\" title=\"Knowledge (Bureaucracy)\">Knowledge (Bureaucracy)</a> check instead (subject to the same circumstances and limitations). You are considered <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in the <a href=\"https://swse.fandom.com/wiki/Gather_Information\" title=\"Gather Information\">Gather Information</a> skill for the purposes of this check.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:Reference Book: Star Wars Saga Edition Galaxy of Intrigue See also: Feats You know how to work the bureaucratic system to get information you need. Prerequisite: Trained in Knowledge (Bureaucracy) Effect: You can use your Knowledge (Bureaucracy) modifier instead of your Gather Information modifier when making Gather Information checks. If you are entitled to a Gather Information check reroll, you can reroll your Knowledge (Bureaucracy) check instead (subject to the same circumstances and limitations). You are considered Trained in the Gather Information skill for the purposes of this check.",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Trained in Knowledge (Bureaucracy)",
+      "requirement": "Knowledge (Bureaucracy)",
+      "type": "TRAINED SKILL"
+    },
+    "categories": [
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Noble Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats",
+      "Noble Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Galaxy of Intrigue",
+    "cost": "0"
+  },
+  "name": "Cut the Red Tape",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479026404,
+    "modifiedTime": 1761479026404,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "blMq1uNG8AJmch9Y",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!blMq1uNG8AJmch9Y"
+}

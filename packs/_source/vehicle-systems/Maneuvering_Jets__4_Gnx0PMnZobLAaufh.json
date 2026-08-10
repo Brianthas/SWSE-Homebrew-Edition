@@ -1,0 +1,82 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Movement Systems",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Colossal or Smaller",
+          "requirement": "Diminutive",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Smaller",
+          "requirement": "Fine",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Smaller",
+          "requirement": "Small",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Smaller",
+          "requirement": "Medium",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Smaller",
+          "requirement": "Large",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Smaller",
+          "requirement": "Huge",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Smaller",
+          "requirement": "Gargantuan",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Smaller",
+          "requirement": "Colossal",
+          "type": "TRAIT"
+        }
+      ],
+      "count": 1,
+      "text": "Colossal or Smaller",
+      "type": "OR"
+    },
+    "changes": [],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><table class=\"wikitable\">\n <tbody>\n  <tr>\n   <th>MANEUVERING JETS</th>\n   <th>EMPLACEMENT POINTS</th>\n   <th>AVAILABILITY</th>\n   <th>SIZE RESTRICTION</th>\n   <th>COST</th>\n  </tr>\n  <tr>\n   <td>+2</td>\n   <td>2</td>\n   <td>Common</td>\n   <td>-</td>\n   <td>2000 (Base)</td>\n  </tr>\n  <tr>\n   <td>+4</td>\n   <td>3</td>\n   <td>Common</td>\n   <td>Colossal or Smaller</td>\n   <td>5000 (Base)</td>\n  </tr>\n  <tr>\n   <td>+6</td>\n   <td>4</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Licensed\" class=\"mw-redirect\" title=\"Licensed\">Licensed</a></td>\n   <td>Gargantuan or Smaller</td>\n   <td>10000 (Base)</td>\n  </tr>\n </tbody>\n</table><p>It is possible to increase a Starship's ability to pitch, jink, and roll by adding additional small ion jets that automatically fire during extreme maneuvers. Although all Starships include some maneuvering thrusters, special Maneuvering Jets give more power to perform maneuvers beyond a Starship's normal capacity.</p><p>Maneuvering Jets give a Starship a +2, +4, or +6 Equipment bonus to its <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> score.</p>",
+    "cost": "5000 (Base)",
+    "emplacementPoints": "3",
+    "availability": "Common",
+    "dexterityBonus": "4"
+  },
+  "name": "Maneuvering Jets +4",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848316901,
+    "modifiedTime": 1759848316901,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "Gnx0PMnZobLAaufh",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!Gnx0PMnZobLAaufh"
+}

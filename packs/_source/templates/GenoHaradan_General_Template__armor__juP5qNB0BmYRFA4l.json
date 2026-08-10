@@ -1,0 +1,144 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:</i>&nbsp;<i><a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i> </p><p><b>Manufactured By:</b> <a href=\"https://swse.fandom.com/wiki/The_GenoHaradan\" title=\"The GenoHaradan\">The GenoHaradan</a> (Organization) </p><p><b>Applicable To:</b> Any Armor, Any Melee non-Energy Weapon, Any Ranged Weapon with a <a href=\"https://swse.fandom.com/wiki/Stun\" class=\"mw-redirect\" title=\"Stun\">Stun</a> Setting </p><p>A secretive guild of assassins and bounty hunters, The GenoHaradan have items specially crafted to suit their darker purposes. </p><p><b>Weapons:</b> GenoHaradan Manufacture Weapons grant a +2 <a href=\"https://swse.fandom.com/wiki/Equipment\" title=\"Equipment\">Equipment</a> bonus to the attack roll of a Contact <a href=\"https://swse.fandom.com/wiki/Poison\" class=\"mw-redirect\" title=\"Poison\">Poison</a> applied to the weapon (for Melee Weapons), or a +1 <a href=\"https://swse.fandom.com/wiki/Equipment\" title=\"Equipment\">Equipment</a> bonus on attack rolls with weapons set to <a href=\"https://swse.fandom.com/wiki/Stun\" class=\"mw-redirect\" title=\"Stun\">Stun</a> (for Ranged Weapons). GenoHaradan Manufactured Weapons are somewhat fragile, and become disabled until repaired when the wielder rolls a Natural 1 on an attack roll. </p><p><b>Armors:</b> GenoHaradan Manufacture Armors provides a +2 <a href=\"https://swse.fandom.com/wiki/Equipment\" title=\"Equipment\">Equipment</a> bonus on <a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a> checks to <a href=\"https://swse.fandom.com/wiki/Sneak\" class=\"mw-redirect\" title=\"Sneak\">Sneak</a>, but reduces the <a href=\"https://swse.fandom.com/wiki/Equipment\" title=\"Equipment\">Equipment</a> bonus to <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> by one (minimum +0). </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "??",
+        "key": "cost"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "itemMod"
+      },
+      {
+        "mode": 2,
+        "value": "stealth:2",
+        "key": "skillBonus"
+      },
+      {
+        "mode": 2,
+        "value": -1,
+        "key": "equipmentFortitudeDefenseBonus"
+      },
+      {
+        "mode": 2,
+        "value": "GenoHaradan",
+        "key": "prefix"
+      },
+      {
+        "mode": 2,
+        "value": "",
+        "key": "suffix"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "hasItemOwner": false,
+    "subtype": "General Templates",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Any Armor",
+          "requirement": "armor",
+          "type": "TYPE"
+        },
+        {
+          "children": [
+            {
+              "text": "Any Armor, Any Melee non-Energy Weapon, Any Ranged Weapon with a Stun Setting",
+              "requirement": "armor",
+              "type": "TYPE"
+            },
+            {
+              "children": [
+                {
+                  "text": "Any Armor, Any Melee non-Energy Weapon, Any Ranged Weapon with a Stun Setting",
+                  "requirement": "Melee Weapons",
+                  "type": "WEAPON_GROUP"
+                },
+                {
+                  "text": "Not Any Armor, Any Melee non-Energy Weapon, Any Ranged Weapon with a Stun Setting, or Any Armor, Any Melee non-Energy Weapon, Any Ranged Weapon with a Stun Setting",
+                  "type": "NOT",
+                  "child": {
+                    "children": [
+                      {
+                        "text": "Any Armor, Any Melee non-Energy Weapon, Any Ranged Weapon with a Stun Setting",
+                        "requirement": "Energy",
+                        "type": "DAMAGE_TYPE"
+                      },
+                      {
+                        "text": "Any Armor, Any Melee non-Energy Weapon, Any Ranged Weapon with a Stun Setting",
+                        "requirement": "Energy",
+                        "type": "MODE"
+                      }
+                    ],
+                    "count": 1,
+                    "text": "Any Armor, Any Melee non-Energy Weapon, Any Ranged Weapon with a Stun Setting, or Any Armor, Any Melee non-Energy Weapon, Any Ranged Weapon with a Stun Setting",
+                    "type": "OR"
+                  }
+                }
+              ],
+              "text": "Any Armor, Any Melee non-Energy Weapon, Any Ranged Weapon with a Stun Setting",
+              "type": "AND"
+            },
+            {
+              "children": [
+                {
+                  "text": "Any Armor, Any Melee non-Energy Weapon, Any Ranged Weapon with a Stun Setting",
+                  "requirement": "Ranged Weapons",
+                  "type": "WEAPON_GROUP"
+                },
+                {
+                  "text": "Any Armor, Any Melee non-Energy Weapon, Any Ranged Weapon with a Stun Setting",
+                  "requirement": "Stun",
+                  "type": "MODE"
+                }
+              ],
+              "text": "Any Armor, Any Melee non-Energy Weapon, Any Ranged Weapon with a Stun Setting",
+              "type": "AND"
+            }
+          ],
+          "count": 1,
+          "text": "Any Armor, Any Melee non-Energy Weapon, Any Ranged Weapon with a Stun Setting",
+          "type": "OR"
+        }
+      ],
+      "text": "Any Armor, and (Any Armor, Any Melee non-Energy Weapon, Any Ranged Weapon with a Stun Setting)",
+      "type": "AND"
+    },
+    "cost": "??"
+  },
+  "name": "GenoHaradan General Template (armor)",
+  "flags": {},
+  "type": "template",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.2",
+    "createdTime": 1729096741541,
+    "modifiedTime": 1729096741541,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "juP5qNB0BmYRFA4l",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!juP5qNB0BmYRFA4l"
+}

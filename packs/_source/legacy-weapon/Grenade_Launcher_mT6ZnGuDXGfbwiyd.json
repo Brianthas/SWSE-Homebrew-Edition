@@ -1,0 +1,118 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode"
+        }
+      },
+      "statuses": [],
+      "disabled": false,
+      "name": "Single-Shot",
+      "_id": "TNfdFFP46YSzkTuF",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513503,
+        "modifiedTime": 1786051513503,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!mT6ZnGuDXGfbwiyd.TNfdFFP46YSzkTuF"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p>Grenade Launchers are military weapons that greatly improve the range of <a href=\"https://swse.fandom.com/wiki/Grenades\" title=\"Grenades\">Grenades</a>. <a href=\"https://swse.fandom.com/wiki/Grenades\" title=\"Grenades\">Grenades</a> fired by Grenade Launchers always explode on impact, regardless of Timers or other considerations. The type of <a href=\"https://swse.fandom.com/wiki/Grenade\" class=\"mw-redirect\" title=\"Grenade\">Grenade</a> used determined the Damage, Type, and <a href=\"https://swse.fandom.com/wiki/Burst\" class=\"mw-redirect\" title=\"Burst\">Burst</a> radius. </p><p>Grenade Launchers cannot be used to hurl <a href=\"https://swse.fandom.com/wiki/Thermal_Detonators\" class=\"mw-redirect\" title=\"Thermal Detonators\">Thermal Detonators</a> because these devices are simply too big and heavy (although some larger&nbsp;<a href=\"https://swse.fandom.com/wiki/Mortar_Launchers\" class=\"mw-redirect\" title=\"Mortar Launchers\">Mortar Launchers</a>&nbsp;can hurl dedicated Thermal Mortar Shells instead). </p><p>A Grenade Launcher can hold up to four Grenades at a time, and has to be reloaded as a <a href=\"https://swse.fandom.com/wiki/Full-Round_Action\" class=\"mw-redirect\" title=\"Full-Round Action\">Full-Round Action</a>. A Grenade Launcher can be mounted on a <a href=\"https://swse.fandom.com/wiki/Rifles\" title=\"Rifles\">Rifle</a> (this takes 1 minute, and requires a DC 15 <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> check), or used as a separate weapon. </p><p><b>Inaccurate:</b>&nbsp;This weapon cannot fire at targets at Long <a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a>. </p><p><b>Special:</b> Due to the nature of its ammunition, a Grenade Launcher is an <a href=\"https://swse.fandom.com/wiki/Area_Attack\" class=\"mw-redirect\" title=\"Area Attack\">Area Attack</a> Weapon. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Launchable Grenade:1",
+        "key": "ammo"
+      },
+      {
+        "mode": 2,
+        "value": "Launchable Grenade:4",
+        "key": "ammoCapacity"
+      }
+    ],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "500",
+    "weight": "5 Kilograms",
+    "availability": "Military",
+    "size": "Medium",
+    "type": "",
+    "subtype": "Heavy Weapons",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageType": "Varies",
+    "specialQualities": "Special: Due to the nature of its ammunition, a Grenade Launcher is an Area Attack Weapon."
+  },
+  "name": "Grenade Launcher",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Grenade_Launcher.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513503,
+    "modifiedTime": 1786051513579,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "mT6ZnGuDXGfbwiyd",
+  "_key": "!items!mT6ZnGuDXGfbwiyd"
+}

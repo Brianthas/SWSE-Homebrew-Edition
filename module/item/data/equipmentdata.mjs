@@ -23,8 +23,12 @@ export default class EquipmentData extends ItemSystemDataModel {
             ...ModifiableFields(),
             ...SourceFields(),
             equipment: new fields.ObjectField({initial: {}}),
-            equipped: new fields.StringField({initial: "unequipped", blank: true, required: false}),
-            stripping: new fields.ObjectField({initial: {}})
+            equipped: new fields.StringField({initial: "", blank: true, required: false}),
+            stripping: new fields.ObjectField({initial: {}}),
+            kitSlotCost: new fields.NumberField({initial: null, required: false}),
+            lightSlotCost: new fields.NumberField({initial: null, required: false}),
+            specialQualities: new fields.StringField({initial: "", blank: true, required: false}),
+            seeAlso: new fields.StringField({initial: "", blank: true, required: false})
         };
     }
 }

@@ -1,0 +1,83 @@
+{
+  "img": "systems/swse/icon/feat/Knock_Heads.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Legacy_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Legacy Era Campaign Guide\">Star Wars Saga Edition Legacy Era Campaign Guide</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You knock two opponents' heads together in unarmed combat.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> 13, <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> 13, <a href=\"https://swse.fandom.com/wiki/Multi-Grab\" title=\"Multi-Grab\">Multi-Grab</a></p><p><b>Effect:</b> After successfully using the <a href=\"https://swse.fandom.com/wiki/Multi-Grab\" title=\"Multi-Grab\">Multi-Grab</a> Feat against two targets that are both adjacent to you and each other, you can immediately knock their heads together, dealing automatic bludgeoning damage to each creature equal to 1d6 plus your <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> modifier. When comparing the damage to each creature's <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a>, treat their <a href=\"https://swse.fandom.com/wiki/Damage_Thresholds\" class=\"mw-redirect\" title=\"Damage Thresholds\">Damage Thresholds</a> as if they were 5 points lower. Both creatures are still considered <a href=\"https://swse.fandom.com/wiki/Grabbed\" class=\"mw-redirect\" title=\"Grabbed\">Grabbed</a> at the end of using this <a href=\"https://swse.fandom.com/wiki/Feat\" class=\"mw-redirect\" title=\"Feat\">Feat</a>.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Strength 13",
+          "requirement": "Strength 13",
+          "type": "ATTRIBUTE"
+        },
+        {
+          "text": "Dexterity 13",
+          "requirement": "Dexterity 13",
+          "type": "ATTRIBUTE"
+        },
+        {
+          "text": "Multi-Grab feat",
+          "requirement": "Multi-Grab",
+          "type": "FEAT"
+        }
+      ],
+      "text": "Strength 13, Dexterity 13, and Multi-Grab feat",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Soldier Bonus Feats"
+      },
+      {
+        "value": "Grappling Feats"
+      },
+      {
+        "value": "Force Prodigy Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Bonus Feats",
+      "Force Prodigy Bonus Feats",
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Legacy Era Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Knock Heads",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479027725,
+    "modifiedTime": 1761479027725,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "FMoz17FN2qhBMg6Z",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!FMoz17FN2qhBMg6Z"
+}

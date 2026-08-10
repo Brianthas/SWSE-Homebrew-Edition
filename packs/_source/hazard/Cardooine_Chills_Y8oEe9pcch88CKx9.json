@@ -1,0 +1,72 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "1d6",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards, Diseases",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A creature is exposed to the Cardooine Chills.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Daily, until the Cardooine Chills is treated.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Knowledge (Life Sciences) (DC 14): The character identifies the Cardooine Chills. Treat Injury (DC 15; Requires Medical Kit): The character treats the Cardooine Chills.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: Once a creature has been exposed to the Cardooine Chills and the Disease has been treated, that creature can not contract the Disease again.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Atmosphere",
+          "Disease",
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a>, <a href=\"https://swse.fandom.com/wiki/Diseases\" title=\"Diseases\">Diseases</a></i> </p><p><i>This disease is common throughout the galaxy and is typically only an inconvenience.</i> </p><h2><span id=\"Cardooine_Chills_Statistics_.28CL_2.29\"></span><span class=\"mw-headline\" id=\"Cardooine_Chills_Statistics_(CL_2)\">Cardooine Chills Statistics (CL 2)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Atmosphere, Disease, Natural </p><p><b>Trigger:</b> A creature is exposed to the Cardooine Chills. </p><p><b>Attack:</b> +4 vs <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> </p><p><b>Recurrence:</b> Daily, until the Cardooine Chills is treated. </p><p><b>Suggested&nbsp;<a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b>&nbsp;The following are suggested&nbsp;<a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>&nbsp;for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Knowledge_(Life_Sciences)\" class=\"mw-redirect\" title=\"Knowledge (Life Sciences)\">Knowledge (Life Sciences)</a> (DC 14):</b> The character identifies the Cardooine Chills.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a> (DC 15; Requires <a href=\"https://swse.fandom.com/wiki/Medical_Kit\" title=\"Medical Kit\">Medical Kit</a>):</b> The character treats the Cardooine Chills.</li>\n</ul><p><b>Special:</b> Once a creature has been exposed to the Cardooine Chills and the Disease has been treated, that creature can not contract the Disease again. </p>",
+    "cost": "0"
+  },
+  "name": "Cardooine Chills",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244385,
+    "modifiedTime": 1749263244385,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "Y8oEe9pcch88CKx9",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!Y8oEe9pcch88CKx9"
+}

@@ -1,0 +1,211 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {}
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Attuned",
+      "_id": "YmsGAxOTF8s468Kh",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": 3,
+            "key": "toHitModifier",
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.4.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!TJX74cgiIoGTHjLI.YmsGAxOTF8s468Kh"
+    },
+    {
+      "flags": {
+        "swse": {}
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Ignite",
+      "_id": "EEHSz0dhxauv5nMr",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": 0.3,
+            "key": "auraLuminosity",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 0.4,
+            "key": "auraBright",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 0.9,
+            "key": "auraDim",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": "torch",
+            "key": "auraAnimationType",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 5,
+            "key": "auraAnimationSpeed",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 2,
+            "key": "auraAnimationIntensity",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": "#lightsaberColor#",
+            "key": "auraColor",
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.4.1",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!TJX74cgiIoGTHjLI.EEHSz0dhxauv5nMr"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Jedi_Academy_Training_Manual\" title=\"Star Wars Saga Edition Jedi Academy Training Manual\">Star Wars Saga Edition Jedi Academy Training Manual</a></i> </p><p>Krayt Dragon Pearls are found in the bellies of massive <a href=\"https://swse.fandom.com/wiki/Krayt_Dragon\" title=\"Krayt Dragon\">Krayt Dragons</a> that roam <a href=\"https://swse.fandom.com/wiki/Tatooine\" title=\"Tatooine\">Tatooine</a>. Krayt Dragon Pearls come into being when existing gemstones deep in the desert sands of <a href=\"https://swse.fandom.com/wiki/Tatooine\" title=\"Tatooine\">Tatooine</a> are consumed by the <a href=\"https://swse.fandom.com/wiki/Krayt_Dragon\" title=\"Krayt Dragon\">Krayt Dragon</a>; in the creature's belly, they are further compressed and refined until they reach a new level of clarity and beauty. Though obtaining one is usually a monumental task, a Krayt Dragon Pearl can be refined into a <a href=\"https://swse.fandom.com/wiki/Lightsaber_Crystal\" class=\"mw-redirect\" title=\"Lightsaber Crystal\">Lightsaber Crystal</a> of great potency. If you wield an attuned <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> with a Krayt Dragon Pearl, you gain a +3 <a href=\"https://swse.fandom.com/wiki/Force\" class=\"mw-redirect\" title=\"Force\">Force</a> bonus on damage rolls. </p><p>Obtaining a Krayt Dragon Pearl is no simple task, as many <a href=\"https://swse.fandom.com/wiki/Jedi\" title=\"Jedi\">Jedi</a> can attest. Krayt Dragon Pearls are so rare that finding even one on the open market would cost millions of credits, and such a jewel would be a fine centerpiece in any royal crown jewels. The few Jedi that have obtained Krayt Dragon Pearls over the years have done so by finding and slaying a <a href=\"https://swse.fandom.com/wiki/Krayt_Dragon\" title=\"Krayt Dragon\">Krayt Dragon</a>. However, the Jedi order does not condone such an action, as hunting <a href=\"https://swse.fandom.com/wiki/Krayt_Dragon\" title=\"Krayt Dragon\">Krayt Dragons</a> is not only dangerous but also contributes to the extinction of the species. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "itemMod"
+      }
+    ],
+    "choices": [
+      {
+        "noOptions": "NO_AVAILABLE_OPTIONS",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {
+              "payload": "AVAILABLE_LIGHTSABER_COLORS"
+            },
+            "display": "AVAILABLE_LIGHTSABER_COLORS",
+            "name": "AVAILABLE_LIGHTSABER_COLORS",
+            "attributes": {}
+          }
+        ],
+        "description": "Select a lightsaber color.",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": true
+      }
+    ],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "0",
+    "weight": "",
+    "availability": "",
+    "size": "",
+    "type": "",
+    "subtype": "Lightsaber Crystals",
+    "quantity": 1,
+    "hasItemOwner": false,
+    "upgrade": {},
+    "prerequisite": {
+      "text": "Lightsabers",
+      "requirement": "lightsabers",
+      "type": "SUBTYPE"
+    },
+    "source": "Star Wars Saga Edition Jedi Academy Training Manual"
+  },
+  "name": "Krayt Dragon Pearl",
+  "flags": {},
+  "type": "upgrade",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263245968,
+    "modifiedTime": 1749263245968,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "TJX74cgiIoGTHjLI",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!TJX74cgiIoGTHjLI"
+}

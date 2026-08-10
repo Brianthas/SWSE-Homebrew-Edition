@@ -1,0 +1,83 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "The Guard may make a reroll on <a href=\"https://swse.fandom.com/wiki/Deception\" title=\"Deception\">Deception</a> checks to wear disguises. She must take the second roll, even if it's worse. The Guard is considered trained in <a href=\"https://swse.fandom.com/wiki/Deception\" title=\"Deception\">Deception</a> for this check.<br><br>You may reroll any <a href=\"https://swse.fandom.com/wiki/Deception\" title=\"Deception\">Deception</a> check to <a href=\"https://swse.fandom.com/wiki/Deceive\" class=\"mw-redirect\" title=\"Deceive\">Deceive</a>, but the result of the reroll must be accepted, even if it is worse. You are considered <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in the <a href=\"https://swse.fandom.com/wiki/Deception\" title=\"Deception\">Deception</a> skill for the purposes of these checks.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:The Guard may make a reroll on<a href=\"https://swse.fandom.com/wiki/Deception\" title=\"Deception\">Deception</a>checks to wear disguises. She must take the second roll, even if it's worse. The Guard is considered trained in<a href=\"https://swse.fandom.com/wiki/Deception\" title=\"Deception\">Deception</a>for this check.<br><br>You may reroll any<a href=\"https://swse.fandom.com/wiki/Deception\" title=\"Deception\">Deception</a>check to<a href=\"https://swse.fandom.com/wiki/Deceive\" class=\"mw-redirect\" title=\"Deceive\">Deceive</a>, but the result of the reroll must be accepted, even if it is worse. You are considered<a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a>in the<a href=\"https://swse.fandom.com/wiki/Deception\" title=\"Deception\">Deception</a>skill for the purposes of these checks.",
+        "key": "skillReRoll"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": null,
+    "categories": [
+      {
+        "value": "Untested"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Soldier Talent Trees"
+      },
+      {
+        "value": "Homebrew Content"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Untested",
+      "Soldier Talent Trees",
+      "Homebrew Content"
+    ],
+    "isSupplied": false,
+    "talentTree": "Mistryl Shadow Guard Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Mistryl_Shadow_Guard_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "New Republic Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Everyone Has a Face",
+  "flags": {},
+  "type": "talent",
+  "folder": "sh7ewcxJvRVKtYp0",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385309800,
+    "modifiedTime": 1734385309800,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "ssuFuUbuAu8cslGD",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!ssuFuUbuAu8cslGD"
+}

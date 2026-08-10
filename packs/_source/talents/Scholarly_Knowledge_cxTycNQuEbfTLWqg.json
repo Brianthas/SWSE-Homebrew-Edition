@@ -1,0 +1,66 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "As a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>, you can reroll a <a href=\"https://swse.fandom.com/wiki/Knowledge\" title=\"Knowledge\">Knowledge</a> check and keep the better of the two results. This can be used with any <a href=\"https://swse.fandom.com/wiki/Knowledge\" title=\"Knowledge\">Knowledge</a> skill you are <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:in: Talent Trees, Jedi Knight Talent Trees Jedi Archivist Talent Tree Edit Edit source History Talk (0) Reference Book: Star Wars Saga Edition Clone Wars Campaign Guide You have dedicated your life as a Jedi to preserving knowledge and applying it in times when it is needed. Contents 1 Direct 2 Impart Knowledge 3 Insight of the Force 4 Master Advisor 5 Scholarly Knowledge Direct[ ] As a Standard Action, you can return one spent Force Power to the Force Power Suite of any ally within 6 squares of you and in your line of sight. The Force Power must have been spent by the ally you designate. Impart Knowledge[ ] Prerequisite: Skilled Advisor You can Aid Another on the Knowledge checks of an ally within 6 squares of you as a Reaction for Knowledge skills you are Trained in. Insight of the Force[ ] You can make a Use the Force check in place of a Knowledge check for any Knowledge skill you are not Trained in. You are considered Trained in that Knowledge skill for the purposes of using this Talent. If you are entitled to a Knowledge check reroll, you can reroll your Use the Force check instead (subject to the same circumstances and limitations). Master Advisor[ ] Prerequisite: Skilled Advisor When you use the Skilled Advisor Talent, the ally you aid gains one temporary Force Point at the end of their next turn. If the Force Point is not spent before the end of the encounter, it is lost. Scholarly Knowledge[ ] As a Swift Action, you can reroll a Knowledge check and keep the better of the two results. This can be used with any Knowledge skill you are Trained in. Categories Categories: Talent Trees Jedi Knight Talent Trees Add category Cancel Save Community content is available under CC-BY-SA unless otherwise noted. More Fandoms Fantasy Sci-fi Star Wars",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": null,
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Jedi Knight Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Jedi Knight Talent Trees",
+      "Jedi Master Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Jedi Archivist Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Jedi_Archivist_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Clone Wars Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Scholarly Knowledge",
+  "flags": {},
+  "type": "talent",
+  "folder": "4X1yFlFUYyDZzWxj",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385306477,
+    "modifiedTime": 1786039906822,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "cxTycNQuEbfTLWqg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!cxTycNQuEbfTLWqg"
+}

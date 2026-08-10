@@ -1,0 +1,61 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Starship Accessories",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal (Frigate)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal (Cruiser)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal (Station)",
+          "type": "TRAIT"
+        }
+      ],
+      "count": 1,
+      "text": "Colossal or Larger",
+      "type": "OR"
+    },
+    "changes": [],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a> </i></p><p><b>Emplacement Points:&nbsp;</b> 1</p><p><b>Size Restriction:&nbsp;</b> Colossal or Larger</p><p>Baffled Drives are favored by smugglers moving through dangerous, highly patrolled star systems and anyone else that needs to move through space with a modicum of stealth. A Baffled Drive uses supercooled Tibanna gas that leaves no visible trail, making it incredibly difficult to detect the ship with sensors. A Baffled Drive always gives a Starship a <a href=\"https://swse.fandom.com/wiki/Starship_Scale\" class=\"mw-redirect\" title=\"Starship Scale\">Starship Scale</a> speed of 2 squares, and has a limited fuel capacity. A Starship's Baffled Drive can move the ship up to 100 squares (total) before it needs to be refueled; refueling a Baffled Drive has a base cost of 1400 credits (x <a href=\"https://swse.fandom.com/wiki/SotG_Starship_Modifications#Cost_Modifiers\" title=\"SotG Starship Modifications\">Cost Modifier</a>). A ship moving with a Baffled Drive adds +5 to the DC of any <a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> or <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> check made to detect the ship, and if the ship has <a href=\"https://swse.fandom.com/wiki/Sensor_Baffling\" title=\"Sensor Baffling\">Sensor Baffling</a> it can move up to twice its base speed in one turn without losing the benefit of the <a href=\"https://swse.fandom.com/wiki/Sensor_Baffling\" title=\"Sensor Baffling\">Sensor Baffling</a>.</p>",
+    "cost": "100000 (Base)",
+    "emplacementPoints": "1",
+    "availability": "Military"
+  },
+  "name": "Baffled Drive",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317665,
+    "modifiedTime": 1759848317665,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "S31MIohdBkv543UO",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!S31MIohdBkv543UO"
+}

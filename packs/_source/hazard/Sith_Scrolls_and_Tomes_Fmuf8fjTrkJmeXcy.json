@@ -1,0 +1,66 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A creature reads an ancient Sith tome, scroll, or tablet.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "None.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Treat Injury (DC 25): The character treats The Madness of Knowledge along with 8 hours of rest (Cannot be performed by the victim).",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: The character is filled with paranoia and creeping insanity until treated, and any time the character rolls a Natural 1 on an attack roll, their next attack roll made before the end of the encounter must be against an ally, not an enemy.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "N/A"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Jedi_Academy_Training_Manual\" title=\"Star Wars Saga Edition Jedi Academy Training Manual\">Star Wars Saga Edition Jedi Academy Training Manual</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p>Before <a href=\"https://swse.fandom.com/wiki/Holocrons\" title=\"Holocrons\">Holocron</a> technology was developed, and sometimes even after, the Sith recorded much of their dark knowledge in traditional forms. Locked away in the mausoleums dedicated to ancient Sith Lords are thousands of scrolls, tomes, and tablets bearing instructions on how to master a variety of Sith techniques. Like <a href=\"https://swse.fandom.com/wiki/Sith_Holocrons\" class=\"mw-redirect\" title=\"Sith Holocrons\">Sith Holocrons</a>, these ancient writings describe the methods of using lost [<i><a href=\"https://swse.fandom.com/wiki/Dark_Side\" class=\"mw-redirect\" title=\"Dark Side\">Dark Side</a></i>] <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a>, the construction of <a href=\"https://swse.fandom.com/wiki/Sith_Weapons\" class=\"mw-redirect\" title=\"Sith Weapons\">Sith Weapons</a> and <a href=\"https://swse.fandom.com/wiki/Sith_Artifacts\" title=\"Sith Artifacts\">Sith Artifacts</a>, information on <a href=\"https://swse.fandom.com/wiki/Sith_Alchemy\" class=\"mw-redirect\" title=\"Sith Alchemy\">Sith Alchemy</a>, and treaties on the domination and destruction of others. </p><p>Sith scrolls, tomes, and tablets function in much the same way as a <a href=\"https://swse.fandom.com/wiki/Holocrons\" title=\"Holocrons\">Holocron</a> for the purposes of learning new <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a> and <a href=\"https://swse.fandom.com/wiki/Force_Talents\" title=\"Force Talents\">Force Talents</a>. However, these writing have neither a <a href=\"https://swse.fandom.com/wiki/Jedi_Master_Holocron_Gatekeeper\" title=\"Jedi Master Holocron Gatekeeper\">Jedi Master Holocron Gatekeeper</a> nor a <a href=\"https://swse.fandom.com/wiki/Sith_Lord_Holocron_Gatekeeper\" title=\"Sith Lord Holocron Gatekeeper\">Sith Lord Holocron Gatekeeper</a>, and as such their knowledge is open to anyone who can master them, given time. Searchers should beware; many Sith writings are imbued with the madness of their creators, and the knowledge they contain has been known to drive the unprepared student to insanity. </p><h2><span id=\"The_Madness_of_Knowledge_Statistics_.28CL_6.29\"></span><span class=\"mw-headline\" id=\"The_Madness_of_Knowledge_Statistics_(CL_6)\">The Madness of Knowledge Statistics (CL 6)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> N/A </p><p><b>Trigger:</b> A creature reads an ancient Sith tome, scroll, or tablet. </p><p><b>Attack:</b> +8 vs <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a> </p><p><b>Recurrence:</b> None. </p><p><b>Suggested&nbsp;<a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b>&nbsp;The following are suggested&nbsp;<a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>&nbsp;for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a> (DC 25):</b> The character treats The Madness of Knowledge along with 8 hours of rest (Cannot be performed by the victim).</li>\n</ul><p><b>Special:</b> The character is filled with paranoia and creeping insanity until treated, and any time the character rolls a Natural 1 on an attack roll, their next attack roll made before the end of the encounter must be against an ally, not an enemy. </p>",
+    "source": "Star Wars Saga Edition Jedi Academy Training Manual",
+    "cost": "0"
+  },
+  "name": "Sith Scrolls and Tomes",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244789,
+    "modifiedTime": 1749263244789,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "Fmuf8fjTrkJmeXcy",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!Fmuf8fjTrkJmeXcy"
+}

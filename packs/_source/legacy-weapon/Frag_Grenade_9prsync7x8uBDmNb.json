@@ -1,0 +1,65 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p>The standard Fragmentation Grenade unleashes metal shrapnel with explosive force, slicing up anyone within the 2-Square <a href=\"https://swse.fandom.com/wiki/Burst\" class=\"mw-redirect\" title=\"Burst\">Burst</a> radius. It is designed to explode on contact after it is thrown, dealing damage in the same turn it is hurled. </p><p>When you make an <a href=\"https://swse.fandom.com/wiki/Area_Attack\" class=\"mw-redirect\" title=\"Area Attack\">Area Attack</a> with a Frag Grenade, you make a single attack roll and compare the result to the <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> of every target in the Grenade's <a href=\"https://swse.fandom.com/wiki/Burst\" class=\"mw-redirect\" title=\"Burst\">Burst</a> radius. Creatures you hit take full damage, and creatures you miss take half damage. </p><p>A target with the <b><a href=\"https://swse.fandom.com/wiki/Evasion\" class=\"mw-redirect\" title=\"Evasion\">Evasion</a></b> Talent takes half damage from a successful attack, and no damage if the attack misses. </p><p><b>Special:</b>&nbsp;This is an&nbsp;<a href=\"https://swse.fandom.com/wiki/Area_Attack\" class=\"mw-redirect\" title=\"Area Attack\">Area Attack</a>&nbsp;Weapon. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Launchable Grenade",
+        "key": "actsAs"
+      }
+    ],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "200",
+    "weight": "0.5 Kilograms",
+    "availability": "Military",
+    "size": "Tiny",
+    "type": "",
+    "subtype": "Grenades",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "4d6",
+    "damageType": "Slashing",
+    "specialQualities": "Special: This is an Area Attack Weapon."
+  },
+  "name": "Frag Grenade",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Frag_Grenade.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513532,
+    "modifiedTime": 1786051513589,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "9prsync7x8uBDmNb",
+  "_key": "!items!9prsync7x8uBDmNb"
+}

@@ -1,0 +1,91 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Achievers of Chalactan Enlightenment are masters of within. You may spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> to become immune to all <a href=\"https://swse.fandom.com/wiki/Mind-Affecting\" class=\"mw-redirect\" title=\"Mind-Affecting\">Mind-Affecting</a> effects for the remainder of the encounter.&nbsp;",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Perception (Sense Deception or Sense Influence)::kh:in: Untested, Homebrew Content, Talent Trees, and 2 more Force Talent Trees Force Tradition Talent Trees Chalactan Adept Talent Tree Edit Edit source History Talk (0) This Homebrew Content has not been reviewed in a meaningful manner. If you wish to review this content yourself, then see Untested for more details. Homebrew Reference Book: Clone Wars Saga Edition Fan Sourcebook - The Jedi Order The teachings and practices of The Chalactan Adepts give them amazing strength of will, providing them with immense discipline over adverse manipulation of the mind and body. You must be a member of The Chalactan Adepts Force Tradition to select any of the Talents described below. Contents 1 Chalactan Adept 2 Lesser Mark of Illumination 3 Greater Mark of Illumination 4 Chalactan Enlightenment Chalactan Adept[ ] As a member of The Chalactan Adepts, you possess an unusually high degree of insight into the hearts and minds of others around you. You may choose to reroll any Perception check made to Sense Deception or Sense Influence, keeping the better result. Lesser Mark of Illumination[ ] Seekers of Chalactan Enlightenment possess an intense willpower, allowing them to add twice their Wisdom modifier (minimum of 1) to their Will Defense. Greater Mark of Illumination[ ] Prerequisite: Lesser Mark of Illumination Those who have been illuminated can withstand immense physical pain and torture. You are granted a bonus to your Damage Threshold equal to your Wisdom modifier. Chalactan Enlightenment[ ] Prerequisites: Lesser Mark of Illumination, Greater Mark of Illumination Achievers of Chalactan Enlightenment are masters of within. You may spend a Force Point to become immune to all Mind-Affecting effects for the remainder of the encounter. Categories Categories: Untested Homebrew Content Talent Trees Force Talent Trees Force Tradition Talent Trees Add category Cancel Save Community content is available under CC-BY-SA unless otherwise noted. More Fandoms Fantasy Sci-fi Star Wars",
+        "key": "skillReRoll"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "a member of The Chalactan Adepts",
+      "requirement": "The Chalactan Adepts",
+      "type": "TRADITION"
+    },
+    "categories": [
+      {
+        "value": "Untested"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Force Talent Trees"
+      },
+      {
+        "value": "Force Tradition Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Untested",
+      "Homebrew Content",
+      "Force Talent Trees",
+      "Force Tradition Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Chalactan Adept Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Chalactan_Adept_Talent_Tree",
+    "bonusTalentTree": "Force Talent Trees",
+    "source": "Clone Wars Saga Edition Fan Sourcebook - The Jedi Order",
+    "cost": "0"
+  },
+  "name": "Chalactan Enlightenment",
+  "flags": {},
+  "type": "talent",
+  "folder": "z4RMiS8HFcpuWCaD",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385303422,
+    "modifiedTime": 1734385303422,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "RNNFDBmMvXrcBW7I",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!RNNFDBmMvXrcBW7I"
+}

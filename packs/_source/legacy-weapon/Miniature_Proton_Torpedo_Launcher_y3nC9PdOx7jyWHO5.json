@@ -1,0 +1,108 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode"
+        }
+      },
+      "statuses": [],
+      "disabled": false,
+      "name": "Single-Shot",
+      "_id": "lZ3134rF4zCf0QKm",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513502,
+        "modifiedTime": 1786051513502,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!y3nC9PdOx7jyWHO5.lZ3134rF4zCf0QKm"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Rebellion_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Rebellion Era Campaign Guide\">Star Wars Saga Edition Rebellion Era Campaign Guide</a></i> </p><p>Designed for use with <a href=\"https://swse.fandom.com/wiki/Zero-Gravity_Stormtrooper_Armor\" title=\"Zero-Gravity Stormtrooper Armor\">Zero-Gravity Stormtrooper Armor</a>, Miniature Proton Torpedoes can rip through Starship hulls. The launcher mounts into the Zero-Gravity Stormtrooper Armor's left gauntlet, but enterprising Rebel engineers have adapted the Weapon as a shoulder-mounted launcher. </p><p>After launching a Miniature Proton Torpedo, the wielder must spend a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a> to reset the launcher, which holds 4 torpedoes. </p><p>When you make an&nbsp;<a href=\"https://swse.fandom.com/wiki/Area_Attack\" class=\"mw-redirect\" title=\"Area Attack\">Area Attack</a>&nbsp;with a Miniature Proton Torpedo Launcher, you make a single attack roll and compare the result to the&nbsp;<a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>&nbsp;of every target in the Weapon's 2-Square&nbsp;<a href=\"https://swse.fandom.com/wiki/Burst\" class=\"mw-redirect\" title=\"Burst\">Burst</a>&nbsp;radius. Creatures you hit take full damage, and creatures you miss take half damage. A target with the&nbsp;<b><a href=\"https://swse.fandom.com/wiki/Evasion\" class=\"mw-redirect\" title=\"Evasion\">Evasion</a></b>&nbsp;Talent takes half damage from a successful attack, and no damage if the attack misses. </p><p>Alternatively, the Weapon can be fired at a single target, acting as a focused weapon designed to take out Starfighters and Ground Vehicles. As a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>, you can set the Miniature Proton Torpedo Launcher to single-target mode. In this mode, the weapon no longer functions as an <a href=\"https://swse.fandom.com/wiki/Area_Attack\" class=\"mw-redirect\" title=\"Area Attack\">Area Attack</a> Weapon, deals 6d10x2 damage, and applies a -10 penalty on attack rolls against targets smaller than Huge size. </p><p>Replacement Miniature Proton Torpedoes weigh 5 kg and cost 200 credits each. </p><p><b>Special:</b>&nbsp;This is an&nbsp;<a href=\"https://swse.fandom.com/wiki/Area_Attack\" class=\"mw-redirect\" title=\"Area Attack\">Area Attack</a>&nbsp;Weapon. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "1,500",
+    "weight": "8 Kilograms",
+    "availability": "Military",
+    "size": "Large",
+    "type": "",
+    "subtype": "Heavy Weapons",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "6d10",
+    "damageType": "Energy",
+    "specialQualities": "Special: This is an Area Attack Weapon."
+  },
+  "name": "Miniature Proton Torpedo Launcher",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Miniature_Proton_Torpedo_Launcher.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513502,
+    "modifiedTime": 1786051513579,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "y3nC9PdOx7jyWHO5",
+  "_key": "!items!y3nC9PdOx7jyWHO5"
+}

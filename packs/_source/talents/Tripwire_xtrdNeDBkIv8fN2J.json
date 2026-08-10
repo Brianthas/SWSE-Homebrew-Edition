@@ -1,0 +1,75 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "As a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a>, you can set up a simple snare or trap across an opening up to 3 squares wide. You must have the required items to set the trap. Make a successful DC 20 <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> check to set the trap. Make a <a href=\"https://swse.fandom.com/wiki/Deception\" title=\"Deception\">Deception</a> check to conceal the wire. Compare the result of the <a href=\"https://swse.fandom.com/wiki/Deception\" title=\"Deception\">Deception</a> check to the <a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> check of the next creature that passes through that square (-10 if it observes you setting the trap).<br><br>If the creature fails the <a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> check, it takes the indicated use of the trap. If the creature succeeds, it can make a DC 10 <a href=\"https://swse.fandom.com/wiki/Acrobatics\" title=\"Acrobatics\">Acrobatics</a> check to avoid the wire. Select one of the following options:",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Jury-Rigger talent",
+          "requirement": "Jury-Rigger",
+          "type": "TALENT"
+        },
+        {
+          "text": "Trained in Mechanics",
+          "requirement": "Mechanics",
+          "type": "TRAINED SKILL"
+        }
+      ],
+      "text": "Jury-Rigger talent, and Trained in Mechanics",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Scout Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Scout Talent Trees",
+      "Smuggler Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Master Scout Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Master_Scout_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Tripwire",
+  "flags": {},
+  "type": "talent",
+  "folder": "FC2JiFLmeaayGUKm",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385308800,
+    "modifiedTime": 1786036141322,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "xtrdNeDBkIv8fN2J",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!xtrdNeDBkIv8fN2J"
+}

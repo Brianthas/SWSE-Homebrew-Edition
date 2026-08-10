@@ -7,6 +7,8 @@ import {getInheritableAttribute} from "../attribute-helper.mjs";
  * @returns {number}
  */
 export function generateArmorCheckPenalties(actor) {
+    // Homebrew: armor proficiency is unified (a single "Armor Proficiency" feat covers all
+    // armor), replacing the old Light/Medium/Heavy tiered proficiency system.
     let armorProficiencies = getInheritableAttribute({
         entity: actor,
         attributeKey: "armorProficiency",
@@ -19,52 +21,20 @@ export function generateArmorCheckPenalties(actor) {
         reduce: "VALUES"
     })
 
-    let lightProficiency = armorProficiencies.includes("light");
-    let mediumProficiency = armorProficiencies.includes("medium");
-    let heavyProficiency = armorProficiencies.includes("heavy");
+    let proficient = armorProficiencies.includes("armor");
 
+    let wearingArmor = false;
 
-    mediumProficiency = mediumProficiency && lightProficiency;
-    heavyProficiency = heavyProficiency && mediumProficiency;
-
-    let wearingLight = false;
-    let wearingMedium = false;
-    let wearingHeavy = false;
-
-    /**
-     *
-     * @type {(string)[]}
-     */
     const armorItems = filterItemsByTypes(equippedItems(actor), ["armor"]).map(a => a.system.subtype);
     armorItems.push(...actsAs)
-    for(let armor of armorItems){
-        if('Heavy Armor' === armor){
-            wearingHeavy = true;
-        }
-        if('Medium Armor' === armor){
-            wearingMedium = true;
-        }
-        if('Light Armor' === armor){
-            wearingLight = true;
+    for (let armor of armorItems) {
+        if ('Armor' === armor) {
+            wearingArmor = true;
         }
     }
 
-    let energyShieldArmorTypes = getInheritableAttribute({
-        entity: actor,
-        attributeKey: "energyShieldArmorType",
-        reduce: "VALUES"
-    })
-
-    if((wearingHeavy && !heavyProficiency) || energyShieldArmorTypes.includes("Heavy Armor")){
+    if (wearingArmor && !proficient) {
         return -10;
-    }
-
-    if((wearingMedium && !mediumProficiency)||energyShieldArmorTypes.includes("Medium Armor")){
-        return -5;
-    }
-
-    if((wearingLight && !lightProficiency)||energyShieldArmorTypes.includes("Light Armor")){
-        return -2;
     }
 
     return 0;

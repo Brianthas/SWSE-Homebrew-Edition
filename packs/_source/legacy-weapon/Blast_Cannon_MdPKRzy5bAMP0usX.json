@@ -1,0 +1,113 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode"
+        }
+      },
+      "statuses": [],
+      "disabled": false,
+      "name": "Single-Shot",
+      "_id": "3EKFR3o7kWw8pMoF",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513531,
+        "modifiedTime": 1786051513531,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!MdPKRzy5bAMP0usX.3EKFR3o7kWw8pMoF"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Web_Enhancements\" title=\"Star Wars Saga Edition Web Enhancements\">Star Wars Saga Edition Web Enhancements</a> (<a href=\"https://swse.fandom.com/wiki/Star_Wars_Miniatures_Previews\" title=\"Star Wars Miniatures Previews\">Star Wars Miniatures Previews</a>)</i> </p><p>The Golan Arms Blast Cannon, colloquially known as the \"Blaster Shotgun,\" is a devastating close-quarters Weapon often issued to <a href=\"https://swse.fandom.com/wiki/Imperial_Gunners\" class=\"mw-redirect\" title=\"Imperial Gunners\">Imperial Gunners</a> and engineers to aid them in repelling an attack on their positions. It fires multiple individual blaster shots in a spread with a single pull of the trigger. At very close ranges, all of these shots will usually hit the same target (with devastating results), and at larger ranges, the spread of the shots deals damage to multiple targets. </p><p>Although the Blast Cannon has the same <a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a> as a <a href=\"https://swse.fandom.com/wiki/Pistol\" class=\"mw-redirect\" title=\"Pistol\">Pistol</a>, its wielder does not take penalties on the attack roll due to <a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a>. Instead, apply <a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a> penalties to damage rolls. Against an adjacent target, the Golan Arms Blast Cannon does an extra 1d8 points of damage due to having so many blaster shots concentrated in such a small space. </p><p>In addition, because this weapon produces a spread of multiple individual blaster shots, it functions as a <a href=\"https://swse.fandom.com/wiki/Splash\" class=\"mw-redirect\" title=\"Splash\">Splash</a> Weapon (1-Square radius) whenever it is used against a nonadjacent target. A Blast Cannon requires a <a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a> to operate. After 5 shots, the <a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a> must be replaced. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Power Pack:5",
+        "key": "ammo"
+      }
+    ],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "2,000",
+    "weight": "6 Kilograms",
+    "availability": "Military, Rare",
+    "size": "Large",
+    "type": "",
+    "subtype": "Exotic Ranged Weapons",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "3d8",
+    "damageType": "Energy"
+  },
+  "name": "Blast Cannon",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Blast_Cannon.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513531,
+    "modifiedTime": 1786051513588,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "MdPKRzy5bAMP0usX",
+  "_key": "!items!MdPKRzy5bAMP0usX"
+}

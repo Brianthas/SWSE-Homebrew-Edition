@@ -1,0 +1,92 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Whenever you would gain the benefit of the <b>Skirmisher</b> Talent and you successfully hit your opponent, you deal <b>Sneak Attack</b> damage in addition to the normal damage dealt by the attack.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Skirmisher talent",
+          "requirement": "Skirmisher",
+          "type": "TALENT"
+        },
+        {
+          "text": "Sneak Attack talent",
+          "requirement": "Sneak Attack",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Skirmisher talent, and Sneak Attack talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Saboteur Talent Trees"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Scoundrel Talent Trees"
+      },
+      {
+        "value": "Assassin Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Bounty Hunter Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Saboteur Talent Trees",
+      "Scoundrel Talent Trees",
+      "Assassin Talent Trees",
+      "Core Rulebook",
+      "Bounty Hunter Talent Trees",
+      "Smuggler Talent Trees",
+      "Engineer Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Misfortune Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Misfortune_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Scum and Villainy",
+    "cost": "0"
+  },
+  "name": "Sudden Strike",
+  "flags": {},
+  "type": "talent",
+  "folder": "xmU6UIuAoKz2CgOY",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385309764,
+    "modifiedTime": 1786039798046,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "6eOjHRazGYDM3Lhm",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!6eOjHRazGYDM3Lhm"
+}

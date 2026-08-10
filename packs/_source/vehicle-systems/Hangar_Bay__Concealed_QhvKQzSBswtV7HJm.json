@@ -1,0 +1,56 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Starship Accessories",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Colossal (Frigate) or Larger",
+          "requirement": "Colossal (Frigate)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal (Frigate) or Larger",
+          "requirement": "Colossal (Cruiser)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal (Frigate) or Larger",
+          "requirement": "Colossal (Station)",
+          "type": "TRAIT"
+        }
+      ],
+      "count": 1,
+      "text": "Colossal (Frigate) or Larger",
+      "type": "OR"
+    },
+    "changes": [],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><table class=\"wikitable\">\n <tbody>\n  <tr>\n   <th>HANGAR BAY</th>\n   <th>EMPLACEMENT POINTS</th>\n   <th>AVAILABILITY</th>\n   <th>SIZE RESTRICTION</th>\n   <th>COST</th>\n  </tr>\n  <tr>\n   <td>Standard</td>\n   <td>8</td>\n   <td>Common</td>\n   <td>Colossal (Frigate) or Larger</td>\n   <td>10 (Base)</td>\n  </tr>\n  <tr>\n   <td>Concealed</td>\n   <td>40</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Restricted\" class=\"mw-redirect\" title=\"Restricted\">Restricted</a></td>\n   <td>Colossal (Frigate) or Larger</td>\n   <td>1000 (Base)</td>\n  </tr>\n </tbody>\n</table><h3><span class=\"mw-headline\" id=\"Concealed_Hangars\">Concealed Hangars</span></h3><p>The presence of a Concealed Hangar isn't obvious to an external examination. Determine the hangar space as for a standard Hangar Bay, above. It takes a DC 30 <a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> check to recognize a Concealed Hanger for what it is from an external observation, though any thorough internal search of a ship reveals it. It takes two <a href=\"https://swse.fandom.com/wiki/Full-Round_Actions\" title=\"Full-Round Actions\">Full-Round Actions</a> for a <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> to exit or enter a Concealed Hangar Bay.</p><h2><span class=\"mw-headline\" id=\"Additional_Vehicles_and_Hangar_Space\">Additional Vehicles and Hangar Space</span></h2><p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Web_Enhancements\" title=\"Star Wars Saga Edition Web Enhancements\">Star Wars Saga Edition Web Enhancements</a> (<a href=\"https://swse.fandom.com/wiki/Jedi_Counseling\" title=\"Jedi Counseling\">Jedi Counseling</a>)</i></p><p><b>Q:</b> Do nonflying carried <a href=\"https://swse.fandom.com/wiki/Vehicles\" title=\"Vehicles\">Vehicles</a> require hangar space? If so, it seems like the <i>Imperial</i>-Class Star Destroyer uses more hangar space for <a href=\"https://swse.fandom.com/wiki/AT-ATs\" class=\"mw-redirect\" title=\"AT-ATs\">AT-ATs</a> and <a href=\"https://swse.fandom.com/wiki/AT-STs\" class=\"mw-redirect\" title=\"AT-STs\">AT-STs</a> than it does for <a href=\"https://swse.fandom.com/wiki/TIE_Fighters\" class=\"mw-redirect\" title=\"TIE Fighters\">TIE Fighters</a> and shuttles.</p><p><b>A:</b> Hangar space is required only for <a href=\"https://swse.fandom.com/wiki/Vehicles\" title=\"Vehicles\">Vehicles</a> that are meant to launch directly from the Starship, such as <a href=\"https://swse.fandom.com/wiki/Airspeeders\" title=\"Airspeeders\">Airspeeders</a>, <a href=\"https://swse.fandom.com/wiki/Starfighters\" title=\"Starfighters\">Starfighters</a>, and <a href=\"https://swse.fandom.com/wiki/Space_Transports\" title=\"Space Transports\">Space Transports</a>. If the Vehicle is meant to be kept in storage until deployed planetside- as in the case of <a href=\"https://swse.fandom.com/wiki/AT-ATs\" class=\"mw-redirect\" title=\"AT-ATs\">AT-ATs</a> and the like- then the Vehicle can be carried as cargo. The real difference is that a hangar-deployed Vehicle is ready to fight when launched, but a Vehicle carried as cargo needs a little help to become combat ready (usually about 1 minute of continuous work, assuming the Vehicle's entire crew assists).</p><p><a href=\"https://swse.fandom.com/wiki/Vehicles\" title=\"Vehicles\">Vehicles</a> stored in this way are still quite bulky (meaning they take up more cargo space than their mass would otherwise suggest). Nevertheless, this is considerably more efficient than allocating hangar space for the Vehicle, which includes enough room for maintenance, repair, takeoff, landing, and maneuvering. The precise amount of cargo space required is ultimately up to the GM, but a good baseline is that a vehicle requires about 100 tons of cargo space- roughly 50 cubic meters- for every unit of hangar space it would normally require. (As a comparison, this is about 1/4 as much room as the same Vehicle would require if you converted that cargo space into a Hangar Bay.)</p><h2><span class=\"mw-headline\" id=\"Homebrew_Colossal_Hangars\">Homebrew Colossal Hangars</span></h2><table style=\"width:100%; margin-top:2em; border:2px solid #999; font-size:105%; text-align:center; background:#6c3636;\">\n <tbody>\n  <tr>\n   <td><i><b>This <a href=\"https://swse.fandom.com/wiki/Homebrew_Content\" title=\"Homebrew Content\">Homebrew Content</a> has not been reviewed in a meaningful manner. If you wish to review this content yourself, then see <a href=\"https://swse.fandom.com/wiki/Category:Untested\" title=\"Category:Untested\">Untested</a> for more details.</b></i></td>\n  </tr>\n </tbody>\n</table><p><i>Homebrew&nbsp;Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Clone_Wars_Saga_Edition_Fan_Sourcebook\" title=\"Clone Wars Saga Edition Fan Sourcebook\">Clone Wars Saga Edition Fan Sourcebook</a> - Vehicles and Vessels</i></p><p>At the GM's discretion, using nonstandard installation methods it is possible to install a hangar into a <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> of Colossal or smaller size. However, additional restrictions for the installation and usage are put in place. Regardless of the number of Hangar Points available, a ship cannot contain a <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> of a larger size than itself. If a <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> is designed to carry a <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> of equal size, the carried <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> must be attached to the exterior of the ship, thus granting no <a href=\"https://swse.fandom.com/wiki/Cover\" title=\"Cover\">Cover</a>. The hangar space taken up by a carried <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> is determined by its size as described above. Large <a href=\"https://swse.fandom.com/wiki/Vehicles\" title=\"Vehicles\">Vehicles</a> are treated as one quarter (0.25) Hangar Points.</p>",
+    "cost": "1000 (Base)",
+    "emplacementPoints": "40",
+    "availability": "Restricted"
+  },
+  "name": "Hangar Bay, Concealed",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317799,
+    "modifiedTime": 1759848317799,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "QhvKQzSBswtV7HJm",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!QhvKQzSBswtV7HJm"
+}

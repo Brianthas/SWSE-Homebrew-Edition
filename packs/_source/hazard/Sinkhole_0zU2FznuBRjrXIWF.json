@@ -1,0 +1,71 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "1d6",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A being ends its turn on a Sinkhole.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "None",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Acrobatics (DC 26): The character twists to grab the edge of the hole, gaining a +5 circumstance bonus to Reflex Defense to avoid falling in. Climb (DC 26): As the character falls into the hole, they grab the wall and slow their descent, reducing the amount of damage the character takes by half. Jump (DC 21): By jumping across the opening of the hole, the character gains a +2 circumstance bonus to Reflex Defense to avoid falling in.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: If the Hazard's attack against the target is successful, the target falls into the hole and takes Falling Damage when it hits the bottom.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>In your path is a large, gaping hole in the ground.</i> </p><p>The Sinkhole is a common Hazard. The difference between a Pit and a Sinkhole is that a pit has no additional exit, whereas a Sinkhole leads to an underground passage. Despite its apparent simplicity, this Hazard can be used in many ways: a covered pit that spans a path, a deep sinkhole, a pit with spikes or other sharp objects lining the bottom, a pit with a predator at the bottom, and so on. Combatants separated by a hole can fight from different sides, or one group could attempt to force the other toward the edge. </p><h2><span id=\"Sinkhole_Statistics_.28CL_4.29\"></span><span class=\"mw-headline\" id=\"Sinkhole_Statistics_(CL_4)\">Sinkhole Statistics (CL 4)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Natural </p><p><b>Trigger:</b> A being ends its turn on a Sinkhole. </p><p><b>Attack:</b> +6 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> None </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Acrobatics\" title=\"Acrobatics\">Acrobatics</a> (DC 26):</b> The character twists to grab the edge of the hole, gaining a +5 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> to avoid falling in.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Climb\" title=\"Climb\">Climb</a> (DC 26):</b> As the character falls into the hole, they grab the wall and slow their descent, reducing the amount of damage the character takes by half.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Jump\" title=\"Jump\">Jump</a> (DC 21):</b> By jumping across the opening of the hole, the character gains a +2 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> to avoid falling in.</li>\n</ul><p><b>Special:</b> If the Hazard's attack against the target is successful, the target falls into the hole and takes <a href=\"https://swse.fandom.com/wiki/Falling_Damage\" title=\"Falling Damage\">Falling Damage</a> when it hits the bottom. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Sinkhole",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244814,
+    "modifiedTime": 1749263244814,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "0zU2FznuBRjrXIWF",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!0zU2FznuBRjrXIWF"
+}

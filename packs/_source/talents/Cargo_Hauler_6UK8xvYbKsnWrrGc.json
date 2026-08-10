@@ -1,0 +1,70 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You gain a +5 bonus on <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a>-based <a href=\"https://swse.fandom.com/wiki/Skill_Checks\" title=\"Skill Checks\">Skill Checks</a>. Additionally, you double your <a href=\"https://swse.fandom.com/wiki/Carrying_Capacity\" class=\"mw-redirect\" title=\"Carrying Capacity\">Carrying Capacity</a>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "str:5",
+        "key": "skillBonus"
+      },
+      {
+        "mode": 2,
+        "value": "2",
+        "key": "carryCapacityMultiplier"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": null,
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Droid Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Droid Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "5th-Degree Droid Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/5th-Degree_Droid_Talent_Tree",
+    "bonusTalentTree": "5th-Degree Droid Talent Tree",
+    "source": "Star Wars Saga Edition Force Unleashed Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Cargo Hauler",
+  "flags": {},
+  "type": "talent",
+  "folder": "Ca9PvKcOh9hNsw0B",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385301672,
+    "modifiedTime": 1734385301672,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "6UK8xvYbKsnWrrGc",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!6UK8xvYbKsnWrrGc"
+}

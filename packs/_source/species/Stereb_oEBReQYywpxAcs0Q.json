@@ -1,0 +1,170 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Dawn_of_Defiance\" title=\"Star Wars Saga Edition Dawn of Defiance\">Star Wars Saga Edition Dawn of Defiance</a> (<a href=\"https://swse.fandom.com/wiki/Sword_of_the_Empire\" title=\"Sword of the Empire\">Sword of the Empire</a>)</i></p><p>Jokingly called \"Hairless Wookiees\" by the few who have seen them, Stereb have been found on a number of worlds with rocky crusts. Not technologically adept, the Stereb live in harmony with the surfaces of a planet, working elaborate stone passages underground in the belief that they're part of the world's circulatory system. </p><h3><span class=\"mw-headline\" id=\"Stereb_Characteristics\">Stereb Characteristics</span></h3><p><b>Personality:</b> Stereb are deliberate and methodical. Not being very curious, they tend to take things at face value. They are not aggressive and usually fight only if forced into a confrontation. </p><p><b>Physical Description:</b> Stereb average about 2.2 meters tall. Their mostly hairless bodies range from pale red to brown with reddish undertones. They have overly long arms and large hands and feet. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b>&nbsp;Stereb age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-16 Years </td> \n   <td>17-49 Years </td> \n   <td>50-76 Years </td> \n   <td>77-89 Years </td> \n   <td>90+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The Stereb homeworld is unknown, although small enclaves have been found on <span class=\"new\" title=\"Serroco (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvU2Vycm9jbz9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Serroco</span>, <a href=\"https://swse.fandom.com/wiki/Prakith\" title=\"Prakith\">Prakith</a>, and a few other lightly populated planets. Given their lack of technology, some suspect that the Stereb were transported to several planets as slave labor far back in their history. </p><p><b>Languages:</b> Stereb speak Stereb. They are able mimics, and there are a number of Basic words in the Stereb language. </p><p><b>Example Names:</b> Herdr'tui, Eldr'nol, Helr'ven. Stereb names include a Basic-sounding prefix relating to their function in the community (<i>herdr</i> means herder, <i>eldr</i> means elder, <i>helr</i> means healer, and so on) </p><p><b>Adventurers:</b> Most Stereb prefer to remain within the safety of their enclaves. The few Stereb who wander abroad are most likely to be <a href=\"https://swse.fandom.com/wiki/Scouts\" class=\"mw-redirect\" title=\"Scouts\">Scouts</a>. Stereb Force-users are very rare. </p><h3><span class=\"mw-headline\" id=\"Stereb_Species_Traits\">Stereb Species Traits</span></h3><p>Stereb share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Primitive",
+        "type": "trait"
+      },
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Mechanics))",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Darkvision",
+        "type": "trait"
+      },
+      {
+        "name": "Tough",
+        "type": "trait"
+      },
+      {
+        "name": "Web Enhancements",
+        "type": "trait"
+      },
+      {
+        "name": "Stereb",
+        "type": "trait"
+      },
+      {
+        "name": "Subterranean",
+        "type": "trait"
+      },
+      {
+        "name": "Skill Focus (Mechanics)",
+        "type": "feat"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "11",
+          "low": "1",
+          "text": "1-11",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "16",
+          "low": "12",
+          "text": "12-16",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "76",
+          "low": "50",
+          "text": "50-76",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "49",
+          "low": "17",
+          "text": "17-49",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "89",
+          "low": "77",
+          "text": "77-89",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "90",
+          "text": "90+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Primitive"
+      },
+      {
+        "value": "Conditional Bonus Feat (Skill Focus (Mechanics))"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Darkvision"
+      },
+      {
+        "value": "Tough"
+      },
+      {
+        "value": "Web Enhancements"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Conditional Bonus Feat"
+      },
+      {
+        "value": "Stereb"
+      },
+      {
+        "value": "Subterranean"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Stereb",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535567314,
+    "modifiedTime": 1736535567314,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "oEBReQYywpxAcs0Q",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!oEBReQYywpxAcs0Q"
+}

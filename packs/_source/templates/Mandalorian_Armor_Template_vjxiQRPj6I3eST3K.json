@@ -1,0 +1,94 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:</i>&nbsp;<i><a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Threats_of_the_Galaxy\" title=\"Star Wars Saga Edition Threats of the Galaxy\">Star Wars Saga Edition Threats of the Galaxy</a></i> </p><p><b>Manufactured By:</b>&nbsp;<a href=\"https://swse.fandom.com/wiki/The_Mandalorians\" title=\"The Mandalorians\">The Mandalorians</a> (Organization) </p><p><b>Applicable To:</b>&nbsp;Any Armor </p><p>Mandalorian Armor is constructed of a rare iron alloy, favored for its strength and durability, as well as its ability to turn away&nbsp;<a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a>&nbsp;attacks. The Mandalorians guard the secret of producing Armor made from this material, making it especially rare in the galaxy. </p><p>The Mandalorian Armor Template is typically&nbsp;applied to <a href=\"https://swse.fandom.com/wiki/Battle_Armor\" title=\"Battle Armor\">Battle Armor</a>&nbsp;or&nbsp;<a href=\"https://swse.fandom.com/wiki/Heavy_Battle_Armor\" title=\"Heavy Battle Armor\">Heavy Battle Armor</a>. </p><p><b>Armor:</b> A Suit of Armor with the Mandalorian Armor Template has its&nbsp;<a href=\"https://swse.fandom.com/wiki/Equipment\" title=\"Equipment\">Equipment</a>&nbsp;bonus to&nbsp;<a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>&nbsp;increase by +1. Additionally, if the wearer has&nbsp;<a href=\"https://swse.fandom.com/wiki/Damage_Reduction\" title=\"Damage Reduction\">Damage Reduction</a>, they can apply its benefit against attacks made by&nbsp;<a href=\"https://swse.fandom.com/wiki/Lightsabers\" title=\"Lightsabers\">Lightsabers</a>. </p><p>In some eras, particularly during <a href=\"https://swse.fandom.com/wiki/The_Mandalorian_Wars\" class=\"mw-redirect\" title=\"The Mandalorian Wars\">The Mandalorian Wars</a>, the armor alone grants favorable circumstances on&nbsp;<a href=\"https://swse.fandom.com/wiki/Persuasion\" title=\"Persuasion\">Persuasion</a>&nbsp;checks made to&nbsp;<a href=\"https://swse.fandom.com/wiki/Intimidate\" class=\"mw-redirect\" title=\"Intimidate\">Intimidate</a>. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "30000",
+        "key": "cost"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "itemMod"
+      },
+      {
+        "mode": 2,
+        "value": "+1",
+        "key": "equipmentFortitudeDefenseBonus"
+      },
+      {
+        "mode": 2,
+        "value": "Additionally, if the wearer has Damage Reduction, they can apply its benefit against attacks made by Lightsabers.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": "In some eras, particularly during The Mandalorian Wars, the armor alone grants favorable circumstances on Persuasion checks made to Intimidate.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": "Mandalorian",
+        "key": "prefix"
+      },
+      {
+        "mode": 2,
+        "value": "",
+        "key": "suffix"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "hasItemOwner": false,
+    "subtype": "Armor Templates",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Any Armor",
+          "requirement": "armor",
+          "type": "TYPE"
+        },
+        {
+          "text": "Any Armor",
+          "requirement": "armor",
+          "type": "TYPE"
+        }
+      ],
+      "text": "Any Armor, and Any Armor",
+      "type": "AND"
+    },
+    "cost": "30000"
+  },
+  "name": "Mandalorian Armor Template",
+  "flags": {},
+  "type": "template",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.2",
+    "createdTime": 1729096741406,
+    "modifiedTime": 1729096741406,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "vjxiQRPj6I3eST3K",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!vjxiQRPj6I3eST3K"
+}

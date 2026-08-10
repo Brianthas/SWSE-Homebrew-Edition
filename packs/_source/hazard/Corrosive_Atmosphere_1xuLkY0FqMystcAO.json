@@ -1,0 +1,73 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2d6",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A creature, Droid, or object begins its turn in a Corrosive Atmosphere.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round at the start of the target's turn, as long as the target remains in the Corrosive Atmosphere.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Knowledge (Physical Sciences) (DC 16): The character identifies the presence of a Corrosive Atmosphere.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: Creatures, Droids, or objects that have special protection against a Corrosive Atmosphere, such as environmentally sealed Space Suits, are not affected by this Hazard.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Acid",
+          "Atmosphere",
+          "Contact",
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>The chemicals of a Corrosive Atmosphere eat away at clothing, objects, and flesh.</i> </p><h2><span id=\"Corrosive_Atmosphere_Statistics_.28CL_4.29\"></span><span class=\"mw-headline\" id=\"Corrosive_Atmosphere_Statistics_(CL_4)\">Corrosive Atmosphere Statistics (CL 4)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Acid, Atmosphere, Contact, Natural </p><p><b>Trigger:</b> A creature, Droid, or object begins its turn in a Corrosive Atmosphere. </p><p><b>Attack:</b> +4 vs <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> </p><p><b>Recurrence:</b> Each round at the start of the target's turn, as long as the target remains in the Corrosive Atmosphere. </p><p><b>Suggested&nbsp;<a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b>&nbsp;The following are suggested&nbsp;<a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>&nbsp;for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Knowledge_(Physical_Sciences)\" class=\"mw-redirect\" title=\"Knowledge (Physical Sciences)\">Knowledge (Physical Sciences)</a> (DC 16):</b> The character identifies the presence of a Corrosive Atmosphere.</li>\n</ul><p><b>Special:</b> Creatures, Droids, or objects that have special protection against a Corrosive Atmosphere, such as environmentally sealed <a href=\"https://swse.fandom.com/wiki/Space_Suits\" class=\"mw-redirect\" title=\"Space Suits\">Space Suits</a>, are not affected by this Hazard. </p>",
+    "cost": "0"
+  },
+  "name": "Corrosive Atmosphere",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244412,
+    "modifiedTime": 1749263244412,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "1xuLkY0FqMystcAO",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!1xuLkY0FqMystcAO"
+}

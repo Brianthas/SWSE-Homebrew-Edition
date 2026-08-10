@@ -1,0 +1,84 @@
+{
+  "img": "systems/swse/icon/feat/Rancor_Crush.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Legacy_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Legacy Era Campaign Guide\">Star Wars Saga Edition Legacy Era Campaign Guide</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>Your crushing hold on an enemy can knock it unconcious.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> 15, <a href=\"https://swse.fandom.com/wiki/Crush\" title=\"Crush\">Crush</a>, <a href=\"https://swse.fandom.com/wiki/Pin\" title=\"Pin\">Pin</a>, <a href=\"https://swse.fandom.com/wiki/Base_Attack_Bonus\" class=\"mw-redirect\" title=\"Base Attack Bonus\">Base Attack Bonus</a> +1</p><p><b>Effect:</b> When you successfully <a href=\"https://swse.fandom.com/wiki/Pin\" title=\"Pin\">Pin</a> an enemy with the <a href=\"https://swse.fandom.com/wiki/Pin\" title=\"Pin\">Pin</a> Feat and use the <a href=\"https://swse.fandom.com/wiki/Crush\" title=\"Crush\">Crush</a> Feat at the same time, the enemy moves -1 step down the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a> in addition to taking damage.</p><p><b>Normal:</b> The <a href=\"https://swse.fandom.com/wiki/Crush\" title=\"Crush\">Crush</a> Feat deals damage to a <a href=\"https://swse.fandom.com/wiki/Grappled\" class=\"mw-redirect\" title=\"Grappled\">Grappled</a> enemy but does not move the enemy down the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Strength 15",
+          "requirement": "Strength 15",
+          "type": "ATTRIBUTE"
+        },
+        {
+          "text": "Crush feat",
+          "requirement": "Crush",
+          "type": "FEAT"
+        },
+        {
+          "text": "Pin feat",
+          "requirement": "Pin",
+          "type": "FEAT"
+        },
+        {
+          "text": "Base Attack Bonus 1",
+          "requirement": "1",
+          "type": "BASE ATTACK BONUS"
+        }
+      ],
+      "text": "Strength 15, Crush feat, Pin feat, and Base Attack Bonus 1",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Soldier Bonus Feats"
+      },
+      {
+        "value": "Grappling Feats"
+      },
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Bonus Feats",
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Legacy Era Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Rancor Crush",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479028472,
+    "modifiedTime": 1761479028472,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "d5BasadNzNkzfqeV",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!d5BasadNzNkzfqeV"
+}

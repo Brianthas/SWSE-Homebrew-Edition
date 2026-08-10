@@ -1,0 +1,74 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Once per round, you can spend a single <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a> to designate a single enemy who is not within Point-Blank <a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a>. When you make a successful ranged attack roll that deals damage against the designated enemy, add your <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> bonus (minimum +1) to the damage roll.<br><br>This effect lasts until the target is unconscious, dead, or leaves your line of sight. You can have only one enemy designated in this manner.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Precision Shot talent",
+          "requirement": "Precision Shot",
+          "type": "TALENT"
+        },
+        {
+          "text": "Base Attack Bonus 10",
+          "requirement": "10",
+          "type": "BASE ATTACK BONUS"
+        }
+      ],
+      "text": "Precision Shot talent, and Base Attack Bonus 10",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Gunslinger Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Gunslinger Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Sharpshooter Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Sharpshooter_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Galaxy at War",
+    "cost": "0"
+  },
+  "name": "Draw a Bead",
+  "flags": {},
+  "type": "talent",
+  "folder": "nbrMKW7DB6gly31d",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385311662,
+    "modifiedTime": 1734385311662,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "HuMaX7jlmaHOxU3o",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!HuMaX7jlmaHOxU3o"
+}

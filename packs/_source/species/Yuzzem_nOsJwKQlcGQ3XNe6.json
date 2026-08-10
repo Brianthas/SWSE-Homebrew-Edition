@@ -1,0 +1,149 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_at_War\" title=\"Star Wars Saga Edition Galaxy at War\">Star Wars Saga Edition Galaxy at War</a></i> </p><p> In spite of a well-deserved reputation as temperamental brutes, Yuzzem are cunning and intelligent, and their resourcefulness gives them as much of an advantage as their physically powerful frames. The Empire has learned this the hard way after they declared the Yuzzem a slave Species, rounding up large numbers of them, and putting them to work in heavy-labor operations.</p><p>The Yuzzem have frequently revolted against their Imperial masters, showing that they can be as ferocious as <a href=\"https://swse.fandom.com/wiki/Wookiees\" class=\"mw-redirect\" title=\"Wookiees\">Wookiees</a>, with no reservations about using their claws and tusks in a fight. </p><h3><span class=\"mw-headline\" id=\"Yuzzem_Characteristics\">Yuzzem Characteristics</span></h3><p><b>Personality:</b> Contrary to their popular image as loud and violent brutes, Yuzzem have a strong sense of fair play and generous disposition. Like <a href=\"https://swse.fandom.com/wiki/Wookiees\" class=\"mw-redirect\" title=\"Wookiees\">Wookiees</a>, they have a strict yet simple code of honor to which they adhere at all times. Yuzzem insist on repaying a debt owed, whether helping someone who has helped them or seeking vengeance for a wrong committed against them. </p><p><b>Physical Description:</b> Yuzzem are towering humanoids with heavily muscled upper bodies and long arms as broad as <a href=\"https://swse.fandom.com/wiki/Humans\" class=\"mw-redirect\" title=\"Humans\">Humans</a>. A Yuzzem has a prominent snout and an equally prominent pair of tusks jutting up from its lower jaw. Covered in a thick pelt of brown fur, a Yuzzem averages 2.5 meters tall, but its muscular bulk makes it seem a great deal larger. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b>&nbsp;Yuzzem age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-8 Years </td> \n   <td>9-15 Years </td> \n   <td>16-40 Years </td> \n   <td>41-59 Years </td> \n   <td>60-79 Years </td> \n   <td>80+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The arboreal world of <span class=\"new\" title=\"Ragna III (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvUmFnbmFfSUlJP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Ragna III</span>, located in <a href=\"https://swse.fandom.com/wiki/The_Mid_Rim\" title=\"The Mid Rim\">The Mid Rim</a>. </p><p><b>Languages:</b> Yuzz is a guttural language of growls, roars, and mewls; and unlike many other languages, it has no written form. Yuzz is largely unpronounceable by other <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>, although Yuzzem have little trouble speaking Basic. </p><p><b>Example Names:</b> Dek, Gor, Hin, Kee, Pok, Rha, Wuk. </p><p><b>Adventurers:</b> The first few Yuzzem leave <span class=\"new\" title=\"Ragna III (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvUmFnbmFfSUlJP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Ragna III</span> as slaves of the Empire, but once they gain their freedom they quickly found employment as enforcers and mercenaries. Many also return to their homeworld with stories about life among the stars, encouraging future generations of Yuzzem to travel the galaxy and seek their own <a href=\"https://swse.fandom.com/wiki/Destinies\" class=\"mw-redirect\" title=\"Destinies\">Destinies</a>. </p><h3><span class=\"mw-headline\" id=\"Yuzzem_Species_Traits\">Yuzzem Species Traits</span></h3><p>Yuzzem share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Expert Climber",
+        "type": "trait"
+      },
+      {
+        "name": "Large",
+        "type": "trait"
+      },
+      {
+        "name": "Natural Weapons",
+        "type": "trait"
+      },
+      {
+        "name": "Yuzzem",
+        "type": "trait"
+      },
+      {
+        "name": "Scent",
+        "type": "trait"
+      },
+      {
+        "name": "Physically Intimidating",
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "15",
+          "low": "9",
+          "text": "9-15",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "59",
+          "low": "41",
+          "text": "41-59",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "79",
+          "low": "60",
+          "text": "60-79",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "40",
+          "low": "16",
+          "text": "16-40",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "8",
+          "low": "1",
+          "text": "1-8",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "80",
+          "text": "80+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Expert Climber"
+      },
+      {
+        "value": "Large"
+      },
+      {
+        "value": "Natural Weapons"
+      },
+      {
+        "value": "Yuzzem"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Scent"
+      },
+      {
+        "value": "Physically Intimidating"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Yuzzem",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535567815,
+    "modifiedTime": 1736535567815,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "nOsJwKQlcGQ3XNe6",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!nOsJwKQlcGQ3XNe6"
+}

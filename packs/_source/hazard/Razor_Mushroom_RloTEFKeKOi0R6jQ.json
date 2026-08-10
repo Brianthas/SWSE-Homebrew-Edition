@@ -1,0 +1,62 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "1d6",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A being or object comes into contact with a Razor Mushroom.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "On Trigger; Once per Razor Mushroom",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Contact",
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Dawn_of_Defiance\" title=\"Star Wars Saga Edition Dawn of Defiance\">Star Wars Saga Edition Dawn of Defiance</a> (<a href=\"https://swse.fandom.com/wiki/The_Traitor%27s_Gambit\" title=\"The Traitor's Gambit\">The Traitor's Gambit</a>)</i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>These fungi are extremely dangerous and, like the <a href=\"https://swse.fandom.com/wiki/Exploding_Fungus\" title=\"Exploding Fungus\">Exploding Fungus</a>, activate only when someone gets too close.</i> </p><h2><span id=\"Razor_Mushroom_Statistics_.28CL_2.29\"></span><span class=\"mw-headline\" id=\"Razor_Mushroom_Statistics_(CL_2)\">Razor Mushroom Statistics (CL 2)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Contact, Natural </p><p><b>Trigger:</b> A being or object comes into contact with a Razor Mushroom. </p><p><b>Attack:</b> +3 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> On Trigger; Once per Razor Mushroom </p>",
+    "source": "Star Wars Saga Edition Dawn of Defiance (The Traitor's Gambit)",
+    "cost": "0"
+  },
+  "name": "Razor Mushroom",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244725,
+    "modifiedTime": 1749263244725,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "RloTEFKeKOi0R6jQ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!RloTEFKeKOi0R6jQ"
+}

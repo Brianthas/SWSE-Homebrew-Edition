@@ -1,0 +1,138 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p>Known for being among the most cheerful and friendliest beings of the galaxy, Chadra-Fans are found in many places. On their native world, hurricanes and tsunamis frequently wipe out their homes, so the Chadra-Fans have developed an intense fear of water and choose new homes on arid planets. This experience with frequent destruction also leads them to regard few things as being truly permanent. Chadra-Fans embrace the moment and enjoy themselves as much as they can, living with a contagious zest for life. </p><p>Chadra-Fans are notorious for their love of tinkering, frequently disassembling and reassembling unattended devices into something different. Chadra-Fans find work in industrial research, and conventionally trained engineers attempt to duplicate Chadra-Fan creations. </p><h3><span class=\"mw-headline\" id=\"Chadra-Fan_Characteristics\">Chadra-Fan Characteristics</span></h3><p><b>Personality:</b> Gregarious, exuberant, and outgoing to a fault, Chadra-Fans are not picky when it comes to friends and frequently suffer from depression if left alone for extended periods of time. They are inquisitive, particularly about machinery, are hard-pressed to restrain the urge to tinker with an device within reach. </p><p><b>Physical Description:</b> No more than a meter tall, with flat noses and round, dark eyes, Chadra-Fans are covered in fur everywhere except for their fingers, toes, and large ears. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b>&nbsp;Chadra-Fans age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-15 Years </td> \n   <td>16-40 Years </td> \n   <td>41-59 Years </td> \n   <td>60-79 Years </td> \n   <td>80+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Chadra-Fans are native to <span class=\"new\" title=\"Chad (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQ2hhZD9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">Chad</span>, a world located in the region of <a href=\"https://swse.fandom.com/wiki/The_Outer_Rim\" title=\"The Outer Rim\">The Outer Rim</a> known as The Slice. Covered with extensive marshes and bayous, the planet has nine moons, which gives the world a complex tidal cycle. </p><p><b>Languages:</b> The Chadra-Fan language sounds substantially different from Basic, so those Chadra-Fan who speak Basic do so with a very squeaky tone. </p><p><b>Example Names:</b> Fandar, Gudb, Kabe, T'achak T'andar, Tekli, Tutti Snibit. </p><p><b>Adventurers:</b> Chadra-Fans prefer the <a href=\"https://swse.fandom.com/wiki/Scoundrel\" title=\"Scoundrel\">Scoundrel</a> and <a href=\"https://swse.fandom.com/wiki/Scout\" title=\"Scout\">Scout</a> classes, which better enable them to indulge their boundless curiosity. At least one Chadra-Fan is known to have joined the ranks of the New Jedi Order. </p><h3><span class=\"mw-headline\" id=\"Chadra-Fan_Species_Traits\">Chadra-Fan Species Traits</span></h3><p>Chadra-Fans share the following Species Traits: </p><h2><span class=\"mw-headline\" id=\"Alternate_Chadra-Fan_Species_Traits\">Alternate Chadra-Fan Species Traits</span></h2><p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Legacy_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Legacy Era Campaign Guide\">Star Wars Saga Edition Legacy Era Campaign Guide</a></i> </p><p>The following Species Traits can be utilized instead when making certain Chadra-Fan NPCs: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Quality Repairs",
+        "type": "trait"
+      },
+      {
+        "name": "Small",
+        "type": "trait"
+      },
+      {
+        "name": "Darkvision",
+        "type": "trait"
+      },
+      {
+        "name": "Heightened Awareness",
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "15",
+          "low": "12",
+          "text": "12-15",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "40",
+          "low": "16",
+          "text": "16-40",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "59",
+          "low": "41",
+          "text": "41-59",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "79",
+          "low": "60",
+          "text": "60-79",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "11",
+          "low": "1",
+          "text": "1-11",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "80",
+          "text": "80+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Quality Repairs"
+      },
+      {
+        "value": "Small"
+      },
+      {
+        "value": "Darkvision"
+      },
+      {
+        "value": "Heightened Awareness"
+      },
+      {
+        "value": "Chadra-Fans"
+      },
+      {
+        "value": "Species"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Chadra-Fan",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535565749,
+    "modifiedTime": 1736535565749,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "s3FKiYuwWkTyGQQm",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!s3FKiYuwWkTyGQQm"
+}

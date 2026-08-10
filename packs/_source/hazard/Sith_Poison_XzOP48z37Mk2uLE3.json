@@ -1,0 +1,73 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "4d6",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards, Poisons",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A creature takes damage from a weapon coated with, or a substance tainted with, Sith Poison.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Every time the target spends a Force Point, until the Sith Poison is neutralized.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Use the Force (DC 25): Every time an attack made by the Sith Poison fails, a character can make a Use the Force check to neutralize the Sith Poison.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: If the Sith Poisons' attacks fail 5 consecutive times, it is neutralized automatically.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Contact",
+          "Ingested",
+          "Poison"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Jedi_Academy_Training_Manual\" title=\"Star Wars Saga Edition Jedi Academy Training Manual\">Star Wars Saga Edition Jedi Academy Training Manual</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a>, <a href=\"https://swse.fandom.com/wiki/Poisons\" title=\"Poisons\">Poisons</a></i> </p><p>A favorite of <a href=\"https://swse.fandom.com/wiki/The_Krath\" title=\"The Krath\">The Krath</a> and of <a href=\"https://swse.fandom.com/wiki/The_Mecrosa_Order\" title=\"The Mecrosa Order\">The Mecrosa Order</a>, Sith Poison is the most insidious of inventions. Once the toxin is introduced into a Force-user's bloodstream, whether through injection or ingestion, exposed individuals become quicker to anger, and more likely to call on <a href=\"https://swse.fandom.com/wiki/The_Dark_Side\" title=\"The Dark Side\">The Dark Side</a>, slowly perverting servants of the Light into agents of the Dark. </p><h2><span id=\"Sith_Poison_Statistics_.28CL_10.29\"></span><span class=\"mw-headline\" id=\"Sith_Poison_Statistics_(CL_10)\">Sith Poison Statistics (CL 10)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Contact, Ingested, Poison </p><p><b>Trigger:</b> A creature takes damage from a weapon coated with, or a substance tainted with, Sith Poison. </p><p><b>Attack:</b> +12 vs <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> (First Time); +12 vs <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a> (During Recurrence) </p><p><b>Recurrence:</b> Every time the target spends a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a>, until the Sith Poison is neutralized. </p><p><b>Suggested&nbsp;<a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b>&nbsp;The following are suggested&nbsp;<a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>&nbsp;for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> (DC 25):</b> Every time an attack made by the Sith Poison fails, a character can make a <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check to neutralize the Sith Poison.</li>\n</ul><p><b>Special:</b> If the Sith Poisons' attacks fail 5 consecutive times, it is neutralized automatically. </p>",
+    "source": "Star Wars Saga Edition Jedi Academy Training Manual",
+    "cost": "0"
+  },
+  "name": "Sith Poison",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244887,
+    "modifiedTime": 1749263244887,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "XzOP48z37Mk2uLE3",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!XzOP48z37Mk2uLE3"
+}

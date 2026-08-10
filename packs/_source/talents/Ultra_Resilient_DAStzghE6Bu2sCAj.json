@@ -1,0 +1,65 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You have advanced subroutines that make you more resistant to the effect of damage. Once per encounter, as a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a>, you can increase your <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a> with a bonus equal to your <a href=\"https://swse.fandom.com/wiki/Independent_Droid\" title=\"Independent Droid\">Independent Droid</a> level.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:in: Talent Trees, Independent Droid Talent Trees Elite Droid Talent Tree Edit Edit source History Talk (0) Reference Book: Star Wars Saga Edition Scavenger's Guide to Droids You have become a highly advanced Droid and are among the elite units of your class. Contents 1 Break Program 2 Heuristic Mastery 3 Scripted Routines 4 Ultra Resilient Break Program[ ] Prerequisite: Trained in Use Computer You can use your ability to circumvent Behavioral Inhibitors to temporarily break the programming of a Droid that you have a data link with. Make a Use Computer check opposed by the Droid's Will Defense. Breaking the Droid's programming overrides its Behavioral Inhibitors for a number of rounds equal to your Intelligence bonus. Heuristic Mastery[ ] Prerequisite: Wisdom 15 You understand the subtleties and limitations of your Heuristic Processor. You can reroll any Untrained Skill Check (except Use the Force), but the result of the reroll must be accepted, even if it is worse. Once per encounter, you can spend a Force Point to reroll any Skill Check (Trained or Untrained), keeping the better of the two results. Scripted Routines[ ] Prerequisite: Base Attack Bonus +5 Your extensive experience allows you to preset specific routines that give you an advantage in some situations. Once per encounter you can use each of the following Actions: Attack Script: You can use a Feat or a Talent that modifies your attack roll as one Action less (for example, a Full-Round Action becomes a Standard Action, a Standard Action becomes a Move Action, a Move Action becomes a Swift Action, a Swift Action becomes a Free Action). Defense Script: You can apply your Independent Spirit bonus a second time during a single encounter. Skill Script: While in combat, you can apply a bonus equal to one-half of your Class Level to any single Skill that requires a Standard Action or less to use. You must be Trained in the chosen Skill to activate this ability. Ultra Resilient[ ] You have advanced subroutines that make you more resistant to the effect of damage. Once per encounter, as a Reaction, you can increase your Damage Threshold with a bonus equal to your Independent Droid level. Categories Categories: Talent Trees Independent Droid Talent Trees Add category Cancel Save Community content is available under CC-BY-SA unless otherwise noted. More Fandoms Fantasy Sci-fi Star Wars",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": null,
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Independent Droid Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Independent Droid Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Elite Droid Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Elite_Droid_Talent_Tree",
+    "bonusTalentTree": "Elite Droid Talent Tree",
+    "source": "Star Wars Saga Edition Scavenger's Guide to Droids",
+    "cost": "0"
+  },
+  "name": "Ultra Resilient",
+  "flags": {},
+  "type": "talent",
+  "folder": "WQvxkq6OUhZiis9m",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385304483,
+    "modifiedTime": 1734385304483,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "DAStzghE6Bu2sCAj",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!DAStzghE6Bu2sCAj"
+}

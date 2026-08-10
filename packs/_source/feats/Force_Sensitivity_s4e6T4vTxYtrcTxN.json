@@ -1,0 +1,78 @@
+{
+  "img": "systems/swse/icon/feat/Force Sensitivity.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: Star Wars Saga Edition Core Rulebook</i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You are Force-sensitive, allowing you to call on <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a> and learn to draw on its powers.</p><p><b>Prerequisite:</b> Cannot be a <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a></p><p><b>Effect:</b> You can make <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> checks, and <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> is considered a Class Skill for you. In addition, whenever you gain a <a href=\"https://swse.fandom.com/wiki/Talent\" class=\"mw-redirect\" title=\"Talent\">Talent</a>, you have the option of selecting a <a href=\"https://swse.fandom.com/wiki/Force_Talent\" class=\"mw-redirect\" title=\"Force Talent\">Force Talent</a> instead. You must meet the prerequisites of the <a href=\"https://swse.fandom.com/wiki/Force_Talent\" class=\"mw-redirect\" title=\"Force Talent\">Force Talent</a> to select it.</p><p><b>Normal:</b> You can't make <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> checks or select <a href=\"https://swse.fandom.com/wiki/Force_Talents\" title=\"Force Talents\">Force Talents</a> unless you have the Force Sensitivity Feat.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "forceSensitivity"
+      },
+      {
+        "mode": 2,
+        "value": "Force Talent Trees",
+        "key": "bonusTalentTree"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Cannot be a Droid",
+      "requirement": "Not a Droid",
+      "type": "SPECIAL"
+    },
+    "categories": [
+      {
+        "value": "Force Prodigy Bonus Feats"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Jedi Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Force Prodigy Bonus Feats",
+      "General Feats",
+      "Jedi Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Core Rulebook",
+    "cost": "0"
+  },
+  "name": "Force Sensitivity",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479027073,
+    "modifiedTime": 1761479027073,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "s4e6T4vTxYtrcTxN",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!s4e6T4vTxYtrcTxN"
+}

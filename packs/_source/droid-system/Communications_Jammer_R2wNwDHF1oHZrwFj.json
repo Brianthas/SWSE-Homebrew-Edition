@@ -1,0 +1,41 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Droid Accessories (Communications Systems)",
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "droidPart"
+      }
+    ],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scavenger%27s_Guide_to_Droids\" title=\"Star Wars Saga Edition Scavenger's Guide to Droids\">Star Wars Saga Edition Scavenger's Guide to Droids</a></i></p><p>When behind enemy lines, a <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> takes every possible precaution to ensure that anyone who finds it is unable to call for help or alert others about the Droid's presence. The Communications Jammer allows a <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> to jam any <a href=\"https://swse.fandom.com/wiki/Comlink\" title=\"Comlink\">Comlink</a> signal by interfering with a facility's communications systems or by directly jamming signals in the Droid's general vicinity.</p><p>A Communications Jammer grants a <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> a +5 <a href=\"https://swse.fandom.com/wiki/Equipment\" title=\"Equipment\">Equipment</a> bonus when making a <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> check to slice into a computer system and shut it down. The <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> also gets the +5 <a href=\"https://swse.fandom.com/wiki/Equipment\" title=\"Equipment\">Equipment</a> bonus to maintain that status if any slicers attempt to stop the jamming. Once the <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> has successfully connected with the communications system and begun jamming, it can continue jamming the system until it disconnects or it is forced out.</p><p>The signal jammer emits signals at multiple frequencies to interfere with any <a href=\"https://swse.fandom.com/wiki/Comlink\" title=\"Comlink\">Comlink</a> signals within a 1-kilometer radius of the <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a>. The <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> must make a DC 25 <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> check to successfully jam any incoming or outgoing <a href=\"https://swse.fandom.com/wiki/Comlink\" title=\"Comlink\">Comlink</a> signals.</p>",
+    "source": "Star Wars Saga Edition Scavenger's Guide to Droids",
+    "cost": "5000",
+    "weight": "5 Kilograms",
+    "availability": "Military"
+  },
+  "name": "Communications Jammer",
+  "flags": {},
+  "type": "droid system",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764449016041,
+    "modifiedTime": 1764449016041,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "R2wNwDHF1oHZrwFj",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!R2wNwDHF1oHZrwFj"
+}

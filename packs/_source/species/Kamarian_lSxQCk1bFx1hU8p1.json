@@ -1,0 +1,158 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<table style=\"width:100%; margin-top:2em; border:2px solid #999; font-size:105%; text-align:center; background:#00008B;\"> \n <tbody>\n  <tr> \n   <td><i><b>This <a href=\"https://swse.fandom.com/wiki/Homebrew_Content\" title=\"Homebrew Content\">Homebrew Content</a> has been <a href=\"https://swse.fandom.com/wiki/Category:Tested\" title=\"Category:Tested\">Tested</a> per the <a href=\"https://swse.fandom.com/wiki/Category:Untested\" title=\"Category:Untested\">Untested</a> guidelines. Whether or not it can be used is, as always, the prerogative of the Gamemaster.</b></i> </td>\n  </tr>\n </tbody>\n</table><p><i>Homebrew Reference Book: <a href=\"https://swse.fandom.com/wiki/Corporate_Sector_Sourcebook\" title=\"Corporate Sector Sourcebook\">Corporate Sector Sourcebook</a></i></p><p>The Kamarians are an insect-like species native to <span class=\"new\" title=\"Kamar (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvS2FtYXI/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Kamar</span>. During <a href=\"https://swse.fandom.com/wiki/The_Dark_Times\" class=\"mw-redirect\" title=\"The Dark Times\">The Dark Times</a>, the most technologically advanced Kamarians have just developed nuclear weapons, and are well on their way to developing clean fusion and spaceflight. Despite this, they still live in a feudal society. They organize themselves into small tribes or city-states called tk'skquas which often battled each other for territory. </p><p>Kamarians are divided into several subraces, distinguished by size, carapace color, language, and culture. The most numerous and technologically advanced Kamarians are the mountain dwellers, whose tk'skquas live in mountain cave systems. Another group of special note are the \"Badlanders,\" a group native to the Kamar Badlands. Badlanders are slightly smaller than other Kamarians, and are also hardier, able to survive even longer without water and adapted to even higher temperatures. </p><h3><span class=\"mw-headline\" id=\"Kamarian_Characteristics\">Kamarian Characteristics</span></h3><p><b>Personality:</b> Kamarians are territorial people, known for conflict. They often live in small groups, though larger civilizations inhabit mountain cave structures across <span class=\"new\" title=\"Kamar (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvS2FtYXI/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Kamar</span>. </p><p><b>Physical Description:</b> Kamarians have round heads with large compound eyes, four arms, two legs, and prehensile tails. They had segmented bodies covered in an exoskeleton which sealed water within their bodies. This allows them to go for up to twenty-five days without water before feeling the effects of dehydration. Most adult Kamarians stand between 1.3 and 1.7 meters high. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Kamarians age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-13 Years </td> \n   <td>14-19 Years </td> \n   <td>20-69 Years </td> \n   <td>70-94 Years </td> \n   <td>95-122 Years </td> \n   <td>123+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> <span class=\"new\" title=\"Kamar (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvS2FtYXI/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Kamar</span> is an arid world in <a href=\"https://swse.fandom.com/wiki/Wild_Space\" title=\"Wild Space\">Wild Space</a>, close to <a href=\"https://swse.fandom.com/wiki/The_Corporate_Sector\" class=\"mw-redirect\" title=\"The Corporate Sector\">The Corporate Sector</a>. </p><p><b>Languages:</b> The isolation of Kamar means few Kamarians are able to learn more commonplace languages, Kamarian is a general term for the many different dialects and regional variants of the native language. </p><p><b>Example Names:</b> Lisstik, Maashan. </p><p><b>Adventurers:</b> Most Kamarians find success as <a href=\"https://swse.fandom.com/wiki/Scouts\" class=\"mw-redirect\" title=\"Scouts\">Scouts</a>, though Kamarian <a href=\"https://swse.fandom.com/wiki/Nobles\" class=\"mw-redirect\" title=\"Nobles\">Nobles</a> and <a href=\"https://swse.fandom.com/wiki/Scoundrels\" class=\"mw-redirect\" title=\"Scoundrels\">Scoundrels</a> are also commonplace. <a href=\"https://swse.fandom.com/wiki/Soldiers\" class=\"mw-redirect\" title=\"Soldiers\">Soldiers</a> and <a href=\"https://swse.fandom.com/wiki/Jedi\" title=\"Jedi\">Jedi</a> are comparatively less successful, given the Kamarians' natural traits. </p><h3><span class=\"mw-headline\" id=\"Kamarian_Species_Traits\">Kamarian Species Traits</span></h3><p>Kamarians share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Homebrew Content",
+        "type": "trait"
+      },
+      {
+        "name": "Desert Dweller",
+        "type": "trait"
+      },
+      {
+        "name": "Multiple Limbs",
+        "type": "trait"
+      },
+      {
+        "name": "Prehensile Tail",
+        "type": "trait"
+      },
+      {
+        "name": "Tested",
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "69",
+          "low": "20",
+          "text": "20-69",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "94",
+          "low": "70",
+          "text": "70-94",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "19",
+          "low": "14",
+          "text": "14-19",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "122",
+          "low": "95",
+          "text": "95-122",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "13",
+          "low": "1",
+          "text": "1-13",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "123",
+          "text": "123+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Kamarians"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Desert Dweller"
+      },
+      {
+        "value": "Multiple Limbs"
+      },
+      {
+        "value": "Prehensile Tail"
+      },
+      {
+        "value": "Tested"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Kamarian",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535566397,
+    "modifiedTime": 1736535566397,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "lSxQCk1bFx1hU8p1",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!lSxQCk1bFx1hU8p1"
+}

@@ -1,0 +1,106 @@
+{
+  "img": "systems/swse/icon/feat/Exotic Weapon Proficiency.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: Star Wars Saga Edition Core Rulebook</i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You are skilled at wielding an unusual weapon with ease, allowing you to utilize it in combat more effectively.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Base_Attack_Bonus\" class=\"mw-redirect\" title=\"Base Attack Bonus\">Base Attack Bonus</a> +1</p><p><b>Effect:</b> Select a single weapon from either the <a href=\"https://swse.fandom.com/wiki/Exotic_Weapons_(Melee)\" title=\"Exotic Weapons (Melee)\">Exotic Weapons (Melee)</a> or <a href=\"https://swse.fandom.com/wiki/Exotic_Weapons_(Ranged)\" title=\"Exotic Weapons (Ranged)\">Exotic Weapons (Ranged)</a> weapon groups; you make attack rolls with the selected weapon without penalty.</p><p><b>Normal:</b> A character who uses a weapon without being proficient with it takes a -5 penalty to attack rolls.</p><p><b>Special:</b> You can gain this Feat multiple times. Each time you take this Feat, it applies to a different <a href=\"https://swse.fandom.com/wiki/Exotic_Weapon\" class=\"mw-redirect\" title=\"Exotic Weapon\">Exotic Weapon</a>.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      },
+      {
+        "mode": 2,
+        "value": "#payload#",
+        "key": "weaponProficiency"
+      }
+    ],
+    "choices": [
+      {
+        "noOptions": "NO_AVAILABLE_OPTIONS",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {
+              "payload": "AVAILABLE_EXOTIC_WEAPON_PROFICIENCY"
+            },
+            "display": "AVAILABLE_EXOTIC_WEAPON_PROFICIENCY",
+            "name": "AVAILABLE_EXOTIC_WEAPON_PROFICIENCY",
+            "attributes": {}
+          }
+        ],
+        "description": "Select a Weapon Proficiency",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": true
+      }
+    ],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Base Attack Bonus 1",
+      "requirement": "1",
+      "type": "BASE ATTACK BONUS"
+    },
+    "categories": [
+      {
+        "value": "Soldier Bonus Feats"
+      },
+      {
+        "value": "Technician Bonus Feats"
+      },
+      {
+        "value": "Force Prodigy Bonus Feats"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Noble Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Bonus Feats",
+      "Technician Bonus Feats",
+      "Force Prodigy Bonus Feats",
+      "General Feats",
+      "Noble Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Core Rulebook",
+    "cost": "0"
+  },
+  "name": "Exotic Weapon Proficiency",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479026798,
+    "modifiedTime": 1761479026798,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "D78w0hrpSYpoPaqb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!D78w0hrpSYpoPaqb"
+}

@@ -1,0 +1,1061 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<table style=\"width:100%; margin-top:1em; border:1px solid #999; font-size:90%; text-align:center; background:#363636\"> \n <tbody>\n  <tr> \n   <td><i>This article details the Replica Droid <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> found in <a href=\"https://swse.fandom.com/wiki/Threats_of_the_Galaxy\" class=\"mw-redirect\" title=\"Threats of the Galaxy\">Threats of the Galaxy</a>. You may be looking for the <a href=\"https://swse.fandom.com/wiki/Threats_of_the_Galaxy\" class=\"mw-redirect\" title=\"Threats of the Galaxy\">Threats of the Galaxy</a> character of the same name, the <a href=\"https://swse.fandom.com/wiki/Replica_Droid_(Droid)\" title=\"Replica Droid (Droid)\">Replica Droid</a>.</i> </td>\n  </tr>\n </tbody>\n</table><p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Threats_of_the_Galaxy\" title=\"Star Wars Saga Edition Threats of the Galaxy\">Star Wars Saga Edition Threats of the Galaxy</a></i> </p><p> Human Replica Droids, or&nbsp;HRDs, are sophisticated&nbsp;synthskin&nbsp;and&nbsp;biofiber-covered&nbsp;<a href=\"https://swse.fandom.com/wiki/Droids\" title=\"Droids\">Droids</a>&nbsp;designed to be nearly indistinguishable from&nbsp;<a href=\"https://swse.fandom.com/wiki/Humans\" class=\"mw-redirect\" title=\"Humans\">Humans</a>. Their design was similar enough to <a href=\"https://swse.fandom.com/wiki/Human\" title=\"Human\">Human</a> anatomy that even high-quality medical scanners were not always able to identify them as inorganic, although they were able to discern some differences from the typical <a href=\"https://swse.fandom.com/wiki/Human\" title=\"Human\">Human</a>. They were sometimes referred to as \"Meatdroids\" or \"Droid Clones.\" Unlike true&nbsp;clones, a droid clone could be created in under three months.</p><p>These Replica Droids were originally designed by the Alliance to Restore the Republic to infiltrate and replace Imperial personnel, but their funding ultimately ran out, causing them to abandon the project. Ironically enough, The Empire completed and perfected the Replica Droid's design, through they were never put into any major use. </p><h3><span class=\"mw-headline\" id=\"Replica_Droid_Characteristics\">Replica Droid Characteristics</span></h3><p><b>Personality:</b> Replica Droids are loyal firstly to their creators, though those that become self-aware often attempt to escape that life, setting out on their own in a quest of self-discovery. Self-aware Replica Droids prize freedom and individualism above their own lives, as their creation has given them unique insight into the value of life. </p><p><b>Physical Description:</b> Replica Droids are identical in appearance towards the <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> they are replicating (typically <a href=\"https://swse.fandom.com/wiki/Human\" title=\"Human\">Human</a>, though there are rare exceptions). While it is possible to alter its appearance in any way they wish, a Replica Droid rarely does so as it removes their ability to blend in. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> As inorganic beings, Replica Droids are not affected by the process of <a href=\"https://swse.fandom.com/wiki/Aging\" class=\"mw-redirect\" title=\"Aging\">Aging</a>. </p><p><b>Homeworld:</b> None, though most Replica Droids consider the planet of their creation their homeworld. </p><p><b>Languages:</b> All Replica Droids can understand and speak <a href=\"https://swse.fandom.com/wiki/Binary\" title=\"Binary\">Binary</a> (one of the few <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> that can), and additionally learn the native tongue of their replicated <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> (typically Basic). </p><p><b>Example Names:</b> Varies, typically dependent on the <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> being replicated. </p><p><b>Adventurers:</b> Replica Droids bound to their creators will perform their masters' bidding; and those that escape typically live a live of peace, or go on an adventure of self-discovery. Most Replica Droids fit into the roles of <a href=\"https://swse.fandom.com/wiki/Scouts\" class=\"mw-redirect\" title=\"Scouts\">Scouts</a>, although as <a href=\"https://swse.fandom.com/wiki/Droids\" title=\"Droids\">Droids</a> they are incapable of becoming <a href=\"https://swse.fandom.com/wiki/Jedi\" title=\"Jedi\">Jedi</a>. </p><h3><span class=\"mw-headline\" id=\"Replica_Droid_Species_Traits\">Replica Droid Species Traits</span></h3><p>Replica Droids share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "isDroid"
+      }
+    ],
+    "choices": [
+      {
+        "noOptions": "NO_AVAILABLE_OPTIONS",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {
+              "payload": "AVAILABLE_REPLICA_SPECIES"
+            },
+            "display": "AVAILABLE_REPLICA_SPECIES",
+            "name": "AVAILABLE_REPLICA_SPECIES",
+            "attributes": {}
+          }
+        ],
+        "description": "Select the Species that this Droid will replicate",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": true
+      },
+      {
+        "noOptions": "NO_AVAILABLE_OPTIONS",
+        "availableSelections": 2,
+        "payload": "#payload#",
+        "options": [
+          {
+            "providedItems": [
+              {
+                "equip": "equipped",
+                "name": "Internal Comlink",
+                "type": "item"
+              }
+            ],
+            "payloads": {},
+            "display": "Internal Comlink",
+            "name": "Internal Comlink",
+            "attributes": {},
+            "value": "Internal Comlink"
+          },
+          {
+            "providedItems": [
+              {
+                "equip": "equipped",
+                "name": "Darkvision",
+                "type": "item"
+              }
+            ],
+            "payloads": {},
+            "display": "Darkvision",
+            "name": "Darkvision",
+            "attributes": {},
+            "value": "Darkvision"
+          },
+          {
+            "providedItems": [
+              {
+                "equip": "equipped",
+                "name": "Diagnostics Package",
+                "type": "item"
+              }
+            ],
+            "payloads": {},
+            "display": "Diagnostics Package",
+            "name": "Diagnostics Package",
+            "attributes": {},
+            "value": "Diagnostics Package"
+          },
+          {
+            "providedItems": [
+              {
+                "equip": "equipped",
+                "name": "Improved Sensor Package",
+                "type": "item"
+              }
+            ],
+            "payloads": {},
+            "display": "Improved Sensor Package",
+            "name": "Improved Sensor Package",
+            "attributes": {},
+            "value": "Improved Sensor Package"
+          },
+          {
+            "providedItems": [
+              {
+                "equip": "equipped",
+                "name": "Compartment Space",
+                "type": "item"
+              }
+            ],
+            "payloads": {},
+            "display": "Compartment Space",
+            "name": "Compartment Space",
+            "attributes": {},
+            "value": "Compartment Space"
+          },
+          {
+            "providedItems": [
+              {
+                "equip": "equipped",
+                "name": "Translator Unit (DC 15)",
+                "type": "item"
+              }
+            ],
+            "payloads": {},
+            "display": "Translator Unit (DC 15)",
+            "name": "Translator Unit (DC 15)",
+            "attributes": {},
+            "value": "Translator Unit (DC 15)"
+          }
+        ],
+        "description": "Select two optional components",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": false
+      }
+    ],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Bonus Equipment",
+        "type": "trait"
+      },
+      {
+        "name": "Droid Traits",
+        "type": "trait"
+      },
+      {
+        "name": "Variable Size",
+        "type": "trait"
+      },
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Deception))",
+        "type": "trait"
+      },
+      {
+        "name": "Skill Focus (Deception)",
+        "type": "feat"
+      },
+      {
+        "name": "Strength (+2)",
+        "type": "trait"
+      },
+      {
+        "name": "Dexterity (+2)",
+        "type": "trait"
+      },
+      {
+        "name": "Charisma (-2)",
+        "type": "trait"
+      },
+      {
+        "name": "Dexterity (+2)",
+        "prerequisite": {
+          "text": "Small",
+          "requirement": "Small",
+          "type": "TRAIT"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Strength (-8)",
+        "prerequisite": {
+          "text": "Fine",
+          "requirement": "Fine",
+          "type": "TRAIT"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Strength (+16)",
+        "prerequisite": {
+          "text": "Huge",
+          "requirement": "Huge",
+          "type": "TRAIT"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Strength (+32)",
+        "prerequisite": {
+          "text": "Colossal",
+          "requirement": "Colossal",
+          "type": "TRAIT"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Strength (-4)",
+        "prerequisite": {
+          "text": "Tiny",
+          "requirement": "Tiny",
+          "type": "TRAIT"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Dexterity (+4)",
+        "prerequisite": {
+          "text": "Tiny",
+          "requirement": "Tiny",
+          "type": "TRAIT"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Strength (+8)",
+        "prerequisite": {
+          "text": "Large",
+          "requirement": "Large",
+          "type": "TRAIT"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Dexterity (-2)",
+        "prerequisite": {
+          "text": "Large",
+          "requirement": "Large",
+          "type": "TRAIT"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Strength (+24)",
+        "prerequisite": {
+          "text": "Gargantuan",
+          "requirement": "Gargantuan",
+          "type": "TRAIT"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Strength (-6)",
+        "prerequisite": {
+          "text": "Diminutive",
+          "requirement": "Diminutive",
+          "type": "TRAIT"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Dexterity (+8)",
+        "prerequisite": {
+          "text": "Fine",
+          "requirement": "Fine",
+          "type": "TRAIT"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Strength (-2)",
+        "prerequisite": {
+          "text": "Small",
+          "requirement": "Small",
+          "type": "TRAIT"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Dexterity (+6)",
+        "prerequisite": {
+          "text": "Diminutive",
+          "requirement": "Diminutive",
+          "type": "TRAIT"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Dexterity (-4)",
+        "prerequisite": {
+          "children": [
+            {
+              "text": "Huge",
+              "requirement": "Huge",
+              "type": "TRAIT"
+            },
+            {
+              "text": "Gargantuan",
+              "requirement": "Gargantuan",
+              "type": "TRAIT"
+            },
+            {
+              "text": "Colossal",
+              "requirement": "Colossal",
+              "type": "TRAIT"
+            }
+          ],
+          "count": 1,
+          "text": "Huge, Gargantuan, or Colossal",
+          "type": "OR"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Tracked Speed (8)",
+        "prerequisite": {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": "Tracked",
+                  "requirement": "Tracked",
+                  "type": "EQUIPPED"
+                },
+                {
+                  "text": "Large",
+                  "requirement": "Large",
+                  "type": "TRAIT"
+                }
+              ],
+              "text": "Tracked, and Large",
+              "type": "AND"
+            },
+            {
+              "children": [
+                {
+                  "text": "Tracked",
+                  "requirement": "Tracked",
+                  "type": "EQUIPPED"
+                },
+                {
+                  "text": "Huge",
+                  "requirement": "Huge",
+                  "type": "TRAIT"
+                }
+              ],
+              "text": "Tracked, and Huge",
+              "type": "AND"
+            },
+            {
+              "children": [
+                {
+                  "text": "Tracked",
+                  "requirement": "Tracked",
+                  "type": "EQUIPPED"
+                },
+                {
+                  "text": "Colossal",
+                  "requirement": "Colossal",
+                  "type": "TRAIT"
+                }
+              ],
+              "text": "Tracked, and Colossal",
+              "type": "AND"
+            },
+            {
+              "children": [
+                {
+                  "text": "Tracked",
+                  "requirement": "Tracked",
+                  "type": "EQUIPPED"
+                },
+                {
+                  "text": "Gargantuan",
+                  "requirement": "Gargantuan",
+                  "type": "TRAIT"
+                }
+              ],
+              "text": "Tracked, and Gargantuan",
+              "type": "AND"
+            }
+          ],
+          "count": 1,
+          "text": "(Tracked, and Large), (Tracked, and Huge), (Tracked, and Colossal), or (Tracked, and Gargantuan)",
+          "type": "OR"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Wheeled Speed (6)",
+        "prerequisite": {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": "Wheeled",
+                  "requirement": "Wheeled",
+                  "type": "EQUIPPED"
+                },
+                {
+                  "text": "Small",
+                  "requirement": "Small",
+                  "type": "TRAIT"
+                }
+              ],
+              "text": "Wheeled, and Small",
+              "type": "AND"
+            },
+            {
+              "children": [
+                {
+                  "text": "Wheeled",
+                  "requirement": "Wheeled",
+                  "type": "EQUIPPED"
+                },
+                {
+                  "text": "Fine",
+                  "requirement": "Fine",
+                  "type": "TRAIT"
+                }
+              ],
+              "text": "Wheeled, and Fine",
+              "type": "AND"
+            },
+            {
+              "children": [
+                {
+                  "text": "Wheeled",
+                  "requirement": "Wheeled",
+                  "type": "EQUIPPED"
+                },
+                {
+                  "text": "Tiny",
+                  "requirement": "Tiny",
+                  "type": "TRAIT"
+                }
+              ],
+              "text": "Wheeled, and Tiny",
+              "type": "AND"
+            },
+            {
+              "children": [
+                {
+                  "text": "Wheeled",
+                  "requirement": "Wheeled",
+                  "type": "EQUIPPED"
+                },
+                {
+                  "text": "Diminutive",
+                  "requirement": "Diminutive",
+                  "type": "TRAIT"
+                }
+              ],
+              "text": "Wheeled, and Diminutive",
+              "type": "AND"
+            }
+          ],
+          "count": 1,
+          "text": "(Wheeled, and Small), (Wheeled, and Fine), (Wheeled, and Tiny), or (Wheeled, and Diminutive)",
+          "type": "OR"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Stationary Speed (0)",
+        "prerequisite": {
+          "text": "Stationary",
+          "requirement": "Stationary",
+          "type": "EQUIPPED"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Fly Speed (12)",
+        "prerequisite": {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": "Flying",
+                  "requirement": "Flying",
+                  "type": "EQUIPPED"
+                },
+                {
+                  "text": "Medium",
+                  "requirement": "Medium",
+                  "type": "TRAIT"
+                }
+              ],
+              "text": "Flying, and Medium",
+              "type": "AND"
+            },
+            {
+              "children": [
+                {
+                  "text": "Flying",
+                  "requirement": "Flying",
+                  "type": "EQUIPPED"
+                },
+                {
+                  "text": "Huge",
+                  "requirement": "Huge",
+                  "type": "TRAIT"
+                }
+              ],
+              "text": "Flying, and Huge",
+              "type": "AND"
+            },
+            {
+              "children": [
+                {
+                  "text": "Flying",
+                  "requirement": "Flying",
+                  "type": "EQUIPPED"
+                },
+                {
+                  "text": "Large",
+                  "requirement": "Large",
+                  "type": "TRAIT"
+                }
+              ],
+              "text": "Flying, and Large",
+              "type": "AND"
+            },
+            {
+              "children": [
+                {
+                  "text": "Flying",
+                  "requirement": "Flying",
+                  "type": "EQUIPPED"
+                },
+                {
+                  "text": "Colossal",
+                  "requirement": "Colossal",
+                  "type": "TRAIT"
+                }
+              ],
+              "text": "Flying, and Colossal",
+              "type": "AND"
+            },
+            {
+              "children": [
+                {
+                  "text": "Flying",
+                  "requirement": "Flying",
+                  "type": "EQUIPPED"
+                },
+                {
+                  "text": "Gargantuan",
+                  "requirement": "Gargantuan",
+                  "type": "TRAIT"
+                }
+              ],
+              "text": "Flying, and Gargantuan",
+              "type": "AND"
+            }
+          ],
+          "count": 1,
+          "text": "(Flying, and Medium), (Flying, and Huge), (Flying, and Large), (Flying, and Colossal), or (Flying, and Gargantuan)",
+          "type": "OR"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Wheeled Speed (8)",
+        "prerequisite": {
+          "children": [
+            {
+              "text": "Wheeled",
+              "requirement": "Wheeled",
+              "type": "EQUIPPED"
+            },
+            {
+              "text": "Medium",
+              "requirement": "Medium",
+              "type": "TRAIT"
+            }
+          ],
+          "text": "Wheeled, and Medium",
+          "type": "AND"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Hover Speed (6)",
+        "prerequisite": {
+          "text": "Hovering",
+          "requirement": "Hovering",
+          "type": "EQUIPPED"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Fly Speed (9)",
+        "prerequisite": {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": "Flying",
+                  "requirement": "Flying",
+                  "type": "EQUIPPED"
+                },
+                {
+                  "text": "Tiny",
+                  "requirement": "Tiny",
+                  "type": "TRAIT"
+                }
+              ],
+              "text": "Flying, and Tiny",
+              "type": "AND"
+            },
+            {
+              "children": [
+                {
+                  "text": "Flying",
+                  "requirement": "Flying",
+                  "type": "EQUIPPED"
+                },
+                {
+                  "text": "Fine",
+                  "requirement": "Fine",
+                  "type": "TRAIT"
+                }
+              ],
+              "text": "Flying, and Fine",
+              "type": "AND"
+            },
+            {
+              "children": [
+                {
+                  "text": "Flying",
+                  "requirement": "Flying",
+                  "type": "EQUIPPED"
+                },
+                {
+                  "text": "Diminutive",
+                  "requirement": "Diminutive",
+                  "type": "TRAIT"
+                }
+              ],
+              "text": "Flying, and Diminutive",
+              "type": "AND"
+            },
+            {
+              "children": [
+                {
+                  "text": "Flying",
+                  "requirement": "Flying",
+                  "type": "EQUIPPED"
+                },
+                {
+                  "text": "Small",
+                  "requirement": "Small",
+                  "type": "TRAIT"
+                }
+              ],
+              "text": "Flying, and Small",
+              "type": "AND"
+            }
+          ],
+          "count": 1,
+          "text": "(Flying, and Tiny), (Flying, and Fine), (Flying, and Diminutive), or (Flying, and Small)",
+          "type": "OR"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Tracked Speed (6)",
+        "prerequisite": {
+          "children": [
+            {
+              "text": "Tracked",
+              "requirement": "Tracked",
+              "type": "EQUIPPED"
+            },
+            {
+              "text": "Medium",
+              "requirement": "Medium",
+              "type": "TRAIT"
+            }
+          ],
+          "text": "Tracked, and Medium",
+          "type": "AND"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Walking Speed (6)",
+        "prerequisite": {
+          "children": [
+            {
+              "text": "Walking",
+              "requirement": "Walking",
+              "type": "EQUIPPED"
+            },
+            {
+              "text": "Medium",
+              "requirement": "Medium",
+              "type": "TRAIT"
+            }
+          ],
+          "text": "Walking, and Medium",
+          "type": "AND"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Tracked Speed (4)",
+        "prerequisite": {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": "Tracked",
+                  "requirement": "Tracked",
+                  "type": "EQUIPPED"
+                },
+                {
+                  "text": "Fine",
+                  "requirement": "Fine",
+                  "type": "TRAIT"
+                }
+              ],
+              "text": "Tracked, and Fine",
+              "type": "AND"
+            },
+            {
+              "children": [
+                {
+                  "text": "Tracked",
+                  "requirement": "Tracked",
+                  "type": "EQUIPPED"
+                },
+                {
+                  "text": "Tiny",
+                  "requirement": "Tiny",
+                  "type": "TRAIT"
+                }
+              ],
+              "text": "Tracked, and Tiny",
+              "type": "AND"
+            },
+            {
+              "children": [
+                {
+                  "text": "Tracked",
+                  "requirement": "Tracked",
+                  "type": "EQUIPPED"
+                },
+                {
+                  "text": "Small",
+                  "requirement": "Small",
+                  "type": "TRAIT"
+                }
+              ],
+              "text": "Tracked, and Small",
+              "type": "AND"
+            },
+            {
+              "children": [
+                {
+                  "text": "Tracked",
+                  "requirement": "Tracked",
+                  "type": "EQUIPPED"
+                },
+                {
+                  "text": "Diminutive",
+                  "requirement": "Diminutive",
+                  "type": "TRAIT"
+                }
+              ],
+              "text": "Tracked, and Diminutive",
+              "type": "AND"
+            }
+          ],
+          "count": 1,
+          "text": "(Tracked, and Fine), (Tracked, and Tiny), (Tracked, and Small), or (Tracked, and Diminutive)",
+          "type": "OR"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Wheeled Speed (10)",
+        "prerequisite": {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": "Wheeled",
+                  "requirement": "Wheeled",
+                  "type": "EQUIPPED"
+                },
+                {
+                  "text": "Colossal",
+                  "requirement": "Colossal",
+                  "type": "TRAIT"
+                }
+              ],
+              "text": "Wheeled, and Colossal",
+              "type": "AND"
+            },
+            {
+              "children": [
+                {
+                  "text": "Wheeled",
+                  "requirement": "Wheeled",
+                  "type": "EQUIPPED"
+                },
+                {
+                  "text": "Gargantuan",
+                  "requirement": "Gargantuan",
+                  "type": "TRAIT"
+                }
+              ],
+              "text": "Wheeled, and Gargantuan",
+              "type": "AND"
+            },
+            {
+              "children": [
+                {
+                  "text": "Wheeled",
+                  "requirement": "Wheeled",
+                  "type": "EQUIPPED"
+                },
+                {
+                  "text": "Large",
+                  "requirement": "Large",
+                  "type": "TRAIT"
+                }
+              ],
+              "text": "Wheeled, and Large",
+              "type": "AND"
+            },
+            {
+              "children": [
+                {
+                  "text": "Wheeled",
+                  "requirement": "Wheeled",
+                  "type": "EQUIPPED"
+                },
+                {
+                  "text": "Huge",
+                  "requirement": "Huge",
+                  "type": "TRAIT"
+                }
+              ],
+              "text": "Wheeled, and Huge",
+              "type": "AND"
+            }
+          ],
+          "count": 1,
+          "text": "(Wheeled, and Colossal), (Wheeled, and Gargantuan), (Wheeled, and Large), or (Wheeled, and Huge)",
+          "type": "OR"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Walking Speed (4)",
+        "prerequisite": {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": "Walking",
+                  "requirement": "Walking",
+                  "type": "EQUIPPED"
+                },
+                {
+                  "text": "Diminutive",
+                  "requirement": "Diminutive",
+                  "type": "TRAIT"
+                }
+              ],
+              "text": "Walking, and Diminutive",
+              "type": "AND"
+            },
+            {
+              "children": [
+                {
+                  "text": "Walking",
+                  "requirement": "Walking",
+                  "type": "EQUIPPED"
+                },
+                {
+                  "text": "Small",
+                  "requirement": "Small",
+                  "type": "TRAIT"
+                }
+              ],
+              "text": "Walking, and Small",
+              "type": "AND"
+            },
+            {
+              "children": [
+                {
+                  "text": "Walking",
+                  "requirement": "Walking",
+                  "type": "EQUIPPED"
+                },
+                {
+                  "text": "Fine",
+                  "requirement": "Fine",
+                  "type": "TRAIT"
+                }
+              ],
+              "text": "Walking, and Fine",
+              "type": "AND"
+            },
+            {
+              "children": [
+                {
+                  "text": "Walking",
+                  "requirement": "Walking",
+                  "type": "EQUIPPED"
+                },
+                {
+                  "text": "Tiny",
+                  "requirement": "Tiny",
+                  "type": "TRAIT"
+                }
+              ],
+              "text": "Walking, and Tiny",
+              "type": "AND"
+            }
+          ],
+          "count": 1,
+          "text": "(Walking, and Diminutive), (Walking, and Small), (Walking, and Fine), or (Walking, and Tiny)",
+          "type": "OR"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Walking Speed (8)",
+        "prerequisite": {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": "Walking",
+                  "requirement": "Walking",
+                  "type": "EQUIPPED"
+                },
+                {
+                  "text": "Colossal",
+                  "requirement": "Colossal",
+                  "type": "TRAIT"
+                }
+              ],
+              "text": "Walking, and Colossal",
+              "type": "AND"
+            },
+            {
+              "children": [
+                {
+                  "text": "Walking",
+                  "requirement": "Walking",
+                  "type": "EQUIPPED"
+                },
+                {
+                  "text": "Large",
+                  "requirement": "Large",
+                  "type": "TRAIT"
+                }
+              ],
+              "text": "Walking, and Large",
+              "type": "AND"
+            },
+            {
+              "children": [
+                {
+                  "text": "Walking",
+                  "requirement": "Walking",
+                  "type": "EQUIPPED"
+                },
+                {
+                  "text": "Huge",
+                  "requirement": "Huge",
+                  "type": "TRAIT"
+                }
+              ],
+              "text": "Walking, and Huge",
+              "type": "AND"
+            },
+            {
+              "children": [
+                {
+                  "text": "Walking",
+                  "requirement": "Walking",
+                  "type": "EQUIPPED"
+                },
+                {
+                  "text": "Gargantuan",
+                  "requirement": "Gargantuan",
+                  "type": "TRAIT"
+                }
+              ],
+              "text": "Walking, and Gargantuan",
+              "type": "AND"
+            }
+          ],
+          "count": 1,
+          "text": "(Walking, and Colossal), (Walking, and Large), (Walking, and Huge), or (Walking, and Gargantuan)",
+          "type": "OR"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Bonus Equipment"
+      },
+      {
+        "value": "Droid Traits"
+      },
+      {
+        "value": "Small"
+      },
+      {
+        "value": "Variable Size"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Replica Droids"
+      },
+      {
+        "value": "Conditional Bonus Feat (Skill Focus (Deception))"
+      },
+      {
+        "value": "Conditional Bonus Feat"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Replica Droid",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535567082,
+    "modifiedTime": 1736535567082,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "rTJRiUOQ0SOtzs0q",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!rTJRiUOQ0SOtzs0q"
+}

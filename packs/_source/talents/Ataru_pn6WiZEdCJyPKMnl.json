@@ -1,0 +1,69 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You may add your <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> bonus (instead of your <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> bonus) on damage rolls when wielding a <a href=\"https://swse.fandom.com/wiki/Lightsabers\" title=\"Lightsabers\">Lightsaber</a>. When you wield a <a href=\"https://swse.fandom.com/wiki/Lightsabers\" title=\"Lightsabers\">Lightsaber</a> two-handed, you may apply double your <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> bonus (instead of double your <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> bonus) to the damage.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "lightsaberAtaru"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": null,
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Jedi Knight Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Jedi Knight Talent Trees",
+      "Force Adept Talent Trees",
+      "Jedi Master Talent Trees",
+      "Sith Apprentice Talent Trees",
+      "Sith Lord Talent Trees",
+      "Imperial Legionnaire Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Lightsaber Forms Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Lightsaber_Forms_Talent_Tree",
+    "bonusTalentTree": "",
+    "cost": "0"
+  },
+  "name": "Ataru",
+  "flags": {},
+  "type": "talent",
+  "folder": "x4jWUHVJP5WpFRjm",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385308144,
+    "modifiedTime": 1786070306300,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "pn6WiZEdCJyPKMnl",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!pn6WiZEdCJyPKMnl"
+}

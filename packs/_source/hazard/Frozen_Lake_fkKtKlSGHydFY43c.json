@@ -1,0 +1,71 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2d12",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A being begins its turn on the Frozen Lake; targeting every being and object in a 4x4-square area.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round at the start of the target's turn, until the being escapes the Frozen Lake.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Jump (DC 27): The character attempts to leap across the weakened area of the ice, gaining a +2 circumstance bonus to Reflex Defense to avoid the Hazard. Perception (DC 22): The character locates a weakness in the frozen surface and surmise that too much weight could cause it to break.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: A being that falls through the ice and is subsequently rescued cannot regain Hit Points until it spends at least 1 hour resting in a normal environment.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>The opposite shore of the Frozen Lake appears quite distant, but the hard surface looks safe enough.</i> </p><p>On a frigid world such as <a href=\"https://swse.fandom.com/wiki/Csilla\" title=\"Csilla\">Csilla</a> or <a href=\"https://swse.fandom.com/wiki/Hoth\" title=\"Hoth\">Hoth</a>, the chances of a character breaking through a thick layer of ice while walking across the frozen surface of a lake seem slim. This Hazard, however, represents a series of underwater geysers that have been heated by the planet's core and shoot boiling water up toward the surface. As a result, the ice covering the lake has become thin and weakened in areas. Since the superheated water rises in random locations, any part of the lake's surface might be affected. At any time, a creature moving across the surface might step onto a thin patch of ice and fall through. </p><h2><span id=\"Frozen_Lake_Statistics_.28CL_6.29\"></span><span class=\"mw-headline\" id=\"Frozen_Lake_Statistics_(CL_6)\">Frozen Lake Statistics (CL 6)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Natural </p><p><b>Trigger:</b> A being begins its turn on the Frozen Lake; targeting every being and object in a 4x4-square area. </p><p><b>Attack:</b> +8 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> Each round at the start of the target's turn, until the being escapes the Frozen Lake. </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Jump\" title=\"Jump\">Jump</a> (DC 27):</b> The character attempts to leap across the weakened area of the ice, gaining a +2 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> to avoid the Hazard.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> (DC 22):</b> The character locates a weakness in the frozen surface and surmise that too much weight could cause it to break.</li>\n</ul><p><b>Special:</b> A being that falls through the ice and is subsequently rescued cannot regain Hit Points until it spends at least 1 hour resting in a normal environment. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Frozen Lake",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244487,
+    "modifiedTime": 1749263244487,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "fkKtKlSGHydFY43c",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!fkKtKlSGHydFY43c"
+}

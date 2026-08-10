@@ -1,0 +1,84 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:</i>&nbsp;<i><a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i> </p><p><b>Manufactured By:</b> N/A </p><p><b>Applicable To:</b> Any Weapon </p><p>These Quick Draw Weapons are specially designed to be pulled quickly, whether by modification to the Weapon or to its holster. </p><p><b>Weapons:</b> A Quick Draw Weapon wielder that possesses the <a href=\"https://swse.fandom.com/wiki/Quick_Draw\" title=\"Quick Draw\">Quick Draw</a> feat can draw or holster the weapon once per round as a <a href=\"https://swse.fandom.com/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a>. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "@cost*0.1",
+        "key": "cost"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "itemMod"
+      },
+      {
+        "mode": 2,
+        "value": "A Quick Draw Weapon wielder that possesses the Quick Draw feat can draw or holster the weapon once per round as a Free Action.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": "Quick Draw",
+        "key": "prefix"
+      },
+      {
+        "mode": 2,
+        "value": "",
+        "key": "suffix"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "hasItemOwner": false,
+    "subtype": "Weapon Templates",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Any Weapon",
+          "requirement": "weapon",
+          "type": "TYPE"
+        },
+        {
+          "text": "Any Weapon",
+          "requirement": "weapon",
+          "type": "TYPE"
+        }
+      ],
+      "text": "Any Weapon, and Any Weapon",
+      "type": "AND"
+    },
+    "cost": "@cost*0.1"
+  },
+  "name": "Quick Draw Weapon Template",
+  "flags": {},
+  "type": "template",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.2",
+    "createdTime": 1729096741362,
+    "modifiedTime": 1729096741362,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "NbztbhLogB2ZMO2f",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!NbztbhLogB2ZMO2f"
+}

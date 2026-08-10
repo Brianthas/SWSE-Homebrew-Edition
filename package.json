@@ -7,7 +7,9 @@
     "build": "gulp",
     "compile": "gulp css",
     "watch": "gulp",
-    "gulp": "gulp"
+    "gulp": "gulp",
+    "packs:unpack": "node scripts/pack-tools.mjs unpack",
+    "packs:pack": "node scripts/pack-tools.mjs pack"
   },
   "browserslist": [
     "last 3 versions"
@@ -23,10 +25,11 @@
     "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^2.6.5",
     "leader-line-new": "^1.1.9",
-    "node-sass": "^8.0.0"
+    "sass": "^1.77.0"
   },
   "devDependencies": {
     "@ethaks/fvtt-quench": "^0.10.0",
+    "@foundryvtt/foundryvtt-cli": "^3.0.4",
     "@league-of-foundry-developers/foundry-vtt-types": "^13.341.1",
     "uuid": "^8.3.2"
   }

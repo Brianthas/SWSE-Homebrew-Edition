@@ -1,0 +1,107 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode"
+        }
+      },
+      "statuses": [],
+      "disabled": false,
+      "name": "Single-Shot",
+      "_id": "E44K5wF2oEX3unkx",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513523,
+        "modifiedTime": 1786051513523,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!o4whv8VdgLOdDTwZ.E44K5wF2oEX3unkx"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<table style=\"width:100%; margin-top:2em; border:2px solid #999; font-size:105%; text-align:center; background:#00008B;\"> \n <tbody>\n  <tr> \n   <td><i><b>This <a href=\"https://swse.fandom.com/wiki/Homebrew_Content\" title=\"Homebrew Content\">Homebrew Content</a> has been <a href=\"https://swse.fandom.com/wiki/Category:Tested\" title=\"Category:Tested\">Tested</a> per the <a href=\"https://swse.fandom.com/wiki/Category:Untested\" title=\"Category:Untested\">Untested</a> guidelines. Whether or not it can be used is, as always, the prerogative of the Gamemaster.</b></i> </td>\n  </tr>\n </tbody>\n</table><p><i>Black-Powder Rifle weapon data created by Wikia user Chellewalker (formally Wikia user Lukewarner).</i> </p><p>An antique on most worlds, the Black-Powder Rifle is rarely regulated. Lacking the capacity and range of most modern alternatives, the Black-Powder Rifle's greatest benefit is the ease in which ammunition can be scrounged together by knowledgeable explorers. However, Black-Powder Rifles are notoriously finicky and require frequent maintenance, else the weapon is prone to fizzling out on its wielder. </p><p>A Black-Powder Rifle must be reloaded after each shot and requires a <a href=\"https://swse.fandom.com/wiki/Full-Round_Action\" class=\"mw-redirect\" title=\"Full-Round Action\">Full-Round Action</a> to reload, preventing the use of any <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a> or <a href=\"https://swse.fandom.com/wiki/Talents\" title=\"Talents\">Talents</a> that allow multiple shots. Ammunition can be purchased in sets of 50 shots and costs 5 credits per set. </p><p>A character <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> can attempt to forage for supplies to make his or her own ammunition, requiring a DC 20 <a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> check to search the area for the necessary materials. One hour and a DC 15 <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> check can produce enough ammunition for 5 shots, and an extra 5 shots are produced for every 5 points by which the check result exceeds the DC. </p><p><b>Inaccurate:</b> This weapon cannot fire at targets at Long <a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a>. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "250",
+    "weight": "4 Kilograms",
+    "availability": "Rare",
+    "size": "Medium",
+    "type": "",
+    "subtype": "Rifles",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "2d6",
+    "damageType": "Piercing"
+  },
+  "name": "Black-Powder Rifle",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Black_Powder_Rifle.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513523,
+    "modifiedTime": 1786051513586,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "o4whv8VdgLOdDTwZ",
+  "_key": "!items!o4whv8VdgLOdDTwZ"
+}

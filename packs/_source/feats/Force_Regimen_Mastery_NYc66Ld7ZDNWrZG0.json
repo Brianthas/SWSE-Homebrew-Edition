@@ -1,0 +1,82 @@
+{
+  "img": "systems/swse/icon/feat/Force_Regimen_Mastery.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Jedi_Academy_Training_Manual\" title=\"Star Wars Saga Edition Jedi Academy Training Manual\">Star Wars Saga Edition Jedi Academy Training Manual</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You learn one or more <a href=\"https://swse.fandom.com/wiki/Force_Regimens\" title=\"Force Regimens\">Force Regimens</a>, which you can use to enhance your regular training.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Force_Sensitivity\" title=\"Force Sensitivity\">Force Sensitivity</a>, <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a></p><p><b>Effect:</b> You learn a number of <a href=\"https://swse.fandom.com/wiki/Force_Regimens\" title=\"Force Regimens\">Force Regimens</a> equal to 1 + your <a href=\"https://swse.fandom.com/wiki/Wisdom\" title=\"Wisdom\">Wisdom</a> modifier (minimum 1).</p><p><b>Special:</b> You can take this Feat more than once. Each time you take this Feat, you learn a number of additional <a href=\"https://swse.fandom.com/wiki/Force_Regimens\" title=\"Force Regimens\">Force Regimens</a> equal to 1 + your <a href=\"https://swse.fandom.com/wiki/Wisdom\" title=\"Wisdom\">Wisdom</a> modifier (minimum 1). If your <a href=\"https://swse.fandom.com/wiki/Wisdom\" title=\"Wisdom\">Wisdom</a> modifier permanently increases, you immediately gain a number of <a href=\"https://swse.fandom.com/wiki/Force_Regimens\" title=\"Force Regimens\">Force Regimens</a> equal to the number of Force Regimen Mastery Feats you have taken.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      },
+      {
+        "mode": 2,
+        "value": "Force Regimen:MAX(1 + @WISMOD,1)",
+        "key": "provides"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Force Sensitivity feat",
+          "requirement": "Force Sensitivity",
+          "type": "FEAT"
+        },
+        {
+          "text": "Trained in Use the Force",
+          "requirement": "Use the Force",
+          "type": "TRAINED SKILL"
+        }
+      ],
+      "text": "Force Sensitivity feat, and Trained in Use the Force",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Force Prodigy Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Force Prodigy Bonus Feats",
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Jedi Academy Training Manual",
+    "cost": "0"
+  },
+  "name": "Force Regimen Mastery",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479027058,
+    "modifiedTime": 1761479027058,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "NYc66Ld7ZDNWrZG0",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!NYc66Ld7ZDNWrZG0"
+}

@@ -1,0 +1,75 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You quickly move about the battlefield, taking advantage of the chaos of battle. You can use each of the following Actions once per encounter as a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a>:",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Cheap Trick talent",
+          "requirement": "Cheap Trick",
+          "type": "TALENT"
+        },
+        {
+          "text": "Easy Prey talent",
+          "requirement": "Easy Prey",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Cheap Trick talent, and Easy Prey talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Scoundrel Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Scoundrel Talent Trees",
+      "Smuggler Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Brigand Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Brigand_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Galaxy at War",
+    "cost": "0"
+  },
+  "name": "Sly Combatant",
+  "flags": {},
+  "type": "talent",
+  "folder": "IYfUCyPIDAd2KeHK",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385303205,
+    "modifiedTime": 1786036141316,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "5mpY0gYmxi5Aaf18",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!5mpY0gYmxi5Aaf18"
+}

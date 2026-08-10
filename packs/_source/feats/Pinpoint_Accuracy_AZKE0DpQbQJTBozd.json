@@ -1,0 +1,77 @@
+{
+  "img": "systems/swse/icon/feat/Pinpoint_Accuracy.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scavenger%27s_Guide_to_Droids\" title=\"Star Wars Saga Edition Scavenger's Guide to Droids\">Star Wars Saga Edition Scavenger's Guide to Droids</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>This improved version of the Aiming Accuracy Feat moves your enemy -1 step on the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a>, <a href=\"https://swse.fandom.com/wiki/Aiming_Accuracy\" title=\"Aiming Accuracy\">Aiming Accuracy</a>, <a href=\"https://swse.fandom.com/wiki/Point-Blank_Shot\" title=\"Point-Blank Shot\">Point-Blank Shot</a>, <a href=\"https://swse.fandom.com/wiki/Precise_Shot\" title=\"Precise Shot\">Precise Shot</a></p><p><b>Effect:</b> When using the <a href=\"https://swse.fandom.com/wiki/Aiming_Accuracy\" title=\"Aiming Accuracy\">Aiming Accuracy</a> Feat, a target you damage cannot take the <a href=\"https://swse.fandom.com/wiki/Recover\" title=\"Recover\">Recover</a> Action until the end of its next turn.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Droid",
+          "requirement": "Is a droid",
+          "type": "SPECIAL"
+        },
+        {
+          "text": "Aiming Accuracy feat",
+          "requirement": "Aiming Accuracy",
+          "type": "FEAT"
+        },
+        {
+          "text": "Point-Blank Shot feat",
+          "requirement": "Point-Blank Shot",
+          "type": "FEAT"
+        },
+        {
+          "text": "Precise Shot feat",
+          "requirement": "Precise Shot",
+          "type": "FEAT"
+        }
+      ],
+      "text": "Droid, Aiming Accuracy feat, Point-Blank Shot feat, and Precise Shot feat",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Scavenger's Guide to Droids",
+    "cost": "0"
+  },
+  "name": "Pinpoint Accuracy",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479028319,
+    "modifiedTime": 1761479028319,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "AZKE0DpQbQJTBozd",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!AZKE0DpQbQJTBozd"
+}

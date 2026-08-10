@@ -1,5 +1,5 @@
-import {DROID_COST_FACTOR, SIZE_CARRY_CAPACITY_MODIFIER, sizeArray} from "../common/constants.mjs";
-import {getInheritableAttribute, getResolvedSize} from "../attribute-helper.mjs";
+import {DROID_COST_FACTOR, SIZE_CARRY_CAPACITY_MODIFIER} from "../common/constants.mjs";
+import {getInheritableAttribute} from "../attribute-helper.mjs";
 import {resolveWeight} from "../common/util.mjs";
 
 export class WeightDelegate {
@@ -9,7 +9,11 @@ export class WeightDelegate {
 
     get carriedWeight() {
         return this.actor.getCached("carriedWeight", () => {
-            const resolvedSize = sizeArray[getResolvedSize(this.actor)];
+            // this.actor.size (the Size dropdown) is the single source of truth for a
+            // character's declared size — not getResolvedSize's item/changes-driven
+            // resolution, which reads a leftover size-named Trait item from before the
+            // size-table rework and would silently ignore the player's own dropdown choice.
+            const resolvedSize = this.actor.size.name;
             let costFactor = DROID_COST_FACTOR[resolvedSize]
             let sum = 0;
             for (let item of this.actor.items.values()) {
@@ -39,7 +43,7 @@ export class WeightDelegate {
             }
         }
 
-        return number * SIZE_CARRY_CAPACITY_MODIFIER[sizeArray[getResolvedSize(this.actor)]]
+        return number * SIZE_CARRY_CAPACITY_MODIFIER[this.actor.size.name]
     }
     get heavyLoad() {
         return this.#applyStandardCarryCapacityModifiers(Math.pow(this.actor.system.abilities.str.value * 0.5, 2))

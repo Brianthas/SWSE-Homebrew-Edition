@@ -1,0 +1,56 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Starship Accessories",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Colossal (Frigate) or Larger",
+          "requirement": "Colossal (Frigate)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal (Frigate) or Larger",
+          "requirement": "Colossal (Cruiser)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal (Frigate) or Larger",
+          "requirement": "Colossal (Station)",
+          "type": "TRAIT"
+        }
+      ],
+      "count": 1,
+      "text": "Colossal (Frigate) or Larger",
+      "type": "OR"
+    },
+    "changes": [],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><table class=\"wikitable\">\n <tbody>\n  <tr>\n   <th>CARGO POD</th>\n   <th>EMPLACEMENT POINTS</th>\n   <th>AVAILABILITY</th>\n   <th>SIZE RESTRICTION</th>\n   <th>COST</th>\n  </tr>\n  <tr>\n   <td>Light</td>\n   <td>0</td>\n   <td>Common</td>\n   <td>Gargantuan or Larger</td>\n   <td>500 (Base)</td>\n  </tr>\n  <tr>\n   <td>Medium</td>\n   <td>1</td>\n   <td>Common</td>\n   <td>Colossal or Larger</td>\n   <td>1000 (Base)</td>\n  </tr>\n  <tr>\n   <td>Heavy</td>\n   <td>2</td>\n   <td>Common</td>\n   <td>Colossal (Frigate) or Larger</td>\n   <td>1500 (Base)</td>\n  </tr>\n </tbody>\n</table><p>Cargo Pods are additional storage space added to a ship to boost its total carrying capacity. Though they allow independent traders to carry more goods, they also reduce a ship's ability to maneuver quickly, making them unpopular with pirates and military craft. Each Cargo Pod added to a Starship reduces its <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> score by 2. You can add multiple Cargo Pods to a Starship, but cannot add a Cargo Pod if it would drop the Starship's <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> below 1.</p><p>The additional carrying capacity is based on the size of the Starship. A Small Cargo Pod adds (<a href=\"https://swse.fandom.com/wiki/Cost_Modifier_(SotG)\" class=\"mw-redirect\" title=\"Cost Modifier (SotG)\">Cost Modifier</a>) x 1 tons of cargo. A Medium Cargo Pod adds (<a href=\"https://swse.fandom.com/wiki/Cost_Modifier_(SotG)\" class=\"mw-redirect\" title=\"Cost Modifier (SotG)\">Cost Modifier</a>) x 5 tons of cargo. A Large Cargo Pod adds (<a href=\"https://swse.fandom.com/wiki/Cost_Modifier_(SotG)\" class=\"mw-redirect\" title=\"Cost Modifier (SotG)\">Cost Modifier</a>) x 10 tons of cargo.</p><p>A Cargo Pod can be made detachable (to act as an <a href=\"https://swse.fandom.com/wiki/Escape_Pod\" title=\"Escape Pod\">Escape Pod</a>) for five times the cost.</p><h2><span class=\"mw-headline\" id=\"Additional_Emplacement_Points_from_Cargo_Pods\">Additional Emplacement Points from Cargo Pods</span></h2><p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Web_Enhancements\" title=\"Star Wars Saga Edition Web Enhancements\">Star Wars Saga Edition Web Enhancements</a> (<a href=\"https://swse.fandom.com/wiki/Jedi_Counseling\" title=\"Jedi Counseling\">Jedi Counseling</a>)</i></p><p><b>Q:</b> Can you gain <a href=\"https://swse.fandom.com/wiki/Emplacement_Points\" class=\"mw-redirect\" title=\"Emplacement Points\">Emplacement Points</a> by converting the cargo space provided by a <strong class=\"mw-selflink selflink\">Cargo Pod</strong>?</p><p><b>A:</b> No. A Starship can only convert its own internal cargo space into <a href=\"https://swse.fandom.com/wiki/Emplacement_Points\" class=\"mw-redirect\" title=\"Emplacement Points\">Emplacement Points</a>.</p>",
+    "cost": "1500 (Base)",
+    "emplacementPoints": "2",
+    "availability": "Common"
+  },
+  "name": "Cargo Pod, Heavy",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317600,
+    "modifiedTime": 1759848317600,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "NBW4nOyJHItVhPiv",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!NBW4nOyJHItVhPiv"
+}

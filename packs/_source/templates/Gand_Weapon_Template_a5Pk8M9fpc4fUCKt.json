@@ -1,0 +1,105 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:</i>&nbsp;<i><a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i> </p><p><b>Manufactured By:</b> The <a href=\"https://swse.fandom.com/wiki/Gand\" title=\"Gand\">Gand</a> (<a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>) </p><p><b>Applicable To:</b> Any Weapon with a <a href=\"https://swse.fandom.com/wiki/Stun\" class=\"mw-redirect\" title=\"Stun\">Stun</a> Setting </p><p>The <a href=\"https://swse.fandom.com/wiki/Gand\" title=\"Gand\">Gand</a> Species, peculiar and often incomprehensible, specializes in crafting Weapons that immobilizes opponents. </p><p><b>Weapons:</b> If a Gand Manufacture Weapon moves a target down the Condition Track with it's <a href=\"https://swse.fandom.com/wiki/Stun\" class=\"mw-redirect\" title=\"Stun\">Stun</a> damage, that target has its speed halved until it returns to its normal state (all conditions removed); a target that is -4 steps down the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a> (at the -10 step) is <a href=\"https://swse.fandom.com/wiki/Immobilized\" title=\"Immobilized\">Immobilized</a> instead. Gand Manufacture Weapons are difficult to operate, and all Gand Manufacture Weapons are considered <a href=\"https://swse.fandom.com/wiki/Exotic_Weapons\" title=\"Exotic Weapons\">Exotic Weapons</a> for purposes of proficiency (except to a member of the <a href=\"https://swse.fandom.com/wiki/Gand\" title=\"Gand\">Gand</a> Species). </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "??",
+        "key": "cost"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "itemMod"
+      },
+      {
+        "mode": 2,
+        "value": "If a Gand Manufacture Weapon moves a target down the Condition Track with it's Stun damage, that target has it's speed halved until it returns to its normal state (all conditions removed); a target that is -4 steps down the Condition Track (at the -10 step) is Immobilized instead.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": "-2",
+        "key": "bonusDamage"
+      },
+      {
+        "mode": 2,
+        "value": "Gand",
+        "key": "exoticWeapon"
+      },
+      {
+        "mode": 2,
+        "value": "Gand",
+        "key": "prefix"
+      },
+      {
+        "mode": 2,
+        "value": "",
+        "key": "suffix"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "hasItemOwner": false,
+    "subtype": "Weapon Templates",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Any Weapon",
+          "requirement": "weapon",
+          "type": "TYPE"
+        },
+        {
+          "children": [
+            {
+              "text": "Any Weapon with a Stun Setting",
+              "requirement": "weapon",
+              "type": "TYPE"
+            },
+            {
+              "text": "Any Weapon with a Stun Setting",
+              "requirement": "Stun",
+              "type": "MODE"
+            }
+          ],
+          "text": "Any Weapon with a Stun Setting",
+          "type": "AND"
+        }
+      ],
+      "text": "Any Weapon, and (Any Weapon with a Stun Setting)",
+      "type": "AND"
+    },
+    "cost": "??"
+  },
+  "name": "Gand Weapon Template",
+  "flags": {},
+  "type": "template",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.2",
+    "createdTime": 1729096741355,
+    "modifiedTime": 1729096741355,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "a5Pk8M9fpc4fUCKt",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!a5Pk8M9fpc4fUCKt"
+}

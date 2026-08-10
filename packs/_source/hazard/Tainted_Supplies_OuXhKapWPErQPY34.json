@@ -1,0 +1,68 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2d8",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A creature consumes food or water scavenged from the surface of Durace without first purifying it.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Hourly, until the Tainted Supplies are treated.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Survival (DC 16): The character recognizes that the supplies are tainted. Treat Injury (DC 21): The character treats the effects of the Tainted Supplies.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Ingested",
+          "Natural",
+          "Poison"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>Chemicals from the surface and atmosphere of Durace pollute any food or water scavenged from the planet's surface.</i> </p><p>Getting stranded on <a href=\"https://swse.fandom.com/wiki/Durace\" title=\"Durace\">Durace</a> is not a hopeful experience. There is little in the way of supplies available to be scavenged from the surface of the planet, and that which is available is often toxic. Any time a character consumes food or water scavenged from the surface of <a href=\"https://swse.fandom.com/wiki/Durace\" title=\"Durace\">Durace</a> without properly filtering and sterilizing those supplies, use the following Hazard to represent the supplies' toxic effects. </p><h2><span id=\"Tainted_Supplies_Statistics_.28CL_4.29\"></span><span class=\"mw-headline\" id=\"Tainted_Supplies_Statistics_(CL_4)\">Tainted Supplies Statistics (CL 4)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Ingested, Natural, Poison </p><p><b>Trigger:</b> A creature consumes food or water scavenged from the surface of <a href=\"https://swse.fandom.com/wiki/Durace\" title=\"Durace\">Durace</a> without first purifying it. </p><p><b>Attack:</b> +6 vs <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> </p><p><b>Recurrence:</b> Hourly, until the Tainted Supplies are treated. </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Survival\" title=\"Survival\">Survival</a> (DC 16):</b> The character recognizes that the supplies are tainted.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a> (DC 21):</b> The character treats the effects of the Tainted Supplies.</li>\n</ul>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Tainted Supplies",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244840,
+    "modifiedTime": 1749263244840,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "OuXhKapWPErQPY34",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!OuXhKapWPErQPY34"
+}

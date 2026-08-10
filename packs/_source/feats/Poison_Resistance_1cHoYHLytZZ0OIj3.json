@@ -1,0 +1,69 @@
+{
+  "img": "systems/swse/icon/feat/Poison Resistance.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<table style=\"width:100%; margin-top:1em; border:1px solid #999; font-size:90%; text-align:center; background:#363636\">\n <tbody>\n  <tr>\n   <td><i>This article details the Poison Resistance Feat found in the <a href=\"https://swse.fandom.com/wiki/Knights_of_the_Old_Republic_Campaign_Guide\" class=\"mw-redirect\" title=\"Knights of the Old Republic Campaign Guide\">Knights of the Old Republic Campaign Guide</a>. You may be looking for the <a href=\"https://swse.fandom.com/wiki/Homebrew_Content\" title=\"Homebrew Content\">Homebrew Content</a> Feat of the same name, <a href=\"https://swse.fandom.com/wiki/Poison_Resistance_(NRCG)\" title=\"Poison Resistance (NRCG)\">Poison Resistance</a>.</i></td>\n  </tr>\n </tbody>\n</table><p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You are naturally more resistant to the effects of <a href=\"https://swse.fandom.com/wiki/Poison\" class=\"mw-redirect\" title=\"Poison\">Poison</a>.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Constitution\" title=\"Constitution\">Constitution</a> 13</p><p><b>Effect:</b> You gain a +5 bonus to your <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> when attacked by <a href=\"https://swse.fandom.com/wiki/Poison\" class=\"mw-redirect\" title=\"Poison\">Poison</a>. If the attack succeeds, you take only half damage.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Constitution 13",
+      "requirement": "Constitution 13",
+      "type": "ATTRIBUTE"
+    },
+    "categories": [
+      {
+        "value": "Force Prodigy Bonus Feats"
+      },
+      {
+        "value": "Scoundrel Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Scout Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Force Prodigy Bonus Feats",
+      "Scoundrel Bonus Feats",
+      "General Feats",
+      "Scout Bonus Feats",
+      "Smuggler Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Poison Resistance",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1761479028356,
+    "modifiedTime": 1786036141513,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "1cHoYHLytZZ0OIj3",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!1cHoYHLytZZ0OIj3"
+}

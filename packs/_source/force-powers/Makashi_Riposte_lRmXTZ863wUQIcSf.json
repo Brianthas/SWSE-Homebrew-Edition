@@ -1,0 +1,87 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Jedi_Academy_Training_Manual\" title=\"Star Wars Saga Edition Jedi Academy Training Manual\">Star Wars Saga Edition Jedi Academy Training Manual</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a></i> </p><p><b>[<i><a href=\"https://swse.fandom.com/wiki/Lightsaber_Form\" class=\"mw-redirect\" title=\"Lightsaber Form\">Lightsaber Form</a></i>]</b> </p><p>You are trained in a <b><a href=\"https://swse.fandom.com/wiki/Makashi\" class=\"mw-redirect\" title=\"Makashi\">Makashi</a></b> technique that allows you to slightly change the angle of an opponent's attack before striking with a decisive riposte of your own. </p><p><b>Time:</b> <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a> (when an adjacent opponent makes a melee attack against you) </p><p><b>Targets:</b> Self, plus one enemy within reach </p><p><b>Make a <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check.</b> Compare the results of your <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check against the attack roll of the incoming attack. If your <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check equals or exceeds the incoming attack roll, the attack deals half damage on a hit. Additionally, you can make a single melee attack with a <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> against your target after the damage is resolved. You deal half damage to the target on a miss. </p><p><b>Lightsaber Form (<a href=\"https://swse.fandom.com/wiki/Makashi\" class=\"mw-redirect\" title=\"Makashi\">Makashi</a>)</b>: If you have the <a href=\"https://swse.fandom.com/wiki/Makashi\" class=\"mw-redirect\" title=\"Makashi\"><b>Makashi</b></a> Talent, until the end of your next turn, the target provokes an <a href=\"https://swse.fandom.com/wiki/Attack_of_Opportunity\" class=\"mw-redirect\" title=\"Attack of Opportunity\">Attack of Opportunity</a> from you if it makes an attack and is within your reach. </p><p><b>Special:</b> You can spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> to take no damage from the incoming attack if your check equals or exceeds the attack roll of the incoming attack. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Lightsaber Form",
+        "key": "tag"
+      },
+      {
+        "mode": 2,
+        "value": "Reaction (when an adjacent opponent makes a melee attack against you)",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "Self, plus one enemy within reach",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "cumulative"
+      },
+      {
+        "mode": 2,
+        "value": "Use the Force",
+        "key": "rollType"
+      },
+      {
+        "mode": 2,
+        "value": "Reference Book: Star Wars Saga Edition Jedi Academy Training Manual See also: Force Powers [Lightsaber Form] You are trained in a Makashi technique that allows you to slightly change the angle of an opponent's attack before striking with a decisive riposte of your own. Time: Reaction (when an adjacent opponent makes a melee attack against you) Targets: Self, plus one enemy within reach Make a Use the Force check. Compare the results of your Use the Force check against the attack roll of the incoming attack. If your Use the Force check equals or exceeds the incoming attack roll, the attack deals half damage on a hit. Additionally, you can make a single melee attack with a Lightsaber against your target after the damage is resolved. You deal half damage to the target on a miss. Lightsaber Form (Makashi): If you have the Makashi Talent, until the end of your next turn, the target provokes an Attack of Opportunity from you if it makes an attack and is within your reach. Special: You can spend a Force Point to take no damage from the incoming attack if your check equals or exceeds the attack roll of the incoming attack.",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Lightsaber Form Force Powers"
+      },
+      {
+        "value": "Force Powers"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Makashi Riposte",
+  "flags": {},
+  "type": "forcePower",
+  "img": "systems/swse/icon/force-power/Makashi_Riposte.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738608590468,
+    "modifiedTime": 1738608590468,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "lRmXTZ863wUQIcSf",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!lRmXTZ863wUQIcSf"
+}

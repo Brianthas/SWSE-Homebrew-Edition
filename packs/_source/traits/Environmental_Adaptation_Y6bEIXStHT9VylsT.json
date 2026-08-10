@@ -1,0 +1,58 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p>Beings gain a +5 <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> bonus to their <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> against the effects of <a href=\"https://swse.fandom.com/wiki/Extreme_Temperatures\" class=\"mw-redirect\" title=\"Extreme Temperatures\">Extreme Temperatures</a> and <a href=\"https://swse.fandom.com/wiki/Radiation\" title=\"Radiation\">Radiation</a>.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "modifier": "Extreme Temperatures",
+        "value": 5,
+        "key": "fortitudeDefenseBonus"
+      },
+      {
+        "mode": 2,
+        "modifier": "Radiation",
+        "value": 5,
+        "key": "fortitudeDefenseBonus"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "prerequisite": null,
+    "cost": "0"
+  },
+  "name": "Environmental Adaptation",
+  "flags": {},
+  "type": "trait",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764446476879,
+    "modifiedTime": 1764446476879,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "Y6bEIXStHT9VylsT",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!Y6bEIXStHT9VylsT"
+}

@@ -1,0 +1,67 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2d10",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Poisons, Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A creature is exposed to Korfaise.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round at the start of the target's turn, as long as the target remains exposed to Korfaise.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Special: After spending at least 1 round outside of the Korfaise gas, the creature's Speed returns to normal.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Artificial",
+          "Atmosphere"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_at_War\" title=\"Star Wars Saga Edition Galaxy at War\">Star Wars Saga Edition Galaxy at War</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Poisons\" title=\"Poisons\">Poisons</a>, <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p>Korfaise&nbsp;is a substance used as a coolant for&nbsp;Starships. It appears as a white gas, which rapidly fill the environment, as it is lighter than air. </p><h2><span id=\"Korfaise_Statistics_.28CL_2.29\"></span><span class=\"mw-headline\" id=\"Korfaise_Statistics_(CL_2)\">Korfaise&nbsp;Statistics (CL 2)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Artificial, Atmosphere </p><p><b>Trigger:</b> A creature is exposed to Korfaise. </p><p><b>Attack:</b> +4 vs <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> </p><p><b>Recurrence:</b> Each round at the start of the target's turn, as long as the target remains exposed to Korfaise. </p><p><b>Special:</b> After spending at least 1 round outside of the Korfaise gas, the creature's Speed returns to normal. </p>",
+    "source": "Star Wars Saga Edition Galaxy at War",
+    "cost": "0"
+  },
+  "name": "Korfaise",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244566,
+    "modifiedTime": 1749263244566,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "0TjfQ0EIv2DCMOd9",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!0TjfQ0EIv2DCMOd9"
+}

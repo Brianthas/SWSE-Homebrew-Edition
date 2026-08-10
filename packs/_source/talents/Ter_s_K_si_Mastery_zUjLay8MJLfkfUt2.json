@@ -1,0 +1,88 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "If you make only <a href=\"https://swse.fandom.com/wiki/Unarmed\" class=\"mw-redirect\" title=\"Unarmed\">Unarmed</a> attacks during a <a href=\"https://swse.fandom.com/wiki/Full_Attack\" title=\"Full Attack\">Full Attack</a> Action, you can take the <a href=\"https://swse.fandom.com/wiki/Full_Attack\" title=\"Full Attack\">Full Attack</a> Action as a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a>, instead of a <a href=\"https://swse.fandom.com/wiki/Full-Round_Action\" class=\"mw-redirect\" title=\"Full-Round Action\">Full-Round Action</a>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Teräs Käsi Basics talent",
+          "requirement": "Teräs Käsi Basics",
+          "type": "TALENT"
+        },
+        {
+          "text": "Martial Arts I feat",
+          "requirement": "Martial Arts I",
+          "type": "FEAT"
+        },
+        {
+          "text": "Martial Arts II feat",
+          "requirement": "Martial Arts II",
+          "type": "FEAT"
+        },
+        {
+          "text": "Martial Arts III feat",
+          "requirement": "Martial Arts III",
+          "type": "FEAT"
+        }
+      ],
+      "text": "Teräs Käsi Basics talent, Martial Arts I feat, Martial Arts II feat, and Martial Arts III feat",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Elite Trooper Talent Trees"
+      },
+      {
+        "value": "Martial Arts Master Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Elite Trooper Talent Trees",
+      "Martial Arts Master Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Master of Teräs Käsi Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Master_of_Ter%C3%A4s_K%C3%A4si_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Threats of the Galaxy",
+    "cost": "0"
+  },
+  "name": "Teräs Käsi Mastery",
+  "flags": {},
+  "type": "talent",
+  "folder": "wToea0nRZDJXu7e0",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385308649,
+    "modifiedTime": 1734385308649,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "zUjLay8MJLfkfUt2",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!zUjLay8MJLfkfUt2"
+}

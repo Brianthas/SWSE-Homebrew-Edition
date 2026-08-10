@@ -1,0 +1,107 @@
+{
+  "img": "systems/swse/icon/feat/Triple Attack.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a>, <a href=\"https://swse.fandom.com/wiki/Multiple_Attacks\" title=\"Multiple Attacks\">Multiple Attacks</a></i></p><p>You can make an additional attack during a round of combat.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Base_Attack_Bonus\" class=\"mw-redirect\" title=\"Base Attack Bonus\">Base Attack Bonus</a> +11, <a href=\"https://swse.fandom.com/wiki/Double_Attack\" title=\"Double Attack\">Double Attack</a> (Chosen Weapon)</p><p><b>Effect:</b> Choose a single <a href=\"https://swse.fandom.com/wiki/Exotic_Weapon\" class=\"mw-redirect\" title=\"Exotic Weapon\">Exotic Weapon</a> or weapon group. When you use the <a href=\"https://swse.fandom.com/wiki/Full_Attack\" title=\"Full Attack\">Full Attack</a> Action, you may make one additional attack when wielding such a Weapon. However, you take a -5 penalty on all attack rolls until your next turn because you're trading precision for speed. The extra attack and penalty stack with those of <a href=\"https://swse.fandom.com/wiki/Double_Attack\" title=\"Double Attack\">Double Attack</a>.</p><p><b>Normal:</b> Making a single attack is a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a>.</p><p><b>Special:</b> You may select this Feat multiple times. Each time you select this Feat, it applies to a different <a href=\"https://swse.fandom.com/wiki/Exotic_Weapon\" class=\"mw-redirect\" title=\"Exotic Weapon\">Exotic Weapon</a> or weapon group.</p><h2><span class=\"mw-headline\" id=\"Additional_Triple_Attack_Effects\">Additional Triple Attack Effects</span></h2><p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><p><b>Special:</b> If you take this feat with <a href=\"https://swse.fandom.com/wiki/Heavy_Weapons\" title=\"Heavy Weapons\">Heavy Weapons</a>, it works normally with <a href=\"https://swse.fandom.com/wiki/Vehicle_Weapons\" class=\"mw-redirect\" title=\"Vehicle Weapons\">Vehicle Weapons</a>.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      },
+      {
+        "mode": 2,
+        "value": "#payload#",
+        "key": "tripleAttack"
+      }
+    ],
+    "choices": [
+      {
+        "noOptions": "You Must have Double Attack for a weapon group or an Exotic Weapon to select it for Triple Attack.",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {
+              "payload": "AVAILABLE_TRIPLE_ATTACK"
+            },
+            "display": "AVAILABLE_TRIPLE_ATTACK",
+            "name": "AVAILABLE_TRIPLE_ATTACK",
+            "attributes": {}
+          }
+        ],
+        "description": "Select a Weapon to use with Triple Attack.",
+        "oneOption": "You have a single weapon group or exotic weapon that qualifies for Triple Attack",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": true
+      }
+    ],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Base Attack Bonus 11",
+          "requirement": "11",
+          "type": "BASE ATTACK BONUS"
+        },
+        {
+          "text": "Double Attack (#payload#)",
+          "requirement": "Double Attack (#payload#)",
+          "type": "FEAT"
+        }
+      ],
+      "text": "Base Attack Bonus 11, and Double Attack (#payload#)",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Soldier Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Jedi Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Bonus Feats",
+      "General Feats",
+      "Jedi Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Starships of the Galaxy",
+    "cost": "0"
+  },
+  "name": "Triple Attack",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479029293,
+    "modifiedTime": 1761479029293,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "9OA5vV9rcvSwKrak",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!9OA5vV9rcvSwKrak"
+}

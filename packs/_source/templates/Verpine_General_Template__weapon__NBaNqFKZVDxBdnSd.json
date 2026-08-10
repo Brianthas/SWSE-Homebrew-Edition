@@ -1,0 +1,164 @@
+{
+  "effects": [
+    {
+      "name": "Ion",
+      "flags": {
+        "swse": {}
+      },
+      "disabled": true,
+      "_id": "0zI5X4vLIGVuX7Z0",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Ion",
+            "key": "damageType",
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.2",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!NBaNqFKZVDxBdnSd.0zI5X4vLIGVuX7Z0"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:</i>&nbsp;<i><a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i> </p><p><b>Manufactured By:</b> The <a href=\"https://swse.fandom.com/wiki/Verpine\" title=\"Verpine\">Verpine</a> (<a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>) </p><p><b>Applicable To:</b> Any Armor, Any Ranged Energy Weapon </p><p>The insectoid Verpine are technological masters who can create items with exceptional characteristics. </p><p><b>Weapons:</b> As a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>, a Verpine Weapon can be switched to an <a href=\"https://swse.fandom.com/wiki/Ion\" class=\"mw-redirect\" title=\"Ion\">Ion</a> fire mode, changing the Weapon to deal <a href=\"https://swse.fandom.com/wiki/Ion\" class=\"mw-redirect\" title=\"Ion\">Ion</a> damage instead of normal damage (at the same damage dice). However, Verpine Weapons are designed for the Verpine's unique physiology, and they require the wearer have a minimum <a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a> score of 13 to wield the weapon properly (otherwise, the wielder takes a -2 penalty to attack rolls with that Weapon). </p><p><b>Armors:</b> A suit of Verpine Armor provides <a href=\"https://swse.fandom.com/wiki/Damage_Reduction\" title=\"Damage Reduction\">Damage Reduction</a> 10 against <a href=\"https://swse.fandom.com/wiki/Ion\" class=\"mw-redirect\" title=\"Ion\">Ion</a> damage. However, Verpine Armor is designed for the Verpine's unique physiology, and they require the wearer have a minimum <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> score of 13 to wear the armor effectively (otherwise, the wearer suffers from <a href=\"https://swse.fandom.com/wiki/Armor_Check_Penalties\" class=\"mw-redirect\" title=\"Armor Check Penalties\">Armor Check Penalties</a>). </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "??",
+        "key": "cost"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "itemMod"
+      },
+      {
+        "mode": 2,
+        "parentPrerequisite": {
+          "text": "Not Intelligence 13",
+          "type": "NOT",
+          "child": {
+            "text": "Intelligence 13",
+            "requirement": "Intelligence 13",
+            "type": "ATTRIBUTE"
+          }
+        },
+        "value": "-2",
+        "key": "toHitModifier"
+      },
+      {
+        "mode": 2,
+        "value": "Verpine",
+        "key": "prefix"
+      },
+      {
+        "mode": 2,
+        "value": "",
+        "key": "suffix"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "hasItemOwner": false,
+    "subtype": "General Templates",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Any Weapon",
+          "requirement": "weapon",
+          "type": "TYPE"
+        },
+        {
+          "children": [
+            {
+              "text": "Any Armor, Any Ranged Energy Weapon",
+              "requirement": "armor",
+              "type": "TYPE"
+            },
+            {
+              "children": [
+                {
+                  "text": "Any Armor, Any Ranged Energy Weapon",
+                  "requirement": "weapon",
+                  "type": "TYPE"
+                },
+                {
+                  "text": "Any Armor, Any Ranged Energy Weapon",
+                  "requirement": "Ranged Weapons",
+                  "type": "WEAPON_GROUP"
+                }
+              ],
+              "text": "Any Armor, Any Ranged Energy Weapon, and Any Armor, Any Ranged Energy Weapon",
+              "type": "AND"
+            }
+          ],
+          "count": 1,
+          "text": "Any Armor, Any Ranged Energy Weapon",
+          "type": "OR"
+        }
+      ],
+      "text": "Any Weapon, and (Any Armor, Any Ranged Energy Weapon)",
+      "type": "AND"
+    },
+    "cost": "??"
+  },
+  "name": "Verpine General Template (weapon)",
+  "flags": {},
+  "type": "template",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "12.3.2",
+    "createdTime": 1729096741612,
+    "modifiedTime": 1729096741612,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "NBaNqFKZVDxBdnSd",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!NBaNqFKZVDxBdnSd"
+}

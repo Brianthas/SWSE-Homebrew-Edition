@@ -1,0 +1,40 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Cybernetic Devices",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Use the Force:-1:IMPLANT",
+        "key": "skillBonus"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i> </p><p>A unique <a href=\"https://swse.fandom.com/wiki/Cybernetic_Prosthesis\" title=\"Cybernetic Prosthesis\">Cybernetic Prosthesis</a>, the Energy-Binding Prosthesis uses an energy bind in place of a mechanical limb, with a standard cybernetic hand connected to a energy field tied to the wielder's missing limb. The arm has an effective <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> score of 8 at Small size, an effective <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> score of 10 at Medium size, and an effective <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> score of 12 at Large size. By manipulating the energy binding in combat, the wielder can disrupt an opponent's <a href=\"https://swse.fandom.com/wiki/Personal_Energy_Shield\" class=\"mw-redirect\" title=\"Personal Energy Shield\">Personal Energy Shield</a> as well as some other force fields. The Energy-Binding Prosthesis requires an <a href=\"https://swse.fandom.com/wiki/Energy_Cell\" title=\"Energy Cell\">Energy Cell</a> to operate, and the <a href=\"https://swse.fandom.com/wiki/Energy_Cell\" title=\"Energy Cell\">Energy Cell</a> must be replaced every 48 hours. </p><h4><span class=\"mw-headline\" id=\"Shield_Breaker\"><b>Shield Breaker</b></span></h4><p>To disrupt an energy field, the wielder must be adjacent to the target and make a successful <a href=\"https://swse.fandom.com/wiki/Unarmed\" class=\"mw-redirect\" title=\"Unarmed\">Unarmed</a> strike. If the attack hits, <a href=\"https://swse.fandom.com/wiki/Energy_Shields\" title=\"Energy Shields\">Energy Shields</a> with an <a href=\"https://swse.fandom.com/wiki/Shield_Rating\" title=\"Shield Rating\">Shield Rating</a> of 15 or lower are disabled and provide no protection for the rest of the encounter. If the <a href=\"https://swse.fandom.com/wiki/Energy_Shield\" class=\"mw-redirect\" title=\"Energy Shield\">Energy Shield</a> has a <a href=\"https://swse.fandom.com/wiki/Shield_Rating\" title=\"Shield Rating\">Shield Rating</a> greater than 15, the <a href=\"https://swse.fandom.com/wiki/Shield_Rating\" title=\"Shield Rating\">Shield Rating</a> drops by -5, failing once it falls to SR 15 or lower. An Energy-Binding Prosthesis is ineffective against targets more than one size category larger than it. </p>",
+    "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+    "cost": "0",
+    "cybernetic": true
+  },
+  "name": "Energy-Binding Prosthesis",
+  "flags": {},
+  "type": "implant",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263245004,
+    "modifiedTime": 1749263245004,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "IWG9eO2Gxrd8KRra",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!IWG9eO2Gxrd8KRra"
+}

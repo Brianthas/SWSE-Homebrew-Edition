@@ -1,0 +1,71 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "1d6",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A being moves into a square containing a Muddy Sinkhole.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "None",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Perception (DC 10): The character spots the Muddy Sinkhole.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: If the Hazard's attack against the target is successful, the target falls into the Muddy Sinkhole, which is 3 squares deep and leads to a pit with a thin layer of sludge at the bottom.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Dawn_of_Defiance\" title=\"Star Wars Saga Edition Dawn of Defiance\">Star Wars Saga Edition Dawn of Defiance</a> (<a href=\"https://swse.fandom.com/wiki/The_Traitor%27s_Gambit\" title=\"The Traitor's Gambit\">The Traitor's Gambit</a>)</i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>Throughout the jungle are a number of Muddy Sinkholes, created when the roots of a massive fungus rot away but leave detritus in the ground.</i> </p><h2><span id=\"Muddy_Sinkhole_Statistics_.28CL_1.29\"></span><span class=\"mw-headline\" id=\"Muddy_Sinkhole_Statistics_(CL_1)\">Muddy Sinkhole Statistics (CL 1)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Natural </p><p><b>Trigger:</b> A being moves into a square containing a Muddy Sinkhole. </p><p><b>Attack:</b> +3 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> None </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> (DC 10):</b> The character spots the Muddy Sinkhole.</li>\n</ul><p><b>Special:</b> If the Hazard's attack against the target is successful, the target falls into the Muddy Sinkhole, which is 3 squares deep and leads to a pit with a thin layer of sludge at the bottom. </p>",
+    "source": "Star Wars Saga Edition Dawn of Defiance (The Traitor's Gambit)",
+    "cost": "0"
+  },
+  "name": "Muddy Sinkhole",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244609,
+    "modifiedTime": 1749263244609,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "YHEkpJ10MFrBheYD",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!YHEkpJ10MFrBheYD"
+}

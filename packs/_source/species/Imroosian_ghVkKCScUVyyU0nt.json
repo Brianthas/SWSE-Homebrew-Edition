@@ -1,0 +1,165 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<table style=\"width:100%; margin-top:2em; border:2px solid #999; font-size:105%; text-align:center; background:#00008B;\"> \n <tbody>\n  <tr> \n   <td><i><b>This <a href=\"https://swse.fandom.com/wiki/Homebrew_Content\" title=\"Homebrew Content\">Homebrew Content</a> has been <a href=\"https://swse.fandom.com/wiki/Category:Tested\" title=\"Category:Tested\">Tested</a> per the <a href=\"https://swse.fandom.com/wiki/Category:Untested\" title=\"Category:Untested\">Untested</a> guidelines. Whether or not it can be used is, as always, the prerogative of the Gamemaster.</b></i> </td>\n  </tr>\n </tbody>\n</table><p><i>Imroosian Species data created by Wikia user Chellewalker (formally Wikia user Lukewarner).</i></p><p>The Imroosians are an impoverished Species from the volcanic world of <a href=\"https://swse.fandom.com/wiki/Imroosia\" title=\"Imroosia\">Imroosia</a>. The frequent eruptions and groundquakes make permanent settlements nearly impossible, and what few towns can thrive have to compete for what little fertile land is left. This has caused many Imroosians to leave their home for the greater galaxy, using their keen intellect and deceptively tough bodies to make livings as information brokers and underworld bodyguards. More legitimate Imroosians might instead find work in law enforcement, or even in one of the many galactic bureaucracies. </p><p>Due to their dangerously dynamic homeworld, Imroosians attach little value to material possessions. As such, the galaxy's interest and investment to arts is baffling to most Imroosians. </p><h3><span class=\"mw-headline\" id=\"Imroosian_Characteristics\">Imroosian Characteristics</span></h3><p><b>Personality:</b>&nbsp;Imroosians are often blunt and patient, largely lacking social graces but still capable of empathy. They are puzzled by the luxuries used by the greater galaxy, seeing little purpose in their use. Those few Imroosians that can do make connections become trusted confidants and would never betray their friends' trust. </p><p><b>Physical Description:</b> Imroosians are thin humanoids with chalky-white skin. They have pointed ears and dark colored eyes, and their skin is segmented like tectonic plates. Their unique physiology lack sweat glands, making cooler environments lethargic to Imroosians. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b>&nbsp;Imroosians age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-9 Years </td> \n   <td>10-16 Years </td> \n   <td>17-38 Years </td> \n   <td>39-56 Years </td> \n   <td>57-64 Years </td> \n   <td>65+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Imroosians hail from the volcanic world of <a href=\"https://swse.fandom.com/wiki/Imroosia\" title=\"Imroosia\">Imroosia</a>, with eruptions so frequent that less than a quarter of the world is habitable. </p><p><b>Languages:</b> The language of Imroosian uses soothing tones and is almost melodic in speaking. The written language uses elaborate pictograms, with each image conveying literal ideas. </p><p><b>Example Names:</b> Agira, Kura, Margo, Mem, Ru-Ru. </p><p><b>Adventurers:</b> Imroosians often leave the galaxy to escape the hostility of <a href=\"https://swse.fandom.com/wiki/Imroosia\" title=\"Imroosia\">Imroosia</a>, and use their keen insights and tough bodies as explorers and bodyguards. <a href=\"https://swse.fandom.com/wiki/Scouts\" class=\"mw-redirect\" title=\"Scouts\">Scouts</a> most commonly suit Imroosians, as do <a href=\"https://swse.fandom.com/wiki/Scoundrels\" class=\"mw-redirect\" title=\"Scoundrels\">Scoundrels</a> and <a href=\"https://swse.fandom.com/wiki/Soldiers\" class=\"mw-redirect\" title=\"Soldiers\">Soldiers</a>. Force-using Imroosians are almost revered, as those that can use <i><a href=\"https://swse.fandom.com/wiki/Plant_Surge\" title=\"Plant Surge\">Plant Surge</a></i> can prevent a village's starvation for a generation. </p><h3><span class=\"mw-headline\" id=\"Imroosian_Species_Traits\">Imroosian Species Traits</span></h3><p>Imroosians share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Chellewalker Creations",
+        "type": "trait"
+      },
+      {
+        "name": "Heat Resistance",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Homebrew Content",
+        "type": "trait"
+      },
+      {
+        "name": "Low-Light Vision",
+        "type": "trait"
+      },
+      {
+        "name": "Tested",
+        "type": "trait"
+      },
+      {
+        "name": "Survival Instinct",
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "38",
+          "low": "17",
+          "text": "17-38",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "65",
+          "text": "65+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "9",
+          "low": "1",
+          "text": "1-9",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "56",
+          "low": "39",
+          "text": "39-56",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "64",
+          "low": "57",
+          "text": "57-64",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "16",
+          "low": "10",
+          "text": "10-16",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Chellewalker Creations"
+      },
+      {
+        "value": "Heat Resistance"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Low-Light Vision"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Tested"
+      },
+      {
+        "value": "Imroosians"
+      },
+      {
+        "value": "Survival Instinct"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Imroosian",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535566344,
+    "modifiedTime": 1736535566344,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "ghVkKCScUVyyU0nt",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!ghVkKCScUVyyU0nt"
+}

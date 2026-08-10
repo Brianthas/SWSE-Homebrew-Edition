@@ -1,0 +1,145 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Web_Enhancements\" title=\"Star Wars Saga Edition Web Enhancements\">Star Wars Saga Edition Web Enhancements</a>&nbsp;(<a href=\"https://swse.fandom.com/wiki/General_Web_Enhancements\" title=\"General Web Enhancements\">General Web Enhancements</a>)</i> </p><p>Devaronians are among the first <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> in the galaxy to develop interstellar travel, and the males of the species have been common sights in spaceports throughout the galaxy for thousands of years. After reaching middle age, Devaronian males are driven by an urge to wander. As such, they are often found traveling the galaxy as tramp freighter captains and scouts. Female Devaronians, on the other hand, are content to remain in a single location, and as such, raise the young and run the government of <a href=\"https://swse.fandom.com/wiki/Devaron\" title=\"Devaron\">Devaron</a>. The males send as much money as they can back to their families on <a href=\"https://swse.fandom.com/wiki/Devaron\" title=\"Devaron\">Devaron</a>, but they seldom return to the homeworld. The females are content with this arrangement, as they tend to view the restless males as disruptive to home life. </p><h3><span class=\"mw-headline\" id=\"Devaronian_Characteristics\">Devaronian Characteristics</span></h3><p><b>Personality:</b> Devaronian males are bold, daring, bull-headed, rash, terse, unscrupulous, and stingy with their credits. They love being the masters of their own destinies. Female Devaronians are generally bright, wise, scrupulous, and sharp-tongued. </p><p><b>Physical Description:</b> Devaronian males are hairless with red-tinted skin, sharp incisors, and a pair of large horns growing from their foreheads. Their appearance is not unlike the devils of a thousand myths. Female Devaronians are covered in thick fur that ranges in color from brown to white. Females are hornless and have prominent canine teeth. Devaronians stand 1.6 to 1.8 meters tall. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b>&nbsp;Devaronians age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-12 Years </td> \n   <td>13-17 Years </td> \n   <td>18-44 Years </td> \n   <td>45-64 Years </td> \n   <td>65-79 Years </td> \n   <td>80+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> <a href=\"https://swse.fandom.com/wiki/Devaron\" title=\"Devaron\">Devaron</a>, a world of low mountains and deep valleys linked by thousands of rivers. </p><p><b>Languages:</b> Devaronians speak, read, and write both Devaronese and Basic. Their speech is low, guttural, and full of snarling consonants. </p><p><b>Example Names:</b> Dmaynel Kiph, Elassar Targon, Jubal, Kapp Dendo, Tyrn Jiton, Lak Jit, Oxbel, Saricia, Sires Vant, Trynic, Ulicx Vinaq, Vilmarh Grahrk. </p><p><b>Adventurers:</b> Male Devaronian heroes tend to be <a href=\"https://swse.fandom.com/wiki/Scoundrels\" class=\"mw-redirect\" title=\"Scoundrels\">Scoundrels</a> or <a href=\"https://swse.fandom.com/wiki/Scouts\" class=\"mw-redirect\" title=\"Scouts\">Scouts</a>. Invariably, they are found in occupations that allow them freedom to travel whenever and wherever they wish. Due to the oppressive nature of the Empire, many Devaronian males joined the Rebellion- not because of politics, but because they were annoyed that their freedom to travel was being curtailed. Noteworthy female Devaronians on their homeworld tend to be <a href=\"https://swse.fandom.com/wiki/Nobles\" class=\"mw-redirect\" title=\"Nobles\">Nobles</a> and <a href=\"https://swse.fandom.com/wiki/Scouts\" class=\"mw-redirect\" title=\"Scouts\">Scouts</a>. However, any female Devaronian hero found elsewhere is already an exceptional individual who has decided to challenge the traditions of her culture. Such Devaronians may be of any class or role. </p><h3><span class=\"mw-headline\" id=\"Devaronian_Species_Traits\">Devaronian Species Traits</span></h3><p>Devaronians share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Natural Curiosity",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Web Enhancements",
+        "type": "trait"
+      },
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Deception))",
+        "type": "trait"
+      },
+      {
+        "name": "Skill Focus (Deception)",
+        "type": "feat"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "44",
+          "low": "18",
+          "text": "18-44",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "80",
+          "text": "80+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "64",
+          "low": "45",
+          "text": "45-64",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "17",
+          "low": "13",
+          "text": "13-17",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "12",
+          "low": "1",
+          "text": "1-12",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "79",
+          "low": "65",
+          "text": "65-79",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Natural Curiosity"
+      },
+      {
+        "value": "Devaronians"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Web Enhancements"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Conditional Bonus Feat (Skill Focus (Deception))"
+      },
+      {
+        "value": "Conditional Bonus Feat"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Devaronian",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535565882,
+    "modifiedTime": 1736535565882,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "UC5YRFuHsrefZTUb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!UC5YRFuHsrefZTUb"
+}

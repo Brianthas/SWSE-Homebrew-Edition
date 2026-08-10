@@ -1,0 +1,637 @@
+{
+  "name": "Engineer",
+  "type": "class",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Homebrew Prestige Class (tovec.wikidot.com/episode-vii)</i></p><p>Consolidates the Improviser, Military Engineer, Outlaw, and Saboteur prestige classes. Grants access to the Improviser, Military Engineer, Misfortune, Outlaw, Outlaw Tech, Procurement, Sabotage, Slicer, and Turret talent trees.</p><p>Gains Destructive (Saboteur), Field-Created Weapon, Fugitive, and No Tools Required at 1st level.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "1d8",
+        "key": "levelUpHitPoints"
+      },
+      {
+        "mode": 2,
+        "value": 6,
+        "key": "classForcePoints"
+      },
+      {
+        "mode": 2,
+        "value": false,
+        "key": "isHeroic"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isPrestige"
+      },
+      {
+        "mode": 2,
+        "value": false,
+        "key": "isFollowerTemplate"
+      },
+      {
+        "mode": 2,
+        "value": 1,
+        "key": "classFortitudeDefenseBonus"
+      },
+      {
+        "mode": 2,
+        "value": 2,
+        "key": "classReflexDefenseBonus"
+      },
+      {
+        "mode": 2,
+        "value": 3,
+        "key": "classWillDefenseBonus"
+      }
+    ],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": null,
+    "levels": {},
+    "levelsTaken": [],
+    "cost": "0"
+  },
+  "effects": [
+    {
+      "name": "Level 1",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 1
+        }
+      },
+      "transfer": false,
+      "system": {
+        "changes": [
+          {
+            "key": "provides",
+            "value": "Engineer Talent Trees",
+            "priority": 20,
+            "type": "add",
+            "phase": "initial"
+          },
+          {
+            "key": "providedTrait",
+            "value": "Destructive",
+            "priority": 20,
+            "type": "add",
+            "phase": "initial"
+          },
+          {
+            "key": "fieldCreatedWeapon",
+            "value": 1,
+            "priority": 20,
+            "type": "add",
+            "phase": "initial"
+          },
+          {
+            "key": "providedTrait",
+            "value": "Field-Created Weapon",
+            "priority": 20,
+            "type": "add",
+            "phase": "initial"
+          },
+          {
+            "key": "fugitive",
+            "value": 1,
+            "priority": 20,
+            "type": "add",
+            "phase": "initial"
+          },
+          {
+            "key": "providedTrait",
+            "value": "Fugitive",
+            "priority": 20,
+            "type": "add",
+            "phase": "initial"
+          },
+          {
+            "key": "providedTrait",
+            "value": "No Tools Required",
+            "priority": 20,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "_id": "FO53lM32BWXOx2mq",
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786039694102,
+        "modifiedTime": 1786039694102,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!Jn0lUDaQJjOUp56z.FO53lM32BWXOx2mq"
+    },
+    {
+      "name": "Level 2",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 2
+        }
+      },
+      "transfer": false,
+      "system": {
+        "changes": [
+          {
+            "key": "provides",
+            "value": "Engineer Talent Trees",
+            "priority": 20,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "_id": "x6DTNLYXjiUD7B98",
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786039694102,
+        "modifiedTime": 1786039694102,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!Jn0lUDaQJjOUp56z.x6DTNLYXjiUD7B98"
+    },
+    {
+      "name": "Level 3",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 3
+        }
+      },
+      "transfer": false,
+      "system": {
+        "changes": [
+          {
+            "key": "provides",
+            "value": "Engineer Talent Trees",
+            "priority": 20,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "_id": "E533VeAeEFx7huCc",
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786039694102,
+        "modifiedTime": 1786039694102,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!Jn0lUDaQJjOUp56z.E533VeAeEFx7huCc"
+    },
+    {
+      "name": "Level 4",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 4
+        }
+      },
+      "transfer": false,
+      "system": {
+        "changes": [
+          {
+            "key": "provides",
+            "value": "Engineer Talent Trees",
+            "priority": 20,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "_id": "Y0qMyAi6NYc10OXE",
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786039694102,
+        "modifiedTime": 1786039694102,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!Jn0lUDaQJjOUp56z.Y0qMyAi6NYc10OXE"
+    },
+    {
+      "name": "Level 5",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 5
+        }
+      },
+      "transfer": false,
+      "system": {
+        "changes": [
+          {
+            "key": "provides",
+            "value": "Engineer Talent Trees",
+            "priority": 20,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "_id": "ZaKKf4Q3DStCNMzc",
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786039694102,
+        "modifiedTime": 1786039694102,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!Jn0lUDaQJjOUp56z.ZaKKf4Q3DStCNMzc"
+    },
+    {
+      "name": "Level 6",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 6
+        }
+      },
+      "transfer": false,
+      "system": {
+        "changes": [
+          {
+            "key": "provides",
+            "value": "Engineer Talent Trees",
+            "priority": 20,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "_id": "HdYLqf4dkoc7FVJx",
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786039694102,
+        "modifiedTime": 1786039694102,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!Jn0lUDaQJjOUp56z.HdYLqf4dkoc7FVJx"
+    },
+    {
+      "name": "Level 7",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 7
+        }
+      },
+      "transfer": false,
+      "system": {
+        "changes": [
+          {
+            "key": "provides",
+            "value": "Engineer Talent Trees",
+            "priority": 20,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "_id": "gDIdSV4r6g5xlYSJ",
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786039694102,
+        "modifiedTime": 1786039694102,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!Jn0lUDaQJjOUp56z.gDIdSV4r6g5xlYSJ"
+    },
+    {
+      "name": "Level 8",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 8
+        }
+      },
+      "transfer": false,
+      "system": {
+        "changes": [
+          {
+            "key": "provides",
+            "value": "Engineer Talent Trees",
+            "priority": 20,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "_id": "Y3nSnBVIcgEJ0J8Q",
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786039694102,
+        "modifiedTime": 1786039694102,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!Jn0lUDaQJjOUp56z.Y3nSnBVIcgEJ0J8Q"
+    },
+    {
+      "name": "Level 9",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 9
+        }
+      },
+      "transfer": false,
+      "system": {
+        "changes": [
+          {
+            "key": "provides",
+            "value": "Engineer Talent Trees",
+            "priority": 20,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "_id": "iL3ihASJ397RRMMi",
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786039694102,
+        "modifiedTime": 1786039694102,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!Jn0lUDaQJjOUp56z.iL3ihASJ397RRMMi"
+    },
+    {
+      "name": "Level 10",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 10
+        }
+      },
+      "transfer": false,
+      "system": {
+        "changes": [
+          {
+            "key": "provides",
+            "value": "Engineer Talent Trees",
+            "priority": 20,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "_id": "o4juMV0OzuHEGQvT",
+      "img": "icons/svg/aura.svg",
+      "type": "base",
+      "disabled": false,
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786039694102,
+        "modifiedTime": 1786039694102,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!Jn0lUDaQJjOUp56z.o4juMV0OzuHEGQvT"
+    }
+  ],
+  "_id": "Jn0lUDaQJjOUp56z",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786039694102,
+    "modifiedTime": 1786039717900,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!Jn0lUDaQJjOUp56z"
+}

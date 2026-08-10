@@ -1,0 +1,76 @@
+{
+  "img": "systems/swse/icon/feat/K_thri Training.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_at_War\" title=\"Star Wars Saga Edition Galaxy at War\">Star Wars Saga Edition Galaxy at War</a></i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a>, <a href=\"https://swse.fandom.com/wiki/Martial_Arts_Feats\" class=\"mw-redirect\" title=\"Martial Arts Feats\">Martial Arts Feats</a></i></p><p>You are trained in the K'thri style of <a href=\"https://swse.fandom.com/wiki/Unarmed\" class=\"mw-redirect\" title=\"Unarmed\">Unarmed</a> fighting, striking with flashy moves and incredible speed.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Dual_Weapon_Mastery_I\" title=\"Dual Weapon Mastery I\">Dual Weapon Mastery I</a>, <a href=\"https://swse.fandom.com/wiki/Martial_Arts_I\" title=\"Martial Arts I\">Martial Arts I</a></p><p><b>Effect:</b> Once per round, you can spend a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a> to make a single <a href=\"https://swse.fandom.com/wiki/Unarmed_Attack\" class=\"mw-redirect\" title=\"Unarmed Attack\">Unarmed Attack</a> against one enemy within <a href=\"https://swse.fandom.com/wiki/Reach\" title=\"Reach\">Reach</a>, dealing your base <a href=\"https://swse.fandom.com/wiki/Unarmed\" class=\"mw-redirect\" title=\"Unarmed\">Unarmed</a> damage with no bonus to the damage roll from your <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> or Heroic Level.</p><p>Once per encounter, when you make an <a href=\"https://swse.fandom.com/wiki/Unarmed_Attack\" class=\"mw-redirect\" title=\"Unarmed Attack\">Unarmed Attack</a> that misses the target, you deal half damage to the target.</p><p>You must be wearing <a href=\"https://swse.fandom.com/wiki/Light_Armor\" title=\"Light Armor\">Light Armor</a> or no Armor to gain the benefits of this <a href=\"https://swse.fandom.com/wiki/Feat\" class=\"mw-redirect\" title=\"Feat\">Feat</a>.</p><p><b>Special:</b> If you have the <b><a href=\"https://swse.fandom.com/wiki/K%27thri_Expertise\" class=\"mw-redirect\" title=\"K'thri Expertise\">K'thri Expertise</a></b> Talent, once per encounter when making a <a href=\"https://swse.fandom.com/wiki/Full_Attack\" title=\"Full Attack\">Full Attack</a>, you can reroll one of your <a href=\"https://swse.fandom.com/wiki/Unarmed\" class=\"mw-redirect\" title=\"Unarmed\">Unarmed</a> attack rolls; however, you must accept the result of the reroll, even if it is worse. You must be wearing <a href=\"https://swse.fandom.com/wiki/Light_Armor\" title=\"Light Armor\">Light Armor</a> or no Armor to gain this special benefit.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:Reference Book: Star Wars Saga Edition Galaxy at War See also: Feats, Martial Arts Feats You are trained in the K'thri style of Unarmed fighting, striking with flashy moves and incredible speed. Prerequisites: Dual Weapon Mastery I, Martial Arts I Effect: Once per round, you can spend a Swift Action to make a single Unarmed Attack against one enemy within Reach, dealing your base Unarmed damage with no bonus to the damage roll from your Strength or Heroic Level. Once per encounter, when you make an Unarmed Attack that misses the target, you deal half damage to the target. You must be wearing Light Armor or no Armor to gain the benefits of this Feat. Special: If you have the K'thri Expertise Talent, once per encounter when making a Full Attack, you can reroll one of your Unarmed attack rolls; however, you must accept the result of the reroll, even if it is worse. You must be wearing Light Armor or no Armor to gain this special benefit.",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Dual Weapon Mastery I feat",
+          "requirement": "Dual Weapon Mastery I",
+          "type": "FEAT"
+        },
+        {
+          "text": "Martial Arts I feat",
+          "requirement": "Martial Arts I",
+          "type": "FEAT"
+        }
+      ],
+      "text": "Dual Weapon Mastery I feat, and Martial Arts I feat",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Martial Arts Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Galaxy at War",
+    "cost": "0"
+  },
+  "name": "K'thri Training",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479027682,
+    "modifiedTime": 1761479027682,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "9pDRp04QjqursiL0",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!9pDRp04QjqursiL0"
+}

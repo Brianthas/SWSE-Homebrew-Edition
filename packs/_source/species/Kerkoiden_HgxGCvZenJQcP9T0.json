@@ -1,0 +1,135 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Clone_Wars_Campaign_Guide\" title=\"Star Wars Saga Edition Clone Wars Campaign Guide\">Star Wars Saga Edition Clone Wars Campaign Guide</a></i> </p><p>A smaller Species from <a href=\"https://swse.fandom.com/wiki/The_Expansion_Region\" title=\"The Expansion Region\">The Expansion Region</a>, the Kerkoiden are aggressive and cunning beings who often have something to prove. Excellent traders, skilled politicians, and creative military commanders, Kerkoiden are known as formidable opponents, a reputation they prove is well-earned during the Clone Wars. </p><p>Xenobiologists from the University of Sanbra believe that the Kerkoiden Species descended from quadruped predators that hunt on the savannahs and in the jungles of <a href=\"https://swse.fandom.com/wiki/Kerkoidia\" title=\"Kerkoidia\">Kerkoidia</a>. Much of Kerkoiden physiology seems to support this claim, including their hunched posture, long snout, and jutting teeth. Additionally, Kerkoiden aggression seems to be consistent with the predatory instinct of their ancestors, lending credence to this theory of Kerkoiden evolution. </p><p>The Kerkoiden Species as a whole has fought to evolve beyond their predatory ancestry and prove to the galaxy that they are sophisticated and civilized. Many Kerkoiden nobles pride themselves on superior breeding and also on being refined and sophisticated enough to rub elbows with the galaxy's elite on <a href=\"https://swse.fandom.com/wiki/Coruscant\" title=\"Coruscant\">Coruscant</a>. Of course, this also leads to elitism among the Kerkoidens, which does the Species no favors on the galactic scene. </p><h3><span class=\"mw-headline\" id=\"Kerkoiden_Characteristics\">Kerkoiden Characteristics</span></h3><p><b>Personality:</b> The Kerkoiden have shifted many of their cunning predatory instincts over to the social arena, becoming savory politicians on a galactic scale. Most Kerkoiden are pushy if not outright aggressive. They regard everyone with suspicion, and expect deception from their political and social rivals. Additionally, many Kerkoiden would like to believe that their people are more evolved and sophisticated than their heritage suggests, leading them to be both elitist and arrogant at times. </p><p><b>Physical Description:</b> Kerkoiden are hunched beings with rough skin that ranges in hue from green to dark blue. Their bodies still show signs of predatory physiology, namly their long claws and jutting teeth. Kerkoiden have tall, slender heads with long snouts and narrow eyes. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Kerkoiden age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-18 Years </td> \n   <td>19-45 Years </td> \n   <td>46-70 Years </td> \n   <td>71-90 Years </td> \n   <td>91+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The Kerkoiden Species hails from <a href=\"https://swse.fandom.com/wiki/Kerkoidia\" title=\"Kerkoidia\">Kerkoidia</a>, a world covered in tall, grassy savannahs and thick swamps in <a href=\"https://swse.fandom.com/wiki/The_Expansion_Region\" title=\"The Expansion Region\">The Expansion Region</a>, specifically in the Kira Sector just off the Harrin Trade Corridor. </p><p><b>Languages:</b> Kerkoiden speak their native tongue of Kerkoidese. Kerkoiden speaking Basic do so in long, drawling voices. </p><p><b>Example Names:</b> Dram Bothren, Var Cashral, Pheel Hoshar, Whorm Loathsom. </p><p><b>Adventurers:</b> Kerkoiden adventurers gravitate toward <a href=\"https://swse.fandom.com/wiki/Heroic_Classes\" title=\"Heroic Classes\">Heroic Classes</a> where they can freely exhibit their aggressiveness or demonstrate their sophistication. <a href=\"https://swse.fandom.com/wiki/Soldiers\" class=\"mw-redirect\" title=\"Soldiers\">Soldiers</a> are common. Kerkoiden also make excellent <a href=\"https://swse.fandom.com/wiki/Nobles\" class=\"mw-redirect\" title=\"Nobles\">Nobles</a>, using their wisdom and cunning to talk circles around their opponents. Kerkoiden <a href=\"https://swse.fandom.com/wiki/Scoundrels\" class=\"mw-redirect\" title=\"Scoundrels\">Scoundrels</a> take pleasure in throwing a proverbial hydrospanner into their opponents' plans, sowing discord and shattering enemy organization. Kerkoiden who learn to temper their aggression with wisdom might also become <a href=\"https://swse.fandom.com/wiki/Jedi\" title=\"Jedi\">Jedi</a>. </p><h3><span class=\"mw-headline\" id=\"Kerkoiden_Species_Traits\">Kerkoiden Species Traits</span></h3><p>Kerkoiden share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Kerkoiden",
+        "type": "trait"
+      },
+      {
+        "name": "Social Cunning",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Predator's Heritage",
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "70",
+          "low": "46",
+          "text": "46-70",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "45",
+          "low": "19",
+          "text": "19-45",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "18",
+          "low": "12",
+          "text": "12-18",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "90",
+          "low": "71",
+          "text": "71-90",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "91",
+          "text": "91+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "11",
+          "low": "1",
+          "text": "1-11",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Kerkoiden"
+      },
+      {
+        "value": "Social Cunning"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Predator's Heritage"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Kerkoiden",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535566434,
+    "modifiedTime": 1736535566434,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "HgxGCvZenJQcP9T0",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!HgxGCvZenJQcP9T0"
+}

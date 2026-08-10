@@ -1,0 +1,84 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Jedi_Academy_Training_Manual\" title=\"Star Wars Saga Edition Jedi Academy Training Manual\">Star Wars Saga Edition Jedi Academy Training Manual</a></i> </p><p>Favored by Large <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>, the Great Lightsaber produces an oversized Lightsaber blade. The blade of a Great Lightsaber is much longer and thicker than that of a normal <a href=\"https://swse.fandom.com/wiki/Lightsaber_(Weapon)\" title=\"Lightsaber (Weapon)\">Lightsaber</a>, and the handle itself is nearly as long as that of a <a href=\"https://swse.fandom.com/wiki/Double-Bladed_Lightsaber\" title=\"Double-Bladed Lightsaber\">Double-Bladed Lightsaber</a>. </p><p>Only Large (or larger) creatures can use the Great Lightsaber in conjunction with <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a> or <a href=\"https://swse.fandom.com/wiki/Talents\" title=\"Talents\">Talents</a> that affect Light Weapons or <a href=\"https://swse.fandom.com/wiki/Lightsabers\" title=\"Lightsabers\">Lightsabers</a> (such as the <a href=\"https://swse.fandom.com/wiki/Weapon_Finesse\" title=\"Weapon Finesse\">Weapon Finesse</a> feat or <a href=\"https://swse.fandom.com/wiki/Talents\" title=\"Talents\">Talents</a> from the <a href=\"https://swse.fandom.com/wiki/Melee_Duelist_Talent_Tree\" title=\"Melee Duelist Talent Tree\">Melee Duelist Talent Tree</a>). </p><p>A Great Lightsaber requires a special&nbsp;<a href=\"https://swse.fandom.com/wiki/Energy_Cell\" title=\"Energy Cell\">Energy Cell</a>&nbsp;to operate (the cost is ten times the price of an ordinary&nbsp;<a href=\"https://swse.fandom.com/wiki/Energy_Cell\" title=\"Energy Cell\">Energy Cell</a>, but it lasts almost indefinitely). </p><p><b>Special:</b>&nbsp;Can be&nbsp;<a href=\"https://swse.fandom.com/wiki/Thrown\" class=\"mw-redirect\" title=\"Thrown\">Thrown</a> (Large <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> Only) </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isThrowable"
+      }
+    ],
+    "choices": [
+      {
+        "noOptions": "NO_AVAILABLE_OPTIONS",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {
+              "payload": "AVAILABLE_LIGHTSABER_CRYSTALS"
+            },
+            "display": "AVAILABLE_LIGHTSABER_CRYSTALS",
+            "name": "AVAILABLE_LIGHTSABER_CRYSTALS",
+            "attributes": {}
+          }
+        ],
+        "description": "Lightsaber Crystal",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": false
+      }
+    ],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "5,000",
+    "weight": "5 Kilograms",
+    "availability": "Rare",
+    "size": "Large",
+    "type": "",
+    "subtype": "Lightsabers",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "2d10",
+    "damageType": "Energy, Slashing"
+  },
+  "name": "Great Lightsaber",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Great_Lightsaber.png",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513478,
+    "modifiedTime": 1786051513572,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "tMWTyciagiPAHocm",
+  "_key": "!items!tMWTyciagiPAHocm"
+}

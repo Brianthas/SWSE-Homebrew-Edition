@@ -1,0 +1,79 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Whenever you use the <b>Begin Attack Run</b> Talent, make a DC 20 <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check as a <a href=\"https://swse.fandom.com/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a>. Success indicates that in addition to the regular benefit of <b>Begin Attack Run</b>, <a href=\"https://swse.fandom.com/wiki/Vehicles\" title=\"Vehicles\">Vehicles</a> in your squadron deal +1 die of damage against the designated target.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Force Sensitivity feat",
+          "requirement": "Force Sensitivity",
+          "type": "FEAT"
+        },
+        {
+          "text": "Begin Attack Run talent",
+          "requirement": "Begin Attack Run",
+          "type": "TALENT"
+        },
+        {
+          "text": "Charisma 13",
+          "requirement": "Charisma 13",
+          "type": "ATTRIBUTE"
+        }
+      ],
+      "text": "Force Sensitivity feat, Begin Attack Run talent, and Charisma 13",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Ace Pilot Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Ace Pilot Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Squadron Leader Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Squadron_Leader_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "New Jedi Order Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Force Commander",
+  "flags": {},
+  "type": "talent",
+  "folder": "IDgltOySl2AwtFJs",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385312518,
+    "modifiedTime": 1734385312518,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "j9r3JUaYb47M69Aj",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!j9r3JUaYb47M69Aj"
+}

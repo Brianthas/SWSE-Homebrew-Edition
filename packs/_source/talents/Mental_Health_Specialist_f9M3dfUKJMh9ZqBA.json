@@ -1,0 +1,73 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Select one category of mental illness (one <a href=\"https://swse.fandom.com/wiki/Complication\" class=\"mw-redirect\" title=\"Complication\">Complication</a>). When making a <a href=\"https://swse.fandom.com/wiki/Knowledge_(Social_Sciences)\" class=\"mw-redirect\" title=\"Knowledge (Social Sciences)\">Knowledge (Social Sciences)</a> check to <a href=\"https://swse.fandom.com/wiki/Mentop\" class=\"mw-redirect\" title=\"Mentop\">Mentop</a> (see <a href=\"https://swse.fandom.com/wiki/Complications\" title=\"Complications\">Complications</a>), you may reroll your check, keeping the better result.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:Select one category of mental illness (one<a href=\"https://swse.fandom.com/wiki/Complication\" class=\"mw-redirect\" title=\"Complication\">Complication</a>). When making a<a href=\"https://swse.fandom.com/wiki/Knowledge_(Social_Sciences)\" class=\"mw-redirect\" title=\"Knowledge (Social Sciences)\">Knowledge (Social Sciences)</a>check to<a href=\"https://swse.fandom.com/wiki/Mentop\" class=\"mw-redirect\" title=\"Mentop\">Mentop</a>(see<a href=\"https://swse.fandom.com/wiki/Complications\" title=\"Complications\">Complications</a>), you may reroll your check, keeping the better result.",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Trained in Knowledge (Social Sciences)",
+      "requirement": "Knowledge (Social Sciences)",
+      "type": "TRAINED SKILL"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Shaper Talent Trees"
+      },
+      {
+        "value": "Medic Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Shaper Talent Trees",
+      "Medic Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Advanced Medicine Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Advanced_Medicine_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Clone Wars Saga Edition Fan Sourcebook - Grand Army of the Republic (Part 1)",
+    "cost": "0"
+  },
+  "name": "Mental Health Specialist",
+  "flags": {},
+  "type": "talent",
+  "folder": "v70bZwBQgAIzuVnd",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385301843,
+    "modifiedTime": 1734385301843,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "f9M3dfUKJMh9ZqBA",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!f9M3dfUKJMh9ZqBA"
+}

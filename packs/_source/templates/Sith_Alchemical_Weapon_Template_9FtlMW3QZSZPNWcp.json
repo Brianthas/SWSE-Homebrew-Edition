@@ -1,0 +1,116 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:</i>&nbsp;<i><a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i> </p><p><b>Manufactured By:</b> <a href=\"https://swse.fandom.com/wiki/The_Sith\" title=\"The Sith\">The Sith</a> (<a href=\"https://swse.fandom.com/wiki/Force_Tradition\" class=\"mw-redirect\" title=\"Force Tradition\">Force Tradition</a>) </p><p><b>Applicable To:</b> Any <a href=\"https://swse.fandom.com/wiki/Advanced_Melee_Weapon\" class=\"mw-redirect\" title=\"Advanced Melee Weapon\">Advanced Melee Weapon</a> or <a href=\"https://swse.fandom.com/wiki/Simple_Weapon_(Melee)\" class=\"mw-redirect\" title=\"Simple Weapon (Melee)\">Simple Weapon (Melee)</a> </p><p>Sith Alchemical Weapons are items that have undergone an arcane enhancement process using ancient Sith techniques. Favored by The Sith in the days prior to the spread of <a href=\"https://swse.fandom.com/wiki/Lightsabers\" title=\"Lightsabers\">Lightsabers</a>, Sith Alchemical Weapons are not only resistant to damage but also channel <a href=\"https://swse.fandom.com/wiki/The_Dark_Side\" title=\"The Dark Side\">The Dark Side</a> through them. Ancient Sith Lords used <a href=\"https://swse.fandom.com/wiki/Sith_Alchemy\" class=\"mw-redirect\" title=\"Sith Alchemy\">Sith Alchemy</a> to fundamentally alter the chemical makeup of their Weapons, resulting in something far more dangerous than the typical <a href=\"https://swse.fandom.com/wiki/War_Sword\" title=\"War Sword\">War Sword</a> or <a href=\"https://swse.fandom.com/wiki/Vibro-Axe\" title=\"Vibro-Axe\">Vibro-Axe</a>. </p><p><b>Weapons:</b> A <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> does not ignore a Sith Alchemical Weapon's <a href=\"https://swse.fandom.com/wiki/Damage_Reduction\" title=\"Damage Reduction\">Damage Reduction</a>, and the characters who are proficient with the Sith Alchemical Weapon can treat it as a <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> for the purpose of using the <b><a href=\"https://swse.fandom.com/wiki/Block\" class=\"mw-redirect\" title=\"Block\">Block</a></b>, <b><a href=\"https://swse.fandom.com/wiki/Deflect\" class=\"mw-redirect\" title=\"Deflect\">Deflect</a></b>, and <b><a href=\"https://swse.fandom.com/wiki/Redirect_Shot\" class=\"mw-redirect\" title=\"Redirect Shot\">Redirect Shot</a></b> Talents (as well as any <a href=\"https://swse.fandom.com/wiki/Talents\" title=\"Talents\">Talents</a> that have those Talents as a prerequisite). </p><p>Additionally, a Sith Alchemical Weapon becomes more powerful in the hands of a character who is steeped in <a href=\"https://swse.fandom.com/wiki/The_Dark_Side\" title=\"The Dark Side\">The Dark Side</a> of <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a>. A character proficient with a Sith Alchemical Weapon can spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> as a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a> to gain a bonus to damage rolls with the Sith Alchemical Weapon equal to his or her <a href=\"https://swse.fandom.com/wiki/Dark_Side_Score\" title=\"Dark Side Score\">Dark Side Score</a>. This bonus to damage applies to the next attack made with the Sith Alchemical Weapon before the end of the encounter, and activating this ability increases the wielder's <a href=\"https://swse.fandom.com/wiki/Dark_Side_Score\" title=\"Dark Side Score\">Dark Side Score</a> by 1. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "??",
+        "key": "cost"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "itemMod"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "blocksLightsaber"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "allowsBlock"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "allowsDeflect"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "allowsRedirectShot"
+      },
+      {
+        "mode": 2,
+        "value": "A character proficient with a Sith Alchemical Weapon can spend a Force Point as a Swift Action to gain a bonus to damage rolls with the Sith Alchemical Weapon equal to his or her Dark Side Score. This bonus to damage applies to the next attack made with the Sith Alchemical Weapon before the end of the encounter, and activating this ability increases the wielder's Dark Side Score by 1.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": "Sith Alchemical",
+        "key": "prefix"
+      },
+      {
+        "mode": 2,
+        "value": "",
+        "key": "suffix"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "hasItemOwner": false,
+    "subtype": "Weapon Templates",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Any Weapon",
+          "requirement": "weapon",
+          "type": "TYPE"
+        },
+        {
+          "children": [
+            {
+              "text": "Any Advanced Melee Weapon or Simple Weapon (Melee)",
+              "requirement": "Advanced Melee",
+              "type": "SUBTYPE"
+            },
+            {
+              "text": "Any Advanced Melee Weapon or Simple Weapon (Melee)",
+              "requirement": "Advanced Melee",
+              "type": "SUBTYPE"
+            }
+          ],
+          "count": 1,
+          "text": "Any Advanced Melee Weapon or Simple Weapon (Melee)",
+          "type": "OR"
+        }
+      ],
+      "text": "Any Weapon, and (Any Advanced Melee Weapon or Simple Weapon (Melee))",
+      "type": "AND"
+    },
+    "cost": "??"
+  },
+  "name": "Sith Alchemical Weapon Template",
+  "flags": {},
+  "type": "template",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.2",
+    "createdTime": 1729096741372,
+    "modifiedTime": 1729096741372,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "9FtlMW3QZSZPNWcp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!9FtlMW3QZSZPNWcp"
+}

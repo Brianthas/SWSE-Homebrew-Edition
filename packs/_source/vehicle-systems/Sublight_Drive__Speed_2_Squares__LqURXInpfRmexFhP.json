@@ -1,0 +1,35 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Movement Systems",
+    "changes": [],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><table class=\"wikitable\">\n <tbody>\n  <tr>\n   <th>SUBLIGHT DRIVE</th>\n   <th>EMPLACEMENT POINTS</th>\n   <th>AVAILABILITY</th>\n   <th>SIZE RESTRICTION</th>\n   <th>COST</th>\n  </tr>\n  <tr>\n   <td>Speed 1 Square</td>\n   <td>2</td>\n   <td>Common</td>\n   <td>-</td>\n   <td>1000 (Base)</td>\n  </tr>\n  <tr>\n   <td>Speed 2 Square</td>\n   <td>3</td>\n   <td>Common</td>\n   <td>-</td>\n   <td>2000 (Base)</td>\n  </tr>\n  <tr>\n   <td>Speed 3 Square</td>\n   <td>4</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Licensed\" class=\"mw-redirect\" title=\"Licensed\">Licensed</a></td>\n   <td>Colossal (Cruiser) or Smaller</td>\n   <td>5000 (Base)</td>\n  </tr>\n  <tr>\n   <td>Speed 4 Square</td>\n   <td>5</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Restricted\" class=\"mw-redirect\" title=\"Restricted\">Restricted</a></td>\n   <td>Colossal (Cruiser) or Smaller</td>\n   <td>10000 (Base)</td>\n  </tr>\n  <tr>\n   <td>Speed 5 Square</td>\n   <td>6</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Military\" class=\"mw-redirect\" title=\"Military\">Military</a></td>\n   <td>Colossal or Smaller</td>\n   <td>20000 (Base)</td>\n  </tr>\n  <tr>\n   <td>Speed 6 Square</td>\n   <td>7</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Military\" class=\"mw-redirect\" title=\"Military\">Military</a></td>\n   <td>Gargantuan or Smaller</td>\n   <td>100000 (Base)</td>\n  </tr>\n </tbody>\n</table><p>A Sublight Drive is what makes a ship move through space. Though a <a href=\"https://swse.fandom.com/wiki/SubLight_Accelerator_Motor\" title=\"SubLight Accelerator Motor\">SubLight Accelerator Motor</a> can enhance a ship's space speed, sometimes a new Sublight Drive is required to reach such speeds with minimal effort from the <a href=\"https://swse.fandom.com/wiki/Pilot_(Vehicle_Combat)\" title=\"Pilot (Vehicle Combat)\">Pilot</a>. Replacing a ship's Sublight Drive can be expensive, though, and many ships cannot reach high speeds due to the bulk of their Sublight Drives. Additionally, only military vessels are permitted to use incredibly fast ion drives. A Sublight Drive determines a ship's Speed when moving through Realspace.</p>",
+    "cost": "2000 (Base)",
+    "emplacementPoints": "3",
+    "availability": "Common",
+    "speedStarshipScale": "2"
+  },
+  "name": "Sublight Drive (Speed 2 Squares)",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848316865,
+    "modifiedTime": 1759848316865,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "LqURXInpfRmexFhP",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!LqURXInpfRmexFhP"
+}

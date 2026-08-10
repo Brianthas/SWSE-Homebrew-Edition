@@ -1,0 +1,95 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "droidPart"
+      },
+      {
+        "mode": 2,
+        "value": 3,
+        "key": "damageThresholdHardenedMultiplier"
+      },
+      {
+        "mode": 2,
+        "value": 3,
+        "key": "healthHardenedMultiplier"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "2500 x Cost Factor",
+    "weight": "(250 x Cost Factor) kg",
+    "availability": "Military",
+    "size": "",
+    "type": "",
+    "subtype": "Droid Accessories (Hardened Systems)",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "equipment": {},
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Large",
+          "requirement": "Large",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Huge",
+          "requirement": "Huge",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal",
+          "requirement": "Colossal",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Gargantuan",
+          "requirement": "Gargantuan",
+          "type": "TRAIT"
+        }
+      ],
+      "count": 1,
+      "text": "Droids of Large or greater size can be designed to have internal armor and redundant systems that enable it to continue functioning despite heavy damage",
+      "type": "OR"
+    }
+  },
+  "name": "Hardened Systems (x3)",
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244189,
+    "modifiedTime": 1749263244189,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "jduoQUXcoFOPCkKU",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!jduoQUXcoFOPCkKU"
+}

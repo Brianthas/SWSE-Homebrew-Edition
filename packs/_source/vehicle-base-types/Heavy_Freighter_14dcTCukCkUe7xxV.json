@@ -1,0 +1,113 @@
+{
+  "effects": [],
+  "system": {
+    "providedItems": [
+      {
+        "name": "Colossal (Frigate)",
+        "type": "trait"
+      }
+    ],
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Space Transport",
+        "key": "vehicleSubType"
+      },
+      {
+        "mode": 2,
+        "value": "56",
+        "key": "baseStrength"
+      },
+      {
+        "mode": 2,
+        "value": "10",
+        "key": "baseDexterity"
+      },
+      {
+        "mode": 2,
+        "value": "12",
+        "key": "baseIntelligence"
+      },
+      {
+        "mode": 2,
+        "value": "-",
+        "key": "speedCharacterScale"
+      },
+      {
+        "mode": 2,
+        "value": "1 sq.",
+        "key": "speedStarshipScale"
+      },
+      {
+        "mode": 2,
+        "value": "400",
+        "key": "hitPointEq"
+      },
+      {
+        "mode": 2,
+        "value": "15",
+        "key": "damageThresholdBonus"
+      },
+      {
+        "mode": 2,
+        "value": "+12",
+        "key": "armorReflexDefenseBonus"
+      },
+      {
+        "mode": 2,
+        "value": "500,000",
+        "key": "cost"
+      },
+      {
+        "mode": 2,
+        "value": "10",
+        "key": "crew"
+      },
+      {
+        "mode": 2,
+        "value": "10",
+        "key": "passengers"
+      },
+      {
+        "mode": 2,
+        "value": "100000.0",
+        "key": "cargoCapacity"
+      },
+      {
+        "mode": 2,
+        "value": "6 Months",
+        "key": "consumables"
+      },
+      {
+        "mode": 2,
+        "value": "5",
+        "key": "emplacementPoints"
+      }
+    ],
+    "description": "",
+    "cost": "500,000"
+  },
+  "name": "Heavy Freighter",
+  "flags": {},
+  "type": "vehicleBaseType",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.2",
+    "createdTime": 1729096745135,
+    "modifiedTime": 1729096745135,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "14dcTCukCkUe7xxV",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!14dcTCukCkUe7xxV"
+}

@@ -1,0 +1,41 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Weapon Systems",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "weapon:ranged",
+        "key": "allowItemDrop"
+      }
+    ],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><p><b>Emplacement Points:</b>&nbsp;1</p><p>Smugglers and pirates often add <a href=\"https://swse.fandom.com/wiki/Character_Scale\" class=\"mw-redirect\" title=\"Character Scale\">Character Scale</a> weapons to fighters and freighters, in order to allow them to open fire while docked without risking blowing up an entire docking facility. Any Character Scale Ranged Weapon can be added as a Docking Gun, though <a href=\"https://swse.fandom.com/wiki/Light_Repeating_Blaster\" title=\"Light Repeating Blaster\">Light Repeating Blasters</a> and <a href=\"https://swse.fandom.com/wiki/Heavy_Blaster_Rifle\" title=\"Heavy Blaster Rifle\">Heavy Blaster Rifles</a> are most common. Docking Guns count as <a href=\"https://swse.fandom.com/wiki/Heavy_Weapons\" title=\"Heavy Weapons\">Heavy Weapons</a> once installed (regardless of their original weapon category). They draw power from the ship, operating as long as the ship has power, instead of requiring <a href=\"https://swse.fandom.com/wiki/Power_Packs\" class=\"mw-redirect\" title=\"Power Packs\">Power Packs</a>.</p><p>The idea has occasionally been used on military vessels- adding heavy guns to docking bays to assist in efforts to offload troops onto a battlefield, for example.</p><p>The cost of a Docking Gun is for the mount only- the gun itself is bought normally. Docking Guns have no effect on <a href=\"https://swse.fandom.com/wiki/Starship_Scale\" class=\"mw-redirect\" title=\"Starship Scale\">Starship Scale</a> combat.</p>",
+    "cost": "+1000",
+    "emplacementPoints": "1",
+    "availability": "Licensed",
+    "damage": "By Weapon"
+  },
+  "name": "Docking Gun",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317190,
+    "modifiedTime": 1759848317190,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "GFUvRo5f1zuyHzJf",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!GFUvRo5f1zuyHzJf"
+}

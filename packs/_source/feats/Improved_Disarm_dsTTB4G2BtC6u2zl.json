@@ -1,0 +1,79 @@
+{
+  "img": "systems/swse/icon/feat/Improved Disarm.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You are skilled at <a href=\"https://swse.fandom.com/wiki/Disarming\" class=\"mw-redirect\" title=\"Disarming\">Disarming</a> opponents in melee combat.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a> 13, <a href=\"https://swse.fandom.com/wiki/Melee_Defense\" title=\"Melee Defense\">Melee Defense</a></p><p><b>Effect:</b> You gain a +5 bonus on any melee attack roll made to <a href=\"https://swse.fandom.com/wiki/Disarm\" title=\"Disarm\">Disarm</a> an opponent. In addition, if you fail to <a href=\"https://swse.fandom.com/wiki/Disarm\" title=\"Disarm\">Disarm</a> an opponent, he doesn't get to make a free attack against you.</p><h2><span class=\"mw-headline\" id=\"Additional_Improved_Disarm_Effects\">Additional Improved Disarm Effects</span></h2><p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i></p><p><b><a href=\"https://swse.fandom.com/wiki/Combined_Feat\" class=\"mw-redirect\" title=\"Combined Feat\">Combined Feat</a> (<a href=\"https://swse.fandom.com/wiki/Force_Training\" title=\"Force Training\">Force Training</a>):</b> When you use the <a href=\"https://swse.fandom.com/wiki/Force_Disarm\" title=\"Force Disarm\"><i>Force Disarm</i></a> Force Power, you gain the +5 bonus from Improved Disarm on your <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check as though you were making an attack roll.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Intelligence 13",
+          "requirement": "Intelligence 13",
+          "type": "ATTRIBUTE"
+        },
+        {
+          "text": "Melee Defense feat",
+          "requirement": "Melee Defense",
+          "type": "FEAT"
+        }
+      ],
+      "text": "Intelligence 13, and Melee Defense feat",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Soldier Bonus Feats"
+      },
+      {
+        "value": "Force Prodigy Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Jedi Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Bonus Feats",
+      "Force Prodigy Bonus Feats",
+      "General Feats",
+      "Jedi Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Improved Disarm",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479027419,
+    "modifiedTime": 1761479027419,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "dsTTB4G2BtC6u2zl",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!dsTTB4G2BtC6u2zl"
+}

@@ -1,0 +1,51 @@
+<li class="item equipment-row" data-item-id="{{item.id}}" title="{{item.name}}">
+    <span class="equipment-image"><img src="{{item.img}}" alt=""/></span>
+
+    <a class="equipment-name" data-action="view">{{item.finalName}}{{#if item.system.hidden}} (Hidden){{/if}}</a>
+
+    <span class="equipment-toggle equip-toggle">
+        {{#if item.isEquipable}}
+            <a data-action="equip" class="{{#ifEquals item.system.equipped "equipped"}}active{{/ifEquals}}"
+               title="{{#ifEquals item.system.equipped "equipped"}}Equipped — click to unequip{{else}}Unequipped — click to equip{{/ifEquals}}">
+                <i class="fas fa-shield-halved"></i>
+            </a>
+        {{/if}}
+    </span>
+
+    <span class="equipment-toggle slot-toggle">
+        <a data-action="cycle-slot-type" class="slot-type-{{#if item.slotType}}{{item.slotType}}{{else}}none{{/if}}"
+           title="Carrying-capacity slot — click to cycle Light / Kit / none">
+            {{#ifEquals item.slotType "light"}}L{{/ifEquals}}
+            {{#ifEquals item.slotType "kit"}}K{{/ifEquals}}
+        </a>
+    </span>
+
+    <span class="equipment-toggle integrated-toggle">
+        <a data-action="toggle-integrated" class="{{#if item.isIntegrated}}active{{/if}}"
+           title="Integrated — surgically built-in rather than just carried, doubles this item's own Light/Kit slot cost. Click to toggle.">
+            <i class="fas fa-microchip"></i>
+        </a>
+    </span>
+
+    <span class="equipment-qty">
+        <a data-action="decrease-quantity" class="qty-btn"><i class="fas fa-minus"></i></a>
+        <span class="qty-value">{{item.system.quantity}}</span>
+        <a data-action="increase-quantity" class="qty-btn"><i class="fas fa-plus"></i></a>
+    </span>
+
+    <span class="equipment-controls">
+        <a data-action="view" class="item-control" title="Edit Item"><i class="fas fa-edit"></i></a>
+        {{#ifEquals delete 'unSupplied'}}
+            {{#if item.system.supplier.id}}
+                {{#if item.system.supplier.unlocked}}
+                    <a class="item-control item-delete" title="Delete Item"><i class="fas fa-trash"></i></a>
+                {{/if}}
+            {{else}}
+                <a class="item-control item-delete" title="Delete Item"><i class="fas fa-trash"></i></a>
+            {{/if}}
+        {{/ifEquals}}
+        {{#ifEquals delete 'always'}}
+            <a class="item-control item-delete" title="Delete Item"><i class="fas fa-trash"></i></a>
+        {{/ifEquals}}
+    </span>
+</li>

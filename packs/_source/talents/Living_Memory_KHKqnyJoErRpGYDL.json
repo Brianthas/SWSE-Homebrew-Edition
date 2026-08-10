@@ -1,0 +1,83 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Your recall of facts and events is photographic. Choose a specific <a href=\"https://swse.fandom.com/wiki/Knowledge\" title=\"Knowledge\">Knowledge</a> skill. With that skill, you may reroll those skill checks, keeping the better of the two results.<br><br>This Talent may be taken multiple times, but with a different <a href=\"https://swse.fandom.com/wiki/Knowledge\" title=\"Knowledge\">Knowledge</a> skill each time.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:Your recall of facts and events is photographic. Choose a specific<a href=\"https://swse.fandom.com/wiki/Knowledge\" title=\"Knowledge\">Knowledge</a>skill. With that skill, you may reroll those skill checks, keeping the better of the two results.<br><br>This Talent may be taken multiple times, but with a different<a href=\"https://swse.fandom.com/wiki/Knowledge\" title=\"Knowledge\">Knowledge</a>skill each time.",
+        "key": "skillReRoll"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": null,
+    "categories": [
+      {
+        "value": "Untested"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Galactic Senator Talent Trees"
+      },
+      {
+        "value": "Homebrew Content"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Untested",
+      "Galactic Senator Talent Trees",
+      "Homebrew Content"
+    ],
+    "isSupplied": false,
+    "talentTree": "Galactic Senator Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Galactic_Senator_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "New Republic Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Living Memory",
+  "flags": {},
+  "type": "talent",
+  "folder": "V3mTp6VyAFy89F7j",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385305375,
+    "modifiedTime": 1734385305375,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "KHKqnyJoErRpGYDL",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!KHKqnyJoErRpGYDL"
+}

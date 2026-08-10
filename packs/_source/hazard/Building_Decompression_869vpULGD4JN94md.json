@@ -1,0 +1,66 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A transparisteel window or a wall takes at least 20 points of damage; targets all creatures within a room or corridor where the damaged section is located.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "On Trigger",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Climb (DC 27): The character grabs a stable object as a Reaction and negates the forced movement. Alternately, if the character is already secured, he or she can grab an adjacent creature and prevent it from being moved by the Building Decompression.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: Any creature pulled into the same square as the damaged wall or window is sucked out into the vacuum by this Hazard, and must then face the Vacuum Hazard.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>One crack, and suddenly the entire wall blows outward, sucking anyone and anything nearby into the vacuum.</i> </p><p>Stray blaster bolts and sabotage are two of the most dangerous things the people of <a href=\"https://swse.fandom.com/wiki/Iol\" title=\"Iol\">Iol</a> must face. Since each of the buildings on the surface of <a href=\"https://swse.fandom.com/wiki/Iol\" title=\"Iol\">Iol</a> is pressurized and sealed, any breach in the hull of a surface building usually results in immediate and violent decompression. Even the tiniest crack in a transparisteel window can cause an entire wall to blow out of a building, taking anyone in the room out as well before emergency forcefields can snap into place and restabilize the pressure and atmosphere within a building. </p><h2><span id=\"Building_Decompression_Statistics_.28CL_14.29\"></span><span class=\"mw-headline\" id=\"Building_Decompression_Statistics_(CL_14)\">Building Decompression Statistics (CL 14)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Natural </p><p><b>Trigger:</b> A transparisteel window or a wall takes at least 20 points of damage; targets all creatures within a room or corridor where the damaged section is located. </p><p><b>Attack:</b> +16 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> On Trigger </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Climb\" title=\"Climb\">Climb</a> (DC 27):</b> The character grabs a stable object as a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a> and negates the forced movement. Alternately, if the character is already secured, he or she can grab an adjacent creature and prevent it from being moved by the Building Decompression.</li>\n</ul><p><b>Special:</b> Any creature pulled into the same square as the damaged wall or window is sucked out into the vacuum by this Hazard, and must then face the <a href=\"https://swse.fandom.com/wiki/Vacuum\" title=\"Vacuum\">Vacuum</a> Hazard. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Building Decompression",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244340,
+    "modifiedTime": 1749263244340,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "869vpULGD4JN94md",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!869vpULGD4JN94md"
+}

@@ -1,0 +1,751 @@
+// Homebrew: structural layout for the Summary tab. Replaces the old approach of
+// stacking flex rows of fixed-width (.large/.huge) panels, which couldn't pack and
+// left large dead gutters. Panels here are grid cells that stretch to fill.
+
+// Homebrew: center every value/label on the Summary tab — inputs default to
+// left-aligned text, which read inconsistently against the dense grid of small boxes.
+.tab.summary {
+  input[type="text"],
+  input[type="number"],
+  select,
+  .field-value {
+    text-align: center;
+  }
+}
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-areas:
+    "identity identity abilities"
+    "health   defenses condition"
+    "attacks  attacks  attacks"
+    "skills   skills   skills";
+  gap: $space-sm;
+  align-items: start;
+
+  > .panel {
+    margin: 0;
+    min-width: 0;
+    // Consistent vertical rhythm between a panel's stacked sections, instead of
+    // relying on each child's own margins (which collided, e.g. Gravity vs Force Points)
+    display: flex;
+    flex-direction: column;
+    gap: $space-sm;
+  }
+
+  .area-identity  { grid-area: identity; }
+  .area-abilities { grid-area: abilities; }
+  .area-health    { grid-area: health; }
+  .area-defenses  { grid-area: defenses; }
+  .area-condition { grid-area: condition; }
+  .area-attacks   { grid-area: attacks; }
+
+  // Unlike every other panel here, Skills shouldn't stretch to fill a wider window — a long
+  // skill list reads better at a fixed, comfortable line-length than spread across the full
+  // sheet width with big gaps between the name and its TOT/ABIL/TRN/MISC columns.
+  .area-skills {
+    grid-area: skills;
+    justify-self: start;
+    width: 100%;
+    max-width: 500px;
+  }
+}
+
+/* Identity: portrait beside a compact label/value field grid */
+.identity-body {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: $space-sm;
+  align-items: start;
+}
+
+.identity-portrait img {
+  display: block;
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border: 1px solid var(--swse-border);
+  border-radius: $radius-sm;
+}
+
+.field-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: $space-xs $space-sm;
+
+  .field-wide { grid-column: span 2; }
+
+  > * { min-width: 0; }
+}
+
+/* A label stacked above its value, the atom most panels are built from */
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: $space-2xs;
+  min-width: 0;
+
+  > label,
+  > .field-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--swse-text-muted);
+  }
+
+  // Modifier for a lone/standalone field (e.g. Maneuver Defense) whose label should sit
+  // centered above its box instead of the default left alignment.
+  &.field-center-label > label {
+    text-align: center;
+  }
+
+  // Element+class specificity so these beat Foundry core's bare input[type=...] rules
+  input[type],
+  select,
+  .field-value {
+    width: 100%;
+    min-width: 0;
+    height: auto;
+    min-height: 0;
+    padding: $space-2xs $space-xs;
+    background: var(--swse-control);
+    border: 1px solid var(--swse-border);
+    border-radius: $radius-sm;
+    color: var(--swse-text);
+    font-size: 13px;
+    line-height: 1.3;
+  }
+
+  input[type]:disabled,
+  .field-value {
+    background: var(--swse-bg);
+    color: var(--swse-text);
+    opacity: 1;
+  }
+
+  // Roll/compendium/delete affordances sit inline after the value, not absolutely
+  // positioned the way .labeled-input's .control-N rules place them.
+  .control-0,
+  .control-1,
+  .control-2 {
+    position: static;
+    align-self: flex-end;
+    font-size: 11px;
+  }
+
+  // A roll badge pinned inside its own input (e.g. Base Attack, Grapple), distinct
+  // from the .control-N affordances above — needs its own stacking context since
+  // .field isn't position:relative by default.
+  &.field-roll {
+    position: relative;
+
+    input {
+      padding-right: 20px;
+    }
+  }
+}
+
+.roll-badge {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--swse-accent);
+  color: var(--swse-bg);
+  font-size: 9px;
+  cursor: pointer;
+  z-index: 1;
+
+  &:hover {
+    background: var(--swse-text);
+  }
+}
+
+// Sits just to the left of .roll-badge (Base Attack/Grapple) — check it to have the next roll
+// prompt for an extra situational bonus instead of rolling immediately. `.field-roll input`
+// (element+class, beats the shared `.field input[type]` rule's width:100%/height:auto/etc. —
+// otherwise this renders as a second full-width boxy field instead of a small checkbox).
+.field-roll input.roll-bonus-toggle {
+  position: absolute;
+  bottom: 7px;
+  right: 24px;
+  width: 12px;
+  height: 12px;
+  min-height: 0;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+
+/* Ability scores: all six across one row instead of six stacked rows */
+.ability-strip {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: $space-xs;
+}
+
+// Label / big modifier / score / temp — the dnd5e ability-block pattern, which
+// puts the number you actually roll with front and centre.
+.ability-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  text-align: center;
+  padding: 0 0 $space-2xs;
+  background: var(--swse-surface-raised);
+  border: 1px solid var(--swse-border);
+  border-radius: $radius-sm;
+  min-width: 0;
+  overflow: hidden;
+
+  .ability-name {
+    display: block;
+    font-family: $font-display;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    color: var(--swse-bg);
+    background: var(--swse-accent-muted);
+    padding: 2px 0;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover {
+      background: var(--swse-accent);
+      color: var(--swse-bg);
+    }
+  }
+
+  .ability-mod {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.1;
+    padding: $space-2xs 0 0;
+    color: var(--swse-text);
+  }
+
+  .ability-score,
+  .ability-temp {
+    padding: 0 $space-2xs;
+  }
+
+  .ability-temp {
+    margin-top: 2px;
+  }
+
+  input[type] {
+    width: 100%;
+    min-width: 0;
+    height: 22px;
+    // _forms.scss sets min-height:32px on text/number inputs; without this the
+    // compact cells can't actually get shorter.
+    min-height: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    background: var(--swse-bg);
+    border: 1px solid var(--swse-border);
+    border-radius: $radius-sm;
+    color: var(--swse-text);
+    opacity: 1;
+  }
+
+  // Temp/misc bonus is secondary — visually recede it so it reads as an adjustment
+  .ability-temp input[type] {
+    height: 17px;
+    font-size: 10px;
+    font-weight: 400;
+    color: var(--swse-text-muted);
+    background: transparent;
+    border-style: dashed;
+  }
+}
+
+.ability-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $space-xs;
+
+  button {
+    flex: 1 1 auto;
+    padding: $space-2xs $space-sm;
+    font-size: 11px;
+  }
+}
+
+/* Skills: two-column grid of flex rows, replacing the old single-column table
+   (and its rotated -25deg headers, which were unreadable). */
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  gap: $space-2xs;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skill-row {
+  display: flex;
+  align-items: center;
+  gap: $space-xs;
+  min-height: 26px;
+  padding: 0 $space-xs;
+  border-radius: $radius-sm;
+  min-width: 0;
+  // Flat background on every row — row striping can't work here because the
+  // column count varies with panel width (auto-fill), so nth-child can't track
+  // visual rows.
+  background: var(--swse-surface-raised);
+
+  &.depth-1 {
+    padding-left: $space-lg;
+  }
+}
+
+.skill-row-header {
+  background: transparent;
+  margin-bottom: $space-2xs;
+
+  .skill-name,
+  .skill-total,
+  .skill-ability,
+  .skill-trained,
+  .skill-bonus {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--swse-text-muted);
+  }
+}
+
+/* Fixed-width numeric cells keep every row's columns aligned without a table */
+.skill-toggle  { width: 12px; flex: 0 0 12px; font-size: 10px; }
+.skill-roll    { width: 16px; flex: 0 0 16px; text-align: center; }
+.skill-name    { flex: 1 1 auto; min-width: 0; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--swse-text); }
+.skill-total   { width: 24px; flex: 0 0 24px; text-align: right; font-size: 12px; font-weight: 700; color: var(--swse-text); }
+.skill-ability { width: 44px; flex: 0 0 44px; text-align: right; font-size: 10px; color: var(--swse-text-muted); }
+.skill-trained { width: 22px; flex: 0 0 22px; display: flex; justify-content: center; }
+.skill-bonus   { width: 38px; flex: 0 0 38px; }
+
+.skill-row {
+  input[type=checkbox] {
+    width: 14px;
+    height: 14px;
+    margin: 0;
+    border-width: 1px;
+    border-radius: 3px;
+
+    &:before {
+      width: 6px;
+      height: 6px;
+    }
+  }
+
+  .skill-bonus input[type] {
+    width: 100%;
+    min-width: 0;
+    height: 20px;
+    min-height: 0;
+    padding: 0 $space-2xs;
+    text-align: center;
+    font-size: 11px;
+    background: var(--swse-bg);
+    border: 1px solid var(--swse-border);
+    border-radius: $radius-sm;
+    color: var(--swse-text);
+  }
+}
+
+/* Compact stat rows used by health/defenses/condition panels */
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: $space-xs;
+
+  &.cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+  > * { min-width: 0; }
+}
+
+/* Defenses: one row per defense, columns aligned by the parent grid */
+.defense-table {
+  display: grid;
+  // name + total + base/level-armor/ability + the two assignable point pools + misc
+  grid-template-columns: minmax(0, 1fr) repeat(7, 30px);
+  gap: $space-2xs $space-xs;
+  align-items: center;
+
+  .defense-head {
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--swse-text-muted);
+  }
+
+  // Explicit color: Foundry core forces a near-black text color on plain divs
+  // inside sheet forms, which inheritance from .swse can't override.
+  .defense-name {
+    display: flex;
+    align-items: center;
+    gap: $space-2xs;
+    font-size: 12px;
+    font-weight: 700;
+    min-width: 0;
+    color: var(--swse-text);
+  }
+
+  input[type],
+  .defense-value {
+    width: 100%;
+    min-width: 0;
+    height: auto;
+    min-height: 0;
+    padding: $space-2xs;
+    text-align: center;
+    font-size: 12px;
+    background: var(--swse-bg);
+    border: 1px solid var(--swse-border);
+    border-radius: $radius-sm;
+    color: var(--swse-text);
+    opacity: 1;
+  }
+
+  .defense-total {
+    font-weight: 700;
+    background: var(--swse-control);
+  }
+
+  // The two assignable pools are the only editable cells in the table
+  input[type].defense-assign {
+    background: var(--swse-control);
+    border-color: var(--swse-accent-muted);
+    color: var(--swse-text);
+
+    &.locked {
+      background: transparent;
+      border-style: dashed;
+      color: var(--swse-text-muted);
+    }
+  }
+}
+
+.defense-budget {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $space-sm;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--swse-text-muted);
+
+  .over-budget {
+    color: var(--swse-accent-darkside);
+  }
+
+  .budget-locked {
+    font-weight: 400;
+    font-style: italic;
+    text-transform: none;
+    letter-spacing: 0;
+  }
+}
+
+.defense-additional-modifier {
+  display: flex;
+  flex-direction: column;
+  gap: $space-2xs;
+  margin-top: $space-2xs;
+
+  .defense-additional-modifier-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--swse-text-muted);
+  }
+
+  .defense-additional-modifier-rows {
+    display: flex;
+    flex-direction: column;
+    gap: $space-2xs;
+  }
+
+  label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: $space-2xs;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--swse-text-muted);
+  }
+
+  input[type=number] {
+    width: 36px;
+    min-height: 0;
+    height: 20px;
+    padding: 0 $space-2xs;
+    text-align: center;
+    font-size: 11px;
+  }
+}
+
+/* A panel header that carries an action button alongside its title */
+.panel-heading-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: $space-sm;
+}
+
+.long-rest-button, .first-aid-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: $space-xs;
+  width: 100%;
+  min-width: 0;
+  height: 28px;
+  padding: 0 $space-sm;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/* The headline HP numbers get real visual weight — they're read constantly. */
+.hp-headline {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: $space-xs;
+  padding: $space-xs;
+  background: var(--swse-surface-raised);
+  border: 1px solid var(--swse-border);
+  border-radius: $radius-sm;
+
+  .hp-divider {
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--swse-text-muted);
+  }
+
+  .field > label { text-align: center; }
+
+  input[type] {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    height: 34px;
+    min-height: 0;
+    padding: 0;
+  }
+}
+
+/* Force / Destiny point pools — current over max, mirroring the HP treatment */
+.point-pools {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: $space-sm;
+}
+
+.point-pool {
+  display: flex;
+  flex-direction: column;
+  gap: $space-2xs;
+  padding: $space-xs;
+  background: var(--swse-surface-raised);
+  border: 1px solid var(--swse-border);
+  border-radius: $radius-sm;
+  min-width: 0;
+}
+
+.point-pool-label {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--swse-text-muted);
+}
+
+.point-pool-values {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: $space-2xs;
+
+  // Bonus Force Points is a single manually-tracked total, not a current/max pair
+  &.single { grid-template-columns: minmax(0, 1fr); }
+
+  input[type] {
+    width: 100%;
+    min-width: 0;
+    height: 28px;
+    min-height: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    background: var(--swse-bg);
+    border: 1px solid var(--swse-border);
+    border-radius: $radius-sm;
+    color: var(--swse-text);
+    opacity: 1;
+  }
+
+  // The max is derived, so recede it against the editable current value
+  input[type]:disabled {
+    color: var(--swse-text-muted);
+    background: transparent;
+  }
+}
+
+.point-pool-divider {
+  font-size: 15px;
+  font-weight: 300;
+  color: var(--swse-text-muted);
+}
+
+/* "FALLEN" badge — only rendered once the dark side score maxes out */
+.darkside-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: $space-sm;
+}
+
+.fallen-badge {
+  font-family: $font-display;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--swse-accent-darkside);
+  border: 1px solid var(--swse-accent-darkside);
+  border-radius: $radius-sm;
+  padding: 1px $space-xs;
+  white-space: nowrap;
+}
+
+/* Dark side track: real pips, filled up to the current score */
+.darkside-track {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: $space-2xs;
+
+  label {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 1px;
+    font-size: 9px;
+    color: var(--swse-text-muted);
+    cursor: pointer;
+  }
+
+  input[type=radio],
+  input[type=checkbox] {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    border-width: 1px;
+  }
+
+  // .dark-side-button carries a legacy fixed 30x50 size from the old layout
+  .dark-side-button {
+    // --pip-t is the pip's raw 0..1 position (set inline). Dark Side taint is a
+    // slippery slope, so saturation follows an ease-out curve — the first step of
+    // corruption already shows clearly. Lightness instead blends that curve with the
+    // linear position, because a pure ease-out flattens at the top and made the last
+    // few pips indistinguishable; the blend keeps darkening all the way to the end.
+    --pip-curve: calc(1 - (1 - var(--pip-t, 0)) * (1 - var(--pip-t, 0)));
+    --pip-depth: calc((var(--pip-curve) + var(--pip-t, 0)) / 2);
+    --pip-shade: hsl(
+      0,
+      calc(var(--pip-curve) * 100%),
+      calc(100% - var(--pip-depth) * 72%)
+    );
+
+    width: 15px;
+    height: 15px;
+    min-width: 0;
+    min-height: 0;
+    padding: 0;
+    border-radius: 50%;
+    border-color: var(--pip-shade);
+
+    // Every pip at or below the current score reads as "spent"
+    &.lessthan,
+    &:checked {
+      background: var(--pip-shade);
+    }
+
+    &:before { display: none; }
+  }
+}
+
+/* Rows of spendable toggles (Second Wind, First Aid) */
+.toggle-track {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: $space-2xs;
+  min-height: 18px;
+
+  input[type=checkbox] {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    border-width: 1px;
+    border-radius: 3px;
+  }
+
+  .toggle-empty {
+    font-size: 10px;
+    font-style: italic;
+    color: var(--swse-text-muted);
+  }
+}
+
+/* Gravity and similar option sets: label sits beside its control, inline */
+.radio-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: $space-sm;
+
+  label {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: $space-2xs;
+    font-size: 11px;
+    color: var(--swse-text);
+    white-space: nowrap;
+  }
+
+  input[type=radio] {
+    width: 14px;
+    height: 14px;
+    margin: 0;
+    border-width: 1px;
+  }
+}

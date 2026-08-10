@@ -1,0 +1,35 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Movement Systems",
+    "changes": [],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><table class=\"wikitable\">\n <tbody>\n  <tr>\n   <th>NAVICOMPUTER</th>\n   <th>EMPLACEMENT POINTS</th>\n   <th>AVAILABILITY</th>\n   <th>SIZE RESTRICTION</th>\n   <th>COST</th>\n  </tr>\n  <tr>\n   <td>Limited</td>\n   <td>0</td>\n   <td>Common</td>\n   <td>-</td>\n   <td>500</td>\n  </tr>\n  <tr>\n   <td>Standard</td>\n   <td>1</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Licensed\" class=\"mw-redirect\" title=\"Licensed\">Licensed</a></td>\n   <td>-</td>\n   <td>2000</td>\n  </tr>\n  <tr>\n   <td>Advanced</td>\n   <td>2</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Licensed\" class=\"mw-redirect\" title=\"Licensed\">Licensed</a></td>\n   <td>-</td>\n   <td>20,000</td>\n  </tr>\n </tbody>\n</table><p>A Navicomputer is an astrogation calculator designed to make all the calculations necessary to travel through Hyperspace. Most Starships have Navicomputers, but those that lack <a href=\"https://swse.fandom.com/wiki/Hyperdrive\" title=\"Hyperdrive\">Hyperdrives</a> and some fighters that depend on Astromech Droids do not.</p><p>Though extremely expensive, Advanced Navicomputers exist. These grant a +10 bonus on <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> checks made for <a href=\"https://swse.fandom.com/wiki/Astrogation\" title=\"Astrogation\">Astrogation</a>, rather than a typical Navicomputer's +5 bonus. Additionally, a character aboard a ship that has a Navicomputer need not be <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in the <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> Skill to make use of the <a href=\"https://swse.fandom.com/wiki/Astrogation\" title=\"Astrogation\">Astrogation</a> aspect of the Skill.</p><h3><span class=\"mw-headline\" id=\"Navicomputers_in_Starfighters\">Navicomputers in Starfighters</span></h3><p>Most Navicomputers are <a href=\"https://swse.fandom.com/wiki/Nonstandard_Modifications\" class=\"mw-redirect\" title=\"Nonstandard Modifications\">Nonstandard Modifications</a> for <a href=\"https://swse.fandom.com/wiki/Starfighters\" title=\"Starfighters\">Starfighters</a>- these ships simply don't have the room for the memory core required to store and track the locations of untold billions of celestial objects. Instead, <a href=\"https://swse.fandom.com/wiki/Starfighters\" title=\"Starfighters\">Starfighters</a> often have Limited Navicomputers that store only two jumps' worth of information, enough to get to a destination and return. Some Limited Navicomputers have a greater memory capacity, but these are rare and more expensive.</p>",
+    "cost": "2000",
+    "emplacementPoints": "1",
+    "astrogationBonus": "5",
+    "availability": "Licensed"
+  },
+  "name": "Navicomputer",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848316805,
+    "modifiedTime": 1759848316805,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "z0HnbThXvumL5wv6",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!z0HnbThXvumL5wv6"
+}

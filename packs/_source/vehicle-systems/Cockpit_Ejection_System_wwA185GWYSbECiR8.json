@@ -1,0 +1,66 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Starship Accessories",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Gargantuan or Colossal",
+          "requirement": "Gargantuan",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Gargantuan or Colossal",
+          "requirement": "Colossal",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Gargantuan or Colossal",
+          "requirement": "Colossal (Frigate)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Gargantuan or Colossal",
+          "requirement": "Colossal (Cruiser)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Gargantuan or Colossal",
+          "requirement": "Colossal (Station)",
+          "type": "TRAIT"
+        }
+      ],
+      "count": 1,
+      "text": "Gargantuan or Colossal",
+      "type": "OR"
+    },
+    "changes": [],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a> </i></p><p><b>Emplacement Points:&nbsp;</b> 2</p><p><b>Size Restriction:&nbsp;</b> Gargantuan or Colossal</p><p>A popular modification for tramp freighters and bounty hunter <a href=\"https://swse.fandom.com/wiki/Starfighters\" title=\"Starfighters\">Starfighters</a>, a Cockpit Ejection System allows a ship's cockpit to eject in the event of the ship's destruction, and subsequently act as an <a href=\"https://swse.fandom.com/wiki/Escape_Pod\" title=\"Escape Pod\">Escape Pod</a>. When the Starship is destroyed, the <a href=\"https://swse.fandom.com/wiki/Pilot_(Vehicle_Combat)\" title=\"Pilot (Vehicle Combat)\">Pilot</a> makes a DC 20 <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> check. If the check is successful, the cockpit ejects without its inhabitants taking any damage from the destruction of their ship. On a failed check, those within the cockpit take half the damage that exceeds the ship's <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a>, as normal, before the cockpit manages to separate.</p>",
+    "cost": "8000",
+    "emplacementPoints": "2",
+    "availability": "Common"
+  },
+  "name": "Cockpit Ejection System",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317792,
+    "modifiedTime": 1759848317792,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "wwA185GWYSbECiR8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!wwA185GWYSbECiR8"
+}

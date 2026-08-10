@@ -1,0 +1,69 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You understand the subtleties and limitations of your <a href=\"https://swse.fandom.com/wiki/Heuristic_Processor\" title=\"Heuristic Processor\">Heuristic Processor</a>. You can reroll any <a href=\"https://swse.fandom.com/wiki/Untrained\" class=\"mw-redirect\" title=\"Untrained\">Untrained</a> <a href=\"https://swse.fandom.com/wiki/Skill_Check\" class=\"mw-redirect\" title=\"Skill Check\">Skill Check</a> (except <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a>), but the result of the reroll must be accepted, even if it is worse. Once per encounter, you can spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> to reroll any <a href=\"https://swse.fandom.com/wiki/Skill_Check\" class=\"mw-redirect\" title=\"Skill Check\">Skill Check</a> (<a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> or <a href=\"https://swse.fandom.com/wiki/Untrained\" class=\"mw-redirect\" title=\"Untrained\">Untrained</a>), keeping the better of the two results.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:You understand the subtleties and limitations of your<a href=\"https://swse.fandom.com/wiki/Heuristic_Processor\" title=\"Heuristic Processor\">Heuristic Processor</a>. You can reroll any<a href=\"https://swse.fandom.com/wiki/Untrained\" class=\"mw-redirect\" title=\"Untrained\">Untrained</a><a href=\"https://swse.fandom.com/wiki/Skill_Check\" class=\"mw-redirect\" title=\"Skill Check\">Skill Check</a>(except<a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a>), but the result of the reroll must be accepted, even if it is worse. Once per encounter, you can spend a<a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a>to reroll any<a href=\"https://swse.fandom.com/wiki/Skill_Check\" class=\"mw-redirect\" title=\"Skill Check\">Skill Check</a>(<a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a>or<a href=\"https://swse.fandom.com/wiki/Untrained\" class=\"mw-redirect\" title=\"Untrained\">Untrained</a>), keeping the better of the two results.",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Wisdom 15",
+      "requirement": "Wisdom 15",
+      "type": "ATTRIBUTE"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Independent Droid Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Independent Droid Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Elite Droid Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Elite_Droid_Talent_Tree",
+    "bonusTalentTree": "Elite Droid Talent Tree",
+    "source": "Star Wars Saga Edition Scavenger's Guide to Droids",
+    "cost": "0"
+  },
+  "name": "Heuristic Mastery",
+  "flags": {},
+  "type": "talent",
+  "folder": "WQvxkq6OUhZiis9m",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385304466,
+    "modifiedTime": 1734385304466,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "CMkpdpqgW1r5ZSDn",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!CMkpdpqgW1r5ZSDn"
+}

@@ -1,0 +1,74 @@
+{
+  "img": "systems/swse/icon/feat/Empathic_Inspiration.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<table style=\"width:100%; margin-top:2em; border:2px solid #999; font-size:105%; text-align:center; background:#00008B;\">\n <tbody>\n  <tr>\n   <td><i><b>This <a href=\"https://swse.fandom.com/wiki/Homebrew_Content\" title=\"Homebrew Content\">Homebrew Content</a> has been <a href=\"https://swse.fandom.com/wiki/Category:Tested\" title=\"Category:Tested\">Tested</a> per the <a href=\"https://swse.fandom.com/wiki/Category:Untested\" title=\"Category:Untested\">Untested</a> guidelines. Whether or not it can be used is, as always, the prerogative of the Gamemaster.</b></i></td>\n  </tr>\n </tbody>\n</table><p><i>Empathic Inspiration Feat data created by Wikia user SunsetMage001.</i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a>, <a href=\"https://swse.fandom.com/wiki/Species_Feats\" class=\"mw-redirect\" title=\"Species Feats\">Species Feats</a></i></p><p>Your Species are known for their high levels of empathy, and are easily influenced by both positive and negative emotions.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Zeltron\" title=\"Zeltron\">Zeltron</a></p><p><b>Effect:</b> Whenever you receive a morale or insight bonus from any source, the bonus increases by +1. However, whenever you receive a penalty to your <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a>, increase the penalty by -1.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Zeltron species",
+      "requirement": "Zeltron",
+      "type": "SPECIES"
+    },
+    "categories": [
+      {
+        "value": "Species Feats"
+      },
+      {
+        "value": "SunsetMage001 Creations"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Tested"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "",
+    "cost": "0"
+  },
+  "name": "Empathic Inspiration",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479026772,
+    "modifiedTime": 1761479026772,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "fzXhsKwWEMEWafPf",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!fzXhsKwWEMEWafPf"
+}

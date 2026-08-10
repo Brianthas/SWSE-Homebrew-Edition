@@ -1,0 +1,78 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Once per encounter, when using the <b>Resilience</b> Talent or the <a href=\"https://swse.fandom.com/wiki/Recover\" title=\"Recover\">Recover</a> Action and you are at one-half your total Hit Points or less, you regain a number of Hit Points equal to your Character Level.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Resilience talent",
+          "requirement": "Resilience",
+          "type": "TALENT"
+        },
+        {
+          "text": "Trained in Endurance",
+          "requirement": "Endurance",
+          "type": "TRAINED SKILL"
+        }
+      ],
+      "text": "Resilience talent, and Trained in Endurance",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Jedi Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Jedi Talent Trees",
+      "Core Rulebook"
+    ],
+    "isSupplied": false,
+    "talentTree": "Jedi Guardian Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Jedi_Guardian_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Legacy of the Force Sourcebook",
+    "cost": "0"
+  },
+  "name": "Mettle",
+  "flags": {},
+  "type": "talent",
+  "folder": "22BGYiGqhFl2GFVp",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385306902,
+    "modifiedTime": 1734385306902,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "E9SRU3fLWCMPZ98b",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!E9SRU3fLWCMPZ98b"
+}

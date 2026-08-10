@@ -1,0 +1,148 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Legacy_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Legacy Era Campaign Guide\">Star Wars Saga Edition Legacy Era Campaign Guide</a></i> </p><p>The Weequay are well-known throughout the galaxy for their violent tendencies and lack of individuality. Deeply spiritual, they worship a broad pantheon of deities, the most senior of which is known as Quay. Zealous Weequay perform ritual sacrifices in Quay's honor, at times resorting to murder. Such incidents have done little to dispel their violent reputation. </p><p>Each Weequay carries a spherical totem through which Quay allegedly speaks. The totem is used in times of great need to guide the Weequay, providing spiritual answers to individual questions. In practice, the Weequay asks a question, shakes the device, and waits for the answer to appear. A Weequay treats the totem's advice seriously and becomes angry and violent if such advice is questioned or ridiculed. </p><p>Male Weequay ply the galaxy as thugs, mercenaries, and hired assassins, while female Weequay rarely, if ever, leave <a href=\"https://swse.fandom.com/wiki/Sriluur\" title=\"Sriluur\">Sriluur</a>. A Male Weequay who leaves Sriluur grows and cultivates a long braid, which is then shorn off upon his return to the homeworld in celebration. Weequay who are born off-world or adopted into other societies at an early age often develop more individualistic personalities than their deep-rooted cousins. </p><h3><span class=\"mw-headline\" id=\"Weequay_Characteristics\">Weequay Characteristics</span></h3><p><b>Personality:</b> Weequay are bullying, brooding, and superstitious by nature, Their culture does not assign names to individuals, as all Weequay are considered to be part of the same whole. They maintain a sinister silence, refusing to speak in the presence of non-Weequay, preferring instead to use trusted intermediaries to do their talking for them. Those raised apart from traditional values find their own voices and seldom integrate well back into Weequay society. </p><p><b>Physical Description:</b> Weequay are humanoids with thick, leathery skin that ranges in color from tan to dark brown. Their faces are lipless, with flat noses and a well-defined frill along each of their jowls. Males grow their black hair into long braids, while females are bald. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Weequay age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-12 Years </td> \n   <td>13-17 Years </td> \n   <td>18-49 Years </td> \n   <td>50-74 Years </td> \n   <td>75-89 Years </td> \n   <td>90+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The arid planet of <a href=\"https://swse.fandom.com/wiki/Sriluur\" title=\"Sriluur\">Sriluur</a> in <a href=\"https://swse.fandom.com/wiki/The_Outer_Rim\" title=\"The Outer Rim\">The Outer Rim</a>. </p><p><b>Languages:</b> A Weequay relies on pheromones to communicate with other members of his or her tribe. Communication between tribes involves the spoken language of Sriluurian, which consists of whispers, hisses, and throaty mumbles. Written Sriluurian involves a multitude of complex hieroglyphics and pictographs. </p><p><b>Example Names:</b> Weequay do not take names within their own society, though members of other <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> often give individual Weequay nicknames. Examples of such monikers include: Adazian Liebke, Ak-buz, Ak-rev, Diergu-Rea Duhnes'rd, Fyg, Grimorg, Labansat, Nort Toom, Plaan, Que-Mars Redath-Gom, Solum'ke, Sora Bulq, and Tas Kee. </p><p><b>Adventurers:</b> Weequay are so attached to their tribes that it is rare for an individual to venture into the galaxy alone. It is far more common for bands of like-minded Weequay to ply their martial skills and propensity for violence as a group. Their quiet nature and ability to work as a team make them particularly attractive to the <a href=\"https://swse.fandom.com/wiki/Hutt\" title=\"Hutt\">Hutts</a> and various criminal syndicates as guards and enforcers. Thus, Weequay <a href=\"https://swse.fandom.com/wiki/Scouts\" class=\"mw-redirect\" title=\"Scouts\">Scouts</a> and <a href=\"https://swse.fandom.com/wiki/Soldiers\" class=\"mw-redirect\" title=\"Soldiers\">Soldiers</a> are quite common. </p><h3><span class=\"mw-headline\" id=\"Weequay_Species_Traits\">Weequay Species Traits</span></h3><p>Weequay share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Natural Armor (+1)",
+        "type": "trait"
+      },
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Endurance))",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Expressive Pheromones",
+        "type": "trait"
+      },
+      {
+        "name": "Skill Focus (Endurance)",
+        "type": "feat"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "74",
+          "low": "50",
+          "text": "50-74",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "89",
+          "low": "75",
+          "text": "75-89",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "12",
+          "low": "1",
+          "text": "1-12",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "90",
+          "text": "90+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "17",
+          "low": "13",
+          "text": "13-17",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "49",
+          "low": "18",
+          "text": "18-49",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Natural Armor (+1)"
+      },
+      {
+        "value": "Conditional Bonus Feat (Skill Focus (Endurance))"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Natural Armor"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Weequays"
+      },
+      {
+        "value": "Conditional Bonus Feat"
+      },
+      {
+        "value": "Expressive Pheromones"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Weequay",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535567732,
+    "modifiedTime": 1736535567732,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "byz4I7SBoU8Cfcep",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!byz4I7SBoU8Cfcep"
+}

@@ -1,8 +1,9 @@
 import {SimpleCache} from "../../common/simple-cache.mjs";
-import {Attack} from "./attack.mjs";
+import {Attack, CUSTOM_ATTACK_PREFIX} from "./attack.mjs";
 import {getInheritableAttribute} from "../../attribute-helper.mjs";
 import {equippedItems, getBonusString, handleAttackSelect} from "../../common/util.mjs";
 import {createAttackMacro} from "../../swse.mjs";
+import {characterActorTypes} from "../../common/constants.mjs";
 
 
 export class AttackDelegate {
@@ -24,7 +25,7 @@ export class AttackDelegate {
 
     get attacks(){
         return this.getCached("attacks", () => {
-            if (this.actor.type === "character" || this.actor.type === "npc") {
+            if (characterActorTypes.includes(this.actor.type)) {
                 return this.generateAttacks(this.actor);
             } else {
                 return this.generateVehicleAttacks(this.actor);
@@ -56,6 +57,11 @@ export class AttackDelegate {
 
         const actorUUID = actor.uuid;
         let attacks = weaponUuids.map(uuid => Attack.create({actorId: actorUUID, operatorId: actorUUID, weaponId: uuid}));
+
+        // Homebrew: attacks that aren't tied to any equipped item (e.g. Grapple) — see
+        // custom-attack-item.mjs.
+        let customAttacks = actor.system.customAttacks || [];
+        attacks.push(...customAttacks.map(config => Attack.create({actorId: actorUUID, operatorId: actorUUID, weaponId: `${CUSTOM_ATTACK_PREFIX}${config.id}`})));
 
         let items = actor.getItemsFromRelationships()
 
@@ -414,12 +420,29 @@ function getHandsFromAttackOptions(options) {
     return hands;
 }
 
+// Homebrew: reads the toggled lightsaber ability choice (Strength/Dexterity baseline, or
+// Ataru/Kinetic Combat/Noble Fencing Style) from the attack dialog.
+function getLightsaberAbilityFromAttackOptions(options) {
+    let value = "str_dex";
+    options.find(".lightsaber-ability-modifier").each((i, option) => {
+        if ((option.type === "radio" || option.type === "checkbox") && option.checked) {
+            try {
+                value = JSON.parse(option.value);
+            } catch (e) {
+                value = option.value;
+            }
+        }
+    })
+    return value;
+}
+
 function setAttackPreviewValues(preview, attack, options, context) {
 
     populateHandsIndicator(context.dialog, context.availableHands)
 
     preview.empty();
     attack.hands = getHandsFromAttackOptions(options);
+    attack.lightsaberAbility = getLightsaberAbilityFromAttackOptions(options);
     let damageRoll = `${attack.damageRoll?.formattedFormula}` + getModifiersFromContextAndInputs(options, ".damage-modifier", context.damageMods).map(bonus => `<span title="${bonus.source}">${bonus.value}</span>`).join('');
     let attackRoll = `${attack.attackRoll?.formattedFormula}` + getModifiersFromContextAndInputs(options, ".attack-modifier", context.attackMods).map(bonus => `<span title="${bonus.source}">${bonus.value}</span>`).join('');
     preview.append(`<div class="flex flex-col"><div>Attack Roll: <div class="attack-roll flex flex-row">${attackRoll}</div></div><div>Damage Roll: <div class="damage-roll flex flex-row">${damageRoll}</div></div>`)
@@ -447,6 +470,7 @@ function populateItemStats(html, context) {
     options.find(".damage-modifier").on("change", () => setAttackPreviewValues(total, attack, options, context))
     options.find(".damage-modifier").on("submit", () => setAttackPreviewValues(total, attack, options, context))
     options.find(".hands-modifier").on("click", () => setAttackPreviewValues(total, attack, options, context))
+    options.find(".lightsaber-ability-modifier").on("click", () => setAttackPreviewValues(total, attack, options, context))
 
     setAttackPreviewValues(total, attack, options, context);
 }
@@ -489,6 +513,7 @@ function createAttackFromAttackBlock(attackBlock, attackMods, damageMods) {
     const options = $(attackBlock).find(".attack-options")[0]
 
     attack.hands = getHandsFromAttackOptions($(options));
+    attack.lightsaberAbility = getLightsaberAbilityFromAttackOptions($(options));
 
     return attack;
 }
@@ -570,6 +595,7 @@ async function getAttacks(attack, data) {
  * @param data.rollMode
  * @param data.attackKeys {[string]}
  * @param data.changes {[(string, string)]}
+ * @param data.advantageMode {"advantage"|"disadvantage"|undefined} roll 2d20 keep-highest/lowest instead of a plain 1d20
  * @return {Promise<abstract.Document|abstract.Document[]|undefined>}
  */
 export async function makeAttack(data) {
@@ -581,7 +607,7 @@ export async function makeAttack(data) {
     let rollOrder = 1;
     let resolvedAttackData = [];
     for (let attack of attacks) {
-        let resolvedAttack = await attack.resolve(data.changes)
+        let resolvedAttack = await attack.resolve(data.changes, data.advantageMode)
 
         rolls.push(resolvedAttack.attack)
         rolls.push(resolvedAttack.damage)
@@ -604,6 +630,11 @@ export async function makeAttack(data) {
     let flavor = attacks[0].name;
     if (attacks.length > 1) {
         flavor = "Full Attack " + flavor;
+    }
+    if (data.advantageMode === "advantage") {
+        flavor += " (Advantage)";
+    } else if (data.advantageMode === "disadvantage") {
+        flavor += " (Disadvantage)";
     }
     const pool = foundry.dice.terms.PoolTerm.fromRolls(rolls);
     let roll = Roll.fromTerms([pool]);

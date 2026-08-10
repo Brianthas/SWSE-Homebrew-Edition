@@ -1,0 +1,167 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p>Amphibious land-dwellers, the Mon Calamari share their Outer Rim homeworld with the aquatic <a href=\"https://swse.fandom.com/wiki/Quarren\" title=\"Quarren\">Quarren</a>. They tend to be soft-spoken but vigorously defend causes that inspire them. Mon Calamari suffered under great oppression under <a href=\"https://swse.fandom.com/wiki/The_Galactic_Empire\" title=\"The Galactic Empire\">The Galactic Empire</a>; thus, it was one of the first worlds to declare support for <a href=\"https://swse.fandom.com/wiki/The_Rebel_Alliance\" title=\"The Rebel Alliance\">The Rebel Alliance</a>.</p><p>Mon Calamari are widely recognized for their keen analytical and organizational abilities, and they have developed a reputation as being among the foremost ship designers in the galaxy. They see everything they create as a work of art, not just a tool or weapon. </p><h3><span class=\"mw-headline\" id=\"Mon_Calamari_Characteristics\">Mon Calamari Characteristics</span></h3><p><b>Personality:</b> Creative, quiet, and inquisitive, the Mon Calamari are dreamers who cherish peace, but aren't afraid to fight for the causes they believe in. </p><p><b>Physical Description:</b> The average Mon Calamari stands 1.8 meters tall. They have high-domed heads, large eyes, and smooth, mottled skin. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Mon Calamari age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-16 Years </td> \n   <td>17-40 Years </td> \n   <td>41-57 Years </td> \n   <td>58-79 Years </td> \n   <td>80+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The watery world of <a href=\"https://swse.fandom.com/wiki/Mon_Calamari_(Planet)\" title=\"Mon Calamari (Planet)\">Mon Calamari</a>. </p><p><b>Languages:</b> The Mon Calamari can speak, read, and write both Mon Calamarian and Basic. Most tend to also learn Quarrenese as well. </p><p><b>Example Names:</b> Ackbar, Bant, Cilhal, Ibtisam, Jesmin, Oro, Perit, Rekara. </p><p><b>Adventurers:</b> Mon Calamari seek their dreams among the stars. They are idealistic and daring, often attaching themselves to causes that seem hopeless or lost right from the start. They strive to prove that even thinkers and dreamers can be brave and daring when the need arises. </p><h3><span class=\"mw-headline\" id=\"Mon_Calamari_Species_Traits\">Mon Calamari Species Traits</span></h3><p>Mon Calamari share the following Species Traits: </p><h2><span class=\"mw-headline\" id=\"Additional_Mon_Calamari_Species_Feats\">Additional Mon Calamari Species Feats</span></h2><p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Rebellion_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Rebellion Era Campaign Guide\">Star Wars Saga Edition Rebellion Era Campaign Guide</a></i> </p><p>Mon Calamari characters have access to the following <a href=\"https://swse.fandom.com/wiki/Species_Feats\" class=\"mw-redirect\" title=\"Species Feats\">Species Feats</a>. No Species Feats are considered Bonus Feats for any <a href=\"https://swse.fandom.com/wiki/Heroic_Class\" class=\"mw-redirect\" title=\"Heroic Class\">Heroic Class</a>. </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>SPECIES FEAT </th> \n   <th> </th> \n   <th>BENEFITS </th>\n  </tr> \n  <tr> \n   <td><a href=\"https://swse.fandom.com/wiki/Fast_Swimmer\" title=\"Fast Swimmer\">Fast Swimmer</a> </td> \n   <td> </td> \n   <td>Gain a bonus to your Swim Speed. </td>\n  </tr> \n  <tr> \n   <td><a href=\"https://swse.fandom.com/wiki/Mon_Calamari_Shipwright\" title=\"Mon Calamari Shipwright\">Mon Calamari Shipwright</a> </td> \n   <td> </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Reroute_Power\" class=\"mw-redirect\" title=\"Reroute Power\">Reroute Power</a> more quickly and without the risk of failure. </td>\n  </tr> \n  <tr> \n   <td><a href=\"https://swse.fandom.com/wiki/Sharp_Senses\" title=\"Sharp Senses\">Sharp Senses</a> </td> \n   <td> </td> \n   <td>Increase the die type when adding <a href=\"https://swse.fandom.com/wiki/Force_Points\" title=\"Force Points\">Force Points</a> to a <a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> check. </td>\n  </tr>\n </tbody>\n</table>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Perception))",
+        "type": "trait"
+      },
+      {
+        "name": "Mon Calamari",
+        "type": "trait"
+      },
+      {
+        "name": "Breathe Underwater",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Expert Swimmer",
+        "type": "trait"
+      },
+      {
+        "name": "Low-Light Vision",
+        "type": "trait"
+      },
+      {
+        "name": "Swimming",
+        "type": "trait"
+      },
+      {
+        "name": "Skill Focus (Perception)",
+        "type": "feat"
+      },
+      {
+        "name": "Swim Speed (4)",
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "16",
+          "low": "12",
+          "text": "12-16",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "80",
+          "text": "80+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "57",
+          "low": "41",
+          "text": "41-57",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "11",
+          "low": "1",
+          "text": "1-11",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "79",
+          "low": "58",
+          "text": "58-79",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "40",
+          "low": "17",
+          "text": "17-40",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Conditional Bonus Feat (Skill Focus (Perception))"
+      },
+      {
+        "value": "Mon Calamari"
+      },
+      {
+        "value": "Breathe Underwater"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Expert Swimmer"
+      },
+      {
+        "value": "Low-Light Vision"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Swimming"
+      },
+      {
+        "value": "Conditional Bonus Feat"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Mon Calamari",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535566688,
+    "modifiedTime": 1736535566688,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "asa7oUvAvDTnC9fI",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!asa7oUvAvDTnC9fI"
+}

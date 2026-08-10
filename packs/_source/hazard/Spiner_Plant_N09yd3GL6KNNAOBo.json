@@ -1,0 +1,73 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2d8",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A being touches a Spiner Plant.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "On Trigger",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Knowledge (Life Sciences) (DC 18): The character identifies the Spiner Plant. Perception (DC 23): The character spots the Spiner Plant before it attacks, gaining a +2 circumstance bonus to Reflex Defense against the Hazard. Stealth (DC 28): The character harvests the Spiner Plant without setting off its defense mechanism, gaining a +5 bonus to Reflex Defense against the Hazard.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: The thorns of the Spiner Plant deliver a Plant Toxin.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Contact",
+          "Natural",
+          "Poison"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>A rare and beautiful flowering plant has a deadly secret.</i> </p><p>The Spiner Plant, which grows only in moist, humid climates such as swamps, has a <a href=\"https://swse.fandom.com/wiki/Plant_Toxin\" title=\"Plant Toxin\">Plant Toxin</a> that can be processed to create a serum that treats a wide variety of <a href=\"https://swse.fandom.com/wiki/Diseases\" title=\"Diseases\">Diseases</a> and <a href=\"https://swse.fandom.com/wiki/Poisons\" title=\"Poisons\">Poisons</a>. However, harvesting the <a href=\"https://swse.fandom.com/wiki/Plant_Toxin\" title=\"Plant Toxin\">Plant Toxin</a> safely is a difficult task, because the plant shoots deadly thorns at creatures that brush against it. But an entire adventure could revolve around procuring a Spiner Plant to help in treating a deadly disease. </p><h2><span id=\"Spiner_Plant_Statistics_.28CL_8.29\"></span><span class=\"mw-headline\" id=\"Spiner_Plant_Statistics_(CL_8)\">Spiner Plant Statistics (CL 8)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Contact, Natural, Poison </p><p><b>Trigger:</b> A being touches a Spiner Plant. </p><p><b>Attack:</b> +10 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> On Trigger </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Knowledge_(Life_Sciences)\" class=\"mw-redirect\" title=\"Knowledge (Life Sciences)\">Knowledge (Life Sciences)</a></b> <b>(DC 18):</b> The character identifies the Spiner Plant.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a></b> <b>(DC 23):</b> The character spots the Spiner Plant before it attacks, gaining a +2 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against the Hazard.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a></b> <b>(DC 28):</b> The character harvests the Spiner Plant without setting off its defense mechanism, gaining a +5 bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against the Hazard.</li>\n</ul><p><b>Special:</b> The thorns of the Spiner Plant deliver a <a href=\"https://swse.fandom.com/wiki/Plant_Toxin\" title=\"Plant Toxin\">Plant Toxin</a>. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Spiner Plant",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244747,
+    "modifiedTime": 1749263244747,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "N09yd3GL6KNNAOBo",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!N09yd3GL6KNNAOBo"
+}

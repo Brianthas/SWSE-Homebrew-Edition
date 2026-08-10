@@ -1,0 +1,107 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode"
+        }
+      },
+      "statuses": [],
+      "disabled": false,
+      "name": "Single-Shot",
+      "_id": "svd9qk01SjhYfIZ4",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513510,
+        "modifiedTime": 1786051513510,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!RilM7UaKaZLjzSAY.svd9qk01SjhYfIZ4"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<table style=\"width:100%; margin-top:2em; border:2px solid #999; font-size:105%; text-align:center; background:#00008B;\"> \n <tbody>\n  <tr> \n   <td><i><b>This <a href=\"https://swse.fandom.com/wiki/Homebrew_Content\" title=\"Homebrew Content\">Homebrew Content</a> has been <a href=\"https://swse.fandom.com/wiki/Category:Tested\" title=\"Category:Tested\">Tested</a> per the <a href=\"https://swse.fandom.com/wiki/Category:Untested\" title=\"Category:Untested\">Untested</a> guidelines. Whether or not it can be used is, as always, the prerogative of the Gamemaster.</b></i> </td>\n  </tr>\n </tbody>\n</table><p><i>Homebrew Reference Book: <a href=\"https://swse.fandom.com/wiki/Dathomir_Field_Guide\" title=\"Dathomir Field Guide\">Dathomir Field Guide</a></i> </p><p>Energy Bows are energy weapons crafted and used by <a href=\"https://swse.fandom.com/wiki/The_Witches_of_Dathomir\" title=\"The Witches of Dathomir\">The Witches of Dathomir</a>. The bowstrings and arrows of the weapon were made of pure plasma, and emit a bright pink or purple glow. A solid grip In the middle of the bowstring allows the weapon to be held without harming the user. </p><p>An Energy Bow possesses the same <a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a> categories as a <a href=\"https://swse.fandom.com/wiki/Pistol\" class=\"mw-redirect\" title=\"Pistol\">Pistol</a>. Due to its simple construction, Energy Bows do not have any <a href=\"https://swse.fandom.com/wiki/Upgrade_Slots\" title=\"Upgrade Slots\">Upgrade Slots</a>. Members of <a href=\"https://swse.fandom.com/wiki/The_Witches_of_Dathomir\" title=\"The Witches of Dathomir\">The Witches of Dathomir</a> treat the Energy Bow as a <a href=\"https://swse.fandom.com/wiki/Simple_Weapon_(Ranged)\" class=\"mw-redirect\" title=\"Simple Weapon (Ranged)\">Simple Weapon (Ranged)</a>. </p><p>Like a standard <a href=\"https://swse.fandom.com/wiki/Bow\" title=\"Bow\">Bow</a>, the wielder's <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a>&nbsp;modifier applies to damage dealt with an Energy Bow. An Energy Bow may only hold a single plasma arrow at a time, but a new plasma arrow can be reloaded as a&nbsp;<a href=\"https://swse.fandom.com/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a>. An Energy Bow generates its plasma from an <a href=\"https://swse.fandom.com/wiki/Energy_Cell\" title=\"Energy Cell\">Energy Cell</a>. After 20 bolts of plasma, the <a href=\"https://swse.fandom.com/wiki/Energy_Cell\" title=\"Energy Cell\">Energy Cell</a> must be replaced. </p><p><b>Accurate:</b> This weapon takes no penalty when firing at targets at Short <a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a>. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "2,000 (800 on Dathomir)",
+    "weight": "4 Kilograms",
+    "availability": "Rare",
+    "size": "Medium",
+    "type": "",
+    "subtype": "Exotic Ranged Weapons",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "3d8",
+    "damageType": "Energy, Piercing"
+  },
+  "name": "Energy Bow",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Energy_Bow.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513510,
+    "modifiedTime": 1786051513582,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "RilM7UaKaZLjzSAY",
+  "_key": "!items!RilM7UaKaZLjzSAY"
+}

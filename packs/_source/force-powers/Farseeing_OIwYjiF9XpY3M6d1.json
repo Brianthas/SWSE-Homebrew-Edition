@@ -1,0 +1,74 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>See also: <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a></i> </p><p>You gain a vague, momentary impression of events happening around a particular being in some distant place. </p><p><b>Time:</b> <a href=\"https://swse.fandom.com/wiki/Full-Round_Action\" class=\"mw-redirect\" title=\"Full-Round Action\">Full-Round Action</a> </p><p><b>Targets:</b> One creature you know or have met with before. </p><p><b>Make a <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check.</b> If your result is less than the target's <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a>, you gain no information (including whether the target is alive or dead) and cannot use this <a href=\"https://swse.fandom.com/wiki/Force_Power\" class=\"mw-redirect\" title=\"Force Power\">Force Power</a> against the same target for 24 hours. If your check result equals or exceeds the target's <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a>, you can sense whether the target is alive or dead and gain a vague sense of its immediate surroundings, what it's currently doing, and any strong emotions it is presently feeling. A dead target has a <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a> of 30 for purposes of this <a href=\"https://swse.fandom.com/wiki/Force_Power\" class=\"mw-redirect\" title=\"Force Power\">Force Power</a>. </p><p><b>Special:</b> If you successfully use this <a href=\"https://swse.fandom.com/wiki/Force_Power\" class=\"mw-redirect\" title=\"Force Power\">Force Power</a>, you can spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> to gain a clear mental image of the target's surroundings, as well as other creatures and objects within 6 squares of it. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Full-Round Action",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "One creature you know or have met with before.",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": "Use the Force",
+        "key": "rollType"
+      },
+      {
+        "mode": 2,
+        "value": "See also: Force Powers You gain a vague, momentary impression of events happening around a particular being in some distant place. Time: Full-Round Action Targets: One creature you know or have met with before. Make a Use the Force check. If your result is less than the target's Will Defense, you gain no information (including whether the target is alive or dead) and cannot use this Force Power against the same target for 24 hours. If your check result equals or exceeds the target's Will Defense, you can sense whether the target is alive or dead and gain a vague sense of its immediate surroundings, what it's currently doing, and any strong emotions it is presently feeling. A dead target has a Will Defense of 30 for purposes of this Force Power. Special: If you successfully use this Force Power, you can spend a Force Point to gain a clear mental image of the target's surroundings, as well as other creatures and objects within 6 squares of it.",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Force Powers"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Farseeing",
+  "flags": {},
+  "type": "forcePower",
+  "img": "systems/swse/icon/force-power/Farseeing.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738608589857,
+    "modifiedTime": 1738608589857,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "OIwYjiF9XpY3M6d1",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!OIwYjiF9XpY3M6d1"
+}

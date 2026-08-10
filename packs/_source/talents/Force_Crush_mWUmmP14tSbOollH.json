@@ -1,0 +1,82 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Whenever you successfully activate a <a href=\"https://swse.fandom.com/wiki/Force_Power\" class=\"mw-redirect\" title=\"Force Power\">Force Power</a> with the [<i><a href=\"https://swse.fandom.com/wiki/Dark_Side\" class=\"mw-redirect\" title=\"Dark Side\">Dark Side</a></i>] descriptor that causes the target to move down the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>, they gain a <a href=\"https://swse.fandom.com/wiki/Persistent_Condition\" class=\"mw-redirect\" title=\"Persistent Condition\">Persistent Condition</a>, which can only be removed if the target receives <a href=\"https://swse.fandom.com/wiki/Surgery\" class=\"mw-redirect\" title=\"Surgery\">Surgery</a> (for living beings) or <a href=\"https://swse.fandom.com/wiki/Repairs\" class=\"mw-redirect\" title=\"Repairs\">Repairs</a> (for <a href=\"https://swse.fandom.com/wiki/Droids\" title=\"Droids\">Droids</a>, <a href=\"https://swse.fandom.com/wiki/Vehicles\" title=\"Vehicles\">Vehicles</a>, and objects).",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "At least one Force Technique",
+          "requirement": "1",
+          "type": "FORCE TECHNIQUE"
+        },
+        {
+          "text": "Dark Side Adept talent",
+          "requirement": "Dark Side Adept",
+          "type": "TALENT"
+        }
+      ],
+      "text": "At least one Force Technique, and Dark Side Adept talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Sith Apprentice Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Sith Lord Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Sith Apprentice Talent Trees",
+      "Core Rulebook",
+      "Sith Lord Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Sith Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Sith_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Legacy of the Force Sourcebook",
+    "cost": "0"
+  },
+  "name": "Force Crush",
+  "flags": {},
+  "type": "talent",
+  "folder": "nZiStug2nnGoF0sr",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385311933,
+    "modifiedTime": 1734385311933,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "mWUmmP14tSbOollH",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!mWUmmP14tSbOollH"
+}

@@ -1,0 +1,130 @@
+<!-- Consolidates what used to be standalone Provided/Prerequisites/Stripping/Modifications/
+     Modes/Levels tabs into collapsible sections on the Summary tab — none of them were dense
+     enough to justify a whole tab of their own. Each control below is unchanged from its old
+     tab template (still driven by the same data-action handlers), just relocated. -->
+
+<div class="panel collapsible-container item-section">
+    <h3 class="collapse-toggle" data-action="collapse-toggle"><i class="fas fa-plus"></i> Provided Items</h3>
+    <div style="display: none" class="collapsible">
+        {{> 'systems/swse/templates/item/parts/providedItems.hbs'}}
+    </div>
+</div>
+
+{{#if item.hasPrerequisites}}
+    <div class="panel collapsible-container item-section">
+        <h3 class="collapse-toggle" data-action="collapse-toggle"><i class="fas fa-plus"></i> Prerequisites</h3>
+        <div style="display: none" class="collapsible">
+            {{> 'systems/swse/templates/item/parts/prerequisite.hbs' prerequisite=item._source.system.prerequisite path='system.prerequisite'}}
+        </div>
+    </div>
+{{/if}}
+
+{{#if item.strippable}}
+    <div class="panel collapsible-container item-section">
+        <h3 class="collapse-toggle" data-action="collapse-toggle"><i class="fas fa-plus"></i> Stripping &amp; Modifications</h3>
+        <div style="display: none" class="collapsible">
+            <div class="resource flex-group-center">
+                <label class="resource-label">Upgrade Points: </label>
+                <label class="attribute-value">{{item.upgradePoints}}</label>
+                <table>
+                    {{#each item.stripping as |stripping id|}}
+                        {{#if stripping.enabled}}
+                            <tr>
+                                <th><label>{{stripping.label}}</label></th>
+                                {{#ifEquals stripping.type "boolean"}}
+                                    <td><label class="attribute-value checkbox">
+                                        <input type="checkbox" name="system.stripping.{{id}}.value" {{checked
+                                                stripping.value}}/></label>
+                                    </td>
+                                {{/ifEquals}}
+                                {{#ifEquals stripping.type "number"}}
+                                    <td>
+                                        <div class="value grid grid-3col">
+                                            <div><a class="item-control value-minus" data-action="value-minus"
+                                                    name="system.stripping.{{id}}.value" data-low="{{stripping.low}}"><i
+                                                    class="fas fa-minus"></i></a></div>
+                                            <div><label class="attribute-value checkbox">
+                                                <input class="value" type="number"
+                                                       name="system.stripping.{{id}}.value"
+                                                       value="{{stripping.value}}">
+                                            </label></div>
+                                            <div><a class="item-control value-plus" data-action="value-plus"
+                                                    name="system.stripping.{{id}}.value" data-high="{{stripping.high}}"><i
+                                                    class="fas fa-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                {{/ifEquals}}
+                            </tr>
+                        {{/if}}
+                    {{/each}}
+                </table>
+            </div>
+            <div class="section-header flexrow">
+                <div class="entry">Installed Modifications</div>
+                <div class="section-header-controls">
+                    <a class="control" data-action="effect-control" data-type="add-modification"><i class="far fa-plus-square"></i></a>
+                </div>
+            </div>
+            <ol class="items-list">
+                {{#each item.effects as |modification id|}}
+                    {{#if modification.flags.swse.itemModifier}}
+                        <li class="item flexrow effect{{#if modification.isDisabled}} disabled{{/if}}" data-effect-id="{{modification._id}}" data-uuid="{{modification.uuid}}">
+                            <div class="item-image"><img src="{{modification.img}}" title="{{modification.name}}" width="24" height="24"/>
+                            </div>
+                            <h4 class="item-name">{{modification.name}}</h4>
+                            {{#if modification.upgradePoints}}
+                                <h4 class="item-upgrade"><span>Upgrade Cost:{{modification.upgradePoints}}</span></h4>
+                            {{/if}}
+                            <div class="item-controls">
+                                <a data-type="view" data-action="effect-control" data-effect-id="{{modification._id}}" class="item-control" title="Edit Item"><i class="fas fa-edit"></i></a>
+                                <a data-type="delete" data-action="effect-control" data-effect-id="{{modification._id}}" class="item-control" title="Delete Item"><i class="fas fa-trash"></i></a>
+                            </div>
+                        </li>
+                    {{/if}}
+                {{/each}}
+            </ol>
+        </div>
+    </div>
+{{/if}}
+
+{{#if item.hasModes}}
+    <div class="panel collapsible-container item-section">
+        <h3 class="collapse-toggle" data-action="collapse-toggle"><i class="fas fa-plus"></i> Modes</h3>
+        <div style="display: none" class="collapsible">
+            <div class="section-header flexrow">
+                <div class="entry"></div>
+                <div class="section-header-controls">
+                    <a class="control" data-action="effect-control" data-type="add-mode"><i class="far fa-plus-square"></i></a>
+                </div>
+            </div>
+            <ol class="items-list">
+                {{#each item.effects as |mode id|}}
+                    {{#if mode.isMode}}
+                        <li class="item flexrow draggable effect{{#if mode.isDisabled}} disabled-mode{{/if}}" data-effect-id="{{mode._id}}" data-uuid="{{mode.uuid}}">
+                            <div class="item-image"><img src="{{mode.img}}" title="{{mode.name}}" width="24" height="24"/>
+                            </div>
+                            <h4 class="item-name">{{mode.name}}</h4>
+                            <div>{{#if mode.hasLinks}}<i class="fas fa-link" title="Has Links"></i>{{/if}}</div>
+                            <div class="item-controls">
+                                <input type="checkbox" {{#unless mode.disabled}}checked{{/unless}} data-type="disable" data-action="effect-control" data-effect-id="{{mode._id}}">
+                                <a data-type="view" data-action="effect-control" data-effect-id="{{mode._id}}" class="item-control" title="Edit Item"><i class="fas fa-edit"></i></a>
+                                <a data-type="delete" data-action="effect-control" data-effect-id="{{mode._id}}" class="item-control" title="Delete Item"><i class="fas fa-trash"></i></a>
+                            </div>
+                        </li>
+                    {{/if}}
+                {{/each}}
+            </ol>
+        </div>
+    </div>
+{{/if}}
+
+{{#if item.hasLevels}}
+    <div class="panel collapsible-container item-section">
+        <h3 class="collapse-toggle" data-action="collapse-toggle"><i class="fas fa-plus"></i> Levels</h3>
+        <div style="display: none" class="collapsible">
+            {{> 'systems/swse/templates/item/parts/levels.hbs'}}
+        </div>
+    </div>
+{{/if}}
+

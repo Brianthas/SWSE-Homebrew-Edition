@@ -1,0 +1,56 @@
+{
+  "img": "systems/swse/icon/feat/Anointed_Hunter.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Clone_Wars_Campaign_Guide\" title=\"Star Wars Saga Edition Clone Wars Campaign Guide\">Star Wars Saga Edition Clone Wars Campaign Guide</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You have been anointed as a hunter for your tribe and possess skills few other <a href=\"https://swse.fandom.com/wiki/Nelvaanians\" class=\"mw-redirect\" title=\"Nelvaanians\">Nelvaanians</a> do.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Nelvaanian\" title=\"Nelvaanian\">Nelvaanian</a></p><p><b>Effect:</b> If you end your <a href=\"https://swse.fandom.com/wiki/Move\" title=\"Move\">Move</a> at least 2 squares from where you started, you gain a +1 competence bonus on attacks made with <a href=\"https://swse.fandom.com/wiki/Thrown_Weapons\" class=\"mw-redirect\" title=\"Thrown Weapons\">Thrown Weapons</a> until the end of your turn.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Nelvaanian species",
+      "requirement": "Nelvaanian",
+      "type": "SPECIES"
+    },
+    "categories": [
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Clone Wars Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Anointed Hunter",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479025827,
+    "modifiedTime": 1761479025827,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "PiyT2pKz3PxKj0FY",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!PiyT2pKz3PxKj0FY"
+}

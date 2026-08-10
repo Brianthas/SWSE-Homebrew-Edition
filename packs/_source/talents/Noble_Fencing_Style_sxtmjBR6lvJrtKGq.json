@@ -1,0 +1,80 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "This style of swordplay uses wit and force of personality to increase accuracy, taunting and distracting an opponent with feints, misdirection, and deception. When using a light melee weapon or a <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> that you are proficient with, you can use your <a href=\"https://swse.fandom.com/wiki/Charisma\" title=\"Charisma\">Charisma</a> modifier instead of your <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> modifier on attack rolls.<hr /><p><i>Homebrew (tovec.wikidot.com/episode-vii):</i> This talent now applies to both attack AND damage rolls (not attack-only), and is selected as a per-attack toggle rather than automatic.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "lightsaberNobleFencing"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Trained in Deception",
+          "requirement": "Deception",
+          "type": "TRAINED SKILL"
+        },
+        {
+          "text": "Trained in Persuasion",
+          "requirement": "Persuasion",
+          "type": "TRAINED SKILL"
+        }
+      ],
+      "text": "Trained in Deception and Persuasion",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Noble Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Noble Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Fencing Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Fencing_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Noble Fencing Style",
+  "flags": {},
+  "type": "talent",
+  "folder": "Tao4B1GH1i7kDqjF",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385304891,
+    "modifiedTime": 1786056126828,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "sxtmjBR6lvJrtKGq",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!sxtmjBR6lvJrtKGq"
+}

@@ -1,0 +1,69 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "1d6",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A target touches Flash Moss with enough pressure to set off its defenses (Such as stepping on it or hitting it); targeting every being and object within a 6x6-square area.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Every 1d6 hours.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Knowledge (Life Sciences) (DC 19): The character identifies the nature of the Flash Moss, gaining a +2 circumstance bonus to Reflex Defense against the Hazard. Perception (DC 14): The character spots the Flash Moss as they draw closer to it, gaining a +2 circumstance bonus to Reflex Defense against the Hazard.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Area",
+          "Contact",
+          "Energy",
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>A seemingly harmless plant flashes a bright light when it is touched.</i> </p><p>Flash Moss is a plant most often found in deep swamps, where light barely breaks through the canopy to reach the ground. Creatures can exploit the plant's natural defense mechanism- a bright flash of light in the face of a threat- in a number of ways. </p><p>If a creature is properly prepared, the flash of light can be used to illuminate the surroundings. Crafty creatures can use the moss to blind their opponents. The moss can be paired with another Hazard, such as a <a href=\"https://swse.fandom.com/wiki/Sinkhole\" title=\"Sinkhole\">Sinkhole</a> or <a href=\"https://swse.fandom.com/wiki/Strangle_Vines\" title=\"Strangle Vines\">Strangle Vines</a>, to blind a creature and make the creature more likely to fall victim to the second Hazard. </p><h2><span id=\"Flash_Moss_Statistics_.28CL_3.29\"></span><span class=\"mw-headline\" id=\"Flash_Moss_Statistics_(CL_3)\">Flash Moss Statistics (CL 3)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Area, Contact, Energy, Natural </p><p><b>Trigger:</b> A target touches Flash Moss with enough pressure to set off its defenses (Such as stepping on it or hitting it); targeting every being and object within a 6x6-square area. </p><p><b>Attack:</b> +5 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> Every 1d6 hours. </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Knowledge_(Life_Sciences)\" class=\"mw-redirect\" title=\"Knowledge (Life Sciences)\">Knowledge (Life Sciences)</a> (DC 19):</b> The character identifies the nature of the Flash Moss, gaining a +2 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against the Hazard.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> (DC 14):</b> The character spots the Flash Moss as they draw closer to it, gaining a +2 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against the Hazard.</li>\n</ul>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Flash Moss",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244494,
+    "modifiedTime": 1749263244494,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "zPqLXwFmaRl271OS",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!zPqLXwFmaRl271OS"
+}

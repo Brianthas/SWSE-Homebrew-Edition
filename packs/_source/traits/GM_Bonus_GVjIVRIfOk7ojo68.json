@@ -1,0 +1,75 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Grants a bonus outside the usual character building mechanics",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [
+      {
+        "noOptions": "NO_AVAILABLE_OPTIONS",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {
+              "payload": "AVAILABLE_GM_BONUSES"
+            },
+            "display": "AVAILABLE_GM_BONUSES",
+            "name": "AVAILABLE_GM_BONUSES",
+            "attributes": {}
+          }
+        ],
+        "description": "Select a bonus",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": true
+      },
+      {
+        "noOptions": "NO_AVAILABLE_OPTIONS",
+        "availableSelections": 1,
+        "payload": "#integer#",
+        "options": [],
+        "description": "Bonus Size:",
+        "type": "INTEGER",
+        "isFirstLevel": false,
+        "showSelectionInName": true
+      }
+    ],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "prerequisite": null,
+    "cost": "0"
+  },
+  "name": "GM Bonus",
+  "flags": {},
+  "type": "trait",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764446477660,
+    "modifiedTime": 1764446477660,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "GVjIVRIfOk7ojo68",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!GVjIVRIfOk7ojo68"
+}

@@ -1,0 +1,89 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Fleet_Maneuvers\" title=\"Fleet Maneuvers\">Fleet Maneuvers</a>, <a href=\"https://swse.fandom.com/wiki/Starship_Maneuvers\" title=\"Starship Maneuvers\">Starship Maneuvers</a></i> </p><p>This maneuver lets you score an incredibly precise hit on the target, punching holes in vital systems and potentially disabling your target. </p><p><b>[<i><a href=\"https://swse.fandom.com/wiki/Gunner_(Starship_Maneuvers)\" class=\"mw-redirect\" title=\"Gunner (Starship Maneuvers)\">Gunner</a></i>]</b> </p><p><b>Time:</b>&nbsp;<a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a> </p><p><b>Targets:</b>&nbsp;A single <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> within range. </p><p><b>Make an attack roll.</b> The result of the attack roll determines the effects, if any: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>RESULT </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td><i>Exceeds Target's <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a></i> </td> \n   <td> </td> \n   <td>You deal normal weapon damage to the target, +1 extra die of damage. </td>\n  </tr> \n  <tr> \n   <td><i>Exceeds Target's <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> by 5</i> </td> \n   <td> </td> \n   <td>You deal normal weapon damage to the target, +2 extra dice of damage. </td>\n  </tr> \n  <tr> \n   <td><i>Exceeds Target's <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> by 10</i> </td> \n   <td> </td> \n   <td>You deal normal weapon damage to the target, +3 extra dice of damage. </td>\n  </tr>\n </tbody>\n</table>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Exceeds Target's Reflex Defense:You deal normal weapon damage to the target, +1 extra die of damage.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "Exceeds Target's Reflex Defense by 5:You deal normal weapon damage to the target, +2 extra dice of damage.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "Exceeds Target's Reflex Defense by 10:You deal normal weapon damage to the target, +3 extra dice of damage.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "Reference Book: Star Wars Saga Edition Starships of the Galaxy See also: Fleet Maneuvers, Starship Maneuvers This maneuver lets you score an incredibly precise hit on the target, punching holes in vital systems and potentially disabling your target. [Gunner] Time: Standard Action Targets: A single Vehicle within range. Make an attack roll. The result of the attack roll determines the effects, if any:",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "Gunner",
+        "key": "tag"
+      },
+      {
+        "mode": 2,
+        "value": "Standard Action",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "A single Vehicle within range.",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "cumulative"
+      },
+      {
+        "mode": 2,
+        "value": "attack",
+        "key": "rollType"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Devastating Hit",
+  "flags": {},
+  "type": "forcePower",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738608591404,
+    "modifiedTime": 1738608591404,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX"
+  },
+  "_id": "vXpbTqLwZoZwfGtt",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!vXpbTqLwZoZwfGtt"
+}

@@ -1,0 +1,75 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Whenever you create a device with the <b>Improvised Device</b> Talent, you can apply one modification granted by the <a href=\"https://swse.fandom.com/wiki/Tech_Specialist\" title=\"Tech Specialist\">Tech Specialist</a> Feat to the device. This customization does not affect the value of the item being created.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Improvised Device talent",
+          "requirement": "Improvised Device",
+          "type": "TALENT"
+        },
+        {
+          "text": "Tech Specialist feat",
+          "requirement": "Tech Specialist",
+          "type": "FEAT"
+        }
+      ],
+      "text": "Improvised Device talent, and Tech Specialist feat",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Improviser Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Improviser Talent Trees",
+      "Engineer Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Improviser Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Improviser_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Rebellion Era Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Custom Model",
+  "flags": {},
+  "type": "talent",
+  "folder": "kSpZFnpDSICQvVkD",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385306029,
+    "modifiedTime": 1786039798047,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "BUAUPTAZG10Crz3C",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!BUAUPTAZG10Crz3C"
+}

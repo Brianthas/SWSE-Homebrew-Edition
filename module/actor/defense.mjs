@@ -271,7 +271,15 @@ function _resolveRef(actor, condition) {
     let armorBonus = getArmorBonus(actor);
     bonuses.push({value: armorBonus, type: "Armor"});
 
-    let abilityBonus = condition === "OUT" ? -5 : Math.min(_getDexMod(actor), _getEquipmentMaxDexBonus(actor));
+    let armorDexOverride = _getArmorDexterityOverride(actor);
+    let abilityBonus;
+    if (condition === "OUT") {
+        abilityBonus = -5;
+    } else if (armorDexOverride !== undefined) {
+        abilityBonus = armorDexOverride === "str" ? actor.attributes.str.mod : toNumber(armorDexOverride);
+    } else {
+        abilityBonus = Math.min(_getDexMod(actor), _getEquipmentMaxDexBonus(actor));
+    }
     bonuses.push({value: abilityBonus, type: "Ability"});
 
 
@@ -504,6 +512,23 @@ function _getEquipmentFortBonus(actor) {
         }
     }
     return bonus;
+}
+
+/**
+ * Homebrew: some armor replaces the Dex-mod term of Reflex Defense outright rather than
+ * capping it. Returns the override value ("str" or a flat number) from equipped armor, if any.
+ * @param actor {SWSEActor}
+ */
+function _getArmorDexterityOverride(actor) {
+    let equipped = actor.equipped;
+    for (let item of equipped) {
+        if (item.type !== "armor") continue;
+        let override = item.armorDexterityOverride;
+        if (override !== undefined && override !== "") {
+            return override;
+        }
+    }
+    return undefined;
 }
 
 function _getEquipmentMaxDexBonus(actor) {

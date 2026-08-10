@@ -1,0 +1,152 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i> </p><p>The Cathar are a proud, passionate, and loyal Species of bipedal feline humanoids, well known for their long-standing friendships and ferocity in battle. They dwell in large city-trees, each meticulously carved with friezes depicting the city's heroes and history. The planet <a href=\"https://swse.fandom.com/wiki/Cathar_(Planet)\" title=\"Cathar (Planet)\">Cathar</a> is a wild place, with many ecological niches and huge insect predators. The Cathar easily hold their own, aided by their natural claws and passionate combat ability. Physically, the Cathar vary greatly in size and features. Some are muscular, with pronounced manes and beards, but others have humanlike proportions, with fine, short hair covering their bodies. </p><p>Cathar have high moral values, learned from family and society. As such, Force-sensitive Cathar often become <a href=\"https://swse.fandom.com/wiki/Jedi\" title=\"Jedi\">Jedi</a>, though they know the Jedi way to be in direct opposition to their natural instincts. Cathar know all too well the story of Crado's fall to <a href=\"https://swse.fandom.com/wiki/The_Dark_Side\" title=\"The Dark Side\">The Dark Side</a> under Exar Kun. However they might find strength in the fact that Crado's mate Sylvar was able to turn away from the dark path, and regain the Jedi way. </p><p>How Cathar are viewed in the galaxy depends on the exact time frame of the game. A nonaligned Rimworld, <a href=\"https://swse.fandom.com/wiki/Cathar_(Planet)\" title=\"Cathar (Planet)\">Cathar</a> is devastated in the Mandalorian Wars prior to the Mandalorian invasion of the Republic. Remnants of the Species flee offworld to survive. The extent of the massacre on this remote world remains unknown to the Republic, until an expedition led by Revan brings the atrocity to the attention of the galaxy at large, winning Revan the support of many <a href=\"https://swse.fandom.com/wiki/Jedi\" title=\"Jedi\">Jedi</a>. The Cathar begin resettling their planet after the Mandalorian Wars, working to rebuild their society. Cathar survivors find sympathy on Republic worlds after Revan's discovery, but many are too proud to use defeat to their advantage. Prior to the battle, the Cathar are treated as any other <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> in the galaxy. </p><h3><span class=\"mw-headline\" id=\"Cathar_Characteristics\">Cathar Characteristics</span></h3><p><b>Personality:</b> Cathar are moral and passionate creatures with strong ties to tradition and family. They have great passion in all emotions, with love and hate holding equal strength. Despite their reputation, Cathar are even-tempered, but do not hesitate to act when needed. </p><p><b>Physical Description:</b> Cathar have leonine features, the distinctiveness of which varies by individual. Males have large manes, short beards, and tusks jutting from the lower jaw. Females have smaller manes, but impressive fangs along the upper jaw. Cathar coloration ranges from light yellow to dark beige, sometimes accented with dark stripes. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Cathar age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-10 Years </td> \n   <td>11-15 Years </td> \n   <td>16-40 Years </td> \n   <td>41-62 Years </td> \n   <td>63-79 Years </td> \n   <td>80+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Prior to the Battle of <a href=\"https://swse.fandom.com/wiki/Cathar_(Planet)\" title=\"Cathar (Planet)\">Cathar</a>, most hail from <a href=\"https://swse.fandom.com/wiki/Cathar_(Planet)\" title=\"Cathar (Planet)\">Cathar</a> itself. After the battle, Cathar find refuge on most any Republic world. </p><p><b>Languages:</b> Cathar speak Catharese and Basic, using low growls and similar sounds to emphasize their point. </p><p><b>Example Names:</b> Crado, Elashi, Feeth, Ferroh, Juhani, Larducias, Marnshara, Nodon, Nodak, Stragos, Sulvar, Tinisho. </p><p><b>Adventurers:</b> Cathar adventurers can be of any <a href=\"https://swse.fandom.com/wiki/Heroic_Class\" class=\"mw-redirect\" title=\"Heroic Class\">Heroic Class</a>. Force-sensitive Cathar often become <a href=\"https://swse.fandom.com/wiki/Jedi\" title=\"Jedi\">Jedi</a>, although a select few strike out on their own. Cathar <a href=\"https://swse.fandom.com/wiki/Scoundrels\" class=\"mw-redirect\" title=\"Scoundrels\">Scoundrels</a> are relatively rare, for even they cannot escape their own instinctive morals. Such <a href=\"https://swse.fandom.com/wiki/Scoundrels\" class=\"mw-redirect\" title=\"Scoundrels\">Scoundrels</a> create their own rules to live by. </p><h3><span class=\"mw-headline\" id=\"Cathar_Species_Traits\">Cathar Species Traits</span></h3><p>Cathar share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Cathar",
+        "type": "trait"
+      },
+      {
+        "name": "Reactive Claw",
+        "type": "trait"
+      },
+      {
+        "name": "Bonus Class Skill (Stealth)",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Natural Weapons",
+        "type": "trait"
+      },
+      {
+        "name": "Bonus Class Skill (Climb)",
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "62",
+          "low": "41",
+          "text": "41-62",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "79",
+          "low": "63",
+          "text": "63-79",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "15",
+          "low": "11",
+          "text": "11-15",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "40",
+          "low": "16",
+          "text": "16-40",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "10",
+          "low": "1",
+          "text": "1-10",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "80",
+          "text": "80+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Bonus Class Skill"
+      },
+      {
+        "value": "Cathar"
+      },
+      {
+        "value": "Reactive Claw"
+      },
+      {
+        "value": "Bonus Class Skill (Stealth)"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Natural Weapons"
+      },
+      {
+        "value": "Bonus Class Skill (Climb)"
+      },
+      {
+        "value": "Species"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Cathar",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535565725,
+    "modifiedTime": 1736535565725,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "JJgPdXK0ALDVBjYv",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!JJgPdXK0ALDVBjYv"
+}

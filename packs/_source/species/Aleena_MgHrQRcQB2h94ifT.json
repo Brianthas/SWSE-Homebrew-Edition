@@ -1,0 +1,135 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Force_Unleashed_Campaign_Guide\" title=\"Star Wars Saga Edition Force Unleashed Campaign Guide\">Star Wars Saga Edition Force Unleashed Campaign Guide</a></i> </p><p> Aleena are a small reptilian Species best known as galactic travelers. Their inborn curiosity coupled with strong dedication to family inspires them to tour most any part of the galaxy together. Aleena families show up even in the most unusual or dangerous locales, just to see the sights. However, although \"Galactic Tourist\" might be the Aleena stereotype, they also engage the galaxy in more civic ways. In the Republic, Aleena served in the Galactic Senate, and as Jedi Knights and Jedi Masters. Squads of Aleena <a href=\"https://swse.fandom.com/wiki/Scouts\" class=\"mw-redirect\" title=\"Scouts\">Scouts</a> even helped to defend <a href=\"https://swse.fandom.com/wiki/Kashyyyk\" title=\"Kashyyyk\">Kashyyyk</a> during the Clone Wars. In the Empire, the Species has not garnered any special attention.</p><p>Aleena are quick and agile. Their metabolism allows them to burn a lot of energy in a short amount of time, giving them a significant boost to their speed and reflexes. Some Aleena use these natural skills as Podracers and pilots. </p><h3><span class=\"mw-headline\" id=\"Aleena_Characteristics\">Aleena Characteristics</span></h3><p><b>Personality:</b> Aleena are adventurous and courageous. They have a great curiosity, which inspires them to travel extensively. They are quick in spirit as well as in body, and they do not let the fact that they are one of the smaller <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> in the galaxy inhibit or intimidate them. </p><p><b>Physical Description:</b> An Aleena is a short, reptilian biped that has large eyes and a wide mouth with small, sharp teeth. Its head tapers back from a wide face. Aleena have long bodies in comparison to their short arms and stubby legs. They are typically blue-gray in color. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Aleena age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-12 Years </td> \n   <td>13-18 Years </td> \n   <td>19-45 Years </td> \n   <td>46-60 Years </td> \n   <td>61-79 Years </td> \n   <td>80+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The harsh, arid world of <a href=\"https://swse.fandom.com/wiki/Aleen\" title=\"Aleen\">Aleen</a> in <a href=\"https://swse.fandom.com/wiki/The_Inner_Rim\" title=\"The Inner Rim\">The Inner Rim</a>. </p><p><b>Languages:</b> Aleena speak Basic as well as their own language, Aleena. </p><p><b>Example Names:</b> Bogg Tyrell, Kazdan Paratus, Ratts Tyrell, Tsui Choi. </p><p><b>Adventurers:</b> The curious nature of the Aleena might lead them most anywhere in the galaxy. Heroic Aleena are often <a href=\"https://swse.fandom.com/wiki/Scouts\" class=\"mw-redirect\" title=\"Scouts\">Scouts</a>, <a href=\"https://swse.fandom.com/wiki/Scoundrels\" class=\"mw-redirect\" title=\"Scoundrels\">Scoundrels</a>, and <a href=\"https://swse.fandom.com/wiki/Nobles\" class=\"mw-redirect\" title=\"Nobles\">Nobles</a>. Up until <a href=\"https://swse.fandom.com/wiki/The_Dark_Times\" class=\"mw-redirect\" title=\"The Dark Times\">The Dark Times</a>, Force-using Aleena were regular members of <a href=\"https://swse.fandom.com/wiki/The_Jedi_Order\" class=\"mw-redirect\" title=\"The Jedi Order\">The Jedi Order</a>. </p><h3><span class=\"mw-headline\" id=\"Aleena_Species_Traits\">Aleena Species Traits</span></h3><p>Aleena share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Aleena",
+        "type": "trait"
+      },
+      {
+        "name": "Small",
+        "type": "trait"
+      },
+      {
+        "name": "Heightened Agility",
+        "type": "trait"
+      },
+      {
+        "name": "Energy Surge",
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "12",
+          "low": "1",
+          "text": "1-12",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "18",
+          "low": "13",
+          "text": "13-18",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "45",
+          "low": "19",
+          "text": "19-45",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "80",
+          "text": "80+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "79",
+          "low": "61",
+          "text": "61-79",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "60",
+          "low": "46",
+          "text": "46-60",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Aleena"
+      },
+      {
+        "value": "Small"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Heightened Agility"
+      },
+      {
+        "value": "Energy Surge"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Aleena",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535565483,
+    "modifiedTime": 1736535565483,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "MgHrQRcQB2h94ifT",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!MgHrQRcQB2h94ifT"
+}

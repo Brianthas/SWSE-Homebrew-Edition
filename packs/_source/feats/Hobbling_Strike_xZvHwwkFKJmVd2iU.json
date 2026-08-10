@@ -1,0 +1,90 @@
+{
+  "img": "systems/swse/icon/feat/Hobbling_Strike.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_of_Intrigue\" title=\"Star Wars Saga Edition Galaxy of Intrigue\">Star Wars Saga Edition Galaxy of Intrigue</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You know where to hit your enemy to slow it down.</p><p><b>Prerequisite:</b> <b><a href=\"https://swse.fandom.com/wiki/Sneak_Attack\" class=\"mw-redirect\" title=\"Sneak Attack\">Sneak Attack</a></b> or <a href=\"https://swse.fandom.com/wiki/Rapid_Shot\" title=\"Rapid Shot\">Rapid Shot</a> or <a href=\"https://swse.fandom.com/wiki/Rapid_Strike\" title=\"Rapid Strike\">Rapid Strike</a>.</p><p><b>Effect:</b> Whenever you would deal extra damage by using <b><a href=\"https://swse.fandom.com/wiki/Sneak_Attack\" class=\"mw-redirect\" title=\"Sneak Attack\">Sneak Attack</a></b>, <a href=\"https://swse.fandom.com/wiki/Rapid_Shot\" title=\"Rapid Shot\">Rapid Shot</a>, or <a href=\"https://swse.fandom.com/wiki/Rapid_Strike\" title=\"Rapid Strike\">Rapid Strike</a>, you can reduce the target's Speed by 1 square until the end of the encounter, instead of dealing the extra damage.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Sneak Attack talent",
+          "requirement": "Sneak Attack",
+          "type": "TALENT"
+        },
+        {
+          "text": "Rapid Shot feat",
+          "requirement": "Rapid Shot",
+          "type": "FEAT"
+        },
+        {
+          "text": "Rapid Strike feat",
+          "requirement": "Rapid Strike",
+          "type": "FEAT"
+        }
+      ],
+      "count": 1,
+      "text": "Sneak Attack or Rapid Shot or Rapid Strike",
+      "type": "OR"
+    },
+    "categories": [
+      {
+        "value": "Soldier Bonus Feats"
+      },
+      {
+        "value": "Force Prodigy Bonus Feats"
+      },
+      {
+        "value": "Scoundrel Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Scout Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Bonus Feats",
+      "Force Prodigy Bonus Feats",
+      "Scoundrel Bonus Feats",
+      "General Feats",
+      "Scout Bonus Feats",
+      "Smuggler Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Galaxy of Intrigue",
+    "cost": "0"
+  },
+  "name": "Hobbling Strike",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1761479027313,
+    "modifiedTime": 1786036141517,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "xZvHwwkFKJmVd2iU",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!xZvHwwkFKJmVd2iU"
+}

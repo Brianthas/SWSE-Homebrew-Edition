@@ -1,0 +1,42 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Appendages",
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "droidPart"
+      }
+    ],
+    "description": "<p>Instruments are a step up from simple <a href=\"https://swse.fandom.com/wiki/Probes\" class=\"mw-redirect\" title=\"Probes\">Probes</a>. They might be designed to accomplish specific tasks. For example, a Droid with a hypodermic syringe as its sole Appendage can use the syringe for its intended purpose, but otherwise can only push objects with it.</p><p>A few Instruments are designed to clamp, and can thus hold objects, but they are generally delicate. A Droid using an instrument of this nature has a <a href=\"https://swse.fandom.com/wiki/Carrying_Capacity\" class=\"mw-redirect\" title=\"Carrying Capacity\">Carrying Capacity</a> as if its <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> score were one-quarter of its actual value.</p>",
+    "cost": "5 x Cost Factor",
+    "weight": "(1 x Cost Factor) Kilograms",
+    "appendages": "1",
+    "appendageType": "Instrument",
+    "droidUnarmedDamageScalable": "1d2"
+  },
+  "name": "Instrument",
+  "flags": {},
+  "type": "droid system",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764449015870,
+    "modifiedTime": 1764449015870,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "7Qj3GzdjerI07jsX",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!7Qj3GzdjerI07jsX"
+}

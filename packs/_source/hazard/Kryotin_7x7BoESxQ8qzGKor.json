@@ -1,0 +1,68 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Poisons, Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A creature ingests Kryotin.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Once every minute for 10 minutes.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Knowledge (Life Sciences) (DC 31): The character identifies the chemical as the narcotic substance known as Kryotin. Perception (DC 26): The character recognizes the signs that an individual creature is under the effects of Kryotin. Treat Injury (DC 21; Requires Medical Kit): The character treats the Kryotin. This process takes 8 hours and removes the Persistent Condition caused by Kryotin.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: Until the Persistent Condition caused by Kryotin is removed, the target doubles all Condition Track penalties to Will Defense.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Ingested",
+          "Natural",
+          "Poison"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Poisons\" title=\"Poisons\">Poisons</a>, <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>This narcotic substance instills a strong sense of euphoria in the subject, making him or her susceptible to suggestion.</i> </p><p>One of the oldest narcotic agents known to the galaxy, Kryotin is outlawed by every major galactic government since the days of <a href=\"https://swse.fandom.com/wiki/The_Old_Republic\" title=\"The Old Republic\">The Old Republic</a>. Even <a href=\"https://swse.fandom.com/wiki/The_Galactic_Empire\" title=\"The Galactic Empire\">The Galactic Empire</a> seeks to keep the drug from becoming too prominent, especially among the military forces. </p><p>Kryotin functions by causing the user's brain to release a sudden rush of chemicals that bring on a state of euphoria and that also make the victim greatly susceptible to suggestion. While some use it for recreational purposes, it can also be used in interrogation and brainwashing. The following Hazard can be used to represent the effects of Kryotin on a living creature. </p><h2><span id=\"Kryotin_Statistics_.28CL_4.29\"></span><span class=\"mw-headline\" id=\"Kryotin_Statistics_(CL_4)\">Kryotin Statistics (CL 4)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Ingested, Natural, Poison </p><p><b>Trigger:</b> A creature ingests Kryotin. </p><p><b>Attack:</b> +6 vs <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> </p><p><b>Recurrence:</b> Once every minute for 10 minutes. </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Knowledge_(Life_Sciences)\" class=\"mw-redirect\" title=\"Knowledge (Life Sciences)\">Knowledge (Life Sciences)</a> (DC 31):</b> The character identifies the chemical as the narcotic substance known as Kryotin.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> (DC 26):</b> The character recognizes the signs that an individual creature is under the effects of Kryotin.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a> (DC 21; Requires <a href=\"https://swse.fandom.com/wiki/Medical_Kit\" title=\"Medical Kit\">Medical Kit</a>):</b> The character treats the Kryotin. This process takes 8 hours and removes the <a href=\"https://swse.fandom.com/wiki/Persistent_Condition\" class=\"mw-redirect\" title=\"Persistent Condition\">Persistent Condition</a> caused by Kryotin.</li>\n</ul><p><b>Special:</b> Until the <a href=\"https://swse.fandom.com/wiki/Persistent_Condition\" class=\"mw-redirect\" title=\"Persistent Condition\">Persistent Condition</a> caused by Kryotin is removed, the target doubles all <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a> penalties to <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a>. </p><p>Each day that a creature with a <a href=\"https://swse.fandom.com/wiki/Persistent_Condition\" class=\"mw-redirect\" title=\"Persistent Condition\">Persistent Condition</a> caused by Kryotin goes without a dose of Kryotin, the creature moves - 1 step on the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a> at the start of the day. After 10 days without ingesting Kryotin, the <a href=\"https://swse.fandom.com/wiki/Persistent_Condition\" class=\"mw-redirect\" title=\"Persistent Condition\">Persistent Condition</a> is removed. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Kryotin",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244581,
+    "modifiedTime": 1749263244581,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "7x7BoESxQ8qzGKor",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!7x7BoESxQ8qzGKor"
+}

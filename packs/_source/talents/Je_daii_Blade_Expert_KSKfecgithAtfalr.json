@@ -1,0 +1,88 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You may treat a weapon with the <a href=\"https://swse.fandom.com/wiki/Je%27daii_Weapon_Template\" title=\"Je'daii Weapon Template\">Je'daii Weapon Template</a> as a <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> instead of its normal weapon group. As such, they may be used to activate Talents from the <a href=\"https://swse.fandom.com/wiki/Lightsaber_Combat_Talent_Tree\" title=\"Lightsaber Combat Talent Tree\">Lightsaber Combat Talent Tree</a>, <a href=\"https://swse.fandom.com/wiki/Lightsaber_Forms_Talent_Tree\" title=\"Lightsaber Forms Talent Tree\">Lightsaber Forms Talent Tree</a>, and the <a href=\"https://swse.fandom.com/wiki/Duelist_Talent_Tree\" title=\"Duelist Talent Tree\">Duelist Talent Tree</a>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "a member of The Je'daii Rangers",
+      "requirement": "The Je'daii Rangers",
+      "type": "TRADITION"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "SaintSirNicholas Creations"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Force Talent Trees"
+      },
+      {
+        "value": "Tested"
+      },
+      {
+        "value": "ZenithSloth Creations"
+      },
+      {
+        "value": "Force Tradition Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "SaintSirNicholas Creations",
+      "Homebrew Content",
+      "Force Talent Trees",
+      "Tested",
+      "ZenithSloth Creations",
+      "Force Tradition Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Je'daii Ranger Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Je%27daii_Ranger_Talent_Tree",
+    "bonusTalentTree": "Force Talent Trees",
+    "cost": "0"
+  },
+  "name": "Je'daii Blade Expert",
+  "flags": {},
+  "type": "talent",
+  "folder": "akswr0Wu3qIdamVI",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385306397,
+    "modifiedTime": 1734385306397,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "KSKfecgithAtfalr",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!KSKfecgithAtfalr"
+}

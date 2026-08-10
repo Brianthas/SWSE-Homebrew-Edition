@@ -1,0 +1,152 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p>The reptilian Trandoshans are known for their great strength, and warlike natures. Many of these beings dedicate themselves to martial training, and some follow the path of the hunter on their native world. A few have even become renowned (or infamous) bounty hunters in galactic society. Trandoshans have a long-standing enmity with <a href=\"https://swse.fandom.com/wiki/Wookiees\" class=\"mw-redirect\" title=\"Wookiees\">Wookiees</a>, and the two <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> have fought often over the centuries. </p><p>Trandoshans (who refer to themselves as \"T'doshok\") have supersensitive eyes that can see into the infrared range. They shed their skin several times in the span of their lives and can even regenerate lost limbs, but their clawed hands have difficulty with fine manipulation of objects. </p><h3><span class=\"mw-headline\" id=\"Trandoshan_Characteristics\">Trandoshan Characteristics</span></h3><p><b>Personality:</b> Violent, brutal, and driven, Trandoshans love to compete but can show compassion and mercy as the situation warrants. </p><p><b>Physical Description:</b> Trandoshans range from 1.8 to 2.1 meters tall. Their scaly hides offer additional defense against attacks. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Trandoshans age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-14 Years </td> \n   <td>15-34 Years </td> \n   <td>35-49 Years </td> \n   <td>50-59 Years </td> \n   <td>60+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The jungle world of <a href=\"https://swse.fandom.com/wiki/Trandosha\" title=\"Trandosha\">Trandosha</a>. </p><p><b>Languages:</b> Trandoshans speak, read, and write both Dosh and Basic. </p><p><b>Example Names:</b> Bossk, Fusset, Krussk, Ssuurg, Tusserk. </p><p><b>Adventurers:</b> A Trandoshan adventurer craves the thrill of battle. Some leave <a href=\"https://swse.fandom.com/wiki/Trandosha\" title=\"Trandosha\">Trandosha</a> to become bodyguards or mercenaries. Others set out to find new places to hunt and explore. A few use their warrior traditions to become <a href=\"https://swse.fandom.com/wiki/Soldiers\" class=\"mw-redirect\" title=\"Soldiers\">Soldiers</a>, some even developing into <a href=\"https://swse.fandom.com/wiki/Bounty_Hunters\" class=\"mw-redirect\" title=\"Bounty Hunters\">Bounty Hunters</a> as time goes by. </p><h3><span class=\"mw-headline\" id=\"Trandoshan_Species_Traits\">Trandoshan Species Traits</span></h3><p>Trandoshans share the following Species Traits: </p><h2><span class=\"mw-headline\" id=\"Additional_Trandoshan_Species_Feats\">Additional Trandoshan Species Feats</span></h2><p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Rebellion_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Rebellion Era Campaign Guide\">Star Wars Saga Edition Rebellion Era Campaign Guide</a></i> </p><p>Trandoshan characters have access to the following <a href=\"https://swse.fandom.com/wiki/Species_Feats\" class=\"mw-redirect\" title=\"Species Feats\">Species Feats</a>. No Species Feats are considered Bonus Feats for any <a href=\"https://swse.fandom.com/wiki/Heroic_Class\" class=\"mw-redirect\" title=\"Heroic Class\">Heroic Class</a>. </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>SPECIES FEAT </th> \n   <th> </th> \n   <th>BENEFITS </th>\n  </tr> \n  <tr> \n   <td><a href=\"https://swse.fandom.com/wiki/Pitiless_Warrior\" title=\"Pitiless Warrior\">Pitiless Warrior</a> </td> \n   <td> </td> \n   <td>Gain <a href=\"https://swse.fandom.com/wiki/Bonus_Hit_Points\" class=\"mw-redirect\" title=\"Bonus Hit Points\">Bonus Hit Points</a> whenever you take down a foe. </td>\n  </tr> \n  <tr> \n   <td><a href=\"https://swse.fandom.com/wiki/Regenerative_Healing\" title=\"Regenerative Healing\">Regenerative Healing</a> </td> \n   <td> </td> \n   <td>Regain more Hit Points (but more slowly) when you catch a <a href=\"https://swse.fandom.com/wiki/Second_Wind\" class=\"mw-redirect\" title=\"Second Wind\">Second Wind</a>. </td>\n  </tr> \n  <tr> \n   <td><a href=\"https://swse.fandom.com/wiki/Thick_Skin\" title=\"Thick Skin\">Thick Skin</a> </td> \n   <td> </td> \n   <td>Gain a +2 <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> bonus to your <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>. </td>\n  </tr>\n </tbody>\n</table>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Natural Armor (+1)",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Darkvision",
+        "type": "trait"
+      },
+      {
+        "name": "Limb Regeneration",
+        "type": "trait"
+      },
+      {
+        "name": "Bonus Feat (Toughness)",
+        "type": "trait"
+      },
+      {
+        "name": "Toughness",
+        "type": "feat"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "14",
+          "low": "12",
+          "text": "12-14",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "34",
+          "low": "15",
+          "text": "15-34",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "49",
+          "low": "35",
+          "text": "35-49",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "60",
+          "text": "60+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "11",
+          "low": "1",
+          "text": "1-11",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "59",
+          "low": "50",
+          "text": "50-59",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Natural Armor (+1)"
+      },
+      {
+        "value": "Trandoshans"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Darkvision"
+      },
+      {
+        "value": "Limb Regeneration"
+      },
+      {
+        "value": "Natural Armor"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Bonus Feat (Toughness)"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Trandoshan",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535567547,
+    "modifiedTime": 1736535567547,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "wrlBXTyhnOi64qqD",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!wrlBXTyhnOi64qqD"
+}

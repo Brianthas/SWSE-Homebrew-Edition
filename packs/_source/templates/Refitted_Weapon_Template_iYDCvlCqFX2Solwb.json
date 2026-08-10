@@ -1,0 +1,89 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:</i>&nbsp;<i><a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Legacy_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Legacy Era Campaign Guide\">Star Wars Saga Edition Legacy Era Campaign Guide</a></i> </p><p>When a character <a href=\"https://swse.fandom.com/wiki/Refits\" class=\"mw-redirect\" title=\"Refits\">Refits</a> a weapon, he or she upgrades its interchangeable parts with components that use the latest advances in weapon technology. Refitted Weapons have the following changes to their statistics: </p><p><b>Manufactured By:</b>&nbsp;N/A </p><p><b>Applicable To:</b>&nbsp;Any pre-Legacy era powered weapon, not including weapons found in the <i>Star Wars Saga Edition Core Rulebook</i> </p><p><b>Energy Cell:</b> A Refitted Weapon can use standard <a href=\"https://swse.fandom.com/wiki/Energy_Cells\" class=\"mw-redirect\" title=\"Energy Cells\">Energy Cells</a> and <a href=\"https://swse.fandom.com/wiki/Power_Packs\" class=\"mw-redirect\" title=\"Power Packs\">Power Packs</a>. Additionally, weapons that use <a href=\"https://swse.fandom.com/wiki/Power_Packs\" class=\"mw-redirect\" title=\"Power Packs\">Power Packs</a> to provide ammunition have their number of shots that can be fired before the <a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a> must be replaced increased by 10%. </p><p><b>Repairs:</b>&nbsp;Since Refitted Weapons combine antiquated technology with modern components, sometimes the weapon must be treated gently and repairs can be challenging. A Refitted Weapon increases the base DC of any&nbsp;<a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a>&nbsp;check made to build or repair the Weapon by +5. </p><p><b>Maintenance:</b> Unlike normal weapons, Refitted Weapons require extra maintenance to ensure that they continue to function as expected. Once per week the weapon must receive regular maintenance, which requires 1 hour of work (no <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> check required, though a <a href=\"https://swse.fandom.com/wiki/Tool_Kit\" title=\"Tool Kit\">Tool Kit</a> is necessary to perform the maintenance). </p><p>Failure to perform this maintenance move the weapon -1 <a href=\"https://swse.fandom.com/wiki/Persistent\" class=\"mw-redirect\" title=\"Persistent\">Persistent</a> step down the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a> for each day it does not receive maintenance after one week. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "@cost*0.2",
+        "key": "cost"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "itemMod"
+      },
+      {
+        "mode": 2,
+        "value": "A Refitted Weapon can use standard Energy Cells and Power Packs. Additionally, weapons that use Power Packs to provide ammunition have their number of shots that can be fired before the Power Pack must be replaced increased by 10%.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": "Since Refitted Weapons combine antiquated technology with modern components, sometimes the weapon must be treated gently and repairs can be challenging. A Refitted Weapon increases the base DC of any Mechanics check made to build or repair the Weapon by +5.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": "Unlike normal weapons, Refitted Weapons require extra maintenance to ensure that they continue to function as expected. Once per week the weapon must receive regular maintenance, which requires 1 hour or work (no Mechanics check required, though a Tool Kit is necessary to perform the maintenance).\n\nFailure to perform this maintenance move the weapon -1 Persistent step down the Condition Track for each day it does not receive maintenance after one week.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": "Refitted",
+        "key": "prefix"
+      },
+      {
+        "mode": 2,
+        "value": "",
+        "key": "suffix"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "hasItemOwner": false,
+    "subtype": "Weapon Templates",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Any Weapon",
+          "requirement": "weapon",
+          "type": "TYPE"
+        }
+      ],
+      "text": "Any Weapon, and ",
+      "type": "AND"
+    },
+    "cost": "@cost*0.2"
+  },
+  "name": "Refitted Weapon Template",
+  "flags": {},
+  "type": "template",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.2",
+    "createdTime": 1729096741383,
+    "modifiedTime": 1729096741383,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "iYDCvlCqFX2Solwb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!iYDCvlCqFX2Solwb"
+}

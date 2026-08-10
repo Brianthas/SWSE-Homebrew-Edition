@@ -1,0 +1,70 @@
+{
+  "img": "systems/swse/icon/feat/Gunnery_Specialist.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Clone_Wars_Campaign_Guide\" title=\"Star Wars Saga Edition Clone Wars Campaign Guide\">Star Wars Saga Edition Clone Wars Campaign Guide</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You are right at home in the Gunner's seat and use heavy artillery to great effect.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Base_Attack_Bonus\" class=\"mw-redirect\" title=\"Base Attack Bonus\">Base Attack Bonus</a> +1</p><p><b>Effect:</b> While you are the <a href=\"https://swse.fandom.com/wiki/Gunner\" title=\"Gunner\">Gunner</a> of a <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a>, you are considered proficient with <a href=\"https://swse.fandom.com/wiki/Vehicle_Weapons\" class=\"mw-redirect\" title=\"Vehicle Weapons\">Vehicle Weapons</a>. Additionally, once per encounter, you can reroll an attack roll made with a <a href=\"https://swse.fandom.com/wiki/Vehicle_Weapon\" class=\"mw-redirect\" title=\"Vehicle Weapon\">Vehicle Weapon</a>, though you must keep the second result, even if it is worse. You can declare this reroll after you learn the result of the attack roll, but before damage is resolved.</p><p><b>Special:</b> Taking this Feat satisfies the prerequisites for the <a href=\"https://swse.fandom.com/wiki/Starship_Tactics\" title=\"Starship Tactics\">Starship Tactics</a> Feat; however, unless you are <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> and have the <a href=\"https://swse.fandom.com/wiki/Vehicular_Combat\" title=\"Vehicular Combat\">Vehicular Combat</a> Feat, you may only take [<i><a href=\"https://swse.fandom.com/wiki/Gunner_(Starship_Maneuvers)\" class=\"mw-redirect\" title=\"Gunner (Starship Maneuvers)\">Gunner</a></i>] Maneuvers when you select <a href=\"https://swse.fandom.com/wiki/Starship_Maneuvers\" title=\"Starship Maneuvers\">Starship Maneuvers</a> for <a href=\"https://swse.fandom.com/wiki/Starship_Tactics\" title=\"Starship Tactics\">Starship Tactics</a>.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:Reference Book: Star Wars Saga Edition Clone Wars Campaign Guide See also: Feats You are right at home in the Gunner's seat and use heavy artillery to great effect. Prerequisite: Base Attack Bonus +1 Effect: While you are the Gunner of a Vehicle, you are considered proficient with Vehicle Weapons. Additionally, once per encounter, you can reroll an attack roll made with a Vehicle Weapon, though you must keep the second result, even if it is worse. You can declare this reroll after you learn the result of the attack roll, but before damage is resolved. Special: Taking this Feat satisfies the prerequisites for the Starship Tactics Feat; however, unless you are Trained in Pilot and have the Vehicular Combat Feat, you may only take [Gunner] Maneuvers when you select Starship Maneuvers for Starship Tactics.",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Base Attack Bonus 1",
+      "requirement": "1",
+      "type": "BASE ATTACK BONUS"
+    },
+    "categories": [
+      {
+        "value": "Soldier Bonus Feats"
+      },
+      {
+        "value": "Technician Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Bonus Feats",
+      "Technician Bonus Feats",
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Clone Wars Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Gunnery Specialist",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479027263,
+    "modifiedTime": 1761479027263,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "1AzEquB7BFjv8eKn",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!1AzEquB7BFjv8eKn"
+}

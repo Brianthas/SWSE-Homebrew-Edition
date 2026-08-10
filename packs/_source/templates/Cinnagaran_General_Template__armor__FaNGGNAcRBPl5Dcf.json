@@ -1,0 +1,113 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:</i>&nbsp;<i><a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i> </p><p><b>Manufactured By:</b> <a href=\"https://swse.fandom.com/wiki/Empress_Teta\" title=\"Empress Teta\">Empress Teta</a> (Planet) </p><p><b>Applicable To:</b> Any Armor, Any Ranged Energy Weapon </p><p>Cinnagaran Manufacture items are manufactured on the sprawling metropolis world of <a href=\"https://swse.fandom.com/wiki/Empress_Teta\" title=\"Empress Teta\">Empress Teta</a>, which has been at the center of galactic wars for over a thousand years. </p><p><b>Weapons:</b> Cinnagaran Weapons deal both Energy and Bludgeoning damage. </p><p><b>Armors:</b> Cinnagaran Manufacture Armor and Shields grant <a href=\"https://swse.fandom.com/wiki/Damage_Reduction\" title=\"Damage Reduction\">Damage Reduction</a> 5 against weapons that deal <a href=\"https://swse.fandom.com/wiki/Sonic\" title=\"Sonic\">Sonic</a> damage, but it's Maximum <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> Bonus is reduced by 1. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "??",
+        "key": "cost"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "itemMod"
+      },
+      {
+        "mode": 2,
+        "modifier": "Sonic",
+        "value": "5",
+        "key": "damageReduction"
+      },
+      {
+        "mode": 2,
+        "value": "-1",
+        "key": "maximumDexterityModifier"
+      },
+      {
+        "mode": 2,
+        "value": "Cinnagaran",
+        "key": "prefix"
+      },
+      {
+        "mode": 2,
+        "value": "",
+        "key": "suffix"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "hasItemOwner": false,
+    "subtype": "General Templates",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Any Armor",
+          "requirement": "armor",
+          "type": "TYPE"
+        },
+        {
+          "children": [
+            {
+              "text": "Any Armor, Any Ranged Energy Weapon",
+              "requirement": "armor",
+              "type": "TYPE"
+            },
+            {
+              "children": [
+                {
+                  "text": "Any Armor, Any Ranged Energy Weapon",
+                  "requirement": "weapon",
+                  "type": "TYPE"
+                },
+                {
+                  "text": "Any Armor, Any Ranged Energy Weapon",
+                  "requirement": "Ranged Weapons",
+                  "type": "WEAPON_GROUP"
+                }
+              ],
+              "text": "Any Armor, Any Ranged Energy Weapon, and Any Armor, Any Ranged Energy Weapon",
+              "type": "AND"
+            }
+          ],
+          "count": 1,
+          "text": "Any Armor, Any Ranged Energy Weapon",
+          "type": "OR"
+        }
+      ],
+      "text": "Any Armor, and (Any Armor, Any Ranged Energy Weapon)",
+      "type": "AND"
+    },
+    "cost": "??"
+  },
+  "name": "Cinnagaran General Template (armor)",
+  "flags": {},
+  "type": "template",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.2",
+    "createdTime": 1729096741493,
+    "modifiedTime": 1729096741493,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "FaNGGNAcRBPl5Dcf",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!FaNGGNAcRBPl5Dcf"
+}

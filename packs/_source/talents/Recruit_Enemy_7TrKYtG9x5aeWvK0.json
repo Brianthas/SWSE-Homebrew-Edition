@@ -1,0 +1,59 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Once per encounter when you deal damage to a living creature that is equal to or greater than the target's current Hit Points and the target's <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a> (that is, when you deal enough damage to kill the target), you can use this Talent. Make a <a href=\"https://swse.fandom.com/wiki/Persuasion\" title=\"Persuasion\">Persuasion</a> check against the target's <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a>; if your result equals or exceeds the target's <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a>, instead of dealing full damage, you deal half damage to the target and move it -1 step on the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>.<br><br>In addition, the target becomes your ally, and its <a href=\"https://swse.fandom.com/wiki/Attitude\" class=\"mw-redirect\" title=\"Attitude\">Attitude</a> toward you immediately shifts to <a href=\"https://swse.fandom.com/wiki/Friendly\" class=\"mw-redirect\" title=\"Friendly\">Friendly</a>. The target fights on your side until the end of the encounter, at which point it departs (or, if the GM wishes, the target might become your ally permanently and join your party). Anyone <a href=\"https://swse.fandom.com/wiki/Hostile\" class=\"mw-redirect\" title=\"Hostile\">Hostile</a> to you becomes <a href=\"https://swse.fandom.com/wiki/Hostile\" class=\"mw-redirect\" title=\"Hostile\">Hostile</a> to the target.<br><br>This is a <a href=\"https://swse.fandom.com/wiki/Mind-Affecting\" class=\"mw-redirect\" title=\"Mind-Affecting\">Mind-Affecting</a> effect. If the target is a higher level than you, it gains a +5 bonus to its <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a>. Enemies that cannot be bribed, blackmailed, or seduced (such as <a href=\"https://swse.fandom.com/wiki/Stormtroopers\" class=\"mw-redirect\" title=\"Stormtroopers\">Stormtroopers</a>) are immune to this effect.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": null,
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Officer Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Officer Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Rebel Recruiter Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Rebel_Recruiter_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Rebellion Era Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Recruit Enemy",
+  "flags": {},
+  "type": "talent",
+  "folder": "J92YemdJKf3U7jZT",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385310865,
+    "modifiedTime": 1734385310865,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "7TrKYtG9x5aeWvK0",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!7TrKYtG9x5aeWvK0"
+}

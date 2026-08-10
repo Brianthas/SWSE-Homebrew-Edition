@@ -1,0 +1,82 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Legacy_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Legacy Era Campaign Guide\">Star Wars Saga Edition Legacy Era Campaign Guide</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a></i> </p><p>You use&nbsp;<a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a>&nbsp;to lash out at a nearby enemy, causing it to stumble. </p><p><b>[<i><a href=\"https://swse.fandom.com/wiki/Telekinetic\" class=\"mw-redirect\" title=\"Telekinetic\">Telekinetic</a></i>]</b> </p><p><b>Time:</b> <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a> </p><p><b>Targets:</b> One target adjacent to you. </p><p><b>Make a <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check.</b> Compare the result to the target's <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>. If the check result equals or exceeds the target's <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>, the target takes 2d6 points of <a href=\"https://swse.fandom.com/wiki/Force\" class=\"mw-redirect\" title=\"Force\">Force</a> damage and is pushed 1 square away from you. This movement does not provoke <a href=\"https://swse.fandom.com/wiki/Attacks_of_Opportunity\" title=\"Attacks of Opportunity\">Attacks of Opportunity</a>. </p><p><b>Special:</b> You can spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> when you activate this Force Power to affect all enemies adjacent to you, in which case compare your <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check result to each target's <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Telekinetic",
+        "key": "tag"
+      },
+      {
+        "mode": 2,
+        "value": "Swift Action",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "One target adjacent to you.",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": "Use the Force",
+        "key": "rollType"
+      },
+      {
+        "mode": 2,
+        "value": "Reference Book: Star Wars Saga Edition Legacy Era Campaign Guide See also: Force Powers You use The Force to lash out at a nearby enemy, causing it to stumble. [Telekinetic] Time: Swift Action Targets: One target adjacent to you. Make a Use the Force check. Compare the result to the target's Fortitude Defense. If the check result equals or exceeds the target's Fortitude Defense, the target takes 2d6 points of Force damage and is pushed 1 square away from you. This movement does not provoke Attacks of Opportunity. Special: You can spend a Force Point when you activate this Force Power to affect all enemies adjacent to you, in which case compare your Use the Force check result to each target's Fortitude Defense.",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Force Powers"
+      },
+      {
+        "value": "Telekinetic Force Powers"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Stagger",
+  "flags": {},
+  "type": "forcePower",
+  "img": "systems/swse/icon/force-power/Stagger.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738608590970,
+    "modifiedTime": 1738608590970,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "rYIaFatEk9lbBsBo",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!rYIaFatEk9lbBsBo"
+}

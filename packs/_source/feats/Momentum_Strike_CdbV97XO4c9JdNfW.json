@@ -1,0 +1,68 @@
+{
+  "img": "systems/swse/icon/feat/Momentum_Strike.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Threats_of_the_Galaxy\" title=\"Star Wars Saga Edition Threats of the Galaxy\">Star Wars Saga Edition Threats of the Galaxy</a></i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You know how to put the full weight of your momentum into attacks while riding a <a href=\"https://swse.fandom.com/wiki/Mount\" class=\"mw-redirect\" title=\"Mount\">Mount</a> or a <a href=\"https://swse.fandom.com/wiki/Speeder_Bike\" class=\"mw-redirect\" title=\"Speeder Bike\">Speeder Bike</a>.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> or <a href=\"https://swse.fandom.com/wiki/Ride\" title=\"Ride\">Ride</a></p><p><b>Effect:</b> When riding a <a href=\"https://swse.fandom.com/wiki/Beast\" title=\"Beast\">Beast</a> as a <a href=\"https://swse.fandom.com/wiki/Mount\" class=\"mw-redirect\" title=\"Mount\">Mount</a> or on a <a href=\"https://swse.fandom.com/wiki/Speeder_Bike\" class=\"mw-redirect\" title=\"Speeder Bike\">Speeder Bike</a> (as a passenger or a <a href=\"https://swse.fandom.com/wiki/Pilot_(Vehicle_Combat)\" title=\"Pilot (Vehicle Combat)\">Pilot</a>), you add +1 die of damage to any melee attacks if your <a href=\"https://swse.fandom.com/wiki/Mount\" class=\"mw-redirect\" title=\"Mount\">Mount</a> or <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> has already moved at least its speed this turn.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Trained in Pilot",
+          "requirement": "Pilot",
+          "type": "TRAINED SKILL"
+        },
+        {
+          "text": "Trained in Ride",
+          "requirement": "Ride",
+          "type": "TRAINED SKILL"
+        }
+      ],
+      "count": 1,
+      "text": "Trained in Pilot or Ride",
+      "type": "OR"
+    },
+    "categories": [
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Threats of the Galaxy",
+    "cost": "0"
+  },
+  "name": "Momentum Strike",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479028032,
+    "modifiedTime": 1761479028032,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "CdbV97XO4c9JdNfW",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!CdbV97XO4c9JdNfW"
+}

@@ -1,0 +1,42 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Appendages",
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "droidPart"
+      }
+    ],
+    "description": "<p>Tool Appendages are somewhat sturdier than Instruments. A <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> must make a DC 15 <a href=\"https://swse.fandom.com/wiki/Abilities\" title=\"Abilities\">Dexterity</a> check to lift, carry, or drag objects for which its <a href=\"https://swse.fandom.com/wiki/Tools\" title=\"Tools\">Tools</a> were not designed. The GM might rule that particularly delicate objects have a higher DC. If the check fails, the <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> drops the object.</p><p>Weapons mounted on a <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> are considered Tool Appendages unless otherwise noted. A Tool Appendage does not include the cost of the <a href=\"https://swse.fandom.com/wiki/Tools\" title=\"Tools\">Tool</a> or Weapon mounted on it.</p>",
+    "cost": "10 x Cost Factor",
+    "weight": "(2 x Cost Factor) Kilograms",
+    "appendages": "1",
+    "appendageType": "Tool",
+    "droidUnarmedDamageScalable": "1d3"
+  },
+  "name": "Tool",
+  "flags": {},
+  "type": "droid system",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764449015844,
+    "modifiedTime": 1764449015844,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "IFCTK0uSEUfjlyhz",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!IFCTK0uSEUfjlyhz"
+}

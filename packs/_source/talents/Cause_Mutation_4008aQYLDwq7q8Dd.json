@@ -1,0 +1,64 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You can use your mastery of <b>Sith Alchemy</b> to create mutated abominations. You must have access to a willing (or unconscious) creature to which you will apply the <a href=\"https://swse.fandom.com/wiki/Sith_Abomination_Template\" title=\"Sith Abomination Template\">Sith Abomination Template</a> or the <a href=\"https://swse.fandom.com/wiki/Chrysalis_Beast_Template\" title=\"Chrysalis Beast Template\">Chrysalis Beast Template</a>. You also need a medical lab outfitted for the process, which requires a number of days equal to creature's modified CL. You must spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> at the completion of the process to complete the transformation. A creature you have mutated is considered to be a domesticated creature, but for you only (unless it was already a domesticated creature before its mutation).",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Sith Alchemy (Sith Alchemy Talent Tree) talent",
+      "requirement": "Sith Alchemy (Sith Alchemy Talent Tree)",
+      "type": "TALENT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Sith Apprentice Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Sith Apprentice Talent Trees",
+      "Sith Lord Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Sith Alchemy Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Sith_Alchemy_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Jedi Academy Training Manual",
+    "cost": "0"
+  },
+  "name": "Cause Mutation",
+  "flags": {},
+  "type": "talent",
+  "folder": "1Lz90EiVoAp2WZXQ",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385311733,
+    "modifiedTime": 1786039906816,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "4008aQYLDwq7q8Dd",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!4008aQYLDwq7q8Dd"
+}

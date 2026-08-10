@@ -1,0 +1,138 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p>To survive the natural perils of their harsh, volcanic homeworld, the Sullustans evolved in the planet's numerous caves. They prefer to dwell underground, constructing highly advanced cities of such great beauty that wealthy sightseers come from all over the galaxy to visit them. Living underground helped the Sullustans to develop acute senses, and they are renowned for their navigational and piloting skills. </p><p>This friendly, gregarious species enjoys interacting with unique, unusual, and interesting beings. When Old Republic scouts first visited their homeworld, the Sullustans quickly embraced galactic civilization. The Sullustan manufacturing company SoroSuub is one of the largest non-<a href=\"https://swse.fandom.com/wiki/Human\" title=\"Human\">Human</a>-owned interstellar corporations in the galaxy. In fact, the company was so powerful that it has become the official government of <a href=\"https://swse.fandom.com/wiki/Sullust\" title=\"Sullust\">Sullust</a>, and more than half the plant's population is on its payroll. </p><h3><span class=\"mw-headline\" id=\"Sullustan_Characteristics\">Sullustan Characteristics</span></h3><p><b>Personality:</b> Sullustans tend to be pragmatic, pleasant, and fond of practical jokes. </p><p><b>Physical Description:</b> Sullustans are humanoid with large eyes, big ears, and jowls. The average Sullustan stands 1.5 meters tall. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Sullustans age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-9 Years </td> \n   <td>10-14 Years </td> \n   <td>15-39 Years </td> \n   <td>40-55 Years </td> \n   <td>56-69 Years </td> \n   <td>70+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The volcanic, technological world of <a href=\"https://swse.fandom.com/wiki/Sullust\" title=\"Sullust\">Sullust</a>. </p><p><b>Languages:</b> Sullustans speak, read, and write Sullustese and Basic. </p><p><b>Example Names:</b> Aril Nunb, Dllr Nep, Nien Nunb, Sian Tevv, Syub Snunb. </p><p><b>Adventurers:</b> Sullustan adventurers enjoy exploring the galaxy as <a href=\"https://swse.fandom.com/wiki/Scouts\" class=\"mw-redirect\" title=\"Scouts\">Scouts</a>, conducting business as <a href=\"https://swse.fandom.com/wiki/Nobles\" class=\"mw-redirect\" title=\"Nobles\">Nobles</a>, and pulling pranks as <a href=\"https://swse.fandom.com/wiki/Scoundrels\" class=\"mw-redirect\" title=\"Scoundrels\">Scoundrels</a> to see how others react. They are inquisitive and love to discover things through personal experience, sometimes being a bit reckless. </p><h3><span class=\"mw-headline\" id=\"Sullustan_Species_Traits\">Sullustan Species Traits</span></h3><p>Sullustans share the following Species Traits: </p><h2><span class=\"mw-headline\" id=\"Additional_Sullustan_Species_Feats\">Additional Sullustan Species Feats</span></h2><p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Rebellion_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Rebellion Era Campaign Guide\">Star Wars Saga Edition Rebellion Era Campaign Guide</a></i> </p><p>Sullustan characters have access to the following <a href=\"https://swse.fandom.com/wiki/Species_Feats\" class=\"mw-redirect\" title=\"Species Feats\">Species Feats</a>. No Species Feats are considered Bonus Feats for any <a href=\"https://swse.fandom.com/wiki/Heroic_Class\" class=\"mw-redirect\" title=\"Heroic Class\">Heroic Class</a>. </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>SPECIES FEAT </th> \n   <th> </th> \n   <th>BENEFITS </th>\n  </tr> \n  <tr> \n   <td><a href=\"https://swse.fandom.com/wiki/Darkness_Dweller\" title=\"Darkness Dweller\">Darkness Dweller</a> </td> \n   <td> </td> \n   <td>Impose a penalty to <a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a> checks made when close to you. </td>\n  </tr> \n  <tr> \n   <td><a href=\"https://swse.fandom.com/wiki/Disarming_Charm\" title=\"Disarming Charm\">Disarming Charm</a> </td> \n   <td> </td> \n   <td>Gain a bonus to <a href=\"https://swse.fandom.com/wiki/Skill_Checks\" title=\"Skill Checks\">Skill Checks</a> on targets whose <a href=\"https://swse.fandom.com/wiki/Attitude\" class=\"mw-redirect\" title=\"Attitude\">Attitude</a> you have improved. </td>\n  </tr> \n  <tr> \n   <td><a href=\"https://swse.fandom.com/wiki/Sure_Climber\" title=\"Sure Climber\">Sure Climber</a> </td> \n   <td> </td> \n   <td>Gain a Climb Speed of 4 squares. </td>\n  </tr>\n </tbody>\n</table>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Expert Climber",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Darkvision",
+        "type": "trait"
+      },
+      {
+        "name": "Heightened Awareness",
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "69",
+          "low": "56",
+          "text": "56-69",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "39",
+          "low": "15",
+          "text": "15-39",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "55",
+          "low": "40",
+          "text": "40-55",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "9",
+          "low": "1",
+          "text": "1-9",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "14",
+          "low": "10",
+          "text": "10-14",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "70",
+          "text": "70+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Expert Climber"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Darkvision"
+      },
+      {
+        "value": "Heightened Awareness"
+      },
+      {
+        "value": "Sullustans"
+      },
+      {
+        "value": "Species"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Sullustan",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535567326,
+    "modifiedTime": 1736535567326,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "u9HOcmCeccHgN1oY",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!u9HOcmCeccHgN1oY"
+}

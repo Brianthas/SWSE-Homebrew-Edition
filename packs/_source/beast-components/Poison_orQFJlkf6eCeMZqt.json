@@ -1,0 +1,116 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "The Beast delivers poison through a Bite, Claw, or Sting Natural Weapon. If the Beast deals damage to a living target, the target is also poisoned. If the poison succeeds on an attack roll (1d20+10) against the target's Fortitude Defense, the target moves -1 step along the Condition Track.\nA target moved to the bottom of the Condition Track by the poison is Immobilized but not Unconscious. The poison attacks each round until cured with a successful DC 5, 10, 15, or 20 (select one) Treat Injury check.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "#payload#",
+        "key": "poison"
+      },
+      {
+        "mode": 2,
+        "value": "The Beast delivers poison through a Bite, Claw, or Sting Natural Weapon. If the Beast deals damage to a living target, the target is also poisoned. If the poison succeeds on an attack roll (1d20+10) against the target's Fortitude Defense, the target moves -1 step along the Condition Track.\nA target moved to the bottom of the Condition Track by the poison is Immobilized but not Unconscious. The poison attacks each round until cured with a successful DC 5, 10, 15, or 20 (select one) Treat Injury check.",
+        "key": "special"
+      }
+    ],
+    "choices": [
+      {
+        "noOptions": "NO_AVAILABLE_OPTIONS",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {
+              "payload": "Bite"
+            },
+            "display": "Bite",
+            "name": "Bite",
+            "attributes": {},
+            "value": "Bite"
+          },
+          {
+            "payloads": {
+              "payload": "Claw"
+            },
+            "display": "Claw",
+            "name": "Claw",
+            "attributes": {},
+            "value": "Claw"
+          },
+          {
+            "payloads": {
+              "payload": "Sting"
+            },
+            "display": "Sting",
+            "name": "Sting",
+            "attributes": {},
+            "value": "Sting"
+          }
+        ],
+        "description": "Select an attack to add poison to:",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": true
+      }
+    ],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Bite Attack",
+          "requirement": "Bite",
+          "type": "BEAST_ATTACK"
+        },
+        {
+          "text": "Claw Attack",
+          "requirement": "Claw",
+          "type": "BEAST_ATTACK"
+        },
+        {
+          "text": "Sting Attack",
+          "requirement": "Sting",
+          "type": "BEAST_ATTACK"
+        }
+      ],
+      "count": 1,
+      "text": "Bite Attack, Claw Attack, or Sting Attack",
+      "type": "OR"
+    },
+    "cost": "0"
+  },
+  "name": "Poison",
+  "flags": {},
+  "type": "beastQuality",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749299111406,
+    "modifiedTime": 1749299111406,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "orQFJlkf6eCeMZqt",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!orQFJlkf6eCeMZqt"
+}

@@ -1,0 +1,156 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a></i> </p><p>Long ago, the Ubese were a peaceful Species, content in the paradise of their garden planets. This changes when they encounter Old Republic scouts who seduce them with the power and might of advanced technology. Obsessed by these wonders, the Ubese devote their resources to the development of these technologies. </p><p>As they succeed, they became worried about aggression from rival systems, so they develop weapon technology, dipping into dangerous devices banned throughout the galaxy. Fearing these weapons in the hands of a decidedly unstable population, <a href=\"https://swse.fandom.com/wiki/The_Old_Republic\" title=\"The Old Republic\">The Old Republic</a> makes a preemptive strike against the Ubese to destroy weapons facilities and halt their aggression. The attacks inadvertently detonate those same weapons, resulting in a widespread contamination of all Ubese worlds and the near extinction of the Ubese race. </p><p>The only survivors are those on <a href=\"https://swse.fandom.com/wiki/Uba_IV\" title=\"Uba IV\">Uba IV</a>, who struggle to subsist in the ashes of their civilization. The attacks, coupled with The Old Republic's unwillingness to assist the beleaguered people, breed resentment and hatred toward the rest of the galaxy. After thousands of years, the Ubese nurse their animosity until they recover enough to begin again. The Ubese slowly emerge from their world, selling their services as mercenaries and bounty hunters, gaining a name for themselves as merciless warriors who are not above any tactic as long as they get the job done. </p><h3><span class=\"mw-headline\" id=\"Ubese_Characteristics\">Ubese Characteristics</span></h3><p><b>Personality:</b> Ubese are aggressive and warlike. They blame all outsiders for the loss of their civilization, so resentment and disgust consume Ubese. They reserve their hate for <a href=\"https://swse.fandom.com/wiki/The_Jedi\" title=\"The Jedi\">The Jedi</a> in particular, seeing them as responsible for their loss. </p><p><b>Physical Description:</b> The Ubese are a Species of graceful <a href=\"https://swse.fandom.com/wiki/Near-Humans\" title=\"Near-Humans\">Near-Humans</a>. They are uniformly slender and frail compared to <a href=\"https://swse.fandom.com/wiki/Humans\" class=\"mw-redirect\" title=\"Humans\">Humans</a>. Acclimation to their toxic atmospheres prevents the Ubese from breathing the air of other planets, so they are forced to wear body suits and breathing apparatuses. Beneath this equipment, Ubese are hairless, with pleasant features, fair skin, and bright green or blue eyes. They have exotic features with narrow faces and overlarge eyes set above high cheekbones. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Ubese age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-15 Years </td> \n   <td>16-40 Years </td> \n   <td>41-60 Years </td> \n   <td>61-70 Years </td> \n   <td>71+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The Ubese hail from <a href=\"https://swse.fandom.com/wiki/Uba_IV\" title=\"Uba IV\">Uba IV</a>, the only living planet in a remote section of <a href=\"https://swse.fandom.com/wiki/The_Mid_Rim\" title=\"The Mid Rim\">The Mid Rim</a>. </p><p><b>Languages:</b> The Ubese cannot produce sounds above a harsh whisper, so they rely on voice modulators to communicate. Among their own kind, they use a complex language of hand signals, allowing them to exchange information and ideas in silence. </p><p><b>Example Names:</b> Boushh, Dazaks, Kabrak, Norouhj, Savax, Torhhks. </p><p><b>Adventurers:</b> Ubese adventurers are uncommon at best, considering the obstacles they must overcome to survive and their reliance on technology to survive off-world. Those that manage to make it work are mercenaries and bounty hunters, <a href=\"https://swse.fandom.com/wiki/Scouts\" class=\"mw-redirect\" title=\"Scouts\">Scouts</a> and <a href=\"https://swse.fandom.com/wiki/Soldiers\" class=\"mw-redirect\" title=\"Soldiers\">Soldiers</a> who hire themselves out to anyone who meets their price. Even though they are no strangers to <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a>, no Ubese are known to have become <a href=\"https://swse.fandom.com/wiki/Jedi\" title=\"Jedi\">Jedi</a>. </p><h3><span class=\"mw-headline\" id=\"Ubese_Species_Traits\">Ubese Species Traits</span></h3><p>Ubese share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Perception))",
+        "type": "trait"
+      },
+      {
+        "name": "Ubese",
+        "type": "trait"
+      },
+      {
+        "name": "Aggressive",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Special Equipment",
+        "type": "trait"
+      },
+      {
+        "name": "Survival Instinct",
+        "type": "trait"
+      },
+      {
+        "name": "Skill Focus (Perception)",
+        "type": "feat"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "11",
+          "low": "1",
+          "text": "1-11",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "60",
+          "low": "41",
+          "text": "41-60",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "71",
+          "text": "71+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "15",
+          "low": "12",
+          "text": "12-15",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "70",
+          "low": "61",
+          "text": "61-70",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "40",
+          "low": "16",
+          "text": "16-40",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Conditional Bonus Feat (Skill Focus (Perception))"
+      },
+      {
+        "value": "Ubese"
+      },
+      {
+        "value": "Aggressive"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Special Equipment"
+      },
+      {
+        "value": "Conditional Bonus Feat"
+      },
+      {
+        "value": "Survival Instinct"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Ubese",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535567615,
+    "modifiedTime": 1736535567615,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "L8Ko3SGs5l6MMC8d",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!L8Ko3SGs5l6MMC8d"
+}

@@ -1,0 +1,72 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You are skilled at keeping your opponents off balance in melee combat. At the beginning of your turn, you can choose to designate an opponent no more than one size category larger or smaller than you. That opponent doesn't get to add their <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> bonus on attack rolls when targeting you.<br><br>(If the opponent has a <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> penalty, they still suffer from that penalty.) The opponent's <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> modifier applies to damage, as usual. You can select a new opponent on your next turn.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Expert Grappler talent",
+      "requirement": "Expert Grappler",
+      "type": "TALENT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Soldier Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Melee Duelist Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Talent Trees",
+      "Core Rulebook",
+      "Melee Duelist Talent Trees",
+      "Martial Arts Master Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Brawler Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Brawler_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Core Rulebook",
+    "cost": "0"
+  },
+  "name": "Unbalance Opponent",
+  "flags": {},
+  "type": "talent",
+  "folder": "mCMlDDiK1hy9rCjG",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385303043,
+    "modifiedTime": 1786039906819,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "JKUmb4WfumUChqam",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!JKUmb4WfumUChqam"
+}

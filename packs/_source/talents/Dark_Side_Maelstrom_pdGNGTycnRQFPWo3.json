@@ -1,0 +1,79 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You create a wound in <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a> itself, tearing open space in a vortex of intense Dark Side energy. Use of this Talent expends the <a href=\"https://swse.fandom.com/wiki/Force_Storm\" title=\"Force Storm\"><i>Force Storm</i></a> and <a href=\"https://swse.fandom.com/wiki/Hatred\" title=\"Hatred\"><i>Hatred</i></a> Force Powers from your <a href=\"https://swse.fandom.com/wiki/Force_Power_Suite\" class=\"mw-redirect\" title=\"Force Power Suite\">Force Power Suite</a>. As a <a href=\"https://swse.fandom.com/wiki/Full-Round_Action\" class=\"mw-redirect\" title=\"Full-Round Action\">Full-Round Action</a>, you may make a DC 25 <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check. If the check succeeds, you create a <b>Dark Side Maelstrom</b> within your line of sight one square in size that deals 2d8 <a href=\"https://swse.fandom.com/wiki/Force\" class=\"mw-redirect\" title=\"Force\">Force</a> damage to all targets within its affected area. The maelstrom can only be controlled by the creator and is capable of movement up to 6 squares per round. The maelstrom requires a <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check with a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a> to maintain from round to round.<br><br>The DC to maintain the maelstrom increases by one, the damage increases by +1d8 and it expands in size by one square area each round (1-square becomes 2x2 squares, etc.). If at any time a <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check fails, the maelstrom disperses immediately. If the check fails by 10 or more, the maelstrom turns on its creator, dealing damage equal to its current damage die that round. If you take damage while maintaining <b>Dark Side Maelstrom</b>, you must succeed on a <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check (DC = current round DC + damage taken) to continue maintaining the Talent and prevent it from turning on its creator.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Talent from the Dark Side Talent Tree",
+          "requirement": "Dark Side Talent Tree",
+          "type": "TALENT"
+        },
+        {
+          "text": "Force Storm force power",
+          "requirement": "Force Storm",
+          "type": "FORCE POWER"
+        },
+        {
+          "text": "Hatred force power",
+          "requirement": "Hatred",
+          "type": "FORCE POWER"
+        }
+      ],
+      "text": "Talent from the Dark Side Talent Tree, Force Storm force power, and Hatred force power",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Force Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Force Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Dark Side Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Dark_Side_Talent_Tree",
+    "bonusTalentTree": "Force Talent Trees",
+    "source": "Clone Wars Saga Edition Fan Sourcebook - The Dark Side",
+    "cost": "0"
+  },
+  "name": "Dark Side Maelstrom",
+  "flags": {},
+  "type": "talent",
+  "folder": "2cQdnTei2lU54zBE",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385304078,
+    "modifiedTime": 1734385304078,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "pdGNGTycnRQFPWo3",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!pdGNGTycnRQFPWo3"
+}

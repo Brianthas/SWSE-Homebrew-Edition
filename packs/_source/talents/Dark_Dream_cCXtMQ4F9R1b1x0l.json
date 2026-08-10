@@ -1,0 +1,74 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Whenever you use the <i><a href=\"https://swse.fandom.com/wiki/Farseeing\" title=\"Farseeing\">Farseeing</a></i> Force Power on a sleeping target, you can spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> and extend the casting time to a <a href=\"https://swse.fandom.com/wiki/Full-Round_Action\" class=\"mw-redirect\" title=\"Full-Round Action\">Full-Round Action</a>. Doing so allows you to impose nightmares upon the target in the form of present or upcoming disasters. These nightmares are disguised as premonitions in <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a>, and can take any form you choose (such as a loved one dying in childbirth, or a betrayal by a close friend).<br><br>When the target awakens from these nightmares, he or she moves -1 <a href=\"https://swse.fandom.com/wiki/Persistent\" class=\"mw-redirect\" title=\"Persistent\">Persistent</a> step down the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>, which can only be removed by resting for 8 hours without being further interrupted by the use of this Talent. The use of this Talent increases your <a href=\"https://swse.fandom.com/wiki/Dark_Side_Score\" title=\"Dark Side Score\">Dark Side Score</a> by 1.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Force Perception talent",
+          "requirement": "Force Perception",
+          "type": "TALENT"
+        },
+        {
+          "text": "Farseeing force power",
+          "requirement": "Farseeing",
+          "type": "FORCE POWER"
+        }
+      ],
+      "text": "Force Perception talent, and Farseeing force power",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Force Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Force Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Dark Side Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Dark_Side_Talent_Tree",
+    "bonusTalentTree": "Force Talent Trees",
+    "source": "Legacy of the Force Sourcebook",
+    "cost": "0"
+  },
+  "name": "Dark Dream",
+  "flags": {},
+  "type": "talent",
+  "folder": "2cQdnTei2lU54zBE",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385304059,
+    "modifiedTime": 1734385304059,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "cCXtMQ4F9R1b1x0l",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!cCXtMQ4F9R1b1x0l"
+}

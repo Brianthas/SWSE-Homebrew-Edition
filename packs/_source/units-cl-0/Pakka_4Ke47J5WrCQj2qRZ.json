@@ -1,0 +1,4042 @@
+{
+  "effects": [],
+  "system": {
+    "health": {
+      "value": 3,
+      "min": 0,
+      "max": 3,
+      "condition": 0,
+      "override": 3
+    },
+    "shields": {
+      "value": 0,
+      "min": 0,
+      "max": 0,
+      "shieldDamage": 0
+    },
+    "description": "",
+    "credits": 0,
+    "classes": [],
+    "traits": [],
+    "age": "(Child)",
+    "gender": "",
+    "genderDisplay": "",
+    "player": "",
+    "darkSideScore": 0,
+    "darkSideArray": [],
+    "attributes": {
+      "str": {
+        "total": 10,
+        "manual": "9",
+        "mod": 0,
+        "bonus": 0,
+        "base": 10
+      },
+      "dex": {
+        "total": 10,
+        "manual": "14",
+        "mod": 0,
+        "bonus": 0,
+        "base": 10
+      },
+      "con": {
+        "total": 10,
+        "manual": "10",
+        "mod": 0,
+        "bonus": 0,
+        "base": 10
+      },
+      "int": {
+        "total": 10,
+        "manual": "13",
+        "mod": 0,
+        "bonus": 0,
+        "base": 10
+      },
+      "wis": {
+        "total": 10,
+        "manual": "9",
+        "mod": 0,
+        "bonus": 0,
+        "base": 10
+      },
+      "cha": {
+        "total": 10,
+        "manual": "9",
+        "mod": 0,
+        "bonus": 0,
+        "base": 10
+      }
+    },
+    "crewQuality": {},
+    "crew": [],
+    "equippedIds": [],
+    "skills": {
+      "climb": {
+        "trained": true
+      },
+      "acrobatics": {
+        "trained": true
+      },
+      "jump": {
+        "trained": true
+      }
+    },
+    "biography": "",
+    "providedItems": [
+      {
+        "quantity": "1",
+        "name": "Nonheroic",
+        "type": "class",
+        "firstLevel": true
+      },
+      {
+        "name": "Trianii",
+        "answers": [
+          "Small"
+        ],
+        "type": "species"
+      },
+      {
+        "name": "Basic",
+        "type": "language"
+      },
+      {
+        "name": "Trianii",
+        "type": "language"
+      },
+      {
+        "payloads": {
+          "payload": "Acrobatics"
+        },
+        "name": "Skill Focus",
+        "type": "feat"
+      },
+      {
+        "payloads": {
+          "payload": "Climb"
+        },
+        "name": "Skill Focus",
+        "type": "feat"
+      },
+      {
+        "payloads": {
+          "payload": "Jump"
+        },
+        "name": "Skill Focus",
+        "type": "feat"
+      },
+      {
+        "payloads": {
+          "payload": "Climb"
+        },
+        "name": "Skill Training",
+        "type": "feat"
+      }
+    ],
+    "size": "Small",
+    "defense": {
+      "will": {
+        "expected": 9
+      },
+      "reflex": {
+        "expected": 13
+      },
+      "fortitude": {
+        "expected": 10
+      }
+    },
+    "sizeOverride": "Small",
+    "attributeGenerationType": "Manual",
+    "changes": [],
+    "cl": 0,
+    "isNPC": true,
+    "settings": {
+      "isNPC": true
+    }
+  },
+  "name": "Pakka",
+  "flags": {},
+  "type": "character",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "Pakka",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "shields"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "depth": 1
+  },
+  "items": [
+    {
+      "_id": "yalE2w8eNMI1t7m9",
+      "name": "Nonheroic",
+      "type": "class",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "<p><i>See also: <a href=\"https://swse.fandom.com/wiki/Nonheroic_Units\" title=\"Nonheroic Units\">Nonheroic Units</a></i> </p><p>Nonheroic characters include everything from professional workers to petty criminals, police officers to common thugs. They lack the inclination or training to be heroes. but they are capable in their own fields. Skilled engineers, educated professors, and master architects are all Nonheroic characters, as is the local governor, the self-serving spice merchant, and the baseline Imperial <a href=\"https://swse.fandom.com/wiki/Stormtrooper\" title=\"Stormtrooper\">Stormtrooper</a>. </p><p>Nonheroic characters do not gain <a href=\"https://swse.fandom.com/wiki/Talents\" title=\"Talents\">Talents</a>, do not add their Nonheroic Class Level to their <a href=\"https://swse.fandom.com/wiki/Defense_Scores\" class=\"mw-redirect\" title=\"Defense Scores\">Defense Scores</a>, and do not gain <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">Force Points</a> or <a href=\"https://swse.fandom.com/wiki/Destiny_Points\" class=\"mw-redirect\" title=\"Destiny Points\">Destiny Points</a>. In addition, they only get to increase one <a href=\"https://swse.fandom.com/wiki/Ability_Score\" class=\"mw-redirect\" title=\"Ability Score\">Ability Score</a> by one point every fourth level (instead of increasing two scores by one point each). However, they gain <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a> normally as they advance in level. </p><h3><span class=\"mw-headline\" id=\"Game_Rule_Information\">Game Rule Information</span></h3><p>Nonheroic characters have the following game statistics. </p><table class=\"wikitable\"> \n <caption>\n  Nonheroic Leveling Statistics \n </caption> \n <tbody>\n  <tr> \n   <th>LEVEL </th> \n   <th>BASE ATTACK BONUS </th> \n   <th> </th> \n   <th>LEVEL </th> \n   <th>BASE ATTACK BONUS </th>\n  </tr> \n  <tr> \n   <td>1st </td> \n   <td>+0 </td> \n   <td> </td> \n   <td>11th </td> \n   <td>+8 </td>\n  </tr> \n  <tr> \n   <td>2nd </td> \n   <td>+1 </td> \n   <td> </td> \n   <td>12th </td> \n   <td>+9 </td>\n  </tr> \n  <tr> \n   <td>3rd </td> \n   <td>+2 </td> \n   <td> </td> \n   <td>13th </td> \n   <td>+9 </td>\n  </tr> \n  <tr> \n   <td>4th </td> \n   <td>+3 </td> \n   <td> </td> \n   <td>14th </td> \n   <td>+10 </td>\n  </tr> \n  <tr> \n   <td>5th </td> \n   <td>+3 </td> \n   <td> </td> \n   <td>15th </td> \n   <td>+11 </td>\n  </tr> \n  <tr> \n   <td>6th </td> \n   <td>+4 </td> \n   <td> </td> \n   <td>16th </td> \n   <td>+12 </td>\n  </tr> \n  <tr> \n   <td>7th </td> \n   <td>+5 </td> \n   <td> </td> \n   <td>17th </td> \n   <td>+12 </td>\n  </tr> \n  <tr> \n   <td>8th </td> \n   <td>+6 </td> \n   <td> </td> \n   <td>18th </td> \n   <td>+13 </td>\n  </tr> \n  <tr> \n   <td>9th </td> \n   <td>+6 </td> \n   <td> </td> \n   <td>19th </td> \n   <td>+14 </td>\n  </tr> \n  <tr> \n   <td>10th </td> \n   <td>+7 </td> \n   <td> </td> \n   <td>20th </td> \n   <td>+15 </td>\n  </tr>\n </tbody>\n</table><h4><span class=\"mw-headline\" id=\"Hit_Points\"><b>Hit Points</b></span></h4><p>At each level, Nonheroic characters gain 1d4 Hit Points + their <a href=\"https://swse.fandom.com/wiki/Constitution\" title=\"Constitution\">Constitution</a> modifier. </p><h4><span class=\"mw-headline\" id=\"Force_Points\"><b>Force Points</b></span></h4><p>Nonheroic characters do not gain <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">Force Points</a>. </p><h4><span class=\"mw-headline\" id=\"Class_Features\"><b>Class Features</b></span></h4><p>Nonheroic characters receive no special class features other than some starting <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a> at 1st level. </p><h4><span class=\"mw-headline\" id=\"Starting_Feats\"><b>Starting Feats</b></span></h4><p>A Nonheroic character gains three starting <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a> at 1st level, chosen from the following list: </p><p><a href=\"https://swse.fandom.com/wiki/Armor_Proficiency_(Light)\" title=\"Armor Proficiency (Light)\">Armor Proficiency (Light)</a>, <a href=\"https://swse.fandom.com/wiki/Armor_Proficiency_(Medium)\" title=\"Armor Proficiency (Medium)\">Armor Proficiency (Medium)</a>, <a href=\"https://swse.fandom.com/wiki/Skill_Focus\" title=\"Skill Focus\">Skill Focus</a>*, <a href=\"https://swse.fandom.com/wiki/Skill_Training\" title=\"Skill Training\">Skill Training</a>*, <a href=\"https://swse.fandom.com/wiki/Weapon_Proficiency_(Advanced_Melee_Weapons)\" class=\"mw-redirect\" title=\"Weapon Proficiency (Advanced Melee)\">Weapon Proficiency (Advanced Melee)</a>, <a href=\"https://swse.fandom.com/wiki/Weapon_Proficiency_(Heavy_Weapons)\" class=\"mw-redirect\" title=\"Weapon Proficiency (Heavy Weapons)\">Weapon Proficiency (Heavy Weapons)</a>, <a href=\"https://swse.fandom.com/wiki/Weapon_Proficiency_(Pistols)\" class=\"mw-redirect\" title=\"Weapon Proficiency (Pistols)\">Weapon Proficiency (Pistols)</a>, <a href=\"https://swse.fandom.com/wiki/Weapon_Proficiency_(Rifles)\" class=\"mw-redirect\" title=\"Weapon Proficiency (Rifles)\">Weapon Proficiency (Rifles)</a>, <a href=\"https://swse.fandom.com/wiki/Weapon_Proficiency_(Simple_Weapons)\" class=\"mw-redirect\" title=\"Weapon Proficiency (Simple Weapons)\">Weapon Proficiency (Simple Weapons)</a>. </p><p><i>*This Feat may be taken more than once. Each time the Feat is selected, it applies to a different <a href=\"https://swse.fandom.com/wiki/Skill\" class=\"mw-redirect\" title=\"Skill\">Skill</a>.</i> </p><h4><span class=\"mw-headline\" id=\"Multiclassing\"><b>Multiclassing</b></span></h4><p>A Nonheroic character can <a href=\"https://swse.fandom.com/wiki/Multiclass\" class=\"mw-redirect\" title=\"Multiclass\">Multiclass</a> into a heroic class. The normal multiclassing rules apply. </p><h4><span class=\"mw-headline\" id=\"Class_Skills\"><b>Class Skills</b></span></h4><p>(Trained in 1 + <a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a> modifier, minimum 1): </p><ul>\n <li><a href=\"https://swse.fandom.com/wiki/Acrobatics\" title=\"Acrobatics\">Acrobatics</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Climb\" title=\"Climb\">Climb</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Deception\" title=\"Deception\">Deception</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Endurance\" title=\"Endurance\">Endurance</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Gather_Information\" title=\"Gather Information\">Gather Information</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Jump\" title=\"Jump\">Jump</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Knowledge\" title=\"Knowledge\">Knowledge</a> (all types, taken individually)</li> \n <li><a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Persuasion\" title=\"Persuasion\">Persuasion</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Ride\" title=\"Ride\">Ride</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Survival\" title=\"Survival\">Survival</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Swim\" title=\"Swim\">Swim</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a></li>\n</ul><h3><span class=\"mw-headline\" id=\"Character_Archetypes\">Character Archetypes</span></h3><p>The following pregenerated characters are examples of typical allies and opponents that you can throw into an adventure or campaign. They represent some of the more common characters seen across the various <i>Star Wars</i> eras. Add personalities and histories to these archetypal characters as you see fit. </p><h4><span class=\"mw-headline\" id=\"Creating_Non-Human_Characters\"><b>Creating Non-Human Characters</b></span></h4><p>The statistics provided here use the <a href=\"https://swse.fandom.com/wiki/Human\" title=\"Human\">Human</a> Species as the baseline. If you wish to change the character's <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>, follow these simple rules: </p><ul>\n <li>Remove one of the character's <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a>. (<a href=\"https://swse.fandom.com/wiki/Human\" title=\"Human\">Human</a> characters gain a bonus <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feat</a>).</li> \n <li>Remove one of the character's <a href=\"https://swse.fandom.com/wiki/Trained_Skills\" class=\"mw-redirect\" title=\"Trained Skills\">Trained Skills</a>. (<a href=\"https://swse.fandom.com/wiki/Human\" title=\"Human\">Human</a> characters gain a bonus <a href=\"https://swse.fandom.com/wiki/Trained_Skill\" class=\"mw-redirect\" title=\"Trained Skill\">Trained Skill</a>).</li> \n <li>Add the relevant Species Traits for the selected <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>.</li>\n</ul>",
+        "textDescription": "See also: Nonheroic Units Nonheroic characters include everything from professional workers to petty criminals, police officers to common thugs. They lack the inclination or training to be heroes. but they are capable in their own fields. Skilled engineers, educated professors, and master architects are all Nonheroic characters, as is the local governor, the self-serving spice merchant, and the baseline Imperial Stormtrooper. Nonheroic characters do not gain Talents, do not add their Nonheroic Class Level to their Defense Scores, and do not gain Force Points or Destiny Points. In addition, they only get to increase one Ability Score by one point every fourth level (instead of increasing two scores by one point each). However, they gain Feats normally as they advance in level. Game Rule InformationNonheroic characters have the following game statistics.  \n \n  Nonheroic Leveling Statistics \n  \n \n   \n   LEVEL  \n   BASE ATTACK BONUS  \n     \n   LEVEL  \n   BASE ATTACK BONUS \n   \n   \n   1st  \n   +0  \n     \n   11th  \n   +8 \n   \n   \n   2nd  \n   +1  \n     \n   12th  \n   +9 \n   \n   \n   3rd  \n   +2  \n     \n   13th  \n   +9 \n   \n   \n   4th  \n   +3  \n     \n   14th  \n   +10 \n   \n   \n   5th  \n   +3  \n     \n   15th  \n   +11 \n   \n   \n   6th  \n   +4  \n     \n   16th  \n   +12 \n   \n   \n   7th  \n   +5  \n     \n   17th  \n   +12 \n   \n   \n   8th  \n   +6  \n     \n   18th  \n   +13 \n   \n   \n   9th  \n   +6  \n     \n   19th  \n   +14 \n   \n   \n   10th  \n   +7  \n     \n   20th  \n   +15 \n  \n \nHit PointsAt each level, Nonheroic characters gain 1d4 Hit Points + their Constitution modifier. Force PointsNonheroic characters do not gain Force Points. Class FeaturesNonheroic characters receive no special class features other than some starting Feats at 1st level. Starting FeatsA Nonheroic character gains three starting Feats at 1st level, chosen from the following list: Armor Proficiency (Light), Armor Proficiency (Medium), Skill Focus*, Skill Training*, Weapon Proficiency (Advanced Melee), Weapon Proficiency (Heavy Weapons), Weapon Proficiency (Pistols), Weapon Proficiency (Rifles), Weapon Proficiency (Simple Weapons). *This Feat may be taken more than once. Each time the Feat is selected, it applies to a different Skill. MulticlassingA Nonheroic character can Multiclass into a heroic class. The normal multiclassing rules apply. Class Skills(Trained in 1 + Intelligence modifier, minimum 1): \n Acrobatics \n Climb \n Deception \n Endurance \n Gather Information \n Initiative \n Jump \n Knowledge (all types, taken individually) \n Mechanics \n Perception \n Persuasion \n Pilot \n Ride \n Stealth \n Survival \n Swim \n Treat Injury \n Use Computer\nCharacter ArchetypesThe following pregenerated characters are examples of typical allies and opponents that you can throw into an adventure or campaign. They represent some of the more common characters seen across the various Star Wars eras. Add personalities and histories to these archetypal characters as you see fit. Creating Non-Human CharactersThe statistics provided here use the Human Species as the baseline. If you wish to change the character's Species, follow these simple rules: \n Remove one of the character's Feats. (Human characters gain a bonus Feat). \n Remove one of the character's Trained Skills. (Human characters gain a bonus Trained Skill). \n Add the relevant Species Traits for the selected Species.\n",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": 1,
+            "key": "trainedSkillsFirstLevel",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Acrobatics",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Climb",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Deception",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Endurance",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Gather Information",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Initiative",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Jump",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Knowledge (all types, taken individually)",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Mechanics",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Perception",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Persuasion",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Pilot",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Ride",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Stealth",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Survival",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Swim",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Treat Injury",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Use Computer",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "1d4",
+            "key": "levelUpHitPoints",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "1d4",
+            "key": "firstLevelHitPoints",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": 3,
+            "key": "availableClassFeats",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Armor Proficiency (Light)",
+            "key": "classFeat",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Armor Proficiency (Medium)",
+            "key": "classFeat",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Skill Focus",
+            "key": "classFeat",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Skill Training",
+            "key": "classFeat",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Weapon Proficiency (Advanced Melee)",
+            "key": "classFeat",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Weapon Proficiency (Heavy Weapons)",
+            "key": "classFeat",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Weapon Proficiency (Pistols)",
+            "key": "classFeat",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Weapon Proficiency (Rifles)",
+            "key": "classFeat",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": "Weapon Proficiency (Simple Weapons)",
+            "key": "classFeat",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": false,
+            "key": "isHeroic",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": false,
+            "key": "isPrestige",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          },
+          {
+            "mode": 2,
+            "value": false,
+            "key": "isFollowerTemplate",
+            "source": null,
+            "sourceString": "Nonheroic",
+            "sourceDescription": "Nonheroic"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "prerequisite": null,
+        "levels": [],
+        "cost": "0",
+        "quantity": 1,
+        "levelsTaken": [
+          1
+        ]
+      },
+      "effects": [
+        {
+          "_id": "iyyLY06tnyQT41Ub",
+          "name": "Level 1",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 0,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 1
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!4Ke47J5WrCQj2qRZ.yalE2w8eNMI1t7m9.iyyLY06tnyQT41Ub"
+        },
+        {
+          "_id": "Dd5PeArnMmwuZ4y8",
+          "name": "Level 2",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 2
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!4Ke47J5WrCQj2qRZ.yalE2w8eNMI1t7m9.Dd5PeArnMmwuZ4y8"
+        },
+        {
+          "_id": "AGLZjYZFA0XbbIcz",
+          "name": "Level 3",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 3
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!4Ke47J5WrCQj2qRZ.yalE2w8eNMI1t7m9.AGLZjYZFA0XbbIcz"
+        },
+        {
+          "_id": "60EyVOvCqtvNwa8l",
+          "name": "Level 4",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 4
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!4Ke47J5WrCQj2qRZ.yalE2w8eNMI1t7m9.60EyVOvCqtvNwa8l"
+        },
+        {
+          "_id": "AUbLNSfE7xkejisg",
+          "name": "Level 5",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 0,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 5
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!4Ke47J5WrCQj2qRZ.yalE2w8eNMI1t7m9.AUbLNSfE7xkejisg"
+        },
+        {
+          "_id": "HsOKPpwHP78lDxNQ",
+          "name": "Level 6",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 6
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!4Ke47J5WrCQj2qRZ.yalE2w8eNMI1t7m9.HsOKPpwHP78lDxNQ"
+        },
+        {
+          "_id": "Qi3x9DRacMjJ4IUH",
+          "name": "Level 7",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 7
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!4Ke47J5WrCQj2qRZ.yalE2w8eNMI1t7m9.Qi3x9DRacMjJ4IUH"
+        },
+        {
+          "_id": "uAVfMc4SNW04ckny",
+          "name": "Level 8",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 8
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!4Ke47J5WrCQj2qRZ.yalE2w8eNMI1t7m9.uAVfMc4SNW04ckny"
+        },
+        {
+          "_id": "5a74kgE47hrrriJ6",
+          "name": "Level 9",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 0,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 9
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!4Ke47J5WrCQj2qRZ.yalE2w8eNMI1t7m9.5a74kgE47hrrriJ6"
+        },
+        {
+          "_id": "7W0n9V1rMZXUFxOv",
+          "name": "Level 10",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 10
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!4Ke47J5WrCQj2qRZ.yalE2w8eNMI1t7m9.7W0n9V1rMZXUFxOv"
+        },
+        {
+          "_id": "sfK76FQz2LtEvSjd",
+          "name": "Level 11",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 11
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!4Ke47J5WrCQj2qRZ.yalE2w8eNMI1t7m9.sfK76FQz2LtEvSjd"
+        },
+        {
+          "_id": "GLNHdVb6zofWDuBh",
+          "name": "Level 12",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 12
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!4Ke47J5WrCQj2qRZ.yalE2w8eNMI1t7m9.GLNHdVb6zofWDuBh"
+        },
+        {
+          "_id": "4u9VgOmi5Zi2bh3t",
+          "name": "Level 13",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 0,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 13
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!4Ke47J5WrCQj2qRZ.yalE2w8eNMI1t7m9.4u9VgOmi5Zi2bh3t"
+        },
+        {
+          "_id": "nwgVXJxaIWLlRP62",
+          "name": "Level 14",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 14
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!4Ke47J5WrCQj2qRZ.yalE2w8eNMI1t7m9.nwgVXJxaIWLlRP62"
+        },
+        {
+          "_id": "K4IewKUtmP56Gafm",
+          "name": "Level 15",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 15
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!4Ke47J5WrCQj2qRZ.yalE2w8eNMI1t7m9.K4IewKUtmP56Gafm"
+        },
+        {
+          "_id": "wu4UBx5QSNNU6kYZ",
+          "name": "Level 16",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 16
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!4Ke47J5WrCQj2qRZ.yalE2w8eNMI1t7m9.wu4UBx5QSNNU6kYZ"
+        },
+        {
+          "_id": "L2WaC6fNtZHEWFgN",
+          "name": "Level 17",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 0,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 17
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!4Ke47J5WrCQj2qRZ.yalE2w8eNMI1t7m9.L2WaC6fNtZHEWFgN"
+        },
+        {
+          "_id": "HBQ7nrdHar2kXecL",
+          "name": "Level 18",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 18
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!4Ke47J5WrCQj2qRZ.yalE2w8eNMI1t7m9.HBQ7nrdHar2kXecL"
+        },
+        {
+          "_id": "VxbK51YBscQnjiCl",
+          "name": "Level 19",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 19
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!4Ke47J5WrCQj2qRZ.yalE2w8eNMI1t7m9.VxbK51YBscQnjiCl"
+        },
+        {
+          "_id": "BmnVSX12FkTPFRZ9",
+          "name": "Level 20",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 20
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!4Ke47J5WrCQj2qRZ.yalE2w8eNMI1t7m9.BmnVSX12FkTPFRZ9"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.classes.Item.LsCS2YrlZ54IU8lg",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!4Ke47J5WrCQj2qRZ.yalE2w8eNMI1t7m9"
+    },
+    {
+      "_id": "SIO8W9IkSS12AbnG",
+      "name": "Trianii",
+      "type": "species",
+      "img": "systems/swse/icon/species/default.png",
+      "system": {
+        "finalName": "",
+        "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_at_War\" title=\"Star Wars Saga Edition Galaxy at War\">Star Wars Saga Edition Galaxy at War</a></i> </p><p>The Trianii are a feline race of intrepid explorers, but unlike other technologically advanced <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> of the galaxy, they express no interest in becoming a part of the greater galactic community. The Trianii use impressive displays of force to drive away interlopers so that they are left alone to explore their region of the galaxy. Their homeworld is located on the edge of the region of space controlled by <a href=\"https://swse.fandom.com/wiki/The_Corporate_Sector_Authority\" title=\"The Corporate Sector Authority\">The Corporate Sector Authority</a>. An attempt by the CSA to expand its area of control into Trianii territories is met with a display of Trianii determination as the Species expel the invaders, proving that the ships and weapons of <a href=\"https://swse.fandom.com/wiki/The_Trianii_Rangers\" title=\"The Trianii Rangers\">The Trianii Rangers</a> are as formidable as those of other galactic forces. </p><p>Trianii society is a matriarchy- partly because females of the Species are taller and slightly stronger than the males- ruled by tribunals of females known as <i>yu'nar</i>. Trianii culture revolves around religious beliefs that cover all aspects of life, including art, literature, commerce, and warfare. At one point in their history, the Trianii have numerous different religions, but when a religious civil war threatens to erupt, the leaders of these different faiths instead agree to work together to create an official religion. They establish a belief structure with a moral code that all sides find acceptable while at the same time allowing Trianii to continue following the individual faiths of their families. </p><p>Trianii wear little clothing, selecting garments only for necessity, either as protection or utility. The one item commonly worn by the Species is a <a href=\"https://swse.fandom.com/wiki/Utility_Belt\" title=\"Utility Belt\">Utility Belt</a> that holds essential items. Even ceremonial garb is limited to jewelry and similar adornments. </p><h3><span class=\"mw-headline\" id=\"Trianii_Characteristics\">Trianii Characteristics</span></h3><p><b>Personality:</b> Adventurers by nature, Trianii feel a constant urge to explore, and they place a high value on independence. Spirituality is a large part of Trianii culture, with devotion split between the formal government religion and each family's traditional religious values. </p><p><b>Physical Description:</b> A Trianii is a slender humanoid with prominent feline facial characteristics. Sharp claws and a prehensile tail reinforce the Species' feline qualities. The colors and patterns of Trianii fur vary greatly. Trianii are about 2 meters tall; the females are slightly taller than the males and possess correspondingly larger physiques. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b>&nbsp;Trianii age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-17 Years </td> \n   <td>18-44 Years </td> \n   <td>45-64 Years </td> \n   <td>65-84 Years </td> \n   <td>85+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> <span class=\"new\" title=\"Trian (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvVHJpYW4/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Trian</span>, located in the outermost portion of the Tingel Arm. </p><p><b>Languages:</b> The Trianii language is composed of purrs, growls, and rolling vocalizations. The written form uses a syllabary instead of an alphabet. Trianii encountered outside Trianii space have some fluency in Basic, but few are literate in it. </p><p><b>Example Names:</b> Atuarre, Duarrid, Keeheen, Pakka, Reakhas, Shearran, Tuunac. </p><p><b>Adventurers:</b> Almost all Trianii encountered outside the Species' area of influence are members of <a href=\"https://swse.fandom.com/wiki/The_Trianii_Rangers\" title=\"The Trianii Rangers\">The Trianii Rangers</a>, the space patrol force responsible for protecting Trianii colonies from outside threats. <a href=\"https://swse.fandom.com/wiki/The_Trianii_Rangers\" title=\"The Trianii Rangers\">The Trianii Rangers</a> often undertake missions to explore uncharted regions or to gather reconnaissance. Other Trianii adventurers are either independent scouts or are just curious about the galactic community that their leaders want no part of. Many outsiders confuse the Trianii with other feline <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> such as the <a href=\"https://swse.fandom.com/wiki/Cathar\" title=\"Cathar\">Cathar</a> or the <a href=\"https://swse.fandom.com/wiki/Togorians\" class=\"mw-redirect\" title=\"Togorians\">Togorians</a>, a mistake few Trianii bother to correct. </p><h3><span class=\"mw-headline\" id=\"Trianii_Species_Traits\">Trianii Species Traits</span></h3><p>Trianii share the following Species Traits: </p>",
+        "textDescription": "Reference Book: Star Wars Saga Edition Galaxy at War The Trianii are a feline race of intrepid explorers, but unlike other technologically advanced Species of the galaxy, they express no interest in becoming a part of the greater galactic community. The Trianii use impressive displays of force to drive away interlopers so that they are left alone to explore their region of the galaxy. Their homeworld is located on the edge of the region of space controlled by The Corporate Sector Authority. An attempt by the CSA to expand its area of control into Trianii territories is met with a display of Trianii determination as the Species expel the invaders, proving that the ships and weapons of The Trianii Rangers are as formidable as those of other galactic forces. Trianii society is a matriarchy- partly because females of the Species are taller and slightly stronger than the males- ruled by tribunals of females known as yu'nar. Trianii culture revolves around religious beliefs that cover all aspects of life, including art, literature, commerce, and warfare. At one point in their history, the Trianii have numerous different religions, but when a religious civil war threatens to erupt, the leaders of these different faiths instead agree to work together to create an official religion. They establish a belief structure with a moral code that all sides find acceptable while at the same time allowing Trianii to continue following the individual faiths of their families. Trianii wear little clothing, selecting garments only for necessity, either as protection or utility. The one item commonly worn by the Species is a Utility Belt that holds essential items. Even ceremonial garb is limited to jewelry and similar adornments. Trianii CharacteristicsPersonality: Adventurers by nature, Trianii feel a constant urge to explore, and they place a high value on independence. Spirituality is a large part of Trianii culture, with devotion split between the formal government religion and each family's traditional religious values. Physical Description: A Trianii is a slender humanoid with prominent feline facial characteristics. Sharp claws and a prehensile tail reinforce the Species' feline qualities. The colors and patterns of Trianii fur vary greatly. Trianii are about 2 meters tall; the females are slightly taller than the males and possess correspondingly larger physiques. Age Groups: Trianii age at the following stages:  \n \n   \n   CHILD  \n   YOUNG ADULT  \n   ADULT  \n   MIDDLE AGE  \n   OLD  \n   VENERABLE \n   \n   \n   1-11 Years  \n   12-17 Years  \n   18-44 Years  \n   45-64 Years  \n   65-84 Years  \n   85+ Years \n  \n \nHomeworld: Trian, located in the outermost portion of the Tingel Arm. Languages: The Trianii language is composed of purrs, growls, and rolling vocalizations. The written form uses a syllabary instead of an alphabet. Trianii encountered outside Trianii space have some fluency in Basic, but few are literate in it. Example Names: Atuarre, Duarrid, Keeheen, Pakka, Reakhas, Shearran, Tuunac. Adventurers: Almost all Trianii encountered outside the Species' area of influence are members of The Trianii Rangers, the space patrol force responsible for protecting Trianii colonies from outside threats. The Trianii Rangers often undertake missions to explore uncharted regions or to gather reconnaissance. Other Trianii adventurers are either independent scouts or are just curious about the galactic community that their leaders want no part of. Many outsiders confuse the Trianii with other feline Species such as the Cathar or the Togorians, a mistake few Trianii bother to correct. Trianii Species TraitsTrianii share the following Species Traits: ",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [],
+        "choices": [],
+        "modes": [],
+        "providedItems": [
+          {
+            "name": "Medium",
+            "type": "trait"
+          },
+          {
+            "name": "Natural Weapons",
+            "type": "trait"
+          },
+          {
+            "name": "Heightened Agility",
+            "type": "trait"
+          },
+          {
+            "name": "Prehensile Tail",
+            "type": "trait"
+          },
+          {
+            "name": "Trianii",
+            "type": "trait"
+          },
+          {
+            "name": "Wisdom (+2)",
+            "type": "trait"
+          },
+          {
+            "name": "Base Speed (6)",
+            "type": "trait"
+          },
+          {
+            "name": "Venerable",
+            "prerequisite": {
+              "high": "",
+              "low": "85",
+              "text": "85+",
+              "type": "AGE"
+            },
+            "type": "trait"
+          },
+          {
+            "name": "Old",
+            "prerequisite": {
+              "high": "84",
+              "low": "65",
+              "text": "65-84",
+              "type": "AGE"
+            },
+            "type": "trait"
+          },
+          {
+            "name": "Adult",
+            "prerequisite": {
+              "high": "44",
+              "low": "18",
+              "text": "18-44",
+              "type": "AGE"
+            },
+            "type": "trait"
+          },
+          {
+            "name": "Middle age",
+            "prerequisite": {
+              "high": "64",
+              "low": "45",
+              "text": "45-64",
+              "type": "AGE"
+            },
+            "type": "trait"
+          },
+          {
+            "name": "Child",
+            "prerequisite": {
+              "high": "11",
+              "low": "1",
+              "text": "1-11",
+              "type": "AGE"
+            },
+            "type": "trait"
+          },
+          {
+            "name": "Young adult",
+            "prerequisite": {
+              "high": "17",
+              "low": "12",
+              "text": "12-17",
+              "type": "AGE"
+            },
+            "type": "trait"
+          }
+        ],
+        "payload": "",
+        "buildInstructions": [],
+        "categories": [
+          {
+            "value": "Medium"
+          },
+          {
+            "value": "Natural Weapons"
+          },
+          {
+            "value": "Species"
+          },
+          {
+            "value": "Heightened Agility"
+          },
+          {
+            "value": "Prehensile Tail"
+          },
+          {
+            "value": "Trianii"
+          }
+        ],
+        "traits": [],
+        "cost": "0",
+        "quantity": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.species.Item.17CbuWeMnLKWpFaw",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!4Ke47J5WrCQj2qRZ.SIO8W9IkSS12AbnG"
+    },
+    {
+      "_id": "NJfHxymJ7ORMSPn8",
+      "name": "Trianii",
+      "type": "trait",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "<p><br> The Trianii are a feline race of intrepid explorers, but unlike other technologically advanced <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> of the galaxy, they express no interest in becoming a part of the greater galactic community. The Trianii use impressive displays of force to drive away interlopers so that they are left alone to explore their region of the galaxy. Their homeworld is located on the edge of the region of space controlled by <a href=\"https://swse.fandom.com/wiki/The_Corporate_Sector_Authority\" title=\"The Corporate Sector Authority\">The Corporate Sector Authority</a>. An attempt by the CSA to expand its area of control into Trianii territories is met with a display of Trianii determination as the Species expel the invaders, proving that the ships and weapons of <a href=\"https://swse.fandom.com/wiki/The_Trianii_Rangers\" title=\"The Trianii Rangers\">The Trianii Rangers</a> are as formidable as those of other galactic forces. </p><p>Trianii society is a matriarchy- partly because females of the Species are taller and slightly stronger than the males- ruled by tribunals of females known as <i>yu'nar</i>. Trianii culture revolves around religious beliefs that cover all aspects of life, including art, literature, commerce, and warfare. At one point in their history, the Trianii have numerous different religions, but when a religious civil war threatens to erupt, the leaders of these different faiths instead agree to work together to create an official religion. They establish a belief structure with a moral code that all sides find acceptable while at the same time allowing Trianii to continue following the individual faiths of their families. </p><p>Trianii wear little clothing, selecting garments only for necessity, either as protection or utility. The one item commonly worn by the Species is a <a href=\"https://swse.fandom.com/wiki/Utility_Belt\" title=\"Utility Belt\">Utility Belt</a> that holds essential items. Even ceremonial garb is limited to jewelry and similar adornments. </p>",
+        "textDescription": " The Trianii are a feline race of intrepid explorers, but unlike other technologically advanced Species of the galaxy, they express no interest in becoming a part of the greater galactic community. The Trianii use impressive displays of force to drive away interlopers so that they are left alone to explore their region of the galaxy. Their homeworld is located on the edge of the region of space controlled by The Corporate Sector Authority. An attempt by the CSA to expand its area of control into Trianii territories is met with a display of Trianii determination as the Species expel the invaders, proving that the ships and weapons of The Trianii Rangers are as formidable as those of other galactic forces. Trianii society is a matriarchy- partly because females of the Species are taller and slightly stronger than the males- ruled by tribunals of females known as yu'nar. Trianii culture revolves around religious beliefs that cover all aspects of life, including art, literature, commerce, and warfare. At one point in their history, the Trianii have numerous different religions, but when a religious civil war threatens to erupt, the leaders of these different faiths instead agree to work together to create an official religion. They establish a belief structure with a moral code that all sides find acceptable while at the same time allowing Trianii to continue following the individual faiths of their families. Trianii wear little clothing, selecting garments only for necessity, either as protection or utility. The one item commonly worn by the Species is a Utility Belt that holds essential items. Even ceremonial garb is limited to jewelry and similar adornments. ",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [],
+        "choices": [],
+        "modes": [],
+        "providedItems": [
+          {
+            "name": "Species Templates",
+            "type": "trait"
+          },
+          {
+            "name": "Species Templates",
+            "type": "trait"
+          }
+        ],
+        "payload": "",
+        "buildInstructions": [],
+        "categories": [],
+        "supplier": {
+          "id": "SIO8W9IkSS12AbnG",
+          "name": "Trianii",
+          "type": "species"
+        },
+        "possibleProviders": [],
+        "isSupplied": false,
+        "prerequisite": null,
+        "cost": "0",
+        "quantity": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.traits.Item.E05AZBXdFNeR4lxL",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!4Ke47J5WrCQj2qRZ.NJfHxymJ7ORMSPn8"
+    },
+    {
+      "_id": "eSDkLqceMQ1fqLBD",
+      "name": "Natural Weapons",
+      "type": "trait",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "<p>A being has Natural Weapons, in some form or another. When a being makes an <a href=\"https://swse.fandom.com/wiki/Unarmed\" class=\"mw-redirect\" title=\"Unarmed\">Unarmed</a> attack, it may choose to use its Natural Weapons, dealing 1d6 points of damage (Bludgeoning/Piercing/Slashing) with that attack, instead of normal <a href=\"https://swse.fandom.com/wiki/Unarmed\" class=\"mw-redirect\" title=\"Unarmed\">Unarmed</a> damage. Beings are always considered armed with their Natural Weapons. </p>",
+        "textDescription": "A being has Natural Weapons, in some form or another. When a being makes an Unarmed attack, it may choose to use its Natural Weapons, dealing 1d6 points of damage (Bludgeoning/Piercing/Slashing) with that attack, instead of normal Unarmed damage. Beings are always considered armed with their Natural Weapons. ",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "value": "Natural Weapons trait item:ITEM:Natural Weapons",
+            "key": "provides"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [
+          {
+            "name": "Natural Weapons",
+            "type": "item"
+          }
+        ],
+        "payload": "",
+        "buildInstructions": [],
+        "categories": [],
+        "supplier": {
+          "id": "SIO8W9IkSS12AbnG",
+          "name": "Trianii",
+          "type": "species"
+        },
+        "possibleProviders": [],
+        "isSupplied": false,
+        "prerequisite": null,
+        "cost": "0",
+        "quantity": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.traits.Item.7vJE4OuWdtp8ZnPQ",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!4Ke47J5WrCQj2qRZ.eSDkLqceMQ1fqLBD"
+    },
+    {
+      "_id": "2ks3U0Dqi7MyhVr0",
+      "name": "Prehensile Tail",
+      "type": "trait",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "<p>A being's tail can effectively hold (but not wield) a Small or smaller item. When holding a Medium or larger item with his or her tail, a being is encumbered and is considered to be carrying a&nbsp;<a href=\"https://swse.fandom.com/wiki/Heavy_Load\" class=\"mw-redirect\" title=\"Heavy Load\">Heavy Load</a>. </p>",
+        "textDescription": "A being's tail can effectively hold (but not wield) a Small or smaller item. When holding a Medium or larger item with his or her tail, a being is encumbered and is considered to be carrying a Heavy Load. ",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "categories": [],
+        "supplier": {
+          "id": "SIO8W9IkSS12AbnG",
+          "name": "Trianii",
+          "type": "species"
+        },
+        "possibleProviders": [],
+        "isSupplied": false,
+        "prerequisite": null,
+        "cost": "0",
+        "quantity": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.traits.Item.52lqdi8vGdjcIh9B",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!4Ke47J5WrCQj2qRZ.2ks3U0Dqi7MyhVr0"
+    },
+    {
+      "_id": "vQayfW2IAtxGtJAJ",
+      "name": "Wisdom",
+      "type": "trait",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "This trait grants +2 to Wisdom",
+        "textDescription": "This trait grants +2 to Wisdom",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": "+2",
+            "key": "wisdomBonus",
+            "source": null,
+            "sourceString": "Wisdom",
+            "sourceDescription": "Wisdom"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "categories": [],
+        "supplier": {
+          "id": "SIO8W9IkSS12AbnG",
+          "name": "Trianii",
+          "type": "species"
+        },
+        "possibleProviders": [],
+        "isSupplied": false,
+        "prerequisite": null,
+        "cost": "0",
+        "quantity": 1,
+        "selectedChoices": [
+          "+2"
+        ],
+        "displayName": "Wisdom (+2)"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.traits.Item.AgdB4YHnAvmpC4kE",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!4Ke47J5WrCQj2qRZ.vQayfW2IAtxGtJAJ"
+    },
+    {
+      "_id": "NHTfPpnnSBMO452H",
+      "name": "Base Speed",
+      "type": "trait",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "A being has a base speed of 6.",
+        "textDescription": "A being has a base speed of 6.",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": "Base Speed 6",
+            "key": "speed",
+            "source": null,
+            "sourceString": "Base Speed",
+            "sourceDescription": "Base Speed"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "categories": [],
+        "supplier": {
+          "id": "SIO8W9IkSS12AbnG",
+          "name": "Trianii",
+          "type": "species"
+        },
+        "possibleProviders": [],
+        "isSupplied": false,
+        "prerequisite": null,
+        "cost": "0",
+        "quantity": 1,
+        "selectedChoices": [
+          "6"
+        ],
+        "displayName": "Base Speed (6)"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.traits.Item.v1yuYqZao137Q7gS",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!4Ke47J5WrCQj2qRZ.NHTfPpnnSBMO452H"
+    },
+    {
+      "_id": "r4kjAy5rpicmiKM2",
+      "name": "Venerable",
+      "type": "trait",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "A being is venerable.",
+        "textDescription": "A being is venerable.",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": -3,
+            "key": "strengthBonus"
+          },
+          {
+            "mode": 2,
+            "value": -3,
+            "key": "constitutionBonus"
+          },
+          {
+            "mode": 2,
+            "value": -3,
+            "key": "dexterityBonus"
+          },
+          {
+            "mode": 2,
+            "value": 1,
+            "key": "intelligenceBonus"
+          },
+          {
+            "mode": 2,
+            "value": 1,
+            "key": "wisdomBonus"
+          },
+          {
+            "mode": 2,
+            "value": 1,
+            "key": "charismaBonus"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "categories": [],
+        "supplier": {
+          "id": "SIO8W9IkSS12AbnG",
+          "name": "Trianii",
+          "type": "species"
+        },
+        "possibleProviders": [],
+        "isSupplied": false,
+        "prerequisite": {
+          "high": "",
+          "low": "85",
+          "text": "85+",
+          "type": "AGE"
+        },
+        "cost": "0",
+        "quantity": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.traits.Item.NrMhFjCtY2H0qTB3",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!4Ke47J5WrCQj2qRZ.r4kjAy5rpicmiKM2"
+    },
+    {
+      "_id": "lneWiT5xVkug3CFw",
+      "name": "Medium",
+      "type": "trait",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "",
+        "textDescription": "",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": 4,
+            "key": "sizeIndex"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Frigate) Size",
+              "requirement": "Colossal (Frigate)",
+              "type": "SIZE"
+            },
+            "value": -10,
+            "key": "shipSkillModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Frigate) Size",
+              "requirement": "Colossal (Frigate)",
+              "type": "SIZE"
+            },
+            "value": -10,
+            "key": "reflexDefenseBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Frigate) Size",
+              "requirement": "Colossal (Frigate)",
+              "type": "SIZE"
+            },
+            "value": "2d8",
+            "key": "unarmedDamage"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Frigate) Size",
+              "requirement": "Colossal (Frigate)",
+              "type": "SIZE"
+            },
+            "value": "1 square",
+            "key": "vehicleFightingSpace"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Frigate) Size",
+              "requirement": "Colossal (Frigate)",
+              "type": "SIZE"
+            },
+            "value": "stealth:-20",
+            "key": "skillBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Frigate) Size",
+              "requirement": "Colossal (Frigate)",
+              "type": "SIZE"
+            },
+            "value": 100,
+            "key": "damageThresholdSizeModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Frigate) Size",
+              "requirement": "Colossal (Frigate)",
+              "type": "SIZE"
+            },
+            "value": 25,
+            "key": "grappleSizeModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Cruiser) Size",
+              "requirement": "Colossal (Cruiser)",
+              "type": "SIZE"
+            },
+            "value": -10,
+            "key": "shipSkillModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Cruiser) Size",
+              "requirement": "Colossal (Cruiser)",
+              "type": "SIZE"
+            },
+            "value": -10,
+            "key": "reflexDefenseBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Cruiser) Size",
+              "requirement": "Colossal (Cruiser)",
+              "type": "SIZE"
+            },
+            "value": "2d8",
+            "key": "unarmedDamage"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Cruiser) Size",
+              "requirement": "Colossal (Cruiser)",
+              "type": "SIZE"
+            },
+            "value": "4 squares",
+            "key": "vehicleFightingSpace"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Cruiser) Size",
+              "requirement": "Colossal (Cruiser)",
+              "type": "SIZE"
+            },
+            "value": "stealth:-20",
+            "key": "skillBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Cruiser) Size",
+              "requirement": "Colossal (Cruiser)",
+              "type": "SIZE"
+            },
+            "value": 200,
+            "key": "damageThresholdSizeModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Cruiser) Size",
+              "requirement": "Colossal (Cruiser)",
+              "type": "SIZE"
+            },
+            "value": 30,
+            "key": "grappleSizeModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Station) Size",
+              "requirement": "Colossal (Station)",
+              "type": "SIZE"
+            },
+            "value": -10,
+            "key": "shipSkillModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Station) Size",
+              "requirement": "Colossal (Station)",
+              "type": "SIZE"
+            },
+            "value": -10,
+            "key": "reflexDefenseBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Station) Size",
+              "requirement": "Colossal (Station)",
+              "type": "SIZE"
+            },
+            "value": "2d8",
+            "key": "unarmedDamage"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Station) Size",
+              "requirement": "Colossal (Station)",
+              "type": "SIZE"
+            },
+            "value": "4 squares",
+            "key": "vehicleFightingSpace"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Station) Size",
+              "requirement": "Colossal (Station)",
+              "type": "SIZE"
+            },
+            "value": "stealth:-20",
+            "key": "skillBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Station) Size",
+              "requirement": "Colossal (Station)",
+              "type": "SIZE"
+            },
+            "value": 500,
+            "key": "damageThresholdSizeModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal (Station) Size",
+              "requirement": "Colossal (Station)",
+              "type": "SIZE"
+            },
+            "value": 35,
+            "key": "grappleSizeModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal Size",
+              "requirement": "Colossal",
+              "type": "SIZE"
+            },
+            "value": -10,
+            "key": "shipSkillModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal Size",
+              "requirement": "Colossal",
+              "type": "SIZE"
+            },
+            "value": -10,
+            "key": "reflexDefenseBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal Size",
+              "requirement": "Colossal",
+              "type": "SIZE"
+            },
+            "value": "2d8",
+            "key": "unarmedDamage"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal Size",
+              "requirement": "Colossal",
+              "type": "SIZE"
+            },
+            "value": "1 square",
+            "key": "vehicleFightingSpace"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal Size",
+              "requirement": "Colossal",
+              "type": "SIZE"
+            },
+            "value": "stealth:-20",
+            "key": "skillBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal Size",
+              "requirement": "Colossal",
+              "type": "SIZE"
+            },
+            "value": 50,
+            "key": "damageThresholdSizeModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Colossal Size",
+              "requirement": "Colossal",
+              "type": "SIZE"
+            },
+            "value": 20,
+            "key": "grappleSizeModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Gargantuan Size",
+              "requirement": "Gargantuan",
+              "type": "SIZE"
+            },
+            "value": -5,
+            "key": "reflexDefenseBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Gargantuan Size",
+              "requirement": "Gargantuan",
+              "type": "SIZE"
+            },
+            "value": "16 squares",
+            "key": "characterFightingSpace"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Gargantuan Size",
+              "requirement": "Gargantuan",
+              "type": "SIZE"
+            },
+            "value": -5,
+            "key": "shipSkillModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Gargantuan Size",
+              "requirement": "Gargantuan",
+              "type": "SIZE"
+            },
+            "value": "2d6",
+            "key": "unarmedDamage"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Gargantuan Size",
+              "requirement": "Gargantuan",
+              "type": "SIZE"
+            },
+            "value": "stealth:-15",
+            "key": "skillBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Gargantuan Size",
+              "requirement": "Gargantuan",
+              "type": "SIZE"
+            },
+            "value": 20,
+            "key": "damageThresholdSizeModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Gargantuan Size",
+              "requirement": "Gargantuan",
+              "type": "SIZE"
+            },
+            "value": 15,
+            "key": "grappleSizeModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Huge Size",
+              "requirement": "Huge",
+              "type": "SIZE"
+            },
+            "value": -2,
+            "key": "reflexDefenseBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Huge Size",
+              "requirement": "Huge",
+              "type": "SIZE"
+            },
+            "value": "9 squares",
+            "key": "characterFightingSpace"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Huge Size",
+              "requirement": "Huge",
+              "type": "SIZE"
+            },
+            "value": -2,
+            "key": "shipSkillModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Huge Size",
+              "requirement": "Huge",
+              "type": "SIZE"
+            },
+            "value": "1d8",
+            "key": "unarmedDamage"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Huge Size",
+              "requirement": "Huge",
+              "type": "SIZE"
+            },
+            "value": "stealth:-10",
+            "key": "skillBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Huge Size",
+              "requirement": "Huge",
+              "type": "SIZE"
+            },
+            "value": 10,
+            "key": "damageThresholdSizeModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Huge Size",
+              "requirement": "Huge",
+              "type": "SIZE"
+            },
+            "value": 10,
+            "key": "grappleSizeModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Large Size",
+              "requirement": "Large",
+              "type": "SIZE"
+            },
+            "value": -1,
+            "key": "reflexDefenseBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Large Size",
+              "requirement": "Large",
+              "type": "SIZE"
+            },
+            "value": "4 squares",
+            "key": "characterFightingSpace"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Large Size",
+              "requirement": "Large",
+              "type": "SIZE"
+            },
+            "value": -1,
+            "key": "shipSkillModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Large Size",
+              "requirement": "Large",
+              "type": "SIZE"
+            },
+            "value": "1d6",
+            "key": "unarmedDamage"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Large Size",
+              "requirement": "Large",
+              "type": "SIZE"
+            },
+            "value": "stealth:-5",
+            "key": "skillBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Large Size",
+              "requirement": "Large",
+              "type": "SIZE"
+            },
+            "value": 5,
+            "key": "damageThresholdSizeModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Large Size",
+              "requirement": "Large",
+              "type": "SIZE"
+            },
+            "value": 5,
+            "key": "grappleSizeModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Medium Size",
+              "requirement": "Medium",
+              "type": "SIZE"
+            },
+            "value": 0,
+            "key": "reflexDefenseBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Medium Size",
+              "requirement": "Medium",
+              "type": "SIZE"
+            },
+            "value": "1 square",
+            "key": "characterFightingSpace"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Medium Size",
+              "requirement": "Medium",
+              "type": "SIZE"
+            },
+            "value": 0,
+            "key": "shipSkillModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Medium Size",
+              "requirement": "Medium",
+              "type": "SIZE"
+            },
+            "value": "1d4",
+            "key": "unarmedDamage"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Medium Size",
+              "requirement": "Medium",
+              "type": "SIZE"
+            },
+            "value": "stealth:0",
+            "key": "skillBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Medium Size",
+              "requirement": "Medium",
+              "type": "SIZE"
+            },
+            "value": 0,
+            "key": "damageThresholdSizeModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Small Size",
+              "requirement": "Small",
+              "type": "SIZE"
+            },
+            "value": 1,
+            "key": "reflexDefenseBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Small Size",
+              "requirement": "Small",
+              "type": "SIZE"
+            },
+            "value": "1 square",
+            "key": "characterFightingSpace"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Small Size",
+              "requirement": "Small",
+              "type": "SIZE"
+            },
+            "value": 1,
+            "key": "shipSkillModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Small Size",
+              "requirement": "Small",
+              "type": "SIZE"
+            },
+            "value": "1d3",
+            "key": "unarmedDamage"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Small Size",
+              "requirement": "Small",
+              "type": "SIZE"
+            },
+            "value": "stealth:5",
+            "key": "skillBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Small Size",
+              "requirement": "Small",
+              "type": "SIZE"
+            },
+            "value": 0,
+            "key": "damageThresholdSizeModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Tiny Size",
+              "requirement": "Tiny",
+              "type": "SIZE"
+            },
+            "value": 2,
+            "key": "reflexDefenseBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Tiny Size",
+              "requirement": "Tiny",
+              "type": "SIZE"
+            },
+            "value": 2,
+            "key": "shipSkillModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Tiny Size",
+              "requirement": "Tiny",
+              "type": "SIZE"
+            },
+            "value": "1 square",
+            "key": "characterFightingSpace"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Tiny Size",
+              "requirement": "Tiny",
+              "type": "SIZE"
+            },
+            "value": "1d2",
+            "key": "unarmedDamage"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Tiny Size",
+              "requirement": "Tiny",
+              "type": "SIZE"
+            },
+            "value": "stealth:10",
+            "key": "skillBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Tiny Size",
+              "requirement": "Tiny",
+              "type": "SIZE"
+            },
+            "value": 0,
+            "key": "damageThresholdSizeModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Diminutive Size",
+              "requirement": "Diminutive",
+              "type": "SIZE"
+            },
+            "value": 5,
+            "key": "reflexDefenseBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Diminutive Size",
+              "requirement": "Diminutive",
+              "type": "SIZE"
+            },
+            "value": 5,
+            "key": "shipSkillModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Diminutive Size",
+              "requirement": "Diminutive",
+              "type": "SIZE"
+            },
+            "value": "1 square",
+            "key": "characterFightingSpace"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Diminutive Size",
+              "requirement": "Diminutive",
+              "type": "SIZE"
+            },
+            "value": "1",
+            "key": "unarmedDamage"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Diminutive Size",
+              "requirement": "Diminutive",
+              "type": "SIZE"
+            },
+            "value": "stealth:15",
+            "key": "skillBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Diminutive Size",
+              "requirement": "Diminutive",
+              "type": "SIZE"
+            },
+            "value": 0,
+            "key": "damageThresholdSizeModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Fine Size",
+              "requirement": "Fine",
+              "type": "SIZE"
+            },
+            "value": 10,
+            "key": "reflexDefenseBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Fine Size",
+              "requirement": "Fine",
+              "type": "SIZE"
+            },
+            "value": 10,
+            "key": "shipSkillModifier"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Fine Size",
+              "requirement": "Fine",
+              "type": "SIZE"
+            },
+            "value": "1 square",
+            "key": "characterFightingSpace"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Fine Size",
+              "requirement": "Fine",
+              "type": "SIZE"
+            },
+            "value": "1",
+            "key": "unarmedDamage"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Fine Size",
+              "requirement": "Fine",
+              "type": "SIZE"
+            },
+            "value": "stealth:20",
+            "key": "skillBonus"
+          },
+          {
+            "mode": 2,
+            "parentPrerequisite": {
+              "text": "Fine Size",
+              "requirement": "Fine",
+              "type": "SIZE"
+            },
+            "value": 0,
+            "key": "damageThresholdSizeModifier"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "categories": [],
+        "supplier": {
+          "id": "SIO8W9IkSS12AbnG",
+          "name": "Trianii",
+          "type": "species"
+        },
+        "possibleProviders": [],
+        "isSupplied": false,
+        "prerequisite": null,
+        "cost": "0",
+        "quantity": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.traits.Item.QwaI60YLgHi3Vaih",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!4Ke47J5WrCQj2qRZ.lneWiT5xVkug3CFw"
+    },
+    {
+      "_id": "BUjs0bQdkq48csdu",
+      "name": "Adult",
+      "type": "trait",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "A being is an adult.",
+        "textDescription": "A being is an adult.",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "categories": [],
+        "supplier": {
+          "id": "SIO8W9IkSS12AbnG",
+          "name": "Trianii",
+          "type": "species"
+        },
+        "possibleProviders": [],
+        "isSupplied": false,
+        "prerequisite": {
+          "high": "44",
+          "low": "18",
+          "text": "18-44",
+          "type": "AGE"
+        },
+        "cost": "0",
+        "quantity": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.traits.Item.fqDzTExYEnEbJJFM",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!4Ke47J5WrCQj2qRZ.BUjs0bQdkq48csdu"
+    },
+    {
+      "_id": "BrEHx0mmUq2D6Fsz",
+      "name": "Child",
+      "type": "trait",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "A being is a child.",
+        "textDescription": "A being is a child.",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": -3,
+            "key": "strengthBonus"
+          },
+          {
+            "mode": 2,
+            "value": -3,
+            "key": "constitutionBonus"
+          },
+          {
+            "mode": 2,
+            "value": -1,
+            "key": "dexterityBonus"
+          },
+          {
+            "mode": 2,
+            "value": -1,
+            "key": "intelligenceBonus"
+          },
+          {
+            "mode": 2,
+            "value": -1,
+            "key": "wisdomBonus"
+          },
+          {
+            "mode": 2,
+            "value": -1,
+            "key": "charismaBonus"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "categories": [],
+        "supplier": {
+          "id": "SIO8W9IkSS12AbnG",
+          "name": "Trianii",
+          "type": "species"
+        },
+        "possibleProviders": [],
+        "isSupplied": false,
+        "prerequisite": {
+          "high": "11",
+          "low": "1",
+          "text": "1-11",
+          "type": "AGE"
+        },
+        "cost": "0",
+        "quantity": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.traits.Item.cEAVsEhyomuZAsPr",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!4Ke47J5WrCQj2qRZ.BrEHx0mmUq2D6Fsz"
+    },
+    {
+      "_id": "a28Vd6uR0uayCrQj",
+      "name": "Old",
+      "type": "trait",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "A being is old.",
+        "textDescription": "A being is old.",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": -2,
+            "key": "strengthBonus"
+          },
+          {
+            "mode": 2,
+            "value": -2,
+            "key": "constitutionBonus"
+          },
+          {
+            "mode": 2,
+            "value": -2,
+            "key": "dexterityBonus"
+          },
+          {
+            "mode": 2,
+            "value": 1,
+            "key": "intelligenceBonus"
+          },
+          {
+            "mode": 2,
+            "value": 1,
+            "key": "wisdomBonus"
+          },
+          {
+            "mode": 2,
+            "value": 1,
+            "key": "charismaBonus"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "categories": [],
+        "supplier": {
+          "id": "SIO8W9IkSS12AbnG",
+          "name": "Trianii",
+          "type": "species"
+        },
+        "possibleProviders": [],
+        "isSupplied": false,
+        "prerequisite": {
+          "high": "84",
+          "low": "65",
+          "text": "65-84",
+          "type": "AGE"
+        },
+        "cost": "0",
+        "quantity": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.traits.Item.2dCL3C9dmOVIqzoU",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!4Ke47J5WrCQj2qRZ.a28Vd6uR0uayCrQj"
+    },
+    {
+      "_id": "k48EycwXZIlPRNes",
+      "name": "Middle age",
+      "type": "trait",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "A being is a middle aged.",
+        "textDescription": "A being is a middle aged.",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": -1,
+            "key": "strengthBonus"
+          },
+          {
+            "mode": 2,
+            "value": -1,
+            "key": "constitutionBonus"
+          },
+          {
+            "mode": 2,
+            "value": -1,
+            "key": "dexterityBonus"
+          },
+          {
+            "mode": 2,
+            "value": 1,
+            "key": "intelligenceBonus"
+          },
+          {
+            "mode": 2,
+            "value": 1,
+            "key": "wisdomBonus"
+          },
+          {
+            "mode": 2,
+            "value": 1,
+            "key": "charismaBonus"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "categories": [],
+        "supplier": {
+          "id": "SIO8W9IkSS12AbnG",
+          "name": "Trianii",
+          "type": "species"
+        },
+        "possibleProviders": [],
+        "isSupplied": false,
+        "prerequisite": {
+          "high": "64",
+          "low": "45",
+          "text": "45-64",
+          "type": "AGE"
+        },
+        "cost": "0",
+        "quantity": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.traits.Item.GMaYIym4qbPurZYm",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!4Ke47J5WrCQj2qRZ.k48EycwXZIlPRNes"
+    },
+    {
+      "_id": "V3ZUWXzysIP0FKWf",
+      "name": "Heightened Agility",
+      "type": "trait",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "<p>A being can reroll any <a href=\"https://swse.fandom.com/wiki/Acrobatics\" title=\"Acrobatics\">Acrobatics</a> check, but the result of the reroll must be accepted, even if it is worse. </p>",
+        "textDescription": "A being can reroll any Acrobatics check, but the result of the reroll must be accepted, even if it is worse. ",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": "Acrobatics::A being can reroll any Acrobatics check, but the result of the reroll must be accepted, even if it is worse.",
+            "key": "skillReRoll"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "categories": [],
+        "supplier": {
+          "id": "SIO8W9IkSS12AbnG",
+          "name": "Trianii",
+          "type": "species"
+        },
+        "possibleProviders": [],
+        "isSupplied": false,
+        "prerequisite": null,
+        "cost": "0",
+        "quantity": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.traits.Item.dDDTE5kVbpXpI6Zg",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!4Ke47J5WrCQj2qRZ.V3ZUWXzysIP0FKWf"
+    },
+    {
+      "_id": "WOVeknHBQ4WySPc5",
+      "name": "Young adult",
+      "type": "trait",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "A being is a young adult.",
+        "textDescription": "A being is a young adult.",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": -1,
+            "key": "strengthBonus"
+          },
+          {
+            "mode": 2,
+            "value": -1,
+            "key": "constitutionBonus"
+          },
+          {
+            "mode": 2,
+            "value": -1,
+            "key": "dexterityBonus"
+          },
+          {
+            "mode": 2,
+            "value": -1,
+            "key": "intelligenceBonus"
+          },
+          {
+            "mode": 2,
+            "value": -1,
+            "key": "wisdomBonus"
+          },
+          {
+            "mode": 2,
+            "value": -1,
+            "key": "charismaBonus"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "categories": [],
+        "supplier": {
+          "id": "SIO8W9IkSS12AbnG",
+          "name": "Trianii",
+          "type": "species"
+        },
+        "possibleProviders": [],
+        "isSupplied": false,
+        "prerequisite": {
+          "high": "17",
+          "low": "12",
+          "text": "12-17",
+          "type": "AGE"
+        },
+        "cost": "0",
+        "quantity": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.traits.Item.z9uG4TqwSjFrRdZo",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!4Ke47J5WrCQj2qRZ.WOVeknHBQ4WySPc5"
+    },
+    {
+      "_id": "BsQeCQUvCZQh9gkr",
+      "name": "Basic",
+      "type": "language",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "",
+        "textDescription": "",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "cost": "0",
+        "quantity": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.languages.Item.o4f9dgsWl8G158mI",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!4Ke47J5WrCQj2qRZ.BsQeCQUvCZQh9gkr"
+    },
+    {
+      "_id": "zuOWPFkLqTqeqGky",
+      "name": "Trianii",
+      "type": "language",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "",
+        "textDescription": "",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "cost": "0",
+        "quantity": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!4Ke47J5WrCQj2qRZ.zuOWPFkLqTqeqGky"
+    },
+    {
+      "_id": "IHvl6agRf9Lnnd4v",
+      "name": "Skill Focus",
+      "type": "feat",
+      "img": "systems/swse/icon/feat/Skill Focus.png",
+      "system": {
+        "finalName": "",
+        "description": "<p><i>Reference Book: Star Wars Saga Edition Core Rulebook</i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i> </p><p>One of your <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> is particularly well honed. </p><p><b>Effect:</b> Choose one <a href=\"https://swse.fandom.com/wiki/Skill\" class=\"mw-redirect\" title=\"Skill\">Skill</a> in which you are <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a>. You gain a +5 competence bonus on all <a href=\"https://swse.fandom.com/wiki/Skill_Checks\" title=\"Skill Checks\">Skill Checks</a> made with that <a href=\"https://swse.fandom.com/wiki/Skill\" class=\"mw-redirect\" title=\"Skill\">Skill</a>. </p><p><b>Special:</b> This Feat may be selected multiple times. Its effects do not stack. Each time you take this Feat, it applies to a different <a href=\"https://swse.fandom.com/wiki/Trained_Skill\" class=\"mw-redirect\" title=\"Trained Skill\">Trained Skill</a>. </p>",
+        "textDescription": "Reference Book: Star Wars Saga Edition Core Rulebook See also: Feats One of your Skills is particularly well honed. Effect: Choose one Skill in which you are Trained. You gain a +5 competence bonus on all Skill Checks made with that Skill. Special: This Feat may be selected multiple times. Its effects do not stack. Each time you take this Feat, it applies to a different Trained Skill. ",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": "true",
+            "key": "takeMultipleTimes",
+            "source": null,
+            "sourceString": "Skill Focus",
+            "sourceDescription": "Skill Focus"
+          },
+          {
+            "mode": 2,
+            "value": "Jump",
+            "key": "skillFocus",
+            "source": null,
+            "sourceString": "Skill Focus",
+            "sourceDescription": "Skill Focus"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "prerequisite": {
+          "text": "Trained in Jump",
+          "requirement": "Jump",
+          "type": "TRAINED SKILL"
+        },
+        "categories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Technician Bonus Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          },
+          {
+            "value": "Core Rulebook"
+          },
+          {
+            "value": "Scoundrel Bonus Feats"
+          },
+          {
+            "value": "Feats"
+          },
+          {
+            "value": "Scout Bonus Feats"
+          },
+          {
+            "value": "Jedi Bonus Feats"
+          },
+          {
+            "value": "Noble Bonus Feats"
+          }
+        ],
+        "supplier": {},
+        "possibleProviders": [
+          "Soldier Bonus Feats",
+          "Technician Bonus Feats",
+          "Force Prodigy Bonus Feats",
+          "Scoundrel Bonus Feats",
+          "General Feats",
+          "Scout Bonus Feats",
+          "Jedi Bonus Feats",
+          "Noble Bonus Feats",
+          "Nonheroic Starting Feats"
+        ],
+        "isSupplied": false,
+        "source": "Star Wars Saga Edition Core Rulebook",
+        "cost": "0",
+        "quantity": 1,
+        "bonusFeatCategories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Technician Bonus Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          },
+          {
+            "value": "Scoundrel Bonus Feats"
+          },
+          {
+            "value": "Scout Bonus Feats"
+          },
+          {
+            "value": "Jedi Bonus Feats"
+          },
+          {
+            "value": "Noble Bonus Feats"
+          }
+        ],
+        "hasBonusFeatCategories": true,
+        "selectedChoices": [
+          "Jump"
+        ],
+        "displayName": "Skill Focus (Jump)"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.feats.Item.kxag5i3sEfG1wTWa",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!4Ke47J5WrCQj2qRZ.IHvl6agRf9Lnnd4v"
+    },
+    {
+      "_id": "tH4KgNldlFPAaY28",
+      "name": "Skill Training",
+      "type": "feat",
+      "img": "systems/swse/icon/feat/Skill Training.png",
+      "system": {
+        "finalName": "",
+        "description": "<p><i>Reference Book: Star Wars Saga Edition Core Rulebook</i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i> </p><p>You are considered <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in a new <a href=\"https://swse.fandom.com/wiki/Skill\" class=\"mw-redirect\" title=\"Skill\">Skill</a>. </p><p><b>Effect:</b> Choose one <a href=\"https://swse.fandom.com/wiki/Untrained_Skill\" class=\"mw-redirect\" title=\"Untrained Skill\">Untrained Skill</a> from your list of Class Skills. You become <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in that <a href=\"https://swse.fandom.com/wiki/Skill\" class=\"mw-redirect\" title=\"Skill\">Skill</a>. </p><p><b>Special:</b> This Feat may be selected multiple times. Each time you take this Feat, it applies to a different Class Skill. </p>",
+        "textDescription": "Reference Book: Star Wars Saga Edition Core Rulebook See also: Feats You are considered Trained in a new Skill. Effect: Choose one Untrained Skill from your list of Class Skills. You become Trained in that Skill. Special: This Feat may be selected multiple times. Each time you take this Feat, it applies to a different Class Skill. ",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": "true",
+            "key": "takeMultipleTimes",
+            "source": null,
+            "sourceString": "Skill Training",
+            "sourceDescription": "Skill Training"
+          },
+          {
+            "mode": 2,
+            "value": "1",
+            "key": "trainedSkills",
+            "source": null,
+            "sourceString": "Skill Training",
+            "sourceDescription": "Skill Training"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "prerequisite": null,
+        "categories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Technician Bonus Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          },
+          {
+            "value": "Core Rulebook"
+          },
+          {
+            "value": "Scoundrel Bonus Feats"
+          },
+          {
+            "value": "Feats"
+          },
+          {
+            "value": "Scout Bonus Feats"
+          },
+          {
+            "value": "Jedi Bonus Feats"
+          },
+          {
+            "value": "Noble Bonus Feats"
+          }
+        ],
+        "supplier": {},
+        "possibleProviders": [
+          "Soldier Bonus Feats",
+          "Technician Bonus Feats",
+          "Force Prodigy Bonus Feats",
+          "Scoundrel Bonus Feats",
+          "General Feats",
+          "Scout Bonus Feats",
+          "Jedi Bonus Feats",
+          "Noble Bonus Feats",
+          "Nonheroic Starting Feats"
+        ],
+        "isSupplied": false,
+        "source": "Star Wars Saga Edition Core Rulebook",
+        "cost": "0",
+        "quantity": 1,
+        "bonusFeatCategories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Technician Bonus Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          },
+          {
+            "value": "Scoundrel Bonus Feats"
+          },
+          {
+            "value": "Scout Bonus Feats"
+          },
+          {
+            "value": "Jedi Bonus Feats"
+          },
+          {
+            "value": "Noble Bonus Feats"
+          }
+        ],
+        "hasBonusFeatCategories": true,
+        "selectedChoices": [
+          "Climb"
+        ],
+        "displayName": "Skill Training (Climb)"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.feats.Item.S1TMfEDNhU2p20HD",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!4Ke47J5WrCQj2qRZ.tH4KgNldlFPAaY28"
+    },
+    {
+      "_id": "j1z8hWrnJ4qX4TCF",
+      "name": "Skill Focus",
+      "type": "feat",
+      "img": "systems/swse/icon/feat/Skill Focus.png",
+      "system": {
+        "finalName": "",
+        "description": "<p><i>Reference Book: Star Wars Saga Edition Core Rulebook</i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i> </p><p>One of your <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> is particularly well honed. </p><p><b>Effect:</b> Choose one <a href=\"https://swse.fandom.com/wiki/Skill\" class=\"mw-redirect\" title=\"Skill\">Skill</a> in which you are <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a>. You gain a +5 competence bonus on all <a href=\"https://swse.fandom.com/wiki/Skill_Checks\" title=\"Skill Checks\">Skill Checks</a> made with that <a href=\"https://swse.fandom.com/wiki/Skill\" class=\"mw-redirect\" title=\"Skill\">Skill</a>. </p><p><b>Special:</b> This Feat may be selected multiple times. Its effects do not stack. Each time you take this Feat, it applies to a different <a href=\"https://swse.fandom.com/wiki/Trained_Skill\" class=\"mw-redirect\" title=\"Trained Skill\">Trained Skill</a>. </p>",
+        "textDescription": "Reference Book: Star Wars Saga Edition Core Rulebook See also: Feats One of your Skills is particularly well honed. Effect: Choose one Skill in which you are Trained. You gain a +5 competence bonus on all Skill Checks made with that Skill. Special: This Feat may be selected multiple times. Its effects do not stack. Each time you take this Feat, it applies to a different Trained Skill. ",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": "true",
+            "key": "takeMultipleTimes",
+            "source": null,
+            "sourceString": "Skill Focus",
+            "sourceDescription": "Skill Focus"
+          },
+          {
+            "mode": 2,
+            "value": "Climb",
+            "key": "skillFocus",
+            "source": null,
+            "sourceString": "Skill Focus",
+            "sourceDescription": "Skill Focus"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "prerequisite": {
+          "text": "Trained in Climb",
+          "requirement": "Climb",
+          "type": "TRAINED SKILL"
+        },
+        "categories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Technician Bonus Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          },
+          {
+            "value": "Core Rulebook"
+          },
+          {
+            "value": "Scoundrel Bonus Feats"
+          },
+          {
+            "value": "Feats"
+          },
+          {
+            "value": "Scout Bonus Feats"
+          },
+          {
+            "value": "Jedi Bonus Feats"
+          },
+          {
+            "value": "Noble Bonus Feats"
+          }
+        ],
+        "supplier": {},
+        "possibleProviders": [
+          "Soldier Bonus Feats",
+          "Technician Bonus Feats",
+          "Force Prodigy Bonus Feats",
+          "Scoundrel Bonus Feats",
+          "General Feats",
+          "Scout Bonus Feats",
+          "Jedi Bonus Feats",
+          "Noble Bonus Feats",
+          "Nonheroic Starting Feats"
+        ],
+        "isSupplied": false,
+        "source": "Star Wars Saga Edition Core Rulebook",
+        "cost": "0",
+        "quantity": 1,
+        "bonusFeatCategories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Technician Bonus Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          },
+          {
+            "value": "Scoundrel Bonus Feats"
+          },
+          {
+            "value": "Scout Bonus Feats"
+          },
+          {
+            "value": "Jedi Bonus Feats"
+          },
+          {
+            "value": "Noble Bonus Feats"
+          }
+        ],
+        "hasBonusFeatCategories": true,
+        "selectedChoices": [
+          "Climb"
+        ],
+        "displayName": "Skill Focus (Climb)"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.feats.Item.kxag5i3sEfG1wTWa",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!4Ke47J5WrCQj2qRZ.j1z8hWrnJ4qX4TCF"
+    },
+    {
+      "_id": "XcEIvvjIKzuNrUh5",
+      "name": "Skill Focus",
+      "type": "feat",
+      "img": "systems/swse/icon/feat/Skill Focus.png",
+      "system": {
+        "finalName": "",
+        "description": "<p><i>Reference Book: Star Wars Saga Edition Core Rulebook</i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i> </p><p>One of your <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> is particularly well honed. </p><p><b>Effect:</b> Choose one <a href=\"https://swse.fandom.com/wiki/Skill\" class=\"mw-redirect\" title=\"Skill\">Skill</a> in which you are <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a>. You gain a +5 competence bonus on all <a href=\"https://swse.fandom.com/wiki/Skill_Checks\" title=\"Skill Checks\">Skill Checks</a> made with that <a href=\"https://swse.fandom.com/wiki/Skill\" class=\"mw-redirect\" title=\"Skill\">Skill</a>. </p><p><b>Special:</b> This Feat may be selected multiple times. Its effects do not stack. Each time you take this Feat, it applies to a different <a href=\"https://swse.fandom.com/wiki/Trained_Skill\" class=\"mw-redirect\" title=\"Trained Skill\">Trained Skill</a>. </p>",
+        "textDescription": "Reference Book: Star Wars Saga Edition Core Rulebook See also: Feats One of your Skills is particularly well honed. Effect: Choose one Skill in which you are Trained. You gain a +5 competence bonus on all Skill Checks made with that Skill. Special: This Feat may be selected multiple times. Its effects do not stack. Each time you take this Feat, it applies to a different Trained Skill. ",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": "true",
+            "key": "takeMultipleTimes",
+            "source": null,
+            "sourceString": "Skill Focus",
+            "sourceDescription": "Skill Focus"
+          },
+          {
+            "mode": 2,
+            "value": "Acrobatics",
+            "key": "skillFocus",
+            "source": null,
+            "sourceString": "Skill Focus",
+            "sourceDescription": "Skill Focus"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "prerequisite": {
+          "text": "Trained in Acrobatics",
+          "requirement": "Acrobatics",
+          "type": "TRAINED SKILL"
+        },
+        "categories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Technician Bonus Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          },
+          {
+            "value": "Core Rulebook"
+          },
+          {
+            "value": "Scoundrel Bonus Feats"
+          },
+          {
+            "value": "Feats"
+          },
+          {
+            "value": "Scout Bonus Feats"
+          },
+          {
+            "value": "Jedi Bonus Feats"
+          },
+          {
+            "value": "Noble Bonus Feats"
+          }
+        ],
+        "supplier": {},
+        "possibleProviders": [
+          "Soldier Bonus Feats",
+          "Technician Bonus Feats",
+          "Force Prodigy Bonus Feats",
+          "Scoundrel Bonus Feats",
+          "General Feats",
+          "Scout Bonus Feats",
+          "Jedi Bonus Feats",
+          "Noble Bonus Feats",
+          "Nonheroic Starting Feats"
+        ],
+        "isSupplied": false,
+        "source": "Star Wars Saga Edition Core Rulebook",
+        "cost": "0",
+        "quantity": 1,
+        "bonusFeatCategories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Technician Bonus Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          },
+          {
+            "value": "Scoundrel Bonus Feats"
+          },
+          {
+            "value": "Scout Bonus Feats"
+          },
+          {
+            "value": "Jedi Bonus Feats"
+          },
+          {
+            "value": "Noble Bonus Feats"
+          }
+        ],
+        "hasBonusFeatCategories": true,
+        "selectedChoices": [
+          "Acrobatics"
+        ],
+        "displayName": "Skill Focus (Acrobatics)"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.feats.Item.kxag5i3sEfG1wTWa",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!4Ke47J5WrCQj2qRZ.XcEIvvjIKzuNrUh5"
+    }
+  ],
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738608610361,
+    "modifiedTime": 1738608610361,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "4Ke47J5WrCQj2qRZ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!actors!4Ke47J5WrCQj2qRZ"
+}

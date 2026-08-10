@@ -1,0 +1,95 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Legacy_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Legacy Era Campaign Guide\">Star Wars Saga Edition Legacy Era Campaign Guide</a></i> </p><p><b>Base Item:</b>&nbsp;<a href=\"https://swse.fandom.com/wiki/Lightsaber_(Weapon)\" title=\"Lightsaber (Weapon)\">Lightsaber</a> </p><p><b>Heirloom Bonus:</b>&nbsp;<a href=\"https://swse.fandom.com/wiki/Steeped_in_the_Dark_Side\" title=\"Steeped in the Dark Side\">Steeped in the Dark Side</a> </p><p>This red-bladed <a href=\"https://swse.fandom.com/wiki/Lightsaber_(Weapon)\" title=\"Lightsaber (Weapon)\">Lightsaber</a> belonged to one of the galaxy's most fearsome dictators. Constructed in the style of all Sith <a href=\"https://swse.fandom.com/wiki/Lightsabers\" title=\"Lightsabers\">Lightsabers</a>, Darth Sidious' Lightsaber practically drips with the <a href=\"https://swse.fandom.com/wiki/Dark_Side\" class=\"mw-redirect\" title=\"Dark Side\">Dark Side</a> of <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a>. </p><p>This <a href=\"https://swse.fandom.com/wiki/Lightsaber_(Weapon)\" title=\"Lightsaber (Weapon)\">Lightsaber</a> is a sacred artifact to the Sith of the Legacy era, and any hero who comes to possess it will likely be staked by agents of Darth Krayt until the weapon is secured. </p><p><b><a href=\"https://swse.fandom.com/wiki/Steeped_in_the_Dark_Side\" title=\"Steeped in the Dark Side\">Steeped in the Dark Side</a>:</b>&nbsp;Once per encounter, the wielder can apply a&nbsp;<a href=\"https://swse.fandom.com/wiki/Destiny\" title=\"Destiny\">Destiny</a>&nbsp;bonus equal to one-half it's <a href=\"https://swse.fandom.com/wiki/Dark_Side_Score\" title=\"Dark Side Score\">Dark Side Score</a>&nbsp;on any attack roll or&nbsp;<a href=\"https://swse.fandom.com/wiki/Skill_Check\" class=\"mw-redirect\" title=\"Skill Check\">Skill Check</a>&nbsp;made before the end of its turn. Applying this bonus increases the wielder's <a href=\"https://swse.fandom.com/wiki/Dark_Side_Score\" title=\"Dark Side Score\">Dark Side Score</a>&nbsp;by 1. </p><p><b>Special:</b>&nbsp;Can be&nbsp;<a href=\"https://swse.fandom.com/wiki/Thrown\" class=\"mw-redirect\" title=\"Thrown\">Thrown</a> </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Lightsaber",
+        "key": "baseItem"
+      },
+      {
+        "mode": 2,
+        "value": "Steeped in the Dark Side",
+        "key": "heirloomBonus"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isThrowable"
+      }
+    ],
+    "choices": [
+      {
+        "noOptions": "NO_AVAILABLE_OPTIONS",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {
+              "payload": "AVAILABLE_LIGHTSABER_CRYSTALS"
+            },
+            "display": "AVAILABLE_LIGHTSABER_CRYSTALS",
+            "name": "AVAILABLE_LIGHTSABER_CRYSTALS",
+            "attributes": {}
+          }
+        ],
+        "description": "Lightsaber Crystal",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": false
+      }
+    ],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "0",
+    "weight": "1 Kilogram",
+    "availability": "",
+    "size": "Medium",
+    "type": "",
+    "subtype": "Lightsabers",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "2d8",
+    "damageType": "Energy, Slashing",
+    "specialQualities": "Steeped in the Dark Side: Once per encounter, the wielder can apply a Destiny bonus equal to one-half it's Dark Side Score on any attack roll or Skill Check made before the end of its turn. Applying this bonus increases the wielder's Dark Side Score by 1."
+  },
+  "name": "Darth Sidious' Lightsaber",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Darth_Sidious_Lightsaber.png",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513540,
+    "modifiedTime": 1786051513590,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "Vc56JZjJvwhRhJll",
+  "_key": "!items!Vc56JZjJvwhRhJll"
+}

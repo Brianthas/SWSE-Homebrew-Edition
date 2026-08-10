@@ -1,0 +1,43 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Weapon Systems",
+    "changes": [],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><table class=\"wikitable\">\n <tbody>\n  <tr>\n   <th>LASER CANNON</th>\n   <th>DAMAGE</th>\n   <th>EMPLACEMENT POINTS</th>\n   <th>AVAILABILITY</th>\n   <th>COST</th>\n  </tr>\n  <tr>\n   <td>Light</td>\n   <td>3d10x2</td>\n   <td>1</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Licensed\" class=\"mw-redirect\" title=\"Licensed\">Licensed</a></td>\n   <td>1500</td>\n  </tr>\n  <tr>\n   <td>Medium</td>\n   <td>4d10x2</td>\n   <td>1</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Restricted\" class=\"mw-redirect\" title=\"Restricted\">Restricted</a></td>\n   <td>4000</td>\n  </tr>\n  <tr>\n   <td>Heavy</td>\n   <td>5d10x2</td>\n   <td>2</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Military\" class=\"mw-redirect\" title=\"Military\">Military</a></td>\n   <td>6000</td>\n  </tr>\n </tbody>\n</table><p>Laser Cannons are the most common Starship weapons, carried by Starfighters and Space Transports as primary armament and Capital Ships as <a href=\"https://swse.fandom.com/wiki/Point-Defense_Weapons\" class=\"mw-redirect\" title=\"Point-Defense Weapons\">Point-Defense Weapons</a>. They generally have a better Range than <a href=\"https://swse.fandom.com/wiki/Blaster_Cannons\" class=\"mw-redirect\" title=\"Blaster Cannons\">Blaster Cannons</a>, but they are somewhat more expensive.</p><table class=\"wikitable\">\n <caption>\n  Laser Cannon Ranges\n </caption>\n <tbody>\n  <tr>\n   <th colspan=\"4\">RANGE BY CHARACTER SCALE</th>\n   <th></th>\n   <th colspan=\"4\"><p>RANGE BY STARSHIP SCALE</p></th>\n  </tr>\n  <tr>\n   <th>POINT-BLANK</th>\n   <th>SHORT</th>\n   <th>MEDIUM</th>\n   <th>LONG</th>\n   <th></th>\n   <th>POINT-BLANK</th>\n   <th>SHORT</th>\n   <th>MEDIUM</th>\n   <th>LONG</th>\n  </tr>\n  <tr>\n   <td>0-150 Squares</td>\n   <td>151-300 Squares</td>\n   <td>301-750 Squares</td>\n   <td>751-1,500 Squares</td>\n   <td></td>\n   <td>0-1 Squares</td>\n   <td>2 Squares</td>\n   <td>3-5 Squares</td>\n   <td>6-10 Squares</td>\n  </tr>\n </tbody>\n</table>",
+    "cost": "6000",
+    "rangeStarshipMedium": "3-5 Squares",
+    "rangeStarshipShort": "2 Squares",
+    "rangeMedium": "301-750 Squares",
+    "rangeStarshipLong": "6-10 Squares",
+    "rangeStarshipPointBlank": "0-1 Squares",
+    "rangePointBlank": "0-150 Squares",
+    "damage": "5d10x2",
+    "rangeShort": "151-300 Squares",
+    "emplacementPoints": "2",
+    "availability": "Military",
+    "rangeLong": "751-1,500 Squares"
+  },
+  "name": "Laser Cannon, Heavy",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317141,
+    "modifiedTime": 1759848317141,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "ZhNgWvwvJdXIWJoG",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!ZhNgWvwvJdXIWJoG"
+}

@@ -1,0 +1,152 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p>Intelligent omnivores native to one of the moons orbiting <a href=\"https://swse.fandom.com/wiki/Endor\" class=\"mw-redirect\" title=\"Endor\">Endor</a>, Ewoks are almost unknown prior to the battle of Endor. Ewoks live in tree-dwelling tribes with gender-based division of labor; males hunt, forage, and make weapons, while females raise young and handle other domestic tasks. Ewok culture revolves around complex animistic beliefs involving the giant trees of the forest moon. </p><p>Although technologically primitive, Ewoks are clever, inquisitive, and inventive. Skittish and wary when first introduced to machines, their curiosity soon overcomes fear. </p><h3><span class=\"mw-headline\" id=\"Ewok_Characteristics\">Ewok Characteristics</span></h3><p><b>Personality:</b> Ewoks tend to be curious, superstitious, and courageous, though they can be fearful around things that are strange or new. </p><p><b>Physical Description:</b> Ewoks average about 1 meter tall. Their fur color and pattern varies widely. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Ewoks age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-9 Years </td> \n   <td>10-14 Years </td> \n   <td>14-29 Years </td> \n   <td>30-44 Years </td> \n   <td>45-59 Years </td> \n   <td>60+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> <a href=\"https://swse.fandom.com/wiki/The_Forest_Moon_of_Endor\" title=\"The Forest Moon of Endor\">The Forest Moon of Endor</a>. </p><p><b>Languages:</b> Ewoks speak Ewokese. They have no written form of their language. They can learn to speak Basic. </p><p><b>Example Names:</b> Asha, Chirpa, Deej, Kneesaa, Latara, Logray, Malani, Nippet, Paploo, Shodu, Teebo, Wicket, Wiley. </p><p><b>Adventurers:</b> An Ewok adventurer may be motivated by a love of excitement, a natural inquisitiveness, or a warrior's quest. Collecting powerful \"Magic\" items from fallen opponents is a sure way to earn the respect of the tribe. </p><h3><span class=\"mw-headline\" id=\"Ewok_Species_Traits\">Ewok Species Traits</span></h3><p>Ewoks share the following Species Traits: </p><h2><span class=\"mw-headline\" id=\"Additional_Ewok_Species_Feats\">Additional Ewok Species Feats</span></h2><p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Rebellion_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Rebellion Era Campaign Guide\">Star Wars Saga Edition Rebellion Era Campaign Guide</a></i> </p><p>Ewok characters have access to the following <a href=\"https://swse.fandom.com/wiki/Species_Feats\" class=\"mw-redirect\" title=\"Species Feats\">Species Feats</a>. No Species Feats are considered Bonus Feats for any <a href=\"https://swse.fandom.com/wiki/Heroic_Class\" class=\"mw-redirect\" title=\"Heroic Class\">Heroic Class</a>. </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>SPECIES FEAT </th> \n   <th> </th> \n   <th>BENEFITS </th>\n  </tr> \n  <tr> \n   <td><a href=\"https://swse.fandom.com/wiki/Ample_Foraging\" title=\"Ample Foraging\">Ample Foraging</a> </td> \n   <td> </td> \n   <td>Grant a bonus to allies' <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> by foraging. </td>\n  </tr> \n  <tr> \n   <td><a href=\"https://swse.fandom.com/wiki/Forest_Stalker\" title=\"Forest Stalker\">Forest Stalker</a> </td> \n   <td> </td> \n   <td>Reroll <a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a> checks, always keeping the better result. </td>\n  </tr> \n  <tr> \n   <td><a href=\"https://swse.fandom.com/wiki/Keen_Scent\" title=\"Keen Scent\">Keen Scent</a> </td> \n   <td> </td> \n   <td>Increase the range of your Scent ability by 20 squares. </td>\n  </tr>\n </tbody>\n</table>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Small",
+        "type": "trait"
+      },
+      {
+        "name": "Primitive",
+        "type": "trait"
+      },
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Survival))",
+        "type": "trait"
+      },
+      {
+        "name": "Scent",
+        "type": "trait"
+      },
+      {
+        "name": "Sneaky",
+        "type": "trait"
+      },
+      {
+        "name": "Skill Focus (Survival)",
+        "type": "feat"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "29",
+          "low": "14",
+          "text": "14-29",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "44",
+          "low": "30",
+          "text": "30-44",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "60",
+          "text": "60+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "9",
+          "low": "1",
+          "text": "1-9",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "14",
+          "low": "10",
+          "text": "10-14",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "59",
+          "low": "45",
+          "text": "45-59",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Ewoks"
+      },
+      {
+        "value": "Small"
+      },
+      {
+        "value": "Primitive"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Conditional Bonus Feat (Skill Focus (Survival))"
+      },
+      {
+        "value": "Scent"
+      },
+      {
+        "value": "Sneaky"
+      },
+      {
+        "value": "Conditional Bonus Feat"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Ewok",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535566038,
+    "modifiedTime": 1736535566038,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "411RTezH8nndhQcB",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!411RTezH8nndhQcB"
+}

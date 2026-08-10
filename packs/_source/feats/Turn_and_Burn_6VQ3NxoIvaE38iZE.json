@@ -1,0 +1,97 @@
+{
+  "img": "systems/swse/icon/feat/Turn_and_Burn.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scavenger%27s_Guide_to_Droids\" title=\"Star Wars Saga Edition Scavenger's Guide to Droids\">Star Wars Saga Edition Scavenger's Guide to Droids</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You can retreat from enemies with additional speed and agility.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a>; <a href=\"https://swse.fandom.com/wiki/Hovering\" title=\"Hovering\">Hovering</a>, <a href=\"https://swse.fandom.com/wiki/Flying\" title=\"Flying\">Flying</a>, <a href=\"https://swse.fandom.com/wiki/Wheeled\" title=\"Wheeled\">Wheeled</a>, or <a href=\"https://swse.fandom.com/wiki/Tracked\" title=\"Tracked\">Tracked</a> Locomotion; <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> 13</p><p><b>Effect:</b> When using the <a href=\"https://swse.fandom.com/wiki/Withdraw\" title=\"Withdraw\">Withdraw</a> Action, you can move up to 2 squares to escape <a href=\"https://swse.fandom.com/wiki/Threatened\" class=\"mw-redirect\" title=\"Threatened\">Threatened</a> squares without provoking an <a href=\"https://swse.fandom.com/wiki/Attack_of_Opportunity\" class=\"mw-redirect\" title=\"Attack of Opportunity\">Attack of Opportunity</a>, and you can move your Speed. You can spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> as a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a> to an enemy ending its movement adjacent to you to <a href=\"https://swse.fandom.com/wiki/Withdraw\" title=\"Withdraw\">Withdraw</a>.</p><p><b>Normal:</b> When using the <a href=\"https://swse.fandom.com/wiki/Withdraw\" title=\"Withdraw\">Withdraw</a> Action, you can normally move only 1 square to escape a <a href=\"https://swse.fandom.com/wiki/Threatened\" class=\"mw-redirect\" title=\"Threatened\">Threatened</a> square without provoking an <a href=\"https://swse.fandom.com/wiki/Attack_of_Opportunity\" class=\"mw-redirect\" title=\"Attack of Opportunity\">Attack of Opportunity</a> and can move only up to half your Speed.</p><p><b>Special:</b> You must be equipped with <a href=\"https://swse.fandom.com/wiki/Hovering\" title=\"Hovering\">Hovering</a>, <a href=\"https://swse.fandom.com/wiki/Flying\" title=\"Flying\">Flying</a>, <a href=\"https://swse.fandom.com/wiki/Wheeled\" title=\"Wheeled\">Wheeled</a>, or <a href=\"https://swse.fandom.com/wiki/Tracked\" title=\"Tracked\">Tracked</a> Locomotion to use this Feat.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Droid",
+          "requirement": "Is a droid",
+          "type": "SPECIAL"
+        },
+        {
+          "children": [
+            {
+              "text": "Hovering",
+              "requirement": "Hovering",
+              "type": "EQUIPPED"
+            },
+            {
+              "text": "Flying",
+              "requirement": "Flying",
+              "type": "EQUIPPED"
+            },
+            {
+              "text": "Wheeled",
+              "requirement": "Wheeled",
+              "type": "EQUIPPED"
+            },
+            {
+              "text": "Tracked",
+              "requirement": "Tracked",
+              "type": "EQUIPPED"
+            }
+          ],
+          "count": 1,
+          "text": "Hovering, Flying, Wheeled, or Tracked",
+          "type": "OR"
+        },
+        {
+          "text": "Dexterity 13",
+          "requirement": "Dexterity 13",
+          "type": "ATTRIBUTE"
+        }
+      ],
+      "text": "Droid, (Hovering, Flying, Wheeled, or Tracked), and Dexterity 13",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Droid Feats"
+      },
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Scavenger's Guide to Droids",
+    "cost": "0"
+  },
+  "name": "Turn and Burn",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479029320,
+    "modifiedTime": 1761479029320,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "6VQ3NxoIvaE38iZE",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!6VQ3NxoIvaE38iZE"
+}

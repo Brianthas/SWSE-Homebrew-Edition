@@ -1,0 +1,83 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "When you redirect an attack to a minion using the <b>Bodyguard I</b> Talent, that minion can make an immediate melee or ranged attack against your attacker, if the attacker is within <a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a>. Additionally, the bonus provided by the <b>Bodyguard II</b> Talent increases to your full Class Level.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Attract Minion talent",
+          "requirement": "Attract Minion",
+          "type": "TALENT"
+        },
+        {
+          "text": "Bodyguard I talent",
+          "requirement": "Bodyguard I",
+          "type": "TALENT"
+        },
+        {
+          "text": "Bodyguard II talent",
+          "requirement": "Bodyguard II",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Attract Minion talent, Bodyguard I talent, and Bodyguard II talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Crime Lord Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Crime Lord Talent Trees",
+      "Core Rulebook"
+    ],
+    "isSupplied": false,
+    "talentTree": "Mastermind Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Mastermind_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Scum and Villainy",
+    "cost": "0"
+  },
+  "name": "Bodyguard III",
+  "flags": {},
+  "type": "talent",
+  "folder": "wsqs0ZuAxwCa4ADs",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385308892,
+    "modifiedTime": 1734385308892,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "1VeA5Lh5pWQaq2rO",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!1VeA5Lh5pWQaq2rO"
+}

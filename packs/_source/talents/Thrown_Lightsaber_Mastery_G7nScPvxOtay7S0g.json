@@ -1,0 +1,92 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Any target successfully struck by a <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> you <a href=\"https://swse.fandom.com/wiki/Throw\" title=\"Throw\">Throw</a> moves at half <a href=\"https://swse.fandom.com/wiki/Speed\" title=\"Speed\">Speed</a> (round down) until the beginning of your next turn.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Improved Lightsaber Throw talent",
+          "requirement": "Improved Lightsaber Throw",
+          "type": "TALENT"
+        },
+        {
+          "text": "Lightsaber Throw talent",
+          "requirement": "Lightsaber Throw",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Improved Lightsaber Throw talent, and Lightsaber Throw talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Sith Apprentice Talent Trees"
+      },
+      {
+        "value": "Jedi Master Talent Trees"
+      },
+      {
+        "value": "Jedi Knight Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Imperial Knight Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Sith Apprentice Talent Trees",
+      "Jedi Master Talent Trees",
+      "Jedi Knight Talent Trees",
+      "Core Rulebook",
+      "Imperial Legionnaire Talent Trees",
+      "Force Adept Talent Trees",
+      "Sith Lord Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Duelist Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Duelist_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Force Unleashed Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Thrown Lightsaber Mastery",
+  "flags": {},
+  "type": "talent",
+  "folder": "CFwbwzgDHDahp0GP",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385304442,
+    "modifiedTime": 1786070303519,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "G7nScPvxOtay7S0g",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!G7nScPvxOtay7S0g"
+}

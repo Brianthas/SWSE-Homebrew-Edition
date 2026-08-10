@@ -1,0 +1,84 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Once per encounter, when you use a non-attack pattern <a href=\"https://swse.fandom.com/wiki/Starship_Maneuver\" class=\"mw-redirect\" title=\"Starship Maneuver\">Starship Maneuver</a>, you grant all ships in your squadron the ability to use the same <a href=\"https://swse.fandom.com/wiki/Starship_Maneuver\" class=\"mw-redirect\" title=\"Starship Maneuver\">Starship Maneuver</a> once on their next turn. The <a href=\"https://swse.fandom.com/wiki/Pilot_(Vehicle_Combat)\" title=\"Pilot (Vehicle Combat)\">Pilot</a> of each ship that chooses to use the <a href=\"https://swse.fandom.com/wiki/Starship_Maneuver\" class=\"mw-redirect\" title=\"Starship Maneuver\">Starship Maneuver</a> must make any <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> checks or attack rolls the <a href=\"https://swse.fandom.com/wiki/Starship_Maneuver\" class=\"mw-redirect\" title=\"Starship Maneuver\">Starship Maneuver</a> requires- your success or failure with the <a href=\"https://swse.fandom.com/wiki/Starship_Maneuver\" class=\"mw-redirect\" title=\"Starship Maneuver\">Starship Maneuver</a> has no bearing on the success of other units in your squadron.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Charisma 13",
+          "requirement": "Charisma 13",
+          "type": "ATTRIBUTE"
+        },
+        {
+          "text": "Wisdom 13",
+          "requirement": "Wisdom 13",
+          "type": "ATTRIBUTE"
+        },
+        {
+          "text": "Starship Tactics feat",
+          "requirement": "Starship Tactics",
+          "type": "FEAT"
+        },
+        {
+          "text": "Squadron Maneuvers talent",
+          "requirement": "Squadron Maneuvers",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Charisma 13, Wisdom 13, Starship Tactics feat, and Squadron Maneuvers talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Ace Pilot Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Ace Pilot Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Squadron Leader Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Squadron_Leader_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Starships of the Galaxy",
+    "cost": "0"
+  },
+  "name": "Squadron Tactics",
+  "flags": {},
+  "type": "talent",
+  "folder": "IDgltOySl2AwtFJs",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385312512,
+    "modifiedTime": 1734385312512,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "0jLlLVMk7OZdtdo1",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!0jLlLVMk7OZdtdo1"
+}

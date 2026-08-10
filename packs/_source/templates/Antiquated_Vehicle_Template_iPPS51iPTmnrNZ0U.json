@@ -1,0 +1,110 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Legacy_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Legacy Era Campaign Guide\">Star Wars Saga Edition Legacy Era Campaign Guide</a></i> </p><p>Antiquated Vehicles are relics from recent history; maybe a few of these&nbsp;<a href=\"https://swse.fandom.com/wiki/Vehicles\" title=\"Vehicles\">Vehicles</a>&nbsp;can be seen plying the space lanes, but many are either novelties or&nbsp;<a href=\"https://swse.fandom.com/wiki/Vehicles\" title=\"Vehicles\">Vehicles</a>&nbsp;that are barely holding themselves together. While not so old as to be called archaic, these Vehicles have not rolled off the assembly lines in a long while. </p><h3><span class=\"mw-headline\" id=\"Modifications\">Modifications</span></h3><p>To create a Antiquated Vehicle, make the following changes to an existing Vehicle: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "itemMod"
+      },
+      {
+        "mode": 2,
+        "value": "Rare",
+        "key": "availability"
+      },
+      {
+        "mode": 2,
+        "value": "(USED OR 60%)",
+        "key": "cost"
+      },
+      {
+        "mode": 2,
+        "value": "Repairs: Antiquated Vehicles do not use modern technology and are likely to be unfamiliar to most ship engineers. The base DC of any Mechanics checks made to Build Object or Repair increase by +5 when associated with an Antiquated Vehicle.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": "Refitting: An Antiquated Vehicle can be Refitted. Apply the Refitted Vehicle Template to the base Vehicle instead of the Antiquated Vehicle Template.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": "",
+        "key": "prefix"
+      },
+      {
+        "mode": 2,
+        "value": "",
+        "key": "suffix"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Damage Threshold (-25%)",
+        "type": "trait"
+      },
+      {
+        "name": "Base Attack Bonus (-2)",
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "hasItemOwner": false,
+    "subtype": "Vehicle Templates",
+    "prerequisite": {
+      "children": [
+        {
+          "children": [
+            {
+              "text": "vehicle",
+              "requirement": "vehicle",
+              "type": "TYPE"
+            },
+            {
+              "text": "vehicle",
+              "requirement": "npc-vehicle",
+              "type": "TYPE"
+            }
+          ],
+          "count": 1,
+          "text": "Is a Vehicle",
+          "type": "OR"
+        }
+      ],
+      "text": "and (Is a Vehicle)",
+      "type": "AND"
+    },
+    "cost": "(USED OR 60%)"
+  },
+  "name": "Antiquated Vehicle Template",
+  "flags": {},
+  "type": "template",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.2",
+    "createdTime": 1729096741318,
+    "modifiedTime": 1729096741318,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "iPPS51iPTmnrNZ0U",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!iPPS51iPTmnrNZ0U"
+}

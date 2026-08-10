@@ -40,12 +40,11 @@ export class HealthFunctions {
     _prepareHealthDerivedData() {
         let system = this;
         const actor = system.parent;
-        let ignoreCon = actor.isDroid;
 
         let healthBonuses = [];
         for (let charClass of actor.classes || []) {
             healthBonuses.push(charClass.classLevelHealth);
-            healthBonuses.push(ignoreCon ? 0 : system.abilities.con.mod);
+            healthBonuses.push(system.abilities.con.mod);
         }
         healthBonuses.push(
             ...getInheritableAttribute({
@@ -53,6 +52,15 @@ export class HealthFunctions {
                 attributeKey: "healthHardenedMultiplier",
                 reduce: "NUMERIC_VALUES",
             }).map((value) => "*" + value)
+        );
+        // Homebrew: a flat, one-time HP bonus (e.g. Toughness's +5) that doesn't multiply
+        // when the granting feat/trait is taken multiple times, unlike hitPointEq below.
+        healthBonuses.push(
+            getInheritableAttribute({
+                entity: actor,
+                attributeKey: "hitPointFlatBonus",
+                reduce: "MAX",
+            }) || 0
         );
 
         let traitAttributes = getInheritableAttribute({
@@ -65,7 +73,10 @@ export class HealthFunctions {
 
         //Update totals
         system.health.bonusHP = resolveValueArray(others, actor);
-        system.health.max = system.overrides.health ?? system.health.override ?? resolveValueArray(healthBonuses, actor);
+        // Kept separate from .max so the Classes tab can show the computed total as a
+        // placeholder even while an override is active (same pattern as Damage Reduction).
+        system.health.derivedMax = resolveValueArray(healthBonuses, actor);
+        system.health.max = system.overrides.health ?? system.health.override ?? system.health.derivedMax;
         system.health.multipliers = multipliers;
         system.health.override = actor.system.health.override;
     }

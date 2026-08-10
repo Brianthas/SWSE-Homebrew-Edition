@@ -1,0 +1,3168 @@
+{
+  "effects": [],
+  "system": {
+    "health": {
+      "value": 39,
+      "min": 0,
+      "max": 39,
+      "condition": 0,
+      "override": 39
+    },
+    "shields": {
+      "value": 0,
+      "min": 0,
+      "max": 0,
+      "shieldDamage": 0
+    },
+    "description": "",
+    "credits": 0,
+    "classes": [],
+    "traits": [],
+    "age": 0,
+    "gender": "",
+    "genderDisplay": "",
+    "player": "",
+    "darkSideScore": 0,
+    "darkSideArray": [],
+    "attributes": {
+      "str": {
+        "total": 10,
+        "manual": "12",
+        "mod": 0,
+        "bonus": 0,
+        "base": 10
+      },
+      "dex": {
+        "total": 10,
+        "manual": "13",
+        "mod": 0,
+        "bonus": 0,
+        "base": 10
+      },
+      "con": {
+        "total": 10,
+        "manual": "15",
+        "mod": 0,
+        "bonus": 0,
+        "base": 10
+      },
+      "int": {
+        "total": 10,
+        "manual": "12",
+        "mod": 0,
+        "bonus": 0,
+        "base": 10
+      },
+      "wis": {
+        "total": 10,
+        "manual": "16",
+        "mod": 0,
+        "bonus": 0,
+        "base": 10
+      },
+      "cha": {
+        "total": 10,
+        "manual": "6",
+        "mod": 0,
+        "bonus": 0,
+        "base": 10
+      }
+    },
+    "crewQuality": {},
+    "crew": [],
+    "equippedIds": [],
+    "skills": {
+      "climb": {
+        "trained": true
+      },
+      "initiative": {
+        "trained": true
+      },
+      "survival": {
+        "trained": true
+      },
+      "stealth": {
+        "trained": true
+      },
+      "endurance": {
+        "trained": true
+      },
+      "perception": {
+        "trained": true
+      }
+    },
+    "biography": "",
+    "providedItems": [
+      {
+        "name": "The Nyriaanan Clans",
+        "type": "affiliation"
+      },
+      {
+        "quantity": "3",
+        "name": "Scout",
+        "type": "class",
+        "firstLevel": true
+      },
+      {
+        "name": "Near-Human",
+        "answers": [
+          "Medium"
+        ],
+        "type": "species"
+      },
+      {
+        "name": "Basic",
+        "type": "language"
+      },
+      {
+        "name": "Nyriaanan",
+        "type": "language"
+      },
+      {
+        "name": "Acute Senses",
+        "type": "talent"
+      },
+      {
+        "name": "Improved Stealth",
+        "type": "talent"
+      },
+      {
+        "name": "Pin",
+        "type": "feat"
+      },
+      {
+        "name": "Shake It Off",
+        "type": "feat"
+      },
+      {
+        "payloads": {
+          "payload": "Stealth"
+        },
+        "name": "Skill Focus",
+        "type": "feat"
+      },
+      {
+        "payloads": {
+          "payload": "Survival"
+        },
+        "name": "Skill Focus",
+        "type": "feat"
+      },
+      {
+        "payloads": {
+          "payload": "Rifles"
+        },
+        "name": "Weapon Focus",
+        "type": "feat"
+      },
+      {
+        "payloads": {
+          "payload": "Pistols"
+        },
+        "name": "Weapon Proficiency",
+        "type": "feat"
+      },
+      {
+        "payloads": {
+          "payload": "Rifles"
+        },
+        "name": "Weapon Proficiency",
+        "type": "feat"
+      },
+      {
+        "payloads": {
+          "payload": "Simple Weapons"
+        },
+        "name": "Weapon Proficiency",
+        "type": "feat"
+      },
+      {
+        "equip": "equipped",
+        "name": "Sporting Blaster Rifle",
+        "type": "item"
+      },
+      {
+        "equip": "equipped",
+        "name": "Ration Pack",
+        "type": "item"
+      }
+    ],
+    "size": "Medium",
+    "speciesSubType": "Nyriaanan",
+    "defense": {
+      "will": {
+        "expected": 16
+      },
+      "reflex": {
+        "expected": 16
+      },
+      "fortitude": {
+        "expected": 16
+      }
+    },
+    "sizeOverride": "Medium",
+    "attributeGenerationType": "Manual",
+    "changes": [],
+    "cl": 3,
+    "isNPC": true,
+    "settings": {
+      "isNPC": true
+    }
+  },
+  "name": "Nyriaanan Scout",
+  "flags": {},
+  "type": "character",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "Nyriaanan Scout",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "shields"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "depth": 1
+  },
+  "items": [
+    {
+      "_id": "EFW6idP8H990M8tF",
+      "name": "Scout",
+      "type": "class",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "<p><i>Reference Book: Star Wars Saga Edition Core Rulebook</i> </p><p>Scouts are natural explorers and adventurers, full of curiosity and trained to handle the out-of-the-way locations where they often operate. Scouts tend to be independent, signing on when the credits are good and their skills are best utilized and tested. Scouts understand the lay of the land and the orbit of the stars. They know how to recognize danger and locate the basic necessities for survival. The Scout seeks knowledge, tries to solve mysteries, and to find a path through the wild regions, often becoming a decent pilot along the way, and usually learns how to protect himself from whatever hides over the next hill or beyond the most distant nebula. </p><h3><span class=\"mw-headline\" id=\"Adventurers\">Adventurers</span></h3><p>Many Scouts become adventurers to see what's in the next star system. They pick up skills that make them excellent members of any team. They are usually the best trackers, trailblazers, and survivalists the galaxy has to offer. Some Scouts are scientists and researchers who learn the skills of the profession so they don't have to rely on others. Some sell their services to the highest bidder. More often, the adventurous Scout has a good heart, a sense of honor, and a burning desire to embrace the wild regions of the galaxy and learn to conquer them- either figuratively or literally. Adventurous Scouts call themselves rangers, outriders, hunters, explorers, guides, adventurous scholars, and vanguards. </p><h3><span class=\"mw-headline\" id=\"Characteristics\">Characteristics</span></h3><p>Scouts temper insatiable curiosity with excellent survival instincts. They make use of <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> and <a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a>, as well as <a href=\"https://swse.fandom.com/wiki/Wisdom\" title=\"Wisdom\">Wisdom</a>, to spot and avoid dangers. The Scout has an undying faith in themselves and their abilities that sometimes allows the Scout to call upon reserves and an inner strength to get out of tough situations. Scouts like to be the first to reach any location, although they also want to reach it in one piece. They can be gruff or silent, jovial or talkative. They are confident and brave, and they often appreciate the wonders that the galaxy has to offer. </p><h3><span class=\"mw-headline\" id=\"Backgrounds\">Backgrounds</span></h3><p>Scouts come to their profession in search of something, usually knowledge or secrets or the answers to the mysteries of the ages. Scholars, while possibly associated with an institute of learning or a particular government, often forsake the halls of academe for the pure research of working in the field. Pathfinders and explorers may work for a government or a military institution, or they may take on freelance contracts from anyone willing to pay for their services. Many Scouts develop into <a href=\"https://swse.fandom.com/wiki/Bounty_Hunters\" class=\"mw-redirect\" title=\"Bounty Hunters\">Bounty Hunters</a>, especially those who combine military skills with their tracking and searching abilities. Every group of adventurers benefits from having a Scout in the party. </p><h4><span class=\"mw-headline\" id=\"Examples_of_Scouts_in_Star_Wars\"><b>Examples of Scouts in Star Wars</b></span></h4><p>Chewbacca, Wicket the Ewok, Captain Tarpals </p><h3><span class=\"mw-headline\" id=\"Game_Rule_Information\">Game Rule Information</span></h3><p>Scouts have the following game statistics: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CLASS LEVEL </th> \n   <th><a href=\"https://swse.fandom.com/wiki/BASE_ATTACK_BONUS\" class=\"mw-redirect\" title=\"BASE ATTACK BONUS\">BASE ATTACK BONUS</a> </th> \n   <th colspan=\"2\">CLASS FEATURES </th>\n  </tr> \n  <tr> \n   <td>1 </td> \n   <td>+0 </td> \n   <td colspan=\"2\"><a href=\"https://swse.fandom.com/wiki/Defense\" class=\"mw-redirect\" title=\"Defense\">Defense</a> Bonuses, Starting <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a>, <a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Scout)\" title=\"Talent Trees (Scout)\">Talent</a> </td>\n  </tr> \n  <tr> \n   <td>2 </td> \n   <td>+1 </td> \n   <td colspan=\"2\"><a href=\"https://swse.fandom.com/wiki/Bonus_Feat_(Scout)\" class=\"mw-redirect\" title=\"Bonus Feat (Scout)\">Bonus Feat (Scout)</a> </td>\n  </tr> \n  <tr> \n   <td>3 </td> \n   <td>+2 </td> \n   <td colspan=\"2\"><a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Scout)\" title=\"Talent Trees (Scout)\">Talent</a> </td>\n  </tr> \n  <tr> \n   <td>4 </td> \n   <td>+3 </td> \n   <td colspan=\"2\"><a href=\"https://swse.fandom.com/wiki/Bonus_Feat_(Scout)\" class=\"mw-redirect\" title=\"Bonus Feat (Scout)\">Bonus Feat (Scout)</a> </td>\n  </tr> \n  <tr> \n   <td>5 </td> \n   <td>+3 </td> \n   <td colspan=\"2\"><a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Scout)\" title=\"Talent Trees (Scout)\">Talent</a> </td>\n  </tr> \n  <tr> \n   <td>6 </td> \n   <td>+4 </td> \n   <td colspan=\"2\"><a href=\"https://swse.fandom.com/wiki/Bonus_Feat_(Scout)\" class=\"mw-redirect\" title=\"Bonus Feat (Scout)\">Bonus Feat (Scout)</a> </td>\n  </tr> \n  <tr> \n   <td>7 </td> \n   <td>+5 </td> \n   <td colspan=\"2\"><a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Scout)\" title=\"Talent Trees (Scout)\">Talent</a> </td>\n  </tr> \n  <tr> \n   <td>8 </td> \n   <td>+6 </td> \n   <td colspan=\"2\"><a href=\"https://swse.fandom.com/wiki/Bonus_Feat_(Scout)\" class=\"mw-redirect\" title=\"Bonus Feat (Scout)\">Bonus Feat (Scout)</a> </td>\n  </tr> \n  <tr> \n   <td>9 </td> \n   <td>+6 </td> \n   <td colspan=\"2\"><a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Scout)\" title=\"Talent Trees (Scout)\">Talent</a> </td>\n  </tr> \n  <tr> \n   <td>10 </td> \n   <td>+7 </td> \n   <td colspan=\"2\"><a href=\"https://swse.fandom.com/wiki/Bonus_Feat_(Scout)\" class=\"mw-redirect\" title=\"Bonus Feat (Scout)\">Bonus Feat (Scout)</a> </td>\n  </tr> \n  <tr> \n   <td>11 </td> \n   <td>+8 </td> \n   <td colspan=\"2\"><a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Scout)\" title=\"Talent Trees (Scout)\">Talent</a> </td>\n  </tr> \n  <tr> \n   <td>12 </td> \n   <td>+9 </td> \n   <td colspan=\"2\"><a href=\"https://swse.fandom.com/wiki/Bonus_Feat_(Scout)\" class=\"mw-redirect\" title=\"Bonus Feat (Scout)\">Bonus Feat (Scout)</a> </td>\n  </tr> \n  <tr> \n   <td>13 </td> \n   <td>+9 </td> \n   <td colspan=\"2\"><a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Scout)\" title=\"Talent Trees (Scout)\">Talent</a> </td>\n  </tr> \n  <tr> \n   <td>14 </td> \n   <td>+10 </td> \n   <td colspan=\"2\"><a href=\"https://swse.fandom.com/wiki/Bonus_Feat_(Scout)\" class=\"mw-redirect\" title=\"Bonus Feat (Scout)\">Bonus Feat (Scout)</a> </td>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td>+11 </td> \n   <td colspan=\"2\"><a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Scout)\" title=\"Talent Trees (Scout)\">Talent</a> </td>\n  </tr> \n  <tr> \n   <td>16 </td> \n   <td>+12 </td> \n   <td colspan=\"2\"><a href=\"https://swse.fandom.com/wiki/Bonus_Feat_(Scout)\" class=\"mw-redirect\" title=\"Bonus Feat (Scout)\">Bonus Feat (Scout)</a> </td>\n  </tr> \n  <tr> \n   <td>17 </td> \n   <td>+12 </td> \n   <td colspan=\"2\"><a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Scout)\" title=\"Talent Trees (Scout)\">Talent</a> </td>\n  </tr> \n  <tr> \n   <td>18 </td> \n   <td>+13 </td> \n   <td colspan=\"2\"><a href=\"https://swse.fandom.com/wiki/Bonus_Feat_(Scout)\" class=\"mw-redirect\" title=\"Bonus Feat (Scout)\">Bonus Feat (Scout)</a> </td>\n  </tr> \n  <tr> \n   <td>19 </td> \n   <td>+14 </td> \n   <td colspan=\"2\"><a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Scout)\" title=\"Talent Trees (Scout)\">Talent</a> </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td>+15 </td> \n   <td colspan=\"2\"><a href=\"https://swse.fandom.com/wiki/Bonus_Feat_(Scout)\" class=\"mw-redirect\" title=\"Bonus Feat (Scout)\">Bonus Feat (Scout)</a> </td>\n  </tr>\n </tbody>\n</table><h4><span class=\"mw-headline\" id=\"Abilities\"><b>Abilities</b></span></h4><p>Most of the Scout's key skills rely on <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a>, <a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a>, and <a href=\"https://swse.fandom.com/wiki/Wisdom\" title=\"Wisdom\">Wisdom</a>. <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> is also useful for the Scout <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in athletic <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>. </p><h4><span class=\"mw-headline\" id=\"Class_Skills\"><b>Class Skills </b></span></h4><p><a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in 5 + <a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a> Modifier: </p><ul>\n <li><a href=\"https://swse.fandom.com/wiki/Climb\" title=\"Climb\">Climb</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Endurance\" title=\"Endurance\">Endurance</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Jump\" title=\"Jump\">Jump</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Knowledge\" title=\"Knowledge\">Knowledge</a> (all skills, taken individually)</li> \n <li><a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Ride\" title=\"Ride\">Ride</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Survival\" title=\"Survival\">Survival</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Swim\" title=\"Swim\">Swim</a></li>\n</ul><h4><span class=\"mw-headline\" id=\"Hit_Points\"><b>Hit Points</b></span></h4><p>Scouts begin play at 1st level with a number of hit points equal to 24 + their <a href=\"https://swse.fandom.com/wiki/Constitution\" title=\"Constitution\">Constitution</a> modifier. At each level after 1st, Scouts gain 1d8 hit points + their <a href=\"https://swse.fandom.com/wiki/Constitution\" title=\"Constitution\">Constitution</a> modifier. </p><h3><span class=\"mw-headline\" id=\"Force_Points\">Force Points</span></h3><p>Scouts gain a number of <a href=\"https://swse.fandom.com/wiki/Force_Points\" title=\"Force Points\">Force Points</a> equal to 5 + one-half their Character Level (rounded down) at 1st level, and every time they gain a new level in this class. Any <a href=\"https://swse.fandom.com/wiki/Force_Points\" title=\"Force Points\">Force Points</a> left over from previous levels are lost. </p><h3><span class=\"mw-headline\" id=\"Class_Features\">Class Features</span></h3><p>All of the following are features of the Scout class. </p><h4><span class=\"mw-headline\" id=\"Defense_Bonuses\"><b>Defense Bonuses</b></span></h4><p>At 1st level, a Scout gains a +1 Class bonus to their <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> and a +2 Class bonus to their <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>. </p><h4><span class=\"mw-headline\" id=\"Starting_Feats\"><b>Starting Feats</b></span></h4><p>A Scout begins play with the following bonus <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a>: </p><ul>\n <li><a href=\"https://swse.fandom.com/wiki/Shake_It_Off\" title=\"Shake It Off\">Shake It Off</a>*</li> \n <li><a href=\"https://swse.fandom.com/wiki/Weapon_Proficiency_(Pistols)\" class=\"mw-redirect\" title=\"Weapon Proficiency (Pistols)\">Weapon Proficiency (Pistols)</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Weapon_Proficiency_(Rifles)\" class=\"mw-redirect\" title=\"Weapon Proficiency (Rifles)\">Weapon Proficiency (Rifles)</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Weapon_Proficiency_(Simple_Weapons)\" class=\"mw-redirect\" title=\"Weapon Proficiency (Simple Weapons)\">Weapon Proficiency (Simple Weapons)</a></li>\n</ul><p><i>*You must meet the prerequisite of this <a href=\"https://swse.fandom.com/wiki/Feat\" class=\"mw-redirect\" title=\"Feat\">Feat</a> (minimum <a href=\"https://swse.fandom.com/wiki/Constitution\" title=\"Constitution\">Constitution</a> 13 and <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in <a href=\"https://swse.fandom.com/wiki/Endurance\" title=\"Endurance\">Endurance</a>) to gain it.</i> </p><h4><span class=\"mw-headline\" id=\"Talent_Trees\"><b>Talent Trees</b></span></h4><p>At every odd-numbered level (1st, 3rd, 5th, and so on), a Scout gains an additional <a href=\"https://swse.fandom.com/wiki/Talent\" class=\"mw-redirect\" title=\"Talent\">Talent</a>. A Scout may choose a <a href=\"https://swse.fandom.com/wiki/Talent\" class=\"mw-redirect\" title=\"Talent\">Talent</a> from any of the <a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Scout)\" title=\"Talent Trees (Scout)\">Talent Trees (Scout)</a> they wish, but they must meet the prerequisites (if any) of the chosen <a href=\"https://swse.fandom.com/wiki/Talent\" class=\"mw-redirect\" title=\"Talent\">Talent</a>. No <a href=\"https://swse.fandom.com/wiki/Talent\" class=\"mw-redirect\" title=\"Talent\">Talent</a> can be selected more than once unless expressly indicated. </p><h4><span class=\"mw-headline\" id=\"Bonus_Feats\"><b>Bonus Feats</b></span></h4><p>At every even-numbered level (2nd, 4th, 6th, etc.), a Scout gains a bonus <a href=\"https://swse.fandom.com/wiki/Feat\" class=\"mw-redirect\" title=\"Feat\">Feat</a>. This&nbsp;<a href=\"https://swse.fandom.com/wiki/Feat\" class=\"mw-redirect\" title=\"Feat\">Feat</a>&nbsp;must be selected from the related page (<a href=\"https://swse.fandom.com/wiki/Bonus_Feats_(Scout)\" title=\"Bonus Feats (Scout)\">Bonus Feats (Scout)</a>). As with normal&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a>, you must meet the prerequisites to select the&nbsp;<a href=\"https://swse.fandom.com/wiki/Feat\" class=\"mw-redirect\" title=\"Feat\">Feat</a>. The Bonus&nbsp;<a href=\"https://swse.fandom.com/wiki/Feat\" class=\"mw-redirect\" title=\"Feat\">Feat</a>&nbsp;must be from the&nbsp;<a href=\"https://swse.fandom.com/wiki/Bonus_Feats_(Scout)\" title=\"Bonus Feats (Scout)\">Bonus Feats (Scout)</a>, unless explicitly stated otherwise. </p><h4><span class=\"mw-headline\" id=\"Credits\"><b>Credits</b></span></h4><p>A 1st level Scout starts play with 3d4 x 250 credits. </p>",
+        "textDescription": "Reference Book: Star Wars Saga Edition Core Rulebook Scouts are natural explorers and adventurers, full of curiosity and trained to handle the out-of-the-way locations where they often operate. Scouts tend to be independent, signing on when the credits are good and their skills are best utilized and tested. Scouts understand the lay of the land and the orbit of the stars. They know how to recognize danger and locate the basic necessities for survival. The Scout seeks knowledge, tries to solve mysteries, and to find a path through the wild regions, often becoming a decent pilot along the way, and usually learns how to protect himself from whatever hides over the next hill or beyond the most distant nebula. AdventurersMany Scouts become adventurers to see what's in the next star system. They pick up skills that make them excellent members of any team. They are usually the best trackers, trailblazers, and survivalists the galaxy has to offer. Some Scouts are scientists and researchers who learn the skills of the profession so they don't have to rely on others. Some sell their services to the highest bidder. More often, the adventurous Scout has a good heart, a sense of honor, and a burning desire to embrace the wild regions of the galaxy and learn to conquer them- either figuratively or literally. Adventurous Scouts call themselves rangers, outriders, hunters, explorers, guides, adventurous scholars, and vanguards. CharacteristicsScouts temper insatiable curiosity with excellent survival instincts. They make use of Dexterity and Intelligence, as well as Wisdom, to spot and avoid dangers. The Scout has an undying faith in themselves and their abilities that sometimes allows the Scout to call upon reserves and an inner strength to get out of tough situations. Scouts like to be the first to reach any location, although they also want to reach it in one piece. They can be gruff or silent, jovial or talkative. They are confident and brave, and they often appreciate the wonders that the galaxy has to offer. BackgroundsScouts come to their profession in search of something, usually knowledge or secrets or the answers to the mysteries of the ages. Scholars, while possibly associated with an institute of learning or a particular government, often forsake the halls of academe for the pure research of working in the field. Pathfinders and explorers may work for a government or a military institution, or they may take on freelance contracts from anyone willing to pay for their services. Many Scouts develop into Bounty Hunters, especially those who combine military skills with their tracking and searching abilities. Every group of adventurers benefits from having a Scout in the party. Examples of Scouts in Star WarsChewbacca, Wicket the Ewok, Captain Tarpals Game Rule InformationScouts have the following game statistics:  \n \n   \n   CLASS LEVEL  \n   BASE ATTACK BONUS  \n   CLASS FEATURES \n   \n   \n   1  \n   +0  \n   Defense Bonuses, Starting Feats, Talent \n   \n   \n   2  \n   +1  \n   Bonus Feat (Scout) \n   \n   \n   3  \n   +2  \n   Talent \n   \n   \n   4  \n   +3  \n   Bonus Feat (Scout) \n   \n   \n   5  \n   +3  \n   Talent \n   \n   \n   6  \n   +4  \n   Bonus Feat (Scout) \n   \n   \n   7  \n   +5  \n   Talent \n   \n   \n   8  \n   +6  \n   Bonus Feat (Scout) \n   \n   \n   9  \n   +6  \n   Talent \n   \n   \n   10  \n   +7  \n   Bonus Feat (Scout) \n   \n   \n   11  \n   +8  \n   Talent \n   \n   \n   12  \n   +9  \n   Bonus Feat (Scout) \n   \n   \n   13  \n   +9  \n   Talent \n   \n   \n   14  \n   +10  \n   Bonus Feat (Scout) \n   \n   \n   15  \n   +11  \n   Talent \n   \n   \n   16  \n   +12  \n   Bonus Feat (Scout) \n   \n   \n   17  \n   +12  \n   Talent \n   \n   \n   18  \n   +13  \n   Bonus Feat (Scout) \n   \n   \n   19  \n   +14  \n   Talent \n   \n   \n   20  \n   +15  \n   Bonus Feat (Scout) \n  \n \nAbilitiesMost of the Scout's key skills rely on Dexterity, Intelligence, and Wisdom. Strength is also useful for the Scout Trained in athletic Skills. Class Skills Trained in 5 + Intelligence Modifier: \n Climb \n Endurance \n Initiative \n Jump \n Knowledge (all skills, taken individually) \n Mechanics \n Perception \n Pilot \n Ride \n Stealth \n Survival \n Swim\nHit PointsScouts begin play at 1st level with a number of hit points equal to 24 + their Constitution modifier. At each level after 1st, Scouts gain 1d8 hit points + their Constitution modifier. Force PointsScouts gain a number of Force Points equal to 5 + one-half their Character Level (rounded down) at 1st level, and every time they gain a new level in this class. Any Force Points left over from previous levels are lost. Class FeaturesAll of the following are features of the Scout class. Defense BonusesAt 1st level, a Scout gains a +1 Class bonus to their Fortitude Defense and a +2 Class bonus to their Reflex Defense. Starting FeatsA Scout begins play with the following bonus Feats: \n Shake It Off* \n Weapon Proficiency (Pistols) \n Weapon Proficiency (Rifles) \n Weapon Proficiency (Simple Weapons)\n*You must meet the prerequisite of this Feat (minimum Constitution 13 and Trained in Endurance) to gain it. Talent TreesAt every odd-numbered level (1st, 3rd, 5th, and so on), a Scout gains an additional Talent. A Scout may choose a Talent from any of the Talent Trees (Scout) they wish, but they must meet the prerequisites (if any) of the chosen Talent. No Talent can be selected more than once unless expressly indicated. Bonus FeatsAt every even-numbered level (2nd, 4th, 6th, etc.), a Scout gains a bonus Feat. This Feat must be selected from the related page (Bonus Feats (Scout)). As with normal Feats, you must meet the prerequisites to select the Feat. The Bonus Feat must be from the Bonus Feats (Scout), unless explicitly stated otherwise. CreditsA 1st level Scout starts play with 3d4 x 250 credits. ",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": 5,
+            "key": "trainedSkillsFirstLevel",
+            "source": null,
+            "sourceString": "Scout",
+            "sourceDescription": "Scout"
+          },
+          {
+            "mode": 2,
+            "value": "Climb",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Scout",
+            "sourceDescription": "Scout"
+          },
+          {
+            "mode": 2,
+            "value": "Endurance",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Scout",
+            "sourceDescription": "Scout"
+          },
+          {
+            "mode": 2,
+            "value": "Initiative",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Scout",
+            "sourceDescription": "Scout"
+          },
+          {
+            "mode": 2,
+            "value": "Jump",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Scout",
+            "sourceDescription": "Scout"
+          },
+          {
+            "mode": 2,
+            "value": "Knowledge (all skills, taken individually)",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Scout",
+            "sourceDescription": "Scout"
+          },
+          {
+            "mode": 2,
+            "value": "Mechanics",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Scout",
+            "sourceDescription": "Scout"
+          },
+          {
+            "mode": 2,
+            "value": "Perception",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Scout",
+            "sourceDescription": "Scout"
+          },
+          {
+            "mode": 2,
+            "value": "Pilot",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Scout",
+            "sourceDescription": "Scout"
+          },
+          {
+            "mode": 2,
+            "value": "Ride",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Scout",
+            "sourceDescription": "Scout"
+          },
+          {
+            "mode": 2,
+            "value": "Stealth",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Scout",
+            "sourceDescription": "Scout"
+          },
+          {
+            "mode": 2,
+            "value": "Survival",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Scout",
+            "sourceDescription": "Scout"
+          },
+          {
+            "mode": 2,
+            "value": "Swim",
+            "key": "classSkill",
+            "source": null,
+            "sourceString": "Scout",
+            "sourceDescription": "Scout"
+          },
+          {
+            "mode": 2,
+            "value": 24,
+            "key": "firstLevelHitPoints",
+            "source": null,
+            "sourceString": "Scout",
+            "sourceDescription": "Scout"
+          },
+          {
+            "mode": 2,
+            "value": "1d8",
+            "key": "levelUpHitPoints",
+            "source": null,
+            "sourceString": "Scout",
+            "sourceDescription": "Scout"
+          },
+          {
+            "mode": 2,
+            "value": 5,
+            "key": "classForcePoints",
+            "source": null,
+            "sourceString": "Scout",
+            "sourceDescription": "Scout"
+          },
+          {
+            "mode": 2,
+            "value": 1,
+            "key": "classFortitudeDefenseBonus",
+            "source": null,
+            "sourceString": "Scout",
+            "sourceDescription": "Scout"
+          },
+          {
+            "mode": 2,
+            "value": 2,
+            "key": "classReflexDefenseBonus",
+            "source": null,
+            "sourceString": "Scout",
+            "sourceDescription": "Scout"
+          },
+          {
+            "mode": 2,
+            "value": "Shake It Off",
+            "key": "classFeat",
+            "source": null,
+            "sourceString": "Scout",
+            "sourceDescription": "Scout"
+          },
+          {
+            "mode": 2,
+            "value": "Weapon Proficiency (Pistols)",
+            "key": "classFeat",
+            "source": null,
+            "sourceString": "Scout",
+            "sourceDescription": "Scout"
+          },
+          {
+            "mode": 2,
+            "value": "Weapon Proficiency (Rifles)",
+            "key": "classFeat",
+            "source": null,
+            "sourceString": "Scout",
+            "sourceDescription": "Scout"
+          },
+          {
+            "mode": 2,
+            "value": "Weapon Proficiency (Simple Weapons)",
+            "key": "classFeat",
+            "source": null,
+            "sourceString": "Scout",
+            "sourceDescription": "Scout"
+          },
+          {
+            "mode": 2,
+            "value": true,
+            "key": "isHeroic",
+            "source": null,
+            "sourceString": "Scout",
+            "sourceDescription": "Scout"
+          },
+          {
+            "mode": 2,
+            "value": false,
+            "key": "isPrestige",
+            "source": null,
+            "sourceString": "Scout",
+            "sourceDescription": "Scout"
+          },
+          {
+            "mode": 2,
+            "value": false,
+            "key": "isFollowerTemplate",
+            "source": null,
+            "sourceString": "Scout",
+            "sourceDescription": "Scout"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "prerequisite": null,
+        "levels": [],
+        "cost": "0",
+        "quantity": 1,
+        "levelsTaken": [
+          1,
+          1,
+          1
+        ],
+        "displayName": "Scout"
+      },
+      "effects": [
+        {
+          "_id": "wFYoMapxoSsiUiWa",
+          "name": "Level 1",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "value": "Scout Talent Trees",
+                "priority": null,
+                "type": "add"
+              },
+              {
+                "key": "baseAttackBonus",
+                "value": 0,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 1
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!e2gNQnARYvJxmt8H.EFW6idP8H990M8tF.wFYoMapxoSsiUiWa"
+        },
+        {
+          "_id": "uRkryJ0oTfq46Kqp",
+          "name": "Level 2",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "value": "Scout Bonus Feats",
+                "priority": null,
+                "type": "add"
+              },
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 2
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!e2gNQnARYvJxmt8H.EFW6idP8H990M8tF.uRkryJ0oTfq46Kqp"
+        },
+        {
+          "_id": "vkEXoM0CVb1RXih6",
+          "name": "Level 3",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "value": "Scout Talent Trees",
+                "priority": null,
+                "type": "add"
+              },
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 3
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!e2gNQnARYvJxmt8H.EFW6idP8H990M8tF.vkEXoM0CVb1RXih6"
+        },
+        {
+          "_id": "3gPbMV69gGsxbi8f",
+          "name": "Level 4",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "value": "Scout Bonus Feats",
+                "priority": null,
+                "type": "add"
+              },
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 4
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!e2gNQnARYvJxmt8H.EFW6idP8H990M8tF.3gPbMV69gGsxbi8f"
+        },
+        {
+          "_id": "r0dV2p3cpfZH3pnd",
+          "name": "Level 5",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "value": "Scout Talent Trees",
+                "priority": null,
+                "type": "add"
+              },
+              {
+                "key": "baseAttackBonus",
+                "value": 0,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 5
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!e2gNQnARYvJxmt8H.EFW6idP8H990M8tF.r0dV2p3cpfZH3pnd"
+        },
+        {
+          "_id": "jBzxoajJVA5vxvQZ",
+          "name": "Level 6",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "value": "Scout Bonus Feats",
+                "priority": null,
+                "type": "add"
+              },
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 6
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!e2gNQnARYvJxmt8H.EFW6idP8H990M8tF.jBzxoajJVA5vxvQZ"
+        },
+        {
+          "_id": "FD2SqSwH29ocb1My",
+          "name": "Level 7",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "value": "Scout Talent Trees",
+                "priority": null,
+                "type": "add"
+              },
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 7
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!e2gNQnARYvJxmt8H.EFW6idP8H990M8tF.FD2SqSwH29ocb1My"
+        },
+        {
+          "_id": "bLW6LjrVQ05qAEy9",
+          "name": "Level 8",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "value": "Scout Bonus Feats",
+                "priority": null,
+                "type": "add"
+              },
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 8
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!e2gNQnARYvJxmt8H.EFW6idP8H990M8tF.bLW6LjrVQ05qAEy9"
+        },
+        {
+          "_id": "C1mUS9tDISmAzIGX",
+          "name": "Level 9",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "value": "Scout Talent Trees",
+                "priority": null,
+                "type": "add"
+              },
+              {
+                "key": "baseAttackBonus",
+                "value": 0,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 9
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!e2gNQnARYvJxmt8H.EFW6idP8H990M8tF.C1mUS9tDISmAzIGX"
+        },
+        {
+          "_id": "btGzIoDyFu3xlSMQ",
+          "name": "Level 10",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "value": "Scout Bonus Feats",
+                "priority": null,
+                "type": "add"
+              },
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 10
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!e2gNQnARYvJxmt8H.EFW6idP8H990M8tF.btGzIoDyFu3xlSMQ"
+        },
+        {
+          "_id": "QbNxXt9XfJQupvt0",
+          "name": "Level 11",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "value": "Scout Talent Trees",
+                "priority": null,
+                "type": "add"
+              },
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 11
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!e2gNQnARYvJxmt8H.EFW6idP8H990M8tF.QbNxXt9XfJQupvt0"
+        },
+        {
+          "_id": "j2BW5Qta9wT2oMGv",
+          "name": "Level 12",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "value": "Scout Bonus Feats",
+                "priority": null,
+                "type": "add"
+              },
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 12
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!e2gNQnARYvJxmt8H.EFW6idP8H990M8tF.j2BW5Qta9wT2oMGv"
+        },
+        {
+          "_id": "A6mBzoh8upstReQP",
+          "name": "Level 13",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "value": "Scout Talent Trees",
+                "priority": null,
+                "type": "add"
+              },
+              {
+                "key": "baseAttackBonus",
+                "value": 0,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 13
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!e2gNQnARYvJxmt8H.EFW6idP8H990M8tF.A6mBzoh8upstReQP"
+        },
+        {
+          "_id": "OqKEqaCN3nJTfYBB",
+          "name": "Level 14",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "value": "Scout Bonus Feats",
+                "priority": null,
+                "type": "add"
+              },
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 14
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!e2gNQnARYvJxmt8H.EFW6idP8H990M8tF.OqKEqaCN3nJTfYBB"
+        },
+        {
+          "_id": "NVn5gpSLenU5HHP3",
+          "name": "Level 15",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "value": "Scout Talent Trees",
+                "priority": null,
+                "type": "add"
+              },
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 15
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!e2gNQnARYvJxmt8H.EFW6idP8H990M8tF.NVn5gpSLenU5HHP3"
+        },
+        {
+          "_id": "NuPb8VvRXqBYDCTH",
+          "name": "Level 16",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "value": "Scout Bonus Feats",
+                "priority": null,
+                "type": "add"
+              },
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 16
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!e2gNQnARYvJxmt8H.EFW6idP8H990M8tF.NuPb8VvRXqBYDCTH"
+        },
+        {
+          "_id": "uvaM8ww5T3J4atl0",
+          "name": "Level 17",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "value": "Scout Talent Trees",
+                "priority": null,
+                "type": "add"
+              },
+              {
+                "key": "baseAttackBonus",
+                "value": 0,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 17
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!e2gNQnARYvJxmt8H.EFW6idP8H990M8tF.uvaM8ww5T3J4atl0"
+        },
+        {
+          "_id": "8sYpUOMAG1rTdAu9",
+          "name": "Level 18",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "value": "Scout Bonus Feats",
+                "priority": null,
+                "type": "add"
+              },
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 18
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!e2gNQnARYvJxmt8H.EFW6idP8H990M8tF.8sYpUOMAG1rTdAu9"
+        },
+        {
+          "_id": "z29pnMsfQywD8cSG",
+          "name": "Level 19",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "value": "Scout Talent Trees",
+                "priority": null,
+                "type": "add"
+              },
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 19
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!e2gNQnARYvJxmt8H.EFW6idP8H990M8tF.z29pnMsfQywD8cSG"
+        },
+        {
+          "_id": "hbMBsASk159mhOTD",
+          "name": "Level 20",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "value": "Scout Bonus Feats",
+                "priority": null,
+                "type": "add"
+              },
+              {
+                "key": "baseAttackBonus",
+                "value": 1,
+                "priority": null,
+                "type": "add"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 20
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!e2gNQnARYvJxmt8H.EFW6idP8H990M8tF.hbMBsASk159mhOTD"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.classes.Item.P5Ybi3OCcNetrXE3",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!e2gNQnARYvJxmt8H.EFW6idP8H990M8tF"
+    },
+    {
+      "_id": "NVxz4mg6lwE29neW",
+      "name": "Acute Senses",
+      "type": "talent",
+      "img": "systems/swse/icon/talent/default.png",
+      "system": {
+        "finalName": "",
+        "description": "You may reroll any <a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> check, but the result of the reroll must be accepted, even if it is worse. This Talent applies to <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> checks made to perceive enemy ships (see <a href=\"https://swse.fandom.com/wiki/Use_Sensors\" title=\"Use Sensors\">Use Sensors</a>).",
+        "textDescription": "You may reroll anyPerceptioncheck, but the result of the reroll must be accepted, even if it is worse. This Talent applies toUse Computerchecks made to perceive enemy ships (seeUse Sensors).",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": "any:unknown:You may reroll any<a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a>check, but the result of the reroll must be accepted, even if it is worse. This Talent applies to<a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a>checks made to perceive enemy ships (see<a href=\"https://swse.fandom.com/wiki/Use_Sensors\" title=\"Use Sensors\">Use Sensors</a>).",
+            "key": "skillReRoll"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "prerequisite": null,
+        "categories": [
+          {
+            "value": "Vanguard Talent Trees"
+          },
+          {
+            "value": "Talent Trees"
+          },
+          {
+            "value": "Gunslinger Talent Trees"
+          },
+          {
+            "value": "Pathfinder Talent Trees"
+          },
+          {
+            "value": "Martial Arts Master Talent Trees"
+          },
+          {
+            "value": "Scout Talent Trees"
+          },
+          {
+            "value": "Core Rulebook"
+          },
+          {
+            "value": "Bounty Hunter Talent Trees"
+          },
+          {
+            "value": "Gladiator Talent Trees"
+          }
+        ],
+        "supplier": {},
+        "possibleProviders": [
+          "Vanguard Talent Trees",
+          "Gunslinger Talent Trees",
+          "Pathfinder Talent Trees",
+          "Martial Arts Master Talent Trees",
+          "Scout Talent Trees",
+          "Core Rulebook",
+          "Bounty Hunter Talent Trees",
+          "Gladiator Talent Trees"
+        ],
+        "isSupplied": false,
+        "talentTree": "Awareness Talent Tree",
+        "talentTreeSource": "",
+        "talentTreeUrl": "https://swse.fandom.com/wiki/Awareness_Talent_Tree",
+        "bonusTalentTree": "",
+        "source": "Star Wars Saga Edition Core Rulebook",
+        "cost": "0",
+        "quantity": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.talents.Item.BwWMBgsJdud13GfH",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!e2gNQnARYvJxmt8H.NVxz4mg6lwE29neW"
+    },
+    {
+      "_id": "UA4mjZnNSTuyDsS4",
+      "name": "The Nyriaanan Clans",
+      "type": "affiliation",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_of_Intrigue\" title=\"Star Wars Saga Edition Galaxy of Intrigue\">Star Wars Saga Edition Galaxy of Intrigue</a></i> </p><p>Predators are not the only danger in the wilds of <a href=\"https://swse.fandom.com/wiki/Nyriaan\" class=\"mw-redirect\" title=\"Nyriaan\">Nyriaan</a>. The native <a href=\"https://swse.fandom.com/wiki/Nyriaanans\" class=\"mw-redirect\" title=\"Nyriaanans\">Nyriaanans</a> also patrol the wilderness. The original colonists are the crew of The <i>Starveil</i>, a Republic exploration vessel that crashes on the planet. Because of the ion storms in the planet's upper atmosphere, they are unable to leave the planet even after repairs are made to the ship. The <i>Starveil</i> crew's descendants go native and survive through a combination of ingenuity and determination. From a starting population of 52 individuals, their numbers grow over the millennia through childbirth and through the addition of other groups of survivors to their population. </p><p>Nyriaan's current <a href=\"https://swse.fandom.com/wiki/Nyriaanan\" title=\"Nyriaanan\">Nyriaanan</a> population is unknown, but authorities estimate it to be anywhere between 1,200 and 2,000 individuals living in small communities. In truth, the figure is much larger. Although they have been confined to Nyriaan for generations, the planetary <a href=\"https://swse.fandom.com/wiki/Nyriaanans\" class=\"mw-redirect\" title=\"Nyriaanans\">Nyriaanans</a> are biologically <a href=\"https://swse.fandom.com/wiki/Human\" title=\"Human\">Human</a>. Minor evolutionary changes are evident, such as their adaptation to the darkness prevalent on the planet's surface. Their spoken language is a mixture of High Galactic and Basic that has been combined into a unique colloquial dialect. Referred to as Nyriaanan by locals, the language is easily learned by anyone who speaks Basic and has a passing familiarity with High Galactic. </p><h2><span class=\"mw-headline\" id=\"Nyriaanan_Heroic_Units\">Nyriaanan Heroic Units</span></h2><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Heroic_Units\" title=\"Heroic Units\">Heroic Units</a></i> </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>NAME </th> \n   <th>CHALLENGE LEVEL </th> \n   <th>AFFILIATION NOTES </th>\n  </tr> \n  <tr> \n   <th colspan=\"3\"><a href=\"https://swse.fandom.com/wiki/Galaxy_of_Intrigue\" class=\"mw-redirect\" title=\"Galaxy of Intrigue\">Galaxy of Intrigue</a> </th>\n  </tr> \n  <tr> \n   <td><a href=\"https://swse.fandom.com/wiki/Finvarra\" title=\"Finvarra\">Finvarra</a> </td> \n   <td>CL 3 </td> \n   <td>A native guide, charging 50 credits a day to travelers within the capital of Locus. </td>\n  </tr> \n  <tr> \n   <td><a href=\"https://swse.fandom.com/wiki/Amar_Cros\" title=\"Amar Cros\">Amar Cros</a> </td> \n   <td>CL 10 </td> \n   <td>A former member of <a href=\"https://swse.fandom.com/wiki/The_Jedi_Order\" class=\"mw-redirect\" title=\"The Jedi Order\">The Jedi Order</a>, Amar joins The Nyriaanan Clans after discovering how dire their plight is against the corporations on <a href=\"https://swse.fandom.com/wiki/Nyriaan\" class=\"mw-redirect\" title=\"Nyriaan\">Nyriaan</a>. </td>\n  </tr>\n </tbody>\n</table><h2><span class=\"mw-headline\" id=\"Nyriaanan_Nonheroic_Units\">Nyriaanan Nonheroic Units</span></h2><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Nonheroic_Units\" title=\"Nonheroic Units\">Nonheroic Units</a></i> </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>NAME </th> \n   <th>CHALLENGE LEVEL </th> \n   <th>AFFILIATION NOTES </th>\n  </tr> \n  <tr> \n   <th colspan=\"3\"><a href=\"https://swse.fandom.com/wiki/Galaxy_of_Intrigue\" class=\"mw-redirect\" title=\"Galaxy of Intrigue\">Galaxy of Intrigue</a> </th>\n  </tr> \n  <tr> \n   <td><a href=\"https://swse.fandom.com/wiki/Nyriaanan_Scout\" title=\"Nyriaanan Scout\">Nyriaanan Scout</a> </td> \n   <td>CL 3 </td> \n   <td>Native scouts that defend their territory from invaders. </td>\n  </tr>\n </tbody>\n</table>",
+        "textDescription": "Reference Book: Star Wars Saga Edition Galaxy of Intrigue Predators are not the only danger in the wilds of Nyriaan. The native Nyriaanans also patrol the wilderness. The original colonists are the crew of The Starveil, a Republic exploration vessel that crashes on the planet. Because of the ion storms in the planet's upper atmosphere, they are unable to leave the planet even after repairs are made to the ship. The Starveil crew's descendants go native and survive through a combination of ingenuity and determination. From a starting population of 52 individuals, their numbers grow over the millennia through childbirth and through the addition of other groups of survivors to their population. Nyriaan's current Nyriaanan population is unknown, but authorities estimate it to be anywhere between 1,200 and 2,000 individuals living in small communities. In truth, the figure is much larger. Although they have been confined to Nyriaan for generations, the planetary Nyriaanans are biologically Human. Minor evolutionary changes are evident, such as their adaptation to the darkness prevalent on the planet's surface. Their spoken language is a mixture of High Galactic and Basic that has been combined into a unique colloquial dialect. Referred to as Nyriaanan by locals, the language is easily learned by anyone who speaks Basic and has a passing familiarity with High Galactic. Nyriaanan Heroic UnitsSee also: Heroic Units  \n \n   \n   NAME  \n   CHALLENGE LEVEL  \n   AFFILIATION NOTES \n   \n   \n   Galaxy of Intrigue \n   \n   \n   Finvarra  \n   CL 3  \n   A native guide, charging 50 credits a day to travelers within the capital of Locus. \n   \n   \n   Amar Cros  \n   CL 10  \n   A former member of The Jedi Order, Amar joins The Nyriaanan Clans after discovering how dire their plight is against the corporations on Nyriaan. \n  \n \nNyriaanan Nonheroic UnitsSee also: Nonheroic Units  \n \n   \n   NAME  \n   CHALLENGE LEVEL  \n   AFFILIATION NOTES \n   \n   \n   Galaxy of Intrigue \n   \n   \n   Nyriaanan Scout  \n   CL 3  \n   Native scouts that defend their territory from invaders. \n  \n \n",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "categories": [
+          {
+            "value": "Affiliations"
+          }
+        ],
+        "supplier": {},
+        "possibleProviders": [],
+        "isSupplied": false,
+        "cost": "0",
+        "quantity": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.affiliations.Item.UXxNvYeefELSWIzv",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!e2gNQnARYvJxmt8H.UA4mjZnNSTuyDsS4"
+    },
+    {
+      "_id": "KNK85FTt1mpnBIsd",
+      "name": "Improved Stealth",
+      "type": "talent",
+      "img": "systems/swse/icon/talent/default.png",
+      "system": {
+        "finalName": "",
+        "description": "You may choose to reroll any <a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a> check, but the result of the reroll must be accepted, even if it is worse. This Talent applies to <a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a> checks made while <a href=\"https://swse.fandom.com/wiki/Piloting\" class=\"mw-redirect\" title=\"Piloting\">Piloting</a> a Starship (see <a href=\"https://swse.fandom.com/wiki/Starship_Stealth\" class=\"mw-redirect\" title=\"Starship Stealth\">Starship Stealth</a>).",
+        "textDescription": "You may choose to reroll anyStealthcheck, but the result of the reroll must be accepted, even if it is worse. This Talent applies toStealthchecks made whilePilotinga Starship (seeStarship Stealth).",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": "any:unknown:You may choose to reroll any<a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a>check, but the result of the reroll must be accepted, even if it is worse. This Talent applies to<a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a>checks made while<a href=\"https://swse.fandom.com/wiki/Piloting\" class=\"mw-redirect\" title=\"Piloting\">Piloting</a>a Starship (see<a href=\"https://swse.fandom.com/wiki/Starship_Stealth\" class=\"mw-redirect\" title=\"Starship Stealth\">Starship Stealth</a>).",
+            "key": "skillReRoll"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "prerequisite": null,
+        "categories": [
+          {
+            "value": "Talent Trees"
+          },
+          {
+            "value": "Elite Trooper Talent Trees"
+          },
+          {
+            "value": "Scout Talent Trees"
+          },
+          {
+            "value": "Core Rulebook"
+          },
+          {
+            "value": "Infiltrator Talent Trees"
+          }
+        ],
+        "supplier": {},
+        "possibleProviders": [
+          "Elite Trooper Talent Trees",
+          "Scout Talent Trees",
+          "Core Rulebook",
+          "Infiltrator Talent Trees"
+        ],
+        "isSupplied": false,
+        "talentTree": "Camouflage Talent Tree",
+        "talentTreeSource": "",
+        "talentTreeUrl": "https://swse.fandom.com/wiki/Camouflage_Talent_Tree",
+        "bonusTalentTree": "",
+        "source": "Star Wars Saga Edition Core Rulebook",
+        "cost": "0",
+        "quantity": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.talents.Item.Gpl9YeTu2PdJvYMw",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!e2gNQnARYvJxmt8H.KNK85FTt1mpnBIsd"
+    },
+    {
+      "_id": "t2I83ZtLaLmfqPYd",
+      "name": "Basic",
+      "type": "language",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "",
+        "textDescription": "",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "cost": "0",
+        "quantity": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.languages.Item.o4f9dgsWl8G158mI",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!e2gNQnARYvJxmt8H.t2I83ZtLaLmfqPYd"
+    },
+    {
+      "_id": "zvUwseVHcOWunZTT",
+      "name": "Pin",
+      "type": "feat",
+      "img": "systems/swse/icon/feat/Pin.png",
+      "system": {
+        "finalName": "",
+        "description": "<p><i>Reference Book: Star Wars Saga Edition Core Rulebook</i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a>, <a href=\"https://swse.fandom.com/wiki/Grappling_101\" title=\"Grappling 101\">Grappling 101</a></i> </p><p>You are skilled at immobilizing <a href=\"https://swse.fandom.com/wiki/Grappled\" class=\"mw-redirect\" title=\"Grappled\">Grappled</a> foes. </p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Base_Attack_Bonus\" class=\"mw-redirect\" title=\"Base Attack Bonus\">Base Attack Bonus</a> +1 </p><p><b>Effect:</b> If you succeed on a <a href=\"https://swse.fandom.com/wiki/Grappling\" class=\"mw-redirect\" title=\"Grappling\">Grappling</a> attack and your opponent fails the opposed <a href=\"https://swse.fandom.com/wiki/Grapple\" title=\"Grapple\">Grapple</a> check, your opponent is automatically Pinned until the start of your next turn. A Pinned creature can't move or take any <a href=\"https://swse.fandom.com/wiki/Actions\" class=\"mw-redirect\" title=\"Actions\">Actions</a> while Pinned, and it loses its <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> bonus (if any) to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>. </p><p><b>Special:</b> You cannot use the Pin and <a href=\"https://swse.fandom.com/wiki/Trip\" title=\"Trip\">Trip</a> Feats during the same round. You can use the Pin and <a href=\"https://swse.fandom.com/wiki/Crush\" title=\"Crush\">Crush</a> Feats in the same round, however. </p>",
+        "textDescription": "Reference Book: Star Wars Saga Edition Core Rulebook See also: Feats, Grappling 101 You are skilled at immobilizing Grappled foes. Prerequisite: Base Attack Bonus +1 Effect: If you succeed on a Grappling attack and your opponent fails the opposed Grapple check, your opponent is automatically Pinned until the start of your next turn. A Pinned creature can't move or take any Actions while Pinned, and it loses its Dexterity bonus (if any) to Reflex Defense. Special: You cannot use the Pin and Trip Feats during the same round. You can use the Pin and Crush Feats in the same round, however. ",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "prerequisite": {
+          "text": "Base Attack Bonus 1",
+          "requirement": "1",
+          "type": "BASE ATTACK BONUS"
+        },
+        "categories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Grappling Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          },
+          {
+            "value": "Core Rulebook"
+          },
+          {
+            "value": "Feats"
+          }
+        ],
+        "supplier": {},
+        "possibleProviders": [
+          "Soldier Bonus Feats",
+          "Force Prodigy Bonus Feats",
+          "General Feats"
+        ],
+        "isSupplied": false,
+        "source": "Star Wars Saga Edition Core Rulebook",
+        "cost": "0",
+        "quantity": 1,
+        "bonusFeatCategories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          }
+        ],
+        "hasBonusFeatCategories": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.feats.Item.4xZ1HNujjvtHpKaQ",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!e2gNQnARYvJxmt8H.zvUwseVHcOWunZTT"
+    },
+    {
+      "_id": "F80kI8YtWGPJpEIg",
+      "name": "Shake It Off",
+      "type": "feat",
+      "img": "systems/swse/icon/feat/Shake it Off.png",
+      "system": {
+        "finalName": "",
+        "description": "<p><i>Reference Book: Star Wars Saga Edition Core Rulebook</i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i> </p><p>You have learned to shake off debilitating conditions. </p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Constitution\" title=\"Constitution\">Constitution</a> 13, <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in <a href=\"https://swse.fandom.com/wiki/Endurance\" title=\"Endurance\">Endurance</a> </p><p><b>Effect:</b> You can spend two <a href=\"https://swse.fandom.com/wiki/Swift_Actions\" title=\"Swift Actions\">Swift Actions</a> instead of three to move +1 step along the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>. </p><p><b>Normal:</b> It takes three <a href=\"https://swse.fandom.com/wiki/Swift_Actions\" title=\"Swift Actions\">Swift Actions</a> to move +1 step up along the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>. </p>",
+        "textDescription": "Reference Book: Star Wars Saga Edition Core Rulebook See also: Feats You have learned to shake off debilitating conditions. Prerequisites: Constitution 13, Trained in Endurance Effect: You can spend two Swift Actions instead of three to move +1 step along the Condition Track. Normal: It takes three Swift Actions to move +1 step up along the Condition Track. ",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "prerequisite": {
+          "children": [
+            {
+              "text": "Constitution 13",
+              "requirement": "Constitution 13",
+              "type": "ATTRIBUTE"
+            },
+            {
+              "text": "Trained in Endurance",
+              "requirement": "Endurance",
+              "type": "TRAINED SKILL"
+            }
+          ],
+          "text": "Constitution 13, and Trained in Endurance",
+          "type": "AND"
+        },
+        "categories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          },
+          {
+            "value": "Core Rulebook"
+          },
+          {
+            "value": "Feats"
+          },
+          {
+            "value": "Scout Bonus Feats"
+          }
+        ],
+        "supplier": {},
+        "possibleProviders": [
+          "Soldier Bonus Feats",
+          "Force Prodigy Bonus Feats",
+          "General Feats",
+          "Scout Bonus Feats",
+          "Scout Starting Feats"
+        ],
+        "isSupplied": false,
+        "source": "Star Wars Saga Edition Core Rulebook",
+        "cost": "0",
+        "quantity": 1,
+        "bonusFeatCategories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          },
+          {
+            "value": "Scout Bonus Feats"
+          }
+        ],
+        "hasBonusFeatCategories": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.feats.Item.NXUaWsrLNobrLVJQ",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!e2gNQnARYvJxmt8H.F80kI8YtWGPJpEIg"
+    },
+    {
+      "_id": "yXCoTWl0ZdnCyfTt",
+      "name": "Nyriaanan",
+      "type": "language",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "",
+        "textDescription": "",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "cost": "0",
+        "quantity": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!e2gNQnARYvJxmt8H.yXCoTWl0ZdnCyfTt"
+    },
+    {
+      "_id": "ojWqQA2pW3GtNsem",
+      "name": "Skill Focus",
+      "type": "feat",
+      "img": "systems/swse/icon/feat/Skill Focus.png",
+      "system": {
+        "finalName": "",
+        "description": "<p><i>Reference Book: Star Wars Saga Edition Core Rulebook</i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i> </p><p>One of your <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> is particularly well honed. </p><p><b>Effect:</b> Choose one <a href=\"https://swse.fandom.com/wiki/Skill\" class=\"mw-redirect\" title=\"Skill\">Skill</a> in which you are <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a>. You gain a +5 competence bonus on all <a href=\"https://swse.fandom.com/wiki/Skill_Checks\" title=\"Skill Checks\">Skill Checks</a> made with that <a href=\"https://swse.fandom.com/wiki/Skill\" class=\"mw-redirect\" title=\"Skill\">Skill</a>. </p><p><b>Special:</b> This Feat may be selected multiple times. Its effects do not stack. Each time you take this Feat, it applies to a different <a href=\"https://swse.fandom.com/wiki/Trained_Skill\" class=\"mw-redirect\" title=\"Trained Skill\">Trained Skill</a>. </p>",
+        "textDescription": "Reference Book: Star Wars Saga Edition Core Rulebook See also: Feats One of your Skills is particularly well honed. Effect: Choose one Skill in which you are Trained. You gain a +5 competence bonus on all Skill Checks made with that Skill. Special: This Feat may be selected multiple times. Its effects do not stack. Each time you take this Feat, it applies to a different Trained Skill. ",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": "true",
+            "key": "takeMultipleTimes",
+            "source": null,
+            "sourceString": "Skill Focus",
+            "sourceDescription": "Skill Focus"
+          },
+          {
+            "mode": 2,
+            "value": "Survival",
+            "key": "skillFocus",
+            "source": null,
+            "sourceString": "Skill Focus",
+            "sourceDescription": "Skill Focus"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "prerequisite": {
+          "text": "Trained in Survival",
+          "requirement": "Survival",
+          "type": "TRAINED SKILL"
+        },
+        "categories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Technician Bonus Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          },
+          {
+            "value": "Core Rulebook"
+          },
+          {
+            "value": "Scoundrel Bonus Feats"
+          },
+          {
+            "value": "Feats"
+          },
+          {
+            "value": "Scout Bonus Feats"
+          },
+          {
+            "value": "Jedi Bonus Feats"
+          },
+          {
+            "value": "Noble Bonus Feats"
+          }
+        ],
+        "supplier": {},
+        "possibleProviders": [
+          "Soldier Bonus Feats",
+          "Technician Bonus Feats",
+          "Force Prodigy Bonus Feats",
+          "Scoundrel Bonus Feats",
+          "General Feats",
+          "Scout Bonus Feats",
+          "Jedi Bonus Feats",
+          "Noble Bonus Feats",
+          "Nonheroic Starting Feats"
+        ],
+        "isSupplied": false,
+        "source": "Star Wars Saga Edition Core Rulebook",
+        "cost": "0",
+        "quantity": 1,
+        "bonusFeatCategories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Technician Bonus Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          },
+          {
+            "value": "Scoundrel Bonus Feats"
+          },
+          {
+            "value": "Scout Bonus Feats"
+          },
+          {
+            "value": "Jedi Bonus Feats"
+          },
+          {
+            "value": "Noble Bonus Feats"
+          }
+        ],
+        "hasBonusFeatCategories": true,
+        "selectedChoices": [
+          "Survival"
+        ],
+        "displayName": "Skill Focus (Survival)"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.feats.Item.kxag5i3sEfG1wTWa",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!e2gNQnARYvJxmt8H.ojWqQA2pW3GtNsem"
+    },
+    {
+      "_id": "VhIPJcmnXX3QiF8k",
+      "name": "Weapon Proficiency",
+      "type": "feat",
+      "img": "systems/swse/icon/feat/Weapon Proficiency.png",
+      "system": {
+        "finalName": "",
+        "description": "<p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i> </p><p>You are proficient with a particular kind of weaponry. </p><p><b>Effect:</b> Choose one Weapon Group. You are proficient with all weapons of the selected group. Weapon Groups include the following: </p><ul>\n <li>Simple Weapons (includes <a href=\"https://swse.fandom.com/wiki/Simple_Weapons_(Melee)\" title=\"Simple Weapons (Melee)\">Simple Weapons (Melee)</a>, <a href=\"https://swse.fandom.com/wiki/Simple_Weapons_(Ranged)\" title=\"Simple Weapons (Ranged)\">Simple Weapons (Ranged)</a>, and <a href=\"https://swse.fandom.com/wiki/Grenades\" title=\"Grenades\">Grenades</a>)</li> \n <li><a href=\"https://swse.fandom.com/wiki/Pistols\" title=\"Pistols\">Pistols</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Rifles\" title=\"Rifles\">Rifles</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Lightsabers\" title=\"Lightsabers\">Lightsabers</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Heavy_Weapons\" title=\"Heavy Weapons\">Heavy Weapons</a> (includes both <a href=\"https://swse.fandom.com/wiki/Heavy_Weapons\" title=\"Heavy Weapons\">Heavy Weapons</a> and <a href=\"https://swse.fandom.com/wiki/Vehicle_Weapons\" class=\"mw-redirect\" title=\"Vehicle Weapons\">Vehicle Weapons</a>)</li> \n <li><a href=\"https://swse.fandom.com/wiki/Advanced_Melee_Weapons\" title=\"Advanced Melee\">Advanced Melee</a></li>\n</ul><p><b>Normal:</b> If you wield a weapon with which you are not proficient, you take a -5 penalty to your attack rolls. </p><p><b>Special:</b> You can gain this Feat multiple times. Each time you take the Feat, it applies to a different Weapon Group. You cannot take <a href=\"https://swse.fandom.com/wiki/Exotic_Weapons\" title=\"Exotic Weapons\">Exotic Weapons</a> as a weapon group; instead you must select the <a href=\"https://swse.fandom.com/wiki/Exotic_Weapon_Proficiency\" title=\"Exotic Weapon Proficiency\">Exotic Weapon Proficiency</a> Feat to gain proficiency with a specific Exotic Weapon. </p><h2><span class=\"mw-headline\" id=\"Additional_Weapon_Proficiency\">Additional Weapon Proficiency</span></h2><p><i>Reference Book:</i>&nbsp;<i><a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i> </p><p><b><a href=\"https://swse.fandom.com/wiki/Combined_Feat\" class=\"mw-redirect\" title=\"Combined Feat\">Combined Feat</a> (<a href=\"https://swse.fandom.com/wiki/Quick_Draw\" title=\"Quick Draw\">Quick Draw</a>):</b> You can draw and ignite your <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> as a single <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>. </p>",
+        "textDescription": "See also: Feats You are proficient with a particular kind of weaponry. Effect: Choose one Weapon Group. You are proficient with all weapons of the selected group. Weapon Groups include the following: \n Simple Weapons (includes Simple Weapons (Melee), Simple Weapons (Ranged), and Grenades) \n Pistols \n Rifles \n Lightsabers \n Heavy Weapons (includes both Heavy Weapons and Vehicle Weapons) \n Advanced Melee\nNormal: If you wield a weapon with which you are not proficient, you take a -5 penalty to your attack rolls. Special: You can gain this Feat multiple times. Each time you take the Feat, it applies to a different Weapon Group. You cannot take Exotic Weapons as a weapon group; instead you must select the Exotic Weapon Proficiency Feat to gain proficiency with a specific Exotic Weapon. Additional Weapon ProficiencyReference Book: Star Wars Saga Edition Knights of the Old Republic Campaign Guide Combined Feat (Quick Draw): You can draw and ignite your Lightsaber as a single Swift Action. ",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": "true",
+            "key": "takeMultipleTimes",
+            "source": null,
+            "sourceString": "Weapon Proficiency",
+            "sourceDescription": "Weapon Proficiency"
+          },
+          {
+            "mode": 2,
+            "value": "Pistols",
+            "key": "weaponProficiency",
+            "source": null,
+            "sourceString": "Weapon Proficiency",
+            "sourceDescription": "Weapon Proficiency"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "prerequisite": null,
+        "categories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Technician Bonus Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          },
+          {
+            "value": "Scoundrel Bonus Feats"
+          },
+          {
+            "value": "Feats"
+          },
+          {
+            "value": "Scout Bonus Feats"
+          },
+          {
+            "value": "Noble Bonus Feats"
+          }
+        ],
+        "supplier": {},
+        "possibleProviders": [
+          "Soldier Bonus Feats",
+          "Technician Bonus Feats",
+          "Force Prodigy Bonus Feats",
+          "Scoundrel Bonus Feats",
+          "General Feats",
+          "Scout Bonus Feats",
+          "Noble Bonus Feats",
+          "Weapon Proficiency Feat"
+        ],
+        "isSupplied": false,
+        "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+        "cost": "0",
+        "quantity": 1,
+        "bonusFeatCategories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Technician Bonus Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          },
+          {
+            "value": "Scoundrel Bonus Feats"
+          },
+          {
+            "value": "Scout Bonus Feats"
+          },
+          {
+            "value": "Noble Bonus Feats"
+          }
+        ],
+        "hasBonusFeatCategories": true,
+        "selectedChoices": [
+          "Pistols"
+        ],
+        "displayName": "Weapon Proficiency (Pistols)"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.feats.Item.teGxPoir4r6uzHdC",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!e2gNQnARYvJxmt8H.VhIPJcmnXX3QiF8k"
+    },
+    {
+      "_id": "tfPkVGPsVEDHPZpC",
+      "name": "Weapon Focus",
+      "type": "feat",
+      "img": "systems/swse/icon/feat/Weapon Focus.png",
+      "system": {
+        "finalName": "",
+        "description": "<p><i>Reference Book: Star Wars Saga Edition Core Rulebook</i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i> </p><p>You are especially good at using particular weapons. </p><p><b>Prerequisite:</b> Proficient with&nbsp;Chosen Weapon </p><p><b>Effect:</b> Choose a single <a href=\"https://swse.fandom.com/wiki/Exotic_Weapon\" class=\"mw-redirect\" title=\"Exotic Weapon\">Exotic Weapon</a> or weapon group, you gain a +1 bonus on all attack rolls you make using the selected <a href=\"https://swse.fandom.com/wiki/Exotic_Weapon\" class=\"mw-redirect\" title=\"Exotic Weapon\">Exotic Weapon</a> or weapon group. </p><p><b>Special:</b> You can gain this Feat multiple times. Its effects do not stack. Each time you take the Feat, it applies to a new <a href=\"https://swse.fandom.com/wiki/Exotic_Weapon\" class=\"mw-redirect\" title=\"Exotic Weapon\">Exotic Weapon</a> or weapon group. </p><h2><span class=\"mw-headline\" id=\"Additional_Weapon_Focus_Effects\">Additional Weapon Focus Effects</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Combined_Feat\" class=\"mw-redirect\" title=\"Combined Feat\">Combined Feat</a> (<a href=\"https://swse.fandom.com/wiki/Weapon_Finesse\" title=\"Weapon Finesse\">Weapon Finesse</a>):</b>&nbsp;When you are wielding a single one-handed weapon for which you have&nbsp;Weapon Focus, you can treat that weapon as a <a href=\"https://swse.fandom.com/wiki/Light_Weapon\" class=\"mw-redirect\" title=\"Light Weapon\">Light Weapon</a>. </p>",
+        "textDescription": "Reference Book: Star Wars Saga Edition Core Rulebook See also: Feats You are especially good at using particular weapons. Prerequisite: Proficient with Chosen Weapon Effect: Choose a single Exotic Weapon or weapon group, you gain a +1 bonus on all attack rolls you make using the selected Exotic Weapon or weapon group. Special: You can gain this Feat multiple times. Its effects do not stack. Each time you take the Feat, it applies to a new Exotic Weapon or weapon group. Additional Weapon Focus EffectsCombined Feat (Weapon Finesse): When you are wielding a single one-handed weapon for which you have Weapon Focus, you can treat that weapon as a Light Weapon. ",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": "true",
+            "key": "takeMultipleTimes",
+            "source": null,
+            "sourceString": "Weapon Focus",
+            "sourceDescription": "Weapon Focus"
+          },
+          {
+            "mode": 2,
+            "value": "Rifles",
+            "key": "weaponFocus",
+            "source": null,
+            "sourceString": "Weapon Focus",
+            "sourceDescription": "Weapon Focus"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "prerequisite": {
+          "text": "Proficient with Rifles",
+          "requirement": "Rifles",
+          "type": "PROFICIENCY"
+        },
+        "categories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          },
+          {
+            "value": "Core Rulebook"
+          },
+          {
+            "value": "Feats"
+          },
+          {
+            "value": "Jedi Bonus Feats"
+          }
+        ],
+        "supplier": {},
+        "possibleProviders": [
+          "Soldier Bonus Feats",
+          "Force Prodigy Bonus Feats",
+          "General Feats",
+          "Jedi Bonus Feats"
+        ],
+        "isSupplied": false,
+        "source": "Star Wars Saga Edition Core Rulebook",
+        "cost": "0",
+        "quantity": 1,
+        "bonusFeatCategories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          },
+          {
+            "value": "Jedi Bonus Feats"
+          }
+        ],
+        "hasBonusFeatCategories": true,
+        "selectedChoices": [
+          "Rifles"
+        ],
+        "displayName": "Weapon Focus (Rifles)"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.feats.Item.kr8exT9imsMzyq2W",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!e2gNQnARYvJxmt8H.tfPkVGPsVEDHPZpC"
+    },
+    {
+      "_id": "BB0IE0fnJCcUCVEg",
+      "name": "Weapon Proficiency",
+      "type": "feat",
+      "img": "systems/swse/icon/feat/Weapon Proficiency.png",
+      "system": {
+        "finalName": "",
+        "description": "<p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i> </p><p>You are proficient with a particular kind of weaponry. </p><p><b>Effect:</b> Choose one Weapon Group. You are proficient with all weapons of the selected group. Weapon Groups include the following: </p><ul>\n <li>Simple Weapons (includes <a href=\"https://swse.fandom.com/wiki/Simple_Weapons_(Melee)\" title=\"Simple Weapons (Melee)\">Simple Weapons (Melee)</a>, <a href=\"https://swse.fandom.com/wiki/Simple_Weapons_(Ranged)\" title=\"Simple Weapons (Ranged)\">Simple Weapons (Ranged)</a>, and <a href=\"https://swse.fandom.com/wiki/Grenades\" title=\"Grenades\">Grenades</a>)</li> \n <li><a href=\"https://swse.fandom.com/wiki/Pistols\" title=\"Pistols\">Pistols</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Rifles\" title=\"Rifles\">Rifles</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Lightsabers\" title=\"Lightsabers\">Lightsabers</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Heavy_Weapons\" title=\"Heavy Weapons\">Heavy Weapons</a> (includes both <a href=\"https://swse.fandom.com/wiki/Heavy_Weapons\" title=\"Heavy Weapons\">Heavy Weapons</a> and <a href=\"https://swse.fandom.com/wiki/Vehicle_Weapons\" class=\"mw-redirect\" title=\"Vehicle Weapons\">Vehicle Weapons</a>)</li> \n <li><a href=\"https://swse.fandom.com/wiki/Advanced_Melee_Weapons\" title=\"Advanced Melee\">Advanced Melee</a></li>\n</ul><p><b>Normal:</b> If you wield a weapon with which you are not proficient, you take a -5 penalty to your attack rolls. </p><p><b>Special:</b> You can gain this Feat multiple times. Each time you take the Feat, it applies to a different Weapon Group. You cannot take <a href=\"https://swse.fandom.com/wiki/Exotic_Weapons\" title=\"Exotic Weapons\">Exotic Weapons</a> as a weapon group; instead you must select the <a href=\"https://swse.fandom.com/wiki/Exotic_Weapon_Proficiency\" title=\"Exotic Weapon Proficiency\">Exotic Weapon Proficiency</a> Feat to gain proficiency with a specific Exotic Weapon. </p><h2><span class=\"mw-headline\" id=\"Additional_Weapon_Proficiency\">Additional Weapon Proficiency</span></h2><p><i>Reference Book:</i>&nbsp;<i><a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i> </p><p><b><a href=\"https://swse.fandom.com/wiki/Combined_Feat\" class=\"mw-redirect\" title=\"Combined Feat\">Combined Feat</a> (<a href=\"https://swse.fandom.com/wiki/Quick_Draw\" title=\"Quick Draw\">Quick Draw</a>):</b> You can draw and ignite your <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> as a single <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>. </p>",
+        "textDescription": "See also: Feats You are proficient with a particular kind of weaponry. Effect: Choose one Weapon Group. You are proficient with all weapons of the selected group. Weapon Groups include the following: \n Simple Weapons (includes Simple Weapons (Melee), Simple Weapons (Ranged), and Grenades) \n Pistols \n Rifles \n Lightsabers \n Heavy Weapons (includes both Heavy Weapons and Vehicle Weapons) \n Advanced Melee\nNormal: If you wield a weapon with which you are not proficient, you take a -5 penalty to your attack rolls. Special: You can gain this Feat multiple times. Each time you take the Feat, it applies to a different Weapon Group. You cannot take Exotic Weapons as a weapon group; instead you must select the Exotic Weapon Proficiency Feat to gain proficiency with a specific Exotic Weapon. Additional Weapon ProficiencyReference Book: Star Wars Saga Edition Knights of the Old Republic Campaign Guide Combined Feat (Quick Draw): You can draw and ignite your Lightsaber as a single Swift Action. ",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": "true",
+            "key": "takeMultipleTimes",
+            "source": null,
+            "sourceString": "Weapon Proficiency",
+            "sourceDescription": "Weapon Proficiency"
+          },
+          {
+            "mode": 2,
+            "value": "Rifles",
+            "key": "weaponProficiency",
+            "source": null,
+            "sourceString": "Weapon Proficiency",
+            "sourceDescription": "Weapon Proficiency"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "prerequisite": null,
+        "categories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Technician Bonus Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          },
+          {
+            "value": "Scoundrel Bonus Feats"
+          },
+          {
+            "value": "Feats"
+          },
+          {
+            "value": "Scout Bonus Feats"
+          },
+          {
+            "value": "Noble Bonus Feats"
+          }
+        ],
+        "supplier": {},
+        "possibleProviders": [
+          "Soldier Bonus Feats",
+          "Technician Bonus Feats",
+          "Force Prodigy Bonus Feats",
+          "Scoundrel Bonus Feats",
+          "General Feats",
+          "Scout Bonus Feats",
+          "Noble Bonus Feats",
+          "Weapon Proficiency Feat"
+        ],
+        "isSupplied": false,
+        "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+        "cost": "0",
+        "quantity": 1,
+        "bonusFeatCategories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Technician Bonus Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          },
+          {
+            "value": "Scoundrel Bonus Feats"
+          },
+          {
+            "value": "Scout Bonus Feats"
+          },
+          {
+            "value": "Noble Bonus Feats"
+          }
+        ],
+        "hasBonusFeatCategories": true,
+        "selectedChoices": [
+          "Rifles"
+        ],
+        "displayName": "Weapon Proficiency (Rifles)"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.feats.Item.teGxPoir4r6uzHdC",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!e2gNQnARYvJxmt8H.BB0IE0fnJCcUCVEg"
+    },
+    {
+      "_id": "ollErNHEhNBwOGib",
+      "name": "Weapon Proficiency",
+      "type": "feat",
+      "img": "systems/swse/icon/feat/Weapon Proficiency.png",
+      "system": {
+        "finalName": "",
+        "description": "<p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i> </p><p>You are proficient with a particular kind of weaponry. </p><p><b>Effect:</b> Choose one Weapon Group. You are proficient with all weapons of the selected group. Weapon Groups include the following: </p><ul>\n <li>Simple Weapons (includes <a href=\"https://swse.fandom.com/wiki/Simple_Weapons_(Melee)\" title=\"Simple Weapons (Melee)\">Simple Weapons (Melee)</a>, <a href=\"https://swse.fandom.com/wiki/Simple_Weapons_(Ranged)\" title=\"Simple Weapons (Ranged)\">Simple Weapons (Ranged)</a>, and <a href=\"https://swse.fandom.com/wiki/Grenades\" title=\"Grenades\">Grenades</a>)</li> \n <li><a href=\"https://swse.fandom.com/wiki/Pistols\" title=\"Pistols\">Pistols</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Rifles\" title=\"Rifles\">Rifles</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Lightsabers\" title=\"Lightsabers\">Lightsabers</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Heavy_Weapons\" title=\"Heavy Weapons\">Heavy Weapons</a> (includes both <a href=\"https://swse.fandom.com/wiki/Heavy_Weapons\" title=\"Heavy Weapons\">Heavy Weapons</a> and <a href=\"https://swse.fandom.com/wiki/Vehicle_Weapons\" class=\"mw-redirect\" title=\"Vehicle Weapons\">Vehicle Weapons</a>)</li> \n <li><a href=\"https://swse.fandom.com/wiki/Advanced_Melee_Weapons\" title=\"Advanced Melee\">Advanced Melee</a></li>\n</ul><p><b>Normal:</b> If you wield a weapon with which you are not proficient, you take a -5 penalty to your attack rolls. </p><p><b>Special:</b> You can gain this Feat multiple times. Each time you take the Feat, it applies to a different Weapon Group. You cannot take <a href=\"https://swse.fandom.com/wiki/Exotic_Weapons\" title=\"Exotic Weapons\">Exotic Weapons</a> as a weapon group; instead you must select the <a href=\"https://swse.fandom.com/wiki/Exotic_Weapon_Proficiency\" title=\"Exotic Weapon Proficiency\">Exotic Weapon Proficiency</a> Feat to gain proficiency with a specific Exotic Weapon. </p><h2><span class=\"mw-headline\" id=\"Additional_Weapon_Proficiency\">Additional Weapon Proficiency</span></h2><p><i>Reference Book:</i>&nbsp;<i><a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i> </p><p><b><a href=\"https://swse.fandom.com/wiki/Combined_Feat\" class=\"mw-redirect\" title=\"Combined Feat\">Combined Feat</a> (<a href=\"https://swse.fandom.com/wiki/Quick_Draw\" title=\"Quick Draw\">Quick Draw</a>):</b> You can draw and ignite your <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> as a single <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>. </p>",
+        "textDescription": "See also: Feats You are proficient with a particular kind of weaponry. Effect: Choose one Weapon Group. You are proficient with all weapons of the selected group. Weapon Groups include the following: \n Simple Weapons (includes Simple Weapons (Melee), Simple Weapons (Ranged), and Grenades) \n Pistols \n Rifles \n Lightsabers \n Heavy Weapons (includes both Heavy Weapons and Vehicle Weapons) \n Advanced Melee\nNormal: If you wield a weapon with which you are not proficient, you take a -5 penalty to your attack rolls. Special: You can gain this Feat multiple times. Each time you take the Feat, it applies to a different Weapon Group. You cannot take Exotic Weapons as a weapon group; instead you must select the Exotic Weapon Proficiency Feat to gain proficiency with a specific Exotic Weapon. Additional Weapon ProficiencyReference Book: Star Wars Saga Edition Knights of the Old Republic Campaign Guide Combined Feat (Quick Draw): You can draw and ignite your Lightsaber as a single Swift Action. ",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": "true",
+            "key": "takeMultipleTimes",
+            "source": null,
+            "sourceString": "Weapon Proficiency",
+            "sourceDescription": "Weapon Proficiency"
+          },
+          {
+            "mode": 2,
+            "value": "Simple Weapons",
+            "key": "weaponProficiency",
+            "source": null,
+            "sourceString": "Weapon Proficiency",
+            "sourceDescription": "Weapon Proficiency"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "prerequisite": null,
+        "categories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Technician Bonus Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          },
+          {
+            "value": "Scoundrel Bonus Feats"
+          },
+          {
+            "value": "Feats"
+          },
+          {
+            "value": "Scout Bonus Feats"
+          },
+          {
+            "value": "Noble Bonus Feats"
+          }
+        ],
+        "supplier": {},
+        "possibleProviders": [
+          "Soldier Bonus Feats",
+          "Technician Bonus Feats",
+          "Force Prodigy Bonus Feats",
+          "Scoundrel Bonus Feats",
+          "General Feats",
+          "Scout Bonus Feats",
+          "Noble Bonus Feats",
+          "Weapon Proficiency Feat"
+        ],
+        "isSupplied": false,
+        "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+        "cost": "0",
+        "quantity": 1,
+        "bonusFeatCategories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Technician Bonus Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          },
+          {
+            "value": "Scoundrel Bonus Feats"
+          },
+          {
+            "value": "Scout Bonus Feats"
+          },
+          {
+            "value": "Noble Bonus Feats"
+          }
+        ],
+        "hasBonusFeatCategories": true,
+        "selectedChoices": [
+          "Simple Weapons"
+        ],
+        "displayName": "Weapon Proficiency (Simple Weapons)"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.feats.Item.teGxPoir4r6uzHdC",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!e2gNQnARYvJxmt8H.ollErNHEhNBwOGib"
+    },
+    {
+      "_id": "BHEKOYbpts2Jdk0l",
+      "name": "Ration Pack",
+      "type": "equipment",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "<p>Ration Packs are compact meals that take up little room (You can fit six in a pouch designed to carry a <a href=\"https://swse.fandom.com/wiki/Datapad\" title=\"Datapad\">Datapad</a>), but have all the requirements to nourish a person for one day. Each Ration Pack is geared for a range of <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>. The food isn't appetizing, and it doesn't include water, but it does prevent malnutrition. </p>",
+        "textDescription": "Ration Packs are compact meals that take up little room (You can fit six in a pouch designed to carry a Datapad), but have all the requirements to nourish a person for one day. Each Ration Pack is geared for a range of Species. The food isn't appetizing, and it doesn't include water, but it does prevent malnutrition. ",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": "5",
+            "key": "cost"
+          },
+          {
+            "mode": 2,
+            "value": "0.1 Kilograms",
+            "key": "weight"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "cost": "5",
+        "weight": "",
+        "availability": "",
+        "size": "",
+        "type": "",
+        "subtype": "Survival Gear",
+        "quantity": 1,
+        "categories": [],
+        "items": [],
+        "supplier": {},
+        "possibleProviders": [],
+        "isSupplied": false,
+        "equipment": {},
+        "equipped": "equipped"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.equipment.Item.eysOs1pZf2sE9WPO",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!e2gNQnARYvJxmt8H.BHEKOYbpts2Jdk0l"
+    },
+    {
+      "_id": "0eAom7ZZaniWOg9w",
+      "name": "Sporting Blaster Rifle",
+      "type": "weapon",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "<p>Sporting Blaster Rifles are popular with the galactic elites as well as among \"Fringers\" living in isolated colonies. Sporting Blaster Rifles are legal in most systems, but special permits must be obtained to carry them on many <a href=\"https://swse.fandom.com/wiki/Core_Worlds\" class=\"mw-redirect\" title=\"Core Worlds\">Core Worlds</a>. Luke Skywalker kept a Sporting Blaster Rifle in his landspeeder on <a href=\"https://swse.fandom.com/wiki/Tatooine\" title=\"Tatooine\">Tatooine</a>. </p><p>Sporting Blaster Rifles often have a <a href=\"https://swse.fandom.com/wiki/Targeting_Scope\" title=\"Targeting Scope\">Targeting Scope</a> mounted on them, but the scope is not included in the cost listed. A Sporting Blaster Rifle requires a <a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a> to operate. After 100 shots, the <a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a> must be replaced. </p><p><b>Accurate:</b> This weapon takes no penalty when firing at targets at Short <a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a>. </p>",
+        "textDescription": "Sporting Blaster Rifles are popular with the galactic elites as well as among \"Fringers\" living in isolated colonies. Sporting Blaster Rifles are legal in most systems, but special permits must be obtained to carry them on many Core Worlds. Luke Skywalker kept a Sporting Blaster Rifle in his landspeeder on Tatooine. Sporting Blaster Rifles often have a Targeting Scope mounted on them, but the scope is not included in the cost listed. A Sporting Blaster Rifle requires a Power Pack to operate. After 100 shots, the Power Pack must be replaced. Accurate: This weapon takes no penalty when firing at targets at Short Range. ",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": "Power Pack:100",
+            "key": "ammo"
+          },
+          {
+            "mode": 2,
+            "value": "3d6",
+            "key": "damage"
+          },
+          {
+            "mode": 2,
+            "value": "Energy",
+            "key": "damageType"
+          },
+          {
+            "mode": 2,
+            "value": "800",
+            "key": "cost"
+          },
+          {
+            "mode": 2,
+            "value": "4 Kilograms",
+            "key": "weight"
+          },
+          {
+            "mode": 2,
+            "value": "Licensed",
+            "key": "availability"
+          },
+          {
+            "mode": 2,
+            "value": "Medium",
+            "key": "size"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "cost": "800",
+        "weight": "",
+        "availability": "",
+        "size": "Medium",
+        "type": "",
+        "subtype": "Rifles",
+        "quantity": 1,
+        "categories": [],
+        "items": [],
+        "supplier": {},
+        "possibleProviders": [],
+        "isSupplied": false,
+        "activeModes": [],
+        "weapon": {},
+        "equipped": "equipped"
+      },
+      "effects": [
+        {
+          "_id": "mKQ3OLWwLFqUP3av",
+          "name": "Single-Shot",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": []
+          },
+          "disabled": false,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "linkData": [
+                {
+                  "type": "EXCLUSIVE",
+                  "group": "Fire Mode"
+                }
+              ],
+              "group": "Fire Mode"
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!e2gNQnARYvJxmt8H.0eAom7ZZaniWOg9w.mKQ3OLWwLFqUP3av"
+        },
+        {
+          "_id": "q24h2nzdY0c78cCA",
+          "name": "Stun",
+          "img": null,
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "damage",
+                "value": "3d6",
+                "priority": null,
+                "type": "override"
+              },
+              {
+                "key": "damageType",
+                "value": "Stun",
+                "priority": null,
+                "type": "override"
+              }
+            ]
+          },
+          "disabled": true,
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "swse": {}
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "12.3.9",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!e2gNQnARYvJxmt8H.0eAom7ZZaniWOg9w.q24h2nzdY0c78cCA"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.weapons.Item.3xezAymI5YJ4ECF2",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!e2gNQnARYvJxmt8H.0eAom7ZZaniWOg9w"
+    },
+    {
+      "_id": "Q7DqdljrLrdYx9zT",
+      "name": "Skill Focus",
+      "type": "feat",
+      "img": "systems/swse/icon/feat/Skill Focus.png",
+      "system": {
+        "finalName": "",
+        "description": "<p><i>Reference Book: Star Wars Saga Edition Core Rulebook</i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i> </p><p>One of your <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> is particularly well honed. </p><p><b>Effect:</b> Choose one <a href=\"https://swse.fandom.com/wiki/Skill\" class=\"mw-redirect\" title=\"Skill\">Skill</a> in which you are <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a>. You gain a +5 competence bonus on all <a href=\"https://swse.fandom.com/wiki/Skill_Checks\" title=\"Skill Checks\">Skill Checks</a> made with that <a href=\"https://swse.fandom.com/wiki/Skill\" class=\"mw-redirect\" title=\"Skill\">Skill</a>. </p><p><b>Special:</b> This Feat may be selected multiple times. Its effects do not stack. Each time you take this Feat, it applies to a different <a href=\"https://swse.fandom.com/wiki/Trained_Skill\" class=\"mw-redirect\" title=\"Trained Skill\">Trained Skill</a>. </p>",
+        "textDescription": "Reference Book: Star Wars Saga Edition Core Rulebook See also: Feats One of your Skills is particularly well honed. Effect: Choose one Skill in which you are Trained. You gain a +5 competence bonus on all Skill Checks made with that Skill. Special: This Feat may be selected multiple times. Its effects do not stack. Each time you take this Feat, it applies to a different Trained Skill. ",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": "true",
+            "key": "takeMultipleTimes",
+            "source": null,
+            "sourceString": "Skill Focus",
+            "sourceDescription": "Skill Focus"
+          },
+          {
+            "mode": 2,
+            "value": "Stealth",
+            "key": "skillFocus",
+            "source": null,
+            "sourceString": "Skill Focus",
+            "sourceDescription": "Skill Focus"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "prerequisite": {
+          "text": "Trained in Stealth",
+          "requirement": "Stealth",
+          "type": "TRAINED SKILL"
+        },
+        "categories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Technician Bonus Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          },
+          {
+            "value": "Core Rulebook"
+          },
+          {
+            "value": "Scoundrel Bonus Feats"
+          },
+          {
+            "value": "Feats"
+          },
+          {
+            "value": "Scout Bonus Feats"
+          },
+          {
+            "value": "Jedi Bonus Feats"
+          },
+          {
+            "value": "Noble Bonus Feats"
+          }
+        ],
+        "supplier": {},
+        "possibleProviders": [
+          "Soldier Bonus Feats",
+          "Technician Bonus Feats",
+          "Force Prodigy Bonus Feats",
+          "Scoundrel Bonus Feats",
+          "General Feats",
+          "Scout Bonus Feats",
+          "Jedi Bonus Feats",
+          "Noble Bonus Feats",
+          "Nonheroic Starting Feats"
+        ],
+        "isSupplied": false,
+        "source": "Star Wars Saga Edition Core Rulebook",
+        "cost": "0",
+        "quantity": 1,
+        "bonusFeatCategories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Technician Bonus Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          },
+          {
+            "value": "Scoundrel Bonus Feats"
+          },
+          {
+            "value": "Scout Bonus Feats"
+          },
+          {
+            "value": "Jedi Bonus Feats"
+          },
+          {
+            "value": "Noble Bonus Feats"
+          }
+        ],
+        "hasBonusFeatCategories": true,
+        "selectedChoices": [
+          "Stealth"
+        ],
+        "displayName": "Skill Focus (Stealth)"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.swse.feats.Item.kxag5i3sEfG1wTWa",
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.9",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!e2gNQnARYvJxmt8H.Q7DqdljrLrdYx9zT"
+    }
+  ],
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738609049265,
+    "modifiedTime": 1738609049265,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "e2gNQnARYvJxmt8H",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!actors!e2gNQnARYvJxmt8H"
+}

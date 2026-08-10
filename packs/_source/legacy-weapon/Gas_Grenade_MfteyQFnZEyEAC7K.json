@@ -1,0 +1,64 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Rebellion_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Rebellion Era Campaign Guide\">Star Wars Saga Edition Rebellion Era Campaign Guide</a></i> </p><p>Gas Grenades deploy an airborne chemical agent that can render unprotected creatures unconscious. A Gas Grenade bursts on contact after being thrown, taking effect in the same round in which it is hurled. </p><p>When you make an&nbsp;<a href=\"https://swse.fandom.com/wiki/Area_Attack\" class=\"mw-redirect\" title=\"Area Attack\">Area Attack</a>&nbsp;with a Gas Grenade, you make a single attack roll and compare the result to the&nbsp;<a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>&nbsp;of every target in the Grenade's 4-Square&nbsp;<a href=\"https://swse.fandom.com/wiki/Burst\" class=\"mw-redirect\" title=\"Burst\">Burst</a>&nbsp;radius. Creatures you hit move -2 steps down the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>; creatures you miss are unaffected. </p><p>A target with the&nbsp;<b><a href=\"https://swse.fandom.com/wiki/Evasion\" class=\"mw-redirect\" title=\"Evasion\">Evasion</a></b>&nbsp;Talent moves only -1 step down the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a> if hit by the Grenade. Creatures protected from <a href=\"https://swse.fandom.com/wiki/Atmospheric_Hazards\" class=\"mw-redirect\" title=\"Atmospheric Hazards\">Atmospheric Hazards</a> are unaffected by the attack of a Gas Grenade. </p><p>Additionally, the area of the blast is filled with gas, providing <a href=\"https://swse.fandom.com/wiki/Concealment\" title=\"Concealment\">Concealment</a> to all creatures within the <a href=\"https://swse.fandom.com/wiki/Burst\" class=\"mw-redirect\" title=\"Burst\">Burst</a> radius whether or not a creature is affected by the initial blast; likewise, all targets outside the <a href=\"https://swse.fandom.com/wiki/Burst\" class=\"mw-redirect\" title=\"Burst\">Burst</a> radius have <a href=\"https://swse.fandom.com/wiki/Concealment\" title=\"Concealment\">Concealment</a> from any creature within the <a href=\"https://swse.fandom.com/wiki/Burst\" class=\"mw-redirect\" title=\"Burst\">Burst</a> radius. </p><p>The gas persists until the end of the attacker's next turn, at which point it dissipates. </p><p><b>Special:</b>&nbsp;This is an&nbsp;<a href=\"https://swse.fandom.com/wiki/Area_Attack\" class=\"mw-redirect\" title=\"Area Attack\">Area Attack</a>&nbsp;Weapon. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Launchable Grenade",
+        "key": "actsAs"
+      }
+    ],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "250",
+    "weight": "0.5 Kilograms",
+    "availability": "Military",
+    "size": "Tiny",
+    "type": "",
+    "subtype": "Grenades",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageType": "-",
+    "specialQualities": "Special: This is an Area Attack Weapon."
+  },
+  "name": "Gas Grenade",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Gas_Grenade.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513559,
+    "modifiedTime": 1786051513595,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "MfteyQFnZEyEAC7K",
+  "_key": "!items!MfteyQFnZEyEAC7K"
+}

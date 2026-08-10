@@ -1,0 +1,89 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:</i>&nbsp;<i><a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i> </p><p><b>Manufactured By:</b> N/A </p><p><b>Applicable To:</b> Any Armor, Any Weapon </p><p>Prototype items are unstable and not ready for release to the general public, but they might have properties that other items do not. </p><p><b>Weapons:</b> A Prototype Weapon can have two Modifications from the <a href=\"https://swse.fandom.com/wiki/Tech_Specialist\" title=\"Tech Specialist\">Tech Specialist</a> feat instead of just one. However, a Prototype Weapon treats a natural roll of 1, 2, 3, or 4 as though it were a Natural 1 (thus, automatically missing), and the Prototype Weapon becomes disabled until it is repaired. </p><p><b>Armors:</b> A suit of Prototype Armor can have two Modifications from the <a href=\"https://swse.fandom.com/wiki/Tech_Specialist\" title=\"Tech Specialist\">Tech Specialist</a> feat instead of just one. However, a wearer of Prototype Armor takes 1 more die of damage from a Critical Hit (before multiplying); thus, a <a href=\"https://swse.fandom.com/wiki/Heavy_Blaster_Pistol\" title=\"Heavy Blaster Pistol\">Heavy Blaster Pistol</a> that scores a Critical Hit against a target wearing Prototype Armor deals 4d8 base damage, which is then doubled. </p><h2><span class=\"mw-headline\" id=\"Homebrew_Prototype_Droids\">Homebrew Prototype Droids</span></h2><table style=\"width:100%; margin-top:2em; border:2px solid #999; font-size:105%; text-align:center; background:#6c3636;\"> \n <tbody>\n  <tr> \n   <td><i><b>This <a href=\"https://swse.fandom.com/wiki/Homebrew_Content\" title=\"Homebrew Content\">Homebrew Content</a> has not been reviewed in a meaningful manner. If you wish to review this content yourself, then see <a href=\"https://swse.fandom.com/wiki/Category:Untested\" title=\"Category:Untested\">Untested</a> for more details.</b></i> </td>\n  </tr>\n </tbody>\n</table><p><i>Homebrew Reference Book: <a href=\"https://swse.fandom.com/wiki/Clone_Wars_Saga_Edition_Fan_Sourcebook\" title=\"Clone Wars Saga Edition Fan Sourcebook\">Clone Wars Saga Edition Fan Sourcebook</a> - Droids</i> </p><p>The Prototype General Template is expanded to include Droids in its use. </p><p>A Prototype Droid can have two modifications from the <a href=\"https://swse.fandom.com/wiki/Tech_Specialist\" title=\"Tech Specialist\">Tech Specialist</a> or <a href=\"https://swse.fandom.com/wiki/Superior_Tech\" title=\"Superior Tech\">Superior Tech</a> Feats, instead of just one. However, the Droid inherits a permanent quirk (see <a href=\"https://swse.fandom.com/wiki/Droid_Quirks\" title=\"Droid Quirks\">Droid Quirks</a>), its <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a> is reduced by 25%, and a roll of Natural 1 is always considered an automatic failure for both skill checks and attack rolls. </p><p>The inherent quirks of the Prototype Droid cannot be removed unless one of the benefits of the Prototype General Template is also removed. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "??",
+        "key": "cost"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "itemMod"
+      },
+      {
+        "mode": 2,
+        "value": 1,
+        "key": "bonusSpecialTrait"
+      },
+      {
+        "mode": 2,
+        "value": 1,
+        "key": "bonusDroidQuirk"
+      },
+      {
+        "mode": 2,
+        "value": "*0.75",
+        "key": "damageThresholdBonus"
+      },
+      {
+        "mode": 2,
+        "value": "Prototype",
+        "key": "prefix"
+      },
+      {
+        "mode": 2,
+        "value": "",
+        "key": "suffix"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "hasItemOwner": false,
+    "subtype": "Droid Templates",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "droid",
+          "requirement": "Is a droid",
+          "type": "SPECIAL"
+        }
+      ],
+      "text": "and droid",
+      "type": "AND"
+    },
+    "cost": "??"
+  },
+  "name": "Prototype General Template (droid)",
+  "flags": {},
+  "type": "template",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.2",
+    "createdTime": 1729096741589,
+    "modifiedTime": 1729096741589,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "gYInKnc4bpfy3Ha8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!gYInKnc4bpfy3Ha8"
+}

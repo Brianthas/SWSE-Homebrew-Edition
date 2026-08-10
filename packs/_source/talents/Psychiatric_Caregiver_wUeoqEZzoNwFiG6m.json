@@ -1,0 +1,73 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "When making a <a href=\"https://swse.fandom.com/wiki/Knowledge_(Social_Sciences)\" class=\"mw-redirect\" title=\"Knowledge (Social Sciences)\">Knowledge (Social Sciences)</a> check to <a href=\"https://swse.fandom.com/wiki/Mentop\" class=\"mw-redirect\" title=\"Mentop\">Mentop</a> (see <a href=\"https://swse.fandom.com/wiki/Complications\" title=\"Complications\">Complications</a>), if you beat the target’s <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a> by 5 or more, you can decrease their disorder’s attack bonus an additional point.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Treat Injury::kh:in: Talent Trees, Medic Talent Trees, Shaper Talent Trees Advanced Medicine Talent Tree Edit Edit source History Talk (0) Reference Book: Star Wars Saga Edition Force Unleashed Campaign Guide You are highly trained in medical procedures for all conditions. Contents 1 Battlefield Medic 2 Bring Them Back 3 Emergency Team 4 Extra First Aid 5 Medical Miracle 6 Natural Healing 7 Second Chance 8 Steady Under Pressure 9 Homebrew Advanced Medicine Talents 9.1 Brain Surgeon 9.2 Mental Health Specialist 9.3 Psychiatric Caregiver Battlefield Medic[ ] Prerequisite: Steady Under Pressure You can use the First Aid application of the Treat Injury skill on a creature as a Standard Action instead of a Full-Round Action. Bring Them Back[ ] You can use the Revivify application of the Treat Injury skill on a target that has died anytime within a number of rounds equal to one-half your Heroic Level. Emergency Team[ ] You are skilled at working on and managing an emergency medical team. Allies automatically succeed on Aid Another attempts when assisting you with Treat Injury checks. Extra First Aid[ ] You can use the First Aid application of the Treat Injury skill one additional time per day on a target that has already received First Aid for the day. Medical Miracle[ ] As a Standard Action, you can make a DC 20 Treat Injury check on an adjacent target. If the check is successful, that target immediately uses its Second Wind, even if it is above half Hit Points. If the target has already expended all of its Second Winds for the day, this Talent has no effect. Natural Healing[ ] Your extensive knowledge of Natural Healing allows you to make First Aid, Treat Disease, and Treat Poison checks without a Medical Kit, if you have access to appropriate natural substitutes (as determined by the Gamemaster). Second Chance[ ] Prerequisite: Steady Under Pressure If you fail your Treat Injury check, your patient does not take any additional damage, nor does it die, even if the failed check would normally require it. Steady Under Pressure[ ] You can choose to reroll any Treat Injury check, keeping the better of the two results. Homebrew Advanced Medicine Talents[ ] This Homebrew Content has not been reviewed in a meaningful manner. If you wish to review this content yourself, then see Untested for more details. Brain Surgeon[ ] Brain Surgeon Talent created by Wikia user Admire Lucas. A successful Treat Injury check is required to transfer a creature's brain into a new brainless body. The DC for the Treat Injury checks depends on the type of new body being used: CHASSIS TYPE DC Same Species 20 Different Species, Same Size 25 Different Species, Different Size 35 The DC may increase, up to the third tier, at the GM's discretion based on other confounding factors like more or fewer limbs, an unusual form of perception, cybernetics on the original or new body, and the like. Each time the transfer is attempted, the creature must make a DC 15 Intelligence check. A failed check indicates that the creature's brain is damaged: a permanent reduction of 1d6 Intelligence points. The brain damage can't be cured; if the creature's Intelligence modifier decreases because of brain damage, the creature's Trained Skills must be reduced accordingly. The creature also loses access to Feats that have an Intelligence prerequisite higher than the creature's new Intelligence score. A creature successfully transferred into another creature of the same species resumes functioning as it was before the transfer, retaining all Class Levels, Ability Scores, Skills, Feats, and Talents. A creature successfully transferred into a different species adopts the Strength, Dexterity, and Constitution of the new model but keeps its previous Intelligence, Wisdom, and Charisma scores. The creature retains its Trained Skills, although skill modifiers based on Strength, Dexterity, and Constitution might need adjusting. Finally, the creature losses one Class Level (including all associated Talents and Feats) as it has to readjust and adapt its nervous system and sensory inputs for the new body. Mental Health Specialist[ ] Homebrew Reference Book: Clone Wars Saga Edition Fan Sourcebook - Grand Army of the Republic (Part 1) Prerequisite: Trained in Knowledge (Social Sciences) Select one category of mental illness (one Complication). When making a Knowledge (Social Sciences) check to Mentop (see Complications), you may reroll your check, keeping the better result. Psychiatric Caregiver[ ] Homebrew Reference Book: Clone Wars Saga Edition Fan Sourcebook - Grand Army of the Republic (Part 1) Prerequisite: Trained in Knowledge (Social Sciences) When making a Knowledge (Social Sciences) check to Mentop (see Complications), if you beat the target’s Will Defense by 5 or more, you can decrease their disorder’s attack bonus an additional point. Categories Categories: Talent Trees Medic Talent Trees Shaper Talent Trees Add category Cancel Save Community content is available under CC-BY-SA unless otherwise noted. More Fandoms Fantasy Sci-fi Star Wars",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Trained in Knowledge (Social Sciences)",
+      "requirement": "Knowledge (Social Sciences)",
+      "type": "TRAINED SKILL"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Shaper Talent Trees"
+      },
+      {
+        "value": "Medic Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Shaper Talent Trees",
+      "Medic Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Advanced Medicine Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Advanced_Medicine_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Clone Wars Saga Edition Fan Sourcebook - Grand Army of the Republic (Part 1)",
+    "cost": "0"
+  },
+  "name": "Psychiatric Caregiver",
+  "flags": {},
+  "type": "talent",
+  "folder": "v70bZwBQgAIzuVnd",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385301854,
+    "modifiedTime": 1734385301854,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "wUeoqEZzoNwFiG6m",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!wUeoqEZzoNwFiG6m"
+}

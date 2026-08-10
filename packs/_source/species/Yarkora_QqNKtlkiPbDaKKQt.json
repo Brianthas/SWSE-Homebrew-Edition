@@ -1,0 +1,145 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Force_Unleashed_Campaign_Guide\" title=\"Star Wars Saga Edition Force Unleashed Campaign Guide\">Star Wars Saga Edition Force Unleashed Campaign Guide</a></i> </p><p> Yarkora are among the most mysterious Species in the galaxy. Though individual Yarkora made their way into the vast, galactic underworld for many decades, the Species as a whole managed to escape formal notice until after the Battle of <a href=\"https://swse.fandom.com/wiki/Yavin\" class=\"mw-redirect\" title=\"Yavin\">Yavin</a>. During <a href=\"https://swse.fandom.com/wiki/The_Dark_Times\" class=\"mw-redirect\" title=\"The Dark Times\">The Dark Times</a>, the Yarkora perform the activities they are known for: information brokering, petty theft, and the occasional con job.</p><p>Yarkora are adept at gathering information, aided by their acute senses of sight and hearing. Most Yarkora try to keep a low profile by acting alone. However, those who find a ship or gang useful have no trouble gathering the needed henchmen, thanks to their natural charisma. </p><h3><span class=\"mw-headline\" id=\"Yarkora_Characteristics\">Yarkora Characteristics</span></h3><p><b>Personality:</b> Yarkora are masters of manipulation. They are adept at plying others for desired information while revealing little about themselves. True friendships between Yarkora and other <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> are rare. Exploitation of the moment is more to their liking. They often promote a distinguished appearance, even when dressed in the lowliest garb. </p><p><b>Physical Description:</b> A Yarkora has three-fingered hands with large black nails and a prominent snout flanked by tufts of hair. The body of a Yarkora is covered in short, smooth, usually beige fur. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Yarkora age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-10 Years </td> \n   <td>11-18 Years </td> \n   <td>19-64 Years </td> \n   <td>65-94 Years </td> \n   <td>95-124 Years </td> \n   <td>125+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Unknown. </p><p><b>Languages:</b> The Yarkora speak Basic and use their own language only among themselves. </p><p><b>Example Names:</b> Adaka-Vanae, Haesh-Rulan, Nemor-Jelak, Rault-Sanik, Saelt-Marae, Schurk-Heren. </p><p><b>Adventurers:</b> Yarkora adventurers are usually <a href=\"https://swse.fandom.com/wiki/Nobles\" class=\"mw-redirect\" title=\"Nobles\">Nobles</a> or <a href=\"https://swse.fandom.com/wiki/Scoundrels\" class=\"mw-redirect\" title=\"Scoundrels\">Scoundrels</a>. Though many are loners, some might join groups or crews when doing so suits their needs. Such alliances are typically fragile, since their reputation as thieves, con artists, and information brokers precedes them. There are few known Yarkora Force-users. </p><h3><span class=\"mw-headline\" id=\"Yarkora_Species_Traits\">Yarkora Species Traits</span></h3><p>Yarkora share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Yarkora",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Deceptive",
+        "type": "trait"
+      },
+      {
+        "name": "Confusion",
+        "type": "trait"
+      },
+      {
+        "name": "Bonus Class Skill (Gather Information)",
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "10",
+          "low": "1",
+          "text": "1-10",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "125",
+          "text": "125+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "124",
+          "low": "95",
+          "text": "95-124",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "18",
+          "low": "11",
+          "text": "11-18",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "64",
+          "low": "19",
+          "text": "19-64",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "94",
+          "low": "65",
+          "text": "65-94",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Bonus Class Skill"
+      },
+      {
+        "value": "Yarkora"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Deceptive"
+      },
+      {
+        "value": "Confusion"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Bonus Class Skill (Gather Information)"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Yarkora",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535567791,
+    "modifiedTime": 1736535567791,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "QqNKtlkiPbDaKKQt",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!QqNKtlkiPbDaKKQt"
+}

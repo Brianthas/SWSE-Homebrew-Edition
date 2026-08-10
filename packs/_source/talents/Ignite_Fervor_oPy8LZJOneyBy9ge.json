@@ -1,0 +1,78 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Whenever you hit an opponent with a melee or ranged attack, you can (as a <a href=\"https://swse.fandom.com/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a>) choose to give one ally within your line of sight a bonus to damage on their next attack equal to their Character Level. Once their fervor has been ignited, the affected ally doesn't need to remain within line of sight of you; if their next attack misses, they lose the bonus to damage granted by this Talent.<br><br>You can't <b>Ignite Fervor</b> on yourself.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Bolster Ally talent",
+          "requirement": "Bolster Ally",
+          "type": "TALENT"
+        },
+        {
+          "text": "Inspire Confidence talent",
+          "requirement": "Inspire Confidence",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Bolster Ally talent, and Inspire Confidence talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Noble Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Noble Talent Trees",
+      "Core Rulebook"
+    ],
+    "isSupplied": false,
+    "talentTree": "Inspiration Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Inspiration_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Core Rulebook",
+    "cost": "0"
+  },
+  "name": "Ignite Fervor",
+  "flags": {},
+  "type": "talent",
+  "folder": "HCcFVoBasVG3yhx4",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385306268,
+    "modifiedTime": 1734385306268,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "oPy8LZJOneyBy9ge",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!oPy8LZJOneyBy9ge"
+}

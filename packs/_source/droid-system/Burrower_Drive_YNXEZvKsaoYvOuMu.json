@@ -1,0 +1,41 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Locomotion Systems",
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "droidPart"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scavenger%27s_Guide_to_Droids\" title=\"Star Wars Saga Edition Scavenger's Guide to Droids\">Star Wars Saga Edition Scavenger's Guide to Droids</a></i></p><p>Mining and other <a href=\"https://swse.fandom.com/wiki/5th-Degree_Droids\" class=\"mw-redirect\" title=\"5th-Degree Droids\">5th-Degree Droids</a> can use a Burrower Drive to tear through large chunks of ore embedded in the crust of a planet or in an asteroid. A Burrower Drive enables a <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> to move at half-speed underground. It can also move vertically up or down at a similar rate.</p><p>A Burrower Drive can be used as a Weapon. The <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> makes a melee attack. If the attack is successful, the <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> deals damage equal to the amount it would do if it had used a <a href=\"https://swse.fandom.com/wiki/Self-Destruct_System\" title=\"Self-Destruct System\">Self-Destruct System</a>. However, each successful attack moves the <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> -1 step on the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a> with a <a href=\"https://swse.fandom.com/wiki/Persistent_Condition\" class=\"mw-redirect\" title=\"Persistent Condition\">Persistent Condition</a>, as the drill gears and bits strip down and damage the <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a>.</p>",
+    "source": "Star Wars Saga Edition Scavenger's Guide to Droids",
+    "cost": "200 x Cost Factor x (Speed squared)",
+    "weight": "(50 x Cost Factor) Kilograms",
+    "availability": "Restricted"
+  },
+  "name": "Burrower Drive",
+  "flags": {},
+  "type": "droid system",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764449015693,
+    "modifiedTime": 1764449015693,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "YNXEZvKsaoYvOuMu",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!YNXEZvKsaoYvOuMu"
+}

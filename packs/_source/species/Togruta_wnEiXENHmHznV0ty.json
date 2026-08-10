@@ -1,0 +1,138 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Force_Unleashed_Campaign_Guide\" title=\"Star Wars Saga Edition Force Unleashed Campaign Guide\">Star Wars Saga Edition Force Unleashed Campaign Guide</a></i> </p><p>Togrutas are natives of the planet <a href=\"https://swse.fandom.com/wiki/Shili\" title=\"Shili\">Shili</a>, a world of dense forests, wild scublands, and ever-growing urban areas. The most striking features of Togruta are their brightly colored horns, head, head-tails, and skin. These patterns serve as a sort of camouflage that helps them stalk prey through the red and white, meter-tall turu-grass of the scrublands. </p><p>Togrutas are natural pack hunters and work effectively in large groups. Individualism is generally discouraged, but despite this fact, most Togruta leaders gain power and prestige through expressions of individuality. </p><p>Outsiders often believe that Togrutas are venomous. Although no one knows how the rumor was started, Togrutas do use their sharp incisors to kill one of their favorite meals, the small, rodentlike <span class=\"new\" title=\"Thimiars (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvVGhpbWlhcnM/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Thimiars</span>. </p><h3><span class=\"mw-headline\" id=\"Togruta_Characteristics\">Togruta Characteristics</span></h3><p><b>Personality:</b> Togrutas are social, outspoken, perceptive, and attentive. They prefer to work in groups and are adept at complex social interaction within a known group. </p><p><b>Physical Description:</b> A Togruta has an oval face flanked by striped, curved horns and a long head tail. Elaborate red and white patterns adorn the face, while a Togruta's body and limbs display red and white strips. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Togrutas age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-17 Years </td> \n   <td>18-54 Years </td> \n   <td>55-74 Years </td> \n   <td>75-94 Years </td> \n   <td>95+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> <a href=\"https://swse.fandom.com/wiki/Shili\" title=\"Shili\">Shili</a> in <a href=\"https://swse.fandom.com/wiki/The_Expansion_Region\" title=\"The Expansion Region\">The Expansion Region</a>, a planet featuring small communities within dense forests and hidden valleys. </p><p><b>Languages:</b> Togrutas are taught their Species language of Togruti, and most later learn Basic. </p><p><b>Example Names:</b> <a href=\"https://swse.fandom.com/wiki/Ahsoka_Tano\" title=\"Ahsoka Tano\">Ahsoka Tano</a>, Ashla, Codi Ty, Creev Zrgaat, Dyani Zaan, Jir Taalan, Qusak Laal, Raana Tey, <a href=\"https://swse.fandom.com/wiki/Shaak_Ti\" title=\"Shaak Ti\">Shaak Ti</a>, Vika Saaris. </p><p><b>Adventurers:</b> Strong-willed, highly independent Togrutas leave their homeworld to \"Hunt among the stars.\" Togrutas are often <a href=\"https://swse.fandom.com/wiki/Nobles\" class=\"mw-redirect\" title=\"Nobles\">Nobles</a>, <a href=\"https://swse.fandom.com/wiki/Scouts\" class=\"mw-redirect\" title=\"Scouts\">Scouts</a> or <a href=\"https://swse.fandom.com/wiki/Soldiers\" class=\"mw-redirect\" title=\"Soldiers\">Soldiers</a>, or may become <a href=\"https://swse.fandom.com/wiki/Jedi\" title=\"Jedi\">Jedi</a>, but can belong to any <a href=\"https://swse.fandom.com/wiki/Class\" class=\"mw-redirect\" title=\"Class\">Class</a>. </p><h3><span class=\"mw-headline\" id=\"Togruta_Species_Traits\">Togruta Species Traits</span></h3><p>Togrutas have the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Spatial Awareness",
+        "type": "trait"
+      },
+      {
+        "name": "Sneaky",
+        "type": "trait"
+      },
+      {
+        "name": "Pack Hunter",
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "74",
+          "low": "55",
+          "text": "55-74",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "17",
+          "low": "12",
+          "text": "12-17",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "95",
+          "text": "95+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "11",
+          "low": "1",
+          "text": "1-11",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "94",
+          "low": "75",
+          "text": "75-94",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "54",
+          "low": "18",
+          "text": "18-54",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Togrutas"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Spatial Awareness"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Sneaky"
+      },
+      {
+        "value": "Pack Hunter"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Togruta",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535567530,
+    "modifiedTime": 1736535567530,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "wnEiXENHmHznV0ty",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!wnEiXENHmHznV0ty"
+}

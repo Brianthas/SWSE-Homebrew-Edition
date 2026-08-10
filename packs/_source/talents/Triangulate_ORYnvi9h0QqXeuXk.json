@@ -1,0 +1,70 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "If you and at least one other ally have line of sight to and are aware of a target, you and all allies that can hear and understand you can reroll one ranged attack roll against that target, accepting the second result even if it is worse. You and your allies can only gain the benefits of this Talent once per encounter.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:in: Talent Trees, Vanguard Talent Trees Vanguard Talent Tree Edit Edit source History Talk (0) Reference Book: Star Wars Saga Edition Clone Wars Campaign Guide As an expert in the art of scouting enemy formations, you are a valuable asset to any military force. Your ability to see what lies ahead on the battlefield is uncanny. Contents 1 Enhanced Vision 2 Impenetrable Cover 3 Invisible Attacker 4 Mark the Target 5 Maximize Cover 6 Shellshock 7 Soften the Target 8 Triangulate Enhanced Vision[ ] When actively looking for hidden enemies, you can make a Perception check as a Swift Action instead of a Standard Action. Impenetrable Cover[ ] Prerequisite: Maximize Cover Whenever you have Cover against a target, you gain Damage Reduction equal to your Class Level against that target until the start of your next turn, provided you still have Cover from the target at the time the attack is made. Invisible Attacker[ ] Prerequisite: Maximize Cover If your target is unaware of you, your ranged attacks deal +1 die of damage against that target. Mark the Target[ ] Whenever you damage a target with a non-Area Attack ranged attack, you may designate one ally within your line of sight as a Swift Action. Your target is considered Flat-Footed against that ally's first attack made before the start of your next turn. Maximize Cover[ ] When an opponent uses the Aim Action to negate your Cover, you can make a Stealth check opposed by the attacker's Initiative check. If successful, you retain your Cover bonus. Shellshock[ ] Prerequisite: Soften the Target Whenever you damage a target that is unaware of you with an Area Attack, that target is considered Flat-Footed until the start of your next turn. Soften the Target[ ] Whenever you damage a target with a ranged attack, you may designate one ally within your line of sight as a Swift Action. The ally you designate ignores the target's Damage Reduction and Shield Rating (if any) until the start of your next turn. Triangulate[ ] Prerequisite: Enhanced Vision If you and at least one other ally have line of sight to and are aware of a target, you and all allies that can hear and understand you can reroll one ranged attack roll against that target, accepting the second result even if it is worse. You and your allies can only gain the benefits of this Talent once per encounter. Categories Categories: Talent Trees Vanguard Talent Trees Add category Cancel Save Community content is available under CC-BY-SA unless otherwise noted. More Fandoms Fantasy Sci-fi Star Wars",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Enhanced Vision talent",
+      "requirement": "Enhanced Vision",
+      "type": "TALENT"
+    },
+    "categories": [
+      {
+        "value": "Vanguard Talent Trees"
+      },
+      {
+        "value": "Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Vanguard Talent Trees",
+      "Operative Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Vanguard Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Vanguard_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Clone Wars Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Triangulate",
+  "flags": {},
+  "type": "talent",
+  "folder": "yKU37tfrtZhc2tgV",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385313124,
+    "modifiedTime": 1786039798054,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "ORYnvi9h0QqXeuXk",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!ORYnvi9h0QqXeuXk"
+}

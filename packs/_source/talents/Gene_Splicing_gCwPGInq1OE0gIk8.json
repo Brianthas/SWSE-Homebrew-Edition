@@ -1,0 +1,93 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You have unlocked the secrets of combining the genes of a variety of creatures to create mutations and even new <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>. When you create a gene-spliced clone, first select a DNA template as normal. Next, you may add additional template <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>, each time adding either one method of movement, one natural weapon, or one Species Trait or special quality.<br><br>Every additional <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> spliced adds +10 to the cloning attempt DC. Each new form of movement adds +10 to the DC, each new natural weapon/attack adds +5 to the DC, and each Species Trait or special quality adds +10 to the DC. Spliced Traits can stack with <b>Clone Scientist</b> and <b>Master Cloner</b> traits.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Clone Scientist talent",
+          "requirement": "Clone Scientist",
+          "type": "TALENT"
+        },
+        {
+          "text": "Trained in Knowledge (Life Sciences)",
+          "requirement": "Knowledge (Life Sciences)",
+          "type": "TRAINED SKILL"
+        }
+      ],
+      "text": "Clone Scientist talent, and Trained in Knowledge (Life Sciences)",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Untested"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Medic Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Untested",
+      "Homebrew Content",
+      "Medic Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Cloner Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Cloner_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Clone Wars Saga Edition Fan Sourcebook - Grand Army of the Republic (Part 1)",
+    "cost": "0"
+  },
+  "name": "Gene Splicing",
+  "flags": {},
+  "type": "talent",
+  "folder": "xyMbyI0VQk3y1elY",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385303438,
+    "modifiedTime": 1734385303438,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "gCwPGInq1OE0gIk8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!gCwPGInq1OE0gIk8"
+}

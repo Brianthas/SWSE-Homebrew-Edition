@@ -1,0 +1,64 @@
+{
+  "img": "systems/swse/icon/feat/Angled Throw.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Force_Unleashed_Campaign_Guide\" title=\"Star Wars Saga Edition Force Unleashed Campaign Guide\">Star Wars Saga Edition Force Unleashed Campaign Guide</a></i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>Your amazing throws bounce <a href=\"https://swse.fandom.com/wiki/Grenades\" title=\"Grenades\">Grenades</a> off walls into open hatches or through congested battle zones.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> 13</p><p><b>Effect:</b> When throwing a <a href=\"https://swse.fandom.com/wiki/Grenade\" class=\"mw-redirect\" title=\"Grenade\">Grenade</a> or grenadelike weapon, you can attempt to bounce it off a wall or other surface close to your target. If you attack roll exceeds a <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> of 15, you ignore <a href=\"https://swse.fandom.com/wiki/Cover\" title=\"Cover\">Cover</a> and <a href=\"https://swse.fandom.com/wiki/Improved_Cover\" class=\"mw-redirect\" title=\"Improved Cover\">Improved Cover</a> (but not <a href=\"https://swse.fandom.com/wiki/Total_Cover\" class=\"mw-redirect\" title=\"Total Cover\">Total Cover</a>) with your attack.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Dexterity 13",
+      "requirement": "Dexterity 13",
+      "type": "ATTRIBUTE"
+    },
+    "categories": [
+      {
+        "value": "Soldier Bonus Feats"
+      },
+      {
+        "value": "Force Prodigy Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Bonus Feats",
+      "Force Prodigy Bonus Feats",
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Force Unleashed Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Angled Throw",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479025803,
+    "modifiedTime": 1761479025803,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "0ugG3GamS7gRqg5y",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!0ugG3GamS7gRqg5y"
+}

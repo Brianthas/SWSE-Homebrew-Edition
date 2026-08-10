@@ -1,0 +1,56 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a></i> </p><p>This Upgrade allows a piece of <a href=\"https://swse.fandom.com/wiki/Equipment\" title=\"Equipment\">Equipment</a> to be activated with a signal from a <a href=\"https://swse.fandom.com/wiki/Comlink\" title=\"Comlink\">Comlink</a> or similar <a href=\"https://swse.fandom.com/wiki/Communications_Device\" class=\"mw-redirect\" title=\"Communications Device\">Communications Device</a>. Although typically associated with <a href=\"https://swse.fandom.com/wiki/Explosives\" title=\"Explosives\">Explosives</a> or Security Systems, Remote Activation can be used to set a <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> to activate, a <a href=\"https://swse.fandom.com/wiki/Fusion_Lantern\" title=\"Fusion Lantern\">Fusion Lantern</a> to flare to life, a computer to start running a program, or a holoprojector to begin a recorded holoprojection. Activating a remote is a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>, which includes entering the special command code (allowing a single <a href=\"https://swse.fandom.com/wiki/Comlink\" title=\"Comlink\">Comlink</a> to activate multiple pieces of Remote Activation gear, one <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a> per item activated). </p><p>The range of Remote Activation is determined by the <a href=\"https://swse.fandom.com/wiki/Comlink\" title=\"Comlink\">Comlink</a> or other <a href=\"https://swse.fandom.com/wiki/Communications_Device\" class=\"mw-redirect\" title=\"Communications Device\">Communications Device</a> used. Any <a href=\"https://swse.fandom.com/wiki/Comlink\" title=\"Comlink\">Comlink</a> can be used to activate the gear, sending a signal with a specific code along a specific frequency. A character aware of a piece of remotely activated gear can find the necessary frequency and activation code with a DC 30 <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> check. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "itemMod"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "100",
+    "weight": "",
+    "availability": "Common",
+    "size": "",
+    "type": "",
+    "subtype": "Universal Upgrade",
+    "quantity": 1,
+    "hasItemOwner": false,
+    "upgrade": {},
+    "source": "Star Wars Saga Edition Scum and Villainy",
+    "upgradePointCost": "0"
+  },
+  "name": "Remote Activation",
+  "flags": {},
+  "type": "upgrade",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263245741,
+    "modifiedTime": 1749263245741,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "cC7Nj4fTr42YWZBc",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!cC7Nj4fTr42YWZBc"
+}

@@ -1,0 +1,79 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "When you are the <a href=\"https://swse.fandom.com/wiki/Commander\" title=\"Commander\">Commander</a> of a <a href=\"https://swse.fandom.com/wiki/Capital_Ship\" class=\"mw-redirect\" title=\"Capital Ship\">Capital Ship</a>, calculate its <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> using your Heroic Level plus one-half the ship's armor bonus (rounded down), the Pilot's Heroic Level, or the ship's Armor bonus, whichever is highest.<br><br>In addition, all <a href=\"https://swse.fandom.com/wiki/Gunner\" title=\"Gunner\">Gunners</a> on your ship add one-half your Heroic Level, or one-half their Heroic Level, whichever is more, to damage rolls with <a href=\"https://swse.fandom.com/wiki/Vehicle_Weapons\" class=\"mw-redirect\" title=\"Vehicle Weapons\">Vehicle Weapons</a>. Finally, you treat any generic crew as being one quality level higher (maximum of Ace, see <a href=\"https://swse.fandom.com/wiki/Crew_Quality\" title=\"Crew Quality\">Crew Quality</a>).",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Charisma 13",
+          "requirement": "Charisma 13",
+          "type": "ATTRIBUTE"
+        },
+        {
+          "text": "Intelligence 13",
+          "requirement": "Intelligence 13",
+          "type": "ATTRIBUTE"
+        },
+        {
+          "text": "Born Leader talent",
+          "requirement": "Born Leader",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Charisma 13, Intelligence 13, and Born Leader talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Officer Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Officer Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Naval Officer Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Naval_Officer_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Starships of the Galaxy",
+    "cost": "0"
+  },
+  "name": "Legendary Commander",
+  "flags": {},
+  "type": "talent",
+  "folder": "yOF9ddYeLj2TgDRq",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385310029,
+    "modifiedTime": 1734385310029,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "htMNbhrUaa23pc4I",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!htMNbhrUaa23pc4I"
+}

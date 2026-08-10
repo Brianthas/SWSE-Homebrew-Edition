@@ -1,0 +1,113 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You have learned how to use a Jedi fighting technique to defeat Jedi in combat. Choose one <a href=\"https://swse.fandom.com/wiki/Talent\" class=\"mw-redirect\" title=\"Talent\">Talent</a> from the <a href=\"https://swse.fandom.com/wiki/Lightsaber_Forms_Talent_Tree\" title=\"Lightsaber Forms Talent Tree\">Lightsaber Forms Talent Tree</a>; you gain the benefits of this <a href=\"https://swse.fandom.com/wiki/Talent\" class=\"mw-redirect\" title=\"Talent\">Talent</a> and are considered to have this <a href=\"https://swse.fandom.com/wiki/Talent\" class=\"mw-redirect\" title=\"Talent\">Talent</a> for the purpose of satisfying prerequisites. You must meet all the prerequisites as normal for the chosen Talent, in addition to the prerequisites of this Talent.<br><br>You can select this Talent multiple times. Each time you select it, choose a different Talent from the <a href=\"https://swse.fandom.com/wiki/Lightsaber_Forms_Talent_Tree\" title=\"Lightsaber Forms Talent Tree\">Lightsaber Forms Talent Tree</a>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "takeMultipleTimes"
+      }
+    ],
+    "choices": [
+      {
+        "noOptions": "There are no available Talents remaining in the Lightsaber Forms Talent Tree",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {
+              "payload": "AVAILABLE_LIGHTSABER_FORMS"
+            },
+            "display": "AVAILABLE_LIGHTSABER_FORMS",
+            "name": "AVAILABLE_LIGHTSABER_FORMS",
+            "attributes": {}
+          }
+        ],
+        "description": "Choose one Talent from the Lightsaber Forms Talent Tree:",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": true
+      }
+    ],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "#payload#",
+        "type": "talent"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "At least one Force Technique",
+          "requirement": "1",
+          "type": "FORCE TECHNIQUE"
+        },
+        {
+          "text": "Weapon Focus (Lightsabers)",
+          "requirement": "Weapon Focus (Lightsabers)",
+          "type": "FEAT"
+        }
+      ],
+      "text": "At least one Force Technique, and Weapon Focus (Lightsabers)",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Sith Apprentice Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Sith Lord Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Sith Apprentice Talent Trees",
+      "Core Rulebook",
+      "Sith Lord Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Sith Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Sith_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Threats of the Galaxy",
+    "cost": "0"
+  },
+  "name": "Stolen Form",
+  "flags": {},
+  "type": "talent",
+  "folder": "nZiStug2nnGoF0sr",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385311919,
+    "modifiedTime": 1734385311919,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "7WonAbkdBOYcFqgq",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!7WonAbkdBOYcFqgq"
+}

@@ -1,0 +1,163 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/The_Lugubraa_Hordes\" title=\"The Lugubraa Hordes\">The Lugubraa Hordes</a></i> </p><p>The Lugubraa are found throughout <a href=\"https://swse.fandom.com/wiki/The_Unknown_Regions\" title=\"The Unknown Regions\">The Unknown Regions</a> as laborers and hired muscle. Their reproductive rates can get out of hand rapidly, ruining entire ecosystems beyond hope of restoration. </p><p> A Lugubraa lacks eyes and is blind to visual light, but surrounding its mouth are numerous heat spots that detect thermal signatures as well as echolocation pingers that can paint a radar map of the surroundings. A Lugubraa has no ears, instead detecting sounds through vibrations sensed along the length of its skin, which is smooth and thick like that of an oceanic cetacean. Skin coloration varies between white and dark gray, but most Lugubraa are so pale that they trigger unpleasant mental associations with grubs and maggots.</p><p>From birth to six months, Lugubraa have the self-awareness of domesticated beasts, able to follow simple commands and steadfastly devoted to their horde or the owner that has purchased their services. After six months, their intelligence reaches that of simple-minded sentients, allowing them to communicate in short sentences but still rendering them hopeless when it comes to advanced calculations. </p><p>It is rare for Lugubraa to survive more than a few decades, but those that do undergo a second cognitive kick-start at approximately age 50. These unusual geniuses become leaders and strategists for the Lugubraa hordes, plotting ways to acquire more resources and brokering the services of their species as mercenaries to interested galactic parties. </p><h3><span class=\"mw-headline\" id=\"Lugubraa_Characteristics\">Lugubraa Characteristics</span></h3><p><b>Personality:</b> Appetite drives the Lugubraa. Their churning mouths connect to gullets that never seem satisfied. Although the creatures can digest both inorganic and organic matter, they prefer the latter, and they find fresh meat so delicious that it qualifies as an addiction. </p><p><b>Physical Description:</b> An adult Lugubraa stands approximately 1.5 meters tall on two stubby legs. A Lugubraa's body is a sleek tube that tapers into a short tail. The creature's face is dominated by a circular mouth, with rings of teeth that mesh in gearlike patterns for chewing, making it nearly impossible for prey to pull free once a hungry Lugubraa has latched on. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b>&nbsp;Lugubraa age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-9 Years </td> \n   <td>10-19 Years </td> \n   <td>20-99 Years </td> \n   <td>100-134 Years </td> \n   <td>135-149 Years </td> \n   <td>150+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b>&nbsp;The Lugubraa originate from deep space, in a vast corridor of dust and ice asteroids that the <a href=\"https://swse.fandom.com/wiki/Tchuukthai\" title=\"Tchuukthai\">Tchuukthai</a> call the Stratos Distribution. This unique astrophysical environment harbors predatory lightning-jacks, membranous stillsails more than 100,000 kilometers across, and forests of crystalline cometary fronds. The roots of the Lugubraa evolutionary tree can still be found here, with worm like chewers carving warrens inside mineral-rich rocks. </p><p><b>Languages:</b> Lugubraa communicate through their own language of Lugubraal, a tongue of groans and moans that few other <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> can replicate. Lugubraa that surpass their first five decades tend to learn a number of other languages, chief among them being Basic. </p><p><b>Example Names:</b> Lorgrombo, Legumo, Laanrii, Liibooro. </p><p><b>Adventurers:</b> Adult Lugubraa possess sufficient smarts to be of use to various parties in <a href=\"https://swse.fandom.com/wiki/The_Unknown_Regions\" title=\"The Unknown Regions\">The Unknown Regions</a>. Motivated by the need to feed, these for-hire toughs sign on as leg-breakers for crime syndicates, sentries for scouting corporations, bodyguards for gangsters, and combat grunts for private armies. They are content as long as they are well fed, and their job assignments are coordinated by elder Lugubraa agents that happily deal in cold, hard currency. </p><h3><span class=\"mw-headline\" id=\"Lugubraa_Species_Traits\">Lugubraa Species Traits</span></h3><p>Lugubraa share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Bonus Feat (Improved Damage Threshold)",
+        "type": "trait"
+      },
+      {
+        "name": "Lugubraa",
+        "type": "trait"
+      },
+      {
+        "name": "Accelerated Learning",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Darkvision",
+        "type": "trait"
+      },
+      {
+        "name": "Natural Weapons",
+        "type": "trait"
+      },
+      {
+        "name": "Lockbite",
+        "type": "trait"
+      },
+      {
+        "name": "Improved Damage Threshold",
+        "type": "feat"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "9",
+          "low": "1",
+          "text": "1-9",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "134",
+          "low": "100",
+          "text": "100-134",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "149",
+          "low": "135",
+          "text": "135-149",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "150",
+          "text": "150+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "99",
+          "low": "20",
+          "text": "20-99",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "19",
+          "low": "10",
+          "text": "10-19",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Bonus Feat (Improved Damage Threshold)"
+      },
+      {
+        "value": "Lugubraa"
+      },
+      {
+        "value": "Accelerated Learning"
+      },
+      {
+        "value": "Bonus Feat"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Darkvision"
+      },
+      {
+        "value": "Natural Weapons"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Lockbite"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Lugubraa",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535566599,
+    "modifiedTime": 1736535566599,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "fmRfKgzfLgvUnNS7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!fmRfKgzfLgvUnNS7"
+}

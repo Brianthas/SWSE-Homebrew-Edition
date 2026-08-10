@@ -1,0 +1,72 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "3d10",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A Starship attempts to enter O'reen",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each Round on Initiative Count (Initiative +8) for 5 Rounds",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Pilot (DC 16): As a Reaction, the Starship's Pilot can make a Pilot check to reduce the damage caused by an exploding Orbital Defense Mine. If the check is successful, the damage taken by the Starship is reduced by half (If the Starship is already taking half damage from the attack, it instead takes one-quarter damage). Use Computer (DC 16): The character can make a Use Computer check to detect the presence of the mines. Furthermore, as a Standard Action, the character can use the Use Computer skill to use the Starship's sensors to detect the mines, granting the Starship a +2 dodge bonus to Reflex Defense against the mines' attacks.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: This hazard assumes that the triggering vehicle is passing through the thick net of security satellites surrounding the whole planet. You can also choose to have the orbital defense mines only cover certain squares; in such a case, the mines trigger when a vehicle enters the square of, or a square adjacent to, an orbital defense mine, and there is no recurrence.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Artificial",
+          "Energy"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>These nearly invisible satellites spring to life as a ship approaches, moving rapidly toward the vessel and detonating once they get close.</i> </p><p>The people of <a href=\"https://swse.fandom.com/wiki/O%27reen\" title=\"O'reen\">O'reen</a> take the defense of their world very seriously. Despite this fact, there are many strange and powerful races throughout <a href=\"https://swse.fandom.com/wiki/The_Unknown_Regions\" title=\"The Unknown Regions\">The Unknown Regions</a> that have technology that is unfamiliar to the <a href=\"https://swse.fandom.com/wiki/O%27reenians\" class=\"mw-redirect\" title=\"O'reenians\">O'reenians</a>, making it difficult for them to sense threats from the outside until it is too late. As a result, the <a href=\"https://swse.fandom.com/wiki/O%27reenians\" class=\"mw-redirect\" title=\"O'reenians\">O'reenians</a> have created a network of Orbital Defense Mines that detect, move toward, and attack any Starship approaching <a href=\"https://swse.fandom.com/wiki/O%27reen\" title=\"O'reen\">O'reen</a> without proper transponder identifiers. Whenever the heroes approach <a href=\"https://swse.fandom.com/wiki/O%27reen\" title=\"O'reen\">O'reen</a> for the first time, they may encounter Orbital Defense Mines. </p><h2><span id=\"Orbital_Defense_Mines_Statistics_.28CL_8.29\"></span><span class=\"mw-headline\" id=\"Orbital_Defense_Mines_Statistics_(CL_8)\">Orbital Defense Mines Statistics (CL 8)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b>&nbsp;Artificial, Energy </p><p><b>Trigger:</b> A Starship attempts to enter <a href=\"https://swse.fandom.com/wiki/O%27reen\" title=\"O'reen\">O'reen</a> </p><p><b>Attack:</b> +10 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> Each Round on <a href=\"https://swse.fandom.com/wiki/Initiative_Count\" class=\"mw-redirect\" title=\"Initiative Count\">Initiative Count</a> (<a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a> +8) for 5 Rounds </p><p><b>Suggested&nbsp;<a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b>&nbsp;The following are suggested&nbsp;<a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>&nbsp;for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> (DC 16):</b> As a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a>, the Starship's <a href=\"https://swse.fandom.com/wiki/Pilot_(Vehicle_Combat)\" title=\"Pilot (Vehicle Combat)\">Pilot</a> can make a <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> check to reduce the damage caused by an exploding Orbital Defense Mine. If the check is successful, the damage taken by the Starship is reduced by half (If the Starship is already taking half damage from the attack, it instead takes one-quarter damage).</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> (DC 16):</b> The character can make a <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> check to detect the presence of the mines. Furthermore, as a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a>, the character can use the <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> skill to use the Starship's sensors to detect the mines, granting the Starship a +2 dodge bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against the mines' attacks.</li>\n</ul><p><b>Special:</b> This hazard assumes that the triggering vehicle is passing through the thick net of security satellites surrounding the whole planet. You can also choose to have the orbital defense mines only cover certain squares; in such a case, the mines trigger when a vehicle enters the square of, or a square adjacent to, an orbital defense mine, and there is no recurrence. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Orbital Defense Mines",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244659,
+    "modifiedTime": 1749263244659,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "8HsQX5PQhyzhg6HC",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!8HsQX5PQhyzhg6HC"
+}

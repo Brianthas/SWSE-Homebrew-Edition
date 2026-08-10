@@ -1,0 +1,165 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<table style=\"width:100%; margin-top:2em; border:2px solid #999; font-size:105%; text-align:center; background:#00008B;\"> \n <tbody>\n  <tr> \n   <td><i><b>This <a href=\"https://swse.fandom.com/wiki/Homebrew_Content\" title=\"Homebrew Content\">Homebrew Content</a> has been <a href=\"https://swse.fandom.com/wiki/Category:Tested\" title=\"Category:Tested\">Tested</a> per the <a href=\"https://swse.fandom.com/wiki/Category:Untested\" title=\"Category:Untested\">Untested</a> guidelines. Whether or not it can be used is, as always, the prerogative of the Gamemaster.</b></i> </td>\n  </tr>\n </tbody>\n</table><p><i>Murachaun Species data created by Wikia user SunsetMage001 (Converted from its Geonosis and the Outer Rim Worlds counterpart).</i></p><p>Murachaun are gregarious descendants of herbivores from a temperate, grassy world contacted by scouts in the final days of the Republic. The scouts found a peaceable industrial society spread across a network of cities, towns and farming belts. </p><p>The Murachaun demonstrated that they were strong, hardy workers and handy machinists- traits that later caught the eye of the Empire. Thousands of Murachaun were taken off-world and used as slave labor, fanning the flames of rebellion on <span class=\"new\" title=\"Nashu Minor (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvTmFzaHVfTWlub3I/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Nashu Minor</span>. The Murachaun were wise enough to keep their dissent quiet, even as thousands slipped off-world and joined <a href=\"https://swse.fandom.com/wiki/The_Rebel_Alliance\" title=\"The Rebel Alliance\">The Rebel Alliance</a>. </p><h3><span class=\"mw-headline\" id=\"Murachaun_Characteristics\">Murachaun Characteristics</span></h3><p><b>Personality:</b> Murachaun are outgoing, forthright, and orderly. They have little tolerance for injustice and turn fierce when threatened. They crinkle their noses when forced to watch carnivores eat, for they find the consumption of meat disgusting. </p><p><b>Physical Description:</b> Murachaun are lanky saurians with spotted hides that range in color form azure to burgundy to deep red. They move with grace and gesture while speaking. Murachaun adults stand 1.8 to 2.3 meters tall. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Murachaun age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-12 Years </td> \n   <td>13-24 Years </td> \n   <td>25-54 Years </td> \n   <td>55-84 Years </td> \n   <td>85-109 Years </td> \n   <td>110+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The temperate, grassy world of <span class=\"new\" title=\"Nashu Minor (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvTmFzaHVfTWlub3I/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Nashu Minor</span>, located in <a href=\"https://swse.fandom.com/wiki/The_Inner_Rim\" title=\"The Inner Rim\">The Inner Rim</a>. </p><p><b>Languages:</b> Murachaun read, write and speak Murachau, which incorporates both words and gestures. They also speak Basic. </p><p><b>Example Names:</b> Earsulo Osso, Fajiri Fevavi. Kufra Ahara, Saffi Ufadi, Sofassu Jaradu. </p><p><b>Adventurers:</b> Murachaun crave new experiences and adventure. Many are also drawn to righteous causes, for Murachaun generally dislike injustice. They can belong to any <a href=\"https://swse.fandom.com/wiki/Heroic_Class\" class=\"mw-redirect\" title=\"Heroic Class\">Heroic Class</a>. </p><h3><span class=\"mw-headline\" id=\"Murachaun_Species_Traits\">Murachaun Species Traits</span></h3><p>Murachaun share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Natural Armor (+1)",
+        "type": "trait"
+      },
+      {
+        "name": "Murachaun",
+        "type": "trait"
+      },
+      {
+        "name": "Tinkerer",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "SunsetMage001 Creations",
+        "type": "trait"
+      },
+      {
+        "name": "Homebrew Content",
+        "type": "trait"
+      },
+      {
+        "name": "Tested",
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "12",
+          "low": "1",
+          "text": "1-12",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "84",
+          "low": "55",
+          "text": "55-84",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "54",
+          "low": "25",
+          "text": "25-54",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "109",
+          "low": "85",
+          "text": "85-109",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "110",
+          "text": "110+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "24",
+          "low": "13",
+          "text": "13-24",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Natural Armor (+1)"
+      },
+      {
+        "value": "Murachaun"
+      },
+      {
+        "value": "Tinkerer"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "SunsetMage001 Creations"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Natural Armor"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Tested"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Murachaun",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535566711,
+    "modifiedTime": 1736535566711,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "EQpzg9t8xVSLwnWl",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!EQpzg9t8xVSLwnWl"
+}

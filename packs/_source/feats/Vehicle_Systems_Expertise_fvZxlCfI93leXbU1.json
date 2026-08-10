@@ -1,0 +1,80 @@
+{
+  "img": "systems/swse/icon/feat/Vehicle_Systems_Expertise.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Legacy_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Legacy Era Campaign Guide\">Star Wars Saga Edition Legacy Era Campaign Guide</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You may use your technical expertise to manipulate a Vehicle's systems more quickly than usual.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Tech_Specialist\" title=\"Tech Specialist\">Tech Specialist</a>, <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a>.</p><p><b>Effect:</b> You may use the <a href=\"https://swse.fandom.com/wiki/Recharge_Shields\" title=\"Recharge Shields\">Recharge Shields</a> or <a href=\"https://swse.fandom.com/wiki/Reroute_Power\" class=\"mw-redirect\" title=\"Reroute Power\">Reroute Power</a> Actions by spending two <a href=\"https://swse.fandom.com/wiki/Swift_Actions\" title=\"Swift Actions\">Swift Actions</a>. Also, once per encounter, you may attempt to use either of these Actions as a single <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a> by making a DC 30 <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> check.</p><p><b>Normal:</b> The <a href=\"https://swse.fandom.com/wiki/Recharge_Shields\" title=\"Recharge Shields\">Recharge Shields</a> and <a href=\"https://swse.fandom.com/wiki/Reroute_Power\" class=\"mw-redirect\" title=\"Reroute Power\">Reroute Power</a> Actions normally requires you to spend three <a href=\"https://swse.fandom.com/wiki/Swift_Actions\" title=\"Swift Actions\">Swift Actions</a>.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Tech Specialist feat",
+          "requirement": "Tech Specialist",
+          "type": "FEAT"
+        },
+        {
+          "text": "Trained in Mechanics",
+          "requirement": "Mechanics",
+          "type": "TRAINED SKILL"
+        }
+      ],
+      "text": "Tech Specialist feat, and Trained in Mechanics",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Technician Bonus Feats"
+      },
+      {
+        "value": "Scoundrel Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Scout Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Technician Bonus Feats",
+      "Scoundrel Bonus Feats",
+      "General Feats",
+      "Scout Bonus Feats",
+      "Smuggler Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Legacy Era Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Vehicle Systems Expertise",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1761479029437,
+    "modifiedTime": 1786036141515,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "fvZxlCfI93leXbU1",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!fvZxlCfI93leXbU1"
+}

@@ -1,0 +1,87 @@
+{
+  "img": "systems/swse/icon/feat/Relentless_Attack.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Jedi_Academy_Training_Manual\" title=\"Star Wars Saga Edition Jedi Academy Training Manual\">Star Wars Saga Edition Jedi Academy Training Manual</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You ensure the demise of your foe by turning misses into opportunities.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Double_Attack\" title=\"Double Attack\">Double Attack</a> (Chosen Weapon)</p><p><b>Effect:</b> Choose one weapon group or <a href=\"https://swse.fandom.com/wiki/Exotic_Weapon\" class=\"mw-redirect\" title=\"Exotic Weapon\">Exotic Weapon</a> for which you have the <a href=\"https://swse.fandom.com/wiki/Double_Attack\" title=\"Double Attack\">Double Attack</a> Feat. Whenever you miss a target with that weapon, you gain a +2 competence bonus on your next attack roll made before the end of your next turn against the missed target.</p><p><b>Special:</b> You can select this Feat multiple times. Each time you select this Feat, it applies to a different weapon group or <a href=\"https://swse.fandom.com/wiki/Exotic_Weapon\" class=\"mw-redirect\" title=\"Exotic Weapon\">Exotic Weapon</a>.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      },
+      {
+        "mode": 2,
+        "value": "#payload#",
+        "key": "relentlessAttack"
+      }
+    ],
+    "choices": [
+      {
+        "noOptions": "You Must have Double Attack for a weapon group or an Exotic Weapon to select one for Relentless Attack.",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {
+              "payload": "AVAILABLE_RELENTLESS_ATTACK"
+            },
+            "display": "AVAILABLE_RELENTLESS_ATTACK",
+            "name": "AVAILABLE_RELENTLESS_ATTACK",
+            "attributes": {}
+          }
+        ],
+        "description": "Select a Weapon to use Relentless Attack with.",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": true
+      }
+    ],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Double Attack (#payload#)",
+      "requirement": "Double Attack (#payload#)",
+      "type": "FEAT"
+    },
+    "categories": [
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Jedi Academy Training Manual",
+    "cost": "0"
+  },
+  "name": "Relentless Attack",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479028592,
+    "modifiedTime": 1761479028592,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "OdQLqiQUwQY1a9Nx",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!OdQLqiQUwQY1a9Nx"
+}

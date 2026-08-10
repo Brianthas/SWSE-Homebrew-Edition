@@ -1,0 +1,85 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "While using the <a href=\"https://swse.fandom.com/wiki/Build_Object\" class=\"mw-redirect\" title=\"Build Object\">Build Object</a> action, you can <a href=\"https://swse.fandom.com/wiki/Take_20\" class=\"mw-redirect\" title=\"Take 20\">Take 20</a> on <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> checks. Additionally, when assembling the object you reduce the Object's Size Multiplier by half.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Skill Focus (Mechanics)",
+      "requirement": "Skill Focus (Mechanics)",
+      "type": "FEAT"
+    },
+    "categories": [
+      {
+        "value": "Untested"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Darth borehd Creations"
+      },
+      {
+        "value": "Technician Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Untested",
+      "Homebrew Content",
+      "Darth borehd Creations",
+      "Technician Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Mechanic Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Mechanic_Talent_Tree",
+    "bonusTalentTree": "",
+    "cost": "0"
+  },
+  "name": "Patient Builder",
+  "flags": {},
+  "type": "talent",
+  "folder": "z9R7CDae8jm2dEmB",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385309088,
+    "modifiedTime": 1734385309088,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "FLzmgdRemqurL1wU",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!FLzmgdRemqurL1wU"
+}

@@ -1,0 +1,135 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_of_Intrigue\" title=\"Star Wars Saga Edition Galaxy of Intrigue\">Star Wars Saga Edition Galaxy of Intrigue</a></i> </p><p>Almost completely unknown by the rest of the galaxy, Fosh are an avianlike Species that hail from an unknown planet. Outwardly quiet, reserved, and thoughtful, in truth Fosh are contemptuous of other <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> and consider all non-Fosh to be inferior. Fosh keep this condescension and bigotry to themselves, however. They are remarkably manipulative and are masters of intrigue, deal making, and deception. Only <a href=\"https://swse.fandom.com/wiki/Bothans\" class=\"mw-redirect\" title=\"Bothans\">Bothans</a> are more skilled at pulling the strings of others. Because the Fosh are close-mouthed and few in number, even the name and location of their homeworld is shrouded in mystery. </p><p>Fosh are short and slender with hollow bones. Their faces end in sharp beaks with openings that turn up at the back to give Fosh permanent, sardonic smiles. Their arms end in delicate hands that each have four taloned fingers. Their sturdy legs end in twin splayed talons that allow them to perch on incredibly narrow spaces, such as pipes or large branches. </p><p>Soft whiskers radiate from the front ridges of their heads, much as hair does on a <a href=\"https://swse.fandom.com/wiki/Human\" title=\"Human\">Human</a>, along with two antennae, which do not seem to serve any purpose- at least, not one that scholars can identify. Feathers on a Fosh's head turn different colors, depending on the Fosh's mood. Because of their delicate nature and fragile makeup, most Fosh stay away from violence and rely on their manipulation skills to defuse difficult situations. </p><h3><span class=\"mw-headline\" id=\"Fosh_Characteristics\">Fosh Characteristics</span></h3><p><b>Personality:</b> Fosh are quiet and private. They speak obliquely with other <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>, sowing confusion with cryptic phrases and riddles. Fosh rarely confess their true motivations for anything and focus on the long term, setting up elaborate plans and schemes to realize their interests. Most Fosh look down on other <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a>, a fact they keep to themselves. </p><p><b>Physical Description:</b> Fosh are short, slender, and graceful birdlike humanoids. Their heads are capped with two antennae and a plumage of feathers that change color based on each Fosh's mood. Their faces end in short beaks, and their eyes, which have a gemlike quality, are commonly colored ruby red, bright citrine, or deep azure. Special glands connected to their tear ducts allow Fosh to release a unique chemical that can be used to create powerful medicine. Using this ability takes a toll on a Fosh, who must rest to regain strength afterward. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b>&nbsp;Fosh age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-17 Years </td> \n   <td>18-55 Years </td> \n   <td>56-70 Years </td> \n   <td>71-84 Years </td> \n   <td>85+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Unknown. The Fosh's tendency towards deception and mystery has allowed their homeworld to be completely isolated from the galaxy. </p><p><b>Languages:</b> The Fosh tongue is used only among fellow Fosh, to avoid it's spread to the wider galaxy. Those Fosh traveling the wider galaxy tend to learn Basic in their youth. </p><p><b>Example Names:</b> Larerre, Ootorr, Kourere, Vergere, Villatee. </p><p><b>Adventurers:</b> Regal and charismatic, most Fosh heroes are <a href=\"https://swse.fandom.com/wiki/Nobles\" class=\"mw-redirect\" title=\"Nobles\">Nobles</a> or <a href=\"https://swse.fandom.com/wiki/Scoundrels\" class=\"mw-redirect\" title=\"Scoundrels\">Scoundrels</a>. Force-users are relatively common, but only a tiny fraction of Fosh have become <a href=\"https://swse.fandom.com/wiki/Jedi\" title=\"Jedi\">Jedi</a>. Few Fosh have the fortitude and propensity for violence necessary to become <a href=\"https://swse.fandom.com/wiki/Soldiers\" class=\"mw-redirect\" title=\"Soldiers\">Soldiers</a>. </p><h3><span class=\"mw-headline\" id=\"Fosh_Species_Traits\">Fosh Species Traits</span></h3><p>Fosh share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Small",
+        "type": "trait"
+      },
+      {
+        "name": "Deceptive",
+        "type": "trait"
+      },
+      {
+        "name": "Healing Glands",
+        "type": "trait"
+      },
+      {
+        "name": "Fosh",
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "55",
+          "low": "18",
+          "text": "18-55",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "70",
+          "low": "56",
+          "text": "56-70",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "84",
+          "low": "71",
+          "text": "71-84",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "11",
+          "low": "1",
+          "text": "1-11",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "85",
+          "text": "85+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "17",
+          "low": "12",
+          "text": "12-17",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Small"
+      },
+      {
+        "value": "Deceptive"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Healing Glands"
+      },
+      {
+        "value": "Fosh"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Fosh",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535566104,
+    "modifiedTime": 1736535566104,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "o2mv3aBunWZQskUs",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!o2mv3aBunWZQskUs"
+}

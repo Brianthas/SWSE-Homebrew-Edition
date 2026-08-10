@@ -1,0 +1,41 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Implants",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Use the Force:-1:IMPLANT",
+        "key": "skillBonus"
+      }
+    ],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i> </p><p>A Memory Implant reinforces and augments the synapses in the memory centers of the brain, making it possible to recall knowledge locked away in the user's mind. The user of a Memory Implant can reroll any <a href=\"https://swse.fandom.com/wiki/Knowledge\" title=\"Knowledge\">Knowledge</a> check, keeping the better of the two results. </p>",
+    "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+    "cost": "2000",
+    "cybernetic": true,
+    "implantDisruption": true
+  },
+  "name": "Memory Implant",
+  "flags": {},
+  "type": "implant",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263245084,
+    "modifiedTime": 1749263245084,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "CoWVhnOwmW0ykadx",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!CoWVhnOwmW0ykadx"
+}

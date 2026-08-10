@@ -1,0 +1,72 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You launch yourself at your foe, attacking with weapons, limbs, or anything else available. Whenever you miss with a melee attack or the attack is negated, you still deal your <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> bonus in damage to the target (minimum 1), or 2 x your <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> bonus if you attack with a weapon you are wielding two-handed.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Melee Smash talent",
+      "requirement": "Melee Smash",
+      "type": "TALENT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Soldier Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Melee Duelist Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Talent Trees",
+      "Core Rulebook",
+      "Melee Duelist Talent Trees",
+      "Martial Arts Master Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Brawler Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Brawler_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Clone Wars Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Unrelenting Assault",
+  "flags": {},
+  "type": "talent",
+  "folder": "mCMlDDiK1hy9rCjG",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385303177,
+    "modifiedTime": 1786039906820,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "OfRUBepd2qQDX9uy",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!OfRUBepd2qQDX9uy"
+}

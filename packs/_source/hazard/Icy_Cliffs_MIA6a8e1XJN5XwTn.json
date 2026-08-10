@@ -1,0 +1,71 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "1d6",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A being begins its turn on the Icy Cliffs.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round at the start of the target's turn, as long as the being remains on the Icy Cliffs.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Acrobatics (DC 18): The character uses tumbling skills to slow their descent, reducing the distance they fall by 3 meters. Climb (DC 32): The character ascends the Icy Cliffs more effectively, gaining a +5 bonus to Reflex Defense against the Hazard. Knowledge (Tactics) (DC 23): The character plots a course up the cliffs that minimizes the effects of the Hazard, granting everyone in the party a +1 circumstance bonus to Reflex Defense against the Hazard.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: Any being that is successfully attacked by the Hazard loses its grip on the Icy Cliffs and falls.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>A jagged wall of ice and rock looms over you.</i> </p><p>Although the heights of different Icy Cliffs can vary, an Icy Cliff must be at least 10 meters tall to qualify as a Hazard of this type. </p><h2><span id=\"Icy_Cliffs_Statistics_.28CL_9.29\"></span><span class=\"mw-headline\" id=\"Icy_Cliffs_Statistics_(CL_9)\">Icy Cliffs Statistics (CL 9)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Natural </p><p><b>Trigger:</b> A being begins its turn on the Icy Cliffs. </p><p><b>Attack:</b> +11 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> Each round at the start of the target's turn, as long as the being remains on the Icy Cliffs. </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Acrobatics\" title=\"Acrobatics\">Acrobatics</a> (DC 18):</b> The character uses tumbling skills to slow their descent, reducing the distance they fall by 3 meters.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Climb\" title=\"Climb\">Climb</a> (DC 32):</b> The character ascends the Icy Cliffs more effectively, gaining a +5 bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against the Hazard.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Knowledge_(Tactics)\" class=\"mw-redirect\" title=\"Knowledge (Tactics)\">Knowledge (Tactics)</a> (DC 23):</b> The character plots a course up the cliffs that minimizes the effects of the Hazard, granting everyone in the party a +1 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against the Hazard.</li>\n</ul><p><b>Special:</b> Any being that is successfully attacked by the Hazard loses its grip on the Icy Cliffs and falls. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Icy Cliffs",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244554,
+    "modifiedTime": 1749263244554,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "MIA6a8e1XJN5XwTn",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!MIA6a8e1XJN5XwTn"
+}

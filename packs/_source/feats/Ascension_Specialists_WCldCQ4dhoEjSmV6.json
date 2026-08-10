@@ -1,0 +1,59 @@
+{
+  "img": "systems/swse/icon/feat/Ascension_Specialists.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_at_War\" title=\"Star Wars Saga Edition Galaxy at War\">Star Wars Saga Edition Galaxy at War</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a>, <a href=\"https://swse.fandom.com/wiki/Team_Feats\" class=\"mw-redirect\" title=\"Team Feats\">Team Feats</a></i></p><p>You and your allies train on the sheer cliffs of <a href=\"https://swse.fandom.com/wiki/Teth\" title=\"Teth\">Teth</a> and the sinkholes of <a href=\"https://swse.fandom.com/wiki/Utapau\" title=\"Utapau\">Utapau</a> as a matter of course.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in <a href=\"https://swse.fandom.com/wiki/Climb\" title=\"Climb\">Climb</a></p><p><b>Effect:</b> You gain a +3 competence bonus on <a href=\"https://swse.fandom.com/wiki/Climb\" title=\"Climb\">Climb</a> checks. At the time you make a check, for each ally within 12 squares of you who also has this Feat, the competence bonus increases by +1 (to a maximum of +7).</p><p>Additionally, when you climb, you climb at half your speed as a <a href=\"https://swse.fandom.com/wiki/Move_Action\" class=\"mw-redirect\" title=\"Move Action\">Move Action</a> (or at your normal speed as a <a href=\"https://swse.fandom.com/wiki/Full-Round_Action\" class=\"mw-redirect\" title=\"Full-Round Action\">Full-Round Action</a>).</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Trained in Climb",
+      "requirement": "Climb",
+      "type": "TRAINED SKILL"
+    },
+    "categories": [
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Team Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Galaxy at War",
+    "cost": "0"
+  },
+  "name": "Ascension Specialists",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479025869,
+    "modifiedTime": 1761479025869,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "WCldCQ4dhoEjSmV6",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!WCldCQ4dhoEjSmV6"
+}

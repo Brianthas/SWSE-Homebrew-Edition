@@ -4,6 +4,41 @@
   }
 }
 
+// Actor-global situational combat bonuses (Sneak Attack, Charge, etc.) — a single row of
+// toggles above the Attacks list, since toggle state applies to every weapon at once.
+.combat-toggle-list {
+  list-style: none;
+  margin: 0 0 $space-xs 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: $space-xs;
+}
+
+.combat-toggle-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: $space-2xs $space-sm;
+  border-radius: 999px;
+  border: 1px solid var(--swse-border);
+  color: var(--swse-text-muted);
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+
+  &:hover {
+    border-color: var(--swse-accent-combat);
+    color: var(--swse-accent-combat);
+  }
+
+  &.active {
+    background: var(--swse-accent-combat);
+    border-color: var(--swse-accent-combat);
+    color: var(--swse-bg);
+  }
+}
+
 .collapsed{
   display: none;
 }

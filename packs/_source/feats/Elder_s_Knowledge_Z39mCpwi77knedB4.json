@@ -1,0 +1,84 @@
+{
+  "img": "systems/swse/icon/feat/Elders_Knowledge.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You have gained the wisdom of elders, whether through your own experiences or by learning from their instruction.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Skill_Focus_(Knowledge_(Galactic_Lore))\" class=\"mw-redirect\" title=\"Skill Focus (Knowledge (Galactic Lore))\">Skill Focus (Knowledge (Galactic Lore))</a> or <a href=\"https://swse.fandom.com/wiki/Skill_Focus_(Knowledge_(Social_Sciences))\" class=\"mw-redirect\" title=\"Skill Focus (Knowledge (Social Sciences))\">Skill Focus (Knowledge (Social Sciences))</a></p><p><b>Effect:</b> Once per encounter, you can substitute a <a href=\"https://swse.fandom.com/wiki/Knowledge_(Galactic_Lore)\" class=\"mw-redirect\" title=\"Knowledge (Galactic Lore)\">Knowledge (Galactic Lore)</a> or <a href=\"https://swse.fandom.com/wiki/Knowledge_(Social_Sciences)\" class=\"mw-redirect\" title=\"Knowledge (Social Sciences)\">Knowledge (Social Sciences)</a> check for a <a href=\"https://swse.fandom.com/wiki/Wisdom\" title=\"Wisdom\">Wisdom</a> or <a href=\"https://swse.fandom.com/wiki/Wisdom\" title=\"Wisdom\">Wisdom</a>-related check.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Skill Focus (Knowledge (Galactic Lore))",
+          "requirement": "Skill Focus (Knowledge (Galactic Lore))",
+          "type": "FEAT"
+        },
+        {
+          "text": "Skill Focus (Knowledge (Social Sciences))",
+          "requirement": "Skill Focus (Knowledge (Social Sciences))",
+          "type": "FEAT"
+        }
+      ],
+      "count": 1,
+      "text": "Skill Focus (Knowledge (Galactic Lore)) or Skill Focus (Knowledge (Social Sciences))",
+      "type": "OR"
+    },
+    "categories": [
+      {
+        "value": "Technician Bonus Feats"
+      },
+      {
+        "value": "Force Prodigy Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Jedi Bonus Feats"
+      },
+      {
+        "value": "Noble Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Technician Bonus Feats",
+      "Force Prodigy Bonus Feats",
+      "General Feats",
+      "Jedi Bonus Feats",
+      "Noble Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Elder's Knowledge",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479026758,
+    "modifiedTime": 1761479026758,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "Z39mCpwi77knedB4",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!Z39mCpwi77knedB4"
+}

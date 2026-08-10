@@ -1,0 +1,110 @@
+{
+  "effects": [],
+  "system": {
+    "providedItems": [
+      {
+        "name": "Colossal (Cruiser)",
+        "type": "trait"
+      }
+    ],
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Capital Ship",
+        "key": "vehicleSubType"
+      },
+      {
+        "mode": 2,
+        "value": "94",
+        "key": "baseStrength"
+      },
+      {
+        "mode": 2,
+        "value": "14",
+        "key": "baseDexterity"
+      },
+      {
+        "mode": 2,
+        "value": "16",
+        "key": "baseIntelligence"
+      },
+      {
+        "mode": 2,
+        "value": "-",
+        "key": "speedCharacterScale"
+      },
+      {
+        "mode": 2,
+        "value": "2 sq.",
+        "key": "speedStarshipScale"
+      },
+      {
+        "mode": 2,
+        "value": "1,500",
+        "key": "hitPointEq"
+      },
+      {
+        "mode": 2,
+        "value": "20",
+        "key": "damageThresholdBonus"
+      },
+      {
+        "mode": 2,
+        "value": "+14",
+        "key": "armorReflexDefenseBonus"
+      },
+      {
+        "mode": 2,
+        "value": "10,000,000",
+        "key": "cost"
+      },
+      {
+        "mode": 2,
+        "value": "5,000",
+        "key": "crew"
+      },
+      {
+        "mode": 2,
+        "value": "1,000",
+        "key": "passengers"
+      },
+      {
+        "mode": 2,
+        "value": "10000.0",
+        "key": "cargoCapacity"
+      },
+      {
+        "mode": 2,
+        "value": "2 Years",
+        "key": "consumables"
+      },
+      {
+        "mode": 2,
+        "value": "100",
+        "key": "emplacementPoints"
+      }
+    ],
+    "description": "",
+    "cost": "10,000,000"
+  },
+  "name": "Cruiser",
+  "flags": {},
+  "type": "vehicleBaseType",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "systemId": "swse",
+    "systemVersion": "0.7.28",
+    "coreVersion": "11.313",
+    "createdTime": 1714658199820,
+    "modifiedTime": 1714658200049,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX"
+  },
+  "_id": "NHc2uoulO4jBbjxv",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!NHc2uoulO4jBbjxv"
+}

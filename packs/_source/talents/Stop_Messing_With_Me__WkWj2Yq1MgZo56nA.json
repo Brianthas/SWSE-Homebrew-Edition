@@ -1,0 +1,106 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You're learning to follow your own path. You may reroll any Midi-chlorian check and may take the better result.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:You're learning to follow your own path. You may reroll any Midi-chlorian check and may take the better result.",
+        "key": "skillReRoll"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Voices talent",
+          "requirement": "Voices",
+          "type": "TALENT"
+        },
+        {
+          "text": "Midi-chlorian Challenge talent",
+          "requirement": "Midi-chlorian Challenge",
+          "type": "TALENT"
+        },
+        {
+          "text": "Midi-chlorian Control talent",
+          "requirement": "Midi-chlorian Control",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Voices talent, Midi-chlorian Challenge talent, and Midi-chlorian Control talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Untested"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Sterling Hershey Creations"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Force Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Untested",
+      "Sterling Hershey Creations",
+      "Homebrew Content",
+      "Force Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Midi-chlorian Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Midi-chlorian_Talent_Tree",
+    "bonusTalentTree": "Force Talent Trees",
+    "cost": "0"
+  },
+  "name": "Stop Messing With Me!",
+  "flags": {},
+  "type": "talent",
+  "folder": "y2Hu4MwNleyVDq9p",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385309381,
+    "modifiedTime": 1734385309381,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "WkWj2Yq1MgZo56nA",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!WkWj2Yq1MgZo56nA"
+}

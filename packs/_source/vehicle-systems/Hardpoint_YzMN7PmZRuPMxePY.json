@@ -1,0 +1,34 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Starship Accessories",
+    "changes": [],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a> </i></p><p><b>Emplacement Points:&nbsp;</b> 1</p><p>Hardpoints are external mounts for missile weapons, bombs, or mines carried externally of any launcher tube or weapon mount. Each Hardpoint modification gives a ship an Array of four Hardpoints that can carry missiles, bombs, mines, or drop tanks. The number of Hardpoints required varies from system to system:</p><ul>\n <li><b>Bomb, Mine, Missile, or Torpedo:</b> 1 Hardpoint each, or 2 Hardpoints if the weapon is restricted to Starships of Colossal or greater size (such as <a href=\"https://swse.fandom.com/wiki/Heavy_Concussion_Missiles\" class=\"mw-redirect\" title=\"Heavy Concussion Missiles\">Heavy Concussion Missiles</a> and <a href=\"https://swse.fandom.com/wiki/Heavy_Space_Mines\" class=\"mw-redirect\" title=\"Heavy Space Mines\">Heavy Space Mines</a>).</li>\n <li><b>Drop Tanks:</b> One week of consumables requires a number of Hardpoints equal to the Starship's <a href=\"https://swse.fandom.com/wiki/Vehicle_Combat#Vehicle_Size\" title=\"Vehicle Combat\">Size Modifier</a>. (This may be spread across multiple Arrays if needed.) Drop Tanks cost 500 credits each, and they are available only for Starships of Colossal or smaller size.</li>\n</ul><p>Each Hardpoint Array counts as a single weapon; if multiple arrays carry identical payloads, they can be <a href=\"https://swse.fandom.com/wiki/Fire-Linked\" class=\"mw-redirect\" title=\"Fire-Linked\">Fire-Linked</a>. It's possible to replace any of the payload choices with a simple DC 15 <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> check and 1 minute of work. The cost of a Hardpoint does not include the cost of the payload attached to it.</p><p>A Starship can have a number of loaded Hardpoint Arrays equal to its Cost Modifier without penalty, and it can carry twice this amount as a&nbsp;<a href=\"https://swse.fandom.com/wiki/Heavy_Load\" class=\"mw-redirect\" title=\"Heavy Load\">Heavy Load</a>. Carrying a <a href=\"https://swse.fandom.com/wiki/Heavy_Load\" class=\"mw-redirect\" title=\"Heavy Load\">Heavy Load</a> reduces the Starship's speed to three-quarters normal and allows it to move only three times its speed with the <a href=\"https://swse.fandom.com/wiki/All-Out_Movement\" title=\"All-Out Movement\">All-Out Movement</a> Action; in addition, the <a href=\"https://swse.fandom.com/wiki/Pilot_(Vehicle_Combat)\" title=\"Pilot (Vehicle Combat)\">Pilot</a> takes a -10 penalty on <a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a> and <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a> checks. Hardpoints carrying no payload do not count for purposes of calculating <a href=\"https://swse.fandom.com/wiki/Encumbrance\" title=\"Encumbrance\">Encumbrance</a>.</p><p>Because they are outside launchers or racks, the payloads on Hardpoints are vulnerable. Any time a Starship moves one step down its <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a> as a result of damage, half the payload in its Hardpoints are lost (chosen randomly).</p><p>Although loaded Hardpoints are extremely obvious, a Hardpoint with no missile or mine attached retracts or folds against the hull, making them difficult to notice (DC 25 <a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> or <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> check to detect, modified by range). This makes them an excellent choice for any ship that goes into the rough fringes of the spacelanes occasionally but still needs to pass for a civilian ship the rest of the time.</p>",
+    "cost": "500",
+    "emplacementPoints": "1",
+    "availability": "Military"
+  },
+  "name": "Hardpoint",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317827,
+    "modifiedTime": 1759848317827,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "YzMN7PmZRuPMxePY",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!YzMN7PmZRuPMxePY"
+}

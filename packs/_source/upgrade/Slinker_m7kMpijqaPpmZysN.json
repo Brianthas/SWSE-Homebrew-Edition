@@ -1,0 +1,56 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a></i> </p><p>Only slugthrowers and missile weapons can be Upgraded as Slinkers. Once a Weapon is made a Slinker, it can no longer fire normal ammunition (and Slinker ammunition costs twice the normal price). Slinkers are equipped with simple sensors and battle computers, and programmed to fly around obstacles or even around corners to strike a target. </p><p>If a Slinker is fired at a target with <a href=\"https://swse.fandom.com/wiki/Cover\" title=\"Cover\">Cover</a> (but not <a href=\"https://swse.fandom.com/wiki/Total_Cover\" class=\"mw-redirect\" title=\"Total Cover\">Total Cover</a>), the target does not gain the normal +5 <a href=\"https://swse.fandom.com/wiki/Cover\" title=\"Cover\">Cover</a> bonus to it's <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>. If an attacker wants to fire a Slinker at a target with <a href=\"https://swse.fandom.com/wiki/Total_Cover\" class=\"mw-redirect\" title=\"Total Cover\">Total Cover</a> (where the attacker cannot see, such as around a corner), the attacker selects a specific target square outside their line of sight and makes an attack with a +0 bonus against anything in that square. (This tactic is effective with <a href=\"https://swse.fandom.com/wiki/Area_Attacks\" title=\"Area Attacks\">Area Attacks</a>, which can strike close enough to do damage even when poorly aimed.) The path from the attacker to the target square cannot have more than a single turn (maximum 90 degrees). </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "itemMod"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "1000",
+    "weight": "",
+    "availability": "Licensed",
+    "size": "",
+    "type": "",
+    "subtype": "Weapon Upgrade",
+    "quantity": 1,
+    "hasItemOwner": false,
+    "upgrade": {},
+    "source": "Star Wars Saga Edition Scum and Villainy",
+    "upgradePointCost": "1"
+  },
+  "name": "Slinker",
+  "flags": {},
+  "type": "upgrade",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263245877,
+    "modifiedTime": 1749263245877,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "m7kMpijqaPpmZysN",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!m7kMpijqaPpmZysN"
+}

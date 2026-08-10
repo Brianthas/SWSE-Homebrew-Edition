@@ -1,0 +1,71 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p>When installed in the helmet of a suit of armor, this electronic package allows the Armor to grant the wearer a +2 <a href=\"https://swse.fandom.com/wiki/Equipment\" title=\"Equipment\">Equipment</a> bonus on <a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> checks as well as Low-Light Vision. In addition, it includes an integrated hands-free <a href=\"https://swse.fandom.com/wiki/Comlink\" title=\"Comlink\">Comlink</a>. </p><p><a href=\"https://swse.fandom.com/wiki/Stormtrooper_Armor\" title=\"Stormtrooper Armor\">Stormtrooper Armor</a> and its variants include such a system (MFTAS, or Multi-Frequency Target Acquisition System), already included in its statistics. Installing the Helmet Package takes 1 hour, and a DC 20 <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> check. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "perception:+2",
+        "key": "skillBonus"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "lowLightVision"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "itemMod"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "4000",
+    "weight": "1 Kilogram",
+    "availability": "",
+    "size": "",
+    "type": "",
+    "subtype": "Armor Upgrade",
+    "quantity": 1,
+    "hasItemOwner": false,
+    "upgrade": {},
+    "modifications": [
+      {
+        "name": "Hands-Free Comlink",
+        "type": "item"
+      }
+    ],
+    "upgradePointCost": "0"
+  },
+  "name": "Helmet Package",
+  "flags": {},
+  "type": "upgrade",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263245503,
+    "modifiedTime": 1749263245503,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "fEbIoCTnzJmPDC7V",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!fEbIoCTnzJmPDC7V"
+}

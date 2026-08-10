@@ -20,8 +20,13 @@ export default class DroidSystemData extends ItemSystemDataModel {
             ...ItemFields(),
             ...CategoriesFields(),
             ...SourceFields(),
-            equipped: new fields.StringField({initial: "unequipped", blank: true, required: false}),
-            stripping: new fields.ObjectField({initial: {}})
+            equipped: new fields.StringField({initial: "", blank: true, required: false}),
+            stripping: new fields.ObjectField({initial: {}}),
+            requires: new fields.StringField({initial: "", blank: true, required: false}),
+            baseSpeedScalable: new fields.StringField({initial: "", blank: true, required: false}),
+            appendages: new fields.StringField({initial: "", blank: true, required: false}),
+            appendageType: new fields.StringField({initial: "", blank: true, required: false}),
+            droidUnarmedDamageScalable: new fields.StringField({initial: "", blank: true, required: false})
         };
     }
 }

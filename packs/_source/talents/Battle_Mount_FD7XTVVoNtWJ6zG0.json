@@ -1,0 +1,80 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You know how to fight from a living mount. You can use each of the following Actions once per encounter:",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Expert Rider talent",
+          "requirement": "Expert Rider",
+          "type": "TALENT"
+        },
+        {
+          "text": "Terrain Guidance talent",
+          "requirement": "Terrain Guidance",
+          "type": "TALENT"
+        },
+        {
+          "text": "Trained in Ride",
+          "requirement": "Ride",
+          "type": "TRAINED SKILL"
+        }
+      ],
+      "text": "Expert Rider talent, Terrain Guidance talent, and Trained in Ride",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Scout Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Scout Talent Trees",
+      "Smuggler Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Mobile Scout Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Mobile_Scout_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Battle Mount",
+  "flags": {},
+  "type": "talent",
+  "folder": "zWfOJZHKxzXpXMFZ",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385309846,
+    "modifiedTime": 1786036141317,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "FD7XTVVoNtWJ6zG0",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!FD7XTVVoNtWJ6zG0"
+}

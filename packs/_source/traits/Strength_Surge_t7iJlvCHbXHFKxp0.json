@@ -1,0 +1,51 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p>Once per encounter, a being can perform one of the following actions:</p><ul>\n <li>Reroll one&nbsp;<a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a>-based&nbsp;<a href=\"https://swse.fandom.com/wiki/Ability_Check\" class=\"mw-redirect\" title=\"Ability Check\">Ability Check</a>&nbsp;or&nbsp;<a href=\"https://swse.fandom.com/wiki/Skill_Check\" class=\"mw-redirect\" title=\"Skill Check\">Skill Check</a>&nbsp;using a doubled&nbsp;<a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a>&nbsp;modifier (minimum +1)</li>\n <li>Add +2 to one damage roll when making a successful melee attack to which a&nbsp;<a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a>&nbsp;bonus is normally added (this benefit does not apply when the&nbsp;<a href=\"https://swse.fandom.com/wiki/Weapon_Finesse\" title=\"Weapon Finesse\">Weapon Finesse</a>&nbsp;feat is used)</li>\n</ul>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Strength::Once per encounter, a being can perform one of the following actions: Reroll one Strength-based Ability Check or Skill Check using a doubled Strength modifier (minimum +1) Add +2 to one damage roll when making a successful melee attack to which a Strength bonus is normally added (this benefit does not apply when the Weapon Finesse feat is used)",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "prerequisite": null,
+    "cost": "0"
+  },
+  "name": "Strength Surge",
+  "flags": {},
+  "type": "trait",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764446477441,
+    "modifiedTime": 1764446477441,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "t7iJlvCHbXHFKxp0",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!t7iJlvCHbXHFKxp0"
+}

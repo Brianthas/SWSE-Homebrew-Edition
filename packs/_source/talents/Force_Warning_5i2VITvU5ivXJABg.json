@@ -1,0 +1,65 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Allies within 12 squares can choose to reroll their <a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a> checks at the start of combat, but must keep the result of the reroll, even if it is worse.<br><br>Furthermore, if any allies within 12 squares are <a href=\"https://swse.fandom.com/wiki/Surprised\" class=\"mw-redirect\" title=\"Surprised\">Surprised</a> at the start of an encounter, but you are not, you can designate a number of those allies equal to your <a href=\"https://swse.fandom.com/wiki/Wisdom\" title=\"Wisdom\">Wisdom</a> modifier (minimum 1); those allies are no longer considered <a href=\"https://swse.fandom.com/wiki/Surprised\" class=\"mw-redirect\" title=\"Surprised\">Surprised</a>, and can act normally during the <a href=\"https://swse.fandom.com/wiki/Surprise_Round\" class=\"mw-redirect\" title=\"Surprise Round\">Surprise Round</a>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:Allies within 12 squares can choose to reroll their<a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a>checks at the start of combat, but must keep the result of the reroll, even if it is worse.<br><br>Furthermore, if any allies within 12 squares are<a href=\"https://swse.fandom.com/wiki/Surprised\" class=\"mw-redirect\" title=\"Surprised\">Surprised</a>at the start of an encounter, but you are not, you can designate a number of those allies equal to your<a href=\"https://swse.fandom.com/wiki/Wisdom\" title=\"Wisdom\">Wisdom</a>modifier (minimum 1); those allies are no longer considered<a href=\"https://swse.fandom.com/wiki/Surprised\" class=\"mw-redirect\" title=\"Surprised\">Surprised</a>, and can act normally during the<a href=\"https://swse.fandom.com/wiki/Surprise_Round\" class=\"mw-redirect\" title=\"Surprise Round\">Surprise Round</a>.",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": null,
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Jedi Knight Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Jedi Knight Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Jedi Watchman Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Jedi_Watchman_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Force Warning",
+  "flags": {},
+  "type": "talent",
+  "folder": "GUeZcOJY7RQiliHc",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385307381,
+    "modifiedTime": 1734385307381,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "5i2VITvU5ivXJABg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!5i2VITvU5ivXJABg"
+}

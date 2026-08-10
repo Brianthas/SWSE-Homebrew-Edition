@@ -1,0 +1,64 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Choose a single weapon with which you posses the <a href=\"https://swse.fandom.com/wiki/Weapon_Focus\" title=\"Weapon Focus\">Weapon Focus</a> feat. Attacks with such weapons that deal damage (including doubling damage from a Critical Hit) exceeding an opponent's <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a> deals +1 die of damage on that attack.<br><br>You can select this Talent multiple times. Each time you select this Talent, it applies to a different weapon.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Weapon Focus (#payload#)",
+      "requirement": "Weapon Focus (#payload#)",
+      "type": "FEAT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Gladiator Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Gladiator Talent Trees",
+      "Bounty Hunter Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Gladiatorial Combat Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Gladiatorial_Combat_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Brutal Attack",
+  "flags": {},
+  "type": "talent",
+  "folder": "yFYzPT6EFC2U7cnE",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385305528,
+    "modifiedTime": 1786039906824,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "obmteVUv0MkZyUcE",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!obmteVUv0MkZyUcE"
+}

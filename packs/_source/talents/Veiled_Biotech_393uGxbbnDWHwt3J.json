@@ -1,0 +1,73 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You gain a +10 competence bonus on <a href=\"https://swse.fandom.com/wiki/Deception\" title=\"Deception\">Deception</a> and <a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a> checks made to conceal any <a href=\"https://swse.fandom.com/wiki/Biotechnology\" class=\"mw-redirect\" title=\"Biotechnology\">Biotechnology</a> or any <a href=\"https://swse.fandom.com/wiki/Bio-Implants\" title=\"Bio-Implants\">Bio-Implants</a> you possess. Additionally, you may draw a concealed Biotech item or Weapon as a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a> instead of a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a>; if you then make an attack with the Biotech Weapon before the end of your turn, your opponent loses it's <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> bonus to it's <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against the first attack you make with that Weapon.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:in: Talent Trees, Scoundrel Talent Trees, Technician Talent Trees Yuuzhan Vong Biotech Talent Tree Edit Edit source History Talk (0) Reference Book: Star Wars Saga Edition Legacy Era Campaign Guide Yuuzhan Vong Biotechnology remains available in some parts of the galaxy, although its legally dubious. You have become specialized in its manipulation. Contents 1 Biotech Adept 2 Bugbite 3 Curved Throw 4 Surprising Weapons 5 Veiled Biotech Biotech Adept[ ] You can reroll any Knowledge (Life Science) check, or Treat Injury checks made for Biotech Repair, but you must accept the result of the reroll, even if it is worse. Bugbite[ ] You deal +1 die of damage on attacks made with Razor Bugs and Thud Bugs. Curved Throw[ ] Prerequisite: Bugbite You can spend a Swift Action to ignore Cover (But not Total Cover) with your next attack with a Thud Bug or a Razor Bug made before the end of your turn. Surprising Weapons[ ] Whenever you successfully hit an enemy with an Amphistaff, Thud Bug, or Razor Bug, and your attack roll also exceeds the target’s Will Defense, that target is considered Flat-Footed against you until the end of your next turn. Veiled Biotech[ ] Prerequisite: Trained in Stealth You gain a +10 competence bonus on Deception and Stealth checks made to conceal any Biotechnology or any Bio-Implants you possess. Additionally, you may draw a concealed Biotech item or Weapon as a Swift Action instead of a Standard Action; if you then make an attack with the Biotech Weapon before the end of your turn, your opponent loses it's Dexterity bonus to it's Reflex Defense against the first attack you make with that Weapon. Categories Categories: Talent Trees Scoundrel Talent Trees Technician Talent Trees Add category Cancel Save Community content is available under CC-BY-SA unless otherwise noted. More Fandoms Fantasy Sci-fi Star Wars",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Trained in Stealth",
+      "requirement": "Stealth",
+      "type": "TRAINED SKILL"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Scoundrel Talent Trees"
+      },
+      {
+        "value": "Technician Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Scoundrel Talent Trees",
+      "Technician Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Yuuzhan Vong Biotech Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Yuuzhan_Vong_Biotech_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Legacy Era Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Veiled Biotech",
+  "flags": {},
+  "type": "talent",
+  "folder": "mu2B8its9Ma5vyVu",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385313680,
+    "modifiedTime": 1734385313680,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "393uGxbbnDWHwt3J",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!393uGxbbnDWHwt3J"
+}

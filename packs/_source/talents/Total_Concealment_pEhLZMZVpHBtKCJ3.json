@@ -1,0 +1,88 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Any situation that would give you <a href=\"https://swse.fandom.com/wiki/Concealment\" title=\"Concealment\">Concealment</a> grants you <a href=\"https://swse.fandom.com/wiki/Total_Concealment\" class=\"mw-redirect\" title=\"Total Concealment\">Total Concealment</a> instead.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Hidden Movement talent",
+          "requirement": "Hidden Movement",
+          "type": "TALENT"
+        },
+        {
+          "text": "Improved Stealth talent",
+          "requirement": "Improved Stealth",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Hidden Movement talent, and Improved Stealth talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Elite Trooper Talent Trees"
+      },
+      {
+        "value": "Scout Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Infiltrator Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Elite Trooper Talent Trees",
+      "Scout Talent Trees",
+      "Core Rulebook",
+      "Infiltrator Talent Trees",
+      "Smuggler Talent Trees",
+      "Operative Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Camouflage Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Camouflage_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Core Rulebook",
+    "cost": "0"
+  },
+  "name": "Total Concealment",
+  "flags": {},
+  "type": "talent",
+  "folder": "AWKaWeFzgzsmb8Wm",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385303274,
+    "modifiedTime": 1786039798056,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "pEhLZMZVpHBtKCJ3",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!pEhLZMZVpHBtKCJ3"
+}

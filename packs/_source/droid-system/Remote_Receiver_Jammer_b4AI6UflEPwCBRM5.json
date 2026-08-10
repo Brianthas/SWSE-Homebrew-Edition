@@ -1,0 +1,41 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Droid Accessories (Communications Systems)",
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "droidPart"
+      }
+    ],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scavenger%27s_Guide_to_Droids\" title=\"Star Wars Saga Edition Scavenger's Guide to Droids\">Star Wars Saga Edition Scavenger's Guide to Droids</a></i></p><p>The portable Remote Receiver Jammer is developed during the Clone Wars to scramble Battle Droid <a href=\"https://swse.fandom.com/wiki/Remote_Processor\" title=\"Remote Processor\">Remote Processor</a> links at short range, rendering the <a href=\"https://swse.fandom.com/wiki/Droids\" title=\"Droids\">Droids</a> useless. The jammer incorporates a backpack transmitter and a handheld computer controller. Remote Receiver Jammers have three significant weaknesses: They have an extremely short range; datalinks are notoriously difficult to disrupt; and many <a href=\"https://swse.fandom.com/wiki/Droids\" title=\"Droids\">Droids</a> have <a href=\"https://swse.fandom.com/wiki/Backup_Processor\" title=\"Backup Processor\">Backup Processors</a>. A Remote Receiver Jammer can be activated as a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a>, and the jammer affects all <a href=\"https://swse.fandom.com/wiki/Droids\" title=\"Droids\">Droids</a> with <a href=\"https://swse.fandom.com/wiki/Remote_Receiver\" title=\"Remote Receiver\">Remote Receivers</a> and no <a href=\"https://swse.fandom.com/wiki/Backup_Processor\" title=\"Backup Processor\">Backup Processors</a>. When the jammer is activated, the <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> using the jammer makes a <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> check. At the start of any affected Droid's turn, compare the results of the <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> check to the Droid's <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a>; if the <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> check is equal to or higher than the Droid's <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a>, the <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> can take no <a href=\"https://swse.fandom.com/wiki/Actions\" class=\"mw-redirect\" title=\"Actions\">Actions</a> and is <a href=\"https://swse.fandom.com/wiki/Flat-Footed\" class=\"mw-redirect\" title=\"Flat-Footed\">Flat-Footed</a> until the start of it's next turn. The <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a> activating the Remote Receiver Jammer must activate it each turn, making a new <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> check each time.</p>",
+    "source": "Star Wars Saga Edition Scavenger's Guide to Droids",
+    "cost": "2000",
+    "weight": "2 Kilograms",
+    "availability": "Military"
+  },
+  "name": "Remote Receiver Jammer",
+  "flags": {},
+  "type": "droid system",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764449016048,
+    "modifiedTime": 1764449016048,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "b4AI6UflEPwCBRM5",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!b4AI6UflEPwCBRM5"
+}

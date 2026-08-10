@@ -1,0 +1,34 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Starship Accessories",
+    "changes": [],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a> </i></p><table class=\"wikitable\">\n <tbody>\n  <tr>\n   <th>HIDDEN CARGO HOLD</th>\n   <th>EMPLACEMENT POINTS</th>\n   <th>AVAILABLE</th>\n   <th>COST</th>\n  </tr>\n  <tr>\n   <td>25% of Cargo</td>\n   <td>1</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Illegal\" class=\"mw-redirect\" title=\"Illegal\">Illegal</a></td>\n   <td>2000 (Base)</td>\n  </tr>\n  <tr>\n   <td>50% of Cargo</td>\n   <td>2</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Illegal\" class=\"mw-redirect\" title=\"Illegal\">Illegal</a></td>\n   <td>5000 (Base)</td>\n  </tr>\n  <tr>\n   <td>75% of Cargo</td>\n   <td>4</td>\n   <td><p><a href=\"https://swse.fandom.com/wiki/Illegal\" class=\"mw-redirect\" title=\"Illegal\">Illegal</a></p></td>\n   <td>10000 (Base)</td>\n  </tr>\n </tbody>\n</table><p>A Hidden Cargo Hold is a large cargo area that is not on a ship's normal schematics, and that requires access through a false wall or hidden hatch. It is similar to <a href=\"https://swse.fandom.com/wiki/Smuggler%27s_Compartments\" title=\"Smuggler's Compartments\">Smuggler's Compartments</a>, with two important differences. First, up to half a Starships' Cargo Capacity can be converted to Hidden Cargo Holds. Second, a cursory investigation of a ship reveals that a section of the ship can't be reached (requiring a DC 15 <a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> check during a routine inspection lasting 1 minute x Starship's Cost Modifier). However, it requires a closer inspection to find the access to the Hidden Cargo Holds (requiring a DC 25 <a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> check during a detailed inspection lasting 1 hour x Starship's Cost Modifier). This makes such&nbsp;holds useful for smugglers who can bribe their way past formal inspections, depending only on their concealment to keep their goods hidden from casual eyes.</p><p>It is also possible for a Hidden Cargo Hold to be concealed as another part of a Starship, such as <a href=\"https://swse.fandom.com/wiki/Weapon_Systems\" title=\"Weapon Systems\">Weapon Systems</a>, <a href=\"https://swse.fandom.com/wiki/Sublight_Drives\" class=\"mw-redirect\" title=\"Sublight Drives\">Sublight Drives</a>, or <a href=\"https://swse.fandom.com/wiki/Reinforced_Bulkheads\" title=\"Reinforced Bulkheads\">Reinforced Bulkheads</a>. This is only slightly more effective, requiring a DC 20 <a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> check during a routine inspection to realize not all is as it seems, and requires an additional <a href=\"https://swse.fandom.com/wiki/Emplacement_Point\" class=\"mw-redirect\" title=\"Emplacement Point\">Emplacement Point</a>.</p>",
+    "cost": "10000 (Base)",
+    "emplacementPoints": "4",
+    "availability": "Illegal"
+  },
+  "name": "Hidden Cargo Hold (75% of Cargo)",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317533,
+    "modifiedTime": 1759848317533,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "uBfPSOD3EWtweIaB",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!uBfPSOD3EWtweIaB"
+}

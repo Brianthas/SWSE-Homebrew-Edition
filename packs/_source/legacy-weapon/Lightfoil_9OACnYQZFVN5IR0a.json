@@ -1,0 +1,84 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i> </p><p>If the <a href=\"https://swse.fandom.com/wiki/Lightsaber_(Weapon)\" title=\"Lightsaber (Weapon)\">Lightsaber</a> is an elegant weapon for a more civilized age, then this is that age and the Lightfoil is the pinnacle of elegant design. More lightweight and balanced than a <a href=\"https://swse.fandom.com/wiki/Lightsaber_(Weapon)\" title=\"Lightsaber (Weapon)\">Lightsaber</a>, the Lightfoil is wielded with just one hand, as its petite and elegantly designed handles attest. Assembled in secret by <a href=\"https://swse.fandom.com/wiki/The_Mecrosa_Order\" title=\"The Mecrosa Order\">The Mecrosa Order</a>, each Lightfoil is a work of art. The combination of these weapons and the graceful <b><a href=\"https://swse.fandom.com/wiki/Makashi\" class=\"mw-redirect\" title=\"Makashi\">Makashi</a></b> form of Lightsaber combat produces a graceful and deadly fighting style. </p><p>Up until the Cleansing of the Nine Houses, the quality of Mecrosa Lightfoil construction is on par with Jedi Lightsabers. However, after these Sith are eliminated, mediocre copies of diminished efficacy spring up due to the lack of Force abilities on the part of their makers (see <a href=\"https://swse.fandom.com/wiki/Modern_Lightfoil\" title=\"Modern Lightfoil\">Modern Lightfoil</a>). Many nobles in the Tapani Sector pay huge sums of money to obtain Lightfoils, and for centuries to come the Lightfoil is a favored weapon of Tapani duelists. </p><p>A Lightfoil is delicately balanced and its wielder may choose to consider it a Small sized weapon whenever it would be beneficial. However, a Lightfoil may not be wielded Two-Handed. A Lightfoil requires an <a href=\"https://swse.fandom.com/wiki/Energy_Cell\" title=\"Energy Cell\">Energy Cell</a> to operate. </p><p><b>Special:</b>&nbsp;Can be&nbsp;<a href=\"https://swse.fandom.com/wiki/Thrown\" class=\"mw-redirect\" title=\"Thrown\">Thrown</a> </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isThrowable"
+      }
+    ],
+    "choices": [
+      {
+        "noOptions": "NO_AVAILABLE_OPTIONS",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {
+              "payload": "AVAILABLE_LIGHTSABER_CRYSTALS"
+            },
+            "display": "AVAILABLE_LIGHTSABER_CRYSTALS",
+            "name": "AVAILABLE_LIGHTSABER_CRYSTALS",
+            "attributes": {}
+          }
+        ],
+        "description": "Lightsaber Crystal",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": false
+      }
+    ],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "4,500",
+    "weight": "0.5 Kilograms",
+    "availability": "Rare",
+    "size": "Medium",
+    "type": "",
+    "subtype": "Lightsabers",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "2d8",
+    "damageType": "Energy, Slashing"
+  },
+  "name": "Lightfoil",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Lightfoil.png",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513525,
+    "modifiedTime": 1786051513587,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "9OACnYQZFVN5IR0a",
+  "_key": "!items!9OACnYQZFVN5IR0a"
+}

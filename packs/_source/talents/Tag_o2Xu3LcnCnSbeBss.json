@@ -1,0 +1,84 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Whenever you damage an opponent whom you selected for your <b>Hunter's Target</b>, all allies gain a +2 bonus on their next attack roll against that opponent until the start of your next turn.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Gather Information (Locate Individual)::in: Talent Trees, Bounty Hunter Talent Trees, Core Rulebook Bounty Hunter Talent Tree Edit Edit source History Talk (0) Reference Book: Star Wars Saga Edition Core Rulebook The nature of their work requires Bounty Hunters to associate with the scum of the universe. You are among the finest Bounty Hunters in the galaxy, relying on the element of surprise and your hunter's instincts to catch your prey. Contents 1 Hunter's Mark 2 Hunter's Target 3 Notorious 4 Nowhere to Hide 5 Relentless 6 Ruthless Negotiator 7 Additional Bounty Hunter Talents 7.1 Detective 7.2 Dread 7.3 Electronic Trail 7.4 Familiar Enemies 7.5 Familiar Situation 7.6 Fearsome 7.7 Jedi Hunter 7.8 Nowhere to Run 7.9 Quick Cuffs 7.10 Revealing Secrets 7.11 Signature Item 7.12 Tag Hunter's Mark[ ] If you Aim before making a ranged attack, you move the target character -1 step along the Condition Track if the attack deals damage. This Talent can be used only against characters, not objects or Vehicles. Hunter's Target[ ] Prerequisite: Hunter's Mark Once per encounter as a Free Action, you may designate an opponent. For the rest of the encounter, when you succeed on a melee or ranged attack against that opponent, you gain a bonus on damage equal to your Class Level. Notorious[ ] Your skill as a Bounty Hunter is known throughout the galaxy, even on fringe worlds. When you are not Disguised, you may reroll any Persuasion checks made to Intimidate, keeping the better of the two results. Nowhere to Hide[ ] You may choose to reroll any Gather Information checks made to Locate Individual, but you must accept the result of the reroll, even if it is worse. Relentless[ ] Prerequisites: Hunter's Mark, Hunter's Target This Talent applies only to an opponent you've designated as your Hunter's Target. Any attack or effect originating from the target that would normally move you along the Condition Track does not, in fact, move you along the Condition Track. Ruthless Negotiator[ ] Prerequisite: Notorious When Haggling over the price of a bounty, you can reroll your Persuasion check, keeping the better result. Additional Bounty Hunter Talents[ ] Detective[ ] Reference Book: Star Wars Saga Edition Galaxy of Intrigue You are skilled in locating individuals and using research and surveillance to learn some of their most intimate secrets. When you make a Gather Information check to locate an individual, the DC is reduced by 10, and the time and bribery cost are reduced by half. Dread[ ] Reference Book: Star Wars Saga Edition Scum and Villainy Prerequisites: Hunter's Mark, Hunter's Target As a Standard Action, you can instill bone-chilling fear in an opponent whom you selected for your Hunter's Target. Make a Persuasion check against your target's Will Defense. If you equal or exceed your target's Will Defense, that target takes a -5 penalty to its Will Defense. This is a Mind-Affecting effect. The penalty remains as long as you have line of sight to your target and immediately ends if the line of sight is broken. Electronic Trail[ ] Reference Book: Star Wars Saga Edition Galaxy of Intrigue Prerequisites: Nowhere to Hide, Trained in Use Computer Once you have located a target using Gather Information, you can track its electronic presence. Once per day, you receive a catalog of the target's Electronic Trail, which includes the amount and location of credits spent, the routes of any public transportation taken, and the sites viewed on the HoloNet while the target was logged in using its primary identity. To receive this information, you must have access to a computer or Datapad plus access to a network or The HoloNet. This Electronic Trail does not reveal bank balances or other secret information, which requires a separate Gather Information check. Familiar Enemies[ ] Reference Book: Star Wars Saga Edition Unknown Regions Prerequisite: Familiar Foe You can apply your Familiar Foe bonus against a second enemy. If you can see both enemies simultaneously in the same round, you need to spend only a single Full-Round Action observing them. Otherwise, you must spend a separate Full-Round Action on each enemy. Familiar Situation[ ] Reference Book: Star Wars Saga Edition Unknown Regions Prerequisite: Familiar Foe You can apply your Familiar Foe bonus to your Fortitude Defense and Will Defense against attacks and actions taken against you by the target of your Familiar Foe special quality. Fearsome[ ] Reference Book: Star Wars Saga Edition Force Unleashed Campaign Guide Prerequisite: Notorious Your reputation precedes you, striking fear in your target. Any opponent within 6 squares whose level is equal to or less than your Heroic Level takes a -1 penalty on attack rolls made against you. Jedi Hunter[ ] Reference Book: Star Wars Saga Edition Force Unleashed Campaign Guide You are skilled at fighting Jedi and other Force-users. You gain a +1 insight bonus to your Fortitude Defense and Will Defense, and deal +1 die of damage against characters who have the Force Sensitivity feat. Nowhere to Run[ ] Reference Book: Star Wars Saga Edition Scum and Villainy Prerequisites: Hunter's Mark, Hunter's Target, Nowhere to Hide Once per turn, whenever an opponent whom you selected for your Hunter's Target attempts to Withdraw, you can make an Attack of Opportunity against that target. Quick Cuffs[ ] Reference Book: Star Wars Saga Edition Unknown Regions Prerequisite: Quick Draw You are fast with the binders. As a Swift Action, when you successfully use the Grab Action against a target, you can use Binder Cuffs or similar restraints to bind one of the target's arms to one of your arms or to an adjacent object. You cannot use improvised materials, such as Mesh Tape, for this Talent, and the binders must be in your hands or readily available. You and the target both take a -2 penalty to attack rolls and Reflex Defense while bound together. Revealing Secrets[ ] Reference Book: Star Wars Saga Edition Galaxy of Intrigue Prerequisite: Detective Your investigations reveal information that your target though was secret. When you make a Gather Information check to learn secret information, the DC is reduced by 10 and the bribery cost is reduced to one-fifth the original cost. Signature Item[ ] Reference Book: Star Wars Saga Edition Force Unleashed Campaign Guide You are famous for using certain items, and you have become skilled at wielding them. You select a single weapon, suit of armor, Vehicle, or other item. While wielding that weapon, wearing that armor, piloting that Vehicle, or otherwise using that item, you gain a +2 morale bonus on opposed Skill Checks. You can select this Talent multiple times. Each time you do so, you choose a new object to be your Signature Item. The effects of multiple Signature Items are cumulative with one another, increasing this morale bonus by 1 point each time. Tag[ ] Reference Book: Star Wars Saga Edition Scum and Villainy Prerequisites: Hunter's Mark, Hunter's Target Whenever you damage an opponent whom you selected for your Hunter's Target, all allies gain a +2 bonus on their next attack roll against that opponent until the start of your next turn. Categories Categories: Talent Trees Bounty Hunter Talent Trees Core Rulebook Add category Cancel Save Community content is available under CC-BY-SA unless otherwise noted. More Fandoms Fantasy Sci-fi Star Wars",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Hunter's Mark talent",
+          "requirement": "Hunter's Mark",
+          "type": "TALENT"
+        },
+        {
+          "text": "Hunter's Target talent",
+          "requirement": "Hunter's Target",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Hunter's Mark talent, and Hunter's Target talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Bounty Hunter Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Core Rulebook",
+      "Bounty Hunter Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Bounty Hunter Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Bounty_Hunter_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Scum and Villainy",
+    "cost": "0"
+  },
+  "name": "Tag",
+  "flags": {},
+  "type": "talent",
+  "folder": "fTxo0dFHf6Zx5BEu",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385303008,
+    "modifiedTime": 1734385303008,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "o2Xu3LcnCnSbeBss",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!o2Xu3LcnCnSbeBss"
+}

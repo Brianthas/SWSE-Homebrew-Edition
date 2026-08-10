@@ -1,0 +1,67 @@
+{
+  "img": "systems/swse/icon/feat/A Few Maneuvers.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Threats_of_the_Galaxy\" title=\"Star Wars Saga Edition Threats of the Galaxy\">Star Wars Saga Edition Threats of the Galaxy</a></i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You can weave, juke, and roll to avoid enemy fire in the thick of combat.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Dodge\" title=\"Dodge\">Dodge</a>, <a href=\"https://swse.fandom.com/wiki/Vehicular_Combat\" title=\"Vehicular Combat\">Vehicular Combat</a></p><p><b>Effect:</b> When piloting a <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> of Colossal size or smaller, you grant a +2 dodge bonus to your Vehicle's <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>. Furthermore, if you are the target of a missile or torpedo attack and the attack roll misses by 5 or more, the projectile self-destructs harmlessly.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Dodge feat",
+          "requirement": "Dodge",
+          "type": "FEAT"
+        },
+        {
+          "text": "Vehicular Combat feat",
+          "requirement": "Vehicular Combat",
+          "type": "FEAT"
+        }
+      ],
+      "text": "Dodge feat, and Vehicular Combat feat",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Threats of the Galaxy",
+    "cost": "0"
+  },
+  "name": "A Few Maneuvers",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479026934,
+    "modifiedTime": 1761479026934,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "vo9PtJyVtmS3lYz0",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!vo9PtJyVtmS3lYz0"
+}

@@ -1,0 +1,72 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2d4",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A being begins its turn in the Blizzard.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Hourly, until the being leaves the Blizzard.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Endurance (DC 24): The character forces themselves to move through the storm, gaining a +5 circumstance bonus to Fortitude Defense against the Blizzard. Knowledge (Physical Sciences) (DC 14): The character identifies the Blizzard before it reaches them.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: A Blizzard grants Concealment to beings and objects within it.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Atmosphere",
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>A severe snowstorm blinds you and makes it difficult for you to move.</i> </p><p>Traveling through a Blizzard without outside aid can easily cause a group of heroes to stray off course and become lost. With the large amount of snow falling during such a storm, even sensors and radios become less effective. If the heroes are trying to find their way back to a ship or a base, they might suffer the frustration of knowing that they are close but are still unable to penetrate the storm. </p><p>A Blizzard is a good way to sneak in surprises for a party of heroes trekking across frozen plains. For example, a well-hidden <a href=\"https://swse.fandom.com/wiki/Wampa\" title=\"Wampa\">Wampa</a> or a squad of enemies might lurk just behind some large snowdrifts, or another Hazard such as a <a href=\"https://swse.fandom.com/wiki/Frozen_Lake\" title=\"Frozen Lake\">Frozen Lake</a> can increase the danger. </p><h2><span id=\"Blizzard_Statistics_.28CL_3.29\"></span><span class=\"mw-headline\" id=\"Blizzard_Statistics_(CL_3)\">Blizzard Statistics (CL 3)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Atmosphere, Natural </p><p><b>Trigger:</b> A being begins its turn in the Blizzard. </p><p><b>Attack:</b> +5 vs <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> </p><p><b>Recurrence:</b> Hourly, until the being leaves the Blizzard. </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Endurance\" title=\"Endurance\">Endurance</a> (DC 24):</b> The character forces themselves to move through the storm, gaining a +5 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> against the Blizzard.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Knowledge_(Physical_Sciences)\" class=\"mw-redirect\" title=\"Knowledge (Physical Sciences)\">Knowledge (Physical Sciences)</a> (DC 14):</b> The character identifies the Blizzard before it reaches them.</li>\n</ul><p><b>Special:</b> A Blizzard grants <a href=\"https://swse.fandom.com/wiki/Concealment\" title=\"Concealment\">Concealment</a> to beings and objects within it. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Blizzard",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244351,
+    "modifiedTime": 1749263244351,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "BNkXuUgzA5rpqYR3",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!BNkXuUgzA5rpqYR3"
+}

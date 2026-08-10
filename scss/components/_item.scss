@@ -16,10 +16,170 @@
   .sidebar{
     background: rgba(0,0,0,0.1);
   }
+
+  // Denser field sizing scoped to the item sheet only — the global input styling
+  // (_forms.scss, min-height 32px / font-size 1.25rem) is tuned for the actor sheet and reads
+  // as oversized/boxy here; this is the pf2e-style density pass, scoped so actor sheets are
+  // untouched.
+  input[type=text], input[type=number], select, .input, textarea {
+    min-height: 26px;
+    font-size: 0.85rem;
+    border-width: 1px;
+    border-radius: $radius-sm;
+    padding-left: $space-xs;
+  }
+
+  .labeled-input > label, .labeled-input-row > label {
+    font-size: 0.65rem;
+    top: 0.35rem;
+  }
+
+  // <select multiple> (Damage Type / Availability, dual-value weapons) — size="1" keeps it
+  // one row tall like a normal dropdown; the browser scrolls internally to reveal the rest.
+  select[multiple] {
+    overflow-y: auto;
+  }
 }
 
 .spacer{
   padding: 6px;
+}
+
+// Collapsible sections consolidated onto Summary (Provided/Prerequisites/Stripping &
+// Modifications/Modes/Levels/Additional Modifiers) — replaces what used to be a standalone
+// tab each. .panel/.collapse-toggle/.items-list/.section-header already have base styling
+// from their prior tab-only usage; this just tightens spacing now that several sit stacked.
+.item-section {
+  margin-bottom: $space-sm;
+
+  .collapse-toggle {
+    cursor: pointer;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    gap: $space-xs;
+    margin: 0;
+
+    i {
+      font-size: 10px;
+      width: 10px;
+    }
+  }
+}
+
+// Per-type typed stat block on the item sheet's Summary tab (templates/item/parts/stats/<type>.hbs)
+.weapon-stat-block {
+  gap: $space-xs;
+  margin-bottom: $space-xs;
+  // Override the shared .flex utility's `align-content: stretch` — with flex-wrap this spreads
+  // wrapped rows apart to fill any extra vertical space in the window (visible as growing gaps
+  // between rows once the sheet is resized taller than the fields need), instead of packing them
+  // tightly at the top like a form should.
+  align-content: flex-start;
+
+  .labeled-input {
+    min-width: 100px;
+  }
+
+  .weapon-special-qualities {
+    flex: 1 1 100%;
+
+    textarea {
+      resize: vertical;
+    }
+  }
+}
+
+// De-emphasized single-line strip for the "administrative" fields (cost/weight/availability) —
+// pf2e keeps Price/Bulk/Level similarly slim so visual weight goes to the stats that matter
+// mid-combat, not fields you set once and rarely touch again.
+.weapon-meta-strip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: $space-md;
+  margin-bottom: $space-sm;
+
+  .meta-field {
+    display: flex;
+    align-items: center;
+    gap: $space-2xs;
+
+    label {
+      font-size: 9px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      color: var(--swse-text-muted);
+    }
+
+    input, select {
+      height: 20px;
+      min-height: 0;
+      font-size: 10px;
+      padding: 0 $space-2xs;
+      width: 80px;
+      border-width: 1px;
+    }
+
+    select[multiple] {
+      overflow-y: auto;
+    }
+  }
+}
+
+// Compact pill-style Type/Subtype selects in the item header, near the name — pf2e's
+// most recognizable visual signature (trait tags) instead of full-width labeled dropdowns.
+// Still a native <select> underneath (fully editable, no interaction change), just restyled.
+.item-header-pills {
+  align-items: center;
+  gap: $space-xs;
+  margin-top: $space-2xs;
+}
+
+// The talent-tree/reference-book tag chips above the item name (header.hbs) had no styling
+// at all — no background, no gap between siblings — so multiple tags rendered as one run-on
+// word (e.g. "Soldier Talent TreesCore RulebookMelee Duelist Talent Trees").
+.tag {
+  display: inline-block;
+  padding: 1px $space-xs;
+  margin: 0 $space-2xs $space-2xs 0;
+  border-radius: $radius-sm;
+  background: var(--swse-surface-raised);
+  color: var(--swse-text-muted);
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.pill-select {
+  appearance: none;
+  -webkit-appearance: none;
+  min-height: 0;
+  height: 22px;
+  line-height: 20px;
+  padding: 0 22px 0 $space-sm;
+  border-radius: 999px;
+  border: 1px solid var(--swse-accent);
+  background-color: var(--swse-surface-raised);
+  color: var(--swse-accent);
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  background-image:
+    linear-gradient(45deg, transparent 50%, var(--swse-accent) 50%),
+    linear-gradient(135deg, var(--swse-accent) 50%, transparent 50%);
+  background-position: right 13px top 55%, right 9px top 55%;
+  background-size: 4px 4px, 4px 4px;
+  background-repeat: no-repeat;
+
+  &:hover {
+    background-color: var(--swse-accent);
+    color: var(--swse-bg);
+  }
 }
 
 .prerequisite{

@@ -1,0 +1,230 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Increase one Ability Score by 2 and reduce another by 2 to account for emphasis in certain attributes (such as Strength or Intelligence).",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Near Human Traits:1",
+        "key": "consumes"
+      }
+    ],
+    "choices": [
+      {
+        "noOptions": "NO_AVAILABLE_OPTIONS",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {},
+            "display": "Strength",
+            "name": "Strength",
+            "attributes": {
+              "0": {
+                "mode": 2,
+                "value": 2,
+                "key": "strengthBonus"
+              }
+            },
+            "value": "Strength"
+          },
+          {
+            "payloads": {},
+            "display": "Dexterity",
+            "name": "Dexterity",
+            "attributes": {
+              "0": {
+                "mode": 2,
+                "value": 2,
+                "key": "dexterityBonus"
+              }
+            },
+            "value": "Dexterity"
+          },
+          {
+            "payloads": {},
+            "display": "Constitution",
+            "name": "Constitution",
+            "attributes": {
+              "0": {
+                "mode": 2,
+                "value": 2,
+                "key": "constitutionBonus"
+              }
+            },
+            "value": "Constitution"
+          },
+          {
+            "payloads": {},
+            "display": "Intelligence",
+            "name": "Intelligence",
+            "attributes": {
+              "0": {
+                "mode": 2,
+                "value": 2,
+                "key": "intelligenceBonus"
+              }
+            },
+            "value": "Intelligence"
+          },
+          {
+            "payloads": {},
+            "display": "Wisdom",
+            "name": "Wisdom",
+            "attributes": {
+              "0": {
+                "mode": 2,
+                "value": 2,
+                "key": "wisdomBonus"
+              }
+            },
+            "value": "Wisdom"
+          },
+          {
+            "payloads": {},
+            "display": "Charisma",
+            "name": "Charisma",
+            "attributes": {
+              "0": {
+                "mode": 2,
+                "value": 2,
+                "key": "charismaBonus"
+              }
+            },
+            "value": "Charisma"
+          }
+        ],
+        "description": "Select an attribute to add a bonus:",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": true
+      },
+      {
+        "noOptions": "NO_AVAILABLE_OPTIONS",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {},
+            "display": "Strength",
+            "name": "Strength",
+            "attributes": {
+              "0": {
+                "mode": 2,
+                "value": -2,
+                "key": "strengthBonus"
+              }
+            },
+            "value": "Strength"
+          },
+          {
+            "payloads": {},
+            "display": "Dexterity",
+            "name": "Dexterity",
+            "attributes": {
+              "0": {
+                "mode": 2,
+                "value": -2,
+                "key": "dexterityBonus"
+              }
+            },
+            "value": "Dexterity"
+          },
+          {
+            "payloads": {},
+            "display": "Constitution",
+            "name": "Constitution",
+            "attributes": {
+              "0": {
+                "mode": 2,
+                "value": -2,
+                "key": "constitutionBonus"
+              }
+            },
+            "value": "Constitution"
+          },
+          {
+            "payloads": {},
+            "display": "Intelligence",
+            "name": "Intelligence",
+            "attributes": {
+              "0": {
+                "mode": 2,
+                "value": -2,
+                "key": "intelligenceBonus"
+              }
+            },
+            "value": "Intelligence"
+          },
+          {
+            "payloads": {},
+            "display": "Wisdom",
+            "name": "Wisdom",
+            "attributes": {
+              "0": {
+                "mode": 2,
+                "value": -2,
+                "key": "wisdomBonus"
+              }
+            },
+            "value": "Wisdom"
+          },
+          {
+            "payloads": {},
+            "display": "Charisma",
+            "name": "Charisma",
+            "attributes": {
+              "0": {
+                "mode": 2,
+                "value": -2,
+                "key": "charismaBonus"
+              }
+            },
+            "value": "Charisma"
+          }
+        ],
+        "description": "Select an attribute to add a penalty:",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": true
+      }
+    ],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "prerequisite": null,
+    "cost": "0"
+  },
+  "name": "Ability Adjustment (Near-Human)",
+  "flags": {},
+  "type": "trait",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764446477856,
+    "modifiedTime": 1764446477856,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "kAH2cmF1dnwDZ40Q",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!kAH2cmF1dnwDZ40Q"
+}

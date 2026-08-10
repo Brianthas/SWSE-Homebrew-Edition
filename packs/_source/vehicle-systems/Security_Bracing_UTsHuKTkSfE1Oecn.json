@@ -1,0 +1,67 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Defense Systems",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal (Frigate)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal (Cruiser)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal (Station)",
+          "type": "TRAIT"
+        }
+      ],
+      "count": 1,
+      "text": "Colossal or Larger",
+      "type": "OR"
+    },
+    "changes": [
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "securityBracing"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a> </i></p><p><b>Emplacement Points:&nbsp;</b> 2</p><p><b>Size Restriction:&nbsp;</b> Gargantuan or Larger</p><p>Security Bracing entails a series of internal bulkheads and clamps designed to protect a section of a Starship- even if the ship as a whole is destroyed. Only <a href=\"https://swse.fandom.com/wiki/Passenger_Conversions\" class=\"mw-redirect\" title=\"Passenger Conversions\">Passenger Conversions</a> and <a href=\"https://swse.fandom.com/wiki/Escape_Pods\" class=\"mw-redirect\" title=\"Escape Pods\">Escape Pods</a> can benefit from Security Bracing. When the ship reduced to 0 Hit Points by an attack that deals damage equal to or greater than its <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a> (thus destroying the ship), subtract the ship's DR from the damage dealt to anyone in an area protected by Security Bracing. Anyone outside this area takes damage equal to one-half the amount that exceeded the ship's <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a>, as normal.</p><p>Security Bracing is common in big luxury liners and diplomatic transport vessels.</p>",
+    "cost": "2000 (Base)",
+    "emplacementPoints": "2",
+    "availability": "Common"
+  },
+  "name": "Security Bracing",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848316957,
+    "modifiedTime": 1759848316957,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "UTsHuKTkSfE1Oecn",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!UTsHuKTkSfE1Oecn"
+}

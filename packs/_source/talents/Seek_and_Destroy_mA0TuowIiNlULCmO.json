@@ -1,0 +1,64 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "If you make a <a href=\"https://swse.fandom.com/wiki/Charge\" title=\"Charge\">Charge</a> attack against a target that is unaware of you, that target cannot make a <a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> check to notice you until after the attack is resolved, even if you move away from <a href=\"https://swse.fandom.com/wiki/Cover\" title=\"Cover\">Cover</a> or <a href=\"https://swse.fandom.com/wiki/Concealment\" title=\"Concealment\">Concealment</a>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Hidden Eyes talent",
+      "requirement": "Hidden Eyes",
+      "type": "TALENT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Scout Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Scout Talent Trees",
+      "Smuggler Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Surveillance Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Surveillance_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Clone Wars Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Seek and Destroy",
+  "flags": {},
+  "type": "talent",
+  "folder": "SkABj1THpsMW2YGO",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385312630,
+    "modifiedTime": 1786036141321,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "mA0TuowIiNlULCmO",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!mA0TuowIiNlULCmO"
+}

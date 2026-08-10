@@ -1,0 +1,106 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Legacy_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Legacy Era Campaign Guide\">Star Wars Saga Edition Legacy Era Campaign Guide</a></i> </p><p>A Refitted Vehicle is an older model from years past that has had its internal components upgraded to take advantage of advances in modern technology. A Refitted Vehicle maintains the basic structure of the original Vehicle but has the latest and greatest parts available in the current era. </p><h3><span class=\"mw-headline\" id=\"Modifications\">Modifications</span></h3><p>To create a Refitted Vehicle, make the following changes to an existing Vehicle: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "??",
+        "key": "cost"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "itemMod"
+      },
+      {
+        "mode": 2,
+        "value": "Repairs: Since Refitted Vehicles combine antiquated technology with modern components, sometimes the Vehicle must be treated gently and repairs can be challenging. A Refitted Vehicle increases the base DC of any Mechanics checks made to Repair it by +5.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": "Maintenance: Unlike normal Vehicles, Refitted Vehicles must be given extra maintenance to ensure that they continue to function as expected. Once per week the Refitted Vehicle must receive regular maintenance, which requires 1 hour of work (no Mechanics check required, though a Tool Kit is necessary to perform the maintenance).\nFailure to perform this maintenance moves the Refitted Vehicle -1 Persistent step down the Condition Track for each day it does not receive maintenance after one week.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": "Rare",
+        "key": "availability"
+      },
+      {
+        "mode": 2,
+        "value": "(USED + 20%)",
+        "key": "cost"
+      },
+      {
+        "mode": 2,
+        "value": "",
+        "key": "prefix"
+      },
+      {
+        "mode": 2,
+        "value": "",
+        "key": "suffix"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "hasItemOwner": false,
+    "subtype": "Vehicle Templates",
+    "prerequisite": {
+      "children": [
+        {
+          "children": [
+            {
+              "text": "vehicle",
+              "requirement": "vehicle",
+              "type": "TYPE"
+            },
+            {
+              "text": "vehicle",
+              "requirement": "npc-vehicle",
+              "type": "TYPE"
+            }
+          ],
+          "count": 1,
+          "text": "Is a Vehicle",
+          "type": "OR"
+        }
+      ],
+      "text": "and (Is a Vehicle)",
+      "type": "AND"
+    },
+    "cost": "??"
+  },
+  "name": "Refitted Vehicle Template",
+  "flags": {},
+  "type": "template",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.2",
+    "createdTime": 1729096741331,
+    "modifiedTime": 1729096741331,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "bYXaNqbvaeHZvdN7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!bYXaNqbvaeHZvdN7"
+}

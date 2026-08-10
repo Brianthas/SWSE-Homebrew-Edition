@@ -1,0 +1,91 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You are programmed to oversee other Droids. You can use each of the following actions once per encounter:",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Observant talent",
+          "requirement": "Observant",
+          "type": "TALENT"
+        },
+        {
+          "children": [
+            {
+              "text": "Talent from the Influence Talent Tree",
+              "requirement": "Influence Talent Tree",
+              "type": "TALENT"
+            },
+            {
+              "text": "Talent from the Inspiration Talent Tree",
+              "requirement": "Inspiration Talent Tree",
+              "type": "TALENT"
+            },
+            {
+              "text": "Talent from the Leadership Talent Tree",
+              "requirement": "Leadership Talent Tree",
+              "type": "TALENT"
+            }
+          ],
+          "count": 1,
+          "text": "Any Talent from the Influence Talent Tree, Inspiration Talent Tree, or Leadership Talent Tree",
+          "type": "OR"
+        }
+      ],
+      "text": "Observant talent, and (Any Talent from the Influence Talent Tree, Inspiration Talent Tree, or Leadership Talent Tree)",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Droid Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Droid Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "3rd-Degree Droid Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/3rd-Degree_Droid_Talent_Tree",
+    "bonusTalentTree": "3rd-Degree Droid Talent Tree",
+    "source": "Star Wars Saga Edition Scavenger's Guide to Droids",
+    "cost": "0"
+  },
+  "name": "Supervising Droid",
+  "flags": {},
+  "type": "talent",
+  "folder": "y7U7lkYUA8JVyA1M",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385301593,
+    "modifiedTime": 1734385301593,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "APDA40ykoiASylfM",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!APDA40ykoiASylfM"
+}

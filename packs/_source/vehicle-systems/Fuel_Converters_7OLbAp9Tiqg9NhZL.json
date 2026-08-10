@@ -1,0 +1,61 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Starship Accessories",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal (Frigate)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal (Cruiser)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal (Station)",
+          "type": "TRAIT"
+        }
+      ],
+      "count": 1,
+      "text": "Colossal or Larger",
+      "type": "OR"
+    },
+    "changes": [],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a> </i></p><p><b>Emplacement Points:</b>&nbsp;1</p><p><b>Size Restriction:&nbsp;</b> Colossal or Larger</p><p>Fuel Converters transform matter into usable <a href=\"https://swse.fandom.com/wiki/Fuel\" class=\"mw-redirect\" title=\"Fuel\">Fuel</a> that can keep a starship running even over long journeys. While Fuel Converters never eliminate the need to refuel during visits to spaceports, they can extend the amount of time between visits and reduce <a href=\"https://swse.fandom.com/wiki/Fuel\" class=\"mw-redirect\" title=\"Fuel\">Fuel</a> costs. Fuel Converters come in a variety of forms, including solid fuel converters, gas scoops, and solar converters. If the <a href=\"https://swse.fandom.com/wiki/Pilot_(Vehicle_Combat)\" title=\"Pilot (Vehicle Combat)\">Pilot</a> of a Starship with Fuel Converters spends at least 1 hour gathering <a href=\"https://swse.fandom.com/wiki/Fuel\" class=\"mw-redirect\" title=\"Fuel\">Fuel</a> in realspace, the ship regains one unit of fuel&nbsp;(enough for one day's travel in realspace, one hour's travel in atmosphere or in combat, or one Hyperspace jump).</p>",
+    "cost": "2400 (Base)",
+    "emplacementPoints": "1",
+    "availability": "Licensed"
+  },
+  "name": "Fuel Converters",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317709,
+    "modifiedTime": 1759848317709,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "7OLbAp9Tiqg9NhZL",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!7OLbAp9Tiqg9NhZL"
+}

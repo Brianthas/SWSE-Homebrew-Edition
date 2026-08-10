@@ -1,0 +1,107 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "When you wield only a single light melee weapon, or a single <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a>, once per turn on your turn, you can make a <a href=\"https://swse.fandom.com/wiki/Full_Attack\" title=\"Full Attack\">Full Attack</a> Action as a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a>, instead of a <a href=\"https://swse.fandom.com/wiki/Full-Round_Action\" class=\"mw-redirect\" title=\"Full-Round Action\">Full-Round Action</a>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "children": [
+            {
+              "text": "Double Attack with either Advanced Melee, an Exotic Weapon (Melee), or Lightsabers",
+              "requirement": "Double Attack (Advanced Melee Weapon)",
+              "type": "FEAT"
+            },
+            {
+              "text": "Double Attack with either Advanced Melee, an Exotic Weapon (Melee), or Lightsabers",
+              "requirement": "Double Attack (#payload#)",
+              "type": "FEAT"
+            },
+            {
+              "text": "Double Attack with either Advanced Melee, an Exotic Weapon (Melee), or Lightsabers",
+              "requirement": "Double Attack (Lightsabers)",
+              "type": "FEAT"
+            }
+          ],
+          "count": 1,
+          "text": "Double Attack with either Advanced Melee, an Exotic Weapon (Melee), or Lightsabers",
+          "type": "OR"
+        },
+        {
+          "children": [
+            {
+              "text": "Master of Elegance, Single Weapon Flourish I, Weapon Finesse",
+              "requirement": "Master of Elegance",
+              "type": "TALENT"
+            },
+            {
+              "text": "Master of Elegance, Single Weapon Flourish I, Weapon Finesse",
+              "requirement": "Single Weapon Flourish I",
+              "type": "TALENT"
+            },
+            {
+              "text": "Master of Elegance, Single Weapon Flourish I, Weapon Finesse",
+              "requirement": "Weapon Finesse",
+              "type": "FEAT"
+            }
+          ],
+          "text": "Master of Elegance, Single Weapon Flourish I, Weapon Finesse",
+          "type": "AND"
+        }
+      ],
+      "text": "(Double Attack with either Advanced Melee, an Exotic Weapon (Melee), or Lightsabers), and (Master of Elegance, Single Weapon Flourish I, Weapon Finesse)",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Melee Duelist Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Melee Duelist Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Melee Duelist Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Melee_Duelist_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Single Weapon Flourish II",
+  "flags": {},
+  "type": "talent",
+  "folder": "yJuUX8DjONvntwks",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385309199,
+    "modifiedTime": 1734385309199,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "k9mADv6xZsEBafBb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!k9mADv6xZsEBafBb"
+}

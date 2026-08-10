@@ -1,0 +1,78 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Jedi_Academy_Training_Manual\" title=\"Star Wars Saga Edition Jedi Academy Training Manual\">Star Wars Saga Edition Jedi Academy Training Manual</a></i> </p><p>A Lightwhip is similar to a Lightsaber in that it emits a beam of energy from its handgrip. The device differs though, in that the \"Blade\" is long and flexible, giving it the properties of a whip. Although a Lightwhip has a greater <a href=\"https://swse.fandom.com/wiki/Reach\" title=\"Reach\">Reach</a>, it lacks the power of a more traditional <a href=\"https://swse.fandom.com/wiki/Lightsaber_(Weapon)\" title=\"Lightsaber (Weapon)\">Lightsaber</a>. </p><p>A Lightwhip has a <a href=\"https://swse.fandom.com/wiki/Reach\" title=\"Reach\">Reach</a> of 2 squares. When you hit a target with a Lightwhip, it deals normal damage and you can initiate a <a href=\"https://swse.fandom.com/wiki/Grab\" title=\"Grab\">Grab</a> or <a href=\"https://swse.fandom.com/wiki/Grapple\" title=\"Grapple\">Grapple</a> against the target. A target that is <a href=\"https://swse.fandom.com/wiki/Grabbed\" class=\"mw-redirect\" title=\"Grabbed\">Grabbed</a> or <a href=\"https://swse.fandom.com/wiki/Grappled\" class=\"mw-redirect\" title=\"Grappled\">Grappled</a> can attempt to escape the Lightwhip (requiring a DC 15 <a href=\"https://swse.fandom.com/wiki/Acrobatics\" title=\"Acrobatics\">Acrobatics</a> check). You can use the <a href=\"https://swse.fandom.com/wiki/Pin\" title=\"Pin\">Pin</a> and <a href=\"https://swse.fandom.com/wiki/Trip\" title=\"Trip\">Trip</a> feats with a Lightwhip, but you cannot use the <a href=\"https://swse.fandom.com/wiki/Crush\" title=\"Crush\">Crush</a> or <a href=\"https://swse.fandom.com/wiki/Throw\" title=\"Throw\">Throw</a> feats. </p><p>Any character that ends its turn in a <a href=\"https://swse.fandom.com/wiki/Grab\" title=\"Grab\">Grab</a> or <a href=\"https://swse.fandom.com/wiki/Grapple\" title=\"Grapple\">Grapple</a> from a Lightwhip takes damage equal to the weapon's base damage (you do not add your <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> bonus, half your Heroic Level, or any other modifiers to this damage). </p><p>A Lightwhip requires a special&nbsp;<a href=\"https://swse.fandom.com/wiki/Energy_Cell\" title=\"Energy Cell\">Energy Cell</a>&nbsp;to operate (the cost is ten times the price of an ordinary&nbsp;<a href=\"https://swse.fandom.com/wiki/Energy_Cell\" title=\"Energy Cell\">Energy Cell</a>, but it lasts almost indefinitely). </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [
+      {
+        "noOptions": "NO_AVAILABLE_OPTIONS",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {
+              "payload": "AVAILABLE_LIGHTSABER_CRYSTALS"
+            },
+            "display": "AVAILABLE_LIGHTSABER_CRYSTALS",
+            "name": "AVAILABLE_LIGHTSABER_CRYSTALS",
+            "attributes": {}
+          }
+        ],
+        "description": "Lightsaber Crystal",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": false
+      }
+    ],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "5,000",
+    "weight": "1 Kilogram",
+    "availability": "Rare",
+    "size": "Medium",
+    "type": "",
+    "subtype": "Lightsabers",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "2d4",
+    "damageType": "Energy, Slashing"
+  },
+  "name": "Lightwhip",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Lightwhip.png",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513535,
+    "modifiedTime": 1786051513590,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "9uNemPn8oqJyy5go",
+  "_key": "!items!9uNemPn8oqJyy5go"
+}

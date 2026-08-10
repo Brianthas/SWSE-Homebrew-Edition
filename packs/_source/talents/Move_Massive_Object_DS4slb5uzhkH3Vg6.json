@@ -1,0 +1,74 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<i>See also: <a href=\"https://swse.fandom.com/wiki/Move_Object_Reality_Check\" title=\"Move Object Reality Check\">Move Object Reality Check</a></i><br><br>When you successfully use the <i><a href=\"https://swse.fandom.com/wiki/Move_Object\" title=\"Move Object\">Move Object</a></i> Force Power to move an object of Large size or bigger, you can make an <a href=\"https://swse.fandom.com/wiki/Area_Attack\" class=\"mw-redirect\" title=\"Area Attack\">Area Attack</a> with the object instead of throwing it at or dropping it on a single target, as normal for the Force Power. You must spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> when you activate the Force Power to do this, and the area you target is based on the size of the object: Large, 2x2; Huge, 3x3; Gargantuan, 4x4; Colossal and larger, 6x6.<br><br>When you use <i><a href=\"https://swse.fandom.com/wiki/Move_Object\" title=\"Move Object\">Move Object</a></i> to make an <a href=\"https://swse.fandom.com/wiki/Area_Attack\" class=\"mw-redirect\" title=\"Area Attack\">Area Attack</a> with the object you are moving, you compare your <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check to the <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> of each creature, <a href=\"https://swse.fandom.com/wiki/Droid\" class=\"mw-redirect\" title=\"Droid\">Droid</a>, and <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> in the target area. If your check equals or exceeds the target's <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>, it takes damage from the object (as determined by the <i><a href=\"https://swse.fandom.com/wiki/Move_Object\" title=\"Move Object\">Move Object</a></i> Force Power). Otherwise, the target takes half damage. This is an <a href=\"https://swse.fandom.com/wiki/Area_Effect\" class=\"mw-redirect\" title=\"Area Effect\">Area Effect</a>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Telekinetic Power talent",
+          "requirement": "Telekinetic Power",
+          "type": "TALENT"
+        },
+        {
+          "text": "Move Object force power",
+          "requirement": "Move Object",
+          "type": "FORCE POWER"
+        }
+      ],
+      "text": "Telekinetic Power talent, and Move Object force power",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Force Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Force Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Alter Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Alter_Talent_Tree",
+    "bonusTalentTree": "Force Talent Trees",
+    "source": "Star Wars Saga Edition Legacy Era Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Move Massive Object",
+  "flags": {},
+  "type": "talent",
+  "folder": "5lvvY96FVcYHpl0q",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385302011,
+    "modifiedTime": 1734385302011,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "DS4slb5uzhkH3Vg6",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!DS4slb5uzhkH3Vg6"
+}

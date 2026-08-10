@@ -1,0 +1,70 @@
+{
+  "img": "systems/swse/icon/feat/Jedi_Heritage.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Rebellion_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Rebellion Era Campaign Guide\">Star Wars Saga Edition Rebellion Era Campaign Guide</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a>, <a href=\"https://swse.fandom.com/wiki/Species_Feats\" class=\"mw-redirect\" title=\"Species Feats\">Species Feats</a></i></p><p>You come from a clan that has produced many Jedi, and you have overcome your Species' impulsiveness by becoming a master of <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a>.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Twi%27lek\" title=\"Twi'lek\">Twi'lek</a>, <a href=\"https://swse.fandom.com/wiki/Force_Sensitivity\" title=\"Force Sensitivity\">Force Sensitivity</a></p><p><b>Effect:</b>&nbsp;Your <a href=\"https://swse.fandom.com/wiki/Wisdom\" title=\"Wisdom\">Wisdom</a> score is considered to be 4 points higher for the purpose of determining how many <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a> you gain from the <a href=\"https://swse.fandom.com/wiki/Force_Training\" title=\"Force Training\">Force Training</a> Feat, granting you two extra <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a> for each <a href=\"https://swse.fandom.com/wiki/Force_Training\" title=\"Force Training\">Force Training</a> Feat.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Twi'lek species",
+          "requirement": "Twi'lek",
+          "type": "SPECIES"
+        },
+        {
+          "text": "Force Sensitivity feat",
+          "requirement": "Force Sensitivity",
+          "type": "FEAT"
+        }
+      ],
+      "text": "Twi'lek species, and Force Sensitivity feat",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Species Feats"
+      },
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Rebellion Era Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Jedi Heritage",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479027657,
+    "modifiedTime": 1761479027657,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "6C3IufzcVoUd31Ig",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!6C3IufzcVoUd31Ig"
+}

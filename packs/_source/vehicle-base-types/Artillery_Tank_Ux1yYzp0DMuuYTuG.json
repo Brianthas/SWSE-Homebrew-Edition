@@ -1,0 +1,113 @@
+{
+  "effects": [],
+  "system": {
+    "providedItems": [
+      {
+        "name": "Gargantuan",
+        "type": "trait"
+      }
+    ],
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Tracked Vehicle",
+        "key": "vehicleSubType"
+      },
+      {
+        "mode": 2,
+        "value": "42",
+        "key": "baseStrength"
+      },
+      {
+        "mode": 2,
+        "value": "12",
+        "key": "baseDexterity"
+      },
+      {
+        "mode": 2,
+        "value": "18",
+        "key": "baseIntelligence"
+      },
+      {
+        "mode": 2,
+        "value": "8 (200 km/h)",
+        "key": "speedCharacterScale"
+      },
+      {
+        "mode": 2,
+        "value": "-",
+        "key": "speedStarshipScale"
+      },
+      {
+        "mode": 2,
+        "value": "150",
+        "key": "hitPointEq"
+      },
+      {
+        "mode": 2,
+        "value": "15",
+        "key": "damageThresholdBonus"
+      },
+      {
+        "mode": 2,
+        "value": "+8",
+        "key": "armorReflexDefenseBonus"
+      },
+      {
+        "mode": 2,
+        "value": "50,000",
+        "key": "cost"
+      },
+      {
+        "mode": 2,
+        "value": "4",
+        "key": "crew"
+      },
+      {
+        "mode": 2,
+        "value": "4",
+        "key": "passengers"
+      },
+      {
+        "mode": 2,
+        "value": "0.25",
+        "key": "cargoCapacity"
+      },
+      {
+        "mode": 2,
+        "value": "1 Day",
+        "key": "consumables"
+      },
+      {
+        "mode": 2,
+        "value": "8",
+        "key": "emplacementPoints"
+      }
+    ],
+    "description": "",
+    "cost": "50,000"
+  },
+  "name": "Artillery Tank",
+  "flags": {},
+  "type": "vehicleBaseType",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.2",
+    "createdTime": 1729096745085,
+    "modifiedTime": 1729096745085,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "Ux1yYzp0DMuuYTuG",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!Ux1yYzp0DMuuYTuG"
+}

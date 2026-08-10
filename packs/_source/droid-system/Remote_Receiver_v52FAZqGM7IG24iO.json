@@ -1,0 +1,39 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Processor Systems",
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "droidPart"
+      }
+    ],
+    "description": "<p>This unit allows a Droid to receive instructions from a <a href=\"https://swse.fandom.com/wiki/Remote_Processor\" title=\"Remote Processor\">Remote Processor</a>. Only Droids without internal Processors (such as <a href=\"https://swse.fandom.com/wiki/B1_Series_Battle_Droid\" class=\"mw-redirect\" title=\"B1 Series Battle Droid\">B1 Series Battle Droids</a>) can be fitted with <strong class=\"mw-selflink selflink\">Remote Receivers</strong>. A <strong class=\"mw-selflink selflink\">Remote Receiver</strong> can only be connected to one <a href=\"https://swse.fandom.com/wiki/Remote_Processor\" title=\"Remote Processor\">Remote Processor</a> at a time. Changing the connection to a different <a href=\"https://swse.fandom.com/wiki/Remote_Processor\" title=\"Remote Processor\">Remote Processor</a> requires a DC 20 <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> check and a <a href=\"https://swse.fandom.com/wiki/Tool_Kit\" title=\"Tool Kit\">Tool Kit</a>.</p>",
+    "cost": "-500",
+    "weight": "1 Kilogram"
+  },
+  "name": "Remote Receiver",
+  "flags": {},
+  "type": "droid system",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764449015745,
+    "modifiedTime": 1764449015745,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "v52FAZqGM7IG24iO",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!v52FAZqGM7IG24iO"
+}

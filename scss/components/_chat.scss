@@ -1,8 +1,43 @@
 .chat-message{
-  background: var(--color-background);
-  .message-content{
-    .dice-formula, .dice-total{
+  background: var(--swse-bg);
+  // Dark background needs an explicit light text color — chat log text otherwise
+  // inherits Foundry's default dark-on-light color, rendering invisible here
+  // (roll formulas/totals were present in the DOM but unreadable).
+  color: var(--swse-text);
 
+  a {
+    color: var(--swse-accent);
+  }
+
+  .message-sender,
+  .flavor-text {
+    color: var(--swse-accent);
+  }
+
+  // Action buttons (Damage/Half/Double/Heal) render transparent by default, which
+  // against this dark background left icon + label unreadable.
+  .buttons button {
+    color: var(--swse-text);
+    background: var(--swse-surface-raised);
+    border: 1px solid var(--swse-border);
+    min-height: 40px;
+    padding: $space-2xs;
+    font-size: 10px;
+    line-height: 1.2;
+
+    i {
+      font-size: 12px;
+    }
+
+    .button-text {
+      white-space: nowrap;
+    }
+
+    &:hover,
+    &:focus {
+      color: var(--swse-bg);
+      background: var(--swse-accent);
+      border-color: var(--swse-accent);
     }
   }
 }

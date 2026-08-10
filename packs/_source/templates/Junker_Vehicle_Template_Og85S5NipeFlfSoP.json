@@ -1,0 +1,107 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:</i>&nbsp;<i><a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i> </p><p>The Junker Vehicle Template represents Starships (most often <a href=\"https://swse.fandom.com/wiki/Starfighters\" title=\"Starfighters\">Starfighters</a> and <a href=\"https://swse.fandom.com/wiki/Space_Transports\" title=\"Space Transports\">Space Transports</a>, though a Junker <a href=\"https://swse.fandom.com/wiki/Capital_Ship\" class=\"mw-redirect\" title=\"Capital Ship\">Capital Ship</a> is certainly possible) that are badly put together. Many Junkers are older Starships that haven't been properly maintained for so long that it's simply not possible to bring them back to fully functional status. Junkers can also represent ships that are poorly designed, making them Junkers right off the assembly line. </p><p>Junkers can also be used to represent \"Uglies,\" Starships constructed from parts of different ship designs. The most common Uglies are <a href=\"https://swse.fandom.com/wiki/TYE-Wings\" class=\"mw-redirect\" title=\"TYE-Wings\">TYE-Wings</a>, which combine the ball cockpit of a <a href=\"https://swse.fandom.com/wiki/TIE_Fighter\" title=\"TIE Fighter\">TIE Fighter</a> with the engines of a <a href=\"https://swse.fandom.com/wiki/Y-Wing\" class=\"mw-redirect\" title=\"Y-Wing\">Y-Wing</a>. <a href=\"https://swse.fandom.com/wiki/TYE-Wings\" class=\"mw-redirect\" title=\"TYE-Wings\">TYE-Wings</a> are slower than <a href=\"https://swse.fandom.com/wiki/TIE_Fighters\" class=\"mw-redirect\" title=\"TIE Fighters\">TIE Fighters</a> and lack the increased durability of <a href=\"https://swse.fandom.com/wiki/Y-Wings\" class=\"mw-redirect\" title=\"Y-Wings\">Y-Wings</a>, but because spare parts for those two models are so common, combining them into clunky, Ugly Starfighters sometimes makes sense. </p><h3><span class=\"mw-headline\" id=\"Modifications\">Modifications</span></h3><p>To create a Junker Vehicle, make the following changes to an existing <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a>: </p><ul>\n <li><b>Challenge Level (CL):</b> Reduce the CL of a Junker by 20% (rounded down).</li> \n <li><b>Initiative:</b> Reduce a Junker's <a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a> by 5 after all other modifications.</li> \n <li><b>Abilities:</b> Reduce a Junker's <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> by 4, and its <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> and <a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a> by 2 (to a minimum of 10 each). Recalculate all statistics derived from these Abilities' modifiers.</li> \n <li><b>System Failures:</b> A Junker is always on the verge of falling apart, and sometimes does so in the middle of combat. Every time a Junker moves down the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>, one of its systems fail. A failed system is totally nonfunctional and remains that way until the Junker moves back up the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>. Roll percentage dice to see what system fails (see below). If you roll a system your Junker does not have (such as rolling a <a href=\"https://swse.fandom.com/wiki/Hyperdrive\" title=\"Hyperdrive\">Hyperdrive</a> malfunction on a ship lacking a <a href=\"https://swse.fandom.com/wiki/Hyperdrive\" title=\"Hyperdrive\">Hyperdrive</a>), simply ignore the result- you got lucky.</li>\n</ul><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>D% </th> \n   <th> </th> \n   <th>FAILED SYSTEM </th>\n  </tr> \n  <tr> \n   <td>01-30 </td> \n   <td> </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Hyperdrive\" title=\"Hyperdrive\">Hyperdrive</a> </td>\n  </tr> \n  <tr> \n   <td>31-60 </td> \n   <td> </td> \n   <td>Engines (reduce <a href=\"https://swse.fandom.com/wiki/Starship_Scale\" class=\"mw-redirect\" title=\"Starship Scale\">Starship Scale</a> Speed by 1 square, and <a href=\"https://swse.fandom.com/wiki/Character_Scale\" class=\"mw-redirect\" title=\"Character Scale\">Character Scale</a> movement by the same percentage) </td>\n  </tr> \n  <tr> \n   <td>61-85 </td> \n   <td> </td> \n   <td>One <a href=\"https://swse.fandom.com/wiki/Weapon_System\" class=\"mw-redirect\" title=\"Weapon System\">Weapon System</a> or <a href=\"https://swse.fandom.com/wiki/Weapon_Battery\" class=\"mw-redirect\" title=\"Weapon Battery\">Weapon Battery</a> (determine which randomly) </td>\n  </tr> \n  <tr> \n   <td>86-95 </td> \n   <td> </td> \n   <td>Computer Core (-5 to all <a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> and <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> checks made with the Starship's equipment) </td>\n  </tr> \n  <tr> \n   <td>96-100 </td> \n   <td> </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Starship_Shields\" title=\"Starship Shields\">Starship Shields</a> </td>\n  </tr>\n </tbody>\n</table><ul>\n <li><b>Patchwork:</b> The one benefit of a Junker is that its clobbered-together systems are easier to patch back together into the semifunctional state they normally operate in. Reduce the DC of any <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> check made on a Junker by 2.</li>\n</ul>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "itemMod"
+      },
+      {
+        "mode": 2,
+        "value": "-5",
+        "key": "initiativeBonus"
+      },
+      {
+        "mode": 2,
+        "value": "",
+        "key": "prefix"
+      },
+      {
+        "mode": 2,
+        "value": "",
+        "key": "suffix"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Intelligence (-4)",
+        "type": "trait"
+      },
+      {
+        "name": "Dexterity (-4)",
+        "type": "trait"
+      },
+      {
+        "name": "Strength (-4)",
+        "type": "trait"
+      },
+      {
+        "name": "System Failures",
+        "type": "trait"
+      },
+      {
+        "name": "Patchwork",
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "hasItemOwner": false,
+    "subtype": "Vehicle Templates",
+    "prerequisite": {
+      "children": [
+        {
+          "children": [
+            {
+              "text": "vehicle",
+              "requirement": "vehicle",
+              "type": "TYPE"
+            },
+            {
+              "text": "vehicle",
+              "requirement": "npc-vehicle",
+              "type": "TYPE"
+            }
+          ],
+          "count": 1,
+          "text": "Is a Vehicle",
+          "type": "OR"
+        }
+      ],
+      "text": "and (Is a Vehicle)",
+      "type": "AND"
+    },
+    "cost": "0"
+  },
+  "name": "Junker Vehicle Template",
+  "flags": {},
+  "type": "template",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.2",
+    "createdTime": 1729096741304,
+    "modifiedTime": 1729096741304,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "Og85S5NipeFlfSoP",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!Og85S5NipeFlfSoP"
+}

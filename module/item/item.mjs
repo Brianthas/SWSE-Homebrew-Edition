@@ -5,16 +5,16 @@ import {
     toNumber,
     unique
 } from "../common/util.mjs";
-import {sizeArray, uniqueKey, ACTIVE_EFFECT_MODES} from "../common/constants.mjs";
+import {sizeArray, uniqueKey, ACTIVE_EFFECT_MODES, BEAST_HIT_DIE_BY_SIZE} from "../common/constants.mjs";
 import {getInheritableAttribute} from "../attribute-helper.mjs";
 import {changeSize} from "../actor/size.mjs";
 import {SimpleCache} from "../common/simple-cache.mjs";
 import {DEFAULT_LEVEL_EFFECT, DEFAULT_MODE_EFFECT, DEFAULT_MODIFICATION_EFFECT} from "../common/classDefaults.mjs";
-import {ItemAmmunitionDelegate} from "./ammunition/ammunitionDelegate.mjs";
 import {activateChoices} from "../choice/choice.mjs";
 import {formatPrerequisites, meetsPrerequisites} from "../prerequisite.mjs";
 import {resolveEntity} from "../compendium/compendium-util.mjs";
 import {generateAction} from "../action/generate-action.mjs";
+import {buildDefaultChanges} from "./default-changes.mjs";
 /**
  * Extend the basic Item with some very simple modifications.
  * @extends {Item}
@@ -22,11 +22,10 @@ import {generateAction} from "../action/generate-action.mjs";
 export class SWSEItem extends Item {
 
     async _preUpdate(changed, options, user) {
-        if(this.type !== changed.type){
+        if(changed.type !== undefined && changed.type !== this.type){
             options.recursive = false;
         }
         await super._preUpdate(changed, options, user);
-        //changed.system = changed.system || {};
     }
 
     get displayName(){
@@ -67,8 +66,6 @@ export class SWSEItem extends Item {
         this.cache = new SimpleCache();
 
         this.system.quantity = Number.isInteger(this.system.quantity) ? this.system.quantity : 1;
-
-        this.ammunition = new ItemAmmunitionDelegate(this);
 
         if (this.type === "vehicleTemplate") this.type = "vehicleBaseType"; //TODO remove vehicle template type after next major release
         if (this.type === "feat") this.prepareFeatData(this.system);
@@ -260,8 +257,14 @@ export class SWSEItem extends Item {
         return ['armor', 'weapon'].includes(this.type)
     }
 
+    /**
+     * Modes (fire modes, stances, etc.) conceptually only apply to physical gear — was
+     * hardcoded `true` for every item type, so a feat/talent/species always showed an empty
+     * "Modes" section with a live "add mode" button that made no sense for those types. Still
+     * shown for any type that already has mode-granting effects, so nothing existing breaks.
+     */
     get hasModes(){
-        return true;
+        return this.strippable || this.effects.some(e => e.isMode);
     }
 
     get hasLevels() {
@@ -316,6 +319,17 @@ export class SWSEItem extends Item {
 
 
         let modifiers = (item.system?.selectedChoices || []).join(", ");
+        if (!modifiers) {
+            // Feats/talents granted directly (e.g. Weapon Proficiency derived onto a character
+            // from their class's own granted feats, rather than picked via the interactive
+            // choice dialog) never get system.selectedChoices populated, even though the choice
+            // itself is baked into the item's own local changes — "Weapon Proficiency (Pistols)"
+            // would otherwise just display as "Weapon Proficiency" with no way to tell which.
+            // Fall back to reading the item's own identity-choice change directly.
+            const CHOICE_IDENTITY_KEYS = ["weaponProficiency", "weaponFocus", "greaterWeaponFocus", "weaponSpecialization", "greaterWeaponSpecialization", "skillFocus"];
+            const localChanges = item.system?.changes || [];
+            modifiers = localChanges.filter(c => CHOICE_IDENTITY_KEYS.includes(c.key)).map(c => c.value).join(", ");
+        }
         if (modifiers) {
             finalName = `${finalName} (${modifiers})`
         }
@@ -411,6 +425,12 @@ export class SWSEItem extends Item {
     }
 
     get levelUpHitPoints() {
+        // Homebrew "Beast HD" table: only the Beast class's own levels, on a beast-type
+        // actor, scale by size — a multiclassed second class keeps its normal flat die.
+        if (this.type === "class" && this.name === "Beast" && this.actor?.type === "beast") {
+            const sizeDie = BEAST_HIT_DIE_BY_SIZE[this.actor.size?.name];
+            if (sizeDie) return sizeDie;
+        }
         const map = getInheritableAttribute({
             entity: this,
             attributeKey: "levelUpHitPoints",
@@ -441,12 +461,10 @@ export class SWSEItem extends Item {
 
         let rolledHp = parseInt(attr)
 
-        const inheritableAttribute = getInheritableAttribute({
-            entity: this,
-            attributeKey: "levelUpHitPoints",
-            reduce: "FIRST"
-        });
-        let max = inheritableAttribute?.split("d")[1]
+        // Route through the levelUpHitPoints getter (not a second raw attribute read) so the
+        // die-max cap always agrees with the die actually shown/rolled on the Classes tab —
+        // this is also where the size-driven Beast HD override lives.
+        let max = `${this.levelUpHitPoints}`.split("d")[1]
         return rolledHp > max ? max : rolledHp;
 
     }
@@ -541,6 +559,44 @@ export class SWSEItem extends Item {
         return toNumber(maxDexBonuses) - toNumber(this.getStripping("reduceJointProtection"));
     }
 
+    /**
+     * Homebrew: some armor replaces the Dex-mod term of Reflex Defense outright instead of
+     * capping it. Value is either a flat number, or "str" to substitute the Strength modifier.
+     */
+    get armorDexterityOverride() {
+        let values = getInheritableAttribute({
+            entity: this,
+            attributeKey: 'armorDexterityOverride',
+            reduce: "VALUES"
+        });
+        return values.length ? values[0] : undefined;
+    }
+
+    /**
+     * Homebrew: a flat Armor Check Penalty some armor applies to Strength/Dexterity-based skills
+     * regardless of proficiency, separate from the existing non-proficiency ACP.
+     */
+    get armorFlatCheckPenalty() {
+        return toNumber(getInheritableAttribute({
+            entity: this,
+            attributeKey: 'armorFlatCheckPenalty',
+            reduce: "MAX"
+        }));
+    }
+
+    /**
+     * Homebrew: a flat speed reduction (in feet) some armor applies, replacing the standard
+     * Medium/Heavy 3/4-speed penalty. Undefined if this armor doesn't declare one.
+     */
+    get armorFlatSpeedPenalty() {
+        let values = getInheritableAttribute({
+            entity: this,
+            attributeKey: 'armorFlatSpeedPenalty',
+            reduce: "VALUES"
+        });
+        return values.length ? toNumber(values[0]) : undefined;
+    }
+
     get mods() {
         let actor = this.actor;
         if (!actor || !actor.data || !actor.items) {
@@ -573,6 +629,17 @@ export class SWSEItem extends Item {
 
     get size() {
         return SWSEItem.getItemSize(this);
+    }
+
+    /**
+     * Synthesized change entries from this item's own typed schema fields (see
+     * module/item/default-changes.mjs) — read by getLocalChangesOnDocument
+     * (module/attribute-helper.mjs) alongside the raw system.changes array, so migrating a
+     * type's mechanical data onto real fields doesn't require touching any
+     * getInheritableAttribute call site.
+     */
+    get defaultChanges() {
+        return buildDefaultChanges(this);
     }
 
     get baseSize(){
@@ -834,6 +901,32 @@ export class SWSEItem extends Item {
         return (this.type === "weapon" || this.type === "armor") && !this.isBioPart && !this.isDroidPart;
     }
 
+    /**
+     * Homebrew Light/Kit carrying-capacity category, read off this item's own `changes`
+     * (the same `lightSlotCost`/`kitSlotCost` keys `slots.mjs` sums for the actor). Returns
+     * "light", "kit", or null if the item hasn't been categorized (compendium-tagged items
+     * are pre-categorized; anything else is manually assignable from the Equipment tab).
+     */
+    get slotType() {
+        if (this.system.lightSlotCost) return "light";
+        if (this.system.kitSlotCost) return "kit";
+        const changes = this.system.changes || [];
+        if (changes.some(c => c.key === "lightSlotCost")) return "light";
+        if (changes.some(c => c.key === "kitSlotCost")) return "kit";
+        return null;
+    }
+
+    /**
+     * Homebrew: "Integrated" gear (surgically built-in rather than just carried) costs double
+     * its own Light/Kit slots — see slots.mjs's per-item slotCostMultiplier read. Same raw-changes
+     * scan pattern as slotType, since this is a plain toggle written directly onto system.changes,
+     * not a typed field.
+     */
+    get isIntegrated() {
+        const changes = this.system.changes || [];
+        return changes.some(c => c.key === "slotCostMultiplier");
+    }
+
     get isModification() {
         return this.type === "upgrade" || this.subType === "weapons and armor accessories";
     }
@@ -952,6 +1045,15 @@ export class SWSEItem extends Item {
             tags.push(this.system.bonusTalentTree)
         }
         return tags.distinct();
+    }
+
+    /**
+     * Descriptor tags (e.g. a Force Power's [Telekinetic]/[Dark Side]/[Mind-Affecting]/
+     * [Light Side]/[Lightsaber Form]) — distinct from `tags` above, which is sourcebook/
+     * provider-style chips for the item sheet header.
+     */
+    get descriptorTags(){
+        return getInheritableAttribute({entity: this, attributeKey: "tag", reduce: "VALUES"});
     }
 
     handleLegacyData(){
@@ -1794,9 +1896,16 @@ export class SWSEItem extends Item {
     toObject(source) {
         let o = super.toObject(source);
 
+        // Only override system.cost from a legacy changes[]-based "cost" entry when one actually
+        // exists — items with cost promoted to the typed field (see default-changes.mjs's
+        // UNIVERSAL_ITEM_FIELDS) no longer carry one, and super.toObject() has already serialized
+        // the correct typed-field value; unconditionally falling back to "0" here would silently
+        // wipe it on every duplicate/drag-to-embed.
         let changes = Array.isArray(o.system.changes) ? o.system.changes : Object.values(o.system.changes || {});
         let cost = changes.find(c => !!c && c.key === "cost") ?? null;
-        o.system.cost = (cost) ? cost["value"] : "0";
+        if (cost) {
+            o.system.cost = cost["value"];
+        }
         return o;
     }
 }

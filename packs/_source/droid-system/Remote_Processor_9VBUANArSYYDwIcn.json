@@ -1,0 +1,38 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Processor Systems",
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "droidPart"
+      }
+    ],
+    "description": "<table class=\"wikitable\">\n <tbody>\n  <tr>\n   <th><b>REMOTE PROCESSOR</b></th>\n   <th>COST</th>\n   <th>WEIGHT</th>\n   <th>AVAILABILITY</th>\n  </tr>\n  <tr>\n   <td>5-km Range Processor</td>\n   <td>1,000</td>\n   <td>10 kg</td>\n   <td>-</td>\n  </tr>\n  <tr>\n   <td>50-km Range Processor</td>\n   <td>10,000</td>\n   <td>100 kg</td>\n   <td>-</td>\n  </tr>\n  <tr>\n   <td>500-km Range Processor</td>\n   <td>100,000</td>\n   <td>1,000 kg</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Military\" class=\"mw-redirect\" title=\"Military\">Military</a></td>\n  </tr>\n  <tr>\n   <td>5,000-km Range Processor</td>\n   <td>1,000,000</td>\n   <td>10,000 kg</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Military\" class=\"mw-redirect\" title=\"Military\">Military</a></td>\n  </tr>\n </tbody>\n</table><p>The Droid's processor isn't located in the Droid; instead, the Droid is actually a drone for a Remote Processor. The processor equipped with a transmitter that allows a Droid equipped with the appropriate <a href=\"https://swse.fandom.com/wiki/Remote_Receiver\" title=\"Remote Receiver\">Remote Receiver</a> to operate as far away as 5 km (for the least expensive model) to as much as 5,000 km (for the most expensive model).</p><p>The advantage of a Remote Processor is that it makes the Droid much less expensive because it only needs a receiver instead of a local control system. The drawback is that the Droid doesn't react as quickly as a Droid with an internal Processor, so it suffers a -2 penalty to its <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a>.</p>",
+    "cost": "0"
+  },
+  "name": "Remote Processor",
+  "flags": {},
+  "type": "droid system",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764449015771,
+    "modifiedTime": 1764449015771,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "9VBUANArSYYDwIcn",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!9VBUANArSYYDwIcn"
+}

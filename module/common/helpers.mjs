@@ -1,4 +1,4 @@
-import {SUBTYPES} from "./constants.mjs";
+import {SUBTYPES, sizeArray, beastSizeArray, DAMAGE_TYPES, AVAILABILITY_TYPES} from "./constants.mjs";
 
 export const registerHandlebarsHelpers = function () {
 
@@ -132,6 +132,11 @@ export const registerHandlebarsHelpers = function () {
     });
 
     Handlebars.registerHelper('times', function(n, block) {
+        // Supports an {{else}} branch for the zero-iteration case, so templates can
+        // render an explicit empty state instead of silently collapsing to nothing.
+        if (!(n > 0)) {
+            return block.inverse ? block.inverse(this) : '';
+        }
         let accum = '';
         for(let i = 0; i < n;++i) {
             block.data.index = i;
@@ -160,6 +165,14 @@ export const registerHandlebarsHelpers = function () {
             values = Object.keys(game.system.documentTypes.Item).filter(type => type !== "base")
         } else if('subtype' === arg1){
             values = SUBTYPES[arg2] || [];
+        } else if('size' === arg1){
+            values = sizeArray;
+        } else if('beast-size' === arg1){
+            values = beastSizeArray;
+        } else if('damageType' === arg1){
+            values = DAMAGE_TYPES;
+        } else if('availability' === arg1){
+            values = AVAILABILITY_TYPES;
         } else if(Object.entries(arg1).length > 0){
             values = []
             let hash = arg2.hash;
@@ -169,20 +182,31 @@ export const registerHandlebarsHelpers = function () {
             values = Object.entries(arg1);
         }
 
+        // `selected` may be a single value or (for <select multiple>) an array of them —
+        // e.g. dual-damage-type weapons ("Energy, Slashing") pass an array from splitCsv.
+        const isSelected = (v) => Array.isArray(selected) ? selected.includes(v) : v === selected;
+
         let response = '';
 
         for(let value of values || []){
             if(Array.isArray(value)){
-                response += `<option value="${value[0]}" ${value[0] === selected ? 'selected' : ""}>${value[1].titleCase()}</option>`;
+                response += `<option value="${value[0]}" ${isSelected(value[0]) ? 'selected' : ""}>${value[1].titleCase()}</option>`;
             } if(!!value.value) {
                 const display = value.display || value.value;
                 const tooltip = value.tooltip ? ` title="${value.tooltip}"` : null;
-                response += `<option value="${value.value}" ${value.value === selected ? 'selected' : ""}${tooltip}>${display.titleCase()}</option>`;
+                response += `<option value="${value.value}" ${isSelected(value.value) ? 'selected' : ""}${tooltip}>${display.titleCase()}</option>`;
             } else {
-                response += `<option value="${value}" ${value === selected ? 'selected' : ""}>${value.titleCase()}</option>`;
+                response += `<option value="${value}" ${isSelected(value) ? 'selected' : ""}>${value.titleCase()}</option>`;
             }
         }
         return response;
+    });
+
+    // Splits a comma-joined stored value (e.g. a dual-damage-type weapon's "Energy, Slashing")
+    // into a trimmed array — feeds `options`' array-aware `selected` comparison for
+    // <select multiple> fields.
+    Handlebars.registerHelper('splitCsv', function(str) {
+        return (str || "").split(",").map(s => s.trim()).filter(Boolean);
     });
 
 

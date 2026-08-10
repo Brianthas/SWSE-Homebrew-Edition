@@ -1,0 +1,39 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Weapon Systems",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "TRACTOR_PRESSOR",
+        "key": "tractorBeam"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Clone_Wars_Campaign_Guide\" title=\"Star Wars Saga Edition Clone Wars Campaign Guide\">Star Wars Saga Edition Clone Wars Campaign Guide</a></i></p><p>This device functions as a <a href=\"https://swse.fandom.com/wiki/Tractor_Beam\" title=\"Tractor Beam\">Tractor Beam</a>, except that its <a href=\"https://swse.fandom.com/wiki/Grapple\" title=\"Grapple\">Grapple</a> bonus is halved (Rounded down). On a successful <a href=\"https://swse.fandom.com/wiki/Grapple\" title=\"Grapple\">Grapple</a>, the ship can choose to push the <a href=\"https://swse.fandom.com/wiki/Grappled\" class=\"mw-redirect\" title=\"Grappled\">Grappled</a> target 10 squares away (Or 1 square in <a href=\"https://swse.fandom.com/wiki/Starship_Scale\" class=\"mw-redirect\" title=\"Starship Scale\">Starship Scale</a>).</p>",
+    "cost": "-",
+    "availability": "Licensed"
+  },
+  "name": "Microtractor-Pressor",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317186,
+    "modifiedTime": 1759848317186,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "VhpQrxq9PnHSLAg4",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!VhpQrxq9PnHSLAg4"
+}

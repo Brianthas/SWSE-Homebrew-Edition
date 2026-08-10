@@ -1,0 +1,98 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Once per encounter as a <a href=\"https://swse.fandom.com/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a>, you reduce the <a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a> DC for all applications of the skill by your <a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a> modifier (minimum 1) until the start of your next turn. Additionally, when performing the <a href=\"https://swse.fandom.com/wiki/Critical_Care\" class=\"mw-redirect\" title=\"Critical Care\">Critical Care</a> application of the <a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a> skill, you take a -3 penalty to subsequent attempts at Critical Care in the last 24 hours, instead of the normal -5 penalty.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Treat Injury (perform that application)::kh:in: Untested, Homebrew Content, Talent Trees, and 4 more Noble Talent Trees Technician Talent Trees Medic Talent Trees Chellewalker Creations Treatment Talent Tree Edit Edit source History Talk (0) This Homebrew Content has not been reviewed in a meaningful manner. If you wish to review this content yourself, then see Untested for more details. Treatment Talent Tree data created by Wikia user Chellewalker (formerly Wikia user Lukewarner). You have learned to perform medical treatment in an exceptional manner. These techniques have allowed you to perform tasks more reliably and better than other healers. Contents 1 Back on their Feet 2 Capable Assistant 3 Makeshift Treatment 4 Medical Specialization 5 Reliable Treatment 6 Steady Hands Back on their Feet[ ] Prerequisite: Steady Hands After successfully performing the Revivify application of the Treat Injury skill, the target of your Revivify gains a number of Bonus Hit Points equal to 5 + your Character Level. These Bonus Hit Points last until the end of the encounter (at which point any remaining Bonus Hit Points are lost), and any damage dealt to that target comes out of Bonus Hit Points first. Capable Assistant[ ] Prerequisite: Trained in Treat Injury When using the Aid Another Action to aid a character with their Treat Injury check, you grant an additional +2 bonus for every 5 points by which you exceed the DC to assist. Makeshift Treatment[ ] Prerequisite: Skill Focus (Treat Injury) You can attempt the First Aid application of the Treat Injury skill without the use of a Medpac. However, doing so imposes a -5 penalty to the check. Medical Specialization[ ] Prerequisite: Skill Focus (Treat Injury) Choose a single method of medical treatment (Treat Disease, Treat Poison, or Treat Radiation). You may choose to reroll any Treat Injury check to perform that application, keeping the better of the two results. You may select this Talent multiple times. Each time you select this Talent, it applies to a different method of medical treatment. Reliable Treatment[ ] Prerequisite: Steady Hands When performing the First Aid or Heal Damage applications of the Treat Injury skill, you may choose to reroll any Treat Injury check to perform that application, but the result of the reroll must be accepted, even if it is worse. Steady Hands[ ] Prerequisite: Skill Focus (Treat Injury) Once per encounter as a Free Action, you reduce the Treat Injury DC for all applications of the skill by your Intelligence modifier (minimum 1) until the start of your next turn. Additionally, when performing the Critical Care application of the Treat Injury skill, you take a -3 penalty to subsequent attempts at Critical Care in the last 24 hours, instead of the normal -5 penalty. Categories Categories: Untested Homebrew Content Talent Trees Noble Talent Trees Technician Talent Trees Medic Talent Trees Chellewalker Creations Add category Cancel Save Community content is available under CC-BY-SA unless otherwise noted. More Fandoms Fantasy Sci-fi Star Wars",
+        "key": "skillReRoll"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Skill Focus (Treat Injury)",
+      "requirement": "Skill Focus (Treat Injury)",
+      "type": "FEAT"
+    },
+    "categories": [
+      {
+        "value": "Untested"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Chellewalker Creations"
+      },
+      {
+        "value": "Noble Talent Trees"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Medic Talent Trees"
+      },
+      {
+        "value": "Technician Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Untested",
+      "Chellewalker Creations",
+      "Noble Talent Trees",
+      "Homebrew Content",
+      "Medic Talent Trees",
+      "Technician Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Treatment Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Treatment_Talent_Tree",
+    "bonusTalentTree": "",
+    "cost": "0"
+  },
+  "name": "Steady Hands",
+  "flags": {},
+  "type": "talent",
+  "folder": "aIvlTsZffUPBdtBQ",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385312771,
+    "modifiedTime": 1734385312771,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "wDOUTBRfjF5WYoGz",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!wDOUTBRfjF5WYoGz"
+}

@@ -1,0 +1,84 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Once per encounter, after the first round of combat, you can make a <a href=\"https://swse.fandom.com/wiki/Knowledge_(Tactics)\" class=\"mw-redirect\" title=\"Knowledge (Tactics)\">Knowledge (Tactics)</a> check as a <a href=\"https://swse.fandom.com/wiki/Full-Round_Action\" class=\"mw-redirect\" title=\"Full-Round Action\">Full-Round Action</a> and compare the result to the <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a> of all enemies with in 12 squares of you and within your line of sight. If your check is successful, affected enemies must reroll their <a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a> checks at the start of the next round. Allies within your line of sight can choose whether to reroll their check. Rerolls and other modifiers to the <a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a> skill apply normally to this check for all affected targets.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:Once per encounter, after the first round of combat, you can make a<a href=\"https://swse.fandom.com/wiki/Knowledge_(Tactics)\" class=\"mw-redirect\" title=\"Knowledge (Tactics)\">Knowledge (Tactics)</a>check as a<a href=\"https://swse.fandom.com/wiki/Full-Round_Action\" class=\"mw-redirect\" title=\"Full-Round Action\">Full-Round Action</a>and compare the result to the<a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a>of all enemies with in 12 squares of you and within your line of sight. If your check is successful, affected enemies must reroll their<a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a>checks at the start of the next round. Allies within your line of sight can choose whether to reroll their check. Rerolls and other modifiers to the<a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a>skill apply normally to this check for all affected targets.",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Commander's Prerogative talent",
+          "requirement": "Commander's Prerogative",
+          "type": "TALENT"
+        },
+        {
+          "text": "Trained in Initiative",
+          "requirement": "Initiative",
+          "type": "TRAINED SKILL"
+        }
+      ],
+      "text": "Commander's Prerogative talent, and Trained in Initiative",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Officer Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Core Rulebook",
+      "Officer Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Military Tactics Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Military_Tactics_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Turn the Tide",
+  "flags": {},
+  "type": "talent",
+  "folder": "NfETUqBj5GcE5r4j",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385309612,
+    "modifiedTime": 1734385309612,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "gMJOkk7hDbChmq1j",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!gMJOkk7hDbChmq1j"
+}

@@ -1,0 +1,71 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2d10",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A being enters a square in containing Low-Hanging Branches.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "On Trigger",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Perception (DC 14): The character detects the Low-Hanging Branches as they approach, gaining a +5 bonus to Reflex Defense to avoid them.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: For targets riding on a creature or in a vehicle that does not provide Total Cover, the Hazard's damage is 2d10x2.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>A number of branches covered in jagged razorvine hang down in your path, making it difficult to maneuver past them safely.</i> </p><p>Running into branches while traveling through a forest or jungle is never pleasant, especially when moving at high velocity on a <a href=\"https://swse.fandom.com/wiki/Speeder_Bike\" class=\"mw-redirect\" title=\"Speeder Bike\">Speeder Bike</a> or a <a href=\"https://swse.fandom.com/wiki/Mount\" class=\"mw-redirect\" title=\"Mount\">Mount</a>. Although Low-Hanging Branches cause problems on their own- especially those covered with sharp vines- some beings find ways to use the limbs as makeshift weapons, pulling them back and releasing them as opponents run or ride past. Clever manipulators also use Low-Hanging Branches to divert their foes toward another trap planted along a path that looks more appealing. </p><h2><span id=\"Low-Hanging_Branches_Statistics_.28CL_2.29\"></span><span class=\"mw-headline\" id=\"Low-Hanging_Branches_Statistics_(CL_2)\">Low-Hanging Branches Statistics (CL 2)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Natural </p><p><b>Trigger:</b> A being enters a square in containing Low-Hanging Branches. </p><p><b>Attack:</b> +4 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> On Trigger </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> (DC 14):</b> The character detects the Low-Hanging Branches as they approach, gaining a +5 bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> to avoid them.</li>\n</ul><p><b>Special:</b> For targets riding on a creature or in a vehicle that does not provide <a href=\"https://swse.fandom.com/wiki/Total_Cover\" class=\"mw-redirect\" title=\"Total Cover\">Total Cover</a>, the Hazard's damage is 2d10x2. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Low-Hanging Branches",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244603,
+    "modifiedTime": 1749263244603,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "WkbFS03syyDIfV6T",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!WkbFS03syyDIfV6T"
+}

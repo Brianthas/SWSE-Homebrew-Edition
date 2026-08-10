@@ -1,0 +1,83 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "When attacking with an <a href=\"https://swse.fandom.com/wiki/Autofire\" title=\"Autofire\">Autofire</a>-capable weapon, you may deal +1 die of damage. This increased damage die stacks with the increased damage from the <a href=\"https://swse.fandom.com/wiki/Burst_Fire\" title=\"Burst Fire\">Burst Fire</a> and <a href=\"https://swse.fandom.com/wiki/Rapid_Shot\" title=\"Rapid Shot\">Rapid Shot</a> Feats.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Controlled Burst talent",
+          "requirement": "Controlled Burst",
+          "type": "TALENT"
+        },
+        {
+          "text": "Weapon Proficiency (Heavy Weapons)",
+          "requirement": "Weapon Proficiency (Heavy Weapons)",
+          "type": "FEAT"
+        },
+        {
+          "text": "Strength 15",
+          "requirement": "Strength 15",
+          "type": "ATTRIBUTE"
+        }
+      ],
+      "text": "Controlled Burst talent, Weapon Proficiency (Heavy Weapons), and Strength 15",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Elite Trooper Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Elite Trooper Talent Trees",
+      "Core Rulebook"
+    ],
+    "isSupplied": false,
+    "talentTree": "Weapon Master Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Weapon_Master_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Legacy of the Force Sourcebook",
+    "cost": "0"
+  },
+  "name": "Heavy Gunner",
+  "flags": {},
+  "type": "talent",
+  "folder": "Jbx6AQ4WPZtZfcGj",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385313447,
+    "modifiedTime": 1734385313447,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "ikhQykcw8gFAkR2o",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!ikhQykcw8gFAkR2o"
+}

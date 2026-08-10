@@ -1,0 +1,102 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Jedi_Academy_Training_Manual\" title=\"Star Wars Saga Edition Jedi Academy Training Manual\">Star Wars Saga Edition Jedi Academy Training Manual</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a></i> </p><p><b>[<i><a href=\"https://swse.fandom.com/wiki/Lightsaber_Form\" class=\"mw-redirect\" title=\"Lightsaber Form\">Lightsaber Form</a></i>]</b> </p><p>You create a protected area around yourself, through which enemies have difficulty reaching you or your allies. </p><p><b>Time:</b> <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a> </p><p><b>Targets:</b> Self, plus all adjacent allies </p><p><b>Make a <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check.</b> The result of the check determines the effects, if any: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td>Until the end of your next turn, you and all adjacent allies gain a +1 deflection bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td>Until the end of your next turn, you and all adjacent allies gain a +2 deflection bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td>Until the end of your next turn, you and all adjacent allies gain a +5 deflection bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>. </td>\n  </tr>\n </tbody>\n</table><p><b>Lightsaber Form (<a href=\"https://swse.fandom.com/wiki/Soresu\" class=\"mw-redirect\" title=\"Soresu\">Soresu</a>)</b>: If you have the <a href=\"https://swse.fandom.com/wiki/Soresu\" class=\"mw-redirect\" title=\"Soresu\"><b>Soresu</b></a> Talent, you can add the deflection bonus on <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> checks made to use the <a href=\"https://swse.fandom.com/wiki/Block\" class=\"mw-redirect\" title=\"Block\"><b>Block</b></a> and <a href=\"https://swse.fandom.com/wiki/Deflect\" class=\"mw-redirect\" title=\"Deflect\"><b>Deflect</b></a> Talents until the end of your next turn. </p><p><b>Special:</b> You can spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> to also apply the deflection bonus from this Form Power to the <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> of all adjacent allies. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Lightsaber Form",
+        "key": "tag"
+      },
+      {
+        "mode": 2,
+        "value": "Standard Action",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "Self, plus all adjacent allies",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "cumulative"
+      },
+      {
+        "mode": 2,
+        "value": "Use the Force",
+        "key": "rollType"
+      },
+      {
+        "mode": 2,
+        "value": "20:Until the end of your next turn, you and all adjacent allies gain a +1 deflection bonus to Reflex Defense.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "25:Until the end of your next turn, you and all adjacent allies gain a +2 deflection bonus to Reflex Defense.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "30:Until the end of your next turn, you and all adjacent allies gain a +5 deflection bonus to Reflex Defense.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "Reference Book: Star Wars Saga Edition Jedi Academy Training Manual See also: Force Powers [Lightsaber Form] You create a protected area around yourself, through which enemies have difficulty reaching you or your allies. Time: Standard Action Targets: Self, plus all adjacent allies Make a Use the Force check. The result of the check determines the effects, if any: Lightsaber Form (Soresu): If you have the Soresu Talent, you can add the deflection bonus on Use the Force checks made to use the Block and Deflect Talents until the end of your next turn. Special: You can spend a Force Point to also apply the deflection bonus from this Form Power to the Fortitude Defense of all adjacent allies.",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Lightsaber Form Force Powers"
+      },
+      {
+        "value": "Force Powers"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Circle of Shelter",
+  "flags": {},
+  "type": "forcePower",
+  "img": "systems/swse/icon/force-power/Circle_of_Shelter.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738608589384,
+    "modifiedTime": 1738608589384,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "f4iqmNo3RS6slj20",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!f4iqmNo3RS6slj20"
+}

@@ -1,0 +1,102 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Jedi_Academy_Training_Manual\" title=\"Star Wars Saga Edition Jedi Academy Training Manual\">Star Wars Saga Edition Jedi Academy Training Manual</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a></i> </p><p><b>[<i><a href=\"https://swse.fandom.com/wiki/Lightsaber_Form\" class=\"mw-redirect\" title=\"Lightsaber Form\">Lightsaber Form</a></i>]</b> </p><p>You know how to take advantage of the terrain and gain a defensive advantage from it. </p><p><b>Time:</b> <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a> </p><p><b>Targets:</b> Self </p><p><b>Make a <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check.</b> The result of the check determines the effect, if any: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>15 </td> \n   <td>Until the start of your next turn, if you are standing on a low object or in <a href=\"https://swse.fandom.com/wiki/Difficult_Terrain\" title=\"Difficult Terrain\">Difficult Terrain</a>, any creature that moves adjacent to you provokes an <a href=\"https://swse.fandom.com/wiki/Attack_of_Opportunity\" class=\"mw-redirect\" title=\"Attack of Opportunity\">Attack of Opportunity</a> from you. </td>\n  </tr> \n  <tr> \n   <td>20 </td> \n   <td>Until the start of your next turn, if you are standing on a low object or in <a href=\"https://swse.fandom.com/wiki/Difficult_Terrain\" title=\"Difficult Terrain\">Difficult Terrain</a>, any creature that moves adjacent to you provokes an <a href=\"https://swse.fandom.com/wiki/Attack_of_Opportunity\" class=\"mw-redirect\" title=\"Attack of Opportunity\">Attack of Opportunity</a> from you. Additionally, you gain a +1 <a href=\"https://swse.fandom.com/wiki/Force\" class=\"mw-redirect\" title=\"Force\">Force</a> bonus on <a href=\"https://swse.fandom.com/wiki/Attacks_of_Opportunity\" title=\"Attacks of Opportunity\">Attacks of Opportunity</a> (including this one) until the start of your next turn. </td>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td>Until the start of your next turn, if you are standing on a low object or in <a href=\"https://swse.fandom.com/wiki/Difficult_Terrain\" title=\"Difficult Terrain\">Difficult Terrain</a>, any creature that moves adjacent to you provokes an <a href=\"https://swse.fandom.com/wiki/Attack_of_Opportunity\" class=\"mw-redirect\" title=\"Attack of Opportunity\">Attack of Opportunity</a> from you. Additionally, you gain a +2 <a href=\"https://swse.fandom.com/wiki/Force\" class=\"mw-redirect\" title=\"Force\">Force</a> bonus on <a href=\"https://swse.fandom.com/wiki/Attacks_of_Opportunity\" title=\"Attacks of Opportunity\">Attacks of Opportunity</a> (including this one) until the start of your next turn. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td>Until the start of your next turn, if you are standing on a low object or in <a href=\"https://swse.fandom.com/wiki/Difficult_Terrain\" title=\"Difficult Terrain\">Difficult Terrain</a>, any creature that moves adjacent to you provokes an <a href=\"https://swse.fandom.com/wiki/Attack_of_Opportunity\" class=\"mw-redirect\" title=\"Attack of Opportunity\">Attack of Opportunity</a> from you. Additionally, you gain a +5 <a href=\"https://swse.fandom.com/wiki/Force\" class=\"mw-redirect\" title=\"Force\">Force</a> bonus on <a href=\"https://swse.fandom.com/wiki/Attacks_of_Opportunity\" title=\"Attacks of Opportunity\">Attacks of Opportunity</a> (including this one) until the start of your next turn. </td>\n  </tr>\n </tbody>\n</table><p><b>Lightsaber Form (<a href=\"https://swse.fandom.com/wiki/Sokan\" class=\"mw-redirect\" title=\"Sokan\">Sokan</a>)</b>: If you have the <a href=\"https://swse.fandom.com/wiki/Sokan\" class=\"mw-redirect\" title=\"Sokan\"><b>Sokan</b></a> Talent, you deal +1 die of damage on <a href=\"https://swse.fandom.com/wiki/Attacks_of_Opportunity\" title=\"Attacks of Opportunity\">Attacks of Opportunity</a> until the start of your next turn. </p><p><b>Special:</b> You can spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> to move 1 square each time you make an <a href=\"https://swse.fandom.com/wiki/Attack_of_Opportunity\" class=\"mw-redirect\" title=\"Attack of Opportunity\">Attack of Opportunity</a> until the start of your next turn. This movement does not provoke <a href=\"https://swse.fandom.com/wiki/Attacks_of_Opportunity\" title=\"Attacks of Opportunity\">Attacks of Opportunity</a>. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Lightsaber Form",
+        "key": "tag"
+      },
+      {
+        "mode": 2,
+        "value": "Swift Action",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "Self",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": "Use the Force",
+        "key": "rollType"
+      },
+      {
+        "mode": 2,
+        "value": "15:Until the start of your next turn, if you are standing on a low object or in Difficult Terrain, any creature that moves adjacent to you provokes an Attack of Opportunity from you.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "20:Until the start of your next turn, if you are standing on a low object or in Difficult Terrain, any creature that moves adjacent to you provokes an Attack of Opportunity from you. Additionally, you gain a +1 Force bonus on Attacks of Opportunity (including this one) until the start of your next turn.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "25:Until the start of your next turn, if you are standing on a low object or in Difficult Terrain, any creature that moves adjacent to you provokes an Attack of Opportunity from you. Additionally, you gain a +2 Force bonus on Attacks of Opportunity (including this one) until the start of your next turn.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "30:Until the start of your next turn, if you are standing on a low object or in Difficult Terrain, any creature that moves adjacent to you provokes an Attack of Opportunity from you. Additionally, you gain a +5 Force bonus on Attacks of Opportunity (including this one) until the start of your next turn.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "Reference Book: Star Wars Saga Edition Jedi Academy Training Manual See also: Force Powers [Lightsaber Form] You know how to take advantage of the terrain and gain a defensive advantage from it. Time: Swift Action Targets: Self Make a Use the Force check. The result of the check determines the effect, if any: Lightsaber Form (Sokan): If you have the Sokan Talent, you deal +1 die of damage on Attacks of Opportunity until the start of your next turn. Special: You can spend a Force Point to move 1 square each time you make an Attack of Opportunity until the start of your next turn. This movement does not provoke Attacks of Opportunity.",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Lightsaber Form Force Powers"
+      },
+      {
+        "value": "Force Powers"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "High Ground Defense",
+  "flags": {},
+  "type": "forcePower",
+  "img": "systems/swse/icon/force-power/High_Ground_Defense.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738608590284,
+    "modifiedTime": 1738608590284,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "OFQucvmn2Zq7DyhB",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!OFQucvmn2Zq7DyhB"
+}

@@ -1,0 +1,1230 @@
+{
+  "name": "Smuggler",
+  "type": "class",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Homebrew Class</i></p><p>The Smuggler combines the Scoundrel and Scout classes into one — quick-witted operators equally at home talking their way out of trouble or navigating the wild regions of the galaxy. A Smuggler gains access to all talent trees and bonus feats associated with either Scoundrel or Scout (except Malkite Poisoner and Yuuzhan Vong Biotech), choosing one Talent every odd level and one Bonus Feat every even level from either pool.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": 5,
+        "key": "trainedSkillsFirstLevel"
+      },
+      {
+        "mode": 2,
+        "value": "Acrobatics",
+        "key": "classSkill"
+      },
+      {
+        "mode": 2,
+        "value": "Deception",
+        "key": "classSkill"
+      },
+      {
+        "mode": 2,
+        "value": "Endurance",
+        "key": "classSkill"
+      },
+      {
+        "mode": 2,
+        "value": "Gather Information",
+        "key": "classSkill"
+      },
+      {
+        "mode": 2,
+        "value": "Initiative",
+        "key": "classSkill"
+      },
+      {
+        "mode": 2,
+        "value": "Knowledge (all skills, taken individually)",
+        "key": "classSkill"
+      },
+      {
+        "mode": 2,
+        "value": "Mechanics",
+        "key": "classSkill"
+      },
+      {
+        "mode": 2,
+        "value": "Perception",
+        "key": "classSkill"
+      },
+      {
+        "mode": 2,
+        "value": "Persuasion",
+        "key": "classSkill"
+      },
+      {
+        "mode": 2,
+        "value": "Pilot",
+        "key": "classSkill"
+      },
+      {
+        "mode": 2,
+        "value": "Stealth",
+        "key": "classSkill"
+      },
+      {
+        "mode": 2,
+        "value": "Survival",
+        "key": "classSkill"
+      },
+      {
+        "mode": 2,
+        "value": "Use Computer",
+        "key": "classSkill"
+      },
+      {
+        "mode": 2,
+        "value": 24,
+        "key": "firstLevelHitPoints"
+      },
+      {
+        "mode": 2,
+        "value": "1d8",
+        "key": "levelUpHitPoints"
+      },
+      {
+        "mode": 2,
+        "value": 5,
+        "key": "classForcePoints"
+      },
+      {
+        "mode": 2,
+        "value": 1,
+        "key": "classFortitudeDefenseBonus"
+      },
+      {
+        "mode": 2,
+        "value": 2,
+        "key": "classReflexDefenseBonus"
+      },
+      {
+        "mode": 2,
+        "value": 1,
+        "key": "classWillDefenseBonus"
+      },
+      {
+        "mode": 2,
+        "value": "Weapon Proficiency (Advanced Melee)",
+        "key": "classFeat"
+      },
+      {
+        "mode": 2,
+        "value": "Weapon Proficiency (Pistols)",
+        "key": "classFeat"
+      },
+      {
+        "mode": 2,
+        "value": "Weapon Proficiency (Rifles)",
+        "key": "classFeat"
+      },
+      {
+        "mode": 2,
+        "value": "Weapon Proficiency (Simple Weapons)",
+        "key": "classFeat"
+      },
+      {
+        "mode": 2,
+        "value": "Quick Draw",
+        "key": "classFeat"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHeroic"
+      },
+      {
+        "mode": 2,
+        "value": false,
+        "key": "isPrestige"
+      },
+      {
+        "mode": 2,
+        "value": false,
+        "key": "isFollowerTemplate"
+      },
+      {
+        "mode": 2,
+        "value": "Athletics",
+        "key": "classSkill"
+      },
+      {
+        "mode": 2,
+        "value": "Advanced Melee",
+        "key": "weaponProficiency"
+      },
+      {
+        "mode": 2,
+        "value": "Pistols",
+        "key": "weaponProficiency"
+      },
+      {
+        "mode": 2,
+        "value": "Rifles",
+        "key": "weaponProficiency"
+      },
+      {
+        "mode": 2,
+        "value": "Simple Weapons",
+        "key": "weaponProficiency"
+      }
+    ],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": null,
+    "levels": {},
+    "levelsTaken": [],
+    "cost": "0"
+  },
+  "effects": [
+    {
+      "name": "Level 1",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 1
+        }
+      },
+      "disabled": true,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Smuggler Talent Trees",
+            "key": "provides",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "transfer": true,
+      "_id": "2XfpgrOyEwD6KiBl",
+      "img": "icons/svg/aura.svg",
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786036178773,
+        "modifiedTime": 1786036178773,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!tFMnvnN2IdsvjMa9.2XfpgrOyEwD6KiBl"
+    },
+    {
+      "name": "Level 2",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 2
+        }
+      },
+      "disabled": true,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Smuggler Bonus Feats",
+            "key": "provides",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "transfer": true,
+      "_id": "MfwukdylaqxI4V9x",
+      "img": "icons/svg/aura.svg",
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786036178773,
+        "modifiedTime": 1786036178773,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!tFMnvnN2IdsvjMa9.MfwukdylaqxI4V9x"
+    },
+    {
+      "name": "Level 3",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 3
+        }
+      },
+      "disabled": true,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Smuggler Talent Trees",
+            "key": "provides",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "transfer": true,
+      "_id": "AaB7mFfM0e8Yfaxw",
+      "img": "icons/svg/aura.svg",
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786036178773,
+        "modifiedTime": 1786036178773,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!tFMnvnN2IdsvjMa9.AaB7mFfM0e8Yfaxw"
+    },
+    {
+      "name": "Level 4",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 4
+        }
+      },
+      "disabled": true,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Smuggler Bonus Feats",
+            "key": "provides",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "transfer": true,
+      "_id": "mJaZ2GPqvNuMNcTt",
+      "img": "icons/svg/aura.svg",
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786036178773,
+        "modifiedTime": 1786036178773,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!tFMnvnN2IdsvjMa9.mJaZ2GPqvNuMNcTt"
+    },
+    {
+      "name": "Level 5",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 5
+        }
+      },
+      "disabled": true,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Smuggler Talent Trees",
+            "key": "provides",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "transfer": true,
+      "_id": "YDLCZKzh6ot13QGz",
+      "img": "icons/svg/aura.svg",
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786036178773,
+        "modifiedTime": 1786036178773,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!tFMnvnN2IdsvjMa9.YDLCZKzh6ot13QGz"
+    },
+    {
+      "name": "Level 6",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 6
+        }
+      },
+      "disabled": true,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Smuggler Bonus Feats",
+            "key": "provides",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "transfer": true,
+      "_id": "gVisc9pi6Vsi6OM7",
+      "img": "icons/svg/aura.svg",
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786036178773,
+        "modifiedTime": 1786036178773,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!tFMnvnN2IdsvjMa9.gVisc9pi6Vsi6OM7"
+    },
+    {
+      "name": "Level 7",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 7
+        }
+      },
+      "disabled": true,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Smuggler Talent Trees",
+            "key": "provides",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "transfer": true,
+      "_id": "H5lit0sN23Pj5yhw",
+      "img": "icons/svg/aura.svg",
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786036178773,
+        "modifiedTime": 1786036178773,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!tFMnvnN2IdsvjMa9.H5lit0sN23Pj5yhw"
+    },
+    {
+      "name": "Level 8",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 8
+        }
+      },
+      "disabled": true,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Smuggler Bonus Feats",
+            "key": "provides",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "transfer": true,
+      "_id": "iZRWiZIxwd2PA9Va",
+      "img": "icons/svg/aura.svg",
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786036178773,
+        "modifiedTime": 1786036178773,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!tFMnvnN2IdsvjMa9.iZRWiZIxwd2PA9Va"
+    },
+    {
+      "name": "Level 9",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 9
+        }
+      },
+      "disabled": true,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Smuggler Talent Trees",
+            "key": "provides",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "transfer": true,
+      "_id": "9zR4V82FzUGMs2v2",
+      "img": "icons/svg/aura.svg",
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786036178773,
+        "modifiedTime": 1786036178773,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!tFMnvnN2IdsvjMa9.9zR4V82FzUGMs2v2"
+    },
+    {
+      "name": "Level 10",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 10
+        }
+      },
+      "disabled": true,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Smuggler Bonus Feats",
+            "key": "provides",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "transfer": true,
+      "_id": "OOC2DWByQ6AzXQxm",
+      "img": "icons/svg/aura.svg",
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786036178773,
+        "modifiedTime": 1786036178773,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!tFMnvnN2IdsvjMa9.OOC2DWByQ6AzXQxm"
+    },
+    {
+      "name": "Level 11",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 11
+        }
+      },
+      "disabled": true,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Smuggler Talent Trees",
+            "key": "provides",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "transfer": true,
+      "_id": "cWw3vi4vScNBTf7k",
+      "img": "icons/svg/aura.svg",
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786036178773,
+        "modifiedTime": 1786036178773,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!tFMnvnN2IdsvjMa9.cWw3vi4vScNBTf7k"
+    },
+    {
+      "name": "Level 12",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 12
+        }
+      },
+      "disabled": true,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Smuggler Bonus Feats",
+            "key": "provides",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "transfer": true,
+      "_id": "6RZBSdAP3tSo4aRO",
+      "img": "icons/svg/aura.svg",
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786036178773,
+        "modifiedTime": 1786036178773,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!tFMnvnN2IdsvjMa9.6RZBSdAP3tSo4aRO"
+    },
+    {
+      "name": "Level 13",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 13
+        }
+      },
+      "disabled": true,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Smuggler Talent Trees",
+            "key": "provides",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "transfer": true,
+      "_id": "Y5RtinefdLcJCNN2",
+      "img": "icons/svg/aura.svg",
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786036178773,
+        "modifiedTime": 1786036178773,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!tFMnvnN2IdsvjMa9.Y5RtinefdLcJCNN2"
+    },
+    {
+      "name": "Level 14",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 14
+        }
+      },
+      "disabled": true,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Smuggler Bonus Feats",
+            "key": "provides",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "transfer": true,
+      "_id": "9v0bsXyldh2ztGnP",
+      "img": "icons/svg/aura.svg",
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786036178773,
+        "modifiedTime": 1786036178773,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!tFMnvnN2IdsvjMa9.9v0bsXyldh2ztGnP"
+    },
+    {
+      "name": "Level 15",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 15
+        }
+      },
+      "disabled": true,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Smuggler Talent Trees",
+            "key": "provides",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "transfer": true,
+      "_id": "l0y5JjbR6kuV2DJh",
+      "img": "icons/svg/aura.svg",
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786036178773,
+        "modifiedTime": 1786036178773,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!tFMnvnN2IdsvjMa9.l0y5JjbR6kuV2DJh"
+    },
+    {
+      "name": "Level 16",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 16
+        }
+      },
+      "disabled": true,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Smuggler Bonus Feats",
+            "key": "provides",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "transfer": true,
+      "_id": "tqRtTvNzwA08U4HU",
+      "img": "icons/svg/aura.svg",
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786036178773,
+        "modifiedTime": 1786036178773,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!tFMnvnN2IdsvjMa9.tqRtTvNzwA08U4HU"
+    },
+    {
+      "name": "Level 17",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 17
+        }
+      },
+      "disabled": true,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Smuggler Talent Trees",
+            "key": "provides",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "transfer": true,
+      "_id": "6L0vwBorc3d6hY2V",
+      "img": "icons/svg/aura.svg",
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786036178773,
+        "modifiedTime": 1786036178773,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!tFMnvnN2IdsvjMa9.6L0vwBorc3d6hY2V"
+    },
+    {
+      "name": "Level 18",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 18
+        }
+      },
+      "disabled": true,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Smuggler Bonus Feats",
+            "key": "provides",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "transfer": true,
+      "_id": "zAodbAFaUFaIZH6h",
+      "img": "icons/svg/aura.svg",
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786036178773,
+        "modifiedTime": 1786036178773,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!tFMnvnN2IdsvjMa9.zAodbAFaUFaIZH6h"
+    },
+    {
+      "name": "Level 19",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 19
+        }
+      },
+      "disabled": true,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Smuggler Talent Trees",
+            "key": "provides",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "transfer": true,
+      "_id": "JQWczyaLZv0D6Gxc",
+      "img": "icons/svg/aura.svg",
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786036178773,
+        "modifiedTime": 1786036178773,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!tFMnvnN2IdsvjMa9.JQWczyaLZv0D6Gxc"
+    },
+    {
+      "name": "Level 20",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 20
+        }
+      },
+      "disabled": true,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Smuggler Bonus Feats",
+            "key": "provides",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "transfer": true,
+      "_id": "o62jMCkJzsLpmZ61",
+      "img": "icons/svg/aura.svg",
+      "start": null,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "showIcon": 1,
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786036178773,
+        "modifiedTime": 1786036178773,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!tFMnvnN2IdsvjMa9.o62jMCkJzsLpmZ61"
+    }
+  ],
+  "_id": "tFMnvnN2IdsvjMa9",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786036178773,
+    "modifiedTime": 1786037690835,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!tFMnvnN2IdsvjMa9"
+}

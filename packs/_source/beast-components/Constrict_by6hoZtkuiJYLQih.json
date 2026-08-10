@@ -1,0 +1,67 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "If the Beast successfully Grapples an enemy, it can use the Crush and Pin Feats as normal. When crushing, however, the Beast deals damage equal to 2d6 + its Strength modifier + half its Beast Level rounded down.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "If the Beast successfully Grapples an enemy, it can use the Crush and Pin Feats as normal. When crushing, however, the Beast deals damage equal to 2d6 + its Strength modifier + half its Beast Level rounded down.",
+        "key": "special"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Crush",
+          "requirement": "Crush",
+          "type": "FEAT"
+        },
+        {
+          "text": "Pin",
+          "requirement": "Pin",
+          "type": "FEAT"
+        }
+      ],
+      "count": 1,
+      "text": "Crush, or Pin",
+      "type": "OR"
+    },
+    "cost": "0"
+  },
+  "name": "Constrict",
+  "flags": {},
+  "type": "beastQuality",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749299111382,
+    "modifiedTime": 1749299111382,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "by6hoZtkuiJYLQih",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!by6hoZtkuiJYLQih"
+}

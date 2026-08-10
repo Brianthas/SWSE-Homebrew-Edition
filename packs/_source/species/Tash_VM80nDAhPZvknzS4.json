@@ -1,0 +1,179 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<table style=\"width:100%; margin-top:2em; border:2px solid #999; font-size:105%; text-align:center; background:#00008B;\"> \n <tbody>\n  <tr> \n   <td><i><b>This <a href=\"https://swse.fandom.com/wiki/Homebrew_Content\" title=\"Homebrew Content\">Homebrew Content</a> has been <a href=\"https://swse.fandom.com/wiki/Category:Tested\" title=\"Category:Tested\">Tested</a> per the <a href=\"https://swse.fandom.com/wiki/Category:Untested\" title=\"Category:Untested\">Untested</a> guidelines. Whether or not it can be used is, as always, the prerogative of the Gamemaster.</b></i> </td>\n  </tr>\n </tbody>\n</table><p><i>Tash Species data created by Wikia user Droidscotty.</i></p><p>The Hepsalum Tash, or \"The Tash\" as they are collectively known, are a Species of forest giants indigenous to the Dagobah System. Adults can grow to heights of eight meters or more. Tough, leathery skin hangs in folds around their thick limbs, and its coloration varies from pale yellow ochre to deep sienna red-brown. Tiger-stripe marks and spotting indicate both age and sex. A long flexible neck ending in a broad, flat, whiskered face gives the head and neck a curious wormlike appearance. The claw-like right hand is used to forage for roots and ground nuts, important elements of their vegetarian diet. </p><p>The Tash are a simple, peace-loving race, and the impenetrable thicket of Dagobah's surface ideally suits their reclusive nature. Although cumbersome in appearance, the Tash are skilled craftsman of utensils, clothing, and musical instruments. The Tash enjoy nothing more than a story, a song, and a good pipe. </p><h3><span class=\"mw-headline\" id=\"Tash_Characteristics\">Tash Characteristics</span></h3><p><b>Personality:</b> The Tash are a simple people, who heavily valued peace. Reclusive by nature, they rarely leave the impenetrable thicket of <a href=\"https://swse.fandom.com/wiki/Dagobah\" title=\"Dagobah\">Dagobah</a>. Despite this, the Tash are relatively well-known for their intricate crafts and designs in local systems. </p><p><b>Physical Description:</b> Forest giants, the Tash can grow to 8 meters in height or more. Their skin is tough and leathery, and hangs in folds off their thick limbs. A Tash's coloration varies from pale yellow to a deep red-brown. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Tash age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-30 Years </td> \n   <td>31-99 Years </td> \n   <td>100-399 Years </td> \n   <td>400-699 Years </td> \n   <td>700-799 Years </td> \n   <td>800+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Tash inhabit the murky work of <a href=\"https://swse.fandom.com/wiki/Dagobah\" title=\"Dagobah\">Dagobah</a>, where the impenetrable thicket of its surface ideally suits their reclusive nature. </p><p><b>Languages:</b> The Tash speak clearly in their own language of Tash. Their isolation from civilized space means that few Tash have the opportunity to learn other languages. </p><p><b>Example Names:</b> Arranda, Hepsalum, Makuursh, Ploutonshaa. </p><p><b>Adventurers:</b> The Tash are largely content on their homeworld. Though curiosity sometimes brings a Tash into the galaxy, Dagobah's isolation and lack of permanent settlements make offworld travel a rarity. Those few Tash that do manage to make it into the greater galaxy can often find work as <a href=\"https://swse.fandom.com/wiki/Nobles\" class=\"mw-redirect\" title=\"Nobles\">Nobles</a> or <a href=\"https://swse.fandom.com/wiki/Technicians\" class=\"mw-redirect\" title=\"Technicians\">Technicians</a>. </p><h3><span class=\"mw-headline\" id=\"Tash_Species_Traits\">Tash Species Traits</span></h3><p>Tash share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Natural Armor (+1)",
+        "type": "trait"
+      },
+      {
+        "name": "Pacifism",
+        "type": "trait"
+      },
+      {
+        "name": "Primitive",
+        "type": "trait"
+      },
+      {
+        "name": "Tash",
+        "type": "trait"
+      },
+      {
+        "name": "Large",
+        "type": "trait"
+      },
+      {
+        "name": "Homebrew Content",
+        "type": "trait"
+      },
+      {
+        "name": "Droidscotty Creations",
+        "type": "trait"
+      },
+      {
+        "name": "Tested",
+        "type": "trait"
+      },
+      {
+        "name": "Productive Artisans",
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "99",
+          "low": "31",
+          "text": "31-99",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "399",
+          "low": "100",
+          "text": "100-399",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "30",
+          "low": "1",
+          "text": "1-30",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "799",
+          "low": "700",
+          "text": "700-799",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "699",
+          "low": "400",
+          "text": "400-699",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "800",
+          "text": "800+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Natural Armor (+1)"
+      },
+      {
+        "value": "Pacifism"
+      },
+      {
+        "value": "Primitive"
+      },
+      {
+        "value": "Tash"
+      },
+      {
+        "value": "Large"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Droidscotty Creations"
+      },
+      {
+        "value": "Natural Armor"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Tested"
+      },
+      {
+        "value": "Productive Artisans"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Tash",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535567428,
+    "modifiedTime": 1736535567428,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "VM80nDAhPZvknzS4",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!VM80nDAhPZvknzS4"
+}

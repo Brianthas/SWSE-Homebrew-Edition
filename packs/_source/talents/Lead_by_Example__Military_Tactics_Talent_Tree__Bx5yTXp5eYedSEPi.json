@@ -1,0 +1,67 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "If you have already used a Talent in an encounter before granting the same Talent to an ally with your <a href=\"https://swse.fandom.com/wiki/Share_Talent\" class=\"mw-redirect\" title=\"Share Talent\">Share Talent</a> special quality in the same encounter, any character who benefits from <a href=\"https://swse.fandom.com/wiki/Share_Talent\" class=\"mw-redirect\" title=\"Share Talent\">Share Talent</a> gains one of the following bonuses when using that talent (if the Talent can be affected by more than one effect, the character using the Talent selects the desired effect):",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Share Talent (Any)",
+      "requirement": "Share Talent",
+      "type": "TRAIT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Officer Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Core Rulebook",
+      "Officer Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Military Tactics Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Military_Tactics_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Lead by Example (Military Tactics Talent Tree)",
+  "flags": {},
+  "type": "talent",
+  "folder": "NfETUqBj5GcE5r4j",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385309602,
+    "modifiedTime": 1734385309602,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "Bx5yTXp5eYedSEPi",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!Bx5yTXp5eYedSEPi"
+}

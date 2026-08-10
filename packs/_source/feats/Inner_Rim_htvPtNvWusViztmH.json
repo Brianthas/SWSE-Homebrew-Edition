@@ -1,0 +1,69 @@
+{
+  "img": "systems/swse/icon/feat/Inner_Rim.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<table style=\"width:100%; margin-top:2em; border:2px solid #999; font-size:105%; text-align:center; background:#00008B;\">\n <tbody>\n  <tr>\n   <td><i><b>This <a href=\"https://swse.fandom.com/wiki/Homebrew_Content\" title=\"Homebrew Content\">Homebrew Content</a> has been <a href=\"https://swse.fandom.com/wiki/Category:Tested\" title=\"Category:Tested\">Tested</a> per the <a href=\"https://swse.fandom.com/wiki/Category:Untested\" title=\"Category:Untested\">Untested</a> guidelines. Whether or not it can be used is, as always, the prerogative of the Gamemaster.</b></i></td>\n  </tr>\n </tbody>\n</table><p><i>Homebrew Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/New_Republic_Campaign_Guide\" title=\"New Republic Campaign Guide\">New Republic Campaign Guide</a></i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a>, <a href=\"https://swse.fandom.com/wiki/Regional_Feats\" class=\"mw-redirect\" title=\"Regional Feats\">Regional Feats</a></i></p><p>You were born and raised in <a href=\"https://swse.fandom.com/wiki/The_Inner_Rim\" title=\"The Inner Rim\">The Inner Rim</a>.</p><p><b>Effect:</b> You were raised in <a href=\"https://swse.fandom.com/wiki/The_Inner_Rim\" title=\"The Inner Rim\">The Inner Rim</a>, for many centuries the edge of the known galaxy. You are considered <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a>. You may reroll any <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> checks made to <a href=\"https://swse.fandom.com/wiki/Astrogate\" class=\"mw-redirect\" title=\"Astrogate\">Astrogate</a>, keeping the better of the two results.</p><p><b>Special:</b> You may only select a single Regional Feat.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Use Computer (Astrogate)::kh:This Homebrew Content has been Tested per the Untested guidelines. Whether or not it can be used is, as always, the prerogative of the Gamemaster. Homebrew Reference Book: New Republic Campaign Guide See also: Feats, Regional Feats You were born and raised in The Inner Rim. Effect: You were raised in The Inner Rim, for many centuries the edge of the known galaxy. You are considered Trained in Use Computer. You may reroll any Use Computer checks made to Astrogate, keeping the better of the two results. Special: You may only select a single Regional Feat.",
+        "key": "skillReRoll"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": null,
+    "categories": [
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Tested"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "New Republic Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Inner Rim",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479027549,
+    "modifiedTime": 1761479027549,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "htvPtNvWusViztmH",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!htvPtNvWusViztmH"
+}

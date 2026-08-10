@@ -1,0 +1,78 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "An extension of normal <b>Battle Meditation</b>, a <b>Force Meld</b> is a union of Force-sensitive minds that further enhances their level of coordination. Once per encounter as a <a href=\"https://swse.fandom.com/wiki/Full-Round_Action\" class=\"mw-redirect\" title=\"Full-Round Action\">Full-Round Action</a>, you can spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> to empathically meld together a number of beings with the <a href=\"https://swse.fandom.com/wiki/Force_Sensitivity\" title=\"Force Sensitivity\">Force Sensitivity</a> feat beings equal to twice your <a href=\"https://swse.fandom.com/wiki/Wisdom\" title=\"Wisdom\">Wisdom</a> modifier.<br><br>The insight bonus&nbsp;provided by your <b>Battle Meditation</b> Talent increases by +1 for every being in the meld (to a maximum bonus of +5) and those in the <b>Force Meld</b> no longer need to remain within 6 squares of your position to receive the benefit (though they must remain within line of sight). This bonus cannot be extended to those without the <a href=\"https://swse.fandom.com/wiki/Force_Sensitivity\" title=\"Force Sensitivity\">Force Sensitivity</a> feat.<br><br>The <b>Force Meld</b>&nbsp;can only be maintained by expending a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a> every round. If this <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a> cannot be expended (or&nbsp;if you are knocked <a href=\"https://swse.fandom.com/wiki/Unconscious\" class=\"mw-redirect\" title=\"Unconscious\">Unconscious</a> or killed), the <b>Force Meld</b> is broken and the insight bonus provided by your <b>Battle Meditation</b>&nbsp;is lost. This is a <a href=\"https://swse.fandom.com/wiki/Mind-Affecting\" class=\"mw-redirect\" title=\"Mind-Affecting\">Mind-Affecting</a> effect.<br><br>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Battle Meditation talent",
+          "requirement": "Battle Meditation",
+          "type": "TALENT"
+        },
+        {
+          "text": "Wisdom 13",
+          "requirement": "Wisdom 13",
+          "type": "ATTRIBUTE"
+        }
+      ],
+      "text": "Battle Meditation talent, and Wisdom 13",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Jedi Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Jedi Talent Trees",
+      "Core Rulebook"
+    ],
+    "isSupplied": false,
+    "talentTree": "Jedi Guardian Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Jedi_Guardian_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "New Jedi Order Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Force Meld (Jedi Guardian Talent Tree)",
+  "flags": {},
+  "type": "talent",
+  "folder": "22BGYiGqhFl2GFVp",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385306911,
+    "modifiedTime": 1734385306911,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "14nRUkAf7fIBYEh3",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!14nRUkAf7fIBYEh3"
+}

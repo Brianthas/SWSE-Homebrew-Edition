@@ -1,0 +1,64 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "When you are missed by a ranged attack and have <a href=\"https://swse.fandom.com/wiki/Concealment\" title=\"Concealment\">Concealment</a> or <a href=\"https://swse.fandom.com/wiki/Cover\" title=\"Cover\">Cover</a> from the attacker, you can move up to half your Speed as a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a> and make a <a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a> check to become hidden from your attacker, provided you still have <a href=\"https://swse.fandom.com/wiki/Concealment\" title=\"Concealment\">Concealment</a> or <a href=\"https://swse.fandom.com/wiki/Cover\" title=\"Cover\">Cover</a> at the end of your movement.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Trained in Stealth",
+      "requirement": "Stealth",
+      "type": "TRAINED SKILL"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Scout Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Scout Talent Trees",
+      "Smuggler Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Espionage Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Espionage_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Galaxy of Intrigue",
+    "cost": "0"
+  },
+  "name": "Reactive Stealth",
+  "flags": {},
+  "type": "talent",
+  "folder": "aeyrH4fbUxfEKrWK",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385304613,
+    "modifiedTime": 1786036141322,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "tDx4yYMm73wrYtfZ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!tDx4yYMm73wrYtfZ"
+}

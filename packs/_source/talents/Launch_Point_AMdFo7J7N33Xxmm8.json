@@ -1,0 +1,64 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Any ally who starts his or her turn within your <b>Safe Zone</b> and then exits the <b>Safe Zone</b> gains a +2 bonus to attack rolls before the end of that ally's turn, provided that the ally is not within your <b>Safe Zone</b> when the attack is made.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Safe Zone talent",
+      "requirement": "Safe Zone",
+      "type": "TALENT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Pathfinder Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Pathfinder Talent Trees",
+      "Agent Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Pathfinder Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Pathfinder_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Rebellion Era Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Launch Point",
+  "flags": {},
+  "type": "talent",
+  "folder": "GQvAzJEUETzL3AS9",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385310384,
+    "modifiedTime": 1786039798039,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "AMdFo7J7N33Xxmm8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!AMdFo7J7N33Xxmm8"
+}

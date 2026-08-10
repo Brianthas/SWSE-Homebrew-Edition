@@ -1,0 +1,41 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Droid Accessories (Miscellaneous Systems)",
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "droidPart"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Web_Enhancements\" title=\"Star Wars Saga Edition Web Enhancements\">Star Wars Saga Edition Web Enhancements</a>&nbsp;(<a href=\"https://swse.fandom.com/wiki/Star_Wars_Miniatures_Previews\" title=\"Star Wars Miniatures Previews\">Star Wars Miniatures Previews</a>)</i></p><p>A miniaturized self-destruct system functions as a normal <a href=\"https://swse.fandom.com/wiki/Self-Destruct_System\" title=\"Self-Destruct System\">Self-Destruct System</a>, but it functions as if the droid were two sizes larger. This costs 5 times as much as a normal <a href=\"https://swse.fandom.com/wiki/Self-Destruct_System\" title=\"Self-Destruct System\">Self-Destruct System</a>.</p><table class=\"wikitable\">\n <tbody>\n  <tr>\n   <th>DROID SIZE</th>\n   <th>DAMAGE</th>\n  </tr>\n  <tr>\n   <td>Diminutive</td>\n   <td>4d6</td>\n  </tr>\n  <tr>\n   <td>Tiny</td>\n   <td>6d6</td>\n  </tr>\n  <tr>\n   <td>Small</td>\n   <td>8d6</td>\n  </tr>\n  <tr>\n   <td>Medium</td>\n   <td>10d6</td>\n  </tr>\n  <tr>\n   <td>Large or Larger</td>\n   <td>20d6</td>\n  </tr>\n </tbody>\n</table>",
+    "source": "Star Wars Saga Edition Web Enhancements (Star Wars Miniatures Previews)",
+    "cost": "Maximum Damage x 100",
+    "weight": "(Maximum Damage x 0.1) Kilograms",
+    "availability": "Restricted"
+  },
+  "name": "Miniaturized Self-Destruct System",
+  "flags": {},
+  "type": "droid system",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764449015970,
+    "modifiedTime": 1764449015970,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "UHJCXwAixX1y4RGA",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!UHJCXwAixX1y4RGA"
+}

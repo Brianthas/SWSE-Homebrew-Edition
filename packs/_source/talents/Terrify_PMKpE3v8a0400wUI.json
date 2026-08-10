@@ -1,0 +1,88 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "As a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a>, you can make a <a href=\"https://swse.fandom.com/wiki/Persuasion\" title=\"Persuasion\">Persuasion</a> check against a target that is within your line of sight and that is also affected by your <b>Inspire Fear</b> Talent. If you equal or exceed the target's <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a>, then on its next turn the target must spend at least one <a href=\"https://swse.fandom.com/wiki/Move_Action\" class=\"mw-redirect\" title=\"Move Action\">Move Action</a> to move away from you. If the target is somehow prevented from doing so, then the penalty from the <b>Inspire Fear</b> Talent doubles until the start of your next turn. This is a <a href=\"https://swse.fandom.com/wiki/Mind-Affecting\" class=\"mw-redirect\" title=\"Mind-Affecting\">Mind-Affecting</a> Fear effect.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Frighten talent",
+          "requirement": "Frighten",
+          "type": "TALENT"
+        },
+        {
+          "text": "Inspire Fear I talent",
+          "requirement": "Inspire Fear I",
+          "type": "TALENT"
+        },
+        {
+          "text": "Inspire Fear II talent",
+          "requirement": "Inspire Fear II",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Frighten talent, Inspire Fear I talent, and Inspire Fear II talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Crime Lord Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Master Privateer Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Crime Lord Talent Trees",
+      "Core Rulebook",
+      "Master Privateer Talent Trees",
+      "Agent Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Infamy Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Infamy_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Scum and Villainy",
+    "cost": "0"
+  },
+  "name": "Terrify",
+  "flags": {},
+  "type": "talent",
+  "folder": "aKRue6tVnpeoZxgD",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385306123,
+    "modifiedTime": 1786039798041,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "PMKpE3v8a0400wUI",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!PMKpE3v8a0400wUI"
+}

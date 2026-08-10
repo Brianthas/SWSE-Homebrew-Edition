@@ -1,0 +1,81 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You excel at causing havoc with computers and electronics. As a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a>, you can lock down a computer terminal by making a <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> check, making it potentially difficult for anyone else to access. That computer is considered <a href=\"https://swse.fandom.com/wiki/Unfriendly\" class=\"mw-redirect\" title=\"Unfriendly\">Unfriendly</a> to anyone other than you who attempts to use it, and the result of your <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> check replaces the computer's <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a> on an attempt to change its <a href=\"https://swse.fandom.com/wiki/Attitude\" class=\"mw-redirect\" title=\"Attitude\">Attitude</a>.<br><br>This effect ends if anyone else succeeds in adjusting the computer's <a href=\"https://swse.fandom.com/wiki/Attitude\" class=\"mw-redirect\" title=\"Attitude\">Attitude</a> to <a href=\"https://swse.fandom.com/wiki/Indifferent\" class=\"mw-redirect\" title=\"Indifferent\">Indifferent</a>. You cannot <a href=\"https://swse.fandom.com/wiki/Take_20\" class=\"mw-redirect\" title=\"Take 20\">Take 20</a> on this <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> check.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Trained in Use Computer",
+      "requirement": "Use Computer",
+      "type": "TRAINED SKILL"
+    },
+    "categories": [
+      {
+        "value": "Saboteur Talent Trees"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Scoundrel Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Outlaw Talent Trees"
+      },
+      {
+        "value": "Technician Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Saboteur Talent Trees",
+      "Scoundrel Talent Trees",
+      "Core Rulebook",
+      "Outlaw Talent Trees",
+      "Technician Talent Trees",
+      "Smuggler Talent Trees",
+      "Engineer Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Slicer Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Slicer_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Force Unleashed Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Electronic Sabotage",
+  "flags": {},
+  "type": "talent",
+  "folder": "tsBCv8LP8wvFHypj",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385312014,
+    "modifiedTime": 1786039798050,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "jVTYR6kqOqqeCZE2",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!jVTYR6kqOqqeCZE2"
+}

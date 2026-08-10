@@ -1,0 +1,58 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Threats_of_the_Galaxy\" title=\"Star Wars Saga Edition Threats of the Galaxy\">Star Wars Saga Edition Threats of the Galaxy</a></i></p><p><b>Emplacement Points:</b>&nbsp;2</p><p>The Discord Missile Launcher is a weapon that can be installed on any <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> or Starship of Huge size or larger. It is used to fire Discord Missiles, with one Discord Missile fitting inside the launcher.</p><h4><span class=\"mw-headline\" id=\"Discord_Missiles\"><b>Discord Missiles</b></span></h4><table class=\"wikitable\">\n <caption>\n  Discord Missile Ranges\n </caption>\n <tbody>\n  <tr>\n   <th colspan=\"4\">RANGE BY CHARACTER SCALE</th>\n   <th></th>\n   <th colspan=\"4\"><p>RANGE BY STARSHIP SCALE</p></th>\n  </tr>\n  <tr>\n   <th>POINT-BLANK</th>\n   <th>SHORT</th>\n   <th>MEDIUM</th>\n   <th>LONG</th>\n   <th></th>\n   <th>POINT-BLANK</th>\n   <th>SHORT</th>\n   <th>MEDIUM</th>\n   <th>LONG</th>\n  </tr>\n  <tr>\n   <td>0-450 Squares</td>\n   <td>451-900 Squares</td>\n   <td>901-2,250 Squares</td>\n   <td>2,251-4,500 Squares</td>\n   <td></td>\n   <td>0-3 Squares</td>\n   <td>4-6 Squares</td>\n   <td>7-15 Squares</td>\n   <td>16-30 Squares</td>\n  </tr>\n </tbody>\n</table><p>When a Discord Missile is fired, the gunner makes an attack roll against a square within the missile's Range (<a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> 10). If successful, the Discord Missile breaks open in the target square and releases three <a href=\"https://swse.fandom.com/wiki/Buzz_Droid\" title=\"Buzz Droid\">Buzz Droids</a> (Which appear in separate squares adjacent to the target square). At <a href=\"https://swse.fandom.com/wiki/Starship_Scale\" class=\"mw-redirect\" title=\"Starship Scale\">Starship Scale</a>, when the missile breaks open, it fills the target square with its <a href=\"https://swse.fandom.com/wiki/Buzz_Droid\" title=\"Buzz Droid\">Buzz Droids</a>. When a <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> enters a square occupied by one or more <a href=\"https://swse.fandom.com/wiki/Buzz_Droid\" title=\"Buzz Droid\">Buzz Droids</a>, the <a href=\"https://swse.fandom.com/wiki/Buzz_Droid\" title=\"Buzz Droid\">Buzz Droids</a> can make an immediate melee attack as a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a> against the <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> with an additional +5 <a href=\"https://swse.fandom.com/wiki/Equipment\" title=\"Equipment\">Equipment</a> bonus to their attack rolls. If the attack succeeds, the <a href=\"https://swse.fandom.com/wiki/Buzz_Droid\" title=\"Buzz Droid\">Buzz Droid</a> latches onto the <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> and automatically moves when the <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> moves.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Buzz Droid:3",
+        "key": "spawn"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "1000",
+    "weight": "",
+    "availability": "Restricted",
+    "size": "",
+    "type": "",
+    "subtype": "Ammunition",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "equipment": {}
+  },
+  "name": "Discord Missile",
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317464,
+    "modifiedTime": 1759848317464,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "GUtgYDPDv3aoEPKm",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!GUtgYDPDv3aoEPKm"
+}

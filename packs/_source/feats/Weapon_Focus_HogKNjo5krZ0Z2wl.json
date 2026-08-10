@@ -1,0 +1,102 @@
+{
+  "img": "systems/swse/icon/feat/Weapon Focus.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: Star Wars Saga Edition Core Rulebook</i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You are especially good at using particular weapons.</p><p><b>Prerequisite:</b> Proficient with&nbsp;Chosen Weapon</p><p><b>Effect:</b> Choose a single <a href=\"https://swse.fandom.com/wiki/Exotic_Weapon\" class=\"mw-redirect\" title=\"Exotic Weapon\">Exotic Weapon</a> or weapon group, you gain a +1 bonus on all attack rolls you make using the selected <a href=\"https://swse.fandom.com/wiki/Exotic_Weapon\" class=\"mw-redirect\" title=\"Exotic Weapon\">Exotic Weapon</a> or weapon group.</p><p><b>Special:</b> You can gain this Feat multiple times. Its effects do not stack. Each time you take the Feat, it applies to a new <a href=\"https://swse.fandom.com/wiki/Exotic_Weapon\" class=\"mw-redirect\" title=\"Exotic Weapon\">Exotic Weapon</a> or weapon group.</p><h2><span class=\"mw-headline\" id=\"Additional_Weapon_Focus_Effects\">Additional Weapon Focus Effects</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Combined_Feat\" class=\"mw-redirect\" title=\"Combined Feat\">Combined Feat</a> (<a href=\"https://swse.fandom.com/wiki/Weapon_Finesse\" title=\"Weapon Finesse\">Weapon Finesse</a>):</b>&nbsp;When you are wielding a single one-handed weapon for which you have&nbsp;Weapon Focus, you can treat that weapon as a <a href=\"https://swse.fandom.com/wiki/Light_Weapon\" class=\"mw-redirect\" title=\"Light Weapon\">Light Weapon</a>.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      },
+      {
+        "mode": 2,
+        "value": "#payload#",
+        "key": "weaponFocus"
+      }
+    ],
+    "choices": [
+      {
+        "noOptions": "You Must Be Proficient in a weapon group or an Exotic Weapon to select a Weapon Focus.",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {
+              "payload": "AVAILABLE_WEAPON_FOCUS"
+            },
+            "display": "AVAILABLE_WEAPON_FOCUS",
+            "name": "AVAILABLE_WEAPON_FOCUS",
+            "attributes": {}
+          }
+        ],
+        "description": "Select a Weapon Focus",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": true
+      }
+    ],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Proficient with #payload#",
+      "requirement": "#payload#",
+      "type": "PROFICIENCY"
+    },
+    "categories": [
+      {
+        "value": "Soldier Bonus Feats"
+      },
+      {
+        "value": "Force Prodigy Bonus Feats"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Jedi Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Bonus Feats",
+      "Force Prodigy Bonus Feats",
+      "General Feats",
+      "Jedi Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Core Rulebook",
+    "cost": "0"
+  },
+  "name": "Weapon Focus",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479029541,
+    "modifiedTime": 1761479029541,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "HogKNjo5krZ0Z2wl",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!HogKNjo5krZ0Z2wl"
+}

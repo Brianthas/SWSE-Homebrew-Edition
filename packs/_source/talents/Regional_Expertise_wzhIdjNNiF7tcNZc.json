@@ -1,0 +1,66 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Select a particular region of space, not including <a href=\"https://swse.fandom.com/wiki/Wild_Space\" title=\"Wild Space\">Wild Space</a>. When making a <a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a> check to <a href=\"https://swse.fandom.com/wiki/Astrogate\" class=\"mw-redirect\" title=\"Astrogate\">Astrogate</a> within that region, the DC is reduced by 5. In addition, you may <a href=\"https://swse.fandom.com/wiki/Take_10\" class=\"mw-redirect\" title=\"Take 10\">Take 10</a> on the check, even if conditions would not normally allow it. If this check fails, you immediately know and may attempt to try again.<br><br>You may select this Talent multiple times. Each time you select this Talent, it applies to a different region of space.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:in: Talent Trees, Scout Talent Trees Hyperspace Explorer Talent Tree Edit Edit source History Talk (0) Reference Book: Star Wars Saga Edition Knights of the Old Republic Campaign Guide You are an experienced deep-space explorer who has learned a few tricks along the way that help you survive both in space, and planet-side. Contents 1 Deep-Space Gambit 2 Guidance 3 Hidden Attacker 4 Hyperspace Savant 5 Vehicle Sneak 6 Additional Hyperspace Explorer Talents 6.1 Silent Movement 7 Homebrew Hyperspace Explorer Talents 7.1 Hyperdrive Tinkerer 7.2 Hyperlane Mastery 7.3 Regional Expertise Deep-Space Gambit[ ] Once per encounter, when you or a Vehicle you occupy are the target of an attack roll, you can force your opponent to reroll the attack. The opponent must keep the worse of the two results. Guidance[ ] Prerequisite: Trained in Perception You know how to guide others through treacherous terrain. You may use a Swift Action to point out the path of least resistance to an ally within line of sight who can see, hear, and understand you. The ally ignores the effect of Difficult Terrain on its next turn. You cannot use this Talent on yourself. Hidden Attacker[ ] Prerequisite: Trained in Stealth Your shots seem to come from nowhere. Whenever you use the Snipe application of the Stealth skill, you do so as a Swift Action instead of a Move Action. Hyperspace Savant[ ] Prerequisite: Trained in Pilot You can substitute your Pilot skill for the Use Computer check made to Astrogate, or Use Sensors while you are the Pilot of a Vehicle. Vehicle Sneak[ ] Prerequisite: Trained in Pilot You know how to fly and operate your Vehicle in order to hide its approach visually, decrease the noise it produces, and minimize its sensor signature. Treat your ship as two size categories smaller when attempting Stealth checks. Additional Hyperspace Explorer Talents[ ] Silent Movement[ ] Reference Book: Star Wars Saga Edition Unknown Regions Prerequisite: Trained in Stealth You know how to move silently in almost any environment. You never suffer from unfavorable circumstances from environmental effects associated with noise when you Sneak using the Stealth skill. Once per round, when you make a Stealth check, you can automatically use the Aid Another Action on one ally's Stealth check. Homebrew Hyperspace Explorer Talents[ ] This Homebrew Content has not been reviewed in a meaningful manner. If you wish to review this content yourself, then see Untested for more details. Hyperdrive Tinkerer[ ] Homebrew Reference Book: New Republic Campaign Guide If you fail a Use Computer check to Astrogate, and the rerolled check results in a damaged ship, you may make a DC 20 Mechanics check in order to repair the Hyperdrive immediately and arrive normally at the plotted destination. If this check fails, the Hyperdrive becomes disabled and the ship immediately drops from Hyperspace. Hyperlane Mastery[ ] Homebrew Reference Book: New Republic Campaign Guide Select a major route through the galaxy. When making a Use Computer check to Astrogate within that region, the DC is reduced by 5. In addition, you may Take 10 on the check, even if conditions would not normally allow it. If this check fails, you immediately know and may attempt to try again. You may select this Talent multiple times. Each time you select this Talent, it applies to a different route through the galaxy. Regional Expertise[ ] Homebrew Reference Book: New Republic Campaign Guide Select a particular region of space, not including Wild Space. When making a Use Computer check to Astrogate within that region, the DC is reduced by 5. In addition, you may Take 10 on the check, even if conditions would not normally allow it. If this check fails, you immediately know and may attempt to try again. You may select this Talent multiple times. Each time you select this Talent, it applies to a different region of space. Categories Categories: Talent Trees Scout Talent Trees Add category Cancel Save Community content is available under CC-BY-SA unless otherwise noted. More Fandoms Fantasy Sci-fi Star Wars",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": null,
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Scout Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Scout Talent Trees",
+      "Smuggler Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Hyperspace Explorer Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Hyperspace_Explorer_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "New Republic Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Regional Expertise",
+  "flags": {},
+  "type": "talent",
+  "folder": "l0639AgoA7C3RqLY",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385305897,
+    "modifiedTime": 1786036141322,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "wzhIdjNNiF7tcNZc",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!wzhIdjNNiF7tcNZc"
+}

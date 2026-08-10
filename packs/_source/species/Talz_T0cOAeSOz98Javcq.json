@@ -1,0 +1,149 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Force_Unleashed_Campaign_Guide\" title=\"Star Wars Saga Edition Force Unleashed Campaign Guide\">Star Wars Saga Edition Force Unleashed Campaign Guide</a></i> </p><p>The Empire subjugates the Talz very early in <a href=\"https://swse.fandom.com/wiki/The_Dark_Times\" class=\"mw-redirect\" title=\"The Dark Times\">The Dark Times</a>. The New Order wasted no time in secretly enslaving the race and forcing them to mine the mineral wealth of <a href=\"https://swse.fandom.com/wiki/Alzoc_III\" title=\"Alzoc III\">Alzoc III</a>. The Talz do not understand the motives of their new masters, but they can do little but comply. Those few Talz who escape must hide themselves along the fringes of the galaxy, lest the Imperials send them back to their homeworld. During this time, almost no one in the galaxy knows that the Talz even exist. </p><p>Although primitive, the Talz are quick learners and take to technology quite well. Their two sets of distinctive eyes allow them to see at all times- one set works in bright light, the other in total darkness. Their thick fur is suited to the frigid temperatures of <a href=\"https://swse.fandom.com/wiki/Alzoc_III\" title=\"Alzoc III\">Alzoc III</a>. </p><h3><span class=\"mw-headline\" id=\"Talz_Characteristics\">Talz Characteristics</span></h3><p><b>Personality:</b> Talz are gentle, kind-hearted, and slow to anger. </p><p><b>Physical Description:</b> A Talz is completely covered in shaggy white fur. Each one has four black eyes, plus a proboscis for talking and eating, and two large hands with sharp talons. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Talz age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-3 Years </td> \n   <td>4-8 Years </td> \n   <td>9-25 Years </td> \n   <td>26-40 Years </td> \n   <td>41-52 Years </td> \n   <td>53+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> <a href=\"https://swse.fandom.com/wiki/Alzoc_III\" title=\"Alzoc III\">Alzoc III</a>, a frozen world in <a href=\"https://swse.fandom.com/wiki/The_Outer_Rim\" title=\"The Outer Rim\">The Outer Rim</a> system of Alzoc. </p><p><b>Languages:</b> Talz speak their their own language of buzzing and chirping sounds. </p><p><b>Example Names:</b> Arvor, Bama Vook, Forfur, Foul Moudama, Gar, Muftak, Rugg, Toffik, Veefa, Voruf. </p><p><b>Adventurers:</b> Talz are usually fringer-based <a href=\"https://swse.fandom.com/wiki/Scoundrels\" class=\"mw-redirect\" title=\"Scoundrels\">Scoundrels</a>, and they are a quick study when introduced to technology. Few Talz are Force-users. </p><h3><span class=\"mw-headline\" id=\"Talz_Species_Traits\">Talz Species Traits</span></h3><p>Talz share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Conditional Bonus Feat (Skill Focus (Mechanics))",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Darkvision",
+        "type": "trait"
+      },
+      {
+        "name": "Natural Weapons",
+        "type": "trait"
+      },
+      {
+        "name": "Talz",
+        "type": "trait"
+      },
+      {
+        "name": "Skill Focus (Mechanics)",
+        "type": "feat"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "25",
+          "low": "9",
+          "text": "9-25",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "8",
+          "low": "4",
+          "text": "4-8",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "52",
+          "low": "41",
+          "text": "41-52",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "40",
+          "low": "26",
+          "text": "26-40",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "53",
+          "text": "53+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "3",
+          "low": "1",
+          "text": "1-3",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Conditional Bonus Feat (Skill Focus (Mechanics))"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Darkvision"
+      },
+      {
+        "value": "Natural Weapons"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Talz"
+      },
+      {
+        "value": "Conditional Bonus Feat"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Talz",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535567410,
+    "modifiedTime": 1736535567410,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "T0cOAeSOz98Javcq",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!T0cOAeSOz98Javcq"
+}

@@ -1,0 +1,94 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Clone_Wars_Campaign_Guide\" title=\"Star Wars Saga Edition Clone Wars Campaign Guide\">Star Wars Saga Edition Clone Wars Campaign Guide</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a></i> </p><p>You can see the critical point of something, whether it is a person or object, that would shatter if struck at the right time. </p><p><b>Time:</b> <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a> </p><p><b>Targets:</b> Self </p><p><b>Make a <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check.</b> The result of the check determines the effect, if any: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>DC </th> \n   <th> </th> \n   <th>EFFECT </th>\n  </tr> \n  <tr> \n   <td>25 </td> \n   <td> </td> \n   <td>If your next attack made before the end of the encounter hits, treat the target's <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a> against the attack as though it were 5 points lower than normal. </td>\n  </tr> \n  <tr> \n   <td>30 </td> \n   <td> </td> \n   <td>If your next attack made before the end of the encounter hits, treat the target's <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a> against the attack as though it were 10 points lower than normal. </td>\n  </tr> \n  <tr> \n   <td>35 </td> \n   <td> </td> \n   <td>If your next attack made before the end of the encounter hits, treat the target's <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a> against the attack as though it were 15 points lower than normal. </td>\n  </tr> \n  <tr> \n   <td>40 </td> \n   <td> </td> \n   <td>If your next attack made before the end of the encounter hits, treat the target's <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a> against the attack as though it were 20 points lower than normal. </td>\n  </tr>\n </tbody>\n</table><p><b>Special:</b> You can spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> to ignore the target's <a href=\"https://swse.fandom.com/wiki/Damage_Reduction\" title=\"Damage Reduction\">Damage Reduction</a> in addition to gaining the normal effects of <i>Shatterpoint</i>.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Swift Action",
+        "key": "action"
+      },
+      {
+        "mode": 2,
+        "value": "Self",
+        "key": "target"
+      },
+      {
+        "mode": 2,
+        "value": "Use the Force",
+        "key": "rollType"
+      },
+      {
+        "mode": 2,
+        "value": "25:If your next attack made before the end of the encounter hits, treat the target's Damage Threshold against the attack as though it were 5 points lower than normal.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "30:If your next attack made before the end of the encounter hits, treat the target's Damage Threshold against the attack as though it were 10 points lower than normal.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "35:If your next attack made before the end of the encounter hits, treat the target's Damage Threshold against the attack as though it were 15 points lower than normal.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "40:If your next attack made before the end of the encounter hits, treat the target's Damage Threshold against the attack as though it were 20 points lower than normal.",
+        "key": "check"
+      },
+      {
+        "mode": 2,
+        "value": "Reference Book: Star Wars Saga Edition Clone Wars Campaign Guide See also: Force Powers You can see the critical point of something, whether it is a person or object, that would shatter if struck at the right time. Time: Swift Action Targets: Self Make a Use the Force check. The result of the check determines the effect, if any: Special: You can spend a Force Point to ignore the target's Damage Reduction in addition to gaining the normal effects of Shatterpoint.",
+        "key": "shortDescription"
+      },
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Force Powers"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "name": "Shatterpoint",
+  "flags": {},
+  "type": "forcePower",
+  "img": "systems/swse/icon/force-power/Shatterpoint.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1738608590871,
+    "modifiedTime": 1738608590871,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "GNgXU1If6NvvGqHN",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!GNgXU1If6NvvGqHN"
+}

@@ -1,0 +1,73 @@
+{
+  "img": "systems/swse/icon/feat/Starship Tactics.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You are trained to make use of <a href=\"https://swse.fandom.com/wiki/Starship_Maneuvers\" title=\"Starship Maneuvers\">Starship Maneuvers</a> and are skilled at space combat.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Vehicular_Combat\" title=\"Vehicular Combat\">Vehicular Combat</a>, <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in <a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a></p><p><b>Effect:</b> You add to your <a href=\"https://swse.fandom.com/wiki/Starship_Maneuver_Suite\" class=\"mw-redirect\" title=\"Starship Maneuver Suite\">Starship Maneuver Suite</a> a number of <a href=\"https://swse.fandom.com/wiki/Starship_Maneuvers\" title=\"Starship Maneuvers\">Starship Maneuvers</a> equal to 1 + your <a href=\"https://swse.fandom.com/wiki/Wisdom\" title=\"Wisdom\">Wisdom</a> modifier (minimum 1). You can add the same <a href=\"https://swse.fandom.com/wiki/Starship_Maneuver\" class=\"mw-redirect\" title=\"Starship Maneuver\">Starship Maneuver</a> more than once.</p><p><b>Special:</b> You can take this Feat more than once. Each time you take this Feat, you add to your <a href=\"https://swse.fandom.com/wiki/Starship_Maneuver_Suite\" class=\"mw-redirect\" title=\"Starship Maneuver Suite\">Starship Maneuver Suite</a> a number of new <a href=\"https://swse.fandom.com/wiki/Starship_Maneuvers\" title=\"Starship Maneuvers\">Starship Maneuvers</a> equal to 1 + your <a href=\"https://swse.fandom.com/wiki/Wisdom\" title=\"Wisdom\">Wisdom</a> modifier (minimum 1). A character with the <a href=\"https://swse.fandom.com/wiki/Gunnery_Specialist\" title=\"Gunnery Specialist\">Gunnery Specialist</a> Feat can take this Feat without meeting the other requirements but if they do not possess the other requirements they can only select [<i><a href=\"https://swse.fandom.com/wiki/Gunner_(Starship_Maneuvers)\" class=\"mw-redirect\" title=\"Gunner (Starship Maneuvers)\">Gunner</a></i>] <a href=\"https://swse.fandom.com/wiki/Starship_Maneuvers\" title=\"Starship Maneuvers\">Starship Maneuvers</a> when they select this Feat.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "takeMultipleTimes"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Vehicular Combat feat",
+          "requirement": "Vehicular Combat",
+          "type": "FEAT"
+        },
+        {
+          "text": "Trained in Pilot",
+          "requirement": "Pilot",
+          "type": "TRAINED SKILL"
+        }
+      ],
+      "text": "Vehicular Combat feat, and Trained in Pilot",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Starships of the Galaxy",
+    "cost": "0"
+  },
+  "name": "Starship Tactics",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479028969,
+    "modifiedTime": 1761479028969,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "aW0mj8YBGQBeGQl3",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!aW0mj8YBGQBeGQl3"
+}

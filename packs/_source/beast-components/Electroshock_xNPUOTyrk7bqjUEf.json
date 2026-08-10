@@ -1,0 +1,55 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "When in water or underwater, the Beast produces a short-range electrical jolt. As a Standard Action, the Beast makes an Area Attack (1d20+10) centered on one of its own squares against the Fortitude Defense of all creatures in adjacent squares. If the attack is successful, the target takes 4d6 points of energy damage. If unsuccessful, the target takes half damage.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "When in water or underwater, the Beast produces a short-range electrical jolt. As a Standard Action, the Beast makes an Area Attack (1d20+10) centered on one of its own squares against the Fortitude Defense of all creatures in adjacent squares. If the attack is successful, the target takes 4d6 points of energy damage. If unsuccessful, the target takes half damage.",
+        "key": "special"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "prerequisite": {
+      "text": "Aquatic Species Type",
+      "requirement": "Aquatic",
+      "type": "SPECIES_TYPE"
+    },
+    "cost": "0"
+  },
+  "name": "Electroshock",
+  "flags": {},
+  "type": "beastQuality",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749299111333,
+    "modifiedTime": 1749299111333,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "xNPUOTyrk7bqjUEf",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!xNPUOTyrk7bqjUEf"
+}

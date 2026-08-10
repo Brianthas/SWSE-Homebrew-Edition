@@ -1,0 +1,72 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2d10",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A being begins its turn in within 3 squares of a Dust Devil.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each round at the start of the target's turn, as long as the target remains within 3 squares of the Dust Devil.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Acrobatics (DC 26): The character reduces the effects of being thrown by the Dust Devil's special effect, taking half damage if the Hazard hits the character and one-quarter damage if it misses. Perception (DC 16): The character spots the Dust Devil before it reaches them.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: If the Hazard's attack roll exceeds the target's Reflex Defense by 5 or more, at the end of the round, the target is sucked into the whirlwind and thrown 12 squares. Upon landing, the target takes an additional 3d8 points of damage.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Area",
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>A huge whirlwind of dust and sand threatens to engulf you.</i> </p><p>A Dust Devil can draw in just about anything. Most creatures that hear its unmistakable whistling winds and notice its obvious presence will do everything in their power to avoid it. A Dust Devil is best used in situations when the heroes cannot flee, such as during a climactic battle at the end of a long journey. While the combat rages, the whirlwind can cut a path across the battlefield, attacking everything in its way. </p><h2><span id=\"Dust_Devil_Statistics_.28CL_5.29\"></span><span class=\"mw-headline\" id=\"Dust_Devil_Statistics_(CL_5)\">Dust Devil Statistics (CL 5)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Area, Natural </p><p><b>Trigger:</b> A being begins its turn in within 3 squares of a Dust Devil. </p><p><b>Attack:</b> +7 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> Each round at the start of the target's turn, as long as the target remains within 3 squares of the Dust Devil. </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Acrobatics\" title=\"Acrobatics\">Acrobatics</a> (DC 26):</b> The character reduces the effects of being thrown by the Dust Devil's special effect, taking half damage if the Hazard hits the character and one-quarter damage if it misses.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> (DC 16):</b> The character spots the Dust Devil before it reaches them.</li>\n</ul><p><b>Special:</b> If the Hazard's attack roll exceeds the target's <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> by 5 or more, at the end of the round, the target is sucked into the whirlwind and thrown 12 squares. Upon landing, the target takes an additional 3d8 points of damage. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Dust Devil",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244423,
+    "modifiedTime": 1749263244423,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "2MnnvbyK4vTqwaZG",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!2MnnvbyK4vTqwaZG"
+}

@@ -1,0 +1,165 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<table style=\"width:100%; margin-top:2em; border:2px solid #999; font-size:105%; text-align:center; background:#00008B;\"> \n <tbody>\n  <tr> \n   <td><i><b>This <a href=\"https://swse.fandom.com/wiki/Homebrew_Content\" title=\"Homebrew Content\">Homebrew Content</a> has been <a href=\"https://swse.fandom.com/wiki/Category:Tested\" title=\"Category:Tested\">Tested</a> per the <a href=\"https://swse.fandom.com/wiki/Category:Untested\" title=\"Category:Untested\">Untested</a> guidelines. Whether or not it can be used is, as always, the prerogative of the Gamemaster.</b></i> </td>\n  </tr>\n </tbody>\n</table><p><i>Jablogian Species data created by Wikia user Droidscotty.</i></p><p>The proximity of Jablogian homeworld to Hutt Space has garnered them an unfavourable reputation to the civilized galaxy, but many Jablogians have worked perfectly respectable careers. Largely uninterested in others, Jablogians are still capable of forming bonds with others but they rarely venture to the galaxy except for business. Jablogians are prone to salivating everywhere, standing between 1.4-1.7 meters in height, and averaging at least 100 kilograms. </p><h3><span class=\"mw-headline\" id=\"Jablogian_Characteristics\">Jablogian Characteristics</span></h3><p><b>Personality:</b> Jablogians are gluttonous beings always interested in their next meal. </p><p><b>Physical Description:</b> Jablogians have deep red skin, green eyes, and upturned noses. They boast four-fingered hands and long pointed ears. They have an almost out of proportion build, with thin legs and arms and massive, overweight torsos. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Jablogians age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-16 Years </td> \n   <td>17-45 Years </td> \n   <td>46-65 Years </td> \n   <td>66-84 Years </td> \n   <td>85+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> Even before the Cold War, <span class=\"new\" title=\"Nar Kanji (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvTmFyX0thbmppP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Nar Kanji</span> was a place where food was scarce at various times of year, and the Jablogians needed to build up fat supplies to survive times of scarcity. </p><p><b>Languages:</b> Jablogians speak their own native language of Jablogian. Jablogians also learn Basic at a young age. </p><p><b>Example Names:</b> Azmorigan, Dyslogia Twang, Nazgorigan. </p><p><b>Adventurers:</b> Jablogians most often work as <a href=\"https://swse.fandom.com/wiki/Scoundrels\" class=\"mw-redirect\" title=\"Scoundrels\">Scoundrels</a> and <a href=\"https://swse.fandom.com/wiki/Nobles\" class=\"mw-redirect\" title=\"Nobles\">Nobles</a>, although their curiosity for exotic food leads some to be <a href=\"https://swse.fandom.com/wiki/Scouts\" class=\"mw-redirect\" title=\"Scouts\">Scouts</a>. Their poor physical condition makes Jablogians poor <a href=\"https://swse.fandom.com/wiki/Soldiers\" class=\"mw-redirect\" title=\"Soldiers\">Soldiers</a>. Jablogian Force-users are unheard of. </p><h3><span class=\"mw-headline\" id=\"Jablogian_Species_Traits\">Jablogian Species Traits</span></h3><p>Jablogians share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Food Stores",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Heightened Awareness",
+        "type": "trait"
+      },
+      {
+        "name": "Homebrew Content",
+        "type": "trait"
+      },
+      {
+        "name": "Droidscotty Creations",
+        "type": "trait"
+      },
+      {
+        "name": "Tested",
+        "type": "trait"
+      },
+      {
+        "name": "Hidden Pouch",
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "11",
+          "low": "1",
+          "text": "1-11",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "16",
+          "low": "12",
+          "text": "12-16",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "65",
+          "low": "46",
+          "text": "46-65",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "84",
+          "low": "66",
+          "text": "66-84",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "45",
+          "low": "17",
+          "text": "17-45",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "85",
+          "text": "85+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Food Stores"
+      },
+      {
+        "value": "Jablogians"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Heightened Awareness"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Droidscotty Creations"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Tested"
+      },
+      {
+        "value": "Hidden Pouch"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Jablogian",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535566367,
+    "modifiedTime": 1736535566367,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "l3CeJYrpWr3Yjzr5",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!l3CeJYrpWr3Yjzr5"
+}

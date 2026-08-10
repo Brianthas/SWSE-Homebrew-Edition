@@ -1,0 +1,71 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You have <a href=\"https://swse.fandom.com/wiki/Influential_Contacts\" title=\"Influential Contacts\">Influential Contacts</a> within a certain organization, planet, or region who can provide concrete information to you on certain subjects. Once per day, you can have one of these contacts make a <a href=\"https://swse.fandom.com/wiki/Skill_Check\" class=\"mw-redirect\" title=\"Skill Check\">Skill Check</a> on your behalf. The contact always <a href=\"https://swse.fandom.com/wiki/Takes_20\" class=\"mw-redirect\" title=\"Takes 20\">Takes 20</a> on the <a href=\"https://swse.fandom.com/wiki/Skill_Check\" class=\"mw-redirect\" title=\"Skill Check\">Skill Check</a> (even if the <a href=\"https://swse.fandom.com/wiki/Skill\" class=\"mw-redirect\" title=\"Skill\">Skill</a> would normally not allow <a href=\"https://swse.fandom.com/wiki/Taking_20\" class=\"mw-redirect\" title=\"Taking 20\">Taking 20</a>) and has a Skill modifier equal to 5 + one-half your Heroic Level.<br><br>Contacting your <a href=\"https://swse.fandom.com/wiki/Influential_Contacts\" title=\"Influential Contacts\">Influential Contacts</a> and receiving the benefit of the <a href=\"https://swse.fandom.com/wiki/Skill_Check\" class=\"mw-redirect\" title=\"Skill Check\">Skill Check</a> takes a number of minutes equal to 10 x the <a href=\"https://swse.fandom.com/wiki/Skill_Check\" class=\"mw-redirect\" title=\"Skill Check\">Skill Check</a> result.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Connections talent",
+      "requirement": "Connections",
+      "type": "TALENT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Noble Talent Trees"
+      },
+      {
+        "value": "Corporate Agent Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Noble Talent Trees",
+      "Corporate Agent Talent Trees",
+      "Core Rulebook"
+    ],
+    "isSupplied": false,
+    "talentTree": "Lineage Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Lineage_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Force Unleashed Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Influential Friends",
+  "flags": {},
+  "type": "talent",
+  "folder": "0kPNBcceQb3WtjKR",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385308319,
+    "modifiedTime": 1734385308319,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "6jG2pFSImGSRhU4B",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!6jG2pFSImGSRhU4B"
+}

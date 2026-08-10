@@ -1,0 +1,93 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Any time your opponent is <a href=\"https://swse.fandom.com/wiki/Flat-Footed\" class=\"mw-redirect\" title=\"Flat-Footed\">Flat-Footed</a> or otherwise denied its <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>, you deal an additional 1d6 points of damage with a successful melee or ranged attack. You must be within 6 squares of the target to make a <b>Sneak Attack</b> with a ranged weapon.<br><br>You may select this Talent multiple times. Each time you select it, your <b>Sneak Attack</b> damage increases by +1d6 (Maximum +10d6).",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "takeMultipleTimes"
+      },
+      {
+        "mode": 2,
+        "value": 10,
+        "key": "takeMultipleTimesMax"
+      },
+      {
+        "mode": 2,
+        "value": 1,
+        "key": "sneakAttack"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": null,
+    "categories": [
+      {
+        "value": "Saboteur Talent Trees"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Scoundrel Talent Trees"
+      },
+      {
+        "value": "Assassin Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Bounty Hunter Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Saboteur Talent Trees",
+      "Scoundrel Talent Trees",
+      "Assassin Talent Trees",
+      "Core Rulebook",
+      "Bounty Hunter Talent Trees",
+      "Smuggler Talent Trees",
+      "Engineer Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Misfortune Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Misfortune_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Core Rulebook",
+    "cost": "0"
+  },
+  "name": "Sneak Attack",
+  "flags": {},
+  "type": "talent",
+  "folder": "xmU6UIuAoKz2CgOY",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385309654,
+    "modifiedTime": 1786039798048,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "HvVnvydEHR8Y5Y7f",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!HvVnvydEHR8Y5Y7f"
+}

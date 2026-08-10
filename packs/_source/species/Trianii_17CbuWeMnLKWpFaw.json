@@ -1,0 +1,142 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_at_War\" title=\"Star Wars Saga Edition Galaxy at War\">Star Wars Saga Edition Galaxy at War</a></i> </p><p>The Trianii are a feline race of intrepid explorers, but unlike other technologically advanced <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> of the galaxy, they express no interest in becoming a part of the greater galactic community. The Trianii use impressive displays of force to drive away interlopers so that they are left alone to explore their region of the galaxy. Their homeworld is located on the edge of the region of space controlled by <a href=\"https://swse.fandom.com/wiki/The_Corporate_Sector_Authority\" title=\"The Corporate Sector Authority\">The Corporate Sector Authority</a>. An attempt by the CSA to expand its area of control into Trianii territories is met with a display of Trianii determination as the Species expel the invaders, proving that the ships and weapons of <a href=\"https://swse.fandom.com/wiki/The_Trianii_Rangers\" title=\"The Trianii Rangers\">The Trianii Rangers</a> are as formidable as those of other galactic forces. </p><p>Trianii society is a matriarchy- partly because females of the Species are taller and slightly stronger than the males- ruled by tribunals of females known as <i>yu'nar</i>. Trianii culture revolves around religious beliefs that cover all aspects of life, including art, literature, commerce, and warfare. At one point in their history, the Trianii have numerous different religions, but when a religious civil war threatens to erupt, the leaders of these different faiths instead agree to work together to create an official religion. They establish a belief structure with a moral code that all sides find acceptable while at the same time allowing Trianii to continue following the individual faiths of their families. </p><p>Trianii wear little clothing, selecting garments only for necessity, either as protection or utility. The one item commonly worn by the Species is a <a href=\"https://swse.fandom.com/wiki/Utility_Belt\" title=\"Utility Belt\">Utility Belt</a> that holds essential items. Even ceremonial garb is limited to jewelry and similar adornments. </p><h3><span class=\"mw-headline\" id=\"Trianii_Characteristics\">Trianii Characteristics</span></h3><p><b>Personality:</b> Adventurers by nature, Trianii feel a constant urge to explore, and they place a high value on independence. Spirituality is a large part of Trianii culture, with devotion split between the formal government religion and each family's traditional religious values. </p><p><b>Physical Description:</b> A Trianii is a slender humanoid with prominent feline facial characteristics. Sharp claws and a prehensile tail reinforce the Species' feline qualities. The colors and patterns of Trianii fur vary greatly. Trianii are about 2 meters tall; the females are slightly taller than the males and possess correspondingly larger physiques. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b>&nbsp;Trianii age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-11 Years </td> \n   <td>12-17 Years </td> \n   <td>18-44 Years </td> \n   <td>45-64 Years </td> \n   <td>65-84 Years </td> \n   <td>85+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> <span class=\"new\" title=\"Trian (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvVHJpYW4/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">Trian</span>, located in the outermost portion of the Tingel Arm. </p><p><b>Languages:</b> The Trianii language is composed of purrs, growls, and rolling vocalizations. The written form uses a syllabary instead of an alphabet. Trianii encountered outside Trianii space have some fluency in Basic, but few are literate in it. </p><p><b>Example Names:</b> Atuarre, Duarrid, Keeheen, Pakka, Reakhas, Shearran, Tuunac. </p><p><b>Adventurers:</b> Almost all Trianii encountered outside the Species' area of influence are members of <a href=\"https://swse.fandom.com/wiki/The_Trianii_Rangers\" title=\"The Trianii Rangers\">The Trianii Rangers</a>, the space patrol force responsible for protecting Trianii colonies from outside threats. <a href=\"https://swse.fandom.com/wiki/The_Trianii_Rangers\" title=\"The Trianii Rangers\">The Trianii Rangers</a> often undertake missions to explore uncharted regions or to gather reconnaissance. Other Trianii adventurers are either independent scouts or are just curious about the galactic community that their leaders want no part of. Many outsiders confuse the Trianii with other feline <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> such as the <a href=\"https://swse.fandom.com/wiki/Cathar\" title=\"Cathar\">Cathar</a> or the <a href=\"https://swse.fandom.com/wiki/Togorians\" class=\"mw-redirect\" title=\"Togorians\">Togorians</a>, a mistake few Trianii bother to correct. </p><h3><span class=\"mw-headline\" id=\"Trianii_Species_Traits\">Trianii Species Traits</span></h3><p>Trianii share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Natural Weapons",
+        "type": "trait"
+      },
+      {
+        "name": "Heightened Agility",
+        "type": "trait"
+      },
+      {
+        "name": "Prehensile Tail",
+        "type": "trait"
+      },
+      {
+        "name": "Trianii",
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "85",
+          "text": "85+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "84",
+          "low": "65",
+          "text": "65-84",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "44",
+          "low": "18",
+          "text": "18-44",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "64",
+          "low": "45",
+          "text": "45-64",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "11",
+          "low": "1",
+          "text": "1-11",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "17",
+          "low": "12",
+          "text": "12-17",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Natural Weapons"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Heightened Agility"
+      },
+      {
+        "value": "Prehensile Tail"
+      },
+      {
+        "value": "Trianii"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Trianii",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535567554,
+    "modifiedTime": 1736535567554,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "17CbuWeMnLKWpFaw",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!17CbuWeMnLKWpFaw"
+}

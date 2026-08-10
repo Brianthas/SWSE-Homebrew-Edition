@@ -23,8 +23,15 @@ export default class ArmorData extends ItemSystemDataModel {
             ...ModifiableFields(),
             ...SourceFields(),
             armorType: new fields.StringField({initial: "", blank: true, required: false}),
-            equipped: new fields.StringField({initial: "unequipped", blank: true, required: false}),
-            stripping: new fields.ObjectField({initial: {}})
+            equipped: new fields.StringField({initial: "", blank: true, required: false}),
+            stripping: new fields.ObjectField({initial: {}}),
+            armorFlatSpeedPenalty: new fields.NumberField({initial: null, required: false}),
+            // Flat number, or the literal string "str" (substitute Strength modifier) — see
+            // SWSEItem#armorDexterityOverride.
+            armorDexterityOverride: new fields.StringField({initial: "", blank: true, required: false}),
+            armorFlatCheckPenalty: new fields.NumberField({initial: null, required: false}),
+            strengthBonus: new fields.NumberField({initial: null, required: false}),
+            damageReduction: new fields.NumberField({initial: null, required: false})
         };
     }
 }

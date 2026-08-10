@@ -1,0 +1,85 @@
+{
+  "img": "systems/swse/icon/feat/Rapid_Assault.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<table style=\"width:100%; margin-top:2em; border:2px solid #999; font-size:105%; text-align:center; background:#00008B;\">\n <tbody>\n  <tr>\n   <td><i><b>This section contains <a href=\"https://swse.fandom.com/wiki/Category:Optional_Rules\" class=\"newcategory\" title=\"Category:Optional Rules\">Optional Rules</a> that modify gameplay in a significant manner. Whether or not the rules will be utilized is the prerogative of the Gamemaster.</b></i></td>\n  </tr>\n </tbody>\n</table><p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Web_Enhancements\" title=\"Star Wars Saga Edition Web Enhancements\">Star Wars Saga Edition Web Enhancements</a>&nbsp;(<a href=\"https://swse.fandom.com/wiki/Saga_Edition_FAQ\" title=\"Saga Edition FAQ\">Saga Edition FAQ</a>&nbsp;(E2))</i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>Through focus and raw determination, you can make multiple attacks even after moving.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Double_Attack\" title=\"Double Attack\">Double Attack</a> or <a href=\"https://swse.fandom.com/wiki/Dual_Weapon_Mastery_I\" title=\"Dual Weapon Mastery I\">Dual Weapon Mastery I</a>, <a href=\"https://swse.fandom.com/wiki/Base_Attack_Bonus\" class=\"mw-redirect\" title=\"Base Attack Bonus\">Base Attack Bonus</a> +6</p><p><b>Effect:</b> If you are wielding two weapons or a weapon with which you can use the <a href=\"https://swse.fandom.com/wiki/Double_Attack\" title=\"Double Attack\">Double Attack</a> feat, you may spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> to make two attacks as a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a>.</p><p>The normal penalties due to attacking with two weapons or using <a href=\"https://swse.fandom.com/wiki/Double_Attack\" title=\"Double Attack\">Double Attack</a> still apply, and you cannot make more than two attacks regardless of how many extra attacks you can make during a <a href=\"https://swse.fandom.com/wiki/Full_Attack\" title=\"Full Attack\">Full Attack</a> Action.</p><p><b>Normal:</b> You can only make multiple attacks with the <a href=\"https://swse.fandom.com/wiki/Full_Attack\" title=\"Full Attack\">Full Attack</a> Action (a <a href=\"https://swse.fandom.com/wiki/Full-Round_Action\" class=\"mw-redirect\" title=\"Full-Round Action\">Full-Round Action</a>).</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "children": [
+            {
+              "text": "Double Attack feat",
+              "requirement": "Double Attack",
+              "type": "FEAT"
+            },
+            {
+              "text": "Dual Weapon Mastery I feat",
+              "requirement": "Dual Weapon Mastery I",
+              "type": "FEAT"
+            }
+          ],
+          "count": 1,
+          "text": "Double Attack or Dual Weapon Mastery I",
+          "type": "OR"
+        },
+        {
+          "text": "Base Attack Bonus 6",
+          "requirement": "6",
+          "type": "BASE ATTACK BONUS"
+        }
+      ],
+      "text": "(Double Attack or Dual Weapon Mastery I), and Base Attack Bonus 6",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Web Enhancements"
+      },
+      {
+        "value": "Optional Rules"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Web Enhancements (Saga Edition FAQ (E2))",
+    "cost": "0"
+  },
+  "name": "Rapid Assault",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479028480,
+    "modifiedTime": 1761479028480,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "tvJOacKoNUyieXux",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!tvJOacKoNUyieXux"
+}

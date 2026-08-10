@@ -1,7 +1,26 @@
+// Breathing room after each list when multiple item-list.hbs blocks stack on the same tab
+// (e.g. Feats then Talents) — otherwise the next section's bigLabel header sits flush against
+// the previous list's last row. `.item-container.panel` (not just `.item-container`) because
+// item-list.hbs's `container` prop is sometimes literally the string "items-list" (e.g. Feats/
+// Talents both pass container="items-list" as a data-container-id, unrelated to the .items-list
+// class below) — when that happens this same div also carries a coincidental .items-list class,
+// and its `margin: 0` would otherwise win the specificity tie by appearing later in this file.
+.item-container.panel {
+  margin-bottom: $space-sm;
+}
+
+// Generic item-entry list (item-list.hbs/item-entry.hbs), shared by Feats/Talents/Traits,
+// Languages, Natural Weapons/Special Senses/Species Types/Special Qualities, and the vehicle
+// sheet's Uninstalled/Templates/Installed/Gunner Position/Cargo lists — one compact-row pass
+// here uplifts every consumer at once, matching the same idiom already used for Skills/Classes/
+// Force Powers/Equipment/Attacks (small icon, dark card row, small icon-button controls).
 .items-list {
   list-style: none;
-  margin: 7px 0;
+  margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: $space-2xs;
   overflow-y: auto;
 
   .item-header {
@@ -9,50 +28,128 @@
   }
 
   .item {
-    line-height: 24px;
-    padding: 3px 0;
-    border-bottom: 1px solid #BBB;
+    display: flex;
+    flex-direction: column;
+    gap: $space-2xs;
+    padding: $space-2xs $space-sm;
+    border-radius: $radius-sm;
+    background: var(--swse-surface-raised);
+    min-height: 30px;
+
+    // The row's own two nested .flexrow divs (Foundry-core utility classes, not redefined
+    // here) already handle horizontal layout — just make them align vertically and gap evenly.
+    > .flexrow {
+      align-items: center;
+      gap: $space-sm;
+
+      > .flexrow {
+        align-items: center;
+        gap: $space-sm;
+        flex: 1 1 auto;
+        min-width: 0;
+      }
+    }
 
     .item-image {
-      flex: 0 0 48px;
-      margin-right: 5px;
+      flex: 0 0 24px;
+      width: 24px;
+      height: 24px;
+      border-radius: $radius-sm;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
     }
 
-    img {
-      display: block;
+    // Expand-in-place toggle for the description below, matching the Attacks panel's own
+    // .attack-toggle — a discoverable +/- affordance instead of relying on clicking the row.
+    .item-desc-toggle {
+      width: 14px;
+      flex: 0 0 14px;
+      font-size: 10px;
+      text-align: center;
     }
   }
 
-  .description{
-    background-color: rgba(0,0,0,0.05);
-    padding: 3px;
-  }
-
-  .feat {
-    height: 60px;
-    line-height: 24px;
-    padding: 3px 0;
-    border-bottom: 1px solid #BBB;
+  .description {
+    background: var(--swse-surface);
+    color: var(--swse-text);
+    padding: $space-xs;
+    border-radius: $radius-sm;
   }
 
   .item-name {
     margin: 0;
-    flex: 5;
+    flex: 1 1 auto;
+    min-width: 0;
+    font-weight: 700;
+    font-size: 12px;
+    color: var(--swse-text);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  // Split out from .item-name so the two no longer compete for the same flex share — the
+  // name should dominate, prerequisites/source trail as a smaller muted column.
+  .item-prereqs {
+    flex: 0 1 auto;
+    min-width: 0;
+    font-size: 11px;
+    font-weight: 400;
+    color: var(--swse-text-muted);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    b {
+      color: var(--swse-text);
+      font-weight: 700;
+    }
   }
 
   .item-upgrade {
-    flex:0;
+    flex: 0;
     white-space: nowrap;
   }
 
-  .strikethrough{
+  .strikethrough {
     text-decoration: line-through;
   }
 
   .item-controls {
-    text-align: right;
-    flex:0;
-    flex-basis: 48px;
+    display: flex;
+    align-items: center;
+    gap: $space-2xs;
+    flex: 0 0 auto;
+
+    .item-control {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 20px;
+      height: 20px;
+      border-radius: $radius-sm;
+      background: var(--swse-surface);
+      border: 1px solid var(--swse-border);
+      color: var(--swse-text);
+      font-size: 10px;
+
+      &:hover {
+        background: var(--swse-accent);
+        color: var(--swse-bg);
+        border-color: var(--swse-accent);
+      }
+    }
+
+    .item-delete:hover {
+      background: var(--swse-accent-combat);
+      border-color: var(--swse-accent-combat);
+    }
   }
 }
 

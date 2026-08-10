@@ -1,0 +1,58 @@
+<header class="sheet-header">
+    <div class="flex flex-col">
+        <div>
+
+            {{#each item.warnings as |warning id|}}
+                <span class="warning">{{{warning}}}</span><br/>
+            {{/each}}
+            {{#each item.errors as |error id|}}
+                <span class="error">{{{error}}}</span><br/>
+            {{/each}}
+        </div>
+        <div class="flex flex-row">
+            {{#each item.tags as |tag id|}}
+                <span class="tag">{{tag}}</span>
+            {{/each}}
+        </div>
+        <div class="flex flex-row">
+            <div>
+                <img class="profile-img" src="{{item.img}}" data-edit="img" data-action="editImage" title="{{item.name}}"
+                     alt="{{item.name}}"/>
+            </div>
+            <div class="header-fields flex-grow">
+                <div class="flex flex-row">
+                    <div>
+                        <h1 class="charname"><span class="effect-title" data-action="direct-field" data-type="string" data-name="name" name="name" data-editable-value="{{item.name}}">{{ item.displayName}}</span></h1>
+                    </div>
+                    <div>
+                        <a data-action="to-chat"
+                           data-action-item="{{item.id}}" data-actor-id="{{#if item.parent}}{{item.parent.id}}{{/if}}" data-action-compendium="{{item.pack}}"
+                           title="Share"><i
+                                class="fas fa-share"></i></a>
+                    </div>
+                </div>
+
+                <div class="flex flex-row item-header-pills">
+                    <select name="type" class="pill-select" title="Type">
+                        {{#select item.type}}
+                            {{{options 'type'}}}
+                        {{/select}}
+                    </select>
+                    {{#if (options 'subtype' item.type)}}
+                        <select name="system.subtype" class="pill-select" title="Subtype">
+                            {{#if item.system}}
+                                {{#select item.system.subtype}}
+                                    {{{options 'subtype' item.type}}}
+                                {{/select}}
+                            {{else}}
+                                {{#select item._source.system.subtype}}
+                                    {{{options 'subtype' item.type}}}
+                                {{/select}}
+                            {{/if}}
+                        </select>
+                    {{/if}}
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

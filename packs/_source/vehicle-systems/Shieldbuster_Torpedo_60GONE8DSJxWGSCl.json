@@ -1,0 +1,53 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><p><b>Emplacement Points:</b>&nbsp;3</p><p>A Shieldbuster Torpedo Launcher carries a Starship's Shieldbuster Torpedo payload.&nbsp;A standard Shieldbuster Torpedo Launcher holds four Shieldbuster Torpedoes (See below). Additional capacity may be added, increasing the cost by 25% for each additional Shieldbuster Torpedo (Up to a maximum of eight Shieldbuster Torpedoes).</p><h4><span class=\"mw-headline\" id=\"Shieldbuster_Torpedoes\"><b>Shieldbuster Torpedoes</b></span></h4><p><b>Emplacement Points:</b>&nbsp;0</p><table class=\"wikitable\">\n <caption>\n  Proton Torpedo Ranges\n </caption>\n <tbody>\n  <tr>\n   <th colspan=\"4\">RANGE BY CHARACTER SCALE</th>\n   <th></th>\n   <th colspan=\"4\"><p>RANGE BY STARSHIP SCALE</p></th>\n  </tr>\n  <tr>\n   <th>POINT-BLANK</th>\n   <th>SHORT</th>\n   <th>MEDIUM</th>\n   <th>LONG</th>\n   <th></th>\n   <th>POINT-BLANK</th>\n   <th>SHORT</th>\n   <th>MEDIUM</th>\n   <th>LONG</th>\n  </tr>\n  <tr>\n   <td>0-450 Squares</td>\n   <td>451-900 Squares</td>\n   <td>901-2,250 Squares</td>\n   <td>2,251-4,000 Squares</td>\n   <td></td>\n   <td>0-3 Squares</td>\n   <td>4-6 Squares</td>\n   <td>7-15 Squares</td>\n   <td>16-30 Squares</td>\n  </tr>\n </tbody>\n</table><p>These are plasma-based torpedo weapons that create bursts of <a href=\"https://swse.fandom.com/wiki/Radiation\" title=\"Radiation\">Radiation</a> specifically designed to overwhelm <a href=\"https://swse.fandom.com/wiki/Starship_Shields\" title=\"Starship Shields\">Starship Shields</a>. The T-33 used by <span class=\"new\" title=\"BTL-56 K-Wing (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvQlRMLTU2X0stV2luZz9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">BTL-56 K-Wings</span> is typical of weapons of this type. Against anything but a <a href=\"https://swse.fandom.com/wiki/Shield_Rating\" title=\"Shield Rating\">Shield Rating</a>, Shieldbuster Torpedoes deal half damage. If an attack from a Shieldbuster Torpedo exceeds a target's <a href=\"https://swse.fandom.com/wiki/Shield_Rating\" title=\"Shield Rating\">Shield Rating</a>, the target loses 10 points from it's <a href=\"https://swse.fandom.com/wiki/Shield_Rating\" title=\"Shield Rating\">Shield Rating</a> (Rather than the normal 5). Shields damaged in this way can be recharged normally.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "1000",
+    "weight": "",
+    "availability": "Military",
+    "size": "",
+    "type": "",
+    "subtype": "Ammunition",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "equipment": {},
+    "damage": "10d10x2"
+  },
+  "name": "Shieldbuster Torpedo",
+  "flags": {},
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317316,
+    "modifiedTime": 1759848317316,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "60GONE8DSJxWGSCl",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!60GONE8DSJxWGSCl"
+}

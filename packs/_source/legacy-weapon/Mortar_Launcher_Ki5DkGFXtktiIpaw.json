@@ -1,0 +1,113 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode"
+        }
+      },
+      "statuses": [],
+      "disabled": false,
+      "name": "Single-Shot",
+      "_id": "BYiyoydWWrJldj2e",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513519,
+        "modifiedTime": 1786051513519,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!Ki5DkGFXtktiIpaw.BYiyoydWWrJldj2e"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_at_War\" title=\"Star Wars Saga Edition Galaxy at War\">Star Wars Saga Edition Galaxy at War</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Mortar_Shells\" title=\"Mortar Shells\">Mortar Shells</a></i> </p><p>The Merr-Sonn MobileMortar-3 is typical of Mortar Launchers wielded by soldiers. The Mortar Launcher is popular with insurgents, partisans, and other underdog armies because of its ease of use, low cost, and ability to drop shells on the enemy from behind cover at a distance. The Mortar Launcher consists of a tube, a tripod, and a magazine along with a built-in computer that adjusts for wind and other environmental factors. </p><p>The magazine holds five shells and allows the Mortar Launcher to automatically reload after every shot. Alternatively, the wielder can drop a single shell down the open tube, and the powerful electromagnet at the base launches the shell. </p><p>A Mortar Launcher lobs shells in a high <a href=\"https://swse.fandom.com/wiki/Arc\" class=\"mw-redirect\" title=\"Arc\">Arc</a>. Additionally, when you launch a Mortar at a target, you can treat the Weapon's point of origin as being 20 squares in the air for the purposes of determining line of sight and <a href=\"https://swse.fandom.com/wiki/Cover\" title=\"Cover\">Cover</a>. Mortar Launchers fire Mortar Shells, which are statistically identical to <a href=\"https://swse.fandom.com/wiki/Grenades\" title=\"Grenades\">Grenades</a>. </p><p><b>Arc Weapon:</b>&nbsp;This Weapon cannot be fired at targets within Point-Blank Range. </p><p><b>Special:</b>&nbsp;This is an&nbsp;<a href=\"https://swse.fandom.com/wiki/Area_Attack\" class=\"mw-redirect\" title=\"Area Attack\">Area Attack</a>&nbsp;Weapon. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Mortar Shells",
+        "key": "seeAlso"
+      }
+    ],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "2,500",
+    "weight": "20 Kilograms",
+    "availability": "Military",
+    "size": "Large",
+    "type": "",
+    "subtype": "Heavy Weapons",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageType": "Slashing",
+    "specialQualities": "Arc Weapon: This Weapon cannot be fired at targets within Point-Blank Range.\n\nSpecial: This is an Area Attack Weapon."
+  },
+  "name": "Mortar Launcher",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Mortar_Launcher.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513519,
+    "modifiedTime": 1786051513585,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "Ki5DkGFXtktiIpaw",
+  "_key": "!items!Ki5DkGFXtktiIpaw"
+}

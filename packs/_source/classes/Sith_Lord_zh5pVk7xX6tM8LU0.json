@@ -1,0 +1,429 @@
+{
+  "effects": [
+    {
+      "name": "Level 1",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 1
+        }
+      },
+      "disabled": true,
+      "_id": "dpIdilZseCuGMosT",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "provides",
+            "type": "add",
+            "value": "Sith Lord Talent Trees",
+            "phase": "initial",
+            "priority": 20
+          },
+          {
+            "key": "baseAttackBonus",
+            "type": "add",
+            "value": 1,
+            "phase": "initial",
+            "priority": 20
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786041599970,
+        "modifiedTime": 1786041599970,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!zh5pVk7xX6tM8LU0.dpIdilZseCuGMosT"
+    },
+    {
+      "name": "Level 2",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 2
+        }
+      },
+      "disabled": true,
+      "_id": "wthlaUzX1Ljd7eUQ",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Force Secret",
+            "key": "provides",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 1,
+            "key": "baseAttackBonus",
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!zh5pVk7xX6tM8LU0.wthlaUzX1Ljd7eUQ"
+    },
+    {
+      "name": "Level 3",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 3
+        }
+      },
+      "disabled": true,
+      "_id": "0DcNFb8buubV0Jxu",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Force Secret",
+            "key": "provides",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": "Sith Lord Talent Trees",
+            "key": "provides",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 1,
+            "key": "baseAttackBonus",
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!zh5pVk7xX6tM8LU0.0DcNFb8buubV0Jxu"
+    },
+    {
+      "name": "Level 4",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 4
+        }
+      },
+      "disabled": true,
+      "_id": "vfLFNOiscKvhumaa",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Force Secret",
+            "key": "provides",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 1,
+            "key": "baseAttackBonus",
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!zh5pVk7xX6tM8LU0.vfLFNOiscKvhumaa"
+    },
+    {
+      "name": "Level 5",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 5
+        }
+      },
+      "disabled": true,
+      "_id": "jjDOCIOD62bxAVfQ",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Force Secret",
+            "key": "provides",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": "Sith Lord Talent Trees",
+            "key": "provides",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 1,
+            "key": "baseAttackBonus",
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!zh5pVk7xX6tM8LU0.jjDOCIOD62bxAVfQ"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: Star Wars Saga Edition Core Rulebook</i> </p><p>The Sith Lord is the pinnacle of <a href=\"https://swse.fandom.com/wiki/The_Sith\" title=\"The Sith\">The Sith</a> tradition. Their most sacred tasks include preserving the lore and glory of the Sith, and plotting their eventual ascendance to their place as rulers of the galaxy. The Sith Lord must allow nothing to stand in the way of this goal: not all the forces of the Republic military, nor the entirety of <a href=\"https://swse.fandom.com/wiki/The_Jedi_Order\" class=\"mw-redirect\" title=\"The Jedi Order\">The Jedi Order</a>. When the time comes, the Sith Lord must be prepared to ruthlessly crush all opposition, leaving no traces behind. </p><p>The Sith Lord cultivates individuals with the potential for both great power and great evil, training them from childhood, when possible, to be every bit as ruthless as themselves. The training can be better described as physical and mental torture, but it is designed to create someone strong, fast, cunning, and deadly. The Sith Lord passes on their knowledge of <a href=\"https://swse.fandom.com/wiki/The_Dark_Side\" title=\"The Dark Side\">The Dark Side</a> of <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a>, instilling in their <a href=\"https://swse.fandom.com/wiki/Sith_Apprentice\" title=\"Sith Apprentice\">Sith Apprentice</a> both a lust for power, and a fear of failure. </p><p>Arguably, only the truly ambitious or deeply twisted ever seek to become Sith Lords. Following the path of <a href=\"https://swse.fandom.com/wiki/The_Sith\" title=\"The Sith\">The Sith</a> dominates one's <a href=\"https://swse.fandom.com/wiki/Destiny\" title=\"Destiny\">Destiny</a>, requiring a constant devotion to engineering the ascendance of <a href=\"https://swse.fandom.com/wiki/The_Sith\" title=\"The Sith\">The Sith</a>. A Sith Lord cannot afford the luxury of friends, mercy, or even rest. <a href=\"https://swse.fandom.com/wiki/The_Dark_Side\" title=\"The Dark Side\">The Dark Side</a> sustains them through decades of scheming and planning, of masterminding plots subtle and grandiose. Even then, a Sith Lord may meet their end without ever seeing their contributions to the Sith grand scheme come to fruition. Each must content themselves with knowing their <a href=\"https://swse.fandom.com/wiki/Sith_Apprentice\" title=\"Sith Apprentice\">Sith Apprentice</a>, or a descendant of their <a href=\"https://swse.fandom.com/wiki/Sith_Apprentice\" title=\"Sith Apprentice\">Sith Apprentice</a> a hundred generations down the line, will one day honor their sacrifice by destroying <a href=\"https://swse.fandom.com/wiki/The_Jedi_Order\" class=\"mw-redirect\" title=\"The Jedi Order\">The Jedi Order</a>, and replacing it with the dark empire of <a href=\"https://swse.fandom.com/wiki/The_Sith\" title=\"The Sith\">The Sith</a>. </p><p>In the early days of <a href=\"https://swse.fandom.com/wiki/The_Sith\" title=\"The Sith\">The Sith</a>, only one of their rank could ever gain the title \"Dark Lord of the Sith.\" Seizing this prestigious position generally required the support of a significant portion of <a href=\"https://swse.fandom.com/wiki/The_Sith\" title=\"The Sith\">The Sith</a>- and the death of the previous Sith Lord. With the twilight of <a href=\"https://swse.fandom.com/wiki/The_Sith\" title=\"The Sith\">The Sith</a> and the rise of Darth Bane, the rules of the old Sith were supplanted by new rules. There could only be two Sith at any time: One was the Master, and the other was the Apprentice. While both of these could be Sith Lords, neither could take on a Sith Apprentice until the other was dead. Sometimes this resulted in vicious battles between Master and Apprentice. But more commonly, the Master would pass on all they knew before expiring, leaving the Apprentice to become the Master, taking on a new Apprentice, and thus continue the tradition of <a href=\"https://swse.fandom.com/wiki/The_Sith\" title=\"The Sith\">The Sith</a>. </p><h4><span class=\"mw-headline\" id=\"Examples_of_Sith_Lords_in_Star_Wars\"><b>Examples of Sith Lords in Star Wars</b></span></h4><p>Darth Bane, Darth Sidious, Darth Maul, Darth Tyranus, Darth Vader, Darth Malak, Darth Nihilus, Darth Krayt, Exar Kun. </p><h4><span class=\"mw-headline\" id=\"Prerequisites\"><b>Prerequisites</b></span></h4><p>To qualify to become a Sith Lord, a character must fulfill the following criteria: </p><ul>\n <li><b>Minimum Level:</b> 12th</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Trained_Skills\" class=\"mw-redirect\" title=\"Trained Skills\">Trained Skills</a>:</b> <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a></li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a>:</b> <a href=\"https://swse.fandom.com/wiki/Force_Sensitivity\" title=\"Force Sensitivity\">Force Sensitivity</a>, <a href=\"https://swse.fandom.com/wiki/Weapon_Proficiency_(Lightsabers)\" class=\"mw-redirect\" title=\"Weapon Proficiency (Lightsabers)\">Weapon Proficiency (Lightsabers)</a></li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Force_Techniques\" title=\"Force Techniques\">Force Techniques</a>:</b> At least one</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Dark_Side_Score\" title=\"Dark Side Score\">Dark Side Score</a>:</b> Your <a href=\"https://swse.fandom.com/wiki/Dark_Side_Score\" title=\"Dark Side Score\">Dark Side Score</a> must be equal to your <a href=\"https://swse.fandom.com/wiki/Wisdom\" title=\"Wisdom\">Wisdom</a> score (if your <a href=\"https://swse.fandom.com/wiki/Dark_Side_Score\" title=\"Dark Side Score\">Dark Side Score</a> ever becomes less than your <a href=\"https://swse.fandom.com/wiki/Wisdom\" title=\"Wisdom\">Wisdom</a> score, you lose access to all class features granted by this class (including <a href=\"https://swse.fandom.com/wiki/Talents\" title=\"Talents\">Talents</a>), until your <a href=\"https://swse.fandom.com/wiki/Dark_Side_Score\" title=\"Dark Side Score\">Dark Side Score</a> again equals your <a href=\"https://swse.fandom.com/wiki/Wisdom\" title=\"Wisdom\">Wisdom</a> Score)</li> \n <li><b>Special:</b> Must be a member of <a href=\"https://swse.fandom.com/wiki/The_Sith\" title=\"The Sith\">The Sith</a></li>\n</ul><h3><span class=\"mw-headline\" id=\"Game_Rule_Information\">Game Rule Information</span></h3><p>The following are the features of the Sith Lord <a href=\"https://swse.fandom.com/wiki/Prestige_Class\" class=\"mw-redirect\" title=\"Prestige Class\">Prestige Class</a>: </p><table class=\"wikitable\"> \n <caption>\n  Sith Lord Leveling Statistics \n </caption> \n <tbody>\n  <tr> \n   <th>LEVEL </th> \n   <th><a href=\"https://swse.fandom.com/wiki/BASE_ATTACK_BONUS\" class=\"mw-redirect\" title=\"BASE ATTACK BONUS\">BASE ATTACK BONUS</a> </th> \n   <th>CLASS FEATURES </th>\n  </tr> \n  <tr> \n   <td>1st </td> \n   <td>+1 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Defense\" class=\"mw-redirect\" title=\"Defense\">Defense</a> Bonuses, Fearless, <a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Sith_Lord)\" title=\"Talent Trees (Sith Lord)\">Talent</a>, Temptation </td>\n  </tr> \n  <tr> \n   <td>2nd </td> \n   <td>+2 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Force_Secret\" class=\"mw-redirect\" title=\"Force Secret\">Force Secret</a> </td>\n  </tr> \n  <tr> \n   <td>3rd </td> \n   <td>+3 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Force_Secret\" class=\"mw-redirect\" title=\"Force Secret\">Force Secret</a>, <a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Sith_Lord)\" title=\"Talent Trees (Sith Lord)\">Talent</a> </td>\n  </tr> \n  <tr> \n   <td>4th </td> \n   <td>+4 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Force_Secret\" class=\"mw-redirect\" title=\"Force Secret\">Force Secret</a> </td>\n  </tr> \n  <tr> \n   <td>5th </td> \n   <td>+5 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Force_Secret\" class=\"mw-redirect\" title=\"Force Secret\">Force Secret</a>, <a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Sith_Lord)\" title=\"Talent Trees (Sith Lord)\">Talent</a> </td>\n  </tr>\n </tbody>\n</table><h4><span class=\"mw-headline\" id=\"Hit_Points\"><b>Hit Points</b></span></h4><p>At each level, Sith Lords gain 1d10 hit points + their <a href=\"https://swse.fandom.com/wiki/Constitution\" title=\"Constitution\">Constitution</a> modifier. </p><h4><span class=\"mw-headline\" id=\"Force_Points\"><b>Force Points</b></span></h4><p>Sith Lords gain a number of <a href=\"https://swse.fandom.com/wiki/Force_Points\" title=\"Force Points\">Force Points</a> equal to 7 + one-half their Character Level, rounded down, each time they gain a new level in this <a href=\"https://swse.fandom.com/wiki/Prestige_Class\" class=\"mw-redirect\" title=\"Prestige Class\">Prestige Class</a> (Due to their strong connection to <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a>, Sith Lords gain more <a href=\"https://swse.fandom.com/wiki/Force_Points\" title=\"Force Points\">Force Points</a> than most other <a href=\"https://swse.fandom.com/wiki/Prestige_Classes\" title=\"Prestige Classes\">Prestige Classes</a>). </p><h4><span class=\"mw-headline\" id=\"Defense_Bonuses\"><b>Defense Bonuses</b></span></h4><p>At 1st level, Sith Lords gain a +3 <a href=\"https://swse.fandom.com/wiki/Class\" class=\"mw-redirect\" title=\"Class\">Class</a> bonus to their <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a>, <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>, and <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>. </p><h4><span class=\"mw-headline\" id=\"Fearless\"><b>Fearless</b></span></h4><p>Sith Lords are immune to Fear effects. </p><h4><span class=\"mw-headline\" id=\"Talents\"><b>Talents</b></span></h4><p>At every odd-numbered level (1st, 3rd, 5th, and so on), a Sith Lord gains an additional <a href=\"https://swse.fandom.com/wiki/Talent\" class=\"mw-redirect\" title=\"Talent\">Talent</a>. A Sith Lord may choose a <a href=\"https://swse.fandom.com/wiki/Talent\" class=\"mw-redirect\" title=\"Talent\">Talent</a> from any of the <a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Sith_Lord)\" title=\"Talent Trees (Sith Lord)\">Talent Trees (Sith Lord)</a> or <a href=\"https://swse.fandom.com/wiki/Force_Talent_Trees\" class=\"mw-redirect\" title=\"Force Talent Trees\">Force Talent Trees</a> (including <a href=\"https://swse.fandom.com/wiki/Force_Tradition\" class=\"mw-redirect\" title=\"Force Tradition\">Force Tradition</a> Talent Trees) they wish, but they must meet the prerequisites (if any) of the chosen <a href=\"https://swse.fandom.com/wiki/Talent\" class=\"mw-redirect\" title=\"Talent\">Talent</a>. No <a href=\"https://swse.fandom.com/wiki/Talent\" class=\"mw-redirect\" title=\"Talent\">Talent</a> can be selected more than once unless expressly indicated. </p><h4><span class=\"mw-headline\" id=\"Temptation\"><b>Temptation</b></span></h4><p>You are adept at using Dun Möch, an ancient and vile technique for tempting others to tap into <a href=\"https://swse.fandom.com/wiki/The_Dark_Side\" title=\"The Dark Side\">The Dark Side</a> of <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a>. As a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a>, a Sith Lord can make a <a href=\"https://swse.fandom.com/wiki/Persuasion\" title=\"Persuasion\">Persuasion</a> check and compare it to the <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a> of a single opponent within line of sight. If the check succeeds, the target is filled with fear or anger, briefly giving in to <a href=\"https://swse.fandom.com/wiki/The_Dark_Side\" title=\"The Dark Side\">The Dark Side</a>. </p><p>If the target spends a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> before your next turn, it must either add 1 point to its <a href=\"https://swse.fandom.com/wiki/Dark_Side_Score\" title=\"Dark Side Score\">Dark Side Score</a>, or move -1 step on the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>, as it is overcome by doubt and remorse. If the target spends a <a href=\"https://swse.fandom.com/wiki/Destiny_Point\" class=\"mw-redirect\" title=\"Destiny Point\">Destiny Point</a> before your next turn, it instead must either add 2 points to its <a href=\"https://swse.fandom.com/wiki/Dark_Side_Score\" title=\"Dark Side Score\">Dark Side Score</a>, or move -2 steps on the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>. </p><h4><span class=\"mw-headline\" id=\"Force_Secrets\"><b>Force Secrets</b></span></h4><p>You have glimpsed an eternal truth through your contemplation of <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a>. At 2nd level, and every level thereafter, the Sith Lord gains one <a href=\"https://swse.fandom.com/wiki/Force_Secret\" class=\"mw-redirect\" title=\"Force Secret\">Force Secret</a> that, once selected, cannot be changed. </p><hr /><p><i>Homebrew (tovec.wikidot.com/episode-vii):</i> May select talents from any Force Tradition, subject to GM approval. This includes talents such as Many Shades of the Force (normally part of the Aing-Tii Monk talent tree), independent of that tree.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "1d10",
+        "key": "levelUpHitPoints"
+      },
+      {
+        "mode": 2,
+        "value": 7,
+        "key": "classForcePoints"
+      },
+      {
+        "mode": 2,
+        "value": 3,
+        "key": "classFortitudeDefenseBonus"
+      },
+      {
+        "mode": 2,
+        "value": 3,
+        "key": "classReflexDefenseBonus"
+      },
+      {
+        "mode": 2,
+        "value": 3,
+        "key": "classWillDefenseBonus"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHeroic"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isPrestige"
+      },
+      {
+        "mode": 2,
+        "value": false,
+        "key": "isFollowerTemplate"
+      },
+      {
+        "mode": 2,
+        "value": "Sith Lord Talent Trees:1",
+        "key": "provides"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Character Level 12",
+          "requirement": "12",
+          "type": "CHARACTER LEVEL"
+        },
+        {
+          "text": "Trained in Use the Force",
+          "requirement": "Use the Force",
+          "type": "TRAINED SKILL"
+        },
+        {
+          "children": [
+            {
+              "text": "Force Sensitivity feat",
+              "requirement": "Force Sensitivity",
+              "type": "FEAT"
+            },
+            {
+              "text": "Weapon Proficiency (Lightsabers)",
+              "requirement": "Weapon Proficiency (Lightsabers)",
+              "type": "FEAT"
+            }
+          ],
+          "text": "Feats: Force Sensitivity, Weapon Proficiency (Lightsabers)",
+          "type": "AND"
+        },
+        {
+          "text": "At least one Force Technique",
+          "requirement": "1",
+          "type": "FORCE TECHNIQUE"
+        },
+        {
+          "text": "Dark Side Score: Your Dark Side Score must be equal to your Wisdom score (if your Dark Side Score ever becomes less than your Wisdom score, you lose access to all class features granted by this class (including Talents), until your Dark Side Score again equals your Wisdom Score)",
+          "requirement": "@WISTOTAL",
+          "type": "DARK SIDE SCORE"
+        },
+        {
+          "text": "Must be a member of The Sith Force Tradition",
+          "requirement": "The Sith",
+          "type": "TRADITION"
+        }
+      ],
+      "text": "Character Level 12, Trained in Use the Force, (Feats: Force Sensitivity, Weapon Proficiency (Lightsabers)), At least one Force Technique, Dark Side Score: Your Dark Side Score must be equal to your Wisdom score (if your Dark Side Score ever becomes less than your Wisdom score, you lose access to all class features granted by this class (including Talents), until your Dark Side Score again equals your Wisdom Score), and Must be a member of The Sith Force Tradition",
+      "type": "AND"
+    },
+    "levels": [],
+    "cost": "0"
+  },
+  "name": "Sith Lord",
+  "flags": {},
+  "type": "class",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1730910735246,
+    "modifiedTime": 1786068679651,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "zh5pVk7xX6tM8LU0",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!zh5pVk7xX6tM8LU0"
+}

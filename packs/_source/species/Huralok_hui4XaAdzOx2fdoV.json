@@ -1,0 +1,172 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<table style=\"width:100%; margin-top:2em; border:2px solid #999; font-size:105%; text-align:center; background:#00008B;\"> \n <tbody>\n  <tr> \n   <td><i><b>This <a href=\"https://swse.fandom.com/wiki/Homebrew_Content\" title=\"Homebrew Content\">Homebrew Content</a> has been <a href=\"https://swse.fandom.com/wiki/Category:Tested\" title=\"Category:Tested\">Tested</a> per the <a href=\"https://swse.fandom.com/wiki/Category:Untested\" title=\"Category:Untested\">Untested</a> guidelines. Whether or not it can be used is, as always, the prerogative of the Gamemaster.</b></i> </td>\n  </tr>\n </tbody>\n</table><p><i>Huralok Species data created by Wikia user SunsetMage001 (Converted from its Geonosis and the Outer Rim Worlds counterpart).</i></p><p>Huraloks are a reptilian species known for their viciousness, vast capacity for grudges, and extremely long lives. They accept their foul reputation in the galaxy and generally remain hidden away, leaving dealings with other <a href=\"https://swse.fandom.com/wiki/Species\" title=\"Species\">Species</a> to their minions when at all possible. The Imperial Navy's running battles with Huralok pirates have long been popular fare for holodramas. </p><h3><span class=\"mw-headline\" id=\"Huralok_Characteristics\">Huralok Characteristics</span></h3><p><b>Personality:</b> Ruthless, opportunistic, and horribly vindictive bullies, Huraloks possess few (if any) scruples or virtues. They are master manipulators that love nothing better than weaving webs of deceit and misdirection to ensnare the unwary. Fortunately for the galaxy, they also loathe their own kind, coming together only to mate and in times of grave danger for their Species. </p><p><b>Physical Description:</b> Huraloks are reptilian bipeds with triangular heads, widespread eyes, and stocky physiques. Black stripes adorn their scaly hides. A typical Huralok adult stands 1.5 meters tall. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b> Huraloks age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-15 Years </td> \n   <td>16-44 Years </td> \n   <td>45-120 Years </td> \n   <td>121-240 Years </td> \n   <td>241-330 Years </td> \n   <td>331+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> The volcanic Mid Rim world of <span class=\"new\" title=\"Djurmo (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvRGp1cm1vP2FjdGlvbj1lZGl0JnJlZGxpbms9MQ==\">Djurmo</span>. </p><p><b>Languages:</b> Huraloks read, write, and speak their own language (Huralok). Most also learn to speak Basic. </p><p><b>Example Names:</b> Ergihl Threk, Fehkla Gorr, Krad Dokahr, Liirk Ranguhl, Redkihl Rokk. </p><p><b>Adventurers:</b> Huralok adventurers are rare and tend to be self-serving <a href=\"https://swse.fandom.com/wiki/Scoundrels\" class=\"mw-redirect\" title=\"Scoundrels\">Scoundrels</a> or <a href=\"https://swse.fandom.com/wiki/Soldiers\" class=\"mw-redirect\" title=\"Soldiers\">Soldiers</a>. Although they can be Force-sensitive, Huraloks lack the dedication and selfless nature necessary to join the ranks of <a href=\"https://swse.fandom.com/wiki/The_Jedi\" title=\"The Jedi\">The Jedi</a>. </p><h3><span class=\"mw-headline\" id=\"Huralok_Species_Traits\">Huralok Species Traits</span></h3><p>Huraloks share the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "SunsetMage001 Creations",
+        "type": "trait"
+      },
+      {
+        "name": "Homebrew Content",
+        "type": "trait"
+      },
+      {
+        "name": "Natural Weapons",
+        "type": "trait"
+      },
+      {
+        "name": "Conditional Bonus Feat (Expert Droid Repair)",
+        "type": "trait"
+      },
+      {
+        "name": "Tested",
+        "type": "trait"
+      },
+      {
+        "name": "Intimidating Presence",
+        "type": "trait"
+      },
+      {
+        "name": "Expert Droid Repair",
+        "type": "feat"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "240",
+          "low": "121",
+          "text": "121-240",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "330",
+          "low": "241",
+          "text": "241-330",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "44",
+          "low": "16",
+          "text": "16-44",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "120",
+          "low": "45",
+          "text": "45-120",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "331",
+          "text": "331+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "15",
+          "low": "1",
+          "text": "1-15",
+          "type": "AGE"
+        },
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "SunsetMage001 Creations"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Huraloks"
+      },
+      {
+        "value": "Natural Weapons"
+      },
+      {
+        "value": "Conditional Bonus Feat (Expert Droid Repair)"
+      },
+      {
+        "value": "Species"
+      },
+      {
+        "value": "Tested"
+      },
+      {
+        "value": "Intimidating Presence"
+      },
+      {
+        "value": "Conditional Bonus Feat"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Huralok",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535566309,
+    "modifiedTime": 1736535566309,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "hui4XaAdzOx2fdoV",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!hui4XaAdzOx2fdoV"
+}

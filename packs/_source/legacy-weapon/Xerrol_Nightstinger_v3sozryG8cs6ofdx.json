@@ -1,0 +1,107 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode"
+        }
+      },
+      "statuses": [],
+      "disabled": false,
+      "name": "Single-Shot",
+      "_id": "QJZoFrEZNCDgIO5O",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513473,
+        "modifiedTime": 1786051513473,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!v3sozryG8cs6ofdx.QJZoFrEZNCDgIO5O"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_of_Intrigue\" title=\"Star Wars Saga Edition Galaxy of Intrigue\">Star Wars Saga Edition Galaxy of Intrigue</a></i> </p><p>Used by assassins, the Xerrol Nightstinger is a <a href=\"https://swse.fandom.com/wiki/Sporting_Blaster_Rifle\" title=\"Sporting Blaster Rifle\">Sporting Blaster Rifle</a> designed for sniping at long range. Instead of using an <a href=\"https://swse.fandom.com/wiki/Energy_Cell\" title=\"Energy Cell\">Energy Cell</a> for ammunition, the Nightstinger utilizes special canisters of exotic gasses that produce powerful shots that are invisible to the eye, so a sniper can fire the weapon without revealing his or her position. </p><p>Imperial snipers make use of an unusual tactic, firing at special <a href=\"https://swse.fandom.com/wiki/Redirection_Crystals\" class=\"mw-redirect\" title=\"Redirection Crystals\">Redirection Crystals</a> to create confusion and divert attention to another location. Each gas canister contains enough charges for five shots and costs 1,000 credits. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "1,500",
+    "weight": "4.5 Kilograms",
+    "availability": "Illegal",
+    "size": "Medium",
+    "type": "",
+    "subtype": "Rifles",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "3d6",
+    "damageType": "Energy"
+  },
+  "name": "Xerrol Nightstinger",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Xerrol_Nightstinger.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513473,
+    "modifiedTime": 1786051513571,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "v3sozryG8cs6ofdx",
+  "_key": "!items!v3sozryG8cs6ofdx"
+}

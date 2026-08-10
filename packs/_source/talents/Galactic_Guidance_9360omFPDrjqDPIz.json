@@ -1,0 +1,69 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You share your considerable galactic knowledge to inform others' actions and decisions. Once per encounter, as a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a>, if you succeed on a DC 25 <a href=\"https://swse.fandom.com/wiki/Knowledge_(Galactic_Lore)\" class=\"mw-redirect\" title=\"Knowledge (Galactic Lore)\">Knowledge (Galactic Lore)</a> check, you enable one ally within 6 squares of you to reroll a failed <a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a> or <a href=\"https://swse.fandom.com/wiki/Wisdom\" title=\"Wisdom\">Wisdom</a> based <a href=\"https://swse.fandom.com/wiki/Skill_Check\" class=\"mw-redirect\" title=\"Skill Check\">Skill Check</a> (other than <a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a>).",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:You share your considerable galactic knowledge to inform others' actions and decisions. Once per encounter, as a<a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a>, if you succeed on a DC 25<a href=\"https://swse.fandom.com/wiki/Knowledge_(Galactic_Lore)\" class=\"mw-redirect\" title=\"Knowledge (Galactic Lore)\">Knowledge (Galactic Lore)</a>check, you enable one ally within 6 squares of you to reroll a failed<a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a>or<a href=\"https://swse.fandom.com/wiki/Wisdom\" title=\"Wisdom\">Wisdom</a>based<a href=\"https://swse.fandom.com/wiki/Skill_Check\" class=\"mw-redirect\" title=\"Skill Check\">Skill Check</a>(other than<a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a>).",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Trained in Knowledge (Galactic Lore)",
+      "requirement": "Knowledge (Galactic Lore)",
+      "type": "TRAINED SKILL"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Noble Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Noble Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Exile Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Exile_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Galactic Guidance",
+  "flags": {},
+  "type": "talent",
+  "folder": "IfRWHSl1FPoHzl9O",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385304662,
+    "modifiedTime": 1734385304662,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "9360omFPDrjqDPIz",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!9360omFPDrjqDPIz"
+}

@@ -1,0 +1,75 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Once per encounter, whenever you would use <b>Seize the Moment</b>, you can forgo the extra <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a> to make an immediate melee or ranged attack against the damaged opponent. If your attack is a ranged attack that hits and deals damage, you treat the damage dealt by you and your ally as though it was one attack for purposes of overcoming <a href=\"https://swse.fandom.com/wiki/Damage_Reduction\" title=\"Damage Reduction\">Damage Reduction</a>, <a href=\"https://swse.fandom.com/wiki/Shield_Rating\" title=\"Shield Rating\">Shield Rating</a>, and determining whether the damage exceeded the target's <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Find an Opening talent",
+          "requirement": "Find an Opening",
+          "type": "TALENT"
+        },
+        {
+          "text": "Seize the Moment (Outlaw Talent Tree) talent",
+          "requirement": "Seize the Moment (Outlaw Talent Tree)",
+          "type": "TALENT"
+        }
+      ],
+      "text": "Find an Opening talent, and Seize the Moment (Outlaw Talent Tree) talent",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Outlaw Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Outlaw Talent Trees",
+      "Engineer Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Outlaw Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Outlaw_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Scum and Villainy",
+    "cost": "0"
+  },
+  "name": "Double Up",
+  "flags": {},
+  "type": "talent",
+  "folder": "Gy2njcXwDydffknD",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385310136,
+    "modifiedTime": 1786039798046,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "0utBCeXYeiAhOoUe",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!0utBCeXYeiAhOoUe"
+}

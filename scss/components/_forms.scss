@@ -3,8 +3,12 @@
 }
 
 .sheet-header {
-  flex: 0 0 210px;
-  overflow: hidden;
+  // Was a fixed flex: 0 0 210px with overflow: hidden — fine for short names, but a long
+  // item name (e.g. "Adept Spellcaster (Dathomiri Witch Talent Tree)") wrapped to multiple
+  // lines inside charname's own fixed 50px height and bled straight through/over the
+  // Type/Subtype pill row below it. Let the header grow to fit its actual content instead.
+  flex: 0 0 auto;
+  min-height: 90px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -19,13 +23,19 @@
 
   .header-fields {
     flex: 1;
+    min-width: 0;
   }
 
   h1.charname {
-    height: 50px;
+    height: auto;
+    min-height: 28px;
     padding: 0px;
     margin: 5px 0;
     border-bottom: 0;
+    font-size: 20px;
+    line-height: 1.25;
+    overflow-wrap: break-word;
+
     input {
       width: 100%;
       height: 100%;
@@ -109,7 +119,7 @@
   flex-grow: 16;
 }
 .label{
-  color: var(--color-foreground);
+  color: var(--swse-accent);
   font-weight: 700;
 }
 .clickable{
@@ -120,19 +130,19 @@
   font-size: 0.75rem;
   text-align: center;
   font-weight: 700;
-  color: var(--color-foreground);
+  color: var(--swse-accent);
 }
 .medium-header{
   font-size: 1rem;
   text-align: center;
   font-weight: 700;
-  color: var(--color-foreground);
+  color: var(--swse-accent);
 }
 .large-header{
   font-size: 1.25rem;
   text-align: center;
   font-weight: 700;
-  color: var(--color-foreground);
+  color: var(--swse-accent);
 }
 
 .labeled-input {
@@ -155,13 +165,13 @@
 
 .labeled-input > label, .labeled-input-row > label{
   font-size: 0.75rem;
-  color: var(--color-foreground);
+  color: var(--swse-accent);
   font-weight: 700;
   position: relative;
   top: 0.5rem;
   margin: 0 0 0 7px;
   padding: 0 3px;
-  background: var(--color-background);
+  background: var(--swse-bg);
   width: fit-content;
 }
 
@@ -171,8 +181,8 @@
   right: 0.4rem;
   width: fit-content;
   border-radius: 10px;
-  background: var(--color-foreground);
-  color: var(--color-background);
+  background: var(--swse-accent);
+  color: var(--swse-bg);
 }
 .labeled-input .control-1{
   position: absolute;
@@ -180,8 +190,8 @@
   right: 1.9rem;
   width: fit-content;
   border-radius: 10px;
-  background: var(--color-foreground);
-  color: var(--color-background);
+  background: var(--swse-accent);
+  color: var(--swse-bg);
 }
 .labeled-input .control-2{
   position: absolute;
@@ -189,8 +199,8 @@
   right: 3.4rem;
   width: fit-content;
   border-radius: 10px;
-  background: var(--color-foreground);
-  color: var(--color-background);
+  background: var(--swse-accent);
+  color: var(--swse-bg);
 }
 
 .labeled-input .left-control-0, .labeled-input .left-control{
@@ -199,8 +209,8 @@
   left: 0.4rem;
   width: fit-content;
   border-radius: 10px;
-  background: var(--color-foreground);
-  color: var(--color-background);
+  background: var(--swse-accent);
+  color: var(--swse-bg);
 }
 .labeled-input .left-control-1{
   position: absolute;
@@ -208,8 +218,8 @@
   left: 1.9rem;
   width: fit-content;
   border-radius: 10px;
-  background: var(--color-foreground);
-  color: var(--color-background);
+  background: var(--swse-accent);
+  color: var(--swse-bg);
 }
 .labeled-input .left-control-2{
   position: absolute;
@@ -217,8 +227,8 @@
   left: 3.4rem;
   width: fit-content;
   border-radius: 10px;
-  background: var(--color-foreground);
-  color: var(--color-background);
+  background: var(--swse-accent);
+  color: var(--swse-bg);
 }
 
 .labeled-input input[type=checkbox].left-control, .labeled-input input[type=checkbox].left-control-0, .labeled-input input[type=checkbox].left-control-1, .labeled-input input[type=checkbox].left-control-2,
@@ -238,10 +248,12 @@ input[type=text], input[type=number], select, .input, .left-input, .right-input,
   padding-left: 6px;
   min-height: 32px;
   font-size: 1.25rem;
-  border: 2px var(--color-foreground) solid;
+  border: 2px var(--swse-accent) solid;
   border-radius: 10px;
-  color: var(--color-text-dark-primary);
-  background: var(--color-background);
+  // Foundry's --color-text-dark-primary is near-black: unreadable on the dark theme
+  // (typed text in the item quick-create boxes was effectively invisible).
+  color: var(--swse-text);
+  background: var(--swse-bg);
 }
 select {
   padding: 3px 6px;
@@ -249,15 +261,22 @@ select {
 }
 
 button {
-  color: var(--color-background);
-  background: var(--color-foreground);
-  //font-size: 1.25rem;
+  // Calm by default with an accent border; the accent fill is reserved for hover,
+  // otherwise every button on the sheet shouts at full saturation.
+  color: var(--swse-text);
+  background: var(--swse-surface-raised);
   text-align: center;
-  border: 2px groove var(--color-border-light-secondary);
-  border-radius: 10px;
-  //padding: 15px 25px;
+  border: 1px solid var(--swse-accent-muted);
+  border-radius: $radius-sm;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.15s ease-in-out;
+
+  &:hover,
+  &:focus {
+    color: var(--swse-bg);
+    background: var(--swse-accent);
+    border-color: var(--swse-accent);
+  }
 }
 
 
@@ -284,7 +303,7 @@ input[type=checkbox] {
   appearance: none;
   width: 20px;
   height: 20px;
-  border: 2px solid var(--color-foreground);
+  border: 2px solid var(--swse-text-muted);
   border-radius: 5px;
   background-color: transparent;
   display: inline-block;
@@ -295,7 +314,7 @@ input[type=checkbox] {
 
 input[type=checkbox]:before {
   content: "";
-  background-color: var(--color-foreground);
+  background-color: var(--swse-accent);
   display: block;
   position: absolute;
   top: 50%;
@@ -315,7 +334,7 @@ input[type=radio] {
   appearance: none;
   width: 20px;
   height: 20px;
-  border: 2px solid var(--color-foreground);
+  border: 2px solid var(--swse-text-muted);
   border-radius: 10px;
   background-color: transparent;
   display: inline-block;
@@ -326,7 +345,7 @@ input[type=radio] {
 
 input[type=radio]:before {
   content: "";
-  background-color: var(--color-foreground);
+  background-color: var(--swse-accent);
   display: block;
   position: absolute;
   top: 50%;
@@ -344,16 +363,37 @@ input[type=radio]:checked:before {
 
 
 .panel {
-  padding: 5px;
-  border: 0px var(--color-foreground) solid;
-  border-radius: 10px;
-  background: var(--color-midground);
+  padding: $space-md;
+  border: 1px solid var(--swse-border);
+  border-radius: $radius-md;
+  background: var(--swse-surface);
+  box-shadow: $shadow-sm;
   margin: 5px;
+}
+
+.panel-raised {
+  background: var(--swse-surface-raised);
+}
+
+.panel-header {
+  display: flex;
+  align-items: center;
+  gap: $space-xs;
+  font-family: $font-primary;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--swse-bg);
+  background: var(--swse-accent);
+  margin: 0 0 $space-sm;
+  padding: $space-xs $space-sm;
+  border-radius: $radius-sm;
 }
 
 .cyberpunk-checkbox-label {
   font-size: 18px;
-  color: var(--color-text-dark-primary);
+  color: var(--swse-text);
   cursor: pointer;
   user-select: none;
   display: flex;

@@ -1,0 +1,72 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2d6",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards, Diseases",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A creature is exposed to the Krytos Virus.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Daily, until the Krytos Virus is treated.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Knowledge (Life Sciences) (DC 21): The character identifies the Krytos Virus. Treat Injury (DC 21 (DC 16 with Bacta Tank); Requires Medical Kit): The character treats the Krytos Virus.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: The Krytos Virus takes a -5 penalty to attack rolls against Humans. Once a creature has been exposed to the Krytos Virus and the Disease has been treated, that creature can not contract the Disease again.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Artificial",
+          "Atmosphere",
+          "Disease"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a>, <a href=\"https://swse.fandom.com/wiki/Diseases\" title=\"Diseases\">Diseases</a></i> </p><p><i>This genetically engineered virus was produced by the Empire to target non-<a href=\"https://swse.fandom.com/wiki/Humans\" class=\"mw-redirect\" title=\"Humans\">Humans</a>.</i> </p><h2><span id=\"Krytos_Virus_Statistics_.28CL_5.29\"></span><span class=\"mw-headline\" id=\"Krytos_Virus_Statistics_(CL_5)\">Krytos Virus Statistics (CL 5)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Artificial, Atmosphere, Disease </p><p><b>Trigger:</b> A creature is exposed to the Krytos Virus. </p><p><b>Attack:</b> +10 vs <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a> </p><p><b>Recurrence:</b> Daily, until the Krytos Virus is treated. </p><p><b>Suggested&nbsp;<a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b>&nbsp;The following are suggested&nbsp;<a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>&nbsp;for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Knowledge_(Life_Sciences)\" class=\"mw-redirect\" title=\"Knowledge (Life Sciences)\">Knowledge (Life Sciences)</a> (DC 21):</b> The character identifies the Krytos Virus.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a> (DC 21 (DC 16 with <a href=\"https://swse.fandom.com/wiki/Bacta_Tank\" title=\"Bacta Tank\">Bacta Tank</a>); Requires <a href=\"https://swse.fandom.com/wiki/Medical_Kit\" title=\"Medical Kit\">Medical Kit</a>):</b> The character treats the Krytos Virus.</li>\n</ul><p><b>Special:</b> The Krytos Virus takes a -5 penalty to attack rolls against <a href=\"https://swse.fandom.com/wiki/Humans\" class=\"mw-redirect\" title=\"Humans\">Humans</a>. Once a creature has been exposed to the Krytos Virus and the Disease has been treated, that creature can not contract the Disease again. </p>",
+    "cost": "0"
+  },
+  "name": "Krytos Virus",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244570,
+    "modifiedTime": 1749263244570,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "JZZeUGKHJF9NBtrF",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!JZZeUGKHJF9NBtrF"
+}

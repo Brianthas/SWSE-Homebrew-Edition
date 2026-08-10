@@ -1,0 +1,69 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You channel your <b>Power Surge</b> into a boost for your <a href=\"https://swse.fandom.com/wiki/Locomotion_System\" class=\"mw-redirect\" title=\"Locomotion System\">Locomotion System</a>. When you initiate a <b>Power Surge</b>, you can use one of the following bonuses with your installed <a href=\"https://swse.fandom.com/wiki/Locomotion_System\" class=\"mw-redirect\" title=\"Locomotion System\">Locomotion System</a>:<br><br>You can use this Talent for a number of rounds equal to one-half your Character Level (rounded down). At the end of a <b>Power Boost</b>, you move -1 <a href=\"https://swse.fandom.com/wiki/Persistent\" class=\"mw-redirect\" title=\"Persistent\">Persistent</a> step on the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>. The penalties imposed by this <a href=\"https://swse.fandom.com/wiki/Persistent_Condition\" class=\"mw-redirect\" title=\"Persistent Condition\">Persistent Condition</a> persist until you receive <a href=\"https://swse.fandom.com/wiki/Repairs\" class=\"mw-redirect\" title=\"Repairs\">Repairs</a>. You can use both <b>Power Surge</b> and <b>Power Boost</b> at the same time, but you must move -2 Persistent steps on the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:in: Talent Trees, Independent Droid Talent Trees Specialized Droid Talent Tree Edit Edit source History Talk (0) Reference Book: Star Wars Saga Edition Force Unleashed Campaign Guide You have become more specialized than other Droids of the same or a similar model. Contents 1 Computer Language 2 Computer Master 3 Enhanced Manipulation 4 Hotwired Processor 5 Power Surge 6 Skill Conversion 7 Additional Specialized Droid Talents 7.1 Power Boost Computer Language[ ] Prerequisite: Must have Binary as a learned language You can use your Persuasion modifier instead of your Use Computer modifier when making Use Computer checks. You are considered Trained in the Use Computer skill for the purpose of using this Talent. If you are entitled to a Use Computer check reroll, you can reroll your Persuasion check instead (subject to the same circumstances and limitations). Computer Master[ ] You can reroll any opposed Use Computer check, keeping the better of the two results. Enhanced Manipulation[ ] Prerequisite: Dexterity 15 You have improved appendage manipulation routines. You can Take 10 when making any Dexterity-based Skill Check, even if you are threatened or would not normally be able to Take 10. Hotwired Processor[ ] You gain temporary processing power, enhancing your mental attributes. When you Hotwire your Processor (a Swift Action), you gain a +5 circumstance bonus on Intelligence and Wisdom based Skill Checks, and a +1 circumstance bonus on ranged attack rolls. A Hotwiring lasts for a number of rounds equal to one-half your Heroic Level (rounded down). When the Hotwiring ends, you move -1 Persistent step along the Condition Track. The penalties imposed by this condition persist until you receive Repairs. Power Surge[ ] You temporarily surge your power systems to enhance your physical abilities. When you initiate a Power Surge (a Swift Action), you gain a +1 circumstance bonus on melee attack rolls, +1 die of damage on melee damage rolls, and an increase of 2 square to your speed. A Power Surge lasts for a number of rounds equal to one-half your Heroic Level (rounded down). When the Power Surge ends, you move -1 Persistent step along the Condition Track. The penalties imposed by this condition persist until you receive Repairs. Skill Conversion[ ] When you Reprogram yourself, you can sacrifice a single Trained Skill for a bonus Skill Focus Feat. You must meet the prerequisites for the Feat (you must be Trained in the Skill you choose to gain Skill Focus for), and you can do this only once per Reprogramming. Additional Specialized Droid Talents[ ] Power Boost[ ] Reference Book: Star Wars Saga Edition Scavenger's Guide to Droids Prerequisite: Power Surge You channel your Power Surge into a boost for your Locomotion System. When you initiate a Power Surge, you can use one of the following bonuses with your installed Locomotion System: Jump +4 squares (Walking or Wheeled Locomotion), or Increase hovering height by 4 squares (Hovering Locomotion). You can use this Talent for a number of rounds equal to one-half your Character Level (rounded down). At the end of a Power Boost, you move -1 Persistent step on the Condition Track . The penalties imposed by this Persistent Condition persist until you receive Repairs. You can use both Power Surge and Power Boost at the same time, but you must move -2 Persistent steps on the Condition Track. Categories Categories: Talent Trees Independent Droid Talent Trees Add category Cancel Save Community content is available under CC-BY-SA unless otherwise noted. More Fandoms Fantasy Sci-fi Star Wars",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Power Surge talent",
+      "requirement": "Power Surge",
+      "type": "TALENT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Independent Droid Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Independent Droid Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Specialized Droid Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Specialized_Droid_Talent_Tree",
+    "bonusTalentTree": "Specialized Droid Talent Tree",
+    "source": "Star Wars Saga Edition Scavenger's Guide to Droids",
+    "cost": "0"
+  },
+  "name": "Power Boost",
+  "flags": {},
+  "type": "talent",
+  "folder": "yGehCrIJW5DSKY7C",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385312339,
+    "modifiedTime": 1734385312339,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "SORfjxsZ9TwzXmDW",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!SORfjxsZ9TwzXmDW"
+}

@@ -293,7 +293,7 @@ export async function explodeOptions(options, actor) {
                     attributeKey: "weaponProficiency",
                     reduce: "VALUES"
                 });
-                for (let weapon of ["Simple Weapons", "Pistols", "Rifles", "Lightsabers", "Heavy Weapons", "Advanced Melee Weapons"]) {
+                for (let weapon of ["Simple Weapons", "Pistols", "Rifles", "Lightsabers", "Heavy Weapons", "Advanced Melee"]) {
                     if (!proficientWeapons.includes(weapon)) {
                         resolvedOptions.push({
                             name: titleCase(weapon),
@@ -522,6 +522,10 @@ function resolveOptions(actor, excludingKey, includeKey, options = {}) {
         reduce: "VALUES"
     })));
     included.push(...(options?.included || []))
+    // SWSE actors routinely end up with the same weapon-group/etc. value granted twice (e.g.
+    // by both a class and a duplicate feat) — "VALUES" concatenates every matching change with
+    // no dedup, so every duplicate value was producing a duplicate <option> in the choice dialog.
+    included = [...new Set(included)];
     for (let option of included) {
         if (!excluded.includes(option)) {
             resolvable.push({name: titleCase(option), abilities: [], items: [], payloads: {payload:titleCase(option)}});

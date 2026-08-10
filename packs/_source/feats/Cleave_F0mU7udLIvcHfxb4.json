@@ -1,0 +1,75 @@
+{
+  "img": "systems/swse/icon/feat/Cleave.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You can follow through with a powerful melee attack.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> 13, <a href=\"https://swse.fandom.com/wiki/Power_Attack\" title=\"Power Attack\">Power Attack</a> Feat</p><p><b>Effect:</b> If you deal an opponent enough damage to reduce its hit points to 0, you get an immediate extra melee attack against another opponent within your reach. The extra attack is with the same weapon and at the same attack bonus as the attack that dropped the previous opponent. You can use this ability once per round.</p><h2><span class=\"mw-headline\" id=\"Additional_Cleave_Effects\">Additional Cleave Effects</span></h2><p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i></p><p><b>Combined Feat (<a href=\"https://swse.fandom.com/wiki/Follow_Through\" title=\"Follow Through\">Follow Through</a>):</b>&nbsp;If you have the&nbsp;<a href=\"https://swse.fandom.com/wiki/Follow_Through\" title=\"Follow Through\">Follow Through</a>&nbsp;Feat, you can move up to your speed before making the extra melee attack granted by the&nbsp;Cleave&nbsp;Feat.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Strength 13",
+          "requirement": "Strength 13",
+          "type": "ATTRIBUTE"
+        },
+        {
+          "text": "Power Attack feat",
+          "requirement": "Power Attack",
+          "type": "FEAT"
+        }
+      ],
+      "text": "Strength 13, and Power Attack feat",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Soldier Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Jedi Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Bonus Feats",
+      "General Feats",
+      "Jedi Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Knights of the Old Republic Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Cleave",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479026218,
+    "modifiedTime": 1761479026218,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "F0mU7udLIvcHfxb4",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!F0mU7udLIvcHfxb4"
+}

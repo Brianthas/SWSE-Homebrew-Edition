@@ -1,0 +1,68 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<table style=\"width:100%; margin-top:2em; border:2px solid #999; font-size:105%; text-align:center; background:#00008B;\"> \n <tbody>\n  <tr> \n   <td><i><b>This <a href=\"https://swse.fandom.com/wiki/Homebrew_Content\" title=\"Homebrew Content\">Homebrew Content</a> has been <a href=\"https://swse.fandom.com/wiki/Category:Tested\" title=\"Category:Tested\">Tested</a> per the <a href=\"https://swse.fandom.com/wiki/Category:Untested\" title=\"Category:Untested\">Untested</a> guidelines. Whether or not it can be used is, as always, the prerogative of the Gamemaster.</b></i> </td>\n  </tr>\n </tbody>\n</table><p><i>Homebrew Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Clone_Wars_Saga_Edition_Fan_Sourcebook\" title=\"Clone Wars Saga Edition Fan Sourcebook\">Clone Wars Saga Edition Fan Sourcebook</a> - Bounty Hunters &amp; Mercenaries (Part 1)</i> </p><p>An insulated glove with an embedded energy cell, the Ionizing Gauntlet produces as electrifying charge when it strikes an electronic target. An Ionizing Gauntlet changes the wearer’s <a href=\"https://swse.fandom.com/wiki/Unarmed\" class=\"mw-redirect\" title=\"Unarmed\">Unarmed</a> melee attacks to <a href=\"https://swse.fandom.com/wiki/Ion_Damage\" title=\"Ion Damage\">Ion Damage</a>, and they provide a +1 bonus to <a href=\"https://swse.fandom.com/wiki/Ion_Damage\" title=\"Ion Damage\">Ion Damage</a> on a successful <a href=\"https://swse.fandom.com/wiki/Unarmed\" class=\"mw-redirect\" title=\"Unarmed\">Unarmed</a> attack. </p><p>Ionizing Gauntlets are two sizes smaller than their wearer (for example, an Ionizing Gauntlet designed for a <a href=\"https://swse.fandom.com/wiki/Human\" title=\"Human\">Human</a> are Tiny). Because of how they are worn, Ionizing Gauntlets cannot be <a href=\"https://swse.fandom.com/wiki/Disarmed\" class=\"mw-redirect\" title=\"Disarmed\">Disarmed</a> or dropped. </p><h3><span class=\"mw-headline\" id=\"Small_Ionizing_Gauntlets\">Small Ionizing Gauntlets</span></h3><h3><span class=\"mw-headline\" id=\"Medium_Ionizing_Gauntlets\">Medium Ionizing Gauntlets</span></h3>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": 1,
+        "key": "unarmedBonusDamage"
+      },
+      {
+        "mode": 2,
+        "value": "Ion",
+        "key": "unarmedModifier"
+      }
+    ],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "350",
+    "weight": "0.5 Kilograms",
+    "availability": "Restricted",
+    "size": "Tiny",
+    "type": "",
+    "subtype": "Simple Melee Weapons",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageType": "Energy (Ion)"
+  },
+  "name": "Ionizing Gauntlet",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Ionizing_Gauntlet.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513564,
+    "modifiedTime": 1786051513597,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "lcRSqrECxP80M02M",
+  "_key": "!items!lcRSqrECxP80M02M"
+}

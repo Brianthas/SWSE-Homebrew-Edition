@@ -1,0 +1,67 @@
+{
+  "img": "systems/swse/icon/feat/Returning_Bug.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Legacy_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Legacy Era Campaign Guide\">Star Wars Saga Edition Legacy Era Campaign Guide</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You have mastered the art of using Yuuzhan Vong <a href=\"https://swse.fandom.com/wiki/Thrown_Weapons\" class=\"mw-redirect\" title=\"Thrown Weapons\">Thrown Weapons</a> and can cause them to return to your hand.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Weapon_Proficiency_(Simple_Weapons)\" class=\"mw-redirect\" title=\"Weapon Proficiency (Simple Weapons)\">Weapon Proficiency (Simple Weapons)</a></p><p><b>Effect:</b> When you miss with a <a href=\"https://swse.fandom.com/wiki/Razor_Bug\" title=\"Razor Bug\">Razor Bug</a> or a <a href=\"https://swse.fandom.com/wiki/Thud_Bug\" title=\"Thud Bug\">Thud Bug</a>, the weapon returns to your hand immediately.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Weapon Proficiency (Simple Weapons)",
+      "requirement": "Weapon Proficiency (Simple Weapons)",
+      "type": "FEAT"
+    },
+    "categories": [
+      {
+        "value": "Technician Bonus Feats"
+      },
+      {
+        "value": "Ranged Feats"
+      },
+      {
+        "value": "Feats"
+      },
+      {
+        "value": "Noble Bonus Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Technician Bonus Feats",
+      "General Feats",
+      "Noble Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Legacy Era Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Returning Bug",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479028640,
+    "modifiedTime": 1761479028640,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "fm9z3Xjntz6gF27d",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!fm9z3Xjntz6gF27d"
+}

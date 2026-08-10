@@ -1,0 +1,61 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Starship Accessories",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal (Frigate)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal (Cruiser)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal (Station)",
+          "type": "TRAIT"
+        }
+      ],
+      "count": 1,
+      "text": "Colossal or Larger",
+      "type": "OR"
+    },
+    "changes": [],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a> </i></p><p><b>Emplacement Points:&nbsp;</b> 1</p><p><b>Size Restriction:&nbsp;</b> Colossal or Larger</p><p>Designed and produced by the Drever Corporation, a Plasma Punch is a massive plasma drill that can create airlocks where none exist by boring through the hull of a ship. The Plasma Punch resembles a dome-shaped plasma emitter that connects to the hull of a ship via three magnetic limbs, with the emitter facing directly at the spot where a hole is to be drilled. A Plasma Punch works faster than a <a href=\"https://swse.fandom.com/wiki/Plasma_Torch\" title=\"Plasma Torch\">Plasma Torch</a> (halving the target's DR for the purposes of determining how long it takes to drill through the hull) and attaches itself to the hull of a ship without the need for a <a href=\"https://swse.fandom.com/wiki/Tractor_Clamp\" title=\"Tractor Clamp\">Tractor Clamp</a> (though the target ship must have been drawn into the ship's square by a <a href=\"https://swse.fandom.com/wiki/Tractor_Beam\" title=\"Tractor Beam\">Tractor Beam</a>). A Plasma Punch functions otherwise exactly the same as a <a href=\"https://swse.fandom.com/wiki/Plasma_Torch\" title=\"Plasma Torch\">Plasma Torch</a>.</p>",
+    "cost": "25000",
+    "emplacementPoints": "1",
+    "availability": "Military"
+  },
+  "name": "Plasma Punch",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317642,
+    "modifiedTime": 1759848317642,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "6w9dNqa6HVkrNJgH",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!6w9dNqa6HVkrNJgH"
+}

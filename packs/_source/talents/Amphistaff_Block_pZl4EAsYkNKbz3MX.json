@@ -1,0 +1,102 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "As a <a href=\"https://swse.fandom.com/wiki/Reaction\" class=\"mw-redirect\" title=\"Reaction\">Reaction</a>, you may negate a melee attack by making a successful <a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a> check. The DC of the <a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a> check is equal to the result of the attack roll you wish to negate, and you take a cumulative -5 penalty on your <a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a> check for every time you have used <b>Amphistaff Block</b> since the beginning of your last turn.<br><br>You may use this to negate melee <a href=\"https://swse.fandom.com/wiki/Area_Attacks\" title=\"Area Attacks\">Area Attacks</a>. If you succeed on the <a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a> check, you take half damage if the attack hits, and no damage if the attack misses. You must have an <a href=\"https://swse.fandom.com/wiki/Amphistaff\" title=\"Amphistaff\">Amphistaff</a> drawn and in the Quarterstaff or Spear Forms to use this Talent. You must be aware of the attack and not be <a href=\"https://swse.fandom.com/wiki/Flat-Footed\" class=\"mw-redirect\" title=\"Flat-Footed\">Flat-Footed</a>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Base Attack Bonus 2",
+      "requirement": "2",
+      "type": "BASE ATTACK BONUS"
+    },
+    "categories": [
+      {
+        "value": "Vanguard Talent Trees"
+      },
+      {
+        "value": "Untested"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Elite Trooper Talent Trees"
+      },
+      {
+        "value": "Soldier Talent Trees"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Gladiator Talent Trees"
+      },
+      {
+        "value": "Melee Duelist Talent Trees"
+      },
+      {
+        "value": "Enforcer Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Vanguard Talent Trees",
+      "Untested",
+      "Elite Trooper Talent Trees",
+      "Soldier Talent Trees",
+      "Homebrew Content",
+      "Gladiator Talent Trees",
+      "Melee Duelist Talent Trees",
+      "Enforcer Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Master of the Amphistaff Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Master_of_the_Amphistaff_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "New Jedi Order Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Amphistaff Block",
+  "flags": {},
+  "type": "talent",
+  "folder": "5ZAOykoXP6Efag14",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385308676,
+    "modifiedTime": 1734385308676,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "pZl4EAsYkNKbz3MX",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!pZl4EAsYkNKbz3MX"
+}

@@ -1,0 +1,267 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode"
+        }
+      },
+      "statuses": [],
+      "disabled": false,
+      "name": "Single-Shot",
+      "_id": "4uwtSgbvzFMOfyNS",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513530,
+        "modifiedTime": 1786051513530,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!pEeSScOJzoLzbE39.4uwtSgbvzFMOfyNS"
+    },
+    {
+      "flags": {
+        "swse": {}
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Stun",
+      "_id": "5ODg1LKbmteRyP0c",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "3d8",
+            "key": "damage",
+            "priority": null,
+            "type": "override",
+            "phase": "initial"
+          },
+          {
+            "value": "Stun",
+            "key": "damageType",
+            "priority": null,
+            "type": "override",
+            "phase": "initial"
+          }
+        ]
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513530,
+        "modifiedTime": 1786051513530,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!pEeSScOJzoLzbE39.5ODg1LKbmteRyP0c"
+    },
+    {
+      "flags": {
+        "swse": {
+          "group": "Damage Type"
+        }
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Energy",
+      "_id": "0YorC2oLybQZ0yzV",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Energy",
+            "key": "damageType",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513530,
+        "modifiedTime": 1786051513530,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!pEeSScOJzoLzbE39.0YorC2oLybQZ0yzV"
+    },
+    {
+      "flags": {
+        "swse": {
+          "group": "Damage Type"
+        }
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Piercing",
+      "_id": "uNAPkUTCHn5JHRoe",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Piercing",
+            "key": "damageType",
+            "priority": null,
+            "type": "add",
+            "phase": "initial"
+          }
+        ]
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513530,
+        "modifiedTime": 1786051513530,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!pEeSScOJzoLzbE39.uNAPkUTCHn5JHRoe"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Web_Enhancements\" title=\"Star Wars Saga Edition Web Enhancements\">Star Wars Saga Edition Web Enhancements</a> (<a href=\"https://swse.fandom.com/wiki/Star_Wars_Miniatures_Previews\" title=\"Star Wars Miniatures Previews\">Star Wars Miniatures Previews</a>)</i> </p><p>The Theed Arms S-5 combines the firepower of a <a href=\"https://swse.fandom.com/wiki/Heavy_Blaster_Pistol\" title=\"Heavy Blaster Pistol\">Heavy Blaster Pistol</a> with the utility of an <a href=\"https://swse.fandom.com/wiki/Ascension_Gun\" title=\"Ascension Gun\">Ascension Gun</a>. This allows the wielder to carry a single weapon that provides for defense, quick ascension capability, and the ability to capture an opponent. A successful hit using the <a href=\"https://swse.fandom.com/wiki/Liquid_Cable\" class=\"mw-redirect\" title=\"Liquid Cable\">Liquid Cable</a> feature ensnares a target or securely attaches to a targeted surface. It can lift up to 500 kilograms and has a range of 8 squares. </p><p>If the tether is projected vertically, the S-5 Heavy Blaster Pistol can pull the wielder upward at a speed of 8 squares per round. An S-5 can also be used to create a zipline to a target surface after the <a href=\"https://swse.fandom.com/wiki/Liquid_Cable\" class=\"mw-redirect\" title=\"Liquid Cable\">Liquid Cable</a> has been secured to a fixed object at the shooter's location. </p><p>The zipline allows the wielder to slide along the line at a speed of 12 squares per round if the destination has a lower elevation. In Ascension mode, the S-5 Heavy Blaster Pistol has a maximum Range of 8 squares (12 meters). </p><p>Additionally, an S-5 Heavy Blaster Pistol carries 10 microdarts, which can be fired at a range of up to 6 squares. When fired in this manner, the S-5 Heavy Blaster Pistol deals 1d2 points of piercing damage and inflicts <a href=\"https://swse.fandom.com/wiki/Paralytic_Poison\" title=\"Paralytic Poison\">Paralytic Poison</a>. </p><p>An S-5 Heavy Blaster Pistol requires a <a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a> to operate. After 20 shots, the <a href=\"https://swse.fandom.com/wiki/Power_Pack\" title=\"Power Pack\">Power Pack</a> must be replaced. Additionally, the S-5 carries only two 20-meter lengths of <a href=\"https://swse.fandom.com/wiki/Liquid_Cable\" class=\"mw-redirect\" title=\"Liquid Cable\">Liquid Cable</a>; after 2 uses, the <a href=\"https://swse.fandom.com/wiki/Liquid_Cable_Dispenser\" title=\"Liquid Cable Dispenser\">Liquid Cable Dispenser</a> must be replaced. </p><p><b>Inaccurate:</b>&nbsp;This weapon cannot fire at targets at Long&nbsp;<a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a>. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Power Pack:20",
+        "key": "ammo"
+      }
+    ],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "1,000",
+    "weight": "1.3 Kilograms",
+    "availability": "Military, Rare",
+    "size": "Medium",
+    "type": "",
+    "subtype": "Pistols",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "3d8"
+  },
+  "name": "S-5 Heavy Blaster Pistol",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/S_5_Heavy_Blaster_Pistol.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513530,
+    "modifiedTime": 1786051513588,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "pEeSScOJzoLzbE39",
+  "_key": "!items!pEeSScOJzoLzbE39"
+}

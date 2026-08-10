@@ -1,0 +1,39 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Locomotion Systems",
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "droidPart"
+      }
+    ],
+    "description": "<p><b>Base</b> <b>Speed:</b> Small, 4 squares; Medium, 6 squares; Large or bigger, 8 squares</p><p>Walking Droids are the most versatile Droids, having legs and feet that let them travel like bipeds, quadrupeds, and other similar creatures. The most common chassis for walking droids is the \"humanoid\" form (two arms, two legs, and a head). They suffer the usual penalties when moving through <a href=\"https://swse.fandom.com/wiki/Difficult_Terrain\" title=\"Difficult Terrain\">Difficult Terrain</a>.</p>",
+    "cost": "10 x Cost Factor x (Base Speed Squared)",
+    "baseSpeedScalable": "6 squares"
+  },
+  "name": "Walking",
+  "flags": {},
+  "type": "droid system",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764449015720,
+    "modifiedTime": 1764449015720,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "7LXbweAH6SzNYSdq",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!7LXbweAH6SzNYSdq"
+}

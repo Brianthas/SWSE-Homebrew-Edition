@@ -1,0 +1,98 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "When performing the <a href=\"https://swse.fandom.com/wiki/First_Aid\" class=\"mw-redirect\" title=\"First Aid\">First Aid</a> or <a href=\"https://swse.fandom.com/wiki/Heal_Damage\" class=\"mw-redirect\" title=\"Heal Damage\">Heal Damage</a> applications of the <a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a> skill, you may choose to reroll any <a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a> check to perform that application, but the result of the reroll must be accepted, even if it is worse.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:When performing the<a href=\"https://swse.fandom.com/wiki/First_Aid\" class=\"mw-redirect\" title=\"First Aid\">First Aid</a>or<a href=\"https://swse.fandom.com/wiki/Heal_Damage\" class=\"mw-redirect\" title=\"Heal Damage\">Heal Damage</a>applications of the<a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a>skill, you may choose to reroll any<a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a>check to perform that application, but the result of the reroll must be accepted, even if it is worse.",
+        "key": "skillReRoll"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Steady Hands talent",
+      "requirement": "Steady Hands",
+      "type": "TALENT"
+    },
+    "categories": [
+      {
+        "value": "Untested"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Chellewalker Creations"
+      },
+      {
+        "value": "Noble Talent Trees"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Medic Talent Trees"
+      },
+      {
+        "value": "Technician Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Untested",
+      "Chellewalker Creations",
+      "Noble Talent Trees",
+      "Homebrew Content",
+      "Medic Talent Trees",
+      "Technician Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Treatment Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Treatment_Talent_Tree",
+    "bonusTalentTree": "",
+    "cost": "0"
+  },
+  "name": "Reliable Treatment",
+  "flags": {},
+  "type": "talent",
+  "folder": "aIvlTsZffUPBdtBQ",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385312763,
+    "modifiedTime": 1734385312763,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "SyJonomQHWUHEmJg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!SyJonomQHWUHEmJg"
+}

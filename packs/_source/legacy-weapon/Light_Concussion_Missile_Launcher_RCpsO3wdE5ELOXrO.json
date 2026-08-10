@@ -1,0 +1,108 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode"
+        }
+      },
+      "statuses": [],
+      "disabled": false,
+      "name": "Single-Shot",
+      "_id": "rvV1xfl1jHsWVnfQ",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513564,
+        "modifiedTime": 1786051513564,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!RCpsO3wdE5ELOXrO.rvV1xfl1jHsWVnfQ"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<table style=\"width:100%; margin-top:1em; border:1px solid #999; font-size:90%; text-align:center; background:#363636\"> \n <tbody>\n  <tr> \n   <td><i>This article details the Heavy Weapon Light Concussion Missile Launcher found in <a href=\"https://swse.fandom.com/wiki/Threats_of_the_Galaxy\" class=\"mw-redirect\" title=\"Threats of the Galaxy\">Threats of the Galaxy</a>. You may be looking for <a href=\"https://swse.fandom.com/wiki/Starships_of_the_Galaxy\" class=\"mw-redirect\" title=\"Starships of the Galaxy\">Starships of the Galaxy</a> <a href=\"https://swse.fandom.com/wiki/Weapon_System\" class=\"mw-redirect\" title=\"Weapon System\">Weapon System</a> of a similar name, the <a href=\"https://swse.fandom.com/wiki/Concussion_Missile_Launcher\" title=\"Concussion Missile Launcher\">Concussion Missile Launcher</a>.</i> </td>\n  </tr>\n </tbody>\n</table><p><br> <i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Threats_of_the_Galaxy\" title=\"Star Wars Saga Edition Threats of the Galaxy\">Star Wars Saga Edition Threats of the Galaxy</a></i> </p><p>The Light Concussion Missile Launcher is an antivehicle weapon used by military units on battlefields where <a href=\"https://swse.fandom.com/wiki/Starfighters\" title=\"Starfighters\">Starfighters</a> and heavy artillery are often present. A Light Concussion Missile Launcher fires a single missile at a target on each attack, and the <a href=\"https://swse.fandom.com/wiki/Rapid_Shot\" title=\"Rapid Shot\">Rapid Shot</a> feat cannot be used in conjunction with a Light Concussion Missile Launcher. The missile has a 2-Square <a href=\"https://swse.fandom.com/wiki/Splash\" class=\"mw-redirect\" title=\"Splash\">Splash</a>, and attacks with a Light Concussion Missile Launcher on targets smaller than Huge take a -10 penalty on their attack rolls. </p><p>A Light Concussion Missile Launcher is an&nbsp;<a href=\"https://swse.fandom.com/wiki/Area_Attack\" class=\"mw-redirect\" title=\"Area Attack\">Area Attack</a>&nbsp;weapon. It deals full damage to the target if the attack hits its&nbsp;<a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>&nbsp;(half damage if it has the&nbsp;<b><a href=\"https://swse.fandom.com/wiki/Evasion\" class=\"mw-redirect\" title=\"Evasion\">Evasion</a></b>&nbsp;Talent) and half damage if it misses (no damage if it has the&nbsp;<b><a href=\"https://swse.fandom.com/wiki/Evasion\" class=\"mw-redirect\" title=\"Evasion\">Evasion</a> </b>Talent). </p><p>Any creature or object in the 2-Square&nbsp;<a href=\"https://swse.fandom.com/wiki/Splash\" class=\"mw-redirect\" title=\"Splash\">Splash</a>&nbsp;radius of the target takes half damage if the attack hits (No damage if it has the&nbsp;<b><a href=\"https://swse.fandom.com/wiki/Evasion\" class=\"mw-redirect\" title=\"Evasion\">Evasion</a></b>&nbsp;Talent) and no damage if it misses. </p><p>A Light Concussion Missile Launcher can only hold a single Light Concussion Missile at any given time. Each Light Concussion Missile costs 800 credits, and weighs 10 kilograms. </p><p><b>Special:</b> This is an <a href=\"https://swse.fandom.com/wiki/Area_Attack\" class=\"mw-redirect\" title=\"Area Attack\">Area Attack</a> Weapon. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "4,000",
+    "weight": "18 Kilograms",
+    "availability": "Military",
+    "size": "Large",
+    "type": "",
+    "subtype": "Heavy Weapons",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "4d10",
+    "damageType": "Slashing",
+    "specialQualities": "Special: This is an Area Attack Weapon."
+  },
+  "name": "Light Concussion Missile Launcher",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Light_Concussion_Missile_Launcher.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513564,
+    "modifiedTime": 1786051513597,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "RCpsO3wdE5ELOXrO",
+  "_key": "!items!RCpsO3wdE5ELOXrO"
+}

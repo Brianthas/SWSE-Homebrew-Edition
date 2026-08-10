@@ -1,0 +1,742 @@
+{
+  "effects": [],
+  "system": {
+    "health": {
+      "value": 660,
+      "min": 0,
+      "max": 660,
+      "condition": 0,
+      "override": 660,
+      "bonusHP": null
+    },
+    "shields": {
+      "value": 0,
+      "min": 0,
+      "max": null,
+      "shieldDamage": 0
+    },
+    "description": "",
+    "credits": 0,
+    "classes": [],
+    "traits": [],
+    "age": 0,
+    "gender": "",
+    "genderDisplay": "",
+    "player": "",
+    "crewQuality": {},
+    "crew": [],
+    "attributes": {
+      "str": {
+        "total": 0,
+        "mod": 0,
+        "bonus": 0,
+        "base": 0
+      },
+      "dex": {
+        "total": 0,
+        "mod": 0,
+        "bonus": 0,
+        "base": 0
+      },
+      "int": {
+        "total": 0,
+        "mod": 0,
+        "bonus": 0,
+        "base": 0
+      }
+    },
+    "equippedIds": [],
+    "skills": {
+      "pilot (pilot)": {
+        "value": 0,
+        "attribute": "dex",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Pilot",
+        "sizeMod": true
+      },
+      "initiative (pilot)": {
+        "value": 0,
+        "attribute": "dex",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Initiative",
+        "sizeMod": true
+      },
+      "deception (pilot)": {
+        "value": 0,
+        "attribute": "dex",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Starship_Deception",
+        "sizeMod": true
+      },
+      "stealth (pilot)": {
+        "value": 0,
+        "attribute": "dex",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Stealth#Starship_Stealth",
+        "sizeMod": true
+      },
+      "pilot (copilot)": {
+        "value": 0,
+        "attribute": "dex",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Pilot"
+      },
+      "use computer (commander)": {
+        "value": 0,
+        "attribute": "int",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Use_Computer"
+      },
+      "knowledge (tactics) (commander)": {
+        "value": 0,
+        "attribute": "int",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Knowledge"
+      },
+      "use computer (system operator)": {
+        "value": 0,
+        "attribute": "int",
+        "uut": true,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Use_Computer"
+      },
+      "mechanics (system operator)": {
+        "value": 0,
+        "attribute": "int",
+        "uut": false,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Mechanics"
+      },
+      "mechanics (engineer)": {
+        "value": 0,
+        "attribute": "int",
+        "uut": false,
+        "trained": false,
+        "acp": false,
+        "link": "https://swse.fandom.com/wiki/Mechanics"
+      }
+    },
+    "biography": "",
+    "abilities": {
+      "str": {
+        "base": 63,
+        "value": 10,
+        "manual": null,
+        "customBonus": 0
+      },
+      "dex": {
+        "base": 20,
+        "value": 10,
+        "manual": null,
+        "customBonus": 0
+      },
+      "int": {
+        "base": 14,
+        "value": 10,
+        "manual": null,
+        "customBonus": 0
+      },
+      "con": {
+        "value": 10,
+        "manual": null,
+        "base": 10,
+        "customBonus": 0
+      },
+      "wis": {
+        "value": 10,
+        "manual": null,
+        "base": 10,
+        "customBonus": 0
+      },
+      "cha": {
+        "value": 10,
+        "manual": null,
+        "base": 10,
+        "customBonus": 0
+      }
+    },
+    "changes": [
+      {},
+      {}
+    ],
+    "cl": {
+      "value": 0
+    },
+    "vehicle": {
+      "cover": "Total Cover:",
+      "passengers": "10 (Troops or Prisoners)",
+      "crewQuality": "Normal",
+      "consumables": "1 Month",
+      "cargo": {
+        "capacity": 200
+      },
+      "speed": {
+        "starshipScale": 1,
+        "characterScale": 1
+      },
+      "crew": 12
+    },
+    "darkside": {
+      "value": 0
+    },
+    "toggles": {},
+    "overrides": {},
+    "actorLinks": [],
+    "settings": {
+      "isNPC": false,
+      "autoSizeToken": false,
+      "allowSheetLighting": false,
+      "ignorePrerequisites": false,
+      "ignorePrerequisitesOnDrop": false,
+      "attributeGeneration": "Default"
+    },
+    "defense": {
+      "ref": {
+        "value": 10
+      },
+      "fort": {
+        "value": 10
+      },
+      "will": {
+        "value": 10
+      },
+      "reff": {
+        "value": 10
+      },
+      "special": "",
+      "dr": 0
+    },
+    "details": {
+      "biography": "",
+      "description": "",
+      "gender": "",
+      "sex": "",
+      "age": 0,
+      "experience": 0,
+      "cl": "",
+      "height": "",
+      "weight": "",
+      "species": "Human",
+      "classes": "",
+      "senses": "",
+      "lang": "",
+      "specialHp": "",
+      "immunities": "",
+      "weaknesses": "",
+      "fightSpace": "",
+      "atkOptions": "",
+      "specialActions": "",
+      "forceP": "",
+      "forceS": "",
+      "forceT": "",
+      "specialQualities": "",
+      "talents": "",
+      "feats": "",
+      "skills": "",
+      "systems": "",
+      "possesses": "",
+      "notes": ""
+    },
+    "xp": "",
+    "baseAttack": 0,
+    "grapple": 0,
+    "forcePoints": 0,
+    "destinyPoints": 0,
+    "darkSide": {
+      "value": 0
+    },
+    "level": {
+      "value": 0
+    },
+    "speed": {
+      "base": 6,
+      "swim": 1.5,
+      "climb": 1.5,
+      "fly": null,
+      "special": ""
+    },
+    "size": "Medium",
+    "reach": 1
+  },
+  "name": "IPV-1 Patrol Craft",
+  "flags": {},
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "IPV-1 Patrol Craft",
+    "displayName": 0,
+    "actorLink": true,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "shields"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "depth": 1
+  },
+  "items": [
+    {
+      "_id": "U56GKRJ8A2ZcGbOg",
+      "name": "Colossal",
+      "type": "trait",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "",
+        "textDescription": "",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": "Colossal",
+            "key": "size"
+          },
+          {
+            "mode": 2,
+            "value": 0,
+            "key": "reflexDefenseBonusScalable"
+          },
+          {
+            "mode": 2,
+            "value": "1 square",
+            "key": "characterFightingSpaceScalable"
+          },
+          {
+            "mode": 2,
+            "value": 0,
+            "key": "shipSkillModifierScalable"
+          },
+          {
+            "mode": 2,
+            "value": "1d4",
+            "key": "unarmedDamageScalable"
+          },
+          {
+            "mode": 2,
+            "value": "stealth:0",
+            "key": "skillBonusScalable"
+          },
+          {
+            "mode": 2,
+            "value": 0,
+            "key": "damageThresholdSizeModifierScalable"
+          },
+          {
+            "mode": 2,
+            "value": "0 squares",
+            "key": "vehicleFightingSpaceScalable"
+          },
+          {
+            "mode": 2,
+            "value": 0,
+            "key": "grappleSizeModifierScalable"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "categories": [],
+        "supplier": {},
+        "possibleProviders": [],
+        "isSupplied": false,
+        "prerequisite": null,
+        "cost": "0",
+        "quantity": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.2",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!fgjYqBmexDk0POiY.U56GKRJ8A2ZcGbOg"
+    },
+    {
+      "_id": "3n8cRWs3fiZfkddL",
+      "name": "Turbolaser, Light",
+      "type": "vehicleSystem",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "subtype": "Weapon Systems",
+        "prerequisite": {
+          "children": [],
+          "count": 1,
+          "text": "Colossal (Frigate) or larger",
+          "type": "OR"
+        },
+        "changes": [
+          {
+            "mode": 2,
+            "value": "9-20 Squares",
+            "key": "rangeStarshipMedium"
+          },
+          {
+            "mode": 2,
+            "value": "5-8 Squares",
+            "key": "rangeStarshipShort"
+          },
+          {
+            "mode": 2,
+            "value": "1,201-3,000 Squares",
+            "key": "rangeMedium"
+          },
+          {
+            "mode": 2,
+            "value": "21-40 Squares",
+            "key": "rangeStarshipLong"
+          },
+          {
+            "mode": 2,
+            "value": "0-4 Squares",
+            "key": "rangeStarshipPointBlank"
+          },
+          {
+            "mode": 2,
+            "value": "0-600 Squares",
+            "key": "rangePointBlank"
+          },
+          {
+            "mode": 2,
+            "value": "5d10x5",
+            "key": "damage"
+          },
+          {
+            "mode": 2,
+            "value": "601-1,200 Squares",
+            "key": "rangeShort"
+          },
+          {
+            "mode": 2,
+            "value": "2",
+            "key": "emplacementPoints"
+          },
+          {
+            "mode": 2,
+            "value": "5000",
+            "key": "cost"
+          },
+          {
+            "mode": 2,
+            "value": "Military",
+            "key": "availability"
+          },
+          {
+            "mode": 2,
+            "value": "3,001-6,000 Squares",
+            "key": "rangeLong"
+          },
+          {
+            "mode": 2,
+            "value": ", Point-Defense",
+            "key": "suffix"
+          }
+        ],
+        "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><table class=\"wikitable\">\n <tbody>\n  <tr>\n   <th>TURBOLASER</th>\n   <th>DAMAGE</th>\n   <th>EMPLACEMENT POINTS</th>\n   <th>AVAILABILITY</th>\n   <th>COST</th>\n  </tr>\n  <tr>\n   <td>Light*</td>\n   <td>3d10x5</td>\n   <td>2</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Military\" class=\"mw-redirect\" title=\"Military\">Military</a></td>\n   <td>5000</td>\n  </tr>\n  <tr>\n   <td>Medium*</td>\n   <td>5d10x5</td>\n   <td>5</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Military\" class=\"mw-redirect\" title=\"Military\">Military</a></td>\n   <td>10,000</td>\n  </tr>\n  <tr>\n   <td>Heavy*</td>\n   <td>7d10x5</td>\n   <td>10</td>\n   <td><a href=\"https://swse.fandom.com/wiki/Military\" class=\"mw-redirect\" title=\"Military\">Military</a></td>\n   <td>20,000</td>\n  </tr>\n </tbody>\n</table><p><i>*This <a href=\"https://swse.fandom.com/wiki/Weapon_System\" class=\"mw-redirect\" title=\"Weapon System\">Weapon System</a> can only be mounted on a <a href=\"https://swse.fandom.com/wiki/Vehicle\" class=\"mw-redirect\" title=\"Vehicle\">Vehicle</a> of Colossal (Frigate) size or larger.</i></p><p>Turbolasers are Capital Ship weapons designed to use the immense power necessary to blast through the dense armor and shielding of other large targets. They use turbine generators to build the necessary energy, storing it in a capacitor bank until it is discharged. The barrels of Turbolasers require substantial cooling to survive the enormous energy involved, so many are designed to recoil into a cryogenic \"Sleeve\" immediately after firing. Because of this longer firing sequence, all but the smallest Turbolasers are incapable of <a href=\"https://swse.fandom.com/wiki/Autofire\" title=\"Autofire\">Autofire</a> even when mounted in <a href=\"https://swse.fandom.com/wiki/Cannon,_Double/Quad\" title=\"Cannon, Double/Quad\">Cannon, Double/Quad</a> or <a href=\"https://swse.fandom.com/wiki/Fire-Linked\" class=\"mw-redirect\" title=\"Fire-Linked\">Fire-Linked</a> configurations.</p><table class=\"wikitable\">\n <caption>\n  Turbolaser Ranges\n </caption>\n <tbody>\n  <tr>\n   <th colspan=\"4\">RANGE BY CHARACTER SCALE</th>\n   <th></th>\n   <th colspan=\"4\"><p>RANGE BY STARSHIP SCALE</p></th>\n  </tr>\n  <tr>\n   <th>POINT-BLANK</th>\n   <th>SHORT</th>\n   <th>MEDIUM</th>\n   <th>LONG</th>\n   <th></th>\n   <th>POINT-BLANK</th>\n   <th>SHORT</th>\n   <th>MEDIUM</th>\n   <th>LONG</th>\n  </tr>\n  <tr>\n   <td>0-600 Squares</td>\n   <td>601-1,200 Squares</td>\n   <td>1,201-3,000 Squares</td>\n   <td>3,001-6,000 Squares</td>\n   <td></td>\n   <td>0-4 Squares</td>\n   <td>5-8 Squares</td>\n   <td>9-20 Squares</td>\n   <td>21-40 Squares</td>\n  </tr>\n </tbody>\n</table><h2><span class=\"mw-headline\" id=\"Homebrew_Rapidfire_Turbolaser\">Homebrew Rapidfire Turbolaser</span></h2><table style=\"width:100%; margin-top:2em; border:2px solid #999; font-size:105%; text-align:center; background:#6c3636;\">\n <tbody>\n  <tr>\n   <td><i><b>This <a href=\"https://swse.fandom.com/wiki/Homebrew_Content\" title=\"Homebrew Content\">Homebrew Content</a> has not been reviewed in a meaningful manner. If you wish to review this content yourself, then see <a href=\"https://swse.fandom.com/wiki/Category:Untested\" title=\"Category:Untested\">Untested</a> for more details.</b></i></td>\n  </tr>\n </tbody>\n</table><p><i>Homebrew Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Clone_Wars_Saga_Edition_Fan_Sourcebook\" title=\"Clone Wars Saga Edition Fan Sourcebook\">Clone Wars Saga Edition Fan Sourcebook</a>&nbsp;- Vehicles and Vessels</i></p><p><b>Emplacement Points:</b> 3</p><p><b>Size Restriction:</b> Colossal or Larger</p><p>During the Clone Wars, Separatist engineers did a wide range of experimentation with Turbolaser technology, creating a number of variations on the standard weapon. One such variant was the Rapidfire Turbolaser, which was able to fire set to <a href=\"https://swse.fandom.com/wiki/Autofire_(Vehicle_Combat)\" title=\"Autofire (Vehicle Combat)\">Autofire</a>.</p><p>In addition, the Rapidfire Turbolaser is considered <a href=\"https://swse.fandom.com/wiki/Braced\" class=\"mw-redirect\" title=\"Braced\">Braced</a>; only taking a -2 penalty to its <a href=\"https://swse.fandom.com/wiki/Autofire_(Vehicle_Combat)\" title=\"Autofire (Vehicle Combat)\">Autofire</a> attacks. While the expensive technology was only scaled to work with Light Turbolasers and drew an incredible amount of power, they were considered a great success.</p>",
+        "cost": "5000",
+        "quantity": 1,
+        "providedItems": [],
+        "equipped": "gunnerInstalled"
+      },
+      "effects": [
+        {
+          "name": "Point-Defense",
+          "disabled": false,
+          "flags": {
+            "swse": {
+              "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><p><b>Emplacement Points:</b>&nbsp;0</p><p>Normally, only <a href=\"https://swse.fandom.com/wiki/Blaster_Cannons\" class=\"mw-redirect\" title=\"Blaster Cannons\">Blaster Cannons</a>, <a href=\"https://swse.fandom.com/wiki/Laser_Cannons\" class=\"mw-redirect\" title=\"Laser Cannons\">Laser Cannons</a>, and <a href=\"https://swse.fandom.com/wiki/Light_Ion_Cannons\" class=\"mw-redirect\" title=\"Light Ion Cannons\">Light Ion Cannons</a> can be Point-Defense Weapons. Modifying a <a href=\"https://swse.fandom.com/wiki/Weapon_System\" class=\"mw-redirect\" title=\"Weapon System\">Weapon System</a> to be Point-Defense costs 4000 credits per <a href=\"https://swse.fandom.com/wiki/Weapon_System\" class=\"mw-redirect\" title=\"Weapon System\">Weapon System</a> but has no <a href=\"https://swse.fandom.com/wiki/Emplacement_Point\" class=\"mw-redirect\" title=\"Emplacement Point\">Emplacement Point</a> requirement (Other than what is required to mount the <a href=\"https://swse.fandom.com/wiki/Weapon_System\" class=\"mw-redirect\" title=\"Weapon System\">Weapon System</a> itself). A Point-Defense Weapon takes no penalty for attacking targets of smaller than Colossal size.</p>",
+              "itemModifier": true
+            }
+          },
+          "img": "icons/svg/item-bag.svg",
+          "origin": null,
+          "_id": "7PpuNvjVIzUshDMI",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "value": 0,
+                "key": "emplacementPoints",
+                "type": "add"
+              },
+              {
+                "value": "+4000",
+                "key": "cost",
+                "type": "add"
+              },
+              {
+                "value": "Restricted",
+                "key": "availability",
+                "type": "add"
+              }
+            ]
+          },
+          "duration": {
+            "value": null,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "13.2.2",
+            "lastModifiedBy": null,
+            "createdTime": null,
+            "modifiedTime": null
+          },
+          "start": null,
+          "showIcon": 1,
+          "folder": null,
+          "_key": "!actors.items.effects!fgjYqBmexDk0POiY.3n8cRWs3fiZfkddL.7PpuNvjVIzUshDMI"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.2",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!fgjYqBmexDk0POiY.3n8cRWs3fiZfkddL"
+    },
+    {
+      "_id": "nuDId5fB2dUHX0jI",
+      "name": "Medium",
+      "type": "trait",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "",
+        "textDescription": "",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": "Medium",
+            "key": "size"
+          },
+          {
+            "mode": 2,
+            "value": 0,
+            "key": "reflexDefenseBonusScalable"
+          },
+          {
+            "mode": 2,
+            "value": "1 square",
+            "key": "characterFightingSpaceScalable"
+          },
+          {
+            "mode": 2,
+            "value": 0,
+            "key": "shipSkillModifierScalable"
+          },
+          {
+            "mode": 2,
+            "value": "1d4",
+            "key": "unarmedDamageScalable"
+          },
+          {
+            "mode": 2,
+            "value": "stealth:0",
+            "key": "skillBonusScalable"
+          },
+          {
+            "mode": 2,
+            "value": 0,
+            "key": "damageThresholdSizeModifierScalable"
+          },
+          {
+            "mode": 2,
+            "value": "0 squares",
+            "key": "vehicleFightingSpaceScalable"
+          },
+          {
+            "mode": 2,
+            "value": 0,
+            "key": "grappleSizeModifierScalable"
+          }
+        ],
+        "choices": [],
+        "modes": [],
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "categories": [],
+        "supplier": {},
+        "possibleProviders": [],
+        "isSupplied": false,
+        "prerequisite": null,
+        "cost": "0",
+        "quantity": 1
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.2",
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!fgjYqBmexDk0POiY.nuDId5fB2dUHX0jI"
+    }
+  ],
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.2",
+    "createdTime": 1785035906271,
+    "modifiedTime": 1785035906271,
+    "lastModifiedBy": "lyU5Zj9fsO0d8kF6"
+  },
+  "ownership": {
+    "default": 0,
+    "lyU5Zj9fsO0d8kF6": 3
+  },
+  "_id": "fgjYqBmexDk0POiY",
+  "sort": 0,
+  "_key": "!actors!fgjYqBmexDk0POiY"
+}

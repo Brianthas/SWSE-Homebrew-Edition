@@ -1,0 +1,161 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode"
+        }
+      },
+      "statuses": [],
+      "disabled": false,
+      "name": "Single-Shot",
+      "_id": "4YX8cD6FuxPRJCx7",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513483,
+        "modifiedTime": 1786051513483,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!MSrL7pGamsAyizbD.4YX8cD6FuxPRJCx7"
+    },
+    {
+      "flags": {
+        "swse": {}
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Stun",
+      "_id": "SyJMX6IV6efV4x7F",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "1d6",
+            "key": "damage",
+            "priority": null,
+            "type": "override",
+            "phase": "initial"
+          },
+          {
+            "value": "Stun",
+            "key": "damageType",
+            "priority": null,
+            "type": "override",
+            "phase": "initial"
+          }
+        ]
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513483,
+        "modifiedTime": 1786051513483,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!MSrL7pGamsAyizbD.SyJMX6IV6efV4x7F"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a></i> </p><p>The need to capture a target alive presents a problem to the bounty hunter. You can't use a Blaster's <a href=\"https://swse.fandom.com/wiki/Stun\" class=\"mw-redirect\" title=\"Stun\">Stun</a> setting beyond very close range (6 squares); <a href=\"https://swse.fandom.com/wiki/Stun_Grenades\" class=\"mw-redirect\" title=\"Stun Grenades\">Stun Grenades</a> work farther away (particularly when used with a <a href=\"https://swse.fandom.com/wiki/Grenade_Launcher\" title=\"Grenade Launcher\">Grenade Launcher</a>), but they're expensive and <a href=\"https://swse.fandom.com/wiki/Restricted\" class=\"mw-redirect\" title=\"Restricted\">Restricted</a>, so they won't always be available if you're on a planet with strict weapon laws. </p><p>The Snare Rifle is one alternative, allowing a target to be stopped (or at least slowed down) at a longer range by shooting a weighted cord that wraps around the target. </p><p>A Snare Rifle allows you to initiate a <a href=\"https://swse.fandom.com/wiki/Grab\" title=\"Grab\">Grab</a> or <a href=\"https://swse.fandom.com/wiki/Grapple\" title=\"Grapple\">Grapple</a> against a character at range. If the <a href=\"https://swse.fandom.com/wiki/Grab\" title=\"Grab\">Grab</a> or <a href=\"https://swse.fandom.com/wiki/Grapple\" title=\"Grapple\">Grapple</a> attack succeeds, the target takes the listed <a href=\"https://swse.fandom.com/wiki/Stun\" class=\"mw-redirect\" title=\"Stun\">Stun</a> damage from the force of the snare. A character that is <a href=\"https://swse.fandom.com/wiki/Grabbed\" class=\"mw-redirect\" title=\"Grabbed\">Grabbed</a> or <a href=\"https://swse.fandom.com/wiki/Grappled\" class=\"mw-redirect\" title=\"Grappled\">Grappled</a> can attempt to escape the snare (requiring a DC 15 <a href=\"https://swse.fandom.com/wiki/Acrobatics\" title=\"Acrobatics\">Acrobatics</a> check) or break out of it (requiring a DC 20 <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a> check). </p><p>You can use the <a href=\"https://swse.fandom.com/wiki/Pin\" title=\"Pin\">Pin</a> and <a href=\"https://swse.fandom.com/wiki/Trip\" title=\"Trip\">Trip</a> feats with a Snare Rifle, but you cannot use the <a href=\"https://swse.fandom.com/wiki/Crush\" title=\"Crush\">Crush</a> or <a href=\"https://swse.fandom.com/wiki/Throw\" title=\"Throw\">Throw</a> feats. </p><p>A Snare Rifle uses a specialized cartridge that holds 5 shots. Replacement cartridges weigh 2 kg and cost 50 credits each. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "1,200",
+    "weight": "5 Kilograms",
+    "availability": "Licensed",
+    "size": "Medium",
+    "type": "",
+    "subtype": "Rifles",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageType": "Bludgeoning"
+  },
+  "name": "Snare Rifle",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Snare_Rifle.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513483,
+    "modifiedTime": 1786051513574,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "MSrL7pGamsAyizbD",
+  "_key": "!items!MSrL7pGamsAyizbD"
+}

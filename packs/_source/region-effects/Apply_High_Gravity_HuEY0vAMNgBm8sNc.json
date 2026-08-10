@@ -1,0 +1,28 @@
+{
+  "name": "Apply High Gravity",
+  "type": "script",
+  "_id": "HuEY0vAMNgBm8sNc",
+  "author": "tih8Q1fJUuDFWVCX",
+  "img": "icons/svg/dice-target.svg",
+  "scope": "global",
+  "command": "//when using this macro, make sure that the token enter and exit events are enabled for the region\n\nif(event.name === \"tokenEnter\"){\n  token.actor.setGroupedEffect(\"gravity\", \"High\")\n}\n\nif(event.name === \"tokenExit\"){\n  token.actor.clearGroupedEffect(\"gravity\");\n}",
+  "folder": "ueuLsAc43MqUuKSi",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.3",
+    "createdTime": 1733935233138,
+    "modifiedTime": 1733936218186,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_key": "!macros!HuEY0vAMNgBm8sNc"
+}

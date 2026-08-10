@@ -1,0 +1,65 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Whenever you score a Critical Hit on an attack, you gain <a href=\"https://swse.fandom.com/wiki/Bonus_Hit_Points\" class=\"mw-redirect\" title=\"Bonus Hit Points\">Bonus Hit Points</a> equal to your Character Level. <a href=\"https://swse.fandom.com/wiki/Bonus_Hit_Points\" class=\"mw-redirect\" title=\"Bonus Hit Points\">Bonus Hit Points</a> are consumed before normal Hit Points, and unused <a href=\"https://swse.fandom.com/wiki/Bonus_Hit_Points\" class=\"mw-redirect\" title=\"Bonus Hit Points\">Bonus Hit Points</a> go away at the end of the encounter. <a href=\"https://swse.fandom.com/wiki/Bonus_Hit_Points\" class=\"mw-redirect\" title=\"Bonus Hit Points\">Bonus Hit Points</a> from multiple sources do not stack.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:in: Talent Trees, Force Talent Trees Control Talent Tree Edit Edit source History Talk (0) You have learned how to regulate your own body systems, control your emotions, and channel The Force. Contents 1 Damage Reduction 10 2 Equilibrium 3 Force Focus 4 Force Recovery 5 Additional Control Talents 5.1 Beast Trick 5.2 Channel Energy 5.3 Force Exertion 5.4 Force Harmony 5.5 Force Suppression 5.6 Indomitable Will 5.7 The Will to Resist 5.8 Telekinetic Stability 6 Homebrew Control Talents 6.1 Force Absorb 6.2 Force Concealment 6.3 Force Stealth 6.4 Trust the Force 6.5 Velocity 6.6 Vitality Strike Damage Reduction 10[ ] You can spend a Force Point as a Standard Action to gain Damage Reduction 10 for 1 minute. Equilibrium[ ] As a Swift Action, you can spend a Force Point to remove all debilitating Conditions affecting you and return to a normal state. Force Focus[ ] As a Full-Round Action, you may make a DC 15 Use the Force check. If the check succeeds, you regain one spent Force Power of your choice. Force Recovery[ ] Prerequisite: Equilibrium Whenever you use your Second Wind, you regain a number of additional Hit Points equal to 1d6 per Force Point you possess (maximum 10d6). Additional Control Talents[ ] Beast Trick[ ] Reference Book: Star Wars Saga Edition Knights of the Old Republic Campaign Guide Prerequisite: Mind Trick You can use the Mind Trick Force Power on creatures with an Intelligence score of 2 and lower. However, a Beast with an Intelligence score of 2 or less still cannot perform any complex actions, or understand complex commands it wouldn't otherwise be able to understand. An affected Beast might understand \"Attack those sith troopers!\" but it would not comprehend, \"Break into the command center, and disable the communications array.\" Channel Energy[ ] Reference Book: Star Wars Saga Edition Jedi Academy Training Manual Prerequisite: Negate Energy Whenever you use the Negate Energy Force Power to successfully negate the damage from an Energy Weapon attack, you can spend a Force Point as a Reaction to immediately activate any Force Power currently in your Force Power Suite. Force Exertion[ ] Reference Book: Star Wars Saga Edition Force Unleashed Campaign Guide Prerequisite: Force Training When you select this Talent, choose one Force Power that you have in your Force Power Suite. As a Reaction, you can remove any one Force Power from your active Force Power Suite to add an extra use of the Force Power designated by this Talent. Doing so moves you -1 Persistent step along the Condition Track. This Persistent Condition is removed by resting for 1 minute. You can select this Talent multiple times. Each time you do so, you choose a different Force Power to be gained by using this Talent. Force Harmony[ ] Reference Book: Star Wars Saga Edition Jedi Academy Training Manual Once per encounter, you can activate one Force Talent that requires a Force Point to use without spending a Force Point. Force Suppression[ ] Reference Book: Star Wars Saga Edition Knights of the Old Republic Campaign Guide Prerequisite: Rebuke If you use the Rebuke Force Power to attempt to negate or redirect a Force Power used against you, but fail to overcome your opponent's Use the Force check result, you instead lessen the effect of the Force Power by one step. For example, if an opponent attempted to use the Slow Force Power on you and rolled a 21, if you fail to Rebuke the Force Power, you only suffer the DC 15 effect, instead of the DC 20 effect. This Talent only affects Force Powers that have variable effects based on your opponent's Use the Force checks, and Force Powers with static DCs without variable effects (such as Force Lightning) are unaffected. Indomitable Will[ ] Reference Book: Star Wars Saga Edition Force Unleashed Campaign Guide You can spend a Force Point as a Standard Action to become immune to all Mind-Affecting effects for 1 minute. The Will to Resist[ ] Reference Book: Star Wars Saga Edition Clone Wars Campaign Guide Once per turn, as a Reaction to being targeted by a Force Power or other ability that targets your Will Defense, you can make a Use the Force check and replace your Will Defense with the result of the Use the Force check. After you make this check, until the end of your next turn, you take a -5 penalty on all Use the Force checks. Telekinetic Stability[ ] Reference Book: Star Wars Saga Edition Legacy Era Campaign Guide Whenever an attack or effect would normally move you against your will (such as being targeted by a Bantha Rush, or being moved by the Force Thrust Force Power), you can spend a Force Point to negate that movement. Homebrew Control Talents[ ] This Homebrew Content has not been reviewed in a meaningful manner. If you wish to review this content yourself, then see Untested for more details. Force Absorb[ ] Homebrew Reference Book: Dark Forces Campaign Guide Whenever you successfully negate a Force Power using the Rebuke power, you immediately gain one temporary Force Point which can only be used to regain a spent Force Power or to activate a Force Talent. Force Concealment[ ] Homebrew Reference Book: Legacy of the Force Sourcebook As a Swift Action, you can spend a Force Point to gain a +5 bonus to opposed Use the Force checks against Sense Force attempts for the remainder of the encounter. Force Stealth[ ] Homebrew Reference Book: Legacy of the Force Sourcebook You can make a Use the Force check in place of a Stealth check. You are considered Trained in the Stealth skill for purposes of using this Talent. If you are entitled to a Stealth check reroll, you can reroll your Use the Force check instead (subject to the same circumstances and limitations). Trust the Force[ ] Homebrew Reference Book: Legacy of the Force Sourcebook Prerequisite: Strong in the Force Once per day, you can spend a Force Point as a Free Action to treat the next attack roll or skill check you make during your current turn as a modified 20, in effect Taking 20 on the roll, even if you would normally be prevented from doing so. Velocity[ ] Homebrew Reference Book: Legacy of the Force Sourcebook Prerequisite: Surge At the start of an encounter when you make an Initiative check to determine your place in the Initiative Order, you can activate Surge as a Reaction, gaining a bonus to your Initiative check result instead of Jump checks. Vitality Strike[ ] Homebrew Reference Book: Legacy of the Force Sourcebook Whenever you score a Critical Hit on an attack, you gain Bonus Hit Points equal to your Character Level. Bonus Hit Points are consumed before normal Hit Points, and unused Bonus Hit Points go away at the end of the encounter. Bonus Hit Points from multiple sources do not stack. Categories Categories: Talent Trees Force Talent Trees Add category Cancel Save Community content is available under CC-BY-SA unless otherwise noted. More Fandoms Fantasy Sci-fi Star Wars",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": null,
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Force Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Force Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Control Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Control_Talent_Tree",
+    "bonusTalentTree": "Force Talent Trees",
+    "source": "Legacy of the Force Sourcebook",
+    "cost": "0"
+  },
+  "name": "Vitality Strike",
+  "flags": {},
+  "type": "talent",
+  "folder": "Aiyj1Z0FNJmbMWjE",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385303761,
+    "modifiedTime": 1734385303761,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "Im0ySLtxg70UdrRe",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!Im0ySLtxg70UdrRe"
+}

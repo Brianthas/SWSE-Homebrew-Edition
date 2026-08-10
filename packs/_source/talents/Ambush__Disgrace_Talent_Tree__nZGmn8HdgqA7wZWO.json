@@ -1,0 +1,73 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "During a <a href=\"https://swse.fandom.com/wiki/Surprise_Round\" class=\"mw-redirect\" title=\"Surprise Round\">Surprise Round</a>, before combat begins, if you are not <a href=\"https://swse.fandom.com/wiki/Surprised\" class=\"mw-redirect\" title=\"Surprised\">Surprised</a> you can give up your <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a> to allow all non-<a href=\"https://swse.fandom.com/wiki/Surprised\" class=\"mw-redirect\" title=\"Surprised\">Surprised</a> allies within your line of sight to take an extra <a href=\"https://swse.fandom.com/wiki/Move_Action\" class=\"mw-redirect\" title=\"Move Action\">Move Action</a> during the <a href=\"https://swse.fandom.com/wiki/Surprise_Round\" class=\"mw-redirect\" title=\"Surprise Round\">Surprise Round</a>.<br><br>Allies can spend this <a href=\"https://swse.fandom.com/wiki/Move_Action\" class=\"mw-redirect\" title=\"Move Action\">Move Action</a> to instead reroll their <a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a> checks and take the better of the two results as a <a href=\"https://swse.fandom.com/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a> before combat begins.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "any:unknown:During a<a href=\"https://swse.fandom.com/wiki/Surprise_Round\" class=\"mw-redirect\" title=\"Surprise Round\">Surprise Round</a>, before combat begins, if you are not<a href=\"https://swse.fandom.com/wiki/Surprised\" class=\"mw-redirect\" title=\"Surprised\">Surprised</a>you can give up your<a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a>to allow all non-<a href=\"https://swse.fandom.com/wiki/Surprised\" class=\"mw-redirect\" title=\"Surprised\">Surprised</a>allies within your line of sight to take an extra<a href=\"https://swse.fandom.com/wiki/Move_Action\" class=\"mw-redirect\" title=\"Move Action\">Move Action</a>during the<a href=\"https://swse.fandom.com/wiki/Surprise_Round\" class=\"mw-redirect\" title=\"Surprise Round\">Surprise Round</a>.<br><br>Allies can spend this<a href=\"https://swse.fandom.com/wiki/Move_Action\" class=\"mw-redirect\" title=\"Move Action\">Move Action</a>to instead reroll their<a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a>checks and take the better of the two results as a<a href=\"https://swse.fandom.com/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a>before combat begins.",
+        "key": "skillReRoll"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Dirty Tactics talent",
+      "requirement": "Dirty Tactics",
+      "type": "TALENT"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Charlatan Talent Trees"
+      },
+      {
+        "value": "Noble Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Charlatan Talent Trees",
+      "Noble Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Disgrace Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Disgrace_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Scum and Villainy",
+    "cost": "0"
+  },
+  "name": "Ambush (Disgrace Talent Tree)",
+  "flags": {},
+  "type": "talent",
+  "folder": "IIJStEDy04k3VFbQ",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385304270,
+    "modifiedTime": 1734385304270,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "nZGmn8HdgqA7wZWO",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!nZGmn8HdgqA7wZWO"
+}

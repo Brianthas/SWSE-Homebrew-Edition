@@ -1,0 +1,445 @@
+{
+  "effects": [
+    {
+      "name": "Level 1",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 1
+        }
+      },
+      "disabled": true,
+      "_id": "uMGhok4v4pBtiDnd",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "provides",
+            "type": "add",
+            "value": "Force Disciple Talent Trees",
+            "phase": "initial",
+            "priority": 20
+          },
+          {
+            "key": "baseAttackBonus",
+            "type": "add",
+            "value": 0,
+            "phase": "initial",
+            "priority": 20
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786041599950,
+        "modifiedTime": 1786041599950,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!KIV1VXsQHPR34EeB.uMGhok4v4pBtiDnd"
+    },
+    {
+      "name": "Level 2",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 2
+        }
+      },
+      "disabled": true,
+      "_id": "JqoWTtmVFHWvBHIo",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "provides",
+            "type": "add",
+            "value": "Force Secret",
+            "phase": "initial",
+            "priority": 20
+          },
+          {
+            "key": "baseAttackBonus",
+            "type": "add",
+            "value": 1,
+            "phase": "initial",
+            "priority": 20
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786041599951,
+        "modifiedTime": 1786041599951,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!KIV1VXsQHPR34EeB.JqoWTtmVFHWvBHIo"
+    },
+    {
+      "name": "Level 3",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 3
+        }
+      },
+      "disabled": true,
+      "_id": "G2QnyEpvt7kmjUg5",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "provides",
+            "type": "add",
+            "value": "Force Secret",
+            "phase": "initial",
+            "priority": 20
+          },
+          {
+            "key": "provides",
+            "type": "add",
+            "value": "Force Disciple Talent Trees",
+            "phase": "initial",
+            "priority": 20
+          },
+          {
+            "key": "baseAttackBonus",
+            "type": "add",
+            "value": 1,
+            "phase": "initial",
+            "priority": 20
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786041599951,
+        "modifiedTime": 1786041599951,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!KIV1VXsQHPR34EeB.G2QnyEpvt7kmjUg5"
+    },
+    {
+      "name": "Level 4",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 4
+        }
+      },
+      "disabled": true,
+      "_id": "w3B4rBQxaRDzQXc5",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "provides",
+            "type": "add",
+            "value": "Force Secret",
+            "phase": "initial",
+            "priority": 20
+          },
+          {
+            "key": "baseAttackBonus",
+            "type": "add",
+            "value": 1,
+            "phase": "initial",
+            "priority": 20
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786041599951,
+        "modifiedTime": 1786041599951,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!KIV1VXsQHPR34EeB.w3B4rBQxaRDzQXc5"
+    },
+    {
+      "name": "Level 5",
+      "flags": {
+        "swse": {
+          "isLevel": true,
+          "level": 5
+        }
+      },
+      "disabled": true,
+      "_id": "Jr7faHQmW1np9mfJ",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "provides",
+            "type": "add",
+            "value": "Force Secret",
+            "phase": "initial",
+            "priority": 20
+          },
+          {
+            "key": "provides",
+            "type": "add",
+            "value": "Force Disciple Talent Trees",
+            "phase": "initial",
+            "priority": 20
+          },
+          {
+            "key": "baseAttackBonus",
+            "type": "add",
+            "value": 0,
+            "phase": "initial",
+            "priority": 20
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786041599951,
+        "modifiedTime": 1786041599951,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!KIV1VXsQHPR34EeB.Jr7faHQmW1np9mfJ"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: Star Wars Saga Edition Core Rulebook</i> </p><p>Through meditation and contemplation of the deepest mysteries of <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a>, some individuals transcend the dogma in which they were raised as they reach a new and deeper understanding of their connection to the universe around them. The ebb and flow of life- quickening, growing, struggling, dying- becomes a ceaseless chorus of destiny. Some Force Disciples tap into this power, become one with it, and speak it's wisdom to others. Others might instead enslave destiny, twist it's vision, and corrupt others for the sake of power. </p><p>Force Disciples, like <a href=\"https://swse.fandom.com/wiki/Force_Adepts\" class=\"mw-redirect\" title=\"Force Adepts\">Force Adepts</a>, exist in every <a href=\"https://swse.fandom.com/wiki/Force_Tradition\" class=\"mw-redirect\" title=\"Force Tradition\">Force Tradition</a>. Even the Jedi and the Sith have had Force Disciples among their ranks, but the dogma of these <a href=\"https://swse.fandom.com/wiki/Force_Traditions\" title=\"Force Traditions\">Force Traditions</a> tends to discourage such an eclectic approach to <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a>. However, in less well-known dominant <a href=\"https://swse.fandom.com/wiki/Force_Traditions\" title=\"Force Traditions\">Force Traditions</a>- such as <a href=\"https://swse.fandom.com/wiki/The_Baran_Do_Sages\" title=\"The Baran Do Sages\">The Baran Do Sages</a>, <a href=\"https://swse.fandom.com/wiki/The_Witches_of_Dathomir\" title=\"The Witches of Dathomir\">The Witches of Dathomir</a>, <span class=\"new\" title=\"The Gand Findsmen (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvVGhlX0dhbmRfRmluZHNtZW4/YWN0aW9uPWVkaXQmcmVkbGluaz0x\">The Gand Findsmen</span>, and <a href=\"https://swse.fandom.com/wiki/The_Seyugi_Dervishes\" title=\"The Seyugi Dervishes\">The Seyugi Dervishes</a>- Force Disciples hold great power and influence, shaping their <a href=\"https://swse.fandom.com/wiki/Force_Traditions\" title=\"Force Traditions\">Force Traditions</a> for centuries to come. <a href=\"https://swse.fandom.com/wiki/Force_Adepts\" class=\"mw-redirect\" title=\"Force Adepts\">Force Adepts</a> who become Force Disciples may wield power and influence over entire civilizations. </p><h4><span class=\"mw-headline\" id=\"Examples_of_Force_Disciples_in_Star_Wars\"><b>Examples of Force Disciples in Star Wars</b></span></h4><p>Kadann, Lord Cronal (\"Blackhole\"), Rokur Gepta, the Saarai-kaar, Wialu. </p><h4><span class=\"mw-headline\" id=\"Prerequisites\"><b>Prerequisites</b></span></h4><p>To qualify to become a Force Disciple, a character must fulfill the following criteria: </p><ul>\n <li><b>Minimum Level:</b> 12th</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Trained_Skills\" class=\"mw-redirect\" title=\"Trained Skills\">Trained Skills</a>:</b> <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a></li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a>:</b> <a href=\"https://swse.fandom.com/wiki/Force_Sensitivity\" title=\"Force Sensitivity\">Force Sensitivity</a></li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Talents\" title=\"Talents\">Talents</a>:</b> Any two <a href=\"https://swse.fandom.com/wiki/Talents\" title=\"Talents\">Talents</a> from the <a href=\"https://swse.fandom.com/wiki/Dark_Side_Devotee_Talent_Tree\" title=\"Dark Side Devotee Talent Tree\">Dark Side Devotee Talent Tree</a>, <a href=\"https://swse.fandom.com/wiki/Force_Adept_Talent_Tree\" title=\"Force Adept Talent Tree\">Force Adept Talent Tree</a>, or <a href=\"https://swse.fandom.com/wiki/Force_Item_Talent_Tree\" title=\"Force Item Talent Tree\">Force Item Talent Tree</a></li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a>:</b> <i><a href=\"https://swse.fandom.com/wiki/Farseeing\" title=\"Farseeing\">Farseeing</a></i></li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Force_Techniques\" title=\"Force Techniques\">Force Techniques</a>:</b> At least one</li>\n</ul><h3><span class=\"mw-headline\" id=\"Game_Rule_Information\">Game Rule Information</span></h3><p>The following are the features of the Force Disciple <a href=\"https://swse.fandom.com/wiki/Prestige_Class\" class=\"mw-redirect\" title=\"Prestige Class\">Prestige Class</a>: </p><table class=\"wikitable\"> \n <caption>\n  Force Disciple Leveling Statistics \n </caption> \n <tbody>\n  <tr> \n   <th>LEVEL </th> \n   <th><a href=\"https://swse.fandom.com/wiki/BASE_ATTACK_BONUS\" class=\"mw-redirect\" title=\"BASE ATTACK BONUS\">BASE ATTACK BONUS</a> </th> \n   <th>CLASS FEATURES </th>\n  </tr> \n  <tr> \n   <td>1st </td> \n   <td>+0 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Defense\" class=\"mw-redirect\" title=\"Defense\">Defense</a> Bonuses, Indomitable, Prophet, <a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Force_Disciple)\" title=\"Talent Trees (Force Disciple)\">Talent</a> </td>\n  </tr> \n  <tr> \n   <td>2nd </td> \n   <td>+1 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Force_Secret\" class=\"mw-redirect\" title=\"Force Secret\">Force Secret</a>, Prophet </td>\n  </tr> \n  <tr> \n   <td>3rd </td> \n   <td>+2 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Force_Secret\" class=\"mw-redirect\" title=\"Force Secret\">Force Secret</a>, Prophet, <a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Force_Disciple)\" title=\"Talent Trees (Force Disciple)\">Talent</a> </td>\n  </tr> \n  <tr> \n   <td>4th </td> \n   <td>+3 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Force_Secret\" class=\"mw-redirect\" title=\"Force Secret\">Force Secret</a>, Prophet </td>\n  </tr> \n  <tr> \n   <td>5th </td> \n   <td>+3 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Force_Secret\" class=\"mw-redirect\" title=\"Force Secret\">Force Secret</a>, Prophet, <a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Force_Disciple)\" title=\"Talent Trees (Force Disciple)\">Talent</a> </td>\n  </tr>\n </tbody>\n</table><h4><span class=\"mw-headline\" id=\"Hit_Points\"><b>Hit Points</b></span></h4><p>At each level, Force Disciples gain 1d8 hit points + their <a href=\"https://swse.fandom.com/wiki/Constitution\" title=\"Constitution\">Constitution</a> modifier. </p><h4><span class=\"mw-headline\" id=\"Force_Points\"><b>Force Points</b></span></h4><p>Force Disciples gain a number of <a href=\"https://swse.fandom.com/wiki/Force_Points\" title=\"Force Points\">Force Points</a> equal to 7 + one-half their Character Level, rounded down, each time they gain a new level in this <a href=\"https://swse.fandom.com/wiki/Prestige_Class\" class=\"mw-redirect\" title=\"Prestige Class\">Prestige Class</a> (due to their strong connection to <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a>, Force Disciples gain more <a href=\"https://swse.fandom.com/wiki/Force_Points\" title=\"Force Points\">Force Points</a> than most other <a href=\"https://swse.fandom.com/wiki/Prestige_Classes\" title=\"Prestige Classes\">Prestige Classes</a>). </p><h4><span class=\"mw-headline\" id=\"Defense_Bonuses\"><b>Defense Bonuses</b></span></h4><p>At 1st level, Force Disciples gain a +6 <a href=\"https://swse.fandom.com/wiki/Class\" class=\"mw-redirect\" title=\"Class\">Class</a> bonus to their <a href=\"https://swse.fandom.com/wiki/Will_Defense\" class=\"mw-redirect\" title=\"Will Defense\">Will Defense</a>, and a +3 <a href=\"https://swse.fandom.com/wiki/Class\" class=\"mw-redirect\" title=\"Class\">Class</a> bonus to both their <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> and their <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>. </p><h4><span class=\"mw-headline\" id=\"Indomitable\"><b>Indomitable</b></span></h4><p>Force Disciples are immune to <a href=\"https://swse.fandom.com/wiki/Mind-Affecting\" class=\"mw-redirect\" title=\"Mind-Affecting\">Mind-Affecting</a> effects. </p><h4><span class=\"mw-headline\" id=\"Prophet\"><b>Prophet</b></span></h4><p>Every time you gain a level in this <a href=\"https://swse.fandom.com/wiki/Prestige_Class\" class=\"mw-redirect\" title=\"Prestige Class\">Prestige Class</a>, you receive two <a href=\"https://swse.fandom.com/wiki/Destiny_Points\" class=\"mw-redirect\" title=\"Destiny Points\">Destiny Points</a> instead of the usual one. In addition, you may sacrifice this extra <a href=\"https://swse.fandom.com/wiki/Destiny_Point\" class=\"mw-redirect\" title=\"Destiny Point\">Destiny Point</a> immediately after gaining a Class Level. If you choose to do so, you instead receive a prophetic vision from <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a>; the content of this vision is determined by the GM. </p><p>The vision is instantaneous, so no time is required to exercise this option. Upon seeing the vision, you have the option to choose a new <a href=\"https://swse.fandom.com/wiki/Destiny\" title=\"Destiny\">Destiny</a>, so long as the new <a href=\"https://swse.fandom.com/wiki/Destiny\" title=\"Destiny\">Destiny</a> is related in some way to the vision. The GM is the final arbiter of what new <a href=\"https://swse.fandom.com/wiki/Destiny\" title=\"Destiny\">Destiny</a> (or <a href=\"https://swse.fandom.com/wiki/Destinies\" class=\"mw-redirect\" title=\"Destinies\">Destinies</a>) are appropriate. </p><h4><span class=\"mw-headline\" id=\"Talents\"><b>Talents</b></span></h4><p>At every odd-numbered level (1st, 3rd, 5th, and so on), a Force Disciple gains an additional <a href=\"https://swse.fandom.com/wiki/Talent\" class=\"mw-redirect\" title=\"Talent\">Talent</a>. A Force Disciple may choose a <a href=\"https://swse.fandom.com/wiki/Talent\" class=\"mw-redirect\" title=\"Talent\">Talent</a> from any of the <a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Force_Disciple)\" title=\"Talent Trees (Force Disciple)\">Talent Trees (Force Disciple)</a> or <a href=\"https://swse.fandom.com/wiki/Force_Talent_Trees\" class=\"mw-redirect\" title=\"Force Talent Trees\">Force Talent Trees</a> (including <a href=\"https://swse.fandom.com/wiki/Force_Tradition\" class=\"mw-redirect\" title=\"Force Tradition\">Force Tradition</a> Talent Trees) they wish, but they must meet the prerequisites (if any) of the chosen <a href=\"https://swse.fandom.com/wiki/Talent\" class=\"mw-redirect\" title=\"Talent\">Talent</a>. No <a href=\"https://swse.fandom.com/wiki/Talent\" class=\"mw-redirect\" title=\"Talent\">Talent</a> can be selected more than once unless expressly indicated. </p><h4><span class=\"mw-headline\" id=\"Force_Secrets\"><b>Force Secrets</b></span></h4><p>You have glimpsed an eternal truth through your contemplation of <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a>. At 2nd level, and every level thereafter, the Force Disciple gains one <a href=\"https://swse.fandom.com/wiki/Force_Secret\" class=\"mw-redirect\" title=\"Force Secret\">Force Secret</a> that, once selected, cannot be changed. </p><hr /><p><i>Homebrew (tovec.wikidot.com/episode-vii):</i> May select talents from any Force Tradition, subject to GM approval. This includes talents such as Many Shades of the Force (normally part of the Aing-Tii Monk talent tree), independent of that tree.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "1d8",
+        "key": "levelUpHitPoints"
+      },
+      {
+        "mode": 2,
+        "value": 7,
+        "key": "classForcePoints"
+      },
+      {
+        "mode": 2,
+        "value": 3,
+        "key": "classFortitudeDefenseBonus"
+      },
+      {
+        "mode": 2,
+        "value": 3,
+        "key": "classReflexDefenseBonus"
+      },
+      {
+        "mode": 2,
+        "value": 6,
+        "key": "classWillDefenseBonus"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHeroic"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isPrestige"
+      },
+      {
+        "mode": 2,
+        "value": false,
+        "key": "isFollowerTemplate"
+      },
+      {
+        "mode": 2,
+        "value": "Force Disciple Talent Trees:1",
+        "key": "provides"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Character Level 12",
+          "requirement": "12",
+          "type": "CHARACTER LEVEL"
+        },
+        {
+          "text": "Trained in Use the Force",
+          "requirement": "Use the Force",
+          "type": "TRAINED SKILL"
+        },
+        {
+          "text": "Force Sensitivity feat",
+          "requirement": "Force Sensitivity",
+          "type": "FEAT"
+        },
+        {
+          "children": [
+            {
+              "text": "Talent from the Dark Side Devotee Talent Tree",
+              "requirement": "Dark Side Devotee Talent Tree",
+              "type": "TALENT"
+            },
+            {
+              "text": "Talent from the Force Adept Talent Tree",
+              "requirement": "Force Adept Talent Tree",
+              "type": "TALENT"
+            },
+            {
+              "text": "Talent from the Force Item Talent Tree",
+              "requirement": "Force Item Talent Tree",
+              "type": "TALENT"
+            }
+          ],
+          "count": 2,
+          "text": "Any two Talents from the Dark Side Devotee Talent Tree, Force Adept Talent Tree, or Force Item Talent Tree",
+          "type": "OR"
+        },
+        {
+          "text": "Farseeing force power",
+          "requirement": "Farseeing",
+          "type": "FORCE POWER"
+        },
+        {
+          "text": "At least one Force Technique",
+          "requirement": "1",
+          "type": "FORCE TECHNIQUE"
+        }
+      ],
+      "text": "Character Level 12, Trained in Use the Force, Force Sensitivity feat, (Any two Talents from the Dark Side Devotee Talent Tree, Force Adept Talent Tree, or Force Item Talent Tree), Farseeing force power, and At least one Force Technique",
+      "type": "AND"
+    },
+    "levels": [],
+    "cost": "0"
+  },
+  "name": "Force Disciple",
+  "flags": {},
+  "type": "class",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1730910735118,
+    "modifiedTime": 1786068679497,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "KIV1VXsQHPR34EeB",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!KIV1VXsQHPR34EeB"
+}

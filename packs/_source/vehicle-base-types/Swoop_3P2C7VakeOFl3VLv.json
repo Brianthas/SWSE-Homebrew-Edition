@@ -1,0 +1,113 @@
+{
+  "effects": [],
+  "system": {
+    "providedItems": [
+      {
+        "name": "Large",
+        "type": "trait"
+      }
+    ],
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Speeder",
+        "key": "vehicleSubType"
+      },
+      {
+        "mode": 2,
+        "value": "18",
+        "key": "baseStrength"
+      },
+      {
+        "mode": 2,
+        "value": "24",
+        "key": "baseDexterity"
+      },
+      {
+        "mode": 2,
+        "value": "10",
+        "key": "baseIntelligence"
+      },
+      {
+        "mode": 2,
+        "value": "12 (600-950 km/h)",
+        "key": "speedCharacterScale"
+      },
+      {
+        "mode": 2,
+        "value": "-",
+        "key": "speedStarshipScale"
+      },
+      {
+        "mode": 2,
+        "value": "30",
+        "key": "hitPointEq"
+      },
+      {
+        "mode": 2,
+        "value": "2",
+        "key": "damageThresholdBonus"
+      },
+      {
+        "mode": 2,
+        "value": "+0",
+        "key": "armorReflexDefenseBonus"
+      },
+      {
+        "mode": 2,
+        "value": "4,000",
+        "key": "cost"
+      },
+      {
+        "mode": 2,
+        "value": "1",
+        "key": "crew"
+      },
+      {
+        "mode": 2,
+        "value": "0",
+        "key": "passengers"
+      },
+      {
+        "mode": 2,
+        "value": "0.005",
+        "key": "cargoCapacity"
+      },
+      {
+        "mode": 2,
+        "value": "1 Day",
+        "key": "consumables"
+      },
+      {
+        "mode": 2,
+        "value": "2",
+        "key": "emplacementPoints"
+      }
+    ],
+    "description": "",
+    "cost": "4,000"
+  },
+  "name": "Swoop",
+  "flags": {},
+  "type": "vehicleBaseType",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.2",
+    "createdTime": 1729096745040,
+    "modifiedTime": 1729096745040,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "3P2C7VakeOFl3VLv",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!3P2C7VakeOFl3VLv"
+}

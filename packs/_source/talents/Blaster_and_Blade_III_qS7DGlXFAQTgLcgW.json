@@ -1,0 +1,91 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "When you are wielding both an <a href=\"https://swse.fandom.com/wiki/Advanced_Melee_Weapon\" class=\"mw-redirect\" title=\"Advanced Melee Weapon\">Advanced Melee Weapon</a> and a <a href=\"https://swse.fandom.com/wiki/Pistol\" class=\"mw-redirect\" title=\"Pistol\">Pistol</a>, you can make a <a href=\"https://swse.fandom.com/wiki/Full_Attack\" title=\"Full Attack\">Full Attack</a> as a <a href=\"https://swse.fandom.com/wiki/Standard_Action\" class=\"mw-redirect\" title=\"Standard Action\">Standard Action</a> instead of a <a href=\"https://swse.fandom.com/wiki/Full-Round_Action\" class=\"mw-redirect\" title=\"Full-Round Action\">Full-Round Action</a>, provided you attack with both weapons.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Blaster and Blade I talent",
+          "requirement": "Blaster and Blade I",
+          "type": "TALENT"
+        },
+        {
+          "text": "Blaster and Blade II talent",
+          "requirement": "Blaster and Blade II",
+          "type": "TALENT"
+        },
+        {
+          "text": "Dual Weapon Mastery I feat",
+          "requirement": "Dual Weapon Mastery I",
+          "type": "FEAT"
+        },
+        {
+          "text": "Weapon Proficiency (Advanced Melee)",
+          "requirement": "Weapon Proficiency (Advanced Melee)",
+          "type": "FEAT"
+        },
+        {
+          "text": "Weapon Proficiency (Pistols)",
+          "requirement": "Weapon Proficiency (Pistols)",
+          "type": "FEAT"
+        }
+      ],
+      "text": "Blaster and Blade I talent, Blaster and Blade II talent, Dual Weapon Mastery I feat, Weapon Proficiency (Advanced Melee), and Weapon Proficiency (Pistols)",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Master Privateer Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Master Privateer Talent Trees",
+      "Agent Talent Trees",
+      "Melee Duelist Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Privateer Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Privateer_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Force Unleashed Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Blaster and Blade III",
+  "flags": {},
+  "type": "talent",
+  "folder": "SpTOwURouYcEQFL2",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385310612,
+    "modifiedTime": 1786039906824,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "qS7DGlXFAQTgLcgW",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!qS7DGlXFAQTgLcgW"
+}

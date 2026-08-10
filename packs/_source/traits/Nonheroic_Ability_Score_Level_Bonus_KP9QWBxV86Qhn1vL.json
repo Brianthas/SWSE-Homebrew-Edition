@@ -1,0 +1,141 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Ability Score Level Bonus",
+        "key": "consumes"
+      }
+    ],
+    "choices": [
+      {
+        "noOptions": "NO_AVAILABLE_OPTIONS",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {},
+            "display": "Strength",
+            "name": "Strength",
+            "attributes": {
+              "0": {
+                "mode": 2,
+                "value": 1,
+                "key": "strengthBonus"
+              }
+            },
+            "value": "Strength"
+          },
+          {
+            "payloads": {},
+            "display": "Dexterity",
+            "name": "Dexterity",
+            "attributes": {
+              "0": {
+                "mode": 2,
+                "value": 1,
+                "key": "dexterityBonus"
+              }
+            },
+            "value": "Dexterity"
+          },
+          {
+            "payloads": {},
+            "display": "Constitution",
+            "name": "Constitution",
+            "attributes": {
+              "0": {
+                "mode": 2,
+                "value": 1,
+                "key": "constitutionBonus"
+              }
+            },
+            "value": "Constitution"
+          },
+          {
+            "payloads": {},
+            "display": "Intelligence",
+            "name": "Intelligence",
+            "attributes": {
+              "0": {
+                "mode": 2,
+                "value": 1,
+                "key": "intelligenceBonus"
+              }
+            },
+            "value": "Intelligence"
+          },
+          {
+            "payloads": {},
+            "display": "Wisdom",
+            "name": "Wisdom",
+            "attributes": {
+              "0": {
+                "mode": 2,
+                "value": 1,
+                "key": "wisdomBonus"
+              }
+            },
+            "value": "Wisdom"
+          },
+          {
+            "payloads": {},
+            "display": "Charisma",
+            "name": "Charisma",
+            "attributes": {
+              "0": {
+                "mode": 2,
+                "value": 1,
+                "key": "charismaBonus"
+              }
+            },
+            "value": "Charisma"
+          }
+        ],
+        "description": "Select an attribute to add a bonus:",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": true
+      }
+    ],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "prerequisite": null,
+    "cost": "0"
+  },
+  "name": "Nonheroic Ability Score Level Bonus",
+  "flags": {},
+  "type": "trait",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1764446477954,
+    "modifiedTime": 1764446477954,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "KP9QWBxV86Qhn1vL",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!KP9QWBxV86Qhn1vL"
+}

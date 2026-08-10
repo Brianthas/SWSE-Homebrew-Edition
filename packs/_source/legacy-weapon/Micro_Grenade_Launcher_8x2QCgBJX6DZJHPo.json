@@ -1,0 +1,118 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {
+          "linkData": [
+            {
+              "type": "EXCLUSIVE",
+              "group": "Fire Mode"
+            }
+          ],
+          "group": "Fire Mode"
+        }
+      },
+      "statuses": [],
+      "disabled": false,
+      "name": "Single-Shot",
+      "_id": "CSuZooSuMe2DPaeL",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": []
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513521,
+        "modifiedTime": 1786051513521,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!8x2QCgBJX6DZJHPo.CSuZooSuMe2DPaeL"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a></i> </p><p>The Locris Syndicates MGL-1 Micro Grenade Launcher is a small, portable weapon that can deliver miniaturized <a href=\"https://swse.fandom.com/wiki/Grenades\" title=\"Grenades\">Grenades</a> quickly and with a minimal amount of training. Unlike other <a href=\"https://swse.fandom.com/wiki/Grenade_Launchers\" class=\"mw-redirect\" title=\"Grenade Launchers\">Grenade Launchers</a>, this weapon is classified as a <a href=\"https://swse.fandom.com/wiki/Rifle\" class=\"mw-redirect\" title=\"Rifle\">Rifle</a> for the manner in which it is used. </p><p>A Micro Grenade Launcher fires Micro Grenades, which act as normal <a href=\"https://swse.fandom.com/wiki/Grenades\" title=\"Grenades\">Grenades</a> but are somewhat smaller. Micro Grenades follow the all the normal rules for each type of <a href=\"https://swse.fandom.com/wiki/Grenade\" class=\"mw-redirect\" title=\"Grenade\">Grenade</a>, but deal -2 dice of damage on a successful hit. </p><p>A Micro Grenade Launcher holds four Micro Grenades and has to be reloaded as a <a href=\"https://swse.fandom.com/wiki/Full-Round_Action\" class=\"mw-redirect\" title=\"Full-Round Action\">Full-Round Action</a>. A Micro Grenade Launcher can be mounted on a <a href=\"https://swse.fandom.com/wiki/Rifle\" class=\"mw-redirect\" title=\"Rifle\">Rifle</a> (this takes 1 minute and requires a DC 15 <a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> check) or used as a separate weapon. </p><p><b>Inaccurate:</b>&nbsp;This weapon cannot fire at targets at Long <a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a>. </p><p><b>Special:</b> Due to the nature of its ammunition, a Micro Grenade Launcher is an <a href=\"https://swse.fandom.com/wiki/Area_Attack\" class=\"mw-redirect\" title=\"Area Attack\">Area Attack</a> Weapon. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Launchable Micro Grenade:1",
+        "key": "ammo"
+      },
+      {
+        "mode": 2,
+        "value": "Launchable Micro Grenade:4",
+        "key": "ammoCapacity"
+      }
+    ],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "2,500",
+    "weight": "3 Kilograms",
+    "availability": "Military",
+    "size": "Medium",
+    "type": "",
+    "subtype": "Rifles",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageType": "Varies (See Above)",
+    "specialQualities": "Special: Due to the nature of its ammunition, a Micro Grenade Launcher is an Area Attack Weapon."
+  },
+  "name": "Micro Grenade Launcher",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/Micro_Grenade_Launcher.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513521,
+    "modifiedTime": 1786051513586,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "8x2QCgBJX6DZJHPo",
+  "_key": "!items!8x2QCgBJX6DZJHPo"
+}

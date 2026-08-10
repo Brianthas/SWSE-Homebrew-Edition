@@ -1,0 +1,89 @@
+{
+  "img": "systems/swse/icon/feat/Autofire_Sweep.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Legacy_Era_Campaign_Guide\" title=\"Star Wars Saga Edition Legacy Era Campaign Guide\">Star Wars Saga Edition Legacy Era Campaign Guide</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>Your can sweep an area with your <a href=\"https://swse.fandom.com/wiki/Autofire\" title=\"Autofire\">Autofire</a> weapon, spraying fire in a 180-degree arc in front of you.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Weapon_Focus\" title=\"Weapon Focus\">Weapon Focus</a> (Chosen Weapon)</p><p><b>Effect:</b> When making an <a href=\"https://swse.fandom.com/wiki/Autofire\" title=\"Autofire\">Autofire</a> attack with a weapon with which you possess the <a href=\"https://swse.fandom.com/wiki/Weapon_Focus\" title=\"Weapon Focus\">Weapon Focus</a> feat, you can attack all targets in a 6-Square <a href=\"https://swse.fandom.com/wiki/Cone\" class=\"mw-redirect\" title=\"Cone\">Cone</a>. The origin square of the cone can be any square in your line of sight and within Point-Blank <a href=\"https://swse.fandom.com/wiki/Range\" class=\"mw-redirect\" title=\"Range\">Range</a>.</p><p><b>Special:</b> This Feat cannot be used with the <a href=\"https://swse.fandom.com/wiki/Autofire_Assault\" title=\"Autofire Assault\">Autofire Assault</a> feat or the <a href=\"https://swse.fandom.com/wiki/Burst_Fire\" title=\"Burst Fire\">Burst Fire</a> feat. It can be used with the <b><a href=\"https://swse.fandom.com/wiki/Improved_Suppression_Fire\" class=\"mw-redirect\" title=\"Improved Suppression Fire\">Improved Suppression Fire</a></b> Talent.</p><h2><span class=\"mw-headline\" id=\"Homebrew_Autofire_Sweep_Data\">Homebrew Autofire Sweep Data</span></h2><table style=\"width:100%; margin-top:2em; border:2px solid #999; font-size:105%; text-align:center; background:#6c3636;\">\n <tbody>\n  <tr>\n   <td><i><b>This <a href=\"https://swse.fandom.com/wiki/Homebrew_Content\" title=\"Homebrew Content\">Homebrew Content</a> has not been reviewed in a meaningful manner. If you wish to review this content yourself, then see <a href=\"https://swse.fandom.com/wiki/Category:Untested\" title=\"Category:Untested\">Untested</a> for more details.</b></i></td>\n  </tr>\n </tbody>\n</table><p><i>Autofire Sweep data created by Wikia user Chellewalker (formally Wikia user Lukewarner).</i></p><p>To prevent this feat from unbalancing a game, have all targets of an attack with the Autofire Sweep feat be treated as though they posses the <b><a href=\"https://swse.fandom.com/wiki/Evasion\" class=\"mw-redirect\" title=\"Evasion\">Evasion</a></b> Talent.</p><p>All targets take half damage from a successful attack, and no damage if the attack misses. If a target of an Autofire Sweep attack already possess the <b><a href=\"https://swse.fandom.com/wiki/Evasion\" class=\"mw-redirect\" title=\"Evasion\">Evasion</a></b> Talent, then they take no damage regardless of the attack roll.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "#payload#",
+        "key": "autofireSweep"
+      }
+    ],
+    "choices": [
+      {
+        "noOptions": "You Must Be Focussed in a weapon group or an Exotic Weapon to select one for Autofire Sweep.",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {
+              "payload": "AVAILABLE_AUTOFIRE_SWEEP"
+            },
+            "display": "AVAILABLE_AUTOFIRE_SWEEP",
+            "name": "AVAILABLE_AUTOFIRE_SWEEP",
+            "attributes": {}
+          }
+        ],
+        "description": "Select a Weapon to use Autofire Sweep with.",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": true
+      }
+    ],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Weapon Focus (#payload#)",
+      "requirement": "Weapon Focus (#payload#)",
+      "type": "FEAT"
+    },
+    "categories": [
+      {
+        "value": "Soldier Bonus Feats"
+      },
+      {
+        "value": "Ranged Feats"
+      },
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Bonus Feats",
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Legacy Era Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Autofire Sweep",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479025928,
+    "modifiedTime": 1761479025928,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "UuaQ2OjFVPtPTejh",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!UuaQ2OjFVPtPTejh"
+}

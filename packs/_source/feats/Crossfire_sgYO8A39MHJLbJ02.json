@@ -1,0 +1,85 @@
+{
+  "img": "systems/swse/icon/feat/Crossfire.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Force_Unleashed_Campaign_Guide\" title=\"Star Wars Saga Edition Force Unleashed Campaign Guide\">Star Wars Saga Edition Force Unleashed Campaign Guide</a></i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You are skilled at aiming your shots so that they have a chance of hitting more than one target.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Point-Blank_Shot\" title=\"Point-Blank Shot\">Point-Blank Shot</a>, <a href=\"https://swse.fandom.com/wiki/Precise_Shot\" title=\"Precise Shot\">Precise Shot</a>, <a href=\"https://swse.fandom.com/wiki/Base_Attack_Bonus\" class=\"mw-redirect\" title=\"Base Attack Bonus\">Base Attack Bonus</a> +6</p><p><b>Effect:</b> If you miss when making a ranged attack against a target that has <a href=\"https://swse.fandom.com/wiki/Soft_Cover\" class=\"mw-redirect\" title=\"Soft Cover\">Soft Cover</a> (that is, <a href=\"https://swse.fandom.com/wiki/Cover\" title=\"Cover\">Cover</a> provided by another character, creature, or Droid), you can immediately make an attack roll (with the same weapon and at the same attack bonus) against the target that is providing the <a href=\"https://swse.fandom.com/wiki/Soft_Cover\" class=\"mw-redirect\" title=\"Soft Cover\">Soft Cover</a>. You can only use this Feat once per round.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Point-Blank Shot feat",
+          "requirement": "Point-Blank Shot",
+          "type": "FEAT"
+        },
+        {
+          "text": "Precise Shot feat",
+          "requirement": "Precise Shot",
+          "type": "FEAT"
+        },
+        {
+          "text": "Base Attack Bonus 6",
+          "requirement": "6",
+          "type": "BASE ATTACK BONUS"
+        }
+      ],
+      "text": "Point-Blank Shot feat, Precise Shot feat, and Base Attack Bonus 6",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Soldier Bonus Feats"
+      },
+      {
+        "value": "Force Prodigy Bonus Feats"
+      },
+      {
+        "value": "Scoundrel Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Bonus Feats",
+      "Force Prodigy Bonus Feats",
+      "Scoundrel Bonus Feats",
+      "General Feats",
+      "Smuggler Bonus Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Force Unleashed Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Crossfire",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1761479026377,
+    "modifiedTime": 1786036141517,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "sgYO8A39MHJLbJ02",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!sgYO8A39MHJLbJ02"
+}

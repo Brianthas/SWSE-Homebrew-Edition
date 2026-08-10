@@ -1,0 +1,52 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Defense Systems",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Colossal (Cruiser) or Larger",
+          "requirement": "Colossal (Cruiser)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal (Cruiser) or Larger",
+          "requirement": "Colossal (Station)",
+          "type": "TRAIT"
+        }
+      ],
+      "count": 1,
+      "text": "Colossal (Cruiser) or Larger",
+      "type": "OR"
+    },
+    "changes": [],
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Starships_of_the_Galaxy\" title=\"Star Wars Saga Edition Starships of the Galaxy\">Star Wars Saga Edition Starships of the Galaxy</a></i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Shield_Rating\" title=\"Shield Rating\">Shield Rating</a></i></p><table class=\"wikitable\">\n <tbody>\n  <tr>\n   <th>STARSHIP SHIELDS</th>\n   <th>EMPLACEMENT POINTS</th>\n   <th>AVAILABILITY</th>\n   <th>SIZE RESTRICTION</th>\n   <th>COST</th>\n  </tr>\n  <tr>\n   <td>SR 10</td>\n   <td>1</td>\n   <td>Common</td>\n   <td>-</td>\n   <td>750 (Base)</td>\n  </tr>\n  <tr>\n   <td>SR 15</td>\n   <td>1</td>\n   <td>Common</td>\n   <td>-</td>\n   <td>1000 (Base)</td>\n  </tr>\n  <tr>\n   <td>SR 20</td>\n   <td>1</td>\n   <td>Common</td>\n   <td>Gargantuan or Larger</td>\n   <td>1250 (Base)</td>\n  </tr>\n  <tr>\n   <td>SR 25</td>\n   <td>1</td>\n   <td>Common</td>\n   <td>Gargantuan or Larger</td>\n   <td>1500 (Base)</td>\n  </tr>\n  <tr>\n   <td>SR 30</td>\n   <td>2</td>\n   <td>Common</td>\n   <td>Gargantuan or Larger</td>\n   <td>2000 (Base)</td>\n  </tr>\n  <tr>\n   <td>SR 35</td>\n   <td>2</td>\n   <td>Common</td>\n   <td>Gargantuan or Larger</td>\n   <td>2500 (Base)</td>\n  </tr>\n  <tr>\n   <td>SR 40</td>\n   <td>2</td>\n   <td>Common</td>\n   <td>Colossal or Larger</td>\n   <td>3000 (Base)</td>\n  </tr>\n  <tr>\n   <td>SR 45</td>\n   <td>2</td>\n   <td>Common</td>\n   <td>Colossal or Larger</td>\n   <td>4000 (Base)</td>\n  </tr>\n  <tr>\n   <td>SR 50</td>\n   <td>3</td>\n   <td>Common</td>\n   <td>Colossal or Larger</td>\n   <td>5000 (Base)</td>\n  </tr>\n  <tr>\n   <td>SR 55</td>\n   <td>3</td>\n   <td>Common</td>\n   <td>Colossal or Larger</td>\n   <td>6000 (Base)</td>\n  </tr>\n  <tr>\n   <td>SR 60</td>\n   <td>3</td>\n   <td>Common</td>\n   <td>Colossal (Frigate) or Larger</td>\n   <td>8000 (Base)</td>\n  </tr>\n  <tr>\n   <td>SR 70</td>\n   <td>3</td>\n   <td>Common</td>\n   <td>Colossal (Frigate) or Larger</td>\n   <td>10000 (Base)</td>\n  </tr>\n  <tr>\n   <td>SR 80</td>\n   <td>4</td>\n   <td>Common</td>\n   <td>Colossal (Frigate) or Larger</td>\n   <td>12500 (Base)</td>\n  </tr>\n  <tr>\n   <td>SR 90</td>\n   <td>4</td>\n   <td>Common</td>\n   <td>Colossal (Frigate) or Larger</td>\n   <td>15000 (Base)</td>\n  </tr>\n  <tr>\n   <td>SR 100</td>\n   <td>5</td>\n   <td>Common</td>\n   <td>Colossal (Frigate) or Larger</td>\n   <td>20000 (Base)</td>\n  </tr>\n  <tr>\n   <td>SR 125</td>\n   <td>6</td>\n   <td>Common</td>\n   <td>Colossal (Frigate) or Larger</td>\n   <td>25000 (Base)</td>\n  </tr>\n  <tr>\n   <td>SR 150</td>\n   <td>7</td>\n   <td>Common</td>\n   <td>Colossal (Cruiser) or Larger</td>\n   <td>30000 (Base)</td>\n  </tr>\n  <tr>\n   <td>SR 175</td>\n   <td>8</td>\n   <td>Common</td>\n   <td>Colossal (Cruiser) or Larger</td>\n   <td>40000 (Base)</td>\n  </tr>\n  <tr>\n   <td>SR 200</td>\n   <td>10</td>\n   <td>Common</td>\n   <td>Colossal (Cruiser) or Larger</td>\n   <td>50000 (Base)</td>\n  </tr>\n </tbody>\n</table><p>Not all Starships have deflector shields, and they are an extremely popular addition for those that lack them. However, the energy and space cost of Starship Shields is extremely high, and it grows with the size of the craft to be protected; thus, only the largest vessels have enough power and internal space necessary to operate the most powerful Starship Shields.</p>",
+    "cost": "30000 (Base)",
+    "emplacementPoints": "7",
+    "availability": "Common",
+    "shieldRating": "150"
+  },
+  "name": "Starship Shields, SR 150",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317041,
+    "modifiedTime": 1759848317041,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "mAobxzJtGy823hWd",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!mAobxzJtGy823hWd"
+}

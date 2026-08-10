@@ -1,0 +1,72 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "10d6",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "The explosive's timer expires; targeting all creatures, Droids, and objects in a 1-Square Burst radius",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "None.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Mechanics (DC 14): The character disarms the Detonite.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Mechanics (DC 16): The character disarms the Explosive Charge.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Area",
+          "Artificial",
+          "Energy"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>An explosive detonates when triggered by a timer.</i> </p><h2><span id=\"Detonite_Statistics_.28CL_2.29\"></span><span class=\"mw-headline\" id=\"Detonite_Statistics_(CL_2)\">Detonite Statistics (CL 2)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Area, Artificial, Energy </p><p><b>Trigger:</b> The explosive's timer expires; targeting all creatures, Droids, and objects in a 1-Square <a href=\"https://swse.fandom.com/wiki/Burst\" class=\"mw-redirect\" title=\"Burst\">Burst</a> radius </p><p><b>Attack:</b> +10 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> None. </p><p><b>Suggested&nbsp;<a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b>&nbsp;The following are suggested&nbsp;<a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>&nbsp;for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> (DC 14):</b> The character disarms the Detonite.</li>\n</ul><h2><span id=\"Explosive_Charge_Statistics_.28CL_5.29\"></span><span class=\"mw-headline\" id=\"Explosive_Charge_Statistics_(CL_5)\">Explosive Charge Statistics (CL 5)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Area, Artificial, Energy </p><p><b>Trigger:</b> The explosive's timer expires; targeting all creatures, Droids, and objects in a 1-Square <a href=\"https://swse.fandom.com/wiki/Burst\" class=\"mw-redirect\" title=\"Burst\">Burst</a> radius </p><p><b>Attack:</b> +10 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> None. </p><p><b>Suggested&nbsp;<a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b>&nbsp;The following are suggested&nbsp;<a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>&nbsp;for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a> (DC 16):</b> The character disarms the Explosive Charge.</li>\n</ul>",
+    "cost": "0"
+  },
+  "name": "Set Explosive",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244742,
+    "modifiedTime": 1749263244742,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "PpmyWLGazInjjiKl",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!PpmyWLGazInjjiKl"
+}

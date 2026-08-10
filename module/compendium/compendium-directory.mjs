@@ -1,28 +1,14 @@
 import {SWSECompendiumBrowser} from "./compendium-browser.mjs";
 
+/**
+ * Not currently registered as the active sidebar compendium tab (core's own CompendiumDirectory is
+ * what actually renders) — this class only exists today to host viewCompendiumItemsByFilter, which
+ * actor-sheet.mjs calls directly as a static utility. If it's ever registered as the real sidebar
+ * tab, note that ApplicationV2 makes ContextMenu.create() throw immediately — use
+ * `new foundry.applications.ux.ContextMenu(...)` instead, matching the pattern in actor-sheet.mjs.
+ */
 export class SWSECompendiumDirectory extends (foundry.applications.sidebar.tabs.CompendiumDirectory ?? CompendiumDirectory)
 {
-    // static get defaultOptions() {
-    //     return mergeObject(super.defaultOptions, {
-    //         template: "systems/swse/templates/compendium/compendium.hbs",
-    //     });
-    // }
-    async render(force=false, options={}) {
-        //game.packs.initializeTree();
-        return super.render(force, options);
-    }
-
-    activateListeners(html) {
-        super.activateListeners(html);
-
-        //html.find('[data-action="compendium"]').click(SWSECompendiumDirectory.viewCompendiumItemsByFilter.bind(this));
-        //html.find('[data-action="compendium"]').click(SWSECompendiumDirectory.viewCompendiumItemsByFilter.bind(this));
-    }
-    //
-    _contextMenu(html) {
-        ContextMenu.create(this, html, ".compendium-filter", this._getEntryContextOptions());
-    }
-    //
     static viewCompendiumItemsByFilter(event){
         let element = $(event.currentTarget);
         let filterString = element.data("filter")

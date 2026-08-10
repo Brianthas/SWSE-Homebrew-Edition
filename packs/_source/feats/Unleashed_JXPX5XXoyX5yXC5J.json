@@ -1,0 +1,67 @@
+{
+  "img": "systems/swse/icon/feat/Unleashed.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Force_Unleashed_Campaign_Guide\" title=\"Star Wars Saga Edition Force Unleashed Campaign Guide\">Star Wars Saga Edition Force Unleashed Campaign Guide</a></i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You gain access to <a href=\"https://swse.fandom.com/wiki/Unleashed_Abilities\" title=\"Unleashed Abilities\">Unleashed Abilities</a>. If you have the <a href=\"https://swse.fandom.com/wiki/Force_Sensitivity\" title=\"Force Sensitivity\">Force Sensitivity</a> Feat, you also gain access to <a href=\"https://swse.fandom.com/wiki/Force_Unleashed_Abilities\" class=\"mw-redirect\" title=\"Force Unleashed Abilities\">Force Unleashed Abilities</a>.</p><p><b>Prerequisites:</b> Have a&nbsp;<a href=\"https://swse.fandom.com/wiki/Destiny\" title=\"Destiny\">Destiny</a>, Receive the Gamemaster's Approval</p><p><b>Effect:</b> You can activate <a href=\"https://swse.fandom.com/wiki/Unleashed_Abilities\" title=\"Unleashed Abilities\">Unleashed Abilities</a> by spending a <a href=\"https://swse.fandom.com/wiki/Destiny_Point\" class=\"mw-redirect\" title=\"Destiny Point\">Destiny Point</a>. You must also have the <a href=\"https://swse.fandom.com/wiki/Force_Sensitivity\" title=\"Force Sensitivity\">Force Sensitivity</a> Feat in order to activate <a href=\"https://swse.fandom.com/wiki/Force_Unleashed_Abilities\" class=\"mw-redirect\" title=\"Force Unleashed Abilities\">Force Unleashed Abilities</a> for <a href=\"https://swse.fandom.com/wiki/Force_Powers\" title=\"Force Powers\">Force Powers</a> and <a href=\"https://swse.fandom.com/wiki/Force_Talents\" title=\"Force Talents\">Force Talents</a>.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Have a Destiny",
+          "requirement": "Have a Destiny",
+          "type": "SPECIAL"
+        },
+        {
+          "text": "Receive the Gamemaster's Approval",
+          "requirement": "Receive the Gamemaster's Approval",
+          "type": "SPECIAL"
+        }
+      ],
+      "text": "Have a Destiny, and Receive the Gamemaster's Approval",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Force Unleashed Campaign Guide",
+    "cost": "0"
+  },
+  "name": "Unleashed",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479029370,
+    "modifiedTime": 1761479029370,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "JXPX5XXoyX5yXC5J",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!JXPX5XXoyX5yXC5J"
+}

@@ -1,0 +1,61 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Starship Accessories",
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal (Frigate)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal (Cruiser)",
+          "type": "TRAIT"
+        },
+        {
+          "text": "Colossal or Larger",
+          "requirement": "Colossal (Station)",
+          "type": "TRAIT"
+        }
+      ],
+      "count": 1,
+      "text": "Colossal or Larger",
+      "type": "OR"
+    },
+    "changes": [],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Scum_and_Villainy\" title=\"Star Wars Saga Edition Scum and Villainy\">Star Wars Saga Edition Scum and Villainy</a> </i></p><p><b>Emplacement Points:&nbsp;</b> 1</p><p><b>Size Restriction:&nbsp;</b> Gargantuan or Larger</p><p>A Plasma Torch is a modification of a <a href=\"https://swse.fandom.com/wiki/Tractor_Clamp\" title=\"Tractor Clamp\">Tractor Clamp</a>, used to cut through the hull of another ship. This is possible only when a ship is secured by the <a href=\"https://swse.fandom.com/wiki/Tractor_Clamp\" title=\"Tractor Clamp\">Tractor Clamp</a>. The Plasma Torch cuts a neat hole through the secured ship's hull, allowing rescue crews (or, more likely, pirates) to board the secured ship at a point other than an airlock. The Plasma Torch cuts a hole between major structural elements of the secured ship, so the damage done its operation is minimal. For every point of DR of the secured ship, it takes the Plasma Torch 1 round to cut through the hull, and the secured ship takes 1d6 damage (this damage bypasses the ship's DR and SR).</p><p>The hole created by a Plasma Torch is 2 squares wide, big enough for troops to board in a column two wide. Since it can take a Plasma Torch a minute or more to cut into a secure ship, defenders might have time to attempt to set up defenses and makeshift fortifications to repel boarders. It's not unusual for a space battle to end with a defeated ship secured by a <a href=\"https://swse.fandom.com/wiki/Tractor_Clamp\" title=\"Tractor Clamp\">Tractor Clamp</a>, only for a second battle to begin within the secured ship.</p>",
+    "cost": "6000",
+    "emplacementPoints": "1",
+    "availability": "Military"
+  },
+  "name": "Plasma Torch",
+  "flags": {},
+  "type": "vehicleSystem",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.1",
+    "createdTime": 1759848317504,
+    "modifiedTime": 1759848317504,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "6RlLKJEiIQv6MEa2",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!6RlLKJEiIQv6MEa2"
+}

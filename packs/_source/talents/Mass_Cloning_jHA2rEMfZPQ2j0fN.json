@@ -1,0 +1,93 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "You specialize in creating large groups of clones from a single source at one time. The table below determines the increase to the DC modifier. Note, you must have a number of <a href=\"https://swse.fandom.com/wiki/Cloning_Tanks\" class=\"mw-redirect\" title=\"Cloning Tanks\">Cloning Tanks</a> equal to the number of clones you wish to simultaneously create prior to attempting a <b>Mass Cloning</b>.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      },
+      {
+        "mode": 2,
+        "value": true,
+        "key": "isHomebrew"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Clone Scientist talent",
+          "requirement": "Clone Scientist",
+          "type": "TALENT"
+        },
+        {
+          "text": "Trained in Knowledge (Life Sciences)",
+          "requirement": "Knowledge (Life Sciences)",
+          "type": "TRAINED SKILL"
+        }
+      ],
+      "text": "Clone Scientist talent, and Trained in Knowledge (Life Sciences)",
+      "type": "AND"
+    },
+    "categories": [
+      {
+        "value": "Untested"
+      },
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Homebrew Content"
+      },
+      {
+        "value": "Medic Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Untested",
+      "Homebrew Content",
+      "Medic Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Cloner Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Cloner_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Clone Wars Saga Edition Fan Sourcebook - Grand Army of the Republic (Part 1)",
+    "cost": "0"
+  },
+  "name": "Mass Cloning",
+  "flags": {},
+  "type": "talent",
+  "folder": "xyMbyI0VQk3y1elY",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385303443,
+    "modifiedTime": 1734385303443,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "jHA2rEMfZPQ2j0fN",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!jHA2rEMfZPQ2j0fN"
+}

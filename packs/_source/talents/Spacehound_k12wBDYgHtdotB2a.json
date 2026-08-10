@@ -1,0 +1,225 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [
+    {
+      "flags": {
+        "swse": {}
+      },
+      "statuses": [
+        "gravityLow"
+      ],
+      "disabled": true,
+      "name": "Low Gravity",
+      "_id": "infPBUpoJwVCJYsX",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Low",
+            "key": "gravity",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": true,
+            "key": "transfer",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": "1.25:min 1",
+            "key": "speedMultiplier",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 2,
+            "key": "carryCapacityMultiplier",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": "str:2",
+            "key": "skillBonus",
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.6",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "showIcon": 2,
+      "start": null,
+      "folder": null,
+      "_key": "!items.effects!k12wBDYgHtdotB2a.infPBUpoJwVCJYsX"
+    },
+    {
+      "flags": {
+        "swse": {}
+      },
+      "statuses": [
+        "gravityZero"
+      ],
+      "disabled": true,
+      "name": "Zero-Gravity",
+      "_id": "q5eGdzKFfDHwl620",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "Zero",
+            "key": "gravity",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": true,
+            "key": "transfer",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": "Base Speed -> Flying Speed",
+            "key": "speed",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": 10,
+            "key": "carryCapacityMultiplier",
+            "priority": null,
+            "type": "add"
+          },
+          {
+            "value": "all:-5",
+            "key": "skillBonus",
+            "priority": null,
+            "type": "add"
+          }
+        ]
+      },
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "12.3.6",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "showIcon": 2,
+      "start": null,
+      "folder": null,
+      "_key": "!items.effects!k12wBDYgHtdotB2a.q5eGdzKFfDHwl620"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "You take no penalty on attack rolls in <a href=\"https://swse.fandom.com/wiki/Low_Gravity\" class=\"mw-redirect\" title=\"Low Gravity\">Low Gravity</a> or <a href=\"https://swse.fandom.com/wiki/Zero_Gravity\" class=\"mw-redirect\" title=\"Zero Gravity\">Zero Gravity</a> environments, and you ignore the debilitating effects of <a href=\"https://swse.fandom.com/wiki/Space_Sickness\" title=\"Space Sickness\">Space Sickness</a>. In addition, you are considered proficient with any Starship Weapon.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "true",
+        "key": "spacehound"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": null,
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Scoundrel Talent Trees"
+      },
+      {
+        "value": "Ace Pilot Talent Trees"
+      },
+      {
+        "value": "Core Rulebook"
+      },
+      {
+        "value": "Master Privateer Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Scoundrel Talent Trees",
+      "Ace Pilot Talent Trees",
+      "Core Rulebook",
+      "Master Privateer Talent Trees",
+      "Smuggler Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "Spacer Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/Spacer_Talent_Tree",
+    "bonusTalentTree": "",
+    "source": "Star Wars Saga Edition Core Rulebook",
+    "cost": "0"
+  },
+  "name": "Spacehound",
+  "flags": {},
+  "type": "talent",
+  "folder": "RBKzDigd5jbRGF0g",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1734385312234,
+    "modifiedTime": 1786036141320,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "_id": "k12wBDYgHtdotB2a",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!k12wBDYgHtdotB2a"
+}

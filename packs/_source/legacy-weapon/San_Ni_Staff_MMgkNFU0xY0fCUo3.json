@@ -1,0 +1,114 @@
+{
+  "effects": [
+    {
+      "flags": {
+        "swse": {}
+      },
+      "statuses": [],
+      "disabled": true,
+      "name": "Stun",
+      "_id": "2syLeXoNdAs2l33p",
+      "img": null,
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "value": "2d6/2d6",
+            "key": "damage",
+            "priority": null,
+            "type": "override",
+            "phase": "initial"
+          },
+          {
+            "value": "Stun",
+            "key": "damageType",
+            "priority": null,
+            "type": "override",
+            "phase": "initial"
+          }
+        ]
+      },
+      "duration": {
+        "value": 0,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "13.2.4",
+        "createdTime": 1786051513526,
+        "modifiedTime": 1786051513526,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "exportSource": null
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_key": "!items.effects!MMgkNFU0xY0fCUo3.2syLeXoNdAs2l33p"
+    }
+  ],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Jedi_Academy_Training_Manual\" title=\"Star Wars Saga Edition Jedi Academy Training Manual\">Star Wars Saga Edition Jedi Academy Training Manual</a></i> </p><p>The San-Ni Staff is favored by martial artists throughout the galaxy, including Jedi Weapon Masters looking for more variety than the <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> offers. Consisting of three metal rods held together by power couplings, the San-Ni Staff is a flexible Weapon that can be whipped around the wielder's body in combat, both for leverage and to confuse an opponent. Moreover, a San-Ni Staff's power couplings are made of pure energy that are impervious to <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> damage (much as <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> blades are). </p><p>A San-Ni Staff is a Double Weapon. You can attack with both ends of the weapon as a&nbsp;<a href=\"https://swse.fandom.com/wiki/Full-Round_Action\" class=\"mw-redirect\" title=\"Full-Round Action\">Full-Round Action</a>, but both attack rolls take a -10 penalty (although certain&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a>&nbsp;and&nbsp;<a href=\"https://swse.fandom.com/wiki/Talents\" title=\"Talents\">Talents</a>&nbsp;can reduce these penalties). </p><p>Additionally, the San-Ni Staff can be used in conjunction with the <b><a href=\"https://swse.fandom.com/wiki/Block\" class=\"mw-redirect\" title=\"Block\">Block</a></b> Talent as though it were a <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a>. Also, the wielder of a San-Ni Staff can designate (at the time the attack is made) that he or she is striking the opponent with the power couplings, dealing <a href=\"https://swse.fandom.com/wiki/Stun\" class=\"mw-redirect\" title=\"Stun\">Stun</a> damage instead of normal, lethal damage. </p><p>A San-Ni Staff requires two&nbsp;<a href=\"https://swse.fandom.com/wiki/Energy_Cells\" class=\"mw-redirect\" title=\"Energy Cells\">Energy Cells</a>&nbsp;to operate. </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "4,500",
+    "weight": "2.2 Kilograms",
+    "availability": "Rare",
+    "size": "Large",
+    "type": "",
+    "subtype": "Advanced Melee",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": [],
+    "weapon": {},
+    "equipped": "",
+    "stripping": {},
+    "damageDie": "2d6/2d6",
+    "damageType": "Energy, Bludgeoning"
+  },
+  "name": "San-Ni Staff",
+  "flags": {},
+  "type": "weapon",
+  "img": "systems/swse/icon/weapon/San_Ni_Staff.webp",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "13.2.4",
+    "createdTime": 1786051513526,
+    "modifiedTime": 1786051513587,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "_id": "MMgkNFU0xY0fCUo3",
+  "_key": "!items!MMgkNFU0xY0fCUo3"
+}

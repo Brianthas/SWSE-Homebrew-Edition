@@ -1,0 +1,67 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "If the Beast hits with both of its Claw Natural Weapons in the same turn, it rends the enemy for an additional 2d6 points of damage.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2d6",
+        "key": "rend"
+      },
+      {
+        "mode": 2,
+        "value": "If the Beast hits with both of its Claw Natural Weapons in the same turn, it rends the enemy for an additional 2d6 points of damage.",
+        "key": "special"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "prerequisite": {
+      "children": [
+        {
+          "text": "Claw Attack",
+          "requirement": "Claw",
+          "type": "BEAST_ATTACK"
+        }
+      ],
+      "count": 2,
+      "text": "At least 2 Claw Attacks",
+      "type": "OR"
+    },
+    "cost": "0"
+  },
+  "name": "Rend",
+  "flags": {},
+  "type": "beastQuality",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749299111416,
+    "modifiedTime": 1749299111416,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "lWpJbSif0LRYDpMC",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!lWpJbSif0LRYDpMC"
+}

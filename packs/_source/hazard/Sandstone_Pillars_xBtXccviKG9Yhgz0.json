@@ -1,0 +1,71 @@
+{
+  "effects": [],
+  "system": {
+    "subtype": "Hazard",
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2d12",
+        "key": "damage"
+      },
+      {
+        "mode": 2,
+        "value": "Hazards",
+        "key": "seeAlso"
+      },
+      {
+        "mode": 2,
+        "value": "A being begins its turn on a Sandstone Pillar.",
+        "key": "trigger"
+      },
+      {
+        "mode": 2,
+        "value": "Each time that the target reaches a new Sandstone Pillar.",
+        "key": "recurrence"
+      },
+      {
+        "mode": 2,
+        "value": "Acrobatics (DC 27): The character works to keep their balance while moving from pillar to pillar, gaining a +2 circumstance bonus to Reflex Defense against the Hazard. Jump (DC 27): As the character leaps to the next pillar, they aim for the center to avoid destabilizing it. By doing so, the character gains a +2 circumstance bonus to Reflex Defense against the Hazard. Perception (DC 22): The character spots a possible weakness in the pillar ahead and avoids it, gaining a +5 circumstance bonus to Reflex Defense against the Hazard.",
+        "key": "skillCheck"
+      },
+      {
+        "mode": 2,
+        "value": "Special: A line of 1d4+2 Sandstone Pillars creates a path to the other side of the ravine.",
+        "key": "special"
+      },
+      {
+        "mode": 2,
+        "value": [
+          "Natural"
+        ],
+        "key": "keywords"
+      }
+    ],
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i> </p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Hazards\" title=\"Hazards\">Hazards</a></i> </p><p><i>Naturally carved stone pillars are the only way to cross the spon of the canyon. They don't look very stable.</i> </p><p>To reach the other side of a canyon, the heroes must move across a series of tall Sandstone Pillars. The top surfaces of the pillars are mostly flat, but wind erosion has thinned the stone to the point that the towers are unstable. The heroes discover this when a pillar shifts slightly when a hero lands on it, which might cause the hero to lose his or her balance and fall to the canyon floor below. If enemies are in pursuit, the heroes might leap hastily from pillar to pillar in an attempt to cross the canyon quickly, putting their lives in even more peril. </p><h2><span id=\"Sandstone_Pillars_Statistics_.28CL_6.29\"></span><span class=\"mw-headline\" id=\"Sandstone_Pillars_Statistics_(CL_6)\">Sandstone Pillars Statistics (CL 6)</span></h2><p><b><a href=\"https://swse.fandom.com/wiki/Keywords\" class=\"mw-redirect\" title=\"Keywords\">Keywords</a>:</b> Natural </p><p><b>Trigger:</b> A being begins its turn on a Sandstone Pillar. </p><p><b>Attack:</b> +8 vs <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> </p><p><b>Recurrence:</b> Each time that the target reaches a new Sandstone Pillar. </p><p><b>Suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>:</b> The following are suggested <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> for this Hazard: </p><ul>\n <li><b><a href=\"https://swse.fandom.com/wiki/Acrobatics\" title=\"Acrobatics\">Acrobatics</a> (DC 27):</b> The character works to keep their balance while moving from pillar to pillar, gaining a +2 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against the Hazard.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Jump\" title=\"Jump\">Jump</a> (DC 27):</b> As the character leaps to the next pillar, they aim for the center to avoid destabilizing it. By doing so, the character gains a +2 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against the Hazard.</li> \n <li><b><a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a> (DC 22):</b> The character spots a possible weakness in the pillar ahead and avoids it, gaining a +5 circumstance bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> against the Hazard.</li>\n</ul><p><b>Special:</b> A line of 1d4+2 Sandstone Pillars creates a path to the other side of the ravine. </p>",
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Sandstone Pillars",
+  "flags": {},
+  "type": "hazard",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1749263244735,
+    "modifiedTime": 1749263244735,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "xBtXccviKG9Yhgz0",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!xBtXccviKG9Yhgz0"
+}

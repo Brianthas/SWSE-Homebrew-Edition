@@ -1,0 +1,60 @@
+{
+  "img": "systems/swse/icon/feat/Heavy_Hitter.webp",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book:&nbsp;<a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Unknown_Regions\" title=\"Star Wars Saga Edition Unknown Regions\">Star Wars Saga Edition Unknown Regions</a></i></p><p><i>See also:&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You know how to pound targets when firing heavy-weapons emplacements and vehicle weaponry.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Weapon_Focus_(Heavy_Weapons)\" class=\"mw-redirect\" title=\"Weapon Focus (Heavy Weapons)\">Weapon Focus (Heavy Weapons)</a></p><p><b>Effect:</b> When making an attack roll using a <a href=\"https://swse.fandom.com/wiki/Weapon_Emplacement\" class=\"mw-redirect\" title=\"Weapon Emplacement\">Weapon Emplacement</a> or a <a href=\"https://swse.fandom.com/wiki/Weapon_System\" class=\"mw-redirect\" title=\"Weapon System\">Weapon System</a>, you add an additional 1 point of damage for every 5 points you roll above the target's <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>. If you exceed the target's <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a>, then on its next turn the target cannot attack and its speed is reduced by 2 squares (1 square <a href=\"https://swse.fandom.com/wiki/Starship_Scale\" class=\"mw-redirect\" title=\"Starship Scale\">Starship Scale</a>).</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Weapon Focus (Heavy Weapons)",
+      "requirement": "Weapon Focus (Heavy Weapons)",
+      "type": "FEAT"
+    },
+    "categories": [
+      {
+        "value": "Soldier Bonus Feats"
+      },
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Soldier Bonus Feats",
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "source": "Star Wars Saga Edition Unknown Regions",
+    "cost": "0"
+  },
+  "name": "Heavy Hitter",
+  "flags": {},
+  "type": "feat",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.5.3",
+    "createdTime": 1761479027288,
+    "modifiedTime": 1761479027288,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "LS4jdwG402Mz5J9e",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!LS4jdwG402Mz5J9e"
+}

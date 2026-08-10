@@ -1,0 +1,141 @@
+{
+  "img": "systems/swse/icon/species/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Galaxy_of_Intrigue\" title=\"Star Wars Saga Edition Galaxy of Intrigue\">Star Wars Saga Edition Galaxy of Intrigue</a></i> </p><p>Nyriaanans are a group of <a href=\"https://swse.fandom.com/wiki/Near-Humans\" title=\"Near-Humans\">Near-Humans</a> native to the rich mineral world of <a href=\"https://swse.fandom.com/wiki/Nyriaan\" class=\"mw-redirect\" title=\"Nyriaan\">Nyriaan</a>. Nyriaanans divide themselves along family lines into hundreds of different clans. Some are nomadic, wandering the waterlogged plains of their homeworld, while others inhabit the same groves of <a href=\"https://swse.fandom.com/wiki/Meadlin%27s_Trees\" title=\"Meadlin's Trees\">Meadlin's Trees</a> that their ancestors settled centuries, or even millennia, before. They are a peaceful people, but the natives are easily angered by offworlders that care more for turning a profit than for honor or integrity. </p><p>Although they are not technological in nature, Nyriaan's natives foster the technology of their ancestors as well as adopt newer technology as they acquire it. In fact, Republic anthropologists that have come to Nyriaan to study the native clans are surprised by how the Nyriaanans manage to maintain and continue to utilize Old Republic technology. For natives, everything has a use, and keeping the artifacts of yesteryear in good working condition honors one's ancestors. </p><h3><span class=\"mw-headline\" id=\"Nyriaanan_Characteristics\">Nyriaanan Characteristics</span></h3><p><b>Personality:</b> Nyriaanans are distrustful of outsiders, and they see settlers, colonists, and prospectors as competitors for Nyriaan's resources. They despise corporate interests above all, as they fear that their planet might be destroyed in the pursuit of an easier way to procure madilon. </p><p><b>Physical Description:</b> Nyriaanans appear at first glance to be of typical <a href=\"https://swse.fandom.com/wiki/Human\" title=\"Human\">Human</a> stock, though their skin is pale and their eyes are well suited to Nyriaan's dim light (excluding <span class=\"new\" title=\"The Malvina Clan (page does not exist)\" data-uncrawlable-url=\"L3dpa2kvVGhlX01hbHZpbmFfQ2xhbj9hY3Rpb249ZWRpdCZyZWRsaW5rPTE=\">The Malvina Clan</span>, whose people are a darker tone). Nyriaanans are stocky, although a good deal of variation exists in body types depending on an individual's clan or tribe. </p><p><b><a href=\"https://swse.fandom.com/wiki/Age_Groups\" class=\"mw-redirect\" title=\"Age Groups\">Age Groups</a>:</b>&nbsp;Nyriaanans age at the following stages: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CHILD </th> \n   <th>YOUNG ADULT </th> \n   <th>ADULT </th> \n   <th>MIDDLE AGE </th> \n   <th>OLD </th> \n   <th>VENERABLE </th>\n  </tr> \n  <tr> \n   <td>1-9 Years </td> \n   <td>10-14 Years </td> \n   <td>15-40 Years </td> \n   <td>41-59 Years </td> \n   <td>60-79 Years </td> \n   <td>80+ Years </td>\n  </tr>\n </tbody>\n</table><p><b>Homeworld:</b> <a href=\"https://swse.fandom.com/wiki/Nyriaan\" class=\"mw-redirect\" title=\"Nyriaan\">Nyriaan</a>, a lush world that the Nyriaanans cultivate their ancient tech and preserve their traditions. </p><p><b>Languages:</b> Nyriaanans communicate in their tongue of Nyriaanan. Few bother to learn the tongues of outsiders, excluding the rare few that chose to interact with Nyriaan's visitors. </p><p><b>Example Names:</b> Bethanie Melan, Finvarra, Malvina, Taneith. </p><p><b>Adventurers:</b> Nyriaanans rarely leave their clans and homeworld, having little desire to leave their families. While outside threats may force a Nyriaanan into action, most are content to work as <a href=\"https://swse.fandom.com/wiki/Soldiers\" class=\"mw-redirect\" title=\"Soldiers\">Soldiers</a> and <a href=\"https://swse.fandom.com/wiki/Scouts\" class=\"mw-redirect\" title=\"Scouts\">Scouts</a> for their tribes. </p><h3><span class=\"mw-headline\" id=\"Nyriaanan_Species_Traits\">Nyriaanan Species Traits</span></h3><p>Nyriaanans have the following Species Traits: </p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [
+      {
+        "name": "Bonus Class Skill (Survival)",
+        "type": "trait"
+      },
+      {
+        "name": "Medium",
+        "type": "trait"
+      },
+      {
+        "name": "Low-Light Vision",
+        "type": "trait"
+      },
+      {
+        "name": "Child",
+        "prerequisite": {
+          "high": "9",
+          "low": "1",
+          "text": "1-9",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Adult",
+        "prerequisite": {
+          "high": "40",
+          "low": "15",
+          "text": "15-40",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Old",
+        "prerequisite": {
+          "high": "79",
+          "low": "60",
+          "text": "60-79",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Young adult",
+        "prerequisite": {
+          "high": "14",
+          "low": "10",
+          "text": "10-14",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Middle age",
+        "prerequisite": {
+          "high": "59",
+          "low": "41",
+          "text": "41-59",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Venerable",
+        "prerequisite": {
+          "high": "",
+          "low": "80",
+          "text": "80+",
+          "type": "AGE"
+        },
+        "type": "trait"
+      },
+      {
+        "name": "Bonus Feat",
+        "type": "trait"
+      }
+    ],
+    "payload": "",
+    "buildInstructions": [],
+    "categories": [
+      {
+        "value": "Bonus Class Skill"
+      },
+      {
+        "value": "Bonus Class Skill (Survival)"
+      },
+      {
+        "value": "Nyriaanans"
+      },
+      {
+        "value": "Bonus Feat"
+      },
+      {
+        "value": "Medium"
+      },
+      {
+        "value": "Low-Light Vision"
+      },
+      {
+        "value": "Species"
+      }
+    ],
+    "traits": [],
+    "cost": "0"
+  },
+  "name": "Nyriaanan",
+  "flags": {},
+  "type": "species",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.9",
+    "createdTime": 1736535566894,
+    "modifiedTime": 1736535566894,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "6v6LeRnHFyC5a2r0",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!6v6LeRnHFyC5a2r0"
+}

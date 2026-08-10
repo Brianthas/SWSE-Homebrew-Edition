@@ -6,8 +6,8 @@ import {
     SCALABLE_CHANGE_KEYS,
     SCALABLE_CHANGES,
     sizeArray,
-    UNINHERITABLE_AMMO_CHANGES,
-    WEAPON_INCLUSION_LIST
+    WEAPON_INCLUSION_LIST,
+    characterActorTypes
 } from "./common/constants.mjs";
 import SWSEActor from "./actor/actor.mjs";
 import {SWSEActiveEffect} from "./active-effect/active-effect.mjs";
@@ -157,6 +157,11 @@ function getLocalChangesOnDocument(document, flags) {
         values = Object.values(values)
     }
 
+    // Defensive copy — `document.changes` (SWSEItem) returns system.changes by reference, not a
+    // clone, so pushing defaultChanges onto `values` in place would permanently mutate the
+    // document's own stored array on every read (compounding on every re-render).
+    values = [...values];
+
     values.push(...(document.defaultChanges || []))
 
     values = values.filter(v => !!v);
@@ -219,28 +224,6 @@ function getClassItemFromClassLevel(effect) {
 }
 
 
-function getChangesFromLoadedAmmunition(document) {
-    if (!document.ammunition?.hasAmmunition) {
-        return [];
-    }
-
-    let changes = [];
-    Object.values(document.ammunition.ammunition)
-        .forEach(ammo => {
-            if (!(typeof ammo === 'object' && Array.isArray(ammo.queue) && ammo.queue[0])) {
-                return;
-            }
-            let item = document.parent.items.get(ammo.queue[0])
-            if (item) {
-                changes.push(...item.changes
-                    .filter(change => !UNINHERITABLE_AMMO_CHANGES.includes(change.key)))
-            }
-        })
-
-    return changes;
-}
-
-
 function getChangesFromSize(entity, changes) {
     const options = {changes: changes};
     let size = getResolvedSize(entity, options)
@@ -272,7 +255,6 @@ function getChangesFromDocument( data) {
 
         changes.push(...getChangesFromEmbeddedItems(document, data.itemFilter, data.embeddedItemOverride));
         changes.push(...getChangesFromActiveEffects(document, data.recursive));
-        changes.push(...getChangesFromLoadedAmmunition(document))
 
         return changes;
     };
@@ -401,7 +383,7 @@ export function getInheritableAttribute(data = {}) {
     }
 
 
-    if (data.entity && (data.entity.type === "character" || data.entity.type === "npc")) {
+    if (data.entity && characterActorTypes.includes(data.entity.type)) {
         values = values
             .filter(value => !!value && !meetsPrerequisites(data.entity, value.parentPrerequisite, {isLoad: true}).doesFail)
     }
