@@ -1674,7 +1674,12 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
      */
     _onDefensePointChange(event) {
         const input = event.currentTarget;
-        const match = /defensePoints\.(\w+)\.(level1|level10)/.exec(input.name || "");
+        // "level10" before "level1" in the alternation — regex tries alternatives left-to-right
+        // and stops at the first match, not the longest, so against a "...level10" field name
+        // "level1" (a literal prefix of "level10") would otherwise match first and silently
+        // truncate the captured pool, making every level10 field get checked against the level1
+        // pool's spend instead of its own.
+        const match = /defensePoints\.(\w+)\.(level10|level1)/.exec(input.name || "");
         if (!match) return;
 
         const [, defense, pool] = match;
