@@ -129,66 +129,6 @@
       {
         "name": "Determination",
         "type": "trait"
-      },
-      {
-        "name": "Child",
-        "prerequisite": {
-          "high": "8",
-          "low": "1",
-          "text": "1-8",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Middle age",
-        "prerequisite": {
-          "high": "45",
-          "low": "31",
-          "text": "31-45",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Young adult",
-        "prerequisite": {
-          "high": "13",
-          "low": "9",
-          "text": "9-13",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Old",
-        "prerequisite": {
-          "high": "55",
-          "low": "46",
-          "text": "46-55",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Venerable",
-        "prerequisite": {
-          "high": "",
-          "low": "56",
-          "text": "56+",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Adult",
-        "prerequisite": {
-          "high": "30",
-          "low": "14",
-          "text": "14-30",
-          "type": "AGE"
-        },
-        "type": "trait"
       }
     ],
     "payload": "",

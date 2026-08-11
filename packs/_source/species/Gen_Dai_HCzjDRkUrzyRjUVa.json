@@ -38,66 +38,6 @@
       {
         "name": "Mental Instability",
         "type": "trait"
-      },
-      {
-        "name": "Middle age",
-        "prerequisite": {
-          "high": "1,999",
-          "low": "1,000",
-          "text": "1,000-1,999",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Venerable",
-        "prerequisite": {
-          "high": "",
-          "low": "4,000",
-          "text": "4,000+",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Old",
-        "prerequisite": {
-          "high": "3,999",
-          "low": "2,000",
-          "text": "2,000-3,999",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Young adult",
-        "prerequisite": {
-          "high": "200",
-          "low": "10",
-          "text": "10-200",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Child",
-        "prerequisite": {
-          "high": "9",
-          "low": "1",
-          "text": "1-9",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Adult",
-        "prerequisite": {
-          "high": "999",
-          "low": "201",
-          "text": "201-999",
-          "type": "AGE"
-        },
-        "type": "trait"
       }
     ],
     "payload": "",

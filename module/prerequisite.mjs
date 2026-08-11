@@ -45,14 +45,6 @@ function meetsPrerequisite(prereq, target, options) {
         switch (prereq.type.toUpperCase()) {
             case undefined:
                 break;
-            case 'AGE':
-                let age = toNumber(target.age) || toNumber(target.system.age);
-                if (!age || toNumber(prereq.low) > age || (prereq.high && toNumber(prereq.high) < age)) {
-                    failureList.push({fail: true, message: `${prereq.type}: ${prereq.text}`});
-                    break;
-                }
-                successList.push({prereq, count: 1});
-                break;
             case 'SIZE':
                 let resolvedSize = getResolvedSize(target, options)
                 if (sizeArray[resolvedSize] !== prereq.requirement) {

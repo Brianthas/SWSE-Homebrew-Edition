@@ -26,66 +26,6 @@
       {
         "name": "Low-Light Vision",
         "type": "trait"
-      },
-      {
-        "name": "Middle age",
-        "prerequisite": {
-          "high": "59",
-          "low": "45",
-          "text": "45-59",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Venerable",
-        "prerequisite": {
-          "high": "",
-          "low": "80",
-          "text": "80+",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Adult",
-        "prerequisite": {
-          "high": "44",
-          "low": "16",
-          "text": "16-44",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Child",
-        "prerequisite": {
-          "high": "12",
-          "low": "1",
-          "text": "1-12",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Young adult",
-        "prerequisite": {
-          "high": "15",
-          "low": "13",
-          "text": "13-15",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Old",
-        "prerequisite": {
-          "high": "79",
-          "low": "60",
-          "text": "60-79",
-          "type": "AGE"
-        },
-        "type": "trait"
       }
     ],
     "payload": "",

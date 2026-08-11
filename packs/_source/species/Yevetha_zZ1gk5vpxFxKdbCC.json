@@ -30,66 +30,6 @@
       {
         "name": "Xenophobia",
         "type": "trait"
-      },
-      {
-        "name": "Child",
-        "prerequisite": {
-          "high": "5",
-          "low": "1",
-          "text": "1-5",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Old",
-        "prerequisite": {
-          "high": "80",
-          "low": "67",
-          "text": "67-80",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Middle age",
-        "prerequisite": {
-          "high": "66",
-          "low": "45",
-          "text": "45-66",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Venerable",
-        "prerequisite": {
-          "high": "",
-          "low": "81",
-          "text": "81+",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Young adult",
-        "prerequisite": {
-          "high": "11",
-          "low": "6",
-          "text": "6-11",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Adult",
-        "prerequisite": {
-          "high": "44",
-          "low": "12",
-          "text": "12-44",
-          "type": "AGE"
-        },
-        "type": "trait"
       }
     ],
     "payload": "",

@@ -26,66 +26,6 @@
       {
         "name": "Survival Instinct",
         "type": "trait"
-      },
-      {
-        "name": "Child",
-        "prerequisite": {
-          "high": "10",
-          "low": "1",
-          "text": "1-10",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Middle age",
-        "prerequisite": {
-          "high": "79",
-          "low": "46",
-          "text": "46-79",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Young adult",
-        "prerequisite": {
-          "high": "15",
-          "low": "11",
-          "text": "11-15",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Venerable",
-        "prerequisite": {
-          "high": "",
-          "low": "100",
-          "text": "100+",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Old",
-        "prerequisite": {
-          "high": "99",
-          "low": "80",
-          "text": "80-99",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Adult",
-        "prerequisite": {
-          "high": "45",
-          "low": "16",
-          "text": "16-45",
-          "type": "AGE"
-        },
-        "type": "trait"
       }
     ],
     "payload": "",

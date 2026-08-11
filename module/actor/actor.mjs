@@ -1263,10 +1263,6 @@ class SWSEActor extends Actor {
 
 
 
-    get age() {
-        return this.system.age;
-    }
-
     get changes() {
         return this.system.changes;
     }
@@ -2300,10 +2296,6 @@ class SWSEActor extends Actor {
         this.safeUpdate({'system.shields.value': shields < 0 ? 0 : shields})
     }
 
-
-    setAge(age) {
-        this.safeUpdate({'system.details.age': age}).then(() => {})
-    }
 
     setGender(sex, gender) {
         this.safeUpdate({'system.details.sex': sex, 'system.details.gender': gender}).then(()=> {})

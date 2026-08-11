@@ -34,66 +34,6 @@
       {
         "name": "Skill Focus (Survival)",
         "type": "feat"
-      },
-      {
-        "name": "Adult",
-        "prerequisite": {
-          "high": "29",
-          "low": "14",
-          "text": "14-29",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Middle age",
-        "prerequisite": {
-          "high": "44",
-          "low": "30",
-          "text": "30-44",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Venerable",
-        "prerequisite": {
-          "high": "",
-          "low": "60",
-          "text": "60+",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Child",
-        "prerequisite": {
-          "high": "9",
-          "low": "1",
-          "text": "1-9",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Young adult",
-        "prerequisite": {
-          "high": "14",
-          "low": "10",
-          "text": "10-14",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Old",
-        "prerequisite": {
-          "high": "59",
-          "low": "45",
-          "text": "45-59",
-          "type": "AGE"
-        },
-        "type": "trait"
       }
     ],
     "payload": "",

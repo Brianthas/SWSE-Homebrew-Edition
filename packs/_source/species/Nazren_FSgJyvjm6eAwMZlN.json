@@ -26,66 +26,6 @@
       {
         "name": "Resilience",
         "type": "trait"
-      },
-      {
-        "name": "Old",
-        "prerequisite": {
-          "high": "350",
-          "low": "276",
-          "text": "276-350",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Venerable",
-        "prerequisite": {
-          "high": "",
-          "low": "351",
-          "text": "351+",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Young adult",
-        "prerequisite": {
-          "high": "30",
-          "low": "16",
-          "text": "16-30",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Child",
-        "prerequisite": {
-          "high": "15",
-          "low": "1",
-          "text": "1-15",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Adult",
-        "prerequisite": {
-          "high": "200",
-          "low": "31",
-          "text": "31-200",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Middle age",
-        "prerequisite": {
-          "high": "275",
-          "low": "201",
-          "text": "201-275",
-          "type": "AGE"
-        },
-        "type": "trait"
       }
     ],
     "payload": "",

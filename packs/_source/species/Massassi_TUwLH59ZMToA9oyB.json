@@ -40,66 +40,6 @@
         "type": "feat"
       },
       {
-        "name": "Young adult",
-        "prerequisite": {
-          "high": "13",
-          "low": "11",
-          "text": "11-13",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Venerable",
-        "prerequisite": {
-          "high": "",
-          "low": "51",
-          "text": "51+",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Adult",
-        "prerequisite": {
-          "high": "25",
-          "low": "14",
-          "text": "14-25",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Middle age",
-        "prerequisite": {
-          "high": "35",
-          "low": "26",
-          "text": "26-35",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Child",
-        "prerequisite": {
-          "high": "10",
-          "low": "1",
-          "text": "1-10",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Old",
-        "prerequisite": {
-          "high": "50",
-          "low": "36",
-          "text": "36-50",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
         "name": "Weapon Familiarity (Massassi Lanvarok:Simple Ranged Weapons)",
         "type": "trait"
       }

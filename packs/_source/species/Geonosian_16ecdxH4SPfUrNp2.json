@@ -34,66 +34,6 @@
       {
         "name": "Fly Speed (6)",
         "type": "trait"
-      },
-      {
-        "name": "Middle age",
-        "prerequisite": {
-          "high": "50",
-          "low": "36",
-          "text": "36-50",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Old",
-        "prerequisite": {
-          "high": "64",
-          "low": "51",
-          "text": "51-64",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Venerable",
-        "prerequisite": {
-          "high": "",
-          "low": "65",
-          "text": "65+",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Adult",
-        "prerequisite": {
-          "high": "35",
-          "low": "11",
-          "text": "11-35",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Child",
-        "prerequisite": {
-          "high": "6",
-          "low": "1",
-          "text": "1-6",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Young adult",
-        "prerequisite": {
-          "high": "10",
-          "low": "7",
-          "text": "7-10",
-          "type": "AGE"
-        },
-        "type": "trait"
       }
     ],
     "payload": "",

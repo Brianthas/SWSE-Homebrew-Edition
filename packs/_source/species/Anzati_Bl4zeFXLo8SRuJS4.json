@@ -42,66 +42,6 @@
       {
         "name": "Energy Drain",
         "type": "trait"
-      },
-      {
-        "name": "Adult",
-        "prerequisite": {
-          "high": "649",
-          "low": "100",
-          "text": "100-649",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Child",
-        "prerequisite": {
-          "high": "12",
-          "low": "1",
-          "text": "1-12",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Young adult",
-        "prerequisite": {
-          "high": "99",
-          "low": "13",
-          "text": "13-99",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Old",
-        "prerequisite": {
-          "high": "950",
-          "low": "800",
-          "text": "800-950",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Venerable",
-        "prerequisite": {
-          "high": "",
-          "low": "951",
-          "text": "951+",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Middle age",
-        "prerequisite": {
-          "high": "799",
-          "low": "650",
-          "text": "650-799",
-          "type": "AGE"
-        },
-        "type": "trait"
       }
     ],
     "payload": "",

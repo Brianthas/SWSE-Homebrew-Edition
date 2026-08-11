@@ -34,66 +34,6 @@
       {
         "name": "Poison (Species)",
         "type": "trait"
-      },
-      {
-        "name": "Child",
-        "prerequisite": {
-          "high": "7",
-          "low": "1",
-          "text": "1-7",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Old",
-        "prerequisite": {
-          "high": "499",
-          "low": "450",
-          "text": "450-499",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Young adult",
-        "prerequisite": {
-          "high": "14",
-          "low": "8",
-          "text": "8-14",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Middle age",
-        "prerequisite": {
-          "high": "449",
-          "low": "350",
-          "text": "350-449",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Adult",
-        "prerequisite": {
-          "high": "349",
-          "low": "15",
-          "text": "15-349",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Venerable",
-        "prerequisite": {
-          "high": "",
-          "low": "500",
-          "text": "500+",
-          "type": "AGE"
-        },
-        "type": "trait"
       }
     ],
     "payload": "",

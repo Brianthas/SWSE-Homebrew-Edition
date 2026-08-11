@@ -30,66 +30,6 @@
       {
         "name": "Taung",
         "type": "trait"
-      },
-      {
-        "name": "Young adult",
-        "prerequisite": {
-          "high": "12",
-          "low": "7",
-          "text": "7-12",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Old",
-        "prerequisite": {
-          "high": "84",
-          "low": "65",
-          "text": "65-84",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Child",
-        "prerequisite": {
-          "high": "6",
-          "low": "1",
-          "text": "1-6",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Middle age",
-        "prerequisite": {
-          "high": "64",
-          "low": "46",
-          "text": "46-64",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Adult",
-        "prerequisite": {
-          "high": "45",
-          "low": "13",
-          "text": "13-45",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Venerable",
-        "prerequisite": {
-          "high": "",
-          "low": "85",
-          "text": "85+",
-          "type": "AGE"
-        },
-        "type": "trait"
       }
     ],
     "payload": "",

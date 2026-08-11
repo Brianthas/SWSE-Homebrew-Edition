@@ -52,66 +52,6 @@
       {
         "name": "Productive Artisans",
         "type": "trait"
-      },
-      {
-        "name": "Young adult",
-        "prerequisite": {
-          "high": "99",
-          "low": "31",
-          "text": "31-99",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Adult",
-        "prerequisite": {
-          "high": "399",
-          "low": "100",
-          "text": "100-399",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Child",
-        "prerequisite": {
-          "high": "30",
-          "low": "1",
-          "text": "1-30",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Old",
-        "prerequisite": {
-          "high": "799",
-          "low": "700",
-          "text": "700-799",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Middle age",
-        "prerequisite": {
-          "high": "699",
-          "low": "400",
-          "text": "400-699",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Venerable",
-        "prerequisite": {
-          "high": "",
-          "low": "800",
-          "text": "800+",
-          "type": "AGE"
-        },
-        "type": "trait"
       }
     ],
     "payload": "",

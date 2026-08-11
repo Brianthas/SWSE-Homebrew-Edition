@@ -42,66 +42,6 @@
       {
         "name": "Skill Focus (Climb)",
         "type": "feat"
-      },
-      {
-        "name": "Young adult",
-        "prerequisite": {
-          "high": "17",
-          "low": "13",
-          "text": "13-17",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Adult",
-        "prerequisite": {
-          "high": "62",
-          "low": "18",
-          "text": "18-62",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Middle age",
-        "prerequisite": {
-          "high": "94",
-          "low": "63",
-          "text": "63-94",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Child",
-        "prerequisite": {
-          "high": "12",
-          "low": "1",
-          "text": "1-12",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Old",
-        "prerequisite": {
-          "high": "129",
-          "low": "95",
-          "text": "95-129",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Venerable",
-        "prerequisite": {
-          "high": "",
-          "low": "130",
-          "text": "130+",
-          "type": "AGE"
-        },
-        "type": "trait"
       }
     ],
     "payload": "",

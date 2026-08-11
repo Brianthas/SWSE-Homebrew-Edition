@@ -108,66 +108,6 @@
         "type": "trait"
       },
       {
-        "name": "Middle age",
-        "prerequisite": {
-          "high": "29",
-          "low": "21",
-          "text": "21-29",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Old",
-        "prerequisite": {
-          "high": "39",
-          "low": "30",
-          "text": "30-39",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Venerable",
-        "prerequisite": {
-          "high": "",
-          "low": "40",
-          "text": "40+",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Child",
-        "prerequisite": {
-          "high": "5",
-          "low": "1",
-          "text": "1-5",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Adult",
-        "prerequisite": {
-          "high": "20",
-          "low": "8",
-          "text": "8-20",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Young adult",
-        "prerequisite": {
-          "high": "7",
-          "low": "6",
-          "text": "6-7",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
         "name": "Bonus Feat",
         "type": "trait"
       }

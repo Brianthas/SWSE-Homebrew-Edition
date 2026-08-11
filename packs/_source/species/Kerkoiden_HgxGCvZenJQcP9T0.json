@@ -26,66 +26,6 @@
       {
         "name": "Predator's Heritage",
         "type": "trait"
-      },
-      {
-        "name": "Middle age",
-        "prerequisite": {
-          "high": "70",
-          "low": "46",
-          "text": "46-70",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Adult",
-        "prerequisite": {
-          "high": "45",
-          "low": "19",
-          "text": "19-45",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Young adult",
-        "prerequisite": {
-          "high": "18",
-          "low": "12",
-          "text": "12-18",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Old",
-        "prerequisite": {
-          "high": "90",
-          "low": "71",
-          "text": "71-90",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Venerable",
-        "prerequisite": {
-          "high": "",
-          "low": "91",
-          "text": "91+",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Child",
-        "prerequisite": {
-          "high": "11",
-          "low": "1",
-          "text": "1-11",
-          "type": "AGE"
-        },
-        "type": "trait"
       }
     ],
     "payload": "",

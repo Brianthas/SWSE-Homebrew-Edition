@@ -1685,8 +1685,11 @@
 }
 .swse .sheet-maintenance .sheet-maintenance-row button {
   flex: 0 0 auto;
+  width: auto;
 }
 .swse .sheet-maintenance .sheet-maintenance-row .notes {
+  flex: 1 1 0;
+  min-width: 0;
   font-size: 11px;
   line-height: 1.3;
   color: var(--swse-text-muted);

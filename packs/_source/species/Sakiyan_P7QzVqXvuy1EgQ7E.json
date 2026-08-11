@@ -30,66 +30,6 @@
       {
         "name": "Skill Focus (Perception)",
         "type": "feat"
-      },
-      {
-        "name": "Middle age",
-        "prerequisite": {
-          "high": "74",
-          "low": "49",
-          "text": "49-74",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Old",
-        "prerequisite": {
-          "high": "84",
-          "low": "75",
-          "text": "75-84",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Venerable",
-        "prerequisite": {
-          "high": "",
-          "low": "85",
-          "text": "85+",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Adult",
-        "prerequisite": {
-          "high": "48",
-          "low": "16",
-          "text": "16-48",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Young adult",
-        "prerequisite": {
-          "high": "15",
-          "low": "11",
-          "text": "11-15",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Child",
-        "prerequisite": {
-          "high": "10",
-          "low": "1",
-          "text": "1-10",
-          "type": "AGE"
-        },
-        "type": "trait"
       }
     ],
     "payload": "",

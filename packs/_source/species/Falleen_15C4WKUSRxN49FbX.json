@@ -30,66 +30,6 @@
       {
         "name": "Falleen",
         "type": "trait"
-      },
-      {
-        "name": "Child",
-        "prerequisite": {
-          "high": "18",
-          "low": "1",
-          "text": "1-18",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Middle age",
-        "prerequisite": {
-          "high": "139",
-          "low": "73",
-          "text": "73-139",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Venerable",
-        "prerequisite": {
-          "high": "",
-          "low": "250",
-          "text": "250+",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Old",
-        "prerequisite": {
-          "high": "249",
-          "low": "140",
-          "text": "140-249",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Adult",
-        "prerequisite": {
-          "high": "72",
-          "low": "37",
-          "text": "37-72",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Young adult",
-        "prerequisite": {
-          "high": "36",
-          "low": "19",
-          "text": "19-36",
-          "type": "AGE"
-        },
-        "type": "trait"
       }
     ],
     "payload": "",

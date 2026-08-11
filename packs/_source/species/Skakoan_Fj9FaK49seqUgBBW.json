@@ -42,66 +42,6 @@
       {
         "name": "Armor Proficiency (Light)",
         "type": "feat"
-      },
-      {
-        "name": "Young adult",
-        "prerequisite": {
-          "high": "15",
-          "low": "12",
-          "text": "12-15",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Adult",
-        "prerequisite": {
-          "high": "44",
-          "low": "16",
-          "text": "16-44",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Old",
-        "prerequisite": {
-          "high": "69",
-          "low": "60",
-          "text": "60-69",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Child",
-        "prerequisite": {
-          "high": "11",
-          "low": "1",
-          "text": "1-11",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Middle age",
-        "prerequisite": {
-          "high": "59",
-          "low": "45",
-          "text": "45-59",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Venerable",
-        "prerequisite": {
-          "high": "",
-          "low": "70",
-          "text": "70+",
-          "type": "AGE"
-        },
-        "type": "trait"
       }
     ],
     "payload": "",

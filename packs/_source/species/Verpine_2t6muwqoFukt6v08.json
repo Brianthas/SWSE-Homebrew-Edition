@@ -40,66 +40,6 @@
         "type": "feat"
       },
       {
-        "name": "Child",
-        "prerequisite": {
-          "high": "4",
-          "low": "1",
-          "text": "1-4",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Old",
-        "prerequisite": {
-          "high": "80",
-          "low": "61",
-          "text": "61-80",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Adult",
-        "prerequisite": {
-          "high": "40",
-          "low": "10",
-          "text": "10-40",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Venerable",
-        "prerequisite": {
-          "high": "",
-          "low": "81",
-          "text": "81+",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Young adult",
-        "prerequisite": {
-          "high": "9",
-          "low": "5",
-          "text": "5-9",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Middle age",
-        "prerequisite": {
-          "high": "60",
-          "low": "41",
-          "text": "41-60",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
         "name": "Weapon Familiarity (Verpine Shattergun:Pistols)",
         "type": "trait"
       }

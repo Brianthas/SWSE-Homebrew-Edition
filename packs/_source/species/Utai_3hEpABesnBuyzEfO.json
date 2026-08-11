@@ -30,66 +30,6 @@
       {
         "name": "Utai",
         "type": "trait"
-      },
-      {
-        "name": "Middle age",
-        "prerequisite": {
-          "high": "47",
-          "low": "36",
-          "text": "36-47",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Adult",
-        "prerequisite": {
-          "high": "35",
-          "low": "11",
-          "text": "11-35",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Venerable",
-        "prerequisite": {
-          "high": "",
-          "low": "55",
-          "text": "55+",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Child",
-        "prerequisite": {
-          "high": "6",
-          "low": "1",
-          "text": "1-6",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Old",
-        "prerequisite": {
-          "high": "54",
-          "low": "48",
-          "text": "48-54",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Young adult",
-        "prerequisite": {
-          "high": "10",
-          "low": "7",
-          "text": "7-10",
-          "type": "AGE"
-        },
-        "type": "trait"
       }
     ],
     "payload": "",

@@ -247,7 +247,44 @@ Hooks.once("ready", () => {
             });
         }
     });
+
+    removeAgeTraitsFromWorld().then(() => {});
 });
+
+/**
+ * One-time cleanup of the age-category traits, which have been removed from the system.
+ *
+ * Species used to grant all six (Child/Young adult/Adult/Middle age/Old/Venerable) at once, each
+ * gated by an AGE prerequisite that never resolved — it read `system.age`, but the field had long
+ * since moved to `system.details.age`. So every band was granted and every modifier applied at
+ * once, totalling STR -10, CON -10, DEX -8 and INT/WIS/CHA +1 on any affected character.
+ *
+ * Removing them from the compendium doesn't help actors that already have embedded copies, and a
+ * hosted world can't be fixed by running a script locally, so this sweeps the world once and
+ * records a flag so it never runs again.
+ */
+async function removeAgeTraitsFromWorld() {
+    if (!game.user.isGM) return;
+    if (game.settings.get("swse", "ageTraitsRemoved")) return;
+
+    const AGE_TRAITS = ["Child", "Young adult", "Adult", "Middle age", "Old", "Venerable"];
+    let actorsTouched = 0, itemsRemoved = 0;
+    for (const actor of game.actors) {
+        // Match on type as well as name so a same-named non-trait item is never caught.
+        const ids = actor.items.filter(i => i.type === "trait" && AGE_TRAITS.includes(i.name)).map(i => i.id);
+        if (!ids.length) continue;
+        await actor.deleteEmbeddedDocuments("Item", ids);
+        actorsTouched++;
+        itemsRemoved += ids.length;
+    }
+
+    await game.settings.set("swse", "ageTraitsRemoved", true);
+    if (itemsRemoved) {
+        const message = `SWSE | Removed ${itemsRemoved} age trait(s) from ${actorsTouched} actor(s). Ability scores affected by the stacked age modifiers are now correct.`;
+        console.log(message);
+        ui.notifications.info(message);
+    }
+}
 
 
 function deleteActorsByName(name){

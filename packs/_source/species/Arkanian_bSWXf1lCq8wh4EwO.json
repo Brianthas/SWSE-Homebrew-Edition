@@ -26,66 +26,6 @@
       {
         "name": "Logical Reasoning",
         "type": "trait"
-      },
-      {
-        "name": "Adult",
-        "prerequisite": {
-          "high": "44",
-          "low": "19",
-          "text": "19-44",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Middle age",
-        "prerequisite": {
-          "high": "76",
-          "low": "45",
-          "text": "45-76",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Venerable",
-        "prerequisite": {
-          "high": "",
-          "low": "100",
-          "text": "100+",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Child",
-        "prerequisite": {
-          "high": "12",
-          "low": "1",
-          "text": "1-12",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Young adult",
-        "prerequisite": {
-          "high": "18",
-          "low": "13",
-          "text": "13-18",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Old",
-        "prerequisite": {
-          "high": "99",
-          "low": "77",
-          "text": "77-99",
-          "type": "AGE"
-        },
-        "type": "trait"
       }
     ],
     "payload": "",

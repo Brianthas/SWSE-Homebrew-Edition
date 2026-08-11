@@ -54,66 +54,6 @@
         "type": "feat"
       },
       {
-        "name": "Young adult",
-        "prerequisite": {
-          "high": "17",
-          "low": "10",
-          "text": "10-17",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Venerable",
-        "prerequisite": {
-          "high": "",
-          "low": "85",
-          "text": "85+",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Adult",
-        "prerequisite": {
-          "high": "44",
-          "low": "18",
-          "text": "18-44",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Child",
-        "prerequisite": {
-          "high": "9",
-          "low": "1",
-          "text": "1-9",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Old",
-        "prerequisite": {
-          "high": "84",
-          "low": "70",
-          "text": "70-84",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Middle age",
-        "prerequisite": {
-          "high": "69",
-          "low": "45",
-          "text": "45-69",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
         "name": "Weapon Familiarity (Bo-Rifle:Rifles)",
         "type": "trait"
       }

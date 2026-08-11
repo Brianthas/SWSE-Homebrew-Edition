@@ -38,66 +38,6 @@
       {
         "name": "Feeorin",
         "type": "trait"
-      },
-      {
-        "name": "Middle age",
-        "prerequisite": {
-          "high": "324",
-          "low": "195",
-          "text": "195-324",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Venerable",
-        "prerequisite": {
-          "high": "",
-          "low": "400",
-          "text": "400+",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Young adult",
-        "prerequisite": {
-          "high": "16",
-          "low": "12",
-          "text": "12-16",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Child",
-        "prerequisite": {
-          "high": "11",
-          "low": "1",
-          "text": "1-11",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Adult",
-        "prerequisite": {
-          "high": "194",
-          "low": "17",
-          "text": "17-194",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Old",
-        "prerequisite": {
-          "high": "399",
-          "low": "325",
-          "text": "325-399",
-          "type": "AGE"
-        },
-        "type": "trait"
       }
     ],
     "payload": "",

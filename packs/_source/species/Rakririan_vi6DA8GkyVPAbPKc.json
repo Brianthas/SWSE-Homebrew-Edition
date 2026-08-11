@@ -40,66 +40,6 @@
       {
         "name": "Tested",
         "type": "trait"
-      },
-      {
-        "name": "Young adult",
-        "prerequisite": {
-          "high": "19",
-          "low": "12",
-          "text": "12-19",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Child",
-        "prerequisite": {
-          "high": "11",
-          "low": "1",
-          "text": "1-11",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Old",
-        "prerequisite": {
-          "high": "139",
-          "low": "115",
-          "text": "115-139",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Adult",
-        "prerequisite": {
-          "high": "89",
-          "low": "20",
-          "text": "20-89",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Venerable",
-        "prerequisite": {
-          "high": "",
-          "low": "140",
-          "text": "140+",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Middle age",
-        "prerequisite": {
-          "high": "114",
-          "low": "90",
-          "text": "90-114",
-          "type": "AGE"
-        },
-        "type": "trait"
       }
     ],
     "payload": "",

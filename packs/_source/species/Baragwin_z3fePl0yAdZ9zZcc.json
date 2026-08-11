@@ -52,66 +52,6 @@
       {
         "name": "Baragwin",
         "type": "trait"
-      },
-      {
-        "name": "Child",
-        "prerequisite": {
-          "high": "10",
-          "low": "1",
-          "text": "1-10",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Young adult",
-        "prerequisite": {
-          "high": "17",
-          "low": "11",
-          "text": "11-17",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Adult",
-        "prerequisite": {
-          "high": "44",
-          "low": "18",
-          "text": "18-44",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Middle age",
-        "prerequisite": {
-          "high": "71",
-          "low": "45",
-          "text": "45-71",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Old",
-        "prerequisite": {
-          "high": "89",
-          "low": "72",
-          "text": "72-89",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Venerable",
-        "prerequisite": {
-          "high": "",
-          "low": "90",
-          "text": "90+",
-          "type": "AGE"
-        },
-        "type": "trait"
       }
     ],
     "payload": "",

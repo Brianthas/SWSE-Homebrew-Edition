@@ -787,9 +787,19 @@
     align-items: center;
     gap: $space-sm;
 
-    button { flex: 0 0 auto; }
+    // Foundry core styles a form button as full-width and `.notes` as a full-width form hint
+    // (`body.game .app form .notes { flex: 0 0 100% }`). Both have to be overridden explicitly:
+    // without it the button fills the row and the note is laid out at 100% *after* it, pushing
+    // the text outside the panel. `min-width: 0` lets the note wrap instead of forcing its
+    // min-content width back onto the row.
+    button {
+      flex: 0 0 auto;
+      width: auto;
+    }
 
     .notes {
+      flex: 1 1 0;
+      min-width: 0;
       font-size: 11px;
       line-height: 1.3;
       color: var(--swse-text-muted);

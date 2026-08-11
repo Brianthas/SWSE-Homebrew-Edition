@@ -38,66 +38,6 @@
         "type": "feat"
       },
       {
-        "name": "Middle age",
-        "prerequisite": {
-          "high": "39",
-          "low": "30",
-          "text": "30-39",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Old",
-        "prerequisite": {
-          "high": "44",
-          "low": "40",
-          "text": "40-44",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Young adult",
-        "prerequisite": {
-          "high": "12",
-          "low": "7",
-          "text": "7-12",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Child",
-        "prerequisite": {
-          "high": "6",
-          "low": "1",
-          "text": "1-6",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Venerable",
-        "prerequisite": {
-          "high": "",
-          "low": "45",
-          "text": "45+",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Adult",
-        "prerequisite": {
-          "high": "29",
-          "low": "13",
-          "text": "13-29",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
         "name": "Weapon Familiarity (Arg'garok:Advanced Melee)",
         "type": "trait"
       }

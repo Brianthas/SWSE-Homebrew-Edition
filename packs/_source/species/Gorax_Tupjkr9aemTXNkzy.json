@@ -60,66 +60,6 @@
       {
         "name": "Intelligence (-4)",
         "type": "trait"
-      },
-      {
-        "name": "Child",
-        "prerequisite": {
-          "high": "20",
-          "low": "1",
-          "text": "1-20",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Old",
-        "prerequisite": {
-          "high": "290",
-          "low": "231",
-          "text": "231-290",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Young adult",
-        "prerequisite": {
-          "high": "50",
-          "low": "21",
-          "text": "21-50",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Adult",
-        "prerequisite": {
-          "high": "170",
-          "low": "51",
-          "text": "51-170",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Venerable",
-        "prerequisite": {
-          "high": "",
-          "low": "291",
-          "text": "291+",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Middle age",
-        "prerequisite": {
-          "high": "230",
-          "low": "171",
-          "text": "171-230",
-          "type": "AGE"
-        },
-        "type": "trait"
       }
     ],
     "payload": "",

@@ -52,66 +52,6 @@
       {
         "name": "Skill Focus (Mechanics)",
         "type": "feat"
-      },
-      {
-        "name": "Middle age",
-        "prerequisite": {
-          "high": "65",
-          "low": "46",
-          "text": "46-65",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Old",
-        "prerequisite": {
-          "high": "84",
-          "low": "66",
-          "text": "66-84",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Adult",
-        "prerequisite": {
-          "high": "45",
-          "low": "17",
-          "text": "17-45",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Child",
-        "prerequisite": {
-          "high": "11",
-          "low": "1",
-          "text": "1-11",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Young adult",
-        "prerequisite": {
-          "high": "16",
-          "low": "12",
-          "text": "12-16",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Venerable",
-        "prerequisite": {
-          "high": "",
-          "low": "85",
-          "text": "85+",
-          "type": "AGE"
-        },
-        "type": "trait"
       }
     ],
     "payload": "",

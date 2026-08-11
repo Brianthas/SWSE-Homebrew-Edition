@@ -46,66 +46,6 @@
       {
         "name": "Swim Speed (4)",
         "type": "trait"
-      },
-      {
-        "name": "Young adult",
-        "prerequisite": {
-          "high": "16",
-          "low": "12",
-          "text": "12-16",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Venerable",
-        "prerequisite": {
-          "high": "",
-          "low": "80",
-          "text": "80+",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Middle age",
-        "prerequisite": {
-          "high": "57",
-          "low": "41",
-          "text": "41-57",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Child",
-        "prerequisite": {
-          "high": "11",
-          "low": "1",
-          "text": "1-11",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Old",
-        "prerequisite": {
-          "high": "79",
-          "low": "58",
-          "text": "58-79",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Adult",
-        "prerequisite": {
-          "high": "40",
-          "low": "17",
-          "text": "17-40",
-          "type": "AGE"
-        },
-        "type": "trait"
       }
     ],
     "payload": "",

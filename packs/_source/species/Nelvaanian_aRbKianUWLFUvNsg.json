@@ -30,66 +30,6 @@
       {
         "name": "Scent",
         "type": "trait"
-      },
-      {
-        "name": "Child",
-        "prerequisite": {
-          "high": "7",
-          "low": "1",
-          "text": "1-7",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Middle age",
-        "prerequisite": {
-          "high": "45",
-          "low": "31",
-          "text": "31-45",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Old",
-        "prerequisite": {
-          "high": "64",
-          "low": "46",
-          "text": "46-64",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Young adult",
-        "prerequisite": {
-          "high": "20",
-          "low": "8",
-          "text": "8-20",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Venerable",
-        "prerequisite": {
-          "high": "",
-          "low": "65",
-          "text": "65+",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Adult",
-        "prerequisite": {
-          "high": "30",
-          "low": "21",
-          "text": "21-30",
-          "type": "AGE"
-        },
-        "type": "trait"
       }
     ],
     "payload": "",

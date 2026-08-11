@@ -30,66 +30,6 @@
       {
         "name": "Advozsec",
         "type": "trait"
-      },
-      {
-        "name": "Young adult",
-        "prerequisite": {
-          "high": "14",
-          "low": "10",
-          "text": "10-14",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Old",
-        "prerequisite": {
-          "high": "54",
-          "low": "43",
-          "text": "43-54",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Venerable",
-        "prerequisite": {
-          "high": "",
-          "low": "55",
-          "text": "55+",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Middle age",
-        "prerequisite": {
-          "high": "42",
-          "low": "34",
-          "text": "34-42",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Child",
-        "prerequisite": {
-          "high": "9",
-          "low": "1",
-          "text": "1-9",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Adult",
-        "prerequisite": {
-          "high": "33",
-          "low": "15",
-          "text": "15-33",
-          "type": "AGE"
-        },
-        "type": "trait"
       }
     ],
     "payload": "",

@@ -28,66 +28,6 @@
         "type": "trait"
       },
       {
-        "name": "Old",
-        "prerequisite": {
-          "high": "64",
-          "low": "54",
-          "text": "54-64",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Venerable",
-        "prerequisite": {
-          "high": "",
-          "low": "65",
-          "text": "65+",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Child",
-        "prerequisite": {
-          "high": "8",
-          "low": "1",
-          "text": "1-8",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Adult",
-        "prerequisite": {
-          "high": "38",
-          "low": "13",
-          "text": "13-38",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Young adult",
-        "prerequisite": {
-          "high": "12",
-          "low": "9",
-          "text": "9-12",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Middle age",
-        "prerequisite": {
-          "high": "53",
-          "low": "39",
-          "text": "39-53",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
         "name": "Weapon Familiarity (Squib Tensor Rifle:Rifless)",
         "type": "trait"
       }

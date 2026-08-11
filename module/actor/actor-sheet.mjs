@@ -327,7 +327,6 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
         html.find('[data-action="quickCreate"]').on("keyup", this._onQuickCreate.bind(this));
         html.find('[data-action="to-chat"]').click(this._onToChat.bind(this));
         html.find('[data-action="change-control"]').click(onChangeControl.bind(this));
-        html.find('[data-action="age"]').on("click", event => this._selectAge(event, this));
 
         html.find('[data-action="level-up-bonus"]').click(this._onAddLevelUpBonus.bind(this));
         html.find('[data-action="effect-control"]').click(onEffectControl.bind(this));
@@ -683,63 +682,10 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
         }
     }
 
-    async _selectAge(event, sheet) {
-        let options = this.buildAgeDialog(sheet);
-        await Dialog.prompt(options);
-    }
-
     async _selectGender(event, sheet) {
         let options = this.buildGenderDialog(sheet);
         await Dialog.prompt(options);
     }
-
-    buildAgeDialog(sheet) {
-        let age = sheet.actor.system.details.age ? parseInt(sheet.actor.system.details.age) : 0;
-        let ageEffects = filterItemsByTypes(sheet.actor.items.values(), ["trait"])
-            .map(trait => {
-                //let prereqs = trait.system.prerequisite.filter(prereq => );
-                let prereq = this._prerequisiteHasTypeInStructure(trait.system.prerequisite, 'AGE')
-                if (prereq) {
-                    return {
-                        name: trait.name,
-                        low: parseInt(prereq.low),
-                        high: prereq.high ? parseInt(prereq.high) : -1,
-                        text: prereq.text
-                    }
-                }
-                return undefined;
-            }).filter(trait => !!trait)
-
-        ageEffects.sort(
-            (a, b) => a.low - b.low);
-
-        let traits = '';
-        for (let effect of ageEffects) {
-            let current = age >= effect.low && (age <= effect.high || effect.high === -1) ? ' current' : '';
-            traits += `<div class="flex-grow ageRange${current}" data-low="${effect.low}" data-high="${effect.high}">${effect.name}: ${effect.text}</div>`;
-        }
-        if (traits === '') {
-            traits = `<div>This species has no traits related to age.</div>`;
-        }
-        let content = `<p>Enter your age. Adults have no modifiers:</p><input class="range" id="age" placeholder="Age" type="number" value="${age}"/><div>${traits}</div>`
-
-        return {
-            title: "Age Selection",
-            content: content,
-            callback: async (html) => {
-                let key = html.find("#age")[0].value;
-                sheet.object.setAge(key);
-            },
-            render: async (html) => {
-                let ageInput = html.find("#age");
-                this.moveAgeCursor(html);
-                ageInput.on("input", () => {
-                    this.moveAgeCursor(html);
-                })
-            }
-        };
-    }
-
 
     buildGenderDialog(sheet) {
         let sex = sheet.actor.system.details.sex ? sheet.actor.system.details.sex : "";
@@ -788,22 +734,6 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
                 })
             }
         };
-    }
-
-    moveAgeCursor(html) {
-        let age = parseInt(html.find("#age")[0].value);
-        let rangeDivs = html.find(".ageRange")
-        for (let div of rangeDivs) {
-            let low = parseInt($(div).data("low"));
-            let high = parseInt($(div).data("high"));
-
-            if (div.classList.contains("cursor")) {
-                div.classList.remove("cursor")
-            }
-            if (age >= low && (age <= high || high === -1)) {
-                div.classList.add("cursor")
-            }
-        }
     }
 
     moveGenderCursor(html) {

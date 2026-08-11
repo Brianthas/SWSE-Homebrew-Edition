@@ -18,66 +18,6 @@
       {
         "name": "Bonus Trained Skill",
         "type": "trait"
-      },
-      {
-        "name": "Child",
-        "prerequisite": {
-          "high": "11",
-          "low": "1",
-          "text": "1-11",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Old",
-        "prerequisite": {
-          "high": "89",
-          "low": "75",
-          "text": "75-89",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Venerable",
-        "prerequisite": {
-          "high": "",
-          "low": "90",
-          "text": "90+",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Middle age",
-        "prerequisite": {
-          "high": "74",
-          "low": "60",
-          "text": "60-74",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Adult",
-        "prerequisite": {
-          "high": "59",
-          "low": "20",
-          "text": "20-59",
-          "type": "AGE"
-        },
-        "type": "trait"
-      },
-      {
-        "name": "Young adult",
-        "prerequisite": {
-          "high": "19",
-          "low": "12",
-          "text": "12-19",
-          "type": "AGE"
-        },
-        "type": "trait"
       }
     ],
     "payload": "",
