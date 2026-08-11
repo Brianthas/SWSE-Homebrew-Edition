@@ -1669,7 +1669,7 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
         const PRESERVED_ITEM_FIELDS = [
             "equipped", "quantity", "uses", "supplier", "isSupplied",
             "abilityOverride", "damageAbilityOverride", "handsOverride", "damageTypeOverride",
-            "levelsTaken", "activeCategory", "payload", "choices",
+            "levelsTaken", "activeCategory", "payload", "choices", "selectedChoices",
         ];
 
         const confirmed = await Dialog.confirm({
@@ -1697,6 +1697,26 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
             for (const field of PRESERVED_ITEM_FIELDS) {
                 if (item.system[field] !== undefined) update.system[field] = item.system[field];
             }
+
+            // A compendium entry for a choice-driven item (Skill Focus, Weapon Proficiency, ...)
+            // stores unresolved #payload# tokens; the character's actual choice is substituted
+            // into changes/description/prerequisites when the item is granted. Pulling fresh
+            // rules data overwrites all three, so the choice has to be re-applied — otherwise
+            // "Skill Focus (Use the Force)" reverts to a change of `skillFocus = #payload#`,
+            // which silently stops granting the bonus.
+            //
+            // system.payload is only populated on some grant paths — class-granted proficiencies
+            // bake the choice straight into `changes` and leave it blank — so fall back to
+            // recovering the choice from the item's own resolved data.
+            const payload = item.system.payload || this.#inferPayload(item, fresh.system);
+            if (payload) this.#applyPayload(update.system, payload);
+
+            // Some choices don't substitute a token at all — they append change entries (the
+            // ability-score-bonus traits push e.g. `strengthBonus: 1` for the ability picked).
+            // Those live only on the character's copy, so re-apply them from the preserved
+            // selections or the pick is silently lost and the trait has to be redone by hand.
+            this.#reapplySelectedChoices(update.system, item.system.selectedChoices);
+
             update.sort = item.sort;
             updates.push(update);
         }
@@ -1707,6 +1727,103 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
         if (skipped) parts.push(`${skipped} custom (no compendium source) left alone`);
         if (missing) parts.push(`${missing} whose source no longer exists skipped`);
         ui.notifications.info(`${this.actor.name}: ${parts.join(", ")}.`);
+    }
+
+    /**
+     * Re-applies the change entries a selected choice contributes, mirroring what choice.mjs
+     * does when the option is first picked (it pushes the option's `attributes` onto the item's
+     * changes). Refresh replaces `changes` with the compendium template, which never contains
+     * them, so without this the player's pick is silently dropped.
+     *
+     * @param system            the fresh system object, mutated in place
+     * @param selectedChoices   the preserved selections from the character's copy
+     */
+    #reapplySelectedChoices(system, selectedChoices) {
+        if (!selectedChoices?.length) return;
+
+        const asArray = (value) => !value ? [] : Array.isArray(value) ? value : Object.values(value);
+        const signature = (change) => `${change.key}=${JSON.stringify(change.value)}`;
+        const present = new Set(asArray(system.changes).map(signature));
+
+        for (const choice of asArray(system.choices)) {
+            for (const option of asArray(choice.options)) {
+                const label = option.name ?? option.value ?? option.display;
+                if (!selectedChoices.includes(label)) continue;
+
+                for (const attribute of asArray(option.attributes)) {
+                    // Guard against double-applying when the template already carries the entry.
+                    if (present.has(signature(attribute))) continue;
+                    system.changes = asArray(system.changes);
+                    system.changes.push(foundry.utils.deepClone(attribute));
+                    present.add(signature(attribute));
+                }
+            }
+        }
+    }
+
+    /**
+     * Recovers the choice already baked into an item by diffing it against the compendium
+     * template it came from: wherever the template still holds a #payload# token and the
+     * character's copy holds real text, that text is the choice.
+     *
+     * Needed because not every grant path records system.payload — class-granted weapon
+     * proficiencies and the ability-score-bonus traits write the choice straight into their
+     * changes and leave the field blank.
+     *
+     * @param item         the character's current copy
+     * @param freshSystem  the compendium template's system object
+     * @returns {string|undefined}
+     */
+    #inferPayload(item, freshSystem) {
+        const current = item.system.changes || [];
+        for (const template of freshSystem.changes || []) {
+            if (typeof template.value !== "string" || !template.value.includes("#payload#")) continue;
+
+            const mine = current.find(c => c.key === template.key
+                && typeof c.value === "string" && !c.value.includes("#payload#"));
+            if (!mine) continue;
+
+            // Rebuild the template as a regex with the token as the capture group, so a value
+            // like "Skill Focus: #payload#" recovers only the chosen part.
+            const escaped = template.value.split("#payload#")
+                .map(part => part.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+            const match = new RegExp(`^${escaped.join("(.*)")}$`).exec(mine.value);
+            if (match?.[1]) return match[1];
+        }
+        return undefined;
+    }
+
+    /**
+     * Substitutes a granted item's chosen payload into freshly pulled compendium data, mirroring
+     * SWSEItem#setPayload. Operates on a plain system object rather than a live document, because
+     * refresh builds its updates before anything is written.
+     *
+     * @param system         the fresh system object, mutated in place
+     * @param payload        the character's choice, e.g. "Use the Force"
+     * @param payloadString  optional named token, for templates using #something# over #payload#
+     */
+    #applyPayload(system, payload, payloadString) {
+        const pattern = payloadString ? `#${payloadString}#`.replace(/##/g, "#") : "#payload#";
+        const regExp = new RegExp(pattern, "g");
+        const sub = (value) => typeof value === "string" ? value.replace(regExp, payload) : value;
+
+        if (typeof system.description === "string") system.description = sub(system.description);
+
+        for (const change of system.changes || []) {
+            change.key = sub(change.key);
+            change.value = Array.isArray(change.value) ? change.value.map(sub) : sub(change.value);
+        }
+
+        // Same shape crawlPrerequisiteTree walks: children may be an array or an object map.
+        const crawl = (node) => {
+            if (!node) return;
+            if (node.requirement) node.requirement = sub(node.requirement);
+            if (node.text) node.text = sub(node.text);
+            const children = !node.children ? []
+                : Array.isArray(node.children) ? node.children : Object.values(node.children);
+            children.forEach(crawl);
+        };
+        crawl(system.prerequisite);
     }
 
     /**

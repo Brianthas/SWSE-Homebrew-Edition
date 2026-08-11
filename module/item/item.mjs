@@ -318,7 +318,13 @@ export class SWSEItem extends Item {
         finalName = this.addSizeAdjustmentSuffix(item, finalName);
 
 
-        let modifiers = (item.system?.selectedChoices || []).join(", ");
+        // A template's placeholder (#payload#, #choice#, ...) is substituted when the item is
+        // granted with a real choice. If that never happened the raw token is still sitting in
+        // the value, and it must never reach the name — "Weapon Proficiency (#payload#)" is worse
+        // than the bare "Weapon Proficiency" it would otherwise read as.
+        const isResolved = (value) => !!value && !/#[^#\s]*#/.test(`${value}`);
+
+        let modifiers = (item.system?.selectedChoices || []).filter(isResolved).join(", ");
         if (!modifiers) {
             // Feats/talents granted directly (e.g. Weapon Proficiency derived onto a character
             // from their class's own granted feats, rather than picked via the interactive
@@ -328,7 +334,8 @@ export class SWSEItem extends Item {
             // Fall back to reading the item's own identity-choice change directly.
             const CHOICE_IDENTITY_KEYS = ["weaponProficiency", "weaponFocus", "greaterWeaponFocus", "weaponSpecialization", "greaterWeaponSpecialization", "skillFocus"];
             const localChanges = item.system?.changes || [];
-            modifiers = localChanges.filter(c => CHOICE_IDENTITY_KEYS.includes(c.key)).map(c => c.value).join(", ");
+            modifiers = localChanges.filter(c => CHOICE_IDENTITY_KEYS.includes(c.key))
+                .map(c => c.value).filter(isResolved).join(", ");
         }
         if (modifiers) {
             finalName = `${finalName} (${modifiers})`
