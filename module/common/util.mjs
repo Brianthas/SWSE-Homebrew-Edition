@@ -1194,7 +1194,13 @@ export function equippedItems(entity, type = null) {
     if (!entity.items) {
         return [];
     } else {
-        return entity.items.filter(item => !!item.system.equipped && (!type || item.type === type));
+        // `equipped` is multi-state, not a boolean — vehicles use "installed"/"pilotInstalled"/
+        // "gunnerInstalled" — so this stays a truthiness check rather than `=== "equipped"`.
+        // The one value that must not count is the literal string "unequipped", which some items
+        // store instead of null and which is otherwise truthy, leaving them permanently equipped.
+        return entity.items.filter(item => !!item.system.equipped
+            && item.system.equipped !== "unequipped"
+            && (!type || item.type === type));
     }
 }
 /**

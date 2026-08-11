@@ -333,14 +333,18 @@ export const SCALABLE_CHANGES = {
             "Tiny" : [
                 {"key" : "unarmedDamage","value" : "1d2","mode" : 2}
             ],
+            // Homebrew unarmed die by size (Small d4 / Medium d6 / Large d8), matching the
+            // SIZE_CHANGES table the species rework established. This table is what the unarmed
+            // attack actually resolves through, so leaving it on the vanilla progression made
+            // the homebrew values dead letters — every character punched one die size too low.
             "Small" : [
-                {"key" : "unarmedDamage","value" : "1d3","mode" : 2}
-            ],
-            "Medium" : [
                 {"key" : "unarmedDamage","value" : "1d4","mode" : 2}
             ],
-            "Large" : [
+            "Medium" : [
                 {"key" : "unarmedDamage","value" : "1d6","mode" : 2}
+            ],
+            "Large" : [
+                {"key" : "unarmedDamage","value" : "1d8","mode" : 2}
             ],
             "Huge" : [
                 {"key" : "unarmedDamage","value" : "1d8","mode" : 2}
@@ -642,7 +646,15 @@ export const XP_REQUIREMENT = {
 }
 
 ///INCLUSION LISTS
-export const WEAPON_INCLUSION_LIST = []
+/**
+ * Change keys an equipped weapon is allowed to contribute when its changes are read from the
+ * ACTOR's perspective. Weapons are otherwise excluded there so one weapon's bonuses never leak
+ * onto another's attack.
+ *
+ * The gloves (Combat/Power/Shock) are the case this exists for: they are weapon-type items whose
+ * whole purpose is to modify the wearer's *unarmed* damage, which is resolved against the actor.
+ */
+export const WEAPON_INCLUSION_LIST = ["unarmedGearDamageDieCount", "unarmedDamageType"]
 
 
 

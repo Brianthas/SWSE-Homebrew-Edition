@@ -238,6 +238,7 @@ export class CharacterDataModel extends SystemDataModel.mixin(...characterFuncti
     ) {
         let system = this;
         let actor = system.parent;
+        const unmatched = [];
         for (let talent of actor.itemTypes.talent) {
             if (talent.system.supplier?.id) {
                 continue;
@@ -269,7 +270,16 @@ export class CharacterDataModel extends SystemDataModel.mixin(...characterFuncti
                 );
             }
 
-            system.#_reduceAvailable(type);
+            if (system.#_reduceAvailable(type) === false) unmatched.push(talent.finalName);
+        }
+
+        // One line per prepare instead of one per talent, and it names the talents and the pools
+        // they failed to match — the old message reported only the actor, which said nothing
+        // about what to look at. NPC stat blocks attach talents directly rather than buying them
+        // out of a class budget, so this is expected for them and stays quiet.
+        if (unmatched.length && !actor.system.settings?.isNPC && !KNOWN_WEIRD_UNITS.includes(actor.name)) {
+            console.debug(`SWSE | ${actor.name}: ${unmatched.length} talent(s) matched no talent-slot pool `
+                + `(${unmatched.join(", ")}). Available pools: ${Object.keys(system.availableItems ?? {}).join(", ") || "none"}.`);
         }
     }
 
@@ -342,17 +352,14 @@ export class CharacterDataModel extends SystemDataModel.mixin(...characterFuncti
         let actor = system.parent;
 
         if (!type && !backupType) {
-            // Pre-built NPC stat blocks have their talents/feats attached directly rather than
-            // "spent" against a class-granted slot budget the way a player builds a PC, so they
-            // routinely have nothing here for this PC-leveling-budget check to match against —
-            // not a real problem worth logging, unlike the same failure on an actual player character.
-            if (!actor.system.settings?.isNPC && !KNOWN_WEIRD_UNITS.includes(actor.name)) {
-                console.error(
-                    "tried to reduce undefined on: " + actor.name,
-                    actor
-                );
-            }
-            return;
+            // Nothing to spend against. Pre-built NPC stat blocks legitimately hit this all the
+            // time — their talents/feats are attached directly rather than bought out of a
+            // class-granted budget the way a PC's are.
+            //
+            // Reporting is left to the caller: this runs once per item per prepareData(), which
+            // fires constantly, so logging here floods the console with a message that names
+            // only the actor and gives no clue which item is unmatched.
+            return false;
         }
 
         //null check
@@ -374,6 +381,7 @@ export class CharacterDataModel extends SystemDataModel.mixin(...characterFuncti
         if (system.availableItems[backupType] === 0) {
             delete system.availableItems[backupType];
         }
+        return true;
     }
 
     async #_manageAutomaticItems(removeFeats) {

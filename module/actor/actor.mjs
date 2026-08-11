@@ -1178,7 +1178,12 @@ class SWSEActor extends Actor {
 
     initializeCharacterSettings() {
         this.settings = [];
-        this.settings.push({type: "boolean", path: "system.settings.isNPC", label: "Is NPC", value: this.system.settings.isNPC})
+        // "Is NPC" is deliberately not offered here. handleActorLinks re-derives
+        // prototypeToken.actorLink from it on every prepareData() and pushes that onto every
+        // placed token of the actor, so toggling it from the sheet silently relinks or unlinks
+        // tokens mid-session and immediately re-asserts itself if corrected by hand. The flag
+        // still exists and is still set from the actor's type on creation (see _onCreate and
+        // handleActorLinks); it just isn't a per-sheet switch any more.
         this.settings.push({type: "boolean", path: "system.settings.autoSizeToken", label: "Autosize Token based on actor size?", value: this.system.settings.autoSizeToken})
         this.settings.push({type: "boolean", path: "system.settings.allowSheetLighting", label: "Allow Sheet to modify token lighting", value: this.system.settings.allowSheetLighting})
         this.settings.push({

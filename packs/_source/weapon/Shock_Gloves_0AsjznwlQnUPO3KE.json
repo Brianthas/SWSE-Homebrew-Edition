@@ -11,8 +11,13 @@
     "changes": [
       {
         "mode": 2,
-        "value": "1d4",
-        "key": "unarmedBonusDamage"
+        "value": 1,
+        "key": "unarmedGearDamageDieCount"
+      },
+      {
+        "mode": 2,
+        "value": "Stun",
+        "key": "unarmedDamageType"
       }
     ],
     "choices": [],

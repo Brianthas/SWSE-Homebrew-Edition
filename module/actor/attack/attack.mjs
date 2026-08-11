@@ -1794,7 +1794,36 @@ function resolveUnarmedDamageDie(actor) {
         reduce: "SUM"
     })
     damageDie = increaseDieSize(damageDie, bonus);
-    return getDiceTermsFromString(damageDie).dice;
+    const dice = getDiceTermsFromString(damageDie).dice;
+
+    // Homebrew: Martial Arts I/II/III and the gloves each add a whole die of the character's own
+    // unarmed die rather than stepping its size, so a Medium brawler runs 1d6 -> 2d6 -> 3d6 ->
+    // 4d6, and 5d6 with gloves on top. Applied to the die term's count, which leaves the die
+    // size (and therefore the size table above) untouched.
+    //
+    // Feats stack; worn gear does not. Only one pair of gloves can be in use at a time, so the
+    // gear contribution is a MAX over whatever is equipped rather than a sum — wearing Power and
+    // Shock Gloves together is still worth exactly one extra die, not two.
+    const featDice = toNumber(getInheritableAttribute({
+        entity: actor,
+        attributeKey: "bonusUnarmedDamageDieCount",
+        reduce: "SUM"
+    }));
+    const gearDice = toNumber(getInheritableAttribute({
+        entity: actor,
+        attributeKey: "unarmedGearDamageDieCount",
+        reduce: "MAX"
+    }));
+    const bonusDice = featDice + gearDice;
+    if (bonusDice > 0) {
+        for (const term of dice) {
+            // A sub-d2 size resolves to the flat value "1" with no die to add to — nothing to
+            // scale there, and inventing one would give a Fine character real dice.
+            if (term instanceof foundry.dice.terms.Die) term.number += bonusDice;
+        }
+    }
+
+    return dice;
 }
 
 function multiplyNumericTerms(roll, multiplier) {
