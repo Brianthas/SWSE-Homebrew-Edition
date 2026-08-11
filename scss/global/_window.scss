@@ -107,3 +107,48 @@
 .border-light {
   border: 1px solid var(--swse-accent);
 }
+
+// Dialogs sit outside the sheet, so the sheet-scoped field styling doesn't reach them, and the
+// rules above are class selectors (.input/.textarea) that plain markup in a Dialog never carries.
+// Without this a dialog input inherits the dark window background but keeps a near-black text
+// colour — invisible. Element selectors so it applies to any dialog markup, ours or core's.
+// (`option` is set explicitly because a native select popup is painted by the OS and doesn't
+// inherit the select's own colours.)
+.dialog,
+.application.dialog {
+  input[type="text"],
+  input[type="number"],
+  input[type="search"],
+  input[type="password"],
+  textarea,
+  select {
+    background: var(--swse-control);
+    border: 1px solid var(--swse-border);
+    border-radius: $radius-sm;
+    color: var(--swse-text);
+
+    &::placeholder {
+      color: var(--swse-text-muted);
+    }
+
+    &:focus {
+      border-color: var(--swse-accent);
+      outline: none;
+    }
+  }
+
+  select option {
+    background: var(--swse-control);
+    color: var(--swse-text);
+  }
+
+  label,
+  .notes,
+  p {
+    color: var(--swse-text);
+  }
+
+  .notes {
+    color: var(--swse-text-muted);
+  }
+}

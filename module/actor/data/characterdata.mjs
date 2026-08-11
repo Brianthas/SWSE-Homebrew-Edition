@@ -28,15 +28,9 @@ export class CharacterDataModel extends SystemDataModel.mixin(...characterFuncti
     static _systemType = "character";
 
     static migrateData(source) {
-        if (source.forcePoints && typeof source.forcePoints === "object") {
-            source.forcePoints = source.forcePoints.quantity || 0;
-        }
-
-        // Force to integer if it's a string or float
-        if (source.forcePoints !== undefined) {
-            source.forcePoints = parseInt(source.forcePoints) || 0;
-        }
-
+        // forcePoints normalisation lives in TraitsFields.migrateData (called below) alongside
+        // the field's own definition — it used to flatten the object form back to a bare number
+        // here, which is the opposite of what the {value, max} bar shape needs.
 
         //TODO figure out if this is already called
         TraitsFields.migrateData(source)
@@ -107,6 +101,9 @@ export class CharacterDataModel extends SystemDataModel.mixin(...characterFuncti
 
             //Light/Kit carrying-capacity slots
             this._prepareSlotsDerivedData();
+
+            //Force Point / Destiny Point bar maxima (needs items, so it runs after feats)
+            this.parent.prepareResourceDerivedData();
 
             //Settings
             this.#initializeCharacterSettings();

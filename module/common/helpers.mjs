@@ -254,6 +254,32 @@ export const registerHandlebarsHelpers = function () {
         return object[key][fieldname];
     });
 
+    /**
+     * Rich-text editor for ApplicationV2 sheets.
+     *
+     * The core `{{editor}}` helper renders an edit button whose click handler is wired up by
+     * FormApplication (AppV1) — AppV2 sheets have no equivalent, so on those the button renders
+     * but does nothing at all. This emits the `<prose-mirror>` custom element instead, which
+     * activates itself and submits through the normal named-field path.
+     *
+     * `toggled` is what gives the read-only view with an edit button (i.e. the old `button=true`);
+     * without it the editor is always open. There's no `editable` attribute — read-only maps to
+     * `readonly`.
+     */
+    Handlebars.registerHelper("prosemirror", function (options) {
+        const {name, value, enriched, editable, collaborate, toggled, height} = options.hash;
+        const element = foundry.applications.elements.HTMLProseMirrorElement.create({
+            name,
+            value: value ?? "",
+            enriched: enriched ?? value ?? "",
+            readonly: editable === false,
+            collaborate: collaborate ?? false,
+            toggled: toggled !== false,
+            height,
+        });
+        return new Handlebars.SafeString(element.outerHTML);
+    });
+
     Handlebars.registerHelper("parseRollsFrom", function (content) {
         const htmlRollWrapper = `<span class="rollable" data-roll="${{}}"></span>`
     });

@@ -106,6 +106,70 @@
   border: 1px solid var(--swse-accent);
 }
 
+.dialog input[type=text],
+.dialog input[type=number],
+.dialog input[type=search],
+.dialog input[type=password],
+.dialog textarea,
+.dialog select,
+.application.dialog input[type=text],
+.application.dialog input[type=number],
+.application.dialog input[type=search],
+.application.dialog input[type=password],
+.application.dialog textarea,
+.application.dialog select {
+  background: var(--swse-control);
+  border: 1px solid var(--swse-border);
+  border-radius: 4px;
+  color: var(--swse-text);
+}
+.dialog input[type=text]::placeholder,
+.dialog input[type=number]::placeholder,
+.dialog input[type=search]::placeholder,
+.dialog input[type=password]::placeholder,
+.dialog textarea::placeholder,
+.dialog select::placeholder,
+.application.dialog input[type=text]::placeholder,
+.application.dialog input[type=number]::placeholder,
+.application.dialog input[type=search]::placeholder,
+.application.dialog input[type=password]::placeholder,
+.application.dialog textarea::placeholder,
+.application.dialog select::placeholder {
+  color: var(--swse-text-muted);
+}
+.dialog input[type=text]:focus,
+.dialog input[type=number]:focus,
+.dialog input[type=search]:focus,
+.dialog input[type=password]:focus,
+.dialog textarea:focus,
+.dialog select:focus,
+.application.dialog input[type=text]:focus,
+.application.dialog input[type=number]:focus,
+.application.dialog input[type=search]:focus,
+.application.dialog input[type=password]:focus,
+.application.dialog textarea:focus,
+.application.dialog select:focus {
+  border-color: var(--swse-accent);
+  outline: none;
+}
+.dialog select option,
+.application.dialog select option {
+  background: var(--swse-control);
+  color: var(--swse-text);
+}
+.dialog label,
+.dialog .notes,
+.dialog p,
+.application.dialog label,
+.application.dialog .notes,
+.application.dialog p {
+  color: var(--swse-text);
+}
+.dialog .notes,
+.application.dialog .notes {
+  color: var(--swse-text-muted);
+}
+
 .grid,
 .grid-2col {
   display: grid;

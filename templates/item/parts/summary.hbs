@@ -22,11 +22,11 @@
                 {{> 'systems/swse/templates/item/parts/stats/vehicle-system.hbs'}}
             {{/ifEquals}}
             {{#if item.system}}
-                {{editor item.system.description target="system.description" button=true owner=owner
-                         editable=editable engine="prosemirror"}}
+                {{prosemirror name="system.description" value=item.system.description
+                              toggled=true editable=editable}}
             {{else}}
-                {{editor item._source.system.description target="system.description" button=true owner=owner
-                         editable=editable engine="prosemirror"}}
+                {{prosemirror name="system.description" value=item._source.system.description
+                              toggled=true editable=editable}}
             {{/if}}
             {{#each item.effects as |modification id|}}
                 {{#if modification.flags.swse.itemModifier}}

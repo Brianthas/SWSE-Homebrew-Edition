@@ -77,6 +77,15 @@ export class AbilityFields {
                     integer: true,
                     label: "Darkside Score",
                 }),
+                // Derived each prepare (half Wisdom, rounded up) — declared so the schema
+                // advertises darkside as a token resource bar, which needs `value` and `max`.
+                max: new fields.NumberField({
+                    initial: 0,
+                    min: 0,
+                    integer: true,
+                    nullable: false,
+                    label: "Darkside Score Maximum",
+                }),
             }),
         };
     }

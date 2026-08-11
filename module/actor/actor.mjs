@@ -637,9 +637,23 @@ class SWSEActor extends Actor {
     }
 
     get forcePoints(){
-        const forcePoints = Number.isInteger(this.system.forcePoints) ? this.system.forcePoints : (this.system.forcePoints?.quantity || 0);
-        this.system.forcePoints = (typeof this.system.forcePoints === 'object') ? this.system.forcePoints || {} : {};
-        this.system.forcePoints.quantity = forcePoints;
+        return this.system.forcePoints;
+    }
+
+    /**
+     * Derive the maxima for the Force Point / Destiny Point resource bars, plus the Force Point
+     * die formula.
+     *
+     * This has to happen during data preparation rather than in the `forcePoints` getter, which
+     * is where it used to live: a token resource bar reads `actor.system.forcePoints` straight
+     * off the prepared data and never calls the getter, so a max computed only on getter access
+     * left the bar reading 0.
+     */
+    prepareResourceDerivedData() {
+        const perDay = this.forcePointsPerDay;
+        this.system.forcePoints.max = perDay;
+        // Homebrew: Destiny Points per day equal Force Points per day.
+        this.system.destinyPoints.max = perDay;
 
         const forceDieSize = getInheritableAttribute({
             entity: this,
@@ -650,10 +664,6 @@ class SWSEActor extends Actor {
 
         const forceDieCount = this.levelSummary > 14 ? 3 : (this.levelSummary > 7 ? 2 : 1);
         this.system.forcePoints.roll = `${forceDieCount}d${forceDie}kh`
-
-        this.system.forcePoints.max = this.forcePointsPerDay;
-
-        return this.system.forcePoints;
     }
 
     /**

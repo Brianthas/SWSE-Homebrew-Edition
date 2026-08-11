@@ -31,8 +31,8 @@
             </div>
             <div class="middle-right-sidebar">
                 <div class="flex-col">
-    {{editor data.flags.swse.description target="flags.swse.description" button=true owner=owner
-             editable=editable engine="prosemirror"}}
+    {{prosemirror name="flags.swse.description" value=data.flags.swse.description
+                  toggled=true editable=editable}}
                 </div>
             </div>
         </div>

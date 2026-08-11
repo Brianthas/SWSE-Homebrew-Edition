@@ -1976,7 +1976,7 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
 
         const data = {
             "system.health.value": actor.system.health.max,
-            "system.forcePoints.quantity": actor.forcePointsPerDay
+            "system.forcePoints.value": actor.forcePointsPerDay
         };
 
         for (const key of Object.keys(actor.system.toggles?.secondWinds ?? {})) {

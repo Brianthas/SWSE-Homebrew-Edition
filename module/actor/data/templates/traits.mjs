@@ -14,6 +14,25 @@ export class TraitsFields {
             }
             delete source.darkSideScore;
         }
+
+        // forcePoints/destinyPoints became {value, max} bars. Two legacy shapes exist: a bare
+        // number, and (for forcePoints) an object keyed `quantity` — the latter was never a
+        // declared field, it was written onto prepared data at runtime by the old getter and
+        // could reach the database via the sheet's `system.forcePoints.quantity` input.
+        for (const key of ["forcePoints", "destinyPoints"]) {
+            const value = source[key];
+            if (value === undefined || value === null) continue;
+            if (typeof value === "object") {
+                if (value.value === undefined && value.quantity !== undefined) {
+                    value.value = parseInt(value.quantity) || 0;
+                }
+                delete value.quantity;
+                // `roll` was likewise a runtime-only property that could be persisted.
+                delete value.roll;
+            } else {
+                source[key] = {value: parseInt(value) || 0};
+            }
+        }
     }
 
     //Data common for all actors which needs to be persisted in the database
@@ -39,11 +58,25 @@ export class TraitsFields {
     //Data common for all character actors which needs to be persisted in the database
     static #_commonCharacter() {
         return {
-            forcePoints: new fields.NumberField({
-                initial: 0,
-                integer: true,
-                min: 0,
-                label: "ForcePoints",
+            // {value, max} rather than a bare number so Foundry recognises this as a token
+            // resource bar (getTrackedAttributes only treats a SchemaField with both a `value`
+            // and a `max` NumberField as a bar). `max` is fully derived each prepare from
+            // forcePointsPerDay — it's declared here only so the schema advertises the bar.
+            forcePoints: new fields.SchemaField({
+                value: new fields.NumberField({
+                    initial: 0,
+                    integer: true,
+                    min: 0,
+                    nullable: false,
+                    label: "Force Points",
+                }),
+                max: new fields.NumberField({
+                    initial: 0,
+                    integer: true,
+                    min: 0,
+                    nullable: false,
+                    label: "Force Points per Day",
+                }),
             }),
             // Homebrew: tracked separately from regular Force Points because a Destiny
             // Point can be broken down into a Force Point — that converted point doesn't
@@ -54,26 +87,27 @@ export class TraitsFields {
                 min: 0,
                 label: "Bonus Force Points",
             }),
-            destinyPoints: new fields.NumberField({
-                initial: 0,
-                integer: true,
-                min: 0,
-                label: "DestinyPoints",
-            }),
-            // darkSideScore: new fields.NumberField({
-            //     initial: 0,
-            //     min: 0,
-            //     integer: true,
-            //     label: "Darkside Score",
-            // }),
-            darkSide: new fields.SchemaField({
-                value:new fields.NumberField({
+            // Same {value, max} bar shape as forcePoints above; the maximum is likewise
+            // derived (Destiny Points per day equals Force Points per day).
+            destinyPoints: new fields.SchemaField({
+                value: new fields.NumberField({
                     initial: 0,
-                    min: 0,
                     integer: true,
-                    label: "Darkside Score",
+                    min: 0,
+                    nullable: false,
+                    label: "Destiny Points",
+                }),
+                max: new fields.NumberField({
+                    initial: 0,
+                    integer: true,
+                    min: 0,
+                    nullable: false,
+                    label: "Destiny Points per Day",
                 }),
             }),
+            // Dark Side Score lives at `system.darkside` (AbilityFields.darkside, via
+            // CommonActorData). A duplicate `darkSide` field used to be declared here as well,
+            // with nothing anywhere reading or writing it — removed.
             // Homebrew: the size category declared here is the single source of truth
             // for the size-driven homebrew table — it is not overridden by species data.
             // Player-facing sizes are limited to the three the homebrew table covers.
