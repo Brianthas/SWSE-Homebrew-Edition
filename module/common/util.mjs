@@ -652,14 +652,14 @@ export function getOrdinal(i) {
 export function d20Result(roll) {
     let term = roll.terms.find(term => term.faces === 20);
     // With advantage/disadvantage (2d20kh1/2d20kl1) the discarded die is still present in
-    // results, just flagged inactive — fall back to results[0] for a plain 1d20 term, where
+    // results, just flagged inactive - fall back to results[0] for a plain 1d20 term, where
     // the single result is always active.
     let active = term.results.find(result => result.active) || term.results[0];
     return active.result;
 }
 
 /**
- * Rewrites a formula's leading 1d20 term into 2d20kh1 (advantage) or 2d20kl1 (disadvantage) —
+ * Rewrites a formula's leading 1d20 term into 2d20kh1 (advantage) or 2d20kl1 (disadvantage) -
  * roll twice, keep the higher/lower result, matching the standard d20-system mechanic. Formulas
  * that don't start with a plain 1d20 (e.g. non-d20 rolls sharing a generic roll handler) are
  * returned unchanged, and an unrecognized/absent mode is a no-op.
@@ -1194,8 +1194,8 @@ export function equippedItems(entity, type = null) {
     if (!entity.items) {
         return [];
     } else {
-        // `equipped` is multi-state, not a boolean — vehicles use "installed"/"pilotInstalled"/
-        // "gunnerInstalled" — so this stays a truthiness check rather than `=== "equipped"`.
+        // `equipped` is multi-state, not a boolean - vehicles use "installed"/"pilotInstalled"/
+        // "gunnerInstalled" - so this stays a truthiness check rather than `=== "equipped"`.
         // The one value that must not count is the literal string "unequipped", which some items
         // store instead of null and which is otherwise truthy, leaving them permanently equipped.
         return entity.items.filter(item => !!item.system.equipped
@@ -1637,7 +1637,7 @@ function performAttack(actor, type, attackKey, macro, rollMode) {
 
         if(macro){
             // Roll mode is a one-off situational call, not something worth baking into a
-            // reusable macro — deliberately not passed through here.
+            // reusable macro - deliberately not passed through here.
             await createAttackMacro({
                 macroName: macroName.value,
                 actorUUID: actor.uuid,
@@ -1670,12 +1670,12 @@ export function attackOptions(actor) {
 
             const attackName = actor.attack.attacks.find(a => a.attackKey === attackKey)?.name;
 
-            // Attack/Damage Bonus first — the field a player actually wants most of the time
-            // (a one-off situational bonus, e.g. flanking/cover) — Macro Name is secondary and
+            // Attack/Damage Bonus first - the field a player actually wants most of the time
+            // (a one-off situational bonus, e.g. flanking/cover) - Macro Name is secondary and
             // only matters if "Save Macro" gets used, not every visit to this dialog. Modeled on
             // dnd5e's own roll-configuration dialog (read directly from the installed dnd5e
             // system): a bordered "Configuration" fieldset around the input fields, then
-            // Advantage/Normal/Disadvantage as three separate buttons — no radio group — with
+            // Advantage/Normal/Disadvantage as three separate buttons - no radio group - with
             // the recommended one (Normal) picked out via the dialog's own `default` styling.
             let attackWithOptions = `<fieldset>
     <legend>Configuration</legend>
@@ -1694,7 +1694,7 @@ export function attackOptions(actor) {
 </fieldset>`
 
             await Dialog.wait({
-                title: `Attack with Bonus — ${attackName}`,
+                title: `Attack with Bonus - ${attackName}`,
                 content: attackWithOptions,
                 buttons: {
                     advantage: {

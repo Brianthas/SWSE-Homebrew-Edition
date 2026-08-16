@@ -46,7 +46,7 @@ import {getActiveCombatToggleTerms} from "./combat-toggle.mjs";
 export const outOfRange = "out of range";
 
 // Homebrew: prefix marking an Attack's weaponId as a system.customAttacks entry rather than
-// a real embedded item's uuid (or the "Unarmed Attack" sentinel) — see custom-attack-item.mjs.
+// a real embedded item's uuid (or the "Unarmed Attack" sentinel) - see custom-attack-item.mjs.
 export const CUSTOM_ATTACK_PREFIX = "CustomAttack:";
 
 
@@ -339,7 +339,7 @@ export class Attack {
     get name() {
         let name = this.item.name;
         // A custom attack's blank Damage Die falls back to the natural unarmed damage die (see
-        // CustomAttackItem#isUnarmed) purely for damage-resolution purposes — that shouldn't
+        // CustomAttackItem#isUnarmed) purely for damage-resolution purposes - that shouldn't
         // also relabel it as "Unarmed Attack (Grapple)", which reads like an equipped item's
         // display name, not a standalone custom attack.
         const prefixUnarmed = this.isUnarmed && 'Unarmed Attack' !== name && !this.isCustomAttack;
@@ -447,7 +447,7 @@ export class Attack {
         let attributeStats = []
         if (isRanged(item)) {
             // Homebrew: "Ranged weapons, including grenades, use DEX for attack and damage."
-            // Dexterity only — the Strength-or-Dexterity choice belongs to thrown MELEE weapons
+            // Dexterity only - the Strength-or-Dexterity choice belongs to thrown MELEE weapons
             // (vibroknife, tomahawk), and grenades count as both ranged and thrown, so keying off
             // isThrown here would hand them Strength too.
             attributeStats.push("DEX")
@@ -455,7 +455,7 @@ export class Attack {
             attributeStats.push("STR")
             // Homebrew: one-handed melee weapons may use Strength or Dexterity for attack,
             // unconditionally (no Weapon Focus or relative-size requirement). Two-handed
-            // weapons cannot use Dexterity — except thrown weapons, which keep the choice
+            // weapons cannot use Dexterity - except thrown weapons, which keep the choice
             // even when wielded two-handed.
             if (isThrown(item) || !this.#isTwoHandedMelee(actor, item)) {
                 attributeStats.push("DEX")
@@ -467,7 +467,7 @@ export class Attack {
         // Homebrew: a persisted or in-dialog ability-override choice replaces the auto-picked
         // ability outright. Strength/Dexterity/Wisdom/Charisma are offered on every weapon; the
         // lightsaber-technique choices (Kinetic Combat, Noble Fencing Style) only apply to
-        // lightsabers — see #getAbilityChoice. Ataru only affects damage (see
+        // lightsabers - see #getAbilityChoice. Ataru only affects damage (see
         // #getMeleeDamageAbilityModifier), attack is unaffected.
         const abilityChoice = this.#getAbilityChoice(item);
         if (["str", "dex", "int", "wis", "cha"].includes(abilityChoice)) {
@@ -494,7 +494,7 @@ export class Attack {
 
     /**
      * The damage-side counterpart. Falls back to the attack choice when unset, since a weapon
-     * normally uses one ability for both — the split only matters for the cases that genuinely
+     * normally uses one ability for both - the split only matters for the cases that genuinely
      * differ (e.g. a turret attacking on Dexterity but damaging on Intelligence).
      */
     #getDamageAbilityChoice(item) {
@@ -520,13 +520,13 @@ export class Attack {
     }
 
     /**
-     * Homebrew: builds the one-roll-only ability-override radio for the attack dialog —
+     * Homebrew: builds the one-roll-only ability-override radio for the attack dialog -
      * Strength/Dexterity auto-pick baseline plus explicit Str/Dex/Wis/Cha (offered on every
      * weapon, no gating), plus Ataru/Kinetic Combat/Noble Fencing Style (lightsabers only, each
      * shown only if the actor has the granting talent/power). Defaults to whichever choice is
      * currently persisted on the weapon (system.abilityOverride) so the dialog reflects the
      * sheet's baseline rather than always resetting to Auto. A pick made here overrides the
-     * persisted value for this attack only — see #getAbilityChoice.
+     * persisted value for this attack only - see #getAbilityChoice.
      */
     getAbilityModifierOptions() {
         const item = this.item;
@@ -579,7 +579,7 @@ export class Attack {
             {value: "wis", label: "Wisdom"},
             {value: "cha", label: "Charisma"},
         ];
-        // Ataru is kept because it's genuinely distinct — it doubles Dexterity on damage rather
+        // Ataru is kept because it's genuinely distinct - it doubles Dexterity on damage rather
         // than swapping in an ability, which the plain Str/Dex/Int/Wis/Cha list can't express.
         // Kinetic Combat (Wisdom or Charisma) and Noble Fencing Style (Charisma) are just ability
         // swaps that those options already cover, so they'd be duplicate entries.
@@ -592,7 +592,7 @@ export class Attack {
 
     /**
      * Same options for the damage-side selector, but the default reads "Same as attack" rather
-     * than "Auto" — blank means damage follows whatever the attack ability resolved to, which is
+     * than "Auto" - blank means damage follows whatever the attack ability resolved to, which is
      * the usual case (see #getDamageAbilityChoice).
      */
     get damageAbilityOverrideOptions() {
@@ -609,7 +609,7 @@ export class Attack {
     get damageTypeOverrideOptions() {
         const item = this.item;
         if (!item || this.isUnarmedAttackPlaceholder) return [];
-        // Just "Default" — a weapon's declared type can be a whole sentence ("Physical, Energy,
+        // Just "Default" - a weapon's declared type can be a whole sentence ("Physical, Energy,
         // Ion, or Stun (GM's choice per grenade type)"), and folding that into the option label
         // stretches the select across the sheet. The full text stays in the control's tooltip.
         return [
@@ -619,9 +619,9 @@ export class Attack {
     }
 
     /**
-     * Persisted per-weapon handedness choice for the sheet-level <select> — mirrors
+     * Persisted per-weapon handedness choice for the sheet-level <select> - mirrors
      * abilityOverrideOptions. Only offered when the weapon genuinely supports both 1-handed and
-     * 2-handed use (a same-size weapon, or one with grip "one or two handed") — a weapon that
+     * 2-handed use (a same-size weapon, or one with grip "one or two handed") - a weapon that
      * can ONLY ever be one size (e.g. always two-handed for this wielder) has nothing to choose,
      * so no selector is shown and it stays purely auto-determined.
      */
@@ -835,7 +835,7 @@ export class Attack {
         let isTwoHanded = isMelee(item) ? this.#isTwoHandedMelee(actor, item) : false;
 
         // Homebrew: one-handed melee weapons (and thrown weapons) may use Strength or
-        // Dexterity for damage. Two-handed weapons cannot use Dexterity — except thrown
+        // Dexterity for damage. Two-handed weapons cannot use Dexterity - except thrown
         // weapons, which keep the choice even when wielded two-handed.
         let abilityMod = strMod;
         if (isThrown(item) || !isTwoHanded) {
@@ -1529,7 +1529,7 @@ export class Attack {
 
         // Only area-effect attacks (grenades, autofire cones, etc.) fall back to placing a
         // template to pick their targets. A single-target attack with nobody targeted (via
-        // Foundry's own targeting tool — right-click a token, or press T) just rolls untargeted —
+        // Foundry's own targeting tool - right-click a token, or press T) just rolls untargeted -
         // no forced template-click, no blocking prompt.
         if (this.targetType.type === Attack.TARGET_TYPES.SINGLE_TARGET) {
             return [];
@@ -1572,7 +1572,7 @@ export class Attack {
         response.rangeBreakdown = []
         let attackSummaries = []
 
-        // No target selected (single-target attacks no longer require one — see
+        // No target selected (single-target attacks no longer require one - see
         // Attack#targetedActors) means there's no location to measure a range penalty against,
         // but the roll itself still happened above and needs to actually show up on the chat
         // card, which only renders entries out of rangeBreakdown.
@@ -1619,7 +1619,7 @@ export class Attack {
         response.attackSummaries = JSON.stringify(attackSummaries)
 
         // Attack instances are cached and reused across renders (AttackDelegate's own cache,
-        // reset only on the actor's next prepareData) — temporaryChanges/advantageMode need to
+        // reset only on the actor's next prepareData) - temporaryChanges/advantageMode need to
         // be scoped to just this resolve() call, or the sheet's own inline to-hit/damage preview
         // (attack.attackRoll/damageRoll, read independently of resolve() on every render) would
         // keep showing this roll's one-off bonus/Advantage state indefinitely afterward.
@@ -1756,7 +1756,7 @@ export function getDiceTermsFromString(dieString) {
 }
 
 /**
- * Plain 1d20, or (for advantage/disadvantage) 2d20 keeping only the higher/lower result —
+ * Plain 1d20, or (for advantage/disadvantage) 2d20 keeping only the higher/lower result -
  * same roll-twice mechanic as the rest of the system, see util.mjs's applyRollMode.
  *
  * @param {"advantage"|"disadvantage"|undefined} mode
@@ -1802,7 +1802,7 @@ function resolveUnarmedDamageDie(actor) {
     // size (and therefore the size table above) untouched.
     //
     // Feats stack; worn gear does not. Only one pair of gloves can be in use at a time, so the
-    // gear contribution is a MAX over whatever is equipped rather than a sum — wearing Power and
+    // gear contribution is a MAX over whatever is equipped rather than a sum - wearing Power and
     // Shock Gloves together is still worth exactly one extra die, not two.
     const featDice = toNumber(getInheritableAttribute({
         entity: actor,
@@ -1817,7 +1817,7 @@ function resolveUnarmedDamageDie(actor) {
     const bonusDice = featDice + gearDice;
     if (bonusDice > 0) {
         for (const term of dice) {
-            // A sub-d2 size resolves to the flat value "1" with no die to add to — nothing to
+            // A sub-d2 size resolves to the flat value "1" with no die to add to - nothing to
             // scale there, and inventing one would give a Fine character real dice.
             if (term instanceof foundry.dice.terms.Die) term.number += bonusDice;
         }

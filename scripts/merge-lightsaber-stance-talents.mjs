@@ -87,7 +87,7 @@ const redirectionStance = makeTalent({
 
 // ---- 2. rewrite prerequisites that referenced the merged-away talents ------------------------
 // Returns {node, changed}. Anything not actually affected by the merge is returned byte-identical
-// — prerequisite `text` is hand-written prose ("Any two Talents from the Sabotage Talent Tree",
+// - prerequisite `text` is hand-written prose ("Any two Talents from the Sabotage Talent Tree",
 // "Medium or larger size") that regenerating from children would destroy, so text is only rebuilt
 // on nodes whose own subtree really changed.
 function rewritePrereq(node) {

@@ -1,10 +1,10 @@
 // Promotes generic system.changes entries onto real typed schema fields for a given item
 // type, per the Item Schema & Sheet Overhaul plan (Track A). Reuses PROMOTED_FIELDS/
 // UNIVERSAL_ITEM_FIELDS from module/item/default-changes.mjs as the single source of truth
-// shared with the runtime defaultChanges dispatcher — so what gets migrated here is exactly
+// shared with the runtime defaultChanges dispatcher - so what gets migrated here is exactly
 // what defaultChanges will synthesize back at runtime.
 //
-// Only touches each item's own top-level system.changes array — never effects[].system.changes
+// Only touches each item's own top-level system.changes array - never effects[].system.changes
 // (mode/form-switching weapons like the Amphistaff keep their per-mode overrides untouched).
 //
 // Usage:
@@ -20,9 +20,9 @@ const SOURCE_DIR = path.join(REPO_ROOT, "packs", "_source");
 // warned about) when an item legitimately has more than one entry for that key, plus the
 // separator to join with:
 //  - specialQualities: e.g. the Amphistaff has two separate top-level "special" notes (venom
-//    spit + weapon-form switching) — these are read as prose, so join with paragraph breaks.
+//    spit + weapon-form switching) - these are read as prose, so join with paragraph breaks.
 //  - damageType: dual-damage-type weapons are a real, common pattern (many lightsabers deal
-//    both "Energy" and "Slashing", confirmed 47 legacy weapons have exactly this shape) — the
+//    both "Energy" and "Slashing", confirmed 47 legacy weapons have exactly this shape) - the
 //    existing runtime reader already does attributes.join(', ') for display (attack.mjs
 //    get type()), so match that separator here.
 const MIGRATIONS = {
@@ -154,7 +154,7 @@ for (const packName of config.packs) {
 console.log(`\n${dryRun ? "[dry-run] " : ""}${filesChanged} files ${dryRun ? "would be" : "were"} changed, ${totalPromoted} fields promoted, ${totalStripped} change entries stripped.`);
 
 if (conflicts.length) {
-    console.log(`\n${conflicts.length} conflicts found (multiple differing values for the same key, left untouched — resolve by hand):`);
+    console.log(`\n${conflicts.length} conflicts found (multiple differing values for the same key, left untouched - resolve by hand):`);
     for (const c of conflicts) {
         console.log(`  ${c.file}: "${c.key}" has ${c.values.length} differing values: ${JSON.stringify(c.values)}`);
     }

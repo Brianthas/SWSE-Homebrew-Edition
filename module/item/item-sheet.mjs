@@ -39,9 +39,9 @@ export class SWSEItemSheet extends HandlebarsApplicationMixin(foundry.applicatio
     };
 
     // Provided/Prerequisites/Stripping/Modifications/Modes/Levels used to be standalone tabs
-    // here — none were dense enough to justify a whole tab, so they're now collapsible
+    // here - none were dense enough to justify a whole tab, so they're now collapsible
     // sections on Summary instead (templates/item/parts/item-sections.hbs). Changes stays its
-    // own tab for every type, including typed gear types — their leftover generic keys
+    // own tab for every type, including typed gear types - their leftover generic keys
     // (toHitModifier, proficiency bonuses, etc.) live there, same as pf2e keeps Rules Elements
     // separate from the main stat block rather than folding them in.
     static PARTS = {
@@ -69,21 +69,21 @@ export class SWSEItemSheet extends HandlebarsApplicationMixin(foundry.applicatio
         }
     };
 
-    /** V1-era compatibility alias — several shared listener helpers (module/common/listeners.mjs) still use
+    /** V1-era compatibility alias - several shared listener helpers (module/common/listeners.mjs) still use
      * `this.object` as the document-being-edited, matching V1 DocumentSheet's alias for `this.document`. */
     get object() {
         return this.document;
     }
 
-    /** @override — core's title builds a per-type prefix from CONFIG.Item.typeLabels, which SWSE never
+    /** @override - core's title builds a per-type prefix from CONFIG.Item.typeLabels, which SWSE never
      * populates (item types are titleCased ad-hoc, see the "options" Handlebars helper), so the default
      * would show the raw, untranslated localization key instead of a label. */
     get title() {
         return `${this.item.type.titleCase()}: ${this.item.name}`;
     }
 
-    /** @override — only the tabs whose PART is actually present should show in the nav.
-     * Changes now stays a tab for every type, including migrated gear types — their leftover
+    /** @override - only the tabs whose PART is actually present should show in the nav.
+     * Changes now stays a tab for every type, including migrated gear types - their leftover
      * generic keys (toHitModifier, proficiency bonuses, etc.) live there, same as pf2e keeps
      * Rules Elements on their own tab rather than folded into the main stat block. */
     _configureRenderParts(options) {
@@ -129,7 +129,7 @@ export class SWSEItemSheet extends HandlebarsApplicationMixin(foundry.applicatio
         });
 
         // <select multiple> fields (e.g. weapon Damage Type, which some weapons legitimately
-        // have two of) aren't submitOnChange-compatible with a plain StringField — the browser
+        // have two of) aren't submitOnChange-compatible with a plain StringField - the browser
         // reports an array, the schema expects a comma-joined string. Handled manually rather
         // than via the actions map since this is a change event, not a click.
         this.element.querySelectorAll("select[data-multi-select-name]").forEach(el => {
@@ -226,7 +226,7 @@ export class SWSEItemSheet extends HandlebarsApplicationMixin(foundry.applicatio
 
         let content = item.description || item.system?.description;
 
-        // toChat() posts silently (a sound plays, but there's no visible confirmation) — if the
+        // toChat() posts silently (a sound plays, but there's no visible confirmation) - if the
         // Chat sidebar tab isn't already the active one, clicking Share looked like it did
         // nothing at all. Switch to it so the shared content is immediately visible.
         toChat(content, this.object.parent, item.name);

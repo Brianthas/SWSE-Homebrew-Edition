@@ -18,10 +18,10 @@ export function BaseItemFields() {
         changes: new fields.ArrayField(new fields.ObjectField()),
         choices: new fields.ArrayField(new fields.ObjectField()),
         // Despite the template.json "[]" default, item.mjs writes/reads this as a dict keyed by mode
-        // index/id (e.g. system.modes[modeIndex] = {...}), not an array — ObjectField matches real usage.
+        // index/id (e.g. system.modes[modeIndex] = {...}), not an array - ObjectField matches real usage.
         modes: new fields.ObjectField({initial: {}}),
         providedItems: new fields.ArrayField(new fields.ObjectField()),
-        // Keyed by use-index (e.g. "0", "1", ...) not an array — the "Used?" pip checkboxes
+        // Keyed by use-index (e.g. "0", "1", ...) not an array - the "Used?" pip checkboxes
         // (actor-sheet.hbs/item-entry.hbs, toggle-use action) write system.uses.<index> directly.
         uses: new fields.ObjectField({initial: {}}),
         payload: new fields.StringField({initial: "", blank: true, required: false}),

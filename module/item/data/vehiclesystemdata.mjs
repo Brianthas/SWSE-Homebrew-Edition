@@ -12,7 +12,7 @@ const fields = foundry.data.fields;
  * - actor.mjs reads item.system.subtype (e.g. "weapon systems") and item.system.equipped
  *   (values "installed"/"pilotInstalled"), so it needs the "item" template's fields.
  * - common/constants.mjs lists "vehicleSystem" subtype categories and in EQUIPABLE_TYPES, and
- *   item.mjs's getStripping() is used generically across equipable types — equipped/stripping
+ *   item.mjs's getStripping() is used generically across equipable types - equipped/stripping
  *   included for the same reason as weapondata.mjs.
  */
 export default class VehicleSystemData extends ItemSystemDataModel {
@@ -46,7 +46,7 @@ export default class VehicleSystemData extends ItemSystemDataModel {
             shieldRating: new fields.StringField({initial: "", blank: true, required: false}),
             reflexDefenseBonus: new fields.StringField({initial: "", blank: true, required: false}),
             hitPointEq: new fields.StringField({initial: "", blank: true, required: false}),
-            // Movement Systems. `hyperdrive` deliberately excluded — see default-changes.mjs.
+            // Movement Systems. `hyperdrive` deliberately excluded - see default-changes.mjs.
             speedStarshipScale: new fields.StringField({initial: "", blank: true, required: false}),
             dexterityBonus: new fields.StringField({initial: "", blank: true, required: false}),
             astrogationBonus: new fields.StringField({initial: "", blank: true, required: false})

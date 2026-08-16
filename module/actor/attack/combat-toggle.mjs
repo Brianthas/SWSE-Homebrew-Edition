@@ -15,7 +15,7 @@ export const COMBAT_TOGGLE_DEFINITIONS = [
         appliesTo: "damage",
         availability: {grantAttributeKey: "sneakAttack"},
         // Homebrew: Sneak Attack adds one extra die of the weapon's OWN damage die per talent
-        // take (a lightsaber's d8 weapon adds +Nd8), not a flat d6 — see matchWeaponDie below.
+        // take (a lightsaber's d8 weapon adds +Nd8), not a flat d6 - see matchWeaponDie below.
         bonus: {type: "matchWeaponDie", countAttributeKey: "sneakAttack", reduce: "SUM"},
     },
 ];

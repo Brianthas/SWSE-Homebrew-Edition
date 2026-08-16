@@ -1,6 +1,6 @@
 .chat-message{
   background: var(--swse-bg);
-  // Dark background needs an explicit light text color — chat log text otherwise
+  // Dark background needs an explicit light text color - chat log text otherwise
   // inherits Foundry's default dark-on-light color, rendering invisible here
   // (roll formulas/totals were present in the DOM but unreadable).
   color: var(--swse-text);

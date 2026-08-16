@@ -182,7 +182,7 @@ export const registerHandlebarsHelpers = function () {
             values = Object.entries(arg1);
         }
 
-        // `selected` may be a single value or (for <select multiple>) an array of them —
+        // `selected` may be a single value or (for <select multiple>) an array of them -
         // e.g. dual-damage-type weapons ("Energy, Slashing") pass an array from splitCsv.
         const isSelected = (v) => Array.isArray(selected) ? selected.includes(v) : v === selected;
 
@@ -203,7 +203,7 @@ export const registerHandlebarsHelpers = function () {
     });
 
     // Splits a comma-joined stored value (e.g. a dual-damage-type weapon's "Energy, Slashing")
-    // into a trimmed array — feeds `options`' array-aware `selected` comparison for
+    // into a trimmed array - feeds `options`' array-aware `selected` comparison for
     // <select multiple> fields.
     Handlebars.registerHelper('splitCsv', function(str) {
         return (str || "").split(",").map(s => s.trim()).filter(Boolean);
@@ -258,12 +258,12 @@ export const registerHandlebarsHelpers = function () {
      * Rich-text editor for ApplicationV2 sheets.
      *
      * The core `{{editor}}` helper renders an edit button whose click handler is wired up by
-     * FormApplication (AppV1) — AppV2 sheets have no equivalent, so on those the button renders
+     * FormApplication (AppV1) - AppV2 sheets have no equivalent, so on those the button renders
      * but does nothing at all. This emits the `<prose-mirror>` custom element instead, which
      * activates itself and submits through the normal named-field path.
      *
      * `toggled` is what gives the read-only view with an edit button (i.e. the old `button=true`);
-     * without it the editor is always open. There's no `editable` attribute — read-only maps to
+     * without it the editor is always open. There's no `editable` attribute - read-only maps to
      * `readonly`.
      */
     Handlebars.registerHelper("prosemirror", function (options) {

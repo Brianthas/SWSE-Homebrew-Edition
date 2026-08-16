@@ -1,6 +1,6 @@
 const fields = foundry.data.fields;
 
-/** Matches template.json Item > templates > "item". Function, not object — see base.mjs for why. */
+/** Matches template.json Item > templates > "item". Function, not object - see base.mjs for why. */
 export function ItemFields() {
     return {
         cost: new fields.StringField({initial: "", blank: true, required: false}),

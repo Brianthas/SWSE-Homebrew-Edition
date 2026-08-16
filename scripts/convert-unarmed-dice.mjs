@@ -4,7 +4,7 @@
  * pair of gloves on top.
  *
  * Before this, Martial Arts used `bonusUnarmedDamageDieSize` (1d4 -> 1d6 -> 1d8 -> 1d10) and the
- * gloves used `unarmedBonusDamage`, which resolves to a flat numeric bonus — Combat Gloves added
+ * gloves used `unarmedBonusDamage`, which resolves to a flat numeric bonus - Combat Gloves added
  * "+1", not a die.
  *
  * Per the homebrew Simple Weapons table, each pair of gloves also carries its own damage type:
@@ -32,7 +32,7 @@ const TARGETS = {
 const FEAT_DIE_KEY = "bonusUnarmedDamageDieCount";
 const GEAR_DIE_KEY = "unarmedGearDamageDieCount";
 
-// The keys this replaces — the old die-size step, the old flat bonus, and earlier passes of this
+// The keys this replaces - the old die-size step, the old flat bonus, and earlier passes of this
 // same script (so it stays re-runnable without piling up duplicates).
 const REPLACED_KEYS = ["bonusUnarmedDamageDieSize", "unarmedBonusDamage", "damageType",
     "unarmedDamageType", FEAT_DIE_KEY, GEAR_DIE_KEY];
@@ -55,7 +55,7 @@ for (const dir of fs.readdirSync(SOURCE)) {
         const damageType = TARGETS[doc.name];
         kept.push({mode: 2, value: 1, key: damageType ? GEAR_DIE_KEY : FEAT_DIE_KEY});
 
-        // Its own key, not plain `damageType` — a weapon may only retype the wearer's unarmed
+        // Its own key, not plain `damageType` - a weapon may only retype the wearer's unarmed
         // attack, and `damageType` would also describe the gloves as a weapon in their own right.
         if (damageType) kept.push({mode: 2, value: damageType, key: "unarmedDamageType"});
 
@@ -68,5 +68,5 @@ for (const dir of fs.readdirSync(SOURCE)) {
     }
 }
 
-console.log(`\n${WRITE ? "APPLIED" : "DRY RUN"} — ${changed} item(s) changed.`);
+console.log(`\n${WRITE ? "APPLIED" : "DRY RUN"} - ${changed} item(s) changed.`);
 if (!WRITE) console.log("Re-run with --write to apply.");

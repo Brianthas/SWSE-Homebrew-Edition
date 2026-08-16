@@ -2,7 +2,7 @@
 
 A personal, heavily modified fork of the Star Wars: Saga Edition (SWSE)
 system for Foundry VTT, maintained for my own home campaign. It has diverged
-substantially from the upstream project it started from — homebrew rules,
+substantially from the upstream project it started from - homebrew rules,
 a reworked sheet UI, restructured item schemas, and a lot of one-off fixes
 that are specific to how my table plays. It is **not** kept in sync with
 upstream and isn't intended as a drop-in replacement for it.
@@ -29,9 +29,9 @@ Manifest link: <https://raw.githubusercontent.com/Brianthas/SWSE-Homebrew-Editio
 This project began as a fork of
 [Foundry-VTT-StarWars-SagaEdition](https://github.com/kypvalanx/Foundry-VTT-StarWars-SagaEdition)
 by **Andy Lijewski** ([@kypvalanx](https://github.com/kypvalanx)), who created
-and continues to maintain the original system. All of the foundational work —
+and continues to maintain the original system. All of the foundational work -
 the data model, the original compendium content, and the core rules
-implementation — traces back to that project. If you're looking for the
+implementation - traces back to that project. If you're looking for the
 actively-maintained, publicly-distributed version of this system (not this
 personal fork), that's the one to use:
 

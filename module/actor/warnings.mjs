@@ -60,7 +60,7 @@ export function warningsFromActor(actor) {
         }
         // Pre-built NPC stat blocks weren't authored through the PC "spend slots as you level"
         // flow this budget-tracking is meant to police, so it routinely reads as under/over-spent
-        // for them without anything actually being wrong — same reasoning as the isNPC gate on
+        // for them without anything actually being wrong - same reasoning as the isNPC gate on
         // the matching console.error in characterdata.mjs's #_reduceAvailable.
         if (!actor.system.settings?.isNPC) {
             for (let item of Object.entries(actor.availableItems || {})) {

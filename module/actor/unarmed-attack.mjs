@@ -44,12 +44,12 @@ export class UnarmedAttack {
             }
         )
         // Homebrew collapses the vanilla physical damage types into a single "Physical"
-        // (see HOMEBREW_DAMAGE_TYPES) — "Bludgeoning" isn't one of them, and the homebrew
+        // (see HOMEBREW_DAMAGE_TYPES) - "Bludgeoning" isn't one of them, and the homebrew
         // Simple Weapons table lists a bare fist's damage as Physical.
         //
         // Worn gear can change what a punch deals (Power Gloves are Energy, Shock Gloves Stun).
         // That rides on its own `unarmedDamageType` key rather than plain `damageType`, so a
-        // weapon can only ever retype the wearer's *unarmed* attack — allow-listing `damageType`
+        // weapon can only ever retype the wearer's *unarmed* attack - allow-listing `damageType`
         // itself would let every equipped weapon leak its type onto the character's fists.
         const wornType = getInheritableAttribute({
             entity: this.actor,

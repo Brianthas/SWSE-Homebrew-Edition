@@ -16,7 +16,7 @@ export class TraitsFields {
         }
 
         // forcePoints/destinyPoints became {value, max} bars. Two legacy shapes exist: a bare
-        // number, and (for forcePoints) an object keyed `quantity` — the latter was never a
+        // number, and (for forcePoints) an object keyed `quantity` - the latter was never a
         // declared field, it was written onto prepared data at runtime by the old getter and
         // could reach the database via the sheet's `system.forcePoints.quantity` input.
         for (const key of ["forcePoints", "destinyPoints"]) {
@@ -61,7 +61,7 @@ export class TraitsFields {
             // {value, max} rather than a bare number so Foundry recognises this as a token
             // resource bar (getTrackedAttributes only treats a SchemaField with both a `value`
             // and a `max` NumberField as a bar). `max` is fully derived each prepare from
-            // forcePointsPerDay — it's declared here only so the schema advertises the bar.
+            // forcePointsPerDay - it's declared here only so the schema advertises the bar.
             forcePoints: new fields.SchemaField({
                 value: new fields.NumberField({
                     initial: 0,
@@ -79,7 +79,7 @@ export class TraitsFields {
                 }),
             }),
             // Homebrew: tracked separately from regular Force Points because a Destiny
-            // Point can be broken down into a Force Point — that converted point doesn't
+            // Point can be broken down into a Force Point - that converted point doesn't
             // refresh daily the way normal Force Points do, so it needs its own bucket.
             bonusForcePoints: new fields.NumberField({
                 initial: 0,
@@ -107,9 +107,9 @@ export class TraitsFields {
             }),
             // Dark Side Score lives at `system.darkside` (AbilityFields.darkside, via
             // CommonActorData). A duplicate `darkSide` field used to be declared here as well,
-            // with nothing anywhere reading or writing it — removed.
+            // with nothing anywhere reading or writing it - removed.
             // Homebrew: the size category declared here is the single source of truth
-            // for the size-driven homebrew table — it is not overridden by species data.
+            // for the size-driven homebrew table - it is not overridden by species data.
             // Player-facing sizes are limited to the three the homebrew table covers.
             size: new fields.StringField({
                 initial: "Medium",
@@ -188,7 +188,7 @@ export class TraitsFields {
                     label: "Movement Special",
                 }),
             }),
-            // `size` comes from #_commonCharacter() — NPCs share the same field.
+            // `size` comes from #_commonCharacter() - NPCs share the same field.
             reach: new fields.NumberField({
                 initial: 1,
                 min: 1,

@@ -1,13 +1,13 @@
 // Exhaustive scoped reset.
 //
 // Foundry core styles bare elements (labels, divs, anchors, inputs, tables) with
-// light-theme colors, and those rules beat plain inheritance from a wrapper class —
+// light-theme colors, and those rules beat plain inheritance from a wrapper class -
 // which is why theming this sheet turned into whack-a-mole (labels, then divs, then
 // inputs, each discovered separately). sf2e avoids the problem by scoping everything
 // under one root class and being exhaustive inside it; this does the same for .swse.
 //
 // Imported FIRST inside the .swse block so component styles can still override it.
-// Selectors only — a bare declaration at a partial's root is a Dart Sass parse error,
+// Selectors only - a bare declaration at a partial's root is a Dart Sass parse error,
 // so the root `color` lives on .swse in swse.scss.
 
 h1, h2, h3, h4, h5, h6,
@@ -54,7 +54,7 @@ select option {
   background: var(--swse-surface);
 }
 
-// :not(.header-control) — Foundry's window-header buttons carry their icon glyph via
+// :not(.header-control) - Foundry's window-header buttons carry their icon glyph via
 // FontAwesome classes applied directly to the <button> (font-family, not a child <i>), and
 // since the "swse" class from DEFAULT_OPTIONS lands on the whole application root (header
 // included, not just .window-content), this reset was overriding font-family and turning

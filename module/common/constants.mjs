@@ -15,11 +15,11 @@ export const dieSize = ["1", "1d2", "1d3", "1d4", "1d6", "1d8", "2d6", "2d8", "3
 export const dieSize_vanilla = ["1", "1d2", "1d3", "1d4", "1d6", "1d8", "1d10", "1d12"];
 export const dieType = ["1", "2", "3", "4", "6", "8", "10", "12"];
 export const sizeArray = ["Fine", "Diminutive", "Tiny", "Small", "Medium", "Large", "Huge", "Gargantuan", "Colossal", "Colossal (Frigate)", "Colossal (Cruiser)", "Colossal (Station)"];
-// Fine-Colossal, but not the starship-scale Colossal (Frigate)/(Cruiser)/(Station) variants — no
+// Fine-Colossal, but not the starship-scale Colossal (Frigate)/(Cruiser)/(Station) variants - no
 // beast in this campaign is ship-scale; a starship-sized creature is just "Colossal".
 export const beastSizeArray = ["Fine", "Diminutive", "Tiny", "Small", "Medium", "Large", "Huge", "Gargantuan", "Colossal"];
 // Core damage/availability enums for the typed gear-type item sheets (Item Schema & Sheet
-// Overhaul, Track A) — legacy compendium data has messier free-text variants (typos, combined
+// Overhaul, Track A) - legacy compendium data has messier free-text variants (typos, combined
 // "X, Y" values); these dropdowns cover the common case, an unmatched legacy value just shows
 // as unselected until manually reselected.
 export const DAMAGE_TYPES = ["Bludgeoning", "Piercing", "Slashing", "Energy", "Ion", "Sonic", "Stun", "Fire", "Physical"];
@@ -29,11 +29,11 @@ export const DAMAGE_TYPES = ["Bludgeoning", "Piercing", "Slashing", "Energy", "I
 // Alphabetical, since this is rendered straight into a picker.
 export const HOMEBREW_DAMAGE_TYPES = ["Burn", "Energy", "Ion", "Physical", "Sonic", "Stun"];
 export const AVAILABILITY_TYPES = ["Licensed", "Restricted", "Military", "Rare", "Illegal"];
-// Homebrew "Beast HD" table — the Beast class's per-level-up hit die scales by the
+// Homebrew "Beast HD" table - the Beast class's per-level-up hit die scales by the
 // creature's size instead of being a flat die like every other class. Only consulted for
 // beast-type actors' own Beast class levels (see SWSEItem#levelUpHitPoints). Tiny-Gargantuan
 // are Bryan's original chart; Fine/Diminutive (below) and the Colossal tiers (above) extend
-// the same progression — step-down by die size on the small end, step-up by dice count on the
+// the same progression - step-down by die size on the small end, step-up by dice count on the
 // large end, matching how this system already scales other things (e.g. unarmed damage) past
 // a single die's range.
 export const BEAST_HIT_DIE_BY_SIZE = {
@@ -336,7 +336,7 @@ export const SCALABLE_CHANGES = {
             // Homebrew unarmed die by size (Small d4 / Medium d6 / Large d8), matching the
             // SIZE_CHANGES table the species rework established. This table is what the unarmed
             // attack actually resolves through, so leaving it on the vanilla progression made
-            // the homebrew values dead letters — every character punched one die size too low.
+            // the homebrew values dead letters - every character punched one die size too low.
             "Small" : [
                 {"key" : "unarmedDamage","value" : "1d4","mode" : 2}
             ],
@@ -672,9 +672,9 @@ export const allDefaultSkills = [...defaultSkills, ...defaultVehicleSkills];
 }
 
 // Homebrew (Episode VII houserules): Athletics replaces Climb/Jump/Swim; Knowledge (Sciences)
-// replaces the "hard science" Knowledge subskills. Unconditional — this is this fork's actual
+// replaces the "hard science" Knowledge subskills. Unconditional - this is this fork's actual
 // ruleset, not an optional toggle. The old individual skills no longer exist in any form (no
-// situational sub-skill breakdown) — only the consolidated parent skill is rollable.
+// situational sub-skill breakdown) - only the consolidated parent skill is rollable.
 export const EPISODE_VII_HOMEBREW_SKILLS = new Map([
     ["Athletics", {
         ability: "str",

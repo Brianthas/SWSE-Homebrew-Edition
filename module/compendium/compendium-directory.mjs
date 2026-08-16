@@ -2,9 +2,9 @@ import {SWSECompendiumBrowser} from "./compendium-browser.mjs";
 
 /**
  * Not currently registered as the active sidebar compendium tab (core's own CompendiumDirectory is
- * what actually renders) — this class only exists today to host viewCompendiumItemsByFilter, which
+ * what actually renders) - this class only exists today to host viewCompendiumItemsByFilter, which
  * actor-sheet.mjs calls directly as a static utility. If it's ever registered as the real sidebar
- * tab, note that ApplicationV2 makes ContextMenu.create() throw immediately — use
+ * tab, note that ApplicationV2 makes ContextMenu.create() throw immediately - use
  * `new foundry.applications.ux.ContextMenu(...)` instead, matching the pattern in actor-sheet.mjs.
  */
 export class SWSECompendiumDirectory extends (foundry.applications.sidebar.tabs.CompendiumDirectory ?? CompendiumDirectory)

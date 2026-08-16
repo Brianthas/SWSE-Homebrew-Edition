@@ -523,7 +523,7 @@ function resolveOptions(actor, excludingKey, includeKey, options = {}) {
     })));
     included.push(...(options?.included || []))
     // SWSE actors routinely end up with the same weapon-group/etc. value granted twice (e.g.
-    // by both a class and a duplicate feat) — "VALUES" concatenates every matching change with
+    // by both a class and a duplicate feat) - "VALUES" concatenates every matching change with
     // no dedup, so every duplicate value was producing a duplicate <option> in the choice dialog.
     included = [...new Set(included)];
     for (let option of included) {

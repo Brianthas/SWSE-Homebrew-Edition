@@ -255,7 +255,7 @@ Hooks.once("ready", () => {
  * One-time cleanup of the age-category traits, which have been removed from the system.
  *
  * Species used to grant all six (Child/Young adult/Adult/Middle age/Old/Venerable) at once, each
- * gated by an AGE prerequisite that never resolved — it read `system.age`, but the field had long
+ * gated by an AGE prerequisite that never resolved - it read `system.age`, but the field had long
  * since moved to `system.details.age`. So every band was granted and every modifier applied at
  * once, totalling STR -10, CON -10, DEX -8 and INT/WIS/CHA +1 on any affected character.
  *

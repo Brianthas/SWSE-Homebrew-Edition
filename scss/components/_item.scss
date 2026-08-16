@@ -17,7 +17,7 @@
     background: rgba(0,0,0,0.1);
   }
 
-  // Denser field sizing scoped to the item sheet only — the global input styling
+  // Denser field sizing scoped to the item sheet only - the global input styling
   // (_forms.scss, min-height 32px / font-size 1.25rem) is tuned for the actor sheet and reads
   // as oversized/boxy here; this is the pf2e-style density pass, scoped so actor sheets are
   // untouched.
@@ -34,7 +34,7 @@
     top: 0.35rem;
   }
 
-  // <select multiple> (Damage Type / Availability, dual-value weapons) — size="1" keeps it
+  // <select multiple> (Damage Type / Availability, dual-value weapons) - size="1" keeps it
   // one row tall like a normal dropdown; the browser scrolls internally to reveal the rest.
   select[multiple] {
     overflow-y: auto;
@@ -46,7 +46,7 @@
 }
 
 // Collapsible sections consolidated onto Summary (Provided/Prerequisites/Stripping &
-// Modifications/Modes/Levels/Additional Modifiers) — replaces what used to be a standalone
+// Modifications/Modes/Levels/Additional Modifiers) - replaces what used to be a standalone
 // tab each. .panel/.collapse-toggle/.items-list/.section-header already have base styling
 // from their prior tab-only usage; this just tightens spacing now that several sit stacked.
 .item-section {
@@ -71,7 +71,7 @@
 .weapon-stat-block {
   gap: $space-xs;
   margin-bottom: $space-xs;
-  // Override the shared .flex utility's `align-content: stretch` — with flex-wrap this spreads
+  // Override the shared .flex utility's `align-content: stretch` - with flex-wrap this spreads
   // wrapped rows apart to fill any extra vertical space in the window (visible as growing gaps
   // between rows once the sheet is resized taller than the fields need), instead of packing them
   // tightly at the top like a form should.
@@ -90,7 +90,7 @@
   }
 }
 
-// De-emphasized single-line strip for the "administrative" fields (cost/weight/availability) —
+// De-emphasized single-line strip for the "administrative" fields (cost/weight/availability) -
 // pf2e keeps Price/Bulk/Level similarly slim so visual weight goes to the stats that matter
 // mid-combat, not fields you set once and rarely touch again.
 .weapon-meta-strip {
@@ -128,7 +128,7 @@
   }
 }
 
-// Compact pill-style Type/Subtype selects in the item header, near the name — pf2e's
+// Compact pill-style Type/Subtype selects in the item header, near the name - pf2e's
 // most recognizable visual signature (trait tags) instead of full-width labeled dropdowns.
 // Still a native <select> underneath (fully editable, no interaction change), just restyled.
 .item-header-pills {
@@ -138,7 +138,7 @@
 }
 
 // The talent-tree/reference-book tag chips above the item name (header.hbs) had no styling
-// at all — no background, no gap between siblings — so multiple tags rendered as one run-on
+// at all - no background, no gap between siblings - so multiple tags rendered as one run-on
 // word (e.g. "Soldier Talent TreesCore RulebookMelee Duelist Talent Trees").
 .tag {
   display: inline-block;

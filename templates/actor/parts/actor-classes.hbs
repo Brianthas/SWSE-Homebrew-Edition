@@ -62,7 +62,7 @@
                                                data-level="{{lvl.classLevel}}" data-roll="{{lvl.averageHitPoints}}">Avg</a>
                                         </span>
                                     {{else}}
-                                        <span class="level-hp level-hp-fixed" title="Starting hit points — fixed, not rolled">{{lvl.classLevelHealth}}</span>
+                                        <span class="level-hp level-hp-fixed" title="Starting hit points - fixed, not rolled">{{lvl.classLevelHealth}}</span>
                                     {{/if}}
                                     <span class="level-con">{{numberFormat @root.actor.system.abilities.con.mod sign=true}}</span>
                                     <span class="level-total">{{sum lvl.classLevelHealth @root.actor.system.abilities.con.mod}}</span>

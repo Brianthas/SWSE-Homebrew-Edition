@@ -36,7 +36,7 @@ const HOMEBREW = (line) =>
   `<p><i>Homebrew Talent (tovec.wikidot.com/episode-vii)</i></p><p>${line}</p>`;
 
 const DUELING = [
-  HOMEBREW("Block and Deflect are combined into this single talent — you may use both reactions. The cumulative -5 penalty is shared between them."),
+  HOMEBREW("Block and Deflect are combined into this single talent - you may use both reactions. The cumulative -5 penalty is shared between them."),
   `<h4>Block <span style="font-weight:normal"><i>(melee)</i></span></h4>`,
   fixDueling(BLOCK),
   `<h4>Deflect <span style="font-weight:normal"><i>(ranged)</i></span></h4>`,

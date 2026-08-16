@@ -3,7 +3,7 @@
 }
 
 .sheet-header {
-  // Was a fixed flex: 0 0 210px with overflow: hidden — fine for short names, but a long
+  // Was a fixed flex: 0 0 210px with overflow: hidden - fine for short names, but a long
   // item name (e.g. "Adept Spellcaster (Dathomiri Witch Talent Tree)") wrapped to multiple
   // lines inside charname's own fixed 50px height and bled straight through/over the
   // Type/Subtype pill row below it. Let the header grow to fit its actual content instead.

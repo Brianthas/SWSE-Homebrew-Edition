@@ -141,7 +141,7 @@ export class SWSECompendiumBrowser extends Application {
 
     /**
      * Whether this browser should group its results by talentTree instead of listing them
-     * flat — on whenever it was opened filtered specifically to talents (the Feats & Talents
+     * flat - on whenever it was opened filtered specifically to talents (the Feats & Talents
      * tab's Talents folder icon), which covers Force Talents as a natural subset without
      * needing a separate Force-specific flag (a talent tree like "Ace Combat" isn't Force-
      * related at all, so this isn't scoped to "Force" trees specifically).
@@ -172,7 +172,7 @@ export class SWSECompendiumBrowser extends Application {
 
     /**
      * Renders every currently-matching item grouped under a collapsible header per talent
-     * tree, instead of one flat lazy-loaded list — talent trees are few enough (~200) and
+     * tree, instead of one flat lazy-loaded list - talent trees are few enough (~200) and
      * collapsed by default, so rendering all of them up front (rather than lazy-loading) is
      * cheap. A tree with an active search match auto-expands, so typing a talent or tree name
      * lands you straight on the result instead of needing a second click to open it.
@@ -253,7 +253,7 @@ export class SWSECompendiumBrowser extends Application {
         await this._createInitialElements();
         const rootElem = this.element.find(".directory-list");
 
-        // Create function for lazy loading — grouped mode already renders every matching item
+        // Create function for lazy loading - grouped mode already renders every matching item
         // up front (see _createGroupedElements), nothing left to lazily add on scroll.
         const lazyLoad = async () => {
             if (this.isGroupedByTalentTree) return;
@@ -517,7 +517,7 @@ export class SWSECompendiumBrowser extends Application {
                 subType: item.system?.subtype,
                 isExotic: item.system?.subtype?.toLowerCase().includes("exotic"),
                 // Descriptor tags (e.g. a Force Power's [Telekinetic]/[Dark Side]/[Mind-Affecting])
-                // — searchable here and shown as a badge on the entry row.
+                // - searchable here and shown as a badge on the entry row.
                 tags: getInheritableAttribute({entity: item, attributeKey: "tag", reduce: "VALUES"})
             },
         };

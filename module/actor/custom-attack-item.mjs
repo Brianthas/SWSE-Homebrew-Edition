@@ -1,8 +1,8 @@
 /**
  * Wraps a persisted system.customAttacks entry (see commondata.mjs) into the same "virtual
  * item" shape UnarmedAttack (unarmed-attack.mjs) already uses, so a custom, non-equipment
- * attack (e.g. Grapple) flows through the existing Attack pipeline — attackRoll/damageRoll,
- * advantage/disadvantage, the generic toHitModifier/bonusDamage sweeps, etc. — completely
+ * attack (e.g. Grapple) flows through the existing Attack pipeline - attackRoll/damageRoll,
+ * advantage/disadvantage, the generic toHitModifier/bonusDamage sweeps, etc. - completely
  * unmodified.
  */
 export class CustomAttackItem {
@@ -25,7 +25,7 @@ export class CustomAttackItem {
 
     // "Unarmed Attack" as the subtype (rather than a real weapon-group name) is how
     // attack-handler.mjs's getProficiencyBonus/getPossibleProficiencies exempt an attack from
-    // the -5 non-proficient penalty — the same mechanism the real Unarmed Attack gets via its
+    // the -5 non-proficient penalty - the same mechanism the real Unarmed Attack gets via its
     // own literal name. Falls back to a real melee subtype when the attack is configured to NOT
     // get that exemption (e.g. representing a specific weapon-like improvised action the GM
     // wants proficiency to matter for).
@@ -46,7 +46,7 @@ export class CustomAttackItem {
     }
 
     // No configured damage die falls back to the actor's natural unarmed damage (scaled by
-    // size), same as a punch — attack.mjs's damageRoll getter only reads system.changes'
+    // size), same as a punch - attack.mjs's damageRoll getter only reads system.changes'
     // damageDie when isUnarmed is false, so a specified die takes over damage resolution
     // entirely once one is set.
     get isUnarmed() {
@@ -62,8 +62,8 @@ export class CustomAttackItem {
             changes.push({key: "damageType", value: this.config.damageType});
         }
         if (this.config.notes) {
-            // Attack#notes reads the 'special' key off the item — same field weapon.hbs's
-            // Special Qualities uses — so the freeform notes field shows up in the attack
+            // Attack#notes reads the 'special' key off the item - same field weapon.hbs's
+            // Special Qualities uses - so the freeform notes field shows up in the attack
             // card's notes row exactly like a real weapon's special qualities would.
             changes.push({key: "special", value: this.config.notes});
         }

@@ -7,7 +7,7 @@
   // Same class of bug as the chat message fix: a dark background with no matching
   // text color, applied globally to every Foundry window (Dialogs included), so
   // e.g. Dialog.prompt/.confirm content rendered near-invisible dark-on-dark.
-  // Deliberately no `a { color }` sub-rule here — this selector's specificity beat
+  // Deliberately no `a { color }` sub-rule here - this selector's specificity beat
   // plenty of existing single-class button colors elsewhere on the actor sheet
   // (.level-roll-btn etc, also <a> tags), making their icon/text match their own
   // background. Plain inherited text color doesn't have that problem since a direct
@@ -16,7 +16,7 @@
 }
 
 // Choice-picker dialogs (choice.mjs) build a plain <select> outside .swse scope, so the
-// sheet's own `select option` rule (_scoped-reset.scss) never reaches it — the native
+// sheet's own `select option` rule (_scoped-reset.scss) never reaches it - the native
 // dropdown list rendered light-on-light/beige with barely-readable text.
 .window-app select {
   color: var(--swse-text);
@@ -28,11 +28,11 @@
   background: var(--swse-surface);
 }
 
-// Flat, bordered buttons instead of the old 3D "groove" bevel — modeled on dnd5e's own roll
+// Flat, bordered buttons instead of the old 3D "groove" bevel - modeled on dnd5e's own roll
 // configuration dialog (read directly from the installed dnd5e system): every button reads the
 // same neutral card style, and only the single recommended/default choice (e.g. "Normal" on an
 // Advantage/Normal/Disadvantage row) stands out, via a highlighted border rather than a
-// different fill — keeps a whole row of same-weight actions (Attack/Save Macro, or
+// different fill - keeps a whole row of same-weight actions (Attack/Save Macro, or
 // Advantage/Normal/Disadvantage) from all shouting at once.
 .dialog .dialog-buttons {
   flex-grow: 0;
@@ -59,7 +59,7 @@
   font-weight: 700;
 }
 
-// A bordered, labeled grouping for a dialog's input fields — same "Configuration" fieldset
+// A bordered, labeled grouping for a dialog's input fields - same "Configuration" fieldset
 // shape dnd5e's roll dialogs use, dropped in wherever a plain <div> wrapper previously sat.
 .dialog fieldset {
   border: 1px solid var(--swse-border);
@@ -111,7 +111,7 @@
 // Dialogs sit outside the sheet, so the sheet-scoped field styling doesn't reach them, and the
 // rules above are class selectors (.input/.textarea) that plain markup in a Dialog never carries.
 // Without this a dialog input inherits the dark window background but keeps a near-black text
-// colour — invisible. Element selectors so it applies to any dialog markup, ours or core's.
+// colour - invisible. Element selectors so it applies to any dialog markup, ours or core's.
 // (`option` is set explicitly because a native select popup is painted by the OS and doesn't
 // inherit the select's own colours.)
 .dialog,

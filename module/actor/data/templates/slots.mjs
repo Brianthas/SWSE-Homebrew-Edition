@@ -39,7 +39,7 @@ export class SlotFunctions {
         const strScore = actor.system.abilities.str.value;
         const strMod = actor.system.abilities.str.mod;
         // actor.size (the Size dropdown) is the single source of truth for a character's
-        // declared size — not getResolvedSize's item/changes-driven resolution, which reads a
+        // declared size - not getResolvedSize's item/changes-driven resolution, which reads a
         // leftover size-named Trait item from before the size-table rework.
         const size = actor.size.name;
         const kitSizePenalty = KIT_SLOT_SIZE_PENALTY[size] || 0;
@@ -49,7 +49,7 @@ export class SlotFunctions {
 
         let lightUsed = 0;
         let kitUsed = 0;
-        // Homebrew: only equipped gear counts against carrying capacity — an item sitting
+        // Homebrew: only equipped gear counts against carrying capacity - an item sitting
         // unused in a pack shouldn't cost a Light/Kit slot. Some items carry the literal
         // string "unequipped" rather than null/"" for their off state, which is truthy in
         // JS, so check the actual value rather than relying on truthiness.
@@ -67,7 +67,7 @@ export class SlotFunctions {
                 reduce: "SUM",
             }));
             // Homebrew: "Integrated" gear (surgically built-in rather than just carried) costs
-            // double its own slots — a per-item toggle, distinct from capacitySlotMultiplier
+            // double its own slots - a per-item toggle, distinct from capacitySlotMultiplier
             // above which doubles the actor's whole pool instead of one item's cost.
             let itemMultiplier = toNumber(getInheritableAttribute({
                 entity: item,

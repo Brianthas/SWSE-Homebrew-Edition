@@ -157,7 +157,7 @@ function getLocalChangesOnDocument(document, flags) {
         values = Object.values(values)
     }
 
-    // Defensive copy — `document.changes` (SWSEItem) returns system.changes by reference, not a
+    // Defensive copy - `document.changes` (SWSEItem) returns system.changes by reference, not a
     // clone, so pushing defaultChanges onto `values` in place would permanently mutate the
     // document's own stored array on every read (compounding on every re-render).
     values = [...values];

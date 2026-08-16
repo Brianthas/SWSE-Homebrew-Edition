@@ -5,7 +5,7 @@ import {CategoriesFields} from "./templates/categories.mjs";
 
 /**
  * "vehicleBaseType" has no template.json declaration. actor/warnings.mjs actively tells users to
- * remove this item type from their sheet ("you may notice strange behavior") — it's legacy/on its
+ * remove this item type from their sheet ("you may notice strange behavior") - it's legacy/on its
  * way out. Given a minimal safe schema (base + item + categories) rather than deep investment.
  */
 export default class VehicleBaseTypeData extends ItemSystemDataModel {

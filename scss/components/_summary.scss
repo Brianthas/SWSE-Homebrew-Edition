@@ -2,7 +2,7 @@
 // stacking flex rows of fixed-width (.large/.huge) panels, which couldn't pack and
 // left large dead gutters. Panels here are grid cells that stretch to fill.
 
-// Homebrew: center every value/label on the Summary tab — inputs default to
+// Homebrew: center every value/label on the Summary tab - inputs default to
 // left-aligned text, which read inconsistently against the dense grid of small boxes.
 .tab.summary {
   input[type="text"],
@@ -41,7 +41,7 @@
   .area-condition { grid-area: condition; }
   .area-attacks   { grid-area: attacks; }
 
-  // Unlike every other panel here, Skills shouldn't stretch to fill a wider window — a long
+  // Unlike every other panel here, Skills shouldn't stretch to fill a wider window - a long
   // skill list reads better at a fixed, comfortable line-length than spread across the full
   // sheet width with big gaps between the name and its TOT/ABIL/TRN/MISC columns.
   .area-skills {
@@ -136,7 +136,7 @@
   }
 
   // A roll badge pinned inside its own input (e.g. Base Attack, Grapple), distinct
-  // from the .control-N affordances above — needs its own stacking context since
+  // from the .control-N affordances above - needs its own stacking context since
   // .field isn't position:relative by default.
   &.field-roll {
     position: relative;
@@ -168,9 +168,9 @@
   }
 }
 
-// Sits just to the left of .roll-badge (Base Attack/Grapple) — check it to have the next roll
+// Sits just to the left of .roll-badge (Base Attack/Grapple) - check it to have the next roll
 // prompt for an extra situational bonus instead of rolling immediately. `.field-roll input`
-// (element+class, beats the shared `.field input[type]` rule's width:100%/height:auto/etc. —
+// (element+class, beats the shared `.field input[type]` rule's width:100%/height:auto/etc. -
 // otherwise this renders as a second full-width boxy field instead of a small checkbox).
 .field-roll input.roll-bonus-toggle {
   position: absolute;
@@ -192,7 +192,7 @@
   gap: $space-xs;
 }
 
-// Label / big modifier / score / temp — the dnd5e ability-block pattern, which
+// Label / big modifier / score / temp - the dnd5e ability-block pattern, which
 // puts the number you actually roll with front and centre.
 .ability-cell {
   display: flex;
@@ -259,7 +259,7 @@
     opacity: 1;
   }
 
-  // Temp/misc bonus is secondary — visually recede it so it reads as an adjustment
+  // Temp/misc bonus is secondary - visually recede it so it reads as an adjustment
   .ability-temp input[type] {
     height: 17px;
     font-size: 10px;
@@ -301,7 +301,7 @@
   padding: 0 $space-xs;
   border-radius: $radius-sm;
   min-width: 0;
-  // Flat background on every row — row striping can't work here because the
+  // Flat background on every row - row striping can't work here because the
   // column count varies with panel width (auto-fill), so nth-child can't track
   // visual rows.
   background: var(--swse-surface-raised);
@@ -554,7 +554,7 @@
   white-space: nowrap;
 }
 
-/* The headline HP numbers get real visual weight — they're read constantly. */
+/* The headline HP numbers get real visual weight - they're read constantly. */
 .hp-headline {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
@@ -583,7 +583,7 @@
   }
 }
 
-/* Force / Destiny point pools — current over max, mirroring the HP treatment */
+/* Force / Destiny point pools - current over max, mirroring the HP treatment */
 .point-pools {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -648,7 +648,7 @@
   color: var(--swse-text-muted);
 }
 
-/* "FALLEN" badge — only rendered once the dark side score maxes out */
+/* "FALLEN" badge - only rendered once the dark side score maxes out */
 .darkside-heading {
   display: flex;
   align-items: center;
@@ -697,7 +697,7 @@
   // .dark-side-button carries a legacy fixed 30x50 size from the old layout
   .dark-side-button {
     // --pip-t is the pip's raw 0..1 position (set inline). Dark Side taint is a
-    // slippery slope, so saturation follows an ease-out curve — the first step of
+    // slippery slope, so saturation follows an ease-out curve - the first step of
     // corruption already shows clearly. Lightness instead blends that curve with the
     // linear position, because a pure ease-out flattens at the top and made the last
     // few pips indistinguishable; the blend keeps darkening all the way to the end.

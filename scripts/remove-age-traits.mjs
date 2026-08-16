@@ -3,7 +3,7 @@
  * from the game entirely.
  *
  * Why: species granted all six at once as providedItems, each carrying an AGE prerequisite that
- * never resolved — `meetsPrerequisites` reads `target.system.age`, but the field was migrated to
+ * never resolved - `meetsPrerequisites` reads `target.system.age`, but the field was migrated to
  * `system.details.age` long ago, so the gate never selected a single age band. The traits were
  * granted regardless and every one of their ability modifiers applied simultaneously, totalling
  * STR -10, CON -10, DEX -8, INT/WIS/CHA +1 on any character of an affected species. The
@@ -35,7 +35,7 @@ function stripFromSpecies() {
         const provided = doc.system?.providedItems;
         if (!Array.isArray(provided)) continue;
 
-        // Only drop entries that are BOTH a trait and an age name — a species could legitimately
+        // Only drop entries that are BOTH a trait and an age name - a species could legitimately
         // provide something else that happens to share a name with an age band.
         const kept = provided.filter(p => !(p.type === "trait" && AGE_TRAITS.includes(p.name)));
         if (kept.length === provided.length) continue;

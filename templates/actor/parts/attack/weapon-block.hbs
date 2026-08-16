@@ -41,7 +41,7 @@
                       item (a grenade may be Physical, Energy, Stun, Sonic or Burn). --}}
                 {{#if attack.damageTypeOverrideOptions.length}}
                     <select class="attack-ability-select attack-damage-type-select" data-action="damage-type-override" data-item-id="{{attack.item.id}}"
-                            title="Damage type for this attack — default is {{attack.type}}">
+                            title="Damage type for this attack - default is {{attack.type}}">
                         {{#each attack.damageTypeOverrideOptions as |opt|}}
                             <option value="{{opt.value}}" {{#ifEquals opt.value ../attack.item.system.damageTypeOverride}}selected{{/ifEquals}}>{{opt.label}}</option>
                         {{/each}}
@@ -60,7 +60,7 @@
                 <span class="attack-tohit" title="{{attack.attackRoll.formula}}">{{{attack.attackRoll.formattedFormula}}}</span>
                 <span class="attack-damage" title="{{attack.damageRoll.formula}}">{{{attack.damageRoll.formattedFormula}}}</span>
 
-                <a class="attack-roll-btn attack-button" data-action="singleAttack" data-attack-key="{{attack.attackKey}}" title="Attack — opens a dialog for bonuses/Advantage/Disadvantage (Ctrl-click or Alt-click to skip the dialog and roll immediately with Advantage/Disadvantage)">
+                <a class="attack-roll-btn attack-button" data-action="singleAttack" data-attack-key="{{attack.attackKey}}" title="Attack - opens a dialog for bonuses/Advantage/Disadvantage (Ctrl-click or Alt-click to skip the dialog and roll immediately with Advantage/Disadvantage)">
                     <i class="fas fa-dice-d20"></i>
                 </a>
 

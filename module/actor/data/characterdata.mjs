@@ -29,7 +29,7 @@ export class CharacterDataModel extends SystemDataModel.mixin(...characterFuncti
 
     static migrateData(source) {
         // forcePoints normalisation lives in TraitsFields.migrateData (called below) alongside
-        // the field's own definition — it used to flatten the object form back to a bare number
+        // the field's own definition - it used to flatten the object form back to a bare number
         // here, which is the opposite of what the {value, max} bar shape needs.
 
         //TODO figure out if this is already called
@@ -274,7 +274,7 @@ export class CharacterDataModel extends SystemDataModel.mixin(...characterFuncti
         }
 
         // One line per prepare instead of one per talent, and it names the talents and the pools
-        // they failed to match — the old message reported only the actor, which said nothing
+        // they failed to match - the old message reported only the actor, which said nothing
         // about what to look at. NPC stat blocks attach talents directly rather than buying them
         // out of a class budget, so this is expected for them and stays quiet.
         if (unmatched.length && !actor.system.settings?.isNPC && !KNOWN_WEIRD_UNITS.includes(actor.name)) {
@@ -353,7 +353,7 @@ export class CharacterDataModel extends SystemDataModel.mixin(...characterFuncti
 
         if (!type && !backupType) {
             // Nothing to spend against. Pre-built NPC stat blocks legitimately hit this all the
-            // time — their talents/feats are attached directly rather than bought out of a
+            // time - their talents/feats are attached directly rather than bought out of a
             // class-granted budget the way a PC's are.
             //
             // Reporting is left to the caller: this runs once per item per prepareData(), which

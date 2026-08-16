@@ -1468,7 +1468,7 @@
   white-space: nowrap;
 }
 .swse {
-  /* The headline HP numbers get real visual weight — they're read constantly. */
+  /* The headline HP numbers get real visual weight - they're read constantly. */
 }
 .swse .hp-headline {
   display: grid;
@@ -1497,7 +1497,7 @@
   padding: 0;
 }
 .swse {
-  /* Force / Destiny point pools — current over max, mirroring the HP treatment */
+  /* Force / Destiny point pools - current over max, mirroring the HP treatment */
 }
 .swse .point-pools {
   display: grid;
@@ -1556,7 +1556,7 @@
   color: var(--swse-text-muted);
 }
 .swse {
-  /* "FALLEN" badge — only rendered once the dark side score maxes out */
+  /* "FALLEN" badge - only rendered once the dark side score maxes out */
 }
 .swse .darkside-heading {
   display: flex;
@@ -2757,7 +2757,7 @@
 }
 .swse {
   /* Inline pickers on an attack card (ability / damage ability / damage type). A weapon's declared
-     damage type can be a whole sentence, so these are capped rather than sized to their content —
+     damage type can be a whole sentence, so these are capped rather than sized to their content -
      otherwise one verbose item stretches the whole row. */
 }
 .swse .attack-ability-select {

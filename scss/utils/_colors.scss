@@ -6,7 +6,7 @@ $c-black: #000;
 // parchment-book palette. --swse-bg/foreground/midground keep their
 // existing semantic roles (base surface / primary accent / control surface)
 // since they're already load-bearing across window chrome, forms, and other
-// components — only their values change here.
+// components - only their values change here.
 :root {
   // Surface scale
   --swse-bg: #10131a;

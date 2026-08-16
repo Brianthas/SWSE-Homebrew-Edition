@@ -8,7 +8,7 @@ const fields = foundry.data.fields;
 
 /**
  * Matches template.json Item > class (templates: base, prerequisites, health, levels) plus
- * "levelsTaken" — undeclared in template.json but directly read/written throughout actor.mjs/
+ * "levelsTaken" - undeclared in template.json but directly read/written throughout actor.mjs/
  * item.mjs (character levels at which this class was taken, e.g. [1, 3, 5] for multiclassing).
  * Distinct from "levels" (per-level bonus data, keyed by level number).
  */

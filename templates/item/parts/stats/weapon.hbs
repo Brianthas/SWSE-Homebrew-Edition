@@ -3,7 +3,7 @@
         <input class="input" type="text" name="system.damageDie" value="{{item.system.damageDie}}" placeholder="e.g. 3d6"/>
     </div>
     <div class="labeled-input"><label for="damage-type">Damage Type</label>
-        <select class="input" data-multi-select-name="system.damageType" multiple size="1" title="A handful of weapons legitimately deal two damage types — ctrl/cmd-click to select more than one, scroll to see all options.">
+        <select class="input" data-multi-select-name="system.damageType" multiple size="1" title="A handful of weapons legitimately deal two damage types - ctrl/cmd-click to select more than one, scroll to see all options.">
             {{{options 'damageType' selected=(splitCsv item.system.damageType)}}}
         </select>
     </div>
@@ -19,11 +19,11 @@
     <div class="labeled-input"><label for="kit-slot-cost">Kit Slot Cost</label>
         <input class="input" type="number" name="system.kitSlotCost" value="{{item.system.kitSlotCost}}"/>
     </div>
-    <div class="labeled-input" title="Hand-tune this specific weapon's attack bonus (e.g. a lightsaber crystal attunement) — folds into the same generic toHitModifier bonus every other source uses.">
+    <div class="labeled-input" title="Hand-tune this specific weapon's attack bonus (e.g. a lightsaber crystal attunement) - folds into the same generic toHitModifier bonus every other source uses.">
         <label for="misc-attack-bonus">Misc Attack Bonus</label>
         <input class="input" type="number" name="system.miscAttackBonus" value="{{item.system.miscAttackBonus}}"/>
     </div>
-    <div class="labeled-input" title="Hand-tune this specific weapon's damage bonus — folds into the same generic bonusDamage every other source uses.">
+    <div class="labeled-input" title="Hand-tune this specific weapon's damage bonus - folds into the same generic bonusDamage every other source uses.">
         <label for="misc-damage-bonus">Misc Damage Bonus</label>
         <input class="input" type="number" name="system.miscDamageBonus" value="{{item.system.miscDamageBonus}}"/>
     </div>
@@ -36,7 +36,7 @@
     <div class="meta-field"><label for="cost">Cost</label><input class="input" type="text" name="system.cost" value="{{item.system.cost}}"/></div>
     <div class="meta-field"><label for="weight">Weight</label><input class="input" type="text" name="system.weight" value="{{item.system.weight}}"/></div>
     <div class="meta-field"><label for="availability">Availability</label>
-        <select class="input" data-multi-select-name="system.availability" multiple size="1" title="Some items are e.g. both Military and Rare — ctrl/cmd-click to select more than one, scroll to see all options.">
+        <select class="input" data-multi-select-name="system.availability" multiple size="1" title="Some items are e.g. both Military and Rare - ctrl/cmd-click to select more than one, scroll to see all options.">
             {{{options 'availability' selected=(splitCsv item.system.availability)}}}
         </select>
     </div>

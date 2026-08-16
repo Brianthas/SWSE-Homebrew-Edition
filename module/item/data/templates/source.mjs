@@ -1,6 +1,6 @@
 const fields = foundry.data.fields;
 
-/** Matches template.json Item > templates > "source". Function, not object — see base.mjs for why. */
+/** Matches template.json Item > templates > "source". Function, not object - see base.mjs for why. */
 export function SourceFields() {
     return {
         supplier: new fields.ObjectField({initial: {}}),

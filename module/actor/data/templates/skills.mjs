@@ -449,7 +449,7 @@ export class SkillFunctions {
     }
 
     /**
-     * Homebrew skill substitution — applied after every skill is built, because a substitution
+     * Homebrew skill substitution - applied after every skill is built, because a substitution
      * reads another skill's finished value and the build order isn't guaranteed to put the source
      * skill first.
      *
@@ -499,7 +499,7 @@ export class SkillFunctions {
         skill.abilityBonus = skillAttributeMod;
         skill.situationalSkills = [];
         // Homebrew skill substitution is applied in applySkillSubstitutions once every skill is
-        // built — it reads other skills' finished values, so it can't run per-skill here.
+        // built - it reads other skills' finished values, so it can't run per-skill here.
     }
 
      applyGroupedSkills(skills, skillMap) {

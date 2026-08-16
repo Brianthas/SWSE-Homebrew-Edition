@@ -2,7 +2,7 @@ const fields = foundry.data.fields;
 
 /**
  * Matches template.json Item > templates > "mode". `modes` matches item.mjs's real dict usage (see base.mjs).
- * Function, not object — see base.mjs for why.
+ * Function, not object - see base.mjs for why.
  */
 export function ModeFields() {
     return {

@@ -258,7 +258,7 @@ export class SWSEItem extends Item {
     }
 
     /**
-     * Modes (fire modes, stances, etc.) conceptually only apply to physical gear — was
+     * Modes (fire modes, stances, etc.) conceptually only apply to physical gear - was
      * hardcoded `true` for every item type, so a feat/talent/species always showed an empty
      * "Modes" section with a live "add mode" button that made no sense for those types. Still
      * shown for any type that already has mode-granting effects, so nothing existing breaks.
@@ -320,7 +320,7 @@ export class SWSEItem extends Item {
 
         // A template's placeholder (#payload#, #choice#, ...) is substituted when the item is
         // granted with a real choice. If that never happened the raw token is still sitting in
-        // the value, and it must never reach the name — "Weapon Proficiency (#payload#)" is worse
+        // the value, and it must never reach the name - "Weapon Proficiency (#payload#)" is worse
         // than the bare "Weapon Proficiency" it would otherwise read as.
         const isResolved = (value) => !!value && !/#[^#\s]*#/.test(`${value}`);
 
@@ -329,7 +329,7 @@ export class SWSEItem extends Item {
             // Feats/talents granted directly (e.g. Weapon Proficiency derived onto a character
             // from their class's own granted feats, rather than picked via the interactive
             // choice dialog) never get system.selectedChoices populated, even though the choice
-            // itself is baked into the item's own local changes — "Weapon Proficiency (Pistols)"
+            // itself is baked into the item's own local changes - "Weapon Proficiency (Pistols)"
             // would otherwise just display as "Weapon Proficiency" with no way to tell which.
             // Fall back to reading the item's own identity-choice change directly.
             const CHOICE_IDENTITY_KEYS = ["weaponProficiency", "weaponFocus", "greaterWeaponFocus", "weaponSpecialization", "greaterWeaponSpecialization", "skillFocus"];
@@ -433,7 +433,7 @@ export class SWSEItem extends Item {
 
     get levelUpHitPoints() {
         // Homebrew "Beast HD" table: only the Beast class's own levels, on a beast-type
-        // actor, scale by size — a multiclassed second class keeps its normal flat die.
+        // actor, scale by size - a multiclassed second class keeps its normal flat die.
         if (this.type === "class" && this.name === "Beast" && this.actor?.type === "beast") {
             const sizeDie = BEAST_HIT_DIE_BY_SIZE[this.actor.size?.name];
             if (sizeDie) return sizeDie;
@@ -469,7 +469,7 @@ export class SWSEItem extends Item {
         let rolledHp = parseInt(attr)
 
         // Route through the levelUpHitPoints getter (not a second raw attribute read) so the
-        // die-max cap always agrees with the die actually shown/rolled on the Classes tab —
+        // die-max cap always agrees with the die actually shown/rolled on the Classes tab -
         // this is also where the size-driven Beast HD override lives.
         let max = `${this.levelUpHitPoints}`.split("d")[1]
         return rolledHp > max ? max : rolledHp;
@@ -640,7 +640,7 @@ export class SWSEItem extends Item {
 
     /**
      * Synthesized change entries from this item's own typed schema fields (see
-     * module/item/default-changes.mjs) — read by getLocalChangesOnDocument
+     * module/item/default-changes.mjs) - read by getLocalChangesOnDocument
      * (module/attribute-helper.mjs) alongside the raw system.changes array, so migrating a
      * type's mechanical data onto real fields doesn't require touching any
      * getInheritableAttribute call site.
@@ -907,7 +907,7 @@ export class SWSEItem extends Item {
     /**
      * Homebrew: general equipment is equipable too. Light/Kit carrying capacity only counts
      * EQUIPPED gear (see slots.mjs), and the house rules' own examples of Light and Kit items are
-     * things like comlinks, datapads and field kits — all `equipment`. Leaving that type out meant
+     * things like comlinks, datapads and field kits - all `equipment`. Leaving that type out meant
      * those rows had no equip control at all, so they could never be equipped and therefore never
      * counted against carrying capacity.
      *
@@ -918,7 +918,7 @@ export class SWSEItem extends Item {
      * species, another talent...). The supplier id is resolved rather than merely checked for
      * truthiness: dragging an item between sheets copies system.supplier along with it, so the
      * destination actor ends up holding a supplier id that points at an item it doesn't own. That
-     * made transferred feats/talents look granted — filed under Granted Feats and, because the
+     * made transferred feats/talents look granted - filed under Granted Feats and, because the
      * delete control is hidden for supplied items, impossible to remove.
      *
      * A supplier that doesn't resolve on this actor means "not granted here", so such an item
@@ -954,7 +954,7 @@ export class SWSEItem extends Item {
 
     /**
      * Homebrew: "Integrated" gear (surgically built-in rather than just carried) costs double
-     * its own Light/Kit slots — see slots.mjs's per-item slotCostMultiplier read. Same raw-changes
+     * its own Light/Kit slots - see slots.mjs's per-item slotCostMultiplier read. Same raw-changes
      * scan pattern as slotType, since this is a plain toggle written directly onto system.changes,
      * not a typed field.
      */
@@ -1085,7 +1085,7 @@ export class SWSEItem extends Item {
 
     /**
      * Descriptor tags (e.g. a Force Power's [Telekinetic]/[Dark Side]/[Mind-Affecting]/
-     * [Light Side]/[Lightsaber Form]) — distinct from `tags` above, which is sourcebook/
+     * [Light Side]/[Lightsaber Form]) - distinct from `tags` above, which is sourcebook/
      * provider-style chips for the item sheet header.
      */
     get descriptorTags(){
@@ -1933,7 +1933,7 @@ export class SWSEItem extends Item {
         let o = super.toObject(source);
 
         // Only override system.cost from a legacy changes[]-based "cost" entry when one actually
-        // exists — items with cost promoted to the typed field (see default-changes.mjs's
+        // exists - items with cost promoted to the typed field (see default-changes.mjs's
         // UNIVERSAL_ITEM_FIELDS) no longer carry one, and super.toObject() has already serialized
         // the correct typed-field value; unconditionally falling back to "0" here would silently
         // wipe it on every duplicate/drag-to-embed.

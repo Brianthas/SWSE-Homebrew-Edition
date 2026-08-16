@@ -80,7 +80,7 @@ export class DefenseFields {
             }),
             // Blank means "use the value derived from armor/talents/templates"; anything
             // here replaces it. A string rather than a number so DR can carry its
-            // bypass notation (e.g. "5/lightsabers", "2/-"). Display-only — the damage
+            // bypass notation (e.g. "5/lightsabers", "2/-"). Display-only - the damage
             // application in actor.mjs reads the raw damageReduction attributes itself.
             damageReductionOverride: new fields.StringField({
                 initial: "",
@@ -93,7 +93,7 @@ export class DefenseFields {
                 will: this.#_defensePointPool("Will"),
             }),
             // A plain manual add-on for anything not modeled elsewhere (e.g. Improved Defenses)
-            // — folds into the same Misc column/tooltip as item/talent-granted bonuses (see
+            // - folds into the same Misc column/tooltip as item/talent-granted bonuses (see
             // applyBonuses/resolvedWill), so the combined total shows in one place. Always
             // additive, never an override.
             additionalModifier: new fields.SchemaField({
@@ -102,7 +102,7 @@ export class DefenseFields {
                 will: new fields.NumberField({initial: 0, integer: true, nullable: false, label: "Will Additional Modifier"}),
             }),
             // Free text for conditional/situational Defense bonuses that can't be expressed as a
-            // flat number — e.g. "Unstoppable Force: +2 Will, but only against Force effects".
+            // flat number - e.g. "Unstoppable Force: +2 Will, but only against Force effects".
             // Purely a reminder for play; nothing reads this mechanically.
             notes: new fields.StringField({
                 initial: "",
@@ -174,7 +174,7 @@ export class DefenseFunctions {
         let bonuses = [];
         bonuses.push({value: 10, type: "Base"});
 
-        //+ level bonus — full per heroic level, 3/4 (floored) per NPC-class (Beast/Nonheroic)
+        //+ level bonus - full per heroic level, 3/4 (floored) per NPC-class (Beast/Nonheroic)
         // level, per tovec's homebrew (see SWSEActor#defenseLevelBonus).
         let levelBonus = actor.defenseLevelBonus;
         bonuses.push({value: levelBonus, type: "Armor"});
@@ -204,7 +204,7 @@ export class DefenseFunctions {
         });
         bonuses.push({value: fortitudeDefenseBonus["SUM"], type: "Miscellaneous"});
 
-        //+ manual additional modifier — tagged "Manual" (shows as its own line in the Misc
+        //+ manual additional modifier - tagged "Manual" (shows as its own line in the Misc
         // column's tooltip breakdown) but folds into the same Misc total as everything else.
         bonuses.push({value: this.defense.additionalModifier?.fortitude || 0, type: "Manual"});
 
@@ -228,7 +228,7 @@ export class DefenseFunctions {
         let bonuses = [];
         bonuses.push(10); //base
 
-        //+ level bonus — full per heroic level, 3/4 (floored) per NPC-class (Beast/Nonheroic)
+        //+ level bonus - full per heroic level, 3/4 (floored) per NPC-class (Beast/Nonheroic)
         // level, per tovec's homebrew (see SWSEActor#defenseLevelBonus).
         let levelBonus = actor.defenseLevelBonus;
         bonuses.push(levelBonus);
@@ -288,7 +288,7 @@ export class DefenseFunctions {
                 }
             }
         }
-        //+ manual additional modifier — folded into miscBonuses (not pushed to `bonuses`
+        //+ manual additional modifier - folded into miscBonuses (not pushed to `bonuses`
         // directly) so it's included in the displayed Misc total/tooltip like everything else.
         miscBonuses.push(this.defense.additionalModifier?.will || 0);
         willDefense.miscBonusTip = miscBonusTip;
@@ -374,7 +374,7 @@ export class DefenseFunctions {
         let otherBonus = reflexDefenseBonus["SUM"];
         bonuses.push({value: otherBonus, type: "Miscellaneous"});
 
-        //+ manual additional modifier — before _resolveFFRef below so flat-footed Reflex
+        //+ manual additional modifier - before _resolveFFRef below so flat-footed Reflex
         // inherits it too; folds into the same Misc total/tooltip as everything else.
         bonuses.push({value: this.defense.additionalModifier?.reflex || 0, type: "Manual"});
 
@@ -425,7 +425,7 @@ export class DefenseFunctions {
         defense.armorBonus = bonuses.find(b => b.type === "Armor")?.value || 0;
         defense.classBonus = bonuses.find(b => b.type === "Class")?.value || 0;
         // "Manual" (the player-entered Additional Modifier box) intentionally folds into the
-        // Misc column/tooltip here, same as every other non-Ability/Armor/Class/Base bonus —
+        // Misc column/tooltip here, same as every other non-Ability/Armor/Class/Base bonus -
         // so the whole combined bonus is visible in one place on the main defense row.
         const miscBonus = bonuses.filter(b => !(b.type === "Ability" || b.type === "Armor" || b.type === "Class" || b.type === "Base"));
         defense.miscBonus = miscBonus.reduce((acc, obj) => acc + toNumber(obj.value), 0);
@@ -434,7 +434,7 @@ export class DefenseFunctions {
 
     /**
      * Homebrew: how many Defense points are assigned vs available. Two pools of 4
-     * (max 2 per Defense each), the second unlocking at level 10 — so a single Defense
+     * (max 2 per Defense each), the second unlocking at level 10 - so a single Defense
      * can hold at most 2 before level 10 and 4 after.
      */
     _resolveDefensePointBudget() {

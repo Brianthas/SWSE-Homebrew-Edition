@@ -80,7 +80,7 @@
   cursor: pointer;
 }
 
-// Modes now lives as a second section on the same tab as Changes (used to be its own tab) —
+// Modes now lives as a second section on the same tab as Changes (used to be its own tab) -
 // both are "raw editing" tools for actor-level modifiers, just backed by different storage
 // (a flat system.changes array vs. a list of full ActiveEffect documents), so they're kept as
 // two distinct sections rather than one merged list.

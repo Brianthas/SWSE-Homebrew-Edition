@@ -10,7 +10,7 @@ export class WeightDelegate {
     get carriedWeight() {
         return this.actor.getCached("carriedWeight", () => {
             // this.actor.size (the Size dropdown) is the single source of truth for a
-            // character's declared size — not getResolvedSize's item/changes-driven
+            // character's declared size - not getResolvedSize's item/changes-driven
             // resolution, which reads a leftover size-named Trait item from before the
             // size-table rework and would silently ignore the player's own dropdown choice.
             const resolvedSize = this.actor.size.name;

@@ -34,7 +34,7 @@ async function unpack() {
         const src = path.join(liveDir, name);
         const dest = path.join(SOURCE_DIR, name);
         try {
-            // extractPack only adds/overwrites — it never removes JSON left behind by
+            // extractPack only adds/overwrites - it never removes JSON left behind by
             // documents since deleted or renamed in the live pack, so wipe first for a
             // clean 1:1 mirror of current state.
             rmSync(dest, {recursive: true, force: true});

@@ -8,7 +8,7 @@ const fields = foundry.data.fields;
 
 /**
  * Matches template.json Item > trait (templates: base, categories, source, prerequisites) plus
- * "equipped"/"stripping" — undeclared in template.json, but "trait" is listed in
+ * "equipped"/"stripping" - undeclared in template.json, but "trait" is listed in
  * common/constants.mjs's EQUIPABLE_TYPES (traits can be equipped/toggled), so both are needed
  * (see weapondata.mjs for the same note).
  */

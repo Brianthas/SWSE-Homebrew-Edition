@@ -1,8 +1,8 @@
 // One-time: groups the `talents` compendium pack into a Foundry Folder per distinct
 // `system.talentTree` value, to make browsing/leveling-up easier. Every talent already has
-// exactly one `talentTree` string (confirmed via a full-pack scan — no comma-separated
+// exactly one `talentTree` string (confirmed via a full-pack scan - no comma-separated
 // multi-tree values exist today); this does not attempt to detect or fix real-world talents
-// that legitimately belong to more than one tree but only have one document — that needs a
+// that legitimately belong to more than one tree but only have one document - that needs a
 // manual cross-check against the actual tabletop talent-tree tables first (see the plan).
 //
 // Usage:

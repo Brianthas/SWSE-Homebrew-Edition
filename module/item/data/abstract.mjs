@@ -4,7 +4,7 @@
  * V14 deprecates the legacy template.json auto-inferred schema (removed in V16) in favor of
  * explicit TypeDataModel classes registered via CONFIG.Item.dataModels. Without one, item system
  * data silently resets to template.json's bare defaults on every prepareData() pass after the
- * first — this class (and the per-type classes built on it) is the fix.
+ * first - this class (and the per-type classes built on it) is the fix.
  */
 export default class ItemSystemDataModel extends foundry.abstract.TypeDataModel {
     /**

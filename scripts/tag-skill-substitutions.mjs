@@ -63,7 +63,7 @@ const TAGS = {
 let tagged = 0, notFound = [], alreadyTagged = 0;
 const seen = new Set();
 
-// A substitution that names no scope replaces the skill outright — prompting there is pure
+// A substitution that names no scope replaces the skill outright - prompting there is pure
 // friction, since there's never a reason to pick the worse modifier. Only substitutions the
 // talent limits to particular applications ("to Feint", "Deceptive Appearance only") need asking
 // about, because the base skill still applies everywhere else. Derived from the value's own shape

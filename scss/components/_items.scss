@@ -1,9 +1,9 @@
 // Breathing room after each list when multiple item-list.hbs blocks stack on the same tab
-// (e.g. Feats then Talents) — otherwise the next section's bigLabel header sits flush against
+// (e.g. Feats then Talents) - otherwise the next section's bigLabel header sits flush against
 // the previous list's last row. `.item-container.panel` (not just `.item-container`) because
 // item-list.hbs's `container` prop is sometimes literally the string "items-list" (e.g. Feats/
 // Talents both pass container="items-list" as a data-container-id, unrelated to the .items-list
-// class below) — when that happens this same div also carries a coincidental .items-list class,
+// class below) - when that happens this same div also carries a coincidental .items-list class,
 // and its `margin: 0` would otherwise win the specificity tie by appearing later in this file.
 .item-container.panel {
   margin-bottom: $space-sm;
@@ -11,7 +11,7 @@
 
 // Generic item-entry list (item-list.hbs/item-entry.hbs), shared by Feats/Talents/Traits,
 // Languages, Natural Weapons/Special Senses/Species Types/Special Qualities, and the vehicle
-// sheet's Uninstalled/Templates/Installed/Gunner Position/Cargo lists — one compact-row pass
+// sheet's Uninstalled/Templates/Installed/Gunner Position/Cargo lists - one compact-row pass
 // here uplifts every consumer at once, matching the same idiom already used for Skills/Classes/
 // Force Powers/Equipment/Attacks (small icon, dark card row, small icon-button controls).
 .items-list {
@@ -37,7 +37,7 @@
     min-height: 30px;
 
     // The row's own two nested .flexrow divs (Foundry-core utility classes, not redefined
-    // here) already handle horizontal layout — just make them align vertically and gap evenly.
+    // here) already handle horizontal layout - just make them align vertically and gap evenly.
     > .flexrow {
       align-items: center;
       gap: $space-sm;
@@ -66,7 +66,7 @@
     }
 
     // Expand-in-place toggle for the description below, matching the Attacks panel's own
-    // .attack-toggle — a discoverable +/- affordance instead of relying on clicking the row.
+    // .attack-toggle - a discoverable +/- affordance instead of relying on clicking the row.
     .item-desc-toggle {
       width: 14px;
       flex: 0 0 14px;
@@ -94,7 +94,7 @@
     text-overflow: ellipsis;
   }
 
-  // Split out from .item-name so the two no longer compete for the same flex share — the
+  // Split out from .item-name so the two no longer compete for the same flex share - the
   // name should dominate, prerequisites/source trail as a smaller muted column.
   .item-prereqs {
     flex: 0 1 auto;

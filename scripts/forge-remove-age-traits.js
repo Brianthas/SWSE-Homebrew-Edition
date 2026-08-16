@@ -3,8 +3,8 @@
  *
  * Removes the six age-category traits (Child / Young adult / Adult / Middle age / Old /
  * Venerable) from every actor in the world, plus any unlinked tokens on any scene. Species used
- * to grant all six at once, and their ability modifiers stacked — STR -10, CON -10, DEX -8,
- * INT/WIS/CHA +1 — so removing them restores correct ability scores.
+ * to grant all six at once, and their ability modifiers stacked - STR -10, CON -10, DEX -8,
+ * INT/WIS/CHA +1 - so removing them restores correct ability scores.
  *
  * Safe to run more than once; it only touches actors that still have them.
  */
@@ -37,7 +37,7 @@
 
   const summary = total
     ? `Removed ${total} age trait(s) across ${report.length} actor(s)/token(s).`
-    : "No age traits found — nothing to do.";
+    : "No age traits found - nothing to do.";
   console.log(summary, report);
   ui.notifications.info(summary);
 })();

@@ -28,7 +28,7 @@ Reproduced here for reference alongside the code that implements them.
 ## Character Creation
 
 - Characters must be built with **25 point buy**, using the Pathfinder
-  measurement — maximum of 18 and minimum of 8. This is before species
+  measurement - maximum of 18 and minimum of 8. This is before species
   adjustments. You may choose to reduce below 8 but there is no bonus given
   for doing so.
 - Use **Intelligence** for "number known" abilities, including number of
@@ -52,7 +52,7 @@ as Hutts.
 - If the species previously had Skill Training in Stealth, they get Skill
   Focus in Stealth instead.
 - Droids now have a Constitution Score. They are also no longer blanket
-  immune to all mind-affecting effects — they are still granted partial or
+  immune to all mind-affecting effects - they are still granted partial or
   full immunity against effects that attempt to violate their programming.
 - Primitive does have implications, but does not limit your starting weapon
   proficiency options. Primitive species gain another trained skill as a
@@ -62,7 +62,7 @@ as Hutts.
 
 | Intelligence | Understands                    | Speaks (one of)                |
 |--------------|---------------------------------|----------------------------------|
-| 8            | Galactic Basic, Huttese, or Ryl | —                                |
+| 8            | Galactic Basic, Huttese, or Ryl | - |
 | 10           | Galactic Basic, Huttese, or Ryl | Galactic Basic, Huttese, or Ryl |
 | 12           | Commons, including Binary       | Galactic Basic, Huttese, or Ryl |
 | 16           | Commons and Rares               | Galactic Basic, Huttese, or Ryl |
@@ -82,7 +82,7 @@ as Hutts.
   is considered their Species language. Droids with a Vocabulator lose the
   ability to speak Binary but are granted another language as their default
   Species language, as dictated by their manufacturer or that of the
-  Vocabulator's manufacturer — they keep understanding of Binary regardless
+  Vocabulator's manufacturer - they keep understanding of Binary regardless
   of Intelligence total.
 
 ## Classes
@@ -129,7 +129,7 @@ as Hutts.
   Krath), Felucian Shamans (Felucian only), Ithorian Priesthood (Ithorian
   only), Imperial Legion (Jensaarai Defender or Kilian Ranger), Jal Shey,
   Keetael (Draethos only), Luka Sene (Miraluka only), Matukai, and Order of
-  Shasa (Selkath only) — more may be added as other traditions come up.
+  Shasa (Selkath only) - more may be added as other traditions come up.
 - The following talent trees are banned: Agent of Ossus, Aing-Tii Monk,
   Iron Knight, White Current Adept, and Zeison Sha Warrior.
 
@@ -137,7 +137,7 @@ as Hutts.
 
 - Nobles gain access to the Fortune, Misfortune, Run and Gun, Smuggling,
   and Spy talent trees in addition to their normal talent trees.
-- Nobles cannot take the Connections talent for money or contacts — those
+- Nobles cannot take the Connections talent for money or contacts - those
   are roleplay effects.
 - Noble Fencing Style adds Charisma to damage as well as attack. This
   effect only works on weapons wielded single-handed.
@@ -165,7 +165,7 @@ as Hutts.
 - No advanced uses of Skills from the books.
 - A new Skill, **Athletics**, has been added, encompassing Climb, Jump, and
   Swim.
-- A new Skill, **Biotech**, has been added — a Wisdom-based skill. The
+- A new Skill, **Biotech**, has been added - a Wisdom-based skill. The
   Biotech Surgery feat is still required when attempting to install a
   Biotech prosthesis.
 - A new Skill, **Knowledge (Sciences)**, has been added, encompassing all
@@ -187,7 +187,7 @@ as Hutts.
   additional 5 HP each time.
 - **Force Boon** grants 2 Force Points per day instead of 1, and increases
   your Destiny Point cap accordingly. You can only take Force Boon once.
-- **Force Sensitivity**'s prerequisite is ignored — anyone can take it,
+- **Force Sensitivity**'s prerequisite is ignored - anyone can take it,
   including non-force sensitives and Droids.
 - **Force of Personality** allows you to use Charisma in place of Wisdom
   for the Force.
@@ -224,7 +224,7 @@ as Hutts.
   the new roll.
 - Recover a per-encounter or per-day ability, such as an expended Force
   Power, Talent, or Second Wind.
-- Use a Force Power you do not have — this also gains you a Dark Side
+- Use a Force Power you do not have - this also gains you a Dark Side
   point. If you spend a Force Point or Destiny Point to increase the
   effect of a power, you gain one additional Dark Side point for each point
   spent.
@@ -234,11 +234,11 @@ as Hutts.
 ### Destiny Points
 
 - Turn a critical hit into a regular hit.
-- Automatic hit on an attack roll — can be done before or after the roll is
+- Automatic hit on an attack roll - can be done before or after the roll is
   made; this is NOT automatically a critical. If used before you roll, you
   can still roll to see if you get the natural 20 (which is a critical).
 - Gain an immediate extra Standard Action on your turn.
-- Reduce Dark Side score by 1 — this cannot return you to the light if you
+- Reduce Dark Side score by 1 - this cannot return you to the light if you
   have completely fallen.
 - Turn 1 Destiny Point into 3 Force Points. You keep these extra Force
   Points in a pool similar to your Destiny Point pool, separate from Force
@@ -268,19 +268,19 @@ as Hutts.
 - You possess a number of **Light** slots equal to your Strength Score.
   Light objects include: Blaster Pistols, Datapads, Glowrods, Grenades,
   Lightsabers, Medical Stims, Personal Comlinks, Personal Holo Projectors,
-  and Vox-boxes — essentially any item you can easily grasp in one hand.
+  and Vox-boxes - essentially any item you can easily grasp in one hand.
 - You possess a number of **Kit** slots equal to your Strength Modifier
   plus 1 (minimum 1). You can carry another Kit in your two hands. Kits
   include: Blaster Rifles, Climbing Kits, Electrobinoculars, Field Kits,
   Fuel Tanks, Hyperwave Transceivers, Jetpacks, Medical Kits, Portable
   Computers, Power Generators, Security Kits, Slicing Kits, Sniper Rifles,
-  Survival Kits, and Toolkits — these objects are assumed to require both
+  Survival Kits, and Toolkits - these objects are assumed to require both
   hands to carry.
 - Characters of Large or Larger possess additional Light and Kit slots
   (handled case by case). Characters of Small or Smaller lose one Kit slot
-  per size category — they retain the ability to carry a Kit in their
+  per size category - they retain the ability to carry a Kit in their
   hands, though it may require extra effort.
-- **Extended Capacity** (a new feat) doubles your carrying capacity — both
+- **Extended Capacity** (a new feat) doubles your carrying capacity - both
   Light and Kit slot totals.
 - **Integrated Equipment** takes up twice as many slots.
 - **Vocal Modulators** cost 5,000 and modify speech to allow their user to
@@ -309,7 +309,7 @@ as Hutts.
 
 | Armor Type    | Dexterity Bonus     | Special Properties                    | Beskar Upgrade          |
 |---------------|----------------------|-----------------------------------------|---------------------------|
-| Assault Armor | STR instead of DEX  | —                                        | Damage Reduction 2/-     |
+| Assault Armor | STR instead of DEX  | - | Damage Reduction 2/-     |
 | Battle Armor  | 4                    | Damage Reduction 2/Lightsabers          | Damage Reduction 5/-     |
 | Mesh Armor    | 5                    | No Speed or Armor Check Penalties       | Damage Reduction 2/-     |
 | Power Armor   | 4                    | +2 Strength Score                       | Damage Reduction 2/-     |
@@ -325,15 +325,15 @@ as Hutts.
 
 | Weapon                | Size    | Damage                     | Special                                                              |
 |------------------------|---------|------------------------------|-------------------------------------------------------------------------|
-| Bow and Crystal Arrows | 2 Kits  | 2d8 Physical                 | —                                                                        |
-| Combat Gloves          | Light   | +1 Die Unarmed Physical      | —                                                                        |
+| Bow and Crystal Arrows | 2 Kits  | 2d8 Physical                 | - |
+| Combat Gloves          | Light   | +1 Die Unarmed Physical      | - |
 | Crystal Macuahuitl     | Kit     | Varies Physical              | Damage is 2d8 (1 handed) or 2d10 (2 handed)                             |
 | Crystal Tepoztopilli   | Kit     | 2d8 Physical                 | Damage becomes 2d10 if using a launcher (separate kit)                  |
 | Crystal Tomahawk       | Light   | 2d6 Physical                 | Can be thrown. Reduces penalties for dual-wielding by 2, min 0.         |
 | Grenade                | Light   | 4d6 Varies                   | Half damage on a miss. 2 square burst is at -5.                        |
-| Power Gloves           | Light   | +1 Die Unarmed Energy        | —                                                                        |
-| Shock Gloves           | Light   | +1 Die Unarmed Stun          | —                                                                        |
-| Staff                  | Kit     | 1d6/1d6 or 1d8[2h] Physical  | —                                                                        |
+| Power Gloves           | Light   | +1 Die Unarmed Energy        | - |
+| Shock Gloves           | Light   | +1 Die Unarmed Stun          | - |
+| Staff                  | Kit     | 1d6/1d6 or 1d8[2h] Physical  | - |
 
 ### Advanced Melee Weapons
 
@@ -363,7 +363,7 @@ as Hutts.
 |-------------------|-------|-----------------------|------------------------------------------------------------------|
 | Blaster Pistol    | Light | 3d6 Energy or Stun    | Switch between damage types as a Swift Action.                   |
 | Hold-out Blaster  | Light | 3d4 Energy             | Provides +5 to Stealth checks to conceal.                        |
-| Pulse Pistol      | Light | 3d8 Energy             | —                                                                  |
+| Pulse Pistol      | Light | 3d8 Energy             | - |
 | Sonic Pistol      | Light | 2d6 Sonic              | Sonic damage cannot be deflected. Has shorter range.              |
 
 ### Rifles
@@ -372,7 +372,7 @@ as Hutts.
 |-----------------|------|-----------------------|---------------------------------------------------------------------------------------|
 | Blaster Carbine | Kit  | 3d6 Energy             | Half damage on a miss.                                                                |
 | Blaster Rifle   | Kit  | 3d8 Energy or Stun     | Switch between damage types as a Swift Action.                                        |
-| Pulse Rifle     | Kit  | 3d10 Energy            | —                                                                                       |
+| Pulse Rifle     | Kit  | 3d10 Energy            | - |
 | Sniper Rifle    | Kit  | 3d12 Energy            | Must aim. Provokes attacks in melee range. Comes in Ion and Stun varieties as well.    |
 | Sonic Rifle     | Kit  | 2d8 Sonic              | Sonic damage cannot be deflected. Has shorter range.                                   |
 
@@ -436,12 +436,12 @@ as Hutts.
   is damaged, regardless of how much damage the character has taken
   (within reason). Failure results in the character being considered
   "healed" without gaining any HP.
-- A Heroic character is **Staggered** when at exactly 0 HP — they can only
+- A Heroic character is **Staggered** when at exactly 0 HP - they can only
   take a single Standard Action (or less) on their turn. If they perform
   anything more strenuous than a Move Action they take 1 damage and begin
   dying.
 - **Dying** is not Dead (yet), at least for Characters with Heroic Classes.
-  A Dying character is Helpless — they lose concentration on any effects,
+  A Dying character is Helpless - they lose concentration on any effects,
   cannot take any actions, and cannot activate or sustain any abilities. A
   Dying Character must be healed within a number of rounds equal to their
   level or else they die. Attacks against a Dying character are considered
@@ -454,7 +454,7 @@ as Hutts.
   Disadvantage.
 - Performing Treat Injury on a Dying Character requires a Medical Kit and a
   Standard Action. Before rolling, choose what action is attempted:
-  1. DC 15 — the Dying Character is considered healed and gains no HP, but
+  1. DC 15 - the Dying Character is considered healed and gains no HP, but
      does roll an attempt to rise now and rolls with advantage for all
      future rolls (unless damaged again).
   2. Performing First Aid (as above) except at DC 30, which heals them as
@@ -465,7 +465,7 @@ as Hutts.
   they died. This revives them at 1 HP if successful, and they are
   limited to 50% of total HP for 1 day.
 - Droids are special in relation to death and can be resurrected via
-  various means — duration since death rarely matters when reviving a
+  various means - duration since death rarely matters when reviving a
   droid.
 
 ## Prestige Classes
@@ -517,7 +517,7 @@ as Hutts.
 
 All three classes below have a d8 HD.
 
-**Agent** — may select one of the following class abilities for free (the
+**Agent** - may select one of the following class abilities for free (the
 others may be taken as talents): Create Cover (Reb 44), Executive
 Leadership (K 44), Targeted Suspect ability (FU 46), and Veteran Privateer
 (SaV 34). Gains access to these talent trees:
@@ -534,7 +534,7 @@ Leadership (K 44), Targeted Suspect ability (FU 46), and Veteran Privateer
 | Privateer | Force Unleashed | 52 |
 | Spy | Force Unleashed | 28 |
 
-**Engineer** — may select one of the following class abilities for free
+**Engineer** - may select one of the following class abilities for free
 (the others may be taken as talents): Destructive Saboteur (FU 58),
 Field-Created Weapon (CW 44), Fugitive (SaV 35), and No Tools Required
 (Reb 42). Gains access to these talent trees:
@@ -551,7 +551,7 @@ Field-Created Weapon (CW 44), Fugitive (SaV 35), and No Tools Required
 | Slicer | Core Rulebook | 47 |
 | Turret | Force Unleashed | 47 |
 
-**Operative** — may select one of the following class abilities for free
+**Operative** - may select one of the following class abilities for free
 (the others may be taken as talents): Lead Infiltrator (FU 50), Surprise
 Attack (CW 46), Mark (SaV 30), Unarmed Stun (FU 50). Gains access to these
 talent trees:
@@ -580,7 +580,7 @@ talent trees:
 ### Turrets
 
 Pick either Energy, Ion, or Stun for the weapon damage when you first gain
-a turret talent — you may change it as if taking another talent in the
+a turret talent - you may change it as if taking another talent in the
 tree. Otherwise, due to the miniature and temporary nature of these
 constructs, they cannot be modified or altered except by taking more
 talents in the tree.
@@ -603,7 +603,7 @@ talents in the tree.
 - Only Heroic Class Companions qualify for Prestige Classes, with the
   exception of the Independent Droid Prestige Class.
 - Beasts may use 15, 20, or 25 point buy, depending on role. Do not
-  increase Intelligence for Beasts — they have a 1 or 2 (but put a 10 into
+  increase Intelligence for Beasts - they have a 1 or 2 (but put a 10 into
   a calculator).
 - Nonheroic Characters which become heroic characters should completely
   rebuild using Heroic Class levels, as opposed to merely adding Heroic

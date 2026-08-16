@@ -47,7 +47,7 @@ function averageHitPoints(diceFormula) {
 }
 
 // Collapses a list of character levels into a compact range label, e.g.
-// [1,2,3,4,7,9,10] -> "1–4, 7, 9–10", for the Classes tab's grouped-by-class rows.
+// [1,2,3,4,7,9,10] -> "1-4, 7, 9-10", for the Classes tab's grouped-by-class rows.
 function formatLevelRange(levels) {
     const sorted = [...levels].sort((a, b) => a - b);
     const parts = [];
@@ -56,7 +56,7 @@ function formatLevelRange(levels) {
     for (let i = 1; i <= sorted.length; i++) {
         const current = sorted[i];
         if (current !== prev + 1) {
-            parts.push(start === prev ? `${start}` : `${start}–${prev}`);
+            parts.push(start === prev ? `${start}` : `${start}-${prev}`);
             start = current;
         }
         prev = current;
@@ -170,7 +170,7 @@ class SWSEActor extends Actor {
 
             if (!!this.system.settings.autoSizeToken) {
 
-                // adjust tokens to size — this.size (the Size dropdown on the Summary tab) is
+                // adjust tokens to size - this.size (the Size dropdown on the Summary tab) is
                 // the single source of truth for a character's declared size (see the getter's
                 // own doc comment), not getResolvedSize's item/changes-driven resolution, which
                 // reads a leftover size-named Trait item from before the size-table rework and
@@ -246,7 +246,7 @@ class SWSEActor extends Actor {
                             try {
                                 // Foundry V14's token-movement validation rejects a width/height
                                 // change outright ("action is invalid") when the token's current
-                                // movementAction is unset — a real trap for any token created/
+                                // movementAction is unset - a real trap for any token created/
                                 // migrated before this field existed. Has to be a separate prior
                                 // update: including movementAction in the same payload as the
                                 // resize doesn't help, since validation reads the token's
@@ -257,7 +257,7 @@ class SWSEActor extends Actor {
                                 // Even with movementAction set, a width/height change still gets
                                 // routed through Foundry's animated-movement pipeline by default,
                                 // which silently drops the resize (no thrown error, no applied
-                                // change — confirmed live: the update "succeeds" but width/height
+                                // change - confirmed live: the update "succeeds" but width/height
                                 // stay at their old values). animate:false skips that pipeline and
                                 // applies the change directly.
                                 await tokenDocument.update(tokenUpdates, {animate: false});
@@ -554,11 +554,11 @@ class SWSEActor extends Actor {
 
     // Homebrew: Maneuver Defense, shown on the Summary tab in place of Damage Threshold
     // (which is still fully computed/used elsewhere for the massive-damage/condition-track
-    // rules — this is purely an additional derived stat, not a replacement for it).
+    // rules - this is purely an additional derived stat, not a replacement for it).
     get maneuverDefense() {
         return this.getCached("maneuverDefense", () => {
             // Vehicles use a differently-shaped defense block (defense.fort, not
-            // defense.fortitude) and don't have a Fortitude-based Maneuver Defense concept —
+            // defense.fortitude) and don't have a Fortitude-based Maneuver Defense concept -
             // actor-health.hbs shows this field unconditionally (shared with the vehicle
             // sheet), so guard rather than assume every actor type has defense.fortitude.
             if (!characterActorTypes.includes(this.type)) {
@@ -671,7 +671,7 @@ class SWSEActor extends Actor {
      * levels (1-5 => 1, 6-10 => 2, 11-15 => 3, 16-20 => 4), plus 1 for Force
      * Sensitivity and 2 for Force Boon.
      *
-     * Force Sensitivity goes through `isForceSensitive`, which excludes droids —
+     * Force Sensitivity goes through `isForceSensitive`, which excludes droids -
      * droids can't take that feat. Force Boon is checked by item instead, because the
      * homebrew waives *its* prerequisite, so droids can take Boon without Sensitivity.
      * @return {number}
@@ -1017,7 +1017,7 @@ class SWSEActor extends Actor {
 
     /**
      * Homebrew: "Multiclassing Hit Die for Healing is the highest Hit Die of all classes
-     * taken" — surfaced on the Classes tab next to Total HP since it's easy to lose track
+     * taken" - surfaced on the Classes tab next to Total HP since it's easy to lose track
      * of once a character has a few levels in more than one class.
      */
     get highestClassHitDie() {
@@ -1106,7 +1106,7 @@ class SWSEActor extends Actor {
     }
 
     /**
-     * Total feat slots the character has EARNED and gets to spend — deliberately not counting
+     * Total feat slots the character has EARNED and gets to spend - deliberately not counting
      * feats a class or species simply handed over (those are listed separately as Granted Feats,
      * and the sheet compares this against chosenFeats.length).
      *
@@ -1114,7 +1114,7 @@ class SWSEActor extends Actor {
      *  - a General Feat at every odd character level (1/3/5/7/...)
      *  - everything that provides into the shared "General Feats" pool. That covers the
      *    even-level feat a BASE class grants at its own levels 2/4/6/... (prestige classes grant
-     *    none), so a Jedi 7 / Jedi Knight 3 earns 3 of these — from Jedi levels 2, 4 and 6 — and
+     *    none), so a Jedi 7 / Jedi Knight 3 earns 3 of these - from Jedi levels 2, 4 and 6 - and
      *    also picks up one-off grants like a Human's "Bonus Feat" trait. Counted purely off
      *    `provides` rather than re-deriving per class, so this can't drift from what
      *    availableItems actually hands out (and can't double-count it).
@@ -1314,7 +1314,7 @@ class SWSEActor extends Actor {
 
                 if (attributes.length === 0) {
                     // Homebrew: base speed comes from size rather than per-species
-                    // values — 30 ft, or 25 ft at Small or smaller. Armor's flat
+                    // values - 30 ft, or 25 ft at Small or smaller. Armor's flat
                     // penalty is applied below via applyArmorSpeedPenalty().
                     const isSmallOrSmaller = this.size.sizeIndex <= sizeArray.indexOf("Small");
                     attributes.push({type: "Walk", value: isSmallOrSmaller ? 25 : 30});
@@ -1722,11 +1722,11 @@ class SWSEActor extends Actor {
     }
 
     /**
-     * Levels taken in non-heroic ("NPC") classes — Beast, Nonheroic — per tovec's homebrew:
+     * Levels taken in non-heroic ("NPC") classes - Beast, Nonheroic - per tovec's homebrew:
      * "NPC Classes have a Base Attack and Level Bonus to Defenses equal to 3/4 their total
      * level." Each NPC class's own per-level `baseAttackBonus` change entries already encode
      * a 0/1/1/1-per-4-levels pattern matching floor(level * 3/4), but nothing ever actually
-     * reads those via getInheritableAttribute — _baseAttackBonus() is the sole authoritative
+     * reads those via getInheritableAttribute - _baseAttackBonus() is the sole authoritative
      * BAB source and previously just returned characterLevel unconditionally, so NPC classes
      * were silently getting full BAB instead of 3/4. Feeds both defenseLevelBonus (below) and
      * _baseAttackBonus(), the two places tovec's rule actually needs to apply.
@@ -1746,7 +1746,7 @@ class SWSEActor extends Actor {
 
     /**
      * The "Level Bonus" term used by Fortitude/Reflex/Will (data/templates/defenses.mjs) and
-     * by _baseAttackBonus() below — full value per heroic level, 3/4 (floored) per NPC-class
+     * by _baseAttackBonus() below - full value per heroic level, 3/4 (floored) per NPC-class
      * level, matching tovec's rule above. A mixed heroic/NPC-class build (e.g. a smart Beast
      * that multiclassed into a heroic class) gets both contributions summed.
      */
@@ -2336,10 +2336,10 @@ class SWSEActor extends Actor {
     }
 
     // Homebrew: all Heroic and Prestige classes have BAB equal to character level (no
-    // per-class progression) — but NPC classes (Beast, Nonheroic) only get 3/4 of their
+    // per-class progression) - but NPC classes (Beast, Nonheroic) only get 3/4 of their
     // level per tovec's rule, same scaling as defenseLevelBonus below. Each NPC class's own
     // per-level `baseAttackBonus` change entries already encode this exact 3/4 progression,
-    // but nothing actually reads them via getInheritableAttribute — this getter is the sole
+    // but nothing actually reads them via getInheritableAttribute - this getter is the sole
     // authoritative source, so it needs to apply the same split itself.
     _baseAttackBonus(override) {
         return this.defenseLevelBonus;
@@ -2353,7 +2353,7 @@ class SWSEActor extends Actor {
         return this.getCached("size", () => {
             // Homebrew: the Size category declared on the Character summary is the
             // single source of truth for the size-driven homebrew table (ability
-            // adjustments, speed, unarmed damage, Stealth) — it no longer defers to
+            // adjustments, speed, unarmed damage, Stealth) - it no longer defers to
             // species-declared size, so setting it always takes effect.
             const chosen = sizeArray.indexOf(this.system.size);
             const sizeIndex = chosen > -1 ? chosen : sizeArray.indexOf("Medium");
@@ -2406,7 +2406,7 @@ class SWSEActor extends Actor {
             context.actor = this;
             context.entity = entity;
             context.ignoreAvailability = item.ignoreAvailability;
-            // Rule enforcement intentionally disabled — validators still run for their side effects
+            // Rule enforcement intentionally disabled - validators still run for their side effects
             // (e.g. activeCategory assignment) but never block the add and never show a popup;
             // GM does manual review instead.
             const previousSuppressDialog = this.suppressDialog;
@@ -2842,13 +2842,13 @@ class SWSEActor extends Actor {
         }
         entity.prepareData();
 
-        // resolveEntity always returns entity.clone() — so when item is already a real SWSEItem
+        // resolveEntity always returns entity.clone() - so when item is already a real SWSEItem
         // (e.g. a document fetched straight from a compendium, the common case for
         // actor.addItem(classItem, ...)), entity is a clone built directly from item's own data
         // and already carries item.changes' full content. Merging item.changes into it again
         // here silently doubled every non-unique-keyed change (weaponProficiency, classFeat,
         // ...) on every such add, cascading into doubled starting-feat grants and doubled
-        // proficiency lists downstream. Only skip for this specific case — the uuid/name-lookup
+        // proficiency lists downstream. Only skip for this specific case - the uuid/name-lookup
         // branches in resolveEntity build entity from a *different* source document than item,
         // so item.changes there can carry genuinely new overlay data that must still be merged.
         if (!(item instanceof SWSEItem)) {
@@ -3170,7 +3170,7 @@ class SWSEActor extends Actor {
         this.system.finalAttributeGenerationType = attributeGeneration;
 
         this.system.sheetType = "Auto"
-        // Beasts are DM-built NPC stat blocks, not player characters built via point buy —
+        // Beasts are DM-built NPC stat blocks, not player characters built via point buy -
         // same reasoning as vehicles already getting a forced-Manual pass here. There's also
         // no per-actor override available for beast: initializeCharacterSettings() only
         // exposes the "Ability Generation Type" Settings-tab option for type "character".

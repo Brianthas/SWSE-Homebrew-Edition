@@ -1,4 +1,4 @@
-// Classes tab: one row per class taken (not per level — a level-10 character used to
+// Classes tab: one row per class taken (not per level - a level-10 character used to
 // be 10 nearly-identical rows just to track incremental HP). Expand a row for the
 // per-level HP breakdown, reusing the same toggle/.control pattern as situational skills.
 
@@ -34,7 +34,7 @@
 
     // Multiple distinct compendium-shortcut icons sitting side by side (e.g. Equipment tab's
     // Weapons/Armor/Equipment/Templates row) are otherwise indistinguishable without hovering
-    // each one — show the label instead of relying on the `title` tooltip.
+    // each one - show the label instead of relying on the `title` tooltip.
     &.labeled-actions a {
       width: auto;
       height: 20px;

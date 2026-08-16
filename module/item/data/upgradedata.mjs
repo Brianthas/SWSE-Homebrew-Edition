@@ -7,7 +7,7 @@ const fields = foundry.data.fields;
 
 /**
  * Matches template.json Item > upgrade (templates: base, item, mod) plus the "upgrade" object and
- * "equipped"/"stripping" — undeclared in template.json, but "upgrade" is listed in
+ * "equipped"/"stripping" - undeclared in template.json, but "upgrade" is listed in
  * common/constants.mjs's EQUIPABLE_TYPES and item.mjs's getStripping() is used generically across
  * equipable types, so both are needed here too (see weapondata.mjs for the same note).
  */

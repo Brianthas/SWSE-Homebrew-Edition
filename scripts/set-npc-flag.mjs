@@ -1,6 +1,6 @@
 // One-off migration: mark every units-cl-* actor as system.settings.isNPC = true. These are all
 // pre-built NPC/creature stat blocks (that's the entire purpose of the units-cl-* packs), but the
-// flag was never set on import — which caused two problems: (1) the PC-leveling-budget validator
+// flag was never set on import - which caused two problems: (1) the PC-leveling-budget validator
 // in characterdata.mjs's #_reduceAvailable wrongly checked these actors' bulk-attached talents/feats
 // against a slot budget they were never built through, spamming console.error + phantom "Items
 // remaining" warnings; (2) token auto-link behavior (actor.mjs ~146-158) treats isNPC as the signal

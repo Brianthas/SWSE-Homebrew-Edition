@@ -68,7 +68,7 @@ function meetsPrerequisite(prereq, target, options) {
                 failureList.push({fail: true, message: `${prereq.text}`});
                 break;
             case 'DARK SIDE SCORE':
-                // `darkside.score` has never existed — the field is `value`, and `finalScore` is
+                // `darkside.score` has never existed - the field is `value`, and `finalScore` is
                 // that plus any darksideTaint. Reading the missing property made the comparison
                 // `undefined < N` (always false), so this prerequisite always passed.
                 if (!(target.system.darkside.finalScore < resolveValueArray([prereq.requirement], target))) {

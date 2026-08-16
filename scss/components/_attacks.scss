@@ -1,5 +1,5 @@
 // Attacks panel: pf2e/sf2e-style compact card, one row per weapon (replacing the old bare
-// formula rows) — icon, name, ability override, baseline to-hit/damage, and a one-click Attack
+// formula rows) - icon, name, ability override, baseline to-hit/damage, and a one-click Attack
 // button, all visible without expanding. Expand for range/crit/type/notes/modes detail. Same
 // idiom as the Classes tab (_classes.scss): flex-column list of cards, a header row-style
 // toggle/control pattern reused from the existing collapsible-container/data-toggle-id system.
@@ -11,7 +11,7 @@
 }
 
 // The "+" icon sits inline in the "ATTACKS" header bar, which is light-on-dark
-// (.top-label: color:var(--swse-bg) on background:var(--swse-accent)) — but a plain <a> picks
+// (.top-label: color:var(--swse-bg) on background:var(--swse-accent)) - but a plain <a> picks
 // up the sitewide `color: var(--swse-accent)` link rule instead of the bar's own text color,
 // rendering the same cyan on cyan and making it invisible. Swap to a small dark chip instead,
 // the same background/color-swap contrast trick .classes-header-actions a already uses
@@ -34,7 +34,7 @@
 
 // The character sheet places this panel (actor-weapon-armor-summary.hbs) via .summary-grid's
 // CSS Grid, where it already stretches to fill its cell. The vehicle sheet places the same
-// panel in a plain flex row instead — without an explicit width it only sizes to its content,
+// panel in a plain flex row instead - without an explicit width it only sizes to its content,
 // squeezing the weapon rows' name/dropdown columns down to nothing and truncating them badly.
 .weapon-summary-header {
   width: 100%;
@@ -134,11 +134,11 @@ a.attack-name {
   color: var(--swse-bg);
   cursor: pointer;
 
-  // fa-dice-d20's glyph reads slightly off-center within its own bounding box — optical, not
+  // fa-dice-d20's glyph reads slightly off-center within its own bounding box - optical, not
   // layout, nudge. Measured directly via pixel-bounds analysis of a zoomed screenshot (modal
   // background color vs. glyph-colored pixels, corner-radius bleed and capture-edge artifacts
   // excluded) and iterated against that measurement: -1px left ~0.56px of rightward bias,
-  // -1.6px overshot ~0.34px left the other way — -1.25px measures dead-center horizontally.
+  // -1.6px overshot ~0.34px left the other way - -1.25px measures dead-center horizontally.
   i {
     transform: translate(-1.25px, 0.5px);
   }
@@ -148,7 +148,7 @@ a.attack-name {
   }
 }
 
-// Only rendered for custom (non-equipment) attacks — real weapons are deleted/unequipped
+// Only rendered for custom (non-equipment) attacks - real weapons are deleted/unequipped
 // from the Equipment tab instead.
 .attack-delete-btn {
   width: 18px;
@@ -207,7 +207,7 @@ a.attack-name {
 }
 
 /* Inline pickers on an attack card (ability / damage ability / damage type). A weapon's declared
-   damage type can be a whole sentence, so these are capped rather than sized to their content —
+   damage type can be a whole sentence, so these are capped rather than sized to their content -
    otherwise one verbose item stretches the whole row. */
 .attack-ability-select {
   max-width: 110px;

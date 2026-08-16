@@ -1,10 +1,10 @@
 // Fixes a systemic data-import artifact: description/textDescription HTML scraped from
 // swse.fandom.com dropped whitespace immediately around inline <a>/<b>/<i>/<span>/<strong>/<sup>
 // tags. E.g. "any<a href=...>Force Power</a>that" instead of "any <a href=...>Force Power</a> that"
-// — renders in the sheet as "anyForce Powerthat", words visibly run together.
+// - renders in the sheet as "anyForce Powerthat", words visibly run together.
 //
 // Scoped to only three, unambiguous typography rules (derived from grep-sampling ~3000 affected
-// files across packs — see plan doc for the full reasoning):
+// files across packs - see plan doc for the full reasoning):
 //   1. A word char, or a "closing-style" punctuation mark (,;:.)']) that attaches to the END of
 //      the preceding word, immediately followed by an opening inline tag -> insert a space before
 //      the tag. Deliberately excludes '(' / '-' / '>' / '"' before the tag: opening-parens and
@@ -17,13 +17,13 @@
 //      attach to the end of the preceding word with no leading space; '-' is a hyphenated-word
 //      continuation; '&' starts an HTML entity like &nbsp;; '<' is the start of the next tag).
 //   3. Two inline tags directly touching with no text between at all (e.g. "Immobilizing</a><a
-//      href=...>Hazards</a>") — neither rule 1 nor 2 fires here since the boundary character on
+//      href=...>Hazards</a>") - neither rule 1 nor 2 fires here since the boundary character on
 //      each side is itself a tag delimiter (> then <), not a trigger char.
 //
 // &nbsp; is protected via placeholder swap before any rule runs, so nothing can ever insert a
 // second space next to an entity that's already a space itself.
 //
-// Only touches system.description / system.textDescription — never runs over the whole raw
+// Only touches system.description / system.textDescription - never runs over the whole raw
 // file, so it can't touch a JSON key name or a URL inside an href value.
 
 import fs from "node:fs";
@@ -67,7 +67,7 @@ for (const pack of TARGET_PACKS) {
 
         let fileChanged = false;
         // units-cl-* are actor files: fix the actor's own system.description (rare) plus every
-        // embedded item's system.description/textDescription (the actual affected content —
+        // embedded item's system.description/textDescription (the actual affected content -
         // baked-in copies of talents/feats granted at build time).
         const allTargets = doc.system ? [doc, ...(doc.items || [])] : (doc.items || []);
 
@@ -97,7 +97,7 @@ for (const pack of TARGET_PACKS) {
 }
 
 console.log(`\nTotal: ${totalChanged}/${totalFiles} files changed, ${totalInsertions} spaces inserted`);
-console.log(DRY_RUN ? "\n(dry run — pass --write to apply)" : "\nWritten.");
+console.log(DRY_RUN ? "\n(dry run - pass --write to apply)" : "\nWritten.");
 
 if (DRY_RUN) {
     console.log("\n--- Sample diffs ---");

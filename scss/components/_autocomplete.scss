@@ -1,9 +1,9 @@
-// Bounded/scrollable replacement for a native <datalist> popup (see common/autocomplete.mjs) —
+// Bounded/scrollable replacement for a native <datalist> popup (see common/autocomplete.mjs) -
 // a long list (e.g. the ~160-entry known-attribute-key list) gets a real scrollbar instead of
 // spilling to the full list height, which native datalist popups can't be made to do at all.
 //
-// Appended straight to <body> (outside any .swse-classed sheet window), so — unlike every other
-// component partial — this one is imported unscoped, at the top level of swse.scss, not nested
+// Appended straight to <body> (outside any .swse-classed sheet window), so - unlike every other
+// component partial - this one is imported unscoped, at the top level of swse.scss, not nested
 // inside `.swse { }`. Nesting would compile to a `.swse .swse-autocomplete-dropdown` descendant
 // selector, which never matches an element carrying both classes itself with no separate
 // ancestor. The --swse-* custom properties it uses are already defined on :root (utils/colors),

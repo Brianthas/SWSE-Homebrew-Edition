@@ -27,7 +27,7 @@ export class SWSEActiveEffectConfig extends foundry.applications.sheets.ActiveEf
         }
     };
 
-    /** V1-era compatibility alias — several shared listener helpers (module/common/listeners.mjs) still use
+    /** V1-era compatibility alias - several shared listener helpers (module/common/listeners.mjs) still use
      * `this.object` as the document-being-edited, matching V1 DocumentSheet's alias for `this.document`. */
     get object() {
         return this.document;

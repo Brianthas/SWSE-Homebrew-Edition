@@ -58,7 +58,7 @@ export class AttackDelegate {
         const actorUUID = actor.uuid;
         let attacks = weaponUuids.map(uuid => Attack.create({actorId: actorUUID, operatorId: actorUUID, weaponId: uuid}));
 
-        // Homebrew: attacks that aren't tied to any equipped item (e.g. Grapple) — see
+        // Homebrew: attacks that aren't tied to any equipped item (e.g. Grapple) - see
         // custom-attack-item.mjs.
         let customAttacks = actor.system.customAttacks || [];
         attacks.push(...customAttacks.map(config => Attack.create({actorId: actorUUID, operatorId: actorUUID, weaponId: `${CUSTOM_ATTACK_PREFIX}${config.id}`})));

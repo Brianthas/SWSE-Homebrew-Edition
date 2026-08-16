@@ -1,11 +1,11 @@
 /**
  * A minimal, bounded/scrollable replacement for a plain `<input list="...">` native
- * `<datalist>` popup — Chromium (and every other browser) renders that popup as native OS UI
+ * `<datalist>` popup - Chromium (and every other browser) renders that popup as native OS UI
  * with no CSS hooks at all, so a long option list (e.g. the ~160-entry known-attribute-key
  * list on the Changes/Modes tab) can't be height-capped or given a scrollbar. This renders a
  * plain, fully-stylable `<ul>` instead.
  *
- * One dropdown element is created lazily and shared across every bound input on the page —
+ * One dropdown element is created lazily and shared across every bound input on the page -
  * only one can ever be open at a time, so there's no reason to allocate (and have to clean up)
  * a separate element per input, per render.
  */
@@ -80,12 +80,12 @@ function showOptions(input, options) {
 
 /**
  * Wires the bounded/scrollable autocomplete behavior onto every element matching `selector`
- * within `root` — accepts either a raw element (ApplicationV2's `this.element`) or a jQuery
+ * within `root` - accepts either a raw element (ApplicationV2's `this.element`) or a jQuery
  * object (classic Application's `html` param), matching whichever sheet framework calls it.
  *
  * @param {HTMLElement|jQuery} root
  * @param {string} selector
- * @param {string[]} options — the full candidate list; filtered client-side per keystroke.
+ * @param {string[]} options - the full candidate list; filtered client-side per keystroke.
  */
 export function bindKeyAutocomplete(root, selector, options) {
     const rootEl = root?.jquery ? root[0] : root;

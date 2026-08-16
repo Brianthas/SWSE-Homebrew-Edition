@@ -6,7 +6,7 @@ export function registerSystemSettings() {
     systemOptions();
     optionalRules();
 
-    // Bookkeeping only (config: false) — records that the one-time age-trait cleanup in
+    // Bookkeeping only (config: false) - records that the one-time age-trait cleanup in
     // swse.mjs has already swept this world, so it never runs a second time.
     game.settings.register("swse", "ageTraitsRemoved", {
         scope: "world",
