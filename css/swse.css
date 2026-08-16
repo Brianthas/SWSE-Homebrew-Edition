@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Roboto:wght@300;400;500&display=swap");
 :root {
   --swse-bg: #10131a;
@@ -301,7 +300,6 @@
 }
 
 .flex-wrap {
-  -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
@@ -701,6 +699,7 @@
   font-size: 18px;
   color: var(--swse-text);
   cursor: pointer;
+  -webkit-user-select: none;
   user-select: none;
   display: flex;
   align-items: center;
@@ -3158,7 +3157,6 @@
   gap: 8px;
   margin-bottom: 8px;
 }
-
 .swse-web-buttons .constant-button {
   flex: 1;
   margin: 0;

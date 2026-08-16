@@ -12,16 +12,21 @@
     "packs:pack": "node scripts/pack-tools.mjs pack"
   },
   "browserslist": [
-    "last 3 versions"
+    "Chrome >= 146",
+    "Edge >= 146",
+    "Firefox >= 138",
+    "Safari >= 18.4",
+    "iOS >= 18.4"
   ],
   "author": "Andy Lijewski",
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "autoprefixer": "^10.5.4",
     "chai": "^6.2.0",
     "eslint": "^8.23.0",
     "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^6.1.0",
+    "gulp-postcss": "^10.0.0",
     "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^2.6.5",
     "leader-line-new": "^1.1.9",
