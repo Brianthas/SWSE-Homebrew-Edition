@@ -1,7 +1,18 @@
-#compendium .constant-button {
-  flex: 0;
-  margin: 5px;
-  width: auto;
+// Talent/Feat web launchers, injected into the compendium sidebar header by compendium-web.mjs.
+// Core's .action-buttons already supplies the gap, padding and font size on each row, so all that is
+// left here is stacking the rows and letting the buttons share the width evenly.
+.swse-web-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 8px;
+
+  .constant-button {
+    flex: 1;
+    margin: 0;
+    width: auto;
+    white-space: nowrap;
+  }
 }
 
 

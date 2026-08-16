@@ -153,11 +153,11 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
 
         html.find(".toggle").on("click", onToggle.bind(this))
         bindKeyAutocomplete(html, ".known-attribute-key-input", KNOWN_ATTRIBUTE_KEYS);
-        // fixed:true — same clipping issue as the attack-button menu below.
+        // fixed:true - same clipping issue as the attack-button menu below.
         new foundry.applications.ux.ContextMenu(html[0], ".numeric-override", numericOverrideOptions(this.actor), {jQuery: false, fixed: true})
         //new ContextMenu(html, `[data-action="attack-more"]`, numericOverrideOptions(this.actor))
 
-        // fixed:true — without it the menu is positioned as a normal absolutely-positioned
+        // fixed:true - without it the menu is positioned as a normal absolutely-positioned
         // child of the button, which gets clipped by the sheet's own scrollable container
         // whenever the button sits near the window edge (the compact attack card's roll
         // button always does). fixed mode escapes that clipping.
@@ -240,7 +240,7 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
         });
         html.find("#fullAttack").on("click", (ev) => this._onMakeAttack(ev, Attack.TYPES.FULL_ATTACK));
         // A plain click now opens the same "Attack with Bonus" dialog the right-click context
-        // menu already offers (Attack/Damage Bonus + Normal/Advantage/Disadvantage) — that's
+        // menu already offers (Attack/Damage Bonus + Normal/Advantage/Disadvantage) - that's
         // the primary way to add a situational modifier or roll with advantage/disadvantage,
         // not an opt-in extra. Ctrl/Alt-held click stays as a fast-path that skips the dialog
         // and rolls immediately with Advantage/Disadvantage, for a quick reroll.
@@ -276,17 +276,21 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
         html.find('.rollable').click(this._onRoll.bind(this));
         html.find('[data-action="roll-with-bonus-toggle"]').click(this._onRollWithBonusToggle.bind(this));
         // _onToggleSecondWind is already a generic "write this checkbox's checked state to
-        // data-name" handler despite its name — reused as-is rather than duplicating it.
+        // data-name" handler despite its name - reused as-is rather than duplicating it.
         html.find('[data-action="toggle-roll-bonus-prompt"]').click(this._onToggleSecondWind.bind(this));
 
         //html.find('[data-action="compendium"]').click(this._onOpenCompendium.bind(this));
         html.find('[data-action="compendium"]').click(SWSECompendiumDirectory.viewCompendiumItemsByFilter.bind(this));
         html.find('[data-action="compendium-web"]').click((e) => {
             let target = e.currentTarget
-            let type = target.dataset.type
+            // CompendiumWeb reads its option as "types" (plural) - passing "type" meant the data-type
+            // on the clicked warning was silently dropped and the web always fell back to its default
+            // feat+talent pair. Harmless while the only caller asked for exactly that default, but it
+            // made data-type dead the moment anything narrower used it.
+            let types = target.dataset.type
             let providerSource = target.dataset.providerSource
-            if (type) {
-                type = type.split(",").map(t => t.trim())
+            if (types) {
+                types = types.split(",").map(t => t.trim())
             }
             let webFilters = {};
 
@@ -294,7 +298,7 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
                 webFilters['provider-filter'] = providerSource
             }
 
-            new CompendiumWeb({type, webFilters}).render(!0)
+            new CompendiumWeb({types, webFilters}).render(!0)
         });
         html.find('[data-action="view"]').click(this._onItemEdit.bind(this));
         html.find('[data-action="delete"]').click(this._onItemDelete.bind(this));
@@ -539,7 +543,7 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
 
                 break;
         }
-        // toChat() posts silently (a sound plays, but there's no visible confirmation) — if the
+        // toChat() posts silently (a sound plays, but there's no visible confirmation) - if the
         // Chat sidebar tab isn't already the active one, clicking Share looked like it did
         // nothing at all. Switch to it so the shared content is immediately visible.
         const result = toChat(content, this.object);
@@ -1159,7 +1163,7 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
         let label = getLabelFromDataSet.call(this, dataset);
         let notes = getNotesFromDataSet.call(this, dataset);
 
-        // Ctrl/Cmd-click for Advantage, Alt-click for Disadvantage — same fast-path modifier
+        // Ctrl/Cmd-click for Advantage, Alt-click for Disadvantage - same fast-path modifier
         // keys as the Attack roll button/BAB/Grapple badges. Only meaningful for d20-based
         // rolls (skills etc.); non-d20 rolls sharing this generic handler just ignore it since
         // applyRollMode only rewrites a leading "1d20".
@@ -1402,7 +1406,7 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
         }
         const item = this.actor.items.get(itemId);
         // Some items carry the literal string "unequipped" rather than null/"" for their
-        // unequipped state, which is truthy in JS — check the actual value, not truthiness.
+        // unequipped state, which is truthy in JS - check the actual value, not truthiness.
         if (item.system.equipped === "equipped") {
             this.actor.unequipItem(itemId);
         } else {
@@ -1412,7 +1416,7 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
 
     /**
      * Equipment tab: cycles an item's Light/Kit slot category (none -> Light -> Kit -> none).
-     * Writes the lightSlotCost/kitSlotCost change directly onto this item instance — the same
+     * Writes the lightSlotCost/kitSlotCost change directly onto this item instance - the same
      * attribute keys slots.mjs already reads, so no new schema field is needed. Auto-populated
      * items (already carrying one of these keys from the compendium) start mid-cycle.
      */
@@ -1429,7 +1433,7 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
         const changes = existing.filter(c => c.key !== "lightSlotCost" && c.key !== "kitSlotCost");
 
         // A migrated weapon/equipment item's Light/Kit cost lives in a real typed field, not
-        // system.changes — item.slotType (item.mjs) already checks that first; cycling needs to
+        // system.changes - item.slotType (item.mjs) already checks that first; cycling needs to
         // match that same precedence and clear it, or a stale typed-field value keeps applying
         // underneath whatever this pushes onto changes[], silently doubling the slot cost (SUM
         // reduce adds both together).
@@ -1450,7 +1454,7 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
 
     /**
      * Equipment tab: toggles an item as "Integrated" (surgically built-in rather than just
-     * carried) — doubles that item's own Light/Kit slot cost (slots.mjs reads slotCostMultiplier
+     * carried) - doubles that item's own Light/Kit slot cost (slots.mjs reads slotCostMultiplier
      * per-item). Same direct-write-to-changes pattern as _onCycleSlotType, no schema field needed.
      */
     _onToggleIntegrated(event) {
@@ -1475,9 +1479,9 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
 
     /**
      * Attacks panel: opens a dialog to define a new custom attack that isn't tied to any
-     * equipped item (e.g. Grapple) — persisted on the actor (system.customAttacks), wrapped by
-     * CustomAttackItem (custom-attack-item.mjs) so it flows through the same Attack pipeline —
-     * bonuses, advantage/disadvantage, etc. — as a real weapon.
+     * equipped item (e.g. Grapple) - persisted on the actor (system.customAttacks), wrapped by
+     * CustomAttackItem (custom-attack-item.mjs) so it flows through the same Attack pipeline - 
+     * bonuses, advantage/disadvantage, etc. - as a real weapon.
      */
     async _onAddCustomAttack(event) {
         event.preventDefault();
@@ -1553,7 +1557,7 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
 </div>`;
 
         const result = await Dialog.prompt({
-            title: existing ? `Edit Custom Attack — ${existing.name}` : "Add Custom Attack",
+            title: existing ? `Edit Custom Attack - ${existing.name}` : "Add Custom Attack",
             content,
             label: existing ? "Save" : "Add",
             callback: (html) => ({
@@ -1580,7 +1584,7 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
 
     /**
      * Attacks panel: toggles a situational combat bonus (Sneak Attack, etc.) on/off. Persisted
-     * on the actor, actor-global (governs every weapon's roll at once) — distinct from
+     * on the actor, actor-global (governs every weapon's roll at once) - distinct from
      * `system.toggles`, which is pure UI expand/collapse state, not a roll-affecting modifier.
      */
     _onCombatToggle(event) {
@@ -1609,7 +1613,7 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
     /**
      * Asks which skill to roll when a talent/feat allows a substitution. Defaults to the
      * substitute (that's why you took the talent), but the base skill stays available because most
-     * substitutions only cover some applications of the skill — the scope note, where the talent
+     * substitutions only cover some applications of the skill - the scope note, where the talent
      * gives one, is shown next to the option.
      *
      * @return {Promise<string|undefined|null>} chosen substitute skill, undefined for the base
@@ -1621,7 +1625,7 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
         const rows = [
             `<div><label><input type="radio" name="${group}" value=""/> ${titleCase(label)} <span class="notes">(normal)</span></label></div>`,
             ...substitutions.map((s, i) => {
-                const scope = s.scope ? ` <span class="notes">— ${s.scope}</span>` : "";
+                const scope = s.scope ? ` <span class="notes">- ${s.scope}</span>` : "";
                 const src = s.sourceDescription ? ` <span class="notes">(${s.sourceDescription})</span>` : "";
                 return `<div><label><input type="radio" name="${group}" value="${s.source}" ${i === 0 ? "checked" : ""}/> ${s.source}${src}${scope}</label></div>`;
             })
@@ -1658,7 +1662,7 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
      * character picks up system/content fixes without being rebuilt from scratch.
      *
      * Only compendium-derived rules data is replaced. Anything the player set on their own copy is
-     * carried over (see PRESERVED_ITEM_FIELDS) — equipped state, quantity, uses, list order, the
+     * carried over (see PRESERVED_ITEM_FIELDS) - equipped state, quantity, uses, list order, the
      * per-weapon ability/handedness overrides, and the supplier that records which class or
      * species granted it. Items with no compendium source (custom ones) are left alone entirely.
      */
@@ -1701,17 +1705,17 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
             // A compendium entry for a choice-driven item (Skill Focus, Weapon Proficiency, ...)
             // stores unresolved #payload# tokens; the character's actual choice is substituted
             // into changes/description/prerequisites when the item is granted. Pulling fresh
-            // rules data overwrites all three, so the choice has to be re-applied — otherwise
+            // rules data overwrites all three, so the choice has to be re-applied - otherwise
             // "Skill Focus (Use the Force)" reverts to a change of `skillFocus = #payload#`,
             // which silently stops granting the bonus.
             //
-            // system.payload is only populated on some grant paths — class-granted proficiencies
-            // bake the choice straight into `changes` and leave it blank — so fall back to
+            // system.payload is only populated on some grant paths - class-granted proficiencies
+            // bake the choice straight into `changes` and leave it blank - so fall back to
             // recovering the choice from the item's own resolved data.
             const payload = item.system.payload || this.#inferPayload(item, fresh.system);
             if (payload) this.#applyPayload(update.system, payload);
 
-            // Some choices don't substitute a token at all — they append change entries (the
+            // Some choices don't substitute a token at all - they append change entries (the
             // ability-score-bonus traits push e.g. `strengthBonus: 1` for the ability picked).
             // Those live only on the character's copy, so re-apply them from the preserved
             // selections or the pick is silently lost and the trait has to be redone by hand.
@@ -1766,7 +1770,7 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
      * template it came from: wherever the template still holds a #payload# token and the
      * character's copy holds real text, that text is the choice.
      *
-     * Needed because not every grant path records system.payload — class-granted weapon
+     * Needed because not every grant path records system.payload - class-granted weapon
      * proficiencies and the ability-score-bonus traits write the choice straight into their
      * changes and leave the field blank.
      *
@@ -1829,7 +1833,7 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
     /**
      * Attacks panel: drag-to-reorder. Attacks come from several unrelated sources, so rather than
      * sorting an underlying list this persists the visible key order on the actor
-     * (system.attackOrder) — see AttackDelegate#applyAttackOrder.
+     * (system.attackOrder) - see AttackDelegate#applyAttackOrder.
      */
     async _onSortAttack(event) {
         event.preventDefault();
@@ -1856,7 +1860,7 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
 
     /**
      * Attacks panel: hide an attack. Most attacks are generated rather than stored (from an
-     * equipped weapon, or the stand-in Unarmed Attack), so there's usually nothing to delete —
+     * equipped weapon, or the stand-in Unarmed Attack), so there's usually nothing to delete - 
      * a custom attack is the exception and is removed outright by its own trash control.
      * Hidden attacks are listed in Settings, where they can be restored.
      */
@@ -1870,7 +1874,7 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
         await this.actor.safeUpdate({"system.hiddenAttacks": hidden});
     }
 
-    /** Restores every hidden attack — the counterpart to _onHideAttack, surfaced in Settings. */
+    /** Restores every hidden attack - the counterpart to _onHideAttack, surfaced in Settings. */
     async _onUnhideAttacks(event) {
         event.preventDefault();
         await this.actor.safeUpdate({"system.hiddenAttacks": []});
@@ -1938,7 +1942,7 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
 
     /**
      * Attacks panel: persists a weapon's handedness choice (1H/2H), same pattern as
-     * _onAbilityOverrideChange — only shown for weapons that genuinely support a choice.
+     * _onAbilityOverrideChange - only shown for weapons that genuinely support a choice.
      */
     _onHandsOverrideChange(event) {
         event.preventDefault();
@@ -1970,7 +1974,7 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
      */
     _onDefensePointChange(event) {
         const input = event.currentTarget;
-        // "level10" before "level1" in the alternation — regex tries alternatives left-to-right
+        // "level10" before "level1" in the alternation - regex tries alternatives left-to-right
         // and stops at the first match, not the longest, so against a "...level10" field name
         // "level1" (a literal prefix of "level10") would otherwise match first and silently
         // truncate the captured pool, making every level10 field get checked against the level1
@@ -2004,7 +2008,7 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
     }
 
     /**
-     * Homebrew: a long rest restores everything that refreshes daily — hit points to
+     * Homebrew: a long rest restores everything that refreshes daily - hit points to
      * full, Force Points to the character's per-day allotment, and Second Wind uses.
      * Destiny Points are deliberately untouched: they're a running total that is lost
      * when spent, not a daily resource.
@@ -2146,7 +2150,7 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
 
     /**
      * Base Attack Bonus / Grapple (Summary tab): rolls immediately by default, same as any
-     * other .rollable — but if the roll's own .roll-bonus-toggle checkbox is checked, prompts
+     * other .rollable - but if the roll's own .roll-bonus-toggle checkbox is checked, prompts
      * for a one-off situational bonus first (e.g. a flanking or cover modifier) instead,
      * same UX as First Aid's bonus prompt.
      */
@@ -2159,14 +2163,14 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
         const baseFormula = element.dataset.formula;
         const toggle = element.closest('.field-roll')?.querySelector('.roll-bonus-toggle');
 
-        // Ctrl/Cmd-click for Advantage, Alt-click for Disadvantage — same fast-path modifier
+        // Ctrl/Cmd-click for Advantage, Alt-click for Disadvantage - same fast-path modifier
         // keys as the Attack roll button, overridable below via the bonus-prompt dialog's own
         // Advantage/Normal/Disadvantage buttons if the toggle is checked.
         let advantageMode = (event.ctrlKey || event.metaKey) ? "advantage" : event.altKey ? "disadvantage" : undefined;
 
         let formula = baseFormula;
         if (toggle?.checked) {
-            // Same dnd5e-modeled shape as the Attack-with-Bonus dialog (util.mjs) — a
+            // Same dnd5e-modeled shape as the Attack-with-Bonus dialog (util.mjs) - a
             // "Configuration" fieldset around the bonus field, then Advantage/Normal/
             // Disadvantage as three separate buttons instead of a radio group.
             const readResult = (html) => Number(html.find('[name="bonus"]').val()) || 0;
@@ -2502,7 +2506,7 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
     }
 
     async _onMakeAttack(ev, type = Attack.TYPES.SINGLE_ATTACK){
-        // Ctrl/Cmd-click for Advantage, Alt-click for Disadvantage — same fast-path keyboard
+        // Ctrl/Cmd-click for Advantage, Alt-click for Disadvantage - same fast-path keyboard
         // modifiers as the standard d20-system convention, no dialog needed for the common case.
         const advantageMode = (ev.ctrlKey || ev.metaKey) ? "advantage" : ev.altKey ? "disadvantage" : undefined;
         if(ev.currentTarget.dataset.attackKeys){

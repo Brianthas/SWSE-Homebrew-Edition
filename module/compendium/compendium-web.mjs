@@ -10,7 +10,13 @@ export class CompendiumWeb extends Application {
     static get defaultOptions() {
         return foundry.utils.mergeObject(super.defaultOptions, {
             template: "systems/swse/templates/compendium/compendium-web.hbs",
-            id: null,
+            // A real id, not null. The custom `get id()` below stringifies whatever this is straight
+            // into the window's DOM id, so `null` produced the literal element id "null" - and V1's
+            // element getter resolves a not-yet-rendered app by `$("#" + this.id)`, meaning it would
+            // happily latch onto any other element in the world with id="null". The single-window
+            // behaviour that id sharing gives us is intentional and unchanged: opening a web while one
+            // is already up re-renders that window rather than stacking a second heavy copy.
+            id: "swse-compendium-web",
             popOut: true,
             width: 700,
             height: 1400,
@@ -24,29 +30,39 @@ export class CompendiumWeb extends Application {
         super(...args);
 
         this.cache = new SimpleCache()
-        Hooks.on("renderApplication", async (event, target) => {
-            if (event.appId !== this.appId) { //is this really the best way to do this?  weird that applications aren't more contained
-                return;
-            }
+    }
 
-            this.options = args[0];
-            this.options.homebrewEnabled = game.settings.get("swse", "enableHomebrewContent");
-            this.target = target;
+    /**
+     * Build the filters and draw the web once our content is on the screen.
+     *
+     * This used to be a global `Hooks.on("renderApplication")` registered in the constructor, which
+     * was never torn down: every web window opened left another permanent listener behind, so the
+     * render of every application in the world ran a growing pile of callbacks that only existed to
+     * check an appId and bail. activateListeners is the per-instance equivalent - core calls it after
+     * each render of *this* application, and it dies with the window.
+     */
+    activateListeners(html) {
+        super.activateListeners(html);
 
-            this.types = ['feat', 'talent']
+        // Core passes activateListeners the inner content element, whereas the old hook received the
+        // outer window element. Prefer this.element so the filter lookups below keep searching from
+        // the exact same root they always have.
+        this.setupWeb(this.element ?? html);
+    }
 
-            if (this.options?.types) {
-                this.types = this.options.types;
-            }
+    async setupWeb(target) {
+        this.options.homebrewEnabled = game.settings.get("swse", "enableHomebrewContent");
+        this.target = target;
 
-            await this.addFilters(target, this.types)
-            await this.populateFiltersFromArguments(target, this.options);
-            await this.renderWeb(event, target, this.types);
+        this.types = this.options?.types ?? ['feat', 'talent'];
 
-            //currently disabled.  will allow arrows to be drawn in the future
-            // const start = Date.now()
-            // this.drawArrows(target).then(() => console.log( Date.now() - start))
-        })
+        await this.addFilters(target, this.types)
+        await this.populateFiltersFromArguments(target, this.options);
+        await this.renderWeb(null, target, this.types);
+
+        //currently disabled.  will allow arrows to be drawn in the future
+        // const start = Date.now()
+        // this.drawArrows(target).then(() => console.log( Date.now() - start))
     }
 
     /**
@@ -703,36 +719,58 @@ export class CompendiumWeb extends Application {
     }
 }
 
+// Marks the container we inject into the compendium sidebar so a re-render can find and drop the
+// previous set before adding a new one.
+const WEB_BUTTON_CONTAINER_CLASS = "swse-web-buttons";
+
+// One array per row. The combined web has to chew through both compendium types and is noticeably
+// slow, so it gets a row to itself; the two cheaper single type webs share the row below it.
+const WEB_BUTTON_ROWS = [
+    [
+        {cssClass: "feat-web-button", tooltip: "SWSE.TALENT_AND_FEAT_WEB", label: "Talent and Feat Web", types: ["feat", "talent"]}
+    ],
+    [
+        {cssClass: "feat-web-button", tooltip: "SWSE.FEAT_WEB", label: "Feat Web", types: ["feat"]},
+        {cssClass: "talent-web-button", tooltip: "SWSE.TALENT_WEB", label: "Talent Web", types: ["talent"]}
+    ]
+]
+
 export function initializeCompendiumButtons() {
     Hooks.on("renderCompendiumDirectory", (function (e, t) {
-        // core's CompendiumDirectory is ApplicationV2 in V14 — the hook now passes a raw HTMLElement,
+        // core's CompendiumDirectory is ApplicationV2 in V14. The hook now passes a raw HTMLElement,
         // not jQuery, so wrap it once here to keep the jQuery-based button code below working unchanged.
         t = $(t);
-        const featTalentButton = $(`<button type="button" class="feat-web-button constant-button" data-tooltip="SWSE.TALENT_AND_FEAT_WEB"><b class="button-text">Talent and Feat Web</b></button>`);
-        featTalentButton.on("click", (function () {
-            const options = {
-                types: ['feat', "talent"]
-            }
-            new CompendiumWeb(options).render(!0)
-        }))
-        t.append(featTalentButton)
 
-        const featButton = $(`<button type="button" class="feat-web-button constant-button" data-tooltip="SWSE.FEAT_WEB"><b class="button-text">Feat Web</b></button>`);
-        featButton.on("click", (function () {
-            const options = {
-                types: ['feat']
-            }
-            new CompendiumWeb(options).render(!0)
-        }))
-        t.append(featButton)
+        // ApplicationV2 re-renders in place: _replaceHTML only swaps the elements core registered as
+        // [data-application-part], so anything we add outside those survives a re-render untouched.
+        // Adding unconditionally therefore stacked another three buttons every time the sidebar
+        // re-rendered (creating or deleting a folder, a pack updating, world reload), which is why the
+        // list kept creeping. Clearing our own container first makes this idempotent wherever it landed.
+        t.find(`.${WEB_BUTTON_CONTAINER_CLASS}`).remove();
 
-        const talentButton = $(`<button type="button" class="talent-web-button constant-button" data-tooltip="SWSE.TALENT_WEB"><b class="button-text">Talent Web</b></button>`);
-        talentButton.on("click", (function () {
-            const options = {
-                types: ['talent']
+        const container = $(`<div class="${WEB_BUTTON_CONTAINER_CLASS}"></div>`);
+        for (const row of WEB_BUTTON_ROWS) {
+            // action-buttons flexrow are core's own header classes, so these inherit the spacing and
+            // font size of the Create Compendium / Create Folder row they sit under.
+            const rowElement = $(`<div class="action-buttons flexrow"></div>`);
+            for (const {cssClass, tooltip, label, types} of row) {
+                const button = $(`<button type="button" class="${cssClass} constant-button" data-tooltip="${tooltip}"><b class="button-text">${label}</b></button>`);
+                button.on("click", (function () {
+                    new CompendiumWeb({types}).render(!0)
+                }))
+                rowElement.append(button)
             }
-            new CompendiumWeb(options).render(!0)
-        }))
-        t.append(talentButton)
+            container.append(rowElement)
+        }
+
+        // Home is the directory header, directly under core's create buttons. Falling back to the root
+        // element keeps the buttons reachable rather than silently vanishing if core ever renames the
+        // header markup.
+        const headerActions = t.find(".directory-header .header-actions").first();
+        if (headerActions.length) {
+            headerActions.after(container)
+        } else {
+            t.append(container)
+        }
     }))
 }

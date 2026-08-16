@@ -2889,10 +2889,17 @@
   background-position: center center;
   background-repeat: no-repeat;
 }
-.swse #compendium .constant-button {
-  flex: 0;
-  margin: 5px;
+.swse .swse-web-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.swse .swse-web-buttons .constant-button {
+  flex: 1;
+  margin: 0;
   width: auto;
+  white-space: nowrap;
 }
 .swse .directory-item div {
   padding: 3px;
@@ -3145,10 +3152,18 @@
   border-color: var(--swse-accent);
 }
 
-#compendium .constant-button {
-  flex: 0;
-  margin: 5px;
+.swse-web-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.swse-web-buttons .constant-button {
+  flex: 1;
+  margin: 0;
   width: auto;
+  white-space: nowrap;
 }
 
 .directory-item div {
