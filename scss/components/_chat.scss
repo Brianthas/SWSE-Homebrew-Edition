@@ -41,3 +41,86 @@
     }
   }
 }
+
+// Activated force power card: the DC table is what anyone actually reads mid-combat, so it
+// leads, with the band the check reached picked out and the rest dimmed. The full rules text
+// sits behind the collapsible .toggle-hide/.hideable pair swse.mjs already wires up on every
+// chat message.
+.force-power-result {
+  .force-power-checks {
+    width: 100%;
+    margin: 0 0 $space-2xs;
+    border-collapse: collapse;
+    font-size: 11px;
+    line-height: 1.3;
+
+    td {
+      padding: $space-2xs $space-xs;
+      border-bottom: 1px solid var(--swse-border);
+      vertical-align: top;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    .dc {
+      width: 1%;
+      white-space: nowrap;
+      font-weight: 700;
+    }
+
+    .unmet {
+      opacity: 0.45;
+    }
+
+    .achieved {
+      background: var(--swse-surface-raised);
+      color: var(--swse-text);
+
+      .dc {
+        color: var(--swse-accent);
+      }
+    }
+  }
+
+  .force-power-outcome {
+    font-size: 11px;
+    color: var(--swse-text-muted);
+
+    &.failed {
+      color: var(--swse-accent-combat);
+    }
+  }
+
+  .force-power-more {
+    display: inline-block;
+    margin-top: $space-2xs;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+  }
+
+  // The toggle handler in swse.mjs flips this class rather than an inline style.
+  .hideable.hide {
+    display: none;
+  }
+
+  .force-power-description {
+    margin-top: $space-2xs;
+    padding-top: $space-2xs;
+    border-top: 1px solid var(--swse-border);
+    font-size: 11px;
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    td, th {
+      padding: 2px 4px;
+      border: 1px solid var(--swse-border);
+    }
+  }
+}

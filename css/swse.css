@@ -1944,6 +1944,12 @@
   border-radius: 4px;
   background: var(--swse-surface-raised);
 }
+.swse .force-power-row .force-power-roll {
+  margin-left: auto;
+}
+.swse .force-power-row .force-power-roll + .item-delete {
+  margin-left: 4px;
+}
 .swse .force-power-row .item-delete {
   margin-left: auto;
   opacity: 0.6;
@@ -3149,6 +3155,69 @@
   color: var(--swse-bg);
   background: var(--swse-accent);
   border-color: var(--swse-accent);
+}
+
+.force-power-result .force-power-checks {
+  width: 100%;
+  margin: 0 0 2px;
+  border-collapse: collapse;
+  font-size: 11px;
+  line-height: 1.3;
+}
+.force-power-result .force-power-checks td {
+  padding: 2px 4px;
+  border-bottom: 1px solid var(--swse-border);
+  vertical-align: top;
+}
+.force-power-result .force-power-checks tr:last-child td {
+  border-bottom: none;
+}
+.force-power-result .force-power-checks .dc {
+  width: 1%;
+  white-space: nowrap;
+  font-weight: 700;
+}
+.force-power-result .force-power-checks .unmet {
+  opacity: 0.45;
+}
+.force-power-result .force-power-checks .achieved {
+  background: var(--swse-surface-raised);
+  color: var(--swse-text);
+}
+.force-power-result .force-power-checks .achieved .dc {
+  color: var(--swse-accent);
+}
+.force-power-result .force-power-outcome {
+  font-size: 11px;
+  color: var(--swse-text-muted);
+}
+.force-power-result .force-power-outcome.failed {
+  color: var(--swse-accent-combat);
+}
+.force-power-result .force-power-more {
+  display: inline-block;
+  margin-top: 2px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.force-power-result .hideable.hide {
+  display: none;
+}
+.force-power-result .force-power-description {
+  margin-top: 2px;
+  padding-top: 2px;
+  border-top: 1px solid var(--swse-border);
+  font-size: 11px;
+}
+.force-power-result .force-power-description table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.force-power-result .force-power-description td, .force-power-result .force-power-description th {
+  padding: 2px 4px;
+  border: 1px solid var(--swse-border);
 }
 
 .swse-web-buttons {

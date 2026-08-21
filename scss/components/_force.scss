@@ -20,6 +20,16 @@
   border-radius: $radius-sm;
   background: var(--swse-surface-raised);
 
+  // Pushed to the right so the roll and delete controls group together, whether or not the
+  // power has an activation check to roll.
+  .force-power-roll {
+    margin-left: auto;
+
+    & + .item-delete {
+      margin-left: $space-xs;
+    }
+  }
+
   .item-delete {
     margin-left: auto;
     opacity: 0.6;

@@ -7,6 +7,7 @@ import {
 } from "../common/util.mjs";
 import {sizeArray, uniqueKey, ACTIVE_EFFECT_MODES, BEAST_HIT_DIE_BY_SIZE} from "../common/constants.mjs";
 import {getInheritableAttribute} from "../attribute-helper.mjs";
+import {titleCase} from "../common/helpers.mjs";
 import {changeSize} from "../actor/size.mjs";
 import {SimpleCache} from "../common/simple-cache.mjs";
 import {DEFAULT_LEVEL_EFFECT, DEFAULT_MODE_EFFECT, DEFAULT_MODIFICATION_EFFECT} from "../common/classDefaults.mjs";
@@ -1530,37 +1531,69 @@ export class SWSEItem extends Item {
 
     }
 
+    /**
+     * The actor variable a force power's activation check rolls against, so the Force tab can
+     * offer a roll button for it. Taken from the power's own `rollType` change ("Use the Force"
+     * becomes "@UseTheForce"), falling back to Use the Force, which is what nearly every power
+     * uses. Anything that isn't a force power has nothing to roll here and returns undefined,
+     * which is what the template keys off.
+     */
+    get forcePowerRollVariable() {
+        if (this.type !== "forcePower") return undefined;
+        const rollType = getInheritableAttribute({entity: this, attributeKey: "rollType", reduce: "FIRST"});
+        // Title-cased before the spaces come out, because the actor keys its resolved variables
+        // that way: the skill stored as "Use the Force" is reachable as "@UseTheForce", and
+        // stripping the spaces without recasing gives "@UsetheForce", which resolves to nothing
+        // and leaves a button that silently does not roll.
+        return `@${titleCase(String(rollType || "Use the Force")).replace(/\s+/g, "")}`;
+    }
+
+    /**
+     * The chat card body for an activated force power: the power's DC bands as a table, with the
+     * band the check actually reached called out, and the full rules text tucked behind a
+     * collapsible summary.
+     *
+     * This used to lead with the flattened `shortDescription`, which is the entire rules text
+     * with its markup stripped - including the DC table, run together into one unreadable
+     * paragraph. The table is the part anyone reads at the table, so it is the part the card
+     * shows.
+     */
     getRollFlavor(roll){
         if (this.type === "forcePower"){
-            let description = getInheritableAttribute({entity: this, attributeKey: ["forcePowerShortDescription", "shortDescription"], reduce: "VALUES"}).join(" ");
+            const checks = getInheritableAttribute({entity: this, attributeKey: "check", reduce: "VALUES"})
+                .map(check => {
+                    const separator = check.indexOf(":");
+                    return separator < 0 ? null : {dc: parseInt(check.slice(0, separator)), effect: check.slice(separator + 1).trim()};
+                })
+                .filter(check => check && !isNaN(check.dc))
+                .sort((a, b) => a.dc - b.dc);
 
-            if(description){
-                let response = `<div>${description}</div>`
-                const cumulative = getInheritableAttribute({entity: this, attributeKey: "cumulativeChecks", reduce: "OR"})
+            const description = this.system.description
+                ? `<a class="toggle-hide force-power-more">Full description</a><div class="hideable hide force-power-description">${this.system.description}</div>`
+                : "";
 
-                let checks = {};
-                getInheritableAttribute({entity: this, attributeKey: "check", reduce: "VALUES"})
-                    .forEach(check => {
-                        const toks = check.split(":");
-                        checks[parseInt(toks[0])] = toks[1]
-                    })
+            if (!checks.length) return `<div class="force-power-result">${description}</div>`;
 
-                const overcomeChecks = Object.keys(checks).filter(dc => roll >= dc)
+            // Cumulative powers apply every band the check cleared; the rest apply only the best
+            // one. Both are highlighted the same way, so the card reads the same either way.
+            const cumulative = getInheritableAttribute({entity: this, attributeKey: "cumulativeChecks", reduce: "OR"});
+            const met = checks.filter(check => roll >= check.dc);
+            const best = met.length ? Math.max(...met.map(check => check.dc)) : null;
+            const isAchieved = (check) => met.length && (cumulative ? roll >= check.dc : check.dc === best);
 
-                if (overcomeChecks.length > 0) {
-                    if(cumulative){
-                        for (const overcomeCheck of overcomeChecks) {
-                            response.concat(`<div><div><b>DC ${overcomeCheck}</b> ${checks[overcomeCheck]}</div></div>`)
-                        }
-                    } else {
-                        const topCheck = Math.max(...overcomeChecks);
-                        response = response.concat(`<div><div><b>DC ${topCheck}</b> ${checks[topCheck]}</div></div>`)
-                    }
-                }
-                return response
-            }
+            const rows = checks.map(check =>
+                `<tr class="${isAchieved(check) ? "achieved" : "unmet"}"><td class="dc">DC ${check.dc}</td><td>${check.effect}</td></tr>`
+            ).join("");
 
-            return `<div>${this.system.description}</div>`
+            const outcome = met.length
+                ? `<div class="force-power-outcome">Check ${roll} meets DC ${best}.</div>`
+                : `<div class="force-power-outcome failed">Check ${roll} misses DC ${checks[0].dc}, the lowest this power offers.</div>`;
+
+            return `<div class="force-power-result">
+    <table class="force-power-checks"><tbody>${rows}</tbody></table>
+    ${outcome}
+    ${description}
+</div>`;
         }
 
         return "";

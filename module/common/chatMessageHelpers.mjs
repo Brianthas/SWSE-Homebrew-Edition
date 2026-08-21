@@ -1,4 +1,7 @@
-export function buildRollContent(formula, roll, notes = [], itemFlavor) {
+// itemFlavor defaults to "" rather than being left undefined: it is interpolated straight into
+// the template below, so every three-argument caller (First Aid, macro rolls) was rendering the
+// literal string "undefined" at the top of its chat card.
+export function buildRollContent(formula, roll, notes = [], itemFlavor = "") {
     const tooltip = getTooltipSections(roll)
     return `<div class="message-content">
 ${itemFlavor}

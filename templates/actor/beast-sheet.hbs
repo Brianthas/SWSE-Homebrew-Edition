@@ -102,6 +102,10 @@
                                         {{#each item.descriptorTags as |tag id|}}
                                             <span class="tag">{{tag}}</span>
                                         {{/each}}
+                                        {{#if item.forcePowerRollVariable}}
+                                            <a class="rollable force-power-roll" data-key="{{item.forcePowerRollVariable}}" data-label="{{item.finalName}}" data-item-id="{{item.id}}"
+                                               title="Roll the activation check for {{item.finalName}} (Ctrl-click for Advantage, Alt-click for Disadvantage)"><i class="fas fa-dice-d20"></i></a>
+                                        {{/if}}
                                         <a class="item-control item-delete" title="Delete Item"><i class="fas fa-trash"></i></a>
                                     </div>
                                     <div class="collapsible force-power-detail" style="display: {{#if (lookup ../actor.system.toggles (concat "force-power-" item.id))}}block{{else}}none{{/if}}">
