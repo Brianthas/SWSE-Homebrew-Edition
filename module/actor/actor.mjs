@@ -1599,13 +1599,15 @@ class SWSEActor extends Actor {
         const healAmount = Math.min(proposedHealAmount, maxHealAmount);
         update[`system.health.value`] = this.system.health.value + healAmount;
 
-        const content = `${this.name} has has healed ${healAmount} damage` + (maxHealAmount < proposedHealAmount ? " reaching max health." : ".")
+        const content = `${this.name} has healed ${healAmount} damage` + (maxHealAmount < proposedHealAmount ? " reaching max health." : ".")
 
         let flags = {};
         flags.swse = {};
         flags.swse.context = {};
         flags.swse.context.type = "damage-result";
-        flags.swse.context.damageTarget = this.id;
+        // uuid, not id: the GM-side resolver in swse.mjs looks the target up by uuid first and
+        // only that form finds an unlinked token's actor, which `id` alone never does.
+        flags.swse.context.damageTarget = this.uuid;
         flags.swse.context.damage = -healAmount;
 
         await toChat(content, this, "Damage", {flags})

@@ -436,6 +436,9 @@ as Hutts.
   is damaged, regardless of how much damage the character has taken
   (within reason). Failure results in the character being considered
   "healed" without gaining any HP.
+- **Vital Transfer** does not cost the caster anything - the caster takes no
+  damage for healing with it. The target heals 2x/3x/4x their own Character
+  Level on a Use the Force check of DC 15/20/25.
 - A Heroic character is **Staggered** when at exactly 0 HP - they can only
   take a single Standard Action (or less) on their turn. If they perform
   anything more strenuous than a Move Action they take 1 damage and begin

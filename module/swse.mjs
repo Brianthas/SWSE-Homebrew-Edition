@@ -877,7 +877,10 @@ async function rollVariable(actorId, variable) {
             style: CONST.CHAT_MESSAGE_STYLES.OTHER,
             content,
             sound: CONFIG.sounds.dice,
-            roll
+            // Must be `rolls`, not `roll`: ChatMessage's schema only has the array field, so a
+            // lone `roll` key is silently dropped and the message never counts as a roll -
+            // which is what stopped Dice So Nice animating rolls made from a macro.
+            rolls: [roll]
         }
 
         let cls = getDocumentClass("ChatMessage");

@@ -1617,8 +1617,20 @@ export function toChat(content, actor = undefined, flavor="", context={}) {
         flags: context.flags
     }
 
+    // Attach the evaluated Roll(s) to the message. Callers already hand us context.rollResult;
+    // without it landing in messageData.rolls the message is not a roll message as far as
+    // Foundry is concerned (ChatMessage#isRoll is just rolls.length > 0), so Dice So Nice never
+    // animates it and the result simply appears in chat. Our pre-rendered `content` still wins
+    // over Foundry's own roll HTML, because ChatMessage only substitutes its own rendering when
+    // the supplied content has no child elements.
+    const rolls = [context.rollResult].flat().filter(roll => roll instanceof Roll && roll._evaluated);
+    if (rolls.length) messageData.rolls = rolls;
+
     let cls = getDocumentClass("ChatMessage");
-    ChatMessage.applyRollMode(messageData, "roll")
+    // ChatMessage.applyRollMode (core's, not our own formula helper above) is deprecated in
+    // v14; applyMode with no mode uses the client's current message-mode setting, which is
+    // exactly what the legacy "roll" mode resolved to.
+    ChatMessage.applyMode(messageData)
     let msg = new cls(messageData);
 
     return cls.create(msg, {});

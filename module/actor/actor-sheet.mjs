@@ -1242,17 +1242,76 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
             } else {
                 const context = {rollResult: roll};
                 let itemFlavor = "";
+                let healingNotes = [];
                 if (item) {
                     let activeItem = this.actor.items.get(item);
                     if(activeItem) {
                         itemFlavor = activeItem.getRollFlavor(roll.total);
+                        healingNotes = await this.#applyItemHealing(activeItem, roll.total);
                     }
                 }
 
-                let content = buildRollContent(formula, roll, notes, itemFlavor);
+                let content = buildRollContent(formula, roll, notes.concat(healingNotes), itemFlavor);
                 await toChat(content, this.object, flavor, context);
             }
         }
+    }
+
+    /**
+     * Homebrew: an item can declare healing it delivers on a successful check, as `healing`
+     * changes shaped "DC:formula" - the same "DC:text" shape the existing `check` key uses, so
+     * Vital Transfer reads:
+     *
+     *     healing = 15:2 * @level
+     *     healing = 20:3 * @level
+     *     healing = 25:4 * @level
+     *
+     * The highest DC the check beat wins. The formula is evaluated against each *targeted*
+     * actor's own data, not the caster's, because Vital Transfer heals a multiple of the
+     * target's character level - @level is the target's total character level.
+     *
+     * Healing goes through SWSEActor#applyHealing, which posts a message the active GM resolves,
+     * so a player can heal another player's character without needing update permission on it.
+     *
+     * @param item {SWSEItem} the item being rolled
+     * @param rollTotal {number} the check result
+     * @returns {Promise<string[]>} notes to append to the chat card
+     * @private
+     */
+    async #applyItemHealing(item, rollTotal) {
+        const entries = getInheritableAttribute({entity: item, attributeKey: "healing", reduce: "VALUES"})
+            .map(entry => {
+                const separator = entry.indexOf(":");
+                return separator < 0 ? null : {dc: parseInt(entry.slice(0, separator)), formula: entry.slice(separator + 1).trim()};
+            })
+            .filter(entry => entry && !isNaN(entry.dc) && entry.formula);
+
+        if (!entries.length) return [];
+
+        const met = entries.filter(entry => rollTotal >= entry.dc);
+        if (!met.length) return [`No healing: the check did not reach DC ${Math.min(...entries.map(e => e.dc))}.`];
+
+        const best = met.reduce((a, b) => b.dc > a.dc ? b : a);
+
+        // Targeted tokens, not selected ones: the caster's own token is normally the selected
+        // one, and every healing power in the system targets someone else.
+        const targets = Array.from(game.user.targets).map(token => token.actor).filter(actor => !!actor);
+        if (!targets.length) return [`<b>DC ${best.dc}</b> healing is available - target a token and roll again to apply it.`];
+
+        const notes = [];
+        for (const target of targets) {
+            try {
+                const healRoll = await new Roll(best.formula, {...target.system, level: target.characterLevel}).roll();
+                await target.applyHealing({heal: healRoll.total});
+                notes.push(`Heals <b>${target.name}</b> for <b>${healRoll.total}</b> hit points (DC ${best.dc}).`);
+            } catch (e) {
+                // A hand-typed healing formula that doesn't parse shouldn't take the whole roll
+                // down with it - the check result still matters even if the healing can't apply.
+                console.warn(`SWSE | could not apply healing "${best.formula}" from ${item.name} to ${target.name}`, e);
+                notes.push(`Could not apply healing from ${item.name}: <code>${best.formula}</code> is not a valid formula.`);
+            }
+        }
+        return notes;
     }
 
     async _onCrewControl(event) {
@@ -2132,20 +2191,26 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
         });
         if (bonus === null || bonus === undefined) return;
 
-        const roll = new Roll(`${healingDie} + @con + @level + @bonus`, {
+        const formula = `${healingDie} + @con + @level + @bonus`;
+        const roll = new Roll(formula, {
             con: actor.system.abilities.con.mod,
             level: actor.characterLevel,
             bonus
         });
-        await roll.toMessage({
-            speaker: ChatMessage.getSpeaker({actor}),
-            flavor: "First Aid"
-        });
+        await roll.roll();
 
         const previousValue = actor.system.health.value;
-        const newValue = Math.min(previousValue + roll.total, actor.system.health.max);
-        await actor.safeUpdate({"system.health.value": newValue});
-        ui.notifications.info(`${actor.name} recovered ${newValue - previousValue} hit points from First Aid.`);
+        await actor.safeUpdate({"system.health.value": Math.min(previousValue + roll.total, actor.system.health.max)});
+
+        // Read the applied value back off the actor rather than reporting what we asked for -
+        // safeUpdate swallows a rejected update (it only warns), so trusting the intended number
+        // would let the card announce healing that never landed.
+        const appliedValue = actor.system.health.value;
+        const healed = appliedValue - previousValue;
+        const notes = [`<b>${actor.name}</b> recovers <b>${healed}</b> hit points, now on ${appliedValue} of ${actor.system.health.max}.`];
+        if (healed < roll.total) notes.push("Capped at maximum hit points.");
+
+        await toChat(buildRollContent(formula, roll, notes), actor, "First Aid", {rollResult: roll});
     }
 
     /**

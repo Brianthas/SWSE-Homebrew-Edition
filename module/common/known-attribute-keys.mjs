@@ -88,6 +88,7 @@ export const KNOWN_ATTRIBUTE_KEYS = [
     "greaterWeaponFocus",
     "greaterWeaponSpecialization",
     "grip",
+    "healing",
     "healthHardenedMultiplier",
     "hitPointEq",
     "hitPointFlatBonus",
