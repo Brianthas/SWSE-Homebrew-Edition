@@ -8,6 +8,12 @@
         {{#if critical}}<span class="damage-only-critical">Critical</span>{{/if}}
     </div>
 
+    {{!-- The roll has to be rendered here. Foundry only substitutes its own roll HTML when the
+          supplied content has no child elements, and this card has plenty, so attaching the Roll
+          to the message is not enough to make the number appear. Uses the shared roll partial, so
+          it looks and collapses exactly like the damage line on a full attack card. --}}
+    {{> 'systems/swse/templates/roll/roll.hbs' roll=damageRoll critical=critical}}
+
     {{#if targets.length}}
         <div class="damage-only-targets">
             {{#each targets as |target|}}<span class="damage-only-target">{{target.name}}</span>{{/each}}

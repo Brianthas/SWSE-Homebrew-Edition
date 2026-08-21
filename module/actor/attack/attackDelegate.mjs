@@ -642,6 +642,7 @@ export async function makeDamageOnlyRoll(data) {
     const template = await foundry.applications.handlebars.getTemplate("systems/swse/templates/actor/parts/attack/damage-only-chat-card.hbs");
     const content = template({
         name: attack.name,
+        damageRoll: resolved.damage,
         damageType: resolved.damageType,
         critical: resolved.critical,
         targets: resolved.targets,

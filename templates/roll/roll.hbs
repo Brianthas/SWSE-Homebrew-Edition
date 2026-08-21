@@ -1,7 +1,14 @@
-<div class="dice-roll">
+{{!-- data-action="expandRoll" and the .wrapper inside .dice-tooltip are both load-bearing. Core
+      collapses a roll breakdown with grid-template-rows: 0fr on .dice-tooltip and relies on
+      .wrapper's overflow: hidden to clip it, then toggles an `expanded` class from whatever
+      carries data-action="expandRoll". Without them the breakdown overflows the zero-height row
+      and sits open permanently, and clicking does nothing. Matches core's templates/dice/roll.hbs. --}}
+<div class="dice-roll" data-action="expandRoll">
     <div class="dice-result">
         <div class="dice-formula">{{roll._formula}}</div>
-        <div class="dice-tooltip">{{> 'systems/swse/templates/roll/roll-tooltip.hbs' roll=roll}}</div>
+        <div class="dice-tooltip">
+            <div class="wrapper">{{> 'systems/swse/templates/roll/roll-tooltip.hbs' roll=roll}}</div>
+        </div>
         <h4 class="dice-total {{#if critical}}critical{{/if}} {{#if fail}}fail{{/if}}">{{roll._total}}</h4>
     </div>
 </div>
