@@ -1629,6 +1629,56 @@ export class Attack {
         return response;
     }
 
+    /**
+     * Rolls this attack's damage and nothing else, for when the attack roll happened away from
+     * Foundry - physical dice at the table, or an attack that simply hits.
+     *
+     * Deliberately not a variant of resolve(). resolve() derives the critical, automatic-miss and
+     * automatic-hit flags from the d20 it just rolled, and every target's hit/miss result from
+     * comparing that d20 against Reflex Defense. With no attack roll there is nothing to derive
+     * any of that from, so the caller states whether it was a critical and every target is taken
+     * as hit - the player already worked that out before reaching for this button.
+     *
+     * @param changes {[{key: string, value: string}]} one-off modifiers, same shape resolve() takes
+     * @param critical {boolean} apply the weapon's critical damage treatment
+     * @returns {Promise<{damage: Roll, critical: boolean, targets: object[], attackSummaries: string}>}
+     */
+    async resolveDamageOnly(changes = [], critical = false) {
+        this.temporaryChanges = changes || [];
+
+        const areaAttack = this.targetType.type !== Attack.TARGET_TYPES.SINGLE_TARGET;
+        let damageRoll = this.processDamage(critical, this.damageRoll, areaAttack);
+        await damageRoll.roll();
+        const damage = this.makeVariantRoll(damageRoll, {});
+
+        const targetActors = await this.targetedActors();
+        const targets = targetActors
+            .flatMap(target => target.actors)
+            .map(actor => ({
+                name: actor.name,
+                uuid: actor.uuid,
+                result: critical ? "Critical Hit!" : "Hit",
+                highlight: "hit",
+                damage: damage.total,
+                damageType: this.type,
+                notes: this.notes
+            }));
+
+        // Same reason resolve() clears these: Attack instances are cached and reused across
+        // renders, so a one-off damage bonus left behind would keep showing in the sheet's inline
+        // damage preview until the actor next prepares its data.
+        this.temporaryChanges = [];
+
+        return {
+            damage,
+            critical,
+            targets,
+            damageType: this.type,
+            notes: this.notes,
+            attackSummaries: JSON.stringify(targets)
+        };
+    }
+
     processDamage(critical, damageRoll, areaAttack) {
         if (critical) {
             damageRoll = modifyRollForCriticalEvenOnAreaAttack(this, damageRoll);

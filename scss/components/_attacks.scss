@@ -122,6 +122,28 @@ a.attack-name {
   text-overflow: ellipsis;
 }
 
+// Damage without a to-hit roll. Same footprint as the d20 so the row stays aligned, but drawn
+// as a secondary action: the attack button keeps the solid accent fill, this one is outlined, so
+// the primary way to attack is still the obvious one.
+.attack-damage-btn {
+  width: 26px;
+  flex: 0 0 26px;
+  height: 26px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--swse-accent-combat);
+  border-radius: $radius-sm;
+  background: transparent;
+  color: var(--swse-accent-combat);
+  cursor: pointer;
+
+  &:hover {
+    background: var(--swse-accent-combat);
+    color: var(--swse-bg);
+  }
+}
+
 .attack-roll-btn {
   width: 26px;
   flex: 0 0 26px;

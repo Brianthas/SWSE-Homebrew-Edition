@@ -1,0 +1,27 @@
+{{!-- Damage rolled on its own, with the attack resolved away from Foundry. Deliberately smaller
+      than the full attack card: there is no to-hit line, no per-target hit/miss verdict and no
+      range breakdown, because none of that was rolled here. --}}
+<div class="damage-only-card">
+    <div class="damage-only-header">
+        <span class="damage-only-name">{{name}}</span>
+        <span class="damage-only-type">{{damageType}}</span>
+        {{#if critical}}<span class="damage-only-critical">Critical</span>{{/if}}
+    </div>
+
+    {{#if targets.length}}
+        <div class="damage-only-targets">
+            {{#each targets as |target|}}<span class="damage-only-target">{{target.name}}</span>{{/each}}
+        </div>
+    {{else}}
+        <div class="damage-only-targets none">No target selected - use the buttons below with tokens targeted.</div>
+    {{/if}}
+
+    <div class="buttons flex flex-row">
+        <button type="button" data-action="apply-attack" data-type="damage" data-attack-summary="{{attackSummaries}}"><i class="fas fa-explosion"></i><br><span class="button-text">Damage</span></button>
+        <button type="button" data-action="apply-attack" data-type="half" data-attack-summary="{{attackSummaries}}"><i class="fas fa-explosion"></i><br><span class="button-text">Half</span></button>
+        <button type="button" data-action="apply-attack" data-type="double" data-attack-summary="{{attackSummaries}}"><i class="fas fa-explosion"></i><br><span class="button-text">Double</span></button>
+        <button type="button" data-action="apply-attack" data-type="heal" data-attack-summary="{{attackSummaries}}"><i class="fas fa-hand-holding-heart"></i><br><span class="button-text">Heal</span></button>
+    </div>
+
+    {{#if notes}}<div class="damage-only-notes">{{{notes}}}</div>{{/if}}
+</div>

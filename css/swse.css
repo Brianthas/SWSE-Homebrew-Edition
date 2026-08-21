@@ -2695,6 +2695,23 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.swse .attack-damage-btn {
+  width: 26px;
+  flex: 0 0 26px;
+  height: 26px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--swse-accent-combat);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--swse-accent-combat);
+  cursor: pointer;
+}
+.swse .attack-damage-btn:hover {
+  background: var(--swse-accent-combat);
+  color: var(--swse-bg);
+}
 .swse .attack-roll-btn {
   width: 26px;
   flex: 0 0 26px;
@@ -3249,6 +3266,54 @@
 .force-power-result .force-power-description td, .force-power-result .force-power-description th {
   padding: 2px 4px;
   border: 1px solid var(--swse-border);
+}
+
+.damage-only-card .damage-only-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 2px;
+  margin-bottom: 2px;
+}
+.damage-only-card .damage-only-name {
+  font-weight: 700;
+}
+.damage-only-card .damage-only-type {
+  font-size: 10px;
+  color: var(--swse-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.damage-only-card .damage-only-critical {
+  padding: 1px 2px;
+  border: 1px solid var(--swse-accent-combat);
+  border-radius: 4px;
+  color: var(--swse-accent-combat);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.damage-only-card .damage-only-targets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  margin-bottom: 2px;
+  font-size: 11px;
+}
+.damage-only-card .damage-only-targets.none {
+  color: var(--swse-text-muted);
+  font-style: italic;
+}
+.damage-only-card .damage-only-target {
+  padding: 1px 2px;
+  border: 1px solid var(--swse-border);
+  border-radius: 4px;
+  background: var(--swse-surface-raised);
+}
+.damage-only-card .damage-only-notes {
+  margin-top: 2px;
+  font-size: 11px;
+  color: var(--swse-text-muted);
 }
 
 .swse-web-buttons {

@@ -64,6 +64,15 @@
                     <i class="fas fa-dice-d20"></i>
                 </a>
 
+                {{!-- For an attack roll made away from Foundry: rolls this attack's damage on its
+                      own, and posts a card with the usual apply buttons. Deliberately not marked
+                      .attack-button - that class carries the right-click "Attack with Bonus"
+                      context menu, which reads data-action as the attack type and would roll a
+                      full single attack from a button whose whole point is skipping the to-hit. --}}
+                <a class="attack-damage-btn" data-action="damageOnly" data-attack-key="{{attack.attackKey}}" title="Damage only - rolls damage without rolling to hit, for when you rolled the attack yourself">
+                    <i class="fas fa-burst"></i>
+                </a>
+
                 {{!-- The synthetic Unarmed Attack has no document behind it, so there's nothing to
                       rename; every other attack renames its item (or its custom-attack config). --}}
                 {{#unless attack.isUnarmedAttackPlaceholder}}

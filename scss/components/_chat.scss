@@ -161,3 +161,62 @@
     }
   }
 }
+
+// Damage rolled without a to-hit roll. Smaller than the full attack card because there is no
+// attack roll, no per-target verdict and no range breakdown to show.
+.damage-only-card {
+  .damage-only-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: $space-2xs;
+    margin-bottom: $space-2xs;
+  }
+
+  .damage-only-name {
+    font-weight: 700;
+  }
+
+  .damage-only-type {
+    font-size: 10px;
+    color: var(--swse-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .damage-only-critical {
+    padding: 1px $space-2xs;
+    border: 1px solid var(--swse-accent-combat);
+    border-radius: $radius-sm;
+    color: var(--swse-accent-combat);
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .damage-only-targets {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $space-2xs;
+    margin-bottom: $space-2xs;
+    font-size: 11px;
+
+    &.none {
+      color: var(--swse-text-muted);
+      font-style: italic;
+    }
+  }
+
+  .damage-only-target {
+    padding: 1px $space-2xs;
+    border: 1px solid var(--swse-border);
+    border-radius: $radius-sm;
+    background: var(--swse-surface-raised);
+  }
+
+  .damage-only-notes {
+    margin-top: $space-2xs;
+    font-size: 11px;
+    color: var(--swse-text-muted);
+  }
+}

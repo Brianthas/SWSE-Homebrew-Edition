@@ -20,7 +20,7 @@ import {getDefaultDataByType} from "../common/classDefaults.mjs";
 import {CompendiumWeb} from "../compendium/compendium-web.mjs";
 import SWSEActor from "./actor.mjs";
 import {getInheritableAttribute} from "../attribute-helper.mjs";
-import {makeAttack} from "./attack/attackDelegate.mjs";
+import {makeAttack, makeDamageOnlyRoll} from "./attack/attackDelegate.mjs";
 import {Attack, CUSTOM_ATTACK_PREFIX} from "./attack/attack.mjs";
 import {buildRollContent} from "../common/chatMessageHelpers.mjs";
 import {manualRollFlavor, manualRollNotes, rollFormula} from "../common/manual-roll.mjs";
@@ -244,6 +244,7 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
         // the primary way to add a situational modifier or roll with advantage/disadvantage,
         // not an opt-in extra. Ctrl/Alt-held click stays as a fast-path that skips the dialog
         // and rolls immediately with Advantage/Disadvantage, for a quick reroll.
+        html.find('[data-action="damageOnly"]').on("click", this._onDamageOnly.bind(this));
         html.find('[data-action="singleAttack"]').on("click", (ev) => {
             if (ev.ctrlKey || ev.metaKey || ev.altKey) {
                 return this._onMakeAttack(ev);
@@ -1319,6 +1320,55 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
             }
         }
         return notes;
+    }
+
+    /**
+     * Damage-only roll for a single attack: rolls this attack's damage without rolling to hit,
+     * for a player who resolved the attack away from Foundry.
+     *
+     * Asks whether it was a critical rather than guessing, because there is no d20 here to read
+     * that off, and offers the same damage-bonus field the attack dialog does so a one-off
+     * modifier does not have to be applied in someone's head.
+     */
+    async _onDamageOnly(event) {
+        event.preventDefault();
+        event.stopPropagation();
+
+        const attackKey = event.currentTarget.dataset.attackKey;
+        const attackName = this.actor.attack.attacks.find(a => a.attackKey === attackKey)?.name ?? "Attack";
+
+        const readBonus = (html) => String(html.find('[name="damage-bonus"]').val() ?? "").trim();
+        const content = `<fieldset>
+    <legend>Damage Only</legend>
+    <p class="notes">Rolling damage for <b>${attackName}</b> without a to-hit roll.</p>
+    <div class="medium labeled-input">
+        <label class="text">Damage Bonus</label>
+        <input class="input" type="text" name="damage-bonus" value="0" placeholder="e.g. 1d6 or 4" autofocus/>
+    </div>
+</fieldset>`;
+
+        const result = await Dialog.wait({
+            title: `Damage Only - ${attackName}`,
+            content,
+            buttons: {
+                normal: {label: "Normal", callback: (html) => ({bonus: readBonus(html), critical: false})},
+                critical: {label: "Critical", callback: (html) => ({bonus: readBonus(html), critical: true})}
+            },
+            default: "normal",
+            close: () => null
+        });
+        if (!result) return;
+
+        // "0" is the field's default and means no bonus - passing it through would append a
+        // pointless "+ 0" term to the damage formula on every roll.
+        const changes = (result.bonus && result.bonus !== "0") ? [{key: "damage", value: result.bonus}] : [];
+
+        return makeDamageOnlyRoll({
+            actorUUID: this.actor.uuid,
+            attackKeys: [attackKey],
+            changes,
+            critical: result.critical
+        });
     }
 
     async _onCrewControl(event) {

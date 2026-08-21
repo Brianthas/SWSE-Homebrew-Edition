@@ -616,6 +616,64 @@ async function getAttacks(attack, data) {
  * @param data.advantageMode {"advantage"|"disadvantage"|undefined} roll 2d20 keep-highest/lowest instead of a plain 1d20
  * @return {Promise<abstract.Document|abstract.Document[]|undefined>}
  */
+/**
+ * Rolls damage for a single attack without rolling to hit, for a player who resolved the attack
+ * away from Foundry.
+ *
+ * The card carries the same Damage/Half/Double/Heal buttons the full attack card does, driven by
+ * the same `apply-attack` handler and the same attackSummary shape, so applying the result to
+ * targets works identically.
+ *
+ * @param data {object}
+ * @param data.actorUUID {string} the actor whose attack this is
+ * @param data.attackKeys {[string]} the attack to roll damage for
+ * @param data.changes {[{key: string, value: string}]} one-off modifiers, e.g. a damage bonus
+ * @param data.critical {boolean} apply the weapon's critical damage treatment
+ * @returns {Promise<abstract.Document|undefined>}
+ */
+export async function makeDamageOnlyRoll(data) {
+    const actor = fromUuidSync(data.actorUUID);
+    const attacks = await getAttacks(actor.attack, data);
+    if (!attacks.length) return;
+
+    const attack = attacks[0];
+    const resolved = await attack.resolveDamageOnly(data.changes, data.critical);
+
+    const template = await foundry.applications.handlebars.getTemplate("systems/swse/templates/actor/parts/attack/damage-only-chat-card.hbs");
+    const content = template({
+        name: attack.name,
+        damageType: resolved.damageType,
+        critical: resolved.critical,
+        targets: resolved.targets,
+        attackSummaries: resolved.attackSummaries,
+        notes: attack.notesHTML
+    });
+
+    // Only the type is needed: the renderChatMessageHTML hook keys off it to wire up the apply
+    // buttons, and everything those buttons need already travels in the buttons' own
+    // data-attack-summary. Deliberately not stashing the resolved attack itself, which would put
+    // a Roll object through flag serialisation for nothing.
+    const flags = {swse: {context: {type: "attack-roll"}}};
+
+    const messageData = {
+        flags,
+        user: game.user.id,
+        speaker: ChatMessage.getSpeaker({actor: attack.actor}),
+        flavor: `${attack.name} damage${resolved.critical ? " (Critical)" : ""}`,
+        content,
+        sound: getSound([attack]),
+        rolls: [resolved.damage]
+    };
+
+    // No mode argument: applyMode then uses the client's own message-mode setting. Passing
+    // ui.chat.mode would hand it a legacy rollMode string ("roll", "gmroll"), which is not a
+    // key in CONFIG.ChatMessage.modes and throws when it looks the handler up.
+    ChatMessage.applyMode(messageData);
+
+    const cls = getDocumentClass("ChatMessage");
+    return cls.create(new cls(messageData));
+}
+
 export async function makeAttack(data) {
     const actor = fromUuidSync(data.actorUUID)
     let attacks = await getAttacks(actor.attack, data);
