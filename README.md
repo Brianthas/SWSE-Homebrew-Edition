@@ -18,6 +18,30 @@ This fork implements the table's homebrew rules, originally compiled at
 species/language changes, class/skill/feat changes, the Force, equipment,
 armor, weapons, combat, healing, prestige classes, and NPC/companion rules).
 
+## Rolling
+
+Rolls made from a character sheet normally roll in Foundry. A player who rolls
+physical dice at the table, or rolls somewhere outside Foundry, can turn on
+**Enter my own roll results** in the sheet's Settings tab. Every roll from that
+sheet then asks for the number instead of rolling it.
+
+The prompt takes either the face you rolled, in which case the sheet adds the
+modifier for you and everything that keys off the natural roll still works
+(Exceptional Skill, a force power's DC bands), or a finished total when that is
+all you have. There is a **Roll in Foundry** button on the prompt for the times
+you would rather let Foundry roll after all, so the setting does not have to be
+switched off and back on for one roll.
+
+The setting lives on the character rather than the user, so a physical-dice
+player's PC prompts even when the GM opens it, and an NPC the GM rolls for
+normally still rolls normally.
+
+Not yet covered: initiative and the attack pipeline still roll in Foundry.
+
+Foundry also has its own per-user version of this, under Dice Configuration, if
+a player wants every roll everywhere to prompt: set d20 to Manual, which needs
+the Manual Rolls permission enabled for that role.
+
 ## Install
 
 Manifest link: <https://raw.githubusercontent.com/Brianthas/SWSE-Homebrew-Edition/main/system.json>

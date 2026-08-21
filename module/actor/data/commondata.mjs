@@ -97,6 +97,12 @@ export default class CommonActorData {
                 ignorePrerequisites: new fields.BooleanField({
                     initial: false
                 }),
+                // Off by default: Foundry rolling the dice is the normal case. On for a player
+                // who rolls physical dice, or rolls outside Foundry entirely, and just needs to
+                // report the number - see module/common/manual-roll.mjs.
+                manualRollEntry: new fields.BooleanField({
+                    initial: false
+                }),
                 attributeGeneration: new fields.StringField({
                     initial: "Default",
                     label: "Ability Generation",

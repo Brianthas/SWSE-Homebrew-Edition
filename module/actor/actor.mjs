@@ -1192,6 +1192,12 @@ class SWSEActor extends Actor {
             label: "Ignore Prerequisites",
             value: this.system.settings.ignorePrerequisites
         });
+        this.settings.push({
+            type: "boolean",
+            path: "system.settings.manualRollEntry",
+            label: "Enter my own roll results (I roll my own dice)",
+            value: this.system.settings.manualRollEntry
+        });
         if(this.type === "character"){
             this.settings.push({
                 type: "select",

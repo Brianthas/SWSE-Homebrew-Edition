@@ -1,5 +1,4 @@
 import {
-    applyRollMode,
     attackOptions,
     filterItemsByTypes,
     getCleanListFromCSV,
@@ -24,6 +23,7 @@ import {getInheritableAttribute} from "../attribute-helper.mjs";
 import {makeAttack} from "./attack/attackDelegate.mjs";
 import {Attack, CUSTOM_ATTACK_PREFIX} from "./attack/attack.mjs";
 import {buildRollContent} from "../common/chatMessageHelpers.mjs";
+import {manualRollFlavor, manualRollNotes, rollFormula} from "../common/manual-roll.mjs";
 
 
 // noinspection JSClosureCompilerSyntax
@@ -406,16 +406,12 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
             formula = `${formula} - ${deflectCount * 5}`;
         }
 
-        let roll = new Roll(formula, this.actor.system);
-        const rollResult = await roll.roll();
-
-        const context = {rollResult};
-        let itemFlavor = "";
-        const notes = [];
         const flavor = dataset.label
+        const roll = await rollFormula(formula, this.actor.system, {actor: this.actor, label: flavor});
+        if (!roll) return;   // prompt cancelled
 
-        let content = buildRollContent(formula, roll, notes, itemFlavor);
-        await toChat(content, this.object, flavor, context);
+        let content = buildRollContent(roll.formula, roll, manualRollNotes(roll), "");
+        await toChat(content, this.object, flavor, {rollResult: roll});
 
         const update = {"system.deflectCount": deflectCount + 1}
         this.object.safeUpdate(update);
@@ -1208,17 +1204,28 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
                 return;
             }
 
-            formula = formula.trim().startsWith("1d20") ? applyRollMode(formula, advantageMode) : formula;
+            // applyRollMode is handed off to rollFormula rather than applied here, because a
+            // character set to enter its own results has already resolved advantage at the
+            // table and gets asked for the one number it kept.
+            const isD20Roll = formula.trim().startsWith("1d20");
+            let roll = await rollFormula(formula, this.actor.system, {
+                actor: this.actor,
+                label,
+                advantageMode: isD20Roll ? advantageMode : undefined
+            });
+            if (!roll) return;   // prompt cancelled
+            formula = roll.formula;
 
-            let roll = new Roll(formula, this.actor.system);
-            await roll.roll();
+            // Per-iteration, so a comma-separated multi-formula roll doesn't repeat the previous
+            // formula's notes on the next card.
+            const rollNotes = notes.concat(manualRollNotes(roll));
             if(exceptionalSkill){
                 for (const die of roll.dice) {
                     if(die.faces === 20 && die.total > 1 && die.total < 8){
                         const difference = 8 - die.total
                         roll._total = roll._total + difference;
                         die.results = [{result:8, active: true}]
-                        notes.push("Exceptional Skill")
+                        rollNotes.push("Exceptional Skill")
                     }
                 }
             }
@@ -1251,7 +1258,7 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
                     }
                 }
 
-                let content = buildRollContent(formula, roll, notes.concat(healingNotes), itemFlavor);
+                let content = buildRollContent(formula, roll, rollNotes.concat(healingNotes), itemFlavor);
                 await toChat(content, this.object, flavor, context);
             }
         }
@@ -1708,11 +1715,13 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
      * and what it stood in for.
      */
     async #rollSubstitutedSkill(subSkill, subName, targetLabel, advantageMode) {
-        let formula = `1d20 + ${subSkill.value}`;
-        if (advantageMode) formula = applyRollMode(formula, advantageMode);
+        const label = `${subName} for ${titleCase(targetLabel)}`;
+        const roll = await rollFormula(`1d20 + ${subSkill.value}`, {}, {actor: this.actor, label, advantageMode});
+        if (!roll) return;   // prompt cancelled
+
         let flavor = `${this.object.name} rolls ${subName} for ${titleCase(targetLabel)}!`;
         if (advantageMode) flavor += advantageMode === "advantage" ? " (Advantage)" : " (Disadvantage)";
-        const roll = await new Roll(formula).roll();
+        flavor += manualRollFlavor(roll);
         return roll.toMessage({speaker: ChatMessage.getSpeaker({actor: this.object}), flavor});
     }
 
@@ -2192,12 +2201,12 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
         if (bonus === null || bonus === undefined) return;
 
         const formula = `${healingDie} + @con + @level + @bonus`;
-        const roll = new Roll(formula, {
+        const roll = await rollFormula(formula, {
             con: actor.system.abilities.con.mod,
             level: actor.characterLevel,
             bonus
-        });
-        await roll.roll();
+        }, {actor, label: "First Aid"});
+        if (!roll) return;   // prompt cancelled
 
         const previousValue = actor.system.health.value;
         await actor.safeUpdate({"system.health.value": Math.min(previousValue + roll.total, actor.system.health.max)});
@@ -2207,10 +2216,11 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
         // would let the card announce healing that never landed.
         const appliedValue = actor.system.health.value;
         const healed = appliedValue - previousValue;
-        const notes = [`<b>${actor.name}</b> recovers <b>${healed}</b> hit points, now on ${appliedValue} of ${actor.system.health.max}.`];
+        const notes = manualRollNotes(roll);
+        notes.push(`<b>${actor.name}</b> recovers <b>${healed}</b> hit points, now on ${appliedValue} of ${actor.system.health.max}.`);
         if (healed < roll.total) notes.push("Capped at maximum hit points.");
 
-        await toChat(buildRollContent(formula, roll, notes), actor, "First Aid", {rollResult: roll});
+        await toChat(buildRollContent(roll.formula, roll, notes), actor, "First Aid", {rollResult: roll});
     }
 
     /**
@@ -2262,13 +2272,13 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
             advantageMode = result.rollMode !== "normal" ? result.rollMode : undefined;
         }
 
-        formula = applyRollMode(formula, advantageMode);
+        const roll = await rollFormula(formula, this.actor.system, {actor: this.actor, label, advantageMode});
+        if (!roll) return;   // prompt cancelled
 
-        const roll = new Roll(formula, this.actor.system);
-        await roll.roll();
         let flavor = `${this.actor.name} rolls for ${label}!`;
         if (advantageMode === "advantage") flavor += " (Advantage)";
         if (advantageMode === "disadvantage") flavor += " (Disadvantage)";
+        flavor += manualRollFlavor(roll);
         await roll.toMessage({
             speaker: ChatMessage.getSpeaker({actor: this.actor}),
             flavor
@@ -2338,9 +2348,9 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
                 if (canReRoll) {
                     html.find("#reRoll").each((i, button) => {
                         button.addEventListener("click", () => {
-                            let rollFormula = CONFIG.SWSE.Abilities.defaultAbilityRoll;
+                            let abilityRollFormula = CONFIG.SWSE.Abilities.defaultAbilityRoll;
                             html.find(".movable").each(async (i, item) => {
-                                let roll = await new Roll(rollFormula).roll();
+                                let roll = await new Roll(abilityRollFormula).roll();
                                 let title = "";
                                 for (let term of roll.terms) {
                                     for (let result of term.results) {
