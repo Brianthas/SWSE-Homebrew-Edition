@@ -47,6 +47,43 @@
 // sits behind the collapsible .toggle-hide/.hideable pair swse.mjs already wires up on every
 // chat message.
 .force-power-result {
+  // Descriptor tags on their own line, then the action/target facts, above the DC table.
+  .force-power-meta {
+    margin-bottom: $space-2xs;
+    font-size: 10px;
+  }
+
+  .force-power-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $space-2xs;
+    margin-bottom: $space-2xs;
+  }
+
+  .force-power-tag {
+    padding: 1px $space-2xs;
+    border: 1px solid var(--swse-border);
+    border-radius: $radius-sm;
+    background: var(--swse-surface-raised);
+    color: var(--swse-accent);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .force-power-fact {
+    color: var(--swse-text-muted);
+    line-height: 1.4;
+
+    .label {
+      display: inline-block;
+      min-width: 42px;
+      color: var(--swse-text);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+  }
+
   .force-power-checks {
     width: 100%;
     margin: 0 0 $space-2xs;

@@ -3157,6 +3157,37 @@
   border-color: var(--swse-accent);
 }
 
+.force-power-result .force-power-meta {
+  margin-bottom: 2px;
+  font-size: 10px;
+}
+.force-power-result .force-power-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  margin-bottom: 2px;
+}
+.force-power-result .force-power-tag {
+  padding: 1px 2px;
+  border: 1px solid var(--swse-border);
+  border-radius: 4px;
+  background: var(--swse-surface-raised);
+  color: var(--swse-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.force-power-result .force-power-fact {
+  color: var(--swse-text-muted);
+  line-height: 1.4;
+}
+.force-power-result .force-power-fact .label {
+  display: inline-block;
+  min-width: 42px;
+  color: var(--swse-text);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
 .force-power-result .force-power-checks {
   width: 100%;
   margin: 0 0 2px;

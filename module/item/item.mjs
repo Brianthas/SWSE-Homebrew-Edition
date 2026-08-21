@@ -1562,23 +1562,43 @@ export class SWSEItem extends Item {
         if (this.type === "forcePower"){
             const checks = getInheritableAttribute({entity: this, attributeKey: "check", reduce: "VALUES"})
                 .map(check => {
-                    const separator = check.indexOf(":");
+                    const separator = String(check).indexOf(":");
                     return separator < 0 ? null : {dc: parseInt(check.slice(0, separator)), effect: check.slice(separator + 1).trim()};
                 })
                 .filter(check => check && !isNaN(check.dc))
                 .sort((a, b) => a.dc - b.dc);
 
-            const description = this.system.description
-                ? `<a class="toggle-hide force-power-more">Full description</a><div class="hideable hide force-power-description">${this.system.description}</div>`
+            // Action, target and descriptor tags: the three things anyone asks about a power the
+            // moment it is used, and all three are already on the item as changes.
+            const tags = this.descriptorTags.map(tag => `<span class="force-power-tag">${tag}</span>`).join("");
+            // Labelled rather than separated by punctuation: a target line is often long enough to
+            // wrap, and a separator between wrapped items reads as a stray mark at the line start.
+            const facts = [["Action", "action"], ["Target", "target"]]
+                .map(([label, key]) => [label, getInheritableAttribute({entity: this, attributeKey: key, reduce: "FIRST"})])
+                .filter(([, value]) => !!value)
+                .map(([label, value]) => `<div class="force-power-fact"><span class="label">${label}</span> ${value}</div>`)
+                .join("");
+            const metaRow = (tags || facts)
+                ? `<div class="force-power-meta">${tags ? `<div class="force-power-tags">${tags}</div>` : ""}${facts}</div>`
                 : "";
 
-            if (!checks.length) return `<div class="force-power-result">${description}</div>`;
+            const describe = (collapsed) => {
+                if (!this.system.description) return "";
+                const hidden = collapsed ? " hide" : "";
+                const toggle = collapsed ? `<a class="toggle-hide force-power-more">Full description</a>` : "";
+                return `${toggle}<div class="hideable${hidden} force-power-description">${this.system.description}</div>`;
+            };
 
-            // Cumulative powers apply every band the check cleared; the rest apply only the best
-            // one. Both are highlighted the same way, so the card reads the same either way.
-            const cumulative = getInheritableAttribute({entity: this, attributeKey: "cumulativeChecks", reduce: "OR"});
+            // A power with no DC bands has nothing else to show, so its text is the card rather
+            // than something to unfold - collapsing it would leave a card that is just a link.
+            if (!checks.length) return `<div class="force-power-result">${metaRow}${describe(false)}</div>`;
+
+            // The data key is `cumulative`; `cumulativeChecks` is accepted as an alias because it
+            // is what this code read for a long time, and it is still in the autocomplete list.
+            const cumulative = getInheritableAttribute({entity: this, attributeKey: ["cumulative", "cumulativeChecks"], reduce: "OR"});
             const met = checks.filter(check => roll >= check.dc);
             const best = met.length ? Math.max(...met.map(check => check.dc)) : null;
+            // Cumulative powers apply every band the check cleared, the rest only the best one.
             const isAchieved = (check) => met.length && (cumulative ? roll >= check.dc : check.dc === best);
 
             const rows = checks.map(check =>
@@ -1586,13 +1606,14 @@ export class SWSEItem extends Item {
             ).join("");
 
             const outcome = met.length
-                ? `<div class="force-power-outcome">Check ${roll} meets DC ${best}.</div>`
+                ? `<div class="force-power-outcome">Check ${roll} meets DC ${best}${cumulative && met.length > 1 ? ", and every band below it" : ""}.</div>`
                 : `<div class="force-power-outcome failed">Check ${roll} misses DC ${checks[0].dc}, the lowest this power offers.</div>`;
 
             return `<div class="force-power-result">
+    ${metaRow}
     <table class="force-power-checks"><tbody>${rows}</tbody></table>
     ${outcome}
-    ${description}
+    ${describe(true)}
 </div>`;
         }
 
