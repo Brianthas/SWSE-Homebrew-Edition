@@ -405,7 +405,11 @@ export class Attack {
         }
 
         terms.push(...appendNumericTerm(generateArmorCheckPenalties(operator), "Armor Check Penalty"));
-        terms.push(...this.temporaryChanges?.filter(c => c.key === "toHitModifier").map(c => appendTerm(c.value, "Custom")).flat() || []);
+        // appendTerms, not appendTerm: these values are typed by hand into the attack dialog, so
+        // "2 + 1d4" is a perfectly reasonable thing to enter. appendTerm only ever parses a single
+        // number or a single die and silently drops the rest, so a compound bonus lost everything
+        // after its first term with no error anywhere.
+        terms.push(...this.temporaryChanges?.filter(c => c.key === "toHitModifier").map(c => appendTerms(c.value, "Custom")).flat() || []);
 
         //toHitModifiers only apply to the weapon they are on.  a toHitModifier change that is not on a weapon always applies
         getInheritableAttribute({
@@ -760,7 +764,9 @@ export class Attack {
             let halfBeastLevel = Math.floor(beastClassLevels.length / 2)
             terms.push(...appendNumericTerm(halfBeastLevel, "Half Beast Level"));
         }
-        terms.push(...this.temporaryChanges?.filter(c => c.key === "damage").map(c => appendTerm(c.value, "Custom", c.modifiers || [])).flat() || []);
+        // appendTerms for the same reason as the to-hit modifier above: a hand-typed "1d6 + 2"
+        // used to come through as just "1d6".
+        terms.push(...this.temporaryChanges?.filter(c => c.key === "damage").map(c => appendTerms(c.value, "Custom", c.modifiers || [])).flat() || []);
 
         getInheritableAttribute({
             entity: [this.item, this.operator],
