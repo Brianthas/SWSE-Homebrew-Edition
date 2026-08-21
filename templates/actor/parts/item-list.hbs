@@ -2,7 +2,7 @@
 <div class="flexrow">
     <h2><label class="resource-label">{{bigLabel}}
         {{#if counterExpected}}
-            <span class="skills-counter" title="Expected by level {{counterLevel}}, per the homebrew feat/talent progression">{{counterCurrent}} / {{counterExpected}} expected</span>
+            <span class="skills-counter" title="{{#if counterTitle}}{{counterTitle}}{{else}}Expected by level {{counterLevel}}, per the homebrew feat/talent progression{{/if}}">{{counterCurrent}} / {{counterExpected}} expected</span>
         {{/if}}
         {{#if compendiumFilter}}
             <a data-action="compendium" data-type="Item" data-filter="{{compendiumFilter}}"

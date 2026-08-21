@@ -1129,6 +1129,41 @@ class SWSEActor extends Actor {
         return generalFeats + providedFeatSlots;
     }
 
+    /**
+     * Force Secret / Force Technique slots the character has been given, so the Force tab can
+     * show the same "taken / expected" counter Feats and Talents have.
+     *
+     * Counted straight off `provides`, the same entries the available-items maths already
+     * reduces against, rather than re-deriving "a Force Technique at every even level of Jedi
+     * Knight, Sith Apprentice, Force Adept or Imperial Legionnaire, and a Force Secret at 2nd
+     * level and every level after for Jedi Master, Sith Lord or Force Disciple". Reading the
+     * grant means the counter cannot drift from what the character is actually allowed to take,
+     * and a homebrew source of extra slots is picked up for free.
+     */
+    get expectedForceSecretCount() {
+        return this.#providedSlotCount("Force Secret");
+    }
+
+    get expectedForceTechniqueCount() {
+        return this.#providedSlotCount("Force Technique");
+    }
+
+    /**
+     * @param type {string} the provides type to total up
+     * @returns {number} slots provided, honouring the "Type:count" form and treating a bare
+     *                   "Type" as one slot
+     */
+    #providedSlotCount(type) {
+        return getInheritableAttribute({entity: this, attributeKey: "provides"})
+            .map(provided => String(provided.value))
+            .filter(value => (value.includes(":") ? value.split(":")[0] : value).trim() === type)
+            .reduce((total, value) => {
+                if (!value.includes(":")) return total + 1;
+                const count = parseInt(value.split(":")[1]);
+                return total + (isNaN(count) ? 1 : count);
+            }, 0);
+    }
+
     get languages() {
         return this.itemTypes["language"]
     }

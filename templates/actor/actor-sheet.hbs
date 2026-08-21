@@ -144,8 +144,8 @@
 
                     {{!-- Use the shared item list so these read inline via the expand toggle,
                           like Feats/Talents, instead of only opening in a separate sheet. --}}
-                    {{> 'systems/swse/templates/actor/parts/item-list.hbs' bigLabel="Force Secrets" compendiumFilter="-type:forceSecret" container="items-list" fields= (arr "Prerequisites") items=actor.secrets sortable="forceSecret" draggable=false quantity=false delete="always" description="expandable" toggles=actor.system.toggles}}
-                    {{> 'systems/swse/templates/actor/parts/item-list.hbs' bigLabel="Force Techniques" compendiumFilter="-type:forceTechnique" container="items-list" fields= (arr "Prerequisites") items=actor.techniques sortable="forceTechnique" draggable=false quantity=false delete="always" description="expandable" toggles=actor.system.toggles}}
+                    {{> 'systems/swse/templates/actor/parts/item-list.hbs' bigLabel="Force Secrets" counterCurrent=actor.secrets.length counterExpected=actor.expectedForceSecretCount counterTitle="Granted at 2nd level and every level after by Jedi Master, Sith Lord and Force Disciple" compendiumFilter="-type:forceSecret" container="items-list" fields= (arr "Prerequisites") items=actor.secrets sortable="forceSecret" draggable=false quantity=false delete="always" description="expandable" toggles=actor.system.toggles}}
+                    {{> 'systems/swse/templates/actor/parts/item-list.hbs' bigLabel="Force Techniques" counterCurrent=actor.techniques.length counterExpected=actor.expectedForceTechniqueCount counterTitle="Granted at every even level by Jedi Knight, Sith Apprentice, Force Adept and Imperial Legionnaire" compendiumFilter="-type:forceTechnique" container="items-list" fields= (arr "Prerequisites") items=actor.techniques sortable="forceTechnique" draggable=false quantity=false delete="always" description="expandable" toggles=actor.system.toggles}}
                 </div>
 
 
