@@ -1955,7 +1955,6 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
      */
     async _onSortAttack(event) {
         event.preventDefault();
-        event.stopPropagation();
 
         let data;
         try {
@@ -1963,9 +1962,16 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
         } catch (e) {
             return;
         }
+        // Only a drag that carries an attack key is a reorder. Anything else - a compendium entry
+        // dropped onto the Attacks panel - has to bubble to the sheet's drop handler, so bail out
+        // before stopping propagation. See #sortItemWithin for the same ordering and why.
         const sourceKey = data.attackKeys?.[0];
+        if (!sourceKey) return;
+
+        event.stopPropagation();
+
         const targetKey = event.currentTarget.closest("[data-attack-key]")?.dataset.attackKey;
-        if (!sourceKey || !targetKey || sourceKey === targetKey) return;
+        if (!targetKey || sourceKey === targetKey) return;
 
         // Start from what's actually on screen so keys never ordered before are included.
         const current = this.actor.attack.attacks.map(a => a.attackKey);
@@ -2202,7 +2208,6 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
      */
     async #sortItemWithin(event, rowSelector, siblingsFor) {
         event.preventDefault();
-        event.stopPropagation();
 
         let data;
         try {
@@ -2210,7 +2215,16 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
         } catch (e) {
             return;
         }
+        // Anything that is not this actor's own item is not a reorder - a compendium entry, or an
+        // item from another sheet. Return before stopping propagation so it reaches the sheet's
+        // own drop handler and gets added. This ordering is load-bearing: stopping propagation up
+        // front, as this did, silently swallowed every compendium drop that landed on a row, which
+        // is most of the sheet, and left only the headings between the lists working.
         if (data.actorId !== this.actor.id) return;
+
+        // Past here it is genuinely a reorder, so keep it from also reaching _onDropItem, which
+        // would treat it as a move into an equip slot.
+        event.stopPropagation();
 
         const source = this.actor.items.get(data.itemId);
         const dropTarget = event.currentTarget.closest(rowSelector);
