@@ -610,7 +610,6 @@ async function getAttacks(attack, data) {
  *
  * @param data
  * @param data.actorUUID the UUID of the actor that should make the attack
- * @param data.rollMode
  * @param data.attackKeys {[string]}
  * @param data.changes {[(string, string)]}
  * @param data.advantageMode {"advantage"|"disadvantage"|undefined} roll 2d20 keep-highest/lowest instead of a plain 1d20
@@ -726,7 +725,6 @@ export async function makeAttack(data) {
     };
     //flags.swse.context.targets = targetActors.map(actor => actor.id);
 
-    const chatLog = ui.chat;
 
     let messageData = {
         flags,
@@ -739,8 +737,15 @@ export async function makeAttack(data) {
         rolls,
     }
 
-    const rollMode = chatLog?.mode ?? game.settings.get("core", "rollMode");
-    ChatMessage.applyMode(messageData, rollMode);
+    // No mode argument, so applyMode uses the client's own `core.messageMode` setting. What was
+    // here before could only ever crash or do nothing: ChatLog has no `mode` property in v14, so
+    // `chatLog?.mode` was always undefined and the expression always fell through to the legacy
+    // `core.rollMode` setting. That setting is client-scoped, so its value differs per player -
+    // null on a client that never set one, which is falsy and harmlessly ignored, but a stored
+    // legacy string ("roll", "gmroll", "blindroll", "selfroll") is not a key in
+    // CONFIG.ChatMessage.modes, and applyMode reads `.handler` off the undefined lookup and
+    // throws. Any player carrying one of those could not roll an attack at all.
+    ChatMessage.applyMode(messageData);
 
     let cls = getDocumentClass("ChatMessage");
     let msg = new cls(messageData);
