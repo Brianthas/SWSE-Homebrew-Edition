@@ -482,6 +482,15 @@ as Hutts.
   Corporate Agent, Enforcer, Gladiator, Improviser, Infiltrator, Master
   Privateer, Medic, Military Engineer, Outlaw, Pathfinder, Saboteur,
   Shaper, Spy, and Vanguard.
+- Where one of those retired classes is met in published material, it is
+  replaced by the class that carries its talent tree: **Agent** for Corporate
+  Agent, Enforcer and Pathfinder; **Engineer** for Improviser, Military
+  Engineer, Outlaw and Saboteur; **Operative** for Infiltrator and Vanguard;
+  **Bounty Hunter** for Gladiator. Assassin, Spy and Master Privateer are
+  carried by two classes each, so those are chosen case by case: Assassin and
+  Spy may be Agent or Operative, Master Privateer may be Agent or Melee
+  Duelist. **Charlatan** becomes Noble, and **Medic** and **Shaper** become
+  Operative. Levels carry across in every case.
 - There is no longer a default class bonus to Defenses per class. Instead,
   all Heroic Characters are granted 4 points which they may assign to
   whichever Defenses they wish, to a maximum of 2 to a single Defense. At
