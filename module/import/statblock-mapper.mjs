@@ -454,3 +454,131 @@ async function sizePrototypeToken(actor, notes) {
         notes.push(`Could not size the prototype token: ${e.message}`);
     }
 }
+
+/**
+ * Which printed values can be pinned onto the actor, and where the pin is written.
+ *
+ * Every path here was confirmed live to take effect and to restore the derived value when cleared:
+ * pinning Fortitude to 20 moved Damage Threshold with it, and a damageThreshold.misc of 5 moved DT
+ * from 15 to 20. `ref` and `fort` are the real key names - not `reflex` and `fortitude` - because
+ * that is what defenses.mjs reads (`system.overrides.ref ?? ...`).
+ *
+ * Base attack bonus, grapple, initiative, flat-footed Reflex and speed have no override in this
+ * system at all, so they are reported for comparison and cannot be pinned. Offering a checkbox that
+ * quietly did nothing would be worse than showing none.
+ */
+const DIVERGENCE_ROWS = [
+    {key: "hitPoints", label: "Hit Points", derive: a => a.system.health?.max, pin: "system.overrides.health"},
+    {key: "reflex", label: "Reflex Defense", derive: a => a.system.defense?.reflex?.total, pin: "system.overrides.ref"},
+    {key: "fortitude", label: "Fortitude Defense", derive: a => a.system.defense?.fortitude?.total, pin: "system.overrides.fort"},
+    {key: "will", label: "Will Defense", derive: a => a.system.defense?.will?.total, pin: "system.overrides.will"},
+    {key: "damageThreshold", label: "Damage Threshold", derive: a => a.system.defense?.damageThreshold?.total, pin: "damageThresholdMisc"},
+    {key: "flatFooted", label: "Flat-Footed Reflex", derive: a => a.system.defense?.reflex?.defenseModifiers?.[0]?.value, pin: null},
+    {key: "baseAttackBonus", label: "Base Attack Bonus", derive: a => a.system.baseAttack, pin: null},
+    // The GETTER, not system.grapple. system.grapple is assigned during derivation from the same
+    // getter and reads back null (and transiently NaN) depending on when it is sampled, while
+    // actor.grapple recomputes correctly on demand.
+    {key: "grapple", label: "Grapple", derive: a => a.grapple, pin: null},
+    {key: "initiative", label: "Initiative", derive: a => a.system.skills?.Initiative?.value, pin: null},
+    // The wiki prints speed in squares and this fork stores it in feet, so comparing the raw
+    // strings ("6 Squares" against "Walk 25") tells the GM nothing. Both sides are reduced to feet.
+    {
+        key: "speed", label: "Speed (feet)", pin: null,
+        derive: a => {
+            const match = /(\d+)/.exec(String(a.speed ?? ""));
+            return match ? Number(match[1]) : undefined;
+        },
+        printedTransform: value => {
+            const match = /(\d+)/.exec(String(value ?? ""));
+            return match ? Number(match[1]) * SQUARE_IN_FEET : undefined;
+        }
+    }
+];
+
+/** One battle-grid square is five feet, which is how the wiki's "6 Squares" becomes 30. */
+const SQUARE_IN_FEET = 5;
+
+/**
+ * Compares what the wiki printed against what this fork derived, once the actor exists.
+ *
+ * This is the honest reckoning the importer owes the GM: the numbers were deliberately not
+ * imported, so this is where you see how far the house rules moved them and decide, per value,
+ * whether to pin the printed one.
+ *
+ * @param {object} actor    the created actor, already prepared
+ * @param {object} printed  the `printed` block from the import report
+ * @returns {Array<object>} one row per comparable value
+ */
+export function buildDivergenceReport(actor, printed = {}) {
+    const rows = [];
+    const usable = value => value !== null && value !== undefined
+        && !(typeof value === "number" && !Number.isFinite(value));
+
+    for (const row of DIVERGENCE_ROWS) {
+        let printedValue = printed[row.key];
+        if (!usable(printedValue)) continue;
+        if (row.printedTransform) printedValue = row.printedTransform(printedValue);
+        if (!usable(printedValue)) continue;
+
+        let derivedValue;
+        try {
+            derivedValue = row.derive(actor);
+        } catch {
+            derivedValue = undefined;
+        }
+        // NaN has to be excluded explicitly: it is neither null nor undefined, and it rendered as
+        // a literal "NaN" in the comparison table.
+        if (!usable(derivedValue)) continue;
+
+        const numeric = typeof printedValue === "number" && typeof derivedValue === "number";
+        const delta = numeric ? derivedValue - printedValue : null;
+        rows.push({
+            key: row.key,
+            label: row.label,
+            printed: printedValue,
+            derived: derivedValue,
+            delta,
+            differs: numeric ? delta !== 0 : String(printedValue) !== String(derivedValue),
+            pinnable: !!row.pin && numeric,
+            pin: row.pin
+        });
+    }
+    return rows;
+}
+
+/**
+ * Writes the chosen pins onto the actor.
+ *
+ * Damage Threshold has no direct override, only an additive `misc` field, so its pin is expressed
+ * as the difference from the derived value. That keeps the adjustment visible in the sheet's own
+ * Misc breakdown rather than hiding it behind a flat number.
+ *
+ * @param {object} actor
+ * @param {Array<{key: string}>} pins rows from buildDivergenceReport that the GM ticked
+ * @returns {Promise<string[]>} notes describing what was pinned
+ */
+export async function applyPins(actor, pins) {
+    if (!pins?.length) return [];
+    const update = {};
+    const notes = [];
+
+    for (const pin of pins) {
+        const row = DIVERGENCE_ROWS.find(r => r.key === pin.key);
+        if (!row?.pin) continue;
+
+        if (row.pin === "damageThresholdMisc") {
+            const currentMisc = Number(actor.system.defense?.damageThreshold?.misc ?? 0);
+            const derived = Number(row.derive(actor) ?? 0);
+            update["system.defense.damageThreshold.misc"] = currentMisc + (Number(pin.printed) - derived);
+        } else {
+            update[row.pin] = Number(pin.printed);
+        }
+        notes.push(`${row.label} pinned to ${pin.printed}`);
+    }
+
+    if (Object.keys(update).length) {
+        await actor.update(update);
+        await actor.prepareData();
+    }
+    return notes;
+}

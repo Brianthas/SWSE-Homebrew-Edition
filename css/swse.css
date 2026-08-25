@@ -3606,3 +3606,50 @@
 .statblock-import .statblock-import-footer button.primary {
   font-weight: 600;
 }
+.statblock-import .import-notes {
+  list-style: none;
+  margin: 0.4rem 0 0;
+  padding: 0;
+  font-size: 0.85em;
+  color: var(--swse-text-muted);
+}
+.statblock-import .divergence-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9em;
+}
+.statblock-import .divergence-table th {
+  text-align: left;
+  font-size: 0.8em;
+  color: var(--swse-text-muted);
+  border-bottom: 1px solid var(--swse-border);
+  padding: 0.2rem 0.3rem;
+}
+.statblock-import .divergence-table td {
+  padding: 0.15rem 0.3rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--swse-border) 40%, transparent);
+}
+.statblock-import .divergence-table .label {
+  font-weight: 600;
+}
+.statblock-import .divergence-table .printed, .statblock-import .divergence-table .derived, .statblock-import .divergence-table .delta {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+.statblock-import .divergence-table .pin {
+  text-align: center;
+  width: 3em;
+}
+.statblock-import .divergence-table tr:not(.differs) td {
+  color: var(--swse-text-muted);
+}
+.statblock-import .divergence-table tr.differs .derived {
+  color: var(--swse-accent);
+  font-weight: 600;
+}
+.statblock-import .divergence-table tr.differs .delta {
+  color: var(--swse-accent-combat);
+}
+.statblock-import .divergence-table .not-pinnable {
+  color: var(--swse-text-muted);
+}

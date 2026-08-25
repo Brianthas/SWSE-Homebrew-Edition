@@ -1,6 +1,6 @@
 # SWSE Statblock Importer - Implementation Plan
 
-Status: phases 1 to 3 built and verified live; phases 4 to 6 outstanding. Target: the baseline
+Status: phases 1 to 4 built and verified live; phases 5 and 6 outstanding. Target: the baseline
 `swse` system (not a separate module).
 
 ## Context
@@ -302,7 +302,7 @@ Touched:
 1. ~~Parser plus checked-in fixtures plus unit tests.~~ Done.
 2. ~~Tier 1 resolver improvements, tier 2 seed table, validation suite.~~ Done.
 3. ~~Review dialog and the create path through `processActor`.~~ Done.
-4. Divergence report with selective override pinning.
+4. ~~Divergence report with selective override pinning.~~ Done.
 5. Learned aliases and the promote button.
 6. Tier 3 gear mapping.
 
@@ -359,6 +359,37 @@ and stays at one across three directory re-renders (the idempotency trap that fi
 sidebar with duplicates); a Stormtrooper imported from a wiki URL reports 12 mapped and 2
 unresolved; substituting Battle Armor and Grenade produces a 15-item actor with all five gear items
 equipped and attacks rolling Blaster Rifle 3d8 and Grenade 4d6.
+
+### Phase 4, done
+
+The import ends on a printed-versus-derived table rather than closing straight to the sheet. Each
+row shows what the wiki printed, what this fork derived, the difference, and a checkbox where the
+printed value can be pinned. Nothing is pinned by default: the derived numbers are the ones that
+follow the house rules, and the table exists so the gap is visible rather than silent.
+
+Pin targets, all confirmed live to take effect AND to restore the derived value when cleared:
+
+| Value | Written to |
+|---|---|
+| Hit Points | `system.overrides.health` |
+| Reflex / Fortitude / Will | `system.overrides.ref` / `.fort` / `.will` (note the short key names) |
+| Damage Threshold | `system.defense.damageThreshold.misc`, as a difference from the derived value |
+
+Base attack bonus, grapple, initiative, flat-footed Reflex and speed have no override anywhere in
+this system, so they are shown for comparison and carry no checkbox. A checkbox that quietly did
+nothing would be worse than none.
+
+Verified live by ticking Hit Points ALONE on a Kath Hound: hit points became the printed 18 with
+`overrides.health` set, while Reflex stayed at the derived 16 with `overrides.ref` still null and
+`damageThreshold.misc` still 0. Pinning everything would have looked identical if the selection had
+been ignored, which is why the check was done that way round.
+
+Two bugs of mine found in that testing. Grapple was read from `actor.system.grapple`, which reads
+back null - and transiently NaN - depending on when it is sampled; `actor.grapple` recomputes
+correctly and is what the row uses now, with an explicit non-finite guard since NaN is neither null
+nor undefined and rendered as the literal string "NaN". Speed was comparing "6 Squares" against
+"Walk 25"; both sides are now reduced to feet at five feet per square, so a Small beast reads 30
+printed against 25 derived.
 
 ### A fifth defect, this one mine
 

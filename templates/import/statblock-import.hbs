@@ -134,4 +134,59 @@
         </footer>
     {{/if}}
 
+    {{#if isDivergence}}
+        <header class="statblock-import-summary">
+            <h2>{{actorName}}</h2>
+            <p class="subject">Imported. Printed values compared against what this fork derives.</p>
+            {{#if importNotes.length}}
+                <ul class="import-notes">
+                    {{#each importNotes}}<li>{{this}}</li>{{/each}}
+                </ul>
+            {{/if}}
+        </header>
+
+        <section class="statblock-section divergence">
+            <h3>Printed versus derived</h3>
+            <p class="hint">
+                {{#if anyDifference}}
+                    The derived numbers follow this fork's house rules and are usually the ones you
+                    want. Tick a row only where the printed value matters more than the rules that
+                    produced it. Base attack bonus, grapple, initiative, flat-footed Reflex and speed
+                    have no override in this system, so they are shown for comparison only.
+                {{else}}
+                    Everything the wiki printed matches what this fork derives. Nothing to pin.
+                {{/if}}
+            </p>
+            <table class="divergence-table">
+                <thead>
+                    <tr><th>Value</th><th>Printed</th><th>Derived</th><th>Diff</th><th>Pin</th></tr>
+                </thead>
+                <tbody>
+                {{#each divergence}}
+                    <tr class="{{#if this.differs}}differs{{/if}}">
+                        <td class="label">{{this.label}}</td>
+                        <td class="printed">{{this.printed}}</td>
+                        <td class="derived">{{this.derived}}</td>
+                        <td class="delta">{{#if this.differs}}{{this.delta}}{{else}}&mdash;{{/if}}</td>
+                        <td class="pin">
+                            {{#if this.pinnable}}
+                                <input type="checkbox" data-pin-key="{{this.key}}"
+                                       {{#unless this.differs}}disabled{{/unless}}>
+                            {{else}}
+                                <span class="not-pinnable" data-tooltip="No override exists for this value">&mdash;</span>
+                            {{/if}}
+                        </td>
+                    </tr>
+                {{/each}}
+                </tbody>
+            </table>
+        </section>
+
+        <footer class="statblock-import-footer">
+            <button type="button" data-action="finish" class="primary" {{#if busy}}disabled{{/if}}>
+                <i class="fa-solid fa-check"></i> {{#if busy}}Applying...{{else}}Done{{/if}}
+            </button>
+        </footer>
+    {{/if}}
+
 </form>

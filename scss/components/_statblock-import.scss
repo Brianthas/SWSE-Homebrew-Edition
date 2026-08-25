@@ -167,4 +167,43 @@
     button { flex: 0 0 auto; }
     button.primary { font-weight: 600; }
   }
+
+  .import-notes {
+    list-style: none;
+    margin: 0.4rem 0 0;
+    padding: 0;
+    font-size: 0.85em;
+    color: var(--swse-text-muted);
+  }
+
+  .divergence-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9em;
+
+    th {
+      text-align: left;
+      font-size: 0.8em;
+      color: var(--swse-text-muted);
+      border-bottom: 1px solid var(--swse-border);
+      padding: 0.2rem 0.3rem;
+    }
+
+    td {
+      padding: 0.15rem 0.3rem;
+      border-bottom: 1px solid color-mix(in srgb, var(--swse-border) 40%, transparent);
+    }
+
+    .label { font-weight: 600; }
+    .printed, .derived, .delta { text-align: right; font-variant-numeric: tabular-nums; }
+    .pin { text-align: center; width: 3em; }
+
+    // Rows that agree need no attention, so they recede rather than compete with the ones that
+    // actually diverged.
+    tr:not(.differs) td { color: var(--swse-text-muted); }
+    tr.differs .derived { color: var(--swse-accent); font-weight: 600; }
+    tr.differs .delta { color: var(--swse-accent-combat); }
+
+    .not-pinnable { color: var(--swse-text-muted); }
+  }
 }

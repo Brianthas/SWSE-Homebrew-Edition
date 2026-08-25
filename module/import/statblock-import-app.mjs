@@ -8,7 +8,7 @@
  * until the GM has seen what resolved, what a house rule dropped, and what could not be found.
  */
 import {parseStatblock} from "./statblock-parser.mjs";
-import {mapStatblock, finalizeImportedActor} from "./statblock-mapper.mjs";
+import {mapStatblock, finalizeImportedActor, buildDivergenceReport, applyPins} from "./statblock-mapper.mjs";
 import {buildCompendiumResolver, listCandidates, fetchWikitext} from "./statblock-resolver.mjs";
 import {processActor} from "../compendium/generation.mjs";
 
@@ -26,7 +26,8 @@ export class StatblockImportApp extends HandlebarsApplicationMixin(ApplicationV2
         actions: {
             parse: StatblockImportApp.prototype._onParse,
             back: StatblockImportApp.prototype._onBack,
-            confirm: StatblockImportApp.prototype._onConfirm
+            confirm: StatblockImportApp.prototype._onConfirm,
+            finish: StatblockImportApp.prototype._onFinish
         }
     };
 
@@ -43,6 +44,9 @@ export class StatblockImportApp extends HandlebarsApplicationMixin(ApplicationV2
     #actorData = null;
     #report = null;
     #candidatesByRow = new Map();
+    #actor = null;
+    #divergence = [];
+    #importNotes = [];
 
     async _prepareContext() {
         // Booleans rather than an {{#if (eq ...)}} in the template: this system registers no `eq`
@@ -50,10 +54,18 @@ export class StatblockImportApp extends HandlebarsApplicationMixin(ApplicationV2
         const context = {
             isInput: this.#step === "input",
             isReview: this.#step === "review",
+            isDivergence: this.#step === "divergence",
             input: this.#input,
             error: this.#error,
             busy: this.#busy
         };
+        if (this.#step === "divergence") {
+            context.actorName = this.#actor?.name;
+            context.divergence = this.#divergence;
+            context.anyDifference = this.#divergence.some(row => row.differs);
+            context.importNotes = this.#importNotes;
+            return context;
+        }
         if (this.#step !== "review") return context;
 
         const report = this.#report;
@@ -191,24 +203,63 @@ export class StatblockImportApp extends HandlebarsApplicationMixin(ApplicationV2
             });
 
             const failures = created.failures ?? [];
-            const summary = [
-                `Imported <b>${actor.name}</b> with ${actor.items.size} items.`,
+            this.#importNotes = [
+                `Added ${actor.items.size} items.`,
                 substitutions.length ? `Substituted: ${substitutions.join(", ")}.` : null,
-                this.#report.dropped.length
-                    ? `Dropped by house rule: ${this.#report.dropped.map(d => d.name).join(", ")}.`
-                    : null,
                 failures.length ? `Could not add: ${failures.map(f => f.name ?? f).join(", ")}.` : null,
                 ...notes
             ].filter(Boolean);
 
-            ui.notifications.info(summary.join(" "), {permanent: failures.length > 0});
+            if (failures.length) {
+                ui.notifications.warn(`${actor.name}: could not add ${failures.map(f => f.name ?? f).join(", ")}.`,
+                    {permanent: true});
+            }
             console.log("SWSE statblock import:", {actor, report: this.#report, notes, failures});
 
+            // The actor exists now, so the printed numbers can finally be compared against what
+            // this fork derives. That comparison is the last step rather than a silent side effect.
+            this.#actor = actor;
+            this.#divergence = buildDivergenceReport(actor, this.#report.printed);
+            this.#step = "divergence";
+        } catch (e) {
+            this.#error = e.message;
+            console.error("SWSE statblock import failed", e);
+        } finally {
+            this.#busy = false;
+            await this.render();
+        }
+    }
+
+    /**
+     * Applies whichever printed values the GM chose to pin, then hands over to the actor sheet.
+     * Pinning nothing is the default and the common case: the derived numbers are the ones that
+     * match this fork's rules.
+     */
+    async _onFinish(event) {
+        event?.preventDefault();
+        if (this.#busy) return;
+
+        // Read the checkboxes before any re-render rebuilds the form and resets them.
+        const chosen = [];
+        for (const box of this.element.querySelectorAll("input[type=checkbox][data-pin-key]:checked")) {
+            const row = this.#divergence.find(r => r.key === box.dataset.pinKey);
+            if (row) chosen.push(row);
+        }
+
+        this.#busy = true;
+        await this.render();
+        try {
+            const pinned = await applyPins(this.#actor, chosen);
+            const message = pinned.length
+                ? `${this.#actor.name} imported. ${pinned.join(", ")}.`
+                : `${this.#actor.name} imported. All values derived from the house rules.`;
+            ui.notifications.info(message);
+            const actor = this.#actor;
             await this.close();
             actor.sheet.render(true);
         } catch (e) {
             this.#error = e.message;
-            console.error("SWSE statblock import failed", e);
+            console.error("SWSE statblock import failed to pin values", e);
             this.#busy = false;
             await this.render();
         }
