@@ -2780,7 +2780,14 @@ class SWSEActor extends Actor {
         for (const item of criteria.items.filter(item => !!item)) {
             if (item.quantity > 0) {
                 for (let i = 0; i < item.quantity; i++) {
-                    providedItems.push(item)
+                    // Each expansion gets its own copy, and only the first keeps `firstLevel`.
+                    // Pushing the same reference N times meant a class taken with quantity 4 and
+                    // firstLevel:true assigned nextLevel = 1 four times over (see the class branch
+                    // of checkPrerequisitesAndResolveOptions), producing levelsTaken [1,1,1,1] and
+                    // charging first-level hit points four times: a Beast 4 came out at 100 HP.
+                    const copy = foundry.utils.deepClone(item);
+                    if (i > 0) delete copy.firstLevel;
+                    providedItems.push(copy)
                 }
             } else {
                 providedItems.push(item)

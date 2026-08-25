@@ -76,6 +76,17 @@ export function getCompendium(item) {
             return packs.filter(pack => pack.collection.startsWith("world.") || pack.collection.startsWith("swse.armor"));
         case 'beastattack':
             return packs.filter(pack => pack.collection.startsWith("world.") || pack.collection.startsWith("swse.beast-components"));
+        case 'equipment':
+            return packs.filter(pack => pack.collection.startsWith("world.") || pack.collection.startsWith("swse.equipment"));
+        case 'implant':
+            return packs.filter(pack => pack.collection.startsWith("world.") || pack.collection.startsWith("swse.implant"));
+        case 'hazard':
+            return packs.filter(pack => pack.collection.startsWith("world.") || pack.collection.startsWith("swse.hazard"));
+        case 'droid system':
+            return packs.filter(pack => pack.collection.startsWith("world.") || pack.collection.startsWith("swse.droid-systems"));
+        case 'beastquality':
+        case 'beastsense':
+            return packs.filter(pack => pack.collection.startsWith("world.") || pack.collection.startsWith("swse.beast-components"));
         case 'upgrade':
             return packs.filter(pack => pack.collection.startsWith("world.") || pack.collection.startsWith("swse.upgrades"));
     }
@@ -96,7 +107,10 @@ export async function getIndexAndPack(item) {
     let packs = getCompendium(item);
     if (packs.length === 0) {
         console.error(`${compendiumReference} compendium not defined`)
-        return {}
+        // Must be an ARRAY. Returning {} here made getIndexEntryByName's `lookups.length === 0`
+        // guard pass (undefined !== 0) and then throw "lookups is not iterable", turning an
+        // unknown item type into a crash that aborts the whole import instead of one miss.
+        return []
     }
     indices = [];
     for (let pack of packs) {
@@ -182,7 +196,8 @@ export async function resolveEntity(item) {
  */
 async function getIndexEntryByName(item, lookups) {
     if (!lookups || lookups.length === 0) {
-        return
+        // Shaped like a real miss so resolveEntity can read .itemName off it without throwing.
+        return {entry: undefined, payload: undefined, itemName: item, lookup: undefined}
     }
 
     let {itemName, payload} = resolveItemNameAndPayload(item);

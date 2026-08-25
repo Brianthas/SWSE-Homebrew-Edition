@@ -2,6 +2,12 @@ import {SWSEItem} from "../item/item.mjs";
 import SWSEActor from "../actor/actor.mjs";
 
 export async function processActor(actorData, returnFailures = false) {
+    // Snapshot providedItems BEFORE the create. `providedItems` is a declared field on Items but
+    // not on the actor DataModel, and Actor.create() cleans the object it is handed IN PLACE, so
+    // reading actorData.system.providedItems afterwards yields undefined. That made this function
+    // create an actor with zero items and report zero failures - a silent no-op.
+    let providedItems = actorData.system?.providedItems ?? [];
+
     let actors = await SWSEActor.create([actorData]);
     if (!(actors && actors.length === 1)) {
         return {actor: undefined, failures: []};
@@ -10,7 +16,6 @@ export async function processActor(actorData, returnFailures = false) {
     let choiceAnswers = [];
     const size = actor.system.size;
     choiceAnswers.push(size);
-    let providedItems = actorData.system.providedItems;
     actor.prepareData();
     actor.skipPrepare = true;
     actor.suppressDialog = false;
