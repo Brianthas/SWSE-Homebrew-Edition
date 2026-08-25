@@ -18,6 +18,34 @@ This fork implements the table's homebrew rules, originally compiled at
 species/language changes, class/skill/feat changes, the Force, equipment,
 armor, weapons, combat, healing, prestige classes, and NPC/companion rules).
 
+## Importing statblocks from the wiki
+
+**Import Statblock** in the Actors sidebar builds an NPC or beast from a
+[SWSE wiki](https://swse.fandom.com/) statblock. Give it a page name, a page
+URL, or paste the wikitext.
+
+Names are imported; numbers are not. The wiki prints Saga Edition as published,
+and this fork derives its own hit points, defences, base attack bonus and damage
+dice from the house rules, so a lightsaber comes out at this fork's 3d8 rather
+than the 2d8 the wiki shows. Species, classes and their levels, feats, talents,
+Force powers, languages, gear, size and ability scores all come across, and
+everything else is recalculated.
+
+Before anything is created you get a review screen split four ways: what will be
+added, what a house rule dropped (the deleted feats, the retired prestige
+classes), what was merged (Block and Deflect become one Dueling Stance, Scoundrel
+and Scout become Smuggler), and what could not be found. Only the last of those
+needs a decision, and each row offers a dropdown of real substitutes or can be
+left out. Nothing is written until you press **Create actor**.
+
+Afterwards it shows what the wiki printed beside what this fork derived, with a
+checkbox to pin a printed value where you want it. Nothing is pinned by default.
+
+Substitutions are remembered, so gear you have already matched once resolves by
+itself next time. `game.swse.exportLearnedAliases()` dumps them as JSON for
+pasting into `module/import/statblock-aliases.json`;
+`game.swse.clearLearnedAliases()` forgets them.
+
 ## Rolling
 
 Rolls made from a character sheet normally roll in Foundry. A player who rolls

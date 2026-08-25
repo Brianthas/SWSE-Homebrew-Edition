@@ -9,13 +9,10 @@
  */
 import {parseStatblock} from "./statblock-parser.mjs";
 import {mapStatblock, finalizeImportedActor, buildDivergenceReport, applyPins} from "./statblock-mapper.mjs";
-import {buildCompendiumResolver, listCandidates, fetchWikitext} from "./statblock-resolver.mjs";
+import {buildCompendiumResolver, listCandidates, fetchWikitext, loadAliases, rememberAliases} from "./statblock-resolver.mjs";
 import {processActor} from "../compendium/generation.mjs";
 
 const {ApplicationV2, HandlebarsApplicationMixin} = foundry.applications.api;
-
-/** Where the alias table is served from. Read at parse time so edits do not need a world reload. */
-const ALIAS_PATH = "systems/swse/module/import/statblock-aliases.json";
 
 export class StatblockImportApp extends HandlebarsApplicationMixin(ApplicationV2) {
     static DEFAULT_OPTIONS = {
@@ -126,9 +123,8 @@ export class StatblockImportApp extends HandlebarsApplicationMixin(ApplicationV2
             const block = parseStatblock(wikitext);
             if (!block) throw new Error('No "... Statistics" section found on that page.');
 
-            const aliasResponse = await fetch(ALIAS_PATH);
-            if (!aliasResponse.ok) throw new Error(`Could not read the alias table (HTTP ${aliasResponse.status}).`);
-            const aliases = await aliasResponse.json();
+            // Shipped house rules plus whatever this world has learned from earlier imports.
+            const aliases = await loadAliases();
             const resolve = await buildCompendiumResolver();
             const {actorData, report} = await mapStatblock(block, {resolve, aliases});
 
@@ -183,7 +179,11 @@ export class StatblockImportApp extends HandlebarsApplicationMixin(ApplicationV2
             } else {
                 actorData.system.providedItems.push({name, type, ...(row?.extra ?? {})});
             }
-            substitutions.push(`${row?.name ?? "?"} -> ${name}`);
+            substitutions.push({
+                from: {type: row?.type ?? type, name: row?.name ?? name},
+                to: {type, name},
+                label: `${row?.name ?? "?"} -> ${name}`
+            });
         }
 
         this.#busy = true;
@@ -203,9 +203,14 @@ export class StatblockImportApp extends HandlebarsApplicationMixin(ApplicationV2
             });
 
             const failures = created.failures ?? [];
+            // Remember the picks BEFORE reporting, so the count is accurate and so a later failure
+            // in the divergence step cannot lose them.
+            const remembered = await rememberAliases(substitutions, this.#actorData.name);
+
             this.#importNotes = [
                 `Added ${actor.items.size} items.`,
-                substitutions.length ? `Substituted: ${substitutions.join(", ")}.` : null,
+                substitutions.length ? `Substituted: ${substitutions.map(s => s.label).join(", ")}.` : null,
+                remembered ? `Remembered ${remembered} substitution${remembered === 1 ? "" : "s"} for next time.` : null,
                 failures.length ? `Could not add: ${failures.map(f => f.name ?? f).join(", ")}.` : null,
                 ...notes
             ].filter(Boolean);

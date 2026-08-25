@@ -61,7 +61,7 @@
                         <select data-unresolved-index="{{this.index}}">
                             <option value="">Leave out</option>
                             {{#each this.groups}}
-                                <optgroup label="{{this.type}}">
+                                <optgroup label="{{this.label}}">
                                     {{#each this.options}}
                                         <option value="{{../type}}:{{this.name}}">{{this.name}}</option>
                                     {{/each}}

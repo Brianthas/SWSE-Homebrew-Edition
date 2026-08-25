@@ -18,6 +18,7 @@ import {initializePolyglot} from "./module-support/polyglot.mjs";
 
 import {initializeCompendiumButtons} from "./compendium/compendium-web.mjs";
 import {StatblockImportApp, initializeStatblockImportButton} from "./import/statblock-import-app.mjs";
+import {exportLearnedAliases, clearLearnedAliases} from "./import/statblock-resolver.mjs";
 import {buildRollContent} from "./common/chatMessageHelpers.mjs";
 import {SWSETokenDocument} from "./token/token-document.mjs";
 import {CharacterDataModel} from "./actor/data/characterdata.mjs";
@@ -71,6 +72,7 @@ Hooks.once('init', async function () {
         makeAttack,
         generateCompendiums, deleteEmptyCompendiums, clearEmptyCompendiums, deleteActorsByName,
         toggleActiveEffect,
+        exportLearnedAliases, clearLearnedAliases,
         applications: {
             SWSECompendiumBrowser,
             StatblockImportApp

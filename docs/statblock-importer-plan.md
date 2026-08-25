@@ -1,6 +1,6 @@
 # SWSE Statblock Importer - Implementation Plan
 
-Status: phases 1 to 4 built and verified live; phases 5 and 6 outstanding. Target: the baseline
+Status: complete. All six phases built and verified live. Target: the baseline
 `swse` system (not a separate module).
 
 ## Context
@@ -303,8 +303,8 @@ Touched:
 2. ~~Tier 1 resolver improvements, tier 2 seed table, validation suite.~~ Done.
 3. ~~Review dialog and the create path through `processActor`.~~ Done.
 4. ~~Divergence report with selective override pinning.~~ Done.
-5. Learned aliases and the promote button.
-6. Tier 3 gear mapping.
+5. ~~Learned aliases and the promote button.~~ Done.
+6. ~~Tier 3 gear mapping.~~ Done.
 
 Phases 1 to 3 are independently useful and worth shipping before the rest exists.
 
@@ -390,6 +390,34 @@ correctly and is what the row uses now, with an explicit non-finite guard since 
 nor undefined and rendered as the literal string "NaN". Speed was comparing "6 Squares" against
 "Walk 25"; both sides are now reduced to feet at five feet per square, so a Small beast reads 30
 printed against 25 derived.
+
+### Phases 5 and 6, done
+
+**Learned substitutions.** Every pick made in the review dialog is written to the world setting
+`swse.statblockAliases` and consulted on later imports. Shipped entries are indexed LAST so they win
+over learned ones: the shipped table encodes house rules, and a substitution chosen in a dialog must
+never quietly override a deletion or a merge.
+
+Names are learned WITHOUT their statblock annotation. The wiki writes "Stormtrooper Armor (+6
+Reflex, +2 Fortitude; +2 Perception, Low-Light Vision)", and storing that verbatim would only ever
+match a page spelling the parenthetical identically, so the base name is stored and `resolveOne`
+now tries name variants against the alias table (exact match still wins).
+
+`game.swse.exportLearnedAliases()` dumps them as JSON, ready to paste into the shipped table so
+anything durable graduates into version control; `game.swse.clearLearnedAliases()` forgets them.
+
+Verified live with a two-pass import of the same page: the first reported 2 unresolved and took a
+pick for each, the second reported **0 unresolved** and produced an identical 15-item actor, with
+the report showing "learned from importing Stormtrooper" against each. Running the second pass
+without the first would have looked the same as a failure to learn, so the two passes were run back
+to back against a cleared setting.
+
+**Gear by category.** The substitution dropdown now groups by weapon group and equipment category
+rather than listing every piece of gear flat: 48 optgroups (`weapon - Pistols` 4, `weapon - Rifles`
+5, `weapon - Lightsabers` 3, `armor - Armor` 4, and the equipment categories) pulled from
+`system.subtype` via indexed fields. Since a statblock's gear usually cannot be matched by name in
+this fork at all, the GM is choosing a replacement by category, and a flat list of several hundred
+names is the wrong shape for that decision.
 
 ### A fifth defect, this one mine
 

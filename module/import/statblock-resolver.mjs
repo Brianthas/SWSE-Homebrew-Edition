@@ -22,11 +22,16 @@ function packsFor(type) {
     return getCompendium(type) ?? [];
 }
 
-/** Loads the index for each pack. Index entries carry `type`, so no documents need opening. */
-async function ensureIndices(packs) {
+/**
+ * Loads the index for each pack. Index entries carry `type`, so no documents need opening.
+ * `fields` pulls extra properties into the index - `system.subtype` is the weapon group
+ * ("Pistols", "Rifles", "Advanced Melee Weapons"), which is what makes the substitution dropdown
+ * navigable instead of one flat list of every piece of gear in the system.
+ */
+async function ensureIndices(packs, fields = []) {
     for (const pack of packs) {
         if (pack.documentName !== "Item") continue;
-        await pack.getIndex();
+        await pack.getIndex(fields.length ? {fields} : undefined);
     }
 }
 
@@ -78,22 +83,35 @@ export async function listCandidates(types) {
     const groups = [];
     for (const type of types) {
         if (type === "skill") {
-            groups.push({type, options: skills("character").map(name => ({name, uuid: ""}))});
+            groups.push({type, label: "skill", options: skills("character").map(name => ({name, uuid: ""}))});
             continue;
         }
         // Same pack set as the resolver, so every option offered is one the add path can fetch.
         const packs = packsFor(type);
-        await ensureIndices(packs);
-        const seen = new Map();
+        await ensureIndices(packs, ["system.subtype"]);
+
+        // Grouped by weapon group / armour class where the items declare one. A statblock's gear
+        // usually cannot be matched by name in this fork - 4 armours and 34 weapons against the
+        // wiki's hundreds - so the GM is picking a replacement by category, and a flat list of
+        // several hundred names is the wrong shape for that decision.
+        const bySubtype = new Map();
         for (const pack of packs) {
             if (pack.documentName !== "Item") continue;
             for (const entry of pack.index) {
                 if (entry.type !== type) continue;
-                if (!seen.has(entry.name)) seen.set(entry.name, {name: entry.name, uuid: entry.uuid});
+                const subtype = entry.system?.subtype || "";
+                const label = subtype ? `${type} - ${subtype}` : type;
+                if (!bySubtype.has(label)) bySubtype.set(label, new Map());
+                const options = bySubtype.get(label);
+                if (!options.has(entry.name)) options.set(entry.name, {name: entry.name, uuid: entry.uuid});
             }
         }
-        if (seen.size) {
-            groups.push({type, options: [...seen.values()].sort((a, b) => a.name.localeCompare(b.name))});
+        for (const [label, options] of [...bySubtype].sort((a, b) => a[0].localeCompare(b[0]))) {
+            groups.push({
+                type,
+                label,
+                options: [...options.values()].sort((a, b) => a.name.localeCompare(b.name))
+            });
         }
     }
     return groups;
@@ -129,4 +147,104 @@ export async function fetchWikitext(input) {
     const wikitext = json?.parse?.wikitext;
     if (!wikitext) throw new Error(`No wikitext came back for "${page}".`);
     return wikitext;
+}
+
+/* -------------------------------------------------------------------------------------------- */
+/*  Learned substitutions                                                                          */
+/* -------------------------------------------------------------------------------------------- */
+
+const ALIAS_SETTING = "statblockAliases";
+const SHIPPED_ALIASES = "systems/swse/module/import/statblock-aliases.json";
+
+/** The substitutions this world has learned from previous imports. */
+export function getLearnedAliases() {
+    const stored = game.settings.get("swse", ALIAS_SETTING);
+    const entries = Array.isArray(stored?.entries) ? stored.entries : [];
+    return {entries};
+}
+
+/**
+ * The alias table the importer actually runs against: what ships with the system, plus whatever
+ * this world has learned.
+ *
+ * Order matters. indexAliases() in statblock-mapper.mjs keys entries by "type:name" and the last
+ * write wins, so the shipped entries go LAST and take precedence. The shipped table encodes house
+ * rules - deletions and merges - and a stray substitution picked in a dialog must never quietly
+ * override one of those.
+ */
+export async function loadAliases() {
+    const response = await fetch(SHIPPED_ALIASES);
+    if (!response.ok) throw new Error(`Could not read the alias table (HTTP ${response.status}).`);
+    const shipped = await response.json();
+    const learned = getLearnedAliases();
+    return {entries: [...learned.entries, ...(shipped.entries ?? [])]};
+}
+
+/**
+ * Records a substitution the GM chose, so the same wiki name resolves by itself next time.
+ *
+ * This is what makes the long tail tractable. Measured against the 2317 purged units, a hand table
+ * would need roughly 300 entries to get 88% of actors importing clean - not worth authoring up
+ * front for a corpus nobody will ever import wholesale. Learning instead means the table converges
+ * on the NPCs actually used at this table.
+ */
+export async function rememberAliases(substitutions, sourceName) {
+    if (!substitutions?.length) return 0;
+    const learned = getLearnedAliases();
+    const byKey = new Map(learned.entries.map(e => [`${e.from.type}:${e.from.name}`.toLowerCase(), e]));
+
+    // Record the BASE name, without the statblock's trailing stat annotation. The wiki writes
+    // "Stormtrooper Armor (+6 Reflex, +2 Fortitude; +2 Perception, Low-Light Vision)", and storing
+    // that verbatim would only ever match a page that spells the parenthetical identically.
+    // resolveOne() tries name variants against the alias table, so the short form catches both.
+    const baseName = name => {
+        const match = /^(.*?)\s*\([^()]*(?:\([^()]*\)[^()]*)*\)$/.exec(String(name ?? "").trim());
+        return match ? match[1].trim() : String(name ?? "").trim();
+    };
+
+    let added = 0;
+    for (const substitution of substitutions) {
+        const to = substitution.to;
+        const from = {...substitution.from, name: baseName(substitution.from.name)};
+        const key = `${from.type}:${from.name}`.toLowerCase();
+        const existing = byKey.get(key);
+        // A later choice replaces an earlier one for the same name: the GM changed their mind.
+        if (existing && existing.to?.name === to.name && existing.to?.type === to.type) continue;
+        byKey.set(key, {
+            from: {type: from.type, name: from.name},
+            to: {type: to.type, name: to.name},
+            reason: `learned from importing ${sourceName}`,
+            learned: true
+        });
+        added++;
+    }
+
+    if (added) await game.settings.set("swse", ALIAS_SETTING, {entries: [...byKey.values()]});
+    return added;
+}
+
+/**
+ * Dumps the learned substitutions as JSON, ready to be pasted into
+ * module/import/statblock-aliases.json so they graduate into version control.
+ * Also copies to the clipboard when the browser allows it.
+ */
+export async function exportLearnedAliases() {
+    const learned = getLearnedAliases();
+    const json = JSON.stringify(learned.entries, null, 2);
+    console.log(`SWSE: ${learned.entries.length} learned statblock aliases\n${json}`);
+    try {
+        await game.clipboard.copyPlainText(json);
+        ui.notifications.info(`${learned.entries.length} learned aliases copied to the clipboard.`);
+    } catch {
+        ui.notifications.info(`${learned.entries.length} learned aliases written to the console.`);
+    }
+    return json;
+}
+
+/** Forgets every learned substitution. The shipped table is untouched. */
+export async function clearLearnedAliases() {
+    const count = getLearnedAliases().entries.length;
+    await game.settings.set("swse", ALIAS_SETTING, {entries: []});
+    ui.notifications.info(`Forgot ${count} learned statblock alias${count === 1 ? "" : "es"}.`);
+    return count;
 }

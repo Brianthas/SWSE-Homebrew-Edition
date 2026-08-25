@@ -87,8 +87,16 @@ async function resolveOne(entry, kind, {resolve, aliasIndex}) {
 
     // The alias table wins over the packs. A house rule deletion must be reported as a deletion
     // even in the unlikely case an item of that name still exists somewhere.
+    //
+    // Variants are tried after the exact name so a learned substitution recorded against
+    // "Stormtrooper Armor" also catches the statblock's fuller
+    // "Stormtrooper Armor (+6 Reflex, +2 Fortitude; ...)". Exact always wins.
     for (const type of candidates) {
-        const alias = aliasIndex.get(`${type}:${sourceName}`.toLowerCase());
+        let alias = null;
+        for (const variant of nameVariants(sourceName)) {
+            alias = aliasIndex.get(`${type}:${variant}`.toLowerCase());
+            if (alias) break;
+        }
         if (!alias) continue;
         if (alias.to === null) {
             return {status: "dropped", source: {type, name: sourceName}, reason: alias.reason};

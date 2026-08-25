@@ -16,6 +16,16 @@ export function registerSystemSettings() {
     });
 
 
+    // Substitutions the GM made in the statblock import dialog, so the same wiki name resolves by
+    // itself next time. Hidden from the settings sheet because it is accumulated data, not a knob:
+    // it is read and written by module/import/, and dumped via game.swse.exportLearnedAliases().
+    game.settings.register("swse", "statblockAliases", {
+        scope: "world",
+        config: false,
+        default: {entries: []},
+        type: Object
+    });
+
     game.settings.register("swse", "automaticItems", {
         name: "Automatic Feats or Talents",
         hint: `these feats or talents will be granted to new characters automatically, enter as a comma seperated list ex. "FEAT:Toughness,TALENT:Armored Defense"`,
