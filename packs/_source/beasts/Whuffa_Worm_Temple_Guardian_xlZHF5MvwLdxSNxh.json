@@ -1,0 +1,3867 @@
+{
+  "name": "Whuffa Worm Temple Guardian",
+  "type": "beast",
+  "system": {
+    "health": {
+      "value": 10,
+      "max": 10,
+      "bonusHP": null,
+      "override": null
+    },
+    "shields": {
+      "value": 0,
+      "max": null
+    },
+    "credits": 0,
+    "skills": {
+      "Perception": {
+        "trained": true,
+        "ability": "wis",
+        "manualBonus": 0,
+        "trainedOnly": false,
+        "armorPenalty": false,
+        "value": 0
+      },
+      "Acrobatics": {
+        "ability": "dex",
+        "trained": false,
+        "manualBonus": 0,
+        "trainedOnly": false,
+        "armorPenalty": false,
+        "value": 0
+      },
+      "Athletics": {
+        "ability": "str",
+        "trained": false,
+        "manualBonus": 0,
+        "trainedOnly": false,
+        "armorPenalty": false,
+        "value": 0
+      },
+      "Biotech": {
+        "ability": "wis",
+        "trained": false,
+        "manualBonus": 0,
+        "trainedOnly": false,
+        "armorPenalty": false,
+        "value": 0
+      },
+      "Deception": {
+        "ability": "cha",
+        "trained": false,
+        "manualBonus": 0,
+        "trainedOnly": false,
+        "armorPenalty": false,
+        "value": 0
+      },
+      "Endurance": {
+        "ability": "con",
+        "trained": false,
+        "manualBonus": 0,
+        "trainedOnly": false,
+        "armorPenalty": false,
+        "value": 0
+      },
+      "Gather Information": {
+        "ability": "cha",
+        "trained": false,
+        "manualBonus": 0,
+        "trainedOnly": false,
+        "armorPenalty": false,
+        "value": 0
+      },
+      "Initiative": {
+        "ability": "dex",
+        "trained": false,
+        "manualBonus": 0,
+        "trainedOnly": false,
+        "armorPenalty": false,
+        "value": 0
+      },
+      "Knowledge (Bureaucracy)": {
+        "ability": "int",
+        "trained": false,
+        "manualBonus": 0,
+        "trainedOnly": false,
+        "armorPenalty": false,
+        "value": 0
+      },
+      "Knowledge (Galactic Lore)": {
+        "ability": "int",
+        "trained": false,
+        "manualBonus": 0,
+        "trainedOnly": false,
+        "armorPenalty": false,
+        "value": 0
+      },
+      "Knowledge (Sciences)": {
+        "ability": "int",
+        "trained": false,
+        "manualBonus": 0,
+        "trainedOnly": false,
+        "armorPenalty": false,
+        "value": 0
+      },
+      "Knowledge (Tactics)": {
+        "ability": "int",
+        "trained": false,
+        "manualBonus": 0,
+        "trainedOnly": false,
+        "armorPenalty": false,
+        "value": 0
+      },
+      "Knowledge (Technology)": {
+        "ability": "int",
+        "trained": false,
+        "manualBonus": 0,
+        "trainedOnly": false,
+        "armorPenalty": false,
+        "value": 0
+      },
+      "Mechanics": {
+        "ability": "int",
+        "trained": false,
+        "manualBonus": 0,
+        "trainedOnly": false,
+        "armorPenalty": false,
+        "value": 0
+      },
+      "Persuasion": {
+        "ability": "cha",
+        "trained": false,
+        "manualBonus": 0,
+        "trainedOnly": false,
+        "armorPenalty": false,
+        "value": 0
+      },
+      "Pilot": {
+        "ability": "dex",
+        "trained": false,
+        "manualBonus": 0,
+        "trainedOnly": false,
+        "armorPenalty": false,
+        "value": 0
+      },
+      "Stealth": {
+        "ability": "dex",
+        "trained": false,
+        "manualBonus": 0,
+        "trainedOnly": false,
+        "armorPenalty": false,
+        "value": 0
+      },
+      "Survival": {
+        "ability": "wis",
+        "trained": false,
+        "manualBonus": 0,
+        "trainedOnly": false,
+        "armorPenalty": false,
+        "value": 0
+      },
+      "Treat Injury": {
+        "ability": "wis",
+        "trained": false,
+        "manualBonus": 0,
+        "trainedOnly": false,
+        "armorPenalty": false,
+        "value": 0
+      },
+      "Use Computer": {
+        "ability": "int",
+        "trained": false,
+        "manualBonus": 0,
+        "trainedOnly": false,
+        "armorPenalty": false,
+        "value": 0
+      },
+      "Use the Force": {
+        "ability": "wis",
+        "trained": false,
+        "manualBonus": 0,
+        "trainedOnly": false,
+        "armorPenalty": false,
+        "value": 0
+      }
+    },
+    "settings": {
+      "isNPC": true,
+      "autoSizeToken": true,
+      "allowSheetLighting": true,
+      "ignorePrerequisites": false,
+      "manualRollEntry": false,
+      "attributeGeneration": "Default"
+    },
+    "size": "Huge",
+    "abilities": {
+      "str": {
+        "base": 24,
+        "value": 10,
+        "manual": null,
+        "customBonus": 0
+      },
+      "dex": {
+        "base": 12,
+        "value": 10,
+        "manual": null,
+        "customBonus": 0
+      },
+      "con": {
+        "base": 24,
+        "value": 10,
+        "manual": null,
+        "customBonus": 0
+      },
+      "int": {
+        "base": 4,
+        "value": 10,
+        "manual": null,
+        "customBonus": 0
+      },
+      "wis": {
+        "base": 12,
+        "value": 10,
+        "manual": null,
+        "customBonus": 0
+      },
+      "cha": {
+        "base": 12,
+        "value": 10,
+        "manual": null,
+        "customBonus": 0
+      }
+    },
+    "details": {
+      "cl": "12",
+      "biography": "Powerful Charge, Running Attack\n\nCrush, Pin\n\nDevour: If a Whuffa Worm Temple Guardian hits with its Bite attack against a Large or smaller opponent, it can automatically make a Grapple check at its full bonus as a Free Action. If the Grapple check is successful, the Whuffa Worm Temple Guardian can begin Devouring its target. The creature being Devoured takes 1d8+12 points of damage each round at the start of its turn, before it takes any actions. When the creature reaches 0 Hit Points, it is swallowed by the Whuffa Worm Temple Guardian and continues to take 1d6 points of Acid damage each round at the start of its turn.\n\nThe Whuffa Worm Temple Guardian cannot make Bite attacks until it releases the creature (a Free Action) or swallows it.\n\nSenses: Perception +12",
+      "description": "",
+      "gender": "",
+      "sex": "",
+      "age": 0,
+      "experience": 0,
+      "height": "",
+      "weight": "",
+      "player": ""
+    },
+    "darkside": {
+      "value": 0,
+      "max": 0
+    },
+    "lightSlots": {
+      "used": 0,
+      "max": 0
+    },
+    "kitSlots": {
+      "used": 0,
+      "max": 0
+    },
+    "toggles": {},
+    "combatToggles": {},
+    "overrides": {},
+    "actorLinks": [],
+    "changes": [],
+    "customAttacks": [],
+    "attackOrder": [],
+    "hiddenAttacks": [],
+    "defense": {
+      "damageThreshold": {
+        "misc": 0
+      },
+      "damageReductionOverride": "",
+      "defensePoints": {
+        "fortitude": {
+          "level1": 0,
+          "level10": 0
+        },
+        "reflex": {
+          "level1": 0,
+          "level10": 0
+        },
+        "will": {
+          "level1": 0,
+          "level10": 0
+        }
+      },
+      "additionalModifier": {
+        "fortitude": 0,
+        "reflex": 0,
+        "will": 0
+      },
+      "notes": ""
+    },
+    "xp": "",
+    "baseAttack": 0,
+    "grapple": 0,
+    "forcePoints": {
+      "value": 0,
+      "max": 0
+    },
+    "bonusForcePoints": 0,
+    "destinyPoints": {
+      "value": 0,
+      "max": 0
+    },
+    "abilityBonusChoice": ""
+  },
+  "_id": "xlZHF5MvwLdxSNxh",
+  "img": "icons/svg/mystery-man.svg",
+  "prototypeToken": {
+    "name": "Whuffa Worm Temple Guardian",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 3,
+    "height": 3,
+    "depth": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "forcePoints"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": {},
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [
+    {
+      "_id": "MlHb9RRJIZsXNH12",
+      "name": "Huge",
+      "type": "trait",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "",
+        "textDescription": "",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": "Huge",
+            "key": "size"
+          },
+          {
+            "mode": 2,
+            "value": 0,
+            "key": "reflexDefenseBonusScalable"
+          },
+          {
+            "mode": 2,
+            "value": "1 square",
+            "key": "characterFightingSpaceScalable"
+          },
+          {
+            "mode": 2,
+            "value": 0,
+            "key": "shipSkillModifierScalable"
+          },
+          {
+            "mode": 2,
+            "value": "1d4",
+            "key": "unarmedDamageScalable"
+          },
+          {
+            "mode": 2,
+            "value": "stealth:0",
+            "key": "skillBonusScalable"
+          },
+          {
+            "mode": 2,
+            "value": 0,
+            "key": "damageThresholdSizeModifierScalable"
+          },
+          {
+            "mode": 2,
+            "value": "0 squares",
+            "key": "vehicleFightingSpaceScalable"
+          },
+          {
+            "mode": 2,
+            "value": 0,
+            "key": "grappleSizeModifierScalable"
+          }
+        ],
+        "choices": [],
+        "modes": {},
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "categories": [],
+        "supplier": {},
+        "possibleProviders": [],
+        "isSupplied": false,
+        "prerequisite": null,
+        "uses": {},
+        "equipped": "",
+        "stripping": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "QbSDmWtCxkDQdQLb": 3,
+        "7VleqHaHleb9nZ9P": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "1.5.1",
+        "createdTime": 1787699038154,
+        "modifiedTime": 1787699038154,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!xlZHF5MvwLdxSNxh.MlHb9RRJIZsXNH12"
+    },
+    {
+      "_id": "kHslRWH8ySmJ9KNe",
+      "name": "Beast",
+      "type": "class",
+      "img": "systems/swse/icon/class/Beast.png",
+      "system": {
+        "finalName": "",
+        "description": "<p><i>See also: <a href=\"https://swse.fandom.com/wiki/Beasts\" title=\"Beasts\">Beasts</a>, <a href=\"https://swse.fandom.com/wiki/Creating_New_Beasts\" title=\"Creating New Beasts\">Creating New Beasts</a></i> </p><p>Beasts have an <a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a> of 1 or 2. They roll their other five <a href=\"https://swse.fandom.com/wiki/Ability_Scores\" class=\"mw-redirect\" title=\"Ability Scores\">Ability Scores</a> as normal. Beasts that show above average cunning usually have a good <a href=\"https://swse.fandom.com/wiki/Wisdom\" title=\"Wisdom\">Wisdom</a> score. </p><p>Beasts increase only one <a href=\"https://swse.fandom.com/wiki/Ability_Score\" class=\"mw-redirect\" title=\"Ability Score\">Ability Score</a> by one point every fourth level (instead of increasing two scores by one point each). However, they gain <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a> normally as they advance in level. A beast that gains an <a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a> of 3 or higher as a result of an ability increase is eligible to <a href=\"https://swse.fandom.com/wiki/Multiclass\" class=\"mw-redirect\" title=\"Multiclass\">Multiclass</a>. </p><p>Beasts do not gain <a href=\"https://swse.fandom.com/wiki/Talents\" title=\"Talents\">Talents</a> or starting <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a>, do not add their Beast Level to their <a href=\"https://swse.fandom.com/wiki/Defenses\" title=\"Defenses\">Defenses</a>, and do not gain <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">Force Points</a> or <a href=\"https://swse.fandom.com/wiki/Destiny_Points\" class=\"mw-redirect\" title=\"Destiny Points\">Destiny Points</a>. </p><h4><span class=\"mw-headline\" id=\"Examples_of_Beasts_in_Star_Wars\"><b>Examples of Beasts in Star Wars</b></span></h4><p><a href=\"https://swse.fandom.com/wiki/Acklay\" title=\"Acklay\">Acklay</a>, <a href=\"https://swse.fandom.com/wiki/Dewback\" title=\"Dewback\">Dewback</a>, <a href=\"https://swse.fandom.com/wiki/Nexu\" title=\"Nexu\">Nexu</a>, <a href=\"https://swse.fandom.com/wiki/Rancor\" title=\"Rancor\">Rancor</a>, <a href=\"https://swse.fandom.com/wiki/Reek\" title=\"Reek\">Reek</a>, <a href=\"https://swse.fandom.com/wiki/Tauntaun\" title=\"Tauntaun\">Tauntaun</a>, <a href=\"https://swse.fandom.com/wiki/Wampa\" title=\"Wampa\">Wampa</a>. </p><h3><span class=\"mw-headline\" id=\"Game_Rule_Information\">Game Rule Information</span></h3><p>Beasts have the following game statistics: </p><table class=\"wikitable\"> \n <caption>\n  Beast Leveling Statistics \n </caption> \n <tbody>\n  <tr> \n   <th> <p>LEVEL </p> </th> \n   <th><a href=\"https://swse.fandom.com/wiki/BASE_ATTACK_BONUS\" class=\"mw-redirect\" title=\"BASE ATTACK BONUS\">BASE ATTACK BONUS</a> </th> \n   <th> </th> \n   <th>LEVEL </th> \n   <th><a href=\"https://swse.fandom.com/wiki/BASE_ATTACK_BONUS\" class=\"mw-redirect\" title=\"BASE ATTACK BONUS\">BASE ATTACK BONUS</a> </th>\n  </tr> \n  <tr> \n   <td>1st </td> \n   <td>+0 </td> \n   <td> </td> \n   <td>11th </td> \n   <td>+8 </td>\n  </tr> \n  <tr> \n   <td>2nd </td> \n   <td>+1 </td> \n   <td> </td> \n   <td>12th </td> \n   <td>+9 </td>\n  </tr> \n  <tr> \n   <td>3rd </td> \n   <td>+2 </td> \n   <td> </td> \n   <td>13th </td> \n   <td>+9 </td>\n  </tr> \n  <tr> \n   <td>4th </td> \n   <td>+3 </td> \n   <td> </td> \n   <td>14th </td> \n   <td>+10 </td>\n  </tr> \n  <tr> \n   <td>5th </td> \n   <td>+3 </td> \n   <td> </td> \n   <td>15th </td> \n   <td>+11 </td>\n  </tr> \n  <tr> \n   <td>6th </td> \n   <td>+4 </td> \n   <td> </td> \n   <td>16th </td> \n   <td>+12 </td>\n  </tr> \n  <tr> \n   <td>7th </td> \n   <td>+5 </td> \n   <td> </td> \n   <td>17th </td> \n   <td>+12 </td>\n  </tr> \n  <tr> \n   <td>8th </td> \n   <td>+6 </td> \n   <td> </td> \n   <td>18th </td> \n   <td>+13 </td>\n  </tr> \n  <tr> \n   <td>9th </td> \n   <td>+6 </td> \n   <td> </td> \n   <td>19th </td> \n   <td>+14 </td>\n  </tr> \n  <tr> \n   <td>10th </td> \n   <td>+7 </td> \n   <td> </td> \n   <td>20th </td> \n   <td>+15 </td>\n  </tr>\n </tbody>\n</table><h4><span class=\"mw-headline\" id=\"Hit_Points\"><b>Hit Points</b></span></h4><p>At each level, Beasts gain a number of Hit Points equal to 1d8 + their <a href=\"https://swse.fandom.com/wiki/Constitution\" title=\"Constitution\">Constitution</a> modifier. </p><h4><span class=\"mw-headline\" id=\"Force_Points\"><b>Force Points</b></span></h4><p>Beasts do not gain <a href=\"https://swse.fandom.com/wiki/Force_Points\" title=\"Force Points\">Force Points</a>. </p><h4><span class=\"mw-headline\" id=\"Class_Skills\"><b>Class Skills</b></span></h4><p>At 1st level, Beasts become <a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in a number of <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> equal to 1 + their <a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a> modifier (minimum of 1). They can select their <a href=\"https://swse.fandom.com/wiki/Trained_Skills\" class=\"mw-redirect\" title=\"Trained Skills\">Trained Skills</a> from the below list: </p><ul>\n <li><a href=\"https://swse.fandom.com/wiki/Acrobatics\" title=\"Acrobatics\">Acrobatics</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Climb\" title=\"Climb\">Climb</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Endurance\" title=\"Endurance\">Endurance</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Jump\" title=\"Jump\">Jump</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Survival\" title=\"Survival\">Survival</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Swim\" title=\"Swim\">Swim</a></li>\n</ul><h4><span class=\"mw-headline\" id=\"Class_Features\"><b>Class Features</b></span></h4><p>Beasts gain special features unique to themselves. See <a href=\"https://swse.fandom.com/wiki/Creature_Generator\" class=\"mw-redirect\" title=\"Creature Generator\">Creature Generator</a>. </p><h4><span class=\"mw-headline\" id=\"Multiclassing\"><b>Multiclassing</b></span></h4><p>A Beast with an <a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a> of 3 or higher can <a href=\"https://swse.fandom.com/wiki/Multiclass\" class=\"mw-redirect\" title=\"Multiclass\">Multiclass</a> into any <a href=\"https://swse.fandom.com/wiki/Heroic_Class\" class=\"mw-redirect\" title=\"Heroic Class\">Heroic Class</a>. Beasts with an <a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a> of 1 or 2 cannot <a href=\"https://swse.fandom.com/wiki/Multiclass\" class=\"mw-redirect\" title=\"Multiclass\">Multiclass</a>. </p>",
+        "textDescription": "",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": 2,
+            "key": "trainedSkillsFirstLevel"
+          },
+          {
+            "mode": 2,
+            "value": "Acrobatics",
+            "key": "classSkill"
+          },
+          {
+            "mode": 2,
+            "value": "Endurance",
+            "key": "classSkill"
+          },
+          {
+            "mode": 2,
+            "value": "Initiative",
+            "key": "classSkill"
+          },
+          {
+            "mode": 2,
+            "value": "Perception",
+            "key": "classSkill"
+          },
+          {
+            "mode": 2,
+            "value": "Stealth",
+            "key": "classSkill"
+          },
+          {
+            "mode": 2,
+            "value": "Survival",
+            "key": "classSkill"
+          },
+          {
+            "mode": 2,
+            "value": "1d8",
+            "key": "levelUpHitPoints"
+          },
+          {
+            "mode": 2,
+            "value": 24,
+            "key": "firstLevelHitPoints"
+          },
+          {
+            "mode": 2,
+            "value": false,
+            "key": "isHeroic"
+          },
+          {
+            "mode": 2,
+            "value": false,
+            "key": "isPrestige"
+          },
+          {
+            "mode": 2,
+            "value": false,
+            "key": "isFollowerTemplate"
+          },
+          {
+            "mode": 2,
+            "value": 2,
+            "key": "intelligenceMax"
+          },
+          {
+            "mode": 2,
+            "value": "Athletics",
+            "key": "classSkill"
+          }
+        ],
+        "choices": [
+          {
+            "noOptions": "NO_AVAILABLE_OPTIONS",
+            "availableSelections": 1,
+            "payload": "#payload#",
+            "options": [
+              {
+                "providedItems": [
+                  {
+                    "name": "Fine",
+                    "type": "trait",
+                    "unlocked": true
+                  }
+                ],
+                "payloads": {},
+                "display": "Fine",
+                "name": "Fine",
+                "attributes": {}
+              },
+              {
+                "providedItems": [
+                  {
+                    "name": "Diminutive",
+                    "type": "trait",
+                    "unlocked": true
+                  }
+                ],
+                "payloads": {},
+                "display": "Diminutive",
+                "name": "Diminutive",
+                "attributes": {}
+              },
+              {
+                "providedItems": [
+                  {
+                    "name": "Tiny",
+                    "type": "trait",
+                    "unlocked": true
+                  }
+                ],
+                "payloads": {},
+                "display": "Tiny",
+                "name": "Tiny",
+                "attributes": {}
+              },
+              {
+                "providedItems": [
+                  {
+                    "name": "Small",
+                    "type": "trait",
+                    "unlocked": true
+                  }
+                ],
+                "payloads": {},
+                "display": "Small",
+                "name": "Small",
+                "attributes": {}
+              },
+              {
+                "providedItems": [
+                  {
+                    "name": "Medium",
+                    "type": "trait",
+                    "unlocked": true
+                  }
+                ],
+                "payloads": {},
+                "display": "Medium",
+                "name": "Medium",
+                "attributes": {}
+              },
+              {
+                "providedItems": [
+                  {
+                    "name": "Large",
+                    "type": "trait",
+                    "unlocked": true
+                  }
+                ],
+                "payloads": {},
+                "display": "Large",
+                "name": "Large",
+                "attributes": {}
+              },
+              {
+                "providedItems": [
+                  {
+                    "name": "Huge",
+                    "type": "trait",
+                    "unlocked": true
+                  }
+                ],
+                "payloads": {},
+                "display": "Huge",
+                "name": "Huge",
+                "attributes": {}
+              },
+              {
+                "providedItems": [
+                  {
+                    "name": "Gargantuan",
+                    "type": "trait",
+                    "unlocked": true
+                  }
+                ],
+                "payloads": {},
+                "display": "Gargantuan",
+                "name": "Gargantuan",
+                "attributes": {}
+              },
+              {
+                "providedItems": [
+                  {
+                    "name": "Colossal",
+                    "type": "trait",
+                    "unlocked": true
+                  }
+                ],
+                "payloads": {},
+                "display": "Colossal",
+                "name": "Colossal",
+                "attributes": {}
+              },
+              {
+                "providedItems": [
+                  {
+                    "name": "Colossal (Frigate)",
+                    "type": "trait",
+                    "unlocked": true
+                  }
+                ],
+                "payloads": {},
+                "display": "Colossal (Frigate)",
+                "name": "Colossal (Frigate)",
+                "attributes": {}
+              },
+              {
+                "providedItems": [
+                  {
+                    "name": "Colossal (Cruiser)",
+                    "type": "trait",
+                    "unlocked": true
+                  }
+                ],
+                "payloads": {},
+                "display": "Colossal (Cruiser)",
+                "name": "Colossal (Cruiser)",
+                "attributes": {}
+              },
+              {
+                "providedItems": [
+                  {
+                    "name": "Colossal (Station)",
+                    "type": "trait",
+                    "unlocked": true
+                  }
+                ],
+                "payloads": {},
+                "display": "Colossal (Station)",
+                "name": "Colossal (Station)",
+                "attributes": {}
+              }
+            ],
+            "description": "Select a Size:",
+            "type": "SELECT",
+            "isFirstLevel": true,
+            "showSelectionInName": false
+          }
+        ],
+        "modes": {},
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "prerequisite": null,
+        "levels": {},
+        "uses": {},
+        "levelsTaken": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "effects": [
+        {
+          "_id": "VTmTNOp9coohJE1i",
+          "name": "Level 1",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 0,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 1
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.kHslRWH8ySmJ9KNe.VTmTNOp9coohJE1i"
+        },
+        {
+          "_id": "r2TtmvEJyqda8gPN",
+          "name": "Level 2",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 1,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 2
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.kHslRWH8ySmJ9KNe.r2TtmvEJyqda8gPN"
+        },
+        {
+          "_id": "HyGYXyqR09MdMT6M",
+          "name": "Level 3",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 1,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 3
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.kHslRWH8ySmJ9KNe.HyGYXyqR09MdMT6M"
+        },
+        {
+          "_id": "YshsQiHsLUuHXCfT",
+          "name": "Level 4",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 1,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 4
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.kHslRWH8ySmJ9KNe.YshsQiHsLUuHXCfT"
+        },
+        {
+          "_id": "cTLMAkGRvFzTrHRH",
+          "name": "Level 5",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 0,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 5
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.kHslRWH8ySmJ9KNe.cTLMAkGRvFzTrHRH"
+        },
+        {
+          "_id": "LoBZwwyYIdkqPzDK",
+          "name": "Level 6",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 1,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 6
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.kHslRWH8ySmJ9KNe.LoBZwwyYIdkqPzDK"
+        },
+        {
+          "_id": "leu1hMA4lKpHcLC4",
+          "name": "Level 7",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 1,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 7
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.kHslRWH8ySmJ9KNe.leu1hMA4lKpHcLC4"
+        },
+        {
+          "_id": "bBtipZs6S4JpFJIT",
+          "name": "Level 8",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 1,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 8
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.kHslRWH8ySmJ9KNe.bBtipZs6S4JpFJIT"
+        },
+        {
+          "_id": "GNGRyjhoAizzeJxe",
+          "name": "Level 9",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 0,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 9
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.kHslRWH8ySmJ9KNe.GNGRyjhoAizzeJxe"
+        },
+        {
+          "_id": "X3Yv1ad8IN8xC2Sj",
+          "name": "Level 10",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 1,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 10
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.kHslRWH8ySmJ9KNe.X3Yv1ad8IN8xC2Sj"
+        },
+        {
+          "_id": "S6HbA0u6LkaUUdAo",
+          "name": "Level 11",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 1,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 11
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.kHslRWH8ySmJ9KNe.S6HbA0u6LkaUUdAo"
+        },
+        {
+          "_id": "LJL6PWAMySn4Lu1T",
+          "name": "Level 12",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 1,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 12
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.kHslRWH8ySmJ9KNe.LJL6PWAMySn4Lu1T"
+        },
+        {
+          "_id": "nO7AHrZLwNA2VJac",
+          "name": "Level 13",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 0,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 13
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.kHslRWH8ySmJ9KNe.nO7AHrZLwNA2VJac"
+        },
+        {
+          "_id": "KA8D8rNzeyp2KJVB",
+          "name": "Level 14",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 1,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 14
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.kHslRWH8ySmJ9KNe.KA8D8rNzeyp2KJVB"
+        },
+        {
+          "_id": "ZtFBiUaaQo1ciBcX",
+          "name": "Level 15",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 1,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 15
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.kHslRWH8ySmJ9KNe.ZtFBiUaaQo1ciBcX"
+        },
+        {
+          "_id": "Jw9wq6YrOZkhUrnY",
+          "name": "Level 16",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 1,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 16
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.kHslRWH8ySmJ9KNe.Jw9wq6YrOZkhUrnY"
+        },
+        {
+          "_id": "va9mrdOcBqkdMlyR",
+          "name": "Level 17",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 0,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 17
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.kHslRWH8ySmJ9KNe.va9mrdOcBqkdMlyR"
+        },
+        {
+          "_id": "U2pTDCjfI7X8CE5U",
+          "name": "Level 18",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 1,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 18
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.kHslRWH8ySmJ9KNe.U2pTDCjfI7X8CE5U"
+        },
+        {
+          "_id": "RqORNfcErtdRnRqn",
+          "name": "Level 19",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 1,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 19
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.kHslRWH8ySmJ9KNe.RqORNfcErtdRnRqn"
+        },
+        {
+          "_id": "rjyrG7W1ze03waZv",
+          "name": "Level 20",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 1,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 20
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.kHslRWH8ySmJ9KNe.rjyrG7W1ze03waZv"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3,
+        "7VleqHaHleb9nZ9P": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "1.5.1",
+        "createdTime": 1787699038154,
+        "modifiedTime": 1787699038154,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!xlZHF5MvwLdxSNxh.kHslRWH8ySmJ9KNe"
+    },
+    {
+      "_id": "Lj3AQ9oPOBc6CptK",
+      "name": "Soldier",
+      "type": "class",
+      "img": "systems/swse/icon/class/Soldier.png",
+      "system": {
+        "finalName": "",
+        "description": "<p><br> <i>Reference Book: Star Wars Saga Edition Core Rulebook</i> </p><p>Soldiers combine discipline with martial skills to become the best pure warriors in the galaxy. Soldiers can be stalwart defenders of those in need, cruel marauders, or brave adventurers. They can be hired guns, noble champions, or cold-hearted killers. They fight for glory, for honor, to right wrongs, to gain power, to acquire wealth, or simply for the thrill of battle. </p><h3><span class=\"mw-headline\" id=\"Adventurers\">Adventurers</span></h3><p>Many Soldiers see adventures, raids on enemy strongholds, and dangerous missions as their jobs. Some want to defend those who can't defend themselves; others seek to use their muscle to carve their own place of importance in the galaxy. Whatever their initial motivation, most Soldiers wind up living for the thrill of combat and the excitement of adventure. Adventuring Soldiers call themselves guards, bodyguards, champions, enforcers, mercenaries, warriors, soldiers of fortune, or simple adventurers. </p><h3><span class=\"mw-headline\" id=\"Characteristics\">Characteristics</span></h3><p>Soldiers have the best all-around fighting abilities, and an individual Soldier develops styles and techniques that set him apart from their peers. A given Soldier might be especially capable with certain weapons, another trained to execute specific combat maneuvers. As Soldiers gain experience, they get more opportunities to develop their fighting skills. </p><h3><span class=\"mw-headline\" id=\"Backgrounds\">Backgrounds</span></h3><p>Most Soldiers come to the profession after receiving at least some amount of formal training from a military organization, local militia, or private army. Some attend formal academies; others are self-taught and well tested. A Soldier may have taken up his weapon to escape a mundane life. Another may be following a proud family tradition. Soldiers in a particular unit share certain camaraderie, but most have nothing in common except battle prowess and the desire to apply it to a given situation. </p><h4><span class=\"mw-headline\" id=\"Examples_of_Soldiers_in_Star_Wars\"><b>Examples of Soldiers in <i>Star Wars</i></b></span></h4><p>Admiral Ackbar, Corran Horn, Captain Panaka, Captain Typho, General Crix Madine, Kyle Katarn, Wedge Antilles, Zam Wesell </p><h3><span class=\"mw-headline\" id=\"Game_Rule_Information\">Game Rule Information</span></h3><p>Soldiers have the following game statistics: </p><table class=\"wikitable\"> \n <tbody>\n  <tr> \n   <th>CLASS LEVEL </th> \n   <th><a href=\"https://swse.fandom.com/wiki/BASE_ATTACK_BONUS\" class=\"mw-redirect\" title=\"BASE ATTACK BONUS\">BASE ATTACK BONUS</a> </th> \n   <th>CLASS FEATURES </th>\n  </tr> \n  <tr> \n   <td>1st </td> \n   <td>+1 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Defense\" class=\"mw-redirect\" title=\"Defense\">Defense</a> Bonuses, Starting <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a>, <a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Soldier)\" title=\"Talent Trees (Soldier)\">Talent</a> </td>\n  </tr> \n  <tr> \n   <td>2nd </td> \n   <td>+2 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Bonus_Feat_(Soldier)\" class=\"mw-redirect\" title=\"Bonus Feat (Soldier)\">Bonus Feat (Soldier)</a> </td>\n  </tr> \n  <tr> \n   <td>3rd </td> \n   <td>+3 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Soldier)\" title=\"Talent Trees (Soldier)\">Talent</a> </td>\n  </tr> \n  <tr> \n   <td>4th </td> \n   <td>+4 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Bonus_Feat_(Soldier)\" class=\"mw-redirect\" title=\"Bonus Feat (Soldier)\">Bonus Feat (Soldier)</a> </td>\n  </tr> \n  <tr> \n   <td>5th </td> \n   <td>+5 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Soldier)\" title=\"Talent Trees (Soldier)\">Talent</a> </td>\n  </tr> \n  <tr> \n   <td>6th </td> \n   <td>+6 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Bonus_Feat_(Soldier)\" class=\"mw-redirect\" title=\"Bonus Feat (Soldier)\">Bonus Feat (Soldier)</a> </td>\n  </tr> \n  <tr> \n   <td>7th </td> \n   <td>+7 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Soldier)\" title=\"Talent Trees (Soldier)\">Talent</a> </td>\n  </tr> \n  <tr> \n   <td>8th </td> \n   <td>+8 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Bonus_Feat_(Soldier)\" class=\"mw-redirect\" title=\"Bonus Feat (Soldier)\">Bonus Feat (Soldier)</a> </td>\n  </tr> \n  <tr> \n   <td>9th </td> \n   <td>+9 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Soldier)\" title=\"Talent Trees (Soldier)\">Talent</a> </td>\n  </tr> \n  <tr> \n   <td>10th </td> \n   <td>+10 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Bonus_Feat_(Soldier)\" class=\"mw-redirect\" title=\"Bonus Feat (Soldier)\">Bonus Feat (Soldier)</a> </td>\n  </tr> \n  <tr> \n   <td>11th </td> \n   <td>+11 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Soldier)\" title=\"Talent Trees (Soldier)\">Talent</a> </td>\n  </tr> \n  <tr> \n   <td>12th </td> \n   <td>+12 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Bonus_Feat_(Soldier)\" class=\"mw-redirect\" title=\"Bonus Feat (Soldier)\">Bonus Feat (Soldier)</a> </td>\n  </tr> \n  <tr> \n   <td>13th </td> \n   <td>+13 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Soldier)\" title=\"Talent Trees (Soldier)\">Talent</a> </td>\n  </tr> \n  <tr> \n   <td>14th </td> \n   <td>+14 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Bonus_Feat_(Soldier)\" class=\"mw-redirect\" title=\"Bonus Feat (Soldier)\">Bonus Feat (Soldier)</a> </td>\n  </tr> \n  <tr> \n   <td>15th </td> \n   <td>+15 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Soldier)\" title=\"Talent Trees (Soldier)\">Talent</a> </td>\n  </tr> \n  <tr> \n   <td>16th </td> \n   <td>+16 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Bonus_Feat_(Soldier)\" class=\"mw-redirect\" title=\"Bonus Feat (Soldier)\">Bonus Feat (Soldier)</a> </td>\n  </tr> \n  <tr> \n   <td>17th </td> \n   <td>+17 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Soldier)\" title=\"Talent Trees (Soldier)\">Talent</a> </td>\n  </tr> \n  <tr> \n   <td>18th </td> \n   <td>+18 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Bonus_Feat_(Soldier)\" class=\"mw-redirect\" title=\"Bonus Feat (Soldier)\">Bonus Feat (Soldier)</a> </td>\n  </tr> \n  <tr> \n   <td>19th </td> \n   <td>+19 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Soldier)\" title=\"Talent Trees (Soldier)\">Talent</a> </td>\n  </tr> \n  <tr> \n   <td>20th </td> \n   <td>+20 </td> \n   <td><a href=\"https://swse.fandom.com/wiki/Bonus_Feat_(Soldier)\" class=\"mw-redirect\" title=\"Bonus Feat (Soldier)\">Bonus Feat (Soldier)</a> </td>\n  </tr>\n </tbody>\n</table><h4><span class=\"mw-headline\" id=\"Abilities\"><b>Abilities</b></span></h4><p>Since most combat in the <i>Star Wars</i> universe uses blasters and other ranged weapons, <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> is the Soldier's most important <a href=\"https://swse.fandom.com/wiki/Ability_Score\" class=\"mw-redirect\" title=\"Ability Score\">Ability Score</a>, followed closely by <a href=\"https://swse.fandom.com/wiki/Constitution\" title=\"Constitution\">Constitution</a> and <a href=\"https://swse.fandom.com/wiki/Strength\" title=\"Strength\">Strength</a>. Don't underestimate the importance of <a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a> and <a href=\"https://swse.fandom.com/wiki/Wisdom\" title=\"Wisdom\">Wisdom</a>, however, since many of a Soldier's useful <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a> are based on these abilities. </p><h4><span class=\"mw-headline\" id=\"Class_Skills\"><b>Class Skills </b></span></h4><p><a href=\"https://swse.fandom.com/wiki/Trained\" class=\"mw-redirect\" title=\"Trained\">Trained</a> in 3 + <a href=\"https://swse.fandom.com/wiki/Intelligence\" title=\"Intelligence\">Intelligence</a> modifier: </p><ul>\n <li><a href=\"https://swse.fandom.com/wiki/Climb\" title=\"Climb\">Climb</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Endurance\" title=\"Endurance\">Endurance</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Jump\" title=\"Jump\">Jump</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Knowledge_(Tactics)\" class=\"mw-redirect\" title=\"Knowledge (Tactics)\">Knowledge (Tactics)</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Mechanics\" title=\"Mechanics\">Mechanics</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Perception\" title=\"Perception\">Perception</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Pilot\" title=\"Pilot\">Pilot</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Swim\" title=\"Swim\">Swim</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Treat_Injury\" title=\"Treat Injury\">Treat Injury</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Use_Computer\" title=\"Use Computer\">Use Computer</a></li>\n</ul><h4><span class=\"mw-headline\" id=\"Hit_Points\"><b>Hit Points</b></span></h4><p>Soldiers begin play at 1st level with a number of hit points equal to 30 + their <a href=\"https://swse.fandom.com/wiki/Constitution\" title=\"Constitution\">Constitution</a> modifier. At each level after 1st, Soldiers gain 1d10 hit points + their <a href=\"https://swse.fandom.com/wiki/Constitution\" title=\"Constitution\">Constitution</a> modifier. </p><h4><span class=\"mw-headline\" id=\"Force_Points\"><b>Force Points</b></span></h4><p>Soldiers gain a number of <a href=\"https://swse.fandom.com/wiki/Force_Points\" title=\"Force Points\">Force Points</a> equal to 5 + one-half their Character Level (rounded down) at 1st level, and every time they gain a new level in this class. Any <a href=\"https://swse.fandom.com/wiki/Force_Points\" title=\"Force Points\">Force Points</a> left over from previous levels are lost. </p><h3><span class=\"mw-headline\" id=\"Class_Features.\">Class Features.</span></h3><p>All of the following are features of the Soldier class. </p><h4><span class=\"mw-headline\" id=\"Defense_Bonuses\"><b>Defense Bonuses</b></span></h4><p>At 1st level, a Soldier gains a +1 Class bonus to their <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a> and a +2 Class bonus to their <a href=\"https://swse.fandom.com/wiki/Fortitude_Defense\" class=\"mw-redirect\" title=\"Fortitude Defense\">Fortitude Defense</a>. </p><h4><span class=\"mw-headline\" id=\"Starting_Feats\"><b>Starting Feats</b></span></h4><p>A Soldier begins play with the following bonus <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a>: </p><ul>\n <li><a href=\"https://swse.fandom.com/wiki/Armor_Proficiency_(Light)\" title=\"Armor Proficiency (Light)\">Armor Proficiency (Light)</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Armor_Proficiency_(Medium)\" title=\"Armor Proficiency (Medium)\">Armor Proficiency (Medium)</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Weapon_Proficiency_(Pistols)\" class=\"mw-redirect\" title=\"Weapon Proficiency (Pistols)\">Weapon Proficiency (Pistols)</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Weapon_Proficiency_(Rifles)\" class=\"mw-redirect\" title=\"Weapon Proficiency (Rifles)\">Weapon Proficiency (Rifles)</a></li> \n <li><a href=\"https://swse.fandom.com/wiki/Weapon_Proficiency_(Simple_Weapons)\" class=\"mw-redirect\" title=\"Weapon Proficiency (Simple Weapons)\">Weapon Proficiency (Simple Weapons)</a></li>\n</ul><h4><span class=\"mw-headline\" id=\"Talent_Trees\"><b>Talent Trees</b></span></h4><p>At every odd-numbered level (1st, 3rd, 5th, and so on), a Soldier gains an additional <a href=\"https://swse.fandom.com/wiki/Talent\" class=\"mw-redirect\" title=\"Talent\">Talent</a>. A Soldier may choose a <a href=\"https://swse.fandom.com/wiki/Talent\" class=\"mw-redirect\" title=\"Talent\">Talent</a> from any of the <a href=\"https://swse.fandom.com/wiki/Talent_Trees_(Soldier)\" title=\"Talent Trees (Soldier)\">Talent Trees (Soldier)</a> they wish, but they must meet the prerequisites (if any) of the chosen <a href=\"https://swse.fandom.com/wiki/Talent\" class=\"mw-redirect\" title=\"Talent\">Talent</a>. No <a href=\"https://swse.fandom.com/wiki/Talent\" class=\"mw-redirect\" title=\"Talent\">Talent</a> can be selected more than once unless expressly indicated. </p><h4><span class=\"mw-headline\" id=\"Bonus_Feats\"><b>Bonus Feats</b></span></h4><p>At every even-numbered level (2nd, 4th, 6th, etc.), a Soldier gains a bonus <a href=\"https://swse.fandom.com/wiki/Feat\" class=\"mw-redirect\" title=\"Feat\">Feat</a>. This&nbsp;<a href=\"https://swse.fandom.com/wiki/Feat\" class=\"mw-redirect\" title=\"Feat\">Feat</a>&nbsp;must be selected from the related page (<a href=\"https://swse.fandom.com/wiki/Bonus_Feats_(Soldier)\" title=\"Bonus Feats (Soldier)\">Bonus Feats (Soldier)</a>). As with normal&nbsp;<a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a>, you must meet the prerequisites to select the&nbsp;<a href=\"https://swse.fandom.com/wiki/Feat\" class=\"mw-redirect\" title=\"Feat\">Feat</a>. The Bonus&nbsp;<a href=\"https://swse.fandom.com/wiki/Feat\" class=\"mw-redirect\" title=\"Feat\">Feat</a>&nbsp;must be from the&nbsp;<a href=\"https://swse.fandom.com/wiki/Bonus_Feats_(Soldier)\" title=\"Bonus Feats (Soldier)\">Bonus Feats (Soldier)</a>, unless explicitly stated otherwise. </p><h4><span class=\"mw-headline\" id=\"Credits\"><b>Credits</b></span></h4><p>A 1st-level Soldier starts play with 3d4 x 250 credits. </p>",
+        "textDescription": "",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": 4,
+            "key": "trainedSkillsFirstLevel"
+          },
+          {
+            "mode": 2,
+            "value": "Endurance",
+            "key": "classSkill"
+          },
+          {
+            "mode": 2,
+            "value": "Initiative",
+            "key": "classSkill"
+          },
+          {
+            "mode": 2,
+            "value": "Knowledge (Tactics)",
+            "key": "classSkill"
+          },
+          {
+            "mode": 2,
+            "value": "Mechanics",
+            "key": "classSkill"
+          },
+          {
+            "mode": 2,
+            "value": "Perception",
+            "key": "classSkill"
+          },
+          {
+            "mode": 2,
+            "value": "Pilot",
+            "key": "classSkill"
+          },
+          {
+            "mode": 2,
+            "value": "Treat Injury",
+            "key": "classSkill"
+          },
+          {
+            "mode": 2,
+            "value": "Use Computer",
+            "key": "classSkill"
+          },
+          {
+            "mode": 2,
+            "value": 30,
+            "key": "firstLevelHitPoints"
+          },
+          {
+            "mode": 2,
+            "value": "1d10",
+            "key": "levelUpHitPoints"
+          },
+          {
+            "mode": 2,
+            "value": 5,
+            "key": "classForcePoints"
+          },
+          {
+            "mode": 2,
+            "value": 2,
+            "key": "classFortitudeDefenseBonus"
+          },
+          {
+            "mode": 2,
+            "value": 1,
+            "key": "classReflexDefenseBonus"
+          },
+          {
+            "mode": 2,
+            "value": "Weapon Proficiency (Pistols)",
+            "key": "classFeat"
+          },
+          {
+            "mode": 2,
+            "value": "Weapon Proficiency (Rifles)",
+            "key": "classFeat"
+          },
+          {
+            "mode": 2,
+            "value": "Weapon Proficiency (Simple Weapons)",
+            "key": "classFeat"
+          },
+          {
+            "mode": 2,
+            "value": true,
+            "key": "isHeroic"
+          },
+          {
+            "mode": 2,
+            "value": false,
+            "key": "isPrestige"
+          },
+          {
+            "mode": 2,
+            "value": false,
+            "key": "isFollowerTemplate"
+          },
+          {
+            "mode": 2,
+            "value": "Athletics",
+            "key": "classSkill"
+          },
+          {
+            "mode": 2,
+            "value": "Weapon Proficiency (Advanced Melee)",
+            "key": "classFeat"
+          },
+          {
+            "mode": 2,
+            "value": "Armor Proficiency",
+            "key": "classFeat"
+          },
+          {
+            "mode": 2,
+            "value": "Pistols",
+            "key": "weaponProficiency"
+          },
+          {
+            "mode": 2,
+            "value": "Rifles",
+            "key": "weaponProficiency"
+          },
+          {
+            "mode": 2,
+            "value": "Simple Weapons",
+            "key": "weaponProficiency"
+          },
+          {
+            "mode": 2,
+            "value": "Advanced Melee",
+            "key": "weaponProficiency"
+          }
+        ],
+        "choices": [],
+        "modes": {},
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "prerequisite": null,
+        "levels": {},
+        "uses": {},
+        "levelsTaken": [
+          11,
+          12,
+          13
+        ]
+      },
+      "effects": [
+        {
+          "_id": "GUNbcOHylJ9aHv8j",
+          "name": "Level 1",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "type": "add",
+                "value": "Soldier Talent Trees",
+                "phase": "initial",
+                "priority": 20
+              },
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 1,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 1
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.Lj3AQ9oPOBc6CptK.GUNbcOHylJ9aHv8j"
+        },
+        {
+          "_id": "cb5jtAdwNOcMISh3",
+          "name": "Level 2",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "type": "add",
+                "value": "General Feats",
+                "phase": "initial",
+                "priority": 20
+              },
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 1,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 2
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.Lj3AQ9oPOBc6CptK.cb5jtAdwNOcMISh3"
+        },
+        {
+          "_id": "jFqdpOyNb00ISRCq",
+          "name": "Level 3",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "type": "add",
+                "value": "Soldier Talent Trees",
+                "phase": "initial",
+                "priority": 20
+              },
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 1,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 3
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.Lj3AQ9oPOBc6CptK.jFqdpOyNb00ISRCq"
+        },
+        {
+          "_id": "JZvnbK8fFjF6uIiv",
+          "name": "Level 4",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "type": "add",
+                "value": "General Feats",
+                "phase": "initial",
+                "priority": 20
+              },
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 1,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 4
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.Lj3AQ9oPOBc6CptK.JZvnbK8fFjF6uIiv"
+        },
+        {
+          "_id": "962ikr6c9YGjs32b",
+          "name": "Level 5",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "type": "add",
+                "value": "Soldier Talent Trees",
+                "phase": "initial",
+                "priority": 20
+              },
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 1,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 5
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.Lj3AQ9oPOBc6CptK.962ikr6c9YGjs32b"
+        },
+        {
+          "_id": "eLdnqjTmpNFcrm5H",
+          "name": "Level 6",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "type": "add",
+                "value": "General Feats",
+                "phase": "initial",
+                "priority": 20
+              },
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 1,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 6
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.Lj3AQ9oPOBc6CptK.eLdnqjTmpNFcrm5H"
+        },
+        {
+          "_id": "YILX15FhQGVYsJCR",
+          "name": "Level 7",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "type": "add",
+                "value": "Soldier Talent Trees",
+                "phase": "initial",
+                "priority": 20
+              },
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 1,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 7
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.Lj3AQ9oPOBc6CptK.YILX15FhQGVYsJCR"
+        },
+        {
+          "_id": "CGAYpFLxOrmO0zvb",
+          "name": "Level 8",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "type": "add",
+                "value": "General Feats",
+                "phase": "initial",
+                "priority": 20
+              },
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 1,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 8
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.Lj3AQ9oPOBc6CptK.CGAYpFLxOrmO0zvb"
+        },
+        {
+          "_id": "mz06OXJPhMr9ff53",
+          "name": "Level 9",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "type": "add",
+                "value": "Soldier Talent Trees",
+                "phase": "initial",
+                "priority": 20
+              },
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 1,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 9
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.Lj3AQ9oPOBc6CptK.mz06OXJPhMr9ff53"
+        },
+        {
+          "_id": "D5H6ybsA8sQRCzaD",
+          "name": "Level 10",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "type": "add",
+                "value": "General Feats",
+                "phase": "initial",
+                "priority": 20
+              },
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 1,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 10
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.Lj3AQ9oPOBc6CptK.D5H6ybsA8sQRCzaD"
+        },
+        {
+          "_id": "B3Nqrv98WBIJHhNS",
+          "name": "Level 11",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "type": "add",
+                "value": "Soldier Talent Trees",
+                "phase": "initial",
+                "priority": 20
+              },
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 1,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 11
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.Lj3AQ9oPOBc6CptK.B3Nqrv98WBIJHhNS"
+        },
+        {
+          "_id": "QgAJtHW0oSH7O1MC",
+          "name": "Level 12",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "type": "add",
+                "value": "General Feats",
+                "phase": "initial",
+                "priority": 20
+              },
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 1,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 12
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.Lj3AQ9oPOBc6CptK.QgAJtHW0oSH7O1MC"
+        },
+        {
+          "_id": "qYBlO5G1W8r2yqIs",
+          "name": "Level 13",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "type": "add",
+                "value": "Soldier Talent Trees",
+                "phase": "initial",
+                "priority": 20
+              },
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 1,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 13
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.Lj3AQ9oPOBc6CptK.qYBlO5G1W8r2yqIs"
+        },
+        {
+          "_id": "wRYTKSZDH3091Aha",
+          "name": "Level 14",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "type": "add",
+                "value": "General Feats",
+                "phase": "initial",
+                "priority": 20
+              },
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 1,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 14
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.Lj3AQ9oPOBc6CptK.wRYTKSZDH3091Aha"
+        },
+        {
+          "_id": "XSrMFp4ApsXwnxMj",
+          "name": "Level 15",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "type": "add",
+                "value": "Soldier Talent Trees",
+                "phase": "initial",
+                "priority": 20
+              },
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 1,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 15
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.Lj3AQ9oPOBc6CptK.XSrMFp4ApsXwnxMj"
+        },
+        {
+          "_id": "Sq0UiLQSVzNswxL6",
+          "name": "Level 16",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "type": "add",
+                "value": "General Feats",
+                "phase": "initial",
+                "priority": 20
+              },
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 1,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 16
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.Lj3AQ9oPOBc6CptK.Sq0UiLQSVzNswxL6"
+        },
+        {
+          "_id": "RlXeyGZGdfL7YjFc",
+          "name": "Level 17",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "type": "add",
+                "value": "Soldier Talent Trees",
+                "phase": "initial",
+                "priority": 20
+              },
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 1,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 17
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.Lj3AQ9oPOBc6CptK.RlXeyGZGdfL7YjFc"
+        },
+        {
+          "_id": "gBzXLQo6zsotlBQ8",
+          "name": "Level 18",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "type": "add",
+                "value": "General Feats",
+                "phase": "initial",
+                "priority": 20
+              },
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 1,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 18
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.Lj3AQ9oPOBc6CptK.gBzXLQo6zsotlBQ8"
+        },
+        {
+          "_id": "9FpclWxXy3Nxa8q8",
+          "name": "Level 19",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "type": "add",
+                "value": "Soldier Talent Trees",
+                "phase": "initial",
+                "priority": 20
+              },
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 1,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 19
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.Lj3AQ9oPOBc6CptK.9FpclWxXy3Nxa8q8"
+        },
+        {
+          "_id": "l4DkVSwnNf64yYuF",
+          "name": "Level 20",
+          "img": "icons/svg/aura.svg",
+          "type": "base",
+          "system": {
+            "changes": [
+              {
+                "key": "provides",
+                "type": "add",
+                "value": "General Feats",
+                "phase": "initial",
+                "priority": 20
+              },
+              {
+                "key": "baseAttackBonus",
+                "type": "add",
+                "value": 1,
+                "phase": "initial",
+                "priority": 20
+              }
+            ]
+          },
+          "disabled": true,
+          "start": null,
+          "duration": {
+            "value": 0,
+            "units": "seconds",
+            "expiry": null,
+            "expired": false
+          },
+          "description": "",
+          "origin": null,
+          "tint": "#ffffff",
+          "transfer": false,
+          "statuses": [],
+          "showIcon": 1,
+          "folder": null,
+          "sort": 0,
+          "flags": {
+            "swse": {
+              "isLevel": true,
+              "level": 20
+            }
+          },
+          "_stats": {
+            "coreVersion": "14.365",
+            "systemId": "swse",
+            "systemVersion": "1.5.1",
+            "createdTime": 1787699038154,
+            "modifiedTime": 1787699038154,
+            "lastModifiedBy": "7VleqHaHleb9nZ9P",
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!xlZHF5MvwLdxSNxh.Lj3AQ9oPOBc6CptK.l4DkVSwnNf64yYuF"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3,
+        "7VleqHaHleb9nZ9P": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "1.5.1",
+        "createdTime": 1787699038154,
+        "modifiedTime": 1787699038154,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!xlZHF5MvwLdxSNxh.Lj3AQ9oPOBc6CptK"
+    },
+    {
+      "_id": "Io7tg2nbpch0SHRT",
+      "name": "Armor Proficiency",
+      "type": "feat",
+      "img": "systems/swse/icon/feat/Armor Proficiency (Light).png",
+      "system": {
+        "finalName": "",
+        "description": "<p><i>Reference Book: Star Wars Saga Edition Core Rulebook</i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You are proficient with <a href=\"https://swse.fandom.com/wiki/Light_Armor\" title=\"Light Armor\">Light Armor</a>, and can wear it without impediment.</p><p><b>Effect:</b> When you wear <a href=\"https://swse.fandom.com/wiki/Light_Armor\" title=\"Light Armor\">Light Armor</a>, you take no <a href=\"https://swse.fandom.com/wiki/Armor_Check_Penalty\" class=\"mw-redirect\" title=\"Armor Check Penalty\">Armor Check Penalty</a> on attack rolls or <a href=\"https://swse.fandom.com/wiki/Skill_Checks\" title=\"Skill Checks\">Skill Checks</a>. Additionally, you benefit from all of the armor's special <a href=\"https://swse.fandom.com/wiki/Equipment\" title=\"Equipment\">Equipment</a> bonuses (if any).</p><p><b>Normal:</b> A character who wears <a href=\"https://swse.fandom.com/wiki/Light_Armor\" title=\"Light Armor\">Light Armor</a> with which they are not proficient takes a -2 <a href=\"https://swse.fandom.com/wiki/Armor_Check_Penalty\" class=\"mw-redirect\" title=\"Armor Check Penalty\">Armor Check Penalty</a> on attack rolls as well as <a href=\"https://swse.fandom.com/wiki/Skill_Checks\" title=\"Skill Checks\">Skill Checks</a> made using the following <a href=\"https://swse.fandom.com/wiki/Skills\" title=\"Skills\">Skills</a>: <a href=\"https://swse.fandom.com/wiki/Acrobatics\" title=\"Acrobatics\">Acrobatics</a>, <a href=\"https://swse.fandom.com/wiki/Climb\" title=\"Climb\">Climb</a>, <a href=\"https://swse.fandom.com/wiki/Endurance\" title=\"Endurance\">Endurance</a>, <a href=\"https://swse.fandom.com/wiki/Initiative\" title=\"Initiative\">Initiative</a>, <a href=\"https://swse.fandom.com/wiki/Jump\" title=\"Jump\">Jump</a>, <a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a>, and <a href=\"https://swse.fandom.com/wiki/Swim\" title=\"Swim\">Swim</a>. Additionally, the character gains none of the armor's special <a href=\"https://swse.fandom.com/wiki/Equipment\" title=\"Equipment\">Equipment</a> bonuses.</p>",
+        "textDescription": "",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": "armor",
+            "key": "armorProficiency"
+          }
+        ],
+        "choices": [],
+        "modes": {},
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "prerequisite": null,
+        "categories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Core Rulebook"
+          },
+          {
+            "value": "Feats"
+          },
+          {
+            "value": "Scout Bonus Feats"
+          },
+          {
+            "value": "Noble Bonus Feats"
+          }
+        ],
+        "supplier": {},
+        "possibleProviders": [
+          "Soldier Bonus Feats",
+          "General Feats",
+          "Scout Bonus Feats",
+          "Noble Bonus Feats",
+          "Armor Proficiency Feat",
+          "Smuggler Bonus Feats"
+        ],
+        "isSupplied": false,
+        "uses": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "QbSDmWtCxkDQdQLb": 3,
+        "7VleqHaHleb9nZ9P": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "1.5.1",
+        "createdTime": 1787699038154,
+        "modifiedTime": 1787699038154,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!xlZHF5MvwLdxSNxh.Io7tg2nbpch0SHRT"
+    },
+    {
+      "_id": "BMJTr76ItQ2Cby2Z",
+      "name": "Crush",
+      "type": "feat",
+      "img": "systems/swse/icon/feat/Crush.png",
+      "system": {
+        "finalName": "",
+        "description": "<p><i>Reference Book: Star Wars Saga Edition Core Rulebook</i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a>, <a href=\"https://swse.fandom.com/wiki/Grappling_101\" title=\"Grappling 101\">Grappling 101</a></i></p><p>You can deal damage to a target that you've <a href=\"https://swse.fandom.com/wiki/Grappled\" class=\"mw-redirect\" title=\"Grappled\">Grappled</a>.</p><p><b>Prerequisites:</b> <a href=\"https://swse.fandom.com/wiki/Pin\" title=\"Pin\">Pin</a>, <a href=\"https://swse.fandom.com/wiki/Base_Attack_Bonus\" class=\"mw-redirect\" title=\"Base Attack Bonus\">Base Attack Bonus</a> +1</p><p><b>Effect:</b> If you successfully <a href=\"https://swse.fandom.com/wiki/Pin\" title=\"Pin\">Pin</a> an opponent with a <a href=\"https://swse.fandom.com/wiki/Grapple\" title=\"Grapple\">Grapple</a> attack (see <a href=\"https://swse.fandom.com/wiki/Pin\" title=\"Pin\">Pin</a> Feat for more details), you can immediately deal bludgeoning damage to it equal to your <a href=\"https://swse.fandom.com/wiki/Unarmed\" class=\"mw-redirect\" title=\"Unarmed\">Unarmed</a> damage or claw damage, whichever is greater.</p>",
+        "textDescription": "",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [],
+        "choices": [],
+        "modes": {},
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "prerequisite": {
+          "children": [
+            {
+              "text": "Pin feat",
+              "requirement": "Pin",
+              "type": "FEAT"
+            },
+            {
+              "text": "Base Attack Bonus 1",
+              "requirement": "1",
+              "type": "BASE ATTACK BONUS"
+            }
+          ],
+          "text": "Pin feat, and Base Attack Bonus 1",
+          "type": "AND"
+        },
+        "categories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Grappling Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          },
+          {
+            "value": "Core Rulebook"
+          },
+          {
+            "value": "Feats"
+          }
+        ],
+        "supplier": {},
+        "possibleProviders": [
+          "Soldier Bonus Feats",
+          "Force Prodigy Bonus Feats",
+          "General Feats"
+        ],
+        "isSupplied": false,
+        "uses": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "QbSDmWtCxkDQdQLb": 3,
+        "7VleqHaHleb9nZ9P": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "1.5.1",
+        "createdTime": 1787699038154,
+        "modifiedTime": 1787699038154,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!xlZHF5MvwLdxSNxh.BMJTr76ItQ2Cby2Z"
+    },
+    {
+      "_id": "0EfhJKK1XOKsWxph",
+      "name": "Pin",
+      "type": "feat",
+      "img": "systems/swse/icon/feat/Pin.png",
+      "system": {
+        "finalName": "",
+        "description": "<p><i>Reference Book: Star Wars Saga Edition Core Rulebook</i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a>, <a href=\"https://swse.fandom.com/wiki/Grappling_101\" title=\"Grappling 101\">Grappling 101</a></i></p><p>You are skilled at immobilizing <a href=\"https://swse.fandom.com/wiki/Grappled\" class=\"mw-redirect\" title=\"Grappled\">Grappled</a> foes.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Base_Attack_Bonus\" class=\"mw-redirect\" title=\"Base Attack Bonus\">Base Attack Bonus</a> +1</p><p><b>Effect:</b> If you succeed on a <a href=\"https://swse.fandom.com/wiki/Grappling\" class=\"mw-redirect\" title=\"Grappling\">Grappling</a> attack and your opponent fails the opposed <a href=\"https://swse.fandom.com/wiki/Grapple\" title=\"Grapple\">Grapple</a> check, your opponent is automatically Pinned until the start of your next turn. A Pinned creature can't move or take any <a href=\"https://swse.fandom.com/wiki/Actions\" class=\"mw-redirect\" title=\"Actions\">Actions</a> while Pinned, and it loses its <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> bonus (if any) to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>.</p><p><b>Special:</b> You cannot use the Pin and <a href=\"https://swse.fandom.com/wiki/Trip\" title=\"Trip\">Trip</a> Feats during the same round. You can use the Pin and <a href=\"https://swse.fandom.com/wiki/Crush\" title=\"Crush\">Crush</a> Feats in the same round, however.</p>",
+        "textDescription": "",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [],
+        "choices": [],
+        "modes": {},
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "prerequisite": {
+          "text": "Base Attack Bonus 1",
+          "requirement": "1",
+          "type": "BASE ATTACK BONUS"
+        },
+        "categories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Grappling Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          },
+          {
+            "value": "Core Rulebook"
+          },
+          {
+            "value": "Feats"
+          }
+        ],
+        "supplier": {},
+        "possibleProviders": [
+          "Soldier Bonus Feats",
+          "Force Prodigy Bonus Feats",
+          "General Feats"
+        ],
+        "isSupplied": false,
+        "uses": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "QbSDmWtCxkDQdQLb": 3,
+        "7VleqHaHleb9nZ9P": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "1.5.1",
+        "createdTime": 1787699038154,
+        "modifiedTime": 1787699038154,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!xlZHF5MvwLdxSNxh.0EfhJKK1XOKsWxph"
+    },
+    {
+      "_id": "HZ1rQYjAcnGgPowU",
+      "name": "Powerful Charge",
+      "type": "feat",
+      "img": "systems/swse/icon/feat/Powerful Charge.png",
+      "system": {
+        "finalName": "",
+        "description": "<p><i>Reference Book: Star Wars Saga Edition Core Rulebook</i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You can <a href=\"https://swse.fandom.com/wiki/Charge\" title=\"Charge\">Charge</a> with extra force.</p><p><b>Prerequisites:</b> Medium or larger size, <a href=\"https://swse.fandom.com/wiki/Base_Attack_Bonus\" class=\"mw-redirect\" title=\"Base Attack Bonus\">Base Attack Bonus</a> +1</p><p><b>Effect:</b> When you <a href=\"https://swse.fandom.com/wiki/Charge\" title=\"Charge\">Charge</a>, you gain an additional +2 bonus on your melee attack roll. If your melee attack hits, you deal additional damage equal to one-half your level.</p>",
+        "textDescription": "",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [],
+        "choices": [],
+        "modes": {},
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "prerequisite": {
+          "children": [
+            {
+              "children": [
+                {
+                  "text": "Medium or larger size",
+                  "requirement": "Medium",
+                  "type": "TRAIT"
+                },
+                {
+                  "text": "Medium or larger size",
+                  "requirement": "Large",
+                  "type": "TRAIT"
+                },
+                {
+                  "text": "Medium or larger size",
+                  "requirement": "Huge",
+                  "type": "TRAIT"
+                },
+                {
+                  "text": "Medium or larger size",
+                  "requirement": "Gargantuan",
+                  "type": "TRAIT"
+                },
+                {
+                  "text": "Medium or larger size",
+                  "requirement": "Colossal",
+                  "type": "TRAIT"
+                },
+                {
+                  "text": "Medium or larger size",
+                  "requirement": "Colossal (Frigate)",
+                  "type": "TRAIT"
+                },
+                {
+                  "text": "Medium or larger size",
+                  "requirement": "Colossal (Cruiser)",
+                  "type": "TRAIT"
+                },
+                {
+                  "text": "Medium or larger size",
+                  "requirement": "Colossal (Station)",
+                  "type": "TRAIT"
+                }
+              ],
+              "count": 1,
+              "text": "Medium or larger size",
+              "type": "OR"
+            },
+            {
+              "text": "Base Attack Bonus 1",
+              "requirement": "1",
+              "type": "BASE ATTACK BONUS"
+            }
+          ],
+          "text": "(Medium or larger size), and Base Attack Bonus 1",
+          "type": "AND"
+        },
+        "categories": [
+          {
+            "value": "Core Rulebook"
+          },
+          {
+            "value": "Feats"
+          },
+          {
+            "value": "Jedi Bonus Feats"
+          }
+        ],
+        "supplier": {},
+        "possibleProviders": [
+          "General Feats",
+          "Jedi Bonus Feats"
+        ],
+        "isSupplied": false,
+        "uses": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "QbSDmWtCxkDQdQLb": 3,
+        "7VleqHaHleb9nZ9P": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "1.5.1",
+        "createdTime": 1787699038154,
+        "modifiedTime": 1787699038154,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!xlZHF5MvwLdxSNxh.HZ1rQYjAcnGgPowU"
+    },
+    {
+      "_id": "rM9ogEw6TCesz60z",
+      "name": "Running Attack",
+      "type": "feat",
+      "img": "systems/swse/icon/feat/Running Attack.png",
+      "system": {
+        "finalName": "",
+        "description": "<p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You can move as you attack.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> 13</p><p><b>Effect:</b> When making an attack with a melee or ranged weapon, you can move both before and after the attack, provided that the total distance moved is not greater than your Speed.</p><h2><span class=\"mw-headline\" id=\"Additional_Running_Attack_Effects\">Additional Running Attack Effects</span></h2><p><i>Reference Book: <a href=\"https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Knights_of_the_Old_Republic_Campaign_Guide\" title=\"Star Wars Saga Edition Knights of the Old Republic Campaign Guide\">Star Wars Saga Edition Knights of the Old Republic Campaign Guide</a></i></p><p><a href=\"https://swse.fandom.com/wiki/Combined_Feat\" class=\"mw-redirect\" title=\"Combined Feat\"><b>Combined Feat</b></a><b> (<a href=\"https://swse.fandom.com/wiki/Dodge\" title=\"Dodge\">Dodge</a>):</b> You can add your dodge bonus to your&nbsp;<a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>&nbsp;against anyone who makes an&nbsp;<a href=\"https://swse.fandom.com/wiki/Attack_of_Opportunity\" class=\"mw-redirect\" title=\"Attack of Opportunity\">Attack of Opportunity</a>&nbsp;against you while using the&nbsp;Running Attack&nbsp;Feat.</p>",
+        "textDescription": "",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [],
+        "choices": [],
+        "modes": {},
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "prerequisite": {
+          "text": "Dexterity 13",
+          "requirement": "Dexterity 13",
+          "type": "ATTRIBUTE"
+        },
+        "categories": [
+          {
+            "value": "Soldier Bonus Feats"
+          },
+          {
+            "value": "Force Prodigy Bonus Feats"
+          },
+          {
+            "value": "Scoundrel Bonus Feats"
+          },
+          {
+            "value": "Feats"
+          },
+          {
+            "value": "Scout Bonus Feats"
+          },
+          {
+            "value": "Jedi Bonus Feats"
+          }
+        ],
+        "supplier": {},
+        "possibleProviders": [
+          "Soldier Bonus Feats",
+          "Force Prodigy Bonus Feats",
+          "Scoundrel Bonus Feats",
+          "General Feats",
+          "Scout Bonus Feats",
+          "Jedi Bonus Feats",
+          "Smuggler Bonus Feats"
+        ],
+        "isSupplied": false,
+        "uses": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "QbSDmWtCxkDQdQLb": 3,
+        "7VleqHaHleb9nZ9P": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "1.5.1",
+        "createdTime": 1787699038154,
+        "modifiedTime": 1787699038154,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!xlZHF5MvwLdxSNxh.rM9ogEw6TCesz60z"
+    },
+    {
+      "_id": "Po9q24DpLL0JJusb",
+      "name": "Melee Smash",
+      "type": "talent",
+      "img": "systems/swse/icon/talent/default.png",
+      "system": {
+        "finalName": "",
+        "description": "You deal +1 point of damage with melee attacks.",
+        "textDescription": "",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [],
+        "choices": [],
+        "modes": {},
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "prerequisite": null,
+        "categories": [
+          {
+            "value": "Talent Trees"
+          },
+          {
+            "value": "Soldier Talent Trees"
+          },
+          {
+            "value": "Core Rulebook"
+          },
+          {
+            "value": "Melee Duelist Talent Trees"
+          }
+        ],
+        "supplier": {},
+        "possibleProviders": [
+          "Soldier Talent Trees",
+          "Core Rulebook",
+          "Melee Duelist Talent Trees",
+          "Martial Arts Master Talent Trees"
+        ],
+        "isSupplied": false,
+        "talentTree": "Brawler Talent Tree",
+        "talentTreeSource": "",
+        "talentTreeUrl": "https://swse.fandom.com/wiki/Brawler_Talent_Tree",
+        "bonusTalentTree": "",
+        "uses": {}
+      },
+      "effects": [],
+      "folder": "mCMlDDiK1hy9rCjG",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3,
+        "7VleqHaHleb9nZ9P": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "1.5.1",
+        "createdTime": 1787699038154,
+        "modifiedTime": 1787699038154,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!xlZHF5MvwLdxSNxh.Po9q24DpLL0JJusb"
+    },
+    {
+      "_id": "eUU6DgzENKKlxT8r",
+      "name": "Stunning Strike",
+      "type": "talent",
+      "img": "systems/swse/icon/talent/default.png",
+      "system": {
+        "finalName": "",
+        "description": "When you damage an opponent with a melee attack, your opponents move an additional -1 step along the <a href=\"https://swse.fandom.com/wiki/Condition_Track\" class=\"mw-redirect\" title=\"Condition Track\">Condition Track</a> if your damage roll result equals or exceeds the target's <a href=\"https://swse.fandom.com/wiki/Damage_Threshold\" class=\"mw-redirect\" title=\"Damage Threshold\">Damage Threshold</a>.",
+        "textDescription": "",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [],
+        "choices": [],
+        "modes": {},
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "prerequisite": {
+          "text": "Melee Smash talent",
+          "requirement": "Melee Smash",
+          "type": "TALENT"
+        },
+        "categories": [
+          {
+            "value": "Talent Trees"
+          },
+          {
+            "value": "Soldier Talent Trees"
+          },
+          {
+            "value": "Core Rulebook"
+          },
+          {
+            "value": "Melee Duelist Talent Trees"
+          }
+        ],
+        "supplier": {},
+        "possibleProviders": [
+          "Soldier Talent Trees",
+          "Core Rulebook",
+          "Melee Duelist Talent Trees",
+          "Martial Arts Master Talent Trees"
+        ],
+        "isSupplied": false,
+        "talentTree": "Brawler Talent Tree",
+        "talentTreeSource": "",
+        "talentTreeUrl": "https://swse.fandom.com/wiki/Brawler_Talent_Tree",
+        "bonusTalentTree": "",
+        "uses": {}
+      },
+      "effects": [],
+      "folder": "mCMlDDiK1hy9rCjG",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "tih8Q1fJUuDFWVCX": 3,
+        "7VleqHaHleb9nZ9P": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "1.5.1",
+        "createdTime": 1787699038154,
+        "modifiedTime": 1787699038154,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!xlZHF5MvwLdxSNxh.eUU6DgzENKKlxT8r"
+    },
+    {
+      "_id": "QYxheHQZYRXzquzC",
+      "name": "Devour",
+      "type": "beastQuality",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "If the Beast hits with its Bite attack against a target two size categories or more smaller than itself, it can automatically make a Grapple check with its Bite attack at its full bonus (even if it has already taken a Full-Round Action).\nIf the Grapple check is successful, the Beast can begin devouring its target, and each round the target is in the Beast's mouth, the Beast deals damage equal to 1d8 + its Strength modifier + half its Beast Level rounded down.\n\nIf the target reaches 0 Hit Points, it is swallowed by the Beast and continues to take 1d6 points of Acid damage each round.",
+        "textDescription": "",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": "If the Beast hits with its Bite attack against a target two size categories or more smaller than itself, it can automatically make a Grapple check with its Bite attack at its full bonus (even if it has already taken a Full-Round Action).\nIf the Grapple check is successful, the Beast can begin devouring its target, and each round the target is in the Beast's mouth, the Beast deals damage equal to 1d8 + its Strength modifier + half its Beast Level rounded down.\n\nIf the target reaches 0 Hit Points, it is swallowed by the Beast and continues to take 1d6 points of Acid damage each round.",
+            "key": "special"
+          }
+        ],
+        "choices": [],
+        "modes": {},
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "categories": [],
+        "supplier": {},
+        "possibleProviders": [],
+        "isSupplied": false,
+        "prerequisite": {
+          "text": "Bite Attack",
+          "requirement": "Bite",
+          "type": "BEAST_ATTACK"
+        },
+        "uses": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "QbSDmWtCxkDQdQLb": 3,
+        "7VleqHaHleb9nZ9P": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "1.5.1",
+        "createdTime": 1787699038154,
+        "modifiedTime": 1787699038154,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!xlZHF5MvwLdxSNxh.QYxheHQZYRXzquzC"
+    },
+    {
+      "_id": "XijPOD1qrXZdWRxc",
+      "name": "Bite",
+      "type": "beastAttack",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "finalName": "",
+        "description": "",
+        "textDescription": "",
+        "sourceString": "",
+        "attributes": {},
+        "changes": [
+          {
+            "mode": 2,
+            "value": "Piercing",
+            "key": "damageType"
+          },
+          {
+            "mode": 2,
+            "value": "Poison",
+            "key": "damageType"
+          },
+          {
+            "mode": 2,
+            "value": "1d6",
+            "key": "damageScalable"
+          }
+        ],
+        "choices": [],
+        "modes": {},
+        "providedItems": [],
+        "payload": "",
+        "buildInstructions": [],
+        "cost": "0",
+        "weight": "",
+        "availability": "",
+        "size": "",
+        "type": "",
+        "subtype": "Melee Natural Weapons",
+        "quantity": 1,
+        "categories": [],
+        "items": [],
+        "supplier": {},
+        "possibleProviders": [],
+        "isSupplied": false,
+        "activeModes": [],
+        "uses": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "QbSDmWtCxkDQdQLb": 3,
+        "7VleqHaHleb9nZ9P": 3
+      },
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.365",
+        "systemId": "swse",
+        "systemVersion": "1.5.1",
+        "createdTime": 1787699038154,
+        "modifiedTime": 1787699038154,
+        "lastModifiedBy": "7VleqHaHleb9nZ9P",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!xlZHF5MvwLdxSNxh.XijPOD1qrXZdWRxc"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "7VleqHaHleb9nZ9P": 3
+  },
+  "flags": {
+    "swse": {
+      "statblockImport": {
+        "page": "Whuffa Worm Temple Guardian",
+        "source": "https://swse.fandom.com/wiki/Whuffa_Worm_Temple_Guardian"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "1.5.1",
+    "createdTime": 1787699038154,
+    "modifiedTime": 1787699038160,
+    "lastModifiedBy": "7VleqHaHleb9nZ9P",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "sort": 0,
+  "_key": "!actors!xlZHF5MvwLdxSNxh"
+}
