@@ -419,6 +419,49 @@ rather than listing every piece of gear flat: 48 optgroups (`weapon - Pistols` 4
 this fork at all, the GM is choosing a replacement by category, and a flat list of several hundred
 names is the wrong shape for that decision.
 
+### Final testing against 364 unseen pages
+
+The four fixtures the parser was built against are not evidence, so two disjoint samples were pulled
+fresh from the wiki's own category listings (Heroic Units, Nonheroic Units, Beasts, Droids,
+Vehicles) and run end to end: 154 pages, then a second 207 new pages. Both now report zero parse
+exceptions, zero map exceptions, zero pages where a statblock could not be found, zero unparsed
+lines, and zero pages missing ability scores or class levels.
+
+Getting there fixed a lot that the original four never exercised:
+
+| Found on | Fix |
+|---|---|
+| 86 of 152 pages | `Species Traits (Togruta):` carries the species in the label, so it never matched the fixed string |
+| droid pages | `Constitution: -` is an absent score, and `Strength: 6` with colons was being shredded by the label splitter |
+| Gunn Yage | `[[Destiny Points\|'''Destiny Points''']]''':'''` leaves a six-quote run, and the strip only handled five |
+| Dob and Del Moomo | `(CL 10 Each)` did not match the strict CL pattern, so the whole statblock was invisible |
+| Scutiger-100 | heads its block `Name (CL 4)` with no "Statistics" at all |
+| many | `Skill Training (Knowledge (Galactic Lore))` nests parentheses, which the single-level strip could not handle |
+| droid pages | droid systems are catalogued under the bare noun (`Walking`, `Hand`, `Claw`), while statblocks write `Walking Locomotion`, `2 Hand Appendages` |
+| many | `Damage Reduction` and `Shield Rating` are printed values that DO transfer, because this fork stores both as overrides rather than deriving them |
+| several | `3 Unassigned` is a count of blank language slots, not a language |
+| 40 pages | vehicle statblocks have no ability scores and carry crew/cargo/consumables instead |
+
+**Vehicles are now refused outright.** A vehicle imported as a character is exactly the unusable
+sheet this tool exists to prevent, so `parseStatblock` flags them and the dialog explains why rather
+than building one.
+
+Two mistakes of mine during that work, both the same root cause: Python replacement strings written
+without `r''` prefixes, so `` became a literal backspace byte inside a regex in the shipped file
+(silently making it never match) and `
+` became a real newline. A control-character audit now runs
+over all 238 source files and is clean.
+
+Where the corpus still reports unresolved entries, it is gear this fork genuinely does not have -
+`Stun Grenade`, `Knife` and `Heavy Blaster Pistol` exist only in `swse.legacy-weapons`, which
+`getCompendium("weapon")` does not search. Those are honest misses that the review dialog exists to
+handle, and once substituted they are remembered.
+
+Verified live afterwards: a BX-Series Droid Commando imports 56 items with 0 unresolved, and a
+Foray-Class Blockade Runner is refused with an explanation. A droid built BY HAND, with no importer
+involved, produces the same 33 species traits and the same `Unarmed Attack: 0` as an imported one,
+so neither is a regression - the importer reproduces manual construction exactly.
+
 ### A fifth defect, this one mine
 
 The first version of the resolver searched every Item pack. That made the review screen lie:

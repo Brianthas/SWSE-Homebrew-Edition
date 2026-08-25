@@ -77,6 +77,17 @@
       "reason": "HOUSERULES.md Skills - Knowledge (Sciences) encompasses the other science Knowledges"},
 
     {"from": {"type": "skill", "name": "Ride"}, "to": {"type": "skill", "name": "Pilot"}, "collapse": true,
-      "reason": "HOUSERULES.md Skills - Ride was merged into Pilot"}
+      "reason": "HOUSERULES.md Skills - Ride was merged into Pilot"},
+
+    {"from": {"type": "species", "name": "1st-Degree Droid"}, "to": {"type": "species", "name": "1st-Degree Droid Model"},
+      "reason": "pack names the droid degrees '... Droid Model'; the wiki drops the Model"},
+    {"from": {"type": "species", "name": "2nd-Degree Droid"}, "to": {"type": "species", "name": "2nd-Degree Droid Model"},
+      "reason": "pack names the droid degrees '... Droid Model'; the wiki drops the Model"},
+    {"from": {"type": "species", "name": "3rd-Degree Droid"}, "to": {"type": "species", "name": "3rd-Degree Droid Model"},
+      "reason": "pack names the droid degrees '... Droid Model'; the wiki drops the Model"},
+    {"from": {"type": "species", "name": "4th-Degree Droid"}, "to": {"type": "species", "name": "4th-Degree Droid Model"},
+      "reason": "pack names the droid degrees '... Droid Model'; the wiki drops the Model"},
+    {"from": {"type": "species", "name": "5th-Degree Droid"}, "to": {"type": "species", "name": "5th-Degree Droid Model"},
+      "reason": "pack names the droid degrees '... Droid Model'; the wiki drops the Model"}
   ]
 }

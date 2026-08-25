@@ -122,6 +122,13 @@ export class StatblockImportApp extends HandlebarsApplicationMixin(ApplicationV2
 
             const block = parseStatblock(wikitext);
             if (!block) throw new Error('No "... Statistics" section found on that page.');
+            if (block.isVehicle) {
+                throw new Error(`"${block.name}" is a vehicle statblock. This importer builds `
+                    + `characters and beasts; vehicles use a different sheet and a different set of `
+                    + `fields (crew, cargo, consumables, no ability scores), so importing one here `
+                    + `would produce a broken character. Build it from the Vehicle Base Types `
+                    + `compendium instead.`);
+            }
 
             // Shipped house rules plus whatever this world has learned from earlier imports.
             const aliases = await loadAliases();

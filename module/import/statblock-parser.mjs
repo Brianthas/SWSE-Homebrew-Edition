@@ -38,7 +38,7 @@ export function stripMarkup(text) {
         .replace(/\[\[([^\]]*)\]\]/g, "$1")
         .replace(/<ref[^>]*>.*?<\/ref>/gi, "")
         .replace(/<[^>]+>/g, "")
-        .replace(/'{2,5}/g, "")
+        .replace(/'{2,}/g, "")
         // The wiki contains both the &nbsp; entity and literal U+00A0 characters, and the raw
         // character is the dangerous one: it looks identical to a space, so a name carrying one
         // never matches its compendium entry and the failure is invisible on screen. Normalise
@@ -118,6 +118,13 @@ function parseModifier(text) {
     return match ? Number(match[1]) : null;
 }
 
+/** Pulls the challenge level out of a heading's parenthetical, which may carry extra words
+ *  ("CL 10 Each"). Returns null when there is no CL at all. */
+function readChallengeLevel(text) {
+    const match = /CL\s*([\d/+-]+)/i.exec(String(text ?? ""));
+    return match ? match[1].trim() : null;
+}
+
 /** Splits a wikitext body into its "== X Statistics (CL n) ==" block and that block's subsections. */
 function findStatisticsBlock(wikitext) {
     const lines = String(wikitext ?? "").split(/\r?\n/);
@@ -131,11 +138,19 @@ function findStatisticsBlock(wikitext) {
         const match = heading.exec(lines[i]);
         if (!match || match[1].length !== 2) continue;
         const text = stripMarkup(match[2]);
-        const stats = /^(.*?)\s*Statistics\s*(?:\(\s*CL\s*([\d/+-]+)\s*\))?\s*$/i.exec(text);
+        const stats = /^(.*?)\s*Statistics\s*(?:\((.*)\))?\s*$/i.exec(text);
         if (stats) {
             start = i + 1;
             title = stats[1].trim();
-            cl = stats[2] ? stats[2].trim() : null;
+            cl = readChallengeLevel(stats[2]);
+            break;
+        }
+        // Some pages drop the word "Statistics" and head the block "Name (CL 4)" instead.
+        const bare = /^(.*?)\s*\(\s*CL\s+([\d/+-]+)[^)]*\)\s*$/i.exec(text);
+        if (bare) {
+            start = i + 1;
+            title = bare[1].trim();
+            cl = bare[2].trim();
             break;
         }
     }
@@ -171,6 +186,9 @@ function findStatisticsBlock(wikitext) {
 // Digits are allowed inside a label because "Force Power Suite (Use the Force +17):" carries the
 // suite's governing skill and its modifier in the label itself.
 const LABEL_PATTERN = /^([A-Za-z][A-Za-z\d\s()'+-]*?):\s*(.*)$/;
+
+/** Labels that carry catalogue information rather than character data. Kept as notes. */
+const COSMETIC_LABELS = new Set(["availability", "cost", "reference book", "affiliations", "source"]);
 
 /** Sections whose lines are read as statblock fields. Anything else is prose, kept as notes. */
 const PARSED_SECTIONS = new Set(["", "defenses", "offense", "base stats"]);
@@ -370,6 +388,10 @@ export function parseStatblock(wikitext) {
         speciesTraits: [],
         immunities: [],
         weaknesses: [],
+        damageReduction: null,
+        droidSystems: [],
+        shieldRating: null,
+        isVehicle: false,
         specialQualities: [],
         attackOptions: [],
         specialActions: [],
@@ -401,6 +423,27 @@ export function parseStatblock(wikitext) {
                 data.species = parsed.species;
                 data.classes = parsed.classes;
                 data.unparsed.push(...parsed.unparsed);
+                continue;
+            }
+
+            // The Abilities line is handled whole, before the label splitter touches it. Some
+            // pages write "Strength: 6, Dexterity: 15" with colons, and readLabels would treat
+            // every ability after the first as its own label and lose them. Droids also print
+            // "Constitution: -", which is an absent score rather than a number.
+            // Checked BEFORE the section gate: a "=== Abilities ===" heading holds free prose
+            // on a beast page but the actual scores on some droid pages, so the line has to be
+            // recognised wherever it appears. Guarded so prose cannot overwrite real scores.
+            const abilityLine = /^abilities\s*:\s*(.+)$/i.exec(plain);
+            if (abilityLine && Object.keys(data.abilities).length === 0) {
+                for (const part of splitTop(abilityLine[1], ",")) {
+                    const match = /^([A-Za-z]+)\s*:?\s*(-|—|\d+)$/.exec(part.trim());
+                    if (!match) { data.unparsed.push(part.trim()); continue; }
+                    const key = ABILITY_KEYS[match[1].toLowerCase()];
+                    if (!key) { data.unparsed.push(part.trim()); continue; }
+                    // A dash means the creature has no such score at all - a droid's Constitution.
+                    if (match[2] === "-" || match[2] === "—") continue;
+                    data.abilities[key] = Number(match[2]);
+                }
                 continue;
             }
 
@@ -443,7 +486,25 @@ export function parseStatblock(wikitext) {
                     case "hit points": data.printed.hitPoints = parseModifier(value); break;
                     case "damage threshold": data.printed.damageThreshold = parseModifier(value); break;
                     case "immune": data.immunities = splitTop(value, ",").map(stripMarkup); break;
+                    case "damage reduction": data.damageReduction = stripMarkup(value); break;
+                    case "weakness":
                     case "weaknesses": data.weaknesses = splitTop(value, ",").map(stripMarkup); break;
+                    // Droid shields. Unlike the other printed defences this one transfers, because
+                    // this fork derives shields from an override alone rather than from a rule.
+                    case "shield rating": data.shieldRating = parseModifier(value); break;
+
+                    // Vehicle-only fields. A vehicle statblock has a different shape entirely -
+                    // no ability scores, crew and cargo instead - and this importer builds
+                    // characters and beasts. Recording them is how the importer can say so
+                    // plainly instead of producing a broken character.
+                    case "crew": case "passengers": case "cargo": case "consumables":
+                    case "carried craft": case "hyperdrive": case "availability (vehicle)":
+                        data.isVehicle = true;
+                        data.notes.push(`${label}: ${stripMarkup(value)}`);
+                        break;
+                    // "Special: Self-Destruct System +5 (4d6, 2-Square Burst)" - a one-off attack
+                    // with no item behind it. Kept as prose so the GM can add it by hand.
+                    case "special": data.notes.push(`Special: ${stripMarkup(value)}`); break;
 
                     case "speed": data.printed.speed = stripMarkup(value); break;
                     case "fighting space": data.printed.fightingSpace = stripMarkup(value); break;
@@ -471,7 +532,10 @@ export function parseStatblock(wikitext) {
                     case "force secrets": data.forceSecrets = entries(value); break;
                     case "force techniques": data.forceTechniques = entries(value); break;
                     case "force regimens": data.forceRegimens = entries(value); break;
+                    case "skill":
                     case "skills": data.skills = splitTop(value, ",").map(parseSkillEntry); break;
+                    case "droid systems": data.droidSystems = entries(value); break;
+                    case "logic upgrade": data.droidSystems = [...(data.droidSystems ?? []), ...entries(value)]; break;
                     case "possessions": data.possessions = entries(value); break;
 
                     default: {
@@ -483,12 +547,42 @@ export function parseStatblock(wikitext) {
                             data.forcePowers = entries(value);
                             break;
                         }
+                        // "Species Traits (Togruta):" - the species name rides in the label.
+                        if (/^species traits/.test(label)) {
+                            data.speciesTraits = entries(value);
+                            break;
+                        }
+                        if (/^starship maneuver suite/.test(label)) {
+                            data.notes.push(`${label}: ${value}`);
+                            break;
+                        }
+                        // "Initiative (Use the Force): +20" - a conditional variant of a stat we
+                        // already read; keep the base one rather than reporting it as unknown.
+                        if (["perception", "initiative"].includes(label)) {
+                            data.notes.push(`${label}: ${value}`);
+                            break;
+                        }
+                        const qualified = /^([a-z ]+?)\s*\([^)]*\)$/.exec(label);
+                        if (qualified && ["initiative", "perception"].includes(qualified[1].trim())) {
+                            data.notes.push(`${label}: ${value}`);
+                            break;
+                        }
+                        // Catalogue metadata, not character data.
+                        if (COSMETIC_LABELS.has(label)) {
+                            data.notes.push(`${label}: ${value}`);
+                            break;
+                        }
                         data.unparsed.push(`${label}: ${value}`);
                     }
                 }
             }
         }
     }
+
+    // A statblock with no ability scores is not a character or a beast. Vehicles are the whole of
+    // this case in the sampled corpus, and importing one as a character produces exactly the
+    // unusable sheet this tool exists to avoid.
+    if (Object.keys(data.abilities).length === 0) data.isVehicle = true;
 
     return data;
 }

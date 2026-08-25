@@ -31,6 +31,7 @@ export const TYPE_CANDIDATES = {
     forceRegimen: ["forceRegimen"],
     speciesTrait: ["trait", "beastQuality", "beastSense", "beastType"],
     naturalWeapon: ["beastAttack", "beastQuality"],
+    droidSystem: ["droid system", "equipment", "implant"],
     possession: ["weapon", "armor", "equipment", "upgrade", "hazard", "implant", "droid system"]
 };
 
@@ -70,10 +71,47 @@ function nameVariants(name) {
     if (trailingNumber) variants.push(trailingNumber[1]);
 
     // "Weapon Focus (Rifles)" -> "Weapon Focus", for packs that store the payload separately.
-    const parenthetical = /^(.*?)\s*\([^()]*\)$/.exec(name);
-    if (parenthetical) variants.push(parenthetical[1].trim());
+    // Scanned rather than matched with a regex because the parenthetical nests:
+    // "Skill Training (Knowledge (Galactic Lore))" is a common statblock entry.
+    const stripped = stripTrailingParenthetical(name);
+    if (stripped !== null) variants.push(stripped);
+
+    // Droid systems are catalogued under the bare noun - "Walking", "Hand", "Claw", "Tool" - while
+    // statblocks write them out as "Walking Locomotion", "2 Hand Appendages", "1 Tool Mount".
+    // A suffix rule rather than table entries, since it holds for the whole category.
+    for (const suffix of DROID_SYSTEM_SUFFIXES) {
+        if (name.toLowerCase().endsWith(suffix)) {
+            const head = name.slice(0, name.length - suffix.length).trim();
+            if (head) variants.push(head);
+        }
+    }
 
     return [...new Set(variants.filter(Boolean))];
+}
+
+/** Written on statblocks but not part of the catalogued droid system name. Longest first. */
+const DROID_SYSTEM_SUFFIXES = [" locomotion", " appendages", " appendage", " mounts", " mount"];
+
+/**
+ * Removes a trailing parenthetical, however deeply it nests, by scanning back from the closing
+ * bracket. Returns null when the string does not end in one.
+ * "Skill Training (Knowledge (Galactic Lore))" -> "Skill Training".
+ */
+export function stripTrailingParenthetical(name) {
+    const text = String(name ?? "").trim();
+    if (!text.endsWith(")")) return null;
+    let depth = 0;
+    for (let i = text.length - 1; i >= 0; i--) {
+        if (text[i] === ")") depth++;
+        else if (text[i] === "(") {
+            depth--;
+            if (depth === 0) {
+                const head = text.slice(0, i).trim();
+                return head || null;
+            }
+        }
+    }
+    return null;
 }
 
 /**
@@ -168,7 +206,10 @@ export function splitOutsideParens(text, separator) {
 /** When a variant matched, recovers the part of the original name that became a payload. */
 function derivePayload(original, matched) {
     if (!original.startsWith(matched)) return null;
-    const remainder = original.slice(matched.length).trim().replace(/^\(|\)$/g, "").trim();
+    let remainder = original.slice(matched.length).trim();
+    // Strip one balanced outer pair only. "(Knowledge (Galactic Lore))" must become
+    // "Knowledge (Galactic Lore)", not lose the inner brackets too.
+    if (remainder.startsWith("(") && remainder.endsWith(")")) remainder = remainder.slice(1, -1).trim();
     return remainder || null;
 }
 
@@ -306,7 +347,18 @@ export async function mapStatblock(block, {resolve, aliases}) {
     await mapList(block.forceTechniques, "forceTechnique");
     await mapList(block.forceRegimens, "forceRegimen");
     await mapList(block.speciesTraits, "speciesTrait");
-    await mapList((block.languages ?? []).map(name => ({name})), "language");
+    // "Languages: Basic, Bothese, 3 Unassigned" - the last is a count of blank slots the NPC was
+    // never given, not a language. Reported so the GM knows, rather than left hunting for an item.
+    for (const language of block.languages ?? []) {
+        if (/^\d*\s*unassigned$/i.test(String(language).trim())) {
+            report.dropped.push({
+                name: language, type: "language",
+                reason: "an unassigned language slot on the statblock, not a language"
+            });
+            continue;
+        }
+        record(await resolveOne({name: language}, "language", {resolve, aliasIndex}));
+    }
 
     // Natural weapons come from the attack lines on a beast. "Claws (2)" is two of the singular
     // "Claw" component, which nameVariants() handles.
@@ -316,6 +368,16 @@ export async function mapStatblock(block, {resolve, aliases}) {
             const result = await resolveOne({name: attack.name}, "naturalWeapon", {resolve, aliasIndex});
             record(result, attack.quantity > 1 ? {quantity: String(attack.quantity)} : {});
         }
+    }
+
+    // Droid systems are listed with a leading count ("2 Hand Appendages", "1 Tool Mount"), which
+    // is the opposite of the trailing "(2)" the rest of the statblock uses.
+    for (const entry of block.droidSystems ?? []) {
+        const leading = /^(\d+)\s+(.*)$/.exec(entry.name);
+        const name = leading ? leading[2].trim() : entry.name;
+        const quantity = leading ? Number(leading[1]) : (entry.quantity ?? 1);
+        const result = await resolveOne({...entry, name}, "droidSystem", {resolve, aliasIndex});
+        record(result, quantity > 1 ? {quantity: String(quantity)} : {});
     }
 
     // Possessions are tier 3 in the plan: this fork ships 4 armors and 34 weapons against the
@@ -357,6 +419,23 @@ export async function mapStatblock(block, {resolve, aliases}) {
         }
     }
 
+    // Damage reduction is the one printed defensive value that transfers, because this fork stores
+    // it as a free-text override (system.defense.damageReductionOverride, read at defenses.mjs)
+    // rather than deriving it from a rule the house rules changed.
+    if (block.damageReduction) {
+        actorData.system.defense = actorData.system.defense ?? {};
+        actorData.system.defense.damageReductionOverride = block.damageReduction;
+    }
+
+    // Shield rating transfers for the same reason damage reduction does: this fork takes shields
+    // from system.overrides.shields alone (shields.mjs) rather than deriving them from a rule the
+    // house rules changed.
+    if (block.shieldRating) {
+        actorData.system.overrides = actorData.system.overrides ?? {};
+        actorData.system.overrides.shields = block.shieldRating;
+        actorData.system.shields = {value: block.shieldRating};
+    }
+
     // --- Token -----------------------------------------------------------------------------------
     // Imported NPCs always autosize their token from system.size. `system.size` is what the sheet's
     // Size control writes (templates/actor/parts/actor-summary.hbs), so setting it here is the same
@@ -366,6 +445,8 @@ export async function mapStatblock(block, {resolve, aliases}) {
     // --- Free text ------------------------------------------------------------------------------
     const biography = [
         block.notes?.length ? block.notes.join("\n\n") : null,
+        // Anything the parser did not recognise is kept verbatim rather than silently dropped.
+        block.unparsed?.length ? `Not imported:\n${block.unparsed.join("\n")}` : null,
         block.immunities?.length ? `Immune: ${block.immunities.join(", ")}` : null,
         block.weaknesses?.length ? `Weaknesses: ${block.weaknesses.join(", ")}` : null,
         block.senses?.length ? `Senses: ${block.senses.join(", ")}` : null
