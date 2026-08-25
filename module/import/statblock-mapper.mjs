@@ -241,11 +241,11 @@ export async function mapStatblock(block, {resolve, aliases}) {
         const result = await resolveOne({name: block.species}, "species", {resolve, aliasIndex});
         record(result, {answers: [actorData.system.size]});
     } else {
-        // No species means nothing supplies the size TRAIT, and size-scaled values need it.
-        // getResolvedSize() (module/attribute-helper.mjs:77) reads the "size" inheritable
-        // attribute off an item and starts at sizeIndex 0, which is Fine - it does not read
-        // system.size. Without this a Small beast resolves every "...Scalable" change at Fine, so
-        // a Bite whose damageScalable is 1d6 comes out as a flat 1 instead of 1d4.
+        // No species means nothing supplies the size TRAIT, and that trait is what carries the
+        // homebrew size table: reflexDefenseBonusScalable, damageThresholdSizeModifierScalable,
+        // grappleSizeModifierScalable, characterFightingSpaceScalable, unarmedDamageScalable and
+        // the Small Stealth bonus all live on it. system.size declares the category;
+        // the trait applies its mechanical effects. A beast needs both.
         const sizeTrait = await resolve(actorData.system.size, ["trait"]);
         if (sizeTrait) {
             report.mapped.push({

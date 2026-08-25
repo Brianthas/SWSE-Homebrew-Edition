@@ -98,12 +98,28 @@ export function getResolvedSize(entity, options = {}) {
             flags: flags
         })
 
-        let sizeIndex = 0;
+        // For character-shaped actors the Size control on the Summary tab (system.size) is the
+        // declared single source of truth - see SWSEActor#size and handleTokenupdates, which both
+        // already read it. This function did not, and instead started at index 0 (Fine) and took
+        // the largest size-named Trait item it could find. Two consequences, both seen live:
+        // an actor with NO size trait resolved as Fine, so a Huge beast's 1d6 damageScalable bite
+        // came out as a flat 1; and an actor with a leftover size trait from before the size-table
+        // rework silently overrode the GM's own dropdown choice.
+        //
+        // Absolute sizes from items are therefore ignored for these actors. Relative adjustments
+        // (sizeBonus, and a signed "size" change such as "+1") still apply on top, because those
+        // are effects that shift a creature's size rather than declare it.
+        const declaredSize = (entity instanceof SWSEActor) && characterActorTypes.includes(entity.type)
+            ? sizeArray.indexOf(entity.system?.size)
+            : -1;
+        const sizeIsDeclared = declaredSize > -1;
+
+        let sizeIndex = sizeIsDeclared ? declaredSize : 0;
         let sizeBonus = 0;
         for (const sizeValue of size_values) {
-            if(sizeValue.key === "sizeBonus" || (sizeValue.key === "size" && (sizeValue.value.startsWith("+") || sizeValue.value.startsWith("-")))) {
+            if(sizeValue.key === "sizeBonus" || (sizeValue.key === "size" && (`${sizeValue.value}`.startsWith("+") || `${sizeValue.value}`.startsWith("-")))) {
                 sizeBonus += parseInt(sizeValue.value, 10);
-            } else {
+            } else if (!sizeIsDeclared) {
                 if(sizeArray.indexOf(sizeValue.value)> -1) {
                     sizeIndex = Math.max( sizeIndex, sizeArray.indexOf(sizeValue.value));
                 } else if (!isNaN(sizeValue.value)){
