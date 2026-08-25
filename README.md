@@ -31,12 +31,17 @@ than the 2d8 the wiki shows. Species, classes and their levels, feats, talents,
 Force powers, languages, gear, size and ability scores all come across, and
 everything else is recalculated.
 
-Before anything is created you get a review screen split four ways: what will be
-added, what a house rule dropped (the deleted feats, the retired prestige
-classes), what was merged (Block and Deflect become one Dueling Stance, Scoundrel
-and Scout become Smuggler), and what could not be found. Only the last of those
-needs a decision, and each row offers a dropdown of real substitutes or can be
-left out. Nothing is written until you press **Create actor**.
+Before anything is created you get a review screen split five ways: what will be
+added, what a house rule dropped (the deleted feats), what was merged (Block and
+Deflect become one Dueling Stance, Scoundrel and Scout become Smuggler), what
+needs you to choose, and what could not be found. The choices are the retired
+prestige classes whose talent tree two classes now carry, so an Assassin or a Spy
+asks whether this particular NPC is an Agent or an Operative. Anything that could
+not be found offers a dropdown of real substitutes or can be left out. Nothing is
+written until you press **Create actor**.
+
+Text that this fork has no item for (Rakghoul Disease, Overwhelm and the like) is
+kept as description text on the sheet rather than dropped.
 
 Afterwards it shows what the wiki printed beside what this fork derived, with a
 checkbox to pin a printed value where you want it. Nothing is pinned by default.
@@ -45,6 +50,15 @@ Substitutions are remembered, so gear you have already matched once resolves by
 itself next time. `game.swse.exportLearnedAliases()` dumps them as JSON for
 pasting into `module/import/statblock-aliases.json`;
 `game.swse.clearLearnedAliases()` forgets them.
+
+## Beasts compendium
+
+The **Beasts** compendium holds 196 creatures, every published page in the wiki's
+Beasts category, built with the importer above. Their hit points, defences and
+base attack bonus are this fork's derived values rather than the printed ones,
+and their feats, talents and natural weapons are real items off the packs. Each
+one records the page it came from in `flags.swse.statblockImport.page`, so a
+creature can be checked against its source.
 
 ## Rolling
 
