@@ -1,6 +1,6 @@
 # SWSE Statblock Importer - Implementation Plan
 
-Status: phases 1 and 2 built and verified live; phases 3 to 6 outstanding. Target: the baseline
+Status: phases 1 to 3 built and verified live; phases 4 to 6 outstanding. Target: the baseline
 `swse` system (not a separate module).
 
 ## Context
@@ -299,9 +299,9 @@ Touched:
 
 ## Phasing
 
-1. Parser plus checked-in fixtures plus unit tests. No UI. Prove the parse on the four statblocks.
-2. Tier 1 resolver improvements, tier 2 seed table, validation suite.
-3. Review dialog and the create path through `processActor`.
+1. ~~Parser plus checked-in fixtures plus unit tests.~~ Done.
+2. ~~Tier 1 resolver improvements, tier 2 seed table, validation suite.~~ Done.
+3. ~~Review dialog and the create path through `processActor`.~~ Done.
 4. Divergence report with selective override pinning.
 5. Learned aliases and the promote button.
 6. Tier 3 gear mapping.
@@ -338,6 +338,36 @@ Claw natural weapons at 1d3.
 
 Fetching wikitext straight from the browser is confirmed working from Foundry's own origin, so the
 URL input path in phase 3 needs no proxy.
+
+### Phase 3, done
+
+- `module/import/statblock-resolver.mjs` - the Foundry side: name plus candidate types to a real
+  compendium entry, the substitution option lists, and the wiki fetch. Everything that needs `game`
+  lives here so the mapper stays import-free.
+- `module/import/statblock-import-app.mjs` - the review dialog (ApplicationV2 + Handlebars) and the
+  `renderActorDirectory` button, plus `templates/import/statblock-import.hbs` and
+  `scss/components/_statblock-import.scss`.
+- Registered in `module/swse.mjs`: partial preload, `game.swse.applications.StatblockImportApp`, and
+  `initializeStatblockImportButton()`.
+
+The flow is: paste a page name, a wiki URL, or raw wikitext; read it; review what will be added,
+what a house rule dropped, what was merged, and what could not be found; substitute or leave out
+each unresolved entry; then create. **Nothing is written until Create actor is pressed.**
+
+Verified live end to end through the real UI, not through the API: the sidebar button renders once
+and stays at one across three directory re-renders (the idempotency trap that filled the compendium
+sidebar with duplicates); a Stormtrooper imported from a wiki URL reports 12 mapped and 2
+unresolved; substituting Battle Armor and Grenade produces a 15-item actor with all five gear items
+equipped and attacks rolling Blaster Rifle 3d8 and Grenade 4d6.
+
+### A fifth defect, this one mine
+
+The first version of the resolver searched every Item pack. That made the review screen lie:
+"Frag Grenade" exists only in `swse.legacy-weapons`, which `getCompendium("weapon")` does not
+include, so the dialog promised it, `SWSEActor#addItem` could not find it, and it vanished with no
+error on the actor. The resolver and the substitution lists now both go through `getCompendium()`,
+so everything offered is something the add path can actually fetch. A report that names something
+the importer cannot add is worse than no report at all.
 
 ### Four pre-existing defects found and fixed on the way
 

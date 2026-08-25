@@ -17,6 +17,7 @@ import {initializeDragRuler} from "./module-support/drag-ruler.mjs";
 import {initializePolyglot} from "./module-support/polyglot.mjs";
 
 import {initializeCompendiumButtons} from "./compendium/compendium-web.mjs";
+import {StatblockImportApp, initializeStatblockImportButton} from "./import/statblock-import-app.mjs";
 import {buildRollContent} from "./common/chatMessageHelpers.mjs";
 import {SWSETokenDocument} from "./token/token-document.mjs";
 import {CharacterDataModel} from "./actor/data/characterdata.mjs";
@@ -71,7 +72,8 @@ Hooks.once('init', async function () {
         generateCompendiums, deleteEmptyCompendiums, clearEmptyCompendiums, deleteActorsByName,
         toggleActiveEffect,
         applications: {
-            SWSECompendiumBrowser
+            SWSECompendiumBrowser,
+            StatblockImportApp
         }
     };
 
@@ -91,6 +93,7 @@ Hooks.once('init', async function () {
     initializeDragRuler();
     initializePolyglot();
     initializeCompendiumButtons();
+    initializeStatblockImportButton();
 
     Hooks.on("updateCombat", (combat, updateData, updateOptions)=>{
         //console.log(combat.combatant.actor.name)
@@ -158,6 +161,7 @@ Hooks.once('init', async function () {
 
 
     await foundry.applications.handlebars.loadTemplates([
+        'systems/swse/templates/import/statblock-import.hbs',
         'systems/swse/templates/actor/parts/actor-affiliations.hbs',
         'systems/swse/templates/actor/parts/actor-summary.hbs',
         'systems/swse/templates/actor/parts/beast-summary.hbs',

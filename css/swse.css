@@ -3440,3 +3440,169 @@
   background: var(--swse-accent);
   color: var(--swse-bg);
 }
+
+.statblock-import .statblock-import-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 0.5rem;
+  color: var(--swse-text);
+}
+.statblock-import .statblock-import-error {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--swse-accent-combat);
+  border-radius: 4px;
+  background: color-mix(in srgb, var(--swse-accent-combat) 12%, transparent);
+}
+.statblock-import .hint {
+  font-size: 0.85em;
+  color: var(--swse-text-muted);
+  margin: 0.25rem 0;
+}
+.statblock-import textarea {
+  width: 100%;
+  font-family: monospace;
+  font-size: 0.85em;
+  resize: vertical;
+}
+.statblock-import .statblock-import-summary {
+  border-bottom: 1px solid var(--swse-border);
+  padding-bottom: 0.5rem;
+}
+.statblock-import .statblock-import-summary h2 {
+  margin: 0;
+}
+.statblock-import .statblock-import-summary .subject {
+  margin: 0;
+  color: var(--swse-text-muted);
+  text-transform: capitalize;
+}
+.statblock-import .statblock-import-summary .abilities {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  margin: 0.4rem 0;
+  padding: 0;
+}
+.statblock-import .statblock-import-summary .abilities li {
+  background: var(--swse-surface-raised);
+  border: 1px solid var(--swse-border);
+  border-radius: 3px;
+  padding: 0.1rem 0.4rem;
+  font-size: 0.85em;
+}
+.statblock-import .statblock-import-summary .abilities .key {
+  color: var(--swse-text-muted);
+  margin-right: 0.25rem;
+}
+.statblock-import .statblock-import-summary .counts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 0.25rem 0 0;
+  font-size: 0.85em;
+}
+.statblock-import .statblock-import-summary .counts .ok {
+  color: var(--swse-accent-skill);
+}
+.statblock-import .statblock-import-summary .counts .dropped {
+  color: var(--swse-text-muted);
+}
+.statblock-import .statblock-import-summary .counts .unresolved {
+  color: var(--swse-accent-combat);
+}
+.statblock-import .statblock-import-summary .counts .collapsed {
+  color: var(--swse-accent-force);
+}
+.statblock-import .statblock-section {
+  border: 1px solid var(--swse-border);
+  border-radius: 4px;
+  padding: 0.5rem 0.75rem;
+  background: var(--swse-surface);
+}
+.statblock-import .statblock-section h3 {
+  margin: 0 0 0.25rem;
+  font-size: 1em;
+  border: none;
+}
+.statblock-import .statblock-section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.statblock-import .statblock-section ul li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.4rem;
+  padding: 0.1rem 0;
+  font-size: 0.9em;
+}
+.statblock-import .statblock-section .type {
+  color: var(--swse-text-muted);
+  font-size: 0.8em;
+  min-width: 7em;
+}
+.statblock-import .statblock-section .name {
+  font-weight: 600;
+}
+.statblock-import .statblock-section .reason {
+  color: var(--swse-text-muted);
+  font-size: 0.8em;
+  font-style: italic;
+}
+.statblock-import .statblock-section.unresolved {
+  border-color: var(--swse-accent-combat);
+}
+.statblock-import .unresolved-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.2rem 0;
+}
+.statblock-import .unresolved-row .original {
+  flex: 1 1 55%;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.statblock-import .unresolved-row .original .name {
+  overflow-wrap: anywhere;
+}
+.statblock-import .unresolved-row select {
+  flex: 1 1 45%;
+  min-width: 0;
+}
+.statblock-import .printed-values {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.statblock-import .printed-values li {
+  background: var(--swse-surface-raised);
+  border: 1px solid var(--swse-border);
+  border-radius: 3px;
+  padding: 0.1rem 0.4rem;
+  font-size: 0.8em;
+}
+.statblock-import .printed-values .key {
+  color: var(--swse-text-muted);
+  margin-right: 0.25rem;
+}
+.statblock-import .trained {
+  margin: 0.4rem 0 0;
+  font-size: 0.85em;
+  color: var(--swse-text-muted);
+}
+.statblock-import .statblock-import-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+.statblock-import .statblock-import-footer button {
+  flex: 0 0 auto;
+}
+.statblock-import .statblock-import-footer button.primary {
+  font-weight: 600;
+}

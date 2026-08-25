@@ -103,7 +103,7 @@ async function resolveOne(entry, kind, {resolve, aliasIndex}) {
         // The table names a target the packs no longer have. statblock-aliases.test.mjs is meant to
         // catch this before it ships; report rather than silently fall through to a fuzzy match.
         return {
-            status: "unresolved", source: {type, name: sourceName},
+            status: "unresolved", source: {type, name: sourceName}, candidates,
             reason: `alias target "${alias.to.name}" not found in the packs`
         };
     }
@@ -128,7 +128,7 @@ async function resolveOne(entry, kind, {resolve, aliasIndex}) {
         };
     }
 
-    return {status: "unresolved", source: {type: candidates[0], name: sourceName}, reason: "no match in the packs"};
+    return {status: "unresolved", source: {type: candidates[0], name: sourceName}, candidates, reason: "no match in the packs"};
 }
 
 /**
@@ -186,7 +186,16 @@ export async function mapStatblock(block, {resolve, aliases}) {
             return;
         }
         if (result.status === "unresolved") {
-            report.unresolved.push({name: result.source.name, type: result.source.type, reason: result.reason});
+            report.unresolved.push({
+                name: result.source.name,
+                type: result.source.type,
+                reason: result.reason,
+                // Candidate types and the providedItem extras this entry would have carried, so the
+                // review dialog can offer the right substitutes and re-apply "equipped" and the like
+                // to whatever the GM picks.
+                candidates: result.candidates ?? [result.source.type],
+                extra
+            });
             return;
         }
         const key = `${result.target.type}:${result.target.name}`;

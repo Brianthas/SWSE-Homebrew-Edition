@@ -1,0 +1,137 @@
+<form class="statblock-import-form" autocomplete="off">
+
+    {{#if error}}
+        <div class="statblock-import-error"><i class="fa-solid fa-triangle-exclamation"></i> {{error}}</div>
+    {{/if}}
+
+    {{#if isInput}}
+        <div class="statblock-import-intro">
+            <p>Paste a SWSE wiki page name or URL, or the statblock's wikitext directly.</p>
+            <p class="hint">
+                Numbers are not imported. The wiki prints Saga Edition as published, and this fork
+                derives its own hit points, defences, base attack bonus and damage dice from the
+                house rules. Names, classes, levels, species, gear and ability scores come across;
+                everything else is recalculated. The printed values are shown for comparison.
+            </p>
+        </div>
+
+        <div class="form-group">
+            <label for="statblock-source">Page, URL or wikitext</label>
+            <textarea id="statblock-source" name="source" rows="6"
+                      placeholder="Kath Hound&#10;https://swse.fandom.com/wiki/Rancor&#10;== Nexu Statistics (CL 5) == ...">{{input}}</textarea>
+        </div>
+
+        <footer class="statblock-import-footer">
+            <button type="button" data-action="parse" {{#if busy}}disabled{{/if}}>
+                <i class="fa-solid fa-magnifying-glass"></i> {{#if busy}}Reading...{{else}}Read statblock{{/if}}
+            </button>
+        </footer>
+    {{/if}}
+
+    {{#if isReview}}
+        <header class="statblock-import-summary">
+            <h2>{{actorName}}</h2>
+            <p class="subject">
+                {{size}} {{actorType}}{{#if cl}} &middot; CL {{cl}}{{/if}}
+            </p>
+            <ul class="abilities">
+                {{#each abilities}}<li><span class="key">{{this.key}}</span> {{this.value}}</li>{{/each}}
+            </ul>
+            <p class="counts">
+                <span class="ok">{{counts.mapped}} mapped</span>
+                <span class="dropped">{{counts.dropped}} dropped by house rule</span>
+                <span class="unresolved">{{counts.unresolved}} unresolved</span>
+                <span class="collapsed">{{counts.collapsed}} merged</span>
+            </p>
+        </header>
+
+        {{#if unresolved.length}}
+            <section class="statblock-section unresolved">
+                <h3>Not found &mdash; pick a substitute or leave it out</h3>
+                <p class="hint">
+                    This fork ships far less gear than the wiki lists, so weapons and armour usually
+                    land here. Anything left as &ldquo;Leave out&rdquo; is simply not added.
+                </p>
+                {{#each unresolved}}
+                    <div class="unresolved-row">
+                        <div class="original">
+                            <span class="name">{{this.name}}</span>
+                            <span class="reason">{{this.reason}}</span>
+                        </div>
+                        <select data-unresolved-index="{{this.index}}">
+                            <option value="">Leave out</option>
+                            {{#each this.groups}}
+                                <optgroup label="{{this.type}}">
+                                    {{#each this.options}}
+                                        <option value="{{../type}}:{{this.name}}">{{this.name}}</option>
+                                    {{/each}}
+                                </optgroup>
+                            {{/each}}
+                        </select>
+                    </div>
+                {{/each}}
+            </section>
+        {{/if}}
+
+        {{#if dropped.length}}
+            <section class="statblock-section dropped">
+                <h3>Dropped by house rule</h3>
+                <p class="hint">These exist on the wiki but not in this fork. Nothing to do.</p>
+                <ul>
+                    {{#each dropped}}
+                        <li><span class="name">{{this.name}}</span> <span class="reason">{{this.reason}}</span></li>
+                    {{/each}}
+                </ul>
+            </section>
+        {{/if}}
+
+        {{#if collapsed.length}}
+            <section class="statblock-section collapsed">
+                <h3>Merged</h3>
+                <ul>
+                    {{#each collapsed}}
+                        <li><span class="name">{{this.source}} &rarr; {{this.target}}</span>
+                            <span class="reason">{{this.reason}}</span></li>
+                    {{/each}}
+                </ul>
+            </section>
+        {{/if}}
+
+        <section class="statblock-section mapped">
+            <h3>Will be added</h3>
+            <ul>
+                {{#each mapped}}
+                    <li>
+                        <span class="type">{{this.type}}</span>
+                        {{#if this.changed}}
+                            <span class="name">{{this.from}} &rarr; {{this.to}}</span>
+                        {{else}}
+                            <span class="name">{{this.to}}</span>
+                        {{/if}}
+                        {{#if this.reason}}<span class="reason">{{this.reason}}</span>{{/if}}
+                        {{#if this.note}}<span class="reason">note: {{this.note}}</span>{{/if}}
+                    </li>
+                {{/each}}
+            </ul>
+            {{#if trainedSkills.length}}
+                <p class="trained">Trained skills: {{#each trainedSkills}}{{this}}{{#unless @last}}, {{/unless}}{{/each}}</p>
+            {{/if}}
+        </section>
+
+        <section class="statblock-section printed">
+            <h3>Printed on the wiki (not imported)</h3>
+            <p class="hint">Shown so you can compare against what this fork derives once the actor exists.</p>
+            <ul class="printed-values">
+                {{#each printed}}<li><span class="key">{{this.key}}</span> {{this.value}}</li>{{/each}}
+            </ul>
+        </section>
+
+        <footer class="statblock-import-footer">
+            <button type="button" data-action="back"><i class="fa-solid fa-arrow-left"></i> Back</button>
+            <button type="button" data-action="confirm" class="primary" {{#if busy}}disabled{{/if}}>
+                <i class="fa-solid fa-user-plus"></i> {{#if busy}}Importing...{{else}}Create actor{{/if}}
+            </button>
+        </footer>
+    {{/if}}
+
+</form>
