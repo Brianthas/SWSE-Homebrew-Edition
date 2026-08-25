@@ -1,7 +1,14 @@
 import {SWSEItem} from "../item/item.mjs";
 import SWSEActor from "../actor/actor.mjs";
 
-export async function processActor(actorData, returnFailures = false) {
+/**
+ * @param actorData          the actor payload, including system.providedItems
+ * @param returnFailures     resolve to {actor, failures} rather than the actor
+ * @param [options.suppressDialog]  answer no choice prompts and skip anything that asks. Interactive
+ *   callers want the prompt; a bulk build must never stop on one, because nobody is watching to
+ *   click it and the whole run stalls on a single creature.
+ */
+export async function processActor(actorData, returnFailures = false, {suppressDialog = false} = {}) {
     // Snapshot providedItems BEFORE the create. `providedItems` is a declared field on Items but
     // not on the actor DataModel, and Actor.create() cleans the object it is handed IN PLACE, so
     // reading actorData.system.providedItems afterwards yields undefined. That made this function
@@ -10,6 +17,12 @@ export async function processActor(actorData, returnFailures = false) {
 
     let actors = await SWSEActor.create([actorData]);
     if (!(actors && actors.length === 1)) {
+        // Actor.create does not throw on a DataModel validation failure, it logs and returns an
+        // empty array, so this branch is the only signal the caller gets. Say which actor and why
+        // out loud: silently returning nothing here cost a bulk import two creatures whose only
+        // symptom was a crash three calls further on.
+        console.error(`SWSE: could not create actor "${actorData?.name}" (type ${actorData?.type}, `
+            + `size ${actorData?.system?.size}) - Actor.create rejected the payload.`, actorData);
         return {actor: undefined, failures: []};
     }
     let actor = actors[0];
@@ -18,7 +31,7 @@ export async function processActor(actorData, returnFailures = false) {
     choiceAnswers.push(size);
     actor.prepareData();
     actor.skipPrepare = true;
-    actor.suppressDialog = false;
+    actor.suppressDialog = suppressDialog;
     const failures = await actor.addItems({
         skipPrerequisite: true,
         generalAnswers: choiceAnswers,
@@ -28,7 +41,7 @@ export async function processActor(actorData, returnFailures = false) {
         returnFailures: true
     });
 
-    actor.suppressDialog = false;
+    actor.suppressDialog = suppressDialog;
     actor.skipPrepare = false;
     await actor.prepareData();
 
@@ -66,6 +79,8 @@ export async function processActor(actorData, returnFailures = false) {
         const proposedArmor = (Number.isFinite(expected) && Number.isFinite(derived)) ? expected - derived : 0;
         if (proposedArmor > 0) {
             const previousSuppress = actor.suppressDialog;
+            // Always suppressed here regardless of the caller: this trait is inferred rather than
+            // asked for, so a prompt about it is never something a GM expects.
             actor.suppressDialog = true;
             try {
                 await actor.sheet._onDropItem(null, {name: "Natural Armor", type: "trait", answers: [proposedArmor]});

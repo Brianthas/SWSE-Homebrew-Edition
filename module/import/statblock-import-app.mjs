@@ -230,12 +230,17 @@ export class StatblockImportApp extends HandlebarsApplicationMixin(ApplicationV2
             const wantedSkills = Object.keys(actorData.system.skills);
 
             const created = await processActor(actorData, true);
-            const actor = created.actor ?? created;
-            if (!actor) throw new Error("The actor could not be created.");
+            // Read created.actor, never `created.actor ?? created`: processActor returns the
+            // wrapper {actor: undefined, failures: []} when Actor.create rejects the payload, and
+            // that object is truthy. The fallback therefore skipped this guard and handed a plain
+            // object to finalizeImportedActor, turning a clear "could not be created" into a
+            // confusing crash on actor.system.availableTrainedSkillCount.
+            const actor = created.actor;
+            if (!actor) throw new Error("The actor could not be created. Check the console for the validation error.");
 
             const notes = await finalizeImportedActor(actor, {
                 system: {skills: Object.fromEntries(wantedSkills.map(name => [name, {trained: true}]))}
-            });
+            }, {attacks: this.#block?.attacks ?? []});
 
             const failures = created.failures ?? [];
             // Remember the picks BEFORE reporting, so the count is accurate and so a later failure

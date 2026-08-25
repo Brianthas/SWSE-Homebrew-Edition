@@ -2499,7 +2499,13 @@ class SWSEActor extends Actor {
                     SWSEActor.updateOrAddChange(entity, "trainedSkills", "1");
                     SWSEActor.removeChange(entity, "automaticTrainedSkill");
                 }
-                if (entity.name === 'Bonus Feat' && !payload) {
+                // `payload` was a local of addItem; this check moved into here without it and has
+                // been a ReferenceError ever since, so every upload adding a trait literally named
+                // "Bonus Feat" threw. Only that exact name reaches the second operand, which is why
+                // it went unnoticed - 33 of the published beasts carry one, ordinary characters do
+                // not. addItem calls entity.setChoice() for both payload routes before this runs,
+                // so a recorded choice is the reliable "a specific feat was named" signal.
+                if (entity.name === 'Bonus Feat' && !entity.system.selectedChoices?.length) {
                     SWSEActor.updateOrAddChange(entity, "provides", "General Feats");
                 }
             }

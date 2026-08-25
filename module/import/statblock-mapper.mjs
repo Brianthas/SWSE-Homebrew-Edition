@@ -312,14 +312,39 @@ export async function mapStatblock(block, {resolve, aliases}) {
 
     // --- Identity -----------------------------------------------------------------------------
     const isBeast = block.classes.some(c => /^beast$/i.test(c.name));
+
+    // A beast actor's size is constrained to beastSizeArray, which stops at Colossal: this fork
+    // holds that "no beast is ship-scale; a starship-sized creature is just Colossal" (see
+    // module/common/constants.mjs). The wiki does print Colossal (Cruiser) for the likes of the
+    // Exogorth, and handing that to Actor.create makes it fail validation and return an EMPTY
+    // ARRAY rather than throwing, so the creature vanished with no error to explain it.
+    let size = block.size ?? "Medium";
+    let sizeNote = null;
+
+    // Rakghoul Colossal's heading literally reads "(CL ?)". Writing that through as an empty string
+    // leaves a blank on the sheet with nothing to explain it, so fall back to total level, which is
+    // what CL equals for a beast in this fork, and say in the report that it was derived.
+    let clValue = block.cl ?? "";
+    let clNote = null;
+    if (!/^\d+$/.test(String(clValue))) {
+        const levels = block.classes.reduce((sum, c) => sum + (Number(c.levels) || 0), 0);
+        if (levels > 0) {
+            clValue = String(levels);
+            clNote = `Challenge Level not printed on the page; derived CL ${levels} from total level.`;
+        }
+    }
+    if (isBeast && /^Colossal\s*\(/i.test(size)) {
+        sizeNote = [sizeNote, `Printed as ${size}; this fork has no beast size above Colossal.`].filter(Boolean).join(" ");
+        size = "Colossal";
+    }
     const actorData = {
         name: block.name,
         type: isBeast ? "beast" : "character",
         system: {
             settings: {isNPC: true},
-            size: block.size ?? "Medium",
+            size,
             abilities: {},
-            details: {cl: block.cl ?? ""},
+            details: {cl: clValue},
             skills: {},
             providedItems
         }
@@ -399,13 +424,23 @@ export async function mapStatblock(block, {resolve, aliases}) {
     // decide and the statblock already describes it in prose.
     for (const entry of block.speciesTraits ?? []) {
         const result = await resolveOne(entry, "speciesTrait", {resolve, aliasIndex});
+
+        // "Natural Armor (+8)", "Damage Reduction 5" - the number in the name IS the trait's
+        // choice, and the pack item asks for it. Passing it as an answer is what stops the import
+        // stopping dead on "Choose amount of Natural Armor to add" and waiting for a click, which
+        // is fatal to a bulk build and merely annoying interactively. 33 of the 199 published
+        // beasts carry Natural Armor this way.
+        const amount = /([+-]?\d+)/.exec(result.note ?? "")?.[1]
+            ?? /([+-]?\d+)\s*\)?\s*$/.exec(entry.name ?? "")?.[1];
+        const extra = amount ? {answers: [Number(amount)], payloads: {payload: Number(amount)}} : {};
+
         if (result.status === "unresolved") {
             textOnlyTraits.push(entry.name);
             report.textOnly.push({name: entry.name, type: "trait",
                 reason: "kept as description text; this fork has no item for it"});
             continue;
         }
-        record(result);
+        record(result, extra);
     }
     // "Languages: Basic, Bothese, 3 Unassigned" - the last is a count of blank slots the NPC was
     // never given, not a language. Reported so the GM knows, rather than left hunting for an item.
@@ -505,6 +540,8 @@ export async function mapStatblock(block, {resolve, aliases}) {
     // --- Free text ------------------------------------------------------------------------------
     const biography = [
         block.notes?.length ? block.notes.join("\n\n") : null,
+        sizeNote,
+        clNote,
         textOnlyTraits.length ? `Special Qualities: ${textOnlyTraits.join(", ")}` : null,
         // Anything the parser did not recognise is kept verbatim rather than silently dropped.
         block.unparsed?.length ? `Not imported:\n${block.unparsed.join("\n")}` : null,
@@ -532,8 +569,65 @@ export async function mapStatblock(block, {resolve, aliases}) {
  * @param {object} actorData  the payload mapStatblock produced for it
  * @returns {Promise<string[]>} notes for the import report
  */
-export async function finalizeImportedActor(actor, actorData) {
+/**
+ * Writes each beast's own printed damage onto its copy of a fixed-damage attack item.
+ *
+ * The beast-components pack holds one item per attack name, which works for Bite and Claw because
+ * those carry `damageScalable` and the system re-rolls them off the creature's size. The attacks
+ * generated for this importer carry a plain `damage` instead, exactly as printed, and a single
+ * fixed value cannot be right for every creature that uses the name: across Category:Beasts,
+ * "Tentacles" is printed as 1d6, 1d8 and 3d6, and "Tendril" as 1d4, 1d8 and 2d8. Sharing one item
+ * therefore gave nine creatures a damage die their own page contradicts.
+ *
+ * The compendium item stays a template and the actor's embedded copy gets the printed dice. Only
+ * the dice are taken; the flat bonus stays derived, because that is the creature's ability modifier
+ * and importing it would double-count. Scalable items are deliberately left alone - their whole
+ * point is that the system derives them.
+ */
+async function pinPrintedAttackDamage(actor, attacks, notes) {
+    if (!attacks?.length) return;
+    // A list per name, not a single value: T'salak prints two Tendril lines at 1d8 and 2d8, so the
+    // items are matched against the printed lines in order and the last one repeats for any extra.
+    const printed = new Map();
+    const push = (key, dice) => {
+        if (!printed.has(key)) printed.set(key, []);
+        printed.get(key).push(dice);
+    };
+    for (const attack of attacks) {
+        const dice = /(\d+d\d+)/.exec(String(attack.damage ?? ""))?.[1];
+        if (!dice) continue;
+        // "Claws (2)" resolves to the item named "Claw", so index both spellings.
+        const name = attack.name.toLowerCase();
+        push(name, dice);
+        if (name.endsWith("s")) push(name.replace(/s$/, ""), dice);
+    }
+    if (!printed.size) return;
+    const consumed = new Map();
+
+    const updates = [];
+    for (const item of actor.items.filter(i => i.type === "beastAttack")) {
+        const changes = item.system?.changes ?? [];
+        const damageIndex = changes.findIndex(c => c.key === "damage");
+        if (damageIndex < 0) continue;
+        if (changes.some(c => c.key === "damageScalable")) continue;
+        const key = item.name.toLowerCase();
+        const options = printed.get(key);
+        if (!options) continue;
+        const seen = consumed.get(key) ?? 0;
+        consumed.set(key, seen + 1);
+        const dice = options[Math.min(seen, options.length - 1)];
+        if (String(changes[damageIndex].value) === dice) continue;
+        const next = changes.map(c => ({...c}));
+        next[damageIndex].value = dice;
+        updates.push({_id: item.id, "system.changes": next});
+        notes.push(`${item.name} damage set to ${dice} as printed (pack template says ${changes[damageIndex].value}).`);
+    }
+    if (updates.length) await actor.updateEmbeddedDocuments("Item", updates);
+}
+
+export async function finalizeImportedActor(actor, actorData, {attacks = []} = {}) {
     const notes = [];
+    await pinPrintedAttackDamage(actor, attacks, notes);
     const desired = Object.entries(actorData.system?.skills ?? {})
         .filter(([, skill]) => skill?.trained)
         .map(([name]) => name);
