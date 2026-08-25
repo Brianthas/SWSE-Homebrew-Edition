@@ -298,6 +298,30 @@ function parseTypeLine(line) {
     return result;
 }
 
+/** Index of `needle` in `text` where brackets are balanced, or -1. */
+function indexOfAtTopLevel(text, needle) {
+    let depth = 0;
+    for (let i = 0; i < text.length; i++) {
+        const c = text[i];
+        if (c === "(" || c === "[") depth++;
+        else if (c === ")" || c === "]") depth = Math.max(0, depth - 1);
+        else if (depth === 0 && text.startsWith(needle, i)) return i;
+    }
+    return -1;
+}
+
+/** The contents of each top-level (...) group, nested brackets kept intact. */
+function topLevelGroups(text) {
+    const groups = [];
+    let depth = 0, start = -1;
+    for (let i = 0; i < text.length; i++) {
+        const c = text[i];
+        if (c === "(") { if (depth === 0) start = i + 1; depth++; }
+        else if (c === ")") { depth--; if (depth === 0 && start > -1) { groups.push(text.slice(start, i).trim()); start = -1; } }
+    }
+    return groups;
+}
+
 /**
  * Parses one "Melee:"/"Ranged:" attack line.
  *   "Bite +5 (1d3+4)"
@@ -327,25 +351,46 @@ function parseAttackLine(range, value) {
 
     const attacks = [];
     for (const part of body.split(/\s+and\s+/i)) {
-        const match = /^(.*?)\s*([+-]\d+)\s*(?:\(([^)]*(?:\([^)]*\)[^)]*)*)\))?\s*$/.exec(part.trim());
-        if (!match) {
-            // "Ranged: By Weapon +21" and similar shapes with no damage still land here if the
-            // bonus is missing entirely; keep the text rather than dropping it.
-            attacks.push({range, name: part.trim(), bonus: null, damage: null, condition, raw: text});
+        let text = part.trim();
+
+        // A rider after the damage: "Bite +7 (1d4+1) plus Poison". Found at bracket depth zero so
+        // it is not confused with one written inside the damage, as in "(1 plus Poison (See Below))".
+        let rider = null;
+        const riderAt = indexOfAtTopLevel(text, " plus ");
+        if (riderAt > -1) {
+            rider = text.slice(riderAt + 6).trim();
+            text = text.slice(0, riderAt).trim();
+        }
+
+        const bonusMatch = /([+-]\d+)/.exec(text);
+        if (!bonusMatch) {
+            attacks.push({range, name: text, bonus: null, damage: null, rider, condition, footnoted, raw: text});
             continue;
         }
-        const entry = parseEntry(match[1]);
+        const entry = parseEntry(text.slice(0, bonusMatch.index));
+        const tail = text.slice(bonusMatch.index + bonusMatch[0].length);
+
+        // Everything in brackets after the bonus. A statblock can carry several: a qualifier such as
+        // "(2-Square Reach)" and then the damage, in that order. The damage is whichever one reads
+        // as dice or a flat number; the rest are notes.
+        const groups = topLevelGroups(tail);
+        const damage = groups.find(g => /^\s*\d+(d\d+)?([+-]\d+)?\s*(,|$)/i.test(g)) ?? null;
+        const notes = groups.filter(g => g !== damage);
+
         attacks.push({
             range,
             name: entry.name,
             quantity: entry.quantity,
-            bonus: Number(match[2]),
-            damage: match[3] ? match[3].trim() : null,
+            bonus: Number(bonusMatch[1]),
+            damage,
+            rider,
+            notes: notes.length ? notes : undefined,
             footnoted,
             condition,
             raw: text
         });
     }
+
     return attacks;
 }
 
