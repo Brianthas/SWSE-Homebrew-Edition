@@ -74,6 +74,9 @@
     {"from": {"type": "skill", "name": "Knowledge (Physical Sciences)"}, "to": {"type": "skill", "name": "Knowledge (Sciences)"}, "collapse": true,
       "reason": "HOUSERULES.md Skills - Knowledge (Sciences) encompasses the other science Knowledges"},
     {"from": {"type": "skill", "name": "Knowledge (Social Sciences)"}, "to": {"type": "skill", "name": "Knowledge (Sciences)"}, "collapse": true,
-      "reason": "HOUSERULES.md Skills - Knowledge (Sciences) encompasses the other science Knowledges"}
+      "reason": "HOUSERULES.md Skills - Knowledge (Sciences) encompasses the other science Knowledges"},
+
+    {"from": {"type": "skill", "name": "Ride"}, "to": {"type": "skill", "name": "Pilot"}, "collapse": true,
+      "reason": "HOUSERULES.md Skills - Ride was merged into Pilot"}
   ]
 }

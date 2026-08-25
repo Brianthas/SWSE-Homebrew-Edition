@@ -340,6 +340,12 @@ export async function mapStatblock(block, {resolve, aliases}) {
         }
     }
 
+    // --- Token -----------------------------------------------------------------------------------
+    // Imported NPCs always autosize their token from system.size. `system.size` is what the sheet's
+    // Size control writes (templates/actor/parts/actor-summary.hbs), so setting it here is the same
+    // edit a GM would make by hand.
+    actorData.system.settings.autoSizeToken = true;
+
     // --- Free text ------------------------------------------------------------------------------
     const biography = [
         block.notes?.length ? block.notes.join("\n\n") : null,
@@ -350,4 +356,92 @@ export async function mapStatblock(block, {resolve, aliases}) {
     if (biography) actorData.system.details.biography = biography;
 
     return {actorData, report};
+}
+
+/**
+ * Post-creation reconciliation. Run AFTER processActor has created the actor and added its items,
+ * because both steps below depend on values that only exist once the items are on the actor.
+ *
+ * A printed statblock is authoritative about how many skills the creature is trained in. This
+ * fork's budget (`availableTrainedSkillCount`, module/actor/data/templates/skills.mjs:93) is
+ * class bonus plus INT modifier, floored at 1, and for a low-INT creature that is smaller than
+ * what the statblock shows: a Rancor prints two trained skills but has an INT modifier of -4 and
+ * so a budget of 1. Rather than silently dropping the difference, grant the shortfall as a
+ * `trainedSkills` change on the actor so the sheet's own counter agrees with what was imported.
+ *
+ * @param {object} actor      the created SWSEActor
+ * @param {object} actorData  the payload mapStatblock produced for it
+ * @returns {Promise<string[]>} notes for the import report
+ */
+export async function finalizeImportedActor(actor, actorData) {
+    const notes = [];
+    const desired = Object.entries(actorData.system?.skills ?? {})
+        .filter(([, skill]) => skill?.trained)
+        .map(([name]) => name);
+
+    if (desired.length === 0) {
+        await actor.prepareData();
+        await sizePrototypeToken(actor, notes);
+        return notes;
+    }
+
+    const available = Number(actor.system.availableTrainedSkillCount ?? 0);
+    const shortfall = desired.length - available;
+    if (shortfall > 0) {
+        const changes = [...(actor.system.changes ?? [])];
+        changes.push({
+            key: "trainedSkills",
+            value: shortfall,
+            mode: 2,
+            priority: 0
+        });
+        await actor.safeUpdate({"system.changes": changes});
+        notes.push(`Granted ${shortfall} extra trained skill${shortfall === 1 ? "" : "s"} `
+            + `(statblock trains ${desired.length}, this fork's budget allowed ${available}).`);
+    }
+
+    // Re-assert the trained flags. Nested rather than dotted because skill names contain spaces
+    // and parentheses ("Knowledge (Sciences)") and a dotted path would be re-split on any ".".
+    const skillUpdate = {};
+    for (const name of desired) skillUpdate[name] = {trained: true};
+    await actor.safeUpdate({system: {skills: skillUpdate}});
+    await actor.prepareData();
+    await sizePrototypeToken(actor, notes);
+
+    const stillMissing = desired.filter(name => !actor.system.skills?.[name]?.trained);
+    if (stillMissing.length) {
+        notes.push(`Could not train: ${stillMissing.join(", ")}.`);
+    }
+    return notes;
+}
+
+/**
+ * Sizes the actor's PROTOTYPE token from system.size.
+ *
+ * `SWSEActor#handleTokenupdates` already honours the autoSizeToken setting, but it only updates
+ * tokens already placed on a scene - it never touches the prototype. A freshly imported Huge
+ * creature therefore drops onto the map at 1x1 and only snaps to size once its data is prepared.
+ * Setting the prototype at import time means the very first drop is correct.
+ *
+ * The size helpers are imported dynamically so this module keeps zero static imports and stays
+ * runnable under plain `node --test`; the import is only evaluated inside Foundry, where this
+ * function is the only caller.
+ */
+async function sizePrototypeToken(actor, notes) {
+    if (!actor.system?.settings?.autoSizeToken) return;
+    try {
+        const {getGridSizeFromSize, getTokenTextureScaleFromSize} = await import("../actor/size.mjs");
+        const sizeName = actor.size?.name ?? actor.system.size;
+        const gridSize = getGridSizeFromSize(sizeName);
+        const scale = getTokenTextureScaleFromSize(sizeName);
+        await actor.update({
+            "prototypeToken.width": gridSize,
+            "prototypeToken.height": gridSize,
+            "prototypeToken.texture.scaleX": scale,
+            "prototypeToken.texture.scaleY": scale
+        });
+        notes.push(`Prototype token sized ${gridSize}x${gridSize} for ${sizeName}.`);
+    } catch (e) {
+        notes.push(`Could not size the prototype token: ${e.message}`);
+    }
 }

@@ -687,7 +687,12 @@ export const EPISODE_VII_HOMEBREW_SKILLS = new Map([
 ]);
 
 export function skills(actorType = "character", removeGroupedSkills = true) {
-    let skills = actorType === "character" ? [...defaultSkills] : [...defaultVehicleSkills];
+    // Beasts are character-shaped actors (see characterActorTypes below) and need the character
+    // skill list. Testing `=== "character"` handed them the VEHICLE crew list instead, so a beast
+    // sheet listed "Pilot (Pilot)", "Use Computer (Commander)" and so on, and any real skill it was
+    // trained in - Perception on a Rancor - was silently never built. Athletics masked the bug by
+    // surviving anyway, because the homebrew grouped-skill map appends it to every list.
+    let skills = characterActorTypes.includes(actorType) ? [...defaultSkills] : [...defaultVehicleSkills];
     let groupedSkillMap = getGroupedSkillMap();
 
     if (groupedSkillMap) {

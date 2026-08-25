@@ -170,6 +170,8 @@ as Hutts.
   Biotech prosthesis.
 - A new Skill, **Knowledge (Sciences)**, has been added, encompassing all
   other Science-based Knowledge skills.
+- **Ride** has been merged into **Pilot**. Pilot now covers riding beasts and
+  vehicles alike.
 
 ## Feats
 
