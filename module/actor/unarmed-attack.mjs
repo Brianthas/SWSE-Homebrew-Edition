@@ -37,12 +37,9 @@ export class UnarmedAttack {
     }
 
     get changes() {
-        let changes = getInheritableAttribute(
-            {
-                entity: this.actor,
-                attributeKey: "droidUnarmedDamage"
-            }
-        )
+        // No droid-specific collection here any more: droids take unarmed damage from the same
+        // size table as every other creature (see generateUnarmedDamage in attack/attack.mjs).
+        let changes = []
         // Homebrew collapses the vanilla physical damage types into a single "Physical"
         // (see HOMEBREW_DAMAGE_TYPES) - "Bludgeoning" isn't one of them, and the homebrew
         // Simple Weapons table lists a bare fist's damage as Physical.

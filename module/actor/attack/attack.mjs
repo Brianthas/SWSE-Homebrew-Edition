@@ -1833,15 +1833,16 @@ const D20 = (mode) => {
  * @returns
  */
 function resolveUnarmedDamageDie(actor) {
-    let isDroid = getInheritableAttribute({
-        entity: actor,
-        attributeKey: "isDroid",
-        reduce: "OR"
-    });
     const unarmedSudoItem = actor.unarmedAttack.item;
+    // A droid's punch scales with its size exactly like any other creature's. It used to read a
+    // separate "droidUnarmedDamage" key, which was broken twice over: the droid-system packs store
+    // droidUnarmedDamageScalable as a plain property on `system` rather than as a `changes` entry,
+    // so getInheritableAttribute never saw it and every droid punched for a flat 0; and the droid
+    // size table it fed was weaker than everyone else's (Medium droid 1 against Medium creature
+    // 1d6) for no rule in HOUSERULES.md.
     let damageDie = getInheritableAttribute({
         entity: unarmedSudoItem,
-        attributeKey: isDroid ? "droidUnarmedDamage" : ["unarmedDamage", "unarmedDamageDie"],
+        attributeKey: ["unarmedDamage", "unarmedDamageDie"],
         reduce: "MAX"
     });
     let bonus = getInheritableAttribute({

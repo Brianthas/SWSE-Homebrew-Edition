@@ -500,6 +500,13 @@ export const SCALABLE_CHANGES = {
             ],
         }
     },
+    // UNREACHABLE, kept only so the shape is on record. Droids take unarmed damage from
+    // unarmedDamageScalable above, the same size table as every other creature, so nothing emits a
+    // "droidUnarmedDamage" change any more (see resolveUnarmedDamageDie in actor/attack/attack.mjs).
+    // This table was never reachable in practice either: the droid-system packs store
+    // droidUnarmedDamageScalable as a plain property on `system` rather than as a `changes` entry,
+    // where getInheritableAttribute cannot see it, so every droid punched for a flat 0. Do not
+    // repair pack data against this key - fix it against unarmedDamage instead.
     "droidUnarmedDamageScalable":{
         "1":{
             "Fine": [
