@@ -54,11 +54,26 @@ export async function processActor(actorData, returnFailures = false) {
     //
     //     await actor.sheet._onDropItem(null, {name: size, type: "trait", answers:[]})
     // }
-    if(actor.isBeast){
-        const proposedArmor = actor.defense.reflex.expected - actor.defense.reflex.total
-        if(proposedArmor){
-
-            await actor.sheet._onDropItem(null, {name: "Natural Armor", type: "trait", answers:[proposedArmor]})
+    // Beasts printed with more Reflex than this system derives get the difference as Natural Armor.
+    // `expected` is only ever set by the old units-cl-* actor JSON, so for any other caller the
+    // subtraction is NaN and nothing should happen - but NaN slipped through the truthiness check
+    // often enough to matter, and _onDropItem then opened "Choose amount of Natural Armor to add"
+    // and waited for a click that a bulk import is never going to give it. Guard the arithmetic,
+    // and suppress the dialog so a rejected pre-answer skips the trait instead of hanging.
+    if (actor.isBeast) {
+        const expected = Number(actor.defense?.reflex?.expected);
+        const derived = Number(actor.defense?.reflex?.total);
+        const proposedArmor = (Number.isFinite(expected) && Number.isFinite(derived)) ? expected - derived : 0;
+        if (proposedArmor > 0) {
+            const previousSuppress = actor.suppressDialog;
+            actor.suppressDialog = true;
+            try {
+                await actor.sheet._onDropItem(null, {name: "Natural Armor", type: "trait", answers: [proposedArmor]});
+            } catch (e) {
+                console.warn("SWSE: could not add Natural Armor to an imported beast", e);
+            } finally {
+                actor.suppressDialog = previousSuppress;
+            }
         }
     }
 

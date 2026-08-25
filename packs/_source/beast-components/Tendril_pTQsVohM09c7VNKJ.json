@@ -1,0 +1,63 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Natural weapon taken from published beast statblocks: Syren Plant (Large, 1d6); T'salak (Medium, 1d8); T'salak (Medium, 2d8); T'salak Spawn (Small, 1d4). Damage is fixed at 1d6, as printed. Other creatures print 1d8, 2d8, 1d4 for this attack.",
+    "textDescription": "Natural weapon taken from published beast statblocks: Syren Plant (Large, 1d6); T'salak (Medium, 1d8); T'salak (Medium, 2d8); T'salak Spawn (Small, 1d4). Damage is fixed at 1d6, as printed. Other creatures print 1d8, 2d8, 1d4 for this attack.",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Physical",
+        "key": "damageType"
+      },
+      {
+        "mode": 2,
+        "value": "1d6",
+        "key": "damage"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "0",
+    "weight": "",
+    "availability": "",
+    "size": "",
+    "type": "",
+    "subtype": "Melee Natural Weapons",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": []
+  },
+  "name": "Tendril",
+  "flags": {},
+  "type": "beastAttack",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1787697270381,
+    "modifiedTime": 1787697270381,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "pTQsVohM09c7VNKJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!pTQsVohM09c7VNKJ"
+}

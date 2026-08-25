@@ -1,0 +1,63 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Natural weapon taken from published beast statblocks: Greethka (Huge, 1d8). Damage is fixed at 1d8, as printed.",
+    "textDescription": "Natural weapon taken from published beast statblocks: Greethka (Huge, 1d8). Damage is fixed at 1d8, as printed.",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Physical",
+        "key": "damageType"
+      },
+      {
+        "mode": 2,
+        "value": "1d8",
+        "key": "damage"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "0",
+    "weight": "",
+    "availability": "",
+    "size": "",
+    "type": "",
+    "subtype": "Ranged Natural Weapons",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": []
+  },
+  "name": "Slime Burst",
+  "flags": {},
+  "type": "beastAttack",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1787697270438,
+    "modifiedTime": 1787697270438,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "qQaj3NGAB81GNCbu",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!qQaj3NGAB81GNCbu"
+}

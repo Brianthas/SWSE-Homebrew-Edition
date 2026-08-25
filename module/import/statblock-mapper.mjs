@@ -246,7 +246,8 @@ function derivePayload(original, matched) {
  */
 export async function mapStatblock(block, {resolve, aliases}) {
     const aliasIndex = indexAliases(aliases);
-    const report = {mapped: [], dropped: [], unresolved: [], collapsed: [], choices: [], printed: block.printed};
+    const report = {mapped: [], dropped: [], unresolved: [], collapsed: [], choices: [], textOnly: [], printed: block.printed};
+    const textOnlyTraits = [];
     const providedItems = [];
     const seenTargets = new Set();
 
@@ -332,7 +333,16 @@ export async function mapStatblock(block, {resolve, aliases}) {
     // --- Species and classes ------------------------------------------------------------------
     if (block.species) {
         const result = await resolveOne({name: block.species}, "species", {resolve, aliasIndex});
-        record(result, {answers: [actorData.system.size]});
+        // "Shaped Beast Template", "Pack", "Swarm" - creature templates the wiki writes on the type
+        // line where a species would go. There is no species to add, so they are recorded as text
+        // like any other special quality rather than reported as something to fix.
+        if (result.status === "unresolved") {
+            textOnlyTraits.push(block.species);
+            report.textOnly.push({name: block.species, type: "species",
+                reason: "kept as description text; not a species this fork carries"});
+        } else {
+            record(result, {answers: [actorData.system.size]});
+        }
     } else {
         // No species means nothing supplies the size TRAIT, and that trait is what carries the
         // homebrew size table: reflexDefenseBonusScalable, damageThresholdSizeModifierScalable,
@@ -381,7 +391,22 @@ export async function mapStatblock(block, {resolve, aliases}) {
     await mapList(block.forceSecrets, "forceSecret");
     await mapList(block.forceTechniques, "forceTechnique");
     await mapList(block.forceRegimens, "forceRegimen");
-    await mapList(block.speciesTraits, "speciesTrait");
+    // Special qualities that are not a natural weapon get no automation. A creature's bespoke
+    // abilities - Rakghoul Disease, Overwhelm, Terrifying Presence - have no equivalent in the
+    // beast-components pack, which is a beast-BUILDING toolkit rather than a catalogue of every
+    // published creature. Where one resolves it is added as an item; where it does not it becomes
+    // description text rather than a reported failure, because there is nothing for the GM to
+    // decide and the statblock already describes it in prose.
+    for (const entry of block.speciesTraits ?? []) {
+        const result = await resolveOne(entry, "speciesTrait", {resolve, aliasIndex});
+        if (result.status === "unresolved") {
+            textOnlyTraits.push(entry.name);
+            report.textOnly.push({name: entry.name, type: "trait",
+                reason: "kept as description text; this fork has no item for it"});
+            continue;
+        }
+        record(result);
+    }
     // "Languages: Basic, Bothese, 3 Unassigned" - the last is a count of blank slots the NPC was
     // never given, not a language. Reported so the GM knows, rather than left hunting for an item.
     for (const language of block.languages ?? []) {
@@ -480,6 +505,7 @@ export async function mapStatblock(block, {resolve, aliases}) {
     // --- Free text ------------------------------------------------------------------------------
     const biography = [
         block.notes?.length ? block.notes.join("\n\n") : null,
+        textOnlyTraits.length ? `Special Qualities: ${textOnlyTraits.join(", ")}` : null,
         // Anything the parser did not recognise is kept verbatim rather than silently dropped.
         block.unparsed?.length ? `Not imported:\n${block.unparsed.join("\n")}` : null,
         block.immunities?.length ? `Immune: ${block.immunities.join(", ")}` : null,

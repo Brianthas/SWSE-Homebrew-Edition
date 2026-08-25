@@ -1,0 +1,63 @@
+{
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Natural weapon taken from published beast statblocks: Bloodsniffer (Medium, 1d6); Bloodsniffer Pack (Large, 1d6). Damage is fixed at 1d6, as printed.",
+    "textDescription": "Natural weapon taken from published beast statblocks: Bloodsniffer (Medium, 1d6); Bloodsniffer Pack (Large, 1d6). Damage is fixed at 1d6, as printed.",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": "Physical",
+        "key": "damageType"
+      },
+      {
+        "mode": 2,
+        "value": "1d6",
+        "key": "damage"
+      }
+    ],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "cost": "0",
+    "weight": "",
+    "availability": "",
+    "size": "",
+    "type": "",
+    "subtype": "Melee Natural Weapons",
+    "quantity": 1,
+    "categories": [],
+    "items": [],
+    "supplier": {},
+    "possibleProviders": [],
+    "isSupplied": false,
+    "activeModes": []
+  },
+  "name": "Tongue Spur",
+  "flags": {},
+  "type": "beastAttack",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.4.1",
+    "createdTime": 1787697270391,
+    "modifiedTime": 1787697270391,
+    "lastModifiedBy": "QbSDmWtCxkDQdQLb",
+    "exportSource": null
+  },
+  "_id": "GghIJRvHIsRnfzlq",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QbSDmWtCxkDQdQLb": 3
+  },
+  "_key": "!items!GghIJRvHIsRnfzlq"
+}

@@ -298,6 +298,26 @@ function parseTypeLine(line) {
     return result;
 }
 
+/** Splits on a separator only where brackets are balanced. */
+function splitOutsideBrackets(text, separator) {
+    const parts = [];
+    let depth = 0, current = "";
+    for (let i = 0; i < text.length; i++) {
+        const c = text[i];
+        if (c === "(" || c === "[") depth++;
+        else if (c === ")" || c === "]") depth = Math.max(0, depth - 1);
+        if (depth === 0 && text.toLowerCase().startsWith(separator, i)) {
+            parts.push(current.trim());
+            current = "";
+            i += separator.length - 1;
+            continue;
+        }
+        current += c;
+    }
+    parts.push(current.trim());
+    return parts.filter(Boolean);
+}
+
 /** Index of `needle` in `text` where brackets are balanced, or -1. */
 function indexOfAtTopLevel(text, needle) {
     let depth = 0;
@@ -349,8 +369,10 @@ function parseAttackLine(range, value) {
         body = cleaned.slice(0, withMatch.index).trim();
     }
 
+    // "Bite +3 (1d2) (Rakghoul Disease and Burrow)" is ONE attack. Splitting on " and " without
+    // regard for brackets cut that in half and produced an attack literally named "Burrow)".
     const attacks = [];
-    for (const part of body.split(/\s+and\s+/i)) {
+    for (const part of splitOutsideBrackets(body, " and ")) {
         let text = part.trim();
 
         // A rider after the damage: "Bite +7 (1d4+1) plus Poison". Found at bracket depth zero so
