@@ -78,8 +78,12 @@ export class StatblockImportApp extends HandlebarsApplicationMixin(ApplicationV2
             mapped: report.mapped.length,
             dropped: report.dropped.length,
             unresolved: report.unresolved.length,
-            collapsed: report.collapsed.length
+            collapsed: report.collapsed.length,
+            choices: report.choices.length
         };
+        context.choices = report.choices.map((row, index) => ({
+            index, name: row.name, type: row.type, reason: row.reason, options: row.options
+        }));
         context.mapped = report.mapped.map(row => ({
             ...row,
             changed: row.from !== row.to
@@ -193,6 +197,30 @@ export class StatblockImportApp extends HandlebarsApplicationMixin(ApplicationV2
             });
         }
 
+        // Class choices for the retired prestige classes. Applied here, and deliberately NOT
+        // passed to rememberAliases below: which class an Assassin becomes is a judgement about
+        // this character, not a fact about the world, so remembering it would silently stop asking
+        // and misclass every later import.
+        const chosen = [];
+        for (const select of this.element.querySelectorAll("select[data-choice-index]")) {
+            if (!select.value) continue;
+            const [type, ...rest] = select.value.split(":");
+            const name = rest.join(":");
+            const row = this.#report.choices[Number(select.dataset.choiceIndex)];
+            const extra = row?.extra ?? {};
+
+            // Several retired classes can land on the same replacement, and a class taken twice
+            // must ADD its levels rather than appear twice. Same merge the mapper does for
+            // Scoundrel and Scout both becoming Smuggler.
+            const existing = actorData.system.providedItems.find(i => i.type === type && i.name === name);
+            if (existing && type === "class") {
+                existing.quantity = String(Number(existing.quantity ?? 1) + Number(extra.quantity ?? 1));
+            } else {
+                actorData.system.providedItems.push({name, type, ...extra});
+            }
+            chosen.push(`${row?.name ?? "?"} -> ${name}`);
+        }
+
         this.#busy = true;
         await this.render();
 
@@ -217,6 +245,7 @@ export class StatblockImportApp extends HandlebarsApplicationMixin(ApplicationV2
             this.#importNotes = [
                 `Added ${actor.items.size} items.`,
                 substitutions.length ? `Substituted: ${substitutions.map(s => s.label).join(", ")}.` : null,
+                chosen.length ? `Class chosen: ${chosen.join(", ")}.` : null,
                 remembered ? `Remembered ${remembered} substitution${remembered === 1 ? "" : "s"} for next time.` : null,
                 failures.length ? `Could not add: ${failures.map(f => f.name ?? f).join(", ")}.` : null,
                 ...notes

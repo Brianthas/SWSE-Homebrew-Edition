@@ -73,6 +73,7 @@
       .dropped { color: var(--swse-text-muted); }
       .unresolved { color: var(--swse-accent-combat); }
       .collapsed { color: var(--swse-accent-force); }
+      .choices { color: var(--swse-accent); font-weight: 600; }
     }
   }
 
@@ -118,6 +119,9 @@
     }
 
     &.unresolved { border-color: var(--swse-accent-combat); }
+    // A retired class needs a decision just as much as a missing item, so it is flagged rather
+    // than left to look like ordinary information.
+    &.choices { border-color: var(--swse-accent); }
   }
 
   .unresolved-row {

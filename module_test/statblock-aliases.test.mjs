@@ -66,7 +66,15 @@ describe("statblock alias table", () => {
         for (const entry of entries) {
             assert.ok(entry.from?.type && entry.from?.name, `malformed from: ${JSON.stringify(entry)}`);
             assert.ok(entry.reason, `entry is missing its house rule citation: ${JSON.stringify(entry.from)}`);
-            if (entry.to !== null) {
+            if (entry.choose) {
+                assert.ok(Array.isArray(entry.choose) && entry.choose.length > 1,
+                    `a choose entry needs at least two options: ${JSON.stringify(entry.from)}`);
+                assert.equal(entry.to, undefined,
+                    `an entry has both choose and to, which is ambiguous: ${JSON.stringify(entry.from)}`);
+                for (const option of entry.choose) {
+                    assert.ok(option?.type && option?.name, `malformed choose option: ${JSON.stringify(entry)}`);
+                }
+            } else if (entry.to !== null) {
                 assert.ok(entry.to?.type && entry.to?.name, `malformed to: ${JSON.stringify(entry)}`);
             }
         }
@@ -74,9 +82,20 @@ describe("statblock alias table", () => {
 
     test("every target resolves in this fork", () => {
         const broken = entries
-            .filter(e => e.to !== null && !exists(e.to))
+            .filter(e => !e.choose && e.to !== null && !exists(e.to))
             .map(e => `${e.from.name} -> ${e.to.type} "${e.to.name}"`);
         assert.deepEqual(broken, [], "alias targets that no longer exist");
+    });
+
+    test("every option of every choose entry resolves", () => {
+        // A choice the GM cannot actually pick is worse than no choice at all.
+        const broken = [];
+        for (const entry of entries.filter(e => e.choose)) {
+            for (const option of entry.choose) {
+                if (!exists(option)) broken.push(`${entry.from.name} -> ${option.type} "${option.name}"`);
+            }
+        }
+        assert.deepEqual(broken, [], "choose options that do not exist");
     });
 
     test("no source name still resolves", () => {
@@ -102,7 +121,7 @@ describe("statblock alias table", () => {
     test("collapse is set wherever several sources share a target", () => {
         const targets = new Map();
         for (const entry of entries) {
-            if (entry.to === null) continue;
+            if (entry.choose || entry.to === null) continue;
             const key = `${entry.to.type}:${entry.to.name}`;
             if (!targets.has(key)) targets.set(key, []);
             targets.get(key).push(entry);
@@ -111,6 +130,7 @@ describe("statblock alias table", () => {
         for (const [key, group] of targets) {
             if (group.length > 1 && group.some(e => !e.collapse)) missing.push(key);
         }
+        // choose entries have no single target, so they are not part of this rule.
         assert.deepEqual(missing, [], "many-to-one targets must set collapse so duplicates are dropped");
     });
 
@@ -130,6 +150,26 @@ describe("statblock alias table", () => {
         assert.equal(target("Deflect"), "Dueling Stance");
         assert.equal(target("Redirect Shot"), "Redirection Stance");
         assert.equal(target("Riposte"), "Redirection Stance");
+    });
+
+    test("every retired prestige class is accounted for", () => {
+        // From the Prestige Classes section of HOUSERULES.md. Each is either mapped onto the class
+        // that absorbed it, offered as a choice where two classes carry its talent tree, or left as
+        // a deliberate deletion. What must never happen is one of them silently going missing.
+        const retired = ["Assassin", "Charlatan", "Corporate Agent", "Enforcer", "Gladiator",
+            "Improviser", "Infiltrator", "Master Privateer", "Medic", "Military Engineer", "Outlaw",
+            "Pathfinder", "Saboteur", "Shaper", "Spy", "Vanguard"];
+        const missing = retired.filter(name =>
+            !entries.some(e => e.from.type === "class" && e.from.name === name));
+        assert.deepEqual(missing, [], "retired prestige classes with no alias entry");
+    });
+
+    test("the ambiguous prestige classes ask rather than guess", () => {
+        const asks = name => entries.find(e => e.from.type === "class" && e.from.name === name)?.choose
+            ?.map(o => o.name).sort();
+        assert.deepEqual(asks("Assassin"), ["Agent", "Operative"]);
+        assert.deepEqual(asks("Spy"), ["Agent", "Operative"]);
+        assert.deepEqual(asks("Master Privateer"), ["Agent", "Melee Duelist"]);
     });
 
     test("routes both merged classes to Smuggler", () => {

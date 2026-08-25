@@ -42,8 +42,35 @@
                 <span class="dropped">{{counts.dropped}} dropped by house rule</span>
                 <span class="unresolved">{{counts.unresolved}} unresolved</span>
                 <span class="collapsed">{{counts.collapsed}} merged</span>
+                {{#if counts.choices}}<span class="choices">{{counts.choices}} to choose</span>{{/if}}
             </p>
         </header>
+
+        {{#if choices.length}}
+            <section class="statblock-section choices">
+                <h3>Absorbed &mdash; pick which class replaces it</h3>
+                <p class="hint">
+                    This class was retired and its talent tree now sits on more than one class, so
+                    which one this character should be is your call. The levels carry across either
+                    way. These are asked every time rather than remembered, because the answer
+                    belongs to the character and not to the name.
+                </p>
+                {{#each choices}}
+                    <div class="unresolved-row">
+                        <div class="original">
+                            <span class="name">{{this.name}}</span>
+                            <span class="reason">{{this.reason}}</span>
+                        </div>
+                        <select data-choice-index="{{this.index}}">
+                            {{#each this.options}}
+                                <option value="{{this.type}}:{{this.name}}">{{this.name}}</option>
+                            {{/each}}
+                            <option value="">Leave out</option>
+                        </select>
+                    </div>
+                {{/each}}
+            </section>
+        {{/if}}
 
         {{#if unresolved.length}}
             <section class="statblock-section unresolved">

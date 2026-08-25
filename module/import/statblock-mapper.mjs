@@ -136,6 +136,28 @@ async function resolveOne(entry, kind, {resolve, aliasIndex}) {
             if (alias) break;
         }
         if (!alias) continue;
+
+        // An alias with `choose` has no single right answer, so it asks rather than picking. The
+        // retired prestige classes are the case: Assassin is a talent tree on BOTH Agent and
+        // Operative, so which one a given NPC should be is a judgement about that character.
+        if (Array.isArray(alias.choose) && alias.choose.length) {
+            const options = [];
+            for (const option of alias.choose) {
+                const found = await resolve(option.name, [option.type]);
+                if (found) options.push(found);
+            }
+            if (options.length) {
+                return {
+                    status: "choice", source: {type, name: sourceName},
+                    options, reason: alias.reason
+                };
+            }
+            return {
+                status: "unresolved", source: {type, name: sourceName}, candidates,
+                reason: `none of this entry's choices exist in the packs`
+            };
+        }
+
         if (alias.to === null) {
             return {status: "dropped", source: {type, name: sourceName}, reason: alias.reason};
         }
@@ -224,7 +246,7 @@ function derivePayload(original, matched) {
  */
 export async function mapStatblock(block, {resolve, aliases}) {
     const aliasIndex = indexAliases(aliases);
-    const report = {mapped: [], dropped: [], unresolved: [], collapsed: [], printed: block.printed};
+    const report = {mapped: [], dropped: [], unresolved: [], collapsed: [], choices: [], printed: block.printed};
     const providedItems = [];
     const seenTargets = new Set();
 
@@ -243,6 +265,19 @@ export async function mapStatblock(block, {resolve, aliases}) {
                 // review dialog can offer the right substitutes and re-apply "equipped" and the like
                 // to whatever the GM picks.
                 candidates: result.candidates ?? [result.source.type],
+                extra
+            });
+            return;
+        }
+        if (result.status === "choice") {
+            // Nothing is added here. The dialog asks, and the answer is applied at creation time.
+            report.choices.push({
+                name: result.source.name,
+                type: result.source.type,
+                reason: result.reason,
+                options: result.options,
+                // The providedItem extras this entry would have carried, so whichever option the GM
+                // picks is added with the right class levels and firstLevel flag.
                 extra
             });
             return;

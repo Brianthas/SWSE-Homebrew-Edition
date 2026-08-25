@@ -3515,6 +3515,10 @@
 .statblock-import .statblock-import-summary .counts .collapsed {
   color: var(--swse-accent-force);
 }
+.statblock-import .statblock-import-summary .counts .choices {
+  color: var(--swse-accent);
+  font-weight: 600;
+}
 .statblock-import .statblock-section {
   border: 1px solid var(--swse-border);
   border-radius: 4px;
@@ -3554,6 +3558,9 @@
 }
 .statblock-import .statblock-section.unresolved {
   border-color: var(--swse-accent-combat);
+}
+.statblock-import .statblock-section.choices {
+  border-color: var(--swse-accent);
 }
 .statblock-import .unresolved-row {
   display: flex;
