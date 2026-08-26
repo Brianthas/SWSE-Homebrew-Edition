@@ -3441,9 +3441,16 @@
   color: var(--swse-bg);
 }
 
+.statblock-import .window-content {
+  min-height: 0;
+}
 .statblock-import .statblock-import-form {
   display: flex;
   flex-direction: column;
+  flex: 1 1 auto;
+  min-height: 0;
+  max-height: 100%;
+  overflow-y: auto;
   gap: 0.75rem;
   padding: 0.5rem;
   color: var(--swse-text);

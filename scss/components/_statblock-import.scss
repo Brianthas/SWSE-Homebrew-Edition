@@ -4,9 +4,23 @@
 // root rather than inside a sheet, so the scoped-reset and text colour do not reach them.
 
 .statblock-import {
+  // ApplicationV2's `scrollable` part option only PRESERVES scroll position across re-renders; it
+  // does not make anything scroll and it does not add a class. Foundry's own .window-content is
+  // overflow:hidden, so without this the review step simply gets cut off at the window edge with no
+  // way to reach the rest of it. The form is the part root, so it is the element that has to carry
+  // the scrollbar, and a flex child needs min-height:0 before it will shrink below its own content
+  // and produce one.
+  .window-content {
+    min-height: 0;
+  }
+
   .statblock-import-form {
     display: flex;
     flex-direction: column;
+    flex: 1 1 auto;
+    min-height: 0;
+    max-height: 100%;
+    overflow-y: auto;
     gap: 0.75rem;
     padding: 0.5rem;
     color: var(--swse-text);
