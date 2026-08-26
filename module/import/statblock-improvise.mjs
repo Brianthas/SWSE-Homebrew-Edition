@@ -122,6 +122,50 @@ export function readBonuses(detail, skillNames) {
 }
 
 /**
+ * Reads a count off the front of an entry's bracket.
+ *
+ * Darth Vader's line is "Cybernetic Prosthesis (4, Both Arms and Legs)", and the 4 is the whole
+ * mechanical point of it: the wiki's rule for the item is "-1 penalty on Use the Force checks for
+ * each prosthetic replacement they possess (to a maximum penalty of -5)". Importing one gave him
+ * -1 where he should have -4, so his Use the Force read three points too high.
+ *
+ * Deliberately narrow. It must be an unsigned integer at the very start, closed by a comma or the
+ * end of the bracket, so it cannot catch a bonus ("+8 Reflex", signed) or a qualifier
+ * ("Self-Built", not a digit). Capped at 20 because a statblock typo should not create hundreds of
+ * embedded items.
+ */
+export function countFromPayload(payload) {
+    const match = /^\s*(\d+)\s*(?:,|$)/.exec(String(payload ?? ""));
+    if (!match) return 1;
+    const count = Number(match[1]);
+    return Number.isInteger(count) && count > 1 && count <= 20 ? count : 1;
+}
+
+/**
+ * Identity of what a change actually modifies, for spotting one that is already there.
+ *
+ * `key` alone is too coarse for skills: every skill bonus in the packs is keyed `skillBonus`, so
+ * comparing keys would treat "+2 Perception" as already present because the item happens to carry
+ * an unrelated "Use the Force -1". The skill name has to be part of the identity.
+ */
+export function changeTarget(change) {
+    if (change?.key === "skillBonus") {
+        return `skillBonus:${String(change.value).split(":")[0].trim().toLowerCase()}`;
+    }
+    return String(change?.key ?? "");
+}
+
+/** Human-readable form of a change, for the import report. */
+export function describeChange(change) {
+    if (change?.key === "skillBonus") {
+        const [skill, value] = String(change.value).split(":");
+        return `${Number(value) >= 0 ? "+" : ""}${value} ${skill}`;
+    }
+    const label = String(change?.key ?? "").replace(/DefenseBonus$/, "");
+    return `${Number(change?.value) >= 0 ? "+" : ""}${change?.value} ${label}`;
+}
+
+/**
  * Builds the item payload for an unresolved row the GM chose to import anyway.
  *
  * @param {object} row              a row from report.unresolved ({name, type, printed})

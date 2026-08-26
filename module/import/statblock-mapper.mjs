@@ -19,6 +19,12 @@
  * beastSense on a creature, and getting this wrong is what made "Fast Healing 5" look missing when
  * it exists in beast-components.
  */
+// Both this module and statblock-improvise.mjs have zero further imports, which is what keeps
+// them runnable under plain `node --test` without Foundry.
+import {readBonuses, splitPrinted, countFromPayload, changeTarget, describeChange}
+    from "./statblock-improvise.mjs";
+
+
 export const TYPE_CANDIDATES = {
     species: ["species"],
     class: ["class"],
@@ -491,7 +497,12 @@ export async function mapStatblock(block, {resolve, aliases}) {
             possessions.push({...entry, name: part});
         }
     }
-    await mapList(possessions, "possession", () => ({equip: "equipped"}));
+    // The leading number in a bracket is a count: Vader carries "Cybernetic Prosthesis
+    // (4, Both Arms and Legs)", and each prosthesis is its own -1 to Use the Force.
+    await mapList(possessions, "possession", entry => {
+        const count = countFromPayload(entry.payload);
+        return count > 1 ? {equip: "equipped", quantity: count} : {equip: "equipped"};
+    });
 
     // --- Skills ---------------------------------------------------------------------------------
     // Only the SET of trained skills transfers. The printed bonus is a RAW output built from a
@@ -629,9 +640,61 @@ async function pinPrintedAttackDamage(actor, attacks, notes) {
     if (updates.length) await actor.updateEmbeddedDocuments("Item", updates);
 }
 
-export async function finalizeImportedActor(actor, actorData, {attacks = []} = {}) {
+/**
+ * Adds the bonuses a statblock states in a gear entry's bracket onto that item on the actor.
+ *
+ * The "Import it anyway" path already reads those brackets, but only for gear that did NOT resolve.
+ * An entry that DID resolve was taking the pack item's own effects and silently dropping whatever
+ * the statblock said this particular character's copy does, so a cybernetic arm printed with a
+ * bonus arrived as a plain arm.
+ *
+ * Guarded against double counting, which is the real hazard here: a bonus is only added when the
+ * pack item does not already carry one against the same target. That comparison cannot be on `key`
+ * alone, because every skill bonus in the packs is keyed `skillBonus` - Cybernetic Prosthesis
+ * carries "Use the Force:-1", and a bracket reading "+2 Perception" must still apply.
+ *
+ * The pack item stays a template; only the actor's embedded copy is changed.
+ */
+async function applyPrintedGearBonuses(actor, possessions, skillNames, notes) {
+    if (!possessions?.length) return;
+    const updates = [];
+    for (const entry of possessions) {
+        const {name, detail} = splitPrinted(entry.raw ?? entry.name ?? "");
+        if (!detail) continue;
+        const {changes} = readBonuses(detail, skillNames);
+        if (!changes.length) continue;
+
+        const items = actor.items.filter(i => i.name.toLowerCase() === name.toLowerCase());
+        if (!items.length) continue;   // unresolved; the "Import it anyway" path owns that case
+
+        const added = [];
+        for (const item of items) {
+            const current = item.system?.changes ?? [];
+            const seen = new Set(current.map(changeTarget));
+            const additions = changes.filter(c => !seen.has(changeTarget(c)));
+            if (!additions.length) continue;
+            updates.push({
+                _id: item.id,
+                "system.changes": [...current.map(c => ({...c})), ...additions]
+            });
+            if (!added.length) added.push(...additions);
+        }
+        // One note per entry, not one per copy: Vader has four prostheses and four identical lines
+        // would be noise.
+        if (added.length) {
+            notes.push(`${name}: applied ${added.map(describeChange).join(", ")} as printed`
+                + (items.length > 1 ? ` (on each of ${items.length})` : "") + ".");
+        }
+    }
+    if (updates.length) await actor.updateEmbeddedDocuments("Item", updates);
+}
+
+export async function finalizeImportedActor(actor, actorData,
+        {attacks = [], possessions = [], skills = []} = {}) {
     const notes = [];
     await pinPrintedAttackDamage(actor, attacks, notes);
+    await applyPrintedGearBonuses(actor, possessions,
+        new Set([...skills].map(s => String(s).toLowerCase())), notes);
     const desired = Object.entries(actorData.system?.skills ?? {})
         .filter(([, skill]) => skill?.trained)
         .map(([name]) => name);

@@ -258,7 +258,11 @@ export class StatblockImportApp extends HandlebarsApplicationMixin(ApplicationV2
 
             const notes = await finalizeImportedActor(actor, {
                 system: {skills: Object.fromEntries(wantedSkills.map(name => [name, {trained: true}]))}
-            }, {attacks: this.#block?.attacks ?? []});
+            }, {
+                attacks: this.#block?.attacks ?? [],
+                possessions: this.#block?.possessions ?? [],
+                skills: skills(actor.type)
+            });
 
             // Items this fork has no match for, that the GM chose to build from the printed text.
             const improvisedNotes = [];

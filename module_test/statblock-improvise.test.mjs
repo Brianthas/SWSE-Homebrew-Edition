@@ -8,7 +8,8 @@
 import {test, describe} from "node:test";
 import assert from "node:assert/strict";
 
-import {buildImprovisedItem, readBonuses, splitPrinted} from "../module/import/statblock-improvise.mjs";
+import {buildImprovisedItem, readBonuses, splitPrinted, countFromPayload, changeTarget, describeChange}
+    from "../module/import/statblock-improvise.mjs";
 import {skills} from "../module/common/constants.mjs";
 
 const SKILLS = skills("character");
@@ -107,5 +108,63 @@ describe("buildImprovisedItem", () => {
         const {payload} = buildImprovisedItem(row, {skills: SKILLS});
         assert.ok(!payload.system.description.includes("<img"));
         assert.match(payload.system.description, /&lt;img/);
+    });
+});
+
+describe("countFromPayload", () => {
+    test("reads Vader's four prostheses", () => {
+        // "-1 penalty on Use the Force checks for each prosthetic replacement they possess"
+        // (swse.fandom.com/wiki/Cybernetic_Prosthesis), so the 4 is worth -4, not -1.
+        assert.equal(countFromPayload("4, Both Arms and Legs"), 4);
+    });
+
+    test("a bare count with nothing after it still counts", () => {
+        assert.equal(countFromPayload("2"), 2);
+    });
+
+    test("never mistakes a bonus for a count", () => {
+        // The bracket on a piece of gear is far more often a bonus than a count, and reading
+        // "+8 Reflex" as eight copies would be considerably worse than reading it as none.
+        assert.equal(countFromPayload("+8 Reflex; +2 Perception"), 1);
+        assert.equal(countFromPayload("-2 Will"), 1);
+    });
+
+    test("never mistakes a qualifier for a count", () => {
+        assert.equal(countFromPayload("Self-Built"), 1);
+        assert.equal(countFromPayload("As Armored Flight Suit with Helmet Package"), 1);
+        assert.equal(countFromPayload(null), 1);
+    });
+
+    test("ignores a number that does not open the bracket", () => {
+        assert.equal(countFromPayload("Both Arms and Legs, 4"), 1);
+    });
+
+    test("refuses an absurd count rather than creating hundreds of items", () => {
+        assert.equal(countFromPayload("500, typo"), 1);
+        assert.equal(countFromPayload("20, fine"), 20);
+    });
+});
+
+describe("changeTarget", () => {
+    test("separates skill bonuses by skill, not just by key", () => {
+        // The guard against double counting depends on this. Cybernetic Prosthesis carries
+        // "Use the Force:-1"; comparing on `key` alone would call a printed "+2 Perception"
+        // already present, because both are keyed skillBonus, and silently drop it.
+        const utf = {key: "skillBonus", value: "Use the Force:-1:IMPLANT"};
+        const perception = {key: "skillBonus", value: "Perception:2:IMPORTED"};
+        assert.notEqual(changeTarget(utf), changeTarget(perception));
+        assert.equal(changeTarget({key: "skillBonus", value: "Perception:9:X"}), changeTarget(perception));
+    });
+
+    test("defenses compare by key", () => {
+        assert.equal(changeTarget({key: "reflexDefenseBonus", value: "8"}), "reflexDefenseBonus");
+    });
+});
+
+describe("describeChange", () => {
+    test("reads back the way the statblock printed it", () => {
+        assert.equal(describeChange({key: "reflexDefenseBonus", value: "8"}), "+8 reflex");
+        assert.equal(describeChange({key: "skillBonus", value: "Perception:2:IMPORTED"}), "+2 Perception");
+        assert.equal(describeChange({key: "skillBonus", value: "Use the Force:-1:IMPLANT"}), "-1 Use the Force");
     });
 });

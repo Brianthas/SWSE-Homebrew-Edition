@@ -51,6 +51,16 @@ change with an unrecognised key silently does nothing and a bonus that never
 applies is worse than one you can see is missing. Everything built this way is an
 `equipment` item, so it never turns into a spurious attack.
 
+Gear that *does* resolve gets the same treatment for its bracket. A count at the
+front becomes a quantity, and any bonus stated there is added to that character's
+copy of the item unless the pack item already grants one against the same target.
+Vader's `Cybernetic Prosthesis (4, Both Arms and Legs)` now arrives as four
+implants, so the pack item's -1 Use the Force applies four times: the wiki's rule
+is "-1 penalty on Use the Force checks for each prosthetic replacement they
+possess (to a maximum penalty of -5)", and his derived Use the Force lands on the
++17 the statblock prints. Nothing caps that penalty at -5 yet, so a creature with
+six prostheses will read -6.
+
 Text that this fork has no item for (Rakghoul Disease, Overwhelm and the like) is
 kept as description text on the sheet rather than dropped.
 
