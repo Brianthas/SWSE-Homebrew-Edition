@@ -634,6 +634,7 @@ export async function finalizeImportedActor(actor, actorData, {attacks = []} = {
 
     if (desired.length === 0) {
         await actor.prepareData();
+        await fillCurrentHitPoints(actor, notes);
         await sizePrototypeToken(actor, notes);
         return notes;
     }
@@ -659,6 +660,7 @@ export async function finalizeImportedActor(actor, actorData, {attacks = []} = {
     for (const name of desired) skillUpdate[name] = {trained: true};
     await actor.safeUpdate({system: {skills: skillUpdate}});
     await actor.prepareData();
+    await fillCurrentHitPoints(actor, notes);
     await sizePrototypeToken(actor, notes);
 
     const stillMissing = desired.filter(name => !actor.system.skills?.[name]?.trained);
@@ -666,6 +668,24 @@ export async function finalizeImportedActor(actor, actorData, {attacks = []} = {
         notes.push(`Could not train: ${stillMissing.join(", ")}.`);
     }
     return notes;
+}
+
+/**
+ * Fills current hit points up to the derived maximum.
+ *
+ * `system.health.max` is derived, but `system.health.value` is stored, and nothing in the import
+ * path was writing it - so every imported creature kept the data model's default of 10 and the
+ * sheet read "10 / 124" for a Rancor, i.e. every beast arrived nearly dead. Foundry only derives
+ * max once the actor's items are on it, so this has to run after prepareData rather than being set
+ * on the payload.
+ */
+async function fillCurrentHitPoints(actor, notes) {
+    const max = Number(actor.system?.health?.max);
+    if (!Number.isFinite(max) || max <= 0) return;
+    if (Number(actor._source.system?.health?.value) === max) return;
+    await actor.safeUpdate({"system.health.value": max});
+    await actor.prepareData();
+    notes.push(`Current hit points set to ${max}.`);
 }
 
 /**
