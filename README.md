@@ -64,6 +64,13 @@ six prostheses will read -6.
 Text that this fork has no item for (Rakghoul Disease, Overwhelm and the like) is
 kept as description text on the sheet rather than dropped.
 
+Class levels take average hit points, half the hit die rounded up, exactly as the
+**Avg** button on the Classes tab does. A level with nothing recorded counts as 1,
+so before this Darth Vader's nineteen levels totalled 105 against the 181 his
+statblock prints. Rolling instead would make the same import produce a different
+character each time, so average is the default; roll or type any level by hand on
+the Classes tab afterwards. Character level 1 keeps its fixed starting hit points.
+
 Afterwards it shows what the wiki printed beside what this fork derived, with a
 checkbox to pin a printed value where you want it. Nothing is pinned by default.
 

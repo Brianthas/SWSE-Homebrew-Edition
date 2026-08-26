@@ -689,12 +689,54 @@ async function applyPrintedGearBonuses(actor, possessions, skillNames, notes) {
     if (updates.length) await actor.updateEmbeddedDocuments("Item", updates);
 }
 
+/**
+ * Sets every rolled class level to its average hit points.
+ *
+ * A class level with no `rolledHp` recorded falls back to 1 (SWSEItem#classLevelHealth), so an
+ * imported character arrived with one hit point per level: Darth Vader's nineteen levels totalled
+ * 105 against the 181 his statblock prints. Rolling instead would be random and would make the same
+ * import produce a different character twice, so average is the right default. The GM can still
+ * roll or type any level individually on the Classes tab afterwards.
+ *
+ * Reuses `actor.classes`, which is what the sheet's own Avg button reads, so the rounding here
+ * cannot drift from the rounding that button applies (half the die rounded up: 1d10 becomes 6).
+ * Character level 1 is skipped because it takes fixed first-level hit points and is not rerollable.
+ */
+async function setAverageLevelHitPoints(actor, notes) {
+    let updated = 0;
+    for (const entry of actor.classes ?? []) {
+        if (!entry.canRerollHealth) continue;
+        if (!(entry.averageHitPoints > 0)) continue;
+        const item = actor.items.get(entry.id);
+        const levelEffect = item?.level(entry.classLevel);
+        if (!levelEffect) continue;
+
+        const changes = (levelEffect.changes ?? []).map(c => ({...c}));
+        const existing = changes.find(c => c.key === "rolledHp");
+        if (existing) {
+            if (String(existing.value) === String(entry.averageHitPoints)) continue;
+            existing.value = entry.averageHitPoints;
+        } else {
+            changes.push({key: "rolledHp", mode: 2, value: entry.averageHitPoints});
+        }
+        await levelEffect.safeUpdate({changes});
+        updated++;
+    }
+    if (updated) {
+        await actor.prepareData();
+        notes.push(`Took average hit points on ${updated} class level${updated === 1 ? "" : "s"}.`);
+    }
+}
+
 export async function finalizeImportedActor(actor, actorData,
         {attacks = [], possessions = [], skills = []} = {}) {
     const notes = [];
     await pinPrintedAttackDamage(actor, attacks, notes);
     await applyPrintedGearBonuses(actor, possessions,
         new Set([...skills].map(s => String(s).toLowerCase())), notes);
+    // Before fillCurrentHitPoints below, which fills current up to max: setting the level hit
+    // points afterwards would raise max and leave the creature looking damaged on arrival.
+    await setAverageLevelHitPoints(actor, notes);
     const desired = Object.entries(actorData.system?.skills ?? {})
         .filter(([, skill]) => skill?.trained)
         .map(([name]) => name);
