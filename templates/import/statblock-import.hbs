@@ -74,10 +74,15 @@
 
         {{#if unresolved.length}}
             <section class="statblock-section unresolved">
-                <h3>Not found &mdash; pick a substitute or leave it out</h3>
+                <h3>Not found &mdash; substitute it, build it, or leave it out</h3>
                 <p class="hint">
                     This fork ships far less gear than the wiki lists, so weapons and armour usually
                     land here. Anything left as &ldquo;Leave out&rdquo; is simply not added.
+                    <b>Import it anyway</b> builds the item from what the statblock printed: any
+                    bonus it states to a defence or a real skill becomes a live change, and anything
+                    that cannot be automated is written into the item's description for you to rule
+                    on. Vader's <i>Custom Armor (... +8 Reflex; +2 Perception, Low-Light Vision)</i>
+                    comes out carrying the +8 and the +2, with the Low-Light Vision noted in text.
                 </p>
                 {{#each unresolved}}
                     <div class="unresolved-row">
@@ -87,6 +92,7 @@
                         </div>
                         <select data-unresolved-index="{{this.index}}">
                             <option value="">Leave out</option>
+                            <option value="__improvise__">Import it anyway, with its printed bonuses</option>
                             {{#each this.groups}}
                                 <optgroup label="{{this.label}}">
                                     {{#each this.options}}

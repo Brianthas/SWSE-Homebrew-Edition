@@ -37,8 +37,19 @@ Deflect become one Dueling Stance, Scoundrel and Scout become Smuggler), what
 needs you to choose, and what could not be found. The choices are the retired
 prestige classes whose talent tree two classes now carry, so an Assassin or a Spy
 asks whether this particular NPC is an Agent or an Operative. Anything that could
-not be found offers a dropdown of real substitutes or can be left out. Nothing is
-written until you press **Create actor**.
+not be found offers a dropdown of real substitutes, or **Import it anyway**, or can
+be left out. Nothing is written until you press **Create actor**.
+
+**Import it anyway** builds the item out of what the statblock printed. A wiki
+statblock usually states the bonuses in the bracket after the name, so Darth
+Vader's `Custom Armor (As Armored Flight Suit with Helmet Package (+8 Reflex; +2
+Perception, Low-Light Vision))` comes out as a real item carrying the +8 Reflex
+and the +2 Perception as live changes, with the Low-Light Vision written into its
+description for you to rule on. Only bonuses to a defence, or to a skill this
+fork actually has, become mechanics: anything else stays as text, because a
+change with an unrecognised key silently does nothing and a bonus that never
+applies is worse than one you can see is missing. Everything built this way is an
+`equipment` item, so it never turns into a spurious attack.
 
 Text that this fork has no item for (Rakghoul Disease, Overwhelm and the like) is
 kept as description text on the sheet rather than dropped.

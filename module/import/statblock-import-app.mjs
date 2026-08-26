@@ -11,8 +11,18 @@ import {parseStatblock} from "./statblock-parser.mjs";
 import {mapStatblock, finalizeImportedActor, buildDivergenceReport, applyPins} from "./statblock-mapper.mjs";
 import {buildCompendiumResolver, listCandidates, fetchWikitext, loadAliases, rememberAliases} from "./statblock-resolver.mjs";
 import {processActor} from "../compendium/generation.mjs";
+import {buildImprovisedItem} from "./statblock-improvise.mjs";
+import {skills} from "../common/constants.mjs";
 
 const {ApplicationV2, HandlebarsApplicationMixin} = foundry.applications.api;
+
+/**
+ * Dropdown value meaning "build this from what the statblock printed".
+ *
+ * A sentinel rather than a type:name pair, because every other option names something that already
+ * exists in a pack and this one names something that does not exist yet.
+ */
+const IMPROVISE = "__improvise__";
 
 export class StatblockImportApp extends HandlebarsApplicationMixin(ApplicationV2) {
     static DEFAULT_OPTIONS = {
@@ -178,9 +188,17 @@ export class StatblockImportApp extends HandlebarsApplicationMixin(ApplicationV2
         // choices after flipping the busy flag would silently discard all of them.
         const actorData = foundry.utils.deepClone(this.#actorData);
         const substitutions = [];
+        const improvised = [];
         for (const select of this.element.querySelectorAll("select[data-unresolved-index]")) {
             const value = select.value;
             if (!value) continue;                       // left as "Leave out"
+            const row0 = this.#report.unresolved[Number(select.dataset.unresolvedIndex)];
+            if (value === IMPROVISE) {
+                // Built after the actor exists: this item is not in any pack, so it cannot go
+                // through providedItems, which resolves entries by name.
+                improvised.push(row0);
+                continue;
+            }
             const [type, ...rest] = value.split(":");
             const name = rest.join(":");
             const row = this.#report.unresolved[Number(select.dataset.unresolvedIndex)];
@@ -242,6 +260,20 @@ export class StatblockImportApp extends HandlebarsApplicationMixin(ApplicationV2
                 system: {skills: Object.fromEntries(wantedSkills.map(name => [name, {trained: true}]))}
             }, {attacks: this.#block?.attacks ?? []});
 
+            // Items this fork has no match for, that the GM chose to build from the printed text.
+            const improvisedNotes = [];
+            if (improvised.length) {
+                const built = improvised.map(row => buildImprovisedItem(row, {skills: skills(actor.type)}));
+                await actor.createEmbeddedDocuments("Item", built.map(b => b.payload));
+                for (const b of built) {
+                    improvisedNotes.push(`Built ${b.payload.name}`
+                        + (b.applied.length ? ` with ${b.applied.join(", ")}` : " with no automatic bonuses")
+                        + (b.leftover.length ? `; not automated: ${b.leftover.join("; ")}` : "")
+                        + ".");
+                }
+                await actor.prepareData();
+            }
+
             const failures = created.failures ?? [];
             // Remember the picks BEFORE reporting, so the count is accurate and so a later failure
             // in the divergence step cannot lose them.
@@ -252,6 +284,7 @@ export class StatblockImportApp extends HandlebarsApplicationMixin(ApplicationV2
                 substitutions.length ? `Substituted: ${substitutions.map(s => s.label).join(", ")}.` : null,
                 chosen.length ? `Class chosen: ${chosen.join(", ")}.` : null,
                 remembered ? `Remembered ${remembered} substitution${remembered === 1 ? "" : "s"} for next time.` : null,
+                ...improvisedNotes,
                 failures.length ? `Could not add: ${failures.map(f => f.name ?? f).join(", ")}.` : null,
                 ...notes
             ].filter(Boolean);
