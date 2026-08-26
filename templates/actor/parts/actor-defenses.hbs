@@ -46,9 +46,13 @@
     {{!-- A plain manual add-on for anything not modeled elsewhere (e.g. Improved Defenses) -
           folds into the Misc column above so the combined bonus is visible on the main row;
           always additive, never replaces the auto-computed portion.
-          Character-only: DefenseFields.npc (vehicles/npc-vehicles) doesn't declare this schema
-          field, so an editable input bound to it here would silently fail to save on those. --}}
-    {{#ifEquals actor.type "character"}}
+          Gated on the FIELD, not on actor.type. Vehicles use DefenseFields.npc, which does not
+          declare this, so an input bound to it there would silently fail to save. But the earlier
+          `actor.type == "character"` test also hid it from beasts and NPCs, which inherit
+          CharacterDataModel and do have the field: a beast saved the value and moved its total
+          fine, the sheet simply never offered the box. Testing the field itself cannot drift the
+          next time an actor type is added. --}}
+    {{#if actor.system.defense.additionalModifier}}
     <div class="defense-additional-modifier">
         <span class="defense-additional-modifier-label" title="Adds to the Misc column above and the total.">Additional Modifiers</span>
         <div class="defense-additional-modifier-rows">
@@ -72,14 +76,14 @@
 
     {{!-- Free text for conditional bonuses that can't be a flat number (e.g. "Unstoppable Force:
           +2 Will, but only vs Force effects"). Reminder only - nothing reads this mechanically.
-          Character-only for the same schema reason as Additional Modifiers above. --}}
+          Shown wherever Additional Modifiers are, for the same schema reason. --}}
     <div class="defense-notes">
         <label class="defense-notes-label" for="defenseNotes"
                title="Conditional or situational Defense bonuses - reminder only, not applied automatically.">Notes</label>
         <textarea id="defenseNotes" name="system.defense.notes" rows="2"
                   placeholder="e.g. Unstoppable Force: +5 Fortitude and Will vs Force effects">{{actor.system.defense.notes}}</textarea>
     </div>
-    {{/ifEquals}}
+    {{/if}}
 
     {{#each actor.system.defense.situationalBonuses as |bonus id|}}
         <div class="field-value">{{bonus}}</div>
