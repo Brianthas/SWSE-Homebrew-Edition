@@ -330,6 +330,15 @@ input[type=checkbox]:checked:before {
   transform: translate(-50%, -50%) scale(1);
 }
 
+// Foundry v14 draws its own tick on a checked box: a Font Awesome glyph in ::after, gold, filling
+// the whole 20x20 control. This fork already indicates checked with the blue square in ::before
+// above, so both fired at once and every ticked box showed a checkmark sitting on top of a blue
+// fill. Suppress the core glyph rather than the square, because the square is what every existing
+// sheet in this system already looks like.
+input[type=checkbox]:after {
+  content: none;
+}
+
 input[type=radio] {
   appearance: none;
   width: 20px;
