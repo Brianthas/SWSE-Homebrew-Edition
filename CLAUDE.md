@@ -71,4 +71,19 @@ the entire module.
 `no-undef` is off because fvtt-types checks globals more accurately than a hand-maintained list.
 Style rules that fire in the hundreds here (`no-case-declarations`, `no-extra-boolean-cast`) are
 demoted to warnings so that every error is something that can misbehave at runtime. Current run:
-11 errors, 218 warnings.
+0 errors, 218 warnings. Keep the error count at zero; the warnings are a separate cleanup.
+
+## Tests
+
+`npm test` runs `node --test` over `module_test/**/*.test.mjs`: 96 tests, 94 passing. The two
+failures are in `module_test/actor.test.mjs`, which asserts `firstAid.perDay` and
+`forcePoints.quantity` against the mock actor in `module_test/setup.mjs` and has never passed.
+
+`module_test/setup.mjs` hand-rolls the Foundry globals the module graph touches at import time.
+Anything reaching a new part of that graph will fail on an undefined global rather than on an
+assertion; add the stub rather than working around it. The list of what is needed comes from
+`grep -rho "foundry.applications.[A-Za-z0-9_.]*" module/`.
+
+The 17 files under `module_test/quench/` register Quench batches and only execute inside a running
+Foundry world. Under `node --test` they import cleanly and contribute no assertions, so a green
+`npm test` says nothing about them.

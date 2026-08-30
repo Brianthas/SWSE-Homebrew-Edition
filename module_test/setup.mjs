@@ -161,3 +161,40 @@ global.CONFIG = {
 };
 
 // Add other necessary globals or mocks as needed
+
+// Foundry v13 ApplicationV2 surface. The module graph reaches these at import time, so without
+// them any test that imports util.mjs or actor.mjs dies before its first assertion. Every entry
+// below is a path that appears in module/, found with:
+//   grep -rho "foundry.applications.[A-Za-z0-9_.]*" module/
+class StubApp {}
+StubApp.DEFAULT_OPTIONS = {};
+StubApp.PARTS = {};
+StubApp.TABS = { sheet: { tabs: [] } };
+
+global.Handlebars = {
+  registerHelper: () => {},
+  registerPartial: () => {},
+  compile: () => () => ""
+};
+
+global.foundry.applications.api = {
+  ApplicationV2: StubApp,
+  DocumentSheetV2: StubApp,
+  DialogV2: class extends StubApp { static async prompt() { return null; } },
+  HandlebarsApplicationMixin: (base) => base
+};
+global.foundry.applications.sheets.ItemSheetV2 = StubApp;
+global.foundry.applications.sheets.ActorSheetV2 = StubApp;
+global.foundry.applications.sheets.ActiveEffectConfig = StubApp;
+global.foundry.applications.apps = {
+  DocumentSheetConfig: { registerSheet: () => {} }
+};
+global.foundry.applications.handlebars = {
+  renderTemplate: async () => "",
+  getTemplate: async () => (() => ""),
+  loadTemplates: async () => []
+};
+global.foundry.applications.ux = { ContextMenu: class {} };
+global.foundry.applications.elements = {
+  HTMLProseMirrorElement: { create: () => ({}) }
+};

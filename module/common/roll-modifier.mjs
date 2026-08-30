@@ -61,6 +61,8 @@ export class RollModifier{
         } else if (this.type === "radio") {
             return this.createRadioModifierHTML(this)
         }
+        // Any other modifier type contributes no markup.
+        return undefined;
     }
     /**
      *

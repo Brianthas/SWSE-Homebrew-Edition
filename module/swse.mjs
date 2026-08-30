@@ -439,7 +439,9 @@ Hooks.on("ready", async function () {
     game.generated.weapon.exoticMeleeWeapons = [];
     game.generated.weapon.exoticRangedWeapons = [];
 
-    game.generated.species.replicaDroidChoices = new Promise(async resolve => {
+    // An async executor inside `new Promise` swallows its own rejection: the promise never settles
+    // and nothing reports the failure. An async IIFE rejects normally, so the catch below runs.
+    game.generated.species.replicaDroidChoices = (async () => {
         const replicaDroidChoices = [];
         for (const pack of game.packs.filter(p => p.metadata.name.toLowerCase().includes("species"))) {
             let indices = await pack.getIndex()
@@ -454,15 +456,22 @@ Hooks.on("ready", async function () {
                 replicaDroidChoices.push({name: entity.name, attributes: attributes});
             }
         }
-        resolve(replicaDroidChoices)
-    }).then(result => game.generated.species.replicaDroidChoices = result);
+        return replicaDroidChoices;
+    })().then(result => game.generated.species.replicaDroidChoices = result)
+        .catch(error => {
+            console.error("SWSE | could not build the replica droid choices", error);
+            game.generated.species.replicaDroidChoices = [];
+        });
 
-    new Promise(async resolve => {
-        game.packs.forEach(pack => {
-            pack.getIndex().then(index => {
-                index.filter(i => i.type === "weapon" || i.type === "template")
-                    .forEach(i => pack.getDocument(i._id)
-                    .then(entity => {
+    // Same fix as above, plus the inner .then() chains had no rejection handler of their own, so a
+    // single unreadable pack left the exotic weapon lists silently short. Packs are still read in
+    // parallel; only the error path changes.
+    (async () => {
+        await Promise.all(game.packs.filter(() => true).map(async pack => {
+            const index = await pack.getIndex();
+            await Promise.all(index.filter(i => i.type === "weapon" || i.type === "template")
+                    .map(async i => {
+                        const entity = await pack.getDocument(i._id);
                         ///list all exotic weapons
                         if (entity.type === 'weapon') {
                             let subTypeKey = entity._source.system.subtype.toLowerCase();
@@ -489,10 +498,9 @@ Hooks.on("ready", async function () {
                             })
                             game.generated.weapon.exoticWeapons.push(...exoticWeaponTypes);
                         }
-                    }))
-            });
-        });
-    })
+                    }));
+        }));
+    })().catch(error => console.error("SWSE | could not build the exotic weapon lists", error));
 
     game.generated.autoItemMapping = new Map();
     const automaticItemsWhenItemIsAdded = game.settings.get("swse", "automaticItemsWhenItemIsAdded");

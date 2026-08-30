@@ -413,15 +413,37 @@ export function increaseDieType(die, bonus = 0) {
         quantity = toks[0].trim();
         size = toks[1].trim();
     }
+    // Vehicle-scale damage carries a multiplier suffix (4d10x2). Split it off so the die size
+    // itself can be looked up, and put it back on the way out. Without this the lookup below
+    // fails and the whole expression collapses to "0".
+    let suffix = "";
+    const suffixMatch = /^(\d+)(x\d+)$/i.exec(`${size}`);
+    if (suffixMatch) {
+        size = suffixMatch[1];
+        suffix = suffixMatch[2];
+    }
+
     let index = dieType.indexOf(`${size}`);
     if (index === -1) {
         return "0";
     }
-    size = dieType[index + bonus];
+
+    // Past the top of the ladder the system adds dice rather than growing the die, matching how
+    // Martial Arts and Sneak Attack scale. Below the bottom, clamp instead of running off the end.
+    let target = index + bonus;
+    let extraDice = 0;
+    if (target > dieType.length - 1) {
+        extraDice = target - (dieType.length - 1);
+        target = dieType.length - 1;
+    } else if (target < 0) {
+        target = 0;
+    }
+
+    size = dieType[target];
     if (size === "1") {
         return quantity;
     }
-    return `${quantity}d${size}` || "0";
+    return `${(parseInt(quantity) || 1) + extraDice}d${size}${suffix}`;
 }
 
 function getDieSizeArray() {
@@ -452,8 +474,14 @@ export function increaseDieSize(die, bonus) {
  * @returns {Roll}
  */
 export function adjustDieSize(roll, dieSizeAdjustment){
-    let index = dieType.indexOf(`${roll.dice[0].faces}`);
-    roll.dice[0].faces = parseInt(dieType[index + dieSizeAdjustment] )|| 1;
+    const index = dieType.indexOf(`${roll.dice[0].faces}`);
+    if (index === -1) {
+        return Roll.fromTerms(roll.terms);
+    }
+    // Clamp to the ends of the ladder. Indexing past either end gives undefined, and the previous
+    // `parseInt(undefined) || 1` turned that into a d1 without reporting anything.
+    const target = Math.min(Math.max(index + dieSizeAdjustment, 0), dieType.length - 1);
+    roll.dice[0].faces = parseInt(dieType[target]);
     return Roll.fromTerms(roll.terms);
 }
 

@@ -314,10 +314,9 @@ export class SWSECompendiumBrowser extends Application {
             {
                 label: "COMPENDIUM.ImportEntry",
                 icon: '<i class="fas fa-download"></i>',
-                visible: () => {
-                    let collection = this.getCollection();
-                    return false && !!collection && collection.documentClass.canUserCreate(game.user)
-                },
+                // Import Entry is hidden on purpose. The permission check it used to sit behind was
+                // already dead: the expression began with `false &&`, so it never ran.
+                visible: () => false,
                 callback: li => {
                     let collection = this.getCollection();
                     const id = li.data("entry-id");

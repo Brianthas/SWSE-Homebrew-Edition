@@ -379,7 +379,7 @@ export class Attack {
         const operator = this.operator;
 
         if (!operator || !weapon) {
-            return;
+            return undefined;
         }
 
         //we start with a D20
@@ -724,7 +724,7 @@ export class Attack {
         let item = this.item
 
         if (!actor || !item) {
-            return;
+            return undefined;
         }
 
         let terms = [];
@@ -1134,7 +1134,7 @@ export class Attack {
         let item = this.item;
 
         if (!item) {
-            return;
+            return undefined;
         }
         // A per-weapon damage-type pick wins outright: which flavour is loaded (a grenade being
         // Stun rather than Energy, say) is a choice about this attack, not a property of the item.

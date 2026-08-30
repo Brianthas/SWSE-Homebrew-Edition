@@ -299,6 +299,9 @@ export const registerHandlebarsHelpers = function () {
     Handlebars.registerHelper("debug", function(data, breakpoint) {
         console.log(data);
         if(breakpoint === true) {
+            // The breakpoint is the point of this helper, and it only fires when a template
+            // passes true. Nothing in templates/ calls it today.
+            // eslint-disable-next-line no-debugger
             debugger;
         }
         return "";
