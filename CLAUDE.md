@@ -63,6 +63,12 @@ editor and a mistyped document key is flagged instead of failing silently in Fou
 `module/actor/actor.mjs` and `module/item/item.mjs`. Opt a single file in with `// @ts-check` on
 line 1.
 
-`.eslintrc.json` is eslintrc format because the installed eslint is 8.23.0, which does not read flat
-config. `no-undef` is off: fvtt-types checks globals more accurately than a hand-maintained list,
-so eslint covers unused bindings, duplicate cases and unsafe optional chaining instead.
+`eslint.config.mjs` is flat config on eslint 10, run with `npm run lint`. It reads 153 files, 148
+of them `.mjs`. Check that number when a run looks clean: eslint 8 with `.eslintrc.json` linted
+only `.js` when handed a directory, so it read 5 files, reported one error, and silently skipped
+the entire module.
+
+`no-undef` is off because fvtt-types checks globals more accurately than a hand-maintained list.
+Style rules that fire in the hundreds here (`no-case-declarations`, `no-extra-boolean-cast`) are
+demoted to warnings so that every error is something that can misbehave at runtime. Current run:
+11 errors, 218 warnings.
