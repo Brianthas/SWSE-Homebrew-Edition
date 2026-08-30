@@ -51,3 +51,18 @@ to node or PowerShell gets rooted at `C:\c\`, so pass `C:/Users/...` instead.
 
 Verify after publishing: the raw manifest URL reports the new version, and the release download URL
 returns HTTP 200. Then delete the staged tree and the zip.
+
+## Editor type checking and lint
+
+`jsconfig.json` points at `fvtt-types`, which npm installs as an alias of
+`@league-of-foundry-developers/foundry-vtt-types`, so `game`, `CONFIG` and `Hooks` resolve in the
+editor and a mistyped document key is flagged instead of failing silently in Foundry.
+
+`checkJs` is off. Turning it on across `module/`, `module_test/` and `scripts/` reports 1811 errors,
+765 of them "property does not exist", concentrated in `module/actor/actor-sheet.mjs`,
+`module/actor/actor.mjs` and `module/item/item.mjs`. Opt a single file in with `// @ts-check` on
+line 1.
+
+`.eslintrc.json` is eslintrc format because the installed eslint is 8.23.0, which does not read flat
+config. `no-undef` is off: fvtt-types checks globals more accurately than a hand-maintained list,
+so eslint covers unused bindings, duplicate cases and unsafe optional chaining instead.
