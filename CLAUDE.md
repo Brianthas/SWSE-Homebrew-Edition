@@ -33,6 +33,21 @@ The zip is `swse-homebrew-edition-vX.Y.Z.zip`, containing a single wrapper folde
 `templates`, `system.json`, `template.json`. No `scss`, `scripts`, `module_test`, `node_modules`,
 `package.json`, `gulpfile.js` or markdown docs.
 
+**`packs/_source` is validated before it compiles.** `npm run packs:pack` runs
+`tools/validate-packs.mjs` first and stops on failure; CI runs it on every push. It checks all 5273
+documents for parse failures, invisible control characters in string values, missing `_id`/`name`/
+`type`, a subtype the system never registered, duplicate ids inside a pack, and beasts whose current
+HP differs from their maximum. It also warns when a numeric field carries one value across more than
+90% of a pack, which is the shape of the bug where 196 beasts all read 10 current hit points.
+
+Route type checks on `_key`, not on the pack's declared class: 197 of those files are Folders, whose
+`type` names the document class they contain, so a folder in an Item pack correctly reads `"Item"`.
+An earlier version of the validator reported all 197 as broken data.
+
+`tools/validate-packs.test.mjs` plants one defect at a time and asserts each check fires, plus one
+case asserting the folders produce nothing. It exists because the validator passed against all 5273
+documents on its first run, which is also what a validator with a typo in every predicate does.
+
 **Two exclusions that are easy to get wrong, because both live inside `packs/`:**
 
 1. **`packs/_source/` does not ship.** It is the tracked JSON that compiles into the LevelDB packs

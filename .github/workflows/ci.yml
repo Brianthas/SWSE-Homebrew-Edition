@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install
+        run: npm ci
+
+      # 5273 hand-authored documents under packs/_source, previously checked by nothing. Every data
+      # bug that reached the table came from here and none were the kind a reader catches.
+      - name: Validate pack source
+        run: npm run packs:validate
+
+      # The validator's own cases, so a predicate that stops working is caught rather than reported
+      # as a clean run. It passed against all 5273 documents on its first execution, which proves
+      # nothing on its own.
+      - name: Prove the validator can fail
+        run: npm run packs:validate:test
+
+      - name: Validate system.json and template.json
+        run: node -e "for (const f of ['system.json','template.json']) { JSON.parse(require('fs').readFileSync(f,'utf8')); console.log(f + ' OK'); }"
+
+      - name: Lint
+        run: npm run lint

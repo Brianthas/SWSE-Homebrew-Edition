@@ -9,7 +9,9 @@
     "watch": "gulp",
     "gulp": "gulp",
     "packs:unpack": "node scripts/pack-tools.mjs unpack",
-    "packs:pack": "node scripts/pack-tools.mjs pack",
+    "packs:pack": "npm run packs:validate && node scripts/pack-tools.mjs pack",
+    "packs:validate": "node tools/validate-packs.mjs",
+    "packs:validate:test": "node tools/validate-packs.test.mjs",
     "lint": "eslint ."
   },
   "browserslist": [
