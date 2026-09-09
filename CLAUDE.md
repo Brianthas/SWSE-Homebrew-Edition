@@ -1,7 +1,8 @@
 # SWSE-Homebrew-Edition
 
-Fork of the Star Wars Saga Edition system for Foundry. Root `CLAUDE.md` and `RULES.md` apply here
-too; what follows is release mechanics and fork-specific traps recorded in `Mistakes.MD`.
+Fork of the Star Wars Saga Edition system for Foundry. Root `CLAUDE.md` and
+`.claude/rules/standing-rules.md` apply here too; what follows is release mechanics and
+fork-specific traps recorded in `Mistakes.MD`.
 
 Rules questions go to <https://swse.fandom.com/wiki/Star_Wars_Saga_Edition_Wikia> for RAW and
 <http://tovec.wikidot.com/episode-vii> for Bryan's homebrew, which outranks RAW. Do not infer
