@@ -4,6 +4,10 @@ ProgressChecklist.txt
 node_modules/
 raw_export/
 
+# Written at every session start by .claude/hooks/mirror-heartbeat.mjs to prove the live-copy
+# watcher still works. Agent tooling, not system content: never committed, never released.
+.mirror-canary.txt
+
 # Compiled compendium LevelDB packs are a local build artifact now, generated from
 # packs/_source/*.json via `npm run packs:pack`. Only the JSON source is tracked.
 packs/*/
