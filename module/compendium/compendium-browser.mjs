@@ -16,10 +16,7 @@ export class SWSECompendiumBrowser extends Application {
 
         this.items = [];
 
-        this.filters = [];
         this.postFilters = [];
-
-        this.activeFilters = {};
 
         this._data = {
             loaded: false,
@@ -375,7 +372,6 @@ export class SWSECompendiumBrowser extends Application {
         }
 
         this._data.data = {
-            filters: this.filters,
             collection: this.items.reduce((cur, o) => {
                 cur[o.item._id] = o;
                 return cur;
@@ -466,9 +462,8 @@ export class SWSECompendiumBrowser extends Application {
             }
         }
 
-        // Clear filters without applicable packs
+        // Nothing to load
         if (packs.length === 0) {
-            this.filters = [];
             return;
         }
 
@@ -486,8 +481,6 @@ export class SWSECompendiumBrowser extends Application {
             // Sort items
             this.items = naturalSort(this.items, "item.name");
 
-            // Gather filter data
-            this._fetchGeneralFilters();
             // Lazy load
             this._initLazyLoad();
         })
@@ -540,10 +533,6 @@ export class SWSECompendiumBrowser extends Application {
         this.render(false);
     }
 
-    _fetchGeneralFilters() {
-        this.filters = [];
-    }
-
     async _render(force, ...args) {
         await super._render(force, ...args);
 
@@ -563,10 +552,6 @@ export class SWSECompendiumBrowser extends Application {
         html.each((i, li) => {
             li.addEventListener("drop", (ev) => this._onDrop(ev));
         });
-
-        html.find('.filter input[type="checkbox"]').change(this._onActivateBooleanFilter.bind(this));
-
-        html.find(".filter h3").click(this._toggleFilterVisibility.bind(this));
 
         html.find("button.refresh").click(this.refresh.bind(this));
 
@@ -614,15 +599,6 @@ export class SWSECompendiumBrowser extends Application {
                 modifier: li.getAttribute("data-action-modifier")
             })
         );
-    }
-
-    _toggleFilterVisibility(event) {
-        event.preventDefault();
-        const title = event.currentTarget;
-        const content = $(title).siblings(".filter-content")[0];
-
-        if (content.style.display === "none") content.style.display = "block";
-        else content.style.display = "none";
     }
 
     _onFilterResults(event) {
@@ -731,42 +707,6 @@ export class SWSECompendiumBrowser extends Application {
                 }
             }
         }
-    }
-
-    _onActivateBooleanFilter(event) {
-        event.preventDefault();
-        let input = event.currentTarget;
-        const path = input.closest(".filter").dataset.path;
-        const key = input.name;
-        const value = input.checked;
-
-        const filter = this._data.data.filters.find((o) => o.path === path);
-        if (filter) {
-            if (!filter.active) filter.active = {};
-        }
-
-        if (value) {
-            let index = this.activeFilters[path].indexOf(key);
-            if (index < 0) {
-                this.activeFilters[path].push(key);
-                filter.active[key] = true;
-            }
-        } else {
-            let index = this.activeFilters[path].indexOf(key);
-            if (index >= 0) {
-                this.activeFilters[path].splice(index, 1);
-                if (filter.active[key] != null) delete filter.active[key];
-            }
-        }
-
-        // Save filter settings
-        {
-            const settings = game.settings.get("pf1", "compendiumFilters");
-            setProperty(settings, `${this.type}.activeFilters`, this.activeFilters);
-            game.settings.set("pf1", "compendiumFilters", settings);
-        }
-
-        return this._filterResults();
     }
 
     async _filterResults() {
