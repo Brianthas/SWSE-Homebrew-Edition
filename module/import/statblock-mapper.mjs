@@ -699,7 +699,7 @@ async function applyPrintedGearBonuses(actor, possessions, skillNames, notes) {
  * roll or type any level individually on the Classes tab afterwards.
  *
  * Reuses `actor.classes`, which is what the sheet's own Avg button reads, so the rounding here
- * cannot drift from the rounding that button applies (half the die rounded up: 1d10 becomes 6).
+ * cannot drift from the rounding that button applies (half the die rounded down, plus 1: 1d10 becomes 6).
  * Character level 1 is skipped because it takes fixed first-level hit points and is not rerollable.
  */
 async function setAverageLevelHitPoints(actor, notes) {

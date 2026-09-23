@@ -64,7 +64,7 @@ six prostheses will read -6.
 Text that this fork has no item for (Rakghoul Disease, Overwhelm and the like) is
 kept as description text on the sheet rather than dropped.
 
-Class levels take average hit points, half the hit die rounded up, exactly as the
+Class levels take average hit points, half the hit die rounded down plus 1 (a d10 gives 6), exactly as the
 **Avg** button on the Classes tab does. A level with nothing recorded counts as 1,
 so before this Darth Vader's nineteen levels totalled 105 against the 181 his
 statblock prints. Rolling instead would make the same import produce a different

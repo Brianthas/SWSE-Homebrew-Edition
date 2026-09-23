@@ -39,7 +39,8 @@ export function getEntityKey(entity) {
     return `${entity.type}:${entity.name}`;
 }
 
-// Homebrew "take the average" hit-die option: half the die, rounded up.
+// Homebrew "take the average" hit-die option: half the die rounded down, plus 1
+// (d4 3, d6 4, d8 5, d10 6, d12 7).
 function averageHitPoints(diceFormula) {
     const match = `${diceFormula}`.match(/d(\d+)/i);
     if (!match) return 0;
@@ -945,7 +946,7 @@ class SWSEActor extends Actor {
             leveledClass.levelUpHitPoints = co.levelUpHitPoints;
             leveledClass.canRerollHealth = co.canRerollHealth(characterLevel);
             leveledClass.classLevelHealth = co.classLevelHealth(levelOfClass, characterLevel);
-            // Homebrew: "take the average" option, half the hit die rounded up (e.g. 1d10 -> 6).
+            // Homebrew: "take the average" option, half the hit die rounded down, plus 1 (e.g. 1d10 -> 6).
             leveledClass.averageHitPoints = averageHitPoints(co.levelUpHitPoints);
             leveledClass.isLatest = false;
             leveledClass.classLevel = levelOfClass;
