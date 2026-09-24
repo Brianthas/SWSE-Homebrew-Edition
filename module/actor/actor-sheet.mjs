@@ -135,6 +135,9 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
             return obj;
         }, {})
         data.knownAttributeKeys = KNOWN_ATTRIBUTE_KEYS;
+        // GM-only rather than gated on settings.isNPC: nothing on the sheet sets isNPC (only the
+        // statblock importer does), so a hand-built NPC would never show the block.
+        data.showGmAdjustments = game.user.isGM && ["character", "beast"].includes(this.actor.type);
         return data;
     }
 

@@ -211,6 +211,9 @@ export class DefenseFunctions {
         //total
         let name = "Fortitude";
         let total = this.overrides.fort ?? resolveValueArray(bonuses, actor);
+        // Read by the Defenses table's right-click override and the GM Adjustments box.
+        fortitudeDefense.override = this.overrides.fort;
+        fortitudeDefense.overrideKey = "system.overrides.fort";
 
         actor.setResolvedVariable("@FortDef", total, name, name);
         fortitudeDefense.name = name;
@@ -301,6 +304,8 @@ export class DefenseFunctions {
         willDefense.armorBonus = armorBonus;
 
         let total = system.overrides.will ?? resolveValueArray(bonuses, actor);
+        willDefense.override = system.overrides.will;
+        willDefense.overrideKey = "system.overrides.will";
         let name = "Will";
         willDefense.value = total;
         willDefense.total = total;
@@ -404,6 +409,8 @@ export class DefenseFunctions {
         ];
 
         let total = system.overrides.ref ?? resolveValueArray(bonuses, actor);
+        reflexDefense.override = system.overrides.ref;
+        reflexDefense.overrideKey = "system.overrides.ref";
         let name = "Reflex";
         reflexDefense.value = total;
         reflexDefense.total = total;

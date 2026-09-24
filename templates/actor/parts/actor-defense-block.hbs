@@ -9,8 +9,10 @@
     {{/if}}
     {{toTitleCase def.name}}
 </div>
-<div class="numeric-override" data-override="{{def.override}}" data-override-name="{{def.name}}"
-     data-override-key="system.defense.{{toLowercase def.name}}.override">
+{{!-- Only Reflex, Fortitude and Will carry an overrideKey (system.overrides.ref/fort/will);
+      the modifier sub-rows have no override store, so they get no right-click menu. --}}
+<div class="{{#if def.overrideKey}}numeric-override{{/if}}" data-override="{{def.override}}" data-override-name="{{def.name}}"
+     data-override-key="{{def.overrideKey}}">
     <input class="defense-total" type="text" value="{{def.total}}"
            placeholder="" name="system.attributes.{{id}}.manual" disabled/>
 </div>

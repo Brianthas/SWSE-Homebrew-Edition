@@ -88,6 +88,18 @@ and their feats, talents and natural weapons are real items off the packs. Each
 one records the page it came from in `flags.swse.statblockImport.page`, so a
 creature can be checked against its source.
 
+## Adjusting a creature's numbers
+
+A GM sees a **GM Adjustments** box in the Hit Points panel of every character and
+beast sheet, with Max HP, Reflex, Fortitude and Will. A number typed there
+replaces the derived value; clearing the box restores it. The placeholder shows
+the value in effect while the box is blank. Damage Threshold follows Fortitude.
+
+Right-clicking a Defense total sets the same value, and the importer's pin
+checkbox writes the same fields. The Max HP box takes priority over **Override
+Max HP** on the Classes tab. Base attack bonus, grapple, initiative and speed have
+no override. Players do not see the box.
+
 ## Rolling
 
 Rolls made from a character sheet normally roll in Foundry. A player who rolls

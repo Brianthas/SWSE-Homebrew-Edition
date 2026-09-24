@@ -10,10 +10,39 @@
         </div>
         <span class="hp-divider">/</span>
         <div class="field">
-            <label for="maxHealth" title="Set on the Classes tab, from class levels plus any override.">Total</label>
+            <label for="maxHealth" title="From class levels, or an override on the Classes tab or in GM Adjustments.">Total</label>
             <input id="maxHealth" type="text" value="{{actor.health.max}}" placeholder="" disabled/>
         </div>
     </div>
+
+{{#if showGmAdjustments}}
+    {{!-- GM only: set a creature's printed numbers directly instead of adding levels.
+          Each box writes system.overrides, which replaces the computed value; blank submits
+          null and restores it. The placeholder is the value in effect when the box is blank. --}}
+    <h1 class="top-label resource-label" title="Replace a computed value. Clear a box to go back to the computed value.">GM Adjustments</h1>
+    <div class="stat-grid cols-2 gm-adjustments">
+        <div class="field">
+            <label for="npcMaxHealth" title="Replaces maximum HP. Takes priority over the Classes tab override.">Max HP</label>
+            <input id="npcMaxHealth" type="number" name="system.overrides.health" min="0" step="1"
+                   value="{{actor.system.overrides.health}}" placeholder="{{actor.health.max}}" data-dtype="Number"/>
+        </div>
+        <div class="field">
+            <label for="npcReflex" title="Replaces Reflex Defense.">Reflex</label>
+            <input id="npcReflex" type="number" name="system.overrides.ref" min="0" step="1"
+                   value="{{actor.system.overrides.ref}}" placeholder="{{actor.system.defense.reflex.total}}" data-dtype="Number"/>
+        </div>
+        <div class="field">
+            <label for="npcFortitude" title="Replaces Fortitude Defense. Damage Threshold follows it.">Fortitude</label>
+            <input id="npcFortitude" type="number" name="system.overrides.fort" min="0" step="1"
+                   value="{{actor.system.overrides.fort}}" placeholder="{{actor.system.defense.fortitude.total}}" data-dtype="Number"/>
+        </div>
+        <div class="field">
+            <label for="npcWill" title="Replaces Will Defense.">Will</label>
+            <input id="npcWill" type="number" name="system.overrides.will" min="0" step="1"
+                   value="{{actor.system.overrides.will}}" placeholder="{{actor.system.defense.will.total}}" data-dtype="Number"/>
+        </div>
+    </div>
+{{/if}}
 
     <div class="field field-center-label">
         <label for="maneuverDefense" title="Total Fortitude Defense + 5">Maneuver Defense</label>
