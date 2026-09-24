@@ -191,9 +191,9 @@ export const registerHandlebarsHelpers = function () {
         for(let value of values || []){
             if(Array.isArray(value)){
                 response += `<option value="${value[0]}" ${isSelected(value[0]) ? 'selected' : ""}>${value[1].titleCase()}</option>`;
-            } if(!!value.value) {
+            } else if(!!value.value) {
                 const display = value.display || value.value;
-                const tooltip = value.tooltip ? ` title="${value.tooltip}"` : null;
+                const tooltip = value.tooltip ? ` title="${value.tooltip}"` : "";
                 response += `<option value="${value.value}" ${isSelected(value.value) ? 'selected' : ""}${tooltip}>${display.titleCase()}</option>`;
             } else {
                 response += `<option value="${value}" ${isSelected(value) ? 'selected' : ""}>${value.titleCase()}</option>`;
