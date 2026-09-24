@@ -13,6 +13,7 @@ import {
 import {ACTIVE_EFFECT_MODES} from "../common/constants.mjs";
 import {KNOWN_ATTRIBUTE_KEYS} from "../common/known-attribute-keys.mjs";
 import {bindKeyAutocomplete} from "../common/autocomplete.mjs";
+import {defaultSheetSize, sheetScale} from "../common/sheet-scale.mjs";
 
 const {HandlebarsApplicationMixin} = foundry.applications.api;
 
@@ -37,6 +38,19 @@ export class SWSEItemSheet extends HandlebarsApplicationMixin(foundry.applicatio
             "value-minus": SWSEItemSheet.#onValueMinus
         }
     };
+
+    /** @override */
+    _configureRenderOptions(options) {
+        // Sheet Size setting. Applied on every first render (a closed sheet reopening counts),
+        // because an item keeps one sheet instance for the session; super copies
+        // options.position into the window's position on a first render.
+        if (options.isFirstRender) {
+            const scale = sheetScale();
+            const resize = scale !== this.position.scale ? defaultSheetSize(this) : {};
+            options.position = {...options.position, ...resize, scale};
+        }
+        super._configureRenderOptions(options);
+    }
 
     // Provided/Prerequisites/Stripping/Modifications/Modes/Levels used to be standalone tabs
     // here - none were dense enough to justify a whole tab, so they're now collapsible

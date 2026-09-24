@@ -1,5 +1,6 @@
 import {commonHomebrewOptions, lilLiteralistHomebrewOptions} from "./homebrew.mjs";
 import {registerCSSColor} from "./helper-functions.mjs";
+import {rescaleOpenSheets} from "../common/sheet-scale.mjs";
 
 
 export function registerSystemSettings() {
@@ -44,6 +45,7 @@ export function registerSystemSettings() {
         type: String
     });
 
+    sheetSizeConfiguration();
     colorConfiguration();
 
 
@@ -52,6 +54,28 @@ export function registerSystemSettings() {
 }
 
 
+
+// Per player (client scope): a player who needs larger text changes only their own screen.
+// Stored as a whole percentage so every choice key is an integer: JS orders integer-like keys
+// before the rest, which listed "1" and "2" ahead of "1.25" in the dropdown.
+function sheetSizeConfiguration() {
+    game.settings.register("swse", "sheetScale", {
+        name: "Sheet Size",
+        hint: "Makes character and item sheets bigger, text and controls together. Changes only your own screen.",
+        scope: "client",
+        config: true,
+        default: 100,
+        type: Number,
+        choices: {
+            100: "100% (normal)",
+            125: "125%",
+            150: "150%",
+            175: "175%",
+            200: "200%"
+        },
+        onChange: () => rescaleOpenSheets()
+    });
+}
 
 function colorConfiguration() {
     const r = document.querySelector(':root');

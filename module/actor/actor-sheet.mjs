@@ -18,6 +18,7 @@ import {SWSECompendiumDirectory} from "../compendium/compendium-directory.mjs";
 import {onChangeControl, onEffectControl, onSpanTextInput, onToggle} from "../common/listeners.mjs";
 import {getDefaultDataByType} from "../common/classDefaults.mjs";
 import {CompendiumWeb} from "../compendium/compendium-web.mjs";
+import {defaultSheetSize, sheetScale} from "../common/sheet-scale.mjs";
 import SWSEActor from "./actor.mjs";
 import {getInheritableAttribute} from "../attribute-helper.mjs";
 import {makeAttack, makeDamageOnlyRoll} from "./attack/attackDelegate.mjs";
@@ -91,6 +92,20 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
 
 
     /** @override */
+    /** @override */
+    async _render(force = false, options = {}) {
+        // Sheet Size setting. Read on every open, not once in the constructor: an actor keeps
+        // one sheet instance for the session, so a constructor-time value went stale when the
+        // setting changed while the sheet was closed. Open sheets are rescaled by the setting's
+        // onChange instead.
+        if (!this.rendered) {
+            const scale = sheetScale();
+            if (scale !== this.position.scale) Object.assign(this.position, defaultSheetSize(this));
+            this.position.scale = scale;
+        }
+        return super._render(force, options);
+    }
+
     static get defaultOptions() {
 
         return foundry.utils.mergeObject(super.defaultOptions, {

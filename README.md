@@ -124,6 +124,15 @@ Foundry also has its own per-user version of this, under Dice Configuration, if
 a player wants every roll everywhere to prompt: set d20 to Manual, which needs
 the Manual Rolls permission enabled for that role.
 
+## Sheet Size
+
+**Sheet Size** in Configure Settings, under this system, enlarges character and item
+sheets to 125%, 150%, 175% or 200%. Text, boxes and buttons grow together, so
+nothing is cut off; a sheet that would be larger than the screen is fitted to it
+and scrolls. It is a per-player setting: it changes only the screen of the player
+who sets it. Foundry's own Font Size setting enlarges chat and the sidebar
+but not these sheets, because their text is sized in pixels.
+
 ## Install
 
 Manifest link: <https://raw.githubusercontent.com/Brianthas/SWSE-Homebrew-Edition/main/system.json>
