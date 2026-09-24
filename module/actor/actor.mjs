@@ -242,7 +242,11 @@ class SWSEActor extends Actor {
             if (Object.keys(tokenUpdates).length > 0) {
                 const dependentTokens = this.getDependentTokens({linked: true});
                 for (const tokenDocument of dependentTokens) {
-                    if (tokenDocument._id && game) {
+                    // prepareData runs on every connected client for every actor, not only the
+                    // ones this user owns. Only a client allowed to write the token sends the
+                    // update; the server rejects the rest ("User X lacks permission to update
+                    // Token") every time the actor is prepared while its token is out of date.
+                    if (tokenDocument._id && game && tokenDocument.canUserModify(game.user, "update")) {
                         (async () => {
                             try {
                                 // Foundry V14's token-movement validation rejects a width/height
