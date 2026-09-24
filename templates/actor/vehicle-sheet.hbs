@@ -118,6 +118,7 @@
 
             <div class="tab settings" data-group="primary" data-tab="settings">
                 <div class="flexcol">
+                    {{> 'systems/swse/templates/settings/sheet-size.hbs'}}
                     {{#each actor.system.settings as |setting id|}}
                         {{> 'systems/swse/templates/settings/setting.hbs' setting=setting id=id}}
                     {{/each}}

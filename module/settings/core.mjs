@@ -56,14 +56,15 @@ export function registerSystemSettings() {
 
 
 // Per player (client scope): a player who needs larger text changes only their own screen.
-// Stored as a whole percentage so every choice key is an integer: JS orders integer-like keys
-// before the rest, which listed "1" and "2" ahead of "1.25" in the dropdown.
+// Set from the Settings tab of the actor sheet (templates/settings/sheet-size.hbs), not from
+// Configure Settings, so config is false. Stored as a whole percentage so every choice key is an
+// integer: JS orders integer-like keys before the rest, which listed "1" and "2" ahead of "1.25".
 function sheetSizeConfiguration() {
     game.settings.register("swse", "sheetScale", {
         name: "Sheet Size",
         hint: "Makes character and item sheets bigger, text and controls together. Changes only your own screen.",
         scope: "client",
-        config: true,
+        config: false,
         default: 100,
         type: Number,
         choices: {

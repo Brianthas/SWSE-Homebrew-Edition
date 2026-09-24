@@ -1,0 +1,10 @@
+{{!-- Sheet Size is the per-player client setting swse.sheetScale, not actor data. No name
+      attribute, so the actor form never submits it; actor-sheet.mjs writes it on change. --}}
+<div class="panel">
+    <label title="Makes character and item sheets bigger, text and controls together. Changes only your own screen, not anyone else's.">
+        Sheet Size (your screen only)
+        <select class="sheet-scale-select">
+            {{selectOptions sheetScaleChoices selected=sheetScaleValue}}
+        </select>
+    </label>
+</div>

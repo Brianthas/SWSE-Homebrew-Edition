@@ -209,6 +209,7 @@ Hooks.once('init', async function () {
         'systems/swse/templates/actor/vehicle/vehicle-crew.hbs',
         'systems/swse/templates/credits/credit-chip.hbs',
         'systems/swse/templates/settings/setting.hbs',
+        'systems/swse/templates/settings/sheet-size.hbs',
         'systems/swse/templates/actor/parts/attack/attack-chat-card.hbs',
         'systems/swse/templates/actor/parts/attack/damage-only-chat-card.hbs',
         'systems/swse/templates/actor/parts/attack/attack-chat-card-individual-attack.hbs',

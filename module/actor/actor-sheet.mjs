@@ -153,6 +153,10 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
         // GM-only rather than gated on settings.isNPC: nothing on the sheet sets isNPC (only the
         // statblock importer does), so a hand-built NPC would never show the block.
         data.showGmAdjustments = game.user.isGM && ["character", "beast"].includes(this.actor.type);
+        // Settings tab's Sheet Size dropdown: the choices come from the registered setting, and
+        // the value is a string to match the choice keys.
+        data.sheetScaleChoices = game.settings.settings.get("swse.sheetScale").choices;
+        data.sheetScaleValue = String(game.settings.get("swse", "sheetScale"));
         return data;
     }
 
@@ -164,6 +168,14 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
 
         //should this be moved to a nonSubmittal method?
         html.find(".collapse-toggle").on("click", event => onCollapseToggle(event))
+
+        // Sheet Size is the viewer's own client setting, not actor data, so it is written with
+        // game.settings, works on sheets the viewer can only observe, and stops the change event
+        // before the form's submit-on-change sees it.
+        html.find(".sheet-scale-select").on("change", event => {
+            event.stopPropagation();
+            game.settings.set("swse", "sheetScale", Number(event.currentTarget.value));
+        });
 
         // Everything below here is only needed if the sheet is editable
         if (!this.isEditable) return;
