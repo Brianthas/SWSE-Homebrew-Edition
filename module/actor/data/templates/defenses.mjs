@@ -591,7 +591,10 @@ export class DefenseFunctions {
     ) {
         bonuses = JSON.parse(JSON.stringify(bonuses));
 
-        bonuses = bonuses.filter(b => !((b.type === "Ability" && b.value > -1) || b.type === "Encumbrance"));
+        // Flat-footed loses the Dexterity bonus (not a penalty) and, with it, every dodge bonus
+        // (Core Rulebook 86, Martial Arts I-III: "A situation that makes you lose your Dexterity
+        // bonus to Reflex Defense (if any) also makes you lose dodge bonuses").
+        bonuses = bonuses.filter(b => !((b.type === "Ability" && b.value > -1) || b.type === "Encumbrance" || b.type === "Dodge"));
 
         let total = resolveValueArray(bonuses, actor);
         let name = 'Reflex (Flat-Footed)';

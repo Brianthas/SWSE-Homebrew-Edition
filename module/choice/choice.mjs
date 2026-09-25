@@ -5,8 +5,22 @@ import {initializeUniqueSelection, uniqueSelection} from "../common/listeners.mj
 import {getIndexEntriesByTypes} from "../compendium/compendium-util.mjs";
 import {titleCase} from "../common/helpers.mjs";
 
+/**
+ * Is this class the character's first level? The class validator that sets context.isFirstLevel
+ * runs after activateChoices, so without this a first-level choice (the Jedi's starting
+ * Lightsaber, the Beast's size) was always skipped. Uploads keep skipping them: the statblock
+ * importer supplies the size trait itself, and answering the Beast size choice as well would add a
+ * second one.
+ */
+function isCharacterFirstLevel(item, context) {
+    if (context.isFirstLevel !== undefined) {
+        return context.isFirstLevel;
+    }
+    return !context.isUpload && item.type === "class" && context.actor?.classes?.length === 0;
+}
+
 function skipFirstLevelChoice(choice, context, item) {
-    if (choice.isFirstLevel && !context.isFirstLevel) {
+    if (choice.isFirstLevel && !isCharacterFirstLevel(item, context)) {
         return true;
     }
     // A choice made on taking a class's first level (the Agent, Engineer and Operative free class

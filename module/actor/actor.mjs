@@ -2478,7 +2478,9 @@ class SWSEActor extends Actor {
                 levels.push(nextLevel);
                 await existing.safeUpdate({"system.levelsTaken": levels});
                 let notificationMessage = `<li>Took level of ${existing.name}</li>`
-                return {notificationMessage, addedItem: undefined}
+                const toBeAdded = context.isUpload ? [] : this._classFeatureTraits(existing, levels.length)
+                    .map(trait => ({...trait, parent: existing}));
+                return {notificationMessage, addedItem: undefined, toBeAdded}
             }
 
             entity.system.levelsTaken = [nextLevel];
@@ -2570,6 +2572,9 @@ class SWSEActor extends Actor {
             providedItems = providedItems.filter(i => i.type === "trait")
         }
         providedItems.push(...choices.items);
+        if (entity.type === "class" && !context.isUpload) {
+            providedItems.push(...this._classFeatureTraits(entity, 1));
+        }
 
         const modifications = context.modifications || [];
         const nonMods = [];
@@ -2610,6 +2615,24 @@ class SWSEActor extends Actor {
     }
 
 
+
+    /**
+     * The traits a class level grants through its level effect's providedTrait changes (Trusty
+     * Sidearm, Familiar Foe, ...), as items to add. Most class features repeat providedTrait at
+     * every level that improves them, so a trait the actor already has is not added again. Uploads
+     * skip this: the statblock importer adds the traits a statblock names itself.
+     *
+     * @param classItem {SWSEItem}
+     * @param classLevel {number} the level just taken in that class
+     * @return {[{name: string, type: string}]}
+     */
+    _classFeatureTraits(classItem, classLevel) {
+        const effect = classItem.effects?.find(e => e.flags?.swse?.isLevel && e.flags.swse.level === classLevel);
+        const changes = effect?.changes || effect?.system?.changes || effect?._source?.system?.changes || [];
+        const names = [...new Set(changes.filter(change => change.key === "providedTrait").map(change => change.value))];
+        const owned = new Set(this.items.filter(item => item.type === "trait").map(item => item.name));
+        return names.filter(name => !owned.has(name)).map(name => ({name, type: "trait"}));
+    }
 
     static updateOrAddChange(entity, key, value, forceAdd = false) {
         let find = (entity.system.changes || Object.values(entity.system.attributes)).find(v => v.key === key);

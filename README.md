@@ -124,7 +124,14 @@ Foundry also has its own per-user version of this, under Dice Configuration, if
 a player wants every roll everywhere to prompt: set d20 to Manual, which needs
 the Manual Rolls permission enabled for that role.
 
-## Class feature bonuses
+## Class features
+
+Taking a class level adds the trait for each class feature that level grants, once:
+Trusty Sidearm at Gunslinger 2, Familiar Foe at Bounty Hunter 2, Damage Reduction
+at Elite Trooper 2. A character's first class also asks its first-level choice, so
+a new Jedi receives a Lightsaber and a hand-built beast picks its size. The
+statblock importer does neither, because it takes traits and size from the
+statblock.
 
 **Trusty Sidearm** (Gunslinger) adds one-half the Gunslinger level to damage with
 every ranged weapon, grenades included. The book limits it to pistols; this table
