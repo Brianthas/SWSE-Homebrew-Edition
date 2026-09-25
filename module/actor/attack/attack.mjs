@@ -7,6 +7,7 @@ import {
     getPossibleProficiencies,
     getProficiencyBonus,
     getSpecializationDamageBonuses,
+    getTrustySidearmBonus,
     isLightsaber,
     isMelee,
     isRanged,
@@ -40,7 +41,7 @@ import SWSETemplate from "../../template/SWSETemplate.mjs";
 
 import {selectOption} from "../../common/helpers.mjs";
 import {getCrewByQuality} from "../crewDelegate.mjs";
-import {getActiveCombatToggleTerms} from "./combat-toggle.mjs";
+import {getActiveCombatToggleDamageType, getActiveCombatToggleTerms} from "./combat-toggle.mjs";
 
 
 export const outOfRange = "out of range";
@@ -409,7 +410,7 @@ export class Attack {
         // "2 + 1d4" is a perfectly reasonable thing to enter. appendTerm only ever parses a single
         // number or a single die and silently drops the rest, so a compound bonus lost everything
         // after its first term with no error anywhere.
-        terms.push(...this.temporaryChanges?.filter(c => c.key === "toHitModifier").map(c => appendTerms(c.value, "Custom")).flat() || []);
+        terms.push(...this.temporaryChanges?.filter(c => c.key === "toHitModifier").map(c => appendTerms(c.value, c.source || "Custom")).flat() || []);
 
         //toHitModifiers only apply to the weapon they are on.  a toHitModifier change that is not on a weapon always applies
         getInheritableAttribute({
@@ -766,7 +767,7 @@ export class Attack {
         }
         // appendTerms for the same reason as the to-hit modifier above: a hand-typed "1d6 + 2"
         // used to come through as just "1d6".
-        terms.push(...this.temporaryChanges?.filter(c => c.key === "damage").map(c => appendTerms(c.value, "Custom", c.modifiers || [])).flat() || []);
+        terms.push(...this.temporaryChanges?.filter(c => c.key === "damage").map(c => appendTerms(c.value, c.source || "Custom", c.modifiers || [])).flat() || []);
 
         getInheritableAttribute({
             entity: [this.item, this.operator],
@@ -803,6 +804,7 @@ export class Attack {
 
         let weaponTypes = getPossibleProficiencies(actor, item);
         terms.push(...getSpecializationDamageBonuses(actor, weaponTypes));
+        terms.push(...getTrustySidearmBonus(actor, item));
 
         terms.push(...getActiveCombatToggleTerms(this, "damage", {weaponDieFaces}));
 
@@ -1135,6 +1137,11 @@ export class Attack {
 
         if (!item) {
             return undefined;
+        }
+        // A declared stun attack (Unarmed Stun) retypes the whole attack.
+        const toggledType = getActiveCombatToggleDamageType(this);
+        if (toggledType) {
+            return toggledType;
         }
         // A per-weapon damage-type pick wins outright: which flavour is loaded (a grenade being
         // Stun rather than Energy, say) is a choice about this attack, not a property of the item.

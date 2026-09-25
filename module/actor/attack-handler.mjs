@@ -1,4 +1,4 @@
-import {appendNumericTerm} from "../common/util.mjs";
+import {appendNumericTerm, toNumber} from "../common/util.mjs";
 import {SWSEItem} from "../item/item.mjs";
 import {compareSizes} from "./size.mjs";
 import {getInheritableAttribute} from "../attribute-helper.mjs";
@@ -161,6 +161,26 @@ export function getSpecializationDamageBonuses(actor, weaponTypes) {
     }
 
     return bonuses;
+}
+
+/**
+ * Gunslinger's Trusty Sidearm: one-half Gunslinger class level on damage. The class's level
+ * effects write trustySidearm: 1 at every even level, so the sum is the bonus. RAW limits it to
+ * pistols; the table applies it to every ranged weapon, grenades included.
+ *
+ * @param actor {SWSEActor}
+ * @param item {SWSEItem}
+ * @returns {[]}
+ */
+export function getTrustySidearmBonus(actor, item) {
+    if (!isRanged(item)) {
+        return [];
+    }
+    return appendNumericTerm(toNumber(getInheritableAttribute({
+        entity: actor,
+        attributeKey: "trustySidearm",
+        reduce: "SUM"
+    })), "Trusty Sidearm");
 }
 
 

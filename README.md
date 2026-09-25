@@ -124,6 +124,34 @@ Foundry also has its own per-user version of this, under Dice Configuration, if
 a player wants every roll everywhere to prompt: set d20 to Manual, which needs
 the Manual Rolls permission enabled for that role.
 
+## Class feature bonuses
+
+**Trusty Sidearm** (Gunslinger) adds one-half the Gunslinger level to damage with
+every ranged weapon, grenades included. The book limits it to pistols; this table
+applies it to all ranged weapons, which also covers what Old Faithful adds.
+
+Features that apply against one opponent for the rest of an encounter are toggles
+in the Attacks panel, beside Sneak Attack. Each pill shows what it adds, appears
+only at a level where it adds something, and stays on until clicked off.
+
+| Toggle | Class | Adds |
+|---|---|---|
+| Hunter's Target (talent) | Bounty Hunter | class level to damage |
+| Mark | Operative | half class level to damage |
+| Familiar Foe | Bounty Hunter | half class level to attack rolls |
+| Targeted Suspect | Agent | half class level to attack rolls |
+| Unarmed Stun | Operative | +1 die of unarmed damage at 2nd level, +2 at 6th, +3 at 10th, and unarmed attacks deal Stun |
+
+**Surprise Attack** (Operative, half class level) and **Veteran Privateer** (Agent,
++2 from 2nd level) apply to one attack roll at a time, so they are checkboxes in
+the Attack with Bonus dialog instead. Veteran Privateer's uses per encounter are
+not counted. Full Attack has no bonus dialog, so neither is offered there.
+
+Not applied: Familiar Foe's Reflex bonus against the observed opponent, Targeted
+Suspect's skill bonus, Command Cover, Vehicle Dodge (vehicle Reflex does not read
+the pilot), and features that are actions rather than bonuses, such as Create
+Cover, Executive Leadership and Independent Spirit.
+
 ## Sheet Size
 
 **Sheet Size**, at the top of the Settings tab on a character, beast or vehicle

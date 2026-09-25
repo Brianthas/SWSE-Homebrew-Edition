@@ -9,6 +9,7 @@ import {DEFAULT_MODE_EFFECT, DEFAULT_MODIFICATION_EFFECT} from "./classDefaults.
 import {getCompendium} from "../compendium/compendium-util.mjs";
 import {makeAttack} from "../actor/attack/attackDelegate.mjs";
 import {Attack} from "../actor/attack/attack.mjs";
+import {getClassFeatureAttackChoices} from "../actor/attack/combat-toggle.mjs";
 import {createAttackMacro} from "../swse.mjs";
 
 export function unique(value, index, self) {
@@ -1674,6 +1675,9 @@ function performAttack(actor, type, attackKey, macro, rollMode) {
             {key: "toHitModifier", value: attackRoll.value},
             {key: "damage", value: damageRoll.value}
         ]
+        html.find(".class-feature-option:checked").each((i, box) => {
+            changes.push({key: box.dataset.key, value: box.dataset.value, source: box.dataset.source});
+        });
 
         if(macro){
             // Roll mode is a one-off situational call, not something worth baking into a
@@ -1708,7 +1712,17 @@ export function attackOptions(actor) {
             const type = element.dataset.action;
             const attackKey = element.dataset.attackKey;
 
-            const attackName = actor.attack.attacks.find(a => a.attackKey === attackKey)?.name;
+            const attack = actor.attack.attacks.find(a => a.attackKey === attackKey);
+            const attackName = attack?.name;
+
+            // Single-roll class features (Surprise Attack, Veteran Privateer) as unchecked boxes.
+            const classFeatureOptions = getClassFeatureAttackChoices(attack).map(choice => {
+                const key = choice.appliesTo === "damage" ? "damage" : "toHitModifier";
+                return `<div class="medium labeled-input">
+        <label for="class-feature-${choice.id}" class="text">${choice.label} (+${choice.amount} ${choice.appliesTo})</label>
+        <input class="class-feature-option" id="class-feature-${choice.id}" type="checkbox" data-key="${key}" data-value="${choice.amount}" data-source="${choice.label}"/>
+    </div>`;
+            }).join("\n    ");
 
             // Attack/Damage Bonus first - the field a player actually wants most of the time
             // (a one-off situational bonus, e.g. flanking/cover) - Macro Name is secondary and
@@ -1727,6 +1741,7 @@ export function attackOptions(actor) {
         <label for="damage-roll" class="text">Damage Bonus</label>
         <input class="input" id="damage-roll" type="text" value="0" placeholder="e.g. 1d6 or 4"/>
     </div>
+    ${classFeatureOptions}
     <div class="medium labeled-input">
         <label for="macro-name" class="text">Macro Name (if saving)</label>
         <input class="input" id="macro-name" type="text" value="${actor.name + " : " + attackName}" placeholder=""/>
