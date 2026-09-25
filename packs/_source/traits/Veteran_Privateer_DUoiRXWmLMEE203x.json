@@ -2,11 +2,17 @@
   "effects": [],
   "system": {
     "finalName": "",
-    "description": "<p>The Master Privateer's experience as a privateer has hardened them to the realities of battle, granting them the ability to subdue their foes with little difficulty. When a Master Privateer makes a melee attack roll, as a <a href=\"/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a> they can grant themselves a +2 competence bonus on that attack roll. A Master Privateer can do this a number of times per encounter equal to one-half their Class Level (Rounded down).</p>",
+    "description": "<p>The Master Privateer's experience as a privateer has hardened them to the realities of battle, granting them the ability to subdue their foes with little difficulty. When a Master Privateer makes an attack roll, as a <a href=\"/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a> they can grant themselves a +2 competence bonus on that attack roll. A Master Privateer can do this a number of times per encounter equal to one-half their Class Level (Rounded down).</p>",
     "textDescription": "",
     "sourceString": "",
     "attributes": {},
-    "changes": [],
+    "changes": [
+      {
+        "mode": 2,
+        "value": 1,
+        "key": "veteranPrivateer"
+      }
+    ],
     "choices": [],
     "modes": [],
     "providedItems": [],

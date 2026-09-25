@@ -4,7 +4,7 @@
   "img": "systems/swse/icon/class/Agent.png",
   "system": {
     "finalName": "",
-    "description": "<p><i>Homebrew Prestige Class (tovec.wikidot.com/episode-vii)</i></p><p>Consolidates the Assassin, Corporate Agent, Enforcer, Pathfinder, and Master Privateer prestige classes. Grants access to the Assassin, Corporate Power, Enforcement, Infamy, Leadership, Pathfinder, Piracy, Privateer, and Spy talent trees.</p><p>Gains Create Cover, Executive Leadership, Targeted Suspect, and Veteran Privateer at 1st level.</p>",
+    "description": "<p><i>Homebrew Prestige Class (tovec.wikidot.com/episode-vii)</i></p><p>Consolidates the Assassin, Corporate Agent, Enforcer, Pathfinder, and Master Privateer prestige classes. Grants access to the Assassin, Corporate Power, Enforcement, Infamy, Leadership, Pathfinder, Piracy, Privateer, and Spy talent trees.</p><p>At 1st level, chooses one of Create Cover, Executive Leadership, Targeted Suspect, or Veteran Privateer as a free class ability. The others may be taken as talents.</p>",
     "textDescription": "",
     "sourceString": "",
     "attributes": {},
@@ -50,7 +50,72 @@
         "key": "classWillDefenseBonus"
       }
     ],
-    "choices": [],
+    "choices": [
+      {
+        "type": "SELECT",
+        "description": "Select a free Agent class ability. The others may be taken as talents.",
+        "isFirstLevel": false,
+        "isFirstLevelOfClass": true,
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "noOptions": "NO_AVAILABLE_OPTIONS",
+        "showSelectionInName": false,
+        "options": [
+          {
+            "name": "Create Cover",
+            "display": "Create Cover",
+            "value": "Create Cover",
+            "providedItems": [
+              {
+                "name": "Create Cover",
+                "type": "trait"
+              }
+            ],
+            "payloads": {},
+            "attributes": {}
+          },
+          {
+            "name": "Executive Leadership",
+            "display": "Executive Leadership",
+            "value": "Executive Leadership",
+            "providedItems": [
+              {
+                "name": "Executive Leadership",
+                "type": "trait"
+              }
+            ],
+            "payloads": {},
+            "attributes": {}
+          },
+          {
+            "name": "Targeted Suspect",
+            "display": "Targeted Suspect",
+            "value": "Targeted Suspect",
+            "providedItems": [
+              {
+                "name": "Targeted Suspect",
+                "type": "trait"
+              }
+            ],
+            "payloads": {},
+            "attributes": {}
+          },
+          {
+            "name": "Veteran Privateer",
+            "display": "Veteran Privateer",
+            "value": "Veteran Privateer",
+            "providedItems": [
+              {
+                "name": "Veteran Privateer",
+                "type": "trait"
+              }
+            ],
+            "payloads": {},
+            "attributes": {}
+          }
+        ]
+      }
+    ],
     "modes": {},
     "providedItems": [],
     "payload": "",
@@ -75,62 +140,6 @@
           {
             "key": "provides",
             "value": "Agent Talent Trees",
-            "priority": 20,
-            "type": "add",
-            "phase": "initial"
-          },
-          {
-            "key": "createCover",
-            "value": 1,
-            "priority": 20,
-            "type": "add",
-            "phase": "initial"
-          },
-          {
-            "key": "providedTrait",
-            "value": "Create Cover",
-            "priority": 20,
-            "type": "add",
-            "phase": "initial"
-          },
-          {
-            "key": "executive",
-            "value": 1,
-            "priority": 20,
-            "type": "add",
-            "phase": "initial"
-          },
-          {
-            "key": "providedTrait",
-            "value": "Executive Leadership",
-            "priority": 20,
-            "type": "add",
-            "phase": "initial"
-          },
-          {
-            "key": "targetedSuspect",
-            "value": 1,
-            "priority": 20,
-            "type": "add",
-            "phase": "initial"
-          },
-          {
-            "key": "providedTrait",
-            "value": "Targeted Suspect",
-            "priority": 20,
-            "type": "add",
-            "phase": "initial"
-          },
-          {
-            "key": "veteranPrivateer",
-            "value": 1,
-            "priority": 20,
-            "type": "add",
-            "phase": "initial"
-          },
-          {
-            "key": "providedTrait",
-            "value": "Veteran Privateer",
             "priority": 20,
             "type": "add",
             "phase": "initial"

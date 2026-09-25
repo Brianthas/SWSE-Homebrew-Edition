@@ -88,9 +88,16 @@ describe("definitions agree with the packs", () => {
         .filter(file => file.endsWith(".json"))
         .map(file => JSON.parse(fs.readFileSync(path.join(source, dir, file), "utf8")));
 
-    // Class name -> every change key its level effects write.
-    const classKeys = new Map(readDir("classes").map(cls => [cls.name,
-        new Set((cls.effects || []).flatMap(effect => effect.system?.changes || []).map(change => change.key))]));
+    const traitKeys = new Map(readDir("traits").map(trait => [trait.name, (trait.system?.changes || []).map(change => change.key)]));
+    // Class name -> every change key its level effects write, plus every key written by a trait
+    // one of its choices provides (the Agent, Engineer and Operative free class ability).
+    const classKeys = new Map(readDir("classes").map(cls => [cls.name, new Set([
+        ...(cls.effects || []).flatMap(effect => effect.system?.changes || []).map(change => change.key),
+        ...(cls.system.choices || []).flatMap(choice => choice.options || [])
+            .flatMap(option => option.providedItems || [])
+            .filter(provided => provided.type === "trait")
+            .flatMap(provided => traitKeys.get(provided.name) || []),
+    ])]));
     const talentNames = new Set(readDir("talents").map(talent => talent.name));
 
     for (const def of [...COMBAT_TOGGLE_DEFINITIONS, ...ATTACK_OPTION_DEFINITIONS].filter(def => def.bonus.className)) {
@@ -102,6 +109,22 @@ describe("definitions agree with the packs", () => {
             } else {
                 assert.ok(talentNames.has(def.availability.talentName), `no talent named ${def.availability.talentName}`);
             }
+        });
+    }
+
+    for (const className of ["Agent", "Engineer", "Operative"]) {
+        it(`${className} offers one class ability at its first level instead of granting all four`, () => {
+            const cls = readDir("classes").find(c => c.name === className);
+            const [choice, ...others] = cls.system.choices;
+            assert.equal(others.length, 0);
+            assert.equal(choice.isFirstLevelOfClass, true);
+            assert.equal(choice.availableSelections, 1);
+            assert.equal(choice.options.length, 4);
+            for (const option of choice.options) {
+                assert.ok(traitKeys.has(option.providedItems[0].name), `no trait named ${option.providedItems[0].name}`);
+            }
+            const levelOne = cls.effects.find(effect => effect.flags?.swse?.level === 1).system.changes;
+            assert.deepEqual(levelOne.filter(change => change.key === "providedTrait"), []);
         });
     }
 });

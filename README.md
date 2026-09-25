@@ -135,12 +135,17 @@ in the Attacks panel, beside Sneak Attack. Each pill shows what it adds, appears
 only at a level where it adds something, and stays on until clicked off.
 
 | Toggle | Class | Adds |
-|---|---|---|
+| --- | --- | --- |
 | Hunter's Target (talent) | Bounty Hunter | class level to damage |
 | Mark | Operative | half class level to damage |
 | Familiar Foe | Bounty Hunter | half class level to attack rolls |
 | Targeted Suspect | Agent | half class level to attack rolls |
 | Unarmed Stun | Operative | +1 die of unarmed damage at 2nd level, +2 at 6th, +3 at 10th, and unarmed attacks deal Stun |
+
+Agent, Engineer and Operative each choose one of their four class abilities when
+the class is first taken, and the chosen ability is added as a trait. Mark,
+Targeted Suspect, Unarmed Stun and the two checkboxes below appear only for the
+ability that trait grants; a GM grants a second one as a talent by adding its trait.
 
 **Surprise Attack** (Operative, half class level) and **Veteran Privateer** (Agent,
 +2 from 2nd level) apply to one attack roll at a time, so they are checkboxes in

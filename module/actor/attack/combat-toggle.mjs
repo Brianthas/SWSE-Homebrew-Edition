@@ -10,10 +10,11 @@ const half = level => Math.floor(level / 2);
  * since these are conditions about the attacker's current situation (flat-footed target, a
  * designated opponent, etc.), not properties of a specific weapon.
  *
- * Class features are made available by the key the class's level effects write (`mark`,
- * `familiarFoe`, ...). Classes never add the feature's trait item to the actor, so that key is the
- * only record that the character has the feature. The bonus is computed from the level in the
- * named class, and a toggle whose bonus is 0 at the character's level is not offered.
+ * Class features are made available by the change key that grants them. The Bounty Hunter's level
+ * effects write `familiarFoe`; the Agent, Engineer and Operative abilities (`mark`,
+ * `targetedSuspect`, ...) are written by the trait picked when the class is first taken. The bonus
+ * is computed from the level in the named class, and a toggle whose bonus is 0 at the character's
+ * level is not offered.
  */
 export const COMBAT_TOGGLE_DEFINITIONS = [
     {

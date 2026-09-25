@@ -5,8 +5,15 @@ import {initializeUniqueSelection, uniqueSelection} from "../common/listeners.mj
 import {getIndexEntriesByTypes} from "../compendium/compendium-util.mjs";
 import {titleCase} from "../common/helpers.mjs";
 
-function skipFirstLevelChoice(choice, context) {
-    return choice.isFirstLevel && !context.isFirstLevel;
+function skipFirstLevelChoice(choice, context, item) {
+    if (choice.isFirstLevel && !context.isFirstLevel) {
+        return true;
+    }
+    // A choice made on taking a class's first level (the Agent, Engineer and Operative free class
+    // ability). Every later level of that class runs the same add flow, so skip the choice once
+    // the actor already has the class.
+    return !!choice.isFirstLevelOfClass
+        && !!context.actor?.itemTypes?.class?.some(existing => existing.name === item.name);
 }
 
 
@@ -74,7 +81,7 @@ export async function activateChoices(item, context) {
     }
     let items = [];
     for (let choice of choices ) {
-        if (skipFirstLevelChoice(choice, context)) {
+        if (skipFirstLevelChoice(choice, context, item)) {
             continue;
         }
 

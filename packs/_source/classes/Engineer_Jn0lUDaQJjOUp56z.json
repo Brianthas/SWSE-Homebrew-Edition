@@ -4,7 +4,7 @@
   "img": "systems/swse/icon/class/Engineer.png",
   "system": {
     "finalName": "",
-    "description": "<p><i>Homebrew Prestige Class (tovec.wikidot.com/episode-vii)</i></p><p>Consolidates the Improviser, Military Engineer, Outlaw, and Saboteur prestige classes. Grants access to the Improviser, Military Engineer, Misfortune, Outlaw, Outlaw Tech, Procurement, Sabotage, Slicer, and Turret talent trees.</p><p>Gains Destructive (Saboteur), Field-Created Weapon, Fugitive, and No Tools Required at 1st level.</p>",
+    "description": "<p><i>Homebrew Prestige Class (tovec.wikidot.com/episode-vii)</i></p><p>Consolidates the Improviser, Military Engineer, Outlaw, and Saboteur prestige classes. Grants access to the Improviser, Military Engineer, Misfortune, Outlaw, Outlaw Tech, Procurement, Sabotage, Slicer, and Turret talent trees.</p><p>At 1st level, chooses one of Destructive, Field-Created Weapon, Fugitive, or No Tools Required as a free class ability. The others may be taken as talents.</p>",
     "textDescription": "",
     "sourceString": "",
     "attributes": {},
@@ -50,7 +50,72 @@
         "key": "classWillDefenseBonus"
       }
     ],
-    "choices": [],
+    "choices": [
+      {
+        "type": "SELECT",
+        "description": "Select a free Engineer class ability. The others may be taken as talents.",
+        "isFirstLevel": false,
+        "isFirstLevelOfClass": true,
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "noOptions": "NO_AVAILABLE_OPTIONS",
+        "showSelectionInName": false,
+        "options": [
+          {
+            "name": "Destructive",
+            "display": "Destructive",
+            "value": "Destructive",
+            "providedItems": [
+              {
+                "name": "Destructive",
+                "type": "trait"
+              }
+            ],
+            "payloads": {},
+            "attributes": {}
+          },
+          {
+            "name": "Field-Created Weapon",
+            "display": "Field-Created Weapon",
+            "value": "Field-Created Weapon",
+            "providedItems": [
+              {
+                "name": "Field-Created Weapon",
+                "type": "trait"
+              }
+            ],
+            "payloads": {},
+            "attributes": {}
+          },
+          {
+            "name": "Fugitive",
+            "display": "Fugitive",
+            "value": "Fugitive",
+            "providedItems": [
+              {
+                "name": "Fugitive",
+                "type": "trait"
+              }
+            ],
+            "payloads": {},
+            "attributes": {}
+          },
+          {
+            "name": "No Tools Required",
+            "display": "No Tools Required",
+            "value": "No Tools Required",
+            "providedItems": [
+              {
+                "name": "No Tools Required",
+                "type": "trait"
+              }
+            ],
+            "payloads": {},
+            "attributes": {}
+          }
+        ]
+      }
+    ],
     "modes": {},
     "providedItems": [],
     "payload": "",
@@ -75,48 +140,6 @@
           {
             "key": "provides",
             "value": "Engineer Talent Trees",
-            "priority": 20,
-            "type": "add",
-            "phase": "initial"
-          },
-          {
-            "key": "providedTrait",
-            "value": "Destructive",
-            "priority": 20,
-            "type": "add",
-            "phase": "initial"
-          },
-          {
-            "key": "fieldCreatedWeapon",
-            "value": 1,
-            "priority": 20,
-            "type": "add",
-            "phase": "initial"
-          },
-          {
-            "key": "providedTrait",
-            "value": "Field-Created Weapon",
-            "priority": 20,
-            "type": "add",
-            "phase": "initial"
-          },
-          {
-            "key": "fugitive",
-            "value": 1,
-            "priority": 20,
-            "type": "add",
-            "phase": "initial"
-          },
-          {
-            "key": "providedTrait",
-            "value": "Fugitive",
-            "priority": 20,
-            "type": "add",
-            "phase": "initial"
-          },
-          {
-            "key": "providedTrait",
-            "value": "No Tools Required",
             "priority": 20,
             "type": "add",
             "phase": "initial"

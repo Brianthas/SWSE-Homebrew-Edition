@@ -4,7 +4,7 @@
   "img": "systems/swse/icon/class/Operative.png",
   "system": {
     "finalName": "",
-    "description": "<p><i>Homebrew Prestige Class (tovec.wikidot.com/episode-vii)</i></p><p>Consolidates the Assassin, Infiltrator, and Vanguard prestige classes. Grants access to the Assassin, Awareness, Bothan SpyNet, Camouflage, GenoHaradan, Infiltration, Malkite Poisoner, Spy, and Vanguard talent trees.</p><p>Gains Lead Infiltrator, Surprise Attack, Mark, and Unarmed Stun at 1st level.</p>",
+    "description": "<p><i>Homebrew Prestige Class (tovec.wikidot.com/episode-vii)</i></p><p>Consolidates the Assassin, Infiltrator, and Vanguard prestige classes. Grants access to the Assassin, Awareness, Bothan SpyNet, Camouflage, GenoHaradan, Infiltration, Malkite Poisoner, Spy, and Vanguard talent trees.</p><p>At 1st level, chooses one of Lead Infiltrator, Surprise Attack, Mark, or Unarmed Stun as a free class ability. The others may be taken as talents.</p>",
     "textDescription": "",
     "sourceString": "",
     "attributes": {},
@@ -50,7 +50,72 @@
         "key": "classWillDefenseBonus"
       }
     ],
-    "choices": [],
+    "choices": [
+      {
+        "type": "SELECT",
+        "description": "Select a free Operative class ability. The others may be taken as talents.",
+        "isFirstLevel": false,
+        "isFirstLevelOfClass": true,
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "noOptions": "NO_AVAILABLE_OPTIONS",
+        "showSelectionInName": false,
+        "options": [
+          {
+            "name": "Lead Infiltrator",
+            "display": "Lead Infiltrator",
+            "value": "Lead Infiltrator",
+            "providedItems": [
+              {
+                "name": "Lead Infiltrator",
+                "type": "trait"
+              }
+            ],
+            "payloads": {},
+            "attributes": {}
+          },
+          {
+            "name": "Surprise Attack",
+            "display": "Surprise Attack",
+            "value": "Surprise Attack",
+            "providedItems": [
+              {
+                "name": "Surprise Attack",
+                "type": "trait"
+              }
+            ],
+            "payloads": {},
+            "attributes": {}
+          },
+          {
+            "name": "Mark",
+            "display": "Mark",
+            "value": "Mark",
+            "providedItems": [
+              {
+                "name": "Mark",
+                "type": "trait"
+              }
+            ],
+            "payloads": {},
+            "attributes": {}
+          },
+          {
+            "name": "Unarmed Stun",
+            "display": "Unarmed Stun",
+            "value": "Unarmed Stun",
+            "providedItems": [
+              {
+                "name": "Unarmed Stun",
+                "type": "trait"
+              }
+            ],
+            "payloads": {},
+            "attributes": {}
+          }
+        ]
+      }
+    ],
     "modes": {},
     "providedItems": [],
     "payload": "",
@@ -75,62 +140,6 @@
           {
             "key": "provides",
             "value": "Operative Talent Trees",
-            "priority": 20,
-            "type": "add",
-            "phase": "initial"
-          },
-          {
-            "key": "leadInfiltrator",
-            "value": 1,
-            "priority": 20,
-            "type": "add",
-            "phase": "initial"
-          },
-          {
-            "key": "providedTrait",
-            "value": "Lead Infiltrator",
-            "priority": 20,
-            "type": "add",
-            "phase": "initial"
-          },
-          {
-            "key": "surpriseAttack",
-            "value": 1,
-            "priority": 20,
-            "type": "add",
-            "phase": "initial"
-          },
-          {
-            "key": "providedTrait",
-            "value": "Surprise Attack",
-            "priority": 20,
-            "type": "add",
-            "phase": "initial"
-          },
-          {
-            "key": "mark",
-            "value": 1,
-            "priority": 20,
-            "type": "add",
-            "phase": "initial"
-          },
-          {
-            "key": "providedTrait",
-            "value": "Mark",
-            "priority": 20,
-            "type": "add",
-            "phase": "initial"
-          },
-          {
-            "key": "unarmedStun",
-            "value": 1,
-            "priority": 20,
-            "type": "add",
-            "phase": "initial"
-          },
-          {
-            "key": "providedTrait",
-            "value": "Unarmed Stun",
             "priority": 20,
             "type": "add",
             "phase": "initial"
