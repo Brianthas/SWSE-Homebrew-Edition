@@ -1,10 +1,10 @@
-<li class="directory-item flex flex-row" data-document-id="{{item._id}}" data-uuid="{{item.uuid}}" data-collection="{{collection._id}}" data-entry-id="{{item._id}}" data-action-modifier="{{item.compendiumModifier}}">
+<li class="directory-item browser-entry" data-document-id="{{item._id}}" data-uuid="{{item.uuid}}" data-collection="{{collection._id}}" data-entry-id="{{item._id}}" data-action-modifier="{{item.compendiumModifier}}">
     <div class="item-image"><img src="{{item.img}}" title="{{item.name}}" width="48"
                                  height="48" alt="{{item.name}}"/></div>
-    <div class="flex flex-col">
-        <div class="flex flex-row">
+    <div class="browser-entry-text">
+        <div class="browser-entry-fields">
             <div><h3 class="entry-name"><a>{{item.name}}</a></h3></div>
-            <div><span class="entry-source">Type: {{item.type}}</span></div>
+            <div class="entry-type"><span class="entry-source">Type: {{item.type}}</span></div>
 
             {{#if item.subType}}<div><span class="entry-source">SubType: {{item.subType}}</span></div>{{/if}}
         </div>

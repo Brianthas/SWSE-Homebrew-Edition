@@ -2995,6 +2995,46 @@
 .swse .compendium-browser {
   height: 100%;
 }
+.swse .compendium-browser .directory-container {
+  flex: 1;
+  min-height: 0;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.swse .compendium-browser .directory-list {
+  flex: 1;
+  min-height: 0;
+  height: auto;
+  overflow-y: auto;
+}
+.swse .compendium-browser .browser-entry {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+}
+.swse .compendium-browser .browser-entry .item-image {
+  flex: 0 0 auto;
+}
+.swse .compendium-browser .browser-entry .browser-entry-text {
+  flex: 1;
+  min-width: 0;
+}
+.swse .compendium-browser .browser-entry .browser-entry-fields {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr) minmax(0, 2fr);
+  column-gap: 8px;
+  align-items: baseline;
+}
+.swse .compendium-browser .browser-entry .entry-name {
+  margin: 0;
+}
+.swse .compendium-browser.single-type .browser-entry .entry-type {
+  display: none;
+}
+.swse .compendium-browser.single-type .browser-entry .browser-entry-fields {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+}
 .swse .directory-container {
   height: 90%;
 }
@@ -3410,6 +3450,46 @@
 
 .compendium-browser {
   height: 100%;
+}
+.compendium-browser .directory-container {
+  flex: 1;
+  min-height: 0;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.compendium-browser .directory-list {
+  flex: 1;
+  min-height: 0;
+  height: auto;
+  overflow-y: auto;
+}
+.compendium-browser .browser-entry {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+}
+.compendium-browser .browser-entry .item-image {
+  flex: 0 0 auto;
+}
+.compendium-browser .browser-entry .browser-entry-text {
+  flex: 1;
+  min-width: 0;
+}
+.compendium-browser .browser-entry .browser-entry-fields {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr) minmax(0, 2fr);
+  column-gap: 8px;
+  align-items: baseline;
+}
+.compendium-browser .browser-entry .entry-name {
+  margin: 0;
+}
+.compendium-browser.single-type .browser-entry .entry-type {
+  display: none;
+}
+.compendium-browser.single-type .browser-entry .browser-entry-fields {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
 }
 
 .directory-container {

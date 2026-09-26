@@ -97,7 +97,64 @@
 }
 
 .compendium-browser{
-  height: 100%
+  height: 100%;
+
+  // The list takes whatever height the header leaves, instead of the fixed 90%/99% above, which
+  // left a blank band under it.
+  .directory-container {
+    flex: 1;
+    min-height: 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .directory-list {
+    flex: 1;
+    min-height: 0;
+    height: auto;
+    overflow-y: auto;
+  }
+
+  // One row per item (compendium-browser_entry.hbs). The text takes the width beside the icon, and
+  // Name, Type and SubType sit on a fixed grid so the columns line up from row to row.
+  .browser-entry {
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+
+    .item-image {
+      flex: 0 0 auto;
+    }
+
+    .browser-entry-text {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .browser-entry-fields {
+      display: grid;
+      grid-template-columns: minmax(0, 2fr) minmax(0, 1fr) minmax(0, 2fr);
+      column-gap: 8px;
+      align-items: baseline;
+    }
+
+    .entry-name {
+      margin: 0;
+    }
+  }
+
+  // Set by _updateHeader when every item in scope is the same type, so the column would repeat
+  // one value on every row.
+  &.single-type .browser-entry {
+    .entry-type {
+      display: none;
+    }
+
+    .browser-entry-fields {
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    }
+  }
 }
 
 .directory-container{

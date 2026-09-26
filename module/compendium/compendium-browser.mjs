@@ -476,13 +476,15 @@ export class SWSECompendiumBrowser extends Application {
             promises.push(this.loadCompendium(p, this.getBasicFilters()));
         }
 
-        Promise.all(promises).then(response => {
+        Promise.all(promises).then(async response => {
             response.forEach(items => this.items.push(...items))
             // Sort items
             this.items = naturalSort(this.items, "item.name");
 
+            this._updateHeader();
+
             // Lazy load
-            this._initLazyLoad();
+            await this._initLazyLoad();
         })
     }
 
@@ -536,7 +538,7 @@ export class SWSECompendiumBrowser extends Application {
     async _render(force, ...args) {
         await super._render(force, ...args);
 
-        this._determineFilteredItemCount();
+        this._updateHeader();
     }
 
     activateListeners(html) {
@@ -720,26 +722,41 @@ export class SWSECompendiumBrowser extends Application {
             rootElem.scrollTop = 0;
         }
 
+        this._updateHeader();
+
         // Create new elements
         await this._createInitialElements();
-
-        // Determine filtered item count
-        this._determineFilteredItemCount();
     }
 
-    _determineFilteredItemCount() {
+    /**
+     * Writes "matching of in scope" into the header: items passing the search text and the
+     * filters, out of items passing the filters alone (the pack or type this browser was opened
+     * on, plus any typed "-" filters). Called after the packs finish loading as well as on
+     * render and search, because the first render happens before any pack has loaded.
+     *
+     * Also hides the Type column when everything in scope is one type. 21 of the 23 Item packs
+     * hold a single type; beast-components and vehicle-systems mix several, and keep the column.
+     */
+    _updateHeader() {
         let itemCount = 0;
+        let scopeCount = 0;
+        const types = new Set();
         for (let item of this.items) {
-            if (this._passesFilters(item.item)) {
-                itemCount++;
-            }
+            if (!this._passesPostFilters(item.item)) continue;
+            scopeCount++;
+            types.add(item.item.type);
+            if (this._matchesSearch(item.item)) itemCount++;
         }
-        this.element
-            .find('span[data-type="filterItemCount"]')
-            .text(itemCount)//game.i18n.localize("PF1.FilteredItems").format(itemCount));
+        this.element.find('span[data-type="filterItemCount"]').text(itemCount);
+        this.element.find('span[data-type="itemCount"]').text(scopeCount);
+        this.element.find(".compendium-browser").toggleClass("single-type", types.size <= 1);
     }
 
     _passesFilters(item) {
+        return this._matchesSearch(item) && this._passesPostFilters(item);
+    }
+
+    _matchesSearch(item) {
         let matchesProviderGroup = item.groupTypes.map(type => {
             let b = this.filterQuery.test(type);
             return b;
@@ -749,13 +766,15 @@ export class SWSECompendiumBrowser extends Application {
 
         let matchesTag = (item.tags || []).some(tag => this.filterQuery.test(tag));
 
-        if (!this.filterQuery.test(item.name)
-            && !this.filterQuery.test(item.talentTree)
-            && !this.filterQuery.test(item.type)
-            && !this.filterQuery.test(item.subType)
-            && !matchesProviderGroup
-            && !matchesTag) return false;
+        return this.filterQuery.test(item.name)
+            || this.filterQuery.test(item.talentTree)
+            || this.filterQuery.test(item.type)
+            || this.filterQuery.test(item.subType)
+            || matchesProviderGroup
+            || matchesTag;
+    }
 
+    _passesPostFilters(item) {
         let groupedFilters = {};
         this.postFilters.forEach(f => {
             if (!f) return;
