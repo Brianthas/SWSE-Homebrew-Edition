@@ -91,7 +91,7 @@ demoted to warnings so that every error is something that can misbehave at runti
 
 ## Tests
 
-`npm test` runs `node --test` over `module_test/**/*.test.mjs`: 125 tests, 123 passing. The two
+`npm test` runs `node --test` over `module_test/**/*.test.mjs`: 131 tests, 129 passing. The two
 failures are in `module_test/actor.test.mjs`, which asserts `firstAid.perDay` and
 `forcePoints.quantity` against the mock actor in `module_test/setup.mjs` and has never passed.
 

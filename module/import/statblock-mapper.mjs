@@ -476,13 +476,15 @@ export async function mapStatblock(block, {resolve, aliases}) {
     }
 
     // Droid systems are listed with a leading count ("2 Hand Appendages", "1 Tool Mount"), which
-    // is the opposite of the trailing "(2)" the rest of the statblock uses.
+    // is the opposite of the trailing "(2)" the rest of the statblock uses. They are installed,
+    // so they arrive equipped: an unequipped droid system applies none of its changes and costs
+    // no slots.
     for (const entry of block.droidSystems ?? []) {
         const leading = /^(\d+)\s+(.*)$/.exec(entry.name);
         const name = leading ? leading[2].trim() : entry.name;
         const quantity = leading ? Number(leading[1]) : (entry.quantity ?? 1);
         const result = await resolveOne({...entry, name}, "droidSystem", {resolve, aliasIndex});
-        record(result, quantity > 1 ? {quantity: String(quantity)} : {});
+        record(result, quantity > 1 ? {equip: "equipped", quantity: String(quantity)} : {equip: "equipped"});
     }
 
     // Possessions are tier 3 in the plan: this fork ships 4 armors and 34 weapons against the

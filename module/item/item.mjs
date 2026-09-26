@@ -906,15 +906,6 @@ export class SWSEItem extends Item {
         return this.system.equipped;
     }
     /**
-     * Homebrew: general equipment is equipable too. Light/Kit carrying capacity only counts
-     * EQUIPPED gear (see slots.mjs), and the house rules' own examples of Light and Kit items are
-     * things like comlinks, datapads and field kits - all `equipment`. Leaving that type out meant
-     * those rows had no equip control at all, so they could never be equipped and therefore never
-     * counted against carrying capacity.
-     *
-     * Bio/droid parts stay excluded: they're installed into a creature, not carried.
-     */
-    /**
      * Whether this item was genuinely granted by something the SAME actor still has (a class,
      * species, another talent...). The supplier id is resolved rather than merely checked for
      * truthiness: dragging an item between sheets copies system.supplier along with it, so the
@@ -934,8 +925,20 @@ export class SWSEItem extends Item {
         return !!this.parent?.items?.get?.(supplierId);
     }
 
+    /**
+     * Whether the Equipment tab shows an Equip toggle for this item. `system.equipped` gates two
+     * things: slots.mjs counts only equipped items against Light/Kit capacity, and
+     * inheritableItems (util.mjs) applies an item's changes to the actor only when it is
+     * equipped. An item with no toggle can reach neither.
+     *
+     * Implants and droid systems are included, and equipment with a bio or droid-part subtype
+     * (Hardened Systems, Translator Units) is not excluded. For these, equipped means installed.
+     * Not gated on actor.isDroid, which reads a species change a hand-built droid species can
+     * lack. Every compendium implant and droid system arrives unequipped, so without the toggle
+     * one dragged in from the compendium never counted and never applied its bonuses.
+     */
     get isEquipable() {
-        return ["weapon", "armor", "equipment"].includes(this.type) && !this.isBioPart && !this.isDroidPart;
+        return ["weapon", "armor", "equipment", "implant", "droid system"].includes(this.type);
     }
 
     /**
