@@ -157,7 +157,6 @@ export class AbilityFunctions {
 
             // Prepare the roll data
             let totalModifiers = ability.mod;
-            let label = CONFIG.SWSE.Abilities.abilitiesShort[key];
 
             ability.label = key.toUpperCase();
             // What the sheet rolls for this ability, its modifier labelled for the chat card. The
@@ -165,20 +164,23 @@ export class AbilityFunctions {
             // which Foundry refuses to parse.
             ability.rollFormula = labeledFormula("1d20", [{value: ability.mod, label: abilityName(key)}], ability.mod, `1d20 + ${ability.mod}`);
 
-            let rollLabel = label + " Modifer";
+            // The ROLL label is the ability's name, so a hotbar macro's card is headed "Ability
+            // Check: Strength". It was the unlocalized "SWSE.AbilityShortStr Modifer", shown as the
+            // card's heading and again as a note.
             actor.setResolvedVariable(
                 "@" + key.toUpperCase() + "ROLL",
                 "1d20" + (totalModifiers ? " + " : " - ") + totalModifiers,
-                rollLabel,
-                rollLabel
+                abilityName(key),
+                []
             );
+            let rollLabel = `${abilityName(key)} Modifier`;
             actor.setResolvedVariable(
                 "@" + key.toUpperCase() + "MOD",
                 totalModifiers,
                 rollLabel,
                 rollLabel
             );
-            rollLabel = label + " Score";
+            rollLabel = `${abilityName(key)} Score`;
             actor.setResolvedVariable(
                 "@" + key.toUpperCase() + "SCORE",
                 ability.value,

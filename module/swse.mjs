@@ -883,7 +883,14 @@ async function rollVariable(actorId, variable) {
         return ui.notifications.error(msg);
     }
 
-    let rollStr = actor.resolvedVariables.get(variable);
+    // A skill or ability rolls its labelled formula, as it does from the sheet; anything else
+    // rolls what resolvedVariables holds.
+    const skill = Object.values(actor.system.skills ?? {})
+        .flatMap(s => [s, ...(s?.situationalSkills ?? [])])
+        .find(s => s?.variable === variable);
+    const ability = Object.entries(actor.system.abilities ?? {})
+        .find(([key]) => `@${key.toUpperCase()}ROLL` === variable)?.[1];
+    let rollStr = skill?.rollFormula ?? ability?.rollFormula ?? actor.resolvedVariables.get(variable);
     let label = actor.resolvedLabels.get(variable);
     let notes = actor.resolvedNotes.get(variable) || [];
     let flavor = checkTitle(label, actorSkillNames(actor));
