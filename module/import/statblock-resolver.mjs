@@ -13,8 +13,8 @@ import {getCompendium} from "../compendium/compendium-util.mjs";
  * The packs the ADD path will actually search for a given type.
  *
  * This must be getCompendium(), not "every Item pack". Scanning everything reported items the
- * importer could never add: "Frag Grenade" exists only in swse.legacy-weapons, which
- * getCompendium("weapon") does not include, so the review screen promised it and
+ * importer could never add: "Frag Grenade" existed only in the Legacy Weapons pack (since
+ * removed), which getCompendium("weapon") did not include, so the review screen promised it and
  * SWSEActor#addItem then failed to find it. A report that names something the add path cannot
  * fetch is worse than no report.
  */

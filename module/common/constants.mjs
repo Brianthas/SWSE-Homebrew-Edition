@@ -25,7 +25,7 @@ export const beastSizeArray = ["Fine", "Diminutive", "Tiny", "Small", "Medium", 
 export const DAMAGE_TYPES = ["Bludgeoning", "Piercing", "Slashing", "Energy", "Ion", "Sonic", "Stun", "Fire", "Physical"];
 // The homebrew consolidates vanilla's Bludgeoning/Piercing/Slashing into plain Physical and uses
 // Burn rather than Fire, so this is what a weapon can actually deal at this table. DAMAGE_TYPES
-// above is kept for the item sheet, where legacy weapons still carry the vanilla types.
+// above is kept for the item sheet, where beast and vehicle attacks still carry the vanilla types.
 // Alphabetical, since this is rendered straight into a picker.
 export const HOMEBREW_DAMAGE_TYPES = ["Burn", "Energy", "Ion", "Physical", "Sonic", "Stun"];
 export const AVAILABILITY_TYPES = ["Licensed", "Restricted", "Military", "Rare", "Illegal"];
