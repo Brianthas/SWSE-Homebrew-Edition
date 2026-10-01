@@ -3311,52 +3311,475 @@
   border: 1px solid var(--swse-border);
 }
 
-.damage-only-card .damage-only-header {
+@font-face {
+  font-family: "Rajdhani";
+  src: url("fonts/Rajdhani-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Rajdhani";
+  src: url("fonts/Rajdhani-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+.chat-message .swse-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-family: Signika, sans-serif;
+  color: var(--swse-text);
+}
+.chat-message .swse-card a {
+  color: var(--swse-accent);
+}
+
+.swse-card-banner {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
-  gap: 2px;
-  margin-bottom: 2px;
+  gap: 8px;
+  padding: 6px 10px;
+  border: 1px solid var(--swse-border);
+  border-radius: 6px;
+  background: var(--swse-surface-raised);
 }
-.damage-only-card .damage-only-name {
+.swse-card-banner .swse-card-banner-title {
+  font-family: "Rajdhani", "Bruno Ace", sans-serif;
   font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--swse-accent);
 }
-.damage-only-card .damage-only-type {
-  font-size: 10px;
+.swse-card-banner .swse-card-banner-count {
+  font-size: 11px;
   color: var(--swse-text-muted);
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
 }
-.damage-only-card .damage-only-critical {
-  padding: 1px 2px;
-  border: 1px solid var(--swse-accent-combat);
+.swse-card-banner .swse-card-banner-penalty {
+  margin-left: auto;
+  font-size: 11px;
+  color: #f0948c;
+}
+
+.swse-card-attack {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px;
+  border: 1px solid var(--swse-border);
+  border-radius: 6px;
+  background: var(--swse-surface);
+}
+.swse-card-attack.is-critical {
+  background: #1c1a12;
+  border-color: #4a3d16;
+}
+.swse-card-attack.is-fail {
+  border-color: #5a2a2a;
+}
+
+.swse-card-weapon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.swse-card-weapon .swse-card-weapon-img {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  border: 1px solid var(--swse-border);
   border-radius: 4px;
-  color: var(--swse-accent-combat);
-  font-size: 10px;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
+  background: var(--swse-control);
+  object-fit: cover;
 }
-.damage-only-card .damage-only-targets {
+.swse-card-weapon .swse-card-weapon-name {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  min-width: 0;
+}
+.swse-card-weapon .swse-card-title {
+  font-family: "Rajdhani", "Bruno Ace", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.1;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  overflow-wrap: anywhere;
+}
+.swse-card-weapon .swse-card-subtitle {
+  font-size: 11px;
+  color: var(--swse-text-muted);
+}
+
+.swse-card-tag {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 2px 6px;
+  border-radius: 3px;
+  color: var(--swse-text);
+  background: var(--swse-control);
+}
+.swse-card-tag.is-critical {
+  color: #1a1406;
+  background: #fbbf24;
+}
+
+.swse-damage-type {
+  flex-shrink: 0;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 2px 6px;
+  border-radius: 3px;
+  border: 1px solid var(--swse-border);
+  color: var(--swse-text-muted);
+  background: var(--swse-control);
+}
+.swse-damage-type.type-energy {
+  color: #4fc3f7;
+  background: #13303e;
+  border-color: #2b8bb8;
+}
+.swse-damage-type.type-ion {
+  color: #93a8ff;
+  background: #1b2244;
+  border-color: #4d5fb8;
+}
+.swse-damage-type.type-stun {
+  color: #fde68a;
+  background: #33300f;
+  border-color: #8a7a1f;
+}
+.swse-damage-type.type-sonic {
+  color: #c4b5fd;
+  background: #2a2142;
+  border-color: #6d55b8;
+}
+.swse-damage-type.type-burn {
+  color: #fdba74;
+  background: #3a2412;
+  border-color: #a5602a;
+}
+.swse-damage-type.type-physical {
+  color: #d6dae4;
+  background: #262c3a;
+  border-color: #4a5368;
+}
+
+.swse-card-band {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.swse-card-range {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--swse-text-muted);
+}
+
+.chat-message .swse-card .swse-roll {
+  margin: 0;
+}
+.chat-message .swse-card .swse-roll .dice-result {
   display: flex;
   flex-wrap: wrap;
-  gap: 2px;
-  margin-bottom: 2px;
-  font-size: 11px;
+  align-items: center;
+  column-gap: 10px;
+  row-gap: 4px;
+  padding: 0;
+  border: none;
+  background: none;
+  box-shadow: none;
+  text-align: left;
+  cursor: pointer;
 }
-.damage-only-card .damage-only-targets.none {
+.chat-message .swse-card .swse-roll .swse-roll-label {
+  width: 52px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
   color: var(--swse-text-muted);
-  font-style: italic;
 }
-.damage-only-card .damage-only-target {
-  padding: 1px 2px;
+.chat-message .swse-card .swse-roll .dice-total.swse-roll-total {
+  display: inline-block;
+  flex: 0 0 auto;
+  width: auto;
+  min-width: max-content;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  box-shadow: none;
+  font-family: "Rajdhani", "Bruno Ace", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1;
+  color: var(--swse-text);
+  text-align: left;
+}
+.chat-message .swse-card .swse-roll .dice-total.swse-roll-total.is-critical {
+  color: #fbbf24;
+}
+.chat-message .swse-card .swse-roll .dice-total.swse-roll-total.is-fail {
+  color: #f0948c;
+}
+.chat-message .swse-card .swse-roll .swse-roll-dice {
+  flex: 1 1 120px;
+  font-size: 11px;
+  color: var(--swse-text-muted);
+}
+.chat-message .swse-card .swse-roll .dice-tooltip {
+  flex-basis: 100%;
+}
+.chat-message .swse-card .swse-roll.is-muted .dice-total.swse-roll-total,
+.chat-message .swse-card .swse-roll.is-muted .swse-roll-dice,
+.chat-message .swse-card .swse-roll.is-muted .swse-roll-label {
+  color: #6f7890;
+}
+.chat-message .swse-card .swse-roll.is-muted .dice-total.swse-roll-total {
+  font-size: 22px;
+}
+
+.swse-natural {
+  font-size: 11px;
+  padding: 1px 6px;
+  border: 1px solid var(--swse-border);
+  border-radius: 10px;
+  color: var(--swse-text-muted);
+}
+.swse-natural.is-critical {
+  font-weight: 700;
+  color: #1a1406;
+  background: #fbbf24;
+  border-color: #fbbf24;
+}
+.swse-natural.is-fail {
+  font-weight: 700;
+  color: #ffffff;
+  background: #b53a31;
+  border-color: #b53a31;
+}
+
+.swse-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.swse-chip {
+  font-size: 11px;
+  padding: 1px 6px;
+  border-radius: 3px;
+  background: var(--swse-control);
+  color: #c9cfdd;
+}
+.swse-chip.is-negative {
+  background: #3a1f22;
+  color: #f0948c;
+}
+
+.swse-target {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 8px;
+  border-radius: 4px;
+  background: var(--swse-bg);
+  font-size: 12px;
+}
+.swse-target .swse-target-name {
+  flex-grow: 1;
+  min-width: 0;
+}
+.swse-target .swse-target-defense {
+  color: var(--swse-text-muted);
+}
+
+.swse-verdict {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border-radius: 3px;
+  border: 1px solid;
+}
+.swse-verdict.verdict-hit {
+  color: #4ade80;
+  background: #12301f;
+  border-color: #2f7d4f;
+}
+.swse-verdict.verdict-critical {
+  color: #1a1406;
+  background: #fbbf24;
+  border-color: #fbbf24;
+}
+.swse-verdict.verdict-half {
+  color: #fde68a;
+  background: #33300f;
+  border-color: #8a7a1f;
+}
+.swse-verdict.verdict-miss {
+  color: #c9cfdd;
+  background: var(--swse-control);
+  border-color: #3a4358;
+}
+
+.swse-card-hint {
+  padding: 6px 8px;
+  border: 1px dashed var(--swse-border);
+  border-radius: 4px;
+  background: var(--swse-bg);
+  font-size: 11px;
+  line-height: 1.4;
+  color: var(--swse-text-muted);
+}
+
+.swse-card-note,
+.swse-card-notes {
+  font-size: 11px;
+  color: var(--swse-text-muted);
+}
+
+.chat-message .swse-card .swse-card-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 4px;
+}
+.chat-message .swse-card .swse-card-buttons button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  height: 44px;
+  margin: 0;
+  padding: 2px;
   border: 1px solid var(--swse-border);
   border-radius: 4px;
   background: var(--swse-surface-raised);
+  color: var(--swse-text);
+  font-family: Signika, sans-serif;
+  font-size: 11px;
+  line-height: 1.1;
 }
-.damage-only-card .damage-only-notes {
-  margin-top: 2px;
+.chat-message .swse-card .swse-card-buttons button i {
+  margin: 0;
+  font-size: 12px;
+}
+.chat-message .swse-card .swse-card-buttons button:hover, .chat-message .swse-card .swse-card-buttons button:focus-visible {
+  color: var(--swse-bg);
+  background: var(--swse-accent);
+  border-color: var(--swse-accent);
+}
+
+.chat-message:has(.swse-check) .flavor-text {
+  font-family: "Rajdhani", "Bruno Ace", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--swse-accent-skill);
+}
+
+.chat-message .swse-card.swse-check {
+  gap: 6px;
+  padding: 10px;
+  border: 1px solid var(--swse-border);
+  border-radius: 6px;
+  background: var(--swse-surface);
+}
+
+.chat-message .swse-card.swse-result {
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px;
+  border: 1px solid var(--swse-border);
+  border-radius: 6px;
+  background: var(--swse-surface);
+}
+.chat-message .swse-card.swse-result .swse-result-amount {
+  min-width: 48px;
+  font-family: "Rajdhani", "Bruno Ace", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+}
+.chat-message .swse-card.swse-result.is-damage .swse-result-amount {
+  color: #f0948c;
+}
+.chat-message .swse-card.swse-result.is-heal .swse-result-amount {
+  color: #4ade80;
+}
+.chat-message .swse-card.swse-result.is-zero .swse-result-amount {
+  color: var(--swse-text-muted);
+}
+.chat-message .swse-card.swse-result .swse-result-body {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.chat-message .swse-card.swse-result .swse-result-name {
+  font-size: 12px;
+  font-weight: 600;
+}
+.chat-message .swse-card.swse-result .swse-result-detail {
   font-size: 11px;
   color: var(--swse-text-muted);
+}
+
+#tooltip.swse-roll-tooltip {
+  max-width: 300px;
+  text-align: left;
+}
+
+.swse-roll-tip {
+  min-width: 190px;
+  font-family: Signika, sans-serif;
+}
+.swse-roll-tip .swse-roll-tip-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  padding-bottom: 4px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid var(--swse-border);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.swse-roll-tip .swse-roll-tip-head strong {
+  font-family: "Rajdhani", "Bruno Ace", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+.swse-roll-tip ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.swse-roll-tip li {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.swse-roll-tip li.is-negative {
+  color: #f0948c;
 }
 
 .swse-web-buttons {

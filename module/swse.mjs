@@ -40,6 +40,7 @@ import ImplantData from "./item/data/implantdata.mjs";
 import DroidSystemData from "./item/data/droidsystemdata.mjs";
 import HazardData from "./item/data/hazarddata.mjs";
 import VehicleBaseTypeData from "./item/data/vehiclebasetypedata.mjs";
+import {planApplications} from "./actor/attack/apply-attack.mjs";
 import {
     BaseCategoriesSourceData,
     BaseSourceData,
@@ -212,11 +213,9 @@ Hooks.once('init', async function () {
         'systems/swse/templates/settings/sheet-size.hbs',
         'systems/swse/templates/actor/parts/attack/attack-chat-card.hbs',
         'systems/swse/templates/actor/parts/attack/damage-only-chat-card.hbs',
-        'systems/swse/templates/actor/parts/attack/attack-chat-card-individual-attack.hbs',
+        'systems/swse/templates/roll/card-roll.hbs',
         'systems/swse/templates/actor/parts/attack/attack-dialogue.hbs',
         'systems/swse/templates/actor/parts/attack/attack-dialogue-single-attack.hbs',
-        'systems/swse/templates/roll/roll.hbs',
-        'systems/swse/templates/roll/roll-target.hbs',
         'systems/swse/templates/roll/roll-tooltip.hbs',
         'systems/swse/templates/active-effect/active-effect-list.hbs',
         'systems/swse/templates/common/select.hbs',
@@ -370,7 +369,7 @@ const applyAttack = async (event) => {
     let element = $(event.currentTarget);
     let type = element.data("type")
 
-    const attackSummaries = element.data("attackSummary");
+    const attackSummaries = element.data("attackSummary") || [];
     let actorUUIDs = attackSummaries.map(a=>a.uuid);
     let targetActors = game.actors.filter(actor => actorUUIDs.includes(actor.uuid)).reduce((actorMap, actor) => {actorMap[actor.uuid] = actor; return actorMap}, {})
 
@@ -379,55 +378,67 @@ const applyAttack = async (event) => {
         .map(token => token.actor)
         .reduce((actorMap, actor) => {actorMap[actor.uuid] = actor; return actorMap}, targetActors)
 
-    for (const attackSummary of attackSummaries) {
-        const targetActor = targetActors[attackSummary.uuid]
+    const applications = planApplications(type, {
+        selected: (canvas.tokens?.controlled ?? []).map(token => token.actor).filter(actor => !!actor),
+        summaries: attackSummaries,
+        base: element.data("apply") || {},
+        resolveActor: uuid => targetActors[uuid]
+    });
+    if (applications.length === 0) {
+        ui.notifications.warn("Select a token on the map, then click the button again.");
+        return;
+    }
 
+    for (const application of applications) {
         if (type === "heal") {
-            targetActor.applyHealing({heal: attackSummary.damage})
+            await application.actor.applyHealing({heal: application.amount})
         } else {
-            await targetActor.applyDamage({
-                damage: attackSummary.damage,
+            await application.actor.applyDamage({
+                damage: application.amount,
                 affectDamageThreshold: true,
-                damageType: attackSummary.damageType,
-                lightsaber: !!attackSummary.lightsaber,
+                damageType: application.damageType,
+                lightsaber: application.lightsaber,
                 skipShields: false,
-                skipDamageReduction: false,
-                halfDamage: attackSummary.result === "Half Damage"
+                skipDamageReduction: false
             })
         }
     }
 }
 
-Hooks.on('renderChatMessageHTML', async (message, html) => {
-    if (typeof message.flags?.swse?.context === 'undefined') {
-        return true;
-    }
-
-    if(message.flags.swse.context.type === "attack-roll"){
+Hooks.on('renderChatMessageHTML', (message, html) => {
+    if (message.flags?.swse?.context?.type === "attack-roll") {
         $(html).find('[data-action="apply-attack"]').click(applyAttack.bind(this));
     }
-    if(message.flags.swse.context.type === "damage-result"){
-        let activeGM = game.users.activeGM
-        if(game.user.id === activeGM.id){
-            /**
-             * SWSEActor
-             */
-            let targetActor = game.actors.find(a => a.uuid === message.flags.swse.context.damageTarget)
-            if(!targetActor){
-                targetActor = game.actors.get(message.flags.swse.context.damageTarget)
-            }
-
-            if(!targetActor){
-                targetActor = canvas.tokens?.placeables?.find(token => message.flags.swse.context.damageTarget === token.actor.uuid)?.actor
-            }
-
-            await targetActor?.resolveDamage(message.flags.swse.context.damage, message.timestamp)
-            message.delete();
-        }
-    }
-
-    return true;
 })
+
+// Damage and healing reach an actor through a chat message, because a player cannot update an actor
+// they do not own. Actor#applyDamage and #applyHealing post it; the active GM's client applies it
+// here and marks it resolved. The message stays in chat as the result line. Messages run one at a
+// time: two hits on one actor would otherwise both subtract from the same HP value.
+let damageResults = Promise.resolve();
+
+function resolveDamageResult(message) {
+    damageResults = damageResults.then(async () => {
+        const context = message.flags?.swse?.context;
+        if (context?.type !== "damage-result" || context.resolved || !game.user.isActiveGM) return;
+        if (!game.messages.has(message.id)) return;
+        const target = await fromUuid(context.damageTarget) ?? game.actors.get(context.damageTarget);
+        if (!target) {
+            ui.notifications.warn(`Could not find ${message.speaker.alias} to apply this result. It stays unapplied until the actor exists.`);
+            return;
+        }
+        await target.resolveDamage(context.damage);
+        await message.update({"flags.swse.context.resolved": true});
+    }).catch(error => console.error("SWSE | could not apply a damage result", error));
+    return damageResults;
+}
+
+Hooks.on("createChatMessage", resolveDamageResult);
+
+// Results posted while no GM was connected wait in chat until one is.
+Hooks.once("ready", () => {
+    for (const message of game.messages) resolveDamageResult(message);
+});
 
 Hooks.on("ready", async function () {
 

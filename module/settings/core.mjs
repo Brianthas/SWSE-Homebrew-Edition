@@ -114,7 +114,7 @@ function colorConfiguration() {
 function systemOptions() {
     game.settings.register("swse", "enableTargetResultsOnAttackCard", {
         name: "Enable Target Results on attack rolls for targeted actors.",
-        hint: "Results require that a token is linked to an actor, because Reflex Defense is on that sheet.",
+        hint: "Shows each target's defense and whether the attack hit. The card lists who was targeted either way.",
         scope: "world",
         config: true,
         default: false,

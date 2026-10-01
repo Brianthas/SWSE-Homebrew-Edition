@@ -4,6 +4,7 @@ import {getInheritableAttribute} from "../../attribute-helper.mjs";
 import {equippedItems, getBonusString, handleAttackSelect, parseAttackChoice, toNumber} from "../../common/util.mjs";
 import {createAttackMacro} from "../../swse.mjs";
 import {characterActorTypes} from "../../common/constants.mjs";
+import {attackCardView, damageOnlyCardView, roundPenaltyText} from "./attack-card.mjs";
 
 
 export class AttackDelegate {
@@ -536,16 +537,6 @@ function createAttackFromAttackBlock(attackBlock, attackMods, damageMods) {
     return attack;
 }
 
-async function generateAttackCard(resolvedAttacks, attack) {
-    let template = await foundry.applications.handlebars.getTemplate("systems/swse/templates/actor/parts/attack/attack-chat-card.hbs")
-    return template({
-        name: attack.name,
-        notes: attack.notesHTML,
-        attacks: resolvedAttacks,
-        targetsEnabled: game.settings.get("swse", "enableTargetResultsOnAttackCard")
-    })
-}
-
 
 function modes(sounds) {
     let largest = 0;
@@ -743,15 +734,7 @@ export async function makeDamageOnlyRoll(data) {
     const resolved = await attack.resolveDamageOnly(data.changes, data.critical);
 
     const template = await foundry.applications.handlebars.getTemplate("systems/swse/templates/actor/parts/attack/damage-only-chat-card.hbs");
-    const content = template({
-        name: attack.name,
-        damageRoll: resolved.damage,
-        damageType: resolved.damageType,
-        critical: resolved.critical,
-        targets: resolved.targets,
-        attackSummaries: resolved.attackSummaries,
-        notes: attack.notesHTML
-    });
+    const content = template(damageOnlyCardView(resolved, attack));
 
     // Only the type is needed: the renderChatMessageHTML hook keys off it to wire up the apply
     // buttons, and everything those buttons need already travels in the buttons' own
@@ -763,7 +746,6 @@ export async function makeDamageOnlyRoll(data) {
         flags,
         user: game.user.id,
         speaker: ChatMessage.getSpeaker({actor: attack.actor}),
-        flavor: `${attack.name} damage${resolved.critical ? " (Critical)" : ""}`,
         content,
         sound: getSound([attack]),
         rolls: [resolved.damage]
@@ -782,7 +764,7 @@ export async function makeAttack(data) {
     const actor = fromUuidSync(data.actorUUID)
     let attacks = applyFullAttackPenalties(actor, await getAttacks(actor.attack, data));
 
-    let attackRows = [];
+    let views = [];
     let rolls = [];
     let rollOrder = 1;
     let resolvedAttackData = [];
@@ -797,25 +779,20 @@ export async function makeAttack(data) {
             rollOrder++
         }
 
-        attackRows.push(await generateAttackCard([resolvedAttack], attack))
+        views.push(attackCardView(resolvedAttack, attack))
         resolvedAttackData.push(resolvedAttack)
     }
 
-    const content = `${attackRows.join("<br>")}`;
-
-    // if(hands > availableHands){
-    //     content = `<div class="warning">${hands} hands used out of a possible ${availableHands}</div><br>` + content;
-    // }
-
-    let flavor = attacks[0].name;
-    if (attacks.length > 1) {
-        flavor = "Full Attack " + flavor;
-    }
-    if (data.advantageMode === "advantage") {
-        flavor += " (Advantage)";
-    } else if (data.advantageMode === "disadvantage") {
-        flavor += " (Disadvantage)";
-    }
+    // The card carries the weapon names, Full Attack and Advantage itself, so the message has no
+    // flavor line repeating them.
+    const template = await foundry.applications.handlebars.getTemplate("systems/swse/templates/actor/parts/attack/attack-chat-card.hbs");
+    const content = template({
+        attacks: views,
+        fullAttack: attacks.length > 1,
+        penalties: roundPenaltyText(attacks),
+        advantage: data.advantageMode === "advantage" ? "Advantage" : data.advantageMode === "disadvantage" ? "Disadvantage" : "",
+        targetsEnabled: game.settings.get("swse", "enableTargetResultsOnAttackCard")
+    });
     const pool = foundry.dice.terms.PoolTerm.fromRolls(rolls);
     let roll = Roll.fromTerms([pool]);
 
@@ -834,7 +811,6 @@ export async function makeAttack(data) {
         flags,
         user: game.user.id,
         speaker: ChatMessage.getSpeaker({actor: attacks[0].actor}),
-        flavor: flavor,
         content,
         sound: getSound(attacks),
         roll,

@@ -162,61 +162,484 @@
   }
 }
 
-// Damage rolled without a to-hit roll. Smaller than the full attack card because there is no
-// attack roll, no per-target verdict and no range breakdown to show.
-.damage-only-card {
-  .damage-only-header {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    gap: $space-2xs;
-    margin-bottom: $space-2xs;
-  }
+// ---------------------------------------------------------------------------------------------
+// Chat cards: attacks, damage only, checks and applied results (attack-chat-card.hbs,
+// damage-only-chat-card.hbs, card-roll.hbs, chatMessageHelpers.mjs). Everything is scoped under
+// .swse-card so other modules' chat elements (Dice Tray's controls, Dice So Nice's) keep their
+// own look. Totals keep core's .dice-roll/.dice-total classes, restyled here.
+// ---------------------------------------------------------------------------------------------
 
-  .damage-only-name {
+@font-face {
+  font-family: "Rajdhani";
+  src: url("fonts/Rajdhani-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rajdhani";
+  src: url("fonts/Rajdhani-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+
+$card-display: "Rajdhani", "Bruno Ace", sans-serif;
+$card-gold: #fbbf24;
+$card-gold-ink: #1a1406;
+$card-penalty: #f0948c;
+$card-penalty-bg: #3a1f22;
+
+.chat-message .swse-card {
+  display: flex;
+  flex-direction: column;
+  gap: $space-sm;
+  font-family: Signika, sans-serif;
+  color: var(--swse-text);
+
+  a {
+    color: var(--swse-accent);
+  }
+}
+
+.swse-card-banner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: $space-sm;
+  padding: 6px 10px;
+  border: 1px solid var(--swse-border);
+  border-radius: 6px;
+  background: var(--swse-surface-raised);
+
+  .swse-card-banner-title {
+    font-family: $card-display;
     font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--swse-accent);
   }
 
-  .damage-only-type {
-    font-size: 10px;
+  .swse-card-banner-count {
+    font-size: 11px;
     color: var(--swse-text-muted);
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
   }
 
-  .damage-only-critical {
-    padding: 1px $space-2xs;
-    border: 1px solid var(--swse-accent-combat);
+  .swse-card-banner-penalty {
+    margin-left: auto;
+    font-size: 11px;
+    color: $card-penalty;
+  }
+}
+
+.swse-card-attack {
+  display: flex;
+  flex-direction: column;
+  gap: $space-sm;
+  padding: 10px;
+  border: 1px solid var(--swse-border);
+  border-radius: 6px;
+  background: var(--swse-surface);
+
+  &.is-critical {
+    background: #1c1a12;
+    border-color: #4a3d16;
+  }
+
+  &.is-fail {
+    border-color: #5a2a2a;
+  }
+}
+
+.swse-card-weapon {
+  display: flex;
+  align-items: center;
+  gap: $space-sm;
+
+  .swse-card-weapon-img {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    border: 1px solid var(--swse-border);
     border-radius: $radius-sm;
-    color: var(--swse-accent-combat);
-    font-size: 10px;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
+    background: var(--swse-control);
+    object-fit: cover;
   }
 
-  .damage-only-targets {
+  .swse-card-weapon-name {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    min-width: 0;
+  }
+
+  .swse-card-title {
+    font-family: $card-display;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1.1;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    overflow-wrap: anywhere;
+  }
+
+  .swse-card-subtitle {
+    font-size: 11px;
+    color: var(--swse-text-muted);
+  }
+}
+
+.swse-card-tag {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 2px 6px;
+  border-radius: 3px;
+  color: var(--swse-text);
+  background: var(--swse-control);
+
+  &.is-critical {
+    color: $card-gold-ink;
+    background: $card-gold;
+  }
+}
+
+.swse-damage-type {
+  flex-shrink: 0;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 2px 6px;
+  border-radius: 3px;
+  border: 1px solid var(--swse-border);
+  color: var(--swse-text-muted);
+  background: var(--swse-control);
+
+  &.type-energy { color: #4fc3f7; background: #13303e; border-color: #2b8bb8; }
+  &.type-ion { color: #93a8ff; background: #1b2244; border-color: #4d5fb8; }
+  &.type-stun { color: #fde68a; background: #33300f; border-color: #8a7a1f; }
+  &.type-sonic { color: #c4b5fd; background: #2a2142; border-color: #6d55b8; }
+  &.type-burn { color: #fdba74; background: #3a2412; border-color: #a5602a; }
+  &.type-physical { color: #d6dae4; background: #262c3a; border-color: #4a5368; }
+}
+
+.swse-card-band {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.swse-card-range {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--swse-text-muted);
+}
+
+// One roll: label, total, then the natural d20 or the dice. Overrides core's boxed formula/total.
+.chat-message .swse-card .swse-roll {
+  margin: 0;
+
+  .dice-result {
     display: flex;
     flex-wrap: wrap;
-    gap: $space-2xs;
-    margin-bottom: $space-2xs;
-    font-size: 11px;
+    align-items: center;
+    column-gap: 10px;
+    row-gap: 4px;
+    padding: 0;
+    border: none;
+    background: none;
+    box-shadow: none;
+    text-align: left;
+    cursor: pointer;
+  }
 
-    &.none {
-      color: var(--swse-text-muted);
-      font-style: italic;
+  .swse-roll-label {
+    width: 52px;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--swse-text-muted);
+  }
+
+  .dice-total.swse-roll-total {
+    display: inline-block;
+    flex: 0 0 auto;
+    width: auto;
+    min-width: max-content;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    box-shadow: none;
+    font-family: $card-display;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1;
+    color: var(--swse-text);
+    text-align: left;
+
+    &.is-critical { color: $card-gold; }
+    &.is-fail { color: $card-penalty; }
+  }
+
+  .swse-roll-dice {
+    flex: 1 1 120px;
+    font-size: 11px;
+    color: var(--swse-text-muted);
+  }
+
+  .dice-tooltip {
+    flex-basis: 100%;
+  }
+
+  &.is-muted {
+    .dice-total.swse-roll-total,
+    .swse-roll-dice,
+    .swse-roll-label {
+      color: #6f7890;
+    }
+
+    .dice-total.swse-roll-total {
+      font-size: 22px;
     }
   }
+}
 
-  .damage-only-target {
-    padding: 1px $space-2xs;
+.swse-natural {
+  font-size: 11px;
+  padding: 1px 6px;
+  border: 1px solid var(--swse-border);
+  border-radius: 10px;
+  color: var(--swse-text-muted);
+
+  &.is-critical {
+    font-weight: 700;
+    color: $card-gold-ink;
+    background: $card-gold;
+    border-color: $card-gold;
+  }
+
+  &.is-fail {
+    font-weight: 700;
+    color: #ffffff;
+    background: #b53a31;
+    border-color: #b53a31;
+  }
+}
+
+.swse-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.swse-chip {
+  font-size: 11px;
+  padding: 1px 6px;
+  border-radius: 3px;
+  background: var(--swse-control);
+  color: #c9cfdd;
+
+  &.is-negative {
+    background: $card-penalty-bg;
+    color: $card-penalty;
+  }
+}
+
+.swse-target {
+  display: flex;
+  align-items: center;
+  gap: $space-sm;
+  padding: 6px 8px;
+  border-radius: $radius-sm;
+  background: var(--swse-bg);
+  font-size: 12px;
+
+  .swse-target-name {
+    flex-grow: 1;
+    min-width: 0;
+  }
+
+  .swse-target-defense {
+    color: var(--swse-text-muted);
+  }
+}
+
+.swse-verdict {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border-radius: 3px;
+  border: 1px solid;
+
+  &.verdict-hit { color: #4ade80; background: #12301f; border-color: #2f7d4f; }
+  &.verdict-critical { color: $card-gold-ink; background: $card-gold; border-color: $card-gold; }
+  &.verdict-half { color: #fde68a; background: #33300f; border-color: #8a7a1f; }
+  &.verdict-miss { color: #c9cfdd; background: var(--swse-control); border-color: #3a4358; }
+}
+
+.swse-card-hint {
+  padding: 6px 8px;
+  border: 1px dashed var(--swse-border);
+  border-radius: $radius-sm;
+  background: var(--swse-bg);
+  font-size: 11px;
+  line-height: 1.4;
+  color: var(--swse-text-muted);
+}
+
+.swse-card-note,
+.swse-card-notes {
+  font-size: 11px;
+  color: var(--swse-text-muted);
+}
+
+.chat-message .swse-card .swse-card-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 4px;
+
+  button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    height: 44px;
+    margin: 0;
+    padding: 2px;
     border: 1px solid var(--swse-border);
     border-radius: $radius-sm;
     background: var(--swse-surface-raised);
+    color: var(--swse-text);
+    font-family: Signika, sans-serif;
+    font-size: 11px;
+    line-height: 1.1;
+
+    i {
+      margin: 0;
+      font-size: 12px;
+    }
+
+    &:hover,
+    &:focus-visible {
+      color: var(--swse-bg);
+      background: var(--swse-accent);
+      border-color: var(--swse-accent);
+    }
+  }
+}
+
+// A skill, ability or other check: Foundry draws the check's name as the flavor line above.
+.chat-message:has(.swse-check) .flavor-text {
+  font-family: $card-display;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--swse-accent-skill);
+}
+
+.chat-message .swse-card.swse-check {
+  gap: 6px;
+  padding: 10px;
+  border: 1px solid var(--swse-border);
+  border-radius: 6px;
+  background: var(--swse-surface);
+}
+
+// One applied damage or healing result.
+.chat-message .swse-card.swse-result {
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px;
+  border: 1px solid var(--swse-border);
+  border-radius: 6px;
+  background: var(--swse-surface);
+
+  .swse-result-amount {
+    min-width: 48px;
+    font-family: $card-display;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1;
   }
 
-  .damage-only-notes {
-    margin-top: $space-2xs;
+  &.is-damage .swse-result-amount { color: $card-penalty; }
+  &.is-heal .swse-result-amount { color: #4ade80; }
+  &.is-zero .swse-result-amount { color: var(--swse-text-muted); }
+
+  .swse-result-body {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
+
+  .swse-result-name {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .swse-result-detail {
     font-size: 11px;
     color: var(--swse-text-muted);
+  }
+}
+
+// The sheet's attack and damage hover tooltips (Attack#attackTooltip, #damageTooltip).
+#tooltip.swse-roll-tooltip {
+  max-width: 300px;
+  text-align: left;
+}
+
+.swse-roll-tip {
+  min-width: 190px;
+  font-family: Signika, sans-serif;
+
+  .swse-roll-tip-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: $space-md;
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid var(--swse-border);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+
+    strong {
+      font-family: $card-display;
+      font-size: 20px;
+      letter-spacing: 0.02em;
+      text-transform: none;
+    }
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    display: flex;
+    justify-content: space-between;
+    gap: $space-md;
+    font-size: 12px;
+    line-height: 1.5;
+
+    &.is-negative {
+      color: $card-penalty;
+    }
   }
 }

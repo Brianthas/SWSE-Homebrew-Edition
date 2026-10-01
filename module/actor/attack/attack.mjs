@@ -2,6 +2,7 @@ import {UnarmedAttack} from "../unarmed-attack.mjs";
 import {CustomAttackItem} from "../custom-attack-item.mjs";
 import {getInheritableAttribute} from "../../attribute-helper.mjs";
 import {compareSizes, getSize} from "../size.mjs";
+import {rollTooltipHtml} from "../../common/roll-summary.mjs";
 import {
     getFocusAttackBonuses,
     getPossibleProficiencies,
@@ -1132,6 +1133,16 @@ export class Attack {
         return 2 + bonus
     }
 
+    /** Hover tooltip for the sheet's to-hit figure: the total attack bonus and each line of it. */
+    get attackTooltip() {
+        return rollTooltipHtml("attack", this.attackRoll);
+    }
+
+    /** Hover tooltip for the sheet's damage figure: the dice, the total bonus and each line. */
+    get damageTooltip() {
+        return rollTooltipHtml("damage", this.damageRoll);
+    }
+
     /**
      * Lightsabers ignore damage reduction (SWSEActor#applyDamage). Their damage type is plain
      * "Energy", so the attack carries this separately on each target it reports.
@@ -1629,7 +1640,7 @@ export class Attack {
             let found = response.rangeBreakdown.find(rb => rb.range === range)
             let modifiedRoll = found ? found.attack : this.makeVariantRoll(attackRoll, {range: range});
 
-            let modifiedDamageRoll = found ? found.attack : this.makeVariantRoll(damageRoll, {range: range});
+            let modifiedDamageRoll = found ? found.damage : this.makeVariantRoll(damageRoll, {range: range});
             const targets = toTargets(actors, modifiedRoll, autoMiss, autoHit, critical, areaAttack, modifiedDamageRoll, this)
             attackSummaries.push(...targets);
             if (found) {

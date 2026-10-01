@@ -136,6 +136,31 @@ attack in the round:
 - Double Attack: -5. Triple Attack: another -5.
 - Additional Arms takes 2 off the combined penalty.
 
+## Chat cards
+
+An attack card shows each attack with the weapon's image from the sheet, its
+damage type, the attack and damage totals, the natural d20, and the modifiers
+that made up each total. Click a total to see the dice. A Full Attack is one card,
+with the round's penalties in its header.
+
+Targeting is optional. The card lists who was targeted; their defenses and
+whether each attack hit show only with the world setting **Enable Target Results
+on attack rolls for targeted actors**.
+
+**Damage**, **Half**, **Double** and **Heal** apply to the tokens selected on the
+map. With none selected, they apply to the targets the attack hit when it was
+rolled: a miss is skipped, a Half Damage result is halved, and Heal reaches every
+target. Damage goes through shields, damage reduction and Ion or Stun immunity,
+and each application posts a result line, such as "-20 Acklay, 20 Energy". Result
+lines show the damage dealt, never current or maximum HP.
+
+The GM's client applies the result, so a player can damage a token they do not
+own. A result posted while no GM is connected waits in chat and applies when a GM
+loads the world.
+
+On the sheet, hovering an attack's bonus or damage in the Attacks panel lists the
+total and every modifier in it.
+
 ## Armor
 
 Worn armor reduces speed by 5 feet and applies its Armor Check Penalty (-2, none
@@ -230,3 +255,9 @@ and contributors, licensed under the
 
 See [`icon/CREDITS.md`](icon/CREDITS.md) for the exact folder-by-folder
 breakdown of what was sourced from where.
+
+### Font
+
+Chat cards use **Rajdhani** by Indian Type Foundry, licensed under the SIL Open
+Font License 1.1. The license is in
+[`css/fonts/Rajdhani-OFL.txt`](css/fonts/Rajdhani-OFL.txt).

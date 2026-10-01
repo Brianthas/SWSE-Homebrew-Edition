@@ -1,16 +1,54 @@
-{{#each attacks as |attack i|}}
-    {{#each attack.rangeBreakdown as |range i|}}
-        {{> 'systems/swse/templates/actor/parts/attack/attack-chat-card-individual-attack.hbs' index = i attack = range targetsEnabled = ../../targetsEnabled}}
+{{!-- Attack card: one section per attack, each with its weapon, attack and damage rolls, targets
+      and buttons. Built from attack-card.mjs attackCardView. The buttons apply to the tokens
+      selected on the map, or with none selected to the targets this attack hit (swse.mjs
+      applyAttack), so a roll never needs a target. --}}
+<div class="swse-card">
+    {{#if fullAttack}}
+        <header class="swse-card-banner">
+            <span class="swse-card-banner-title">Full Attack</span>
+            <span class="swse-card-banner-count">{{attacks.length}} attacks</span>
+            {{#if penalties}}<span class="swse-card-banner-penalty">Each: {{penalties}}</span>{{/if}}
+        </header>
+    {{/if}}
+    {{#each attacks as |attack|}}
+        <section class="swse-card-attack{{#if attack.critical}} is-critical{{/if}}{{#if attack.fail}} is-fail{{/if}}">
+            <header class="swse-card-weapon">
+                <img class="swse-card-weapon-img" src="{{attack.img}}" alt="">
+                <div class="swse-card-weapon-name">
+                    <span class="swse-card-title">{{attack.name}}</span>
+                    {{#if attack.subtitle}}<span class="swse-card-subtitle">{{attack.subtitle}}</span>{{/if}}
+                </div>
+                {{#if @root.advantage}}<span class="swse-card-tag">{{@root.advantage}}</span>{{/if}}
+                {{#if attack.damageType}}<span class="swse-damage-type type-{{attack.damageTypeKey}}">{{attack.damageType}}</span>{{/if}}
+            </header>
+            {{#each attack.bands as |band|}}
+                <div class="swse-card-band">
+                    {{#if band.rangeLabel}}<div class="swse-card-range">{{band.rangeLabel}}</div>{{/if}}
+                    {{> 'systems/swse/templates/roll/card-roll.hbs' label="Attack" view=band.attack natural=true}}
+                    {{> 'systems/swse/templates/roll/card-roll.hbs' label="Damage" view=band.damage muted=band.damageMuted}}
+                    {{!-- Who was targeted always shows; defenses and hit/miss only with the world
+                          setting "enableTargetResultsOnAttackCard" on. --}}
+                    {{#each band.targets as |target|}}
+                        <div class="swse-target">
+                            <span class="swse-target-name">{{target.name}}</span>
+                            {{#if @root.targetsEnabled}}
+                                {{#if target.defense}}<span class="swse-target-defense">{{target.defense}}</span>{{/if}}
+                                <span class="swse-verdict verdict-{{target.verdictKey}}">{{target.verdict}}</span>
+                            {{/if}}
+                        </div>
+                        {{#if @root.targetsEnabled}}{{#each target.conditionalDefenses as |defense|}}<div class="swse-card-note">{{defense}}</div>{{/each}}{{/if}}
+                    {{/each}}
+                    {{#each band.notes as |note|}}<div class="swse-card-note"><a href="{{note.href}}">{{note.value}}</a></div>{{/each}}
+                </div>
+            {{/each}}
+            {{#unless attack.hasTargets}}<div class="swse-card-hint">No target needed. Select a token on the map, then click a button to apply it there.</div>{{/unless}}
+            <div class="swse-card-buttons">
+                <button type="button" data-action="apply-attack" data-type="damage" data-attack-summary="{{attack.attackSummaries}}" data-apply="{{attack.apply}}"><i class="fas fa-explosion"></i><span>Damage</span></button>
+                <button type="button" data-action="apply-attack" data-type="half" data-attack-summary="{{attack.attackSummaries}}" data-apply="{{attack.apply}}"><i class="fas fa-circle-half-stroke"></i><span>Half</span></button>
+                <button type="button" data-action="apply-attack" data-type="double" data-attack-summary="{{attack.attackSummaries}}" data-apply="{{attack.apply}}"><i class="fas fa-angles-up"></i><span>Double</span></button>
+                <button type="button" data-action="apply-attack" data-type="heal" data-attack-summary="{{attack.attackSummaries}}" data-apply="{{attack.apply}}"><i class="fas fa-hand-holding-heart"></i><span>Heal</span></button>
+            </div>
+            {{#if attack.notesHTML}}<div class="swse-card-notes">{{{attack.notesHTML}}}</div>{{/if}}
+        </section>
     {{/each}}
-    <div class="buttons flex flex-row">
-        <button type="button" data-action="apply-attack" data-type="damage" data-attack-summary="{{attack.attackSummaries}}"><i class="fas fa-explosion"></i><br><span class="button-text">Damage</span></button>
-        <button type="button" data-action="apply-attack" data-type="half" data-attack-summary="{{attack.attackSummaries}}"><i class="fas fa-explosion"></i><br><span class="button-text">Half</span></button>
-        <button type="button" data-action="apply-attack" data-type="double" data-attack-summary="{{attack.attackSummaries}}"><i class="fas fa-explosion"></i><br><span class="button-text">Double</span></button>
-        <button type="button" data-action="apply-attack" data-type="heal" data-attack-summary="{{attack.attackSummaries}}"><i class="fas fa-hand-holding-heart"></i><br><span class="button-text">Heal</span></button>
-    </div>
-{{/each}}
-
-<br/>
-{{#each notes as |note i|}}
-    <div>{{note}}</div>
-{{/each}}
+</div>

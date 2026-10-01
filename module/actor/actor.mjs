@@ -31,6 +31,7 @@ import {generateAction} from "../action/generate-action.mjs";
 import {WeightDelegate} from "./weightDelegate.mjs";
 import {getGridSizeFromSize, getTokenTextureScaleFromSize} from "./size.mjs";
 import {bypassShields, resolveDamageTaken} from "../common/conditionalHelpers.mjs";
+import {resultLineContent} from "../common/chatMessageHelpers.mjs";
 import {depthMerge, titleCase} from "../common/helpers.mjs";
 import {CrewDelegate} from "./crewDelegate.mjs";
 import {getAvailableCombatToggles} from "./attack/combat-toggle.mjs";
@@ -1567,16 +1568,20 @@ class SWSEActor extends Actor {
             totalDamage = Math.floor(totalDamage/2);
         }
 
-        const damageTypes = options.damageType.split(COMMMA_LIST);
+        const damageTypes = (options.damageType ?? "").split(COMMMA_LIST);
+        const notes = [`${totalDamage}${options.damageType ? ` ${options.damageType}` : ""}`];
+        if (options.halfDamage) {
+            notes.push("half");
+        }
 
-        let resultFlavor = "";
         if (!options.skipShields && !bypassShields(damageTypes)) {
             let shields = this.system.shields;
             let shieldValue = shields.value;
             if (shields.active && shieldValue > 0) {
+                notes.push(`shields ${shieldValue}`);
                 if (totalDamage > shieldValue) {
                     this.changeShields(-5)
-                    resultFlavor += "Shields overwhelmed. Shield value reduced by 5. "
+                    notes.push("shields overwhelmed, reduced by 5");
                 }
                 totalDamage = Math.max(totalDamage - shieldValue, 0);
             }
@@ -1588,10 +1593,11 @@ class SWSEActor extends Actor {
             damageReductions: options.skipDamageReduction ? [] : getInheritableAttribute({entity: this, attributeKey: "damageReduction"}),
             blocksLightsaber: !!getInheritableAttribute({entity: this, attributeKey: "blocksLightsaber", reduce: "OR"}),
             takesIonDamage: this.takesFullDamageFromIon,
-            takesStunDamage: this.isEffectedByStun
+            takesStunDamage: this.isEffectedByStun,
+            notes
         });
 
-        const content = `${this.name} has has taken ${totalDamage} damage.  ${resultFlavor}`
+        const content = resultLineContent(this.name, -totalDamage, notes.join(", "));
 
         let flags = {};
         flags.swse = {};
@@ -1600,17 +1606,18 @@ class SWSEActor extends Actor {
         flags.swse.context.damageTarget = this.uuid;
         flags.swse.context.damage = totalDamage;
 
-        await toChat(content, this, "Damage", {flags})
+        await toChat(content, this, "", {flags})
     }
 
-    async resolveDamage(damage, timestamp) {
-        if ((this.system.lastResolvedMessageTS >= timestamp) || !damage) {
+    /**
+     * Applies a posted damage result (negative heals). Run only by swse.mjs resolveDamageResult,
+     * which marks each message resolved so it is applied once.
+     */
+    async resolveDamage(damage) {
+        if (!damage) {
             return;
         }
-        let update = {};
-        update[`system.health.value`] = this.system.health.value - damage;
-        update[`system.lastResolvedMessageTS`] = timestamp;
-        await this.safeUpdate(update);
+        await this.safeUpdate({"system.health.value": this.system.health.value - damage});
     }
 
     /**
@@ -1628,7 +1635,15 @@ class SWSEActor extends Actor {
         const healAmount = Math.min(proposedHealAmount, maxHealAmount);
         update[`system.health.value`] = this.system.health.value + healAmount;
 
-        const content = `${this.name} has healed ${healAmount} damage` + (maxHealAmount < proposedHealAmount ? " reaching max health." : ".")
+        // Current and maximum HP stay off the message: Health Estimate exists to keep them hidden.
+        const notes = [];
+        if (heal > 0 && this.healingReceivedBonus) {
+            notes.push(`${heal} healed, +${this.healingReceivedBonus} Toughness`);
+        }
+        if (maxHealAmount < proposedHealAmount) {
+            notes.push("reached maximum HP");
+        }
+        const content = resultLineContent(this.name, healAmount, notes.join(", "));
 
         let flags = {};
         flags.swse = {};
@@ -1639,7 +1654,7 @@ class SWSEActor extends Actor {
         flags.swse.context.damageTarget = this.uuid;
         flags.swse.context.damage = -healAmount;
 
-        await toChat(content, this, "Damage", {flags})
+        await toChat(content, this, "", {flags})
     }
 
     async setAttributes(abilities) {

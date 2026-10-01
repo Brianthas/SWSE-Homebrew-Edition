@@ -39,25 +39,33 @@ export function bypassShields(damageTypes) {
  * @param {boolean} target.skipDamageReduction
  * @param {boolean} target.takesIonDamage a droid, a vehicle, or carrying unshielded cybernetics
  * @param {boolean} target.takesStunDamage organic
+ * @param {string[]} [target.notes] receives why the damage changed, for the result message
  * @return {number}
  */
 export function resolveDamageTaken(damage, damageTypes, target) {
     let total = damage;
+    const notes = Array.isArray(target.notes) ? target.notes : [];
 
     const ignoresReduction = (target.lightsaber || damageTypes.includes("Lightsabers")) && !target.blocksLightsaber;
+    if (!target.skipDamageReduction && ignoresReduction && (target.damageReductions || []).length > 0) {
+        notes.push("lightsabers ignore Damage Reduction");
+    }
     if (!target.skipDamageReduction && !ignoresReduction) {
         for (const damageReduction of target.damageReductions || []) {
             const modifier = damageReduction.modifier || "";
             if (!modifier || innerJoin(damageTypes, modifier.split(COMMMA_LIST)).length === 0) {
                 total = Math.max(total - toNumber(damageReduction.value), 0);
+                notes.push(`Damage Reduction ${toNumber(damageReduction.value)}`);
             }
         }
     }
 
     if (damageTypes.some(type => ION_TYPES.includes(type)) && !target.takesIonDamage) {
         total = 0;
+        notes.push("immune to Ion");
     } else if (damageTypes.some(type => STUN_TYPES.includes(type)) && !target.takesStunDamage) {
         total = 0;
+        notes.push("immune to Stun");
     }
 
     return Math.max(total, 0);

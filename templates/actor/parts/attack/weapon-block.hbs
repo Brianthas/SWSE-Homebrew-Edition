@@ -57,8 +57,8 @@
                     </select>
                 {{/if}}
 
-                <span class="attack-tohit" title="{{attack.attackRoll.formula}}">{{{attack.attackRoll.formattedFormula}}}</span>
-                <span class="attack-damage" title="{{attack.damageRoll.formula}}">{{{attack.damageRoll.formattedFormula}}}</span>
+                <span class="attack-tohit" data-tooltip-html="{{attack.attackTooltip}}" data-tooltip-class="swse-roll-tooltip" data-tooltip-direction="UP">{{{attack.attackRoll.formattedFormula}}}</span>
+                <span class="attack-damage" data-tooltip-html="{{attack.damageTooltip}}" data-tooltip-class="swse-roll-tooltip" data-tooltip-direction="UP">{{{attack.damageRoll.formattedFormula}}}</span>
 
                 <a class="attack-roll-btn attack-button" data-action="singleAttack" data-attack-key="{{attack.attackKey}}" title="Attack - opens a dialog for bonuses/Advantage/Disadvantage (Ctrl-click or Alt-click to skip the dialog and roll immediately with Advantage/Disadvantage)">
                     <i class="fas fa-dice-d20"></i>
