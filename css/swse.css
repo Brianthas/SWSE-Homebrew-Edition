@@ -3533,21 +3533,68 @@
 .chat-message .swse-card .swse-roll .dice-total.swse-roll-total.is-fail {
   color: #f0948c;
 }
-.chat-message .swse-card .swse-roll .swse-roll-dice {
-  flex: 1 1 120px;
-  font-size: 11px;
-  color: var(--swse-text-muted);
-}
 .chat-message .swse-card .swse-roll .dice-tooltip {
   flex-basis: 100%;
 }
 .chat-message .swse-card .swse-roll.is-muted .dice-total.swse-roll-total,
-.chat-message .swse-card .swse-roll.is-muted .swse-roll-dice,
+.chat-message .swse-card .swse-roll.is-muted .swse-math,
 .chat-message .swse-card .swse-roll.is-muted .swse-roll-label {
   color: #6f7890;
 }
+.chat-message .swse-card .swse-roll.is-muted .swse-die {
+  color: #6f7890;
+  border-color: var(--swse-border);
+}
 .chat-message .swse-card .swse-roll.is-muted .dice-total.swse-roll-total {
   font-size: 22px;
+}
+
+.swse-math {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  color: var(--swse-text-muted);
+}
+
+.swse-math-formula {
+  font-size: 10px;
+  letter-spacing: 0.04em;
+}
+
+.swse-die {
+  min-width: 22px;
+  padding: 0 4px;
+  border: 1px solid #5b6478;
+  border-radius: 4px;
+  font-family: "Rajdhani", "Bruno Ace", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: var(--swse-text);
+}
+.swse-die.is-critical {
+  color: #1a1406;
+  background: #fbbf24;
+  border-color: #fbbf24;
+}
+.swse-die.is-fail {
+  color: #ffffff;
+  background: #b53a31;
+  border-color: #b53a31;
+}
+
+.swse-math-bonus {
+  font-family: "Rajdhani", "Bruno Ace", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--swse-text);
+}
+
+.swse-math-op {
+  font-weight: 700;
 }
 
 .swse-natural {
@@ -3633,16 +3680,6 @@
   color: #c9cfdd;
   background: var(--swse-control);
   border-color: #3a4358;
-}
-
-.swse-card-hint {
-  padding: 6px 8px;
-  border: 1px dashed var(--swse-border);
-  border-radius: 4px;
-  background: var(--swse-bg);
-  font-size: 11px;
-  line-height: 1.4;
-  color: var(--swse-text-muted);
 }
 
 .swse-card-note,

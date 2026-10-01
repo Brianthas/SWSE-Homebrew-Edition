@@ -1,7 +1,41 @@
-import {diceText, modifierChips, naturalD20, summarizeRoll} from "./roll-summary.mjs";
+import {modifierChips, naturalD20, rollMathHtml, summarizeRoll} from "./roll-summary.mjs";
 
 function escapeHTML(text) {
     return `${text ?? ""}`.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+}
+
+const ABILITY_NAMES = {
+    str: "Strength", dex: "Dexterity", con: "Constitution", int: "Intelligence", wis: "Wisdom", cha: "Charisma"
+};
+
+/** "wis" or "WIS" to "Wisdom"; anything else unchanged. */
+export function abilityName(key) {
+    return ABILITY_NAMES[`${key ?? ""}`.toLowerCase()] ?? key;
+}
+
+/** The actor's skill names as its sheet shows them, situational variants included, for checkTitle. */
+export function actorSkillNames(actor) {
+    return Object.entries(actor?.system?.skills ?? {})
+        .flatMap(([name, skill]) => [name, ...(skill?.situationalSkills ?? []).map(s => s?.label).filter(Boolean)]);
+}
+
+/**
+ * A check's chat heading in PF2e's wording: "Skill Check: Perception", "Ability Check: Strength",
+ * and "Initiative". Anything else (a Force power, Grapple, First Aid) is its own name, as in
+ * PF2e. Skills are matched by name against the actor's own, with the sheet's "K." read as
+ * "Knowledge".
+ * @param label {string}
+ * @param skillNames {string[]} the actor's skill names as the sheet shows them
+ */
+export function checkTitle(label, skillNames = []) {
+    const text = `${label ?? ""}`.trim();
+    if (!text) return "";
+    const wanted = text.replace(/^K\.\s*/i, "Knowledge ").toLowerCase();
+    const skill = skillNames.find(name => `${name}`.toLowerCase() === wanted);
+    if (skill) return skill.toLowerCase() === "initiative" ? "Initiative" : `Skill Check: ${skill}`;
+    const ability = Object.entries(ABILITY_NAMES).find(([key, name]) => wanted === key || wanted === name.toLowerCase());
+    if (ability) return `Ability Check: ${ability[1]}`;
+    return text;
 }
 
 // itemFlavor defaults to "" rather than being left undefined: it is interpolated straight into
@@ -19,17 +53,16 @@ export function buildRollContent(formula, roll, notes = [], itemFlavor = "") {
     // core's own templates/dice/roll.hbs and tooltip.hbs.
     const summary = summarizeRoll(roll);
     const natural = naturalD20(summary);
-    const totalClass = natural === 20 ? " is-critical" : natural === 1 ? " is-fail" : "";
-    const beside = natural !== undefined
-        ? `<span class="swse-natural${totalClass}">${natural === 20 || natural === 1 ? "Nat" : "d20 &middot;"} ${natural}</span>`
-        : `<span class="swse-roll-dice">${escapeHTML(summary.complex ? formula : diceText(summary))}</span>`;
+    const critical = natural === 20;
+    const fail = natural === 1;
+    const totalClass = critical ? " is-critical" : fail ? " is-fail" : "";
     const chips = summary.complex ? [] : modifierChips(summary);
     return `<div class="swse-card swse-check">
 ${itemFlavor}
         <div class="dice-roll swse-roll" data-action="expandRoll">
             <div class="dice-result">
                 <h4 class="dice-total swse-roll-total${totalClass}">${roll.total}</h4>
-                ${beside}
+                ${rollMathHtml(summary, {critical, fail, criticalLabel: "Nat 20", failLabel: "Nat 1"})}
                 ${getTooltip(roll)}
             </div>
         </div>

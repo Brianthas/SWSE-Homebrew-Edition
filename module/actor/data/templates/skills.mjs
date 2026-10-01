@@ -3,6 +3,8 @@ import {defaultAttributes, getGroupedSkillMap, NEW_LINE, skillDetails, skills} f
 import {resolveValueArray, toNumber} from "../../../common/util.mjs";
 import {DEFAULT_SKILL} from "../../../common/classDefaults.mjs";
 import {titleCase} from "../../../common/helpers.mjs";
+import {labeledFormula} from "../../../common/roll-summary.mjs";
+import {abilityName} from "../../../common/chatMessageHelpers.mjs";
 
 const fields = foundry.data.fields;
 
@@ -284,15 +286,18 @@ export class SkillFunctions {
             let bonuses = [];
 
             //Level Bonus - Always
+            // `label` names each part on the chat card ("Half Level +5"); see configureSkill.
             bonuses.push({
                 value: halfCharacterLevel,
                 description: `Half character level: ${halfCharacterLevel}`,
+                label: "Half Level",
             });
 
             //Ability Modifier - Always
             bonuses.push({
                 value: abilityMod,
                 description: `Ability Mod: ${abilityMod}`,
+                label: abilityName(skill.ability),
             });
             skill.abilityBonus = abilityMod;
 
@@ -305,6 +310,7 @@ export class SkillFunctions {
             bonuses.push({
                 value: trainedSkillBonus,
                 description: `Trained Skill Bonus: ${trainedSkillBonus}`,
+                label: "Trained",
             });
 
             //UntrainedBonus or 0 - Untrained only
@@ -313,6 +319,7 @@ export class SkillFunctions {
             bonuses.push({
                 value: untrainedSkillBonus,
                 description: `Untrained Skill Bonus: ${untrainedSkillBonus}`,
+                label: "Untrained",
             });
             skill.trainedBonus = trainedSkillBonus + untrainedSkillBonus;
 
@@ -321,6 +328,7 @@ export class SkillFunctions {
             bonuses.push({
                 value: abilitySkillBonus,
                 description: `Ability Skill Modifier: ${abilitySkillBonus}`,
+                label: "Skill Modifier",
             });
 
             //Armor Check Penalty: Acrobatics, Athletics, Endurance, Initiative and Stealth
@@ -328,6 +336,7 @@ export class SkillFunctions {
                 bonuses.push({
                     value: flatArmorCheckPenalty,
                     description: `Armor Check Penalty: ${flatArmorCheckPenalty}`,
+                    label: "Armor Check Penalty",
                 });
                 skill.armorPenalty = flatArmorCheckPenalty;
             }
@@ -347,6 +356,7 @@ export class SkillFunctions {
                 bonuses.push({
                     value: skillFocusBonus,
                     description: `Skill Focus Bonus: ${skillFocusBonus}`,
+                    label: "Skill Focus",
                 });
                 skill.focusBonus = skillFocusBonus;
                 skill.focus = true;
@@ -375,6 +385,7 @@ export class SkillFunctions {
             bonuses.push({
                 value: miscBonus,
                 description: `Miscellaneous Bonus: ${miscBonus}`,
+                label: "Misc",
             });
             skill.miscBonus = miscBonus;
 
@@ -383,6 +394,7 @@ export class SkillFunctions {
                 bonuses.push({
                     value: skill.manualBonus,
                     description: `Manual Bonus: ${skill.manualBonus}`,
+                    label: "Manual",
                 });
             }
 
@@ -412,11 +424,11 @@ export class SkillFunctions {
                 //if(modifiedSkill.manualBonus){
                 const situationalKey = resolvedName.toLowerCase()
 
-                let miscBonuses = skillBonusAttr.filter(bonus => bonus.split(":")[0] === resolvedName).map(bonus => {return {value: bonus.split(":")[1], description: "Situational Bonuses"}});
+                let miscBonuses = skillBonusAttr.filter(bonus => bonus.split(":")[0] === resolvedName).map(bonus => {return {value: bonus.split(":")[1], description: "Situational Bonuses", label: "Situational"}});
                 situationalBonuses.push(...miscBonuses)
                 //modifiedSkill.manualBonus = actor.system.skills[situationalKey]?.manualBonus || 0
 
-                situationalBonuses.push({value: modifiedSkill.manualBonus, description: "Situational Manual Bonus"})
+                situationalBonuses.push({value: modifiedSkill.manualBonus, description: "Situational Manual Bonus", label: "Manual"})
                 //}
 
 
@@ -473,7 +485,9 @@ export class SkillFunctions {
             skill.substitutedFrom = always.source;
             skill.originalValue = skill.value;
             skill.value = source.originalValue ?? source.value;
-            skill.title = `${skill.title}${NEW_LINE}Uses ${always.source} instead${always.sourceDescription ? ` (${always.sourceDescription})` : ""}`;
+            skill.originalRollFormula = skill.rollFormula;
+            skill.rollFormula = source.originalRollFormula ?? source.rollFormula;
+            skill.title =`${skill.title}${NEW_LINE}Uses ${always.source} instead${always.sourceDescription ? ` (${always.sourceDescription})` : ""}`;
             actor.resolvedVariables.set(skill.variable, "1d20 + " + skill.value);
         }
     }
@@ -481,6 +495,10 @@ export class SkillFunctions {
     configureSkill(skill, nonZeroBonuses, actor, label, skillAttributeMod) {
         skill.title = nonZeroBonuses.map(bonus => bonus.description).join(NEW_LINE);
         skill.value = resolveValueArray(nonZeroBonuses.map(bonus => bonus.value), actor);
+        // What the sheet rolls, each part labelled for the chat card. resolvedVariables keeps the
+        // plain "1d20 + N": resolveExpression splits stored formulas on "+" and reads each part as
+        // a number, which a labelled part is not.
+        skill.rollFormula = labeledFormula("1d20", nonZeroBonuses, skill.value, `1d20 + ${skill.value}`);
         skill.variable = `@${actor.cleanSkillName(label)}`;
         actor.resolvedVariables.set(skill.variable, "1d20 + " + skill.value);
         skill.label = titleCase(label)

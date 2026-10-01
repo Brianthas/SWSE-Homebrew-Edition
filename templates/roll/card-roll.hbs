@@ -1,21 +1,16 @@
-{{!-- One roll on a chat card: a label, the total, then the natural d20 (natural=true) or the dice.
-      Clicking it opens the dice through core's data-action="expandRoll", which needs
-      .dice-tooltip > .wrapper inside the same .dice-roll (see roll.hbs). .dice-total stays on the
-      number so core and Dice So Nice still find it. Expects `view` from attack-card.mjs rollView. --}}
+{{!-- One roll on a chat card: a label, the total, the arithmetic behind it ("d20 [8] +17") and a
+      chip per modifier. Clicking it opens the dice through core's data-action="expandRoll", which
+      needs .dice-tooltip > .wrapper inside the same .dice-roll (see roll.hbs). .dice-total stays
+      on the number so core and Dice So Nice still find it. Expects `view` from attack-card.mjs
+      rollView; view.math is HTML built by roll-summary.mjs rollMathHtml. --}}
 <div class="dice-roll swse-roll{{#if muted}} is-muted{{/if}}" data-action="expandRoll">
     <div class="dice-result">
         <span class="swse-roll-label">{{label}}</span>
         <h4 class="dice-total swse-roll-total{{#if view.critical}} is-critical{{/if}}{{#if view.fail}} is-fail{{/if}}">{{view.total}}</h4>
-        {{#if natural}}
-            {{#if view.critical}}<span class="swse-natural is-critical">Nat {{view.natural}}</span>
-            {{else if view.fail}}<span class="swse-natural is-fail">Nat {{view.natural}} &middot; Auto Miss</span>
-            {{else if view.natural}}<span class="swse-natural">d20 &middot; {{view.natural}}</span>{{/if}}
-        {{else}}
-            <span class="swse-roll-dice">{{view.dice}}{{#each view.chips as |chip|}} {{chip.text}}{{/each}}{{#if view.critical}} &middot; critical{{/if}}</span>
-        {{/if}}
+        {{{view.math}}}
         <div class="dice-tooltip"><div class="wrapper">{{> 'systems/swse/templates/roll/roll-tooltip.hbs' roll=view.roll}}</div></div>
     </div>
 </div>
-{{#if natural}}{{#if view.chips.length}}
+{{#if view.chips.length}}
 <div class="swse-chips">{{#each view.chips as |chip|}}<span class="swse-chip{{#if chip.negative}} is-negative{{/if}}">{{chip.text}}</span>{{/each}}</div>
-{{/if}}{{/if}}
+{{/if}}

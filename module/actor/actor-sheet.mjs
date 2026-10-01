@@ -23,8 +23,8 @@ import SWSEActor from "./actor.mjs";
 import {getInheritableAttribute} from "../attribute-helper.mjs";
 import {makeAttack, makeDamageOnlyRoll} from "./attack/attackDelegate.mjs";
 import {Attack, CUSTOM_ATTACK_PREFIX} from "./attack/attack.mjs";
-import {buildRollContent} from "../common/chatMessageHelpers.mjs";
-import {manualRollFlavor, manualRollNotes, rollFormula} from "../common/manual-roll.mjs";
+import {actorSkillNames, buildRollContent, checkTitle} from "../common/chatMessageHelpers.mjs";
+import {manualRollNotes, rollFormula} from "../common/manual-roll.mjs";
 
 
 // noinspection JSClosureCompilerSyntax
@@ -1196,7 +1196,7 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
         // applyRollMode only rewrites a leading "1d20".
         const advantageMode = (event.ctrlKey || event.metaKey) ? "advantage" : event.altKey ? "disadvantage" : undefined;
 
-        let flavor = label ? `${this.object.name} rolls for ${label}!` : '';
+        let flavor = checkTitle(label, actorSkillNames(this.object));
         if (advantageMode && rawFormula.trim().startsWith("1d20")) {
             flavor += advantageMode === "advantage" ? " (Advantage)" : " (Disadvantage)";
         }
@@ -1796,13 +1796,13 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
      */
     async #rollSubstitutedSkill(subSkill, subName, targetLabel, advantageMode) {
         const label = `${subName} for ${titleCase(targetLabel)}`;
-        const roll = await rollFormula(`1d20 + ${subSkill.value}`, {}, {actor: this.actor, label, advantageMode});
+        const roll = await rollFormula(subSkill.rollFormula ?? `1d20 + ${subSkill.value}`, {}, {actor: this.actor, label, advantageMode});
         if (!roll) return;   // prompt cancelled
 
-        let flavor = `${this.object.name} rolls ${subName} for ${titleCase(targetLabel)}!`;
+        // PF2e's form for a check made with another skill, as in "Initiative: Perception".
+        let flavor = `${titleCase(targetLabel)}: ${subName}`;
         if (advantageMode) flavor += advantageMode === "advantage" ? " (Advantage)" : " (Disadvantage)";
-        flavor += manualRollFlavor(roll);
-        return roll.toMessage({speaker: ChatMessage.getSpeaker({actor: this.object}), flavor});
+        return toChat(buildRollContent(roll.formula, roll, manualRollNotes(roll)), this.object, flavor, {rollResult: roll});
     }
 
     /**
@@ -2371,14 +2371,10 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
         const roll = await rollFormula(formula, this.actor.system, {actor: this.actor, label, advantageMode});
         if (!roll) return;   // prompt cancelled
 
-        let flavor = `${this.actor.name} rolls for ${label}!`;
+        let flavor = checkTitle(label, actorSkillNames(this.actor));
         if (advantageMode === "advantage") flavor += " (Advantage)";
         if (advantageMode === "disadvantage") flavor += " (Disadvantage)";
-        flavor += manualRollFlavor(roll);
-        await roll.toMessage({
-            speaker: ChatMessage.getSpeaker({actor: this.actor}),
-            flavor
-        });
+        await toChat(buildRollContent(roll.formula, roll, manualRollNotes(roll)), this.actor, flavor, {rollResult: roll});
     }
 
     /**

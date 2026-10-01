@@ -19,7 +19,6 @@
                 <div class="swse-chips">{{#each targets as |target|}}<span class="swse-chip">{{target.name}}</span>{{/each}}</div>
             {{/if}}
         </div>
-        {{#unless targets.length}}<div class="swse-card-hint">No target needed. Select a token on the map, then click a button to apply it there.</div>{{/unless}}
         <div class="swse-card-buttons">
             <button type="button" data-action="apply-attack" data-type="damage" data-attack-summary="{{attackSummaries}}" data-apply="{{apply}}"><i class="fas fa-explosion"></i><span>Damage</span></button>
             <button type="button" data-action="apply-attack" data-type="half" data-attack-summary="{{attackSummaries}}" data-apply="{{apply}}"><i class="fas fa-circle-half-stroke"></i><span>Half</span></button>

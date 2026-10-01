@@ -139,9 +139,15 @@ attack in the round:
 ## Chat cards
 
 An attack card shows each attack with the weapon's image from the sheet, its
-damage type, the attack and damage totals, the natural d20, and the modifiers
-that made up each total. Click a total to see the dice. A Full Attack is one card,
-with the round's penalties in its header.
+damage type, and the attack and damage totals. Beside each total is the die result
+and the bonus ("d20 [8] +17", "3d8 [17] +5"), and under it the modifiers that make
+up the bonus ("Weapon Focus +1"). Click a total to see the dice. A Full Attack is
+one card, with the round's penalties in its header.
+
+Checks are headed as in PF2e: "Skill Check: Perception", "Ability Check:
+Strength", "Initiative"; anything else, such as a Force power or Grapple, by its
+own name. A skill check lists its parts the same way ("Half Level +5", "Wisdom
++2", "Trained +5").
 
 Targeting is optional. The card lists who was targeted; their defenses and
 whether each attack hit show only with the world setting **Enable Target Results

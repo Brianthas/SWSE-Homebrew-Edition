@@ -162,13 +162,3 @@ function markManual(roll) {
 export function manualRollNotes(roll) {
     return roll?.options?.manualEntry ? ["<i>Result entered by the player, not rolled in Foundry.</i>"] : [];
 }
-
-/**
- * The same disclosure as manualRollNotes, for the roll paths that post Foundry's own roll card
- * rather than one of ours and so have nowhere to put a note but the flavor line.
- *
- * @returns {string} a flavor suffix when the result was typed in, otherwise an empty string
- */
-export function manualRollFlavor(roll) {
-    return roll?.options?.manualEntry ? " (result entered by the player)" : "";
-}

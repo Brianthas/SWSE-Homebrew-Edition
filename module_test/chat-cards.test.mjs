@@ -1,11 +1,12 @@
 import { describe, it } from "node:test";
 import assert from "node:assert/strict";
 
-import { summarizeRoll, rollTooltipHtml, signed, naturalD20, diceText } from "../module/common/roll-summary.mjs";
+import { summarizeRoll, rollTooltipHtml, signed, naturalD20, rollMathHtml, labeledFormula, modifierChips } from "../module/common/roll-summary.mjs";
 import { attackCardView, damageTypeKey, targetView, roundPenaltyText } from "../module/actor/attack/attack-card.mjs";
 import { planApplications } from "../module/actor/attack/apply-attack.mjs";
 import { resolveDamageTaken } from "../module/common/conditionalHelpers.mjs";
-import { resultLineContent } from "../module/common/chatMessageHelpers.mjs";
+import { resultLineContent, checkTitle, actorSkillNames, abilityName } from "../module/common/chatMessageHelpers.mjs";
+import { SkillFunctions } from "../module/actor/data/templates/skills.mjs";
 
 // Term shapes as read off Darth Vader's lightsaber in the test world: a Die, then operator and
 // flavored number pairs.
@@ -35,10 +36,101 @@ describe("summarizeRoll", () => {
         assert.equal(summarizeRoll(roll([{term: "paren"}, op("*"), num(2)])).complex, true);
     });
 
-    it("finds the natural d20 and lists rolled dice", () => {
+    it("finds the natural d20", () => {
         const rolled = roll([die(1, 20, [17]), op("+"), num(5, "Base Attack Bonus")], 22);
         assert.equal(naturalD20(summarizeRoll(rolled)), 17);
-        assert.equal(diceText(summarizeRoll(roll([die(3, 8, [6, 4, 7])], 17))), "3d8 (6 · 4 · 7)");
+    });
+
+    it("writes chips label first, as PF2e does", () => {
+        assert.deepEqual(modifierChips(summarizeRoll(vaderAttack)).map(c => c.text), ["Base Attack Bonus +19", "Attribute Modifier +3", "Weapon Focus +1"]);
+        assert.deepEqual(modifierChips(summarizeRoll(roll([die(1, 20), op("+"), num(20)]))).map(c => c.text), ["+20"]);
+    });
+});
+
+// What a reader of the card sees: strip the markup, keep the order.
+const text = html => html.replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
+
+describe("the arithmetic beside a total", () => {
+    it("an attack: the die it rolled, then the bonus", () => {
+        const html = rollMathHtml(summarizeRoll(roll([die(1, 20, [8]), op("+"), num(17, "Base Attack Bonus")], 25)));
+        assert.equal(text(html), "d20 8 +17");
+        assert.match(html, /<span class="swse-die">8<\/span><span class="swse-math-bonus">\+17<\/span>/);
+    });
+
+    it("damage: the dice total with its faces on hover, a plus between dice groups, then the bonus", () => {
+        const html = rollMathHtml(summarizeRoll(roll([die(3, 8, [6, 4, 7]), op("+"), die(1, 6, [3]), op("+"), num(5, "Half Heroic Level")], 25)));
+        assert.equal(text(html), "3d8 17 + d6 3 +5");
+        assert.match(html, /title="6 \+ 4 \+ 7">17</);
+    });
+
+    it("a natural 20 or 1 colours the die and says so; no bonus shows no bonus", () => {
+        const crit = rollMathHtml(summarizeRoll(roll([die(1, 20, [20]), op("+"), num(7)], 27)), {critical: true});
+        assert.match(crit, /swse-die is-critical">20</);
+        assert.match(text(crit), /Critical$/);
+        const miss = rollMathHtml(summarizeRoll(roll([die(1, 20, [1])], 1)), {fail: true, failLabel: "Auto Miss"});
+        assert.equal(text(miss), "d20 1 Auto Miss");
+        assert.doesNotMatch(miss, /swse-math-bonus/);
+    });
+
+    it("a roll that is not a plain sum shows its formula", () => {
+        const html = rollMathHtml(summarizeRoll({terms: [{term: "paren"}, op("*"), num(2)], formula: "(3d8 + 5) * 2", total: 30, _evaluated: true}), {critical: true});
+        assert.equal(text(html), "(3d8 + 5) * 2 Critical");
+    });
+});
+
+describe("labelled check formulas", () => {
+    it("labels each part, writes a penalty with a minus and leaves out zeros", () => {
+        const parts = [{value: 5, label: "Half Level"}, {value: 2, label: "Wisdom"}, {value: 0, label: "Trained"}, {value: -2, label: "Armor Check Penalty"}, {value: undefined, label: "Manual"}];
+        assert.equal(labeledFormula("1d20", parts, 5, "1d20 + 5"), "1d20 + 5[Half Level] + 2[Wisdom] - 2[Armor Check Penalty]");
+    });
+
+    it("falls back to the plain formula rather than roll a different total", () => {
+        assert.equal(labeledFormula("1d20", [{value: 5, label: "Half Level"}], 6, "1d20 + 6"), "1d20 + 6");
+        assert.equal(labeledFormula("1d20", [{value: "@HalfLevel", label: "Half Level"}], 5, "1d20 + 5"), "1d20 + 5");
+        assert.equal(labeledFormula("1d20", [{value: 3}], 3, "1d20 + 3"), "1d20 + 3");
+    });
+
+    // The real producer: configureSkill, as skills.mjs calls it, with bonuses shaped as it builds them.
+    it("configureSkill gives a skill a labelled roll and keeps resolvedVariables plain", () => {
+        const actor = {cleanSkillName: name => name, resolvedVariables: new Map(), resolvedLabels: new Map()};
+        const skill = {};
+        const bonuses = [
+            {value: 5, description: "Half character level: 5", label: "Half Level"},
+            {value: 2, description: "Ability Mod: 2", label: abilityName("wis")},
+            {value: 5, description: "Trained Skill Bonus: 5", label: "Trained"}
+        ];
+        SkillFunctions.prototype.configureSkill.call({}, skill, bonuses, actor, "Perception", 2);
+        assert.equal(skill.value, 12);
+        assert.equal(skill.rollFormula, "1d20 + 5[Half Level] + 2[Wisdom] + 5[Trained]");
+        assert.equal(actor.resolvedVariables.get("@Perception"), "1d20 + 12");
+    });
+});
+
+describe("check titles in PF2e's wording", () => {
+    const skills = ["Perception", "Knowledge (Galactic Lore)", "Initiative", "Use the Force"];
+
+    it("a skill is a Skill Check, initiative is Initiative", () => {
+        assert.equal(checkTitle("Perception", skills), "Skill Check: Perception");
+        assert.equal(checkTitle("perception", skills), "Skill Check: Perception");
+        assert.equal(checkTitle("K. (Galactic Lore)", skills), "Skill Check: Knowledge (Galactic Lore)");
+        assert.equal(checkTitle("Initiative", skills), "Initiative");
+    });
+
+    it("an ability is an Ability Check by its full name", () => {
+        assert.equal(checkTitle("STR", skills), "Ability Check: Strength");
+        assert.equal(checkTitle("Wisdom", skills), "Ability Check: Wisdom");
+    });
+
+    it("anything else keeps its own name, as PF2e does", () => {
+        assert.equal(checkTitle("Move Object", skills), "Move Object");
+        assert.equal(checkTitle("Grapple", skills), "Grapple");
+        assert.equal(checkTitle("", skills), "");
+    });
+
+    it("lists an actor's skills with their situational variants", () => {
+        const actor = {system: {skills: {Perception: {situationalSkills: [{label: "Perception (Hearing)"}]}, Stealth: {}}}};
+        assert.deepEqual(actorSkillNames(actor), ["Perception", "Perception (Hearing)", "Stealth"]);
+        assert.equal(checkTitle("Perception (Hearing)", actorSkillNames(actor)), "Skill Check: Perception (Hearing)");
     });
 });
 
@@ -86,18 +178,25 @@ describe("attack card view", () => {
         assert.equal(view.img, "systems/swse/icon/item/lightsaber.webp");
         assert.equal(view.damageTypeKey, "energy");
         assert.equal(view.critical, true);
-        assert.equal(view.bands[0].attack.natural, 20);
-        assert.deepEqual(view.bands[0].attack.chips, [{text: "+7 Base Attack Bonus", negative: false}]);
+        assert.equal(text(view.bands[0].attack.math), "d20 20 +7 Critical");
+        assert.deepEqual(view.bands[0].attack.chips, [{text: "Base Attack Bonus +7", negative: false}]);
+        assert.equal(text(view.bands[0].damage.math), "3d8 17 +3 Critical");
         assert.equal(view.bands[0].targets[0].verdict, "Critical");
         assert.deepEqual(JSON.parse(view.apply), {damage: 20, damageType: "Energy", lightsaber: true});
-        assert.equal(view.hasTargets, true);
+    });
+
+    it("an automatic miss says so on the attack, not on the damage", () => {
+        const attack = {name: "Blaster Rifle", item: {img: "rifle.webp", system: {}}, type: "Energy"};
+        const band = {attack: roll([die(1, 20, [1]), op("+"), num(9, "Base Attack Bonus")], 10), damage: roll([die(3, 8, [5, 6, 2])], 13), damageType: "Energy", critical: false, fail: true, targets: []};
+        const view = attackCardView({rangeBreakdown: [band], attackSummaries: "[]"}, attack);
+        assert.equal(text(view.bands[0].attack.math), "d20 1 +9 Auto Miss");
+        assert.equal(text(view.bands[0].damage.math), "3d8 13");
     });
 
     it("an attack with no target still has a card and an apply payload", () => {
         const attack = {name: "Blaster Rifle", item: {img: "rifle.webp", system: {subtype: "Rifles"}}, isLightsaberAttack: false, type: "Energy"};
         const band = {attack: roll([die(1, 20, [11])], 11), damage: roll([die(3, 8, [5, 6, 2])], 13), damageType: "Energy", critical: false, fail: false, targets: []};
         const view = attackCardView({rangeBreakdown: [band], attackSummaries: "[]"}, attack);
-        assert.equal(view.hasTargets, false);
         assert.equal(JSON.parse(view.apply).damage, 13);
     });
 

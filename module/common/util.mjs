@@ -1645,9 +1645,15 @@ export function getCleanListFromCSV(name) {
     return name.split(",").map(n => n.trim());
 }
 
+// A roll speaks as the character, as core's own rolls do: an OOC message shows its author's user
+// name in the header instead ("Bryan" above a Perception check). Notes and shared text stay OOC,
+// from the user who posted them.
 function getChatType(context) {
     if(context.inCharacter){
         return CONST.CHAT_MESSAGE_STYLES.IC
+    }
+    if (context.rollResult) {
+        return CONST.CHAT_MESSAGE_STYLES.OTHER;
     }
     return CONST.CHAT_MESSAGE_STYLES.OOC;
 }

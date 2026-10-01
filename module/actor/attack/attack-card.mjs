@@ -1,6 +1,6 @@
 // What the attack and damage chat cards draw, built from a resolved attack (Attack#resolve) or a
 // damage-only roll (Attack#resolveDamageOnly). The templates only lay this out.
-import {diceText, modifierChips, naturalD20, summarizeRoll} from "../../common/roll-summary.mjs";
+import {modifierChips, rollMathHtml, summarizeRoll} from "../../common/roll-summary.mjs";
 
 const FALLBACK_IMG = "icons/svg/sword.svg";
 
@@ -24,17 +24,19 @@ const VERDICTS = {
     "Miss": {label: "Miss", key: "miss"}
 };
 
-/** One roll as the card shows it: the total, the natural d20, chips and the dice. */
-export function rollView(roll, {d20 = false, critical = false, fail = false} = {}) {
+/**
+ * One roll as the card shows it: the total, the arithmetic behind it ("d20 [8] +17") and a chip
+ * per modifier. `fail` on an attack is an automatic miss.
+ */
+export function rollView(roll, {critical = false, fail = false} = {}) {
     const summary = summarizeRoll(roll);
     return {
         roll,
         total: roll?.total ?? roll?._total,
-        natural: d20 ? naturalD20(summary) : undefined,
         critical,
         fail,
-        chips: summary.complex ? [] : modifierChips(summary),
-        dice: summary.complex ? summary.formula : diceText(summary)
+        math: rollMathHtml(summary, {critical, fail, failLabel: "Auto Miss"}),
+        chips: summary.complex ? [] : modifierChips(summary)
     };
 }
 
@@ -72,7 +74,7 @@ export function attackCardView(resolved, attack) {
     const bands = (resolved.rangeBreakdown ?? []).map(band => ({
         range: band.range,
         rangeLabel: rangeLabel(band.range),
-        attack: rollView(band.attack, {d20: true, critical: band.critical, fail: band.fail}),
+        attack: rollView(band.attack, {critical: band.critical, fail: band.fail}),
         damage: rollView(band.damage, {critical: band.critical}),
         damageMuted: !!band.fail,
         targets: (band.targets ?? []).map(targetView),
@@ -88,7 +90,6 @@ export function attackCardView(resolved, attack) {
         critical: bands.some(b => b.attack.critical),
         fail: bands.length > 0 && bands.every(b => b.attack.fail),
         bands,
-        hasTargets: bands.some(b => b.targets.length > 0),
         attackSummaries: resolved.attackSummaries ?? "[]",
         apply: applyPayload(bands[0]?.damage.total, damageType, attack.isLightsaberAttack),
         notesHTML: attack.notesHTML

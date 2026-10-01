@@ -339,7 +339,7 @@ $card-penalty-bg: #3a1f22;
   color: var(--swse-text-muted);
 }
 
-// One roll: label, total, then the natural d20 or the dice. Overrides core's boxed formula/total.
+// One roll: label, total, then its arithmetic. Overrides core's boxed formula/total.
 .chat-message .swse-card .swse-roll {
   margin: 0;
 
@@ -388,27 +388,77 @@ $card-penalty-bg: #3a1f22;
     &.is-fail { color: $card-penalty; }
   }
 
-  .swse-roll-dice {
-    flex: 1 1 120px;
-    font-size: 11px;
-    color: var(--swse-text-muted);
-  }
-
   .dice-tooltip {
     flex-basis: 100%;
   }
 
   &.is-muted {
     .dice-total.swse-roll-total,
-    .swse-roll-dice,
+    .swse-math,
     .swse-roll-label {
       color: #6f7890;
+    }
+
+    .swse-die {
+      color: #6f7890;
+      border-color: var(--swse-border);
     }
 
     .dice-total.swse-roll-total {
       font-size: 22px;
     }
   }
+}
+
+// The arithmetic beside a total: "d20 [8] +17", the die result boxed like a die face.
+.swse-math {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  color: var(--swse-text-muted);
+}
+
+.swse-math-formula {
+  font-size: 10px;
+  letter-spacing: 0.04em;
+}
+
+.swse-die {
+  min-width: 22px;
+  padding: 0 4px;
+  border: 1px solid #5b6478;
+  border-radius: 4px;
+  font-family: $card-display;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: var(--swse-text);
+
+  &.is-critical {
+    color: $card-gold-ink;
+    background: $card-gold;
+    border-color: $card-gold;
+  }
+
+  &.is-fail {
+    color: #ffffff;
+    background: #b53a31;
+    border-color: #b53a31;
+  }
+}
+
+.swse-math-bonus {
+  font-family: $card-display;
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--swse-text);
+}
+
+.swse-math-op {
+  font-weight: 700;
 }
 
 .swse-natural {
@@ -486,15 +536,6 @@ $card-penalty-bg: #3a1f22;
   &.verdict-miss { color: #c9cfdd; background: var(--swse-control); border-color: #3a4358; }
 }
 
-.swse-card-hint {
-  padding: 6px 8px;
-  border: 1px dashed var(--swse-border);
-  border-radius: $radius-sm;
-  background: var(--swse-bg);
-  font-size: 11px;
-  line-height: 1.4;
-  color: var(--swse-text-muted);
-}
 
 .swse-card-note,
 .swse-card-notes {

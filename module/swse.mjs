@@ -19,7 +19,7 @@ import {initializePolyglot} from "./module-support/polyglot.mjs";
 import {initializeCompendiumButtons} from "./compendium/compendium-web.mjs";
 import {StatblockImportApp, initializeStatblockImportButton} from "./import/statblock-import-app.mjs";
 import {exportLearnedAliases, clearLearnedAliases} from "./import/statblock-resolver.mjs";
-import {buildRollContent} from "./common/chatMessageHelpers.mjs";
+import {actorSkillNames, buildRollContent, checkTitle} from "./common/chatMessageHelpers.mjs";
 import {SWSETokenDocument} from "./token/token-document.mjs";
 import {CharacterDataModel} from "./actor/data/characterdata.mjs";
 import {VehicleDataModel} from "./actor/data/vehicledata.mjs";
@@ -886,7 +886,7 @@ async function rollVariable(actorId, variable) {
     let rollStr = actor.resolvedVariables.get(variable);
     let label = actor.resolvedLabels.get(variable);
     let notes = actor.resolvedNotes.get(variable) || [];
-    let flavor = label ? `${actor.name} rolls for ${label}!` : '';
+    let flavor = checkTitle(label, actorSkillNames(actor));
 
     if (variable.startsWith('@Initiative') && game.combat) {
         await actor.rollInitiative({
@@ -900,7 +900,7 @@ async function rollVariable(actorId, variable) {
         let content = buildRollContent(rollStr, roll, notes);
 
 
-        let speaker = ChatMessage.getSpeaker();
+        let speaker = ChatMessage.getSpeaker({actor});
         let messageData = {
             user: game.user.id,
             speaker,

@@ -58,12 +58,24 @@ export function summarizeRoll(roll) {
     };
 }
 
-/** "3d8 (6 · 4 · 7)": each die group with its active results, when rolled. */
-export function diceText(summary) {
-    return summary.dice.map(d => {
-        const shown = d.results.filter(r => r.active).map(r => r.result);
-        return shown.length ? `${d.formula} (${shown.join(" · ")})` : d.formula;
-    }).join(" + ");
+/**
+ * "1d20 + 5[Half Level] + 2[Wisdom] - 2[Armor Check Penalty]": a check's formula with each part
+ * labelled, so its card can list them. Returns `fallback` unless every part is a number with a
+ * label and the parts add up to `total`, so the labelled roll always totals what the plain one
+ * would.
+ * @param die {string} "1d20"
+ * @param parts {{value: *, label: string}[]}
+ * @param total {number} the check's modifier as the sheet shows it
+ * @param fallback {string}
+ */
+export function labeledFormula(die, parts, total, fallback) {
+    // A blank value (an unset manual bonus) counts as 0; anything else must be a number.
+    const numbers = parts
+        .map(p => ({value: p.value === undefined || p.value === null || p.value === "" ? 0 : Number(p.value), label: p.label}))
+        .filter(p => p.value !== 0);
+    if (numbers.some(p => !Number.isFinite(p.value) || !p.label || /[[\]]/.test(p.label))) return fallback;
+    if (numbers.reduce((sum, p) => sum + p.value, 0) !== Number(total)) return fallback;
+    return [die, ...numbers.map(p => `${p.value < 0 ? "-" : "+"} ${Math.abs(p.value)}[${p.label}]`)].join(" ");
 }
 
 /** The natural d20 of an attack or check roll: the active result of its d20, if it has one. */
@@ -106,12 +118,38 @@ export function rollTooltipHtml(kind, roll) {
 }
 
 /**
- * Chips for a card: one per modifier, "+1 Weapon Focus", penalties flagged so the card can color
- * them. Unlabelled numbers read as a bare value.
+ * Chips for a card: one per modifier, label first as PF2e writes them ("Weapon Focus +1"),
+ * penalties flagged so the card can color them. Unlabelled numbers read as a bare value.
  */
 export function modifierChips(summary) {
     return summary.modifiers.map(m => ({
-        text: m.label ? `${signed(m.value)} ${m.label}` : signed(m.value),
+        text: m.label ? `${m.label} ${signed(m.value)}` : signed(m.value),
         negative: m.value < 0
     }));
+}
+
+/**
+ * A roll's arithmetic on one line: each die group's formula and what it rolled, then the summed
+ * bonus. "d20 [8] +17", "3d8 [17] +5". A critical or a natural 1 colours the dice and adds a tag
+ * (`criticalLabel`, `failLabel`). A roll that is not a plain sum shows its formula.
+ * @param summary {ReturnType<summarizeRoll>}
+ * @return {string} HTML
+ */
+export function rollMathHtml(summary, {critical = false, fail = false, criticalLabel = "Critical", failLabel = "Nat 1"} = {}) {
+    const tag = critical ? `<span class="swse-natural is-critical">${escapeHTML(criticalLabel)}</span>`
+        : fail ? `<span class="swse-natural is-fail">${escapeHTML(failLabel)}</span>` : "";
+    if (summary.complex) {
+        return `<span class="swse-math"><span class="swse-math-formula">${escapeHTML(summary.formula)}</span>${tag}</span>`;
+    }
+    const state = critical ? " is-critical" : fail ? " is-fail" : "";
+    const dice = summary.dice.map(d => {
+        const shown = d.results.filter(r => r.active).map(r => r.result);
+        const total = d.total ?? shown.reduce((sum, n) => sum + n, 0);
+        const each = shown.length > 1 ? ` title="${shown.join(" + ")}"` : "";
+        // One die reads as its name: "d20", not "1d20".
+        const name = d.formula.replace(/^1d/, "d");
+        return `<span class="swse-math-formula">${escapeHTML(name)}</span><span class="swse-die${state}"${each}>${total}</span>`;
+    }).join(`<span class="swse-math-op">+</span>`);
+    const bonus = summary.bonus ? `<span class="swse-math-bonus">${signed(summary.bonus)}</span>` : "";
+    return `<span class="swse-math">${dice}${bonus}${tag}</span>`;
 }

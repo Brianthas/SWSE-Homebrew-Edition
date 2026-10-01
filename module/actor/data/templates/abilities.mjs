@@ -1,5 +1,7 @@
 import {getInheritableAttribute} from "../../../attribute-helper.mjs";
 import {getLongKey, resolveValueArray} from "../../../common/util.mjs";
+import {labeledFormula} from "../../../common/roll-summary.mjs";
+import {abilityName} from "../../../common/chatMessageHelpers.mjs";
 
 const fields = foundry.data.fields;
 
@@ -158,6 +160,10 @@ export class AbilityFunctions {
             let label = CONFIG.SWSE.Abilities.abilitiesShort[key];
 
             ability.label = key.toUpperCase();
+            // What the sheet rolls for this ability, its modifier labelled for the chat card. The
+            // template used to read an `attribute.roll` nothing set, so it rolled "1d20 + ",
+            // which Foundry refuses to parse.
+            ability.rollFormula = labeledFormula("1d20", [{value: ability.mod, label: abilityName(key)}], ability.mod, `1d20 + ${ability.mod}`);
 
             let rollLabel = label + " Modifer";
             actor.setResolvedVariable(
