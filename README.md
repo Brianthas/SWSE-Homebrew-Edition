@@ -102,6 +102,10 @@ no override. Players do not see the box.
 
 ## Rolling
 
+Ctrl-click (Cmd-click on a Mac) a d20 roll on the sheet for Advantage, and
+Alt-click for Disadvantage: skills, abilities, Base Attack, Grapple and attacks.
+The Skills panel says so under its list.
+
 Rolls made from a character sheet normally roll in Foundry. A player who rolls
 physical dice at the table, or rolls somewhere outside Foundry, can turn on
 **Enter my own roll results** in the sheet's Settings tab. Every roll from that

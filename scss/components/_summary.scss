@@ -293,6 +293,13 @@
   padding: 0;
 }
 
+// How to roll with Advantage, under the list.
+.skills-roll-note {
+  margin: $space-xs 0 0;
+  font-size: 11px;
+  color: var(--swse-text-muted);
+}
+
 .skill-row {
   display: flex;
   align-items: center;

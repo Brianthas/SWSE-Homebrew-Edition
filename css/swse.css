@@ -1197,6 +1197,11 @@
   margin: 0;
   padding: 0;
 }
+.swse .skills-roll-note {
+  margin: 4px 0 0;
+  font-size: 11px;
+  color: var(--swse-text-muted);
+}
 .swse .skill-row {
   display: flex;
   align-items: center;
