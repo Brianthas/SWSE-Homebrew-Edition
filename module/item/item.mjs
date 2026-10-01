@@ -6,7 +6,7 @@ import {
     unique
 } from "../common/util.mjs";
 import {sizeArray, uniqueKey, ACTIVE_EFFECT_MODES, BEAST_HIT_DIE_BY_SIZE} from "../common/constants.mjs";
-import {getInheritableAttribute} from "../attribute-helper.mjs";
+import {getInheritableAttribute, isProficientWithArmor} from "../attribute-helper.mjs";
 import {titleCase} from "../common/helpers.mjs";
 import {changeSize} from "../actor/size.mjs";
 import {SimpleCache} from "../common/simple-cache.mjs";
@@ -551,11 +551,7 @@ export class SWSEItem extends Item {
     }
 
     _parentIsProficientWithArmor() {
-        return getInheritableAttribute({
-            entity: this.parent,
-            attributeKey: "armorProficiency",
-            reduce: "VALUES"
-        }).includes(this.armorType.toLowerCase());
+        return !!this.parent && isProficientWithArmor(this.parent, this);
     }
 
     get maximumDexterityBonus() {
@@ -585,8 +581,8 @@ export class SWSEItem extends Item {
     }
 
     /**
-     * Homebrew: a flat Armor Check Penalty some armor applies to Strength/Dexterity-based skills
-     * regardless of proficiency, separate from the existing non-proficiency ACP.
+     * Homebrew: the armor's Armor Check Penalty, applied to Acrobatics, Athletics, Endurance,
+     * Initiative and Stealth whether or not the wearer is proficient.
      */
     get armorFlatCheckPenalty() {
         return toNumber(getInheritableAttribute({

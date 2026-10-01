@@ -1,7 +1,6 @@
 import {getInheritableAttribute} from "../../../attribute-helper.mjs";
 import {defaultAttributes, getGroupedSkillMap, NEW_LINE, skillDetails, skills} from "../../../common/constants.mjs";
 import {resolveValueArray, toNumber} from "../../../common/util.mjs";
-import {generateArmorCheckPenalties} from "../../armor-check-penalty.mjs";
 import {DEFAULT_SKILL} from "../../../common/classDefaults.mjs";
 import {titleCase} from "../../../common/helpers.mjs";
 
@@ -224,9 +223,8 @@ export class SkillFunctions {
             reduce: "VALUES",
         }).map((skill) => (skill || "").toLowerCase());
 
-        let acPenalty = generateArmorCheckPenalties(actor);
-        // Homebrew: some armor applies a flat ACP to Strength/Dexterity-based skills regardless
-        // of proficiency, separate from (and additive with) the non-proficiency ACP above.
+        // Homebrew: worn armor applies its Armor Check Penalty (2, none for Mesh Armor) to the
+        // check-penalty skills, proficient or not. The worst armor worn sets it.
         let flatArmorCheckPenalty = 0;
         for (const item of actor.equipped) {
             if (item.type !== "armor") continue;
@@ -325,21 +323,13 @@ export class SkillFunctions {
                 description: `Ability Skill Modifier: ${abilitySkillBonus}`,
             });
 
-            //Armor and Weight penalty - only if exists
-            if (skill.acp) {
-                bonuses.push({
-                    value: acPenalty,
-                    description: `Armor Class Penalty: ${acPenalty}`,
-                });
-                skill.armorPenalty = acPenalty;
-            }
-
-            //Homebrew flat Armor Check Penalty - Strength/Dexterity skills only
-            if (skill.ability === "str" || skill.ability === "dex") {
+            //Armor Check Penalty: Acrobatics, Athletics, Endurance, Initiative and Stealth
+            if (skill.acp && flatArmorCheckPenalty) {
                 bonuses.push({
                     value: flatArmorCheckPenalty,
                     description: `Armor Check Penalty: ${flatArmorCheckPenalty}`,
                 });
+                skill.armorPenalty = flatArmorCheckPenalty;
             }
 
             //Skill Focus bonus - Skill Focus only
@@ -545,6 +535,8 @@ export class SkillFunctions {
         // Canonical ability always wins over a stale persisted value (e.g. from before a
         // homebrew ability-score change), since there's no player-facing way to set this per-skill.
         merged.ability = customSkill?.ability ?? skillDetails[skill]?.ability ?? merged.ability;
+        // Same for whether armor check penalties apply; Athletics is defined in the homebrew map.
+        merged.acp = skillDetails[skill]?.acp ?? getGroupedSkillMap()?.get(skill)?.acp ?? merged.acp;
         return merged;
 
     }

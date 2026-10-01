@@ -1,7 +1,7 @@
 import {SimpleCache} from "../../common/simple-cache.mjs";
 import {Attack, CUSTOM_ATTACK_PREFIX} from "./attack.mjs";
 import {getInheritableAttribute} from "../../attribute-helper.mjs";
-import {equippedItems, getBonusString, handleAttackSelect} from "../../common/util.mjs";
+import {equippedItems, getBonusString, handleAttackSelect, parseAttackChoice, toNumber} from "../../common/util.mjs";
 import {createAttackMacro} from "../../swse.mjs";
 import {characterActorTypes} from "../../common/constants.mjs";
 
@@ -592,7 +592,7 @@ async function getAttacks(attack, data) {
         attacks = data.attacks?.map(i => i instanceof Attack ? i : Attack.fromJSON(i)) || [];
     }
     if (!attacks || attacks.length === 0) {
-        attacks = attack.attacks.filter(a => data.attackKeys.includes(a.attackKey));
+        attacks = attacksFromChoices(attack, data.attackKeys);
     }
 
     if (!attacks || attacks.length === 0) {
@@ -600,10 +600,114 @@ async function getAttacks(attack, data) {
         if (!attackKeys) {
             return [];
         }
-        attacks = attack.attacks.filter(a => attackKeys.includes(a.attackKey))
-
+        attacks = attacksFromChoices(attack, attackKeys);
     }
     return attacks;
+}
+
+/**
+ * One attack per choice, in order and keeping duplicates. A choice is a Full Attack dialog value
+ * (parseAttackChoice) or a bare attack key. Filtering the actor's attacks by key instead dropped
+ * every Double Attack, Triple Attack and second copy of a weapon, since they share its key.
+ * @param attack {AttackDelegate}
+ * @param choices {string[]}
+ * @return {Attack[]}
+ */
+export function attacksFromChoices(attack, choices) {
+    return [choices].flat(Infinity).filter(choice => !!choice && choice !== "--").map(choice => {
+        const parsed = parseAttackChoice(choice);
+        const base = attack.attacks.find(a => a.attackKey === parsed.attackKey);
+        if (!base || !`${choice}`.includes("|")) {
+            return base;
+        }
+        const picked = base.clone();
+        Object.assign(picked.options, {
+            standardAttack: parsed.standardAttack,
+            beastAttack: parsed.beastAttack,
+            doubleAttack: parsed.doubleAttack,
+            tripleAttack: parsed.tripleAttack,
+            additionalAttack: parsed.additionalAttack,
+            duplicateCount: parsed.instance
+        });
+        return picked;
+    }).filter(attack => !!attack);
+}
+
+/**
+ * The penalties a Full Attack applies to every attack in the round.
+ *
+ * - Two weapons, or a weapon and a natural attack: the best dualWeaponModifier (-10 without Dual
+ *   Weapon Mastery, -5/-2/0 with I/II/III), reduced by 2 for each attacking weapon that reduces
+ *   dual-wielding penalties (dualWieldPenaltyReduction on the weapon) and by talents that do
+ *   ("2", or "2:Lightsabers" when every dual-wielded weapon must be a lightsaber). Never above 0.
+ * - Double Attack: -5. Triple Attack: another -5.
+ * - multipleAttackModifier (Additional Arms) reduces the combined penalty, never above 0.
+ *
+ * @param attacks {{standardAttack: boolean, beastAttack: boolean, doubleAttack: boolean, tripleAttack: boolean, weaponReduction: number, subtype: string}[]}
+ * @param actorTerms {{dualWeaponModifier: number, talentReductions: string[], multipleAttackModifiers: number[]}}
+ * @return {{type: string, value: number, source: string}[]}
+ */
+export function fullAttackPenalties(attacks, {dualWeaponModifier = -10, talentReductions = [], multipleAttackModifiers = []} = {}) {
+    const mods = [];
+    const standard = attacks.filter(a => a.standardAttack);
+    const beasts = attacks.filter(a => a.beastAttack);
+
+    if (standard.length > 1 || (standard.length > 0 && beasts.length > 0)) {
+        let reduction = standard.reduce((sum, a) => sum + (a.weaponReduction || 0), 0);
+        for (const talent of talentReductions) {
+            const [amount, subtype] = `${talent}`.split(":");
+            if (!subtype || standard.every(a => `${a.subtype}`.toLowerCase() === subtype.toLowerCase())) {
+                reduction += toNumber(amount);
+            }
+        }
+        mods.push({type: "attack", value: Math.min(0, dualWeaponModifier + reduction), source: "Dual Weapon"});
+    }
+    if (attacks.some(a => a.doubleAttack)) {
+        mods.push({type: "attack", value: -5, source: "Double Attack"});
+    }
+    if (attacks.some(a => a.tripleAttack)) {
+        mods.push({type: "attack", value: -5, source: "Triple Attack"});
+    }
+
+    const penalty = mods.reduce((sum, m) => sum + m.value, 0);
+    const offset = Math.min(-penalty, multipleAttackModifiers.reduce((sum, v) => sum + toNumber(v), 0));
+    if (offset > 0) {
+        mods.push({type: "attack", value: offset, source: "Multiple Attack Reduction"});
+    }
+    return mods.filter(m => m.value !== 0);
+}
+
+/**
+ * Reads fullAttackPenalties' inputs off the actor and the chosen attacks, and returns copies of the
+ * attacks carrying the penalties as attack modifiers. A single attack is returned unchanged.
+ * @param actor {SWSEActor}
+ * @param attacks {Attack[]}
+ * @return {Attack[]}
+ */
+export function applyFullAttackPenalties(actor, attacks) {
+    if (attacks.length < 2) {
+        return attacks;
+    }
+    const mods = fullAttackPenalties(attacks.map(a => ({
+        standardAttack: a.options.standardAttack ?? a.item?.type !== "beastAttack",
+        beastAttack: a.options.beastAttack ?? a.item?.type === "beastAttack",
+        doubleAttack: !!a.options.doubleAttack,
+        tripleAttack: !!a.options.tripleAttack,
+        weaponReduction: a.item ? toNumber(getInheritableAttribute({entity: a.item, attributeKey: "dualWieldPenaltyReduction", reduce: "SUM"})) : 0,
+        subtype: a.item?.system?.subtype
+    })), {
+        dualWeaponModifier: actor.attack.dualWeaponModifier,
+        talentReductions: getInheritableAttribute({entity: actor, attributeKey: "dualWieldPenaltyReduction", reduce: "VALUES"}),
+        multipleAttackModifiers: getInheritableAttribute({entity: actor, attributeKey: "multipleAttackModifier", reduce: "VALUES"})
+    });
+    if (mods.length === 0) {
+        return attacks;
+    }
+    return attacks.map(a => {
+        const copy = a.clone();
+        copy.options.modifiers = [...(copy.options.modifiers || []), ...mods];
+        return copy;
+    });
 }
 
 /**
@@ -676,7 +780,7 @@ export async function makeDamageOnlyRoll(data) {
 
 export async function makeAttack(data) {
     const actor = fromUuidSync(data.actorUUID)
-    let attacks = await getAttacks(actor.attack, data);
+    let attacks = applyFullAttackPenalties(actor, await getAttacks(actor.attack, data));
 
     let attackRows = [];
     let rolls = [];

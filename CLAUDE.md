@@ -79,7 +79,7 @@ editor and a mistyped document key is flagged instead of failing silently in Fou
 `module/actor/actor.mjs` and `module/item/item.mjs`. Opt a single file in with `// @ts-check` on
 line 1.
 
-`eslint.config.mjs` is flat config on eslint 10, run with `npm run lint`. It reads 162 files, 157
+`eslint.config.mjs` is flat config on eslint 10, run with `npm run lint`. It reads 161 files, 156
 of them `.mjs`. Check that number when a run looks clean: eslint 8 with `.eslintrc.json` linted
 only `.js` when handed a directory, so it read 5 files, reported one error, and silently skipped
 the entire module.
@@ -91,7 +91,7 @@ demoted to warnings so that every error is something that can misbehave at runti
 
 ## Tests
 
-`npm test` runs `node --test` over `module_test/**/*.test.mjs`: 168 tests, 166 passing. The two
+`npm test` runs `node --test` over `module_test/**/*.test.mjs`: 180 tests, 178 passing. The two
 failures are in `module_test/actor.test.mjs`, which asserts `firstAid.perDay` and
 `forcePoints.quantity` against the mock actor in `module_test/setup.mjs` and has never passed.
 

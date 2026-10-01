@@ -13,7 +13,6 @@ import {
     isRanged,
     isThrown
 } from "../attack-handler.mjs";
-import {generateArmorCheckPenalties} from "../armor-check-penalty.mjs";
 import SWSEActor from "../actor.mjs";
 import {reduceWeaponRange, SWSEItem} from "../../item/item.mjs";
 import {
@@ -405,7 +404,6 @@ export class Attack {
             terms.push(...appendTerms(mod.value, mod.source))
         }
 
-        terms.push(...appendNumericTerm(generateArmorCheckPenalties(operator), "Armor Check Penalty"));
         // appendTerms, not appendTerm: these values are typed by hand into the attack dialog, so
         // "2 + 1d4" is a perfectly reasonable thing to enter. appendTerm only ever parses a single
         // number or a single die and silently drops the rest, so a compound bonus lost everything
@@ -1418,8 +1416,19 @@ export class Attack {
         return SWSETemplate.fromAttack(this);
     }
 
+    /**
+     * One Full Attack dialog option. The value carries the kind of attack and which copy of the
+     * weapon it is (parseAttackChoice in util.mjs), because a Double Attack or the second of two
+     * pistols shares the weapon's attack key and would otherwise collapse into one attack.
+     */
     get summary() {
-        return {attributes: [{key: "data-attack-key", value: this.attackKey}], value: this.attackKey, name: this.name}
+        const kind = this.options.beastAttack ? "BEAST_ATTACK"
+            : this.options.doubleAttack ? "DOUBLE_ATTACK"
+                : this.options.tripleAttack ? "TRIPLE_ATTACK"
+                    : this.options.additionalAttack > 0 ? "ADDITIONAL" : "STANDARD";
+        const value = [this.attackKey, kind, this.options.duplicateCount || 0]
+            .concat(kind === "ADDITIONAL" ? [this.options.additionalAttack] : []).join("|");
+        return {attributes: [{key: "data-attack-key", value: this.attackKey}], value, name: this.name}
     }
 
     attackOption(attack, id) {

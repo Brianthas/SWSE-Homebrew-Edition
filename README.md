@@ -124,6 +124,26 @@ Foundry also has its own per-user version of this, under Dice Configuration, if
 a player wants every roll everywhere to prompt: set d20 to Manual, which needs
 the Manual Rolls permission enabled for that role.
 
+## Full Attack
+
+**Full Attack** asks which attacks to make, and the penalties apply to every
+attack in the round:
+
+- Two weapons, or a weapon and a natural attack: -10, or -5, -2 or 0 with Dual
+  Weapon Mastery I, II or III. Each weapon that reduces dual-wielding penalties
+  (Shotosaber, Vibroknife, Crystal Tomahawk, the staffs) takes 2 off, and Shoto
+  Master takes 2 more when both weapons are lightsabers. Never above 0.
+- Double Attack: -5. Triple Attack: another -5.
+- Additional Arms takes 2 off the combined penalty.
+
+## Armor
+
+Worn armor reduces speed by 5 feet and applies its Armor Check Penalty (-2, none
+for Mesh Armor) to Acrobatics, Athletics, Endurance, Initiative and Stealth.
+Without Armor Proficiency it gives none of its benefits (its Reflex value, damage
+reduction, ability bonuses); the penalties still apply. Lightsabers ignore damage
+reduction unless the target blocks lightsabers.
+
 ## Class features
 
 Taking a class level adds the trait for each class feature that level grants, once:

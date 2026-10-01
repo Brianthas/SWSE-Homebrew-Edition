@@ -686,7 +686,8 @@ export const allDefaultSkills = [...defaultSkills, ...defaultVehicleSkills];
 export const EPISODE_VII_HOMEBREW_SKILLS = new Map([
     ["Athletics", {
         ability: "str",
-        uut: true
+        uut: true,
+        acp: true
     }],
     ["Knowledge (Sciences)", {
         ability: "int",

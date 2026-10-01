@@ -63,15 +63,39 @@ function getChangesFromEmbeddedItems(entity, itemFilter, embeddedItemOverride) {
 
     let changes = [];
     for (let item of items) {
-        const changesFromDocuments = getChangesFromDocument({
+        let changesFromDocuments = getChangesFromDocument({
             entity: item,
             flags: ["REQUESTED_BY_ACTOR"],
             recursive: true,
             parent: entity
         });
+        // Homebrew: armor worn without proficiency gives none of its benefits (damage reduction,
+        // ability bonuses, anything an upgrade adds); its speed and check penalties still apply.
+        if (item.type === "armor" && !isProficientWithArmor(entity, item)) {
+            changesFromDocuments = changesFromDocuments.filter(change => ARMOR_PENALTY_KEYS.includes(change?.key));
+        }
         changes.push(...changesFromDocuments);
     }
     return changes;
+}
+
+const ARMOR_PENALTY_KEYS = ["armorFlatSpeedPenalty", "armorFlatCheckPenalty"];
+
+/**
+ * Whether the actor has proficiency with this armor. Proficiency is read from the actor's other
+ * items only, so the check never re-enters the armor it is deciding about.
+ * @param actor {SWSEActor}
+ * @param armor {SWSEItem}
+ * @return {boolean}
+ */
+export function isProficientWithArmor(actor, armor) {
+    const proficiencies = getInheritableAttribute({
+        entity: actor,
+        attributeKey: "armorProficiency",
+        itemFilter: item => item.type !== "armor",
+        reduce: "VALUES"
+    }).map(p => `${p}`.toLowerCase());
+    return proficiencies.includes(`${armor.armorType}`.toLowerCase());
 }
 
 export function getResolvedSize(entity, options = {}) {

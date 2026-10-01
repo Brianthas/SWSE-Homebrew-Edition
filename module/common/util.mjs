@@ -579,13 +579,32 @@ export function handleExclusiveSelect(e, selects) {
 }
 
 
-function explodeAttackKey(attackKey) {
-    const toks = attackKey.split(":")
+export const ATTACK_CHOICE_KINDS = ["STANDARD", "BEAST_ATTACK", "DOUBLE_ATTACK", "TRIPLE_ATTACK", "ADDITIONAL"];
 
-    let doubleAttack = toks.includes("DOUBLE_ATTACK");
-    let tripleAttack = toks.includes("TRIPLE_ATTACK");
-    let standardAttack = !toks.includes("BEAST_ATTACK");
-    return {doubleAttack, tripleAttack, standardAttack}
+/**
+ * Reads a Full Attack dialog option value, "<attackKey>|<kind>|<instance>" (Attack#summary). A
+ * bare attack key, as single attacks and saved macros pass, reads as a standard attack. The kind
+ * and instance keep two picks of the same weapon apart: a Double Attack, or the second of two
+ * pistols, share the weapon's attack key.
+ */
+export function parseAttackChoice(value) {
+    const toks = `${value}`.split("|");
+    const kind = ATTACK_CHOICE_KINDS.includes(toks[1]) ? toks[1] : "STANDARD";
+    const additional = kind === "ADDITIONAL" ? toNumber(toks[3]) : 0;
+    return {
+        attackKey: toks[0],
+        kind,
+        instance: toNumber(toks[2]),
+        standardAttack: kind === "STANDARD" || kind === "ADDITIONAL",
+        beastAttack: kind === "BEAST_ATTACK",
+        doubleAttack: kind === "DOUBLE_ATTACK",
+        tripleAttack: kind === "TRIPLE_ATTACK",
+        additionalAttack: additional
+    };
+}
+
+function explodeAttackKey(attackKey) {
+    return parseAttackChoice(attackKey);
 }
 
 export function handleAttackSelect(selects) {

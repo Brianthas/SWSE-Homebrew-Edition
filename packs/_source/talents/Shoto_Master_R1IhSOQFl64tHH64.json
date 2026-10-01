@@ -3,11 +3,17 @@
   "effects": [],
   "system": {
     "finalName": "",
-    "description": "When you wield both a One-Handed <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> and a Light <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> (typically a <a href=\"https://swse.fandom.com/wiki/Shoto_Lightsaber\" class=\"mw-redirect\" title=\"Shoto Lightsaber\">Shoto Lightsaber</a> or a <a href=\"https://swse.fandom.com/wiki/Guard_Shoto\" title=\"Guard Shoto\">Guard Shoto</a>), you can consider the One-Handed <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> to be a Light Weapon.<br><br>Additionally, if you have the <b><a href=\"https://swse.fandom.com/wiki/Lightsaber_Defense\" class=\"mw-redirect\" title=\"Lightsaber Defense\">Lightsaber Defense</a></b> Talent, you can activate the Talent as a <a href=\"https://swse.fandom.com/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a> on your turn (instead of a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>) whenever you wield both a One-Handed <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> and a Light <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a>.",
+    "description": "When you wield both a One-Handed <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> and a Light <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> (typically a <a href=\"https://swse.fandom.com/wiki/Shoto_Lightsaber\" class=\"mw-redirect\" title=\"Shoto Lightsaber\">Shoto Lightsaber</a> or a <a href=\"https://swse.fandom.com/wiki/Guard_Shoto\" title=\"Guard Shoto\">Guard Shoto</a>), you can consider the One-Handed <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> to be a Light Weapon.<br><br>Additionally, if you have the <b><a href=\"https://swse.fandom.com/wiki/Lightsaber_Defense\" class=\"mw-redirect\" title=\"Lightsaber Defense\">Lightsaber Defense</a></b> Talent, you can activate the Talent as a <a href=\"https://swse.fandom.com/wiki/Free_Action\" class=\"mw-redirect\" title=\"Free Action\">Free Action</a> on your turn (instead of a <a href=\"https://swse.fandom.com/wiki/Swift_Action\" class=\"mw-redirect\" title=\"Swift Action\">Swift Action</a>) whenever you wield both a One-Handed <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a> and a Light <a href=\"https://swse.fandom.com/wiki/Lightsaber\" class=\"mw-redirect\" title=\"Lightsaber\">Lightsaber</a>.<p><i>Homebrew (tovec.wikidot.com/episode-vii):</i> because the One-Handed Lightsaber counts as Light, it also reduces the dual-wielding penalty by 2, as the Light Lightsaber does.</p>",
     "textDescription": "",
     "sourceString": "",
     "attributes": {},
-    "changes": [],
+    "changes": [
+      {
+        "mode": 2,
+        "value": "2:Lightsabers",
+        "key": "dualWieldPenaltyReduction"
+      }
+    ],
     "choices": [],
     "modes": [],
     "providedItems": [],

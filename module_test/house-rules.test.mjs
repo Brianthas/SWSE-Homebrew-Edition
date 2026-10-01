@@ -6,7 +6,9 @@ import { fileURLToPath } from "node:url";
 
 import SWSEActor from "../module/actor/actor.mjs";
 import { Attack } from "../module/actor/attack/attack.mjs";
-import { SIZE_CHANGES, SCALABLE_CHANGES } from "../module/common/constants.mjs";
+import { SIZE_CHANGES, SCALABLE_CHANGES, skillDetails, getGroupedSkillMap } from "../module/common/constants.mjs";
+import { fullAttackPenalties, attacksFromChoices } from "../module/actor/attack/attackDelegate.mjs";
+import { parseAttackChoice } from "../module/common/util.mjs";
 
 const repo = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const source = path.join(repo, "packs", "_source");
@@ -139,6 +141,99 @@ describe("unarmed damage and Stealth by size", () => {
         const stealth = SCALABLE_CHANGES.skillBonusScalable["stealth:0"];
         assert.deepEqual(stealth.Small.map(c => c.value), ["stealth:0"]);
         assert.deepEqual(stealth.Large.map(c => c.value), ["stealth:-5"]);
+    });
+});
+
+describe("full attack penalties", () => {
+    const weapon = (subtype, weaponReduction = 0) => ({standardAttack: true, subtype, weaponReduction});
+    const total = mods => mods.reduce((sum, m) => sum + m.value, 0);
+    const reductionOf = prefix => readPack("weapon", prefix).system.changes.filter(c => c.key === "dualWieldPenaltyReduction").map(c => c.value);
+
+    it("two weapons: -10, or the Dual Weapon Mastery value", () => {
+        const two = [weapon("Pistols"), weapon("Rifles")];
+        assert.deepEqual(fullAttackPenalties(two), [{type: "attack", value: -10, source: "Dual Weapon"}]);
+        assert.equal(total(fullAttackPenalties(two, {dualWeaponModifier: -5})), -5);
+        assert.deepEqual(fullAttackPenalties(two, {dualWeaponModifier: 0}), []);
+    });
+
+    it("each weapon that reduces the dual-wielding penalty takes 2 off, never past 0", () => {
+        const knives = [weapon("Advanced Melee", 2), weapon("Advanced Melee", 2)];
+        assert.equal(total(fullAttackPenalties(knives)), -6);
+        assert.equal(total(fullAttackPenalties(knives, {dualWeaponModifier: -5})), -1);
+        assert.deepEqual(fullAttackPenalties(knives, {dualWeaponModifier: -2}), []);
+        assert.equal(total(fullAttackPenalties([weapon("Advanced Melee", 2), weapon("Pistols")])), -8);
+    });
+
+    it("Shoto Master takes another 2 off only when both weapons are lightsabers", () => {
+        const shoto = readPack("talents", "Shoto_Master_").system.changes.filter(c => c.key === "dualWieldPenaltyReduction").map(c => c.value);
+        assert.deepEqual(shoto, ["2:Lightsabers"]);
+        const sabers = [weapon("Lightsabers"), weapon("Lightsabers", reductionOf("Shotosaber_")[0])];
+        assert.equal(total(fullAttackPenalties(sabers, {talentReductions: shoto})), -6);
+        assert.equal(total(fullAttackPenalties([weapon("Lightsabers"), weapon("Pistols")], {talentReductions: shoto})), -10);
+    });
+
+    it("Double Attack is -5 and Triple Attack another -5; one weapon alone is no dual-wielding", () => {
+        const double = [weapon("Pistols"), {doubleAttack: true, subtype: "Pistols"}];
+        assert.deepEqual(fullAttackPenalties(double).map(m => [m.source, m.value]), [["Double Attack", -5]]);
+        const triple = [...double, {tripleAttack: true, subtype: "Pistols"}];
+        assert.equal(total(fullAttackPenalties(triple)), -10);
+        assert.equal(total(fullAttackPenalties([weapon("Pistols"), weapon("Rifles"), {doubleAttack: true}])), -15);
+    });
+
+    it("a weapon and a natural attack count as dual-wielding", () => {
+        assert.equal(total(fullAttackPenalties([weapon("Pistols"), {beastAttack: true}])), -10);
+    });
+
+    it("Additional Arms reduces the combined penalty by 2, never into a bonus", () => {
+        const two = [weapon("Pistols"), weapon("Rifles")];
+        assert.equal(total(fullAttackPenalties(two, {multipleAttackModifiers: [2]})), -8);
+        assert.deepEqual(fullAttackPenalties(two, {dualWeaponModifier: 0, multipleAttackModifiers: [2]}), []);
+    });
+
+    it("the six weapons with the property carry a reduction of 2 and nothing reads the old -8", () => {
+        for (const prefix of ["Crystal_Tomahawk_", "Electrostaff_", "Lightsaber_Staff_", "Shotosaber_", "Vibroknife_", "Vibrostaff_"]) {
+            assert.deepEqual(reductionOf(prefix), [2], prefix);
+            assert.equal(readPack("weapon", prefix).system.changes.some(c => c.key === "dualWeaponModifier"), false, prefix);
+        }
+    });
+});
+
+describe("full attack choices", () => {
+    const base = Attack.create({actorId: "Actor.a", weaponId: "Actor.a.Item.pistol", operatorId: "Actor.a"});
+    const delegate = {attacks: [base, Attack.create({actorId: "Actor.a", weaponId: "CustomAttack:x", operatorId: "Actor.a"})]};
+
+    it("reads a dialog value and a bare key", () => {
+        assert.deepEqual(parseAttackChoice("Actor.a.Item.pistol|DOUBLE_ATTACK|0"), {attackKey: "Actor.a.Item.pistol", kind: "DOUBLE_ATTACK", instance: 0,
+            standardAttack: false, beastAttack: false, doubleAttack: true, tripleAttack: false, additionalAttack: 0});
+        assert.equal(parseAttackChoice("Actor.a.Item.pistol").standardAttack, true);
+        assert.equal(parseAttackChoice("CustomAttack:x|STANDARD|0").attackKey, "CustomAttack:x");
+    });
+
+    it("keeps a Double Attack and a second copy of the same weapon as separate attacks", () => {
+        const picked = attacksFromChoices(delegate, ["Actor.a.Item.pistol|STANDARD|0", "Actor.a.Item.pistol|DOUBLE_ATTACK|0", "Actor.a.Item.pistol|STANDARD|1"]);
+        assert.equal(picked.length, 3);
+        assert.deepEqual(picked.map(a => [!!a.options.doubleAttack, a.options.duplicateCount]), [[false, 0], [true, 0], [false, 1]]);
+        assert.ok(picked.every(a => a !== base));
+        assert.deepEqual(base.options, {});
+    });
+
+    it("a bare key and a custom attack key still resolve", () => {
+        assert.equal(attacksFromChoices(delegate, ["Actor.a.Item.pistol"])[0], base);
+        assert.equal(attacksFromChoices(delegate, ["CustomAttack:x|STANDARD|0"]).length, 1);
+        assert.equal(attacksFromChoices(delegate, ["--", "Actor.a.Item.unknown|STANDARD|0"]).length, 0);
+    });
+});
+
+describe("armor check penalty skills", () => {
+    it("applies to Acrobatics, Athletics, Endurance, Initiative and Stealth only", () => {
+        const acp = Object.entries(skillDetails).filter(([, d]) => d.acp).map(([name]) => name).sort();
+        assert.deepEqual(acp, ["Acrobatics", "Endurance", "Initiative", "Stealth"]);
+        assert.equal(getGroupedSkillMap().get("Athletics").acp, true);
+        assert.equal(getGroupedSkillMap().get("Knowledge (Sciences)").acp, undefined);
+    });
+
+    it("the non-proficiency -10 is gone", () => {
+        assert.equal(fs.existsSync(path.join(repo, "module", "actor", "armor-check-penalty.mjs")), false);
     });
 });
 

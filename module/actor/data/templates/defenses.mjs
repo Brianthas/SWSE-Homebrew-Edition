@@ -156,7 +156,9 @@ export class DefenseFunctions {
     }
 
     get armorReflexDefenseBonus() {
+        // Homebrew: armor worn without proficiency gives no benefit.
         let bonuses = equippedItems(this.parent, "armor")
+            .filter((i) => i._parentIsProficientWithArmor())
             .map((i) => i.armorReflexDefenseBonus)
             .filter((bonus) => !!bonus);
 
@@ -526,6 +528,9 @@ export class DefenseFunctions {
             (item) => item.equipped === "equipped"
         );
         for (let item of equipped) {
+            // Homebrew: armor worn without proficiency gives no benefit, so Reflex keeps the
+            // wearer's own Dexterity.
+            if (!item._parentIsProficientWithArmor()) continue;
             let override = item.armorDexterityOverride;
             if (override !== undefined && override !== "") {
                 return override;
