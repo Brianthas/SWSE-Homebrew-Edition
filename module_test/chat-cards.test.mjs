@@ -142,6 +142,14 @@ describe("Apply buttons", () => {
     it("no selection and no roll-time target applies to no one", () => {
         assert.deepEqual(planApplications("damage", {base, summaries: []}), []);
     });
+
+    // A card rolled before the redesign has no data-apply payload: it never recorded a damage type,
+    // so a selected token must not take its damage untyped.
+    it("a card without a damage payload ignores the selection and uses its roll-time targets", () => {
+        const old = planApplications("damage", {selected: [pc], summaries, resolveActor: uuid => actors[uuid]});
+        assert.deepEqual(old.map(a => [a.actor.name, a.amount]), [["Kath Hound", 20]]);
+        assert.deepEqual(planApplications("damage", {selected: [pc], summaries: []}), []);
+    });
 });
 
 describe("applied result lines", () => {

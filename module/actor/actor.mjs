@@ -247,7 +247,12 @@ class SWSEActor extends Actor {
                     // ones this user owns. Only a client allowed to write the token sends the
                     // update; the server rejects the rest ("User X lacks permission to update
                     // Token") every time the actor is prepared while its token is out of date.
-                    if (tokenDocument._id && game && tokenDocument.canUserModify(game.user, "update")) {
+                    // Ownership is read off this actor, not the token: a token's permission
+                    // check reads token.actor, which for an unlinked token is the synthetic actor
+                    // still being prepared here, so for a player it builds another one, which
+                    // prepares and checks again until the stack overflows. A GM's check returns
+                    // before reading token.actor. Token ownership is the actor's ownership.
+                    if (tokenDocument._id && game && this.isOwner) {
                         (async () => {
                             try {
                                 // Foundry V14's token-movement validation rejects a width/height

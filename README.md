@@ -152,7 +152,9 @@ map. With none selected, they apply to the targets the attack hit when it was
 rolled: a miss is skipped, a Half Damage result is halved, and Heal reaches every
 target. Damage goes through shields, damage reduction and Ion or Stun immunity,
 and each application posts a result line, such as "-20 Acklay, 20 Energy". Result
-lines show the damage dealt, never current or maximum HP.
+lines show the damage dealt, never current or maximum HP. A card rolled before
+this version records no damage type, so its buttons apply only to the targets
+recorded when it was rolled, never to selected tokens.
 
 The GM's client applies the result, so a player can damage a token they do not
 own. A result posted while no GM is connected waits in chat and applies when a GM

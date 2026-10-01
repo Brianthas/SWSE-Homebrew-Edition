@@ -378,14 +378,17 @@ const applyAttack = async (event) => {
         .map(token => token.actor)
         .reduce((actorMap, actor) => {actorMap[actor.uuid] = actor; return actorMap}, targetActors)
 
+    const base = element.data("apply") ?? null;
     const applications = planApplications(type, {
         selected: (canvas.tokens?.controlled ?? []).map(token => token.actor).filter(actor => !!actor),
         summaries: attackSummaries,
-        base: element.data("apply") || {},
+        base,
         resolveActor: uuid => targetActors[uuid]
     });
     if (applications.length === 0) {
-        ui.notifications.warn("Select a token on the map, then click the button again.");
+        ui.notifications.warn(base
+            ? "Select a token on the map, then click the button again."
+            : "This card was rolled before the chat card update and applies only to the targets recorded when it was rolled. Roll again to apply it to a selected token.");
         return;
     }
 
