@@ -30,7 +30,7 @@ import {VALIDATORS} from "./actor-item-validation.js";
 import {generateAction} from "../action/generate-action.mjs";
 import {WeightDelegate} from "./weightDelegate.mjs";
 import {getGridSizeFromSize, getTokenTextureScaleFromSize} from "./size.mjs";
-import {bypassShields} from "../common/conditionalHelpers.mjs";
+import {bypassShields, resolveDamageTaken} from "../common/conditionalHelpers.mjs";
 import {depthMerge, titleCase} from "../common/helpers.mjs";
 import {CrewDelegate} from "./crewDelegate.mjs";
 import {getAvailableCombatToggles} from "./attack/combat-toggle.mjs";
@@ -569,7 +569,9 @@ class SWSEActor extends Actor {
             if (!characterActorTypes.includes(this.type)) {
                 return 0;
             }
-            return this.system.defense.fortitude.total + 5;
+            // Homebrew: Damage Threshold + 5, which is Fortitude plus the size modifier and any
+            // Damage Threshold bonuses (defenses.mjs).
+            return toNumber(this.system.defense.damageThreshold?.total) + 5;
         })
     }
 
@@ -1580,41 +1582,14 @@ class SWSEActor extends Actor {
             }
         }
 
-        if (!options.skipDamageReduction) {
-            let damageReductions = getInheritableAttribute({entity: this, attributeKey: "damageReduction"})
-            let lightsaberResistance = getInheritableAttribute({
-                entity: this,
-                attributeKey: "blocksLightsaber",
-                reduce: "OR"
-            })
-
-            if (!damageTypes.includes("Lightsabers") || lightsaberResistance) {
-                for (let damageReduction of damageReductions) {
-                    let modifier = damageReduction.modifier || "";
-
-                    let modifiers = modifier.split(COMMMA_LIST);
-                    let innerJoin1 = innerJoin(damageTypes, modifiers);
-                    if (!modifier || innerJoin1.length === 0) {
-                        totalDamage = Math.max(totalDamage - toNumber(damageReduction.value), 0)
-                    }
-                }
-            }
-        }
-
-        if(damageTypes.includes("Energy (Ion)")){
-            if (!this.takesFullDamageFromIon) {
-                totalDamage = Math.floor(totalDamage / 2);
-            }
-        } else if(damageTypes.includes("Energy (Stun)")){
-            if(!this.isEffectedByStun){
-                totalDamage = 0;
-            }
-        }
-
-        //TODO Floating numbers tie in
-        if(totalDamage < 0){
-            totalDamage = 0;
-        }
+        totalDamage = resolveDamageTaken(totalDamage, damageTypes, {
+            lightsaber: !!options.lightsaber,
+            skipDamageReduction: !!options.skipDamageReduction,
+            damageReductions: options.skipDamageReduction ? [] : getInheritableAttribute({entity: this, attributeKey: "damageReduction"}),
+            blocksLightsaber: !!getInheritableAttribute({entity: this, attributeKey: "blocksLightsaber", reduce: "OR"}),
+            takesIonDamage: this.takesFullDamageFromIon,
+            takesStunDamage: this.isEffectedByStun
+        });
 
         const content = `${this.name} has has taken ${totalDamage} damage.  ${resultFlavor}`
 
@@ -1638,9 +1613,17 @@ class SWSEActor extends Actor {
         await this.safeUpdate(update);
     }
 
+    /**
+     * Homebrew: each Toughness feat adds +1 to any healing received.
+     */
+    get healingReceivedBonus() {
+        return toNumber(getInheritableAttribute({entity: this, attributeKey: "healingReceivedBonus", reduce: "SUM"}));
+    }
+
     async applyHealing(options) {
         let update = {};
-        const proposedHealAmount = toNumber(options.heal);
+        const heal = toNumber(options.heal);
+        const proposedHealAmount = heal > 0 ? heal + this.healingReceivedBonus : heal;
         const maxHealAmount = this.system.health.max - this.system.health.value;
         const healAmount = Math.min(proposedHealAmount, maxHealAmount);
         update[`system.health.value`] = this.system.health.value + healAmount;
@@ -1833,10 +1816,12 @@ class SWSEActor extends Actor {
     }
 
     /**
+     * Homebrew: organic targets are immune to Ion damage. Droids, vehicles and anyone carrying an
+     * unshielded cybernetic implant take it in full.
      * @return boolean
      */
     get takesFullDamageFromIon(){
-        if(this.isDroid){
+        if(this.isDroid || this.type === 'vehicle' || this.type === 'npc-vehicle'){
             return true;
         }
 

@@ -2284,9 +2284,10 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
             return;
         }
 
+        const received = actor.healingReceivedBonus;
         const bonus = await Dialog.prompt({
             title: "First Aid",
-            content: `<p>Rolling ${healingDie} + Con modifier + character level. Enter any additional bonus to add on top (e.g. a skill check result):</p>
+            content: `<p>Rolling ${healingDie} + Con modifier + character level${received ? " + healing received bonus" : ""}. Enter any additional bonus to add on top (e.g. a skill check result):</p>
                        <input type="number" name="bonus" value="0" autofocus/>`,
             label: "Roll",
             callback: (html) => Number(html.find('[name="bonus"]').val()) || 0,
@@ -2294,11 +2295,12 @@ export class SWSEActorSheet extends foundry.appv1.sheets.ActorSheet {
         });
         if (bonus === null || bonus === undefined) return;
 
-        const formula = `${healingDie} + @con + @level + @bonus`;
+        const formula = `${healingDie} + @con + @level + @bonus` + (received ? " + @received" : "");
         const roll = await rollFormula(formula, {
             con: actor.system.abilities.con.mod,
             level: actor.characterLevel,
-            bonus
+            bonus,
+            received
         }, {actor, label: "First Aid"});
         if (!roll) return;   // prompt cancelled
 

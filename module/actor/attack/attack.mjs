@@ -478,7 +478,9 @@ export class Attack {
         if (["str", "dex", "int", "wis", "cha"].includes(abilityChoice)) {
             return this.#getCharacterAttributeModifier(actor, abilityChoice);
         }
-        if (isLightsaber(item) && abilityChoice && abilityChoice !== "ataru") {
+        // Homebrew: Noble Fencing Style works only on a weapon wielded single-handed.
+        const nobleFencingTwoHanded = abilityChoice === "noble_fencing" && this.#isTwoHandedMelee(actor, item);
+        if (isLightsaber(item) && abilityChoice && abilityChoice !== "ataru" && !nobleFencingTwoHanded) {
             return this.#lightsaberAttributeMod(actor, abilityChoice);
         }
         return baseMod;
@@ -861,7 +863,7 @@ export class Attack {
             abilityMod = this.#getCharacterAttributeModifier(actor, abilityChoice);
         } else if (isLightsaber(item) && abilityChoice === "ataru") {
             abilityMod = parseInt(actor.attributes.dex.mod);
-        } else if (isLightsaber(item) && abilityChoice) {
+        } else if (isLightsaber(item) && abilityChoice && !(abilityChoice === "noble_fencing" && isTwoHanded)) {
             abilityMod = this.#lightsaberAttributeMod(actor, abilityChoice);
         }
 
@@ -1130,6 +1132,15 @@ export class Attack {
         });
 
         return 2 + bonus
+    }
+
+    /**
+     * Lightsabers ignore damage reduction (SWSEActor#applyDamage). Their damage type is plain
+     * "Energy", so the attack carries this separately on each target it reports.
+     */
+    get isLightsaberAttack() {
+        const item = this.item;
+        return !!item && item.type === "weapon" && !!item.system?.subtype && isLightsaber(item);
     }
 
     get type() {
@@ -1674,6 +1685,7 @@ export class Attack {
                 highlight: "hit",
                 damage: damage.total,
                 damageType: this.type,
+                lightsaber: this.isLightsaberAttack,
                 notes: this.notes
             }));
 
@@ -2080,6 +2092,7 @@ function toTarget(actor, attackRoll, autoMiss, autoHit, critical, areaAttack, da
         notes: attack.notes,
         damage: damage.total,
         damageType: attack.type,
+        lightsaber: attack.isLightsaberAttack,
     }
 }
 

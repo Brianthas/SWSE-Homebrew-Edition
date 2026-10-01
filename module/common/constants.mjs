@@ -62,7 +62,7 @@ export const SIZE_CHANGES = {
         {"key" : "reflexDefenseBonus","value" : "2","mode" : 2},
         {"key" : "shipSkillModifier","value" : "2","mode" : 2},
         {"key" : "characterFightingSpace","value" : "1 square","mode" : 2},
-        {"key" : "unarmedDamage","value" : "1d2","mode" : 2},
+        {"key" : "unarmedDamage","value" : "1d3","mode" : 2},
         {"key" : "skillBonus","value" : "stealth:10","mode" : 2},
         {"key" : "damageThresholdSizeModifier","value" : "0","mode" : 2},
     ],
@@ -94,7 +94,7 @@ export const SIZE_CHANGES = {
         {"key" : "reflexDefenseBonus","value" : "-2","mode" : 2},
         {"key" : "characterFightingSpace","value" : "9 squares","mode" : 2},
         {"key" : "shipSkillModifier","value" : "-2","mode" : 2},
-        {"key" : "unarmedDamage","value" : "1d8","mode" : 2},
+        {"key" : "unarmedDamage","value" : "1d10","mode" : 2},
         {"key" : "skillBonus","value" : "stealth:-10","mode" : 2},
         {"key" : "damageThresholdSizeModifier","value" : "10","mode" : 2},
         {"key" : "grappleSizeModifier","value" : "10","mode" : 2},
@@ -103,7 +103,7 @@ export const SIZE_CHANGES = {
         {"key" : "reflexDefenseBonus","value" : "-5","mode" : 2},
         {"key" : "characterFightingSpace","value" : "16 squares","mode" : 2},
         {"key" : "shipSkillModifier","value" : "-5","mode" : 2},
-        {"key" : "unarmedDamage","value" : "2d6","mode" : 2},
+        {"key" : "unarmedDamage","value" : "1d12","mode" : 2},
         {"key" : "skillBonus","value" : "stealth:-15","mode" : 2},
         {"key" : "damageThresholdSizeModifier","value" : "20","mode" : 2},
         {"key" : "grappleSizeModifier","value" : "15","mode" : 2},
@@ -331,10 +331,10 @@ export const SCALABLE_CHANGES = {
                 {"key" : "unarmedDamage","value" : "1","mode" : 2}
             ],
             "Tiny" : [
-                {"key" : "unarmedDamage","value" : "1d2","mode" : 2}
+                {"key" : "unarmedDamage","value" : "1d3","mode" : 2}
             ],
-            // Homebrew unarmed die by size (Small d4 / Medium d6 / Large d8), matching the
-            // SIZE_CHANGES table the species rework established. This table is what the unarmed
+            // Homebrew unarmed die by size (Tiny d3 / Small d4 / Medium d6 / Large d8 / Huge d10 /
+            // Gargantuan d12), matching SIZE_CHANGES. This table is what the unarmed
             // attack actually resolves through, so leaving it on the vanilla progression made
             // the homebrew values dead letters - every character punched one die size too low.
             "Small" : [
@@ -347,10 +347,10 @@ export const SCALABLE_CHANGES = {
                 {"key" : "unarmedDamage","value" : "1d8","mode" : 2}
             ],
             "Huge" : [
-                {"key" : "unarmedDamage","value" : "1d8","mode" : 2}
+                {"key" : "unarmedDamage","value" : "1d10","mode" : 2}
             ],
             "Gargantuan" : [
-                {"key" : "unarmedDamage","value" : "2d6","mode" : 2}
+                {"key" : "unarmedDamage","value" : "1d12","mode" : 2}
             ],
             "Colossal" : [
                 {"key" : "unarmedDamage","value" : "2d8","mode" : 2}
@@ -401,8 +401,9 @@ export const SCALABLE_CHANGES = {
             "Tiny" : [
                 {"key" : "skillBonus","value" : "stealth:10","mode" : 2}
             ],
+            // Homebrew: Small gets Stealth training instead of the +5 (skills.mjs).
             "Small" : [
-                {"key" : "skillBonus","value" : "stealth:5","mode" : 2}
+                {"key" : "skillBonus","value" : "stealth:0","mode" : 2}
             ],
             "Medium" : [
                 {"key" : "skillBonus","value" : "stealth:0","mode" : 2}

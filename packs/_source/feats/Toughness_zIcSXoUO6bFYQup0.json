@@ -3,7 +3,7 @@
   "effects": [],
   "system": {
     "finalName": "",
-    "description": "<p><i>Reference Book: Star Wars Saga Edition Core Rulebook</i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You are tougher than normal.</p><p><b>Effect:</b> You gain +1 Hit Point per Character Level.</p>",
+    "description": "<p><i>Reference Book: Star Wars Saga Edition Core Rulebook</i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You are tougher than normal.</p><p><b>Effect:</b> You gain 5 Hit Points plus 1 Hit Point per Character Level, and +1 to any healing you receive, as if your Constitution had increased.</p><p><b>Special:</b> You can take Toughness more than once. The effects stack, except you do not gain another 5 Hit Points.</p>",
     "textDescription": "",
     "sourceString": "",
     "attributes": {},
@@ -17,6 +17,11 @@
         "mode": 2,
         "value": 5,
         "key": "hitPointFlatBonus"
+      },
+      {
+        "mode": 2,
+        "value": 1,
+        "key": "healingReceivedBonus"
       }
     ],
     "choices": [],

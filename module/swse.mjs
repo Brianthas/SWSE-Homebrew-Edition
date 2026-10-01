@@ -389,6 +389,7 @@ const applyAttack = async (event) => {
                 damage: attackSummary.damage,
                 affectDamageThreshold: true,
                 damageType: attackSummary.damageType,
+                lightsaber: !!attackSummary.lightsaber,
                 skipShields: false,
                 skipDamageReduction: false,
                 halfDamage: attackSummary.result === "Half Damage"

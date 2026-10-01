@@ -45,7 +45,7 @@
 {{/if}}
 
     <div class="field field-center-label">
-        <label for="maneuverDefense" title="Total Fortitude Defense + 5">Maneuver Defense</label>
+        <label for="maneuverDefense" title="Damage Threshold + 5. Opposes combat maneuvers: forced movement, grapple, disarm.">Maneuver Defense</label>
         <input id="maneuverDefense" type="text" value="{{actor.maneuverDefense}}" placeholder="" disabled/>
     </div>
 
@@ -93,7 +93,7 @@
 
 {{#unless disableSecondWind}}
     <div class="field">
-        <label for="secondWind" title="Regardless of second winds per day, only one can be used per encounter.">Second Winds/Day</label>
+        <label for="secondWind" title="A Swift Action, in or out of combat, at any HP total, and more than once a turn if you have the uses. You must be conscious and not helpless.">Second Winds/Day</label>
         <div class="toggle-track">
             {{#times actor.secondWind.perDay}}
                 <input data-action="toggle-second-wind" title="Spent" type="checkbox" data-name="system.toggles.secondWinds.{{this}}"
