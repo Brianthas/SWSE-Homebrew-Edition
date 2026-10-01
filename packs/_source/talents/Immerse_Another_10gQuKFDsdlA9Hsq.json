@@ -1,0 +1,67 @@
+{
+  "img": "systems/swse/icon/talent/default.png",
+  "effects": [],
+  "system": {
+    "finalName": "",
+    "description": "Whenever you make a <a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a> check to <a href=\"https://swse.fandom.com/wiki/Sneak\" class=\"mw-redirect\" title=\"Sneak\">Sneak</a>, you can use your check result in place of one adjacent ally's <a href=\"https://swse.fandom.com/wiki/Stealth\" title=\"Stealth\">Stealth</a> check to <a href=\"https://swse.fandom.com/wiki/Sneak\" class=\"mw-redirect\" title=\"Sneak\">Sneak</a> (additionally, if you have the <b>Force Immersion</b> Talent, that Talent applies to the designated ally as well).<br><br>Similarly, you can use your <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check result in the place of an adjacent ally's <a href=\"https://swse.fandom.com/wiki/Use_the_Force\" title=\"Use the Force\">Use the Force</a> check result to avoid detection by the <a href=\"https://swse.fandom.com/wiki/Sense_Force\" class=\"mw-redirect\" title=\"Sense Force\">Sense Force</a> application of the skill. You can spend a <a href=\"https://swse.fandom.com/wiki/Force_Point\" class=\"mw-redirect\" title=\"Force Point\">Force Point</a> to have this ability apply to all adjacent allies instead of just one.",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [],
+    "choices": [],
+    "modes": [],
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "a member of The Fallanassi",
+      "requirement": "The Fallanassi",
+      "type": "TRADITION"
+    },
+    "categories": [
+      {
+        "value": "Talent Trees"
+      },
+      {
+        "value": "Force Talent Trees"
+      },
+      {
+        "value": "Force Tradition Talent Trees"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "Force Talent Trees",
+      "Force Tradition Talent Trees"
+    ],
+    "isSupplied": false,
+    "talentTree": "White Current Adept Talent Tree",
+    "talentTreeSource": "",
+    "talentTreeUrl": "https://swse.fandom.com/wiki/White_Current_Adept_Talent_Tree",
+    "bonusTalentTree": "Force Talent Trees",
+    "source": "Star Wars Saga Edition Jedi Academy Training Manual",
+    "cost": "0"
+  },
+  "name": "Immerse Another",
+  "flags": {},
+  "type": "talent",
+  "folder": "gg5PK3joq3lXffCd",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "swse",
+    "systemVersion": "12.3.6",
+    "createdTime": 1734385313566,
+    "modifiedTime": 1734385313566,
+    "lastModifiedBy": "tih8Q1fJUuDFWVCX",
+    "exportSource": null
+  },
+  "_id": "10gQuKFDsdlA9Hsq",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tih8Q1fJUuDFWVCX": 3
+  },
+  "_key": "!items!10gQuKFDsdlA9Hsq"
+}

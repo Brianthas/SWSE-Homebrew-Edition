@@ -161,8 +161,11 @@ describe("pack content (house rules)", () => {
         }
     });
 
-    it("Force Disciples, Jedi Masters and Sith Lords reach every Force Tradition talent", () => {
-        const tradition = talents.filter(t => t.system.possibleProviders.includes("Force Tradition Talent Trees") && t.system.talentTree !== "Aing-Tii Monk Talent Tree");
+    // Banned for play unless the GM agrees; they stay in the compendium so the GM can grant them.
+    const BANNED = ["Agent of Ossus", "Aing-Tii Monk", "Iron Knight", "White Current Adept"].map(t => `${t} Talent Tree`);
+
+    it("Force Disciples, Jedi Masters and Sith Lords reach every Force Tradition talent outside the banned trees", () => {
+        const tradition = talents.filter(t => t.system.possibleProviders.includes("Force Tradition Talent Trees") && !BANNED.includes(t.system.talentTree));
         assert.ok(tradition.length > 100);
         for (const pool of ["Force Disciple Talent Trees", "Jedi Master Talent Trees", "Sith Lord Talent Trees"]) {
             assert.deepEqual(tradition.filter(t => !t.system.possibleProviders.includes(pool)).map(t => t.name), [], pool);
@@ -171,9 +174,14 @@ describe("pack content (house rules)", () => {
         assert.equal(tradition.filter(t => t.system.possibleProviders.includes("Noble Talent Trees")).length, 0);
     });
 
-    it("the banned Agent of Ossus, Iron Knight and White Current Adept trees are gone", () => {
-        for (const tree of ["Agent of Ossus", "Iron Knight", "White Current Adept"]) {
-            assert.equal(providersOf(`${tree} Talent Tree`).length, 0, tree);
+    it("the banned trees stay in the compendium, outside the prestige classes' tradition access", () => {
+        for (const tree of BANNED) {
+            const providers = providersOf(tree);
+            assert.ok(providers.length >= 4, tree);
+            assert.ok(providers.every(p => !p.includes("Noble Talent Trees")), tree);
+        }
+        for (const tree of BANNED.filter(t => t !== "Aing-Tii Monk Talent Tree")) {
+            assert.ok(providersOf(tree).every(p => !p.includes("Force Disciple Talent Trees")), tree);
         }
         assert.ok(talents.some(t => t.name === "Many Shades of the Force"));
     });
@@ -208,6 +216,8 @@ describe("pack content (house rules)", () => {
         assert.ok(text("talents", "Blaster_Turret_II_").includes("Reflex Defense 18 + INT, HP is 15 + LVL"));
         assert.ok(!text("talents", "Blaster_Turret_III_").includes("-5"));
         assert.ok(text("force-powers", "Negate_Energy_").includes("damage reduction"));
+        assert.ok(text("talents", "Folded_Space_Mastery_").includes("extremely slow"));
+        assert.ok(!text("talents", "Folded_Space_Mastery_").includes("instantaneous"));
         assert.ok(!text("feats", "Force_Boon_").includes("three additional"));
         assert.equal(readPack("feats", "Force_Boon_").system.prerequisite, null);
         assert.equal(readPack("droid-system", "Vocabulator_").system.cost, "1000");

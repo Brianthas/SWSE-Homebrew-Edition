@@ -35,13 +35,13 @@ The zip is `swse-homebrew-edition-vX.Y.Z.zip`, containing a single wrapper folde
 `package.json`, `gulpfile.js` or markdown docs.
 
 **`packs/_source` is validated before it compiles.** `npm run packs:pack` runs
-`tools/validate-packs.mjs` first and stops on failure; CI runs it on every push. It checks all 5011
+`tools/validate-packs.mjs` first and stops on failure; CI runs it on every push. It checks all 5028
 documents for parse failures, invisible control characters in string values, missing `_id`/`name`/
 `type`, a subtype the system never registered, duplicate ids inside a pack, and beasts whose current
 HP differs from their maximum. It also warns when a numeric field carries one value across more than
 90% of a pack, which is the shape of the bug where 196 beasts all read 10 current hit points.
 
-Route type checks on `_key`, not on the pack's declared class: 195 of those files are Folders, whose
+Route type checks on `_key`, not on the pack's declared class: 198 of those files are Folders, whose
 `type` names the document class they contain, so a folder in an Item pack correctly reads `"Item"`.
 An earlier version of the validator reported all 197 as broken data.
 
