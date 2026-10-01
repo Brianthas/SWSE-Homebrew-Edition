@@ -21,12 +21,24 @@
           "type": "FEAT"
         },
         {
-          "text": "Weapon Specialization (Lightsabers) talent",
-          "requirement": "Weapon Specialization (Lightsabers)",
-          "type": "TALENT"
+          "children": [
+            {
+              "text": "Weapon Specialization (Lightsabers) talent",
+              "requirement": "Weapon Specialization (Lightsabers)",
+              "type": "TALENT"
+            },
+            {
+              "text": "Weapon Specialization (Lightsabers) feat",
+              "requirement": "Weapon Specialization (Lightsabers)",
+              "type": "FEAT"
+            }
+          ],
+          "count": 1,
+          "text": "Weapon Specialization (Lightsabers)",
+          "type": "OR"
         }
       ],
-      "text": "Weapon Focus (Lightsabers), and Weapon Specialization (Lightsabers) talent",
+      "text": "Weapon Focus (Lightsabers), and Weapon Specialization (Lightsabers)",
       "type": "AND"
     },
     "categories": [

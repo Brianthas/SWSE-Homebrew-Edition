@@ -48,9 +48,21 @@
     "prerequisite": {
       "children": [
         {
+          "children": [
+            {
+              "text": "Greater Weapon Focus (#payload#) talent",
+              "requirement": "Greater Weapon Focus (#payload#)",
+              "type": "TALENT"
+            },
+            {
+              "text": "Greater Weapon Focus (#payload#) feat",
+              "requirement": "Greater Weapon Focus (#payload#)",
+              "type": "FEAT"
+            }
+          ],
+          "count": 1,
           "text": "Greater Weapon Focus (#payload#)",
-          "requirement": "Greater Weapon Focus (#payload#)",
-          "type": "TALENT"
+          "type": "OR"
         },
         {
           "text": "Penetrating Attack (#payload#)",

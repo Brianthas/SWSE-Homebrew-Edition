@@ -1,0 +1,86 @@
+{
+  "name": "Weapon Specialization",
+  "type": "feat",
+  "img": "systems/swse/icon/feat/Weapon Focus.png",
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Homebrew Feat (tovec.wikidot.com/episode-vii)</i></p><p>Weapon Specialization can be taken as a Feat or as a Talent. Either counts as Weapon Specialization for prerequisites, and the two do not stack on the same weapon.</p><p><b>Prerequisite:</b> Weapon Focus with the chosen weapon.</p><p>Choose a single <a href=\"https://swse.fandom.com/wiki/Exotic_Weapon\" class=\"mw-redirect\" title=\"Exotic Weapon\">Exotic Weapon</a> or weapon group with which you are proficient. You gain a +2 bonus on damage rolls with such weapons. If you select <a href=\"https://swse.fandom.com/wiki/Heavy_Weapons\" title=\"Heavy Weapons\">Heavy Weapons</a> as the weapon group this Talent applies to, you may also use the Talent with <a href=\"https://swse.fandom.com/wiki/Vehicle_Weapon\" class=\"mw-redirect\" title=\"Vehicle Weapon\">Vehicle Weapon</a> attacks.<br><br>You may select this Feat multiple times. Each time you select this Feat, it applies to a different <a href=\"https://swse.fandom.com/wiki/Exotic_Weapon\" class=\"mw-redirect\" title=\"Exotic Weapon\">Exotic Weapon</a> or weapon group.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "takeMultipleTimes"
+      },
+      {
+        "mode": 2,
+        "value": "#payload#",
+        "key": "weaponSpecialization"
+      }
+    ],
+    "choices": [
+      {
+        "noOptions": "You Must Be Focussed on a weapon group or an Exotic Weapon to select one for Weapon Specialization.",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {
+              "payload": "AVAILABLE_WEAPON_SPECIALIZATION"
+            },
+            "display": "AVAILABLE_WEAPON_SPECIALIZATION",
+            "name": "AVAILABLE_WEAPON_SPECIALIZATION",
+            "attributes": {}
+          }
+        ],
+        "description": "Select a Focussed Weapon to use Weapon Specialization with.",
+        "oneOption": "You have a single weapon group or exotic weapon that qualifies for Weapon Specialization",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": true
+      }
+    ],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Weapon Focus (#payload#)",
+      "requirement": "Weapon Focus (#payload#)",
+      "type": "FEAT"
+    },
+    "categories": [
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "_id": "0NwdF0ms1CO94qlm",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "1.10.2",
+    "createdTime": 1790827424474,
+    "modifiedTime": 1790827424474,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!0NwdF0ms1CO94qlm"
+}

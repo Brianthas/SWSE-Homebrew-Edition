@@ -332,11 +332,15 @@ export class SWSEItem extends Item {
             // choice dialog) never get system.selectedChoices populated, even though the choice
             // itself is baked into the item's own local changes - "Weapon Proficiency (Pistols)"
             // would otherwise just display as "Weapon Proficiency" with no way to tell which.
-            // Fall back to reading the item's own identity-choice change directly.
+            // Fall back to reading the item's own identity-choice change directly. A value the
+            // name already carries is skipped: the "Weapon Specialization (Lightsabers)" talent
+            // was named "Weapon Specialization (Lightsabers) (Lightsabers)" and so never met a
+            // prerequisite naming it.
             const CHOICE_IDENTITY_KEYS = ["weaponProficiency", "weaponFocus", "greaterWeaponFocus", "weaponSpecialization", "greaterWeaponSpecialization", "skillFocus"];
             const localChanges = item.system?.changes || [];
             modifiers = localChanges.filter(c => CHOICE_IDENTITY_KEYS.includes(c.key))
-                .map(c => c.value).filter(isResolved).join(", ");
+                .map(c => c.value).filter(isResolved)
+                .filter(value => !finalName.includes(`(${value})`)).join(", ");
         }
         if (modifiers) {
             finalName = `${finalName} (${modifiers})`

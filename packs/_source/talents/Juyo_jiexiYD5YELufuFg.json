@@ -32,9 +32,21 @@
           "type": "FEAT"
         },
         {
-          "text": "Weapon Specialization (Lightsabers) talent",
-          "requirement": "Weapon Specialization (Lightsabers)",
-          "type": "TALENT"
+          "children": [
+            {
+              "text": "Weapon Specialization (Lightsabers) talent",
+              "requirement": "Weapon Specialization (Lightsabers)",
+              "type": "TALENT"
+            },
+            {
+              "text": "Weapon Specialization (Lightsabers) feat",
+              "requirement": "Weapon Specialization (Lightsabers)",
+              "type": "FEAT"
+            }
+          ],
+          "count": 1,
+          "text": "Weapon Specialization (Lightsabers)",
+          "type": "OR"
         },
         {
           "text": "Base Attack Bonus 10",
@@ -42,7 +54,7 @@
           "type": "BASE ATTACK BONUS"
         }
       ],
-      "text": "Weapon Focus (Lightsabers), Weapon Specialization (Lightsabers) talent, and Base Attack Bonus 10",
+      "text": "Weapon Focus (Lightsabers), Weapon Specialization (Lightsabers), and Base Attack Bonus 10",
       "type": "AND"
     },
     "categories": [

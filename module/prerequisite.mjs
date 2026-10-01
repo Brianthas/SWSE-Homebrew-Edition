@@ -21,6 +21,20 @@ function ensureArray(array) {
     return [array];
 }
 
+/**
+ * Matches an owned feat or talent's name against a FEAT or TALENT requirement. A requirement ending
+ * in "(Any)" accepts the item with any selection: "Weapon Specialization (Any)" is met by
+ * "Weapon Specialization (Rifles)". An item taken with a selection is always named with it, so a
+ * bare "Weapon Specialization" requirement only matches an item that has none.
+ */
+function nameMeetsRequirement(name, requirement) {
+    const any = requirement.match(/^(.*) \(any\)$/i);
+    if (!any) {
+        return name === requirement;
+    }
+    return name === any[1] || name.startsWith(`${any[1]} (`);
+}
+
 function filterEquippedItemsByCriteria(target, resolvedItems, req) {
     let items = equippedItems(target);
     let filteredEquippedItems = items.filter(item => {
@@ -101,12 +115,7 @@ function meetsPrerequisite(prereq, target, options) {
                 break;
             case 'FEAT':
                 let filteredFeats;
-                if (prereq.requirement.toLowerCase().includes("(any)")) {
-                    let req = prereq.requirement.replace(/ \(a|Any\)/, "");
-                    filteredFeats = resolvedItems
-                        .filter(item => item.type === "feat"
-                            && SWSEItem.buildItemName(item).startsWith(req));
-                } else if (prereq.requirement.includes("(Exotic Melee Weapons)")) {
+                if (prereq.requirement.includes("(Exotic Melee Weapons)")) {
                     let exoticMeleeWeapons = game.generated?.exoticMeleeWeapons || [];
                     let possibleFeats = exoticMeleeWeapons?.map(w => prereq.requirement.replace("(Exotic Melee Weapons)", `(${w})`))
 
@@ -116,7 +125,7 @@ function meetsPrerequisite(prereq, target, options) {
                 } else {
                     filteredFeats = resolvedItems
                         .filter(item => item.type === "feat"
-                            && SWSEItem.buildItemName(item) === prereq.requirement);
+                            && nameMeetsRequirement(SWSEItem.buildItemName(item), prereq.requirement));
                 }
 
                 if (filteredFeats.length > 0) {
@@ -257,7 +266,7 @@ function meetsPrerequisite(prereq, target, options) {
                             reduce: "VALUES"
                         }) || []
 
-                        return item.finalName === prereq.requirement ||
+                        return nameMeetsRequirement(item.finalName, prereq.requirement) ||
                             item.system.possibleProviders.includes(prereq.requirement) ||
                             item.system.talentTree === prereq.requirement || actsAs.includes(prereq.requirement)
                     });
@@ -541,7 +550,10 @@ function meetsPrerequisite(prereq, target, options) {
         }
         return {failureList, successList}
     }
-    return !!options.prerequisiteCache ? options.prerequisiteCache.getCached({
+    // AND and OR carry no requirement, so a key of {type, requirement} gave every OR in one check
+    // the same slot: Elite Trooper's talent-tree OR returned the answer of its Point-Blank Shot
+    // or Flurry OR. Combinators are evaluated each time; their leaves are still cached.
+    return !!options.prerequisiteCache && !prereq.children ? options.prerequisiteCache.getCached({
         type: prereq.type,
         requirement: prereq.requirement,
         options: options

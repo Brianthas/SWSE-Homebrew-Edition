@@ -48,18 +48,19 @@
     "prerequisite": {
       "children": [
         {
-          "text": "Greater Weapon Focus (#payload#)",
-          "requirement": "Greater Weapon Focus (#payload#)",
+          "text": "Weapon Specialization (#payload#) talent",
+          "requirement": "Weapon Specialization (#payload#)",
           "type": "TALENT"
         },
         {
-          "text": "Weapon Specialization (#payload#)",
+          "text": "Weapon Specialization (#payload#) feat",
           "requirement": "Weapon Specialization (#payload#)",
-          "type": "TALENT"
+          "type": "FEAT"
         }
       ],
-      "text": "Greater Weapon Focus (#payload#), and Weapon Specialization (#payload#)",
-      "type": "AND"
+      "count": 1,
+      "text": "Weapon Specialization (#payload#)",
+      "type": "OR"
     },
     "categories": [
       {

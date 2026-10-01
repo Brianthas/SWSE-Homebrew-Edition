@@ -300,13 +300,14 @@ export async function explodeOptions(options, actor) {
                 resolvedOptions.push(...(resolveOptions(actor, "weaponSpecialization", "weaponFocus")));
                 break;
             case 'AVAILABLE_GREATER_WEAPON_SPECIALIZATION':
-                resolvedOptions.push(...(resolveOptions(actor, "greaterWeaponSpecialization", ["greaterWeaponFocus", "weaponSpecialization"])));
+                // Homebrew: Weapon Specialization is the only prerequisite; Greater Weapon Focus is not needed.
+                resolvedOptions.push(...(resolveOptions(actor, "greaterWeaponSpecialization", "weaponSpecialization")));
                 break;
             case 'AVAILABLE_DISARMING_ATTACK':
                 resolvedOptions.push(...(resolveOptions(actor, "disarmingAttack", "weaponSpecialization")));
                 break;
             case 'AVAILABLE_GREATER_WEAPON_FOCUS':
-                resolvedOptions.push(...(resolveOptions(actor, "greaterWeaponFocus", "weaponProficiency")));
+                resolvedOptions.push(...(resolveOptions(actor, "greaterWeaponFocus", "weaponFocus")));
                 break;
             case 'AVAILABLE_WEAPON_PROFICIENCIES':
                 let proficientWeapons = getInheritableAttribute({

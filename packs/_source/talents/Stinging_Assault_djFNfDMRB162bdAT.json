@@ -14,9 +14,21 @@
     "payload": "",
     "buildInstructions": [],
     "prerequisite": {
-      "text": "Weapon Specialization talent",
-      "requirement": "Weapon Specialization",
-      "type": "TALENT"
+      "children": [
+        {
+          "text": "Weapon Specialization (any weapon) talent",
+          "requirement": "Weapon Specialization (Any)",
+          "type": "TALENT"
+        },
+        {
+          "text": "Weapon Specialization (any weapon) feat",
+          "requirement": "Weapon Specialization (Any)",
+          "type": "FEAT"
+        }
+      ],
+      "count": 1,
+      "text": "Weapon Specialization (any weapon)",
+      "type": "OR"
     },
     "categories": [
       {

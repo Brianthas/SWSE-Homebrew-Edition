@@ -58,9 +58,21 @@
           "type": "FEAT"
         },
         {
+          "children": [
+            {
+              "text": "Weapon Specialization (#payload#) talent",
+              "requirement": "Weapon Specialization (#payload#)",
+              "type": "TALENT"
+            },
+            {
+              "text": "Weapon Specialization (#payload#) feat",
+              "requirement": "Weapon Specialization (#payload#)",
+              "type": "FEAT"
+            }
+          ],
+          "count": 1,
           "text": "Weapon Specialization (#payload#)",
-          "requirement": "Weapon Specialization (#payload#)",
-          "type": "TALENT"
+          "type": "OR"
         }
       ],
       "text": "Intelligence 13, Improved Disarm feat, and Weapon Specialization (#payload#)",

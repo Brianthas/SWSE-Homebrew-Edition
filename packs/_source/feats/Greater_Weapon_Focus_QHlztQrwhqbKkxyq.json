@@ -1,0 +1,86 @@
+{
+  "name": "Greater Weapon Focus",
+  "type": "feat",
+  "img": "systems/swse/icon/feat/Weapon Focus.png",
+  "system": {
+    "finalName": "",
+    "description": "<p><i>Homebrew Feat (tovec.wikidot.com/episode-vii)</i></p><p>Greater Weapon Focus can be taken as a Feat or as a Talent. Either counts as Greater Weapon Focus for prerequisites, and the two do not stack on the same weapon.</p><p><b>Prerequisite:</b> Weapon Focus with the chosen weapon.</p><p>Choose one <a href=\"https://swse.fandom.com/wiki/Exotic_Weapon\" class=\"mw-redirect\" title=\"Exotic Weapon\">Exotic Weapon</a> or weapon group with which you're proficient. You gain a +1 bonus on attack rolls with the chosen <a href=\"https://swse.fandom.com/wiki/Exotic_Weapon\" class=\"mw-redirect\" title=\"Exotic Weapon\">Exotic Weapon</a> or weapon from the chosen group. This bonus stacks with the bonus granted by the <a href=\"https://swse.fandom.com/wiki/Weapon_Focus\" title=\"Weapon Focus\">Weapon Focus</a> feat.<br><br>You may select this Feat multiple times. Each time you select this Feat, it applies to a different <a href=\"https://swse.fandom.com/wiki/Exotic_Weapon\" class=\"mw-redirect\" title=\"Exotic Weapon\">Exotic Weapon</a> or weapon group.</p>",
+    "textDescription": "",
+    "sourceString": "",
+    "attributes": {},
+    "changes": [
+      {
+        "mode": 2,
+        "value": true,
+        "key": "takeMultipleTimes"
+      },
+      {
+        "mode": 2,
+        "value": "#payload#",
+        "key": "greaterWeaponFocus"
+      }
+    ],
+    "choices": [
+      {
+        "noOptions": "You Must have Weapon Focus with a weapon group or an Exotic Weapon to select one for Greater Weapon Focus.",
+        "availableSelections": 1,
+        "payload": "#payload#",
+        "options": [
+          {
+            "payloads": {
+              "payload": "AVAILABLE_GREATER_WEAPON_FOCUS"
+            },
+            "display": "AVAILABLE_GREATER_WEAPON_FOCUS",
+            "name": "AVAILABLE_GREATER_WEAPON_FOCUS",
+            "attributes": {}
+          }
+        ],
+        "description": "Select a Weapon to use Greater Weapon Focus.",
+        "oneOption": "You have a single weapon group or exotic weapon that qualifies for Greater Weapon Focus",
+        "type": "SELECT",
+        "isFirstLevel": false,
+        "showSelectionInName": true
+      }
+    ],
+    "modes": {},
+    "providedItems": [],
+    "payload": "",
+    "buildInstructions": [],
+    "prerequisite": {
+      "text": "Weapon Focus (#payload#)",
+      "requirement": "Weapon Focus (#payload#)",
+      "type": "FEAT"
+    },
+    "categories": [
+      {
+        "value": "Feats"
+      }
+    ],
+    "supplier": {},
+    "possibleProviders": [
+      "General Feats"
+    ],
+    "isSupplied": false,
+    "cost": "0"
+  },
+  "_id": "QHlztQrwhqbKkxyq",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.365",
+    "systemId": "swse",
+    "systemVersion": "1.10.2",
+    "createdTime": 1790827424474,
+    "modifiedTime": 1790827424474,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!QHlztQrwhqbKkxyq"
+}
