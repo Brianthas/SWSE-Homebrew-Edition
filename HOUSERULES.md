@@ -3,7 +3,8 @@
 These are the table's homebrew rules for our SWSE (Star Wars: Saga Edition)
 campaign, originally compiled at
 [tovec.wikidot.com/episode-vii](http://tovec.wikidot.com/episode-vii). This
-system fork implements them (with a few noted below still in progress).
+system fork implements them, apart from rules that have no sheet mechanic yet,
+such as the language rules.
 Reproduced here for reference alongside the code that implements them.
 
 ## Table of Contents
@@ -131,7 +132,8 @@ as Hutts.
   Keetael (Draethos only), Luka Sene (Miraluka only), Matukai, and Order of
   Shasa (Selkath only) - more may be added as other traditions come up.
 - The following talent trees are banned: Agent of Ossus, Aing-Tii Monk,
-  Iron Knight, White Current Adept, and Zeison Sha Warrior.
+  Iron Knight, White Current Adept, and Zeison Sha Warrior. They stay in the
+  compendium, because the GM may still grant their talents.
 
 ### Noble
 
