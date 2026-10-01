@@ -3,7 +3,7 @@
   "effects": [],
   "system": {
     "finalName": "",
-    "description": "Any time your opponent is <a href=\"https://swse.fandom.com/wiki/Flat-Footed\" class=\"mw-redirect\" title=\"Flat-Footed\">Flat-Footed</a> or otherwise denied its <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>, you deal an additional 1d6 points of damage with a successful melee or ranged attack. You must be within 6 squares of the target to make a <b>Sneak Attack</b> with a ranged weapon.<br><br>You may select this Talent multiple times. Each time you select it, your <b>Sneak Attack</b> damage increases by +1d6 (Maximum +10d6).",
+    "description": "Any time your opponent is <a href=\"https://swse.fandom.com/wiki/Flat-Footed\" class=\"mw-redirect\" title=\"Flat-Footed\">Flat-Footed</a> or otherwise denied its <a href=\"https://swse.fandom.com/wiki/Dexterity\" title=\"Dexterity\">Dexterity</a> bonus to <a href=\"https://swse.fandom.com/wiki/Reflex_Defense\" class=\"mw-redirect\" title=\"Reflex Defense\">Reflex Defense</a>, you deal one additional die of your weapon's damage with a successful melee or ranged attack. You must be within 6 squares of the target to make a <b>Sneak Attack</b> with a ranged weapon.<br><br>You may select this Talent multiple times. Each time you select it, your <b>Sneak Attack</b> damage increases by one more die (maximum +10 dice).",
     "textDescription": "",
     "sourceString": "",
     "attributes": {},
@@ -48,6 +48,9 @@
       },
       {
         "value": "Bounty Hunter Talent Trees"
+      },
+      {
+        "value": "Noble Talent Trees"
       }
     ],
     "supplier": {},
@@ -58,7 +61,8 @@
       "Core Rulebook",
       "Bounty Hunter Talent Trees",
       "Smuggler Talent Trees",
-      "Engineer Talent Trees"
+      "Engineer Talent Trees",
+      "Noble Talent Trees"
     ],
     "isSupplied": false,
     "talentTree": "Misfortune Talent Tree",

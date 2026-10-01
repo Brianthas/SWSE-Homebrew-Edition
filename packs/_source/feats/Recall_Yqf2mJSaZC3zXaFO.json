@@ -22,39 +22,29 @@
     "prerequisite": {
       "children": [
         {
-          "text": "Trained in at least one Knowledge Skill",
+          "text": "Trained in Knowledge (Bureaucracy)",
           "requirement": "Knowledge (Bureaucracy)",
-          "type": "FEAT"
+          "type": "TRAINED SKILL"
         },
         {
-          "text": "Trained in at least one Knowledge Skill",
+          "text": "Trained in Knowledge (Galactic Lore)",
           "requirement": "Knowledge (Galactic Lore)",
-          "type": "FEAT"
+          "type": "TRAINED SKILL"
         },
         {
-          "text": "Trained in at least one Knowledge Skill",
-          "requirement": "Knowledge (Life Sciences)",
-          "type": "FEAT"
+          "text": "Trained in Knowledge (Sciences)",
+          "requirement": "Knowledge (Sciences)",
+          "type": "TRAINED SKILL"
         },
         {
-          "text": "Trained in at least one Knowledge Skill",
-          "requirement": "Knowledge (Physical Sciences)",
-          "type": "FEAT"
-        },
-        {
-          "text": "Trained in at least one Knowledge Skill",
-          "requirement": "Knowledge (Social Sciences)",
-          "type": "FEAT"
-        },
-        {
-          "text": "Trained in at least one Knowledge Skill",
+          "text": "Trained in Knowledge (Tactics)",
           "requirement": "Knowledge (Tactics)",
-          "type": "FEAT"
+          "type": "TRAINED SKILL"
         },
         {
-          "text": "Trained in at least one Knowledge Skill",
+          "text": "Trained in Knowledge (Technology)",
           "requirement": "Knowledge (Technology)",
-          "type": "FEAT"
+          "type": "TRAINED SKILL"
         }
       ],
       "count": 1,

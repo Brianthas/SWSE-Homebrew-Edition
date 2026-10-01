@@ -35,13 +35,13 @@ The zip is `swse-homebrew-edition-vX.Y.Z.zip`, containing a single wrapper folde
 `package.json`, `gulpfile.js` or markdown docs.
 
 **`packs/_source` is validated before it compiles.** `npm run packs:pack` runs
-`tools/validate-packs.mjs` first and stops on failure; CI runs it on every push. It checks all 5028
+`tools/validate-packs.mjs` first and stops on failure; CI runs it on every push. It checks all 5011
 documents for parse failures, invisible control characters in string values, missing `_id`/`name`/
 `type`, a subtype the system never registered, duplicate ids inside a pack, and beasts whose current
 HP differs from their maximum. It also warns when a numeric field carries one value across more than
 90% of a pack, which is the shape of the bug where 196 beasts all read 10 current hit points.
 
-Route type checks on `_key`, not on the pack's declared class: 198 of those files are Folders, whose
+Route type checks on `_key`, not on the pack's declared class: 195 of those files are Folders, whose
 `type` names the document class they contain, so a folder in an Item pack correctly reads `"Item"`.
 An earlier version of the validator reported all 197 as broken data.
 
@@ -79,7 +79,7 @@ editor and a mistyped document key is flagged instead of failing silently in Fou
 `module/actor/actor.mjs` and `module/item/item.mjs`. Opt a single file in with `// @ts-check` on
 line 1.
 
-`eslint.config.mjs` is flat config on eslint 10, run with `npm run lint`. It reads 159 files, 154
+`eslint.config.mjs` is flat config on eslint 10, run with `npm run lint`. It reads 162 files, 157
 of them `.mjs`. Check that number when a run looks clean: eslint 8 with `.eslintrc.json` linted
 only `.js` when handed a directory, so it read 5 files, reported one error, and silently skipped
 the entire module.
@@ -87,11 +87,11 @@ the entire module.
 `no-undef` is off because fvtt-types checks globals more accurately than a hand-maintained list.
 Style rules that fire in the hundreds here (`no-case-declarations`, `no-extra-boolean-cast`) are
 demoted to warnings so that every error is something that can misbehave at runtime. Current run:
-0 errors, 220 warnings. Keep the error count at zero; the warnings are a separate cleanup.
+0 errors, 219 warnings. Keep the error count at zero; the warnings are a separate cleanup.
 
 ## Tests
 
-`npm test` runs `node --test` over `module_test/**/*.test.mjs`: 131 tests, 129 passing. The two
+`npm test` runs `node --test` over `module_test/**/*.test.mjs`: 168 tests, 166 passing. The two
 failures are in `module_test/actor.test.mjs`, which asserts `firstAid.perDay` and
 `forcePoints.quantity` against the mock actor in `module_test/setup.mjs` and has never passed.
 

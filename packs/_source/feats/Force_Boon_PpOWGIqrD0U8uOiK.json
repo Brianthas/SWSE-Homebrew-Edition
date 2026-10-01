@@ -3,7 +3,7 @@
   "effects": [],
   "system": {
     "finalName": "",
-    "description": "<p><i>Reference Book: Star Wars Saga Edition Core Rulebook</i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You are able to draw upon <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a> more often than less skilled users.</p><p><b>Prerequisite:</b> <a href=\"https://swse.fandom.com/wiki/Force_Sensitivity\" title=\"Force Sensitivity\">Force Sensitivity</a></p><p><b>Effect:</b> You gain three additional <a href=\"https://swse.fandom.com/wiki/Force_Points\" title=\"Force Points\">Force Points</a> at each level.</p>",
+    "description": "<p><i>Reference Book: Star Wars Saga Edition Core Rulebook</i></p><p><i>See also: <a href=\"https://swse.fandom.com/wiki/Feats\" title=\"Feats\">Feats</a></i></p><p>You are able to draw upon <a href=\"https://swse.fandom.com/wiki/The_Force\" title=\"The Force\">The Force</a> more often than less skilled users.</p><p><b>Prerequisite:</b> None. <i>Homebrew (tovec.wikidot.com/episode-vii):</i> anyone can take Force Boon, including characters without Force Sensitivity and Droids.</p><p><b>Effect:</b> You gain 2 additional <a href=\"https://swse.fandom.com/wiki/Force_Points\" title=\"Force Points\">Force Points</a> per day. This also raises your Destiny Point cap, which equals your Force Points per day.</p><p><b>Special:</b> You can take Force Boon only once.</p>",
     "textDescription": "",
     "sourceString": "",
     "attributes": {},
@@ -13,11 +13,7 @@
     "providedItems": [],
     "payload": "",
     "buildInstructions": [],
-    "prerequisite": {
-      "text": "Force Sensitivity feat",
-      "requirement": "Force Sensitivity",
-      "type": "FEAT"
-    },
+    "prerequisite": null,
     "categories": [
       {
         "value": "Force Prodigy Bonus Feats"

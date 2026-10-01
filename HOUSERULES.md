@@ -189,7 +189,7 @@ as Hutts.
   additional 5 HP each time.
 - **Force Boon** grants 2 Force Points per day instead of 1, and increases
   your Destiny Point cap accordingly. You can only take Force Boon once.
-- **Force Sensitivity**'s prerequisite is ignored - anyone can take it,
+  Its Force Sensitivity prerequisite is ignored: anyone can take it,
   including non-force sensitives and Droids.
 - **Force of Personality** allows you to use Charisma in place of Wisdom
   for the Force.
